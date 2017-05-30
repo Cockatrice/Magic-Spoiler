@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "instructions": "If you would like to add a card manually, use the 'blank card' template below.",
+    "instructions2": "Check example_card_details for more information",
+    "instructions3": "add the card to the 'cards' array below meta",
+    "example card (do not include this key, just the object)": {
+      "cmc": 7,
+      "colorIdentity": [
+        "W",
+        "B",
+        "G"
+      ],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "layout": "normal",
+      "manaCost": "{X}{5}{W}{B}",
+      "name": "Example Card",
+      "number": "55",
+      "power": "*",
+      "rarity": "Mythic Rare",
+      "subtypes": [
+        "Zombie"
+      ],
+      "text": "Shadow, Flying, Horsemanship\nExample Card's power is equal to something.\n{G}, {T}: Unfloop target pig you control.",
+      "toughness": "2",
+      "type": "Legendary Creature - Zombie",
+      "types": [
+        "Creature"
+      ]
+    },
+    "example card details":{
+      "meta": {
+        "values": "All fields (including loyalty) are string or array of strings except CMC which is int",
+        "required fields (all cards)": [
+          "name",
+          "number",
+          "rarity",
+          "type",
+          "url"
+        ]
+      }
+    },
+    "blank card (do not use this key, just the object) - remove unneeded keys":
+    {
+      "name": "",
+      "number": "",
+      "rarity": "",
+      "type": "",
+      "url": "",
+      "loyalty": "",
+      "cmc": 0,
+      "layout": "",
+      "power": "",
+      "toughness": ""
+    }
+  },
+  "cards": [
+  ]
+}

@@ -1,0 +1,26 @@
+language: python
+install:
+  - pip install -r requirements.txt
+script: bash ./deploy.sh
+notifications:
+  email: false
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/7540dd1e121a1430fb8f
+    on_success: always  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: never     # options: [always|never|change] default: always  
+deploy:
+  provider: releases
+  api_key:
+    secure: p4QzePl5wafv0KSkxt9Y1TYhfv0h3p9gSUf+Km9MZiSVCNWpYY7hiWuKQ83RKX/IdqBzo1oJnitkk8ayCD26vlKH84Hf3aXIK4cbFApTNpO60FxnbvD1l+8OCyOq0IDul7jhszHlOHycjeSuMjn+Ok8qyc8MZSkMbFDgvt7Libr6fj8RtW6ozwM9yxZozkJ0lPNXfhYocDa8xgs5kCjWXy2ThFo08jjL4uMpmDoE0cAB9A6MZ9xma5NKuKF5JmecPP9qBjxOV8CcTjq5Chl9JkpBbcEmkD4FGsizTvo/0JjYOirQzEQ/i5b87X7XJ7AaGqkvVSp348t00n3fD4pEdEiLWPTFEnPV43VmAcqOfWtq1osrq0bEba0ktKyZzfT24Gf7jRMApT5/MbsM4tcOQUZTJufAiqCm44w84FqGWOie+r3pZ7jHyf8dlAexyEC802kvocpCARzY6EY+nXpyWDHL29DWajEMQyX32y9vqPem5p19JAwFFHhIMwzsjlCppEgcsxRIoE5S0qUO6wRUq8msC6co70Yl3UkMOssDbOpyqLNaUoCKlenbw3VaFgb5wqJzaPAhCoaQ7iLDZ6JQQkygrC20rTUN/xc34+U5gO0JPDOPUxUiuPfLc7/jwZaix2NJfzErUZnENjfNR8HLAhpSOXonMgMekJbMaYgxLi4=
+  file_glob: true
+  file: out/*.xml
+  skip_cleanup: true
+  overwrite: true
+  on:
+    tags: true
+env:
+  global:
+  - ENCRYPTION_LABEL: 766e07f958d0
+  - COMMIT_AUTHOR_EMAIL: you@example.com
