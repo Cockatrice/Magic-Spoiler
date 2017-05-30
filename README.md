@@ -1,2 +1,3 @@
-# Magic-Spoiler
-Tools for generating Cockatrice-compatible cards.xmls for unreleased magic cards
+This branch is for holding the generated files from the scripts in the other branches.  Do not submit PRs to it.
+
+## Cockatrice ##
