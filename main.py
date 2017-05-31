@@ -6,8 +6,8 @@ import json
 #import urllib
 
 presets = {
-    "isfullspoil": True,
-    "includeMasterpieces": True
+    "isfullspoil": True, #when full spoil comes around, we only want to use WOTC images
+    "includeMasterpieces": True #if the set has masterpieces, let's get those too
 }
 
 with open('set_info.json') as data_file:
@@ -28,14 +28,18 @@ errorlog = []
 #TODO insert configparser to add config.ini file
 
 for argument in sys.argv:
+    #we can modify any of the variables from the set infos file or the presets above at runtime
+    #works only for first-level variables currently (editing masterpieces
+    #syntax is variable="new value"
     for setinfo in setinfos:
         if setinfo in argument.split("=")[0]:
-            setinfos[setinfo] = argument.split("=")[0]
+            setinfos[setinfo] = argument.split("=")[1]
     for preset in presets:
         if preset in argument.split("=")[0]:
             presets[preset] = argument.split("=")[1]
 
 def save_allsets(AllSets):
+    #TODO Create AllSets.json for Oracle
     print "Saving AllSets"
 
 def save_masterpieces(masterpieces):
@@ -59,34 +63,27 @@ def save_errorlog(errorlog):
         json.dump(errorlog, outfile, sort_keys=True, indent=2, separators=(',', ': '))
 
 if __name__ == '__main__':
-    AllSets = spoilers.get_allsets()
-    mtgs = spoilers.scrape_mtgs('http://www.mtgsalvation.com/spoilers.rss')
-    mtgs = spoilers.parse_mtgs(mtgs)
-    mtgs = spoilers.correct_cards(mtgs, manual_cards, card_corrections, delete_cards)
-    #errorlog.append(temperror)
+    AllSets = spoilers.get_allsets() #get AllSets from mtgjson
+    mtgs = spoilers.scrape_mtgs('http://www.mtgsalvation.com/spoilers.rss') #scrape mtgs rss feed
+    mtgs = spoilers.parse_mtgs(mtgs) #parse spoilers into mtgjson format
+    mtgs = spoilers.correct_cards(mtgs, manual_cards, card_corrections, delete_cards) #fix using the fixfiles
     #scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfos['setname'].lower())
-    mtgs = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfos['setname'], setinfos['setlongname'], setinfos['setsize'])
-    #errorlog.append(temperror)
-    [mtgs, errors] = spoilers.errorcheck(mtgs)
+    mtgs = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfos['setname'], setinfos['setlongname'], setinfos['setsize']) #get images
+    [mtgs, errors] = spoilers.errorcheck(mtgs) #check for errors where possible
     errorlog += errors
     spoilers.write_xml(mtgs, setinfos['setname'], setinfos['setlongname'], setinfos['setreleasedate'])
     mtgs = spoilers.add_headers(mtgs, setinfos)
     AllSets = spoilers.make_allsets(AllSets, mtgs, setinfos['setname'])
-    if 'masterpieces' in setinfos:
+    if 'masterpieces' in setinfos: #repeat all of the above for masterpieces
+        #masterpieces aren't in the rss feed, so for the new cards, we'll go to their individual pages on mtgs
+        #old cards will get their infos copied from mtgjson (including fields that may not apply like 'artist')
+        #the images will still come from mtgs
         masterpieces = spoilers.make_masterpieces(setinfos['masterpieces'], AllSets, mtgs)
         [masterpieces, errors] = spoilers.errorcheck(masterpieces)
         errorlog += errors
-        #errorlog.append(temperror)
         spoilers.write_xml(masterpieces, setinfos['masterpieces']['setname'], setinfos['masterpieces']['setlongname'], setinfos['masterpieces']['setreleasedate'])
         AllSets = spoilers.make_allsets(AllSets, masterpieces, setinfos['masterpieces']['setname'])
         save_masterpieces(masterpieces)
     save_errorlog(errorlog)
     save_allsets(AllSets)
-    save_setjson(mtgs)
-
-#outline
-#set variables
-#open files
-#enable/disable features
-#call spoilers
-#save files
+    #save_setjson(mtgs)
