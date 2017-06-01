@@ -297,10 +297,22 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
         for manualCard in manual_cards:
             if card['name'] == manualCard['name']:
                 mtgjson2.append(manualCard)
+                print 'overwriting card ' + card['name']
                 isManual = True
         if not isManual and not card['name'] in delete_cards:
             mtgjson2.append(card)
+
+    for manualCard in manual_cards:
+        addManual = True
+        for card in mtgjson['cards']:
+            if manualCard['name'] == card['name']:
+                addManual = False
+        if addManual:
+            mtgjson2.append(manualCard)
+            print 'inserting manual card ' + manualCard['name']
+
     mtgjson = {"cards": mtgjson2}
+
     for card in mtgjson['cards']:
         for cardCorrection in card_corrections:
             if card['name'] == cardCorrection:
