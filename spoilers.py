@@ -248,17 +248,17 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                     workingCMC += 1
         if 'types' not in card:
             card['types'] = []
-            if '—' in card['type']:
-                workingTypes = card['type'].split('—')[0].strip()
-            else:
-                workingTypes = card['type'].split('-')[0].strip()
+#            if '—' in card['type']:
+#                workingTypes = card['type'].split('—')[0].strip()
+#            else:
+            workingTypes = card['type'].split('-')[0].strip()
             workingTypes.replace('Legendary ','').replace('Snow ','')\
                 .replace('Elite ','').replace('Basic ','').replace('World ','').replace('Ongoing ','')
             card['types'] += workingTypes.split(' ')
         if 'subtypes' not in card:
-            if '—' in card['type']:
-                workingSubtypes = card['type'].split('—')[1].strip()
-            elif '-' in card['type']:
+#            if '—' in card['type']:
+#                workingSubtypes = card['type'].split('—')[1].strip()
+            if '-' in card['type']:
                 workingSubtypes = card['type'].split('-')[1].strip()
             if workingSubtypes:
                 card['subtypes'] = workingSubtypes.split(' ')
@@ -280,7 +280,7 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                             card['colorIdentity'] = [letter]
                         if 'colors' in card:
                             if not colorMap[letter] in card['colors']:
-                                card['colors'] += colorMap[letter]
+                                card['colors'].append(colorMap[letter])
                         else:
                             card['colors'] = [colorMap[letter]]
         if 'text' in card:
@@ -297,10 +297,22 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
         for manualCard in manual_cards:
             if card['name'] == manualCard['name']:
                 mtgjson2.append(manualCard)
+                print 'overwriting card ' + card['name']
                 isManual = True
         if not isManual and not card['name'] in delete_cards:
             mtgjson2.append(card)
+
+    for manualCard in manual_cards:
+        addManual = True
+        for card in mtgjson['cards']:
+            if manualCard['name'] == card['name']:
+                addManual = False
+        if addManual:
+            mtgjson2.append(manualCard)
+            print 'inserting manual card ' + manualCard['name']
+
     mtgjson = {"cards": mtgjson2}
+
     for card in mtgjson['cards']:
         for cardCorrection in card_corrections:
             if card['name'] == cardCorrection:
@@ -811,7 +823,7 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardsxml.write("<name>" + name.encode('utf-8') + "</name>\n")
         cardsxml.write('<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + setname + '</set>\n')
         cardsxml.write("<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
-        cardsxml.write("<cmc>" + cardcmc + "</cmc>")
+        cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
         if card.has_key('colors'):
             colorTranslate = {
                 "White": "W",
@@ -821,14 +833,14 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
                 "Green": "G"
             }
             for color in card['colors']:
-                cardsxml.write('<color>' + colorTranslate[color] + '</color>')
+                cardsxml.write('<color>' + colorTranslate[color] + '</color>\n')
         if name + ' enters the battlefield tapped' in text:
-            cardsxml.write("<cipt>1</cipt>")
+            cardsxml.write("<cipt>1</cipt>\n")
         cardsxml.write("<type>" + cardtype.encode('utf-8') + "</type>\n")
         if pt:
             cardsxml.write("<pt>" + pt + "</pt>\n")
         if card.has_key('loyalty'):
-            cardsxml.write("<loyalty>" + str(card['loyalty']) + "</loyalty>")
+            cardsxml.write("<loyalty>" + str(card['loyalty']) + "</loyalty>\n")
         cardsxml.write("<tablerow>" + tablerow + "</tablerow>\n")
         cardsxml.write("<text>" + text.encode('utf-8') + "</text>\n")
         if related:
@@ -839,9 +851,9 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardsxml.write("</card>\n")
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
-
-    if os.path.isfile('out/' + setname + '.xml'):
-        shutil.copyfile('out/' + setname + '.xml','out/spoiler.xml')
+    if not 'MPS' in setname:
+        if os.path.isfile('out/' + setname + '.xml'):
+            shutil.copyfile('out/' + setname + '.xml','out/spoiler.xml')
 
     #failing pretty xml code
     #with open('out/' + setname + '.xml') as data_file:

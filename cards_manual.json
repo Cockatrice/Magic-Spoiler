@@ -45,10 +45,12 @@
     "blank card (do not use this key, just the object) - remove unneeded keys":
     {
       "name": "",
+      "manaCost": "",
       "number": "",
       "rarity": "",
       "type": "",
       "url": "",
+      "text": "",
       "loyalty": "",
       "cmc": 0,
       "layout": "",
@@ -57,5 +59,37 @@
     }
   },
   "cards": [
+    {
+      "name": "Nicol Bolas, God-Pharaoh",
+      "manaCost": "4UBR",
+      "number": "140",
+      "rarity": "Mythic Rare",
+      "type": "Planeswalker - Bolas",
+      "url": "https://i.imgur.com/DTNXG2z.png",
+      "text": "+2: Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.\n+1: Each opponent exiles two cards from his or her hand.\n-4: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent or creature an opponent controls.\n-12: Exile each nonland permanent your opponents control.",
+      "loyalty": "7",
+      "cmc": 7
+    },
+    {
+      "name": "Bontu's Last Reckoning",
+      "manaCost": "1BB",
+      "number": "60",
+      "rarity": "Rare",
+      "type": "Sorcery",
+      "url": "https://i.imgur.com/HOjh3pE.png",
+      "text": "Destroy all creatures. Lands you control don't untap during your next untap step.",
+      "cmc": 3
+    },
+    {
+      "name": "Samut, the Tested",
+      "manaCost": "2RG",
+      "number": "144",
+      "rarity": "Mythic Rare",
+      "type": "Planeswalker - Samut",
+      "url": "https://i.imgur.com/4tRYs5z.png",
+      "text": "+1: Up to one target creature gains double strike until end of turn.\n-2: Samut, the Tested deals 2 damage divided as you choose among one or two target creatures and/or players.\n-7: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle your library.",
+      "loyalty": "4",
+      "cmc": 4
+    }
   ]
 }

@@ -7,7 +7,8 @@ import json
 
 presets = {
     "isfullspoil": True, #when full spoil comes around, we only want to use WOTC images
-    "includeMasterpieces": True #if the set has masterpieces, let's get those too
+    "includeMasterpieces": True, #if the set has masterpieces, let's get those too
+    "oldRSS": True #maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
 }
 
 with open('set_info.json') as data_file:
@@ -64,8 +65,11 @@ def save_errorlog(errorlog):
 
 if __name__ == '__main__':
     AllSets = spoilers.get_allsets() #get AllSets from mtgjson
-    mtgs = spoilers.scrape_mtgs('http://www.mtgsalvation.com/spoilers.rss') #scrape mtgs rss feed
-    mtgs = spoilers.parse_mtgs(mtgs) #parse spoilers into mtgjson format
+    if presets['oldRSS']:
+        mtgs = {"cards":[]}
+    else:
+        mtgs = spoilers.scrape_mtgs('http://www.mtgsalvation.com/spoilers.rss') #scrape mtgs rss feed
+        mtgs = spoilers.parse_mtgs(mtgs) #parse spoilers into mtgjson format
     mtgs = spoilers.correct_cards(mtgs, manual_cards, card_corrections, delete_cards) #fix using the fixfiles
     #scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfos['setname'].lower())
     mtgs = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfos['setname'], setinfos['setlongname'], setinfos['setsize']) #get images
@@ -86,4 +90,4 @@ if __name__ == '__main__':
         save_masterpieces(masterpieces)
     save_errorlog(errorlog)
     save_allsets(AllSets)
-    #save_setjson(mtgs)
+    save_setjson(mtgs)
