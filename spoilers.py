@@ -851,9 +851,6 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardsxml.write("</card>\n")
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
-    if not 'MPS' in setname:
-        if os.path.isfile('out/' + setname + '.xml'):
-            shutil.copyfile('out/' + setname + '.xml','out/spoiler.xml')
 
     #failing pretty xml code
     #with open('out/' + setname + '.xml') as data_file:

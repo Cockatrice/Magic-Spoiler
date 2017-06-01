@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import spoilers
 import sys
+import os
+import shutil
 #import configparser
 import json
 #import urllib
@@ -63,6 +65,10 @@ def save_errorlog(errorlog):
     with open('out/errors.json', 'w') as outfile:
         json.dump(errorlog, outfile, sort_keys=True, indent=2, separators=(',', ': '))
 
+def copy_to_spoiler(setcode):
+    if os.path.isfile('out/' + setcode + '.xml'):
+        shutil.copy('out/' + setcode + '.xml','out/spoiler.xml')
+
 if __name__ == '__main__':
     AllSets = spoilers.get_allsets() #get AllSets from mtgjson
     if presets['oldRSS']:
@@ -91,3 +97,4 @@ if __name__ == '__main__':
     save_errorlog(errorlog)
     save_allsets(AllSets)
     save_setjson(mtgs)
+    copy_to_spoiler(setinfos['setname'])
