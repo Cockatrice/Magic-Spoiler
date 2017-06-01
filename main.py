@@ -86,4 +86,4 @@ if __name__ == '__main__':
         save_masterpieces(masterpieces)
     save_errorlog(errorlog)
     save_allsets(AllSets)
-    #save_setjson(mtgs)
+    save_setjson(mtgs)

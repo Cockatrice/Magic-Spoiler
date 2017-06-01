@@ -280,7 +280,7 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                             card['colorIdentity'] = [letter]
                         if 'colors' in card:
                             if not colorMap[letter] in card['colors']:
-                                card['colors'] += colorMap[letter]
+                                card['colors'].append(colorMap[letter])
                         else:
                             card['colors'] = [colorMap[letter]]
         if 'text' in card:
@@ -823,7 +823,7 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardsxml.write("<name>" + name.encode('utf-8') + "</name>\n")
         cardsxml.write('<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + setname + '</set>\n')
         cardsxml.write("<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
-        cardsxml.write("<cmc>" + cardcmc + "</cmc>")
+        cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
         if card.has_key('colors'):
             colorTranslate = {
                 "White": "W",
@@ -833,14 +833,16 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
                 "Green": "G"
             }
             for color in card['colors']:
-                cardsxml.write('<color>' + colorTranslate[color] + '</color>')
+                #if color in colorTranslate:
+                #    color = colorTranslate[color]
+                cardsxml.write('<color>' + colorTranslate[color] + '</color>\n')
         if name + ' enters the battlefield tapped' in text:
-            cardsxml.write("<cipt>1</cipt>")
+            cardsxml.write("<cipt>1</cipt>\n")
         cardsxml.write("<type>" + cardtype.encode('utf-8') + "</type>\n")
         if pt:
             cardsxml.write("<pt>" + pt + "</pt>\n")
         if card.has_key('loyalty'):
-            cardsxml.write("<loyalty>" + str(card['loyalty']) + "</loyalty>")
+            cardsxml.write("<loyalty>" + str(card['loyalty']) + "</loyalty>\n")
         cardsxml.write("<tablerow>" + tablerow + "</tablerow>\n")
         cardsxml.write("<text>" + text.encode('utf-8') + "</text>\n")
         if related:
