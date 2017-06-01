@@ -833,8 +833,6 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
                 "Green": "G"
             }
             for color in card['colors']:
-                #if color in colorTranslate:
-                #    color = colorTranslate[color]
                 cardsxml.write('<color>' + colorTranslate[color] + '</color>\n')
         if name + ' enters the battlefield tapped' in text:
             cardsxml.write("<cipt>1</cipt>\n")
