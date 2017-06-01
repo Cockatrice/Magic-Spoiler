@@ -248,17 +248,17 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                     workingCMC += 1
         if 'types' not in card:
             card['types'] = []
-            if '—' in card['type']:
-                workingTypes = card['type'].split('—')[0].strip()
-            else:
-                workingTypes = card['type'].split('-')[0].strip()
+#            if '—' in card['type']:
+#                workingTypes = card['type'].split('—')[0].strip()
+#            else:
+            workingTypes = card['type'].split('-')[0].strip()
             workingTypes.replace('Legendary ','').replace('Snow ','')\
                 .replace('Elite ','').replace('Basic ','').replace('World ','').replace('Ongoing ','')
             card['types'] += workingTypes.split(' ')
         if 'subtypes' not in card:
-            if '—' in card['type']:
-                workingSubtypes = card['type'].split('—')[1].strip()
-            elif '-' in card['type']:
+#            if '—' in card['type']:
+#                workingSubtypes = card['type'].split('—')[1].strip()
+            if '-' in card['type']:
                 workingSubtypes = card['type'].split('-')[1].strip()
             if workingSubtypes:
                 card['subtypes'] = workingSubtypes.split(' ')
@@ -839,9 +839,9 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardsxml.write("</card>\n")
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
-
-    if os.path.isfile('out/' + setname + '.xml'):
-        shutil.copyfile('out/' + setname + '.xml','out/spoiler.xml')
+    if not 'MPS' in setname:
+        if os.path.isfile('out/' + setname + '.xml'):
+            shutil.copyfile('out/' + setname + '.xml','out/spoiler.xml')
 
     #failing pretty xml code
     #with open('out/' + setname + '.xml') as data_file:

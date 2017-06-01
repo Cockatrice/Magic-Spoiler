@@ -45,6 +45,7 @@
     "blank card (do not use this key, just the object) - remove unneeded keys":
     {
       "name": "",
+      "manaCost": "",
       "number": "",
       "rarity": "",
       "type": "",
@@ -57,5 +58,34 @@
     }
   },
   "cards": [
+    {
+      "name": "Nicol Bolas, God-Pharaoh",
+      "manaCost": "4UBR",
+      "number": "140",
+      "rarity": "Mythic Rare",
+      "type": "Planeswalker - Bolas",
+      "url": "https://i.imgur.com/DTNXG2z.png",
+      "loyalty": "7",
+      "cmc": 7
+    },
+    {
+      "name": "Bontu's Last Reckoning",
+      "manaCost": "1BB",
+      "number": "60",
+      "rarity": "Rare",
+      "type": "Sorcery",
+      "url": "https://i.imgur.com/HOjh3pE.png",
+      "cmc": 3
+    },
+    {
+      "name": "Samut, the Tested",
+      "manaCost": "2RG",
+      "number": "144",
+      "rarity": "Mythic Rare",
+      "type": "Planeswalker - Samut",
+      "url": "https://i.imgur.com/4tRYs5z.png",
+      "loyalty": "4",
+      "cmc": 4
+    }
   ]
 }
