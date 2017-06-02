@@ -1,4 +1,4 @@
-# Magic-Spoiler [![Join the chat at https://gitter.im/SpoilerSeason/Lobby](https://badges.gitter.im/SpoilerSeason/Lobby.svg)](https://gitter.im/SpoilerSeason/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) #
+# Magic-Spoiler [![Gitter Chat](https://img.shields.io/gitter/room/Cockatrice/Magic-Spoiler.svg)](https://gitter.im/Cockatrice/Magic-Spoiler) #
 
 Magic-Spoiler is a python script to scrape MTGS, Scryfall, and Wizards.com to compile a cockatrice-friendly XML file as well as json files.
 
