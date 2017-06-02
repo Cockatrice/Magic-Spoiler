@@ -1,52 +1,51 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<cockatrice_carddatabase version='3'>
-<sets>
-<set>
-<name>HOU</name>
-<longname>Hour of Devastation</longname>
-<settype>Expansion</settype>
-<releasedate>2017-07-14</releasedate>
-</set>
-</sets>
-<cards><card>
-<name>Nicol Bolas, God-Pharaoh</name>
-<set rarity="Mythic Rare" picURL="https://i.imgur.com/DTNXG2z.png">HOU</set>
-<manacost>4UBR</manacost>
-<cmc>7</cmc>
-<color>U</color>
-<color>B</color>
-<color>R</color>
-<type>Planeswalker - Bolas</type>
-<loyalty>7</loyalty>
-<tablerow>1</tablerow>
-<text>+2: Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.
+<?xml version="1.0" ?><cockatrice_carddatabase version="3">	
+	<sets>		
+		<set>			
+			<name>HOU</name>			
+			<longname>Hour of Devastation</longname>			
+			<settype>Expansion</settype>			
+			<releasedate>2017-07-14</releasedate>			
+		</set>		
+	</sets>	
+	<cards>		<card>			
+			<name>Nicol Bolas, God-Pharaoh</name>			
+			<set picURL="https://i.imgur.com/DTNXG2z.png" rarity="Mythic Rare">HOU</set>			
+			<manacost>4UBR</manacost>			
+			<cmc>7</cmc>			
+			<color>U</color>			
+			<color>B</color>			
+			<color>R</color>			
+			<type>Planeswalker - Bolas</type>			
+			<loyalty>7</loyalty>			
+			<tablerow>1</tablerow>			
+			<text>+2: Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.
 +1: Each opponent exiles two cards from his or her hand.
 -4: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent or creature an opponent controls.
--12: Exile each nonland permanent your opponents control.</text>
-</card>
-<card>
-<name>Bontu's Last Reckoning</name>
-<set rarity="Rare" picURL="https://i.imgur.com/HOjh3pE.png">HOU</set>
-<manacost>1BB</manacost>
-<cmc>3</cmc>
-<color>B</color>
-<type>Sorcery</type>
-<tablerow>3</tablerow>
-<text>Destroy all creatures. Lands you control don't untap during your next untap step.</text>
-</card>
-<card>
-<name>Samut, the Tested</name>
-<set rarity="Mythic Rare" picURL="https://i.imgur.com/4tRYs5z.png">HOU</set>
-<manacost>2RG</manacost>
-<cmc>4</cmc>
-<color>R</color>
-<color>G</color>
-<type>Planeswalker - Samut</type>
-<loyalty>4</loyalty>
-<tablerow>1</tablerow>
-<text>+1: Up to one target creature gains double strike until end of turn.
+-12: Exile each nonland permanent your opponents control.</text>			
+		</card>		
+		<card>			
+			<name>Bontu's Last Reckoning</name>			
+			<set picURL="https://i.imgur.com/HOjh3pE.png" rarity="Rare">HOU</set>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy all creatures. Lands you control don't untap during your next untap step.</text>			
+		</card>		
+		<card>			
+			<name>Samut, the Tested</name>			
+			<set picURL="https://i.imgur.com/4tRYs5z.png" rarity="Mythic Rare">HOU</set>			
+			<manacost>2RG</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Planeswalker - Samut</type>			
+			<loyalty>4</loyalty>			
+			<tablerow>1</tablerow>			
+			<text>+1: Up to one target creature gains double strike until end of turn.
 -2: Samut, the Tested deals 2 damage divided as you choose among one or two target creatures and/or players.
--7: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle your library.</text>
-</card>
-</cards>
+-7: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle your library.</text>			
+		</card>		
+	</cards>	
 </cockatrice_carddatabase>
