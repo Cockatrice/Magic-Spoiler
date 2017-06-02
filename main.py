@@ -65,9 +65,9 @@ def save_errorlog(errorlog):
     with open('out/errors.json', 'w') as outfile:
         json.dump(errorlog, outfile, sort_keys=True, indent=2, separators=(',', ': '))
 
-def copy_to_spoiler(setcode):
-    if os.path.isfile('out/' + setcode + '.xml'):
-        shutil.copy('out/' + setcode + '.xml','out/spoiler.xml')
+def save_xml(xmlstring, outfile):
+    with open(outfile,'w+') as xmlfile:
+        xmlfile.write(xmlstring)
 
 if __name__ == '__main__':
     AllSets = spoilers.get_allsets() #get AllSets from mtgjson
@@ -82,6 +82,7 @@ if __name__ == '__main__':
     [mtgs, errors] = spoilers.errorcheck(mtgs) #check for errors where possible
     errorlog += errors
     spoilers.write_xml(mtgs, setinfos['setname'], setinfos['setlongname'], setinfos['setreleasedate'])
+    save_xml(spoilers.pretty_xml(setinfos['setname']), 'out/spoiler.xml')
     mtgs = spoilers.add_headers(mtgs, setinfos)
     AllSets = spoilers.make_allsets(AllSets, mtgs, setinfos['setname'])
     if 'masterpieces' in setinfos: #repeat all of the above for masterpieces
@@ -97,4 +98,3 @@ if __name__ == '__main__':
     save_errorlog(errorlog)
     save_allsets(AllSets)
     save_setjson(mtgs)
-    copy_to_spoiler(setinfos['setname'])

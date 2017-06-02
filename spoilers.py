@@ -6,12 +6,12 @@ import sys
 import os
 import shutil
 import time
-from lxml import html
-from lxml import etree
+from lxml import html, etree
 from PIL import Image
 import datetime
 import urllib
 import json
+import xml.dom.minidom
 
 def scrape_mtgs(url):
     return requests.get(url, headers={'Cache-Control':'no-cache', 'Pragma':'no-cache', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT'}).text
@@ -852,20 +852,17 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
 
-    #failing pretty xml code
-    #with open('out/' + setname + '.xml') as data_file:
-    #    tree = etree.parse(data_file)
-    #root = tree.getroot()
-    #f = open('out/' + setname + '.xml', 'w')
-    #f.write(etree.tostring(root, pretty_print=True))
-    #f.close()
-
     print 'XML STATS'
     print 'Total cards: ' + str(count)
     if dfccount > 0:
         print 'DFC: ' + str(dfccount)
     print 'Newest: ' + str(newest)
     print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' on ' + str(datetime.date.today())
+
+def pretty_xml(setcode):
+    prettyxml = xml.dom.minidom.parse('out/' + setcode + '.xml')  # or xml.dom.minidom.parseString(xml_string)
+    pretty_xml_as_string = prettyxml.toprettyxml(newl='')
+    return pretty_xml_as_string
 
 def make_allsets(AllSets, mtgjson, setname):
     AllSets[setname] = mtgjson
