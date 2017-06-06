@@ -567,9 +567,6 @@ def convert_scryfall(scryfall):
     print
 
 def smash_mtgs_scryfall(mtgs, scryfall):
-    print mtgs
-    print "^mtgs | \/scryfall"
-    print scryfall
     for mtgscard in mtgs['cards']:
         cardFound = False
         for scryfallcard in scryfall['cards']:
