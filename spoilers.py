@@ -749,7 +749,7 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
                    "</releasedate>\n"
                    "</set>\n"
                    "</sets>\n"
-                   "<cards>")
+                   "<cards>\n")
     #print mtgjson
     for card in mtgjson["cards"]:
         for carda in split_cards:

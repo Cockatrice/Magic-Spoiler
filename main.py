@@ -10,7 +10,7 @@ import json
 presets = {
     "isfullspoil": True, #when full spoil comes around, we only want to use WOTC images
     "includeMasterpieces": True, #if the set has masterpieces, let's get those too
-    "oldRSS": True #maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
+    "oldRSS": False #maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
 }
 
 with open('set_info.json') as data_file:
