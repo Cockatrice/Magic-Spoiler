@@ -7,7 +7,8 @@
 			<releasedate>2017-07-14</releasedate>			
 		</set>		
 	</sets>	
-	<cards>		<card>			
+	<cards>		
+		<card>			
 			<name>Nicol Bolas, God-Pharaoh</name>			
 			<set picURL="https://i.imgur.com/DTNXG2z.png" rarity="Mythic Rare">HOU</set>			
 			<manacost>4UBR</manacost>			
@@ -24,16 +25,6 @@
 -12: Exile each nonland permanent your opponents control.</text>			
 		</card>		
 		<card>			
-			<name>Bontu's Last Reckoning</name>			
-			<set picURL="https://i.imgur.com/HOjh3pE.png" rarity="Rare">HOU</set>			
-			<manacost>1BB</manacost>			
-			<cmc>3</cmc>			
-			<color>B</color>			
-			<type>Sorcery</type>			
-			<tablerow>3</tablerow>			
-			<text>Destroy all creatures. Lands you control don't untap during your next untap step.</text>			
-		</card>		
-		<card>			
 			<name>Samut, the Tested</name>			
 			<set picURL="https://i.imgur.com/4tRYs5z.png" rarity="Mythic Rare">HOU</set>			
 			<manacost>2RG</manacost>			
@@ -46,6 +37,16 @@
 			<text>+1: Up to one target creature gains double strike until end of turn.
 -2: Samut, the Tested deals 2 damage divided as you choose among one or two target creatures and/or players.
 -7: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Bontu's Last Reckoning</name>			
+			<set picURL="https://i.imgur.com/HOjh3pE.png" rarity="Rare">HOU</set>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy all creatures. Lands you control don't untap during your next untap step.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
