@@ -577,7 +577,7 @@ def smash_mtgs_scryfall(mtgs, scryfall):
                 for key in scryfallcard:
                     if key in mtgscard:
                         if not mtgscard[key] == scryfallcard[key]:
-                            print "Mtgs has key %s as %s and\nScryfall has %s" % (key, mtgscard[key], scryfallcard[key])
+                            print "%s's key %s\nMTGS    : %s\nScryfall: %s" % (mtgscard['name'], key, str(mtgscard[key]).replace('\n',''), str(scryfallcard[key]).replace('\n',''))
                 cardFound = True
         if not cardFound:
             print "MTGS has card %s and Scryfall does not." % mtgscard['name']
