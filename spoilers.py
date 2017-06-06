@@ -578,6 +578,17 @@ def smash_mtgs_scryfall(mtgs, scryfall):
                     if key in mtgscard:
                         if not mtgscard[key] == scryfallcard[key]:
                             print "Mtgs has key %s as %s and\nScryfall has %s" % (key, mtgscard[key], scryfallcard[key])
+                cardFound = True
+        if not cardFound:
+            print "MTGS has card %s and Scryfall does not." % mtgscard['name']
+    for scryfallcard in scryfall['cards']:
+        cardFound = False
+        for mtgscard in mtgs['cards']:
+            if scryfallcard['name'] == mtgscard['name']:
+                cardFound = True
+        if not cardFound:
+            print "Scryfall has card %s and MTGS does not." % scryfallcard['name']
+
     return mtgs
 
 def scrape_fullspoil(url, showRarityColors=False, showFrameColors=False, manual_cards=[], delete_cards=[], split_cards=[]):
