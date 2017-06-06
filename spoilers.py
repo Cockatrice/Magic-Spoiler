@@ -458,16 +458,16 @@ def get_scryfall(setUrl):
                 setDone = True
         else:
             setDone = True
-    #return scryfall
-    convert_scryfall(scryfall)
-    return scryfall
+
+    scryfall = convert_scryfall(scryfall[0])
+    return {'cards': scryfall}
     print
 
 def convert_scryfall(scryfall):
     cards2 = []
     for card in scryfall:
         card2 = {}
-        card2['cmc'] = int((card['converted_mana_cost']).split('.')[0])
+        card2['cmc'] = int((card['cmc']).split('.')[0])
         if card.has_key('mana_cost'):
             card2['manaCost'] = card['mana_cost'].replace('{','').replace('}','')
         else:
@@ -561,10 +561,24 @@ def convert_scryfall(scryfall):
         if card.has_key('multiverse_id'):
             card2['multiverseid'] = card['multiverse_id']
 
-        cards2['cards'].append(card2)
+        cards2.append(card2)
 
     return cards2
     print
+
+def smash_mtgs_scryfall(mtgs, scryfall):
+    print mtgs
+    print "^mtgs | \/scryfall"
+    print scryfall
+    for mtgscard in mtgs['cards']:
+        cardFound = False
+        for scryfallcard in scryfall['cards']:
+            if scryfallcard['name'] == mtgscard['name']:
+                for key in scryfallcard:
+                    if key in mtgscard:
+                        if not mtgscard[key] == scryfallcard[key]:
+                            print "Mtgs has key %s as %s and\nScryfall has %s" % (key, mtgscard[key], scryfallcard[key])
+    return mtgs
 
 def scrape_fullspoil(url, showRarityColors=False, showFrameColors=False, manual_cards=[], delete_cards=[], split_cards=[]):
     page = requests.get(url)

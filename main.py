@@ -77,19 +77,20 @@ if __name__ == '__main__':
         mtgs = spoilers.scrape_mtgs('http://www.mtgsalvation.com/spoilers.rss') #scrape mtgs rss feed
         mtgs = spoilers.parse_mtgs(mtgs) #parse spoilers into mtgjson format
     mtgs = spoilers.correct_cards(mtgs, manual_cards, card_corrections, delete_cards) #fix using the fixfiles
-    #scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfos['setname'].lower())
+    scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfos['setname'].lower())
     mtgs = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfos['setname'], setinfos['setlongname'], setinfos['setsize']) #get images
-    [mtgs, errors] = spoilers.errorcheck(mtgs) #check for errors where possible
+    mtgjson = spoilers.smash_mtgs_scryfall(mtgs, scryfall)
+    [mtgjson, errors] = spoilers.errorcheck(mtgjson) #check for errors where possible
     errorlog += errors
-    spoilers.write_xml(mtgs, setinfos['setname'], setinfos['setlongname'], setinfos['setreleasedate'])
+    spoilers.write_xml(mtgjson, setinfos['setname'], setinfos['setlongname'], setinfos['setreleasedate'])
     save_xml(spoilers.pretty_xml(setinfos['setname']), 'out/spoiler.xml')
-    mtgs = spoilers.add_headers(mtgs, setinfos)
-    AllSets = spoilers.make_allsets(AllSets, mtgs, setinfos['setname'])
+    mtgs = spoilers.add_headers(mtgjson, setinfos)
+    AllSets = spoilers.make_allsets(AllSets, mtgjson, setinfos['setname'])
     if 'masterpieces' in setinfos: #repeat all of the above for masterpieces
         #masterpieces aren't in the rss feed, so for the new cards, we'll go to their individual pages on mtgs
         #old cards will get their infos copied from mtgjson (including fields that may not apply like 'artist')
         #the images will still come from mtgs
-        masterpieces = spoilers.make_masterpieces(setinfos['masterpieces'], AllSets, mtgs)
+        masterpieces = spoilers.make_masterpieces(setinfos['masterpieces'], AllSets, mtgjson)
         [masterpieces, errors] = spoilers.errorcheck(masterpieces)
         errorlog += errors
         spoilers.write_xml(masterpieces, setinfos['masterpieces']['setname'], setinfos['masterpieces']['setlongname'], setinfos['masterpieces']['setreleasedate'])
@@ -97,4 +98,4 @@ if __name__ == '__main__':
         save_masterpieces(masterpieces)
     save_errorlog(errorlog)
     save_allsets(AllSets)
-    save_setjson(mtgs)
+    save_setjson(mtgjson)
