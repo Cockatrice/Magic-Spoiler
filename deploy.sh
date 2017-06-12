@@ -31,7 +31,12 @@ cd ..
 rm -rf out/**/* || exit 0
 
 # Run our compile script
-doCompile
+# doCompile
+
+# Build pushes, not pulls.
+if [ "${ghToken:-false}" != "false" ]; then
+    doCompile
+fi
 
 # Now let's go have some fun with the cloned repo
 cd out
