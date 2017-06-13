@@ -36,6 +36,9 @@ rm -rf out/**/* || exit 0
 # Don't push to our branch for PRs.
 if [ "${ghToken:-false}" != "false" ]; then
     doCompile
+else
+    doCompile
+    exit 0
 fi
 
 # Now let's go have some fun with the cloned repo
