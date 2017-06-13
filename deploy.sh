@@ -6,10 +6,6 @@ TARGET_BRANCH="files"
 
 function doCompile {
     python main.py
-    # Push merge or push to our files repo, not pulls.
-    if [ "${ghToken:-false}" != "false" ]; then
-        pushBranch
-    fi
 }
 
 function pushBranch {
@@ -67,4 +63,14 @@ cd ..
 rm -rf out/**/* || exit 0
 
 # Run our compile script
-doCompile
+#doCompile
+
+# Push merge or push to our files repo, not pulls.
+if [ "${ghToken:-false}" != "false" ]; then
+    echo This is a Push
+    doCompile
+    pushBranch
+else
+    echo This is a PR
+    doCompile
+fi
