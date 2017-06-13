@@ -31,11 +31,11 @@ cd ..
 rm -rf out/**/* || exit 0
 
 # Run our compile script
-doCompile
+#doCompile
 
 # Don't push to our branch for PRs.
-if [ "${ghToken:-false}" == "false" ]; then
-    exit 0
+if [ "${ghToken:-false}" != "false" ]; then
+    doCompile
 fi
 
 # Now let's go have some fun with the cloned repo
