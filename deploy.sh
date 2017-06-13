@@ -31,7 +31,19 @@ cd ..
 rm -rf out/**/* || exit 0
 
 # Run our compile script
-doCompile
+#doCompile
+
+echo TRAVIS_PULL_REQUEST ${TRAVIS_PULL_REQUEST}
+echo TRAVIS_SECURE_ENV_VARS ${TRAVIS_SECURE_ENV_VARS}
+echo TRAVIS_EVENT_TYPE ${TRAVIS_EVENT_TYPE}
+
+# Don't push to our branch for PRs.
+if [ "${ghToken:-false}" != "false" ]; then
+    doCompile
+else
+    doCompile
+    exit 0
+fi
 
 # Now let's go have some fun with the cloned repo
 cd out
