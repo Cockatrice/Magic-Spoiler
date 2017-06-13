@@ -913,6 +913,10 @@ def make_masterpieces(headers, AllSets, spoil):
     masterpieces2 = []
     for masterpiece in masterpieces:
         matched = False
+        if headers['setname'] in AllSets:
+            for oldMasterpiece in AllSets[headers['setname']]['cards']:
+                if masterpiece['name'] == oldMasterpiece['name']:
+                    matched = True
         for set in AllSets:
             if not matched:
                 for oldcard in AllSets[set]['cards']:
