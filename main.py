@@ -8,7 +8,7 @@ import json
 #import urllib
 
 presets = {
-    "isfullspoil": True, #when full spoil comes around, we only want to use WOTC images
+    "isfullspoil": False, #when full spoil comes around, we only want to use WOTC images
     "includeMasterpieces": True, #if the set has masterpieces, let's get those too
     "oldRSS": False #maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
 }
