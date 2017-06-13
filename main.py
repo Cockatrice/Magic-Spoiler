@@ -67,7 +67,7 @@ def save_errorlog(errorlog):
 
 def save_xml(xmlstring, outfile):
     with open(outfile,'w+') as xmlfile:
-        xmlfile.write(xmlstring)
+        xmlfile.write(xmlstring.encode('utf-8'))
 
 if __name__ == '__main__':
     AllSets = spoilers.get_allsets() #get AllSets from mtgjson
