@@ -6,9 +6,13 @@ TARGET_BRANCH="files"
 
 function doCompile {
     python main.py
+    # Push merge or push to our files repo, not pulls.
+    if [ "${ghToken:-false}" != "false" ]; then
+        pushBranch
+    fi
 }
 
-function pushRepo {
+function pushBranch {
     # Now let's go have some fun with the cloned repo
     cd out
     ls
@@ -64,8 +68,3 @@ rm -rf out/**/* || exit 0
 
 # Run our compile script
 doCompile
-
-# Push merge or push to our files repo, not pulls.
-if [ "${ghToken:-false}" != "false" ]; then
-    pushRepo
-fi
