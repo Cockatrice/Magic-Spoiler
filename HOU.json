@@ -1,5 +1,68 @@
 {
+  "block": "Amonkhet",
+  "booster": [
+    [
+      [
+        "rare",
+        "mythic rare"
+      ],
+      "uncommon",
+      "uncommon",
+      "uncommon",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "land",
+      "marketing"
+    ]
+  ],
+  "border": "black",
   "cards": [
+    {
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "manaCost": "2G",
+      "name": "Nissa's Defeat",
+      "number": "123",
+      "rarity": "Uncommon",
+      "text": "Destroy target Forest or Green enchantment or Planeswalker, if it's a Nissa Planeswalker, draw a card.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/nissasdefeat.jpg"
+    },
+    {
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "manaCost": "1U",
+      "name": "Jace's Defeat",
+      "number": "38",
+      "rarity": "Uncommon",
+      "text": "Counter target blue spell.  If it was a Jace planeswalker spell, scry 2.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/jacesdefeat.jpg"
+    },
     {
       "cmc": 4,
       "colorIdentity": [
@@ -58,9 +121,6 @@
       "name": "Abrade",
       "number": "83",
       "rarity": "Uncommon",
-      "subtypes": [
-        "Cat"
-      ],
       "text": "Choose one  \u2014\n\n\u2022 Abrade deals 3 damage to target creature.\n\u2022 Destroy target artifact.",
       "type": "Instant",
       "types": [
@@ -177,7 +237,7 @@
         "Black",
         "Red"
       ],
-      "loyalty": "X",
+      "loyalty": "?",
       "manaCost": "5UBR",
       "name": "Nicol Bolas, the Deceiver",
       "number": "205",
@@ -192,5 +252,9 @@
       ],
       "url": "http://mythicspoiler.com/hou/cards/nicolbolasthedeceiver.jpg"
     }
-  ]
+  ],
+  "code": "HOU",
+  "name": "Hour of Devastation",
+  "releaseDate": "2017-07-14",
+  "type": "expansion"
 }

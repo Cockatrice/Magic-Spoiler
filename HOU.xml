@@ -10,6 +10,26 @@
 </sets>
 <cards>
 <card>
+<name>Nissa's Defeat</name>
+<set rarity="Uncommon" picURL="http://mythicspoiler.com/hou/cards/nissasdefeat.jpg">HOU</set>
+<manacost>2G</manacost>
+<cmc>3</cmc>
+<color>G</color>
+<type>Sorcery</type>
+<tablerow>3</tablerow>
+<text>Destroy target Forest or Green enchantment or Planeswalker, if it's a Nissa Planeswalker, draw a card.</text>
+</card>
+<card>
+<name>Jace's Defeat</name>
+<set rarity="Uncommon" picURL="http://mythicspoiler.com/hou/cards/jacesdefeat.jpg">HOU</set>
+<manacost>1U</manacost>
+<cmc>2</cmc>
+<color>U</color>
+<type>Instant</type>
+<tablerow>3</tablerow>
+<text>Counter target blue spell.  If it was a Jace planeswalker spell, scry 2.</text>
+</card>
+<card>
 <name>Wildfire Eternal</name>
 <set rarity="Rare" picURL="http://mythicspoiler.com/hou/cards/wildfireeternal.jpg">HOU</set>
 <manacost>3R</manacost>
@@ -106,7 +126,7 @@ Eternalize {3}{W}{W}</text>
 <color>B</color>
 <color>R</color>
 <type>Planeswalker - Bolas</type>
-<loyalty>X</loyalty>
+<loyalty>?</loyalty>
 <tablerow>1</tablerow>
 <text>+3: Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.
 -3: Destroy a creature. Draw a card.
