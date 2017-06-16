@@ -9,11 +9,11 @@ function doCompile {
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
-#if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
-#    echo "Skipping deploy; just doing a build."
-#    doCompile
-#    exit 0
-#fi
+if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+    echo "Skipping deploy; just doing a build."
+    doCompile
+    exit 0
+fi
 
 # Save some useful information
 REPO=`git config remote.origin.url`
@@ -31,12 +31,19 @@ cd ..
 rm -rf out/**/* || exit 0
 
 # Run our compile script
-# doCompile
+doCompile
 
-# Build pushes, not pulls.
-if [ "${ghToken:-false}" != "false" ]; then
-    doCompile
-fi
+echo TRAVIS_PULL_REQUEST ${TRAVIS_PULL_REQUEST}
+echo TRAVIS_SECURE_ENV_VARS ${TRAVIS_SECURE_ENV_VARS}
+echo TRAVIS_EVENT_TYPE ${TRAVIS_EVENT_TYPE}
+
+# Don't push to our branch for PRs.
+#if [ "${ghToken:-false}" != "false" ]; then
+#    doCompile
+#else
+#    doCompile
+#    exit 0
+#fi
 
 # Now let's go have some fun with the cloned repo
 cd out

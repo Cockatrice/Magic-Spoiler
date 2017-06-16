@@ -191,10 +191,14 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
             cardtypes = card['type'].replace('Legendary ','').split(' - ')[0].split(' ')[:-1]
         if '-' in card['type']:
             subtype = card['type'].split(' - ')[1].strip()
+        else:
+            subtype = False
         #if u"—" in card['type']:
         #    subtype = card['type'].split(' — ')[1].strip()
         if subtype:
             subtypes = subtype.split(' ')
+        else:
+            subtypes = False
         if card['cmc'] == '':
             card['cmc'] = 0
         cardjson = {}
@@ -291,7 +295,7 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                             card['colorIdentity'] += CID
                     else:
                         card['colorIdentity'] = [CID]
-
+    print mtgjson
     for card in mtgjson['cards']:
         isManual = False
         for manualCard in manual_cards:
@@ -447,7 +451,8 @@ def get_scryfall(setUrl):
             setDone = True
             print setUrl
             print setcards
-            print 'No data - ' + set
+            print 'No Scryfall data'
+            scryfall = ['']
                 #noset.append(set)
         time.sleep(.1)
         if setcards.has_key('has_more'):
@@ -458,10 +463,11 @@ def get_scryfall(setUrl):
                 setDone = True
         else:
             setDone = True
-
-    scryfall = convert_scryfall(scryfall[0])
-    return {'cards': scryfall}
-    print
+    if not scryfall[0] == '':
+        scryfall = convert_scryfall(scryfall[0])
+        return {'cards': scryfall}
+    else:
+        return {'cards': []}
 
 def convert_scryfall(scryfall):
     cards2 = []
@@ -881,8 +887,146 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
     print 'Newest: ' + str(newest)
     print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' on ' + str(datetime.date.today())
 
-def pretty_xml(setcode):
-    prettyxml = xml.dom.minidom.parse('out/' + setcode + '.xml')  # or xml.dom.minidom.parseString(xml_string)
+def write_combined_xml(mtgjson, setinfos):
+    if not os.path.isdir('out/'):
+        os.makedirs('out/')
+    cardsxml = open('out/spoiler.xml', 'w+')
+    cardsxml.truncate()
+    cardsxml.write("<?xml version='1.0' encoding='UTF-8'?>\n"
+                   "<cockatrice_carddatabase version='3'>\n"
+                   "<sets>\n")
+    for setcode in mtgjson:
+        setobj = mtgjson[setcode]
+        if 'cards' in setobj and len(setobj['cards']) > 0:
+            cardsxml.write("<set>\n<name>"
+             + setcode +
+             "</name>\n"
+             "<longname>"
+             + setobj['name'] +
+             "</longname>\n"
+             "<settype>"
+             + setobj['type'].title() +
+             "</settype>\n"
+             "<releasedate>"
+             + setobj['releaseDate'] +
+             "</releasedate>\n"
+             "</set>\n")
+    cardsxml.write(
+             "</sets>\n"
+             "<cards>\n")
+    count = 0
+    dfccount = 0
+    newest = ''
+    related = 0
+    for setcode in mtgjson:
+        setobj = mtgjson[setcode]
+        for card in setobj["cards"]:
+            if 'layout' in card and card['layout'] == 'split':
+                if 'b' in card["number"]:
+                    continue
+            if count == 0:
+                newest = card["name"]
+            count += 1
+            name = card["name"]
+            if card.has_key("manaCost"):
+                manacost = card["manaCost"].replace('{', '').replace('}', '')
+            else:
+                manacost = ""
+            if card.has_key("power") or card.has_key("toughness"):
+                if card["power"]:
+                    pt = str(card["power"]) + "/" + str(card["toughness"])
+                else:
+                    pt = 0
+            else:
+                pt = 0
+            if card.has_key("text"):
+                text = card["text"]
+            else:
+                text = ""
+            cardcmc = str(card['cmc'])
+            cardtype = card["type"]
+            if card.has_key("names"):
+                if "layout" in card:
+                    if card["layout"] != 'split':
+                        if len(card["names"]) > 1:
+                            if card["names"][0] == card["name"]:
+                                related = card["names"][1]
+                                text += '\n\n(Related: ' + card["names"][1] + ')'
+                                dfccount += 1
+                            elif card['names'][1] == card['name']:
+                                related = card["names"][0]
+                                text += '\n\n(Related: ' + card["names"][0] + ')'
+                    else:
+                        for cardb in setobj['cards']:
+                            if cardb['name'] == card["names"][1]:
+                                cardtype += " // " + cardb['type']
+                                manacost += " // " + (cardb["manaCost"]).replace('{', '').replace('}', '')
+                                cardcmc += " // " + str(cardb["cmc"])
+                                text += "\n---\n" + cardb["text"]
+                                name += " // " + cardb['name']
+                else:
+                    print card["name"] + " has multiple names and no 'layout' key"
+
+
+            tablerow = "1"
+            if "Land" in cardtype:
+                tablerow = "0"
+            elif "Sorcery" in cardtype:
+                tablerow = "3"
+            elif "Instant" in cardtype:
+                tablerow = "3"
+            elif "Creature" in cardtype:
+                tablerow = "2"
+
+            if 'number' in card:
+                if 'b' in card['number']:
+                    if 'layout' in card:
+                        if card['layout'] == 'split':
+                            #print "We're skipping " + card['name'] + " because it's the right side of a split card"
+                            continue
+
+            cardsxml.write("<card>\n")
+            cardsxml.write("<name>" + name.encode('utf-8') + "</name>\n")
+            cardsxml.write('<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + setcode + '</set>\n')
+            cardsxml.write("<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
+            cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
+            if card.has_key('colors'):
+                colorTranslate = {
+                    "White": "W",
+                    "Blue": "U",
+                    "Black": "B",
+                    "Red": "R",
+                    "Green": "G"
+                }
+                for color in card['colors']:
+                    cardsxml.write('<color>' + colorTranslate[color] + '</color>\n')
+            if name + ' enters the battlefield tapped' in text:
+                cardsxml.write("<cipt>1</cipt>\n")
+            cardsxml.write("<type>" + cardtype.encode('utf-8') + "</type>\n")
+            if pt:
+                cardsxml.write("<pt>" + pt + "</pt>\n")
+            if card.has_key('loyalty'):
+                cardsxml.write("<loyalty>" + str(card['loyalty']) + "</loyalty>\n")
+            cardsxml.write("<tablerow>" + tablerow + "</tablerow>\n")
+            cardsxml.write("<text>" + text.encode('utf-8') + "</text>\n")
+            if related:
+            #    for relatedname in related:
+                cardsxml.write("<related>" + related.encode('utf-8') + "</related>\n")
+                related = ''
+
+            cardsxml.write("</card>\n")
+
+    cardsxml.write("</cards>\n</cockatrice_carddatabase>")
+
+    print 'XML COMBINED STATS'
+    print 'Total cards: ' + str(count)
+    if dfccount > 0:
+        print 'DFC: ' + str(dfccount)
+    print 'Newest: ' + str(newest)
+    print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' on ' + str(datetime.date.today())
+
+def pretty_xml(infile):
+    prettyxml = xml.dom.minidom.parse(infile)  # or xml.dom.minidom.parseString(xml_string)
     pretty_xml_as_string = prettyxml.toprettyxml(newl='')
     return pretty_xml_as_string
 
@@ -913,6 +1057,10 @@ def make_masterpieces(headers, AllSets, spoil):
     masterpieces2 = []
     for masterpiece in masterpieces:
         matched = False
+        if headers['setname'] in AllSets:
+            for oldMasterpiece in AllSets[headers['setname']]['cards']:
+                if masterpiece['name'] == oldMasterpiece['name']:
+                    matched = True
         for set in AllSets:
             if not matched:
                 for oldcard in AllSets[set]['cards']:
@@ -938,13 +1086,21 @@ def make_masterpieces(headers, AllSets, spoil):
     mpsjson = {
         "name": headers['setlongname'],
         "alternativeNames": headers['alternativeNames'],
-        "code": "MPS_AKH",
+        "code": headers['setname'],
         "releaseDate": headers['setreleasedate'],
         "border": "black",
         "type": "masterpiece",
         "cards": masterpieces2
     }
     return mpsjson
+
+def set_has_cards(setinfo, manual_cards, mtgjson):
+    if setinfo['setname'] in manual_cards or setinfo['setname'] in mtgjson:
+        return True
+    for card in manual_cards['cards']:
+        if set in card:
+            if set == setinfo['setname']:
+                return True
 
 def get_allsets():
     class MyOpener(urllib.FancyURLopener):
@@ -958,14 +1114,15 @@ def get_allsets():
 
 def add_headers(mtgjson, setinfos):
     mtgjson2 = {
-        "block": setinfos['blockname'],
         "border": "black",
         "code": setinfos['setname'],
-        "magicCardsInfoCode": setinfos['setname'].lower(),
         "name": setinfos['setlongname'],
         "releaseDate": setinfos['setreleasedate'],
         "type": setinfos['settype'],
-        "booster": [
+        "cards": mtgjson['cards']
+    }
+    if not 'noBooster' in setinfos:
+        mtgjson2['booster'] = [
                 [
                 "rare",
                 "mythic rare"
@@ -986,6 +1143,6 @@ def add_headers(mtgjson, setinfos):
             "land",
             "marketing"
         ],
-        "cards": mtgjson['cards']
-    }
+    if 'blockname' in setinfos:
+        mtgjson2['block'] = setinfos['blockname']
     return mtgjson2
