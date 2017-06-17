@@ -489,6 +489,8 @@ def convert_scryfall(scryfall):
         else:
             card2['text'] = ''
         card2['url'] = card['image_uri']
+        if not 'type_line' in card:
+            card['type_line'] = 'Unknown'
         card2['type'] = card['type_line'].replace(u'—','-')
         cardtypes = card['type_line'].split(u' — ')[0].replace('Legendary ','').replace('Snow ','')\
         .replace('Elite ','').replace('Basic ','').replace('World ','').replace('Ongoing ','')
@@ -1037,20 +1039,24 @@ def make_allsets(AllSets, mtgjson, setname):
     AllSets[setname] = mtgjson
     return AllSets
 
-def scrape_masterpieces(url='http://www.mtgsalvation.com/spoilers/181-amonkhet-invocations', cardurl='http://www.mtgsalvation.com/cards/amonkhet-invocations/'):
+def scrape_masterpieces(url='http://www.mtgsalvation.com/spoilers/181-amonkhet-invocations', mtgscardurl='http://www.mtgsalvation.com/cards/amonkhet-invocations/'):
     page = requests.get(url)
     tree = html.fromstring(page.content)
     cards = []
     cardstree = tree.xpath('//*[contains(@class, "log-card")]')
     for child in cardstree:
-        #print child.text
-        cardpage = requests.get(cardurl + child.attrib['data-card-id'] + '-' + child.text.replace(' ','-'))
+        childurl = mtgscardurl + child.attrib['data-card-id'] + '-' + child.text.replace(' ','-')
+        cardpage = requests.get(childurl)
         tree = html.fromstring(cardpage.content)
         cardtree = tree.xpath('//img[contains(@class, "card-spoiler-image")]')
-        #print cardtree[0]
+        try:
+            cardurl = cardtree[0].attrib['src']
+        except:
+            cardurl = ''
+            pass
         card = {
             "name": child.text,
-            "url": cardtree[0].attrib['src']
+            "url": cardurl
         }
         cards.append(card)
     return cards
