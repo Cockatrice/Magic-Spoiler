@@ -20,7 +20,7 @@
 <tablerow>2</tablerow>
 <text>Menace
 
-You may exert Khenra Scrapper as it attacks.  When you do, it gets +2/+0 until end of turn.</text>
+You may exert Khenra Scrapper as it attacks.  When you do, it gets +2/+0 until end of turn.  An exerted creature won't untap during your next untap step.)</text>
 </card>
 <card>
 <name>Nissa, Genesis Mage</name>
@@ -59,10 +59,10 @@ You may exert Khenra Scrapper as it attacks.  When you do, it gets +2/+0 until e
 <color>W</color>
 <type>Enchantment - Aura</type>
 <tablerow>1</tablerow>
-<text>Enchant Creature
-When Desert's Hold enters the battlefield, if you control a desert or there is a desert card in your graveyard, you gain 3 life.
+<text>Enchant creature
+When Desert's Hold enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you gain 3 life.
 
-Enchanted creature can't attack or block, and it's activated abilities can't be activated.</text>
+Enchanted creature can't attack or block, and its activated abilities can't be activated.</text>
 </card>
 <card>
 <name>Grind // Dust</name>
@@ -72,7 +72,7 @@ Enchanted creature can't attack or block, and it's activated abilities can't be 
 <color>B</color>
 <type>Sorcery</type>
 <tablerow>3</tablerow>
-<text>Put a -1/-1 counter on each of up to two target creatures
+<text>Put a -1/-1 counter on each of up to two target creatures.
 
 <hr />
 <strong>Dust</strong> {3w}
@@ -105,7 +105,7 @@ Exile any number of target creatures that have -1/-1 counters on them.</text>
 
 {1br}: Put a -1/-1 counter on another target creature.
 
-When the Scorpion God dies, return it to it's owner's hand</text>
+When The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.</text>
 </card>
 <card>
 <name>Angel of the God-Pharoh</name>
@@ -140,7 +140,7 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 <type>Creature - Naga Warrior</type>
 <pt>3/2</pt>
 <tablerow>2</tablerow>
-<text>As long as  you control a Desert or there is a Desert card in your graveyard, Sidewinder Naga gets +1/+0 and has trample</text>
+<text>As long as  you control a Desert or there is a Desert card in your graveyard, Sidewinder Naga gets +1/+0 and has trample.</text>
 </card>
 <card>
 <name>Desert of the True</name>
@@ -152,7 +152,7 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 <tablerow>0</tablerow>
 <text>Desert of the True enters the battlefield tapped.
 {T}: Add {W} to your mana pool.
-Cycling {1}{W} {1}{W}, Discard this card: Draw a card)></text>
+Cycling {1}{W} {1}{W}, Discard this card: Draw a card.)></text>
 </card>
 <card>
 <name>Desert of the Fervent</name>
@@ -176,7 +176,7 @@ Cycling {1}{R} {1}{R}, Discard this card: Draw a card.)></text>
 <tablerow>3</tablerow>
 <text>Hour of Revelation costs {3} less to cast if there are ten or more nonland permanents on the battlefield.
 
-Destroy all nonland permanents</text>
+Destroy all nonland permanents.</text>
 </card>
 <card>
 <name>Desert of the Glorified</name>
@@ -188,7 +188,7 @@ Destroy all nonland permanents</text>
 <tablerow>0</tablerow>
 <text>Desert of the Glorified enters the battlefield tapped.
 {T}: Add {B} to your mana pool.
-Cycling {1}{B} {1}{B}, Discard this card: Draw a card)></text>
+Cycling {1}{B} {1}{B}, Discard this card: Draw a card.)></text>
 </card>
 <card>
 <name>Desert of the Mindful</name>
@@ -200,7 +200,7 @@ Cycling {1}{B} {1}{B}, Discard this card: Draw a card)></text>
 <tablerow>0</tablerow>
 <text>Desert of the Mindful enters the battlefield tapped.
 {T}: Add {U} to your mana pool.
-Cycling {1}{U} {1}{U}, Discard this card: Draw a card)></text>
+Cycling {1}{U} {1}{U}, Discard this card: Draw a card.)></text>
 </card>
 <card>
 <name>Gilded Cerodon</name>
@@ -243,7 +243,7 @@ Cycling {1}{U} {1}{U}, Discard this card: Draw a card)></text>
 <color>R</color>
 <type>Instant</type>
 <tablerow>3</tablerow>
-<text>Open Fire does 3 damage to target creature or player/</text>
+<text>Open Fire does 3 damage to target creature or player.</text>
 </card>
 <card>
 <name>Desert of the Indomitable</name>
@@ -267,7 +267,7 @@ Cycling {1g} {1g}, Discard this card: Draw a card.)</text>
 <type>Creature - Zombie</type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>{1b}: Target attacking Zombie gains indestructible until end of turn. Damage and effects that say "destroy" don't destoy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)</text>
+<text>{1b}: Target attacking Zombie gains indestructible until end of turn. Damage and effects that say “destroy” don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)</text>
 </card>
 <card>
 <name>Oasis Ritualist</name>
@@ -324,7 +324,7 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 <color>R</color>
 <type>Instant</type>
 <tablerow>3</tablerow>
-<text>Chandra’s Defeat deals 5 damage to target red creature or red Planeswalker. If it dealt damage to a Chandra, you may discard a card. If you do, draw a card.</text>
+<text>Chandra’s Defeat deals 5 damage to target red creature or red Planeswalker. If it was a Chandra planeswalker, you may discard a card. If you do, draw a card.</text>
 </card>
 <card>
 <name>Liliana's Defeat</name>
@@ -354,7 +354,7 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 <color>G</color>
 <type>Sorcery</type>
 <tablerow>3</tablerow>
-<text>Destroy target forest, green enchantment, or green planeswalker. If that permanent was a Nissa planeswalker, draw a card.</text>
+<text>Destroy target Forest, green enchantment, or green planeswalker. If that permanent was a Nissa planeswalker, draw a card.</text>
 </card>
 <card>
 <name>Jace's Defeat</name>
