@@ -28,6 +28,586 @@
     {
       "cmc": 3,
       "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "manaCost": "2R",
+      "name": "Khenra Scrapper",
+      "number": "100",
+      "power": "2",
+      "rarity": "Common",
+      "subtypes": [
+        "Jackal",
+        "Warrior"
+      ],
+      "text": "Menace\n\nYou may exert Khenra Scrapper as it attacks.  When you do, it gets +2/+0 until end of turn.",
+      "toughness": "3",
+      "type": "Creature - Jackal Warrior",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/khenrascrapper.jpg"
+    },
+    {
+      "cmc": 7,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "manaCost": "5GG",
+      "name": "Nissa, Genesis Mage",
+      "number": "200",
+      "rarity": "Mythic Rare",
+      "subtypes": [
+        "Nissa"
+      ],
+      "text": "+2: Untap up to two target creatures and up to two target lands.\n\n-3: Target creature gets +5/+5 until end of turn.\n\n-10: Look at the top ten cards of your library.  You may put any number of creature and/or land cards from among them onto the battlefield.  Put the rest on the bottom of your library in a random order.",
+      "type": "Planeswalker - Nissa",
+      "types": [
+        "Planeswalker"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/nissagenesismage.jpg"
+    },
+    {
+      "cmc": 8,
+      "colorIdentity": [
+        "U",
+        "B",
+        "R"
+      ],
+      "colors": [
+        "Blue",
+        "Black",
+        "Red"
+      ],
+      "loyalty": "?",
+      "manaCost": "5UBR",
+      "name": "Nicol Bolas, the Deceiver",
+      "number": "205",
+      "rarity": "Mythic Rare",
+      "subtypes": [
+        "Bolas"
+      ],
+      "text": "+3: Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.\n-3: Destroy a creature. Draw a card.\n-11: Nicol Bolas, the Deciever deals 7 damage to each opponent. You draw seven cards. ",
+      "type": "Planeswalker - Bolas",
+      "types": [
+        "Planeswalker"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/nicolbolasthedeceiver.jpg"
+    },
+    {
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "White"
+      ],
+      "manaCost": "2W",
+      "name": "Desert's Hold",
+      "number": "8",
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant Creature\nWhen Desert's Hold enters the battlefield, if you control a desert or there is a desert card in your graveyard, you gain 3 life.\n\nEnchanted creature can't attack or block, and it's activated abilities can't be activated.",
+      "type": "Enchantment - Aura",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/desertshold.jpg"
+    },
+    {
+      "cmc": 2,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "manaCost": "1B",
+      "name": "Grind // Dust",
+      "number": "155",
+      "rarity": "Rare",
+      "text": "Put a -1/-1 counter on each of up to two target creatures\n\n<hr />\n<strong>Dust</strong> {3w}\n<strong>Sorcery</strong>\nAftermath Cast this spell only from your graveyard.  Then exile it.)\nExile any number of target creatures that have -1/-1 counters on them.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "url": ""
+    },
+    {
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "manaCost": "1R",
+      "name": "Defiant Khenra",
+      "number": "89",
+      "power": "2",
+      "rarity": "Common",
+      "subtypes": [
+        "Jackal",
+        "Warrior"
+      ],
+      "text": "",
+      "toughness": "2",
+      "type": "Creature - Jackal Warrior",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/defiantkhenra.jpg"
+    },
+    {
+      "cmc": 5,
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "manaCost": "3BR",
+      "name": "The Scorpion God",
+      "number": "146",
+      "power": "6",
+      "rarity": "Mythic Rare",
+      "subtypes": [
+        "God"
+      ],
+      "text": "Whenever a creature with a -1/-1 counter on it dies, draw a card.\n\n{1br}: Put a -1/-1 counter on another target creature.\n\nWhen the Scorpion God dies, return it to it's owner's hand",
+      "toughness": "5",
+      "type": "Legendary Creature - God",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/thescorpiongod.jpg"
+    },
+    {
+      "cmc": 6,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "White"
+      ],
+      "manaCost": "4WW",
+      "name": "Angel of the God-Pharoh",
+      "number": "4",
+      "power": "4",
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Angel"
+      ],
+      "text": "Flying\nCycling {2} {2}, Discard this card: Draw a card.)",
+      "toughness": "4",
+      "type": "Creature - Angel",
+      "types": [],
+      "url": ""
+    },
+    {
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "manaCost": "5R",
+      "name": "Inferno Jet",
+      "number": "99",
+      "rarity": "Uncommon",
+      "text": "Inferno Jet deals 6 damage to target opponent.\n\nCycling {2} {2}, Discard this card: Draw a card.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/infernojet.jpg"
+    },
+    {
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "manaCost": "2G",
+      "name": "Sidewinder Naga",
+      "number": "134",
+      "power": "3",
+      "rarity": "Common",
+      "subtypes": [
+        "Naga",
+        "Warrior"
+      ],
+      "text": "As long as  you control a Desert or there is a Desert card in your graveyard, Sidewinder Naga gets +1/+0 and has trample",
+      "toughness": "2",
+      "type": "Creature - Naga Warrior",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/sidewindernaga.jpg"
+    },
+    {
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "name": "Desert of the True",
+      "number": "174",
+      "rarity": "Common",
+      "subtypes": [
+        "Desert"
+      ],
+      "text": "Desert of the True enters the battlefield tapped.\n{T}: Add {W} to your mana pool.\nCycling {1}{W} {1}{W}, Discard this card: Draw a card)>",
+      "type": "Land - Desert",
+      "types": [],
+      "url": ""
+    },
+    {
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "name": "Desert of the Fervent",
+      "number": "170",
+      "rarity": "Common",
+      "subtypes": [
+        "Desert"
+      ],
+      "text": "Desert of the Fervent enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\nCycling {1}{R} {1}{R}, Discard this card: Draw a card.)>",
+      "type": "Land - Desert",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/desertofthefervent.jpg"
+    },
+    {
+      "cmc": 6,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "White"
+      ],
+      "manaCost": "3WWW",
+      "name": "Hour of Revelation",
+      "number": "15",
+      "rarity": "Rare",
+      "text": "Hour of Revelation costs {3} less to cast if there are ten or more nonland permanents on the battlefield.\n\nDestroy all nonland permanents",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/hourofrevelation.jpg"
+    },
+    {
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "name": "Desert of the Glorified",
+      "number": "171",
+      "rarity": "Common",
+      "subtypes": [
+        "Desert"
+      ],
+      "text": "Desert of the Glorified enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\nCycling {1}{B} {1}{B}, Discard this card: Draw a card)>",
+      "type": "Land - Desert",
+      "types": [],
+      "url": ""
+    },
+    {
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "name": "Desert of the Mindful",
+      "number": "173",
+      "rarity": "Common",
+      "subtypes": [
+        "Desert"
+      ],
+      "text": "Desert of the Mindful enters the battlefield tapped.\n{T}: Add {U} to your mana pool.\nCycling {1}{U} {1}{U}, Discard this card: Draw a card)>",
+      "type": "Land - Desert",
+      "types": [],
+      "url": ""
+    },
+    {
+      "cmc": 5,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "manaCost": "4R",
+      "name": "Gilded Cerodon",
+      "number": "994",
+      "power": "4",
+      "rarity": "Common",
+      "subtypes": [
+        "Beast"
+      ],
+      "text": "Whenever Gilded Cerodon attacks, if you control a Desert or there is a Desert card in your graveyard, target creature can't block this turn.",
+      "toughness": "4",
+      "type": "Creature - Beast",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/gildedcerodon.jpg"
+    },
+    {
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "manaCost": "3B",
+      "name": "Carrion Screecher",
+      "number": "61",
+      "power": "3",
+      "rarity": "Common",
+      "subtypes": [
+        "Zombie",
+        "Bird"
+      ],
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Creature - Zombie Bird",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/carrionscreecher.jpg"
+    },
+    {
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "manaCost": "3R",
+      "name": "Sand Strangler",
+      "number": "107",
+      "power": "3",
+      "rarity": "Common",
+      "subtypes": [
+        "Beast"
+      ],
+      "text": "When Sand Strangler enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you may have Sand Strangler deal 3 damage to target creature.",
+      "toughness": "3",
+      "type": "Creature - Beast",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/sandstrangler.jpg"
+    },
+    {
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "manaCost": "2R",
+      "name": "Open Fire",
+      "number": "105",
+      "rarity": "Common",
+      "text": "Open Fire does 3 damage to target creature or player/",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/openfire.jpg"
+    },
+    {
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "name": "Desert of the Indomitable",
+      "number": "172",
+      "rarity": "Common",
+      "subtypes": [
+        "Desert"
+      ],
+      "text": "Desert of the Indomitable enters the battlefield tapped.\n{t}: Add {g} to your mana pool.\n\nCycling {1g} {1g}, Discard this card: Draw a card.)",
+      "type": "Land - Desert",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/desertoftheindomitable.jpg"
+    },
+    {
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "manaCost": "3B",
+      "name": "Accursed Horde",
+      "number": "56",
+      "power": "3",
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Zombie"
+      ],
+      "text": "{1b}: Target attacking Zombie gains indestructible until end of turn. Damage and effects that say \"destroy\" don't destoy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)",
+      "toughness": "3",
+      "type": "Creature - Zombie",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/accursedhorde.jpg"
+    },
+    {
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "manaCost": "3G",
+      "name": "Oasis Ritualist",
+      "number": "124",
+      "power": "2",
+      "rarity": "Common",
+      "subtypes": [
+        "Naga",
+        "Druid"
+      ],
+      "text": "{t}: Add one mana of any color to your mana pool.\n\n{t}, Exert Oasis Ritualist: Add two mana of any one color to your manna pool. An exerted creature won't untap during your next untap step.)",
+      "toughness": "4",
+      "type": "Creature - Naga Druid",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/oasisritualist.jpg"
+    },
+    {
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "White"
+      ],
+      "manaCost": "3W",
+      "name": "Steadfast Sentinel",
+      "number": "24",
+      "power": "2",
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "text": "Vigilance\nEternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Human Cleric with no mana cost. Eternalize only as a sorcery.)",
+      "toughness": "3",
+      "type": "Creature - Human Cleric",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/steadfastsentinel.jpg"
+    },
+    {
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "manaCost": "2B",
+      "name": "Maurauding Boneslasher",
+      "number": "70",
+      "power": "3",
+      "rarity": "Common",
+      "subtypes": [
+        "Zombie",
+        "Minotaur"
+      ],
+      "text": "Marauding Boneslasher can't block unless you control another Zombie.",
+      "toughness": "3",
+      "type": "Creature - Zombie Minotaur",
+      "types": [],
+      "url": ""
+    },
+    {
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "manaCost": "1B",
+      "name": "Khenra Eternal",
+      "number": "66",
+      "power": "2",
+      "rarity": "Common",
+      "subtypes": [
+        "Zombie",
+        "Jackal",
+        "Warrior"
+      ],
+      "text": "Afflict 1 Whenever this creature becomes blocked, defending player loses 1 life.)",
+      "toughness": "2",
+      "type": "Creature - Zombie Jackal Warrior",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/khenraeternal.jpg"
+    },
+    {
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "manaCost": "R",
+      "name": "Chandra's Defeat",
+      "number": "86",
+      "rarity": "Uncommon",
+      "text": "Chandra\u2019s Defeat deals 5 damage to target red creature or red Planeswalker. If it dealt damage to a Chandra, you may discard a card. If you do, draw a card.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "url": ""
+    },
+    {
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "manaCost": "B",
+      "name": "Liliana's Defeat",
+      "number": "68",
+      "rarity": "Uncommon",
+      "text": "Destroy target black creature or black planeswalker. If that permanent was a Liliana planeswalker, her controller loses 3 life.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/lilianasdefeat.jpg"
+    },
+    {
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "White"
+      ],
+      "manaCost": "W",
+      "name": "Gideon's Defeat",
+      "number": "13",
+      "rarity": "Uncommon",
+      "text": "Exile target white creature that's attacking or blocking. If it was a Gideon planeswalker, you gain 5 life.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/gideonsdefeat.jpg"
+    },
+    {
+      "cmc": 3,
+      "colorIdentity": [
         "G"
       ],
       "colors": [
@@ -37,7 +617,7 @@
       "name": "Nissa's Defeat",
       "number": "123",
       "rarity": "Uncommon",
-      "text": "Destroy target Forest or Green enchantment or Planeswalker, if it's a Nissa Planeswalker, draw a card.",
+      "text": "Destroy target forest, green enchantment, or green planeswalker. If that permanent was a Nissa planeswalker, draw a card.",
       "type": "Sorcery",
       "types": [
         "Sorcery"
@@ -103,7 +683,7 @@
       "subtypes": [
         "Cat"
       ],
-      "text": "Double strike\nEternalize {3}{W}{W}",
+      "text": "Double strike\nEternalize {3}{W}{W} {3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Cat with no mana cost. Eternalize only as a sorcery.)",
       "toughness": "1",
       "type": "Creature - Cat",
       "types": [],
@@ -224,33 +804,6 @@
         "Sorcery"
       ],
       "url": "http://mythicspoiler.com/hou/cards/bontuslastreckoning.jpg"
-    },
-    {
-      "cmc": 8,
-      "colorIdentity": [
-        "U",
-        "B",
-        "R"
-      ],
-      "colors": [
-        "Blue",
-        "Black",
-        "Red"
-      ],
-      "loyalty": "?",
-      "manaCost": "5UBR",
-      "name": "Nicol Bolas, the Deceiver",
-      "number": "205",
-      "rarity": "Mythic Rare",
-      "subtypes": [
-        "Bolas"
-      ],
-      "text": "+3: Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.\n-3: Destroy a creature. Draw a card.\n-11: Nicol Bolas, the Deciever deals 7 damage to each opponent. You draw seven cards. ",
-      "type": "Planeswalker - Bolas",
-      "types": [
-        "Planeswalker"
-      ],
-      "url": "http://mythicspoiler.com/hou/cards/nicolbolasthedeceiver.jpg"
     }
   ],
   "code": "HOU",
