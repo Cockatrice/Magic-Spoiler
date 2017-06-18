@@ -1,6 +1,6 @@
 # Magic-Spoiler [![Gitter Chat](https://img.shields.io/gitter/room/Cockatrice/Magic-Spoiler.svg)](https://gitter.im/Cockatrice/Magic-Spoiler) #
 
-Magic-Spoiler is a python script to scrape MTGS, Scryfall, and Wizards.com to compile a cockatrice-friendly XML file as well as json files.
+Magic-Spoiler is a python script to scrape MTG Salvation, Scryfall, MythicSpoiler and Gatherer to compile a cockatrice-friendly XML file as well as json files.
 
 ## Output [![Build Status](https://travis-ci.org/Cockatrice/Magic-Spoiler.svg?branch=master)](https://travis-ci.org/Cockatrice/Magic-Spoiler) ##
 Just looking for XML or JSON files?  [They're in our files branch!](https://github.com/Cockatrice/Magic-Spoiler/tree/files)
