@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import spoilers
 import os
-import commentjson
 import json
 
 presets = {
@@ -13,7 +12,7 @@ presets = {
     },
     "siteorder": ['scryfall','mtgs','mythicspoiler'], # if we want to use one site before another for card data TODO
     "useexclusively": '', # if we *only* want to use one site TODO
-    "dumpXML": True # let travis print XML for teting
+    "dumpXML": True # let travis print XML for testing
 }
 
 with open('set_info.json') as data_file:
