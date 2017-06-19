@@ -19,7 +19,7 @@ presets = {
 with open('set_info') as data_file:
     setinfos = commentjson.load(data_file)
 
-with open('cards_manual.json') as data_file:
+with open('cards_manual') as data_file:
     manual_sets = json.load(data_file)
 
 with open('cards_corrections') as data_file:
