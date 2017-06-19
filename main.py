@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import spoilers
 import os
+import commentjson
 import json
 
 presets = {
@@ -15,17 +16,17 @@ presets = {
     "dumpXML": True # let travis print XML for testing
 }
 
-with open('set_info.json') as data_file:
-    setinfos = json.load(data_file)
+with open('set_info') as data_file:
+    setinfos = commentjson.load(data_file)
 
 with open('cards_manual.json') as data_file:
     manual_sets = json.load(data_file)
 
-with open('cards_corrections.json') as data_file:
-    card_corrections = json.load(data_file)
+with open('cards_corrections') as data_file:
+    card_corrections = commentjson.load(data_file)
 
-with open('cards_delete.json') as data_file:
-    delete_cards = json.load(data_file)
+with open('cards_delete') as data_file:
+    delete_cards = commentjson.load(data_file)
 
 errorlog = []
 
@@ -108,4 +109,3 @@ if __name__ == '__main__':
         with open('out/spoiler.xml', 'r') as xmlfile:
             print xmlfile.read()
         print '----- END XML DUMP -----'
-
