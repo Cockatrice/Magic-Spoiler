@@ -3,6 +3,7 @@ import spoilers
 import os
 import commentjson
 import json
+import io
 
 presets = {
     "isfullspoil": False, #when full spoil comes around, we only want to use WOTC images
@@ -52,8 +53,9 @@ def save_masterpieces(masterpieces, setinfo):
         json.dump(masterpieces, outfile, sort_keys=True, indent=2, separators=(',', ': '))
 
 def save_setjson(mtgs, filename):
-    with open('out/' + filename + '.json', 'w') as outfile:
-        json.dump(mtgs, outfile, sort_keys=True, indent=2, separators=(',', ': '))
+    with io.open('out/' + filename + '.json', 'w', encoding='utf8') as json_file:
+        data = json.dumps(mtgs, ensure_ascii=False, encoding='utf8', indent=2, sort_keys=True, separators=(',',':'))
+        json_file.write(unicode(data))
 
 def save_errorlog(errorlog):
     fixederrors = []
@@ -88,7 +90,7 @@ if __name__ == '__main__':
         scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfo['setname'].lower())
         mtgs = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize']) #get images
         mtgjson = spoilers.smash_mtgs_scryfall(mtgs, scryfall)
-        [mtgjson, errors] = spoilers.errorcheck(mtgjson) #check for errors where possible
+        [mtgjson, errors] = spoilers.errorcheck(mtgjson, card_corrections) #check for errors where possible
         errorlog += errors
         spoilers.write_xml(mtgjson, setinfo['setname'], setinfo['setlongname'], setinfo['setreleasedate'])
         #save_xml(spoilers.pretty_xml(setinfo['setname']), 'out/spoiler.xml')
