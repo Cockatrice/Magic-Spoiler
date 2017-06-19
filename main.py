@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
 import spoilers
-import sys
 import os
-import shutil
-#import configparser
+import commentjson
 import json
-#import urllib
 
 presets = {
     "isfullspoil": False, #when full spoil comes around, we only want to use WOTC images
@@ -17,17 +14,17 @@ presets = {
 }
 
 with open('set_info.json') as data_file:
-    setinfos = json.load(data_file)
+    setinfos = commentjson.load(data_file)
 
 with open('cards_manual.json') as data_file:
-    manual_sets = json.load(data_file)
+    manual_sets = commentjson.load(data_file)
     #manual_cards = manual_cards['cards']
 
 with open('cards_corrections.json') as data_file:
-    card_corrections = json.load(data_file)
+    card_corrections = commentjson.load(data_file)
 
 with open('cards_delete.json') as data_file:
-    delete_cards = json.load(data_file)
+    delete_cards = commentjson.load(data_file)
 
 errorlog = []
 
