@@ -10,6 +10,16 @@
 </sets>
 <cards>
 <card>
+<name>Oketra's Last Mercy</name>
+<set rarity="Rare" picURL="http://mythicspoiler.com/hou/cards/oketraslastmercy.jpg">HOU</set>
+<manacost>1WW</manacost>
+<cmc>3</cmc>
+<color>W</color>
+<type>Sorcery</type>
+<tablerow>3</tablerow>
+<text>Your life total becomes your starting life total, Lands you control don't untap during your next untap phase</text>
+</card>
+<card>
 <name>Thoughtseize</name>
 <set rarity="Mythic Rare" picURL="http://mythicspoiler.com/hou/cards/thoughtseize.jpg">HOU</set>
 <manacost>B</manacost>
@@ -18,19 +28,6 @@
 <type>Sorcery</type>
 <tablerow>3</tablerow>
 <text>Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.</text>
-</card>
-<card>
-<name>Sunset Pyramid (TO DELETE)</name>
-<set rarity="Uncommon" picURL="">HOU</set>
-<manacost>2</manacost>
-<cmc>2</cmc>
-<type>Artifact</type>
-<tablerow>1</tablerow>
-<text>Sunset Pyramid enters the battlefield with three brick counters on it.
-
-{2}, {t} , Remove a brick counter from Sunset Pyramid: Draw a card.
-
-{2}, {t}: Scry 1</text>
 </card>
 <card>
 <name>Sunset Pyramid</name>
@@ -387,7 +384,7 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 <color>R</color>
 <type>Instant</type>
 <tablerow>3</tablerow>
-<text>Chandra’s Defeat deals 5 damage to target red creature or red Planeswalker. If it was a Chandra planeswalker, you may discard a card. If you do, draw a card.</text>
+<text>Chandra’s Defeat deals 5 damage to target red creature or red planeswalker. If it was a Chandra planeswalker, you may discard a card. If you do, draw a card.</text>
 </card>
 <card>
 <name>Liliana's Defeat</name>
