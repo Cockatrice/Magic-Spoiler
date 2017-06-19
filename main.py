@@ -104,7 +104,7 @@ if __name__ == '__main__':
             masterpieces = spoilers.make_masterpieces(setinfo['masterpieces'], AllSets, mtgjson)
             [masterpieces, errors] = spoilers.errorcheck(masterpieces)
             errorlog += errors
-            spoilers.write_xml(masterpieces, setinfo['masterpieces']['setname'], setinfo['masterpieces']['setlongname'], setinfo['masterpieces']['setreleasedate'])
+            spoilers.write_xml(masterpieces, setinfo['masterpieces']['setname'], setinfo['masterpieces']['setlongname'], setinfo['masterpieces']['setreleasedate'], presets["split_cards"])
             AllSets = spoilers.make_allsets(AllSets, masterpieces, setinfo['masterpieces']['setname'])
             save_masterpieces(masterpieces, setinfo)
             combinedjson[setinfo['masterpieces']['setname']] = masterpieces
