@@ -72,6 +72,8 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
                 card2['setnumber'] = card['setnumber'] + 'b'
             if 'rarity' in card:
                 card2['rarity'] = card['rarity']
+            if not card1['name'] in split_cards:
+                split_cards[card1['name']] = card2['name']
             cards2.append(card1)
             cards2.append(card2)
         else:
@@ -241,7 +243,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
 
         cardarray.append(cardjson)
 
-    return {"cards": cardarray}
+    return [{"cards": cardarray}, split_cards]
 
 def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]):
     mtgjson2 = []
@@ -823,26 +825,18 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardtype = card["type"]
         if card.has_key("names"):
             if "layout" in card:
-                if card["layout"] != 'split':
-                    if len(card["names"]) > 1:
-                        if card["names"][0] == card["name"]:
-                            related = card["names"][1]
-                            text += '\n\n(Related: ' + card["names"][1] + ')'
-                            dfccount += 1
-                        elif card['names'][1] == card['name']:
-                            related = card["names"][0]
-                            text += '\n\n(Related: ' + card["names"][0] + ')'
-                else:
-                    for carda in split_cards:
-                        if card["name"] == carda:
-                            cardb = split_cards[carda]
+                if card['layout'] == 'split':
+                    if 'names' in card:
+                        if card['name'] == card['names'][0]:
                             for jsoncard in mtgjson["cards"]:
-                                if cardb == jsoncard["name"]:
+                                if jsoncard['name'] == card['names'][1]:
                                     cardtype += " // " + jsoncard["type"]
                                     manacost += " // " + (jsoncard["manaCost"]).replace('{', '').replace('}', '')
                                     cardcmc += " // " + str(jsoncard["cmc"])
                                     text += "\n---\n" + jsoncard["text"]
-                                    name += " // " + cardb
+                                    name += " // " + jsoncard['name']
+                else:
+                    print card["name"] + " has names, but layout != split"
             else:
                 print card["name"] + " has multiple names and no 'layout' key"
 
@@ -897,7 +891,7 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
 
-    print 'XML STATS'
+    print 'XML Stats for ' + setlongname
     print 'Total cards: ' + str(count)
     if dfccount > 0:
         print 'DFC: ' + str(dfccount)
