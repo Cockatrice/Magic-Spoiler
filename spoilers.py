@@ -79,7 +79,8 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
             .replace('&lt;/i&gt;', '') \
             .replace('&quot;', '"') \
             .replace('blkocking', 'blocking')\
-            .replace('&amp;bull;','*')\
+            .replace('&amp;bull;',u'•')\
+            .replace('&bull;',u'•')\
             .replace('comes into the','enters the')\
             .replace('threeor', 'three or')\
             .replace('[i]','')\
@@ -342,7 +343,7 @@ def errorcheck(mtgjson):
                 errors.append({"name": card['name'], "key": key, "missing": True})
         if 'text' in card:
             #foo = 1
-            card['text'] = card['text'].replace('<i>','').replace('</i>','').replace('<em>','').replace('</em','').replace('(','')
+            card['text'] = card['text'].replace('<i>','').replace('</i>','').replace('<em>','').replace('</em','').replace('(','').replace('&bull;',u'•')
         if 'type' in card:
             if 'Planeswalker' in card['type']:
                 if not 'loyalty' in card:
