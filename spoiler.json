@@ -189,6 +189,93 @@
     "border": "black",
     "cards": [
       {
+        "cmc": 1,
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [
+          "Black"
+        ],
+        "manaCost": "B",
+        "name": "Thoughtseize",
+        "number": "45",
+        "rarity": "Mythic Rare",
+        "text": "Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
+        "type": "Sorcery",
+        "types": [
+          "Sorcery"
+        ],
+        "url": "http://mythicspoiler.com/hou/cards/thoughtseize.jpg"
+      },
+      {
+        "cmc": 2,
+        "manaCost": "2",
+        "name": "Sunset Pyramid (TO DELETE)",
+        "number": "166",
+        "rarity": "Uncommon",
+        "text": "Sunset Pyramid enters the battlefield with three brick counters on it.\n\n{2}, {t} , Remove a brick counter from Sunset Pyramid: Draw a card.\n\n{2}, {t}: Scry 1",
+        "type": "Artifact",
+        "types": [
+          "Artifact"
+        ],
+        "url": ""
+      },
+      {
+        "cmc": 2,
+        "manaCost": "2",
+        "name": "Sunset Pyramid",
+        "number": "166",
+        "rarity": "Uncommon",
+        "text": "Sunset Pyramid enters the battlefield with three brick counters on it.\n\n{2}, {T}, Remove a brick counter from Sunset Pyramid: Draw a card.\n\n{2}, {T}: Scry 1.",
+        "type": "Artifact",
+        "types": [
+          "Artifact"
+        ],
+        "url": "http://mythicspoiler.com/hou/cards/sunsetpyramid.jpg"
+      },
+      {
+        "cmc": 3,
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [
+          "Black"
+        ],
+        "manaCost": "2B",
+        "name": "Dreamstealer",
+        "number": "63",
+        "power": "1",
+        "rarity": "Rare",
+        "subtypes": [
+          "Human",
+          "Wizard"
+        ],
+        "text": "Menace\n\nWhen Dreamstealer deals combat damage to a player, that player discards that many cards.\n\nEternalize {4bb} {4BB}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)",
+        "toughness": "2",
+        "type": "Creature - Human Wizard",
+        "types": [],
+        "url": "http://mythicspoiler.com/hou/cards/dreamstealer.jpg"
+      },
+      {
+        "cmc": 3,
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [
+          "Blue"
+        ],
+        "manaCost": "2U",
+        "name": "Supreme Will",
+        "number": "49",
+        "rarity": "Uncommon",
+        "text": "Choose one \u2014\n\u2022 Counter target spell unless its controller pays {3}.\n\u2022 Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+        "type": "Instant",
+        "types": [
+          "Instant"
+        ],
+        "url": "http://mythicspoiler.com/hou/cards/supremewill.jpg"
+      },
+      {
         "cmc": 3,
         "colorIdentity": [
           "R"
@@ -345,7 +432,7 @@
         "toughness": "5",
         "type": "Legendary Creature - God",
         "types": [],
-        "url": "http://mythicspoiler.com/hou/cards/thescorpiongod.jpg"
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/206/636333442031784068.png"
       },
       {
         "cmc": 6,
@@ -425,7 +512,7 @@
         "text": "Desert of the True enters the battlefield tapped.\n{T}: Add {W} to your mana pool.\nCycling {1}{W} {1}{W}, Discard this card: Draw a card.)>",
         "type": "Land - Desert",
         "types": [],
-        "url": ""
+        "url": "http://mythicspoiler.com/hou/cards/desertofthetrue.jpg"
       },
       {
         "cmc": 0,
@@ -476,7 +563,7 @@
         "text": "Desert of the Glorified enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\nCycling {1}{B} {1}{B}, Discard this card: Draw a card.)>",
         "type": "Land - Desert",
         "types": [],
-        "url": ""
+        "url": "http://mythicspoiler.com/hou/cards/desertoftheglorified.jpg"
       },
       {
         "cmc": 0,
@@ -492,7 +579,7 @@
         "text": "Desert of the Mindful enters the battlefield tapped.\n{T}: Add {U} to your mana pool.\nCycling {1}{U} {1}{U}, Discard this card: Draw a card.)>",
         "type": "Land - Desert",
         "types": [],
-        "url": ""
+        "url": "http://mythicspoiler.com/hou/cards/desertofthemindful.jpg"
       },
       {
         "cmc": 5,
@@ -980,6 +1067,506 @@
     ],
     "border": "black",
     "cards": [
+      {
+        "artist": "Lucas Graciano",
+        "cmc": 1,
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [
+          "Black"
+        ],
+        "flavor": "\"Knowledge is such a burden. Release it. Release all your fears to me.\"\n\u2014Ashiok, Nightmare Weaver",
+        "id": "be40cbce5931824978945ec66582885a8d566b9c",
+        "imageName": "thoughtseize",
+        "layout": "normal",
+        "manaCost": "{B}",
+        "mciNumber": "107",
+        "multiverseid": 373632,
+        "name": "Thoughtseize",
+        "number": "107",
+        "rarity": "Mythic Rare",
+        "text": "Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
+        "type": "Sorcery",
+        "types": [
+          "Sorcery"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/221/636334169135260445.png"
+      },
+      {
+        "artist": "Jesper Myrfors",
+        "cmc": 4,
+        "colorIdentity": [
+          "W"
+        ],
+        "colors": [
+          "White"
+        ],
+        "id": "6e48c7918c6f20325d123776fe4880c55be9309f",
+        "imageName": "armageddon",
+        "layout": "normal",
+        "manaCost": "{3}{W}",
+        "mciNumber": "4",
+        "multiverseid": 159252,
+        "name": "Armageddon",
+        "number": "4",
+        "rarity": "Mythic Rare",
+        "text": "Destroy all lands.",
+        "type": "Sorcery",
+        "types": [
+          "Sorcery"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/218/636334143307974019.jpeg"
+      },
+      {
+        "artist": "Anthony S. Waters",
+        "cmc": 3,
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [
+          "Blue"
+        ],
+        "flavor": "\"Over time, Konda grew ever more suspicious, fearing even his most loyal allies were being manipulated by unseen hands.\"\n\u2014The History of Kamigawa",
+        "id": "f441b89acc5dbcc8f5a5741cf97719dbc580c930",
+        "imageName": "threads of disloyalty",
+        "layout": "normal",
+        "manaCost": "{1}{U}{U}",
+        "mciNumber": "56",
+        "multiverseid": 74652,
+        "name": "Threads of Disloyalty",
+        "number": "56",
+        "rarity": "Mythic Rare",
+        "subtypes": [
+          "Aura"
+        ],
+        "text": "Enchant creature with converted mana cost 2 or less\nYou control enchanted creature.",
+        "type": "Enchantment \u2014 Aura",
+        "types": [
+          "Enchantment"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/217/636334110002710418.jpeg"
+      },
+      {
+        "artist": "Jason Chan",
+        "cmc": 10,
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [
+          "Blue"
+        ],
+        "flavor": "\"The things I once imagined would be my greatest achievements were only the first steps toward a future I can only begin to fathom.\"\n\u2014Jace Beleren",
+        "id": "31d8f754156b1c6035a5f8651395511be222b4a6",
+        "imageName": "omniscience",
+        "layout": "normal",
+        "manaCost": "{7}{U}{U}{U}",
+        "mciNumber": "63",
+        "multiverseid": 288937,
+        "name": "Omniscience",
+        "number": "63",
+        "rarity": "Mythic Rare",
+        "text": "You may cast spells from your hand without paying their mana costs.",
+        "type": "Enchantment",
+        "types": [
+          "Enchantment"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/216/636334059084028070.png"
+      },
+      {
+        "artist": "Adrian Smith",
+        "cmc": 3,
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [
+          "Black"
+        ],
+        "id": "31b95e12ee4af18c85805528dfda3320c9855c99",
+        "imageName": "doomsday",
+        "layout": "normal",
+        "manaCost": "{B}{B}{B}",
+        "mciNumber": "8",
+        "multiverseid": 4454,
+        "name": "Doomsday",
+        "rarity": "Mythic Rare",
+        "text": "Search your library and graveyard for five cards and exile the rest. Put the chosen cards on top of your library in any order. You lose half your life, rounded up.",
+        "type": "Sorcery",
+        "types": [
+          "Sorcery"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/215/636334011910302570.jpeg"
+      },
+      {
+        "artist": "Jason Alexander Behnke",
+        "cmc": 4,
+        "colorIdentity": [
+          "R"
+        ],
+        "colors": [
+          "Red"
+        ],
+        "flavor": "\"When every reef is bared and every wave is dust\u2014only then shall I rest.\"",
+        "id": "cd58558de1664de1499a1e75e3d57d6159b210ba",
+        "imageName": "boil",
+        "layout": "normal",
+        "manaCost": "{3}{R}",
+        "mciNumber": "8e/en/180",
+        "multiverseid": 45373,
+        "name": "Boil",
+        "number": "180",
+        "rarity": "Mythic Rare",
+        "text": "Destroy all Islands.",
+        "type": "Instant",
+        "types": [
+          "Instant"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/214/636333980655003340.png"
+      },
+      {
+        "artist": "Hugh Jamieson",
+        "cmc": 5,
+        "colorIdentity": [
+          "R"
+        ],
+        "colors": [
+          "Red"
+        ],
+        "id": "63139aca17ff7ea8afc5e4e0a2d5d401c365a4c2",
+        "imageName": "through the breach",
+        "layout": "normal",
+        "manaCost": "{4}{R}",
+        "mciNumber": "193",
+        "multiverseid": 80250,
+        "name": "Through the Breach",
+        "number": "193",
+        "rarity": "Mythic Rare",
+        "subtypes": [
+          "Arcane"
+        ],
+        "text": "You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.\nSplice onto Arcane {2}{R}{R} As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
+        "type": "Instant \u2014 Arcane",
+        "types": [
+          "Instant"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/213/636333924231956265.png"
+      },
+      {
+        "artist": "Stephen Daniele",
+        "cmc": 5,
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [
+          "Blue"
+        ],
+        "flavor": "The flow of time was disrupted; like a flooding river it rose from its banks. Tolaria was drowned in an instant that stretched toward infinity.",
+        "id": "20e93dade70fb9222d1ec0987404244aae000b22",
+        "imageName": "sunder",
+        "layout": "normal",
+        "manaCost": "{3}{U}{U}",
+        "mciNumber": "101",
+        "multiverseid": 5599,
+        "name": "Sunder",
+        "number": "101",
+        "rarity": "Mythic Rare",
+        "text": "Return all lands to their owners' hands.",
+        "type": "Instant",
+        "types": [
+          "Instant"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/212/636333905081527779.png"
+      },
+      {
+        "artist": "Ron Spencer",
+        "cmc": 2,
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [
+          "Black"
+        ],
+        "flavor": "Greven il-Vec lifted Vhati off his feet. \"The fall will give you time to think on your failure.\"",
+        "id": "9d8e3b619375b685fc14d2122b9084e5be6093b9",
+        "imageName": "diabolic edict",
+        "layout": "normal",
+        "manaCost": "{1}{B}",
+        "mciNumber": "102",
+        "multiverseid": 397522,
+        "name": "Diabolic Edict",
+        "number": "102",
+        "rarity": "Mythic Rare",
+        "text": "Target player sacrifices a creature.",
+        "type": "Instant",
+        "types": [
+          "Instant"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/209/636333769194629056.png"
+      },
+      {
+        "cmc": 5,
+        "colorIdentity": [
+          "B",
+          "R"
+        ],
+        "colors": [
+          "Black",
+          "Red"
+        ],
+        "manaCost": "3BR",
+        "name": "The Scorpion God",
+        "number": "146",
+        "power": "6",
+        "rarity": "Mythic Rare",
+        "subtypes": [
+          "God"
+        ],
+        "text": "Whenever a creature with a -1/-1 counter on it dies, draw a card.\n\n{1br}: Put a -1/-1 counter on another target creature.\n\nWhen The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.",
+        "toughness": "5",
+        "type": "Legendary Creature - God",
+        "types": [],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/206/636333442031784068.png"
+      },
+      {
+        "artist": "Scott Kirschner",
+        "cmc": 3,
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [
+          "Blue"
+        ],
+        "id": "1a0bfef44f40b04e222834f10dc19192120d731d",
+        "imageName": "forbid",
+        "layout": "normal",
+        "manaCost": "{1}{U}{U}",
+        "mciNumber": "50",
+        "multiverseid": 397532,
+        "name": "Forbid",
+        "number": "50",
+        "rarity": "Mythic Rare",
+        "text": "Buyback\u2014Discard two cards. You may discard two cards in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves.)\nCounter target spell.",
+        "type": "Instant",
+        "types": [
+          "Instant"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/205/636333375673165119.png"
+      },
+      {
+        "artist": "Kev Walker",
+        "cmc": 0,
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [
+          "Black"
+        ],
+        "flavor": "Death is only the beginning of the end.",
+        "id": "582481735782e01c5981fcc6cc3efceb81984a73",
+        "imageName": "slaughter pact",
+        "layout": "normal",
+        "mciNumber": "78",
+        "multiverseid": 130704,
+        "name": "Slaughter Pact",
+        "number": "78",
+        "rarity": "Mythic Rare",
+        "text": "Destroy target nonblack creature.\nAt the beginning of your next upkeep, pay {2}{B}. If you don't, you lose the game.",
+        "type": "Instant",
+        "types": [
+          "Instant"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/203/636333333332347414.jpeg"
+      },
+      {
+        "artist": "Terese Nielsen",
+        "cmc": 3,
+        "colorIdentity": [
+          "G"
+        ],
+        "colors": [
+          "Green"
+        ],
+        "flavor": "\"One day we shall walk where once was water.\"\n\u2014Eladamri, Lord of Leaves",
+        "id": "c4ec5d5ead76b6e45137d739cb23ad585c7684ef",
+        "imageName": "choke",
+        "layout": "normal",
+        "manaCost": "{2}{G}",
+        "mciNumber": "8e/en/237",
+        "multiverseid": 45431,
+        "name": "Choke",
+        "number": "237",
+        "rarity": "Mythic Rare",
+        "text": "Islands don't untap during their controllers' untap steps.",
+        "type": "Enchantment",
+        "types": [
+          "Enchantment"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/199/636333276897179714.jpeg"
+      },
+      {
+        "artist": "rk post",
+        "cmc": 8,
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [
+          "Black"
+        ],
+        "id": "2a853c29576effdc9ff9bcb19504012469338d38",
+        "imageName": "avatar of woe",
+        "layout": "normal",
+        "manaCost": "{6}{B}{B}",
+        "name": "Avatar of Woe",
+        "number": "4",
+        "power": "6",
+        "rarity": "Mythic Rare",
+        "releaseDate": "2010",
+        "subtypes": [
+          "Avatar"
+        ],
+        "text": "If there are ten or more creature cards total in all graveyards, Avatar of Woe costs {6} less to cast.\nFear This creature can't be blocked except by artifact creatures and/or black creatures.)\n{T}: Destroy target creature. It can't be regenerated.",
+        "toughness": "5",
+        "type": "Creature \u2014 Avatar",
+        "types": [
+          "Creature"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/198/636333238463036233.png"
+      },
+      {
+        "artist": "James Allen",
+        "cmc": 4,
+        "colorIdentity": [
+          "R"
+        ],
+        "colors": [
+          "Red"
+        ],
+        "flavor": "Chains of leaping fire and sizzling lightning laid waste the artificers' handiwork, sparing not a single device.",
+        "id": "85f7e99c463a6bdbe35937a8509b5d19775964c9",
+        "imageName": "shatterstorm",
+        "layout": "normal",
+        "manaCost": "{2}{R}{R}",
+        "mciNumber": "266",
+        "multiverseid": 4087,
+        "name": "Shatterstorm",
+        "rarity": "Mythic Rare",
+        "text": "Destroy all artifacts. They can't be regenerated.",
+        "type": "Sorcery",
+        "types": [
+          "Sorcery"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/197/636333172515147469.jpeg"
+      },
+      {
+        "artist": "Izzy",
+        "cmc": 5,
+        "colorIdentity": [
+          "B",
+          "G"
+        ],
+        "colors": [
+          "Black",
+          "Green"
+        ],
+        "flavor": "The forlorn cries of the dead combine to make its laugh.",
+        "id": "917b0a323ce1b00de8755426c0ec904da3ceaf56",
+        "imageName": "lord of extinction",
+        "layout": "normal",
+        "manaCost": "{3}{B}{G}",
+        "mciNumber": "91",
+        "multiverseid": 177922,
+        "name": "Lord of Extinction",
+        "number": "91",
+        "power": "*",
+        "rarity": "Mythic Rare",
+        "subtypes": [
+          "Elemental"
+        ],
+        "text": "Lord of Extinction's power and toughness are each equal to the number of cards in all graveyards.",
+        "toughness": "*",
+        "type": "Creature \u2014 Elemental",
+        "types": [
+          "Creature"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/195/636333156610909674.jpeg"
+      },
+      {
+        "artist": "Todd Lockwood",
+        "cmc": 4,
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [
+          "Blue"
+        ],
+        "flavor": "\"Urza says he's sane. Perhaps, but measures of sanity among planeswalkers are hard to come by.\"\n\u2014Barrin",
+        "id": "d19dc943b15963dcd58730ddfe89dd1bc47e5eaa",
+        "imageName": "opposition",
+        "layout": "normal",
+        "manaCost": "{2}{U}{U}",
+        "mciNumber": "40",
+        "multiverseid": 15162,
+        "name": "Opposition",
+        "number": "40",
+        "rarity": "Mythic Rare",
+        "text": "Tap an untapped creature you control: Tap target artifact, creature, or land.",
+        "type": "Enchantment",
+        "types": [
+          "Enchantment"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/194/636333154887939199.jpeg"
+      },
+      {
+        "artist": "Mark Tedin",
+        "cmc": 4,
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [
+          "Black"
+        ],
+        "flavor": "\"We had years to prepare, while they had mere minutes.\"\n\u2014Kerrick, sleeper agent",
+        "id": "7bc5407b60c35e99fa3403df964819384703f9d8",
+        "imageName": "no mercy",
+        "layout": "normal",
+        "manaCost": "{2}{B}{B}",
+        "mciNumber": "56",
+        "multiverseid": 12408,
+        "name": "No Mercy",
+        "number": "56",
+        "rarity": "Mythic Rare",
+        "text": "Whenever a creature deals damage to you, destroy it.",
+        "type": "Enchantment",
+        "types": [
+          "Enchantment"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/193/636333152590465364.png"
+      },
+      {
+        "artist": "Tom W\u00e4nerstrand",
+        "cmc": 3,
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [
+          "Blue"
+        ],
+        "id": "a387f2464028c5e3e0975a8bcddf1a65d33e12b8",
+        "imageName": "capsize",
+        "layout": "normal",
+        "manaCost": "{1}{U}{U}",
+        "mciNumber": "42",
+        "multiverseid": 397492,
+        "name": "Capsize",
+        "number": "42",
+        "rarity": "Mythic Rare",
+        "text": "Buyback {3} You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)\nReturn target permanent to its owner's hand.",
+        "type": "Instant",
+        "types": [
+          "Instant"
+        ],
+        "url": "http://media-dominaria.cursecdn.com/avatars/132/192/636333150191230729.png"
+      },
       {
         "artist": "Brom",
         "cmc": 5,

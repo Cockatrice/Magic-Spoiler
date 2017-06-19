@@ -26,6 +26,93 @@
   "border": "black",
   "cards": [
     {
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "manaCost": "B",
+      "name": "Thoughtseize",
+      "number": "45",
+      "rarity": "Mythic Rare",
+      "text": "Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/thoughtseize.jpg"
+    },
+    {
+      "cmc": 2,
+      "manaCost": "2",
+      "name": "Sunset Pyramid (TO DELETE)",
+      "number": "166",
+      "rarity": "Uncommon",
+      "text": "Sunset Pyramid enters the battlefield with three brick counters on it.\n\n{2}, {t} , Remove a brick counter from Sunset Pyramid: Draw a card.\n\n{2}, {t}: Scry 1",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "url": ""
+    },
+    {
+      "cmc": 2,
+      "manaCost": "2",
+      "name": "Sunset Pyramid",
+      "number": "166",
+      "rarity": "Uncommon",
+      "text": "Sunset Pyramid enters the battlefield with three brick counters on it.\n\n{2}, {T}, Remove a brick counter from Sunset Pyramid: Draw a card.\n\n{2}, {T}: Scry 1.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/sunsetpyramid.jpg"
+    },
+    {
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "manaCost": "2B",
+      "name": "Dreamstealer",
+      "number": "63",
+      "power": "1",
+      "rarity": "Rare",
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "Menace\n\nWhen Dreamstealer deals combat damage to a player, that player discards that many cards.\n\nEternalize {4bb} {4BB}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)",
+      "toughness": "2",
+      "type": "Creature - Human Wizard",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/dreamstealer.jpg"
+    },
+    {
+      "cmc": 3,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "manaCost": "2U",
+      "name": "Supreme Will",
+      "number": "49",
+      "rarity": "Uncommon",
+      "text": "Choose one \u2014\n\u2022 Counter target spell unless its controller pays {3}.\n\u2022 Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/supremewill.jpg"
+    },
+    {
       "cmc": 3,
       "colorIdentity": [
         "R"
@@ -182,7 +269,7 @@
       "toughness": "5",
       "type": "Legendary Creature - God",
       "types": [],
-      "url": "http://mythicspoiler.com/hou/cards/thescorpiongod.jpg"
+      "url": "http://media-dominaria.cursecdn.com/avatars/132/206/636333442031784068.png"
     },
     {
       "cmc": 6,
@@ -262,7 +349,7 @@
       "text": "Desert of the True enters the battlefield tapped.\n{T}: Add {W} to your mana pool.\nCycling {1}{W} {1}{W}, Discard this card: Draw a card.)>",
       "type": "Land - Desert",
       "types": [],
-      "url": ""
+      "url": "http://mythicspoiler.com/hou/cards/desertofthetrue.jpg"
     },
     {
       "cmc": 0,
@@ -313,7 +400,7 @@
       "text": "Desert of the Glorified enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\nCycling {1}{B} {1}{B}, Discard this card: Draw a card.)>",
       "type": "Land - Desert",
       "types": [],
-      "url": ""
+      "url": "http://mythicspoiler.com/hou/cards/desertoftheglorified.jpg"
     },
     {
       "cmc": 0,
@@ -329,7 +416,7 @@
       "text": "Desert of the Mindful enters the battlefield tapped.\n{T}: Add {U} to your mana pool.\nCycling {1}{U} {1}{U}, Discard this card: Draw a card.)>",
       "type": "Land - Desert",
       "types": [],
-      "url": ""
+      "url": "http://mythicspoiler.com/hou/cards/desertofthemindful.jpg"
     },
     {
       "cmc": 5,
