@@ -50,27 +50,33 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
     if count < 1:
         sys.exit("No cards found, exiting to prevent file overwrite")
 
-    #for manual_card in manual_cards:
-        #initialize some keys
-        #manual_card['colorArray'] = []
-        #manual_card['colorIdentityArray'] = []
-        #manual_card['color'] = ''
-        #manual_card['colorIdentity'] = ''
-        #if not manual_card.has_key('rules'):
-        #    manual_card['rules'] = ''
-        #if not manual_card.has_key('pow'):
-        #    manual_card['pow'] = ''
-        #if not manual_card.has_key('setnumber'):
-        #    manual_card['setnumber'] = '0'
-        #if not manual_card.has_key('type'):
-        #    manual_card['type'] = ''
-        #see if this is a dupe
-        #and remove the spoiler version
-        #i trust my manual cards over their data
-        #for card in cards:
-        #    if card['name'] == manual_card['name']:
-        #        cards.remove(card)
-        #cards.append(manual_card)
+    cards2 = []
+    for card in cards:
+        if 'rules' in card:
+            htmltags = re.compile(r'<.*?>')
+            card['rules'] = htmltags.sub('', card['rules'])
+        if '//' in card['name']:
+            print 'Splitting up Aftermath card ' + card['name']
+            card['name'] = card['name'].replace(' // ','//')
+            card1 = card.copy()
+            card1['name'] = card['name'].split('//')[0]
+            card1['rules'] = card['rules'].split('\n\n\n')[0]
+            card2 = dict(cost='',cmc='',img='',pow='',name='',rules='',type='',
+                color='', altname='', colorIdentity='', colorArray=[], colorIdentityArray=[], setnumber='', rarity='')
+            card2["name"] = card['name'].split('//')[1]
+            card2["rules"] = "Aftermath" + card['rules'].split('Aftermath')[1]
+            card2['cost'] = re.findall(r'{.*}',card['rules'])[0].replace('{','').replace('}','').upper()
+            card2['type'] = re.findall(r'}\n.*\n', card['rules'])[0].replace('}','').replace('\n','')
+            if 'setnumber' in card:
+                card1['setnumber'] = card['setnumber'] + 'a'
+                card2['setnumber'] = card['setnumber'] + 'b'
+            if 'rarity' in card:
+                card2['rarity'] = card['rarity']
+            cards2.append(card1)
+            cards2.append(card2)
+        else:
+            cards2.append(card)
+    cards = cards2
 
     for card in cards:
         card['name'] = card['name'].replace('&#x27;', '\'')
@@ -89,17 +95,10 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
             .replace('Costner',"Counter")
         card['type'] = card['type'].replace('  ',' ')\
             .replace('Crature', 'Creature')
+
         if card['type'][-1] == ' ':
             card['type'] = card['type'][:-1]
-        #if card['name'] in card_corrections:
-        #    for correction in card_corrections[card['name']]:
-        #        if correction != 'name':
-        #            card[correction] = card_corrections[card['name']][correction]
-        #    for correction in card_corrections[card['name']]:
-        #        if correction == 'name':
-        #            oldname = card['name']
-        #            card['name'] = card_corrections[oldname]['name']
-        #            card['rules'] = card['rules'].replace(oldname, card_corrections[oldname][correction])
+
         if 'cost' in card and len(card['cost']) > 0:
             workingCMC = 0
             stripCost = card['cost'].replace('{','').replace('}','')
@@ -109,8 +108,8 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
                 elif not manaSymbol == 'X':
                     workingCMC += 1
             card['cmc'] = workingCMC
-        # figure out color
-        for c in 'WUBRG':
+
+        for c in 'WUBRG': #figure out card's color
             if c not in card['colorIdentity']:
                 if c in card['cost']:
                     card['color'] += c
@@ -121,14 +120,15 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
 
     cleanedcards = []
 
-    #let's remove any cards that are named in delete_cards array
-    for card in cards:
+    for card in cards: #let's remove any cards that are named in delete_cards array
         if not card['name'] in delete_cards:
             cleanedcards.append(card)
     cards = cleanedcards
 
     cardlist = []
     cardarray = []
+
+
     for card in cards:
         dupe = False
         for dupecheck in cardarray:
@@ -750,7 +750,11 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269):
             if match3:
                 c['url'] = match3.groupdict()['img']
             else:
-                match2 = re.search(mythicspoilerpattern.format((c['name']).lower().replace(' ', '').replace('&#x27;', '').replace('-', '').replace('\'','').replace(',', '')), text2, re.DOTALL)
+                if 'names' in c:
+                    mythicname = c['names'][0] + c['names'][1]
+                else:
+                    mythicname = c['name']
+                match2 = re.search(mythicspoilerpattern.format(mythicname.lower().replace(' ', '').replace('&#x27;', '').replace('-', '').replace('\'','').replace(',', '')), text2, re.DOTALL)
                 if match2 and not isfullspoil:
                     c['url'] = match2.group(0).replace(' src="', 'http://mythicspoiler.com/').replace('">', '')
                 pass
