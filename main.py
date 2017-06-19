@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
 import spoilers
-import sys
 import os
-import shutil
-#import configparser
+import commentjson
 import json
-#import urllib
 
 presets = {
-    "isfullspoil": False, #when full spoil comes around, we only want to use WOTC images
-    "includeMasterpieces": True, #if the set has masterpieces, let's get those too
-    "oldRSS": False, #maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
+    "isfullspoil": False, # when full spoil comes around, we only want to use WOTC images
+    "includeMasterpieces": True, # if the set has masterpieces, let's get those too
+    "oldRSS": False, # maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
     "split_cards": {
         "Grind": "Dust"
-    }
+    },
+    "siteorder": ['scryfall','mtgs','mythicspoiler'], # if we want to use one site before another for card data TODO
+    "useexclusively": '', # if we *only* want to use one site TODO
+    "dumpXML": True # let travis print XML for teting
 }
 
 with open('set_info.json') as data_file:
@@ -21,7 +21,6 @@ with open('set_info.json') as data_file:
 
 with open('cards_manual.json') as data_file:
     manual_sets = json.load(data_file)
-    #manual_cards = manual_cards['cards']
 
 with open('cards_corrections.json') as data_file:
     card_corrections = json.load(data_file)
@@ -33,22 +32,11 @@ errorlog = []
 
 #TODO insert configparser to add config.ini file
 
-# comment this out for now because multiple sets
-#for argument in sys.argv:
-    #we can modify any of the variables from the set infos file or the presets above at runtime
-    #works only for first-level variables currently (editing masterpieces
-    #syntax is variable="new value"
-    #for setinfo in setinfos:
-    #for setinfo in setinfo:
-    #    if setinfo in argument.split("=")[0]:
-    #        setinfos[setinfo] = argument.split("=")[1]
-    #for preset in presets:
-    #    if preset in argument.split("=")[0]:
-    #        presets[preset] = argument.split("=")[1]
+#TODO parse arguments so we can have Travis print xml for testing
 
 def save_allsets(AllSets):
     #TODO Create AllSets.json for Oracle
-    print "Saving AllSets"
+    print ""
 
 def save_masterpieces(masterpieces, setinfo):
     with open('out/' + setinfo['masterpieces']['setname'] + '.json', 'w') as outfile:
@@ -66,7 +54,7 @@ def save_errorlog(errorlog):
             fixederrors.append(error)
         else:
             unfixederrors.append(error)
-    errorlog = {"unfixed": unfixederrors, "fixed": fixederrors}
+    errorlog = [unfixederrors]
     with open('out/errors.json', 'w') as outfile:
         json.dump(errorlog, outfile, sort_keys=True, indent=2, separators=(',', ': '))
 
@@ -86,7 +74,7 @@ if __name__ == '__main__':
             mtgs = { "cards":[] }
         else:
             mtgs = spoilers.scrape_mtgs('http://www.mtgsalvation.com/spoilers.rss') #scrape mtgs rss feed
-            mtgs = spoilers.parse_mtgs(mtgs, [], [], [], presets['split_cards']) #parse spoilers into mtgjson format
+            [mtgs, split_cards] = spoilers.parse_mtgs(mtgs, [], [], [], presets['split_cards']) #parse spoilers into mtgjson format
         mtgs = spoilers.correct_cards(mtgs, manual_sets[setinfo['setname']]['cards'], card_corrections, delete_cards) #fix using the fixfiles
         scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfo['setname'].lower())
         mtgs = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize']) #get images
@@ -114,5 +102,11 @@ if __name__ == '__main__':
     spoilers.write_combined_xml(combinedjson, setinfos)
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
     save_errorlog(errorlog)
-    save_allsets(AllSets)
+    #save_allsets(AllSets)
     #save_setjson(mtgjson)
+    if presets['dumpXML']:
+        print '----- DUMPING SPOILER.XML -----'
+        with open('out/spoiler.xml', 'r') as xmlfile:
+            print xmlfile.read()
+        print '----- END XML DUMP -----'
+
