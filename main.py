@@ -13,17 +13,17 @@ presets = {
     }
 }
 
-with open('set_info.json') as data_file:
+with open('set_info') as data_file:
     setinfos = commentjson.load(data_file)
 
-with open('cards_manual.json') as data_file:
+with open('cards_manual') as data_file:
     manual_sets = commentjson.load(data_file)
     #manual_cards = manual_cards['cards']
 
-with open('cards_corrections.json') as data_file:
+with open('cards_corrections') as data_file:
     card_corrections = commentjson.load(data_file)
 
-with open('cards_delete.json') as data_file:
+with open('cards_delete') as data_file:
     delete_cards = commentjson.load(data_file)
 
 errorlog = []
