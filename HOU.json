@@ -28,6 +28,29 @@
     {
       "cmc": 3,
       "colorIdentity": [
+        "W",
+        "G"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "manaCost": "2G",
+      "name": "Pride Sovereign",
+      "number": "126",
+      "power": "2",
+      "rarity": "Rare",
+      "subtypes": [
+        "Cat"
+      ],
+      "text": "Pride Sovereign gets +1/+1 for each other Cat you control.\n{w}, {t}, Exert Pride Sovereign: Create two 1/1 white Cat creature tokens with lifelink. An exerted creature won't untap during your next untap step.)",
+      "toughness": "2",
+      "type": "Creature - Cat",
+      "types": [],
+      "url": "http://mythicspoiler.com/hou/cards/pridesovereign.jpg"
+    },
+    {
+      "cmc": 3,
+      "colorIdentity": [
         "W"
       ],
       "colors": [
@@ -213,22 +236,50 @@
     {
       "cmc": 2,
       "colorIdentity": [
-        "W",
         "B"
       ],
       "colors": [
         "Black"
       ],
+      "layout": "split",
       "manaCost": "1B",
-      "name": "Grind // Dust",
-      "number": "155",
+      "name": "Grind",
+      "names": [
+        "Grind",
+        "Dust"
+      ],
+      "number": "155a",
       "rarity": "Rare",
-      "text": "Put a -1/-1 counter on each of up to two target creatures.\n\n<hr />\n<strong>Dust</strong> {3w}\n<strong>Sorcery</strong>\nAftermath Cast this spell only from your graveyard.  Then exile it.)\nExile any number of target creatures that have -1/-1 counters on them.",
+      "text": "Put a -1/-1 counter on each of up to two target creatures.",
       "type": "Sorcery",
       "types": [
         "Sorcery"
       ],
-      "url": ""
+      "url": "http://mythicspoiler.com/hou/cards/grinddust.jpg"
+    },
+    {
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "White"
+      ],
+      "layout": "split",
+      "manaCost": "3W",
+      "name": "Dust",
+      "names": [
+        "Grind",
+        "Dust"
+      ],
+      "number": "155b",
+      "rarity": "Rare",
+      "text": "Aftermath Cast this spell only from your graveyard.  Then exile it.)\nExile any number of target creatures that have -1/-1 counters on them.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "url": "http://mythicspoiler.com/hou/cards/grinddust.jpg"
     },
     {
       "cmc": 2,
@@ -352,7 +403,7 @@
       "subtypes": [
         "Desert"
       ],
-      "text": "Desert of the True enters the battlefield tapped.\n{T}: Add {W} to your mana pool.\nCycling {1}{W} {1}{W}, Discard this card: Draw a card.)>",
+      "text": "Desert of the True enters the battlefield tapped.\n{T}: Add {W} to your mana pool.\nCycling {1}{W} {1}{W}, Discard this card: Draw a card.)",
       "type": "Land - Desert",
       "types": [],
       "url": "http://mythicspoiler.com/hou/cards/desertofthetrue.jpg"
@@ -368,7 +419,7 @@
       "subtypes": [
         "Desert"
       ],
-      "text": "Desert of the Fervent enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\nCycling {1}{R} {1}{R}, Discard this card: Draw a card.)>",
+      "text": "Desert of the Fervent enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\nCycling {1}{R} {1}{R}, Discard this card: Draw a card.)",
       "type": "Land - Desert",
       "types": [],
       "url": "http://mythicspoiler.com/hou/cards/desertofthefervent.jpg"
@@ -403,7 +454,7 @@
       "subtypes": [
         "Desert"
       ],
-      "text": "Desert of the Glorified enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\nCycling {1}{B} {1}{B}, Discard this card: Draw a card.)>",
+      "text": "Desert of the Glorified enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\nCycling {1}{B} {1}{B}, Discard this card: Draw a card.)",
       "type": "Land - Desert",
       "types": [],
       "url": "http://mythicspoiler.com/hou/cards/desertoftheglorified.jpg"
@@ -419,7 +470,7 @@
       "subtypes": [
         "Desert"
       ],
-      "text": "Desert of the Mindful enters the battlefield tapped.\n{T}: Add {U} to your mana pool.\nCycling {1}{U} {1}{U}, Discard this card: Draw a card.)>",
+      "text": "Desert of the Mindful enters the battlefield tapped.\n{T}: Add {U} to your mana pool.\nCycling {1}{U} {1}{U}, Discard this card: Draw a card.)",
       "type": "Land - Desert",
       "types": [],
       "url": "http://mythicspoiler.com/hou/cards/desertofthemindful.jpg"
