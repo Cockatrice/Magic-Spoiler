@@ -414,19 +414,6 @@ def error_check(mtgjson):
             errors.append({"name": card['name'], "key": "number", "value": ""})
         if not 'types' in card:
             errors.append({"name": card['name'], "key": "types", "value": ""})
-    for card in mtgjson['cards']:
-        for cardCorrection in card_corrections:
-            if card['name'] == cardCorrection:
-                for correctionType in card_corrections[cardCorrection]:
-                    # if not correctionType in card and correctionType not in :
-                    #    sys.exit("Invalid correction for " + cardCorrection + " of type " + card)
-                    if not correctionType == 'name':
-                        if correctionType == 'img':
-                            card['url'] = card_corrections[cardCorrection][correctionType]
-                        else:
-                            card[correctionType] = card_corrections[cardCorrection][correctionType]
-                if 'name' in card_corrections[cardCorrection]:
-                    card['name'] = card_corrections[cardCorrection]['name']
     return [mtgjson, errors]
 
 def remove_corrected_errors(errorlog=[], card_corrections=[], print_fixed=False):
