@@ -26,6 +26,80 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "manaCost":"2",
+      "name":"Crook of Comdemnation",
+      "number":"159",
+      "rarity":"Uncommon",
+      "text":"{1}, {t}: Exile target card from a graveyard.\n\n{1}, Exile Crook of Condemnation: Exile all cards from all graveyards",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":""
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"2W",
+      "name":"Solemnity",
+      "number":"22",
+      "rarity":"Rare",
+      "text":"Players can't get counters.\n\nCounters can't be put on artifacts creatures, enchantments, or lands.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/solemnity.jpg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"2U",
+      "name":"Fraying Sanity",
+      "number":"35",
+      "rarity":"Rare",
+      "subtypes":[
+        "Aura",
+        "Curse"
+      ],
+      "text":"Enchant player\n\nAt the beginning of each end step, enchanted player puts the top X cards of his or her library into his or her graveyard, where X is the total number of cards put into his or her graveyard from anywhere this turn. ",
+      "type":"Enchantment - Aura Curse",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/frayingsanity.jpg"
+    },
+    {
+      "cmc":7,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"6U",
+      "name":"Swarm Intelligence",
+      "number":"50",
+      "rarity":"Rare",
+      "text":"Whenever you cast an instant or sorcery spell, you may copy that spell and choose new targets for it.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/swarmintelligence.jpg"
+    },
+    {
       "cmc":6,
       "colorIdentity":[
         "U",
