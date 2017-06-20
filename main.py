@@ -38,8 +38,13 @@ def parseargs():
     for argument in sys.argv:
         for preset in presets:
             if argument.split('=')[0].lower().replace('-','') == preset.lower():
-                presets[preset] = argument.split('=')[1]
-                print "Setting preset " + preset + " to value " + argument.split('=')[1]
+                argvalue = argument.split('=')[1]
+                if argvalue in ['true','True','T','t']:
+                    argvalue = True
+                elif argvalue in ['false','False','F','f']:
+                    argvalue = False
+                presets[preset] = argvalue
+                print "Setting preset " + preset + " to value " + argvalue
 
 def save_allsets(AllSets):
     #TODO Create AllSets.json for Oracle

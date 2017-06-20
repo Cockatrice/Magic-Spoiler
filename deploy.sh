@@ -5,7 +5,7 @@ SOURCE_BRANCH="deploy-to-SpoilerSeasonFiles"
 TARGET_BRANCH="files"
 
 function doCompile {
-    python main.py
+    python main.py dumpXML=True
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
