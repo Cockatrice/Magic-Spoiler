@@ -19,17 +19,34 @@ presets = {
     "dumpXML": False # let travis print XML for testing
 }
 
-with open('set_info') as data_file:
-    setinfos = commentjson.load(data_file)
-
-with open('cards_manual') as data_file:
-    manual_sets = json.load(data_file)
-
-with open('cards_corrections') as data_file:
-    card_corrections = commentjson.load(data_file)
-
-with open('cards_delete') as data_file:
-    delete_cards = commentjson.load(data_file)
+try:
+    with open('set_info') as data_file:
+        setinfos = commentjson.load(data_file)
+except Exception as ex:
+    print "Unable to load file: set_info\nException information:\n" + str(ex.args) + \
+          "\nUnable to load file: set_info"
+    sys.exit()
+try:
+    with open('cards_manual') as data_file:
+        manual_sets = json.load(data_file)
+except Exception as ex:
+    print "Unable to load file: cards_manual\nException information:\n" + str(ex.args) + \
+          "\nUnable to load file: cards_manual"
+    sys.exit()
+try:
+    with open('cards_corrections') as data_file:
+        card_corrections = commentjson.load(data_file)
+except Exception as ex:
+    print "Unable to load file: cards_corrections\nException information:\n" + str(ex.args) + \
+          "\nUnable to load file: cards_corrections"
+    sys.exit()
+try:
+    with open('cards_delete') as data_file:
+        delete_cards = commentjson.load(data_file)
+except Exception as ex:
+    print "Unable to load file: cards_delete\nException information:\n" + str(ex.args) + \
+          "\nUnable to load file: cards_delete"
+    sys.exit()
 
 errorlog = []
 
