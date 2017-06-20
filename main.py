@@ -3,6 +3,7 @@ import spoilers
 import os
 import commentjson
 import json
+import io
 
 presets = {
     "isfullspoil": False, # when full spoil comes around, we only want to use WOTC images
@@ -43,8 +44,9 @@ def save_masterpieces(masterpieces, setinfo):
         json.dump(masterpieces, outfile, sort_keys=True, indent=2, separators=(',', ': '))
 
 def save_setjson(mtgs, filename):
-    with open('out/' + filename + '.json', 'w') as outfile:
-        json.dump(mtgs, outfile, sort_keys=True, indent=2, separators=(',', ': '))
+    with io.open('out/' + filename + '.json', 'w', encoding='utf8') as json_file:
+        data = json.dumps(mtgs, ensure_ascii=False, encoding='utf8', indent=2, sort_keys=True, separators=(',',':'))
+        json_file.write(unicode(data))
 
 def save_errorlog(errorlog):
     with open('out/errors.json', 'w') as outfile:

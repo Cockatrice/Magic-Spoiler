@@ -313,18 +313,11 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
 
     mtgjson = {"cards": mtgjson2}
 
-    for card in mtgjson['cards']:
-        for cardCorrection in card_corrections:
-            if card['name'] == cardCorrection:
-                for correctionType in card_corrections[cardCorrection]:
-                    if not correctionType == 'name':
-                        card[correctionType] = card_corrections[cardCorrection][correctionType]
-                if 'name' in card_corrections[cardCorrection]:
-                    card['name'] = card_corrections[cardCorrection]['name']
     return mtgjson
 
 def error_check(mtgjson):
     errors = []
+
     for card in mtgjson['cards']:
         for key in card:
             if key == "":
@@ -421,6 +414,19 @@ def error_check(mtgjson):
             errors.append({"name": card['name'], "key": "number", "value": ""})
         if not 'types' in card:
             errors.append({"name": card['name'], "key": "types", "value": ""})
+    for card in mtgjson['cards']:
+        for cardCorrection in card_corrections:
+            if card['name'] == cardCorrection:
+                for correctionType in card_corrections[cardCorrection]:
+                    # if not correctionType in card and correctionType not in :
+                    #    sys.exit("Invalid correction for " + cardCorrection + " of type " + card)
+                    if not correctionType == 'name':
+                        if correctionType == 'img':
+                            card['url'] = card_corrections[cardCorrection][correctionType]
+                        else:
+                            card[correctionType] = card_corrections[cardCorrection][correctionType]
+                if 'name' in card_corrections[cardCorrection]:
+                    card['name'] = card_corrections[cardCorrection]['name']
     return [mtgjson, errors]
 
 def remove_corrected_errors(errorlog=[], card_corrections=[], print_fixed=False):
@@ -449,30 +455,20 @@ def get_scryfall(setUrl):
     setDone = False
     scryfall = []
 
-    #firstPass = True
     while setDone == False:
         setcards = requests.get(setUrl)
         setcards = setcards.json()
         if setcards.has_key('data'):
-                #if firstPass:
-                #    cards[set]["cards"] = []
-                #    firstPass = False
             scryfall.append(setcards['data'])
-                #for setkey in mtgjson[set]:
-                #    if 'card' not in setkey:
-                #        if set != 'NMS':
-                #            cards[set][setkey] = mtgjson[set][setkey]
         else:
             setDone = True
             print setUrl
             print setcards
             print 'No Scryfall data'
             scryfall = ['']
-                #noset.append(set)
         time.sleep(.1)
         if setcards.has_key('has_more'):
             if setcards['has_more'] == True:
-                #print 'Going to extra page of ' + set
                 setUrl = setcards['next_page']
             else:
                 setDone = True
@@ -497,7 +493,7 @@ def convert_scryfall(scryfall):
         card2['number'] = card['collector_number']
         card2['rarity'] = card['rarity'].replace('mythic','mythic rare').title()
         if card.has_key('oracle_text'):
-            card2['text'] = card['oracle_text'].replace(u"\u2022 ", u'*').replace(u"\u2014",'-').replace(u"\u2212","-")
+            card2['text'] = card['oracle_text'].replace(u"\u2014",'-').replace(u"\u2212","-")
         else:
             card2['text'] = ''
         card2['url'] = card['image_uri']
