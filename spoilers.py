@@ -301,7 +301,7 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                             card['colorIdentity'] += CID
                     else:
                         card['colorIdentity'] = [CID]
-    print mtgjson
+    #print mtgjson
     for card in mtgjson['cards']:
         isManual = False
         for manualCard in manual_cards:
@@ -323,18 +323,11 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
 
     mtgjson = {"cards": mtgjson2}
 
-    for card in mtgjson['cards']:
-        for cardCorrection in card_corrections:
-            if card['name'] == cardCorrection:
-                for correctionType in card_corrections[cardCorrection]:
-                    if not correctionType == 'name':
-                        card[correctionType] = card_corrections[cardCorrection][correctionType]
-                if 'name' in card_corrections[cardCorrection]:
-                    card['name'] = card_corrections[cardCorrection]['name']
     return mtgjson
 
-def errorcheck(mtgjson):
+def errorcheck(mtgjson, card_corrections={}):
     errors = []
+
     for card in mtgjson['cards']:
         for key in card:
             if key == "":
@@ -431,6 +424,20 @@ def errorcheck(mtgjson):
             errors.append({"name": card['name'], "key": "number", "value": ""})
         if not 'types' in card:
             errors.append({"name": card['name'], "key": "types", "value": ""})
+
+    for card in mtgjson['cards']:
+        for cardCorrection in card_corrections:
+            if card['name'] == cardCorrection:
+                for correctionType in card_corrections[cardCorrection]:
+                    # if not correctionType in card and correctionType not in :
+                    #    sys.exit("Invalid correction for " + cardCorrection + " of type " + card)
+                    if not correctionType == 'name':
+                        if correctionType == 'img':
+                            card['url'] = card_corrections[cardCorrection][correctionType]
+                        else:
+                            card[correctionType] = card_corrections[cardCorrection][correctionType]
+                if 'name' in card_corrections[cardCorrection]:
+                    card['name'] = card_corrections[cardCorrection]['name']
     #print errors
     return [mtgjson, errors]
 
@@ -488,7 +495,7 @@ def convert_scryfall(scryfall):
         card2['number'] = card['collector_number']
         card2['rarity'] = card['rarity'].replace('mythic','mythic rare').title()
         if card.has_key('oracle_text'):
-            card2['text'] = card['oracle_text'].replace(u"\u2022 ", u'*').replace(u"\u2014",'-').replace(u"\u2212","-")
+            card2['text'] = card['oracle_text'].replace(u"\u2014",'-').replace(u"\u2212","-")
         else:
             card2['text'] = ''
         card2['url'] = card['image_uri']
