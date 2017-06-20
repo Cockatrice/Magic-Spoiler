@@ -86,7 +86,7 @@ if __name__ == '__main__':
         scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfo['setname'].lower())
         mtgs = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize']) #get images
         mtgjson = spoilers.smash_mtgs_scryfall(mtgs, scryfall)
-        [mtgjson, errors] = spoilers.error_check(mtgjson) #check for errors where possible
+        [mtgjson, errors] = spoilers.error_check(mtgjson, card_corrections) #check for errors where possible
         errorlog += errors
         spoilers.write_xml(mtgjson, setinfo['setname'], setinfo['setlongname'], setinfo['setreleasedate'])
         #save_xml(spoilers.pretty_xml(setinfo['setname']), 'out/spoiler.xml')
