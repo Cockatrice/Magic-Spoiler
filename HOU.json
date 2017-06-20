@@ -26,6 +26,73 @@
   "border":"black",
   "cards":[
     {
+      "cmc":6,
+      "colorIdentity":[
+        "U",
+        "R"
+      ],
+      "colors":[
+        "Blue",
+        "Red"
+      ],
+      "manaCost":"4UR",
+      "name":"The Locust God",
+      "number":"139",
+      "power":"4",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "God"
+      ],
+      "text":"Flying\nWhenever you draw a card, create a 1/1 blue and red Insect creature token with flying and haste.\n{2}{U}{R}: Draw a card, then discard a card.\nWhen The Locust God dies, return it to its owner's hand at the beginning of the next end step.",
+      "toughness":"4",
+      "type":"Legendary Creature - God",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/289/636335483416232829.png"
+    },
+    {
+      "cmc":0,
+      "name":"Scavenger Grounds",
+      "number":"182",
+      "rarity":"Rare",
+      "subtypes":[
+        "Desert"
+      ],
+      "text":"{t}: Add {c} to your mana pool.\n{2}, {t}, sacrifice a Desert: Exile all cards from all graveyards.",
+      "type":"Land - Desert",
+      "types":[
+        "Land"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/scavengergrounds.jpg"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"3RR",
+      "name":"Neheb, the Eternal",
+      "number":"104",
+      "power":"4",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Zombie",
+        "Minotaur",
+        "Warrior"
+      ],
+      "text":"Afflict 3 Whenever this creature becomes blocked, defending player loses 3 life.)\nAt the beginning of your postcombat main phase, add {R} to your mana pool for each 1 life your opponents have lost this turn.",
+      "toughness":"6",
+      "type":"Legendary Creature - Zombie Minotaur Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/nehebtheeternal.jpg"
+    },
+    {
       "cmc":4,
       "colorIdentity":[
         "G"
@@ -45,7 +112,9 @@
       "text":"Vigilance, reach, trample\n\nRamunap Hydra gets +1/+1 as long as you control a Desert.\n\nRamunap Hydra gets +1/+1 as long as there is a Desert card in your graveyard.",
       "toughness":"3",
       "type":"Creature - Snake Hydra",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/ramunaphydra.jpg"
     },
     {
@@ -59,7 +128,7 @@
       "text":"",
       "type":"Basic Land - Forest",
       "types":[
-        "Basic"
+        "Land"
       ],
       "url":"http://mythicspoiler.com/hou/cards/forest1.jpg"
     },
@@ -74,7 +143,7 @@
       "text":"",
       "type":"Basic Land - Mountain",
       "types":[
-        "Basic"
+        "Land"
       ],
       "url":"http://mythicspoiler.com/hou/cards/mountain1.jpg"
     },
@@ -89,7 +158,7 @@
       "text":"",
       "type":"Basic Land - Swamp",
       "types":[
-        "Basic"
+        "Land"
       ],
       "url":"http://mythicspoiler.com/hou/cards/swamp1.jpg"
     },
@@ -104,7 +173,7 @@
       "text":"",
       "type":"Basic Land - Island",
       "types":[
-        "Basic"
+        "Land"
       ],
       "url":"http://mythicspoiler.com/hou/cards/island1.jpg"
     },
@@ -119,7 +188,7 @@
       "text":"",
       "type":"Basic Land - Plains",
       "types":[
-        "Basic"
+        "Land"
       ],
       "url":"http://mythicspoiler.com/hou/cards/plains1.jpg"
     },
@@ -156,7 +225,9 @@
       "text":"Pride Sovereign gets +1/+1 for each other Cat you control.\n{w}, {t}, Exert Pride Sovereign: Create two 1/1 white Cat creature tokens with lifelink. An exerted creature won't untap during your next untap step.)",
       "toughness":"2",
       "type":"Creature - Cat",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/pridesovereign.jpg"
     },
     {
@@ -230,7 +301,9 @@
       "text":"Menace\n\nWhen Dreamstealer deals combat damage to a player, that player discards that many cards.\n\nEternalize {4bb} {4BB}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)",
       "toughness":"2",
       "type":"Creature - Human Wizard",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/dreamstealer.jpg"
     },
     {
@@ -272,7 +345,9 @@
       "text":"Menace\n\nYou may exert Khenra Scrapper as it attacks.  When you do, it gets +2/+0 until end of turn.  An exerted creature won't untap during your next untap step.)",
       "toughness":"3",
       "type":"Creature - Jackal Warrior",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/khenrascrapper.jpg"
     },
     {
@@ -341,7 +416,9 @@
       ],
       "text":"Enchant creature\nWhen Desert's Hold enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you gain 3 life.\n\nEnchanted creature can't attack or block, and its activated abilities can't be activated.",
       "type":"Enchantment - Aura",
-      "types":[],
+      "types":[
+        "Enchantment"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/desertshold.jpg"
     },
     {
@@ -412,7 +489,9 @@
       "text":"",
       "toughness":"2",
       "type":"Creature - Jackal Warrior",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/defiantkhenra.jpg"
     },
     {
@@ -436,7 +515,9 @@
       "text":"Whenever a creature with a -1/-1 counter on it dies, draw a card.\n\n{1br}: Put a -1/-1 counter on another target creature.\n\nWhen The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.",
       "toughness":"5",
       "type":"Legendary Creature - God",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://media-dominaria.cursecdn.com/avatars/132/275/636334653373248819.png"
     },
     {
@@ -448,7 +529,7 @@
         "White"
       ],
       "manaCost":"4WW",
-      "name":"Angel of the God-Pharaoh",
+      "name":"Angel of the God-Pharoh",
       "number":"4",
       "power":"4",
       "rarity":"Uncommon",
@@ -458,8 +539,10 @@
       "text":"Flying\nCycling {2} {2}, Discard this card: Draw a card.)",
       "toughness":"4",
       "type":"Creature - Angel",
-      "types":[],
-      "url":"http://mythicspoiler.com/hou/cards/angelofthegodpharaoh.jpg"
+      "types":[
+        "Creature"
+      ],
+      "url":""
     },
     {
       "cmc":6,
@@ -500,7 +583,9 @@
       "text":"As long as  you control a Desert or there is a Desert card in your graveyard, Sidewinder Naga gets +1/+0 and has trample.",
       "toughness":"2",
       "type":"Creature - Naga Warrior",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/sidewindernaga.jpg"
     },
     {
@@ -516,7 +601,9 @@
       ],
       "text":"Desert of the True enters the battlefield tapped.\n{T}: Add {W} to your mana pool.\nCycling {1}{W} {1}{W}, Discard this card: Draw a card.)",
       "type":"Land - Desert",
-      "types":[],
+      "types":[
+        "Land"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/desertofthetrue.jpg"
     },
     {
@@ -532,7 +619,9 @@
       ],
       "text":"Desert of the Fervent enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\nCycling {1}{R} {1}{R}, Discard this card: Draw a card.)",
       "type":"Land - Desert",
-      "types":[],
+      "types":[
+        "Land"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/desertofthefervent.jpg"
     },
     {
@@ -567,7 +656,9 @@
       ],
       "text":"Desert of the Glorified enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\nCycling {1}{B} {1}{B}, Discard this card: Draw a card.)",
       "type":"Land - Desert",
-      "types":[],
+      "types":[
+        "Land"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/desertoftheglorified.jpg"
     },
     {
@@ -583,7 +674,9 @@
       ],
       "text":"Desert of the Mindful enters the battlefield tapped.\n{T}: Add {U} to your mana pool.\nCycling {1}{U} {1}{U}, Discard this card: Draw a card.)",
       "type":"Land - Desert",
-      "types":[],
+      "types":[
+        "Land"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/desertofthemindful.jpg"
     },
     {
@@ -605,7 +698,9 @@
       "text":"Whenever Gilded Cerodon attacks, if you control a Desert or there is a Desert card in your graveyard, target creature can't block this turn.",
       "toughness":"4",
       "type":"Creature - Beast",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/gildedcerodon.jpg"
     },
     {
@@ -628,7 +723,9 @@
       "text":"Flying",
       "toughness":"1",
       "type":"Creature - Zombie Bird",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/carrionscreecher.jpg"
     },
     {
@@ -650,7 +747,9 @@
       "text":"When Sand Strangler enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you may have Sand Strangler deal 3 damage to target creature.",
       "toughness":"3",
       "type":"Creature - Beast",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/sandstrangler.jpg"
     },
     {
@@ -685,7 +784,9 @@
       ],
       "text":"Desert of the Indomitable enters the battlefield tapped.\n{t}: Add {g} to your mana pool.\n\nCycling {1g} {1g}, Discard this card: Draw a card.)",
       "type":"Land - Desert",
-      "types":[],
+      "types":[
+        "Land"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/desertoftheindomitable.jpg"
     },
     {
@@ -707,7 +808,9 @@
       "text":"{1b}: Target attacking Zombie gains indestructible until end of turn. Damage and effects that say “destroy” don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)",
       "toughness":"3",
       "type":"Creature - Zombie",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/accursedhorde.jpg"
     },
     {
@@ -730,7 +833,9 @@
       "text":"{t}: Add one mana of any color to your mana pool.\n\n{t}, Exert Oasis Ritualist: Add two mana of any one color to your manna pool. An exerted creature won't untap during your next untap step.)",
       "toughness":"4",
       "type":"Creature - Naga Druid",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/oasisritualist.jpg"
     },
     {
@@ -753,7 +858,9 @@
       "text":"Vigilance\nEternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Human Cleric with no mana cost. Eternalize only as a sorcery.)",
       "toughness":"3",
       "type":"Creature - Human Cleric",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/steadfastsentinel.jpg"
     },
     {
@@ -776,8 +883,10 @@
       "text":"Marauding Boneslasher can't block unless you control another Zombie.",
       "toughness":"3",
       "type":"Creature - Zombie Minotaur",
-      "types":[],
-      "url":"http://mythicspoiler.com/hou/cards/maraudingboneslasher.jpg"
+      "types":[
+        "Creature"
+      ],
+      "url":""
     },
     {
       "cmc":2,
@@ -800,7 +909,9 @@
       "text":"Afflict 1 Whenever this creature becomes blocked, defending player loses 1 life.)",
       "toughness":"2",
       "type":"Creature - Zombie Jackal Warrior",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/khenraeternal.jpg"
     },
     {
@@ -820,7 +931,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/230/636334621942025181.png"
+      "url":""
     },
     {
       "cmc":1,
@@ -839,7 +950,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/249/636334628059797723.png"
+      "url":"http://mythicspoiler.com/hou/cards/lilianasdefeat.jpg"
     },
     {
       "cmc":1,
@@ -877,7 +988,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/241/636334625118728320.png"
+      "url":"http://mythicspoiler.com/hou/cards/nissasdefeat.jpg"
     },
     {
       "cmc":2,
@@ -919,7 +1030,9 @@
       "text":"Afflict 4 Whenever this creature becomes blocked, defending player loses 4 life.)\nWhenever Wildfire Eternal attacks and isn't blocked, you may cast an instant or sorcery card from your hand without paying its mana cost.",
       "toughness":"4",
       "type":"Creature - Zombie Jackal Cleric",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/wildfireeternal.jpg"
     },
     {
@@ -941,8 +1054,10 @@
       "text":"Double strike\nEternalize {3}{W}{W} {3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Cat with no mana cost. Eternalize only as a sorcery.)",
       "toughness":"1",
       "type":"Creature - Cat",
-      "types":[],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/227/636334617515964493.png"
+      "types":[
+        "Creature"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/adornedpouncer.jpg"
     },
     {
       "cmc":2,
@@ -961,7 +1076,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/229/636334621697181779.png"
+      "url":"http://mythicspoiler.com/hou/cards/abrade.jpg"
     },
     {
       "cmc":3,
@@ -983,7 +1098,9 @@
       "text":"You may play land cards from your graveyard.",
       "toughness":"3",
       "type":"Creature - Naga Cleric",
-      "types":[],
+      "types":[
+        "Creature"
+      ],
       "url":"http://mythicspoiler.com/hou/cards/ramunapexcavator.jpg"
     },
     {

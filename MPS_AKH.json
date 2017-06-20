@@ -5,6 +5,32 @@
   "border": "black",
   "cards": [
     {
+      "cmc": 6,
+      "colorIdentity": [
+        "U",
+        "R"
+      ],
+      "colors": [
+        "Blue",
+        "Red"
+      ],
+      "manaCost": "4UR",
+      "name": "The Locust God",
+      "number": "139",
+      "power": "4",
+      "rarity": "Mythic Rare",
+      "subtypes": [
+        "God"
+      ],
+      "text": "Flying\nWhenever you draw a card, create a 1/1 blue and red Insect creature token with flying and haste.\n{2}{U}{R}: Draw a card, then discard a card.\nWhen The Locust God dies, return it to its owner's hand at the beginning of the next end step.",
+      "toughness": "4",
+      "type": "Legendary Creature - God",
+      "types": [
+        "Creature"
+      ],
+      "url": "http://media-dominaria.cursecdn.com/avatars/132/289/636335483416232829.png"
+    },
+    {
       "artist": "Lucas Graciano",
       "cmc": 1,
       "colorIdentity": [
@@ -261,7 +287,9 @@
       "text": "Whenever a creature with a -1/-1 counter on it dies, draw a card.\n\n{1br}: Put a -1/-1 counter on another target creature.\n\nWhen The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.",
       "toughness": "5",
       "type": "Legendary Creature - God",
-      "types": [],
+      "types": [
+        "Creature"
+      ],
       "url": "http://media-dominaria.cursecdn.com/avatars/132/275/636334653373248819.png"
     },
     {
