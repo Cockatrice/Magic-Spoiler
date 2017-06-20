@@ -45,7 +45,7 @@ def parseargs():
                 elif argvalue in ['false','False','F','f']:
                     argvalue = False
                 presets[preset] = argvalue
-                print "Setting preset " + preset + " to value " + argvalue
+                print "Setting preset " + preset + " to value " + str(argvalue)
 
 def save_allsets(AllSets):
     #TODO Create AllSets.json for Oracle
