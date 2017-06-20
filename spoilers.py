@@ -15,11 +15,10 @@ import xml.dom.minidom
 from bs4 import BeautifulSoup as BS
 from bs4 import Comment
 
-
 def scrape_mtgs(url):
     return requests.get(url, headers={'Cache-Control':'no-cache', 'Pragma':'no-cache', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT'}).text
 
-def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], split_cards=[], related_cards=[]):
+def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], split_cards={}, related_cards=[]):
     mtgs = mtgs.replace('utf-16','utf-8')
     patterns = ['<b>Name:</b> <b>(?P<name>.*?)<',
                 'Cost: (?P<cost>\d{0,2}[WUBRGC]*?)<',
@@ -121,16 +120,12 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
                         card['colorIdentity'] += c
 
     cleanedcards = []
-
     for card in cards: #let's remove any cards that are named in delete_cards array
         if not card['name'] in delete_cards:
             cleanedcards.append(card)
     cards = cleanedcards
 
-    cardlist = []
     cardarray = []
-
-
     for card in cards:
         dupe = False
         for dupecheck in cardarray:
@@ -138,8 +133,6 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
                 dupe = True
         if dupe == True:
             continue
-        #if 'draft' in card['rules']:
-        #    continue
         for cid in card['colorIdentity']:
             card['colorIdentityArray'].append(cid)
         if 'W' in card['color']:
@@ -188,19 +181,11 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
             if 'b' in card['number'] or 'a' in card['number']:
                 if not 'layout' in card:
                     print card['name'] + " has a a/b number but no 'layout'"
-
-        cardtypes = []
-        if not '-' in card['type']:
-            card['type'] = card['type'].replace('instant','Instant').replace('sorcery','Sorcery').replace('creature','Creature')
-            cardtypes.append(card['type'].replace('instant','Instant'))
-        else:
-            cardtypes = card['type'].replace('Legendary ','').split(' - ')[0].split(' ')[:-1]
+        card['type'] = card['type'].replace('instant','Instant').replace('sorcery','Sorcery').replace('creature','Creature')
         if '-' in card['type']:
             subtype = card['type'].split(' - ')[1].strip()
         else:
             subtype = False
-        #if u"—" in card['type']:
-        #    subtype = card['type'].split(' — ')[1].strip()
         if subtype:
             subtypes = subtype.split(' ')
         else:
@@ -216,7 +201,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
         #not sure if mtgjson has a list of acceptable rarities, but my application does
         #so we'll warn me but continue to write a non-standard rarity (timeshifted?)
         #may force 'special' in the future
-        if card['rarity'] not in ['Mythic Rare','Rare','Uncommon','Common','Special']:
+        if card['rarity'] not in ['Mythic Rare','Rare','Uncommon','Common','Special','Basic Land']:
             #errors.append({"name": card['name'], "key": "rarity", "value": card['rarity']})
             print card['name'] + ' has rarity = ' + card['rarity']
         if subtypes:
@@ -224,8 +209,15 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
         cardjson["rarity"] = card['rarity']
         cardjson["text"] = card['rules']
         cardjson["type"] = card['type']
+
+        workingtypes = card['type']
+        if ' - ' in workingtypes:
+            workingtypes = card['type'].split(' - ')[0]
+        cardjson['types'] = workingtypes.replace('Legendary ','').replace('Snow ','')\
+                .replace('Elite ','').replace('Basic ','').replace('World ','').replace('Ongoing ','')\
+                .strip().split(' ')
         cardjson["url"] = card['img']
-        cardjson["types"] = cardtypes
+
         #optional fields
         if len(card['colorIdentityArray']) > 0:
             cardjson["colorIdentity"] = card['colorIdentityArray']
@@ -258,13 +250,12 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                     workingCMC += 1
         if 'types' not in card:
             card['types'] = []
-#            if '—' in card['type']:
-#                workingTypes = card['type'].split('—')[0].strip()
-#            else:
-            workingTypes = card['type'].split('-')[0].strip()
-            workingTypes.replace('Legendary ','').replace('Snow ','')\
-                .replace('Elite ','').replace('Basic ','').replace('World ','').replace('Ongoing ','')
-            card['types'] += workingTypes.split(' ')
+            workingtypes = card['type']
+            if ' - ' in workingtypes:
+                workingtypes = card['type'].split(' - ')[0]
+            card['types'] = workingtypes.replace('Legendary ', '').replace('Snow ', '') \
+                .replace('Elite ', '').replace('Basic ', '').replace('World ', '').replace('Ongoing ', '') \
+                .strip().split(' ')
         if 'subtypes' not in card:
 #            if '—' in card['type']:
 #                workingSubtypes = card['type'].split('—')[1].strip()
@@ -301,7 +292,6 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                             card['colorIdentity'] += CID
                     else:
                         card['colorIdentity'] = [CID]
-    print mtgjson
     for card in mtgjson['cards']:
         isManual = False
         for manualCard in manual_cards:
@@ -333,13 +323,13 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                     card['name'] = card_corrections[cardCorrection]['name']
     return mtgjson
 
-def errorcheck(mtgjson):
+def error_check(mtgjson):
     errors = []
     for card in mtgjson['cards']:
         for key in card:
             if key == "":
                 errors.append({"name": card['name'], "key": key, "value": ""})
-        requiredKeys = ['name','type']
+        requiredKeys = ['name','type','types']
         for requiredKey in requiredKeys:
             if not requiredKey in card:
                 errors.append({"name": card['name'], "key": key, "missing": True})
@@ -431,8 +421,27 @@ def errorcheck(mtgjson):
             errors.append({"name": card['name'], "key": "number", "value": ""})
         if not 'types' in card:
             errors.append({"name": card['name'], "key": "types", "value": ""})
-    #print errors
     return [mtgjson, errors]
+
+def remove_corrected_errors(errorlog=[], card_corrections=[], print_fixed=False):
+    errorlog2 = {}
+    for error in errorlog:
+        if not print_fixed:
+            if 'fixed' in error and error['fixed'] == True:
+                continue
+        removeError = False
+        for correction in card_corrections:
+            for correction_type in card_corrections[correction]:
+                if error['name'] == correction:
+                    if error['key'] == correction_type:
+                        removeError = True
+        if not removeError:
+            if not error['name'] in errorlog2:
+                errorlog2[error['name']] = {}
+            if not 'value' in error:
+                error['value'] = ""
+            errorlog2[error['name']][error['key']] = error['value']
+    return errorlog2
 
 def get_scryfall(setUrl):
     #getUrl = 'https://api.scryfall.com/cards/search?q=++e:'

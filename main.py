@@ -47,14 +47,6 @@ def save_setjson(mtgs, filename):
         json.dump(mtgs, outfile, sort_keys=True, indent=2, separators=(',', ': '))
 
 def save_errorlog(errorlog):
-    fixederrors = []
-    unfixederrors = []
-    for error in errorlog:
-        if 'fixed' in error:
-            fixederrors.append(error)
-        else:
-            unfixederrors.append(error)
-    errorlog = [unfixederrors]
     with open('out/errors.json', 'w') as outfile:
         json.dump(errorlog, outfile, sort_keys=True, indent=2, separators=(',', ': '))
 
@@ -79,7 +71,7 @@ if __name__ == '__main__':
         scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfo['setname'].lower())
         mtgs = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize']) #get images
         mtgjson = spoilers.smash_mtgs_scryfall(mtgs, scryfall)
-        [mtgjson, errors] = spoilers.errorcheck(mtgjson) #check for errors where possible
+        [mtgjson, errors] = spoilers.error_check(mtgjson) #check for errors where possible
         errorlog += errors
         spoilers.write_xml(mtgjson, setinfo['setname'], setinfo['setlongname'], setinfo['setreleasedate'])
         #save_xml(spoilers.pretty_xml(setinfo['setname']), 'out/spoiler.xml')
@@ -90,7 +82,7 @@ if __name__ == '__main__':
             #old cards will get their infos copied from mtgjson (including fields that may not apply like 'artist')
             #the images will still come from mtgs
             masterpieces = spoilers.make_masterpieces(setinfo['masterpieces'], AllSets, mtgjson)
-            [masterpieces, errors] = spoilers.errorcheck(masterpieces)
+            [masterpieces, errors] = spoilers.error_check(masterpieces)
             errorlog += errors
             spoilers.write_xml(masterpieces, setinfo['masterpieces']['setname'], setinfo['masterpieces']['setlongname'], setinfo['masterpieces']['setreleasedate'])
             AllSets = spoilers.make_allsets(AllSets, masterpieces, setinfo['masterpieces']['setname'])
@@ -101,11 +93,15 @@ if __name__ == '__main__':
     save_setjson(combinedjson, 'spoiler')
     spoilers.write_combined_xml(combinedjson, setinfos)
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
+    errorlog = spoilers.remove_corrected_errors(errorlog, card_corrections)
     save_errorlog(errorlog)
     #save_allsets(AllSets)
     #save_setjson(mtgjson)
     if presets['dumpXML']:
-        print '----- DUMPING SPOILER.XML -----'
+        print '<!----- DUMPING SPOILER.XML ----->'
         with open('out/spoiler.xml', 'r') as xmlfile:
             print xmlfile.read()
-        print '----- END XML DUMP -----'
+        print '<!-----    END XML DUMP     ----->'
+        print '#----- DUMPING ERROR LOG -----'
+        print json.dumps(errorlog, ensure_ascii=False, encoding='utf8', indent=2, sort_keys=True, separators=(',',':'))
+        print '#-----   END ERROR LOG   -----'
