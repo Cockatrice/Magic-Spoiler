@@ -4,6 +4,7 @@ import os
 import commentjson
 import json
 import io
+import sys
 
 presets = {
     "isfullspoil": False, # when full spoil comes around, we only want to use WOTC images
@@ -13,8 +14,9 @@ presets = {
         "Grind": "Dust"
     },
     "siteorder": ['scryfall','mtgs','mythicspoiler'], # if we want to use one site before another for card data TODO
+    "imageorder": ['wotc','scryfall','mtgs','mythicspoiler'], # prioritize images from certain sources
     "useexclusively": '', # if we *only* want to use one site TODO
-    "dumpXML": True # let travis print XML for testing
+    "dumpXML": False # let travis print XML for testing
 }
 
 with open('set_info') as data_file:
@@ -33,7 +35,17 @@ errorlog = []
 
 #TODO insert configparser to add config.ini file
 
-#TODO parse arguments so we can have Travis print xml for testing
+def parseargs():
+    for argument in sys.argv:
+        for preset in presets:
+            if argument.split('=')[0].lower().replace('-','') == preset.lower():
+                argvalue = argument.split('=')[1]
+                if argvalue in ['true','True','T','t']:
+                    argvalue = True
+                elif argvalue in ['false','False','F','f']:
+                    argvalue = False
+                presets[preset] = argvalue
+                print "Setting preset " + preset + " to value " + argvalue
 
 def save_allsets(AllSets):
     #TODO Create AllSets.json for Oracle
@@ -61,6 +73,7 @@ def save_xml(xmlstring, outfile):
         xmlfile.write(xmlstring.encode('utf-8'))
 
 if __name__ == '__main__':
+    parseargs()
     AllSets = spoilers.get_allsets() #get AllSets from mtgjson
     combinedjson = {}
     for setinfo in setinfos:
