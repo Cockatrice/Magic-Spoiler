@@ -11,7 +11,8 @@ presets = {
     "includeMasterpieces": True, # if the set has masterpieces, let's get those too
     "oldRSS": False, # maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
     "split_cards": {
-        "Grind": "Dust"
+        "Grind": "Dust",
+        "Driven": "Despair"
     },
     "siteorder": ['scryfall','mtgs','mythicspoiler'], # if we want to use one site before another for card data TODO
     "imageorder": ['wotc','scryfall','mtgs','mythicspoiler'], # prioritize images from certain sources
