@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
-SOURCE_BRANCH="deploy-to-SpoilerSeasonFiles"
+SOURCE_BRANCH="master"
 TARGET_BRANCH="files"
 
 function doCompile {
