@@ -184,6 +184,30 @@
     "border":"black",
     "cards":[
       {
+        "cmc":4,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2WW",
+        "name":"Angel of Condemnation",
+        "number":"3",
+        "power":"3",
+        "rarity":"Rare",
+        "subtypes":[
+          "Angel"
+        ],
+        "text":"Flying, vigilance\n{2}{W}, {T}: Exile another target creature. Return that card to the battlefield under its owners control at the beginning of the next end step.\n{2}{W}, {T}, Exert Angel of Condemnation: Exile another target creature until Angel of Condemnation leaves the battlefield. An exerted creature won't untap during your next untap step.)",
+        "toughness":"3",
+        "type":"Creature - Angel",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
         "cmc":6,
         "colorIdentity":[
           "U"
