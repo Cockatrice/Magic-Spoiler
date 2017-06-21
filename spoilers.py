@@ -54,15 +54,19 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
         if 'rules' in card:
             htmltags = re.compile(r'<.*?>')
             card['rules'] = htmltags.sub('', card['rules'])
-        if '//' in card['name']:
+        if '//' in card['name'] or 'Aftermath' in card['rules']:
             print 'Splitting up Aftermath card ' + card['name']
-            card['name'] = card['name'].replace(' // ','//')
             card1 = card.copy()
-            card1['name'] = card['name'].split('//')[0]
-            card1['rules'] = card['rules'].split('\n\n\n')[0]
             card2 = dict(cost='',cmc='',img='',pow='',name='',rules='',type='',
                 color='', altname='', colorIdentity='', colorArray=[], colorIdentityArray=[], setnumber='', rarity='')
-            card2["name"] = card['name'].split('//')[1]
+            if '//' in card['name']:
+                card['name'] = card['name'].replace(' // ','//')
+                card1['name'] = card['name'].split('//')[0]
+                card2["name"] = card['name'].split('//')[1]
+            else:
+                card1['name'] = card['name']
+                card2["name"] = card['rules'].split('\n\n')[1].strip().split(' {')[0]
+            card1['rules'] = card['rules'].split('\n\n')[0].strip()
             card2["rules"] = "Aftermath" + card['rules'].split('Aftermath')[1]
             card2['cost'] = re.findall(r'{.*}',card['rules'])[0].replace('{','').replace('}','').upper()
             card2['type'] = re.findall(r'}\n.*\n', card['rules'])[0].replace('}','').replace('\n','')
