@@ -184,6 +184,94 @@
     "border":"black",
     "cards":[
       {
+        "cmc":6,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"4UU",
+        "name":"Unesh, Criosphinx Sovereign",
+        "number":"52",
+        "power":"4",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Sphinx"
+        ],
+        "text":"Flying\nSphinx spells you cast cost {2} less to cast.\nWhenever Unesh, Criosphinx Sovereign or another Sphinx enters the battlefield under your control, reveal the top four cards of your library. An opponent seperates those cards into two piles. Put one pile into your hand and the other into your graveyard",
+        "toughness":"4",
+        "type":"Legendary Creature - Sphinx",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "B",
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "layout":"split",
+        "manaCost":"1G",
+        "name":"Driven",
+        "names":[
+          "Driven",
+          "Despair"
+        ],
+        "number":"157a",
+        "rarity":"Rare",
+        "text":"Until end of turn, creatures you control gain trample and \"Whenever this creature deals combat damage to a player, draw a card.\"\n\nDespair {1}{B}\nSorcery\nAftermath\nUntil end of turn, creatures you control gain menace and \"Whenever this creature deals combat damage to a player, that player discards a card.\"",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://mythicspoiler.com/hou/cards/drivendespair.jpg"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "layout":"split",
+        "manaCost":"1B",
+        "name":"Despair",
+        "names":[
+          "Driven",
+          "Despair"
+        ],
+        "number":"157b",
+        "rarity":"Rare",
+        "text":"Aftermath\nUntil end of turn, creatures you control gain menace and \"Whenever this creature deals combat damage to a player, that player discards a card.\"",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://mythicspoiler.com/hou/cards/drivendespair.jpg"
+      },
+      {
+        "cmc":0,
+        "name":"Hostile Desert",
+        "number":"178",
+        "rarity":"Rare",
+        "subtypes":[
+          "Desert"
+        ],
+        "text":"{T}: Add {c} to your mana pool.\n{2}, Exile a land card from your graveyard: Hostile Desert becomes a 3/4 Elemental creature until end of turn. It's still a land.",
+        "type":"Land - Desert",
+        "types":[
+          "Land"
+        ],
+        "url":"http://mythicspoiler.com/hou/cards/hostiledesert.jpg"
+      },
+      {
         "cmc":2,
         "manaCost":"2",
         "name":"Crook of Condemnation",
@@ -1038,7 +1126,7 @@
         "subtypes":[
           "Zombie"
         ],
-        "text":"{1b}: Target attacking Zombie gains indestructible until end of turn. Damage and effects that say “destroy” don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)",
+        "text":"{1b}: Target attacking Zombie gains indestructible until end of turn. Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)",
         "toughness":"3",
         "type":"Creature - Zombie",
         "types":[
