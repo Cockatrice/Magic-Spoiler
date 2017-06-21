@@ -59,7 +59,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
             card['name'] = card['name'].replace(' // ','//')
             card1 = card.copy()
             card1['name'] = card['name'].split('//')[0]
-            card1['rules'] = card['rules'].split('\n\n\n')[0]
+            card1['rules'] = card['rules'].split('\n\n')[0]
             card2 = dict(cost='',cmc='',img='',pow='',name='',rules='',type='',
                 color='', altname='', colorIdentity='', colorArray=[], colorIdentityArray=[], setnumber='', rarity='')
             card2["name"] = card['name'].split('//')[1]
