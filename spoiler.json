@@ -184,6 +184,109 @@
     "border":"black",
     "cards":[
       {
+        "cmc":3,
+        "colorIdentity":[
+          "U",
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2G",
+        "name":"Avid Reclaimer",
+        "number":"201",
+        "power":"2",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Human",
+          "Druid"
+        ],
+        "text":"{T}: Add {G} or {U} to your mana pool. If you control a Nissa planeswalker, you gain 2 life.",
+        "toughness":"2",
+        "type":"Creature - Human Druid",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"4GG",
+        "name":"Brambleweft Behemoth",
+        "number":"202",
+        "power":"6",
+        "rarity":"Common",
+        "subtypes":[
+          "Elemental"
+        ],
+        "text":"Trample. This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+        "toughness":"6",
+        "type":"Creature - Elemental",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "B",
+          "R"
+        ],
+        "name":"Cinder Barrens",
+        "number":"209",
+        "rarity":"Common",
+        "text":"Cinder Barrens enters the battlefield tapped.\n{t}: Add {b} or {r} to your mana pool.",
+        "type":"Land",
+        "types":[
+          "Land"
+        ],
+        "url":""
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "U",
+          "B",
+          "R"
+        ],
+        "manaCost":"4",
+        "name":"Visage of Bolas",
+        "number":"208",
+        "rarity":"Rare",
+        "text":"When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand.  If you search your library this way, shuffle it.\n{t}: Add {u}, {b}, or {r} to your mana pool.",
+        "type":"Artifact",
+        "types":[
+          "Artifact"
+        ],
+        "url":""
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"4G",
+        "name":"Nissa's Encouragement",
+        "number":"203",
+        "rarity":"Rare",
+        "text":"Search your library and graveyard for a card named Forest, a card named Brambleweft Behemoth, and a card named Nissa, Genesis Mage. Reveal those cards, put them into your hand, then shuffle your library.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":""
+      },
+      {
         "cmc":4,
         "colorIdentity":[
           "R"
@@ -266,7 +369,7 @@
         "types":[
           "Instant"
         ],
-        "url":""
+        "url":"http://mythicspoiler.com/hou/cards/hourofglory.jpg"
       },
       {
         "cmc":4,
@@ -290,7 +393,7 @@
         "types":[
           "Creature"
         ],
-        "url":""
+        "url":"http://mythicspoiler.com/hou/cards/angelofcondemnation.jpg"
       },
       {
         "cmc":6,
@@ -319,7 +422,6 @@
       {
         "cmc":2,
         "colorIdentity":[
-          "B",
           "G"
         ],
         "colors":[
@@ -334,7 +436,7 @@
         ],
         "number":"157a",
         "rarity":"Rare",
-        "text":"Until end of turn, creatures you control gain trample and \"Whenever this creature deals combat damage to a player, draw a card.\"\n\nDespair {1}{B}\nSorcery\nAftermath\nUntil end of turn, creatures you control gain menace and \"Whenever this creature deals combat damage to a player, that player discards a card.\"",
+        "text":"Until end of turn, creatures you control gain trample and \"Whenever this creature deals combat damage to a player, draw a card.\"",
         "type":"Sorcery",
         "types":[
           "Sorcery"
