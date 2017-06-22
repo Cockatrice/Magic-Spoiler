@@ -26,6 +26,258 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "colorIdentity":[
+        "U",
+        "G"
+      ],
+      "colors":[
+        "Blue",
+        "Green"
+      ],
+      "manaCost":"GU",
+      "name":"River Hoopoe",
+      "number":"143",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Bird"
+      ],
+      "text":"Flying\n{3}{G}{U}: You gain 2 life and draw a card.",
+      "toughness":"3",
+      "type":"Creature - Bird",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/347/636337117414929119.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "W",
+        "R"
+      ],
+      "colors":[
+        "White",
+        "Red"
+      ],
+      "manaCost":"1RW",
+      "name":"Resolute Survivors",
+      "number":"142",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"You may exert Resolute Survivors as it attacks. It won't untap during your next untap step)\nWhenever you exert a creature, Resolute Survivors deals 1 damage to each opponent and you gain 1 life.",
+      "toughness":"3",
+      "type":"Creature - Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/346/636337115260876179.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"3W",
+      "name":"Vizier of the True",
+      "number":"28",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Cleric"
+      ],
+      "text":"You may exert Vizier of the True as it attacks. It won't untap during your next untap step.)\nWhenever you exert a creature, tap target creature an opponent controls.",
+      "toughness":"2",
+      "type":"Creature - Human Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/345/636337070440546870.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"1W",
+      "name":"Steward of Solidarity",
+      "number":"25",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"{T}, Exert Steward of Solidarity: Create a 1/1 white Warrior creature token with vigilance.  An exerted creature won't untap during your next untap step.)",
+      "toughness":"2",
+      "type":"Creature - Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/339/636337002945155371.jpeg"
+    },
+    {
+      "cmc":1,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "layout":"split",
+      "manaCost":"B",
+      "name":"Claim",
+      "names":[
+        "Claim",
+        "Fame"
+      ],
+      "number":"150a",
+      "rarity":"Uncommon",
+      "text":"Return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/claimfame.jpg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "layout":"split",
+      "manaCost":"1R",
+      "name":"Fame",
+      "names":[
+        "Claim",
+        "Fame"
+      ],
+      "number":"150b",
+      "rarity":"Uncommon",
+      "text":"Aftermath Cast this spell only from your graveyard.  Then exile it.)\nTarget creature gets +2/+0 and gains haste until end of turn.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/claimfame.jpg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"2R",
+      "name":"Fervent Paincaster",
+      "number":"91",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Wizard"
+      ],
+      "text":"{T}: Fervent Paincaster deals 1 damage to target player.\n{T}, Exert Fervent Paincaster: It deals 1 damage to target creature. An exerted creature won't untap during its controller's next untap step.)",
+      "toughness":"1",
+      "type":"Creature - Human Wizard",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/337/636336957407281483.jpeg"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"3WW",
+      "name":"Djeru the Purified",
+      "number":"10",
+      "power":"4",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"Vigilance\n\nWhen Djeru the Purified enters the battlefield, you may search your library for a planeswalker card, reveal it, then shuffle your library.\n\nWhenever a source would deal damage to a planeswalker you control, prevent 1 of that damage.",
+      "toughness":"3",
+      "type":"Legendary Creature - Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/336/636336945249591474.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1G",
+      "name":"Hope Tender",
+      "number":"119",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Druid"
+      ],
+      "text":"{1}, {T}: Untap target land.\n\n{1}, {T}, Exert Hope Tender: Untap two target lands.  An exerted creature won't untap during your next untap step.)",
+      "toughness":"2",
+      "type":"Creature - Human Druid",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/335/636336921217599226.jpeg"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "U",
+        "B"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "manaCost":"3UB",
+      "name":"The Scarab God",
+      "number":"145",
+      "power":"5",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "God"
+      ],
+      "text":"At the beginning of your upkeep, each opponent loses X life and you scry X, where X is the number of Zombies you control.\n\n{2UB}: Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 4/4 black Zombie.\n\nWhen The Scarab God dies, return it to its owner's hand at the beginning of the next upkeep.",
+      "toughness":"5",
+      "type":"Legendary Creature - God",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/333/636336835935558423.png"
+    },
+    {
       "cmc":1,
       "colorIdentity":[
         "U"
@@ -38,7 +290,7 @@
       "name":"Reason",
       "names":[
         "Reason",
-        "Live"
+        "Believe"
       ],
       "number":"154a",
       "rarity":"Rare",
@@ -47,7 +299,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/329/636336513732500758.png"
     },
     {
       "cmc":5,
@@ -59,10 +311,10 @@
       ],
       "layout":"split",
       "manaCost":"4G",
-      "name":"Live",
+      "name":"Believe",
       "names":[
         "Reason",
-        "Live"
+        "Believe"
       ],
       "number":"154b",
       "rarity":"Rare",
@@ -71,7 +323,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/329/636336513732500758.png"
     },
     {
       "cmc":3,
@@ -97,7 +349,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/321/636336354720496094.png"
+      "url":"http://media.wizards.com/2017/hou/en_q2Tx8P1PsL.png"
     },
     {
       "cmc":6,
@@ -121,7 +373,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/320/636336353340047574.png"
+      "url":"http://media.wizards.com/2017/hou/en_Jxftx9lmTW.png"
     },
     {
       "cmc":0,
@@ -137,7 +389,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/319/636336353240265062.png"
+      "url":"http://media.wizards.com/2017/hou/en_mTSP0FlNoq.png"
     },
     {
       "cmc":4,
@@ -155,7 +407,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/318/636336352317166681.png"
+      "url":"http://media.wizards.com/2017/hou/en_4uKSnFbdQL.png"
     },
     {
       "cmc":5,
@@ -174,7 +426,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/317/636336351648785500.png"
+      "url":"http://media.wizards.com/2017/hou/en_pp5zBW3i6P.png"
     },
     {
       "cmc":4,
@@ -215,7 +467,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/315/636336350668880997.png"
+      "url":"http://media.wizards.com/2017/hou/en_EyPJjr8lQA.png"
     },
     {
       "cmc":2,
@@ -240,7 +492,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/314/636336350135468178.png"
+      "url":"http://media.wizards.com/2017/hou/en_pZSTujTPgd.png"
     },
     {
       "cmc":4,
@@ -277,7 +529,7 @@
       "subtypes":[
         "Angel"
       ],
-      "text":"Flying, vigilance\n{2}{W}, {T}: Exile another target creature. Return that card to the battlefield under its owners control at the beginning of the next end step.\n{2}{W}, {T}, Exert Angel of Condemnation: Exile another target creature until Angel of Condemnation leaves the battlefield. An exerted creature won't untap during your next untap step.)",
+      "text":"Flying, vigilance\n{2}{W}, {T}: Exile another target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.\n{2}{W}, {T}, Exert Angel of Condemnation: Exile another target creature until Angel of Condemnation leaves the battlefield. An exerted creature won't untap during your next untap step.)",
       "toughness":"3",
       "type":"Creature - Angel",
       "types":[
@@ -792,7 +1044,7 @@
       "types":[
         "Planeswalker"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/171/636332532547280818.png"
+      "url":"http://media.wizards.com/2017/images/daily/en_VlI3HOtQc3.png"
     },
     {
       "cmc":8,
@@ -819,7 +1071,7 @@
       "types":[
         "Planeswalker"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/170/636332530836145754.png"
+      "url":"http://media.wizards.com/2017/images/daily/en_iSHCrCgmya.png"
     },
     {
       "cmc":3,

@@ -10,8 +10,126 @@
 </sets>
 <cards>
 <card>
-<name>Reason // Live</name>
-<set rarity="Rare" picURL="">HOU</set>
+<name>River Hoopoe</name>
+<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/347/636337117414929119.png">HOU</set>
+<manacost>GU</manacost>
+<cmc>2</cmc>
+<color>U</color>
+<color>G</color>
+<type>Creature - Bird</type>
+<pt>1/3</pt>
+<tablerow>2</tablerow>
+<text>Flying
+{3}{G}{U}: You gain 2 life and draw a card.</text>
+</card>
+<card>
+<name>Resolute Survivors</name>
+<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/346/636337115260876179.png">HOU</set>
+<manacost>1RW</manacost>
+<cmc>3</cmc>
+<color>W</color>
+<color>R</color>
+<type>Creature - Human Warrior</type>
+<pt>3/3</pt>
+<tablerow>2</tablerow>
+<text>You may exert Resolute Survivors as it attacks. It won't untap during your next untap step)
+Whenever you exert a creature, Resolute Survivors deals 1 damage to each opponent and you gain 1 life.</text>
+</card>
+<card>
+<name>Vizier of the True</name>
+<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/345/636337070440546870.png">HOU</set>
+<manacost>3W</manacost>
+<cmc>4</cmc>
+<color>W</color>
+<type>Creature - Human Cleric</type>
+<pt>3/2</pt>
+<tablerow>2</tablerow>
+<text>You may exert Vizier of the True as it attacks. It won't untap during your next untap step.)
+Whenever you exert a creature, tap target creature an opponent controls.</text>
+</card>
+<card>
+<name>Steward of Solidarity</name>
+<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/339/636337002945155371.jpeg">HOU</set>
+<manacost>1W</manacost>
+<cmc>2</cmc>
+<color>W</color>
+<type>Creature - Human Warrior</type>
+<pt>2/2</pt>
+<tablerow>2</tablerow>
+<text>{T}, Exert Steward of Solidarity: Create a 1/1 white Warrior creature token with vigilance.  An exerted creature won't untap during your next untap step.)</text>
+</card>
+<card>
+<name>Claim // Fame</name>
+<set rarity="Uncommon" picURL="http://mythicspoiler.com/hou/cards/claimfame.jpg">HOU</set>
+<manacost>B // 1R</manacost>
+<cmc>1 // 2</cmc>
+<color>B</color>
+<type>Sorcery // Sorcery</type>
+<tablerow>3</tablerow>
+<text>Return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.
+---
+Aftermath Cast this spell only from your graveyard.  Then exile it.)
+Target creature gets +2/+0 and gains haste until end of turn.</text>
+</card>
+<card>
+<name>Fervent Paincaster</name>
+<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/337/636336957407281483.jpeg">HOU</set>
+<manacost>2R</manacost>
+<cmc>3</cmc>
+<color>R</color>
+<type>Creature - Human Wizard</type>
+<pt>3/1</pt>
+<tablerow>2</tablerow>
+<text>{T}: Fervent Paincaster deals 1 damage to target player.
+{T}, Exert Fervent Paincaster: It deals 1 damage to target creature. An exerted creature won't untap during its controller's next untap step.)</text>
+</card>
+<card>
+<name>Djeru the Purified</name>
+<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/336/636336945249591474.png">HOU</set>
+<manacost>3WW</manacost>
+<cmc>5</cmc>
+<color>W</color>
+<type>Legendary Creature - Human Warrior</type>
+<pt>4/3</pt>
+<tablerow>2</tablerow>
+<text>Vigilance
+
+When Djeru the Purified enters the battlefield, you may search your library for a planeswalker card, reveal it, then shuffle your library.
+
+Whenever a source would deal damage to a planeswalker you control, prevent 1 of that damage.</text>
+</card>
+<card>
+<name>Hope Tender</name>
+<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/335/636336921217599226.jpeg">HOU</set>
+<manacost>1G</manacost>
+<cmc>2</cmc>
+<color>G</color>
+<type>Creature - Human Druid</type>
+<pt>2/2</pt>
+<tablerow>2</tablerow>
+<text>{1}, {T}: Untap target land.
+
+{1}, {T}, Exert Hope Tender: Untap two target lands.  An exerted creature won't untap during your next untap step.)</text>
+</card>
+<card>
+<name>The Scarab God</name>
+<set rarity="Mythic Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/333/636336835935558423.png">HOU</set>
+<manacost>3UB</manacost>
+<cmc>5</cmc>
+<color>U</color>
+<color>B</color>
+<type>Legendary Creature - God</type>
+<pt>5/5</pt>
+<tablerow>2</tablerow>
+<text>At the beginning of your upkeep, each opponent loses X life and you scry X, where X is the number of Zombies you control.
+
+{2UB}: Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 4/4 black Zombie.
+
+When The Scarab God dies, return it to its owner's hand at the beginning of the next upkeep.</text>
+</card>
+<card>
+<name>Reason // Believe</name>
+<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/329/636336513732500758.png">HOU</set>
 <manacost>U // 4G</manacost>
 <cmc>1 // 5</cmc>
 <color>U</color>
@@ -24,7 +142,7 @@ Look at the top card of your library. If it’s a creature card, you may reveal 
 </card>
 <card>
 <name>Avid Reclaimer</name>
-<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/321/636336354720496094.png">HOU</set>
+<set rarity="Uncommon" picURL="http://media.wizards.com/2017/hou/en_q2Tx8P1PsL.png">HOU</set>
 <manacost>2G</manacost>
 <cmc>3</cmc>
 <color>G</color>
@@ -35,7 +153,7 @@ Look at the top card of your library. If it’s a creature card, you may reveal 
 </card>
 <card>
 <name>Brambleweft Behemoth</name>
-<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/320/636336353340047574.png">HOU</set>
+<set rarity="Common" picURL="http://media.wizards.com/2017/hou/en_Jxftx9lmTW.png">HOU</set>
 <manacost>4GG</manacost>
 <cmc>6</cmc>
 <color>G</color>
@@ -46,7 +164,7 @@ Look at the top card of your library. If it’s a creature card, you may reveal 
 </card>
 <card>
 <name>Cinder Barrens</name>
-<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/319/636336353240265062.png">HOU</set>
+<set rarity="Common" picURL="http://media.wizards.com/2017/hou/en_mTSP0FlNoq.png">HOU</set>
 <manacost></manacost>
 <cmc>0</cmc>
 <cipt>1</cipt>
@@ -57,7 +175,7 @@ Look at the top card of your library. If it’s a creature card, you may reveal 
 </card>
 <card>
 <name>Visage of Bolas</name>
-<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/318/636336352317166681.png">HOU</set>
+<set rarity="Rare" picURL="http://media.wizards.com/2017/hou/en_4uKSnFbdQL.png">HOU</set>
 <manacost>4</manacost>
 <cmc>4</cmc>
 <type>Artifact</type>
@@ -67,7 +185,7 @@ Look at the top card of your library. If it’s a creature card, you may reveal 
 </card>
 <card>
 <name>Nissa's Encouragement</name>
-<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/317/636336351648785500.png">HOU</set>
+<set rarity="Rare" picURL="http://media.wizards.com/2017/hou/en_pp5zBW3i6P.png">HOU</set>
 <manacost>4G</manacost>
 <cmc>5</cmc>
 <color>G</color>
@@ -88,7 +206,7 @@ Look at the top card of your library. If it’s a creature card, you may reveal 
 </card>
 <card>
 <name>Woodland Stream</name>
-<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/315/636336350668880997.png">HOU</set>
+<set rarity="Common" picURL="http://media.wizards.com/2017/hou/en_EyPJjr8lQA.png">HOU</set>
 <manacost></manacost>
 <cmc>0</cmc>
 <cipt>1</cipt>
@@ -99,7 +217,7 @@ Look at the top card of your library. If it’s a creature card, you may reveal 
 </card>
 <card>
 <name>Wasp of the Bitter End</name>
-<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/314/636336350135468178.png">HOU</set>
+<set rarity="Uncommon" picURL="http://media.wizards.com/2017/hou/en_pZSTujTPgd.png">HOU</set>
 <manacost>1B</manacost>
 <cmc>2</cmc>
 <color>B</color>
@@ -129,7 +247,7 @@ Whenever you cast a Bolas planeswalker spell, you may sacrifice Wasp of the Bitt
 <pt>3/3</pt>
 <tablerow>2</tablerow>
 <text>Flying, vigilance
-{2}{W}, {T}: Exile another target creature. Return that card to the battlefield under its owners control at the beginning of the next end step.
+{2}{W}, {T}: Exile another target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 {2}{W}, {T}, Exert Angel of Condemnation: Exile another target creature until Angel of Condemnation leaves the battlefield. An exerted creature won't untap during your next untap step.)</text>
 </card>
 <card>
@@ -406,7 +524,7 @@ You may exert Khenra Scrapper as it attacks.  When you do, it gets +2/+0 until e
 </card>
 <card>
 <name>Nissa, Genesis Mage</name>
-<set rarity="Mythic Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/171/636332532547280818.png">HOU</set>
+<set rarity="Mythic Rare" picURL="http://media.wizards.com/2017/images/daily/en_VlI3HOtQc3.png">HOU</set>
 <manacost>5GG</manacost>
 <cmc>7</cmc>
 <color>G</color>
@@ -421,7 +539,7 @@ You may exert Khenra Scrapper as it attacks.  When you do, it gets +2/+0 until e
 </card>
 <card>
 <name>Nicol Bolas, the Deceiver</name>
-<set rarity="Mythic Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/170/636332530836145754.png">HOU</set>
+<set rarity="Mythic Rare" picURL="http://media.wizards.com/2017/images/daily/en_iSHCrCgmya.png">HOU</set>
 <manacost>5UBR</manacost>
 <cmc>8</cmc>
 <color>U</color>
