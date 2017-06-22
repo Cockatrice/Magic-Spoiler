@@ -77,6 +77,8 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
                 card2['rarity'] = card['rarity']
             if not card1['name'] in split_cards:
                 split_cards[card1['name']] = card2['name']
+            card1['layout'] = 'aftermath'
+            card2['layout'] = 'aftermath'
             cards2.append(card1)
             cards2.append(card2)
         else:
@@ -173,10 +175,12 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
             cardnames.append(card['name'])
             cardnames.append(split_cards[card['name']])
             cardnumber = cardnumber.replace('b','').replace('a','') + 'a'
-            card['layout'] = 'split'
+            if not 'layout' in card:
+                card['layout'] = 'split'
         for namematch in split_cards:
             if card['name'] == split_cards[namematch]:
-                card['layout'] = 'split'
+                if not 'layout' in card or ('layout' in card and card['layout'] == ''):
+                    card['layout'] = 'split'
                 cardnames.append(namematch)
                 if not card['name'] in cardnames:
                     cardnames.append(card['name'])
@@ -406,17 +410,37 @@ def error_check(mtgjson, card_corrections={}):
             errors.append({"name": card['name'], "key": "url", "value": ""})
         elif len(card['url']) < 10:
             errors.append({"name": card['name'], "key": "url", "value": ""})
-        if 'layout' in card:
-            if card['layout'] == 'split' or card['layout'] == 'meld' or card['layout'] == 'aftermath':
-                if not 'names' in card:
-                    errors.append({"name": card['name'], "key": "names", "value": ""})
-                if 'number' in card:
-                    if not 'a' in card['number'] and not 'b' in card['number'] and not 'c' in card['number']:
-                        errors.append({"name": card['name'], "key": "number", "value": card['number']})
         if not 'number' in card:
             errors.append({"name": card['name'], "key": "number", "value": ""})
         if not 'types' in card:
             errors.append({"name": card['name'], "key": "types", "value": ""})
+
+    for card in mtgjson['cards']: #we're going to loop through again and make sure split cards get paired
+        if 'layout' in card:
+            if card['layout'] == 'split' or card['layout'] == 'meld' or card['layout'] == 'aftermath':
+                if not 'names' in card:
+                    errors.append({"name": card['name'], "key": "names", "value": ""})
+                else:
+                    for related_card_name in card['names']:
+                        if related_card_name != card['name']:
+                            related_card = False
+                            for card2 in mtgjson['cards']:
+                                if card2['name'] == related_card_name:
+                                    related_card = card2
+                            if not related_card:
+                                errors.append({"name": card['name'], "key": "names", "value": card['names']})
+                            else:
+                                if 'colors' in related_card:
+                                    for color in related_card['colors']:
+                                        if not color in card['colors']:
+                                            card['colors'].append(color)
+                                if 'colorIdentity' in related_card:
+                                    for colorIdentity in related_card['colorIdentity']:
+                                        if not colorIdentity in card['colorIdentity']:
+                                            card['colorIdentity'].append(colorIdentity)
+                if 'number' in card:
+                    if not 'a' in card['number'] and not 'b' in card['number'] and not 'c' in card['number']:
+                        errors.append({"name": card['name'], "key": "number", "value": card['number']})
 
     for card in mtgjson['cards']:
         for cardCorrection in card_corrections:
@@ -598,7 +622,11 @@ def smash_mtgs_scryfall(mtgs, scryfall):
                 for key in scryfallcard:
                     if key in mtgscard:
                         if not mtgscard[key] == scryfallcard[key]:
-                            print "%s's key %s\nMTGS    : %s\nScryfall: %s" % (mtgscard['name'], key, mtgscard[key], scryfallcard[key])
+                            try:
+                                print "%s's key %s\nMTGS    : %s\nScryfall: %s" % (mtgscard['name'], key, mtgscard[key], scryfallcard[key])
+                            except:
+                                print "Error printing Scryfall vs MTGS debug info for " + mtgscard['name']
+                                pass
                 cardFound = True
         if not cardFound:
             print "MTGS has card %s and Scryfall does not." % mtgscard['name']
@@ -635,7 +663,8 @@ def scrape_fullspoil(url, showRarityColors=False, showFrameColors=False, manual_
 
             if card['name'] in split_cards:
                 card["names"] = [card['name'], split_cards[card['name']]]
-                card["layout"] = "split"
+                if not 'layout' in card:
+                    card["layout"] = "split"
             notSplit = True
             for backsplit in split_cards:
                 if card['name'] == split_cards[backsplit]:
@@ -780,7 +809,8 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, seti
             mtgsImages = scrape_mtgs_images(setinfo['mtgsurl'], setinfo['mtgscardpath'], WOTC)
             for card in mtgjson['cards']:
                 if card['name'] in mtgsImages:
-                    card['url'] = mtgsImages[card['name']]['url']
+                    if mtgsImages[card['name']]['url'] != '':
+                        card['url'] = mtgsImages[card['name']]['url']
 
     for card in mtgjson['cards']:
         if len(str(card['url'])) < 10:
@@ -862,7 +892,7 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardtype = card["type"]
         if card.has_key("names"):
             if "layout" in card:
-                if card['layout'] == 'split':
+                if card['layout'] == 'split' or card['layout'] == 'aftermath':
                     if 'names' in card:
                         if card['name'] == card['names'][0]:
                             for jsoncard in mtgjson["cards"]:
@@ -891,7 +921,7 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         if 'number' in card:
             if 'b' in card['number']:
                 if 'layout' in card:
-                    if card['layout'] == 'split':
+                    if card['layout'] == 'split' or card['layout'] == 'aftermath':
                         #print "We're skipping " + card['name'] + " because it's the right side of a split card"
                         continue
 
@@ -969,7 +999,7 @@ def write_combined_xml(mtgjson, setinfos):
     for setcode in mtgjson:
         setobj = mtgjson[setcode]
         for card in setobj["cards"]:
-            if 'layout' in card and card['layout'] == 'split':
+            if 'layout' in card and (card['layout'] == 'split' or card['layout'] == 'aftermath'):
                 if 'b' in card["number"]:
                     continue
             if count == 0:
@@ -995,7 +1025,7 @@ def write_combined_xml(mtgjson, setinfos):
             cardtype = card["type"]
             if card.has_key("names"):
                 if "layout" in card:
-                    if card["layout"] != 'split':
+                    if card["layout"] != 'split' and card["layout"] != 'aftermath':
                         if len(card["names"]) > 1:
                             if card["names"][0] == card["name"]:
                                 related = card["names"][1]
@@ -1029,7 +1059,7 @@ def write_combined_xml(mtgjson, setinfos):
             if 'number' in card:
                 if 'b' in card['number']:
                     if 'layout' in card:
-                        if card['layout'] == 'split':
+                        if card['layout'] == 'split' or card['layout'] == 'aftermath':
                             #print "We're skipping " + card['name'] + " because it's the right side of a split card"
                             continue
 
