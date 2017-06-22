@@ -20,6 +20,7 @@ deploy:
   overwrite: true
   on:
     tags: true
+    branch: master
 env:
   global:
   - ENCRYPTION_LABEL: ec68c19ba263
