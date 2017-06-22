@@ -184,6 +184,80 @@
     "border":"black",
     "cards":[
       {
+        "cmc":2,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"1G",
+        "name":"Reshaper Khenra",
+        "number":"131",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Jackal",
+          "Wizard"
+        ],
+        "text":"When Reshaper Khenra enters the battlefield, choose target creature. You may give that creature +X/+X until end of turn, where X is Reshaper Khenra's power.\n\nEternalize {4GG} {4gg}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Jackal Wizard with no mana cost. Eternalize only as a sorcery.)",
+        "toughness":"2",
+        "type":"Creature - Jackal Wizard",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/356/636337263681135523.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"1R",
+        "name":"Earthshaker Khenra",
+        "number":"90",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Jackal",
+          "Warrior"
+        ],
+        "text":"Haste\nWhen Earthshaker Khenra enters the battlefield, target creature with power less than or equal to ~'s power can't block this turn.\nEternalize {4RR} {4rr}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)",
+        "toughness":"1",
+        "type":"Creature - Jackal Warrior",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/354/636337238874596817.jpeg"
+      },
+      {
+        "cmc":8,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"5BBB",
+        "name":"Razaketh the Foulblooded",
+        "number":"73",
+        "power":"8",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Demon"
+        ],
+        "text":"Flying, trample\n\nPay 2 life, Sacrifice another creature: Search your library for a card and put it that card into your hand. Then shuffle your library",
+        "toughness":"8",
+        "type":"Legendary Creature - Demon",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/353/636337232550189769.jpeg"
+      },
+      {
         "cmc":0,
         "name":"Uncage the Menagerie",
         "number":"137",
