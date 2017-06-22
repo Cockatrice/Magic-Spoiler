@@ -394,12 +394,14 @@
       {
         "cmc":1,
         "colorIdentity":[
-          "B"
+          "B",
+          "R"
         ],
         "colors":[
-          "Black"
+          "Black",
+          "Red"
         ],
-        "layout":"split",
+        "layout":"aftermath",
         "manaCost":"B",
         "name":"Claim",
         "names":[
@@ -418,12 +420,14 @@
       {
         "cmc":2,
         "colorIdentity":[
-          "R"
+          "R",
+          "B"
         ],
         "colors":[
-          "Red"
+          "Red",
+          "Black"
         ],
-        "layout":"split",
+        "layout":"aftermath",
         "manaCost":"1R",
         "name":"Fame",
         "names":[
@@ -543,12 +547,14 @@
       {
         "cmc":1,
         "colorIdentity":[
-          "U"
+          "U",
+          "G"
         ],
         "colors":[
-          "Blue"
+          "Blue",
+          "Green"
         ],
-        "layout":"split",
+        "layout":"aftermath",
         "manaCost":"U",
         "name":"Reason",
         "names":[
@@ -567,12 +573,14 @@
       {
         "cmc":5,
         "colorIdentity":[
-          "G"
+          "G",
+          "U"
         ],
         "colors":[
-          "Green"
+          "Green",
+          "Blue"
         ],
-        "layout":"split",
+        "layout":"aftermath",
         "manaCost":"4G",
         "name":"Believe",
         "names":[
@@ -827,12 +835,14 @@
       {
         "cmc":2,
         "colorIdentity":[
-          "G"
+          "G",
+          "B"
         ],
         "colors":[
-          "Green"
+          "Green",
+          "Black"
         ],
-        "layout":"split",
+        "layout":"aftermath",
         "manaCost":"1G",
         "name":"Driven",
         "names":[
@@ -851,12 +861,14 @@
       {
         "cmc":2,
         "colorIdentity":[
-          "B"
+          "B",
+          "G"
         ],
         "colors":[
-          "Black"
+          "Black",
+          "Green"
         ],
-        "layout":"split",
+        "layout":"aftermath",
         "manaCost":"1B",
         "name":"Despair",
         "names":[
@@ -1186,25 +1198,6 @@
         "url":"http://media.wizards.com/2017/hou/en_0HZOxu3e9R.png"
       },
       {
-        "cmc":1,
-        "colorIdentity":[
-          "B"
-        ],
-        "colors":[
-          "Black"
-        ],
-        "manaCost":"B",
-        "name":"Thoughtseize",
-        "number":"45",
-        "rarity":"Mythic Rare",
-        "text":"Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
-        "type":"Sorcery",
-        "types":[
-          "Sorcery"
-        ],
-        "url":"http://mythicspoiler.com/hou/cards/thoughtseize.jpg"
-      },
-      {
         "cmc":2,
         "manaCost":"2",
         "name":"Sunset Pyramid",
@@ -1361,12 +1354,14 @@
       {
         "cmc":2,
         "colorIdentity":[
-          "B"
+          "B",
+          "W"
         ],
         "colors":[
-          "Black"
+          "Black",
+          "White"
         ],
-        "layout":"split",
+        "layout":"aftermath",
         "manaCost":"1B",
         "name":"Grind",
         "names":[
@@ -1385,12 +1380,14 @@
       {
         "cmc":4,
         "colorIdentity":[
-          "W"
+          "W",
+          "B"
         ],
         "colors":[
-          "White"
+          "White",
+          "Black"
         ],
-        "layout":"split",
+        "layout":"aftermath",
         "manaCost":"3W",
         "name":"Dust",
         "names":[
