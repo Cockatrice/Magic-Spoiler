@@ -54,15 +54,19 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
         if 'rules' in card:
             htmltags = re.compile(r'<.*?>')
             card['rules'] = htmltags.sub('', card['rules'])
-        if '//' in card['name']:
+        if '//' in card['name'] or 'Aftermath' in card['rules']:
             print 'Splitting up Aftermath card ' + card['name']
-            card['name'] = card['name'].replace(' // ','//')
             card1 = card.copy()
-            card1['name'] = card['name'].split('//')[0]
-            card1['rules'] = card['rules'].split('\n\n\n')[0]
             card2 = dict(cost='',cmc='',img='',pow='',name='',rules='',type='',
                 color='', altname='', colorIdentity='', colorArray=[], colorIdentityArray=[], setnumber='', rarity='')
-            card2["name"] = card['name'].split('//')[1]
+            if '//' in card['name']:
+                card['name'] = card['name'].replace(' // ','//')
+                card1['name'] = card['name'].split('//')[0]
+                card2["name"] = card['name'].split('//')[1]
+            else:
+                card1['name'] = card['name']
+                card2["name"] = card['rules'].split('\n\n')[1].strip().split(' {')[0]
+            card1['rules'] = card['rules'].split('\n\n')[0].strip()
             card2["rules"] = "Aftermath" + card['rules'].split('Aftermath')[1]
             card2['cost'] = re.findall(r'{.*}',card['rules'])[0].replace('{','').replace('}','').upper()
             card2['type'] = re.findall(r'}\n.*\n', card['rules'])[0].replace('}','').replace('\n','')
@@ -739,16 +743,17 @@ def get_colors_by_frame(fullspoil, split_cards=[]):
         #    symbolCount += 1
     return fullspoil
 
-def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269):
+def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, setinfo=False):
     IMAGES = 'http://magic.wizards.com/en/content/' + setlongname.lower().replace(' ', '-') + '-cards'
     IMAGES2 = 'http://mythicspoiler.com/newspoilers.html'
-    IMAGES3 = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + setlongname.lower().replace(' ', '-')
+    IMAGES3 = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + setlongname.lower().replace('of','').replace('  ',' ').replace(' ', '-')
 
     text = requests.get(IMAGES).text
     text2 = requests.get(IMAGES2).text
     text3 = requests.get(IMAGES3).text
     wotcpattern = r'<img alt="{}.*?" src="(?P<img>.*?\.png)"'
     mythicspoilerpattern = r' src="' + setname.lower() + '/cards/{}.*?.jpg">'
+    WOTC = []
     for c in mtgjson['cards']:
         match = re.search(wotcpattern.format(c['name'].replace('\'','&rsquo;')), text, re.DOTALL)
         if match:
@@ -768,9 +773,42 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269):
                 pass
         #if ('Creature' in c['type'] and not c.has_key('power')) or ('Vehicle' in c['type'] and not c.has_key('power')):
         #    print(c['name'] + ' is a creature w/o p/t img: ' + c['url'])
-        if len(str(c['url'])) < 10:
-            print(c['name'] + ' has no image.')
+        if 'wizards.com' in c['url']:
+            WOTC.append(c['name'])
+    if setinfo:
+        if 'mtgsurl' in setinfo and 'mtgscardpath' in setinfo:
+            mtgsImages = scrape_mtgs_images(setinfo['mtgsurl'], setinfo['mtgscardpath'], WOTC)
+            for card in mtgjson['cards']:
+                if card['name'] in mtgsImages:
+                    card['url'] = mtgsImages[card['name']]['url']
+
+    for card in mtgjson['cards']:
+        if len(str(card['url'])) < 10:
+            print(card['name'] + ' has no image.')
     return mtgjson
+
+def scrape_mtgs_images(url='http://www.mtgsalvation.com/spoilers/183-hour-of-devastation', mtgscardurl='http://www.mtgsalvation.com/cards/hour-of-devastation/', exemptlist=[]):
+    page = requests.get(url)
+    tree = html.fromstring(page.content)
+    cards = {}
+    cardstree = tree.xpath('//*[contains(@class, "log-card")]')
+    for child in cardstree:
+        if child.text == 'Reason' or child.text in exemptlist:
+            continue
+        childurl = mtgscardurl + child.attrib['data-card-id'] + '-' + child.text.replace(' ','-').replace("'","").replace(',','').replace('-//','')
+        cardpage = requests.get(childurl)
+        tree = html.fromstring(cardpage.content)
+        cardtree = tree.xpath('//img[contains(@class, "card-spoiler-image")]')
+        try:
+            cardurl = cardtree[0].attrib['src']
+        except:
+            cardurl = ''
+            pass
+        cards[child.text] = {
+            "url": cardurl
+        }
+        time.sleep(.2)
+    return cards
 
 def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
     if not os.path.isdir('out/'):
