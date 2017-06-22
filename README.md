@@ -3,7 +3,7 @@
 Magic-Spoiler is a python script to scrape MTG Salvation, Scryfall, MythicSpoiler and Wizards to compile a XML file (Cockatrice formatted) and a general application ready json file (mtgjson formatted).
 
 ## Output [![Build Status](https://travis-ci.org/Cockatrice/Magic-Spoiler.svg?branch=master)](https://travis-ci.org/Cockatrice/Magic-Spoiler) ##
-Just looking for XML or JSON files?  [They're in our files branch!](https://github.com/Cockatrice/Magic-Spoiler/tree/files)
+Just looking for XML or JSON files?  [They're in our `files` branch!](https://github.com/Cockatrice/Magic-Spoiler/tree/files) ([History of changes](https://github.com/Cockatrice/Magic-Spoiler/commits/files))
 
 ## Errors ##
 Noticed an error?  Check out our [Contributing file](https://github.com/Cockatrice/Magic-Spoiler/blob/master/.github/CONTRIBUTING.md) for information on how to help!
