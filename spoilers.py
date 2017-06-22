@@ -780,7 +780,8 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, seti
             mtgsImages = scrape_mtgs_images(setinfo['mtgsurl'], setinfo['mtgscardpath'], WOTC)
             for card in mtgjson['cards']:
                 if card['name'] in mtgsImages:
-                    card['url'] = mtgsImages[card['name']]['url']
+                    if mtgsImages[card['name']]['url'] != '':
+                        card['url'] = mtgsImages[card['name']]['url']
 
     for card in mtgjson['cards']:
         if len(str(card['url'])) < 10:
