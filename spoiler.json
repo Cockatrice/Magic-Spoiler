@@ -184,6 +184,31 @@
     "border":"black",
     "cards":[
       {
+        "cmc":3,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"2U",
+        "name":"Nimble Obstructionist",
+        "number":"40",
+        "power":"3",
+        "rarity":"Rare",
+        "subtypes":[
+          "Bird",
+          "Wizard"
+        ],
+        "text":"Flash\nFlying\nCycling {2}{U} {2}{U}, Discard this card: Draw a card.)\nWhen you cycle Nimble Obstructionist, counter target activated or triggered ability you don't control.",
+        "toughness":"1",
+        "type":"Creature - Bird Wizard",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/364/636337381932345493.png"
+      },
+      {
         "cmc":2,
         "colorIdentity":[
           "G"
@@ -225,7 +250,7 @@
           "Jackal",
           "Warrior"
         ],
-        "text":"Haste\nWhen Earthshaker Khenra enters the battlefield, target creature with power less than or equal to ~'s power can't block this turn.\nEternalize {4RR} {4rr}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)",
+        "text":"Haste\nWhen Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.\nEternalize {4RR} {4rr}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)",
         "toughness":"1",
         "type":"Creature - Jackal Warrior",
         "types":[
@@ -249,7 +274,7 @@
         "subtypes":[
           "Demon"
         ],
-        "text":"Flying, trample\n\nPay 2 life, Sacrifice another creature: Search your library for a card and put it that card into your hand. Then shuffle your library",
+        "text":"Flying, trample\n\nPay 2 life, Sacrifice another creature: Search your library for a card and put that card into your hand. Then shuffle your library.",
         "toughness":"8",
         "type":"Legendary Creature - Demon",
         "types":[
@@ -259,6 +284,7 @@
       },
       {
         "cmc":0,
+        "manaCost":"XGG",
         "name":"Uncage the Menagerie",
         "number":"137",
         "rarity":"Mythic Rare",
@@ -286,7 +312,7 @@
         "types":[
           "Sorcery"
         ],
-        "url":"http://mythicspoiler.com/hou/cards/rhonasslaststand.jpg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/352/636337222106552392.png"
       },
       {
         "cmc":2,
@@ -333,13 +359,13 @@
           "Human",
           "Warrior"
         ],
-        "text":"You may exert Resolute Survivors as it attacks. It won't untap during your next untap step)\nWhenever you exert a creature, Resolute Survivors deals 1 damage to each opponent and you gain 1 life.",
+        "text":"You may exert Resolute Survivors as it attacks. It won't untap during your next untap step.)\nWhenever you exert a creature, Resolute Survivors deals 1 damage to each opponent and you gain 1 life.",
         "toughness":"3",
         "type":"Creature - Human Warrior",
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/346/636337115260876179.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/362/636337345349411474.jpeg"
       },
       {
         "cmc":4,
@@ -364,7 +390,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/345/636337070440546870.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/361/636337344417748783.jpeg"
       },
       {
         "cmc":2,
@@ -477,7 +503,7 @@
           "White"
         ],
         "manaCost":"3WW",
-        "name":"Djeru the Purified",
+        "name":"Djeru, With Eyes Open",
         "number":"10",
         "power":"4",
         "rarity":"Rare",
@@ -485,13 +511,13 @@
           "Human",
           "Warrior"
         ],
-        "text":"Vigilance\nWhen Djeru the Purified enters the battlefield, you may search your library for a planeswalker card, reveal it, and put it into your hand. Then shuffle your library.\nWhenever a source would deal damage to a planeswalker you control, prevent 1 of that damage.",
+        "text":"Vigilance\nWhen Djeru, With Eyes Open enters the battlefield, you may search your library for a planeswalker card, reveal it, put it into your hand, then shuffle your library.\nIf a source would deal damage to a planeswalker you control, prevent 1 of that damage.",
         "toughness":"3",
         "type":"Legendary Creature - Human Warrior",
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/351/636337198871075433.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/363/636337355896419849.png"
       },
       {
         "cmc":2,
@@ -589,7 +615,7 @@
         ],
         "number":"154b",
         "rarity":"Rare",
-        "text":"Aftermath\nLook at the top card of your library. If it’s a creature card, you may reveal it and put it onto the battlefield. Otherwise, put that card into your hand.",
+        "text":"Aftermath\nLook at the top card of your library. You may put it onto the battlefield if it's a creature card. If you don't, put it into your hand.",
         "type":"Sorcery",
         "types":[
           "Sorcery"

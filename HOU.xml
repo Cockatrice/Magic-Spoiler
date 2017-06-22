@@ -10,6 +10,20 @@
 </sets>
 <cards>
 <card>
+<name>Nimble Obstructionist</name>
+<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/364/636337381932345493.png">HOU</set>
+<manacost>2U</manacost>
+<cmc>3</cmc>
+<color>U</color>
+<type>Creature - Bird Wizard</type>
+<pt>3/1</pt>
+<tablerow>2</tablerow>
+<text>Flash
+Flying
+Cycling {2}{U} {2}{U}, Discard this card: Draw a card.)
+When you cycle Nimble Obstructionist, counter target activated or triggered ability you don't control.</text>
+</card>
+<card>
 <name>Reshaper Khenra</name>
 <set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/356/636337263681135523.png">HOU</set>
 <manacost>1G</manacost>
@@ -32,7 +46,7 @@ Eternalize {4GG} {4gg}, Exile this card from your graveyard: Create a token that
 <pt>2/1</pt>
 <tablerow>2</tablerow>
 <text>Haste
-When Earthshaker Khenra enters the battlefield, target creature with power less than or equal to ~'s power can't block this turn.
+When Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.
 Eternalize {4RR} {4rr}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)</text>
 </card>
 <card>
@@ -46,12 +60,12 @@ Eternalize {4RR} {4rr}, Exile this card from your graveyard: Create a token that
 <tablerow>2</tablerow>
 <text>Flying, trample
 
-Pay 2 life, Sacrifice another creature: Search your library for a card and put it that card into your hand. Then shuffle your library</text>
+Pay 2 life, Sacrifice another creature: Search your library for a card and put that card into your hand. Then shuffle your library.</text>
 </card>
 <card>
 <name>Uncage the Menagerie</name>
 <set rarity="Mythic Rare" picURL="http://mythicspoiler.com/hou/cards/uncagethemenagerie.jpg">HOU</set>
-<manacost></manacost>
+<manacost>XGG</manacost>
 <cmc>0</cmc>
 <type>Sorcery</type>
 <tablerow>3</tablerow>
@@ -59,7 +73,7 @@ Pay 2 life, Sacrifice another creature: Search your library for a card and put i
 </card>
 <card>
 <name>Rhonas's Last Stand</name>
-<set rarity="Rare" picURL="http://mythicspoiler.com/hou/cards/rhonasslaststand.jpg">HOU</set>
+<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/352/636337222106552392.png">HOU</set>
 <manacost>GG</manacost>
 <cmc>2</cmc>
 <color>G</color>
@@ -82,7 +96,7 @@ Pay 2 life, Sacrifice another creature: Search your library for a card and put i
 </card>
 <card>
 <name>Resolute Survivors</name>
-<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/346/636337115260876179.png">HOU</set>
+<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/362/636337345349411474.jpeg">HOU</set>
 <manacost>1RW</manacost>
 <cmc>3</cmc>
 <color>W</color>
@@ -90,12 +104,12 @@ Pay 2 life, Sacrifice another creature: Search your library for a card and put i
 <type>Creature - Human Warrior</type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>You may exert Resolute Survivors as it attacks. It won't untap during your next untap step)
+<text>You may exert Resolute Survivors as it attacks. It won't untap during your next untap step.)
 Whenever you exert a creature, Resolute Survivors deals 1 damage to each opponent and you gain 1 life.</text>
 </card>
 <card>
 <name>Vizier of the True</name>
-<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/345/636337070440546870.png">HOU</set>
+<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/361/636337344417748783.jpeg">HOU</set>
 <manacost>3W</manacost>
 <cmc>4</cmc>
 <color>W</color>
@@ -143,8 +157,8 @@ Target creature gets +2/+0 and gains haste until end of turn.</text>
 {T}, Exert Fervent Paincaster: It deals 1 damage to target creature. An exerted creature won't untap during its controller's next untap step.)</text>
 </card>
 <card>
-<name>Djeru the Purified</name>
-<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/351/636337198871075433.png">HOU</set>
+<name>Djeru, With Eyes Open</name>
+<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/363/636337355896419849.png">HOU</set>
 <manacost>3WW</manacost>
 <cmc>5</cmc>
 <color>W</color>
@@ -152,8 +166,8 @@ Target creature gets +2/+0 and gains haste until end of turn.</text>
 <pt>4/3</pt>
 <tablerow>2</tablerow>
 <text>Vigilance
-When Djeru the Purified enters the battlefield, you may search your library for a planeswalker card, reveal it, and put it into your hand. Then shuffle your library.
-Whenever a source would deal damage to a planeswalker you control, prevent 1 of that damage.</text>
+When Djeru, With Eyes Open enters the battlefield, you may search your library for a planeswalker card, reveal it, put it into your hand, then shuffle your library.
+If a source would deal damage to a planeswalker you control, prevent 1 of that damage.</text>
 </card>
 <card>
 <name>Hope Tender</name>
@@ -196,7 +210,7 @@ When The Scarab God dies, return it to its owner's hand at the beginning of the 
 <text>Scry 3.
 ---
 Aftermath
-Look at the top card of your library. If it’s a creature card, you may reveal it and put it onto the battlefield. Otherwise, put that card into your hand.</text>
+Look at the top card of your library. You may put it onto the battlefield if it's a creature card. If you don't, put it into your hand.</text>
 </card>
 <card>
 <name>Avid Reclaimer</name>
