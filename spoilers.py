@@ -783,6 +783,7 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, seti
     text2 = requests.get(IMAGES2).text
     text3 = requests.get(IMAGES3).text
     wotcpattern = r'<img alt="{}.*?" src="(?P<img>.*?\.png)"'
+    wotcpattern2 = r'<img src="(?P<img>.*?\.png).*?alt="{}.*?"'
     mythicspoilerpattern = r' src="' + setname.lower() + '/cards/{}.*?.jpg">'
     WOTC = []
     for c in mtgjson['cards']:
@@ -790,7 +791,7 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, seti
         if match:
             c['url'] = match.groupdict()['img']
         else:
-            match3 = re.search(wotcpattern.format(c['name'].replace('\'','&rsquo;')), text3, re.DOTALL)
+            match3 = re.search(wotcpattern2.format(c['name'].replace('\'','&rsquo;')), text3)
             if match3:
                 c['url'] = match3.groupdict()['img']
             else:
