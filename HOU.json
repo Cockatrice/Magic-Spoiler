@@ -26,6 +26,214 @@
   "border":"black",
   "cards":[
     {
+      "cmc":1,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"U",
+      "name":"Proven Combatant",
+      "number":"42",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"Eternalize {4}{U}{U} {4}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Warrior with no mana cost. Eternalize only as a sorcery.) ",
+      "toughness":"1",
+      "type":"Creature - Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/386/636338112585833254.jpeg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"2U",
+      "name":"Sinuous Striker",
+      "number":"45",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Naga",
+        "Warrior"
+      ],
+      "text":"{U}: Sinuous Striker gets +1/-1 until end of turn.\nEternalize—{3}{U}{U}, Discard a card. {3}{U}{U}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Naga Warrior with no mana cost. Eternalize only as a sorcery.)",
+      "toughness":"2",
+      "type":"Creature - Naga Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/384/636338111310663315.jpeg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "R",
+        "G"
+      ],
+      "colors":[
+        "Red",
+        "Green"
+      ],
+      "layout":"aftermath",
+      "manaCost":"2R",
+      "name":"Struggle",
+      "names":[
+        "Struggle",
+        "Survive"
+      ],
+      "number":"151a",
+      "rarity":"Uncommon",
+      "text":"Struggle deals damage to target creature equal to the number of lands you control.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/strugglesurvive.jpg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "G",
+        "R"
+      ],
+      "colors":[
+        "Green",
+        "Red"
+      ],
+      "layout":"aftermath",
+      "manaCost":"1G",
+      "name":"Survive",
+      "names":[
+        "Struggle",
+        "Survive"
+      ],
+      "number":"151b",
+      "rarity":"Uncommon",
+      "text":"Aftermath Cast this spell only from your graveyard.  Then exile it.)\nEach player shuffles his or graveyard into his or her library.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/strugglesurvive.jpg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "W",
+        "U"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "layout":"aftermath",
+      "manaCost":"2W",
+      "name":"Farm",
+      "names":[
+        "Farm",
+        "Market"
+      ],
+      "number":"148a",
+      "rarity":"Uncommon",
+      "text":"Destroy target attacking or blocking creature.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/farmmarket.jpg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U",
+        "W"
+      ],
+      "colors":[
+        "Blue",
+        "White"
+      ],
+      "layout":"aftermath",
+      "manaCost":"2U",
+      "name":"Market",
+      "names":[
+        "Farm",
+        "Market"
+      ],
+      "number":"148b",
+      "rarity":"Uncommon",
+      "text":"Aftermath Cast this spell only from your graveyard.  Then exile it.)\nDraw two cards, then destroy two cards",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/farmmarket.jpg"
+    },
+    {
+      "cmc":0,
+      "name":"Torment of Hailfire",
+      "number":"77",
+      "rarity":"Rare",
+      "text":"Repeat the following process X times. Each opponent loses 3 life unless he or she sacrifices a nonland permanent or discards a card.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/381/636338078541582492.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"3B",
+      "name":"Torment of Scarabs",
+      "number":"78",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Aura",
+        "Curse"
+      ],
+      "text":"Enchant player\nAt the beginning of enchanted player's upkeep, that player loses 3 life unless he or she sacrifices a nonland permanent or discards a card.",
+      "type":"Enchantment - Aura Curse",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/380/636338077710880308.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"2BB",
+      "name":"Torment of Venom",
+      "number":"79",
+      "rarity":"Common",
+      "text":"Put three -1/-1 counters on target creature. Its controller loses 3 life unless he or she sacrifices another nonland permanent or discards a card.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/379/636338076157249199.png"
+    },
+    {
       "cmc":3,
       "colorIdentity":[
         "B"
@@ -37,7 +245,7 @@
       "name":"Doomfall",
       "number":"62",
       "rarity":"Uncommon",
-      "text":"Choose one:\n- Target player exiles a creature he or she controls\n- Target opponent reveals his or her hand. You choose a non-land card from it. Exile that card.",
+      "text":"Choose one —\n• Target player exiles a creature he or she controls.\n• Target opponent reveals his or her hand. You choose a nonland card from it. Exile that card.",
       "type":"Sorcery",
       "types":[
         "Sorcery"
@@ -378,7 +586,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/363/636337355896419849.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/390/636338152394525641.png"
     },
     {
       "cmc":2,
@@ -429,7 +637,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/333/636336835935558423.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/391/636338161738992409.png"
     },
     {
       "cmc":1,
@@ -669,7 +877,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_9LbKfiUIeo.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/313/636336348400084616.png"
     },
     {
       "cmc":4,
@@ -693,7 +901,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_tLBKOwif8v.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/312/636336327971523825.png"
     },
     {
       "cmc":6,
@@ -717,7 +925,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_j727WiwO8j.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/311/636336236660169400.png"
     },
     {
       "cmc":2,
@@ -743,7 +951,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_UXJ7wksodC.png"
+      "url":"http://mythicspoiler.com/hou/cards/drivendespair.jpg"
     },
     {
       "cmc":2,
@@ -784,7 +992,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_Lnxy2oCFxt.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/359/636337341461053260.png"
     },
     {
       "cmc":2,
@@ -816,7 +1024,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_KjZWezjAor.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/291/636335517360425854.png"
     },
     {
       "cmc":3,
@@ -925,7 +1133,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_qEhCAQUHsp.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/287/636335389020803360.jpeg"
     },
     {
       "cmc":4,
@@ -1038,7 +1246,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_0md3a92YNo.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/277/636334818228799935.png"
     },
     {
       "cmc":3,
@@ -1063,7 +1271,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_sQyGmWAB1p.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/276/636334713484281276.jpeg"
     },
     {
       "cmc":3,
@@ -1082,7 +1290,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_0HZOxu3e9R.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/231/636334622317616677.png"
     },
     {
       "cmc":2,
@@ -1095,7 +1303,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_eHn6C0QeCl.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/210/636333868408378085.jpeg"
     },
     {
       "cmc":3,
@@ -1120,7 +1328,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_bD2hO7N1fu.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/204/636333361190464926.jpeg"
     },
     {
       "cmc":3,
@@ -1139,7 +1347,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_eDe8r8i7Pr.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/248/636334627743395334.png"
     },
     {
       "cmc":3,
@@ -1164,7 +1372,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_KMdxqcdNI6.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/172/636332538616842277.png"
     },
     {
       "cmc":7,
@@ -1236,7 +1444,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_hv4QCuB2vq.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/169/636332509737681962.png"
     },
     {
       "cmc":2,
@@ -1262,7 +1470,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_NSWhEB66tt.png"
+      "url":"http://mythicspoiler.com/hou/cards/grinddust.jpg"
     },
     {
       "cmc":4,
@@ -1313,7 +1521,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_xveFKpkzIi.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/232/636334622427335346.png"
     },
     {
       "cmc":5,
@@ -1382,7 +1590,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_4VGmon365b.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/238/636334624220294491.png"
     },
     {
       "cmc":3,
@@ -1407,7 +1615,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_SlbK5wcKi2.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/243/636334626152626055.png"
     },
     {
       "cmc":0,
@@ -1425,7 +1633,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_prltrw3Y0F.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/252/636334628966353114.png"
     },
     {
       "cmc":0,
@@ -1443,7 +1651,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_jV5NLAgDZq.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/179/636332552106248956.png"
     },
     {
       "cmc":6,
@@ -1462,7 +1670,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_zn5vpFywyj.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/226/636334617116435281.png"
     },
     {
       "cmc":0,
@@ -1480,7 +1688,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_oy7e76a0PO.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/251/636334628739634921.png"
     },
     {
       "cmc":0,
@@ -1498,7 +1706,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_5SLenOUbXE.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/253/636334629175102576.png"
     },
     {
       "cmc":5,
@@ -1522,7 +1730,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_lXIchS4YnT.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/233/636334622728740737.png"
     },
     {
       "cmc":4,
@@ -1547,7 +1755,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_YpqvmcFwLu.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/236/636334623674045700.png"
     },
     {
       "cmc":4,
@@ -1571,7 +1779,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_k3iTVewa1B.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/240/636334624637168883.png"
     },
     {
       "cmc":3,
@@ -1590,7 +1798,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_0Bn6BqroZ0.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/239/636334624542013426.png"
     },
     {
       "cmc":0,
@@ -1608,7 +1816,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_yzWNyRWCTl.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/180/636332552787951808.png"
     },
     {
       "cmc":4,
@@ -1632,7 +1840,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_ACfEchqu3b.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/153/636332418043926376.png"
     },
     {
       "cmc":4,
@@ -1657,7 +1865,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_OqudZpvqrM.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/178/636332551562242249.png"
     },
     {
       "cmc":4,
@@ -1682,7 +1890,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_0nhPN8uzVc.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/176/636332550201096461.png"
     },
     {
       "cmc":3,
@@ -1733,7 +1941,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_oG3JO3ErST.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/177/636332551005011856.png"
     },
     {
       "cmc":1,
@@ -1790,7 +1998,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_OEUeMP3IsF.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/247/636334627467304917.png"
     },
     {
       "cmc":3,
@@ -1828,7 +2036,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_kh1nTY0h7P.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/235/636334623462481745.png"
     },
     {
       "cmc":4,
@@ -1922,7 +2130,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/hou/en_cBqQUYOBVz.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/242/636334625853564034.png"
     },
     {
       "cmc":7,
