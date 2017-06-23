@@ -300,16 +300,16 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                             card['colorIdentity'] += CID
                     else:
                         card['colorIdentity'] = [CID]
+    manual_added = []
     for card in mtgjson['cards']:
         isManual = False
         for manualCard in manual_cards:
             if card['name'] == manualCard['name']:
                 mtgjson2.append(manualCard)
-                print 'overwriting card ' + card['name']
+                manual_added.append(manualCard['name'] + " (overwritten)")
                 isManual = True
         if not isManual and not card['name'] in delete_cards:
             mtgjson2.append(card)
-
     for manualCard in manual_cards:
         addManual = True
         for card in mtgjson['cards']:
@@ -317,7 +317,9 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                 addManual = False
         if addManual:
             mtgjson2.append(manualCard)
-            print 'inserting manual card ' + manualCard['name']
+            manual_added.append(manualCard['name'])
+    if manual_added != []:
+        print "Manual Cards Added: " + str(manual_added).strip('[]')
 
     mtgjson = {"cards": mtgjson2}
 
@@ -491,8 +493,8 @@ def get_scryfall(setUrl):
             scryfall.append(setcards['data'])
         else:
             setDone = True
-            print setUrl
-            print setcards
+            #print setUrl
+            #print setcards
             print 'No Scryfall data'
             scryfall = ['']
         time.sleep(.1)
