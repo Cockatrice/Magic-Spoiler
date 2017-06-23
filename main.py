@@ -130,10 +130,13 @@ if __name__ == '__main__':
     #save_allsets(AllSets)
     #save_setjson(mtgjson)
     if presets['dumpXML']:
-        print '<!----- DUMPING SPOILER.XML ----->'
+        print '<!----- DUMPING SPOILER.XML -----!>'
         with open('out/spoiler.xml', 'r') as xmlfile:
             print xmlfile.read()
-        print '<!-----    END XML DUMP     ----->'
-        print '#----- DUMPING ERROR LOG -----'
-        print json.dumps(errorlog, ensure_ascii=False, encoding='utf8', indent=2, sort_keys=True, separators=(',',':'))
-        print '#-----   END ERROR LOG   -----'
+        print '<!-----    END XML DUMP     -----!>'
+        if errorlog != {}:
+            print '//----- DUMPING ERROR LOG -----'
+            print json.dumps(errorlog, ensure_ascii=False, encoding='utf8', indent=2, sort_keys=True, separators=(',',':'))
+            print '//-----   END ERROR LOG   -----'
+        else:
+            print "No Detected Errors!"
