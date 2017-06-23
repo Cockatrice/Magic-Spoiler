@@ -16,7 +16,8 @@ presets = {
     "siteorder": ['scryfall','mtgs','mythicspoiler'], # if we want to use one site before another for card data TODO
     "imageorder": ['wotc','scryfall','mtgs','mythicspoiler'], # prioritize images from certain sources
     "useexclusively": '', # if we *only* want to use one site TODO
-    "dumpXML": False # let travis print XML for testing
+    "dumpXML": False, # let travis print XML for testing
+    "scryfallComparison": False #if we want to debug compare scryfall to other sources, enable
 }
 
 try:
@@ -101,8 +102,9 @@ if __name__ == '__main__':
             [mtgs, split_cards] = spoilers.parse_mtgs(mtgs, [], [], [], presets['split_cards']) #parse spoilers into mtgjson format
         mtgs = spoilers.correct_cards(mtgs, manual_sets[setinfo['setname']]['cards'], card_corrections, delete_cards) #fix using the fixfiles
         scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfo['setname'].lower())
-        mtgs = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize'], setinfo) #get images
-        mtgjson = spoilers.smash_mtgs_scryfall(mtgs, scryfall)
+        mtgjson = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize'], setinfo) #get images
+        if presets['scryfallComparison']:
+            mtgjson = spoilers.smash_mtgs_scryfall(mtgs, scryfall)
         [mtgjson, errors] = spoilers.error_check(mtgjson, card_corrections) #check for errors where possible
         errorlog += errors
         spoilers.write_xml(mtgjson, setinfo['setname'], setinfo['setlongname'], setinfo['setreleasedate'])
