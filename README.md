@@ -18,6 +18,8 @@ Noticed an error?  Check out our [Contributing file](https://github.com/Cockatri
    - lxml
    - Pillow
    - datetime
+   - commentjson
+   - beautifulsoup4
 
 ```
 pip install -r requirements.txt
