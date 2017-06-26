@@ -13,11 +13,13 @@ Noticed an error?  Check out our [Contributing file](https://github.com/Cockatri
 ### Requirements ###
  * Python 2.7
  * Python Modules:
-    requests==2.13.0
-    feedparser
-    lxml
-    Pillow
-    datetime
+   - requests==2.13.0
+   - feedparser
+   - lxml
+   - Pillow
+   - datetime
+   - commentjson
+   - beautifulsoup4
 
 ```
 pip install -r requirements.txt
@@ -29,7 +31,7 @@ pip install -r requirements.txt
 $> python main.py
 ```
 
-Outputs out/{SETCODE}.xml, out/MPS\_{SETCODE}.xml, out/{SETCODE}.json, out/{MPS\_{SETCODE}.json
+Outputs out/{SETCODE}.xml, out/MPS\_{SETCODE}.xml, out/{SETCODE}.json, out/MPS\_{SETCODE}.json
 
 errors are logged to out/errors.json
 
