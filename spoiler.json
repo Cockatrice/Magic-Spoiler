@@ -184,6 +184,84 @@
     "border":"black",
     "cards":[
       {
+        "cmc":4,
+        "colorIdentity":[
+          "R",
+          "U"
+        ],
+        "colors":[
+          "Red",
+          "Blue"
+        ],
+        "layout":"aftermath",
+        "manaCost":"3R",
+        "name":"Refuse",
+        "names":[
+          "Refuse",
+          "Cooperate"
+        ],
+        "number":"156a",
+        "rarity":"Rare",
+        "text":"Refuse deals damage to target spell's controller equal to that spell's converted mana cost.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://mythicspoiler.com/hou/cards/refusecooperate.jpg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "U",
+          "R"
+        ],
+        "colors":[
+          "Blue",
+          "Red"
+        ],
+        "layout":"aftermath",
+        "manaCost":"2U",
+        "name":"Cooperate",
+        "names":[
+          "Refuse",
+          "Cooperate"
+        ],
+        "number":"156b",
+        "rarity":"Rare",
+        "text":"Aftermath Cast this spell only from your graveyard.  Then exile it.)\nCopy target instant or sorcery spell. You may choose new targets for the copy.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://mythicspoiler.com/hou/cards/refusecooperate.jpg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2B",
+        "name":"Ammit Eternal",
+        "number":"57",
+        "power":"5",
+        "rarity":"Rare",
+        "subtypes":[
+          "Zombie",
+          "Crocodile",
+          "Demon"
+        ],
+        "text":"Afflict 3 Whenever this creature becomes blocked, defending player loses 3 life.)\nWhenever an opponent casts a spell, put a -1/-1 counter on Ammit Eternal.\nWhenever Ammit Eternal deals combat damage to a player, remove all -1/-1 counters from it.",
+        "toughness":"5",
+        "type":"Creature - Zombie Crocodile Demon",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/432/636340310451017816.png"
+      },
+      {
         "cmc":1,
         "colorIdentity":[
           "U"
