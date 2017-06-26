@@ -826,7 +826,7 @@ def scrape_mtgs_images(url='http://www.mtgsalvation.com/spoilers/183-hour-of-dev
     cards = {}
     cardstree = tree.xpath('//*[contains(@class, "log-card")]')
     for child in cardstree:
-        if child.text == 'Reason' or child.text in exemptlist:
+        if child.text in exemptlist:
             continue
         childurl = mtgscardurl + child.attrib['data-card-id'] + '-' + child.text.replace(' ','-').replace("'","").replace(',','').replace('-//','')
         cardpage = requests.get(childurl)
