@@ -31,9 +31,9 @@ $> python main.py
 Outputs the following files to `out/` directory:<br>
 `spoiler.xml`, `{SETCODE}.xml`, `MPS_{SETCODE}.xml`,<br>
 `spoiler.json`, `{SETCODE}.json`, `MPS_{SETCODE}.json`
-  >           spoiler → files contain all currently available spoilers from different sets
-  >         {SETCODE} → files contain just the spoiler available for this single set
-  >     MPS_{SETCODE} → files contain just the spoiler available for this Invocations (Masterpiece Series)
+> **spoiler** → files contain all currently available spoilers from different sets<br>
+> **{SETCODE}** → files contain just the spoiler available for this single set<br>
+> **MPS_{SETCODE}** → files contain just the spoiler available for this Invocations (Masterpiece Series)
 
 Errors are logged there as well (`errors.json`)
 
