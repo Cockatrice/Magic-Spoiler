@@ -1,7 +1,7 @@
 language: python
 before_install:
   - pip install commentjson
-  - python verify_files.py
+  - bash ./preflight.sh
 install:
   - pip install -r requirements.txt
 script: bash ./deploy.sh
