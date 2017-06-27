@@ -26,6 +26,33 @@
   "border":"black",
   "cards":[
     {
+      "cmc":0,
+      "name":"Endless ",
+      "number":"176",
+      "rarity":"Rare",
+      "text":"{t}: Add {c} to your mana pool.\n\n{2}, {t}: Exile target creature you control.\n\n{4}, {t}, Sacrifice Endless Sands: Return each creature card exiled with Endless Sands to the battlefield under its owner's control ",
+      "type":"Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://mythicspoiler.com/hou/cards/endlesssands.jpg"
+    },
+    {
+      "cmc":0,
+      "name":"Endless Sands",
+      "number":"176",
+      "rarity":"Rare",
+      "subtypes":[
+        "Desert"
+      ],
+      "text":"{t}: Add {c} to your mana pool.\n{2}, {t}: Exile target creature you control.\n{4}, {t}, Sacrifice Endless Sands: Return each creature exiled with Endless Sands to the battlefield under its owner's control.",
+      "type":"Land - Desert",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/472/636341633538954171.jpeg"
+    },
+    {
       "cmc":5,
       "colorIdentity":[
         "G"
@@ -37,12 +64,12 @@
       "name":"Hour of Promise",
       "number":"120",
       "rarity":"Rare",
-      "text":"Search your library for any two lands and put them on the battlefield tapped, then shuffle your library. Thenif you control 3 or more deserts, create two 2/2 black Zombie creature tokens",
+      "text":"Search your library for up to two land cards and put them onto the battlefield tapped, then shuffle your library. Then if you control three or more Deserts, create two 2/2 black Zombie creature tokens.",
       "type":"Sorcery",
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/471/636341545468393913.jpeg"
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/474/636341655375234296.png"
     },
     {
       "cmc":0,
@@ -92,7 +119,7 @@
       "name":"Imminent Doom",
       "number":"98",
       "rarity":"Rare",
-      "text":"Imminent Doom enters the battlefield with a doom counter on it.\n\nWhenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to target creature or player. then put a doom counter on Imminent Doom. ",
+      "text":"Imminent Doom enters the battlefield with a doom counter on it.\n\nWhenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to target creature or player. Then put a doom counter on Imminent Doom. ",
       "type":"Enchantment",
       "types":[
         "Enchantment"
@@ -257,7 +284,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/446/636340853537578398.png"
+      "url":"http://media.wizards.com/2017/hou/en_JIiPpwiAd2.png"
     },
     {
       "cmc":3,
@@ -283,7 +310,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/443/636340688964012938.png"
+      "url":"http://media.wizards.com/2017/hou/en_V7aV7MP5lf.png"
     },
     {
       "cmc":3,
@@ -308,7 +335,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/442/636340673625876209.png"
+      "url":"http://media.wizards.com/2017/hou/en_T9CraoZSpf.png"
     },
     {
       "cmc":8,
@@ -331,7 +358,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/441/636340670897359335.png"
+      "url":"http://media.wizards.com/2017/hou/en_sesUcKUkTI.png"
     },
     {
       "cmc":4,
@@ -357,7 +384,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://mythicspoiler.com/hou/cards/refusecooperate.jpg"
+      "url":"http://media.wizards.com/2017/hou/en_mTjBgXxd6l.png"
     },
     {
       "cmc":3,
@@ -409,7 +436,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/470/636341545439101454.png"
+      "url":"http://media.wizards.com/2017/hou/en_RpuIPkX9Sl.png"
     },
     {
       "cmc":1,
@@ -434,7 +461,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/386/636338112585833254.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_QuNSDWJCuZ.png"
     },
     {
       "cmc":3,
@@ -459,7 +486,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/384/636338111310663315.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_RlwVhRyk2C.png"
     },
     {
       "cmc":3,
@@ -485,7 +512,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://mythicspoiler.com/hou/cards/strugglesurvive.jpg"
+      "url":"http://media.wizards.com/2017/hou/en_28ghbzrFQ7.png"
     },
     {
       "cmc":2,
@@ -537,7 +564,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://mythicspoiler.com/hou/cards/farmmarket.jpg"
+      "url":"http://media.wizards.com/2017/hou/en_qPxIgzMnkU.png"
     },
     {
       "cmc":3,
@@ -575,7 +602,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/381/636338078541582492.png"
+      "url":"http://media.wizards.com/2017/hou/en_hmLUjsTTGZ.png"
     },
     {
       "cmc":4,
@@ -598,7 +625,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/380/636338077710880308.png"
+      "url":"http://media.wizards.com/2017/hou/en_nZSvprxX5r.png"
     },
     {
       "cmc":4,
@@ -617,7 +644,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/379/636338076157249199.png"
+      "url":"http://media.wizards.com/2017/hou/en_DHNfpJouqy.png"
     },
     {
       "cmc":3,
@@ -636,7 +663,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/375/636338008556150889.png"
+      "url":"http://media.wizards.com/2017/hou/en_7neWroY45R.png"
     },
     {
       "cmc":3,
@@ -661,7 +688,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/364/636337381932345493.png"
+      "url":"http://media.wizards.com/2017/hou/en_CUmICnZiE9.png"
     },
     {
       "cmc":2,
@@ -686,7 +713,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/445/636340852033640348.png"
+      "url":"http://media.wizards.com/2017/hou/en_tjrE6v0y8W.png"
     },
     {
       "cmc":2,
@@ -711,7 +738,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/354/636337238874596817.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_HrLX35Ontc.png"
     },
     {
       "cmc":8,
@@ -735,7 +762,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/353/636337232550189769.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_VmsPLXTdPJ.png"
     },
     {
       "cmc":0,
@@ -748,7 +775,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/448/636340898976843587.png"
+      "url":"http://media.wizards.com/2017/hou/en_FFNiA2zmoZ.png"
     },
     {
       "cmc":2,
@@ -767,7 +794,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/352/636337222106552392.png"
+      "url":"http://media.wizards.com/2017/hou/en_BD8Ez3Ftte.png"
     },
     {
       "cmc":2,
@@ -793,7 +820,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/452/636340900349063679.png"
+      "url":"http://media.wizards.com/2017/hou/en_IiJXCMv2RZ.png"
     },
     {
       "cmc":3,
@@ -820,7 +847,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/362/636337345349411474.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_elwdILPhPm.png"
     },
     {
       "cmc":4,
@@ -845,7 +872,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/361/636337344417748783.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_p7Ginz8sYn.png"
     },
     {
       "cmc":2,
@@ -870,7 +897,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/339/636337002945155371.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_eK7nRwVEnO.png"
     },
     {
       "cmc":1,
@@ -896,7 +923,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://mythicspoiler.com/hou/cards/claimfame.jpg"
+      "url":"http://media.wizards.com/2017/hou/en_8QvbwelFBK.png"
     },
     {
       "cmc":2,
@@ -947,7 +974,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/337/636336957407281483.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_phPxRRmPNk.png"
     },
     {
       "cmc":5,
@@ -972,7 +999,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/390/636338152394525641.png"
+      "url":"http://media.wizards.com/2017/hou/en_uOkv0Y8jO1.png"
     },
     {
       "cmc":2,
@@ -997,7 +1024,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/451/636340900116958366.png"
+      "url":"http://media.wizards.com/2017/hou/en_byxweupK4l.png"
     },
     {
       "cmc":5,
@@ -1263,7 +1290,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/313/636336348400084616.png"
+      "url":"http://media.wizards.com/2017/hou/en_9LbKfiUIeo.png"
     },
     {
       "cmc":4,
@@ -1287,7 +1314,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/312/636336327971523825.png"
+      "url":"http://media.wizards.com/2017/hou/en_tLBKOwif8v.png"
     },
     {
       "cmc":6,
@@ -1311,7 +1338,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/311/636336236660169400.png"
+      "url":"http://media.wizards.com/2017/hou/en_j727WiwO8j.png"
     },
     {
       "cmc":2,
@@ -1337,7 +1364,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://mythicspoiler.com/hou/cards/drivendespair.jpg"
+      "url":"http://media.wizards.com/2017/hou/en_UXJ7wksodC.png"
     },
     {
       "cmc":2,
@@ -1378,7 +1405,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/359/636337341461053260.png"
+      "url":"http://media.wizards.com/2017/hou/en_Lnxy2oCFxt.png"
     },
     {
       "cmc":2,
@@ -1410,7 +1437,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/291/636335517360425854.png"
+      "url":"http://media.wizards.com/2017/hou/en_KjZWezjAor.png"
     },
     {
       "cmc":3,
@@ -1519,7 +1546,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/449/636340899393140792.png"
+      "url":"http://media.wizards.com/2017/hou/en_qEhCAQUHsp.png"
     },
     {
       "cmc":4,
@@ -1632,7 +1659,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/277/636334818228799935.png"
+      "url":"http://media.wizards.com/2017/hou/en_0md3a92YNo.png"
     },
     {
       "cmc":3,
@@ -1657,7 +1684,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/453/636340900744860765.png"
+      "url":"http://media.wizards.com/2017/hou/en_sQyGmWAB1p.png"
     },
     {
       "cmc":3,
@@ -1676,7 +1703,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/231/636334622317616677.png"
+      "url":"http://media.wizards.com/2017/hou/en_0HZOxu3e9R.png"
     },
     {
       "cmc":2,
@@ -1689,7 +1716,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/210/636333868408378085.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_eHn6C0QeCl.png"
     },
     {
       "cmc":3,
@@ -1714,7 +1741,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/204/636333361190464926.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_bD2hO7N1fu.png"
     },
     {
       "cmc":3,
@@ -1733,7 +1760,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/248/636334627743395334.png"
+      "url":"http://media.wizards.com/2017/hou/en_eDe8r8i7Pr.png"
     },
     {
       "cmc":3,
@@ -1758,7 +1785,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/172/636332538616842277.png"
+      "url":"http://media.wizards.com/2017/hou/en_KMdxqcdNI6.png"
     },
     {
       "cmc":7,
@@ -1830,7 +1857,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/169/636332509737681962.png"
+      "url":"http://media.wizards.com/2017/hou/en_hv4QCuB2vq.png"
     },
     {
       "cmc":2,
@@ -1856,7 +1883,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://mythicspoiler.com/hou/cards/grinddust.jpg"
+      "url":"http://media.wizards.com/2017/hou/en_NSWhEB66tt.png"
     },
     {
       "cmc":4,
@@ -1907,7 +1934,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/232/636334622427335346.png"
+      "url":"http://media.wizards.com/2017/hou/en_xveFKpkzIi.png"
     },
     {
       "cmc":5,
@@ -1976,7 +2003,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/238/636334624220294491.png"
+      "url":"http://media.wizards.com/2017/hou/en_4VGmon365b.png"
     },
     {
       "cmc":3,
@@ -2001,7 +2028,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/243/636334626152626055.png"
+      "url":"http://media.wizards.com/2017/hou/en_SlbK5wcKi2.png"
     },
     {
       "cmc":0,
@@ -2019,7 +2046,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/252/636334628966353114.png"
+      "url":"http://media.wizards.com/2017/hou/en_prltrw3Y0F.png"
     },
     {
       "cmc":0,
@@ -2037,7 +2064,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/179/636332552106248956.png"
+      "url":"http://media.wizards.com/2017/hou/en_jV5NLAgDZq.png"
     },
     {
       "cmc":6,
@@ -2056,7 +2083,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/226/636334617116435281.png"
+      "url":"http://media.wizards.com/2017/hou/en_zn5vpFywyj.png"
     },
     {
       "cmc":0,
@@ -2074,7 +2101,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/251/636334628739634921.png"
+      "url":"http://media.wizards.com/2017/hou/en_oy7e76a0PO.png"
     },
     {
       "cmc":0,
@@ -2092,7 +2119,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/253/636334629175102576.png"
+      "url":"http://media.wizards.com/2017/hou/en_5SLenOUbXE.png"
     },
     {
       "cmc":5,
@@ -2116,7 +2143,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/233/636334622728740737.png"
+      "url":"http://media.wizards.com/2017/hou/en_lXIchS4YnT.png"
     },
     {
       "cmc":4,
@@ -2141,7 +2168,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/236/636334623674045700.png"
+      "url":"http://media.wizards.com/2017/hou/en_YpqvmcFwLu.png"
     },
     {
       "cmc":4,
@@ -2165,7 +2192,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/240/636334624637168883.png"
+      "url":"http://media.wizards.com/2017/hou/en_k3iTVewa1B.png"
     },
     {
       "cmc":3,
@@ -2184,7 +2211,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/239/636334624542013426.png"
+      "url":"http://media.wizards.com/2017/hou/en_0Bn6BqroZ0.png"
     },
     {
       "cmc":0,
@@ -2202,7 +2229,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/180/636332552787951808.png"
+      "url":"http://media.wizards.com/2017/hou/en_yzWNyRWCTl.png"
     },
     {
       "cmc":4,
@@ -2226,7 +2253,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/450/636340899864728146.png"
+      "url":"http://media.wizards.com/2017/hou/en_ACfEchqu3b.png"
     },
     {
       "cmc":4,
@@ -2251,7 +2278,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/178/636332551562242249.png"
+      "url":"http://media.wizards.com/2017/hou/en_OqudZpvqrM.png"
     },
     {
       "cmc":4,
@@ -2276,7 +2303,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/176/636332550201096461.png"
+      "url":"http://media.wizards.com/2017/hou/en_0nhPN8uzVc.png"
     },
     {
       "cmc":3,
@@ -2327,7 +2354,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/177/636332551005011856.png"
+      "url":"http://media.wizards.com/2017/hou/en_oG3JO3ErST.png"
     },
     {
       "cmc":1,
@@ -2384,7 +2411,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/247/636334627467304917.png"
+      "url":"http://media.wizards.com/2017/hou/en_OEUeMP3IsF.png"
     },
     {
       "cmc":3,
@@ -2422,7 +2449,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/235/636334623462481745.png"
+      "url":"http://media.wizards.com/2017/hou/en_kh1nTY0h7P.png"
     },
     {
       "cmc":4,
@@ -2516,7 +2543,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/242/636334625853564034.png"
+      "url":"http://media.wizards.com/2017/hou/en_cBqQUYOBVz.png"
     },
     {
       "cmc":7,
