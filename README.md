@@ -33,10 +33,10 @@ Outputs the following files to `out/` directory:<br>
 `spoiler.json`, `{SETCODE}.json`, `MPS_{SETCODE}.json`
 > **spoiler** → files contain all currently available spoilers from different sets<br>
 > **{SETCODE}** → files contain just the spoiler available for this single set<br>
-> **MPS_{SETCODE}** → files contain just the spoiler available for this Invocations (Masterpiece Series)
+> **MPS_{SETCODE}** → files contain just the spoiler available for this [Masterpiece Series](http://magic.wizards.com/en/articles/archive/making-magic/masterpiece-series-2016-09-12)
 
 Errors are logged there as well (`errors.json`)
 
 <br>
 
-Add the desired <b>.xml</b> file to your <i>customsets</i> folder to make Cockatrice use it.
+[Add the desired <b>.xml</b> file to your <i>customsets</i> folder to make Cockatrice use it.](https://github.com/Cockatrice/Cockatrice/wiki/Custom-Cards-&-Sets#to-add-custom-sets-follow-these-steps)
