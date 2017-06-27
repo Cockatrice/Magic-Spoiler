@@ -105,6 +105,9 @@ if __name__ == '__main__':
         mtgjson = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize'], setinfo) #get images
         if presets['scryfallComparison']:
             mtgjson = spoilers.smash_mtgs_scryfall(mtgs, scryfall)
+        if 'fullSpoil' in setinfo and setinfo['fullSpoil']:
+            wotc = spoilers.scrape_fullspoil()
+            spoilers.smash_fullspoil(mtgjson, wotc)
         [mtgjson, errors] = spoilers.error_check(mtgjson, card_corrections) #check for errors where possible
         errorlog += errors
         spoilers.write_xml(mtgjson, setinfo['setname'], setinfo['setlongname'], setinfo['setreleasedate'])
