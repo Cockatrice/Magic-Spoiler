@@ -2,7 +2,7 @@
 
 set -e
 
-CHANGED_FILES=`git diff --name-only HEAD HEAD~5`
+CHANGED_FILES=`git diff --name-only master...${TRAVIS_COMMIT}`
 ONLY_READMES=True
 MD=".md"
 
