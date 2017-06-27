@@ -184,6 +184,240 @@
     "border":"black",
     "cards":[
       {
+        "cmc":5,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"4G",
+        "name":"Hour of Promise",
+        "number":"120",
+        "rarity":"Rare",
+        "text":"Search your library for any two lands and put them on the battlefield tapped, then shuffle your library. Thenif you control 3 or more deserts, create two 2/2 black Zombie creature tokens",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/471/636341545468393913.jpeg"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "U"
+        ],
+        "name":"Ipnu Rivulet",
+        "number":"180",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Desert"
+        ],
+        "text":"{t}: Add {c} to your mana pool.\n{t}, Pay 1 life: Add {u} to your mana pool.\n{1}{u}, {t}, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard.",
+        "type":"Land - Desert",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/469/636341541863383100.png"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "B"
+        ],
+        "name":"Ifnir Deadlands",
+        "number":"179",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Desert"
+        ],
+        "text":"{t}: Add {c} to your mana pool.\n{t}, Pay 1 life: Add {b} to your mana pool.\n{2}{b}{b}, {t}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery.",
+        "type":"Land - Desert",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/468/636341541157714095.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"2R",
+        "name":"Imminent Doom",
+        "number":"98",
+        "rarity":"Rare",
+        "text":"Imminent Doom enters the battlefield with a doom counter on it.\n\nWhenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to target creature or player. then put a doom counter on Imminent Doom. ",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/467/636341540713346458.png"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "R"
+        ],
+        "name":"Ramunap Ruins",
+        "number":"181",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Desert"
+        ],
+        "text":"{t}: Add {c} to your mana pool.\n{t}, Pay 1 life: Add {r} to your mana pool.\n{2}{r}{r}, {t}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.",
+        "type":"Land - Desert",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/466/636341539672007082.png"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "W"
+        ],
+        "name":"Shefet Dunes",
+        "number":"183",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Desert"
+        ],
+        "text":"{t}: Add {c} to your mana pool.\n{t}, Pay 1 life: Add {w} to your mana pool.\n{2}{w}{w}, {t}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.",
+        "type":"Land - Desert",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/465/636341538782594170.png"
+      },
+      {
+        "cmc":7,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"5RR",
+        "name":"Chaos Maw",
+        "number":"87",
+        "power":"6",
+        "rarity":"Rare",
+        "subtypes":[
+          "Hellion"
+        ],
+        "text":"When Chaos Maw enters the battlefield, it deals 3 damage to each other creature. ",
+        "toughness":"6",
+        "type":"Creature - Hellion",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "G"
+        ],
+        "name":"Hashep Oasis",
+        "number":"177",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Desert"
+        ],
+        "text":"{t}: Add {c} to your mana pool.\n{t}, Pay 1 life: Add {g} to your mana pool.\n{1}{g}{g}, {t}, Sacrifice a Desert: Target creature gets +3/+3 until end of turn. Activate this ability only any time you could cast a sorcery.",
+        "type":"Land - Desert",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/464/636341537746060160.png"
+      },
+      {
+        "cmc":5,
+        "manaCost":"5",
+        "name":"Hollow One",
+        "number":"163",
+        "rarity":"Rare",
+        "subtypes":[
+          "Golem"
+        ],
+        "text":"Hollow One costs {2} less to cast for each card you've cycled or discarded this turn.\n\nCycling {2} {2}, Discard this card: Draw a card.)",
+        "type":"Artifact Creature - Golem",
+        "types":[
+          "Artifact",
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/458/636341091529067961.png"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "G",
+          "W"
+        ],
+        "colors":[
+          "Green",
+          "White"
+        ],
+        "layout":"aftermath",
+        "manaCost":"G",
+        "name":"Appeal",
+        "names":[
+          "Appeal",
+          "Authority"
+        ],
+        "number":"152a",
+        "rarity":"Uncommon",
+        "text":"Until end of turn, target creature gains trample and gets +X/+X, where X is the number of creatures you control.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://mythicspoiler.com/hou/cards/appealauthority.jpg"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W",
+          "G"
+        ],
+        "colors":[
+          "White",
+          "Green"
+        ],
+        "layout":"aftermath",
+        "manaCost":"1W",
+        "name":"Authority",
+        "names":[
+          "Appeal",
+          "Authority"
+        ],
+        "number":"152b",
+        "rarity":"Uncommon",
+        "text":"Aftermath Cast this spell only from your graveyard.  Then exile it.)\nTap up to two target creatures your opponents control.  Creatures you control gain vigilance until end of turn.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://mythicspoiler.com/hou/cards/appealauthority.jpg"
+      },
+      {
+        "cmc":7,
+        "manaCost":"7",
+        "name":"God-Pharaoh's Gift",
+        "number":"161",
+        "rarity":"Rare",
+        "text":"At the beginning of combat on your turn, you may exile a creature card from your graveyard. If you do, create a token that's a copy of that card, except it's a 4/4 black Zombie. It gains haste until end of turn.",
+        "type":"Artifact",
+        "types":[
+          "Artifact"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/446/636340853537578398.png"
+      },
+      {
         "cmc":3,
         "colorIdentity":[
           "W",
@@ -226,7 +460,7 @@
           "Naga",
           "Wizard"
         ],
-        "text":"When Champion of Wits enters the battlefield, you may draw cards equal to it's power. If you do, discard two cards.\n\nEternalize {5UU}  {5uu}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Naga Wizard with no mana cost. Eternalize only as a sorcery.)",
+        "text":"When Champion of Wits enters the battlefield, you may draw cards equal to its power. If you do, discard two cards.\n\nEternalize {5UU}  {5uu}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Naga Wizard with no mana cost. Eternalize only as a sorcery.)",
         "toughness":"1",
         "type":"Creature - Naga Wizard",
         "types":[
@@ -333,7 +567,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/432/636340310451017816.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/470/636341545439101454.png"
       },
       {
         "cmc":1,
@@ -610,7 +844,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/394/636338189106227788.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/445/636340852033640348.png"
       },
       {
         "cmc":2,
@@ -646,7 +880,7 @@
           "Black"
         ],
         "manaCost":"5BBB",
-        "name":"Razaketh the Foulblooded",
+        "name":"Razaketh, the Foulblooded",
         "number":"73",
         "power":"8",
         "rarity":"Mythic Rare",
@@ -672,7 +906,7 @@
         "types":[
           "Sorcery"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/366/636337387947067637.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/448/636340898976843587.png"
       },
       {
         "cmc":2,
@@ -717,7 +951,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/347/636337117414929119.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/452/636340900349063679.png"
       },
       {
         "cmc":3,
@@ -921,7 +1155,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/335/636336921217599226.jpeg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/451/636340900116958366.png"
       },
       {
         "cmc":5,
@@ -1443,7 +1677,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/287/636335389020803360.jpeg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/449/636340899393140792.png"
       },
       {
         "cmc":4,
@@ -1581,7 +1815,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/276/636334713484281276.jpeg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/453/636340900744860765.png"
       },
       {
         "cmc":3,
@@ -2150,7 +2384,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/153/636332418043926376.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/450/636340899864728146.png"
       },
       {
         "cmc":4,
