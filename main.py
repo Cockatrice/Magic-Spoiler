@@ -106,7 +106,7 @@ if __name__ == '__main__':
         if presets['scryfallComparison']:
             mtgjson = spoilers.smash_mtgs_scryfall(mtgs, scryfall)
         if 'fullSpoil' in setinfo and setinfo['fullSpoil']:
-            wotc = spoilers.scrape_fullspoil()
+            wotc = spoilers.scrape_fullspoil('', setinfo)
             spoilers.smash_fullspoil(mtgjson, wotc)
         [mtgjson, errors] = spoilers.error_check(mtgjson, card_corrections) #check for errors where possible
         errorlog += errors
