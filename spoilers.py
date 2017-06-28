@@ -21,7 +21,7 @@ def scrape_mtgs(url):
 def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], split_cards={}, related_cards=[]):
     mtgs = mtgs.replace('utf-16','utf-8')
     patterns = ['<b>Name:</b> <b>(?P<name>.*?)<',
-                'Cost: (?P<cost>\d{0,2}[WUBRGC]*?)<',
+                'Cost: (?P<cost>[X]*\d{0,2}[XWUBRGC]*?)<',
                 'Type: (?P<type>.*?)<',
                 'Pow/Tgh: (?P<pow>.*?)<',
                 'Rules Text: (?P<rules>.*?)<br /',
@@ -375,6 +375,9 @@ def error_check(mtgjson, card_corrections={}):
             elif not card['cmc'] == workingCMC:
                 errors.append({"name": card['name'], "key": "cmc", "oldvalue": card['cmc'], "newvalue": workingCMC, "fixed": True, "match": card['manaCost']})
                 card['cmc'] = workingCMC
+        else:
+            if 'type' in card and 'land' in card['type'].lower():
+                errors.append({"name": card['name'], "key": "manaCost", "value": ""})
         if not 'cmc' in card:
             errors.append({"name": card['name'], "key": "cmc", "value": ""})
         else:
@@ -433,11 +436,15 @@ def error_check(mtgjson, card_corrections={}):
                             else:
                                 if 'colors' in related_card:
                                     for color in related_card['colors']:
-                                        if not color in card['colors']:
+                                        if not 'colors' in card:
+                                            card['colors'] = [color]
+                                        elif not color in card['colors']:
                                             card['colors'].append(color)
                                 if 'colorIdentity' in related_card:
                                     for colorIdentity in related_card['colorIdentity']:
-                                        if not colorIdentity in card['colorIdentity']:
+                                        if not 'colorIdentity' in card:
+                                            card['colorIdentity'] = [colorIdentity]
+                                        elif not colorIdentity in card['colorIdentity']:
                                             card['colorIdentity'].append(colorIdentity)
                 if 'number' in card:
                     if not 'a' in card['number'] and not 'b' in card['number'] and not 'c' in card['number']:
