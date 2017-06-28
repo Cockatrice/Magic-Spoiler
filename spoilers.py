@@ -21,7 +21,7 @@ def scrape_mtgs(url):
 def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], split_cards={}, related_cards=[]):
     mtgs = mtgs.replace('utf-16','utf-8')
     patterns = ['<b>Name:</b> <b>(?P<name>.*?)<',
-                'Cost: (?P<cost>\d{0,2}[WUBRGC]*?)<',
+                'Cost: (?P<cost>[X]*\d{0,2}[XWUBRGC]*?)<',
                 'Type: (?P<type>.*?)<',
                 'Pow/Tgh: (?P<pow>.*?)<',
                 'Rules Text: (?P<rules>.*?)<br /',
@@ -327,7 +327,6 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
 
 def error_check(mtgjson, card_corrections={}):
     errors = []
-
     for card in mtgjson['cards']:
         for key in card:
             if key == "":
@@ -376,6 +375,9 @@ def error_check(mtgjson, card_corrections={}):
             elif not card['cmc'] == workingCMC:
                 errors.append({"name": card['name'], "key": "cmc", "oldvalue": card['cmc'], "newvalue": workingCMC, "fixed": True, "match": card['manaCost']})
                 card['cmc'] = workingCMC
+        else:
+            if 'type' in card and not 'land' in card['type'].lower():
+                errors.append({"name": card['name'], "key": "manaCost", "value": ""})
         if not 'cmc' in card:
             errors.append({"name": card['name'], "key": "cmc", "value": ""})
         else:
@@ -434,11 +436,15 @@ def error_check(mtgjson, card_corrections={}):
                             else:
                                 if 'colors' in related_card:
                                     for color in related_card['colors']:
-                                        if not color in card['colors']:
+                                        if not 'colors' in card:
+                                            card['colors'] = [color]
+                                        elif not color in card['colors']:
                                             card['colors'].append(color)
                                 if 'colorIdentity' in related_card:
                                     for colorIdentity in related_card['colorIdentity']:
-                                        if not colorIdentity in card['colorIdentity']:
+                                        if not 'colorIdentity' in card:
+                                            card['colorIdentity'] = [colorIdentity]
+                                        elif not colorIdentity in card['colorIdentity']:
                                             card['colorIdentity'].append(colorIdentity)
                 if 'number' in card:
                     if not 'a' in card['number'] and not 'b' in card['number'] and not 'c' in card['number']:
@@ -642,7 +648,10 @@ def smash_mtgs_scryfall(mtgs, scryfall):
 
     return mtgs
 
-def scrape_fullspoil(url, showRarityColors=False, showFrameColors=False, manual_cards=[], delete_cards=[], split_cards=[]):
+def scrape_fullspoil(url="http://magic.wizards.com/en/articles/archive/card-image-gallery/hour-devastation", setinfo={"setname":"HOU"}, showRarityColors=False, showFrameColors=False, manual_cards=[], delete_cards=[], split_cards=[]):
+    if 'setlongname' in setinfo:
+        url = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + setinfo['setlongname'].lower().replace('of', '').replace(
+            '  ', ' ').replace(' ', '-')
     page = requests.get(url)
     tree = html.fromstring(page.content)
     cards = []
@@ -656,46 +665,62 @@ def scrape_fullspoil(url, showRarityColors=False, showFrameColors=False, manual_
                 "img": cardElement.attrib['src']
             }
             card["url"] = card["img"]
-            card["cmc"] = 0
-            card["manaCost"] = ""
-            card["type"] = "Land"
-            card["types"] = ["Land"]
-            card["text"] = ""
+            #card["cmc"] = 0
+            #card["manaCost"] = ""
+            #card["type"] = ""
+            #card["types"] = []
+            #card["text"] = ""
             #card["colorIdentity"] = [""]
 
-            if card['name'] in split_cards:
-                card["names"] = [card['name'], split_cards[card['name']]]
-                if not 'layout' in card:
-                    card["layout"] = "split"
-            notSplit = True
-            for backsplit in split_cards:
-                if card['name'] == split_cards[backsplit]:
-                    notSplit = False
-            if notSplit and not card['name'] in delete_cards:
-                cards.append(card)
+            #if card['name'] in split_cards:
+            #    card["names"] = [card['name'], split_cards[card['name']]]
+            #    card["layout"] = "split"
+            #notSplit = True
+            #for backsplit in split_cards:
+            #    if card['name'] == split_cards[backsplit]:
+            #        notSplit = False
+            #if not card['name'] in delete_cards:
+            cards.append(card)
             cardcount += 1
+    fullspoil = { "cards": cards }
     print "Spoil Gallery has " + str(cardcount) + " cards."
-    #print mtgjson
-    #print cards
-    #return cards
-    get_rarities_by_symbol(fullspoil, showRarityColors)
-    get_colors_by_frame(fullspoil, showFrameColors)
-    return cards
+    download_images(fullspoil['cards'], setinfo['setname'])
+    fullspoil = get_rarities_by_symbol(fullspoil, setinfo['setname'])
+    fullspoil = get_colors_by_frame(fullspoil, setinfo['setname'])
+    return fullspoil
 
-def get_rarities_by_symbol(fullspoil, split_cards=[]):
-    symbolPixels = (234, 215, 236, 218)
+def download_images(mtgjson, setcode):
+        if not os.path.isdir('images/' + setcode):
+            os.makedirs('images/' + setcode)
+        if 'cards' in mtgjson:
+            jsoncards = mtgjson['cards']
+        else:
+            jsoncards = mtgjson
+        for card in jsoncards:
+            if card['url']:
+                if os.path.isfile('images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg'):
+                    continue
+                #print 'Downloading ' + card['url'] + ' to images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg'
+                urllib.urlretrieve(card['url'], 'images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg')
+
+def get_rarities_by_symbol(fullspoil, setcode, split_cards=[]):
+    symbolPixels = (240, 219, 242, 221)
     highVariance = 15
     colorAverages = {
-        "Common": [225, 224, 225],
-        "Uncommon": [194, 228, 240],
-        "Rare": [225, 201, 134],
-        "Mythic Rare": [249, 163, 15]
+        "Common": [30, 27, 28],
+        "Uncommon": [121, 155, 169],
+        "Rare": [166, 143, 80],
+        "Mythic Rare": [201, 85, 14]
     }
-    #symbolCount = 0
-    for card in fullspoil:
-        cardImage = Image.open('images/' + card['name'] + '.png')
-        if card['name'] in split_cards:
-            setSymbol = cardImage.crop((234, 134, 236, 137))
+    symbolCount = 0
+    for card in fullspoil['cards']:
+        try:
+            cardImage = Image.open('images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg')
+        except:
+            continue
+            pass
+        if '//' in card['name']:
+            setSymbol = cardImage.crop((240, 138, 242, 140))
         else:
             setSymbol = cardImage.crop(symbolPixels)
         cardHistogram = setSymbol.histogram()
@@ -719,13 +744,12 @@ def get_rarities_by_symbol(fullspoil, split_cards=[]):
             print card['name'], 'has high variance of', variance, ', closest rarity is', card['rarity']
             card['rarity'] = "Mythic Rare"
             print card['name'], '$', reds, greens, blues
-        #if symbolCount < 10:
-        #setSymbol.save('images/' + card['name'] + '.symbol.jpg')
-        #    symbolCount += 1
+            if symbolCount < 10:
+                setSymbol.save('images/' + card['name'].replace(' // ','') + '.symbol.jpg')
+                symbolCount += 1
     return fullspoil
-    print
 
-def get_colors_by_frame(fullspoil, split_cards=[]):
+def get_colors_by_frame(fullspoil, setcode, split_cards={}):
     framePixels = (20, 11, 76, 16)
     highVariance = 10
     colorAverages = {
@@ -738,13 +762,13 @@ def get_colors_by_frame(fullspoil, split_cards=[]):
         "Artifact": [141, 165, 173],
         "Colorless": [216, 197, 176],
     }
-    #symbolCount = 0
-    for card in fullspoil:
-        cardImage = Image.open('images/' + card['name'] + '.png')
-        if card['name'] in split_cards:
+    symbolCount = 0
+    for card in fullspoil['cards']:
+        try:
+            cardImage = Image.open('images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg')
+        except:
             continue
-            #setSymbol = cardImage.crop((234, 134, 236, 137))
-        #else:
+            pass
         cardColor = cardImage.crop(framePixels)
 
         cardHistogram = cardColor.histogram()
@@ -763,15 +787,6 @@ def get_colors_by_frame(fullspoil, split_cards=[]):
             if colorVariance < variance:
                 variance = colorVariance
                 card['colors'] = [color]
-        if variance > highVariance:
-            # if a card isn't close to any of the colors, it's probably a planeswalker? make it mythic.
-            #print card['name'], 'has high variance of', variance, ', closest rarity is', card['color']
-            print card['name'], '$ colors $', reds, greens, blues
-        #if 'Multicolor' in card['colors'] or 'Colorless' in card['colors'] or 'Artifact' in card['colors']:
-        #    card['colors'] = []
-        #if symbolCount < 10:
-        #cardColor.save('images/' + card['name'] + '.symbol.jpg')
-        #    symbolCount += 1
     return fullspoil
 
 def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, setinfo=False):
@@ -795,14 +810,18 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, seti
             if match3:
                 c['url'] = match3.groupdict()['img']
             else:
-                if 'names' in c:
-                    mythicname = c['names'][0] + c['names'][1]
+                match4 = re.search(wotcpattern.format(c['name'].replace('\'','&rsquo;')), text3, re.DOTALL)
+                if match4:
+                    c['url'] = match4.groupdict()['img']
                 else:
-                    mythicname = c['name']
-                match2 = re.search(mythicspoilerpattern.format(mythicname.lower().replace(' ', '').replace('&#x27;', '').replace('-', '').replace('\'','').replace(',', '')), text2, re.DOTALL)
-                if match2 and not isfullspoil:
-                    c['url'] = match2.group(0).replace(' src="', 'http://mythicspoiler.com/').replace('">', '')
-                pass
+                    if 'names' in c:
+                        mythicname = c['names'][0] + c['names'][1]
+                    else:
+                        mythicname = c['name']
+                    match2 = re.search(mythicspoilerpattern.format(mythicname.lower().replace(' ', '').replace('&#x27;', '').replace('-', '').replace('\'','').replace(',', '')), text2, re.DOTALL)
+                    if match2 and not isfullspoil:
+                        c['url'] = match2.group(0).replace(' src="', 'http://mythicspoiler.com/').replace('">', '')
+                    pass
         #if ('Creature' in c['type'] and not c.has_key('power')) or ('Vehicle' in c['type'] and not c.has_key('power')):
         #    print(c['name'] + ' is a creature w/o p/t img: ' + c['url'])
         if 'wizards.com' in c['url']:
@@ -820,13 +839,39 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, seti
             print(card['name'] + ' has no image.')
     return mtgjson
 
+def smash_fullspoil(mtgjson, fullspoil):
+    different_keys = {}
+    for mtgjson_card in mtgjson['cards']:
+        for fullspoil_card in fullspoil['cards']:
+            if mtgjson_card['name'] == fullspoil_card['name']:
+                for key in fullspoil_card:
+                    if key in mtgjson_card:
+                        if mtgjson_card[key] != fullspoil_card[key] and key != 'colors':
+                            if not fullspoil_card['name'] in different_keys:
+                                different_keys[fullspoil_card['name']] = {key: fullspoil_card[key]}
+                            else:
+                                different_keys[fullspoil_card['name']][key] = fullspoil_card[key]
+    for fullspoil_card in fullspoil['cards']:
+        WOTC_only = []
+        match = False
+        for mtgjson_card in mtgjson['cards']:
+            if mtgjson_card['name'] == fullspoil_card['name']:
+                match = True
+        if not match:
+            WOTC_only.append(fullspoil_card['name'])
+    if len(WOTC_only) > 0:
+        print "WOTC only cards: "
+        print WOTC_only
+    print different_keys
+
+
 def scrape_mtgs_images(url='http://www.mtgsalvation.com/spoilers/183-hour-of-devastation', mtgscardurl='http://www.mtgsalvation.com/cards/hour-of-devastation/', exemptlist=[]):
     page = requests.get(url)
     tree = html.fromstring(page.content)
     cards = {}
     cardstree = tree.xpath('//*[contains(@class, "log-card")]')
     for child in cardstree:
-        if child.text == 'Reason' or child.text in exemptlist:
+        if child.text in exemptlist:
             continue
         childurl = mtgscardurl + child.attrib['data-card-id'] + '-' + child.text.replace(' ','-').replace("'","").replace(',','').replace('-//','')
         cardpage = requests.get(childurl)

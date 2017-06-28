@@ -1,7 +1,12 @@
 language: python
+before_install:
+  - pip install commentjson
+  - python verify_files.py # make sure input files are OK before wasting time with prereqs
 install:
   - pip install -r requirements.txt
 script: bash ./deploy.sh
+after_script:   
+  - sleep 10 # helps travis finish logging
 notifications:
   email: false
   webhooks:
