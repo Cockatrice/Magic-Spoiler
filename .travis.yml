@@ -5,6 +5,8 @@ before_install:
 install:
   - pip install -r requirements.txt
 script: bash ./deploy.sh
+after_script:   
+  - sleep 10
 notifications:
   email: false
   webhooks:
