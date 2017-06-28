@@ -26,6 +26,81 @@
   "border":"black",
   "cards":[
     {
+      "cmc":4,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"2UU",
+      "name":"Kefnet's Last Word",
+      "number":"39",
+      "rarity":"Rare",
+      "text":"Gain control of target artifact, creature or enchantment. Lands you control don't untap during your next untap step.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/498/636342480407625742.png"
+    },
+    {
+      "cmc":6,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"4RR",
+      "name":"Hazoret's Undying Fury",
+      "number":"96",
+      "rarity":"Rare",
+      "text":"Shuffle your library, then exile the top four cards. You may cast any number of them with converted mana cost 5 or less from among them without paying their mana costs. Land you control don't untap during your next untap step.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/494/636342424026359479.jpeg"
+    },
+    {
+      "cmc":0,
+      "name":"Hour of Eternity",
+      "number":"36",
+      "rarity":"Rare",
+      "text":"Exile X target creature cards from your graveyard. For each card exiled this way, create a token that's a copy of that card, except it's a 4/4 black Zombie.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/490/636342395170265892.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"3U",
+      "name":"Vizier of Consecreations",
+      "number":"55",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Cleric"
+      ],
+      "text":"When Vizier of Consecrations enters the battlefied, search your library for a card with Embalm or Eternalize, put it in your graveyard, then shuffle your library.\nWhenever you Eternalize or Embalm, draw a card.",
+      "toughness":"4",
+      "type":"Creature - Human Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
       "cmc":2,
       "colorIdentity":[
         "U",
@@ -99,7 +174,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/479/636341821167806506.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_jqw9SyvGX3.png"
     },
     {
       "cmc":5,
@@ -110,7 +185,7 @@
         "Black"
       ],
       "manaCost":"3BB",
-      "name":"Razaketh's Ritual",
+      "name":"Razaketh's Rite",
       "number":"74",
       "rarity":"Uncommon",
       "text":"Search your library for a card and put that card into your hand. Then shuffle your library.\n\nCycling {b} {B}, Discard this card: Draw a card.)",
@@ -118,7 +193,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/477/636341806414646749.png"
+      "url":"http://media.wizards.com/2017/hou/en_uX82r5CSZ2.png"
     },
     {
       "cmc":0,
@@ -133,7 +208,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/472/636341633538954171.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_iqwlzvOaCf.png"
     },
     {
       "cmc":5,
@@ -152,7 +227,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/474/636341655375234296.png"
+      "url":"http://media.wizards.com/2017/hou/en_DveZdReh8x.png"
     },
     {
       "cmc":0,
@@ -170,7 +245,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/469/636341541863383100.png"
+      "url":"http://media.wizards.com/2017/hou/en_WrYSx33daI.png"
     },
     {
       "cmc":0,
@@ -188,7 +263,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/468/636341541157714095.png"
+      "url":"http://media.wizards.com/2017/hou/en_9A73Qhc00Y.png"
     },
     {
       "cmc":3,
@@ -207,7 +282,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/467/636341540713346458.png"
+      "url":"http://media.wizards.com/2017/hou/en_hUvR1TPnnt.png"
     },
     {
       "cmc":0,
@@ -225,7 +300,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/466/636341539672007082.png"
+      "url":"http://media.wizards.com/2017/hou/en_3VvSKwWRsS.png"
     },
     {
       "cmc":0,
@@ -243,7 +318,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/465/636341538782594170.png"
+      "url":"http://media.wizards.com/2017/hou/en_tvHIi8ntbN.png"
     },
     {
       "cmc":7,
@@ -267,7 +342,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/478/636341808083607926.png"
+      "url":"http://media.wizards.com/2017/hou/en_GVgqKgCWOl.png"
     },
     {
       "cmc":0,
@@ -285,7 +360,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/464/636341537746060160.png"
+      "url":"http://media.wizards.com/2017/hou/en_ciTYLV30bp.png"
     },
     {
       "cmc":5,
@@ -302,7 +377,7 @@
         "Artifact",
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/458/636341091529067961.png"
+      "url":"http://media.wizards.com/2017/hou/en_T9lWnm2TgN.png"
     },
     {
       "cmc":1,
@@ -328,7 +403,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://mythicspoiler.com/hou/cards/appealauthority.jpg"
+      "url":"http://media.wizards.com/2017/hou/en_65nVqMfVic.png"
     },
     {
       "cmc":2,
