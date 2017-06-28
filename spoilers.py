@@ -376,7 +376,7 @@ def error_check(mtgjson, card_corrections={}):
                 errors.append({"name": card['name'], "key": "cmc", "oldvalue": card['cmc'], "newvalue": workingCMC, "fixed": True, "match": card['manaCost']})
                 card['cmc'] = workingCMC
         else:
-            if 'type' in card and 'land' in card['type'].lower():
+            if 'type' in card and not 'land' in card['type'].lower():
                 errors.append({"name": card['name'], "key": "manaCost", "value": ""})
         if not 'cmc' in card:
             errors.append({"name": card['name'], "key": "cmc", "value": ""})
