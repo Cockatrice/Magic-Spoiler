@@ -350,6 +350,79 @@ Whenever one or more Dragons you control attack, draw that many cards, then you 
 Whenever Wasitora, Nekoru Queen deals combat damage to a player, that player sacrifices a creature. If the player can't, you create a 3/3 black, red, and green Cat Dragon creature token with flying.</text>			
 		</card>		
 		<card>			
+			<name>Crumbling Necropolis</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/506/636342553607263117.png" rarity="Uncommon">HOU</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<cipt>1</cipt>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Crumbling Necropolis enters the battlefield tapped.
+
+{T}: Add {U}, {B}, or {R} to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>God-Pharaoh's Faithful</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/504/636342547098928780.png" rarity="Common">HOU</set>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<color>W</color>			
+			<type>Creature - Human Wizard</type>			
+			<pt>0/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast a blue, black or red spell, you gain 1 life.</text>			
+		</card>		
+		<card>			
+			<name>Frontline Devastator</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/503/636342545428797389.png" rarity="Common">HOU</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Creature - Zombie Minotaur Warrior</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Afflict 2 Whenever this creature becomes blocked, defending player loses 2 life.)
+{1}{R}: Frontline Devastator gets +1/+0 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Eternal of Harsh Truths</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/502/636342543732284995.png" rarity="Uncommon">HOU</set>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Creature - Zombie Cleric</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Afflict 2 Whenever this creature becomes blocked, defending player loses 2 life.)
+Whenever Eternal of Harsh Truths attacks and isn't blocked, draw a  card.</text>			
+		</card>		
+		<card>			
+			<name>Merciless Eternal</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/501/636342542303846491.png" rarity="Uncommon">HOU</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature - Zombie Cleric</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Afflict 2 Whenever this creature becomes blocked, defending player loses 2 life.)
+{2}{B}, Discard a card: Merciless Eternal gets +2/+2 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Bloodwater Entity</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/499/636342518848804304.jpeg" rarity="Uncommon">HOU</set>			
+			<manacost>1UR</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<color>R</color>			
+			<type>Creature - Elemental</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Prowess Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When Bloodwater Elemental enters the battlefield, you may put target instant or sorcery card from your graveyard on top of your library.</text>			
+		</card>		
+		<card>			
 			<name>Kefnet's Last Word</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/498/636342480407625742.png" rarity="Rare">HOU</set>			
 			<manacost>2UU</manacost>			
@@ -367,28 +440,29 @@ Whenever Wasitora, Nekoru Queen deals combat damage to a player, that player sac
 			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Shuffle your library, then exile the top four cards. You may cast any number of them with converted mana cost 5 or less from among them without paying their mana costs. Land you control don't untap during your next untap step.</text>			
+			<text>Shuffle your library, then exile the top four cards. You may cast any number of nonland cards with converted mana cost 5 or less from among them without paying their mana costs. Land you control don't untap during your next untap step.</text>			
 		</card>		
 		<card>			
 			<name>Hour of Eternity</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/490/636342395170265892.png" rarity="Rare">HOU</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
+			<manacost>XXUUU</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Exile X target creature cards from your graveyard. For each card exiled this way, create a token that's a copy of that card, except it's a 4/4 black Zombie.</text>			
 		</card>		
 		<card>			
-			<name>Vizier of Consecreations</name>			
-			<set picURL="" rarity="Uncommon">HOU</set>			
+			<name>Vizier of the Anointed</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/505/636342550808902867.png" rarity="Uncommon">HOU</set>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
 			<type>Creature - Human Cleric</type>			
 			<pt>2/4</pt>			
 			<tablerow>2</tablerow>			
-			<text>When Vizier of Consecrations enters the battlefied, search your library for a card with Embalm or Eternalize, put it in your graveyard, then shuffle your library.
-Whenever you Eternalize or Embalm, draw a card.</text>			
+			<text>When Vizier of the Anointed enters the battlefield, search your library for a creature card with embalm or eternalize, put it in your graveyard, then shuffle your library.
+Whenever you eternalize or embalm a creature, draw a card.</text>			
 		</card>		
 		<card>			
 			<name>Consign // Oblivion</name>			
@@ -681,8 +755,9 @@ Draw two cards, then destroy two cards</text>
 		<card>			
 			<name>Torment of Hailfire</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_hmLUjsTTGZ.png" rarity="Rare">HOU</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
+			<manacost>XBB</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Repeat the following process X times. Each opponent loses 3 life unless he or she sacrifices a nonland permanent or discards a card.</text>			
@@ -777,7 +852,8 @@ Pay 2 life, Sacrifice another creature: Search your library for a card and put t
 			<name>Uncage the Menagerie</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_FFNiA2zmoZ.png" rarity="Mythic Rare">HOU</set>			
 			<manacost>XGG</manacost>			
-			<cmc>0</cmc>			
+			<cmc>2</cmc>			
+			<color>G</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Search your library for up to X creature cards with different names that each have converted mana cost X, reveal them, put them into your hand, then shuffle your library.</text>			

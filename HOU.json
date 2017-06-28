@@ -26,6 +26,150 @@
   "border":"black",
   "cards":[
     {
+      "cmc":0,
+      "colorIdentity":[
+        "U",
+        "B",
+        "R"
+      ],
+      "name":"Crumbling Necropolis",
+      "number":"169",
+      "rarity":"Uncommon",
+      "text":"Crumbling Necropolis enters the battlefield tapped.\n\n{T}: Add {U}, {B}, or {R} to your mana pool.",
+      "type":"Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/506/636342553607263117.png"
+    },
+    {
+      "cmc":1,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"W",
+      "name":"God-Pharaoh's Faithful",
+      "number":"14",
+      "power":"0",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Wizard"
+      ],
+      "text":"Whenever you cast a blue, black or red spell, you gain 1 life.",
+      "toughness":"4",
+      "type":"Creature - Human Wizard",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/504/636342547098928780.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"3R",
+      "name":"Frontline Devastator",
+      "number":"93",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Zombie",
+        "Minotaur",
+        "Warrior"
+      ],
+      "text":"Afflict 2 Whenever this creature becomes blocked, defending player loses 2 life.)\n{1}{R}: Frontline Devastator gets +1/+0 until end of turn.",
+      "toughness":"3",
+      "type":"Creature - Zombie Minotaur Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/503/636342545428797389.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"2U",
+      "name":"Eternal of Harsh Truths",
+      "number":"34",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Zombie",
+        "Cleric"
+      ],
+      "text":"Afflict 2 Whenever this creature becomes blocked, defending player loses 2 life.)\nWhenever Eternal of Harsh Truths attacks and isn't blocked, draw a  card.",
+      "toughness":"3",
+      "type":"Creature - Zombie Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/502/636342543732284995.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"2B",
+      "name":"Merciless Eternal",
+      "number":"71",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Zombie",
+        "Cleric"
+      ],
+      "text":"Afflict 2 Whenever this creature becomes blocked, defending player loses 2 life.)\n{2}{B}, Discard a card: Merciless Eternal gets +2/+2 until end of turn.",
+      "toughness":"2",
+      "type":"Creature - Zombie Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/501/636342542303846491.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U",
+        "R"
+      ],
+      "colors":[
+        "Blue",
+        "Red"
+      ],
+      "manaCost":"1UR",
+      "name":"Bloodwater Entity",
+      "number":"138",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"Flying\nProwess Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen Bloodwater Elemental enters the battlefield, you may put target instant or sorcery card from your graveyard on top of your library.",
+      "toughness":"2",
+      "type":"Creature - Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/499/636342518848804304.jpeg"
+    },
+    {
       "cmc":4,
       "colorIdentity":[
         "U"
@@ -56,7 +200,7 @@
       "name":"Hazoret's Undying Fury",
       "number":"96",
       "rarity":"Rare",
-      "text":"Shuffle your library, then exile the top four cards. You may cast any number of them with converted mana cost 5 or less from among them without paying their mana costs. Land you control don't untap during your next untap step.",
+      "text":"Shuffle your library, then exile the top four cards. You may cast any number of nonland cards with converted mana cost 5 or less from among them without paying their mana costs. Land you control don't untap during your next untap step.",
       "type":"Sorcery",
       "types":[
         "Sorcery"
@@ -64,7 +208,14 @@
       "url":"http://media-dominaria.cursecdn.com/avatars/132/494/636342424026359479.jpeg"
     },
     {
-      "cmc":0,
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"XXUUU",
       "name":"Hour of Eternity",
       "number":"36",
       "rarity":"Rare",
@@ -84,7 +235,7 @@
         "Blue"
       ],
       "manaCost":"3U",
-      "name":"Vizier of Consecreations",
+      "name":"Vizier of the Anointed",
       "number":"55",
       "power":"2",
       "rarity":"Uncommon",
@@ -92,13 +243,13 @@
         "Human",
         "Cleric"
       ],
-      "text":"When Vizier of Consecrations enters the battlefied, search your library for a card with Embalm or Eternalize, put it in your graveyard, then shuffle your library.\nWhenever you Eternalize or Embalm, draw a card.",
+      "text":"When Vizier of the Anointed enters the battlefield, search your library for a creature card with embalm or eternalize, put it in your graveyard, then shuffle your library.\nWhenever you eternalize or embalm a creature, draw a card.",
       "toughness":"4",
       "type":"Creature - Human Cleric",
       "types":[
         "Creature"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/505/636342550808902867.png"
     },
     {
       "cmc":2,
@@ -751,7 +902,14 @@
       "url":"http://mythicspoiler.com/hou/cards/farmmarket.jpg"
     },
     {
-      "cmc":0,
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"XBB",
       "name":"Torment of Hailfire",
       "number":"77",
       "rarity":"Rare",
@@ -923,7 +1081,13 @@
       "url":"http://media.wizards.com/2017/hou/en_VmsPLXTdPJ.png"
     },
     {
-      "cmc":0,
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
       "manaCost":"XGG",
       "name":"Uncage the Menagerie",
       "number":"137",
