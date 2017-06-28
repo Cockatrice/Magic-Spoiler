@@ -184,6 +184,101 @@
     "border":"black",
     "cards":[
       {
+        "cmc":2,
+        "colorIdentity":[
+          "U",
+          "B"
+        ],
+        "colors":[
+          "Blue",
+          "Black"
+        ],
+        "layout":"aftermath",
+        "manaCost":"1U",
+        "name":"Consign",
+        "names":[
+          "Consign",
+          "Oblivion"
+        ],
+        "number":"149a",
+        "rarity":"Uncommon",
+        "text":"Return target nonland permanent to its owner's hand.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://mythicspoiler.com/hou/cards/consignoblivion.jpg"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "B",
+          "U"
+        ],
+        "colors":[
+          "Black",
+          "Blue"
+        ],
+        "layout":"aftermath",
+        "manaCost":"4B",
+        "name":"Oblivion",
+        "names":[
+          "Consign",
+          "Oblivion"
+        ],
+        "number":"149b",
+        "rarity":"Uncommon",
+        "text":"Aftermath Cast this spell only from your graveyard.  Then exile it.)\nTarget opponent discards two cards.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://mythicspoiler.com/hou/cards/consignoblivion.jpg"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"3UU",
+        "name":"Ominous Sphinx",
+        "number":"41",
+        "power":"4",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Sphinx"
+        ],
+        "text":"Flying\nWhenever you cycle or discard a card,target creature an opponent controls gets -2/-0 until end of turn.",
+        "toughness":"4",
+        "type":"Creature - Sphinx",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/479/636341821167806506.jpeg"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"3BB",
+        "name":"Razaketh's Ritual",
+        "number":"74",
+        "rarity":"Uncommon",
+        "text":"Search your library for a card and put that card into your hand. Then shuffle your library.\n\nCycling {b} {B}, Discard this card: Draw a card.)",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/477/636341806414646749.png"
+      },
+      {
         "cmc":0,
         "name":"Endless Sands",
         "number":"176",
@@ -330,7 +425,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/475/636341662886630530.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/132/478/636341808083607926.png"
       },
       {
         "cmc":0,
