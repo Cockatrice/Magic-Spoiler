@@ -802,28 +802,26 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, seti
     mythicspoilerpattern = r' src="' + setname.lower() + '/cards/{}.*?.jpg">'
     WOTC = []
     for c in mtgjson['cards']:
-        match = re.search(wotcpattern.format(c['name'].replace('\'','&rsquo;')), text, re.DOTALL)
+        if 'names' in c:
+            cardname = ' // '.join(c['names'])
+        else:
+            cardname = c['name']
+        match = re.search(wotcpattern.format(cardname.replace('\'','&rsquo;')), text, re.DOTALL)
         if match:
             c['url'] = match.groupdict()['img']
         else:
-            match3 = re.search(wotcpattern2.format(c['name'].replace('\'','&rsquo;')), text3)
+            match3 = re.search(wotcpattern2.format(cardname.replace('\'','&rsquo;')), text3)
             if match3:
                 c['url'] = match3.groupdict()['img']
             else:
-                match4 = re.search(wotcpattern.format(c['name'].replace('\'','&rsquo;')), text3, re.DOTALL)
+                match4 = re.search(wotcpattern.format(cardname.replace('\'','&rsquo;')), text3, re.DOTALL)
                 if match4:
                     c['url'] = match4.groupdict()['img']
                 else:
-                    if 'names' in c:
-                        mythicname = c['names'][0] + c['names'][1]
-                    else:
-                        mythicname = c['name']
-                    match2 = re.search(mythicspoilerpattern.format(mythicname.lower().replace(' ', '').replace('&#x27;', '').replace('-', '').replace('\'','').replace(',', '')), text2, re.DOTALL)
+                    match2 = re.search(mythicspoilerpattern.format(cardname.lower().replace(' // ','').replace(' ', '').replace('&#x27;', '').replace('-', '').replace('\'','').replace(',', '')), text2, re.DOTALL)
                     if match2 and not isfullspoil:
                         c['url'] = match2.group(0).replace(' src="', 'http://mythicspoiler.com/').replace('">', '')
                     pass
-        #if ('Creature' in c['type'] and not c.has_key('power')) or ('Vehicle' in c['type'] and not c.has_key('power')):
-        #    print(c['name'] + ' is a creature w/o p/t img: ' + c['url'])
         if 'wizards.com' in c['url']:
             WOTC.append(c['name'])
     if setinfo:
