@@ -26,6 +26,245 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"1W",
+      "name":"Mummy Paramount",
+      "number":"16",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Zombie"
+      ],
+      "text":"Whenever another Zombie enters the battlefield under your control, Mummy Paramount gets +1/+1 until end of turn.",
+      "toughness":"2",
+      "type":"Creature - Zombie",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/534/636343303084633504.jpeg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"1B",
+      "name":"Wretched Camel",
+      "number":"82",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Zombie",
+        "Camel"
+      ],
+      "text":"When Wretched Camel dies, if you control a Desert or there is a Desert in your graveyard, target player discards a card.",
+      "toughness":"1",
+      "type":"Creature - Zombie Camel",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/533/636343301693732016.jpeg"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"3W",
+      "name":"Dutiful Servants",
+      "number":"12",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Zombie"
+      ],
+      "text":"",
+      "toughness":"5",
+      "type":"Creature - Zombie",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/532/636343300701920039.jpeg"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"3RR",
+      "name":"Manticore Eternal",
+      "number":"103",
+      "power":"5",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Zombie",
+        "Manticore"
+      ],
+      "text":"Afflict 3 Whenever this creature becomes blocked, defending player loses 3 life.)\nManticore Eternal attacks each combat if able.",
+      "toughness":"4",
+      "type":"Creature - Zombie Manticore",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/531/636343299875974800.jpeg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"1U",
+      "name":"Strategic Planning",
+      "number":"47",
+      "rarity":"Common",
+      "text":"Look at the top three cards of your library. Put one of them into your hand and the rest in the graveyard",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/530/636343292829630081.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1G",
+      "name":"Rhonas's Stalwart",
+      "number":"133",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"You may exert Rhonas's Stalwart as it attacks. When you do, it gets +1/+1 and can't be blocked by creatures with power 2 or less this turn. An exerted creature won't untap during your next untap step)",
+      "toughness":"2",
+      "type":"Creature - Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/521/636343274540026363.jpeg"
+    },
+    {
+      "cmc":0,
+      "name":"Survivors' Encampment",
+      "number":"184",
+      "rarity":"Common",
+      "subtypes":[
+        "Desert"
+      ],
+      "text":"{T}: Add {C} to your mana pool.\n{T}, Tap an untapped creature you control: Add one mana of any colour to your mana pool.",
+      "type":"Land - Desert",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/520/636343270088808308.jpeg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"2U",
+      "name":"Seer of the Last Tomorrow",
+      "number":"44",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Naga",
+        "Cleric"
+      ],
+      "text":"{U}, {T}, Discard a card: Target player puts the top three cards of his or her library into his or her graveyard.",
+      "toughness":"4",
+      "type":"Creature - Naga Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/522/636343275012922008.jpeg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"2U",
+      "name":"Tragic Lesson",
+      "number":"51",
+      "rarity":"Common",
+      "text":"Draw two card. Then discard a card unless you return a land you control to its owner's hand.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/523/636343276118963001.jpeg"
+    },
+    {
+      "cmc":1,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"G",
+      "name":"Life Goes On",
+      "number":"121",
+      "rarity":"Common",
+      "text":"You gain 4 life. If a creature died this turn, you gain 8 life instead.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/524/636343276564895446.jpeg"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"3RR",
+      "name":"Hour of Devastation",
+      "number":"97",
+      "rarity":"Rare",
+      "text":"All creatures lose indestructible until end of turn. Hour of Devastation deals 5 damage to each creature and each non-Bolas planeswalker.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/132/519/636343262094487021.png"
+    },
+    {
       "cmc":3,
       "manaCost":"3",
       "name":"Abandoned Sarcophagus",
@@ -60,7 +299,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/513/636342847896812298.png"
+      "url":"http://media.wizards.com/2017/hou/en_12ZtRrEhes.png"
     },
     {
       "cmc":2,
@@ -136,7 +375,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/510/636342646633863444.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_qpIAlH6Emx.png"
     },
     {
       "cmc":0,
@@ -178,7 +417,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/504/636342547098928780.png"
+      "url":"http://media.wizards.com/2017/hou/en_OLE5a8U4AZ.png"
     },
     {
       "cmc":4,
@@ -204,7 +443,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/503/636342545428797389.png"
+      "url":"http://media.wizards.com/2017/hou/en_XXYlx9zc9s.png"
     },
     {
       "cmc":3,
@@ -229,7 +468,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/502/636342543732284995.png"
+      "url":"http://media.wizards.com/2017/hou/en_3mIaoruue5.png"
     },
     {
       "cmc":3,
@@ -254,7 +493,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/501/636342542303846491.png"
+      "url":"http://media.wizards.com/2017/hou/en_lKsk6hBYv3.png"
     },
     {
       "cmc":3,
@@ -280,7 +519,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/499/636342518848804304.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_fqzTXwlevr.png"
     },
     {
       "cmc":4,
@@ -299,7 +538,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/498/636342480407625742.png"
+      "url":"http://media.wizards.com/2017/hou/en_hBzYfiei5g.png"
     },
     {
       "cmc":6,
@@ -318,7 +557,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/494/636342424026359479.jpeg"
+      "url":"http://media.wizards.com/2017/hou/en_DQ3ZVRYbg7.png"
     },
     {
       "cmc":3,
@@ -337,7 +576,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/490/636342395170265892.png"
+      "url":"http://media.wizards.com/2017/hou/en_A2H5sDaarF.png"
     },
     {
       "cmc":4,
@@ -362,7 +601,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/132/505/636342550808902867.png"
+      "url":"http://media.wizards.com/2017/hou/en_4GpzxfOlHE.png"
     },
     {
       "cmc":2,
@@ -388,7 +627,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://mythicspoiler.com/hou/cards/consignoblivion.jpg"
+      "url":"http://media.wizards.com/2017/hou/en_VKPcz6aXeU.png"
     },
     {
       "cmc":5,
@@ -414,7 +653,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://mythicspoiler.com/hou/cards/consignoblivion.jpg"
+      "url":"http://media.wizards.com/2017/hou/en_VKPcz6aXeU.png"
     },
     {
       "cmc":5,

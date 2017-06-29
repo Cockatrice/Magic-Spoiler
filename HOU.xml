@@ -10,6 +10,123 @@
 </sets>
 <cards>
 <card>
+<name>Mummy Paramount</name>
+<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/534/636343303084633504.jpeg">HOU</set>
+<manacost>1W</manacost>
+<cmc>2</cmc>
+<color>W</color>
+<type>Creature - Zombie</type>
+<pt>2/2</pt>
+<tablerow>2</tablerow>
+<text>Whenever another Zombie enters the battlefield under your control, Mummy Paramount gets +1/+1 until end of turn.</text>
+</card>
+<card>
+<name>Wretched Camel</name>
+<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/533/636343301693732016.jpeg">HOU</set>
+<manacost>1B</manacost>
+<cmc>2</cmc>
+<color>B</color>
+<type>Creature - Zombie Camel</type>
+<pt>2/1</pt>
+<tablerow>2</tablerow>
+<text>When Wretched Camel dies, if you control a Desert or there is a Desert in your graveyard, target player discards a card.</text>
+</card>
+<card>
+<name>Dutiful Servants</name>
+<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/532/636343300701920039.jpeg">HOU</set>
+<manacost>3W</manacost>
+<cmc>4</cmc>
+<color>W</color>
+<type>Creature - Zombie</type>
+<pt>2/5</pt>
+<tablerow>2</tablerow>
+<text></text>
+</card>
+<card>
+<name>Manticore Eternal</name>
+<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/531/636343299875974800.jpeg">HOU</set>
+<manacost>3RR</manacost>
+<cmc>5</cmc>
+<color>R</color>
+<type>Creature - Zombie Manticore</type>
+<pt>5/4</pt>
+<tablerow>2</tablerow>
+<text>Afflict 3 Whenever this creature becomes blocked, defending player loses 3 life.)
+Manticore Eternal attacks each combat if able.</text>
+</card>
+<card>
+<name>Strategic Planning</name>
+<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/530/636343292829630081.png">HOU</set>
+<manacost>1U</manacost>
+<cmc>2</cmc>
+<color>U</color>
+<type>Sorcery</type>
+<tablerow>3</tablerow>
+<text>Look at the top three cards of your library. Put one of them into your hand and the rest in the graveyard</text>
+</card>
+<card>
+<name>Rhonas's Stalwart</name>
+<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/521/636343274540026363.jpeg">HOU</set>
+<manacost>1G</manacost>
+<cmc>2</cmc>
+<color>G</color>
+<type>Creature - Human Warrior</type>
+<pt>2/2</pt>
+<tablerow>2</tablerow>
+<text>You may exert Rhonas's Stalwart as it attacks. When you do, it gets +1/+1 and can't be blocked by creatures with power 2 or less this turn. An exerted creature won't untap during your next untap step)</text>
+</card>
+<card>
+<name>Survivors' Encampment</name>
+<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/520/636343270088808308.jpeg">HOU</set>
+<manacost></manacost>
+<cmc>0</cmc>
+<type>Land - Desert</type>
+<tablerow>0</tablerow>
+<text>{T}: Add {C} to your mana pool.
+{T}, Tap an untapped creature you control: Add one mana of any colour to your mana pool.</text>
+</card>
+<card>
+<name>Seer of the Last Tomorrow</name>
+<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/522/636343275012922008.jpeg">HOU</set>
+<manacost>2U</manacost>
+<cmc>3</cmc>
+<color>U</color>
+<type>Creature - Naga Cleric</type>
+<pt>1/4</pt>
+<tablerow>2</tablerow>
+<text>{U}, {T}, Discard a card: Target player puts the top three cards of his or her library into his or her graveyard.</text>
+</card>
+<card>
+<name>Tragic Lesson</name>
+<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/523/636343276118963001.jpeg">HOU</set>
+<manacost>2U</manacost>
+<cmc>3</cmc>
+<color>U</color>
+<type>Instant</type>
+<tablerow>3</tablerow>
+<text>Draw two card. Then discard a card unless you return a land you control to its owner's hand.</text>
+</card>
+<card>
+<name>Life Goes On</name>
+<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/524/636343276564895446.jpeg">HOU</set>
+<manacost>G</manacost>
+<cmc>1</cmc>
+<color>G</color>
+<type>Instant</type>
+<tablerow>3</tablerow>
+<text>You gain 4 life. If a creature died this turn, you gain 8 life instead.</text>
+</card>
+<card>
+<name>Hour of Devastation</name>
+<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/519/636343262094487021.png">HOU</set>
+<manacost>3RR</manacost>
+<cmc>5</cmc>
+<color>R</color>
+<type>Sorcery</type>
+<tablerow>3</tablerow>
+<text>All creatures lose indestructible until end of turn. Hour of Devastation deals 5 damage to each creature and each non-Bolas planeswalker.</text>
+</card>
+<card>
 <name>Abandoned Sarcophagus</name>
 <set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/514/636342887242764630.png">HOU</set>
 <manacost>3</manacost>
@@ -22,7 +139,7 @@ If a card with cycling would be put into your graveyard from anywhere and it was
 </card>
 <card>
 <name>Majestic Myriarch</name>
-<set rarity="Mythic Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/513/636342847896812298.png">HOU</set>
+<set rarity="Mythic Rare" picURL="http://media.wizards.com/2017/hou/en_12ZtRrEhes.png">HOU</set>
 <manacost>4G</manacost>
 <cmc>5</cmc>
 <color>G</color>
@@ -49,7 +166,7 @@ Discard any number of cards, then draw that many cards.</text>
 </card>
 <card>
 <name>Crested Sunmare</name>
-<set rarity="Mythic Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/510/636342646633863444.jpeg">HOU</set>
+<set rarity="Mythic Rare" picURL="http://media.wizards.com/2017/hou/en_qpIAlH6Emx.png">HOU</set>
 <manacost>3WW</manacost>
 <cmc>5</cmc>
 <color>W</color>
@@ -74,7 +191,7 @@ At the beginning of each end step, if you gained life this turn, create a 5/5 wh
 </card>
 <card>
 <name>God-Pharaoh's Faithful</name>
-<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/504/636342547098928780.png">HOU</set>
+<set rarity="Common" picURL="http://media.wizards.com/2017/hou/en_OLE5a8U4AZ.png">HOU</set>
 <manacost>W</manacost>
 <cmc>1</cmc>
 <color>W</color>
@@ -85,7 +202,7 @@ At the beginning of each end step, if you gained life this turn, create a 5/5 wh
 </card>
 <card>
 <name>Frontline Devastator</name>
-<set rarity="Common" picURL="http://media-dominaria.cursecdn.com/avatars/132/503/636342545428797389.png">HOU</set>
+<set rarity="Common" picURL="http://media.wizards.com/2017/hou/en_XXYlx9zc9s.png">HOU</set>
 <manacost>3R</manacost>
 <cmc>4</cmc>
 <color>R</color>
@@ -97,7 +214,7 @@ At the beginning of each end step, if you gained life this turn, create a 5/5 wh
 </card>
 <card>
 <name>Eternal of Harsh Truths</name>
-<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/502/636342543732284995.png">HOU</set>
+<set rarity="Uncommon" picURL="http://media.wizards.com/2017/hou/en_3mIaoruue5.png">HOU</set>
 <manacost>2U</manacost>
 <cmc>3</cmc>
 <color>U</color>
@@ -109,7 +226,7 @@ Whenever Eternal of Harsh Truths attacks and isn't blocked, draw a  card.</text>
 </card>
 <card>
 <name>Merciless Eternal</name>
-<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/501/636342542303846491.png">HOU</set>
+<set rarity="Uncommon" picURL="http://media.wizards.com/2017/hou/en_lKsk6hBYv3.png">HOU</set>
 <manacost>2B</manacost>
 <cmc>3</cmc>
 <color>B</color>
@@ -121,7 +238,7 @@ Whenever Eternal of Harsh Truths attacks and isn't blocked, draw a  card.</text>
 </card>
 <card>
 <name>Bloodwater Entity</name>
-<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/499/636342518848804304.jpeg">HOU</set>
+<set rarity="Uncommon" picURL="http://media.wizards.com/2017/hou/en_fqzTXwlevr.png">HOU</set>
 <manacost>1UR</manacost>
 <cmc>3</cmc>
 <color>U</color>
@@ -135,7 +252,7 @@ When Bloodwater Elemental enters the battlefield, you may put target instant or 
 </card>
 <card>
 <name>Kefnet's Last Word</name>
-<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/498/636342480407625742.png">HOU</set>
+<set rarity="Rare" picURL="http://media.wizards.com/2017/hou/en_hBzYfiei5g.png">HOU</set>
 <manacost>2UU</manacost>
 <cmc>4</cmc>
 <color>U</color>
@@ -145,7 +262,7 @@ When Bloodwater Elemental enters the battlefield, you may put target instant or 
 </card>
 <card>
 <name>Hazoret's Undying Fury</name>
-<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/494/636342424026359479.jpeg">HOU</set>
+<set rarity="Rare" picURL="http://media.wizards.com/2017/hou/en_DQ3ZVRYbg7.png">HOU</set>
 <manacost>4RR</manacost>
 <cmc>6</cmc>
 <color>R</color>
@@ -155,7 +272,7 @@ When Bloodwater Elemental enters the battlefield, you may put target instant or 
 </card>
 <card>
 <name>Hour of Eternity</name>
-<set rarity="Rare" picURL="http://media-dominaria.cursecdn.com/avatars/132/490/636342395170265892.png">HOU</set>
+<set rarity="Rare" picURL="http://media.wizards.com/2017/hou/en_A2H5sDaarF.png">HOU</set>
 <manacost>XXUUU</manacost>
 <cmc>3</cmc>
 <color>U</color>
@@ -165,7 +282,7 @@ When Bloodwater Elemental enters the battlefield, you may put target instant or 
 </card>
 <card>
 <name>Vizier of the Anointed</name>
-<set rarity="Uncommon" picURL="http://media-dominaria.cursecdn.com/avatars/132/505/636342550808902867.png">HOU</set>
+<set rarity="Uncommon" picURL="http://media.wizards.com/2017/hou/en_4GpzxfOlHE.png">HOU</set>
 <manacost>3U</manacost>
 <cmc>4</cmc>
 <color>U</color>
@@ -177,7 +294,7 @@ Whenever you eternalize or embalm a creature, draw a card.</text>
 </card>
 <card>
 <name>Consign // Oblivion</name>
-<set rarity="Uncommon" picURL="http://mythicspoiler.com/hou/cards/consignoblivion.jpg">HOU</set>
+<set rarity="Uncommon" picURL="http://media.wizards.com/2017/hou/en_VKPcz6aXeU.png">HOU</set>
 <manacost>1U // 4B</manacost>
 <cmc>2 // 5</cmc>
 <color>U</color>
