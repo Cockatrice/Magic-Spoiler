@@ -620,7 +620,6 @@ def convert_scryfall(scryfall):
         cards2.append(card2)
 
     return cards2
-    print
 
 def smash_mtgs_scryfall(mtgs, scryfall):
     for mtgscard in mtgs['cards']:
@@ -686,7 +685,8 @@ def scrape_fullspoil(url="http://magic.wizards.com/en/articles/archive/card-imag
     print "Spoil Gallery has " + str(cardcount) + " cards."
     download_images(fullspoil['cards'], setinfo['setname'])
     fullspoil = get_rarities_by_symbol(fullspoil, setinfo['setname'])
-    fullspoil = get_colors_by_frame(fullspoil, setinfo['setname'])
+    fullspoil = get_mana_symbols(fullspoil, setinfo['setname'])
+    #fullspoil = get_colors_by_frame(fullspoil, setinfo['setname'])
     return fullspoil
 
 def download_images(mtgjson, setcode):
@@ -743,7 +743,7 @@ def get_rarities_by_symbol(fullspoil, setcode, split_cards=[]):
             # if a card isn't close to any of the colors, it's probably a planeswalker? make it mythic.
             print card['name'], 'has high variance of', variance, ', closest rarity is', card['rarity']
             card['rarity'] = "Mythic Rare"
-            print card['name'], '$', reds, greens, blues
+            #print card['name'], '$', reds, greens, blues
             if symbolCount < 10:
                 setSymbol.save('images/' + card['name'].replace(' // ','') + '.symbol.jpg')
                 symbolCount += 1
@@ -787,6 +787,76 @@ def get_colors_by_frame(fullspoil, setcode, split_cards={}):
             if colorVariance < variance:
                 variance = colorVariance
                 card['colors'] = [color]
+    return fullspoil
+
+def get_mana_symbols(fullspoil={}, setcode="HOU", split_cards=[]):
+    manaBoxes = [(234, 23, 244, 33), (220, 23, 230, 33), (206, 23, 216, 33), (192, 23, 202, 33), (178, 23, 188, 33)]
+    highVariance = 0
+    colorAverages = {
+        "W": [126, 123, 110],
+        "U": [115, 140, 151],
+        "B": [105, 99, 98],
+        "R": [120, 89, 77],
+        "G": [65, 78, 69],
+        "1": [162, 156, 154],
+        "2": [155, 148, 147],
+        "3": [160, 153, 152],
+        "4": [149, 143, 141],
+        "5": [155, 149, 147],
+        "6": [151, 145, 143],
+        "7": [169, 163, 161],
+        "X": [160, 154, 152]
+    }
+    for card in fullspoil['cards']:
+        try:
+            cardImage = Image.open('images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg')
+        except:
+            continue
+            pass
+        card['manaCost'] = ""
+        for manaBox in manaBoxes:
+            manaSymbol = cardImage.crop(manaBox)
+            cardHistogram = manaSymbol.histogram()
+            reds = cardHistogram[0:256]
+            greens = cardHistogram[256:256 * 2]
+            blues = cardHistogram[256 * 2: 256 * 3]
+            reds = sum(i * w for i, w in enumerate(reds)) / sum(reds)
+            greens = sum(i * w for i, w in enumerate(greens)) / sum(greens)
+            blues = sum(i * w for i, w in enumerate(blues)) / sum(blues)
+            variance = 768
+            for color in colorAverages:
+                colorVariance = 0
+                colorVariance = colorVariance + abs(colorAverages[color][0] - reds)
+                colorVariance = colorVariance + abs(colorAverages[color][1] - greens)
+                colorVariance = colorVariance + abs(colorAverages[color][2] - blues)
+                if colorVariance < variance:
+                    variance = colorVariance
+                    closestColor = color
+            if variance < 10:
+                #if card['name'] in ["Mirage Mirror", "Uncage the Menagerie", "Torment of Hailfire"]:
+                #    print card['name'] + " " + str(reds) + " " + str(greens) + " " + str(blues)
+                if closestColor in ["2","5"]:
+                    twoVSfive = (manaBox[0] + 1, manaBox[1] + 4, manaBox[2] - 5, manaBox[3] - 2)
+                    manaSymbol = cardImage.crop(twoVSfive)
+                    cardHistogram = manaSymbol.histogram()
+                    reds = cardHistogram[0:256]
+                    greens = cardHistogram[256:256 * 2]
+                    blues = cardHistogram[256 * 2: 256 * 3]
+                    reds = sum(i * w for i, w in enumerate(reds)) / sum(reds)
+                    greens = sum(i * w for i, w in enumerate(greens)) / sum(greens)
+                    blues = sum(i * w for i, w in enumerate(blues)) / sum(blues)
+                    variance = 768
+                    colorVariance = 0
+                    colorVariance = colorVariance + abs(175 - reds)
+                    colorVariance = colorVariance + abs(168 - greens)
+                    colorVariance = colorVariance + abs(166 - blues)
+                    if colorVariance < 10:
+                        closestColor = "2"
+                    elif colorVariance > 110 and colorVariance < 120:
+                        closestColor = "5"
+                    else:
+                        continue
+                card['manaCost'] = closestColor + card['manaCost']
     return fullspoil
 
 def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, setinfo=False):
@@ -861,7 +931,6 @@ def smash_fullspoil(mtgjson, fullspoil):
         print "WOTC only cards: "
         print WOTC_only
     print different_keys
-
 
 def scrape_mtgs_images(url='http://www.mtgsalvation.com/spoilers/183-hour-of-devastation', mtgscardurl='http://www.mtgsalvation.com/cards/hour-of-devastation/', exemptlist=[]):
     page = requests.get(url)
