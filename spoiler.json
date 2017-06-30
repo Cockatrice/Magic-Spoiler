@@ -184,6 +184,1402 @@
     "border":"black",
     "cards":[
       {
+        "cmc":0,
+        "colorIdentity":[
+          "W"
+        ],
+        "name":"Plains",
+        "number":"190",
+        "rarity":"Basic Land",
+        "subtypes":[
+          "Plains"
+        ],
+        "text":"{w}",
+        "type":"Basic Land - Plains",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_djoXNwCvAR.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"2UU",
+        "name":"Imaginary Thr",
+        "number":"37",
+        "rarity":"Uncommon",
+        "text":"Creatures target player controls attack this turn if able. During that player's next untap step, creatures he or she controls don't untap.\n\nCycling {2} {2}, Discard this card: Draw a card.)",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_CxUHj2IbnO.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"2UU",
+        "name":"Imaginary Threats",
+        "number":"37",
+        "rarity":"Uncommon",
+        "text":"Creatures target player controls attack this turn if able. During that player's next untap step, creatures he or she controls don't untap.\n\nCycling {2} {2}, Discard this card: Draw a card.)",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_CxUHj2IbnO.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"1U",
+        "name":"Cunning Survivor",
+        "number":"33",
+        "power":"1",
+        "rarity":"Common",
+        "subtypes":[
+          "Human",
+          "Warrior"
+        ],
+        "text":"Whenever you cycle or discard a card, Cunning Survivor gets +1/+0 until end of turn and can't be blocked this turn.",
+        "toughness":"3",
+        "type":"Creature - Human Warrior",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_PlnnfIeoxH.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"1U",
+        "name":"Riddleform",
+        "number":"43",
+        "rarity":"Uncommon",
+        "text":"Whenever you cast a noncreature spell, you may have Riddleform become a 3/3 Sphinx creature with flying in addition to its other types until end of turn.\n{2}{U}: Scry 1.",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_G3h3HwA5QV.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"1U",
+        "name":"Spellweaver Eternal",
+        "number":"46",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Zombie",
+          "Naga",
+          "Wizard"
+        ],
+        "text":"Prowess Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nAfflict 2 Whenever this creature becomes blocked, defending player loses 2 life.)",
+        "toughness":"1",
+        "type":"Creature - Zombie Naga Wizard",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_wRmK0v6rjp.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"2U",
+        "name":"Countervailing Winds",
+        "number":"32",
+        "rarity":"Common",
+        "text":"Counter target spell unless its controller pays {1} for each card in your graveyard.\nCycling {2}  {2}, Discard this card: Draw a card.)",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_mi7ZxKquQR.png"
+      },
+      {
+        "cmc":7,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"6U",
+        "name":"Striped Riverwinder",
+        "number":"48",
+        "power":"5",
+        "rarity":"Common",
+        "subtypes":[
+          "Serpent"
+        ],
+        "text":"Hexproof This creature can't be the target of spells or abilities your opponents control.)\nCycling {u} {u}, Discard this card: Draw a card.)",
+        "toughness":"5",
+        "type":"Creature - Serpent",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_GqsjRNHTkB.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"1U",
+        "name":"Unquenchable Thirst",
+        "number":"53",
+        "rarity":"Common",
+        "subtypes":[
+          "Aura"
+        ],
+        "text":"Enchant creature\nWhen Unquenchable Thirst enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+        "type":"Enchantment - Aura",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_yjorvStiba.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"3U",
+        "name":"Aven Reedstalker",
+        "number":"30",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Bird",
+          "Warrior"
+        ],
+        "text":"Flash\nFlying",
+        "toughness":"3",
+        "type":"Creature - Bird Warrior",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_d3Czjd4nAg.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"2U",
+        "name":"Aerial Guide",
+        "number":"29",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Drake"
+        ],
+        "text":"Flying\nWhenever Aerial Guide attacks, another target creature gains flying until end of turn.",
+        "toughness":"2",
+        "type":"Creature - Drake",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_ZFvmwP2PZC.png"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"U",
+        "name":"Unsummon",
+        "number":"54",
+        "rarity":"Common",
+        "text":"Return target creature to its owner's hand.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_7exh9Gncnv.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2W",
+        "name":"Solitary Camel",
+        "number":"23",
+        "power":"3",
+        "rarity":"Common",
+        "subtypes":[
+          "Camel"
+        ],
+        "text":"Solitary Camel has lifelink as long as you control a desert or there is a desert card in your graveyard. Damage this creature deals also causes you to gain that much life.)",
+        "toughness":"2",
+        "type":"Creature - Camel",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_gRme6rj7L0.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2W",
+        "name":"Unconventional Tactics",
+        "number":"27",
+        "rarity":"Uncommon",
+        "text":"Target creature gets +3/+3 and gains flying until end of turn.\nWhenever a Zombie enters the battlefield under your control, you may pay {w}. If you do, return Unconventional Tactics from your graveyard to your hand.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_Hc2XyLvJzN.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"1W",
+        "name":"Saving Grace",
+        "number":"21",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Aura"
+        ],
+        "text":"Flash\n\nEnchant creature you control.\n\nWhen Saving Grace enters the battlefield, all damage that would be dealt this turn to you and permanents you control is dealt to enchanted creature instead.\n\nEnchanted creature gets +0/+3",
+        "type":"Enchantment - Aura",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_BHYfhk15fV.png"
+      },
+      {
+        "cmc":0,
+        "name":"Dunes of the Dead",
+        "number":"175",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Desert"
+        ],
+        "text":"{T}: Add {C} to your mana pool.\nWhen Dunes of the Dead is put into a graveyard from the battlefield, create a 2/2 black Zombie creature token.",
+        "type":"Land - Desert",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_S5xuMlR96l.png"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "U",
+          "B",
+          "R"
+        ],
+        "name":"Crypt of the Eternals",
+        "number":"169",
+        "rarity":"Uncommon",
+        "text":"When Crypt of the Eternals enters the battlefield, you gain 1 life.\n{T}: Add {C} to your mana pool.\n{1}, {T}: Add {U}, {B}, or {R} to your mana pool.",
+        "type":"Land",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_cp5qzHTCTK.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2W",
+        "name":"Sandblast",
+        "number":"20",
+        "rarity":"Common",
+        "text":"Sandblast deals 5 damage to target attacking or blocking creature.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_qFA9753I74.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"2R",
+        "name":"Thorned Moloch",
+        "number":"108",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Lizard"
+        ],
+        "text":"Prowess >Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nThorned Moloch has first strike as long as it's attacking.",
+        "toughness":"2",
+        "type":"Creature - Lizard",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_fcpZmrD4nz.png"
+      },
+      {
+        "cmc":2,
+        "manaCost":"2",
+        "name":"Wall of Forgotten Pharaohs",
+        "number":"168",
+        "power":"0",
+        "rarity":"Common",
+        "subtypes":[
+          "Wall"
+        ],
+        "text":"Defender\n{T}: Wall of Forgotten Pharaohs deals 1 damage to target player. Activate this ability only if you control a Desert of there is a Desert card in your graveyard.",
+        "toughness":"4",
+        "type":"Artifact Creature - Wall",
+        "types":[
+          "Artifact",
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_UhrW8ThxpJ.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"2RR",
+        "name":"Puncturing Blow",
+        "number":"106",
+        "rarity":"Common",
+        "text":"Puncturing Blow deals 5 damage to target creature. If that creature would die this turn, exile it instead.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_Ebkwr2NuBK.png"
+      },
+      {
+        "cmc":1,
+        "manaCost":"1",
+        "name":"Traveler's Amulet",
+        "number":"167",
+        "rarity":"Common",
+        "text":"{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.",
+        "type":"Artifact",
+        "types":[
+          "Artifact"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_vmpaQU59XL.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"1W",
+        "name":"Oketra's Avenger",
+        "number":"17",
+        "power":"3",
+        "rarity":"Common",
+        "subtypes":[
+          "Human",
+          "Warrior"
+        ],
+        "text":"You may exert Oketra's Avenger as it attacks. When you do, prevent all combat damage that would be dealt to it this turn. An exerted creature doesn't untap during its controller's next untap step.)",
+        "toughness":"1",
+        "type":"Creature - Human Warrior",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_HK8WmEUHjG.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"3R",
+        "name":"Magmaroth",
+        "number":"102",
+        "power":"5",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Elemental"
+        ],
+        "text":"At the beginning of your upkeep, put a -1/-1 counter on Magmaroth.\nWhenever you cast a noncreature spell, remove a -1/-1 counter from Magmaroth.",
+        "toughness":"5",
+        "type":"Creature - Elemental",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_TQS0Df2gcR.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"1B",
+        "name":"Without Weakness",
+        "number":"81",
+        "rarity":"Common",
+        "text":"Target creature you control gains indestructible until end of turn.\nCycling {2}",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_7fu70muXgk.png"
+      },
+      {
+        "cmc":3,
+        "manaCost":"3",
+        "name":"Manalith",
+        "number":"164",
+        "rarity":"Common",
+        "text":"{T}: Add one mana of any color to your mana pool.",
+        "type":"Artifact",
+        "types":[
+          "Artifact"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_FcvMHQrarl.png"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"R",
+        "name":"Kindled Fury",
+        "number":"101",
+        "rarity":"Common",
+        "text":"Target creature gets +1/+0 and gains first strile until end of turn.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_Q7w7Giq2IQ.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"1W",
+        "name":"Djeru's Renunciation",
+        "number":"11",
+        "rarity":"Common",
+        "text":"Tap up to two target creatures.\n\nCycling {W} {W}, Discard this card: Draw a card.)",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_KaVmkHL1Lh.png"
+      },
+      {
+        "cmc":3,
+        "manaCost":"3",
+        "name":"Graven Abomination",
+        "number":"162",
+        "power":"3",
+        "rarity":"Common",
+        "subtypes":[
+          "Horror"
+        ],
+        "text":"Whenever Graven Abomination attacks, exile target card from defending player's graveyard.",
+        "toughness":"1",
+        "type":"Artifact Creature - Horror",
+        "types":[
+          "Artifact",
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_LZNd9o4Rqz.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"1B",
+        "name":"Vile Manifestation",
+        "number":"80",
+        "power":"0",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Horror"
+        ],
+        "text":"Vile Manifestation gets +1/+0 for each card with cycling in your graveyard.\nCycling {2}",
+        "toughness":"4",
+        "type":"Creature - Horror",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_m8mbZyQz6g.png"
+      },
+      {
+        "cmc":2,
+        "manaCost":"2",
+        "name":"Dagger of the Worthy",
+        "number":"160",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Equipment"
+        ],
+        "text":"Equipped creature gets +2/+0 and has afflict 1. Whenever it becomes blocked, defending player loses 1 life.)\nEquip {2} {2}: Attach to target creature you control. Equip only as a sorcery.)",
+        "type":"Artifact - Equipment",
+        "types":[
+          "Artifact"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_gsjzmNQA9q.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2W",
+        "name":"Disposal Mummy",
+        "number":"9",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Zombie",
+          "Jackal"
+        ],
+        "text":"When Disposal Mummy enters the battlefield, exile target card in a graveyard.",
+        "toughness":"3",
+        "type":"Creature - Zombie Jackal",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_lb3vLfqLVn.png"
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"4RR",
+        "name":"Granitic Titan",
+        "number":"95",
+        "power":"5",
+        "rarity":"Common",
+        "subtypes":[
+          "Elemental"
+        ],
+        "text":"Menace\nCycling {2} {2}, Discard this card: Draw a card.)",
+        "toughness":"4",
+        "type":"Creature - Elemental",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_5CQO4rKlMj.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"1R",
+        "name":"Firebrand Archer",
+        "number":"92",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Human",
+          "Archer"
+        ],
+        "text":"Whenever you cast a noncreature spell, Firebrand Archer deals 1 damage to each opponent.",
+        "toughness":"1",
+        "type":"Creature - Human Archer",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_FjK6l6a0o8.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"4B",
+        "name":"Scrounger of Souls",
+        "number":"76",
+        "power":"3",
+        "rarity":"Common",
+        "subtypes":[
+          "Horror"
+        ],
+        "text":"Lifelink",
+        "toughness":"4",
+        "type":"Creature - Horror",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_VfTT5hpC58.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B",
+          "G"
+        ],
+        "colors":[
+          "Black",
+          "Green"
+        ],
+        "manaCost":"1BG",
+        "name":"Obelisk Spider",
+        "number":"141",
+        "power":"1",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Spider"
+        ],
+        "text":"Reach\nWhenever Obelisk Spider deals combat damage to a creature, put a -1/-1 counter on that creature.\nWhenever you put one or more -1/-1 counters on a creature, each opponent loses 1 life and you gain 1 life.",
+        "toughness":"4",
+        "type":"Creature - Spider",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_CVXaUq23Rq.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2W",
+        "name":"Dauntless Aven",
+        "number":"7",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Bird",
+          "Warrior"
+        ],
+        "text":"Flying\n\nWhenever Dauntless Aven attacks, untap target creature you control.",
+        "toughness":"1",
+        "type":"Creature - Bird Warrior",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_XybyWh99Sf.png"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"R",
+        "name":"Crash Through",
+        "number":"88",
+        "rarity":"Common",
+        "text":"Creatures you control gain trample until end of turn.\nDraw a card.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_FWE4CyR9gn.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2GG",
+        "name":"Tenacious Hunter",
+        "number":"136",
+        "power":"4",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Crocodile"
+        ],
+        "text":"As long as a creature has a -1/-1 counter on it, Tenacious Hunter has vigilance and deathtouch.",
+        "toughness":"4",
+        "type":"Creature - Crocodile",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_Wrxg43e7cC.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"1R",
+        "name":"Burning-Fist Minotaur",
+        "number":"85",
+        "power":"2",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Minotaur",
+          "Wizard"
+        ],
+        "text":"First strike\n{1}{R}, Discard a card: Burning-Fist Minotaur gets +2/+0 until end of turn.",
+        "toughness":"1",
+        "type":"Creature - Minotaur Wizard",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_AffH3VvujR.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"1B",
+        "name":"Ruin Rat",
+        "number":"75",
+        "power":"1",
+        "rarity":"Common",
+        "subtypes":[
+          "Rat"
+        ],
+        "text":"Deathtouch\nWhen Ruin Rat dies, exile target card from an opponent's graveyard.",
+        "toughness":"1",
+        "type":"Creature - Rat",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_fulqjvdAzm.png"
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"4GG",
+        "name":"Rampaging Hippo",
+        "number":"128",
+        "power":"5",
+        "rarity":"Common",
+        "subtypes":[
+          "Hippo"
+        ],
+        "text":"Trample\nCycling {2} {2}, Discard this card: Draw a card.)",
+        "toughness":"6",
+        "type":"Creature - Hippo",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_7SOYt3nin3.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"1R",
+        "name":"Blur of Blades",
+        "number":"84",
+        "rarity":"Common",
+        "text":"Put a -1/-1 counter on target creature.  Blur of Blades deals 2 damage to that creature's controller.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_YErnpkof8U.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2B",
+        "name":"Moaning Wall",
+        "number":"72",
+        "power":"0",
+        "rarity":"Common",
+        "subtypes":[
+          "Zombie",
+          "Wall"
+        ],
+        "text":"Defender\nCycling {2}",
+        "toughness":"5",
+        "type":"Creature - Zombie Wall",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_PqqpAPboNc.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"4G",
+        "name":"Quarry Beetle",
+        "number":"127",
+        "power":"4",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Insect"
+        ],
+        "text":"When Quarry Beetle enters the battlefield, you may return target land card from your graveyard to the battlefield.",
+        "toughness":"5",
+        "type":"Creature - Insect",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_lkZIRODxBE.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"4W",
+        "name":"Aven of Enduring Hope",
+        "number":"5",
+        "power":"3",
+        "rarity":"Common",
+        "subtypes":[
+          "Bird",
+          "Cleric"
+        ],
+        "text":"Flying\n\nWhen Aven of Enduring Hope enters the battlefield, you gain 3 life.",
+        "toughness":"3",
+        "type":"Creature - Bird Cleric",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_W0zlh3xBDH.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"3GG",
+        "name":"Overcome",
+        "number":"125",
+        "rarity":"Uncommon",
+        "text":"Creatures you control get +2/+2 and gain trample until end of turn.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_YLxIgCYIZc.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"3B",
+        "name":"Lurching Rotbeast",
+        "number":"69",
+        "power":"4",
+        "rarity":"Common",
+        "subtypes":[
+          "Zombie",
+          "Beast"
+        ],
+        "text":"Cycling {b} {b}, Discard this card: Draw a card.)",
+        "toughness":"2",
+        "type":"Creature - Zombie Beast",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_MFiiB8ONM2.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2G",
+        "name":"Harrier Naga",
+        "number":"118",
+        "power":"3",
+        "rarity":"Common",
+        "subtypes":[
+          "Naga",
+          "Warrior"
+        ],
+        "text":"",
+        "toughness":"3",
+        "type":"Creature - Naga Warrior",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_fwFiAFn6Ur.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"1W",
+        "name":"Act of Heroism",
+        "number":"1",
+        "rarity":"Common",
+        "text":"Untap target creature. It gets +2/+2 until end of turn and can block an additional creature this turn.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_drSO5a4YY2.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"1G",
+        "name":"Gift of Strength",
+        "number":"117",
+        "rarity":"Common",
+        "text":"Target creature gets +3/+3 and gains reach until end of turn.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_jdqEteAtp2.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2B",
+        "name":"Lethal Sting",
+        "number":"67",
+        "rarity":"Common",
+        "text":"As an additional cost to cast Lethal Sting,put a -1/-1 counter on a creature you control.\nDestroy target creature.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_86PtEp1T4V.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2B",
+        "name":"Grisly Survivor",
+        "number":"64",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Minotaur",
+          "Warrior"
+        ],
+        "text":"Whenever you cycle or discard a card, Grisly Survivor gets +2/+0 until end of turn.",
+        "toughness":"3",
+        "type":"Creature - Minotaur Warrior",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_FmaY6mB5Mc.png"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"G",
+        "name":"Frilled Sandwalla",
+        "number":"116",
+        "power":"1",
+        "rarity":"Common",
+        "subtypes":[
+          "Lizard"
+        ],
+        "text":"{1}{G}: Frilled Sandwalla gets +2/+2 until end of turn. Activate this ability only once each turn.",
+        "toughness":"1",
+        "type":"Creature - Lizard",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_pDAXliwsiE.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"1G",
+        "name":"Feral Prowler",
+        "number":"115",
+        "power":"1",
+        "rarity":"Common",
+        "subtypes":[
+          "Cat"
+        ],
+        "text":"When Feral Prowler dies, draw a card.",
+        "toughness":"3",
+        "type":"Creatuer - Cat",
+        "types":[
+          "Creatuer"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_QaXcXRl9lM.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2B",
+        "name":"Banewhip Punisher",
+        "number":"59",
+        "power":"2",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Human",
+          "Warrior"
+        ],
+        "text":"When Banewhip Punisher enters the battlefield, you may put a -1/-1 counter on target creature.\n{b}, Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it.",
+        "toughness":"2",
+        "type":"Creature - Human Warrior",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_9UOSsLEEAV.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2G",
+        "name":"Dune Diviner",
+        "number":"114",
+        "power":"2",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Naga",
+          "Cleric"
+        ],
+        "text":"{1}, Tap an untapped Desert you control: You gain 1 life.",
+        "toughness":"3",
+        "type":"Creature - Naga Cleric",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_u47yE2EHZG.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2G",
+        "name":"Devotee of Strength",
+        "number":"113",
+        "power":"3",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Naga",
+          "Wizard"
+        ],
+        "text":"{4}{G}: Target creature gets +2/+2 until end of turn.",
+        "toughness":"2",
+        "type":"Creature - Naga Wizard",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_Q6EGBpfehq.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"4G",
+        "name":"Bitterbow Sharpshooters",
+        "number":"112",
+        "power":"4",
+        "rarity":"Common",
+        "subtypes":[
+          "Jackal",
+          "Archer"
+        ],
+        "text":"Vigilance, reach",
+        "toughness":"4",
+        "type":"Creature - Jackal Archer",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_EZMIFV3y06.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2G",
+        "name":"Beneath the Sands",
+        "number":"111",
+        "rarity":"Common",
+        "text":"Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.\nCycling {2} {2}, Discard this card: Draw a card.)",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_TAydsbwhoN.png"
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"4BB",
+        "name":"Apocalypse Demon",
+        "number":"58",
+        "power":"*",
+        "rarity":"Rare",
+        "subtypes":[
+          "Demon"
+        ],
+        "text":"Flying\nApocalypse Demon's power and toughness are each equal to the number of cards in your graveyard.\nAt the beginning of your upkeep, tap Apocalypse Demon unless you sacrifice another creature.",
+        "toughness":"*",
+        "type":"Creature - Demon",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_4dXI6XNB94.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2G",
+        "name":"Ambuscade",
+        "number":"110",
+        "rarity":"Common",
+        "text":"Target creature you control gets +1/+0 until end of turn. It deals damage equal to its power to target creature an opponent controls.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_Gw9CBmIrYl.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2W",
+        "name":"Sunscourge Champion",
+        "number":"26",
+        "power":"2",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Human",
+          "Wizard"
+        ],
+        "text":"When Sunscourge Champion enters the battlefield, you gain life equal to its power.\n\nEternalize—{2}{W}{W}, Discard a card. {2}{W}{W}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Wizard with no mana cost.  Eternalize only as a sorcery.)",
+        "toughness":"3",
+        "type":"Creature - Human Wizard",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_7M4ivoiLwF.png"
+      },
+      {
+        "cmc":7,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"5GG",
+        "name":"Sifter Wurm",
+        "number":"135",
+        "power":"7",
+        "rarity":"Common",
+        "subtypes":[
+          "Wurm"
+        ],
+        "text":"Trample\nWhen Sifter Wurm enters the battlefield, scry 3, then reveal the top card of your library. You gain life equal to that card's converted mana cost.",
+        "toughness":"7",
+        "type":"Creature - Wurm",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media.wizards.com/2017/hou/en_pneaNXiy6c.png"
+      },
+      {
         "cmc":2,
         "colorIdentity":[
           "W"
@@ -205,7 +1601,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/534/636343303084633504.jpeg"
+        "url":"http://media.wizards.com/2017/hou/en_uPuZBdJ9Tp.png"
       },
       {
         "cmc":2,
@@ -224,13 +1620,13 @@
           "Zombie",
           "Camel"
         ],
-        "text":"When Wretched Camel dies, if you control a Desert or there is a Desert in your graveyard, target player discards a card.",
+        "text":"When Wretched Camel dies, if you control a Desert or there is a Desert card in your graveyard, target player discards a card.",
         "toughness":"1",
         "type":"Creature - Zombie Camel",
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/533/636343301693732016.jpeg"
+        "url":"http://media.wizards.com/2017/hou/en_wdzbTVOvda.png"
       },
       {
         "cmc":4,
@@ -254,7 +1650,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/532/636343300701920039.jpeg"
+        "url":"http://media.wizards.com/2017/hou/en_bqaCAQ724t.png"
       },
       {
         "cmc":5,
@@ -279,7 +1675,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/531/636343299875974800.jpeg"
+        "url":"http://media.wizards.com/2017/hou/en_5xLQmCh6WM.png"
       },
       {
         "cmc":2,
@@ -293,12 +1689,12 @@
         "name":"Strategic Planning",
         "number":"47",
         "rarity":"Common",
-        "text":"Look at the top three cards of your library. Put one of them into your hand and the rest in the graveyard",
+        "text":"Look at the top three cards of your library. Put one of them into your hand and the rest in the graveyard.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/530/636343292829630081.png"
+        "url":"http://media.wizards.com/2017/hou/en_MyMGa4SBfW.png"
       },
       {
         "cmc":2,
@@ -317,13 +1713,13 @@
           "Human",
           "Warrior"
         ],
-        "text":"You may exert Rhonas's Stalwart as it attacks. When you do, it gets +1/+1 and can't be blocked by creatures with power 2 or less this turn. An exerted creature won't untap during your next untap step)",
+        "text":"You may exert Rhonas's Stalwart as it attacks. When you do, it gets +1/+1 until end of turn and can't be blocked by creatures with power 2 or less this turn. An exerted creature won't untap during your next untap step.)",
         "toughness":"2",
         "type":"Creature - Human Warrior",
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/521/636343274540026363.jpeg"
+        "url":"http://media.wizards.com/2017/hou/en_B3SiYqqztp.png"
       },
       {
         "cmc":0,
@@ -333,12 +1729,12 @@
         "subtypes":[
           "Desert"
         ],
-        "text":"{T}: Add {C} to your mana pool.\n{T}, Tap an untapped creature you control: Add one mana of any colour to your mana pool.",
+        "text":"{T}: Add {C} to your mana pool.\n{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool.",
         "type":"Land - Desert",
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/520/636343270088808308.jpeg"
+        "url":"http://media.wizards.com/2017/hou/en_UOs9L7E5yW.png"
       },
       {
         "cmc":3,
@@ -363,7 +1759,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/522/636343275012922008.jpeg"
+        "url":"http://media.wizards.com/2017/hou/en_OOgcPni6sm.png"
       },
       {
         "cmc":3,
@@ -377,12 +1773,12 @@
         "name":"Tragic Lesson",
         "number":"51",
         "rarity":"Common",
-        "text":"Draw two card. Then discard a card unless you return a land you control to its owner's hand.",
+        "text":"Draw two cards. Then discard a card unless you return a land you control to its owner's hand.",
         "type":"Instant",
         "types":[
           "Instant"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/523/636343276118963001.jpeg"
+        "url":"http://media.wizards.com/2017/hou/en_ahkGJHVNgs.png"
       },
       {
         "cmc":1,
@@ -401,7 +1797,7 @@
         "types":[
           "Instant"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/524/636343276564895446.jpeg"
+        "url":"http://media.wizards.com/2017/hou/en_OGJPV1RD8V.png"
       },
       {
         "cmc":5,
@@ -420,7 +1816,7 @@
         "types":[
           "Sorcery"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/519/636343262094487021.png"
+        "url":"http://media.wizards.com/2017/hou/en_8Dtc89JMF5.png"
       },
       {
         "cmc":3,
@@ -433,7 +1829,7 @@
         "types":[
           "Artifact"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/514/636342887242764630.png"
+        "url":"http://media.wizards.com/2017/hou/en_owbUYmd8no.png"
       },
       {
         "cmc":5,
@@ -483,7 +1879,7 @@
         "types":[
           "Instant"
         ],
-        "url":"http://mythicspoiler.com/hou/cards/leavechance.jpg"
+        "url":"http://media.wizards.com/2017/hou/en_YhdOA65L2A.png"
       },
       {
         "cmc":4,
@@ -509,7 +1905,7 @@
         "types":[
           "Sorcery"
         ],
-        "url":"http://mythicspoiler.com/hou/cards/leavechance.jpg"
+        "url":"http://media.wizards.com/2017/hou/en_YhdOA65L2A.png"
       },
       {
         "cmc":5,
@@ -550,7 +1946,7 @@
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/506/636342553607263117.png"
+        "url":""
       },
       {
         "cmc":1,
@@ -753,7 +2149,7 @@
           "Human",
           "Cleric"
         ],
-        "text":"When Vizier of the Anointed enters the battlefield, search your library for a creature card with embalm or eternalize, put it in your graveyard, then shuffle your library.\nWhenever you eternalize or embalm a creature, draw a card.",
+        "text":"When Vizier of the Anointed enters the battlefield, search your library for a creature card with eternalize or embalm, put it in your graveyard, then shuffle your library.\nWhenever you activate an eternalize or embalm ability, draw a card.",
         "toughness":"4",
         "type":"Creature - Human Cleric",
         "types":[
@@ -2420,7 +3816,7 @@
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/284/636335026018100931.png"
+        "url":"http://media.wizards.com/2017/hou/en_TidwnGC5kz.png"
       },
       {
         "cmc":0,
@@ -2435,7 +3831,7 @@
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/283/636335025652317659.png"
+        "url":"http://media.wizards.com/2017/hou/en_aTwRcMT7Jd.png"
       },
       {
         "cmc":0,
@@ -2450,7 +3846,7 @@
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/282/636335025231675202.png"
+        "url":"http://media.wizards.com/2017/hou/en_pSvsT6JaDX.png"
       },
       {
         "cmc":0,
@@ -2465,22 +3861,7 @@
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/281/636335023983082077.png"
-      },
-      {
-        "cmc":0,
-        "name":"Plains",
-        "number":"185",
-        "rarity":"Basic Land",
-        "subtypes":[
-          "Plains"
-        ],
-        "text":"",
-        "type":"Basic Land - Plains",
-        "types":[
-          "Land"
-        ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/132/280/636335023469044373.png"
+        "url":"http://media.wizards.com/2017/hou/en_pWcP0zCqtw.png"
       },
       {
         "cmc":3,
@@ -3148,7 +4529,7 @@
           "Black"
         ],
         "manaCost":"2B",
-        "name":"Maurauding Boneslasher",
+        "name":"Marauding Boneslasher",
         "number":"70",
         "power":"3",
         "rarity":"Common",
