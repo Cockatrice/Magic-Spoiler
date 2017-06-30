@@ -521,7 +521,7 @@ def convert_scryfall(scryfall):
     cards2 = []
     for card in scryfall:
         card2 = {}
-        card2['cmc'] = int((card['cmc']).split('.')[0])
+        card2['cmc'] = int(card['cmc'])
         if card.has_key('mana_cost'):
             card2['manaCost'] = card['mana_cost'].replace('{','').replace('}','')
         else:
@@ -1304,8 +1304,8 @@ def get_allsets():
         version = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko / 20071127 Firefox / 2.0.0.11'
 
     opener = MyOpener()
-    opener.retrieve('http://mtgjson.com/json/AllSets.json', 'AllSets.pre.json')
-    with open('AllSets.pre.json') as data_file:
+    opener.retrieve('http://mtgjson.com/json/AllSets.json', 'AllSets.json')
+    with open('AllSets.json') as data_file:
         AllSets = json.load(data_file)
     return AllSets
 
