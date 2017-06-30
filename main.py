@@ -17,7 +17,8 @@ presets = {
     "imageorder": ['wotc','scryfall','mtgs','mythicspoiler'], # prioritize images from certain sources
     "useexclusively": '', # if we *only* want to use one site TODO
     "dumpXML": False, # let travis print XML for testing
-    "scryfallComparison": False #if we want to debug compare scryfall to other sources, enable
+    "scryfallComparison": False, #if we want to debug compare scryfall to other sources, enable
+    "dumpErrors": True # print the error log from out/errors.json
 }
 
 try:
@@ -66,8 +67,9 @@ def parseargs():
                 print "Setting preset " + preset + " to value " + str(argvalue)
 
 def save_allsets(AllSets):
-    #TODO Create AllSets.json for Oracle
-    print ""
+    with io.open('out/AllSets.json', 'w', encoding='utf8') as json_file:
+        data = json.dumps(AllSets, ensure_ascii=False, encoding='utf8', indent=2, sort_keys=True, separators=(',',':'))
+        json_file.write(unicode(data))
 
 def save_masterpieces(masterpieces, setinfo):
     with open('out/' + setinfo['masterpieces']['setname'] + '.json', 'w') as outfile:
@@ -101,9 +103,10 @@ if __name__ == '__main__':
             mtgs = spoilers.scrape_mtgs('http://www.mtgsalvation.com/spoilers.rss') #scrape mtgs rss feed
             [mtgs, split_cards] = spoilers.parse_mtgs(mtgs, [], [], [], presets['split_cards']) #parse spoilers into mtgjson format
         mtgs = spoilers.correct_cards(mtgs, manual_sets[setinfo['setname']]['cards'], card_corrections, delete_cards) #fix using the fixfiles
-        scryfall = spoilers.get_scryfall('https://api.scryfall.com/cards/search?q=++e:' + setinfo['setname'].lower())
         mtgjson = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize'], setinfo) #get images
         if presets['scryfallComparison']:
+            scryfall = spoilers.get_scryfall(
+                'https://api.scryfall.com/cards/search?q=++e:' + setinfo['setname'].lower())
             mtgjson = spoilers.smash_mtgs_scryfall(mtgs, scryfall)
         if 'fullSpoil' in setinfo and setinfo['fullSpoil']:
             wotc = spoilers.scrape_fullspoil('', setinfo)
@@ -132,13 +135,14 @@ if __name__ == '__main__':
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
     errorlog = spoilers.remove_corrected_errors(errorlog, card_corrections)
     save_errorlog(errorlog)
-    #save_allsets(AllSets)
+    save_allsets(AllSets)
     #save_setjson(mtgjson)
     if presets['dumpXML']:
         print '<!----- DUMPING SPOILER.XML -----!>'
         with open('out/spoiler.xml', 'r') as xmlfile:
             print xmlfile.read()
         print '<!-----    END XML DUMP     -----!>'
+    if presets['dumpErrors']:
         if errorlog != {}:
             print '//----- DUMPING ERROR LOG -----'
             print json.dumps(errorlog, ensure_ascii=False, encoding='utf8', indent=2, sort_keys=True, separators=(',',':'))
