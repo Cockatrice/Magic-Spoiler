@@ -21,34 +21,25 @@ presets = {
     "dumpErrors": True # print the error log from out/errors.json
 }
 
-try:
-    with open('set_info') as data_file:
-        setinfos = commentjson.load(data_file)
-except Exception as ex:
-    print "Unable to load file: set_info\nException information:\n" + str(ex.args) + \
-          "\nUnable to load file: set_info"
-    sys.exit("Unable to load file: set_info")
-try:
-    with open('cards_manual') as data_file:
-        manual_sets = json.load(data_file)
-except Exception as ex:
-    print "Unable to load file: cards_manual\nException information:\n" + str(ex.args) + \
-          "\nUnable to load file: cards_manual"
-    sys.exit("Unable to load file: cards_manual")
-try:
-    with open('cards_corrections') as data_file:
-        card_corrections = commentjson.load(data_file)
-except Exception as ex:
-    print "Unable to load file: cards_corrections\nException information:\n" + str(ex.args) + \
-          "\nUnable to load file: cards_corrections"
-    sys.exit("Unable to load file: cards_corrections")
-try:
-    with open('cards_delete') as data_file:
-        delete_cards = commentjson.load(data_file)
-except Exception as ex:
-    print "Unable to load file: cards_delete\nException information:\n" + str(ex.args) + \
-          "\nUnable to load file: cards_delete"
-    sys.exit("Unable to load file: cards_delete")
+
+def load_json(json_file, lib_to_use):
+    try:
+        with open(json_file) as data_file:
+            if lib_to_use == 'commentjson':
+                output_file = commentjson.load(data_file)
+            elif lib_to_use == 'json':
+                output_file = json.load(data_file)
+            return output_file
+    except Exception as ex:
+        print "Unable to load file: " +json_file+ "\nException information:\n" + str(ex.args) + \
+              "\nUnable to load file: " + json_file
+        sys.exit("Unable to load file: "+json_file)
+
+
+setinfos = load_json('set_info','commentjson')
+manual_sets = load_json('cards_manual','json')
+card_corrections = load_json('cards_corrections','commentjson')
+delete_cards = load_json('cards_delete','commentjson')
 
 errorlog = []
 
