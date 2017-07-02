@@ -31,8 +31,7 @@ def load_json(json_file, lib_to_use):
                 output_file = json.load(data_file)
             return output_file
     except Exception as ex:
-        print "Unable to load file: " +json_file+ "\nException information:\n" + str(ex.args) + \
-              "\nUnable to load file: " + json_file
+        print "Unable to load file: " +json_file+ "\nException information:\n" + str(ex.args)
         sys.exit("Unable to load file: "+json_file)
 
 
