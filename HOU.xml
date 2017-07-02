@@ -188,7 +188,7 @@ Whenever Aerial Guide attacks, another target creature gains flying until end of
 <type>Sorcery</type>
 <tablerow>3</tablerow>
 <text>Target creature gets +3/+3 and gains flying until end of turn.
-Whenever a Zombie enters the battlefield under your control, you may pay {w}. If you do, return Unconventional Tactics from your graveyard to your hand.</text>
+Whenever a Zombie enters the battlefield under your control, you may pay {W}. If you do, return Unconventional Tactics from your graveyard to your hand.</text>
 </card>
 <card>
 <name>Saving Grace</name>
@@ -643,9 +643,9 @@ Destroy target creature.</text>
 <manacost>1G</manacost>
 <cmc>2</cmc>
 <color>G</color>
-<type>Creatuer - Cat</type>
+<type>Creature - Cat</type>
 <pt>1/3</pt>
-<tablerow>1</tablerow>
+<tablerow>2</tablerow>
 <text>When Feral Prowler dies, draw a card.</text>
 </card>
 <card>
@@ -658,7 +658,7 @@ Destroy target creature.</text>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
 <text>When Banewhip Punisher enters the battlefield, you may put a -1/-1 counter on target creature.
-{b}, Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it.</text>
+{B}, Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it.</text>
 </card>
 <card>
 <name>Dune Diviner</name>
@@ -1089,9 +1089,9 @@ Cycling {b} {B}, Discard this card: Draw a card.)</text>
 <cmc>0</cmc>
 <type>Land - Desert</type>
 <tablerow>0</tablerow>
-<text>{t}: Add {c} to your mana pool.
-{t}, Pay 1 life: Add {u} to your mana pool.
-{1}{u}, {t}, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard.</text>
+<text>{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add {U} to your mana pool.
+{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard.</text>
 </card>
 <card>
 <name>Ifnir Deadlands</name>
@@ -1100,9 +1100,9 @@ Cycling {b} {B}, Discard this card: Draw a card.)</text>
 <cmc>0</cmc>
 <type>Land - Desert</type>
 <tablerow>0</tablerow>
-<text>{t}: Add {c} to your mana pool.
-{t}, Pay 1 life: Add {b} to your mana pool.
-{2}{b}{b}, {t}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery.</text>
+<text>{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add {B} to your mana pool.
+{2}{B}{B}, {T}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery.</text>
 </card>
 <card>
 <name>Imminent Doom</name>
@@ -1123,9 +1123,9 @@ Whenever you cast a spell with converted mana cost equal to the number of doom c
 <cmc>0</cmc>
 <type>Land - Desert</type>
 <tablerow>0</tablerow>
-<text>{t}: Add {c} to your mana pool.
-{t}, Pay 1 life: Add {r} to your mana pool.
-{2}{r}{r}, {t}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.</text>
+<text>{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add {R} to your mana pool.
+{2}{R}{R}, {T}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.</text>
 </card>
 <card>
 <name>Shefet Dunes</name>
@@ -1134,9 +1134,9 @@ Whenever you cast a spell with converted mana cost equal to the number of doom c
 <cmc>0</cmc>
 <type>Land - Desert</type>
 <tablerow>0</tablerow>
-<text>{t}: Add {c} to your mana pool.
-{t}, Pay 1 life: Add {w} to your mana pool.
-{2}{w}{w}, {t}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.</text>
+<text>{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add {W} to your mana pool.
+{2}{W}{W}, {T}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.</text>
 </card>
 <card>
 <name>Chaos Maw</name>
@@ -1205,9 +1205,9 @@ Tap up to two target creatures your opponents control.  Creatures you control ga
 <type>Creature - Zombie</type>
 <pt>2/3</pt>
 <tablerow>2</tablerow>
-<text>{1w}: Target attacking Zombie gains lifelink until end of turn.
+<text>{1}{W}: Target attacking Zombie gains lifelink until end of turn.
 
-{1B}: Target attacking Zombie gains deathtouch until end of turn.</text>
+{1}{B}: Target attacking Zombie gains deathtouch until end of turn.</text>
 </card>
 <card>
 <name>Champion of Wits</name>
@@ -1590,7 +1590,7 @@ Look at the top card of your library. You may put it onto the battlefield if it'
 <type>Land</type>
 <tablerow>0</tablerow>
 <text>Cinder Barrens enters the battlefield tapped.
-{t}: Add {b} or {r} to your mana pool.</text>
+{T}: Add {B} or {R} to your mana pool.</text>
 </card>
 <card>
 <name>Visage of Bolas</name>
@@ -1600,7 +1600,7 @@ Look at the top card of your library. You may put it onto the battlefield if it'
 <type>Artifact</type>
 <tablerow>1</tablerow>
 <text>When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand.  If you search your library this way, shuffle it.
-{t}: Add {u}, {b}, or {r} to your mana pool.</text>
+{T}: Add {U}, {B}, or {R} to your mana pool.</text>
 </card>
 <card>
 <name>Nissa's Encouragement</name>
@@ -1773,8 +1773,8 @@ When The Locust God dies, return it to its owner's hand at the beginning of the 
 <cmc>0</cmc>
 <type>Land - Desert</type>
 <tablerow>0</tablerow>
-<text>{t}: Add {c} to your mana pool.
-{2}, {t}, Sacrifice a Desert: Exile all cards from all graveyards.</text>
+<text>{T}: Add {C} to your mana pool.
+{2}, {T}, Sacrifice a Desert: Exile all cards from all graveyards.</text>
 </card>
 <card>
 <name>Neheb, the Eternal</name>
@@ -1967,7 +1967,7 @@ Exile any number of target creatures that have -1/-1 counters on them.</text>
 <tablerow>2</tablerow>
 <text>Whenever a creature with a -1/-1 counter on it dies, draw a card.
 
-{1br}: Put a -1/-1 counter on another target creature.
+{1}{B}{R}: Put a -1/-1 counter on another target creature.
 
 When The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.</text>
 </card>

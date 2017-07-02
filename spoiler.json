@@ -516,7 +516,7 @@
         "name":"Unconventional Tactics",
         "number":"27",
         "rarity":"Uncommon",
-        "text":"Target creature gets +3/+3 and gains flying until end of turn.\nWhenever a Zombie enters the battlefield under your control, you may pay {w}. If you do, return Unconventional Tactics from your graveyard to your hand.",
+        "text":"Target creature gets +3/+3 and gains flying until end of turn.\nWhenever a Zombie enters the battlefield under your control, you may pay {W}. If you do, return Unconventional Tactics from your graveyard to your hand.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
@@ -1400,7 +1400,7 @@
         ],
         "text":"When Feral Prowler dies, draw a card.",
         "toughness":"3",
-        "type":"Creatuer - Cat",
+        "type":"Creature - Cat",
         "types":[
           "Creatuer"
         ],
@@ -1423,7 +1423,7 @@
           "Human",
           "Warrior"
         ],
-        "text":"When Banewhip Punisher enters the battlefield, you may put a -1/-1 counter on target creature.\n{b}, Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it.",
+        "text":"When Banewhip Punisher enters the battlefield, you may put a -1/-1 counter on target creature.\n{B}, Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it.",
         "toughness":"2",
         "type":"Creature - Human Warrior",
         "types":[
@@ -2318,7 +2318,7 @@
         "subtypes":[
           "Desert"
         ],
-        "text":"{t}: Add {c} to your mana pool.\n{t}, Pay 1 life: Add {u} to your mana pool.\n{1}{u}, {t}, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard.",
+        "text":"{T}: Add {C} to your mana pool.\n{T}, Pay 1 life: Add {U} to your mana pool.\n{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard.",
         "type":"Land - Desert",
         "types":[
           "Land"
@@ -2336,7 +2336,7 @@
         "subtypes":[
           "Desert"
         ],
-        "text":"{t}: Add {c} to your mana pool.\n{t}, Pay 1 life: Add {b} to your mana pool.\n{2}{b}{b}, {t}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery.",
+        "text":"{T}: Add {C} to your mana pool.\n{T}, Pay 1 life: Add {B} to your mana pool.\n{2}{B}{B}, {T}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery.",
         "type":"Land - Desert",
         "types":[
           "Land"
@@ -2373,7 +2373,7 @@
         "subtypes":[
           "Desert"
         ],
-        "text":"{t}: Add {c} to your mana pool.\n{t}, Pay 1 life: Add {r} to your mana pool.\n{2}{r}{r}, {t}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.",
+        "text":"{T}: Add {C} to your mana pool.\n{T}, Pay 1 life: Add {R} to your mana pool.\n{2}{R}{R}, {T}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.",
         "type":"Land - Desert",
         "types":[
           "Land"
@@ -2391,7 +2391,7 @@
         "subtypes":[
           "Desert"
         ],
-        "text":"{t}: Add {c} to your mana pool.\n{t}, Pay 1 life: Add {w} to your mana pool.\n{2}{w}{w}, {t}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.",
+        "text":"{T}: Add {C} to your mana pool.\n{T}, Pay 1 life: Add {W} to your mana pool.\n{2}{W}{W}, {T}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.",
         "type":"Land - Desert",
         "types":[
           "Land"
@@ -2542,7 +2542,7 @@
         "subtypes":[
           "Zombie"
         ],
-        "text":"{1w}: Target attacking Zombie gains lifelink until end of turn.\n\n{1B}: Target attacking Zombie gains deathtouch until end of turn.",
+        "text":"{1}{W}: Target attacking Zombie gains lifelink until end of turn.\n\n{1}{B}: Target attacking Zombie gains deathtouch until end of turn.",
         "toughness":"3",
         "type":"Creature - Zombie",
         "types":[
@@ -3414,7 +3414,7 @@
         "name":"Cinder Barrens",
         "number":"209",
         "rarity":"Common",
-        "text":"Cinder Barrens enters the battlefield tapped.\n{t}: Add {b} or {r} to your mana pool.",
+        "text":"Cinder Barrens enters the battlefield tapped.\n{T}: Add {B} or {R} to your mana pool.",
         "type":"Land",
         "types":[
           "Land"
@@ -3432,7 +3432,7 @@
         "name":"Visage of Bolas",
         "number":"208",
         "rarity":"Rare",
-        "text":"When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand.  If you search your library this way, shuffle it.\n{t}: Add {u}, {b}, or {r} to your mana pool.",
+        "text":"When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand.  If you search your library this way, shuffle it.\n{T}: Add {U}, {B}, or {R} to your mana pool.",
         "type":"Artifact",
         "types":[
           "Artifact"
@@ -3766,7 +3766,7 @@
         "subtypes":[
           "Desert"
         ],
-        "text":"{t}: Add {c} to your mana pool.\n{2}, {t}, Sacrifice a Desert: Exile all cards from all graveyards.",
+        "text":"{T}: Add {C} to your mana pool.\n{2}, {T}, Sacrifice a Desert: Exile all cards from all graveyards.",
         "type":"Land - Desert",
         "types":[
           "Land"
@@ -4130,7 +4130,7 @@
         "subtypes":[
           "God"
         ],
-        "text":"Whenever a creature with a -1/-1 counter on it dies, draw a card.\n\n{1br}: Put a -1/-1 counter on another target creature.\n\nWhen The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.",
+        "text":"Whenever a creature with a -1/-1 counter on it dies, draw a card.\n\n{1}{B}{R}: Put a -1/-1 counter on another target creature.\n\nWhen The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.",
         "toughness":"5",
         "type":"Legendary Creature - God",
         "types":[
@@ -5113,7 +5113,7 @@
         "subtypes":[
           "God"
         ],
-        "text":"Whenever a creature with a -1/-1 counter on it dies, draw a card.\n\n{1br}: Put a -1/-1 counter on another target creature.\n\nWhen The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.",
+        "text":"Whenever a creature with a -1/-1 counter on it dies, draw a card.\n\n{1}{B}{R}: Put a -1/-1 counter on another target creature.\n\nWhen The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.",
         "toughness":"5",
         "type":"Legendary Creature - God",
         "types":[
