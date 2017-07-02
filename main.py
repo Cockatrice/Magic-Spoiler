@@ -86,6 +86,9 @@ if __name__ == '__main__':
     AllSets = spoilers.get_allsets() #get AllSets from mtgjson
     combinedjson = {}
     for setinfo in setinfos:
+        if setinfo['setname'] in AllSets:
+            print "Found set from set_info " +setinfo['setname']+ " in MTGJSON, not adding it"
+            continue
         if presets['oldRSS'] or 'noRSS' in setinfo and setinfo['noRSS']:
             mtgs = { "cards":[] }
         else:
