@@ -2,21 +2,21 @@ sudo: false
 
 language: python
 
-cache: pip
+#cache: pip
 #cache: apt
 
-#addons:
-#  apt:
-#    packages:
-#      - python-lxml # apt > pip
+addons:
+  apt:
+    packages:
+      - python-lxml # apt > pip
 
 before_install:
   - pip install commentjson
   - python verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
-  - export CFLAGS=-O0 # considerably speed-up build time for lxml
-  - pip install -r requirements.txt --cache-dir $HOME/.pip-cache
+#  - export CFLAGS=-O0 # considerably speed-up build time for lxml
+  - pip install -r requirements.txt #--cache-dir $HOME/.pip-cache
 
 script: bash ./deploy.sh
 
