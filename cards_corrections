@@ -12,6 +12,8 @@
 //
 // List of Keys:
 //
+// Hints:
+// If you fix a card "type", it's important to fix card "types" (only found in json file) as well!
 
 {
   "Angel of the God-Pharoh": {
@@ -82,7 +84,10 @@
     "text": "{1}{W}: Target attacking Zombie gains lifelink until end of turn.\n\n{1}{B}: Target attacking Zombie gains deathtouch until end of turn."
   },
   "Feral Prowler": {
-    "type": "Creature - Cat"
+    "type": "Creature - Cat",
+    "types":[
+        "Creature"
+      ]
   },
   "Visage of Bolas": {
     "text": "When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand.  If you search your library this way, shuffle it.\n{T}: Add {U}, {B}, or {R} to your mana pool."
