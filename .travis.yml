@@ -1,12 +1,21 @@
+sudo: false
+
 language: python
+
+cache: pip
+
 before_install:
   - pip install commentjson
   - python verify_files.py # make sure input files are OK before wasting time with prereqs
+
 install:
   - pip install -r requirements.txt
+
 script: bash ./deploy.sh
-after_script:   
+
+after_script:
   - sleep 10 # helps travis finish logging
+
 notifications:
   email: false
   webhooks:
@@ -15,6 +24,7 @@ notifications:
     on_success: always  # options: [always|never|change] default: always
     on_failure: always  # options: [always|never|change] default: always
     on_start: always     # options: [always|never|change] default: always
+
 deploy:
   provider: releases
   api_key:
@@ -26,6 +36,7 @@ deploy:
   on:
     tags: true
     branch: master
+
 env:
   global:
   - ENCRYPTION_LABEL: ec68c19ba263
