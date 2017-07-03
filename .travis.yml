@@ -3,6 +3,12 @@ sudo: false
 language: python
 
 cache: pip
+#cache: apt
+
+#addons:
+#  apt:
+#    packages:
+#      - python-lxml # apt > pip
 
 before_install:
   - pip install commentjson
@@ -10,7 +16,7 @@ before_install:
 
 install:
   - export CFLAGS=-O0 # considerably speed-up build time for lxml
-  - pip install -r requirements.txt
+  - pip install -r requirements.txt --cache-dir $HOME/.pip-cache
 
 script: bash ./deploy.sh
 
