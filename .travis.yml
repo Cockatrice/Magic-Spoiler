@@ -41,4 +41,4 @@ deploy:
 env:
   global:
   - ENCRYPTION_LABEL: ec68c19ba263
-- COMMIT_AUTHOR_EMAIL: you@example.com
+  - COMMIT_AUTHOR_EMAIL: you@example.com
