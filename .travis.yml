@@ -3,7 +3,6 @@ sudo: false
 language: python
 
 #cache: pip
-#cache: apt
 
 addons:
   apt:
@@ -30,7 +29,7 @@ notifications:
       - https://webhooks.gitter.im/e/691b9acffe1def5f9d6b
     on_success: always  # options: [always|never|change] default: always
     on_failure: always  # options: [always|never|change] default: always
-    on_start: always     # options: [always|never|change] default: always
+    on_start: always    # options: [always|never|change] default: always
 
 deploy:
   provider: releases
