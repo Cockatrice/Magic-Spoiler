@@ -2,13 +2,14 @@ sudo: false
 
 language: python
 
-cache: pip
+#cache: pip
 
 before_install:
   - pip install commentjson
   - python verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
+  - export CFLAGS=-O0
   - pip install -r requirements.txt
 
 script: bash ./deploy.sh
