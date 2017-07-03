@@ -9,7 +9,7 @@ before_install:
   - python verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
-  - export CFLAGS=-O0
+  - export CFLAGS=-C0 # speed-up lxml build time
   - pip install -r requirements.txt
 
 script: bash ./deploy.sh
