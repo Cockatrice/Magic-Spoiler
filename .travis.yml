@@ -1,4 +1,4 @@
-sudo: false
+sudo: false # force container-based builds (no start-up time!)
 
 language: python
 
