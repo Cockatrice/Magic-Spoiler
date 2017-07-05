@@ -2,17 +2,23 @@ sudo: false # force container-based builds (no start-up time!)
 
 language: python
 
-cache: pip # enable cache for "$HOME/.pip-cache" directory
-
+cache:
+  pip: true # enable cache for "$HOME/.cache/pip" directory
+  directories:
+    - /home/travis/virtualenv/python2.7/lib/python2.7/site-packages
+    
 before_install:
   - export CFLAGS=-O0 # considerably speed-up build time for pip packages (especially lxml), optimizations doesn't matter for ci
   - pip install commentjson
   - python verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
-  - pip install -r requirements.txt --cache-dir $HOME/.pip-cache
+  - pip install -r requirements.txt
 
 script: bash ./deploy.sh
+
+before_cache: # before uploading delete log file, not wanted in cache
+  - rm -f $HOME/.cache/pip/log/debug.log
 
 after_script:
   - sleep 10 # helps travis finish logging
