@@ -5,6 +5,7 @@ import commentjson
 import json
 import io
 import sys
+import yaml
 
 presets = {
     "isfullspoil": False, # when full spoil comes around, we only want to use WOTC images
@@ -21,23 +22,25 @@ presets = {
 }
 
 
-def load_json(json_file, lib_to_use):
+def load_file(json_file, lib_to_use):
     try:
         with open(json_file) as data_file:
             if lib_to_use == 'commentjson':
                 output_file = commentjson.load(data_file)
             elif lib_to_use == 'json':
                 output_file = json.load(data_file)
+            elif lib_to_use == 'yaml':
+                output_file = yaml.load(data_file)
             return output_file
     except Exception as ex:
         print "Unable to load file: " +json_file+ "\nException information:\n" + str(ex.args)
         sys.exit("Unable to load file: "+json_file)
 
 
-setinfos = load_json('set_info','commentjson')
-manual_sets = load_json('cards_manual','json')
-card_corrections = load_json('cards_corrections','commentjson')
-delete_cards = load_json('cards_delete','commentjson')
+setinfos = load_file('set_info','commentjson')
+manual_sets = load_file('cards_manual.yml','yaml')
+card_corrections = load_file('cards_corrections.yml','yaml')
+delete_cards = load_file('cards_delete.yml','yaml')
 
 errorlog = []
 
@@ -94,7 +97,7 @@ if __name__ == '__main__':
         else:
             mtgs = spoilers.scrape_mtgs('http://www.mtgsalvation.com/spoilers.rss') #scrape mtgs rss feed
             [mtgs, split_cards] = spoilers.parse_mtgs(mtgs, [], [], [], presets['split_cards']) #parse spoilers into mtgjson format
-        mtgs = spoilers.correct_cards(mtgs, manual_sets[setinfo['setname']]['cards'], card_corrections, delete_cards) #fix using the fixfiles
+        mtgs = spoilers.correct_cards(mtgs, manual_sets[setinfo['setname']], card_corrections, delete_cards['delete']) #fix using the fixfiles
         mtgjson = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize'], setinfo) #get images
         if presets['scryfallComparison']:
             scryfall = spoilers.get_scryfall(

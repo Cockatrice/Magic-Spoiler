@@ -247,15 +247,22 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
 
 def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]):
     mtgjson2 = []
+    print manual_cards
     for card in manual_cards:
+        if 'manaCost' in card:
+            card['manaCost'] = str(card['manaCost'])
+        if 'number' in card:
+            card['number'] = str(card['number'])
         if 'cmc' not in card:
             workingCMC = 0
-            stripCost = card['manaCost'].replace('{','').replace('}','')
-            for manaSymbol in stripCost:
-                if manaSymbol.isdigit():
-                    workingCMC += int(manaSymbol)
-                elif not manaSymbol == 'X':
-                    workingCMC += 1
+            if 'manaCost' in card:
+                stripCost = card['manaCost'].replace('{','').replace('}','')
+                for manaSymbol in stripCost:
+                    if manaSymbol.isdigit():
+                        workingCMC += int(manaSymbol)
+                    elif not manaSymbol == 'X':
+                        workingCMC += 1
+            card['cmc'] = workingCMC
         if 'types' not in card:
             card['types'] = []
             workingtypes = card['type']
@@ -280,7 +287,7 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
         }
         if 'manaCost' in card:
             if 'text' in card and not 'Devoid' in card['text']:
-                for letter in card['manaCost']:
+                for letter in str(card['manaCost']):
                     if not letter.isdigit() and not letter == 'X':
                         if 'colorIdentity' in card:
                             if not letter in card['colorIdentity']:
@@ -1034,7 +1041,7 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
             tablerow = "2"
 
         if 'number' in card:
-            if 'b' in card['number']:
+            if 'b' in str(card['number']):
                 if 'layout' in card:
                     if card['layout'] == 'split' or card['layout'] == 'aftermath':
                         #print "We're skipping " + card['name'] + " because it's the right side of a split card"
