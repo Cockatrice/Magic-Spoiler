@@ -1,5 +1,7 @@
 sudo: false # force container-based builds (no start-up time!)
 
+dist: trusty # force 14.04 trusty build
+
 language: python
 
 cache: pip # enable cache for "$HOME/.pip-cache" directory
