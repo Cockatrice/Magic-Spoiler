@@ -247,7 +247,6 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
 
 def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]):
     mtgjson2 = []
-    print manual_cards
     for card in manual_cards:
         if 'manaCost' in card:
             card['manaCost'] = str(card['manaCost'])
