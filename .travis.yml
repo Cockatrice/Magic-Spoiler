@@ -4,9 +4,6 @@ language: python
 
 cache: pip # enable cache for "$HOME/.pip-cache" directory
 
-before_cache: # before uploading delete log file, not wanted in cache
-  - rm -f $HOME/.cache/pip/log/debug.log
-
 before_install:
   - export CFLAGS=-O0 # considerably speed-up build time for pip packages (especially lxml), optimizations doesn't matter for ci
   - pip install commentjson
@@ -16,6 +13,9 @@ install:
   - pip install -r requirements.txt --cache-dir $HOME/.pip-cache
 
 script: bash ./deploy.sh
+
+before_cache: # before uploading delete log file, not wanted in cache
+  - rm -f $TRAVIS_BUILD_DIR/.cache/pip/log/debug.log
 
 after_script:
   - sleep 10 # helps travis finish logging
