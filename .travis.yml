@@ -5,7 +5,6 @@ language: python
 cache:
   pip: true # enable cache for "$HOME/.cache/pip" directory
   directories:
-    - $HOME/.pip-cache/ # custom pip cache directory
     - /home/travis/virtualenv/python2.7/lib/python2.7/site-packages
     
 before_install:
@@ -14,7 +13,7 @@ before_install:
   - python verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
-  - pip install -r requirements.txt --cache-dir $HOME/.pip-cache
+  - pip install -r requirements.txt
 
 script: bash ./deploy.sh
 
