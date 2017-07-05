@@ -4,6 +4,9 @@ language: python
 
 cache: pip # enable cache for "$HOME/.pip-cache" directory
 
+before_cache: # before uploading delete log file, not wanted in cache
+  - rm -f $HOME/.cache/pip/log/debug.log
+
 before_install:
   - export CFLAGS=-O0 # considerably speed-up build time for pip packages (especially lxml), optimizations doesn't matter for ci
   - pip install commentjson
