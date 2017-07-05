@@ -5,8 +5,7 @@ language: python
 cache: pip # enable cache for "$HOME/.pip-cache" directory
 
 before_install:
-  - export CFLAGS=-O0 # considerably speed-up build time for pip packages (especially lxml), optimizations doesn't matter for ci
-  - pip install commentjson --cache-dir $HOME/.pip-cache
+  - pip install commentjson
   - python verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
