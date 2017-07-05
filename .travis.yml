@@ -4,7 +4,7 @@ dist: trusty # force 14.04 trusty build
 
 language: python
 
-cache: pip # enable cache for "$HOME/.pip-cache" directory
+cache: pip # enable cache for "$HOME/.cache/pip" directory
 
 before_install:
   - export CFLAGS=-O0 # considerably speed-up build time for pip packages (especially lxml), optimizations doesn't matter for ci
@@ -12,7 +12,7 @@ before_install:
   - python verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
-  - pip install -r requirements.txt --cache-dir $HOME/.pip-cache
+  - pip install -r requirements.txt
 
 script: bash ./deploy.sh
 
