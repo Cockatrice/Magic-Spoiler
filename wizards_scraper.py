@@ -2,11 +2,12 @@
 import requests
 from lxml import html
 from PIL import Image
+import os
 
 
-def scrape_fullspoil(url="http://magic.wizards.com/en/articles/archive/card-image-gallery/hour-devastation", setinfo={"setname": "HOU"}, showRarityColors=False, showFrameColors=False, manual_cards=[], delete_cards=[], split_cards=[]):
-    if 'setlongname' in setinfo:
-        url = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + setinfo['setlongname'].lower().replace('of', '').replace(
+def scrape_fullspoil(url="http://magic.wizards.com/en/articles/archive/card-image-gallery/hour-devastation", setinfo={"code": "HOU"}, showRarityColors=False, showFrameColors=False, manual_cards=[], delete_cards=[], split_cards=[]):
+    if 'name' in setinfo:
+        url = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + setinfo['name'].lower().replace('of', '').replace(
             '  ', ' ').replace(' ', '-')
     page = requests.get(url)
     tree = html.fromstring(page.content)
@@ -40,10 +41,10 @@ def scrape_fullspoil(url="http://magic.wizards.com/en/articles/archive/card-imag
             cardcount += 1
     fullspoil = {"cards": cards}
     print "Spoil Gallery has " + str(cardcount) + " cards."
-    download_images(fullspoil['cards'], setinfo['setname'])
-    fullspoil = get_rarities_by_symbol(fullspoil, setinfo['setname'])
-    fullspoil = get_mana_symbols(fullspoil, setinfo['setname'])
-    #fullspoil = get_colors_by_frame(fullspoil, setinfo['setname'])
+    download_images(fullspoil['cards'], setinfo['code'])
+    fullspoil = get_rarities_by_symbol(fullspoil, setinfo['code'])
+    fullspoil = get_mana_symbols(fullspoil, setinfo['code'])
+    #fullspoil = get_colors_by_frame(fullspoil, setinfo['code'])
     return fullspoil
 
 
@@ -250,3 +251,19 @@ def smash_fullspoil(mtgjson, fullspoil):
         print "WOTC only cards: "
         print WOTC_only
     print different_keys
+
+
+def download_images(mtgjson, setcode):
+    if not os.path.isdir('images/' + setcode):
+        os.makedirs('images/' + setcode)
+    if 'cards' in mtgjson:
+        jsoncards = mtgjson['cards']
+    else:
+        jsoncards = mtgjson
+    for card in jsoncards:
+        if card['url']:
+            if os.path.isfile('images/' + setcode + '/' + card['name'].replace(' // ', '') + '.jpg'):
+                continue
+            # print 'Downloading ' + card['url'] + ' to images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg'
+            requests.get(card['url'], 'images/' + setcode +
+                               '/' + card['name'].replace(' // ', '') + '.jpg')

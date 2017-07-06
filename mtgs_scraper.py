@@ -199,7 +199,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
         if card['cmc'] == '':
             card['cmc'] = 0
         cardjson = {}
-        #cardjson["id"] = hashlib.sha1(setname + card['name'] + str(card['name']).lower()).hexdigest()
+        #cardjson["id"] = hashlib.sha1(code + card['name'] + str(card['name']).lower()).hexdigest()
         cardjson["cmc"] = card['cmc']
         cardjson["manaCost"] = card['cost']
         cardjson["name"] = card['name']

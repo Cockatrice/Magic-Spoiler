@@ -283,35 +283,19 @@ def remove_corrected_errors(errorlog=[], card_corrections=[], print_fixed=False)
     return errorlog2
 
 
-def download_images(mtgjson, setcode):
-    if not os.path.isdir('images/' + setcode):
-        os.makedirs('images/' + setcode)
-    if 'cards' in mtgjson:
-        jsoncards = mtgjson['cards']
-    else:
-        jsoncards = mtgjson
-    for card in jsoncards:
-        if card['url']:
-            if os.path.isfile('images/' + setcode + '/' + card['name'].replace(' // ', '') + '.jpg'):
-                continue
-            # print 'Downloading ' + card['url'] + ' to images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg'
-            requests.get(card['url'], 'images/' + setcode +
-                               '/' + card['name'].replace(' // ', '') + '.jpg')
-
-
-def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, setinfo=False):
+def get_image_urls(mtgjson, isfullspoil, code, name, size=269, setinfo=False):
     IMAGES = 'http://magic.wizards.com/en/content/' + \
-        setlongname.lower().replace(' ', '-') + '-cards'
+        name.lower().replace(' ', '-') + '-cards'
     IMAGES2 = 'http://mythicspoiler.com/newspoilers.html'
     IMAGES3 = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + \
-        setlongname.lower().replace('of', '').replace('  ', ' ').replace(' ', '-')
+        name.lower().replace('of', '').replace('  ', ' ').replace(' ', '-')
 
     text = requests.get(IMAGES).text
     text2 = requests.get(IMAGES2).text
     text3 = requests.get(IMAGES3).text
     wotcpattern = r'<img alt="{}.*?" src="(?P<img>.*?\.png)"'
     wotcpattern2 = r'<img src="(?P<img>.*?\.png).*?alt="{}.*?"'
-    mythicspoilerpattern = r' src="' + setname.lower() + '/cards/{}.*?.jpg">'
+    mythicspoilerpattern = r' src="' + code.lower() + '/cards/{}.*?.jpg">'
     WOTC = []
     for c in mtgjson['cards']:
         if 'names' in c:
@@ -356,10 +340,10 @@ def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269, seti
     return mtgjson
 
 
-def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
+def write_xml(mtgjson, code, name, releaseDate, split_cards=[]):
     if not os.path.isdir('out/'):
         os.makedirs('out/')
-    cardsxml = open('out/' + setname + '.xml', 'w+')
+    cardsxml = open('out/' + code + '.xml', 'w+')
     cardsxml.truncate()
     count = 0
     dfccount = 0
@@ -368,14 +352,14 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
     cardsxml.write("<?xml version='1.0' encoding='UTF-8'?>\n"
                    "<cockatrice_carddatabase version='3'>\n"
                    "<sets>\n<set>\n<name>"
-                   + setname +
+                   + code +
                    "</name>\n"
                    "<longname>"
-                   + setlongname +
+                   + name +
                    "</longname>\n"
                    "<settype>Expansion</settype>\n"
                    "<releasedate>"
-                   + setreleasedate +
+                   + releaseDate +
                    "</releasedate>\n"
                    "</set>\n"
                    "</sets>\n"
@@ -445,7 +429,7 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardsxml.write("<card>\n")
         cardsxml.write("<name>" + name.encode('utf-8') + "</name>\n")
         cardsxml.write(
-            '<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + setname + '</set>\n')
+            '<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + code + '</set>\n')
         cardsxml.write(
             "<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
         cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
@@ -479,7 +463,7 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
 
-    print 'XML Stats for ' + setlongname
+    print 'XML Stats for ' + name
     print 'Total cards: ' + str(count)
     if dfccount > 0:
         print 'DFC: ' + str(dfccount)
@@ -641,8 +625,8 @@ def pretty_xml(infile):
     return pretty_xml_as_string
 
 
-def make_allsets(AllSets, mtgjson, setname):
-    AllSets[setname] = mtgjson
+def make_allsets(AllSets, mtgjson, code):
+    AllSets[code] = mtgjson
     return AllSets
 
 
@@ -676,8 +660,8 @@ def make_masterpieces(headers, AllSets, spoil):
     masterpieces2 = []
     for masterpiece in masterpieces:
         matched = False
-        if headers['setname'] in AllSets:
-            for oldMasterpiece in AllSets[headers['setname']]['cards']:
+        if headers['code'] in AllSets:
+            for oldMasterpiece in AllSets[headers['code']]['cards']:
                 if masterpiece['name'] == oldMasterpiece['name']:
                     matched = True
         for set in AllSets:
@@ -703,10 +687,10 @@ def make_masterpieces(headers, AllSets, spoil):
             print "We couldn't find a card object to assign the data to for masterpiece " + masterpiece['name']
             masterpieces2.append(masterpiece)
     mpsjson = {
-        "name": headers['setlongname'],
+        "name": headers['name'],
         "alternativeNames": headers['alternativeNames'],
-        "code": headers['setname'],
-        "releaseDate": headers['setreleasedate'],
+        "code": headers['code'],
+        "releaseDate": headers['releaseDate'],
         "border": "black",
         "type": "masterpiece",
         "cards": masterpieces2
@@ -715,11 +699,11 @@ def make_masterpieces(headers, AllSets, spoil):
 
 
 def set_has_cards(setinfo, manual_cards, mtgjson):
-    if setinfo['setname'] in manual_cards or setinfo['setname'] in mtgjson:
+    if setinfo['code'] in manual_cards or setinfo['code'] in mtgjson:
         return True
     for card in manual_cards['cards']:
         if set in card:
-            if set == setinfo['setname']:
+            if set == setinfo['code']:
                 return True
 
 
@@ -733,10 +717,10 @@ def get_allsets():
 def add_headers(mtgjson, setinfos):
     mtgjson2 = {
         "border": "black",
-        "code": setinfos['setname'],
-        "name": setinfos['setlongname'],
-        "releaseDate": setinfos['setreleasedate'],
-        "type": setinfos['settype'],
+        "code": setinfos['code'],
+        "name": setinfos['name'],
+        "releaseDate": setinfos['releaseDate'],
+        "type": setinfos['type'],
         "cards": mtgjson['cards']
     }
     if not 'noBooster' in setinfos:
@@ -761,6 +745,6 @@ def add_headers(mtgjson, setinfos):
             "land",
             "marketing"
         ],
-    if 'blockname' in setinfos:
-        mtgjson2['block'] = setinfos['blockname']
+    if 'block' in setinfos:
+        mtgjson2['block'] = setinfos['block']
     return mtgjson2
