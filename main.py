@@ -30,7 +30,7 @@ presets = {
 setinfos = verify_files.load_file('set_info.yml','yaml_multi')
 manual_sets = verify_files.load_file('cards_manual.yml','yaml')
 card_corrections = verify_files.load_file('cards_corrections.yml','yaml')
-delete_cards = verify_files.load_file('cards_delete.yml','yaml')
+delete_cards = verify_files.load_file('cards_delete.yml','yaml')['delete']
 
 errorlog = []
 
