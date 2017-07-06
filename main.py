@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 import spoilers
 import os
-import commentjson
 import json
 import io
 import sys
-import yaml
+import verify_files
 
 presets = {
     "isfullspoil": False, # when full spoil comes around, we only want to use WOTC images
@@ -21,26 +20,10 @@ presets = {
     "dumpErrors": True # print the error log from out/errors.json
 }
 
-
-def load_file(json_file, lib_to_use):
-    try:
-        with open(json_file) as data_file:
-            if lib_to_use == 'commentjson':
-                output_file = commentjson.load(data_file)
-            elif lib_to_use == 'json':
-                output_file = json.load(data_file)
-            elif lib_to_use == 'yaml':
-                output_file = yaml.load(data_file)
-            return output_file
-    except Exception as ex:
-        print "Unable to load file: " +json_file+ "\nException information:\n" + str(ex.args)
-        sys.exit("Unable to load file: "+json_file)
-
-
-setinfos = load_file('set_info','commentjson')
-manual_sets = load_file('cards_manual.yml','yaml')
-card_corrections = load_file('cards_corrections.yml','yaml')
-delete_cards = load_file('cards_delete.yml','yaml')
+setinfos = verify_files.load_file('set_info.yml','yaml_multi')
+manual_sets = verify_files.load_file('cards_manual.yml','yaml')
+card_corrections = verify_files.load_file('cards_corrections.yml','yaml')
+delete_cards = verify_files.load_file('cards_delete.yml','yaml')
 
 errorlog = []
 
@@ -90,7 +73,7 @@ if __name__ == '__main__':
     combinedjson = {}
     for setinfo in setinfos:
         if setinfo['setname'] in AllSets:
-            print "Found set from set_info " +setinfo['setname']+ " in MTGJSON, not adding it"
+            print "Found set from set_info.yml " +setinfo['setname']+ " in MTGJSON, not adding it"
             continue
         if presets['oldRSS'] or 'noRSS' in setinfo and setinfo['noRSS']:
             mtgs = { "cards":[] }
