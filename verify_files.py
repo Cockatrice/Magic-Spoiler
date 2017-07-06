@@ -5,10 +5,10 @@ def load_file(input_file, lib_to_use):
     try:
         with open(input_file) as data_file:
             if lib_to_use == 'yaml':
-                output_file = yaml.load(data_file)
+                output_file = yaml.safe_load(data_file)
             elif lib_to_use == 'yaml_multi':
                 output_file = []
-                for doc in yaml.load_all(data_file):
+                for doc in yaml.safe_load_all(data_file):
                     output_file.append(doc)
             return output_file
     except Exception as ex:
