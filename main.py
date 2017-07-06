@@ -169,9 +169,9 @@ if __name__ == '__main__':
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
     cockatrice_xsd = requests.get('https://raw.githubusercontent.com/Cockatrice/Cockatrice/master/doc/cards.xsd').text
     if verify_xml('out/spoiler.xml', cockatrice_xsd):  # check if our XML passes Cockatrice's XSD
-        print 'XML passes XSD verification'
+        print 'spoiler.xml passes Cockatrice XSD verification'
     else:
-        print 'XML fails XSD verification'
+        print 'spoiler.xml fails Cockatrice XSD verification'
     errorlog = spoilers.remove_corrected_errors(errorlog, card_corrections)
     save_errorlog(errorlog)
     save_allsets(AllSets)
