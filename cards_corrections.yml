@@ -1,4 +1,36 @@
 # Objects to be fixed
+#
+# Format is
+#
+# Card Name:
+#   field to fix: new value
+#
+# Ex:
+#
+# Jace, the Planeswalker:
+#   loyalty: 5
+#   manaCost: 1UUB
+#
+# Fields and their values
+# name: Card Name
+# cmc: 4 (int)
+# colorIdentity:
+#   - U
+#   - B
+# colors:
+#   - Blue
+#   - Black
+# manaCost: 1UUB
+# number: 140
+# rarity: Mythic Rare
+# power: X
+# text: "{5}, {T}: You win the game."
+# toughness: *
+# type: Legendary Artifact Creature - Human Monk
+# url: http://wizards.c0m/link/to/card.png
+#
+# Indentation is critical, two spaces per indentation
+
 
 Angel of the God-Pharoh:
   name: Angel of the God-Pharaoh

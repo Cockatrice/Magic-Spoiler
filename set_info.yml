@@ -1,3 +1,28 @@
+# Each new set should be separated by three dashes "---"
+#
+# required keys
+#
+# setname: FSN
+# setlongname: "Full Set Name"
+# setsize: 274
+# setreleasedate: "2050-02-28"
+# settype: expansion
+#
+# optional keys
+#
+# blockname: "Block Name"
+# mtgsurl: "http://url_to_mtgsalvation.com/spoilers/page
+# mtgscardpath "http://url_to_mtgsalvation.com/cards/setpage/"
+# fullSpoil: false
+# masterpieces:
+#
+# Masterpieces contain setname, setlongname, setreleasedate as above
+# and requires mtgsurl and mtgscardpath
+# also can contain
+#
+# alternativeNames: ["Same as set long name, but minus 'Masterpiece Series:'"]
+#
+
 ---
 setname: "HOU"
 setlongname: "Hour of Devastation"
