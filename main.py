@@ -88,10 +88,30 @@ def save_xml(xmlstring, outfile):
 
 
 def verify_xml(file, schema):
-    schema_doc = etree.fromstring(schema)
+    try:
+        schema_doc = etree.fromstring(schema)
+    except Exception as e:
+        print "XSD is invalid"
+        print schema
+        print e
+        return False
     xml_schema = etree.XMLSchema(schema_doc)
-    xml_doc = etree.parse(file)
-    return xml_schema.validate(xml_doc)
+    try:
+        xml_doc = etree.parse(file)
+    except Exception as e:
+        print "XML file " + file + " is invalid"
+        print e
+        return False
+    try:
+        xml_schema.assert_(xml_doc)
+    except:
+        xsd_errors = xml_schema.error_log
+        print "Errors validating XML file " + file + " against XSD:"
+        for error in xsd_errors:
+            print error
+        return False
+    return True
+    #return xml_schema.validate(xml_doc)
 
 
 if __name__ == '__main__':
