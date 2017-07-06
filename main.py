@@ -9,6 +9,8 @@ import json
 import io
 import sys
 import verify_files
+import requests
+from lxml import etree
 
 presets = {
     "isfullspoil": False,  # when full spoil comes around, we only want to use WOTC images
@@ -85,6 +87,13 @@ def save_xml(xmlstring, outfile):
         xmlfile.write(xmlstring.encode('utf-8'))
 
 
+def verify_xml(file, schema):
+    schema_doc = etree.fromstring(schema)
+    xml_schema = etree.XMLSchema(schema_doc)
+    xml_doc = etree.parse(file)
+    return xml_schema.validate(xml_doc)
+
+
 if __name__ == '__main__':
     parseargs()
     AllSets = spoilers.get_allsets()  # get AllSets from mtgjson
@@ -138,6 +147,11 @@ if __name__ == '__main__':
     save_setjson(combinedjson, 'spoiler')
     spoilers.write_combined_xml(combinedjson, setinfos)
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
+    cockatrice_xsd = requests.get('https://raw.githubusercontent.com/Cockatrice/Cockatrice/master/doc/cards.xsd').text
+    if verify_xml('out/spoiler.xml', cockatrice_xsd):  # check if our XML passes Cockatrice's XSD
+        print 'XML passes XSD verification'
+    else:
+        print 'XML fails XSD verification'
     errorlog = spoilers.remove_corrected_errors(errorlog, card_corrections)
     save_errorlog(errorlog)
     save_allsets(AllSets)
