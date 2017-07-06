@@ -5,10 +5,10 @@ import scryfall_scraper
 import mythic_scraper
 import wizards_scraper
 import os
-import commentjson
 import json
 import io
 import sys
+import verify_files
 
 presets = {
     "isfullspoil": False,  # when full spoil comes around, we only want to use WOTC images
@@ -27,24 +27,10 @@ presets = {
     "dumpErrors": True  # print the error log from out/errors.json
 }
 
-
-def load_json(json_file, lib_to_use):
-    try:
-        with open(json_file) as data_file:
-            if lib_to_use == 'commentjson':
-                output_file = commentjson.load(data_file)
-            elif lib_to_use == 'json':
-                output_file = json.load(data_file)
-            return output_file
-    except Exception as ex:
-        print "Unable to load file: " + json_file + "\nException information:\n" + str(ex.args)
-        sys.exit("Unable to load file: " + json_file)
-
-
-setinfos = load_json('set_info', 'commentjson')
-manual_sets = load_json('cards_manual', 'json')
-card_corrections = load_json('cards_corrections', 'commentjson')
-delete_cards = load_json('cards_delete', 'commentjson')
+setinfos = verify_files.load_file('set_info.yml','yaml_multi')
+manual_sets = verify_files.load_file('cards_manual.yml','yaml')
+card_corrections = verify_files.load_file('cards_corrections.yml','yaml')
+delete_cards = verify_files.load_file('cards_delete.yml','yaml')
 
 errorlog = []
 
@@ -105,7 +91,7 @@ if __name__ == '__main__':
     combinedjson = {}
     for setinfo in setinfos:
         if setinfo['setname'] in AllSets:
-            print "Found set from set_info " + setinfo['setname'] + " in MTGJSON, not adding it"
+            print "Found set from set_info.yml " +setinfo['setname']+ " in MTGJSON, not adding it"
             continue
         if presets['oldRSS'] or 'noRSS' in setinfo and setinfo['noRSS']:
             mtgs = {"cards": []}
@@ -115,7 +101,7 @@ if __name__ == '__main__':
             [mtgs, split_cards] = mtgs_scraper.parse_mtgs(
                 mtgs, [], [], [], presets['split_cards'])  # parse spoilers into mtgjson format
         mtgs = spoilers.correct_cards(
-            mtgs, manual_sets[setinfo['setname']]['cards'], card_corrections, delete_cards)  # fix using the fixfiles
+            mtgs, manual_sets[setinfo['setname']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(
             mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize'], setinfo)  # get images
         if presets['scryfallComparison']:
