@@ -4,7 +4,6 @@ import re
 import os
 from lxml import html
 import datetime
-import urllib
 import json
 import mtgs_scraper
 import xml.dom.minidom
@@ -296,7 +295,7 @@ def download_images(mtgjson, setcode):
             if os.path.isfile('images/' + setcode + '/' + card['name'].replace(' // ', '') + '.jpg'):
                 continue
             # print 'Downloading ' + card['url'] + ' to images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg'
-            urllib.urlretrieve(card['url'], 'images/' + setcode +
+            requests.get(card['url'], 'images/' + setcode +
                                '/' + card['name'].replace(' // ', '') + '.jpg')
 
 
@@ -725,13 +724,9 @@ def set_has_cards(setinfo, manual_cards, mtgjson):
 
 
 def get_allsets():
-    class MyOpener(urllib.FancyURLopener):
-        version = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko / 20071127 Firefox / 2.0.0.11'
-
-    opener = MyOpener()
-    opener.retrieve('http://mtgjson.com/json/AllSets.json', 'AllSets.json')
-    with open('AllSets.json') as data_file:
-        AllSets = json.load(data_file)
+    headers = {'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko / 20071127 Firefox / 2.0.0.11'}
+    json_file = requests.get('http://mtgjson.com/json/AllSets.json', headers=headers)
+    AllSets = json.loads(json_file.text)
     return AllSets
 
 
