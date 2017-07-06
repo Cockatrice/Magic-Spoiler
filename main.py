@@ -30,7 +30,7 @@ presets = {
 setinfos = verify_files.load_file('set_info.yml','yaml_multi')
 manual_sets = verify_files.load_file('cards_manual.yml','yaml')
 card_corrections = verify_files.load_file('cards_corrections.yml','yaml')
-delete_cards = verify_files.load_file('cards_delete.yml','yaml')['delete']
+delete_cards = verify_files.load_file('cards_delete.yml','yaml')
 
 errorlog = []
 
@@ -101,7 +101,7 @@ if __name__ == '__main__':
             [mtgs, split_cards] = mtgs_scraper.parse_mtgs(
                 mtgs, [], [], [], presets['split_cards'])  # parse spoilers into mtgjson format
         mtgs = spoilers.correct_cards(
-            mtgs, manual_sets[setinfo['setname']]['cards'], card_corrections, delete_cards)  # fix using the fixfiles
+            mtgs, manual_sets[setinfo['setname']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(
             mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize'], setinfo)  # get images
         if presets['scryfallComparison']:
