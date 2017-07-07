@@ -5,7 +5,7 @@ import time
 
 def get_scryfall(setUrl):
     #getUrl = 'https://api.scryfall.com/cards/search?q=++e:'
-    #setUrl = getUrl + setname.lower()
+    #setUrl = getUrl + code.lower()
     setDone = False
     scryfall = []
 

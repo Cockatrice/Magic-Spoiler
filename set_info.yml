@@ -2,21 +2,21 @@
 #
 # required keys
 #
-# setname: FSN
-# setlongname: "Full Set Name"
-# setsize: 274
-# setreleasedate: "2050-02-28"
-# settype: expansion
+# code: FSN
+# name: "Full Set Name"
+# size: 274
+# releaseDate: "2050-02-28"
+# type: expansion
 #
 # optional keys
 #
-# blockname: "Block Name"
+# block: "Block Name"
 # mtgsurl: "http://url_to_mtgsalvation.com/spoilers/page
 # mtgscardpath "http://url_to_mtgsalvation.com/cards/setpage/"
 # fullSpoil: false
 # masterpieces:
 #
-# Masterpieces contain setname, setlongname, setreleasedate as above
+# Masterpieces contain code, name, releaseDate as above
 # and requires mtgsurl and mtgscardpath
 # also can contain
 #
@@ -24,37 +24,37 @@
 #
 
 ---
-setname: "HOU"
-setlongname: "Hour of Devastation"
-blockname: "Amonkhet"
-setsize: 199
-setreleasedate: "2017-07-14"
-settype: "expansion"
+code: "HOU"
+name: "Hour of Devastation"
+block: "Amonkhet"
+size: 199
+releaseDate: "2017-07-14"
+type: "expansion"
 mtgsurl: "http://www.mtgsalvation.com/spoilers/183-hour-of-devastation"
 mtgscardpath: "http://www.mtgsalvation.com/cards/hour-of-devastation/"
 fullSpoil: false
 masterpieces:
-  setname: "MPS_AKH"
-  setlongname: "Masterpiece Series: Amonkhet Invocations"
-  setreleasedate: "2017-04-28"
+  code: "MPS_AKH"
+  name: "Masterpiece Series: Amonkhet Invocations"
+  releaseDate: "2017-04-28"
   alternativeNames: ["Amonkhet Invocations"]
   galleryURL: "http://magic.wizards.com/en/articles/archive/feature/masterpiece-series-hour-devastation-invocations-2017-06-19"
   additionalCardNames: []
   mtgsurl: "http://www.mtgsalvation.com/spoilers/181-amonkhet-invocations"
   mtgscardpath: "http://www.mtgsalvation.com/cards/amonkhet-invocations/"
 ---
-setname: "XLN"
-setlongname: "Ixalan"
-blockname: "Ixalan"
-setsize: 279
-setreleasedate: "2017-09-29"
-settype: "expansion"
+code: "XLN"
+name: "Ixalan"
+block: "Ixalan"
+size: 279
+releaseDate: "2017-09-29"
+type: "expansion"
 noRSS: true
 ---
-setname: "C17"
-setlongname: "Commander 2017"
-setsize: 309
-setreleasedate: "2017-09-29"
-settype: "commander"
+code: "C17"
+name: "Commander 2017"
+size: 309
+releaseDate: "2017-09-29"
+type: "commander"
 noRSS: true
 noBooster: true

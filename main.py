@@ -58,7 +58,7 @@ def save_allsets(AllSets):
 
 
 def save_masterpieces(masterpieces, setinfo):
-    with open('out/' + setinfo['masterpieces']['setname'] + '.json', 'w') as outfile:
+    with open('out/' + setinfo['masterpieces']['code'] + '.json', 'w') as outfile:
         json.dump(masterpieces, outfile, sort_keys=True,
                   indent=2, separators=(',', ': '))
 
@@ -90,8 +90,8 @@ if __name__ == '__main__':
     AllSets = spoilers.get_allsets()  # get AllSets from mtgjson
     combinedjson = {}
     for setinfo in setinfos:
-        if setinfo['setname'] in AllSets:
-            print "Found set from set_info.yml " +setinfo['setname']+ " in MTGJSON, not adding it"
+        if setinfo['code'] in AllSets:
+            print "Found set from set_info.yml " +setinfo['code']+ " in MTGJSON, not adding it"
             continue
         if presets['oldRSS'] or 'noRSS' in setinfo and setinfo['noRSS']:
             mtgs = {"cards": []}
@@ -101,12 +101,12 @@ if __name__ == '__main__':
             [mtgs, split_cards] = mtgs_scraper.parse_mtgs(
                 mtgs, [], [], [], presets['split_cards'])  # parse spoilers into mtgjson format
         mtgs = spoilers.correct_cards(
-            mtgs, manual_sets[setinfo['setname']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
+            mtgs, manual_sets[setinfo['code']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(
-            mtgs, presets['isfullspoil'], setinfo['setname'], setinfo['setlongname'], setinfo['setsize'], setinfo)  # get images
+            mtgs, presets['isfullspoil'], setinfo['code'], setinfo['name'], setinfo['size'], setinfo)  # get images
         if presets['scryfallComparison']:
             scryfall = scryfall_scraper.get_scryfall(
-                'https://api.scryfall.com/cards/search?q=++e:' + setinfo['setname'].lower())
+                'https://api.scryfall.com/cards/search?q=++e:' + setinfo['code'].lower())
             mtgjson = scryfall_scraper.smash_mtgs_scryfall(mtgs, scryfall)
         if 'fullSpoil' in setinfo and setinfo['fullSpoil']:
             wotc = wizards_scraper.scrape_fullspoil('', setinfo)
@@ -115,10 +115,10 @@ if __name__ == '__main__':
             mtgjson, card_corrections)  # check for errors where possible
         errorlog += errors
         spoilers.write_xml(
-            mtgjson, setinfo['setname'], setinfo['setlongname'], setinfo['setreleasedate'])
-        #save_xml(spoilers.pretty_xml(setinfo['setname']), 'out/spoiler.xml')
+            mtgjson, setinfo['code'], setinfo['name'], setinfo['releaseDate'])
+        #save_xml(spoilers.pretty_xml(setinfo['code']), 'out/spoiler.xml')
         mtgjson = spoilers.add_headers(mtgjson, setinfo)
-        AllSets = spoilers.make_allsets(AllSets, mtgjson, setinfo['setname'])
+        AllSets = spoilers.make_allsets(AllSets, mtgjson, setinfo['code'])
         if 'masterpieces' in setinfo:  # repeat all of the above for masterpieces
             # masterpieces aren't in the rss feed, so for the new cards, we'll go to their individual pages on mtgs
             # old cards will get their infos copied from mtgjson (including fields that may not apply like 'artist')
@@ -127,14 +127,14 @@ if __name__ == '__main__':
                 setinfo['masterpieces'], AllSets, mtgjson)
             [masterpieces, errors] = spoilers.error_check(masterpieces)
             errorlog += errors
-            spoilers.write_xml(masterpieces, setinfo['masterpieces']['setname'],
-                               setinfo['masterpieces']['setlongname'], setinfo['masterpieces']['setreleasedate'])
+            spoilers.write_xml(masterpieces, setinfo['masterpieces']['code'],
+                               setinfo['masterpieces']['name'], setinfo['masterpieces']['releaseDate'])
             AllSets = spoilers.make_allsets(
-                AllSets, masterpieces, setinfo['masterpieces']['setname'])
+                AllSets, masterpieces, setinfo['masterpieces']['code'])
             save_masterpieces(masterpieces, setinfo)
-            combinedjson[setinfo['masterpieces']['setname']] = masterpieces
-        save_setjson(mtgjson, setinfo['setname'])
-        combinedjson[setinfo['setname']] = mtgjson
+            combinedjson[setinfo['masterpieces']['code']] = masterpieces
+        save_setjson(mtgjson, setinfo['code'])
+        combinedjson[setinfo['code']] = mtgjson
     save_setjson(combinedjson, 'spoiler')
     spoilers.write_combined_xml(combinedjson, setinfos)
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
