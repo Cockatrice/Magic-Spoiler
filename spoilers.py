@@ -340,7 +340,7 @@ def get_image_urls(mtgjson, isfullspoil, code, name, size=269, setinfo=False):
     return mtgjson
 
 
-def write_xml(mtgjson, code, name, releaseDate, split_cards=[]):
+def write_xml(mtgjson, code, name, releaseDate):
     if not os.path.isdir('out/'):
         os.makedirs('out/')
     cardsxml = open('out/' + code + '.xml', 'w+')
@@ -366,8 +366,8 @@ def write_xml(mtgjson, code, name, releaseDate, split_cards=[]):
                    "<cards>\n")
     # print mtgjson
     for card in mtgjson["cards"]:
-        for carda in split_cards:
-            if card["name"] == split_cards[carda]:
+        if 'names' in card:
+            if card["name"] == card['names'][1]:
                 continue
         if count == 0:
             newest = card["name"]
