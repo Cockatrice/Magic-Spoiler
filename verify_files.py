@@ -1,29 +1,24 @@
-import commentjson
+import yaml
 import sys
 
-try:
-    with open('set_info') as data_file:
-        setinfos = commentjson.load(data_file)
-except Exception as ex:
-    print "Unable to load file: set_info\nException information:\n" + str(ex.args)
-    sys.exit("Unable to load file: set_info")
-try:
-    with open('cards_manual') as data_file:
-        manual_sets = commentjson.load(data_file)
-except Exception as ex:
-    print "Unable to load file: cards_manual\nException information:\n" + str(ex.args)
-    sys.exit("Unable to load file: cards_manual")
-try:
-    with open('cards_corrections') as data_file:
-        card_corrections = commentjson.load(data_file)
-except Exception as ex:
-    print "Unable to load file: cards_corrections\nException information:\n" + str(ex.args)
-    sys.exit("Unable to load file: cards_corrections")
-try:
-    with open('cards_delete') as data_file:
-        delete_cards = commentjson.load(data_file)
-except Exception as ex:
-    print "Unable to load file: cards_delete\nException information:\n" + str(ex.args)
-    sys.exit("Unable to load file: cards_delete")
+def load_file(input_file, lib_to_use):
+    try:
+        with open(input_file) as data_file:
+            if lib_to_use == 'yaml':
+                output_file = yaml.safe_load(data_file)
+            elif lib_to_use == 'yaml_multi':
+                output_file = []
+                for doc in yaml.safe_load_all(data_file):
+                    output_file.append(doc)
+            return output_file
+    except Exception as ex:
+        print "Unable to load file: " + input_file + "\nException information:\n" + str(ex.args)
+        sys.exit("Unable to load file: " + input_file)
 
-print "Pre-flight: All input files loaded successfully."
+if __name__ == '__main__':
+    setinfos = load_file('set_info.yml','yaml_multi')
+    manual_sets = load_file('cards_manual.yml','yaml')
+    card_corrections = load_file('cards_corrections.yml','yaml')
+    delete_cards = load_file('cards_delete.yml','yaml')
+
+    print "Pre-flight: All input files loaded successfully."

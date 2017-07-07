@@ -1,0 +1,91 @@
+# Objects to be fixed
+#
+# Format is
+#
+# Card Name:
+#   field to fix: new value
+#
+# Ex:
+#
+# Jace, the Planeswalker:
+#   loyalty: 5
+#   manaCost: 1UUB
+#
+# Fields and their values
+# name: Card Name
+# cmc: 4
+# colorIdentity:
+#   - U
+#   - B
+# colors:
+#   - Blue
+#   - Black
+# manaCost: 1UUB
+# number: 140
+# rarity: Mythic Rare
+# power: X
+# text: "{5}, {T}: You win the game."
+# toughness: *
+# type: Legendary Artifact Creature - Human Monk
+# url: http://wizards.c0m/link/to/card.png
+#
+# Indentation is critical, two spaces per indentation
+
+
+Angel of the God-Pharoh:
+  name: Angel of the God-Pharaoh
+Blood Moon:
+  number: 46
+Damnation:
+  colorIdentity:
+    - B
+Doomsday:
+  number: 42
+Shatterstorm:
+  number: 48
+Crook of Comdemnation:
+  name: Crook of Condemnation
+Nissa, Genesis Mage:
+  loyalty: 5
+Hollow One:
+  power: 4
+  toughness: 4
+Maurauding Boneslasher:
+  name: Marauding Boneslasher
+Graven Abomination:
+  power: 3
+  toughness: 1
+Wall of Forgotten Pharaohs:
+  power: 0
+  toughness: 4
+The Scarab God:
+  url: http://media.wizards.com/2017/hou/en_oCj378nHkJ.png
+The Scorpion God:
+  url: http://media.wizards.com/2017/hou/en_q742Vz27AN.png
+  text: "Whenever a creature with a -1/-1 counter on it dies, draw a card.\n\n{1}{B}{R}: Put a -1/-1 counter on another target creature.\n\nWhen The Scorpion God dies, return it to its owner's hand at the beginning of the next end step."
+Banewhip Punisher:
+  text: "When Banewhip Punisher enters the battlefield, you may put a -1/-1 counter on target creature.\n{B}, Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it."
+Ifnir Deadlands:
+  text: "{T}: Add {C} to your mana pool.\n{T}, Pay 1 life: Add {B} to your mana pool.\n{2}{B}{B}, {T}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery."
+Ipnu Rivulet:
+  text: "{T}: Add {C} to your mana pool.\n{T}, Pay 1 life: Add {U} to your mana pool.\n{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard."
+Ramunap Ruins:
+  text: "{T}: Add {C} to your mana pool.\n{T}, Pay 1 life: Add {R} to your mana pool.\n{2}{R}{R}, {T}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent."
+Scavenger Grounds:
+  text: "{T}: Add {C} to your mana pool.\n{2}, {T}, Sacrifice a Desert: Exile all cards from all graveyards."
+Shefet Dunes:
+  text: "{T}: Add {C} to your mana pool.\n{T}, Pay 1 life: Add {W} to your mana pool.\n{2}{W}{W}, {T}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery."
+Unconventional Tactics:
+  text: Target creature gets +3/+3 and gains flying until end of turn.\nWhenever a Zombie enters the battlefield under your control, you may pay {W}. If you do, return Unconventional Tactics from your graveyard to your hand.
+Unraveling Mummy:
+  text: "{1}{W}: Target attacking Zombie gains lifelink until end of turn.\n\n{1}{B}: Target attacking Zombie gains deathtouch until end of turn."
+Feral Prowler:
+  type: Creature - Cat
+  types:
+    - Creature
+Visage of Bolas:
+  text: "When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand.  If you search your library this way, shuffle it.\n{T}: Add {U}, {B}, or {R} to your mana pool."
+Cinder Barrens:
+  text: "Cinder Barrens enters the battlefield tapped.\n{T}: Add {B} or {R} to your mana pool."
+Sifter Wurm:
+  rarity: Uncommon

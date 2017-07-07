@@ -1,0 +1,60 @@
+# Each new set should be separated by three dashes "---"
+#
+# required keys
+#
+# code: FSN
+# name: "Full Set Name"
+# size: 274
+# releaseDate: "2050-02-28"
+# type: expansion
+#
+# optional keys
+#
+# block: "Block Name"
+# mtgsurl: "http://url_to_mtgsalvation.com/spoilers/page
+# mtgscardpath "http://url_to_mtgsalvation.com/cards/setpage/"
+# fullSpoil: false
+# masterpieces:
+#
+# Masterpieces contain code, name, releaseDate as above
+# and requires mtgsurl and mtgscardpath
+# also can contain
+#
+# alternativeNames: ["Same as set long name, but minus 'Masterpiece Series:'"]
+#
+
+---
+code: "HOU"
+name: "Hour of Devastation"
+block: "Amonkhet"
+size: 199
+releaseDate: "2017-07-14"
+type: "expansion"
+mtgsurl: "http://www.mtgsalvation.com/spoilers/183-hour-of-devastation"
+mtgscardpath: "http://www.mtgsalvation.com/cards/hour-of-devastation/"
+fullSpoil: false
+masterpieces:
+  code: "MPS_AKH"
+  name: "Masterpiece Series: Amonkhet Invocations"
+  releaseDate: "2017-04-28"
+  alternativeNames: ["Amonkhet Invocations"]
+  galleryURL: "http://magic.wizards.com/en/articles/archive/feature/masterpiece-series-hour-devastation-invocations-2017-06-19"
+  additionalCardNames: []
+  mtgsurl: "http://www.mtgsalvation.com/spoilers/181-amonkhet-invocations"
+  mtgscardpath: "http://www.mtgsalvation.com/cards/amonkhet-invocations/"
+---
+code: "XLN"
+name: "Ixalan"
+block: "Ixalan"
+size: 279
+releaseDate: "2017-09-29"
+type: "expansion"
+noRSS: true
+---
+code: "C17"
+name: "Commander 2017"
+size: 309
+releaseDate: "2017-09-29"
+type: "commander"
+noRSS: true
+noBooster: true
