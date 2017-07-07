@@ -2,7 +2,7 @@
 
 set -e
 
-echo `${TRAVIS_COMMIT}`
+echo "${TRAVIS_COMMIT}"
 CHANGED_FILES=`git diff --name-only master...${TRAVIS_COMMIT}`
 ONLY_READMES=True
 MD=".md"
