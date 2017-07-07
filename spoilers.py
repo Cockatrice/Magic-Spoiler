@@ -219,6 +219,11 @@ def error_check(mtgjson, card_corrections={}):
             errors.append({"name": card['name'], "key": "number", "value": ""})
         if not 'types' in card:
             errors.append({"name": card['name'], "key": "types", "value": ""})
+        else:
+            for type in card['types']:
+                if type not in ['Creature', 'Artifact', 'Conspiracy', 'Enchantment', 'Instant', 'Land', 'Phenomenon', 'Plane', 'Planeswalker', 'Scheme',
+                                'Sorcery', 'Tribal', 'Vanguard']:
+                    errors.append({"name": card['name'], "key": "types", "value":card['types']})
 
     # we're going to loop through again and make sure split cards get paired
     for card in mtgjson['cards']:
