@@ -478,8 +478,8 @@ def write_combined_xml(mtgjson, setinfos):
     cardsxml.truncate()
     cardsxml.write("<?xml version='1.0' encoding='UTF-8'?>\n"
                    "<cockatrice_carddatabase version='3'>\n")
-    cardsxml.write("<!--\n    created (UTC): " + datetime.datetime.utcnow().strftime("%a %b %d %H:%M:%S %Z %Y")
-                   + "\n    by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler\n    -->\n")
+    cardsxml.write("<!--\n        created (UTC): " + datetime.datetime.utcnow().strftime("%a %b %d %H:%M:%S %Z %Y")
+                   + "\n        by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler\n        -->\n")
     cardsxml.write("<sets>\n")
     for setcode in mtgjson:
         setobj = mtgjson[setcode]
