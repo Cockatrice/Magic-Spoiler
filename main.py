@@ -160,8 +160,10 @@ if __name__ == '__main__':
             AllSets = spoilers.make_allsets(
                 AllSets, masterpieces, setinfo['masterpieces']['code'])
             save_masterpieces(masterpieces, setinfo)
+            save_xml(spoilers.pretty_xml('out/' + setinfo['masterpieces']['code'] + '.xml'), 'out/' + setinfo['masterpieces']['code'] + '.xml')
             combinedjson[setinfo['masterpieces']['code']] = masterpieces
         save_setjson(mtgjson, setinfo['code'])
+        save_xml(spoilers.pretty_xml('out/' + setinfo['code'] + '.xml'), 'out/' + setinfo['code'] + '.xml')
         combinedjson[setinfo['code']] = mtgjson
     save_setjson(combinedjson, 'spoiler')
     spoilers.write_combined_xml(combinedjson, setinfos)
