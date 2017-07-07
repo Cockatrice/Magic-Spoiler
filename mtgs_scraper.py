@@ -214,6 +214,8 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
             cardjson['subtypes'] = subtypes
         cardjson["rarity"] = card['rarity']
         cardjson["text"] = card['rules']
+        if ')' in card['rules']:
+            print card['rules']
         cardjson["type"] = card['type']
 
         workingtypes = card['type']
