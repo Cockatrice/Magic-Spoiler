@@ -9,6 +9,8 @@ import json
 import io
 import sys
 import verify_files
+import requests
+from lxml import etree
 
 presets = {
     "isfullspoil": False,  # when full spoil comes around, we only want to use WOTC images
@@ -85,6 +87,32 @@ def save_xml(xmlstring, outfile):
         xmlfile.write(xmlstring.encode('utf-8'))
 
 
+def verify_xml(file, schema):
+    try:
+        schema_doc = etree.fromstring(schema)
+    except Exception as e:
+        print "XSD for " + file + " is invalid"
+        print schema
+        print e
+        return False
+    xml_schema = etree.XMLSchema(schema_doc)
+    try:
+        xml_doc = etree.parse(file)
+    except Exception as e:
+        print "XML file " + file + " is invalid"
+        print e
+        return False
+    try:
+        xml_schema.assert_(xml_doc)
+    except:
+        xsd_errors = xml_schema.error_log
+        print "Errors validating XML file " + file + " against XSD:"
+        for error in xsd_errors:
+            print error
+        return False
+    return True
+
+
 if __name__ == '__main__':
     parseargs()
     AllSets = spoilers.get_allsets()  # get AllSets from mtgjson
@@ -138,6 +166,11 @@ if __name__ == '__main__':
     save_setjson(combinedjson, 'spoiler')
     spoilers.write_combined_xml(combinedjson, setinfos)
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
+    cockatrice_xsd = requests.get('https://raw.githubusercontent.com/Cockatrice/Cockatrice/master/doc/cards.xsd').text
+    if verify_xml('out/spoiler.xml', cockatrice_xsd):  # check if our XML passes Cockatrice's XSD
+        print 'spoiler.xml passes Cockatrice XSD verification'
+    else:
+        print 'spoiler.xml fails Cockatrice XSD verification'
     errorlog = spoilers.remove_corrected_errors(errorlog, card_corrections)
     save_errorlog(errorlog)
     save_allsets(AllSets)

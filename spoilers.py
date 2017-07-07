@@ -578,9 +578,6 @@ def write_combined_xml(mtgjson, setinfos):
             cardsxml.write("<name>" + name.encode('utf-8') + "</name>\n")
             cardsxml.write(
                 '<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + setcode + '</set>\n')
-            cardsxml.write(
-                "<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
-            cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
             if card.has_key('colors'):
                 colorTranslate = {
                     "White": "W",
@@ -592,22 +589,24 @@ def write_combined_xml(mtgjson, setinfos):
                 for color in card['colors']:
                     cardsxml.write(
                         '<color>' + colorTranslate[color] + '</color>\n')
-            if name + ' enters the battlefield tapped' in text:
-                cardsxml.write("<cipt>1</cipt>\n")
-            cardsxml.write("<type>" + cardtype.encode('utf-8') + "</type>\n")
-            if pt:
-                cardsxml.write("<pt>" + pt + "</pt>\n")
-            if card.has_key('loyalty'):
-                cardsxml.write(
-                    "<loyalty>" + str(card['loyalty']) + "</loyalty>\n")
-            cardsxml.write("<tablerow>" + tablerow + "</tablerow>\n")
-            cardsxml.write("<text>" + text.encode('utf-8') + "</text>\n")
             if related:
                 #    for relatedname in related:
                 cardsxml.write(
                     "<related>" + related.encode('utf-8') + "</related>\n")
                 related = ''
-
+            cardsxml.write(
+                "<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
+            cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
+            cardsxml.write("<type>" + cardtype.encode('utf-8') + "</type>\n")
+            if pt:
+                cardsxml.write("<pt>" + pt + "</pt>\n")
+            cardsxml.write("<tablerow>" + tablerow + "</tablerow>\n")
+            cardsxml.write("<text>" + text.encode('utf-8') + "</text>\n")
+            if name + ' enters the battlefield tapped' in text:
+                cardsxml.write("<cipt>1</cipt>\n")
+            if card.has_key('loyalty'):
+                cardsxml.write(
+                    "<loyalty>" + str(card['loyalty']) + "</loyalty>\n")
             cardsxml.write("</card>\n")
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
