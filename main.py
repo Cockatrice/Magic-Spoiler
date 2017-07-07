@@ -124,7 +124,7 @@ if __name__ == '__main__':
         else:
             mtgs = mtgs_scraper.scrape_mtgs(
                 'http://www.mtgsalvation.com/spoilers.rss')  # scrape mtgs rss feed
-            mtgs = mtgs_scraper.parse_mtgs(mtgs)  # parse spoilers into mtgjson format
+            mtgs = mtgs_scraper.parse_mtgs(mtgs, setinfo=setinfo)  # parse spoilers into mtgjson format
         mtgs = spoilers.correct_cards(
             mtgs, manual_sets[setinfo['code']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(

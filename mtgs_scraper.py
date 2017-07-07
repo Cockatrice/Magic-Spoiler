@@ -11,7 +11,7 @@ def scrape_mtgs(url):
     return requests.get(url, headers={'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT'}).text
 
 
-def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], related_cards=[]):
+def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], related_cards=[], setinfo={"mtgsurl": ""}):
     mtgs = mtgs.replace('utf-16', 'utf-8')
     patterns = ['<b>Name:</b> <b>(?P<name>.*?)<',
                 'Cost: (?P<cost>[X]*\d{0,2}[XWUBRGC]*?)<',
@@ -34,6 +34,12 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], rela
                 dg = match.groupdict()
                 card[dg.items()[0][0]] = dg.items()[0][1]
         cards.append(card)
+
+    gallery_list = list_mtgs_gallery(setinfo['mtgsurl'])
+    for card in cards:
+        if card['name'] not in gallery_list:
+            print "Removing card scraped from MTGS RSS but not in their gallery: " + card['name']
+            cards.remove(card)
 
     # if we didn't find any cards, let's bail out to prevent overwriting good data
     count = 0
@@ -254,4 +260,14 @@ def scrape_mtgs_images(url='http://www.mtgsalvation.com/spoilers/183-hour-of-dev
             "url": cardurl
         }
         time.sleep(.2)
+    return cards
+
+
+def list_mtgs_gallery(url=''):
+    page = requests.get(url)
+    tree = html.fromstring(page.content)
+    cards = []
+    cardstree = tree.xpath('//*[contains(@class, "log-card")]')
+    for child in cardstree:
+        cards.append(child.text)
     return cards
