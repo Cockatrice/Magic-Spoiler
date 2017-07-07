@@ -11,7 +11,7 @@ def scrape_mtgs(url):
     return requests.get(url, headers={'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT'}).text
 
 
-def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], split_cards={}, related_cards=[], setinfo={"mtgsurl": ""}):
+def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], related_cards=[], setinfo={"mtgsurl": ""}):
     mtgs = mtgs.replace('utf-16', 'utf-8')
     patterns = ['<b>Name:</b> <b>(?P<name>.*?)<',
                 'Cost: (?P<cost>[X]*\d{0,2}[XWUBRGC]*?)<',
@@ -77,10 +77,10 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
                 card2['setnumber'] = card['setnumber'] + 'b'
             if 'rarity' in card:
                 card2['rarity'] = card['rarity']
-            if not card1['name'] in split_cards:
-                split_cards[card1['name']] = card2['name']
             card1['layout'] = 'aftermath'
             card2['layout'] = 'aftermath'
+            card1['names'] = [card1['name'], card2['name']]
+            card2['names'] = [card1['name'], card2['name']]
             cards2.append(card1)
             cards2.append(card2)
         else:
@@ -173,21 +173,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
                     cardnames.append(card['name'])
                     cardnumber += 'b'
         cardnames = []
-        if card['name'] in split_cards:
-            cardnames.append(card['name'])
-            cardnames.append(split_cards[card['name']])
-            cardnumber = cardnumber.replace('b', '').replace('a', '') + 'a'
-            if not 'layout' in card:
-                card['layout'] = 'split'
-        for namematch in split_cards:
-            if card['name'] == split_cards[namematch]:
-                if not 'layout' in card or ('layout' in card and card['layout'] == ''):
-                    card['layout'] = 'split'
-                cardnames.append(namematch)
-                if not card['name'] in cardnames:
-                    cardnames.append(card['name'])
-                    cardnumber = cardnumber.replace(
-                        'b', '').replace('a', '') + 'b'
+
         if 'number' in card:
             if 'b' in card['number'] or 'a' in card['number']:
                 if not 'layout' in card:
@@ -237,6 +223,8 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
             cardjson["colors"] = card['colorArray']
         if len(cardnames) > 1:
             cardjson["names"] = cardnames
+        if 'names' in card:
+            cardjson['names'] = card['names']
         if cardpower or cardpower == '0':
             cardjson["power"] = cardpower
             cardjson["toughness"] = cardtoughness
@@ -247,7 +235,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], spli
 
         cardarray.append(cardjson)
 
-    return [{"cards": cardarray}, split_cards]
+    return {"cards": cardarray}
 
 
 def scrape_mtgs_images(url='http://www.mtgsalvation.com/spoilers/183-hour-of-devastation', mtgscardurl='http://www.mtgsalvation.com/cards/hour-of-devastation/', exemptlist=[]):

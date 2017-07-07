@@ -93,7 +93,19 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
 
     mtgjson = {"cards": mtgjson2}
 
+    for card in mtgjson['cards']:
+        if '{' in card['text']:
+            card['text'] = re.sub(r'{(.*?)}', replace_costs, card['text'])
     return mtgjson
+
+
+def replace_costs(match):
+    full_cost = match.group(1)
+    individual_costs = []
+    if len(full_cost) > 0:
+        for x in range(0, len(full_cost)):
+            individual_costs.append('{' + str(full_cost[x]).upper() + '}')
+    return ''.join(individual_costs)
 
 
 def error_check(mtgjson, card_corrections={}):
@@ -207,6 +219,11 @@ def error_check(mtgjson, card_corrections={}):
             errors.append({"name": card['name'], "key": "number", "value": ""})
         if not 'types' in card:
             errors.append({"name": card['name'], "key": "types", "value": ""})
+        else:
+            for type in card['types']:
+                if type not in ['Creature', 'Artifact', 'Conspiracy', 'Enchantment', 'Instant', 'Land', 'Phenomenon', 'Plane', 'Planeswalker', 'Scheme',
+                                'Sorcery', 'Tribal', 'Vanguard']:
+                    errors.append({"name": card['name'], "key": "types", "value":card['types']})
 
     # we're going to loop through again and make sure split cards get paired
     for card in mtgjson['cards']:
@@ -340,7 +357,7 @@ def get_image_urls(mtgjson, isfullspoil, code, name, size=269, setinfo=False):
     return mtgjson
 
 
-def write_xml(mtgjson, code, name, releaseDate, split_cards=[]):
+def write_xml(mtgjson, code, name, releaseDate):
     if not os.path.isdir('out/'):
         os.makedirs('out/')
     cardsxml = open('out/' + code + '.xml', 'w+')
@@ -366,8 +383,8 @@ def write_xml(mtgjson, code, name, releaseDate, split_cards=[]):
                    "<cards>\n")
     # print mtgjson
     for card in mtgjson["cards"]:
-        for carda in split_cards:
-            if card["name"] == split_cards[carda]:
+        if 'names' in card:
+            if card["name"] == card['names'][1]:
                 continue
         if count == 0:
             newest = card["name"]

@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 
-def scrape_fullspoil(url="http://magic.wizards.com/en/articles/archive/card-image-gallery/hour-devastation", setinfo={"code": "HOU"}, showRarityColors=False, showFrameColors=False, manual_cards=[], delete_cards=[], split_cards=[]):
+def scrape_fullspoil(url="http://magic.wizards.com/en/articles/archive/card-image-gallery/hour-devastation", setinfo={"code": "HOU"}, showRarityColors=False, showFrameColors=False, manual_cards=[], delete_cards=[]):
     if 'name' in setinfo:
         url = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + setinfo['name'].lower().replace('of', '').replace(
             '  ', ' ').replace(' ', '-')
@@ -48,7 +48,7 @@ def scrape_fullspoil(url="http://magic.wizards.com/en/articles/archive/card-imag
     return fullspoil
 
 
-def get_rarities_by_symbol(fullspoil, setcode, split_cards=[]):
+def get_rarities_by_symbol(fullspoil, setcode):
     symbolPixels = (240, 219, 242, 221)
     highVariance = 15
     colorAverages = {
@@ -100,7 +100,7 @@ def get_rarities_by_symbol(fullspoil, setcode, split_cards=[]):
     return fullspoil
 
 
-def get_colors_by_frame(fullspoil, setcode, split_cards={}):
+def get_colors_by_frame(fullspoil, setcode):
     framePixels = (20, 11, 76, 16)
     highVariance = 10
     colorAverages = {
@@ -145,7 +145,7 @@ def get_colors_by_frame(fullspoil, setcode, split_cards={}):
     return fullspoil
 
 
-def get_mana_symbols(fullspoil={}, setcode="HOU", split_cards=[]):
+def get_mana_symbols(fullspoil={}, setcode="HOU"):
     manaBoxes = [(234, 23, 244, 33), (220, 23, 230, 33),
                  (206, 23, 216, 33), (192, 23, 202, 33), (178, 23, 188, 33)]
     highVariance = 0

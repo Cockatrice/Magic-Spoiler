@@ -16,8 +16,6 @@ presets = {
     "isfullspoil": False,  # when full spoil comes around, we only want to use WOTC images
     "includeMasterpieces": True,  # if the set has masterpieces, let's get those too
     "oldRSS": False,  # maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
-    "split_cards": {
-    },
     # if we want to use one site before another for card data TODO
     "siteorder": ['scryfall', 'mtgs', 'mythicspoiler'],
     # prioritize images from certain sources
@@ -126,8 +124,7 @@ if __name__ == '__main__':
         else:
             mtgs = mtgs_scraper.scrape_mtgs(
                 'http://www.mtgsalvation.com/spoilers.rss')  # scrape mtgs rss feed
-            [mtgs, split_cards] = mtgs_scraper.parse_mtgs(
-                mtgs, [], [], [], presets['split_cards'], setinfo=setinfo)  # parse spoilers into mtgjson format
+            mtgs = mtgs_scraper.parse_mtgs(mtgs, setinfo=setinfo)  # parse spoilers into mtgjson format
         mtgs = spoilers.correct_cards(
             mtgs, manual_sets[setinfo['code']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(
@@ -160,8 +157,10 @@ if __name__ == '__main__':
             AllSets = spoilers.make_allsets(
                 AllSets, masterpieces, setinfo['masterpieces']['code'])
             save_masterpieces(masterpieces, setinfo)
+            save_xml(spoilers.pretty_xml('out/' + setinfo['masterpieces']['code'] + '.xml'), 'out/' + setinfo['masterpieces']['code'] + '.xml')
             combinedjson[setinfo['masterpieces']['code']] = masterpieces
         save_setjson(mtgjson, setinfo['code'])
+        save_xml(spoilers.pretty_xml('out/' + setinfo['code'] + '.xml'), 'out/' + setinfo['code'] + '.xml')
         combinedjson[setinfo['code']] = mtgjson
     save_setjson(combinedjson, 'spoiler')
     spoilers.write_combined_xml(combinedjson, setinfos)
