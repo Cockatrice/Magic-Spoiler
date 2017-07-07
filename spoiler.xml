@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-    created (UTC): Fri Jul 07 02:37:18  2017
+    created (UTC): Fri Jul 07 02:38:20  2017
     by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     -->	
 	<sets>		
@@ -33,9 +33,9 @@
 		<card>			
 			<name>Haven Raptor</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/havenraptor.jpg" rarity="Rare">XLN</set>			
+			<color>G</color>			
 			<manacost>2GG</manacost>			
 			<cmc>4</cmc>			
-			<color>G</color>			
 			<type>Creature - Dinosaur</type>			
 			<pt>4/5</pt>			
 			<tablerow>2</tablerow>			
@@ -54,9 +54,9 @@
 		<card>			
 			<name>Ogre Hand Ravager</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/ogrehandravager.jpg" rarity="Rare">XLN</set>			
+			<color>B</color>			
 			<manacost>3BB</manacost>			
 			<cmc>5</cmc>			
-			<color>B</color>			
 			<type>Creature - Orc Pirate Wizard</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
@@ -65,9 +65,9 @@
 		<card>			
 			<name>Bishop of Rebirth</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/bishopofrebirth.jpg" rarity="Rare">XLN</set>			
+			<color>W</color>			
 			<manacost>3WW</manacost>			
 			<cmc>5</cmc>			
-			<color>W</color>			
 			<type>Creature - Vampire Cleric</type>			
 			<pt>3/4</pt>			
 			<tablerow>2</tablerow>			
@@ -76,9 +76,9 @@
 		<card>			
 			<name>Ashes of the Abhorrent</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/ashesoftheabhorrent.jpg" rarity="Rare">XLN</set>			
+			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
-			<color>W</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Players can't cast spells from graveyards or active abilities of cards in graveyards.\nWhenever a creature dies, you gain 1 life.</text>			
@@ -86,9 +86,9 @@
 		<card>			
 			<name>Deeproot Champion</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/deeprootchampion.jpg" rarity="Rare">XLN</set>			
+			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
-			<color>G</color>			
 			<type>Creature - Merfolk Champion</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
@@ -97,9 +97,9 @@
 		<card>			
 			<name>Dreamcaller Siren</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/dreamcallersiren.jpg" rarity="Rare">XLN</set>			
+			<color>U</color>			
 			<manacost>3UU</manacost>			
 			<cmc>5</cmc>			
-			<color>U</color>			
 			<type>Creature - Siren Pirate</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -108,9 +108,9 @@
 		<card>			
 			<name>Goring Ceratops</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/goringceratops.jpg" rarity="Rare">XLN</set>			
+			<color>W</color>			
 			<manacost>5WW</manacost>			
 			<cmc>7</cmc>			
-			<color>W</color>			
 			<type>Creature - Dinosaur</type>			
 			<pt>?/?</pt>			
 			<tablerow>2</tablerow>			
@@ -119,10 +119,10 @@
 		<card>			
 			<name>Hostage Taker</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/hostagetaker.jpg" rarity="Rare">XLN</set>			
-			<manacost>2UB</manacost>			
-			<cmc>4</cmc>			
 			<color>U</color>			
 			<color>B</color>			
+			<manacost>2UB</manacost>			
+			<cmc>4</cmc>			
 			<type>Creature - Human Pirate</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
@@ -131,9 +131,9 @@
 		<card>			
 			<name>Emperor's Vnguard</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/emperorsvanguard.jpg" rarity="Rare">XLN</set>			
+			<color>G</color>			
 			<manacost>5G</manacost>			
 			<cmc>6</cmc>			
-			<color>G</color>			
 			<type>Creature - Unknown</type>			
 			<pt>4/3</pt>			
 			<tablerow>2</tablerow>			
@@ -144,29 +144,29 @@
 			<set picURL="http://mythicspoiler.com/ixa/cards/drownedcatacomb.jpg" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>Drowned Catacomb enters the battlefield tapped unless you control an Island or Swamp.
 {T}: Add {U} or {B} to your mana pool.</text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Dragonskull Summit</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/dragonskullsummit.jpg" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>Dragonskull Summit enters the battlefield tapped unless you control a Swamp or Mountain.
 {T}: Add {B} or {R} to your mana pool.</text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Ruin Raider</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/ruinraider.jpg" rarity="Rare">XLN</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Creature - Orc Pirate</type>			
 			<pt>?/?</pt>			
 			<tablerow>2</tablerow>			
@@ -175,9 +175,9 @@
 		<card>			
 			<name>Vraska's Contempt</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/vraskascontempt.jpg" rarity="Rare">XLN</set>			
+			<color>B</color>			
 			<manacost>2BB</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Exile target creature or planeswalker. You gain 2 life.</text>			
@@ -185,9 +185,9 @@
 		<card>			
 			<name>Rowdy Crew</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/rowdycrew.jpg" rarity="Mythic Rare">XLN</set>			
+			<color>R</color>			
 			<manacost>3RR</manacost>			
 			<cmc>5</cmc>			
-			<color>R</color>			
 			<type>Creature - Goblin Pirate</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -196,9 +196,9 @@
 		<card>			
 			<name>Bloodstained Paladin</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/bloodstainedpaladin.jpg" rarity="Rare">XLN</set>			
+			<color>B</color>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Creature - Vampire Knight</type>			
 			<pt>3/4</pt>			
 			<tablerow>2</tablerow>			
@@ -207,9 +207,9 @@
 		<card>			
 			<name>Arcane Adaptation</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/arcaneadaptation.jpg" rarity="Mythic Rare">XLN</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>As Arcane Adaptation enters the battlefield, choose a creature type.\nCreatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.</text>			
@@ -217,9 +217,9 @@
 		<card>			
 			<name>Captain Lannery Storm</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/captainlannerystorm.jpg" rarity="Mythic Rare">XLN</set>			
+			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
-			<color>R</color>			
 			<type>Legendary Creature - Human Pirate</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -230,9 +230,9 @@ Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of
 		<card>			
 			<name>Daring Saboteur</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/daringsaboteur.jpg" rarity="Rare">XLN</set>			
+			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
-			<color>U</color>			
 			<type>Creature - Human Pirate</type>			
 			<pt>?/?</pt>			
 			<tablerow>2</tablerow>			
@@ -253,11 +253,11 @@ Whenever Daring Saboteur deals combat damage to a player, you may draw a card. I
 			<set picURL="http://mythicspoiler.com/ixa/cards/sunpetalgrove.jpg" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.
 {T}: Add {G} or {W} to your mana pool.</text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Vanquisher's Banner</name>			
@@ -271,10 +271,10 @@ Whenever Daring Saboteur deals combat damage to a player, you may draw a card. I
 		<card>			
 			<name>Taigam, Ojutai Master</name>			
 			<set picURL="http://mythicspoiler.com/c17/cards/taigamojutaimaster.jpg" rarity="Rare">C17</set>			
-			<manacost>2WU</manacost>			
-			<cmc>4</cmc>			
 			<color>W</color>			
 			<color>U</color>			
+			<manacost>2WU</manacost>			
+			<cmc>4</cmc>			
 			<type>Legendary Creature - Human Monk</type>			
 			<pt>3/4</pt>			
 			<tablerow>2</tablerow>			
@@ -295,13 +295,13 @@ Remove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G} to you
 		<card>			
 			<name>O-Kagachi, Vengeful Kami</name>			
 			<set picURL="http://mythicspoiler.com/c17/cards/okagachivengefulkami.jpg" rarity="Mythic Rare">C17</set>			
-			<manacost>1WUBRG</manacost>			
-			<cmc>6</cmc>			
 			<color>W</color>			
 			<color>U</color>			
 			<color>B</color>			
 			<color>R</color>			
 			<color>G</color>			
+			<manacost>1WUBRG</manacost>			
+			<cmc>6</cmc>			
 			<type>Legendary Creature - Dragon Spirit</type>			
 			<pt>6/6</pt>			
 			<tablerow>2</tablerow>			
@@ -310,13 +310,13 @@ Remove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G} to you
 		<card>			
 			<name>The Ur-Dragon</name>			
 			<set picURL="http://mythicspoiler.com/c17/cards/theurdragon.jpg" rarity="Mythic Rare">C17</set>			
-			<manacost>4WUBRG</manacost>			
-			<cmc>9</cmc>			
 			<color>W</color>			
 			<color>U</color>			
 			<color>B</color>			
 			<color>R</color>			
 			<color>G</color>			
+			<manacost>4WUBRG</manacost>			
+			<cmc>9</cmc>			
 			<type>Legendary Creature - Dragon Avatar</type>			
 			<pt>10/10</pt>			
 			<tablerow>2</tablerow>			
@@ -325,11 +325,11 @@ Remove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G} to you
 		<card>			
 			<name>Wasitora, Nekoru Queen</name>			
 			<set picURL="http://mythicspoiler.com/c17/cards/wasitoranekoruqueen.jpg" rarity="Rare">C17</set>			
-			<manacost>2BRG</manacost>			
-			<cmc>5</cmc>			
 			<color>B</color>			
 			<color>R</color>			
 			<color>G</color>			
+			<manacost>2BRG</manacost>			
+			<cmc>5</cmc>			
 			<type>Legendary Creature - Cat Dragon</type>			
 			<pt>5/4</pt>			
 			<tablerow>2</tablerow>			
@@ -338,9 +338,9 @@ Remove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G} to you
 		<card>			
 			<name>Imaginary Threats</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_CxUHj2IbnO.png" rarity="Uncommon">HOU</set>			
+			<color>U</color>			
 			<manacost>2UU</manacost>			
 			<cmc>4</cmc>			
-			<color>U</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Creatures target opponent controls attack this turn if able. During that player's next untap step, creatures he or she controls don't untap.
@@ -394,9 +394,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Cunning Survivor</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_PlnnfIeoxH.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
-			<color>U</color>			
 			<type>Creature - Human Warrior</type>			
 			<pt>1/3</pt>			
 			<tablerow>2</tablerow>			
@@ -405,9 +405,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Riddleform</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_G3h3HwA5QV.png" rarity="Uncommon">HOU</set>			
+			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
-			<color>U</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Whenever you cast a noncreature spell, you may have Riddleform become a 3/3 Sphinx creature with flying in addition to its other types until end of turn.
@@ -416,9 +416,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Spellweaver Eternal</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_wRmK0v6rjp.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
-			<color>U</color>			
 			<type>Creature - Zombie Naga Wizard</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
@@ -428,9 +428,9 @@ Afflict 2 Whenever this creature becomes blocked, defending player loses 2 life.
 		<card>			
 			<name>Countervailing Winds</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_mi7ZxKquQR.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Counter target spell unless its controller pays {1} for each card in your graveyard.
@@ -439,9 +439,9 @@ Cycling {2}  {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Striped Riverwinder</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_GqsjRNHTkB.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>6U</manacost>			
 			<cmc>7</cmc>			
-			<color>U</color>			
 			<type>Creature - Serpent</type>			
 			<pt>5/5</pt>			
 			<tablerow>2</tablerow>			
@@ -451,9 +451,9 @@ Cycling {u} {u}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Unquenchable Thirst</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_yjorvStiba.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
-			<color>U</color>			
 			<type>Enchantment - Aura</type>			
 			<tablerow>1</tablerow>			
 			<text>Enchant creature
@@ -463,9 +463,9 @@ Enchanted creature doesn't untap during its controller's untap step.</text>
 		<card>			
 			<name>Aven Reedstalker</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_d3Czjd4nAg.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
-			<color>U</color>			
 			<type>Creature - Bird Warrior</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -475,9 +475,9 @@ Flying</text>
 		<card>			
 			<name>Aerial Guide</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_ZFvmwP2PZC.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Creature - Drake</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -487,9 +487,9 @@ Whenever Aerial Guide attacks, another target creature gains flying until end of
 		<card>			
 			<name>Unsummon</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_7exh9Gncnv.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>U</manacost>			
 			<cmc>1</cmc>			
-			<color>U</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Return target creature to its owner's hand.</text>			
@@ -497,9 +497,9 @@ Whenever Aerial Guide attacks, another target creature gains flying until end of
 		<card>			
 			<name>Solitary Camel</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_gRme6rj7L0.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<type>Creature - Camel</type>			
 			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
@@ -508,9 +508,9 @@ Whenever Aerial Guide attacks, another target creature gains flying until end of
 		<card>			
 			<name>Unconventional Tactics</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_Hc2XyLvJzN.png" rarity="Uncommon">HOU</set>			
+			<color>W</color>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Target creature gets +3/+3 and gains flying until end of turn.\nWhenever a Zombie enters the battlefield under your control, you may pay {W}. If you do, return Unconventional Tactics from your graveyard to your hand.</text>			
@@ -518,9 +518,9 @@ Whenever Aerial Guide attacks, another target creature gains flying until end of
 		<card>			
 			<name>Saving Grace</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_BHYfhk15fV.png" rarity="Uncommon">HOU</set>			
+			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
-			<color>W</color>			
 			<type>Enchantment - Aura</type>			
 			<tablerow>1</tablerow>			
 			<text>Flash
@@ -555,9 +555,9 @@ When Dunes of the Dead is put into a graveyard from the battlefield, create a 2/
 		<card>			
 			<name>Sandblast</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_qFA9753I74.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Sandblast deals 5 damage to target attacking or blocking creature.</text>			
@@ -565,9 +565,9 @@ When Dunes of the Dead is put into a graveyard from the battlefield, create a 2/
 		<card>			
 			<name>Thorned Moloch</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_fcpZmrD4nz.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
-			<color>R</color>			
 			<type>Creature - Lizard</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -587,9 +587,9 @@ Thorned Moloch has first strike as long as it's attacking.</text>
 		<card>			
 			<name>Puncturing Blow</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_Ebkwr2NuBK.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>2RR</manacost>			
 			<cmc>4</cmc>			
-			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Puncturing Blow deals 5 damage to target creature. If that creature would die this turn, exile it instead.</text>			
@@ -606,9 +606,9 @@ Thorned Moloch has first strike as long as it's attacking.</text>
 		<card>			
 			<name>Oketra's Avenger</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_HK8WmEUHjG.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
-			<color>W</color>			
 			<type>Creature - Human Warrior</type>			
 			<pt>3/1</pt>			
 			<tablerow>2</tablerow>			
@@ -617,9 +617,9 @@ Thorned Moloch has first strike as long as it's attacking.</text>
 		<card>			
 			<name>Magmaroth</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_TQS0Df2gcR.png" rarity="Uncommon">HOU</set>			
+			<color>R</color>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
-			<color>R</color>			
 			<type>Creature - Elemental</type>			
 			<pt>5/5</pt>			
 			<tablerow>2</tablerow>			
@@ -629,9 +629,9 @@ Whenever you cast a noncreature spell, remove a -1/-1 counter from Magmaroth.</t
 		<card>			
 			<name>Without Weakness</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_7fu70muXgk.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
-			<color>B</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Target creature you control gains indestructible until end of turn.
@@ -649,9 +649,9 @@ Cycling {2}</text>
 		<card>			
 			<name>Kindled Fury</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_Q7w7Giq2IQ.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>R</manacost>			
 			<cmc>1</cmc>			
-			<color>R</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Target creature gets +1/+0 and gains first strile until end of turn.</text>			
@@ -659,9 +659,9 @@ Cycling {2}</text>
 		<card>			
 			<name>Djeru's Renunciation</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_KaVmkHL1Lh.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
-			<color>W</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Tap up to two target creatures.
@@ -681,9 +681,9 @@ Cycling {W} {W}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Vile Manifestation</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_m8mbZyQz6g.png" rarity="Uncommon">HOU</set>			
+			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
-			<color>B</color>			
 			<type>Creature - Horror</type>			
 			<pt>0/4</pt>			
 			<tablerow>2</tablerow>			
@@ -703,9 +703,9 @@ Equip {2} {2}: Attach to target creature you control. Equip only as a sorcery.)<
 		<card>			
 			<name>Disposal Mummy</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_lb3vLfqLVn.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<type>Creature - Zombie Jackal</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -714,9 +714,9 @@ Equip {2} {2}: Attach to target creature you control. Equip only as a sorcery.)<
 		<card>			
 			<name>Granitic Titan</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_5CQO4rKlMj.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>4RR</manacost>			
 			<cmc>6</cmc>			
-			<color>R</color>			
 			<type>Creature - Elemental</type>			
 			<pt>5/4</pt>			
 			<tablerow>2</tablerow>			
@@ -726,9 +726,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Firebrand Archer</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_FjK6l6a0o8.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
-			<color>R</color>			
 			<type>Creature - Human Archer</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
@@ -737,9 +737,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Scrounger of Souls</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_VfTT5hpC58.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>4B</manacost>			
 			<cmc>5</cmc>			
-			<color>B</color>			
 			<type>Creature - Horror</type>			
 			<pt>3/4</pt>			
 			<tablerow>2</tablerow>			
@@ -748,10 +748,10 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Obelisk Spider</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_CVXaUq23Rq.png" rarity="Uncommon">HOU</set>			
-			<manacost>1BG</manacost>			
-			<cmc>3</cmc>			
 			<color>B</color>			
 			<color>G</color>			
+			<manacost>1BG</manacost>			
+			<cmc>3</cmc>			
 			<type>Creature - Spider</type>			
 			<pt>1/4</pt>			
 			<tablerow>2</tablerow>			
@@ -762,9 +762,9 @@ Whenever you put one or more -1/-1 counters on a creature, each opponent loses 1
 		<card>			
 			<name>Dauntless Aven</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_XybyWh99Sf.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<type>Creature - Bird Warrior</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
@@ -775,9 +775,9 @@ Whenever Dauntless Aven attacks, untap target creature you control.</text>
 		<card>			
 			<name>Crash Through</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_FWE4CyR9gn.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>R</manacost>			
 			<cmc>1</cmc>			
-			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Creatures you control gain trample until end of turn.
@@ -786,9 +786,9 @@ Draw a card.</text>
 		<card>			
 			<name>Tenacious Hunter</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_Wrxg43e7cC.png" rarity="Uncommon">HOU</set>			
+			<color>G</color>			
 			<manacost>2GG</manacost>			
 			<cmc>4</cmc>			
-			<color>G</color>			
 			<type>Creature - Crocodile</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
@@ -797,9 +797,9 @@ Draw a card.</text>
 		<card>			
 			<name>Burning-Fist Minotaur</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_AffH3VvujR.png" rarity="Uncommon">HOU</set>			
+			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
-			<color>R</color>			
 			<type>Creature - Minotaur Wizard</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
@@ -809,9 +809,9 @@ Draw a card.</text>
 		<card>			
 			<name>Ruin Rat</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_fulqjvdAzm.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
-			<color>B</color>			
 			<type>Creature - Rat</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
@@ -821,9 +821,9 @@ When Ruin Rat dies, exile target card from an opponent's graveyard.</text>
 		<card>			
 			<name>Rampaging Hippo</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_7SOYt3nin3.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>4GG</manacost>			
 			<cmc>6</cmc>			
-			<color>G</color>			
 			<type>Creature - Hippo</type>			
 			<pt>5/6</pt>			
 			<tablerow>2</tablerow>			
@@ -833,9 +833,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Blur of Blades</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_YErnpkof8U.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
-			<color>R</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Put a -1/-1 counter on target creature.  Blur of Blades deals 2 damage to that creature's controller.</text>			
@@ -843,9 +843,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Moaning Wall</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_PqqpAPboNc.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Creature - Zombie Wall</type>			
 			<pt>0/5</pt>			
 			<tablerow>2</tablerow>			
@@ -855,9 +855,9 @@ Cycling {2}</text>
 		<card>			
 			<name>Quarry Beetle</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_lkZIRODxBE.png" rarity="Uncommon">HOU</set>			
+			<color>G</color>			
 			<manacost>4G</manacost>			
 			<cmc>5</cmc>			
-			<color>G</color>			
 			<type>Creature - Insect</type>			
 			<pt>4/5</pt>			
 			<tablerow>2</tablerow>			
@@ -866,9 +866,9 @@ Cycling {2}</text>
 		<card>			
 			<name>Aven of Enduring Hope</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_W0zlh3xBDH.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>4W</manacost>			
 			<cmc>5</cmc>			
-			<color>W</color>			
 			<type>Creature - Bird Cleric</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -879,9 +879,9 @@ When Aven of Enduring Hope enters the battlefield, you gain 3 life.</text>
 		<card>			
 			<name>Overcome</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_YLxIgCYIZc.png" rarity="Uncommon">HOU</set>			
+			<color>G</color>			
 			<manacost>3GG</manacost>			
 			<cmc>5</cmc>			
-			<color>G</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Creatures you control get +2/+2 and gain trample until end of turn.</text>			
@@ -889,9 +889,9 @@ When Aven of Enduring Hope enters the battlefield, you gain 3 life.</text>
 		<card>			
 			<name>Lurching Rotbeast</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_MFiiB8ONM2.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Creature - Zombie Beast</type>			
 			<pt>4/2</pt>			
 			<tablerow>2</tablerow>			
@@ -900,9 +900,9 @@ When Aven of Enduring Hope enters the battlefield, you gain 3 life.</text>
 		<card>			
 			<name>Harrier Naga</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_fwFiAFn6Ur.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Creature - Naga Warrior</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -911,9 +911,9 @@ When Aven of Enduring Hope enters the battlefield, you gain 3 life.</text>
 		<card>			
 			<name>Act of Heroism</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_drSO5a4YY2.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
-			<color>W</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Untap target creature. It gets +2/+2 until end of turn and can block an additional creature this turn.</text>			
@@ -921,9 +921,9 @@ When Aven of Enduring Hope enters the battlefield, you gain 3 life.</text>
 		<card>			
 			<name>Gift of Strength</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_jdqEteAtp2.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
-			<color>G</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Target creature gets +3/+3 and gains reach until end of turn.</text>			
@@ -931,9 +931,9 @@ When Aven of Enduring Hope enters the battlefield, you gain 3 life.</text>
 		<card>			
 			<name>Lethal Sting</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_86PtEp1T4V.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>As an additional cost to cast Lethal Sting,put a -1/-1 counter on a creature you control.
@@ -942,9 +942,9 @@ Destroy target creature.</text>
 		<card>			
 			<name>Grisly Survivor</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_FmaY6mB5Mc.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Creature - Minotaur Warrior</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -953,9 +953,9 @@ Destroy target creature.</text>
 		<card>			
 			<name>Frilled Sandwalla</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_pDAXliwsiE.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
-			<color>G</color>			
 			<type>Creature - Lizard</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
@@ -964,9 +964,9 @@ Destroy target creature.</text>
 		<card>			
 			<name>Feral Prowler</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_QaXcXRl9lM.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
-			<color>G</color>			
 			<type>Creature - Cat</type>			
 			<pt>1/3</pt>			
 			<tablerow>2</tablerow>			
@@ -975,9 +975,9 @@ Destroy target creature.</text>
 		<card>			
 			<name>Banewhip Punisher</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_9UOSsLEEAV.png" rarity="Uncommon">HOU</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Creature - Human Warrior</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -987,9 +987,9 @@ Destroy target creature.</text>
 		<card>			
 			<name>Dune Diviner</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_u47yE2EHZG.png" rarity="Uncommon">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Creature - Naga Cleric</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -998,9 +998,9 @@ Destroy target creature.</text>
 		<card>			
 			<name>Devotee of Strength</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_Q6EGBpfehq.png" rarity="Uncommon">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Creature - Naga Wizard</type>			
 			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1009,9 +1009,9 @@ Destroy target creature.</text>
 		<card>			
 			<name>Bitterbow Sharpshooters</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_EZMIFV3y06.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>4G</manacost>			
 			<cmc>5</cmc>			
-			<color>G</color>			
 			<type>Creature - Jackal Archer</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
@@ -1020,9 +1020,9 @@ Destroy target creature.</text>
 		<card>			
 			<name>Beneath the Sands</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_TAydsbwhoN.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
@@ -1031,9 +1031,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Apocalypse Demon</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_4dXI6XNB94.png" rarity="Rare">HOU</set>			
+			<color>B</color>			
 			<manacost>4BB</manacost>			
 			<cmc>6</cmc>			
-			<color>B</color>			
 			<type>Creature - Demon</type>			
 			<pt>*/*</pt>			
 			<tablerow>2</tablerow>			
@@ -1044,9 +1044,9 @@ At the beginning of your upkeep, tap Apocalypse Demon unless you sacrifice anoth
 		<card>			
 			<name>Ambuscade</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_Gw9CBmIrYl.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Target creature you control gets +1/+0 until end of turn. It deals damage equal to its power to target creature an opponent controls.</text>			
@@ -1054,9 +1054,9 @@ At the beginning of your upkeep, tap Apocalypse Demon unless you sacrifice anoth
 		<card>			
 			<name>Sunscourge Champion</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_7M4ivoiLwF.png" rarity="Uncommon">HOU</set>			
+			<color>W</color>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<type>Creature - Human Wizard</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -1067,9 +1067,9 @@ Eternalize—{2}{W}{W}, Discard a card. {2}{W}{W}, Discard a card, Exile this ca
 		<card>			
 			<name>Sifter Wurm</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_pneaNXiy6c.png" rarity="Uncommon">HOU</set>			
+			<color>G</color>			
 			<manacost>5GG</manacost>			
 			<cmc>7</cmc>			
-			<color>G</color>			
 			<type>Creature - Wurm</type>			
 			<pt>7/7</pt>			
 			<tablerow>2</tablerow>			
@@ -1079,9 +1079,9 @@ When Sifter Wurm enters the battlefield, scry 3, then reveal the top card of you
 		<card>			
 			<name>Mummy Paramount</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_uPuZBdJ9Tp.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
-			<color>W</color>			
 			<type>Creature - Zombie</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1090,9 +1090,9 @@ When Sifter Wurm enters the battlefield, scry 3, then reveal the top card of you
 		<card>			
 			<name>Wretched Camel</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_wdzbTVOvda.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
-			<color>B</color>			
 			<type>Creature - Zombie Camel</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
@@ -1101,9 +1101,9 @@ When Sifter Wurm enters the battlefield, scry 3, then reveal the top card of you
 		<card>			
 			<name>Dutiful Servants</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_bqaCAQ724t.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
-			<color>W</color>			
 			<type>Creature - Zombie</type>			
 			<pt>2/5</pt>			
 			<tablerow>2</tablerow>			
@@ -1112,9 +1112,9 @@ When Sifter Wurm enters the battlefield, scry 3, then reveal the top card of you
 		<card>			
 			<name>Manticore Eternal</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_5xLQmCh6WM.png" rarity="Uncommon">HOU</set>			
+			<color>R</color>			
 			<manacost>3RR</manacost>			
 			<cmc>5</cmc>			
-			<color>R</color>			
 			<type>Creature - Zombie Manticore</type>			
 			<pt>5/4</pt>			
 			<tablerow>2</tablerow>			
@@ -1124,9 +1124,9 @@ Manticore Eternal attacks each combat if able.</text>
 		<card>			
 			<name>Strategic Planning</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_MyMGa4SBfW.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
-			<color>U</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Look at the top three cards of your library. Put one of them into your hand and the rest in the graveyard.</text>			
@@ -1134,9 +1134,9 @@ Manticore Eternal attacks each combat if able.</text>
 		<card>			
 			<name>Rhonas's Stalwart</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_B3SiYqqztp.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
-			<color>G</color>			
 			<type>Creature - Human Warrior</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1155,9 +1155,9 @@ Manticore Eternal attacks each combat if able.</text>
 		<card>			
 			<name>Seer of the Last Tomorrow</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_OOgcPni6sm.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Creature - Naga Cleric</type>			
 			<pt>1/4</pt>			
 			<tablerow>2</tablerow>			
@@ -1166,9 +1166,9 @@ Manticore Eternal attacks each combat if able.</text>
 		<card>			
 			<name>Tragic Lesson</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_ahkGJHVNgs.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Draw two cards. Then discard a card unless you return a land you control to its owner's hand.</text>			
@@ -1176,9 +1176,9 @@ Manticore Eternal attacks each combat if able.</text>
 		<card>			
 			<name>Life Goes On</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_OGJPV1RD8V.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
-			<color>G</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>You gain 4 life. If a creature died this turn, you gain 8 life instead.</text>			
@@ -1186,9 +1186,9 @@ Manticore Eternal attacks each combat if able.</text>
 		<card>			
 			<name>Hour of Devastation</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_8Dtc89JMF5.png" rarity="Rare">HOU</set>			
+			<color>R</color>			
 			<manacost>3RR</manacost>			
 			<cmc>5</cmc>			
-			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>All creatures lose indestructible until end of turn. Hour of Devastation deals 5 damage to each creature and each non-Bolas planeswalker.</text>			
@@ -1207,9 +1207,9 @@ If a card with cycling would be put into your graveyard from anywhere and it was
 		<card>			
 			<name>Majestic Myriarch</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_12ZtRrEhes.png" rarity="Mythic Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>4G</manacost>			
 			<cmc>5</cmc>			
-			<color>G</color>			
 			<type>Creature - Chimera</type>			
 			<pt>*/*</pt>			
 			<tablerow>2</tablerow>			
@@ -1220,10 +1220,10 @@ At the beginning of each combat, if you control a creature with flying, Majestic
 		<card>			
 			<name>Leave // Chance</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_YhdOA65L2A.png" rarity="Rare">HOU</set>			
-			<manacost>1W // 3R</manacost>			
-			<cmc>2 // 4</cmc>			
 			<color>W</color>			
 			<color>R</color>			
+			<manacost>1W // 3R</manacost>			
+			<cmc>2 // 4</cmc>			
 			<type>Instant // Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Return any number of target permanents you own to your hand.
@@ -1234,9 +1234,9 @@ Discard any number of cards, then draw that many cards.</text>
 		<card>			
 			<name>Crested Sunmare</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_qpIAlH6Emx.png" rarity="Mythic Rare">HOU</set>			
+			<color>W</color>			
 			<manacost>3WW</manacost>			
 			<cmc>5</cmc>			
-			<color>W</color>			
 			<type>Creature - Horse</type>			
 			<pt>5/5</pt>			
 			<tablerow>2</tablerow>			
@@ -1247,9 +1247,9 @@ At the beginning of each end step, if you gained life this turn, create a 5/5 wh
 		<card>			
 			<name>God-Pharaoh's Faithful</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_OLE5a8U4AZ.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>W</manacost>			
 			<cmc>1</cmc>			
-			<color>W</color>			
 			<type>Creature - Human Wizard</type>			
 			<pt>0/4</pt>			
 			<tablerow>2</tablerow>			
@@ -1258,9 +1258,9 @@ At the beginning of each end step, if you gained life this turn, create a 5/5 wh
 		<card>			
 			<name>Frontline Devastator</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_XXYlx9zc9s.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
-			<color>R</color>			
 			<type>Creature - Zombie Minotaur Warrior</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -1270,9 +1270,9 @@ At the beginning of each end step, if you gained life this turn, create a 5/5 wh
 		<card>			
 			<name>Eternal of Harsh Truths</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_3mIaoruue5.png" rarity="Uncommon">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Creature - Zombie Cleric</type>			
 			<pt>1/3</pt>			
 			<tablerow>2</tablerow>			
@@ -1282,9 +1282,9 @@ Whenever Eternal of Harsh Truths attacks and isn't blocked, draw a  card.</text>
 		<card>			
 			<name>Merciless Eternal</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_lKsk6hBYv3.png" rarity="Uncommon">HOU</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Creature - Zombie Cleric</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1294,10 +1294,10 @@ Whenever Eternal of Harsh Truths attacks and isn't blocked, draw a  card.</text>
 		<card>			
 			<name>Bloodwater Entity</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_fqzTXwlevr.png" rarity="Uncommon">HOU</set>			
-			<manacost>1UR</manacost>			
-			<cmc>3</cmc>			
 			<color>U</color>			
 			<color>R</color>			
+			<manacost>1UR</manacost>			
+			<cmc>3</cmc>			
 			<type>Creature - Elemental</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1308,9 +1308,9 @@ When Bloodwater Elemental enters the battlefield, you may put target instant or 
 		<card>			
 			<name>Kefnet's Last Word</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_hBzYfiei5g.png" rarity="Rare">HOU</set>			
+			<color>U</color>			
 			<manacost>2UU</manacost>			
 			<cmc>4</cmc>			
-			<color>U</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Gain control of target artifact, creature or enchantment. Lands you control don't untap during your next untap step.</text>			
@@ -1318,9 +1318,9 @@ When Bloodwater Elemental enters the battlefield, you may put target instant or 
 		<card>			
 			<name>Hazoret's Undying Fury</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_DQ3ZVRYbg7.png" rarity="Rare">HOU</set>			
+			<color>R</color>			
 			<manacost>4RR</manacost>			
 			<cmc>6</cmc>			
-			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Shuffle your library, then exile the top four cards. You may cast any number of nonland cards with converted mana cost 5 or less from among them without paying their mana costs. Land you control don't untap during your next untap step.</text>			
@@ -1328,9 +1328,9 @@ When Bloodwater Elemental enters the battlefield, you may put target instant or 
 		<card>			
 			<name>Hour of Eternity</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_A2H5sDaarF.png" rarity="Rare">HOU</set>			
+			<color>U</color>			
 			<manacost>XXUUU</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Exile X target creature cards from your graveyard. For each card exiled this way, create a token that's a copy of that card, except it's a 4/4 black Zombie.</text>			
@@ -1338,9 +1338,9 @@ When Bloodwater Elemental enters the battlefield, you may put target instant or 
 		<card>			
 			<name>Vizier of the Anointed</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_4GpzxfOlHE.png" rarity="Uncommon">HOU</set>			
+			<color>U</color>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
-			<color>U</color>			
 			<type>Creature - Human Cleric</type>			
 			<pt>2/4</pt>			
 			<tablerow>2</tablerow>			
@@ -1350,10 +1350,10 @@ Whenever you activate an eternalize or embalm ability, draw a card.</text>
 		<card>			
 			<name>Consign // Oblivion</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_VKPcz6aXeU.png" rarity="Uncommon">HOU</set>			
-			<manacost>1U // 4B</manacost>			
-			<cmc>2 // 5</cmc>			
 			<color>U</color>			
 			<color>B</color>			
+			<manacost>1U // 4B</manacost>			
+			<cmc>2 // 5</cmc>			
 			<type>Instant // Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Return target nonland permanent to its owner's hand.
@@ -1364,9 +1364,9 @@ Target opponent discards two cards.</text>
 		<card>			
 			<name>Ominous Sphinx</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_jqw9SyvGX3.png" rarity="Uncommon">HOU</set>			
+			<color>U</color>			
 			<manacost>3UU</manacost>			
 			<cmc>5</cmc>			
-			<color>U</color>			
 			<type>Creature - Sphinx</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
@@ -1376,9 +1376,9 @@ Whenever you cycle or discard a card,target creature an opponent controls gets -
 		<card>			
 			<name>Razaketh's Rite</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_uX82r5CSZ2.png" rarity="Uncommon">HOU</set>			
+			<color>B</color>			
 			<manacost>3BB</manacost>			
 			<cmc>5</cmc>			
-			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Search your library for a card and put that card into your hand. Then shuffle your library.
@@ -1399,9 +1399,9 @@ Cycling {b} {B}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Hour of Promise</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_DveZdReh8x.png" rarity="Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>4G</manacost>			
 			<cmc>5</cmc>			
-			<color>G</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Search your library for up to two land cards and put them onto the battlefield tapped, then shuffle your library. Then if you control three or more Deserts, create two 2/2 black Zombie creature tokens.</text>			
@@ -1431,9 +1431,9 @@ Cycling {b} {B}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Imminent Doom</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_hUvR1TPnnt.png" rarity="Rare">HOU</set>			
+			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
-			<color>R</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Imminent Doom enters the battlefield with a doom counter on it.
@@ -1465,9 +1465,9 @@ Whenever you cast a spell with converted mana cost equal to the number of doom c
 		<card>			
 			<name>Chaos Maw</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_GVgqKgCWOl.png" rarity="Rare">HOU</set>			
+			<color>R</color>			
 			<manacost>5RR</manacost>			
 			<cmc>7</cmc>			
-			<color>R</color>			
 			<type>Creature - Hellion</type>			
 			<pt>6/6</pt>			
 			<tablerow>2</tablerow>			
@@ -1499,10 +1499,10 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Appeal // Authority</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_65nVqMfVic.png" rarity="Uncommon">HOU</set>			
-			<manacost>G // 1W</manacost>			
-			<cmc>1 // 2</cmc>			
 			<color>G</color>			
 			<color>W</color>			
+			<manacost>G // 1W</manacost>			
+			<cmc>1 // 2</cmc>			
 			<type>Sorcery // Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Until end of turn, target creature gains trample and gets +X/+X, where X is the number of creatures you control.
@@ -1522,10 +1522,10 @@ Tap up to two target creatures your opponents control.  Creatures you control ga
 		<card>			
 			<name>Unraveling Mummy</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_V7aV7MP5lf.png" rarity="Uncommon">HOU</set>			
-			<manacost>1WB</manacost>			
-			<cmc>3</cmc>			
 			<color>W</color>			
 			<color>B</color>			
+			<manacost>1WB</manacost>			
+			<cmc>3</cmc>			
 			<type>Creature - Zombie</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -1536,9 +1536,9 @@ Tap up to two target creatures your opponents control.  Creatures you control ga
 		<card>			
 			<name>Champion of Wits</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_T9CraoZSpf.png" rarity="Rare">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Creature - Naga Wizard</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
@@ -1549,9 +1549,9 @@ Eternalize {5UU}  {5uu}, Exile this card from your graveyard: Create a token tha
 		<card>			
 			<name>Overwhelming Splendor</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_sesUcKUkTI.png" rarity="Mythic Rare">HOU</set>			
+			<color>W</color>			
 			<manacost>6WW</manacost>			
 			<cmc>8</cmc>			
-			<color>W</color>			
 			<type>Enchantment - Aura Curse</type>			
 			<tablerow>1</tablerow>			
 			<text>Enchant player
@@ -1561,10 +1561,10 @@ Enchanted player can't activate abilities that aren't mana abilities or loyalty 
 		<card>			
 			<name>Refuse // Cooperate</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_mTjBgXxd6l.png" rarity="Rare">HOU</set>			
-			<manacost>3R // 2U</manacost>			
-			<cmc>4 // 3</cmc>			
 			<color>R</color>			
 			<color>U</color>			
+			<manacost>3R // 2U</manacost>			
+			<cmc>4 // 3</cmc>			
 			<type>Instant // Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Refuse deals damage to target spell's controller equal to that spell's converted mana cost.
@@ -1575,9 +1575,9 @@ Copy target instant or sorcery spell. You may choose new targets for the copy.</
 		<card>			
 			<name>Ammit Eternal</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_RpuIPkX9Sl.png" rarity="Rare">HOU</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Creature - Zombie Crocodile Demon</type>			
 			<pt>5/5</pt>			
 			<tablerow>2</tablerow>			
@@ -1588,9 +1588,9 @@ Whenever Ammit Eternal deals combat damage to a player, remove all -1/-1 counter
 		<card>			
 			<name>Proven Combatant</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_QuNSDWJCuZ.png" rarity="Common">HOU</set>			
+			<color>U</color>			
 			<manacost>U</manacost>			
 			<cmc>1</cmc>			
-			<color>U</color>			
 			<type>Creature - Human Warrior</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
@@ -1599,9 +1599,9 @@ Whenever Ammit Eternal deals combat damage to a player, remove all -1/-1 counter
 		<card>			
 			<name>Sinuous Striker</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_RlwVhRyk2C.png" rarity="Uncommon">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Creature - Naga Warrior</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1611,10 +1611,10 @@ Eternalize—{3}{U}{U}, Discard a card. {3}{U}{U}, Discard a card, Exile this ca
 		<card>			
 			<name>Struggle // Survive</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_28ghbzrFQ7.png" rarity="Uncommon">HOU</set>			
-			<manacost>2R // 1G</manacost>			
-			<cmc>3 // 2</cmc>			
 			<color>R</color>			
 			<color>G</color>			
+			<manacost>2R // 1G</manacost>			
+			<cmc>3 // 2</cmc>			
 			<type>Instant // Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Struggle deals damage to target creature equal to the number of lands you control.
@@ -1625,10 +1625,10 @@ Each player shuffles his or graveyard into his or her library.</text>
 		<card>			
 			<name>Farm // Market</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_qPxIgzMnkU.png" rarity="Uncommon">HOU</set>			
-			<manacost>2W // 2U</manacost>			
-			<cmc>3 // 3</cmc>			
 			<color>W</color>			
 			<color>U</color>			
+			<manacost>2W // 2U</manacost>			
+			<cmc>3 // 3</cmc>			
 			<type>Instant // Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target attacking or blocking creature.
@@ -1639,9 +1639,9 @@ Draw two cards, then destroy two cards</text>
 		<card>			
 			<name>Torment of Hailfire</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_hmLUjsTTGZ.png" rarity="Rare">HOU</set>			
+			<color>B</color>			
 			<manacost>XBB</manacost>			
 			<cmc>2</cmc>			
-			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Repeat the following process X times. Each opponent loses 3 life unless he or she sacrifices a nonland permanent or discards a card.</text>			
@@ -1649,9 +1649,9 @@ Draw two cards, then destroy two cards</text>
 		<card>			
 			<name>Torment of Scarabs</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_nZSvprxX5r.png" rarity="Uncommon">HOU</set>			
+			<color>B</color>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Enchantment - Aura Curse</type>			
 			<tablerow>1</tablerow>			
 			<text>Enchant player
@@ -1660,9 +1660,9 @@ At the beginning of enchanted player's upkeep, that player loses 3 life unless h
 		<card>			
 			<name>Torment of Venom</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_DHNfpJouqy.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>2BB</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Put three -1/-1 counters on target creature. Its controller loses 3 life unless he or she sacrifices another nonland permanent or discards a card.</text>			
@@ -1670,9 +1670,9 @@ At the beginning of enchanted player's upkeep, that player loses 3 life unless h
 		<card>			
 			<name>Doomfall</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_7neWroY45R.png" rarity="Uncommon">HOU</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Choose one —
@@ -1682,9 +1682,9 @@ At the beginning of enchanted player's upkeep, that player loses 3 life unless h
 		<card>			
 			<name>Nimble Obstructionist</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_CUmICnZiE9.png" rarity="Rare">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Creature - Bird Wizard</type>			
 			<pt>3/1</pt>			
 			<tablerow>2</tablerow>			
@@ -1696,9 +1696,9 @@ When you cycle Nimble Obstructionist, counter target activated or triggered abil
 		<card>			
 			<name>Resilient Khenra</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_tjrE6v0y8W.png" rarity="Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
-			<color>G</color>			
 			<type>Creature - Jackal Wizard</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1709,9 +1709,9 @@ Eternalize {4GG} {4gg}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Earthshaker Khenra</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_HrLX35Ontc.png" rarity="Rare">HOU</set>			
+			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
-			<color>R</color>			
 			<type>Creature - Jackal Warrior</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
@@ -1722,9 +1722,9 @@ Eternalize {4RR} {4rr}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Razaketh, the Foulblooded</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_VmsPLXTdPJ.png" rarity="Mythic Rare">HOU</set>			
+			<color>B</color>			
 			<manacost>5BBB</manacost>			
 			<cmc>8</cmc>			
-			<color>B</color>			
 			<type>Legendary Creature - Demon</type>			
 			<pt>8/8</pt>			
 			<tablerow>2</tablerow>			
@@ -1735,9 +1735,9 @@ Pay 2 life, Sacrifice another creature: Search your library for a card and put t
 		<card>			
 			<name>Uncage the Menagerie</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_FFNiA2zmoZ.png" rarity="Mythic Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>XGG</manacost>			
 			<cmc>2</cmc>			
-			<color>G</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Search your library for up to X creature cards with different names that each have converted mana cost X, reveal them, put them into your hand, then shuffle your library.</text>			
@@ -1745,9 +1745,9 @@ Pay 2 life, Sacrifice another creature: Search your library for a card and put t
 		<card>			
 			<name>Rhonas's Last Stand</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_BD8Ez3Ftte.png" rarity="Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>GG</manacost>			
 			<cmc>2</cmc>			
-			<color>G</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Create a 5/4 green Snake creature token. Lands you control don't untap during your next untap step.</text>			
@@ -1755,10 +1755,10 @@ Pay 2 life, Sacrifice another creature: Search your library for a card and put t
 		<card>			
 			<name>River Hoopoe</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_IiJXCMv2RZ.png" rarity="Uncommon">HOU</set>			
-			<manacost>GU</manacost>			
-			<cmc>2</cmc>			
 			<color>U</color>			
 			<color>G</color>			
+			<manacost>GU</manacost>			
+			<cmc>2</cmc>			
 			<type>Creature - Bird</type>			
 			<pt>1/3</pt>			
 			<tablerow>2</tablerow>			
@@ -1768,10 +1768,10 @@ Pay 2 life, Sacrifice another creature: Search your library for a card and put t
 		<card>			
 			<name>Resolute Survivors</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_elwdILPhPm.png" rarity="Uncommon">HOU</set>			
-			<manacost>1RW</manacost>			
-			<cmc>3</cmc>			
 			<color>W</color>			
 			<color>R</color>			
+			<manacost>1RW</manacost>			
+			<cmc>3</cmc>			
 			<type>Creature - Human Warrior</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -1781,9 +1781,9 @@ Whenever you exert a creature, Resolute Survivors deals 1 damage to each opponen
 		<card>			
 			<name>Vizier of the True</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_p7Ginz8sYn.png" rarity="Uncommon">HOU</set>			
+			<color>W</color>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
-			<color>W</color>			
 			<type>Creature - Human Cleric</type>			
 			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1793,9 +1793,9 @@ Whenever you exert a creature, tap target creature an opponent controls.</text>
 		<card>			
 			<name>Steward of Solidarity</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_eK7nRwVEnO.png" rarity="Uncommon">HOU</set>			
+			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
-			<color>W</color>			
 			<type>Creature - Human Warrior</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1804,10 +1804,10 @@ Whenever you exert a creature, tap target creature an opponent controls.</text>
 		<card>			
 			<name>Claim // Fame</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_8QvbwelFBK.png" rarity="Uncommon">HOU</set>			
-			<manacost>B // 1R</manacost>			
-			<cmc>1 // 2</cmc>			
 			<color>B</color>			
 			<color>R</color>			
+			<manacost>B // 1R</manacost>			
+			<cmc>1 // 2</cmc>			
 			<type>Sorcery // Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.
@@ -1818,9 +1818,9 @@ Target creature gets +2/+0 and gains haste until end of turn.</text>
 		<card>			
 			<name>Fervent Paincaster</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_phPxRRmPNk.png" rarity="Uncommon">HOU</set>			
+			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
-			<color>R</color>			
 			<type>Creature - Human Wizard</type>			
 			<pt>3/1</pt>			
 			<tablerow>2</tablerow>			
@@ -1830,9 +1830,9 @@ Target creature gets +2/+0 and gains haste until end of turn.</text>
 		<card>			
 			<name>Djeru, With Eyes Open</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_uOkv0Y8jO1.png" rarity="Rare">HOU</set>			
+			<color>W</color>			
 			<manacost>3WW</manacost>			
 			<cmc>5</cmc>			
-			<color>W</color>			
 			<type>Legendary Creature - Human Warrior</type>			
 			<pt>4/3</pt>			
 			<tablerow>2</tablerow>			
@@ -1843,9 +1843,9 @@ If a source would deal damage to a planeswalker you control, prevent 1 of that d
 		<card>			
 			<name>Hope Tender</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_byxweupK4l.png" rarity="Uncommon">HOU</set>			
+			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
-			<color>G</color>			
 			<type>Creature - Human Druid</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1856,10 +1856,10 @@ If a source would deal damage to a planeswalker you control, prevent 1 of that d
 		<card>			
 			<name>The Scarab God</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/391/636338161738992409.png" rarity="Mythic Rare">HOU</set>			
-			<manacost>3UB</manacost>			
-			<cmc>5</cmc>			
 			<color>U</color>			
 			<color>B</color>			
+			<manacost>3UB</manacost>			
+			<cmc>5</cmc>			
 			<type>Legendary Creature - God</type>			
 			<pt>5/5</pt>			
 			<tablerow>2</tablerow>			
@@ -1872,10 +1872,10 @@ When The Scarab God dies, return it to its owner's hand at the beginning of the 
 		<card>			
 			<name>Reason // Believe</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_HZT93fdrn3.png" rarity="Rare">HOU</set>			
-			<manacost>U // 4G</manacost>			
-			<cmc>1 // 5</cmc>			
 			<color>U</color>			
 			<color>G</color>			
+			<manacost>U // 4G</manacost>			
+			<cmc>1 // 5</cmc>			
 			<type>Sorcery // Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Scry 3.
@@ -1886,9 +1886,9 @@ Look at the top card of your library. You may put it onto the battlefield if it'
 		<card>			
 			<name>Avid Reclaimer</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/321/636336354720496094.png" rarity="Uncommon">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Creature - Human Druid</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -1897,9 +1897,9 @@ Look at the top card of your library. You may put it onto the battlefield if it'
 		<card>			
 			<name>Brambleweft Behemoth</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/320/636336353340047574.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>4GG</manacost>			
 			<cmc>6</cmc>			
-			<color>G</color>			
 			<type>Creature - Elemental</type>			
 			<pt>6/6</pt>			
 			<tablerow>2</tablerow>			
@@ -1910,11 +1910,11 @@ Look at the top card of your library. You may put it onto the battlefield if it'
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/319/636336353240265062.png" rarity="Common">HOU</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>Cinder Barrens enters the battlefield tapped.
 {T}: Add {B} or {R} to your mana pool.</text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Visage of Bolas</name>			
@@ -1929,9 +1929,9 @@ Look at the top card of your library. You may put it onto the battlefield if it'
 		<card>			
 			<name>Nissa's Encouragement</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/317/636336351648785500.png" rarity="Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>4G</manacost>			
 			<cmc>5</cmc>			
-			<color>G</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Search your library and graveyard for a card named Forest, a card named Brambleweft Behemoth, and a card named Nissa, Genesis Mage. Reveal those cards, put them into your hand, then shuffle your library.</text>			
@@ -1939,9 +1939,9 @@ Look at the top card of your library. You may put it onto the battlefield if it'
 		<card>			
 			<name>Zealot of the God-Pharaoh</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/316/636336351240550498.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
-			<color>R</color>			
 			<type>Creature - Minotaur Archer</type>			
 			<pt>4/3</pt>			
 			<tablerow>2</tablerow>			
@@ -1952,18 +1952,18 @@ Look at the top card of your library. You may put it onto the battlefield if it'
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/315/636336350668880997.png" rarity="Common">HOU</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>Woodland Stream enters the battlefield tapped.
 {T}: Add {G} or {U} to your mana pool. </text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Wasp of the Bitter End</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/314/636336350135468178.png" rarity="Uncommon">HOU</set>			
+			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
-			<color>B</color>			
 			<type>Creature - Insect Horror</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
@@ -1973,9 +1973,9 @@ Whenever you cast a Bolas planeswalker spell, you may sacrifice Wasp of the Bitt
 		<card>			
 			<name>Hour of Glory</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_9LbKfiUIeo.png" rarity="Rare">HOU</set>			
+			<color>B</color>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Exile target creature. If that creature was a God, its controller reveals his or her hand and exiles all cards with the same name as that creature.</text>			
@@ -1983,9 +1983,9 @@ Whenever you cast a Bolas planeswalker spell, you may sacrifice Wasp of the Bitt
 		<card>			
 			<name>Angel of Condemnation</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_tLBKOwif8v.png" rarity="Rare">HOU</set>			
+			<color>W</color>			
 			<manacost>2WW</manacost>			
 			<cmc>4</cmc>			
-			<color>W</color>			
 			<type>Creature - Angel</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -1996,9 +1996,9 @@ Whenever you cast a Bolas planeswalker spell, you may sacrifice Wasp of the Bitt
 		<card>			
 			<name>Unesh, Criosphinx Sovereign</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_j727WiwO8j.png" rarity="Mythic Rare">HOU</set>			
+			<color>U</color>			
 			<manacost>4UU</manacost>			
 			<cmc>6</cmc>			
-			<color>U</color>			
 			<type>Legendary Creature - Sphinx</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
@@ -2009,10 +2009,10 @@ Whenever Unesh, Criosphinx Sovereign or another Sphinx enters the battlefield un
 		<card>			
 			<name>Driven // Despair</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_UXJ7wksodC.png" rarity="Rare">HOU</set>			
-			<manacost>1G // 1B</manacost>			
-			<cmc>2 // 2</cmc>			
 			<color>G</color>			
 			<color>B</color>			
+			<manacost>1G // 1B</manacost>			
+			<cmc>2 // 2</cmc>			
 			<type>Sorcery // Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Until end of turn, creatures you control gain trample and &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;
@@ -2044,9 +2044,9 @@ Until end of turn, creatures you control gain menace and &quot;Whenever this cre
 		<card>			
 			<name>Solemnity</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_KjZWezjAor.png" rarity="Rare">HOU</set>			
+			<color>W</color>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Players can't get counters.
@@ -2056,9 +2056,9 @@ Counters can't be put on artifacts, creatures, enchantments, or lands.</text>
 		<card>			
 			<name>Fraying Sanity</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_zn3TanfUlR.png" rarity="Rare">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Enchantment - Aura Curse</type>			
 			<tablerow>1</tablerow>			
 			<text>Enchant player
@@ -2068,9 +2068,9 @@ At the beginning of each end step, enchanted player puts the top X cards of his 
 		<card>			
 			<name>Swarm Intelligence</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_Ee0BL9C6KM.png" rarity="Rare">HOU</set>			
+			<color>U</color>			
 			<manacost>6U</manacost>			
 			<cmc>7</cmc>			
-			<color>U</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Whenever you cast an instant or sorcery spell, you may copy that spell.  You may choose new targets for the copy.</text>			
@@ -2078,10 +2078,10 @@ At the beginning of each end step, enchanted player puts the top X cards of his 
 		<card>			
 			<name>The Locust God</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/289/636335483416232829.png" rarity="Mythic Rare">HOU</set>			
-			<manacost>4UR</manacost>			
-			<cmc>6</cmc>			
 			<color>U</color>			
 			<color>R</color>			
+			<manacost>4UR</manacost>			
+			<cmc>6</cmc>			
 			<type>Legendary Creature - God</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
@@ -2103,9 +2103,9 @@ When The Locust God dies, return it to its owner's hand at the beginning of the 
 		<card>			
 			<name>Neheb, the Eternal</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_qEhCAQUHsp.png" rarity="Mythic Rare">HOU</set>			
+			<color>R</color>			
 			<manacost>3RR</manacost>			
 			<cmc>5</cmc>			
-			<color>R</color>			
 			<type>Legendary Creature - Zombie Minotaur Warrior</type>			
 			<pt>4/6</pt>			
 			<tablerow>2</tablerow>			
@@ -2115,9 +2115,9 @@ At the beginning of your postcombat main phase, add {R} to your mana pool for ea
 		<card>			
 			<name>Ramunap Hydra</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_G8BktVwfPd.png" rarity="Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>3G</manacost>			
 			<cmc>4</cmc>			
-			<color>G</color>			
 			<type>Creature - Snake Hydra</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -2139,9 +2139,9 @@ Ramunap Hydra gets +1/+1 as long as there is a Desert card in your graveyard.</t
 		<card>			
 			<name>Pride Sovereign</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_sQyGmWAB1p.png" rarity="Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Creature - Cat</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -2151,9 +2151,9 @@ Ramunap Hydra gets +1/+1 as long as there is a Desert card in your graveyard.</t
 		<card>			
 			<name>Oketra's Last Mercy</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_0HZOxu3e9R.png" rarity="Rare">HOU</set>			
+			<color>W</color>			
 			<manacost>1WW</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Your life total becomes your starting life total. Lands you control don't untap during your next untap phase</text>			
@@ -2174,9 +2174,9 @@ Ramunap Hydra gets +1/+1 as long as there is a Desert card in your graveyard.</t
 		<card>			
 			<name>Dreamstealer</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_bD2hO7N1fu.png" rarity="Rare">HOU</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Creature - Human Wizard</type>			
 			<pt>1/2</pt>			
 			<tablerow>2</tablerow>			
@@ -2189,9 +2189,9 @@ Eternalize {4bb} {4BB}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Supreme Will</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_eDe8r8i7Pr.png" rarity="Uncommon">HOU</set>			
+			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Choose one —
@@ -2201,9 +2201,9 @@ Eternalize {4bb} {4BB}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Khenra Scrapper</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_KMdxqcdNI6.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
-			<color>R</color>			
 			<type>Creature - Jackal Warrior</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -2214,39 +2214,39 @@ You may exert Khenra Scrapper as it attacks.  When you do, it gets +2/+0 until e
 		<card>			
 			<name>Nissa, Genesis Mage</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/171/636332532547280818.png" rarity="Mythic Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>5GG</manacost>			
 			<cmc>7</cmc>			
-			<color>G</color>			
 			<type>Planeswalker - Nissa</type>			
-			<loyalty>5</loyalty>			
 			<tablerow>1</tablerow>			
 			<text>+2: Untap up to two target creatures and up to two target lands.
 
 -3: Target creature gets +5/+5 until end of turn.
 
 -10: Look at the top ten cards of your library.  You may put any number of creature and/or land cards from among them onto the battlefield.  Put the rest on the bottom of your library in a random order.</text>			
+			<loyalty>5</loyalty>			
 		</card>		
 		<card>			
 			<name>Nicol Bolas, the Deceiver</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/170/636332530836145754.png" rarity="Mythic Rare">HOU</set>			
-			<manacost>5UBR</manacost>			
-			<cmc>8</cmc>			
 			<color>U</color>			
 			<color>B</color>			
 			<color>R</color>			
+			<manacost>5UBR</manacost>			
+			<cmc>8</cmc>			
 			<type>Planeswalker - Bolas</type>			
-			<loyalty>5</loyalty>			
 			<tablerow>1</tablerow>			
 			<text>+3: Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.
 -3: Destroy a creature. Draw a card.
 -11: Nicol Bolas, the Deciever deals 7 damage to each opponent. You draw seven cards.</text>			
+			<loyalty>5</loyalty>			
 		</card>		
 		<card>			
 			<name>Desert's Hold</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_hv4QCuB2vq.png" rarity="Uncommon">HOU</set>			
+			<color>W</color>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<type>Enchantment - Aura</type>			
 			<tablerow>1</tablerow>			
 			<text>Enchant creature
@@ -2257,10 +2257,10 @@ Enchanted creature can't attack or block, and its activated abilities can't be a
 		<card>			
 			<name>Grind // Dust</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_NSWhEB66tt.png" rarity="Rare">HOU</set>			
-			<manacost>1B // 3W</manacost>			
-			<cmc>2 // 4</cmc>			
 			<color>B</color>			
 			<color>W</color>			
+			<manacost>1B // 3W</manacost>			
+			<cmc>2 // 4</cmc>			
 			<type>Sorcery // Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Put a -1/-1 counter on each of up to two target creatures.
@@ -2271,9 +2271,9 @@ Exile any number of target creatures that have -1/-1 counters on them.</text>
 		<card>			
 			<name>Defiant Khenra</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_xveFKpkzIi.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
-			<color>R</color>			
 			<type>Creature - Jackal Warrior</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -2282,10 +2282,10 @@ Exile any number of target creatures that have -1/-1 counters on them.</text>
 		<card>			
 			<name>The Scorpion God</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/275/636334653373248819.png" rarity="Mythic Rare">HOU</set>			
-			<manacost>3BR</manacost>			
-			<cmc>5</cmc>			
 			<color>B</color>			
 			<color>R</color>			
+			<manacost>3BR</manacost>			
+			<cmc>5</cmc>			
 			<type>Legendary Creature - God</type>			
 			<pt>6/5</pt>			
 			<tablerow>2</tablerow>			
@@ -2298,9 +2298,9 @@ When The Scorpion God dies, return it to its owner's hand at the beginning of th
 		<card>			
 			<name>Angel of the God-Pharaoh</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/234/636334623022800647.png" rarity="Uncommon">HOU</set>			
+			<color>W</color>			
 			<manacost>4WW</manacost>			
 			<cmc>6</cmc>			
-			<color>W</color>			
 			<type>Creature - Angel</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
@@ -2310,9 +2310,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Inferno Jet</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_4VGmon365b.png" rarity="Uncommon">HOU</set>			
+			<color>R</color>			
 			<manacost>5R</manacost>			
 			<cmc>6</cmc>			
-			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Inferno Jet deals 6 damage to target opponent.
@@ -2322,9 +2322,9 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Sidewinder Naga</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_SlbK5wcKi2.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Creature - Naga Warrior</type>			
 			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
@@ -2335,31 +2335,31 @@ Cycling {2} {2}, Discard this card: Draw a card.)</text>
 			<set picURL="http://media.wizards.com/2017/hou/en_prltrw3Y0F.png" rarity="Common">HOU</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land - Desert</type>			
 			<tablerow>0</tablerow>			
 			<text>Desert of the True enters the battlefield tapped.
 {T}: Add {W} to your mana pool.
 Cycling {1}{W} {1}{W}, Discard this card: Draw a card.)</text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Desert of the Fervent</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_jV5NLAgDZq.png" rarity="Common">HOU</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land - Desert</type>			
 			<tablerow>0</tablerow>			
 			<text>Desert of the Fervent enters the battlefield tapped.
 {T}: Add {R} to your mana pool.
 Cycling {1}{R} {1}{R}, Discard this card: Draw a card.)</text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Hour of Revelation</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_zn5vpFywyj.png" rarity="Rare">HOU</set>			
+			<color>W</color>			
 			<manacost>3WWW</manacost>			
 			<cmc>6</cmc>			
-			<color>W</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Hour of Revelation costs {3} less to cast if there are ten or more nonland permanents on the battlefield.
@@ -2371,31 +2371,31 @@ Destroy all nonland permanents.</text>
 			<set picURL="http://media.wizards.com/2017/hou/en_oy7e76a0PO.png" rarity="Common">HOU</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land - Desert</type>			
 			<tablerow>0</tablerow>			
 			<text>Desert of the Glorified enters the battlefield tapped.
 {T}: Add {B} to your mana pool.
 Cycling {1}{B} {1}{B}, Discard this card: Draw a card.)</text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Desert of the Mindful</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_5SLenOUbXE.png" rarity="Common">HOU</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land - Desert</type>			
 			<tablerow>0</tablerow>			
 			<text>Desert of the Mindful enters the battlefield tapped.
 {T}: Add {U} to your mana pool.
 Cycling {1}{U} {1}{U}, Discard this card: Draw a card.)</text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Gilded Cerodon</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_lXIchS4YnT.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>4R</manacost>			
 			<cmc>5</cmc>			
-			<color>R</color>			
 			<type>Creature - Beast</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
@@ -2404,9 +2404,9 @@ Cycling {1}{U} {1}{U}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Carrion Screecher</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_YpqvmcFwLu.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Creature - Zombie Bird</type>			
 			<pt>3/1</pt>			
 			<tablerow>2</tablerow>			
@@ -2415,9 +2415,9 @@ Cycling {1}{U} {1}{U}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Sand Strangler</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_k3iTVewa1B.png" rarity="Uncommon">HOU</set>			
+			<color>R</color>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
-			<color>R</color>			
 			<type>Creature - Beast</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -2426,9 +2426,9 @@ Cycling {1}{U} {1}{U}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Open Fire</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_0Bn6BqroZ0.png" rarity="Common">HOU</set>			
+			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
-			<color>R</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Open Fire does 3 damage to target creature or player.</text>			
@@ -2438,20 +2438,20 @@ Cycling {1}{U} {1}{U}, Discard this card: Draw a card.)</text>
 			<set picURL="http://media.wizards.com/2017/hou/en_yzWNyRWCTl.png" rarity="Common">HOU</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<cipt>1</cipt>			
 			<type>Land - Desert</type>			
 			<tablerow>0</tablerow>			
 			<text>Desert of the Indomitable enters the battlefield tapped.
 {t}: Add {g} to your mana pool.
 
 Cycling {1g} {1g}, Discard this card: Draw a card.)</text>			
+			<cipt>1</cipt>			
 		</card>		
 		<card>			
 			<name>Accursed Horde</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_ACfEchqu3b.png" rarity="Uncommon">HOU</set>			
+			<color>B</color>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Creature - Zombie</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -2460,9 +2460,9 @@ Cycling {1g} {1g}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Oasis Ritualist</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_OqudZpvqrM.png" rarity="Common">HOU</set>			
+			<color>G</color>			
 			<manacost>3G</manacost>			
 			<cmc>4</cmc>			
-			<color>G</color>			
 			<type>Creature - Naga Druid</type>			
 			<pt>2/4</pt>			
 			<tablerow>2</tablerow>			
@@ -2473,9 +2473,9 @@ Cycling {1g} {1g}, Discard this card: Draw a card.)</text>
 		<card>			
 			<name>Steadfast Sentinel</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_0nhPN8uzVc.png" rarity="Common">HOU</set>			
+			<color>W</color>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
-			<color>W</color>			
 			<type>Creature - Human Cleric</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -2485,9 +2485,9 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Marauding Boneslasher</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/237/636334623961233397.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Creature - Zombie Minotaur</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
@@ -2496,9 +2496,9 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Khenra Eternal</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_oG3JO3ErST.png" rarity="Common">HOU</set>			
+			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
-			<color>B</color>			
 			<type>Creature - Zombie Jackal Warrior</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
@@ -2507,9 +2507,9 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Chandra's Defeat</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_7baykdkLJg.png" rarity="Uncommon">HOU</set>			
+			<color>R</color>			
 			<manacost>R</manacost>			
 			<cmc>1</cmc>			
-			<color>R</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Chandra’s Defeat deals 5 damage to target red creature or red planeswalker. If that permanent is a Chandra planeswalker, you may discard a card. If you do, draw a card.</text>			
@@ -2517,9 +2517,9 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Liliana's Defeat</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_jP9IgZIBea.png" rarity="Uncommon">HOU</set>			
+			<color>B</color>			
 			<manacost>B</manacost>			
 			<cmc>1</cmc>			
-			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target black creature or black planeswalker. If that permanent was a Liliana planeswalker, her controller loses 3 life.</text>			
@@ -2527,9 +2527,9 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Gideon's Defeat</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_OEUeMP3IsF.png" rarity="Uncommon">HOU</set>			
+			<color>W</color>			
 			<manacost>W</manacost>			
 			<cmc>1</cmc>			
-			<color>W</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Exile target white creature that's attacking or blocking. If it was a Gideon planeswalker, you gain 5 life.</text>			
@@ -2537,9 +2537,9 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Nissa's Defeat</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_wmTjOimAMS.png" rarity="Uncommon">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target Forest, green enchantment, or green planeswalker. If that permanent was a Nissa planeswalker, draw a card.</text>			
@@ -2547,9 +2547,9 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Jace's Defeat</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_kh1nTY0h7P.png" rarity="Uncommon">HOU</set>			
+			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
-			<color>U</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Counter target blue spell.  If it was a Jace planeswalker spell, scry 2.</text>			
@@ -2557,9 +2557,9 @@ Eternalize {4ww} {4ww}, Exile this card from your graveyard: Create a token that
 		<card>			
 			<name>Wildfire Eternal</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_uRec5w8Skm.png" rarity="Rare">HOU</set>			
+			<color>R</color>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
-			<color>R</color>			
 			<type>Creature - Zombie Jackal Cleric</type>			
 			<pt>1/4</pt>			
 			<tablerow>2</tablerow>			
@@ -2569,9 +2569,9 @@ Whenever Wildfire Eternal attacks and isn't blocked, you may cast an instant or 
 		<card>			
 			<name>Adorned Pouncer</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_yYKhYfRVop.png" rarity="Rare">HOU</set>			
+			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
-			<color>W</color>			
 			<type>Creature - Cat</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
@@ -2581,9 +2581,9 @@ Eternalize {3}{W}{W} {3}{W}{W}, Exile this card from your graveyard: Create a to
 		<card>			
 			<name>Abrade</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_ooGJTC8PlR.png" rarity="Uncommon">HOU</set>			
+			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
-			<color>R</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Choose one  —
@@ -2594,9 +2594,9 @@ Eternalize {3}{W}{W} {3}{W}{W}, Exile this card from your graveyard: Create a to
 		<card>			
 			<name>Ramunap Excavator</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_cBqQUYOBVz.png" rarity="Rare">HOU</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Creature - Naga Cleric</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -2605,39 +2605,39 @@ Eternalize {3}{W}{W} {3}{W}{W}, Exile this card from your graveyard: Create a to
 		<card>			
 			<name>Nicol Bolas, God-Pharaoh</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_AcVR8ovz3l.png" rarity="Mythic Rare">HOU</set>			
-			<manacost>4UBR</manacost>			
-			<cmc>7</cmc>			
 			<color>U</color>			
 			<color>B</color>			
 			<color>R</color>			
+			<manacost>4UBR</manacost>			
+			<cmc>7</cmc>			
 			<type>Planeswalker - Bolas</type>			
-			<loyalty>7</loyalty>			
 			<tablerow>1</tablerow>			
 			<text>+2: Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.
 +1: Each opponent exiles two cards from his or her hand.
 -4: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent or creature an opponent controls.
 -12: Exile each nonland permanent your opponents control.</text>			
+			<loyalty>7</loyalty>			
 		</card>		
 		<card>			
 			<name>Samut, the Tested</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_HypIb1SSWm.png" rarity="Mythic Rare">HOU</set>			
-			<manacost>2RG</manacost>			
-			<cmc>4</cmc>			
 			<color>R</color>			
 			<color>G</color>			
+			<manacost>2RG</manacost>			
+			<cmc>4</cmc>			
 			<type>Planeswalker - Samut</type>			
-			<loyalty>4</loyalty>			
 			<tablerow>1</tablerow>			
 			<text>+1: Up to one target creature gains double strike until end of turn.
 -2: Samut, the Tested deals 2 damage divided as you choose among one or two target creatures and/or players.
 -7: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle your library.</text>			
+			<loyalty>4</loyalty>			
 		</card>		
 		<card>			
 			<name>Bontu's Last Reckoning</name>			
 			<set picURL="http://media.wizards.com/2017/hou/en_5SY97pBWjQ.png" rarity="Rare">HOU</set>			
+			<color>B</color>			
 			<manacost>1BB</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy all creatures. Lands you control don't untap during your next untap step.</text>			
@@ -2645,10 +2645,10 @@ Eternalize {3}{W}{W} {3}{W}{W}, Exile this card from your graveyard: Create a to
 		<card>			
 			<name>The Scarab God</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/391/636338161738992409.png" rarity="Mythic Rare">MPS_AKH</set>			
-			<manacost>3UB</manacost>			
-			<cmc>5</cmc>			
 			<color>U</color>			
 			<color>B</color>			
+			<manacost>3UB</manacost>			
+			<cmc>5</cmc>			
 			<type>Legendary Creature - God</type>			
 			<pt>5/5</pt>			
 			<tablerow>2</tablerow>			
@@ -2661,10 +2661,10 @@ When The Scarab God dies, return it to its owner's hand at the beginning of the 
 		<card>			
 			<name>The Locust God</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/289/636335483416232829.png" rarity="Mythic Rare">MPS_AKH</set>			
-			<manacost>4UR</manacost>			
-			<cmc>6</cmc>			
 			<color>U</color>			
 			<color>R</color>			
+			<manacost>4UR</manacost>			
+			<cmc>6</cmc>			
 			<type>Legendary Creature - God</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
@@ -2676,9 +2676,9 @@ When The Locust God dies, return it to its owner's hand at the beginning of the 
 		<card>			
 			<name>Thoughtseize</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/268/636334652448249866.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>B</color>			
 			<manacost>B</manacost>			
 			<cmc>1</cmc>			
-			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.</text>			
@@ -2686,9 +2686,9 @@ When The Locust God dies, return it to its owner's hand at the beginning of the 
 		<card>			
 			<name>Armageddon</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/254/636334648875305661.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>W</color>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
-			<color>W</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy all lands.</text>			
@@ -2696,9 +2696,9 @@ When The Locust God dies, return it to its owner's hand at the beginning of the 
 		<card>			
 			<name>Threads of Disloyalty</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/260/636334651055914628.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>U</color>			
 			<manacost>1UU</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Enchantment — Aura</type>			
 			<tablerow>1</tablerow>			
 			<text>Enchant creature with converted mana cost 2 or less
@@ -2707,9 +2707,9 @@ You control enchanted creature.</text>
 		<card>			
 			<name>Omniscience</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/257/636334650613418202.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>U</color>			
 			<manacost>7UUU</manacost>			
 			<cmc>10</cmc>			
-			<color>U</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>You may cast spells from your hand without paying their mana costs.</text>			
@@ -2717,9 +2717,9 @@ You control enchanted creature.</text>
 		<card>			
 			<name>Doomsday</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/265/636334652072467924.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>B</color>			
 			<manacost>BBB</manacost>			
 			<cmc>3</cmc>			
-			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Search your library and graveyard for five cards and exile the rest. Put the chosen cards on top of your library in any order. You lose half your life, rounded up.</text>			
@@ -2727,9 +2727,9 @@ You control enchanted creature.</text>
 		<card>			
 			<name>Boil</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/270/636334652739812556.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>R</color>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
-			<color>R</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy all Islands.</text>			
@@ -2737,9 +2737,9 @@ You control enchanted creature.</text>
 		<card>			
 			<name>Through the Breach</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/272/636334652971375819.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>R</color>			
 			<manacost>4R</manacost>			
 			<cmc>5</cmc>			
-			<color>R</color>			
 			<type>Instant — Arcane</type>			
 			<tablerow>3</tablerow>			
 			<text>You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
@@ -2748,9 +2748,9 @@ Splice onto Arcane {2}{R}{R} As you cast an Arcane spell, you may reveal this ca
 		<card>			
 			<name>Sunder</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/259/636334650910915977.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>U</color>			
 			<manacost>3UU</manacost>			
 			<cmc>5</cmc>			
-			<color>U</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Return all lands to their owners' hands.</text>			
@@ -2758,9 +2758,9 @@ Splice onto Arcane {2}{R}{R} As you cast an Arcane spell, you may reveal this ca
 		<card>			
 			<name>Diabolic Edict</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/264/636334651941997864.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
-			<color>B</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Target player sacrifices a creature.</text>			
@@ -2768,10 +2768,10 @@ Splice onto Arcane {2}{R}{R} As you cast an Arcane spell, you may reveal this ca
 		<card>			
 			<name>The Scorpion God</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/275/636334653373248819.png" rarity="Mythic Rare">MPS_AKH</set>			
-			<manacost>3BR</manacost>			
-			<cmc>5</cmc>			
 			<color>B</color>			
 			<color>R</color>			
+			<manacost>3BR</manacost>			
+			<cmc>5</cmc>			
 			<type>Legendary Creature - God</type>			
 			<pt>6/5</pt>			
 			<tablerow>2</tablerow>			
@@ -2784,9 +2784,9 @@ When The Scorpion God dies, return it to its owner's hand at the beginning of th
 		<card>			
 			<name>Forbid</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/256/636334650452638988.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>U</color>			
 			<manacost>1UU</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Buyback—Discard two cards. You may discard two cards in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves.)
@@ -2795,9 +2795,9 @@ Counter target spell.</text>
 		<card>			
 			<name>Slaughter Pact</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/267/636334652325594295.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>B</color>			
 			<manacost/>			
 			<cmc>0</cmc>			
-			<color>B</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target nonblack creature.
@@ -2806,9 +2806,9 @@ At the beginning of your next upkeep, pay {2}{B}. If you don't, you lose the gam
 		<card>			
 			<name>Choke</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/273/636334653072938400.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
-			<color>G</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Islands don't untap during their controllers' untap steps.</text>			
@@ -2816,9 +2816,9 @@ At the beginning of your next upkeep, pay {2}{B}. If you don't, you lose the gam
 		<card>			
 			<name>Avatar of Woe</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/261/636334651403253347.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>B</color>			
 			<manacost>6BB</manacost>			
 			<cmc>8</cmc>			
-			<color>B</color>			
 			<type>Creature — Avatar</type>			
 			<pt>6/5</pt>			
 			<tablerow>2</tablerow>			
@@ -2829,9 +2829,9 @@ Fear This creature can't be blocked except by artifact creatures and/or black cr
 		<card>			
 			<name>Shatterstorm</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/271/636334652842781590.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>R</color>			
 			<manacost>2RR</manacost>			
 			<cmc>4</cmc>			
-			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy all artifacts. They can't be regenerated.</text>			
@@ -2839,10 +2839,10 @@ Fear This creature can't be blocked except by artifact creatures and/or black cr
 		<card>			
 			<name>Lord of Extinction</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/274/636334653217780292.png" rarity="Mythic Rare">MPS_AKH</set>			
-			<manacost>3BG</manacost>			
-			<cmc>5</cmc>			
 			<color>B</color>			
 			<color>G</color>			
+			<manacost>3BG</manacost>			
+			<cmc>5</cmc>			
 			<type>Creature — Elemental</type>			
 			<pt>*/*</pt>			
 			<tablerow>2</tablerow>			
@@ -2851,9 +2851,9 @@ Fear This creature can't be blocked except by artifact creatures and/or black cr
 		<card>			
 			<name>Opposition</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/258/636334650727323558.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>U</color>			
 			<manacost>2UU</manacost>			
 			<cmc>4</cmc>			
-			<color>U</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Tap an untapped creature you control: Tap target artifact, creature, or land.</text>			
@@ -2861,9 +2861,9 @@ Fear This creature can't be blocked except by artifact creatures and/or black cr
 		<card>			
 			<name>No Mercy</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/266/636334652183406450.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>B</color>			
 			<manacost>2BB</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Whenever a creature deals damage to you, destroy it.</text>			
@@ -2871,9 +2871,9 @@ Fear This creature can't be blocked except by artifact creatures and/or black cr
 		<card>			
 			<name>Capsize</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/255/636334650198107949.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>U</color>			
 			<manacost>1UU</manacost>			
 			<cmc>3</cmc>			
-			<color>U</color>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Buyback {3} You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
@@ -2882,9 +2882,9 @@ Return target permanent to its owner's hand.</text>
 		<card>			
 			<name>Desolation Angel</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/263/636334651758405843.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>B</color>			
 			<manacost>3BB</manacost>			
 			<cmc>5</cmc>			
-			<color>B</color>			
 			<type>Creature — Angel</type>			
 			<pt>5/4</pt>			
 			<tablerow>2</tablerow>			
@@ -2895,9 +2895,9 @@ When Desolation Angel enters the battlefield, destroy all lands you control. If 
 		<card>			
 			<name>Blood Moon</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/269/636334652617470386.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
-			<color>R</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Nonbasic lands are Mountains.</text>			
@@ -2905,9 +2905,9 @@ When Desolation Angel enters the battlefield, destroy all lands you control. If 
 		<card>			
 			<name>Damnation</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/132/262/636334651614033195.png" rarity="Mythic Rare">MPS_AKH</set>			
+			<color>B</color>			
 			<manacost>2BB</manacost>			
 			<cmc>4</cmc>			
-			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy all creatures. They can't be regenerated.</text>			
