@@ -109,7 +109,7 @@ def error_check(mtgjson, card_corrections={}):
                     {"name": card['name'], "key": key, "missing": True})
         if 'text' in card:
             card['text'] = card['text'].replace('<i>', '').replace(
-                '</i>', '').replace('<em>', '').replace('</em', '').replace('(', '').replace('&bull;', u'•')
+                '</i>', '').replace('<em>', '').replace('</em', '').replace('&bull;', u'•')
         if 'type' in card:
             if 'Planeswalker' in card['type']:
                 if not 'loyalty' in card:
