@@ -93,7 +93,19 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
 
     mtgjson = {"cards": mtgjson2}
 
+    for card in mtgjson['cards']:
+        if '{' in card['text']:
+            card['text'] = re.sub(r'{(.*?)}', replace_costs, card['text'])
     return mtgjson
+
+
+def replace_costs(match):
+    full_cost = match.group(1)
+    individual_costs = []
+    if len(full_cost) > 0:
+        for x in range(0, len(full_cost)):
+            individual_costs.append('{' + str(full_cost[x]).upper() + '}')
+    return ''.join(individual_costs)
 
 
 def error_check(mtgjson, card_corrections={}):
