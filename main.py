@@ -91,7 +91,7 @@ def verify_xml(file, schema):
     try:
         schema_doc = etree.fromstring(schema)
     except Exception as e:
-        print "XSD is invalid"
+        print "XSD for " + file + " is invalid"
         print schema
         print e
         return False
@@ -111,7 +111,6 @@ def verify_xml(file, schema):
             print error
         return False
     return True
-    #return xml_schema.validate(xml_doc)
 
 
 if __name__ == '__main__':
