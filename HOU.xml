@@ -120,7 +120,7 @@ Cycling {2}  ({2}, Discard this card: Draw a card.)</text>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
 <text>Hexproof (This creature can't be the target of spells or abilities your opponents control.)
-Cycling {u} ({u}, Discard this card: Draw a card.)</text>
+Cycling {U} ({U}, Discard this card: Draw a card.)</text>
 </card>
 <card>
 <name>Unquenchable Thirst</name>
@@ -569,7 +569,7 @@ When Aven of Enduring Hope enters the battlefield, you gain 3 life.</text>
 <type>Creature - Zombie Beast</type>
 <pt>4/2</pt>
 <tablerow>2</tablerow>
-<text>Cycling {b} ({b}, Discard this card: Draw a card.)</text>
+<text>Cycling {B} ({B}, Discard this card: Draw a card.)</text>
 </card>
 <card>
 <name>Harrier Naga</name>
@@ -1057,7 +1057,7 @@ Whenever you cycle or discard a card,target creature an opponent controls gets -
 <tablerow>3</tablerow>
 <text>Search your library for a card and put that card into your hand. Then shuffle your library.
 
-Cycling {b} ({B}, Discard this card: Draw a card.)</text>
+Cycling {B} ({B}, Discard this card: Draw a card.)</text>
 </card>
 <card>
 <name>Endless Sands</name>
@@ -1066,9 +1066,9 @@ Cycling {b} ({B}, Discard this card: Draw a card.)</text>
 <cmc>0</cmc>
 <type>Land - Desert</type>
 <tablerow>0</tablerow>
-<text>{t}: Add {c} to your mana pool.
-{2}, {t}: Exile target creature you control.
-{4}, {t}, Sacrifice Endless Sands: Return each creature exiled with Endless Sands to the battlefield under its owner's control.</text>
+<text>{T}: Add {C} to your mana pool.
+{2}, {T}: Exile target creature you control.
+{4}, {T}, Sacrifice Endless Sands: Return each creature exiled with Endless Sands to the battlefield under its owner's control.</text>
 </card>
 <card>
 <name>Hour of Promise</name>
@@ -1154,9 +1154,9 @@ Whenever you cast a spell with converted mana cost equal to the number of doom c
 <cmc>0</cmc>
 <type>Land - Desert</type>
 <tablerow>0</tablerow>
-<text>{t}: Add {c} to your mana pool.
-{t}, Pay 1 life: Add {g} to your mana pool.
-{1}{g}{g}, {t}, Sacrifice a Desert: Target creature gets +3/+3 until end of turn. Activate this ability only any time you could cast a sorcery.</text>
+<text>{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add {G} to your mana pool.
+{1}{G}{G}, {T}, Sacrifice a Desert: Target creature gets +3/+3 until end of turn. Activate this ability only any time you could cast a sorcery.</text>
 </card>
 <card>
 <name>Hollow One</name>
@@ -1218,7 +1218,7 @@ Tap up to two target creatures your opponents control.  Creatures you control ga
 <tablerow>2</tablerow>
 <text>When Champion of Wits enters the battlefield, you may draw cards equal to its power. If you do, discard two cards.
 
-Eternalize {5UU}  ({5uu}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Naga Wizard with no mana cost. Eternalize only as a sorcery.)</text>
+Eternalize {5}{U}{U}  ({5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Naga Wizard with no mana cost. Eternalize only as a sorcery.)</text>
 </card>
 <card>
 <name>Overwhelming Splendor</name>
@@ -1378,7 +1378,7 @@ When you cycle Nimble Obstructionist, counter target activated or triggered abil
 <tablerow>2</tablerow>
 <text>When Resilient Khenra enters the battlefield, you may have target creature get +X/+X until end of turn, where X is Resilient Khenra's power.
 
-Eternalize {4GG} ({4gg}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Jackal Wizard with no mana cost. Eternalize only as a sorcery.)</text>
+Eternalize {4}{G}{G} ({4}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Jackal Wizard with no mana cost. Eternalize only as a sorcery.)</text>
 </card>
 <card>
 <name>Earthshaker Khenra</name>
@@ -1391,7 +1391,7 @@ Eternalize {4GG} ({4gg}, Exile this card from your graveyard: Create a token tha
 <tablerow>2</tablerow>
 <text>Haste
 When Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.
-Eternalize {4RR} ({4rr}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)</text>
+Eternalize {4}{R}{R} ({4}{R}{R}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)</text>
 </card>
 <card>
 <name>Razaketh, the Foulblooded</name>
@@ -1539,7 +1539,7 @@ If a source would deal damage to a planeswalker you control, prevent 1 of that d
 <tablerow>2</tablerow>
 <text>At the beginning of your upkeep, each opponent loses X life and you scry X, where X is the number of Zombies you control.
 
-{2UB}: Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 4/4 black Zombie.
+{2}{U}{B}: Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 4/4 black Zombie.
 
 When The Scarab God dies, return it to its owner's hand at the beginning of the next upkeep.</text>
 </card>
@@ -1701,7 +1701,7 @@ Until end of turn, creatures you control gain menace and "Whenever this creature
 <cmc>0</cmc>
 <type>Land - Desert</type>
 <tablerow>0</tablerow>
-<text>{T}: Add {c} to your mana pool.
+<text>{T}: Add {C} to your mana pool.
 {2}, Exile a land card from your graveyard: Hostile Desert becomes a 3/4 Elemental creature until end of turn. It's still a land.</text>
 </card>
 <card>
@@ -1711,7 +1711,7 @@ Until end of turn, creatures you control gain menace and "Whenever this creature
 <cmc>2</cmc>
 <type>Artifact</type>
 <tablerow>1</tablerow>
-<text>{1}, {t}: Exile target card from a graveyard.
+<text>{1}, {T}: Exile target card from a graveyard.
 
 {1}, Exile Crook of Condemnation: Exile all cards from all graveyards.</text>
 </card>
@@ -1820,7 +1820,7 @@ Ramunap Hydra gets +1/+1 as long as there is a Desert card in your graveyard.</t
 <pt>2/2</pt>
 <tablerow>2</tablerow>
 <text>Pride Sovereign gets +1/+1 for each other Cat you control.
-{w}, {t}, Exert Pride Sovereign: Create two 1/1 white Cat creature tokens with lifelink. (An exerted creature won't untap during your next untap step.)</text>
+{W}, {T}, Exert Pride Sovereign: Create two 1/1 white Cat creature tokens with lifelink. (An exerted creature won't untap during your next untap step.)</text>
 </card>
 <card>
 <name>Oketra's Last Mercy</name>
@@ -1858,7 +1858,7 @@ Ramunap Hydra gets +1/+1 as long as there is a Desert card in your graveyard.</t
 
 When Dreamstealer deals combat damage to a player, that player discards that many cards.
 
-Eternalize {4bb} ({4BB}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)</text>
+Eternalize {4}{B}{B} ({4}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)</text>
 </card>
 <card>
 <name>Supreme Will</name>
@@ -2116,9 +2116,9 @@ Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)</text>
 <type>Land - Desert</type>
 <tablerow>0</tablerow>
 <text>Desert of the Indomitable enters the battlefield tapped.
-{t}: Add {g} to your mana pool.
+{T}: Add {G} to your mana pool.
 
-Cycling {1g} ({1g}, Discard this card: Draw a card.)</text>
+Cycling {1}{G} ({1}{G}, Discard this card: Draw a card.)</text>
 </card>
 <card>
 <name>Accursed Horde</name>
@@ -2129,7 +2129,7 @@ Cycling {1g} ({1g}, Discard this card: Draw a card.)</text>
 <type>Creature - Zombie</type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>{1b}: Target attacking Zombie gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)</text>
+<text>{1}{B}: Target attacking Zombie gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)</text>
 </card>
 <card>
 <name>Oasis Ritualist</name>
@@ -2140,9 +2140,9 @@ Cycling {1g} ({1g}, Discard this card: Draw a card.)</text>
 <type>Creature - Naga Druid</type>
 <pt>2/4</pt>
 <tablerow>2</tablerow>
-<text>{t}: Add one mana of any color to your mana pool.
+<text>{T}: Add one mana of any color to your mana pool.
 
-{t}, Exert Oasis Ritualist: Add two mana of any one color to your manna pool. (An exerted creature won't untap during your next untap step.)</text>
+{T}, Exert Oasis Ritualist: Add two mana of any one color to your manna pool. (An exerted creature won't untap during your next untap step.)</text>
 </card>
 <card>
 <name>Steadfast Sentinel</name>
@@ -2154,7 +2154,7 @@ Cycling {1g} ({1g}, Discard this card: Draw a card.)</text>
 <pt>2/3</pt>
 <tablerow>2</tablerow>
 <text>Vigilance
-Eternalize {4ww} ({4ww}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Human Cleric with no mana cost. Eternalize only as a sorcery.)</text>
+Eternalize {4}{W}{W} ({4}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's 4/4 black Zombie Human Cleric with no mana cost. Eternalize only as a sorcery.)</text>
 </card>
 <card>
 <name>Marauding Boneslasher</name>
