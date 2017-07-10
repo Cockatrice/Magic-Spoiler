@@ -117,7 +117,7 @@ if __name__ == '__main__':
     combinedjson = {}
     for setinfo in setinfos:
         if setinfo['code'] in AllSets:
-            print "Found set from set_info.yml " +setinfo['code']+ " in MTGJSON, not adding it"
+            print "Found " +setinfo['code']+ " set from set_info.yml in MTGJSON, not adding it"
             continue
         if presets['oldRSS'] or 'noRSS' in setinfo and setinfo['noRSS']:
             mtgs = {"cards": []}
