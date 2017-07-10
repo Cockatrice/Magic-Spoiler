@@ -14,7 +14,7 @@ before_install:
 install:
   - pip install -r requirements.txt
 
-script: bash /.travis/deploy.sh
+script: bash ./.travis/deploy.sh
 
 after_script:
   - sleep 10 # helps travis finish logging
