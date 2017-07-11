@@ -107,6 +107,7 @@ def verify_xml(file, schema):
         print "Errors validating XML file " + file + " against XSD:"
         for error in xsd_errors:
             print error
+        sys.exit("Error: " + file + " does not pass Cockatrice XSD validation.")
         return False
     return True
 
