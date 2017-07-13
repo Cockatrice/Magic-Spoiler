@@ -18,6 +18,9 @@ script: bash ./.travis/deploy.sh
 
 after_script:
   - sleep 10 # helps travis finish logging
+  - ps -A
+  - sleep 30
+  - ps -A
 
 notifications:
   email: false
