@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import spoilers
-import mtgs_scraper
-import scryfall_scraper
-import mythic_scraper
-import wizards_scraper
+import scraper_mtgs
+import scraper_scryfall
+import scraper_mythic
+import scraper_wizards
 import os
 import json
 import io
@@ -123,20 +123,20 @@ if __name__ == '__main__':
         if presets['oldRSS'] or 'noRSS' in setinfo and setinfo['noRSS']:
             mtgs = {"cards": []}
         else:
-            mtgs = mtgs_scraper.scrape_mtgs(
+            mtgs = scraper_mtgs.scrape_mtgs(
                 'http://www.mtgsalvation.com/spoilers.rss')  # scrape mtgs rss feed
-            mtgs = mtgs_scraper.parse_mtgs(mtgs, setinfo=setinfo)  # parse spoilers into mtgjson format
+            mtgs = scraper_mtgs.parse_mtgs(mtgs, setinfo=setinfo)  # parse spoilers into mtgjson format
         mtgs = spoilers.correct_cards(
             mtgs, manual_sets[setinfo['code']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(
             mtgs, presets['isfullspoil'], setinfo['code'], setinfo['name'], setinfo['size'], setinfo)  # get images
         if presets['scryfallComparison']:
-            scryfall = scryfall_scraper.get_scryfall(
+            scryfall = scraper_scryfall.get_scryfall(
                 'https://api.scryfall.com/cards/search?q=++e:' + setinfo['code'].lower())
-            mtgjson = scryfall_scraper.smash_mtgs_scryfall(mtgs, scryfall)
+            mtgjson = scraper_scryfall.smash_mtgs_scryfall(mtgs, scryfall)
         if 'fullSpoil' in setinfo and setinfo['fullSpoil']:
-            wotc = wizards_scraper.scrape_fullspoil('', setinfo)
-            wizards_scraper.smash_fullspoil(mtgjson, wotc)
+            wotc = scraper_wizards.scrape_fullspoil('', setinfo)
+            scraper_wizards.smash_fullspoil(mtgjson, wotc)
         [mtgjson, errors] = spoilers.error_check(
             mtgjson, card_corrections)  # check for errors where possible
         errorlog += errors

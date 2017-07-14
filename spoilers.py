@@ -5,7 +5,7 @@ import os
 from lxml import html
 import datetime
 import json
-import mtgs_scraper
+import scraper_mtgs
 import xml.dom.minidom
 
 
@@ -346,7 +346,7 @@ def get_image_urls(mtgjson, isfullspoil, code, name, size=269, setinfo=False):
             WOTC.append(c['name'])
     if setinfo:
         if 'mtgsurl' in setinfo and 'mtgscardpath' in setinfo:
-            mtgsImages = mtgs_scraper.scrape_mtgs_images(
+            mtgsImages = scraper_mtgs.scrape_mtgs_images(
                 setinfo['mtgsurl'], setinfo['mtgscardpath'], WOTC)
             for card in mtgjson['cards']:
                 if card['name'] in mtgsImages:
