@@ -42,10 +42,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], rela
             cards.remove(card)
 
     # if we didn't find any cards, let's bail out to prevent overwriting good data
-    count = 0
-    for card in cards:
-        count = count + 1
-    if count < 1:
+    if len(cards) < 1:
         sys.exit("No cards found, exiting to prevent file overwrite")
 
     cards2 = []
