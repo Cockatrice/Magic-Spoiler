@@ -23,7 +23,7 @@ presets = {
     "useexclusively": '',  # if we *only* want to use one site TODO
     "dumpXML": False,  # let travis print XML for testing
     # if we want to debug compare scryfall to other sources, enable
-    "scryfallComparison": False,
+    "scryfallComparison": True,
     "dumpErrors": True  # print the error log from out/errors.json
 }
 
@@ -133,7 +133,7 @@ if __name__ == '__main__':
         if presets['scryfallComparison']:
             scryfall = scryfall_scraper.get_scryfall(
                 'https://api.scryfall.com/cards/search?q=++e:' + setinfo['code'].lower())
-            mtgjson = scryfall_scraper.smash_mtgs_scryfall(mtgs, scryfall)
+            mtgjson = scryfall_scraper.smash_mtgs_scryfall(scryfall, scryfall)
         if 'fullSpoil' in setinfo and setinfo['fullSpoil']:
             wotc = wizards_scraper.scrape_fullspoil('', setinfo)
             wizards_scraper.smash_fullspoil(mtgjson, wotc)
