@@ -16,14 +16,9 @@ presets = {
     "isfullspoil": False,  # when full spoil comes around, we only want to use WOTC images
     "includeMasterpieces": True,  # if the set has masterpieces, let's get those too
     "oldRSS": False,  # maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
-    # if we want to use one site before another for card data TODO
-    "siteorder": ['scryfall', 'mtgs', 'mythicspoiler'],
-    # prioritize images from certain sources
-    "imageorder": ['wotc', 'scryfall', 'mtgs', 'mythicspoiler'],
-    "useexclusively": '',  # if we *only* want to use one site TODO
     "dumpXML": False,  # let travis print XML for testing
-    # if we want to debug compare scryfall to other sources, enable
-    "scryfallComparison": False,
+    # only use Scryfall data (no mtgs for ANY sets)
+    "scryfallOnly": False,
     "dumpErrors": True  # print the error log from out/errors.json
 }
 
@@ -130,10 +125,10 @@ if __name__ == '__main__':
             mtgs, manual_sets[setinfo['code']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(
             mtgs, presets['isfullspoil'], setinfo['code'], setinfo['name'], setinfo['size'], setinfo)  # get images
-        if presets['scryfallComparison']:
+        if presets['scryfallOnly'] or 'scryfallOnly' in setinfo and setinfo['scryfallOnly']:
             scryfall = scryfall_scraper.get_scryfall(
                 'https://api.scryfall.com/cards/search?q=++e:' + setinfo['code'].lower())
-            mtgjson = scryfall_scraper.smash_mtgs_scryfall(mtgs, scryfall)
+            mtgjson = scryfall #_scraper.smash_mtgs_scryfall(mtgs, scryfall)
         if 'fullSpoil' in setinfo and setinfo['fullSpoil']:
             wotc = wizards_scraper.scrape_fullspoil('', setinfo)
             wizards_scraper.smash_fullspoil(mtgjson, wotc)
