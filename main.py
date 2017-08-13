@@ -23,7 +23,7 @@ presets = {
     "useexclusively": '',  # if we *only* want to use one site TODO
     "dumpXML": False,  # let travis print XML for testing
     # if we want to debug compare scryfall to other sources, enable
-    "scryfallComparison": False,
+    "scryfallOnly": True,
     "dumpErrors": True  # print the error log from out/errors.json
 }
 
@@ -130,10 +130,10 @@ if __name__ == '__main__':
             mtgs, manual_sets[setinfo['code']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(
             mtgs, presets['isfullspoil'], setinfo['code'], setinfo['name'], setinfo['size'], setinfo)  # get images
-        if presets['scryfallComparison']:
+        if presets['scryfallOnly']:
             scryfall = scryfall_scraper.get_scryfall(
                 'https://api.scryfall.com/cards/search?q=++e:' + setinfo['code'].lower())
-            mtgjson = scryfall_scraper.smash_mtgs_scryfall(mtgs, scryfall)
+            mtgjson = scryfall #_scraper.smash_mtgs_scryfall(mtgs, scryfall)
         if 'fullSpoil' in setinfo and setinfo['fullSpoil']:
             wotc = wizards_scraper.scrape_fullspoil('', setinfo)
             wizards_scraper.smash_fullspoil(mtgjson, wotc)
