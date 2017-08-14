@@ -23,7 +23,7 @@
 # alternativeNames: ["Same as set long name, but minus 'Masterpiece Series:'"]
 #
 
-#missing explanation for: noBooster, noRSS
+#missing explanation for: noBooster, noRSS, "xOnly" options
 
 ---
 code: "C17"
@@ -33,6 +33,7 @@ releaseDate: "2017-08-25"
 type: "commander"
 #noRSS: true
 noBooster: true
+scryfallOnly: true
 ---
 code: "XLN"
 name: "Ixalan"
@@ -41,4 +42,5 @@ size: 279
 releaseDate: "2017-09-29"
 type: "expansion"
 noRSS: true
+mythicOnly: true
 ---

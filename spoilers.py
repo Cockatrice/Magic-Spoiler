@@ -482,7 +482,7 @@ def write_xml(mtgjson, code, name, releaseDate):
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
 
-    print 'XML Stats for ' + name
+    print 'XML Stats for ' + code
     print 'Total cards: ' + str(count)
     if dfccount > 0:
         print 'DFC: ' + str(dfccount)
