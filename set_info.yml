@@ -49,14 +49,16 @@ block: "Ixalan"
 size: 279
 releaseDate: "2017-09-29"
 type: "expansion"
-noRSS: true
-mythicOnly: true
+mtgsurl: "http://www.mtgsalvation.com/spoilers/185-ixalan"
+mtgscardpath: "http://www.mtgsalvation.com/cards/ixalan"
+fullSpoil: false
+# masterpieces:
+#   code: "MPS_?"
+#   name: "Masterpiece Series: ?"
+#   releaseDate: "2017-09-29"
+#   alternativeNames: ["?"]
+#   galleryURL: "?"
+#   additionalCardNames: []
+#   mtgsurl: "?"
+#   mtgscardpath: "?"
 ---
-code: "C17"
-name: "Commander 2017"
-size: 309
-releaseDate: "2017-08-25"
-type: "commander"
-noRSS: true
-noBooster: true
-scryfallOnly: true
