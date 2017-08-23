@@ -1,3 +1,77 @@
+#
+### How to Use: #########################################################
+#                                                                       #
+#    Each card that you want to manually add has to be                  #
+#     * in its correct set block                                        #
+#                                                                       #
+#    Each set block has to start with                                   #
+#     * set code                                                        #
+#     * followed by a colon (":")                                       #
+#                                                                       #
+#    Each set block consist out of                                      #
+#     * a list of cards                                                 #
+#                                                                       #
+#    Each card in the list has to start with                            #
+#     * 2 leading spaces ("  ")                                         #
+#     * a dash ("-") to open an new array for each card                 #
+#                                                                       #
+#    Each new card has to consist out of                                #
+#     * a new line                                                      #
+#     * 4 leading spaces ("    ")                                       #
+#     * card attribute                                                  #
+#     * followed by a colon (":")                                       #
+#     * additional space (" ")                                          #
+#     * value for that attribute                                        #
+#                                                                       #
+### Hints: ##############################################################
+#                                                                       #
+#  * Each card attribute you want your card to have needs its own line  #
+#  * Indentation is critical, two spaces per indentation                #
+#                                                                       #
+### Form: ###############################################################
+#                                                                       #
+#set code:                                                              #
+#  -                                                                    #
+#    card field to add: value                                           #
+#    card field to add: value                                           #
+#    card field to add: value                                           #
+#  -                                                                    #
+#    card field to add: value                                           #
+#    card field to add: value                                           #
+#                                                                       #
+### Example Entry: ######################################################
+#                                                                       #
+#XLN:                                                                   #
+#  -                                                                    #
+#    name: Haven Raptor                                                 #
+#    manaCost: 2GG                                                      #
+#    number: 0                                                          #
+#    rarity: Rare                                                       #
+#    type: Creature - Dinosaur                                          #
+#    url: http://mythicspoiler.com/ixa/cards/havenraptor.jpg            #
+#    text: Tough - Whenever Haven Raptor is dealt damage, draw a card.  #
+#    cmc: 4                                                             #
+#    power: 4                                                           #
+#    toughness: 5                                                       #
+#  -                                                                    #
+#    name: Vraska's Contempt                                            #
+#    manaCost: 2BB                                                      #
+#    number: 0                                                          #
+#    rarity: Rare                                                       #
+#    type: Instant                                                      #
+#    url: http://mythicspoiler.com/ixa/cards/vraskascontempt.jpg        #
+#    text: Exile target creature or planeswalker. You gain 2 life.      #
+#    cmc: 4                                                             #
+#                                                                       #
+#########################################################################
+# never remove this part of the file, since it will break otherwise     #
+SetBlockAndCardList:                                                    #
+  -                                                                     #
+    must not be empty!                                                  #
+#########################################################################
+#
+# Enter cards that should be added manually below. But note the syntax hints on top!
+#
 XLN:
   -
     name: Haven Raptor
