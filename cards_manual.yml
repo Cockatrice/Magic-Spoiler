@@ -1,32 +1,43 @@
 
 ### How to Use: #########################################################
 #                                                                       #
-#    Each set block has to start with                                   #
-#     * 2 leading spaces ("  ")                                         #
-#     * a dash ("-") to open an new array for each new card             #
+#    Each card that you want to manually add has to be                  #
+#     * in its correct set block                                        #
 #                                                                       #
-#    Each card has to consist out of                                    #
+#    Each set block has to start with                                   #
+#     * set code                                                        #
+#     * followed by a colon (":")                                       #
+#                                                                       #
+#    Each set block consist out of                                      #
+#     * a list of cards                                                 #
+#                                                                       #
+#    Each card in the list has to start with                            #
+#     * 2 leading spaces ("  ")                                         #
+#     * a dash ("-") to open an new array for each card                 #
+#                                                                       #
+#    Each new card has to consist out of                                #
 #     * a new line                                                      #
 #     * 4 leading spaces ("    ")                                       #
 #     * card attribute                                                  #
-#     * colon (":")                                                     #
+#     * followed by a colon (":")                                       #
 #     * additional space (" ")                                          #
 #     * value for that attribute                                        #
 #                                                                       #
-### Hint: ###############################################################
+### Hints: ##############################################################
 #                                                                       #
-#   Each card that you want to manually add has to be in a set block    #
+#  * Each card attribute you want your card to have needs its own line  #
+#  * Indentation is critical, two spaces per indentation                #
 #                                                                       #
 ### Form: ###############################################################
 #                                                                       #
-#SetCode:                                                               #
+#set code:                                                              #
 #  -                                                                    #
-#    CardAttribute1 for Card1: Value                                    #
-#    CardAttribute2 for Card1: Value                                    #
-#    CardAttribute3 for Card1: Value                                    #
+#    card field to add: value                                           #
+#    card field to add: value                                           #
+#    card field to add: value                                           #
 #  -                                                                    #
-#    CardAttribute1 for Card2: Value                                    #
-#    CardAttribute2 for Card2: Value                                    #
+#    card field to add: value                                           #
+#    card field to add: value                                           #
 #                                                                       #
 ### Example Entry: ######################################################
 #                                                                       #

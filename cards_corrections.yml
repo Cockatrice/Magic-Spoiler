@@ -1,24 +1,41 @@
 
 ### How to Use: #########################################################
-# Objects to be fixed                                                              #
 #                                                                       #
+#    Each card to fix has to be                                         #
+#     * in its own new array                                            #
 #                                                                       #
-### Hint: ###############################################################
+#    Each card array starts with                                        #
+#     * a space (" ")                                                   #
+#     * exact card name                                                 #
+#     * followed by a colon (":")                                       #
 #                                                                       #
-# Indentation is critical, two spaces per indentation ???                          #
+#    Each card array consist out of                                     #
+#     * a list of corrected fields                                      #
+#                                                                       #
+#    Each card corrections consist out of                               #
+#     * 3 leading spaces ("   ")                                        #
+#     * card attribute with wrong value                                 #
+#     * followed by a colon (":")                                       #
+#     * additional space (" ")                                          #
+#     * new value for that attribute                                    #
+#                                                                       #
+### Hints: ##############################################################
+#                                                                       #
+#  * Indentation is critical, two spaces per indentation                #
 #                                                                       #
 ### Form: ###############################################################
 #                                                                       #
-# Card Name:                                                            #
-#   field to fix: new value                                             #
+#card name:                                                             #
+#  field to fix: new value                                              #
 #                                                                       #
 ### Example Entries: ####################################################
 #                                                                       #
-# Jace, the Planeswalker:                                               #
-#   loyalty: 5                                                          #
-#   manaCost: 1UUB                                                      #
+#Jace, the Planeswalker:                                                #
+#  loyalty: 5                                                           #
+#  manaCost: 1UUB                                                       #
 #                                                                       #
-# aery
+#Terror:                                                                #
+#  type: Instant                                                        #
 #                                                                       #
 ### Explanation of Fields and their Values: #############################
 #                                                                       #
