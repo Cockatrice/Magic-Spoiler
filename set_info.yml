@@ -1,4 +1,5 @@
-# Each new set should be separated by three dashes "---"
+# Every set needs to start with three dashes "---" above its information.
+# No closing dashes after each set or at the end of the file needed!
 #
 # required keys
 #
@@ -22,8 +23,27 @@
 #
 # alternativeNames: ["Same as set long name, but minus 'Masterpiece Series:'"]
 #
-
-#missing explanation for: noBooster, noRSS and "mythicOnly" / "scryfallOnly" options
+#
+# Example "Hour of Devastation" info with leading dashes and masterpieces, scraped from mtgs:
+# ---
+# code: "HOU"
+# name: "Hour of Devastation"
+# block: "Amonkhet"
+# size: 199
+# releaseDate: "2017-07-14"
+# type: "expansion"
+# mtgsurl: "http://www.mtgsalvation.com/spoilers/183-hour-of-devastation"
+# mtgscardpath: "http://www.mtgsalvation.com/cards/hour-of-devastation/"
+# fullSpoil: false
+# masterpieces:
+#   code: "MPS_AKH"
+#   name: "Masterpiece Series: Amonkhet Invocations"
+#   releaseDate: "2017-04-28"
+#   alternativeNames: ["Amonkhet Invocations"]
+#   galleryURL: "http://magic.wizards.com/en/articles/archive/feature/masterpiece-series-hour-devastation-invocations-2017-06-19"
+#   additionalCardNames: []
+#   mtgsurl: "http://www.mtgsalvation.com/spoilers/181-amonkhet-invocations"
+#   mtgscardpath: "http://www.mtgsalvation.com/cards/amonkhet-invocations/"
 
 ---
 code: "XLN"
@@ -32,6 +52,15 @@ block: "Ixalan"
 size: 279
 releaseDate: "2017-09-29"
 type: "expansion"
-noRSS: true
-mythicOnly: true
----
+mtgsurl: "http://www.mtgsalvation.com/spoilers/185-ixalan"
+mtgscardpath: "http://www.mtgsalvation.com/cards/ixalan"
+fullSpoil: false
+# masterpieces:
+#   code: "MPS_?"
+#   name: "Masterpiece Series: ?"
+#   releaseDate: "2017-09-29"
+#   alternativeNames: ["?"]
+#   galleryURL: "?"
+#   additionalCardNames: []
+#   mtgsurl: "?"
+#   mtgscardpath: "?"
