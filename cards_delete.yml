@@ -1,10 +1,35 @@
-# each card to delete should be a new line, two spaces, a -, a space, card name
-# cards that begin/end with a space or contain a colon need quoted
-#
-# ex
-# delete:
-#   - Not a Real Card
-#   - " Test Card "
 
-delete:
-  - Cannot be empty
+### How to Use: #########################################################
+#                                                                       #
+#    Each card to delete has to be                                      #
+#     * in its own new line                                             #
+#                                                                       #
+#    Each line has to consist out of                                    #
+#     * 2 leading spaces ("  ")                                         #
+#     * a dash ("-")                                                    #
+#     * additional space (" ")                                          #
+#     * exact card name                                                 #
+#                                                                       #
+### Hints: ##############################################################
+#                                                                       #
+#  * Cards that begin/end with spaces or contain a colon need quoted    #
+#  * Indentation is critical, two spaces per indentation                #
+#                                                                       #
+### Form: ###############################################################
+#                                                                       #
+#  - card name                                                          #
+#                                                                       #
+### Example Entry: ######################################################
+#                                                                       #
+#  - JUNK NAME TO DELETE                                                #
+#  - " Tocaf's Honor Guard "                                            #
+#                                                                       #
+#########################################################################
+# never remove this part of the file, since it will break otherwise     #
+delete:                                                                 #
+  - must not be empty!                                                  #
+#########################################################################
+
+# Enter cards that should be deleted below. But note the syntax hints on top!
+
+  
