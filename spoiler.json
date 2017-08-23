@@ -27,6 +27,647 @@
     "border":"black",
     "cards":[
       {
+        "cmc":5,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"3WW",
+        "name":"Bishop of Rebirth",
+        "number":"0",
+        "power":3,
+        "rarity":"Rare",
+        "subtypes":[
+          "Vampire",
+          "Cleric"
+        ],
+        "text":"Whenever Bishop of Rebirth attacks, you may return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.",
+        "toughness":4,
+        "type":"Creature — Vampire Cleric",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/bishopofrebirth.jpg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"1UU",
+        "name":"Kopala, Warden of Waves",
+        "number":"?",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Merfolk",
+          "Wizard"
+        ],
+        "text":" Spells your opponents cast that target a Merfolk you control cost {1} more to cast.\n\nAbilities your opponents activate that target a Merfolk you control cost {1} more to activate.",
+        "toughness":"2",
+        "type":"Legendary Creature — Merfolk Wizard",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"BB",
+        "name":"Walk the Plank",
+        "number":"130",
+        "rarity":"Uncommon",
+        "text":"Destroy target non-Merfolk creature.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":""
+      },
+      {
+        "cmc":0,
+        "name":"Unclaimed Territory",
+        "number":"258",
+        "rarity":"Uncommon",
+        "text":"As Unclaimed Territory enters the battlefield, choose a creature type.\n\n{T}: Add {C} to your mana pool.\n\n{T}: Add one mana of any color to your mana pool.  Spend this mana only to cast a creature spell of the chosen type.",
+        "type":"Land",
+        "types":[
+          "Land"
+        ],
+        "url":""
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"3RRR",
+        "name":"Burning Sun's Avatar",
+        "number":"135",
+        "power":"6",
+        "rarity":"Rare",
+        "subtypes":[
+          "Dinosaur",
+          "Avatar"
+        ],
+        "text":"When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent and 3 damage to up to one target creature. ",
+        "toughness":"6",
+        "type":"Creature — Dinosaur Avatar",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"G",
+        "name":"Old-Growth Dryads",
+        "number":"?",
+        "power":"3",
+        "rarity":"Rare",
+        "subtypes":[
+          "Dryad"
+        ],
+        "text":"When Old-Growth Dryads enters the battlefield, each opponent may search his or her library for a basic land card, put it onto the battlefield tapped, then shuffle his or her library.",
+        "toughness":"3",
+        "type":"Creature — Dryad",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"1W",
+        "name":"Ashes of the Abhorrent",
+        "number":"0",
+        "rarity":"Rare",
+        "subtypes":[
+          "Vampire",
+          "Cleric"
+        ],
+        "text":"Players can't cast spells from graveyards or active abilities of cards in graveyards.\\nWhenever a creature dies, you gain 1 life.",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/ashesoftheabhorrent.jpg"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2WW",
+        "name":"Settle the Wreckage",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Exile all attacking creatures target player controls. That player may search his or her library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle his or her library.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":""
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"W",
+        "name":"Priest of the Wandering Sun",
+        "number":"?",
+        "power":"1",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Cleric"
+        ],
+        "text":"At the beginning of your upkeep, you may reveal a Dinosaur card from your hand. If you do, gain 2 life.\n\n{3}{W}{W}, Sacrifice Priest of the Wandering Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle your library.",
+        "toughness":"1",
+        "type":"Creature — Human Cleric",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"XWW",
+        "name":"Sanguine Sacrament",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"You gain twice X life. Put Sanguine Sacrament on the bottom of its owner's library. ",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":""
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"4UU",
+        "name":"River's Rebuke",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Return all nonland permanents target player controls to that owner's hand. ",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":""
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2BB",
+        "name":"Vraska's Contempt",
+        "number":"0",
+        "rarity":"Rare",
+        "subtypes":[
+          "Orc",
+          "Pirate"
+        ],
+        "text":"Exile target creature or planeswalker. You gain 2 life.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/vraskascontempt.jpg"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"B",
+        "name":"Deadeye Tracker",
+        "number":"?",
+        "power":"1",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)",
+        "toughness":"1",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"1B",
+        "name":"Fathom Fleet Captain",
+        "number":"?",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Menace \n\nWhenever Fathom Fleet Captain attacks, if you control another attacking Pirate, you may pay 2. If you do, create a 2/2 black Pirate creature token with lifelink. ",
+        "toughness":"1",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":7,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"5BB",
+        "name":"Boneyard Parley",
+        "number":"?",
+        "rarity":"Mythic Rare",
+        "text":"Exile up to five target creature cards from graveyards. An opponent seperates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the other into their owner's graveyards.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":""
+      },
+      {
+        "cmc":8,
+        "colorIdentity":[
+          "W",
+          "R",
+          "G"
+        ],
+        "colors":[
+          "White",
+          "Red",
+          "Green"
+        ],
+        "manaCost":"5RGW",
+        "name":"Gishark, Sun's Avatar",
+        "number":"?",
+        "power":"7",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Dinosaur",
+          "Avatar"
+        ],
+        "text":"Trample, vigilance, haste \n\nWhen Gishark, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.",
+        "toughness":"6",
+        "type":"Legendary Creature — Dinosaur Avatar",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"2R",
+        "name":"Tilomalli's Skinshifter",
+        "number":"?",
+        "power":"0",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Shaman"
+        ],
+        "text":"Haste\n\nWhenever Tilomalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn.",
+        "toughness":"1",
+        "type":"Creature — Human Shaman",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"1W",
+        "name":" Tocaf's Honor Guard ",
+        "number":"?",
+        "power":"1",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Soldier"
+        ],
+        "text":"Creatures entering the battlefield don't cause abilities to trigger. ",
+        "toughness":"2",
+        "type":"Creature — Human Soldier",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "U",
+          "B",
+          "R"
+        ],
+        "colors":[
+          "Blue",
+          "Black",
+          "Red"
+        ],
+        "manaCost":"1UBR",
+        "name":"Admiral Beckett Brass",
+        "number":"?",
+        "power":"3",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Other Pirates you control get +1/+1. \n\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.",
+        "toughness":"3",
+        "type":"Legendary Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"5R",
+        "name":"Sunbird's Invocation",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's converted mana cost. You may cast a card revealed this way with converted mana cost X or less without paying its mana cost. Put the rest on the bottom of your library in a random order.",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":""
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2W",
+        "name":"Mynea Frian, Dark Apostle ",
+        "number":"?",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Vampire",
+          "Cleric"
+        ],
+        "text":"Whenever one or more nontoken Vampires you control attack, create a 1/1 white Vampire creature token with lifelink.\n",
+        "toughness":"2",
+        "type":"Legendary Creature — Vampire Cleric",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":7,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"5RR",
+        "name":"Star of Extinction",
+        "number":"?",
+        "rarity":"Mythic Rare",
+        "text":" Destroy target land. Star of Extinction deals 20 damage to each creature and each planeswalker.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":""
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"3RR",
+        "name":"Aegriah's Marauders",
+        "number":"?",
+        "power":"4",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead. ",
+        "toughness":"4",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"2U",
+        "name":"Herald of Seven Servants",
+        "number":"?",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Merfolk",
+          "Warrior"
+        ],
+        "text":"Creatures you control with +1/+1 counters on them can't be blocked. ",
+        "toughness":"3",
+        "type":"Creature — Merfolk Warrior",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"G",
+        "name":"Shaper's Sanctuary",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may draw a card. ",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":""
+      },
+      {
+        "cmc":7,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"5GG",
+        "name":"Verdant Sun's Avatar",
+        "number":"?",
+        "power":"5",
+        "rarity":"Rare",
+        "subtypes":[
+          "Dinosaur",
+          "Avatar"
+        ],
+        "text":"Whenever Verdant Sun's Avatar or another creature enters the battlefield under your control, you gain life equal to that creature's toughness. ",
+        "toughness":"5",
+        "type":"Creature — Dinosaur Avatar",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"4GG",
+        "name":"Carnage Tyrant",
+        "number":"?",
+        "power":"7",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Carnage Tyrant can't be countered. \n\nTrample, hexproof",
+        "toughness":"6",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2GG",
+        "name":"Waker of the Wilds",
+        "number":"?",
+        "power":"3",
+        "rarity":"Rare",
+        "subtypes":[
+          "Merfolk",
+          "Shaman"
+        ],
+        "text":"{X}{G}{G}: Put X +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It's still a land. ",
+        "toughness":"3",
+        "type":"Creature — Merfolk Shaman",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
         "cmc":4,
         "colorIdentity":[
           "G"
@@ -49,6 +690,92 @@
           "Creature"
         ],
         "url":"http://mythicspoiler.com/ixa/cards/havenraptor.jpg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"2W",
+        "name":"~Kimalla's Sunwing",
+        "number":"?",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Flying\nCreatures your opponents control enter the battlefield tapped.",
+        "toughness":"3",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"5G",
+        "name":"Emperor's Vanguard",
+        "number":"?",
+        "power":"4",
+        "rarity":"Rare",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Whenever Emperor's Vanguard deals combat damage to a player, explore. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.) ",
+        "toughness":"3",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"XUU",
+        "name":"Evaporating Melody",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Gain control of target creature with converted mana cost X. ",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":""
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"4B",
+        "name":"Revel in Riches",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\" \n\nAt the beginning of your upkeep, if you control ten or more Treasures, you win the game.",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":""
       },
       {
         "cmc":0,
@@ -76,70 +803,20 @@
           "Black"
         ],
         "manaCost":"3BB",
-        "name":"Ogre Hand Ravager",
-        "number":"0",
-        "power":4,
-        "rarity":"Rare",
+        "name":"Ogre Fleet Ravager",
+        "number":"?",
+        "rarity":"Mythic Rare",
         "subtypes":[
           "Orc",
           "Pirate",
           "Wizard"
         ],
-        "text":"When Ogre Hand Ravager enters the battlefield, each player loses a third of his or her life, rounded up.",
-        "toughness":4,
+        "text":"Creature - Orc Pirate Wizard\nMenace, deathtouch\n\nWhen Ogre Fleet Ravager enters the battlefield, each player loses a third of his or her life, rounded up. ",
         "type":"Creature — Orc Pirate Wizard",
         "types":[
           "Creature"
         ],
-        "url":"http://mythicspoiler.com/ixa/cards/ogrehandravager.jpg"
-      },
-      {
-        "cmc":5,
-        "colorIdentity":[
-          "W"
-        ],
-        "colors":[
-          "White"
-        ],
-        "manaCost":"3WW",
-        "name":"Bishop of Rebirth",
-        "number":"0",
-        "power":3,
-        "rarity":"Rare",
-        "subtypes":[
-          "Vampire",
-          "Cleric"
-        ],
-        "text":"Whenever Bishop of Rebirth attacks, you may return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.",
-        "toughness":4,
-        "type":"Creature — Vampire Cleric",
-        "types":[
-          "Creature"
-        ],
-        "url":"http://mythicspoiler.com/ixa/cards/bishopofrebirth.jpg"
-      },
-      {
-        "cmc":2,
-        "colorIdentity":[
-          "W"
-        ],
-        "colors":[
-          "White"
-        ],
-        "manaCost":"1W",
-        "name":"Ashes of the Abhorrent",
-        "number":"0",
-        "rarity":"Rare",
-        "subtypes":[
-          "Vampire",
-          "Cleric"
-        ],
-        "text":"Players can't cast spells from graveyards or active abilities of cards in graveyards.\\nWhenever a creature dies, you gain 1 life.",
-        "type":"Enchantment",
-        "types":[
-          "Enchantment"
-        ],
-        "url":"http://mythicspoiler.com/ixa/cards/ashesoftheabhorrent.jpg"
+        "url":""
       },
       {
         "cmc":2,
@@ -243,28 +920,106 @@
         "url":"http://mythicspoiler.com/ixa/cards/hostagetaker.jpg"
       },
       {
-        "cmc":6,
+        "cmc":0,
         "colorIdentity":[
-          "G"
+          "G",
+          "W"
         ],
-        "colors":[
-          "Green"
-        ],
-        "manaCost":"5G",
-        "name":"Emperor's Vnguard",
+        "name":"Sunpetal Grove",
         "number":"0",
-        "power":4,
         "rarity":"Rare",
         "subtypes":[
-          "Unknown"
+          "Human",
+          "Pirate"
         ],
-        "text":"Whenever Emperor's Vanguard ???",
-        "toughness":3,
-        "type":"Creature — Unknown",
+        "text":"Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.\n{T}: Add {G} or {W} to your mana pool.",
+        "type":"Land",
+        "types":[
+          "Land"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/sunpetalgrove.jpg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2B",
+        "name":"Ruin Raider",
+        "number":"0",
+        "power":"?",
+        "rarity":"Rare",
+        "subtypes":[
+          "Orc",
+          "Pirate"
+        ],
+        "text":"Raid - At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put that card into your hand. You lose life equal to that card's converted mana cost.",
+        "toughness":"?",
+        "type":"Creature — Orc Pirate",
         "types":[
           "Creature"
         ],
-        "url":"http://mythicspoiler.com/ixa/cards/emperorsvanguard.jpg"
+        "url":"http://mythicspoiler.com/ixa/cards/ruinraider.jpg"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "R",
+          "G"
+        ],
+        "name":"Rootbound Crag",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G} to your mana pool.",
+        "type":"Land",
+        "types":[
+          "Land"
+        ],
+        "url":""
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"3RR",
+        "name":"Rowdy Crew",
+        "number":"0",
+        "power":3,
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Goblin",
+          "Pirate"
+        ],
+        "text":"Trample\\nWhen Rowdy Crew enters the battlefield, draw three cards, then discard 2 cards at random. If two cards that share a type are discarded this way, put two +1/+1 counters on Rowdy Crew.",
+        "toughness":3,
+        "type":"Creature — Goblin Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/rowdycrew.jpg"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "W",
+          "U"
+        ],
+        "name":"Glacial Fortress",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U} to your mana pool.",
+        "type":"Land",
+        "types":[
+          "Land"
+        ],
+        "url":""
       },
       {
         "cmc":0,
@@ -303,79 +1058,6 @@
           "Land"
         ],
         "url":"http://mythicspoiler.com/ixa/cards/dragonskullsummit.jpg"
-      },
-      {
-        "cmc":3,
-        "colorIdentity":[
-          "B"
-        ],
-        "colors":[
-          "Black"
-        ],
-        "manaCost":"2B",
-        "name":"Ruin Raider",
-        "number":"0",
-        "power":"?",
-        "rarity":"Rare",
-        "subtypes":[
-          "Orc",
-          "Pirate"
-        ],
-        "text":"Raid - At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put that card into your hand. You lose life equal to that card's converted mana cost.",
-        "toughness":"?",
-        "type":"Creature — Orc Pirate",
-        "types":[
-          "Creature"
-        ],
-        "url":"http://mythicspoiler.com/ixa/cards/ruinraider.jpg"
-      },
-      {
-        "cmc":4,
-        "colorIdentity":[
-          "B"
-        ],
-        "colors":[
-          "Black"
-        ],
-        "manaCost":"2BB",
-        "name":"Vraska's Contempt",
-        "number":"0",
-        "rarity":"Rare",
-        "subtypes":[
-          "Orc",
-          "Pirate"
-        ],
-        "text":"Exile target creature or planeswalker. You gain 2 life.",
-        "type":"Instant",
-        "types":[
-          "Instant"
-        ],
-        "url":"http://mythicspoiler.com/ixa/cards/vraskascontempt.jpg"
-      },
-      {
-        "cmc":5,
-        "colorIdentity":[
-          "R"
-        ],
-        "colors":[
-          "Red"
-        ],
-        "manaCost":"3RR",
-        "name":"Rowdy Crew",
-        "number":"0",
-        "power":3,
-        "rarity":"Mythic Rare",
-        "subtypes":[
-          "Goblin",
-          "Pirate"
-        ],
-        "text":"Trample\\nWhen Rowdy Crew enters the battlefield, draw three cards, then discard 2 cards at random. If two cards that share a type are discarded this way, put two +1/+1 counters on Rowdy Crew.",
-        "toughness":3,
-        "type":"Creature — Goblin Pirate",
-        "types":[
-          "Creature"
-        ],
-        "url":"http://mythicspoiler.com/ixa/cards/rowdycrew.jpg"
       },
       {
         "cmc":4,
@@ -493,26 +1175,6 @@
         "url":"http://mythicspoiler.com/ixa/cards/sorcerousspyglass.jpg"
       },
       {
-        "cmc":0,
-        "colorIdentity":[
-          "G",
-          "W"
-        ],
-        "name":"Sunpetal Grove",
-        "number":"0",
-        "rarity":"Rare",
-        "subtypes":[
-          "Human",
-          "Pirate"
-        ],
-        "text":"Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.\n{T}: Add {G} or {W} to your mana pool.",
-        "type":"Land",
-        "types":[
-          "Land"
-        ],
-        "url":"http://mythicspoiler.com/ixa/cards/sunpetalgrove.jpg"
-      },
-      {
         "cmc":5,
         "manaCost":"5",
         "name":"Vanquisher's Banner",
@@ -528,6 +1190,56 @@
           "Artifact"
         ],
         "url":"http://mythicspoiler.com/ixa/cards/vanquishersbanner.jpg"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"3BB",
+        "name":"Ogre Hand Ravager",
+        "number":"0",
+        "power":4,
+        "rarity":"Rare",
+        "subtypes":[
+          "Orc",
+          "Pirate",
+          "Wizard"
+        ],
+        "text":"When Ogre Hand Ravager enters the battlefield, each player loses a third of his or her life, rounded up.",
+        "toughness":4,
+        "type":"Creature — Orc Pirate Wizard",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/ogrehandravager.jpg"
+      },
+      {
+        "cmc":6,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"5G",
+        "name":"Emperor's Vnguard",
+        "number":"0",
+        "power":4,
+        "rarity":"Rare",
+        "subtypes":[
+          "Unknown"
+        ],
+        "text":"Whenever Emperor's Vanguard ???",
+        "toughness":3,
+        "type":"Creature — Unknown",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/emperorsvanguard.jpg"
       }
     ],
     "code":"XLN",
