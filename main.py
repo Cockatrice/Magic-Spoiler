@@ -121,7 +121,6 @@ if __name__ == '__main__':
             mtgs = mtgs_scraper.scrape_mtgs(
                 'http://www.mtgsalvation.com/spoilers.rss')  # scrape mtgs rss feed
             mtgs = mtgs_scraper.parse_mtgs(mtgs, setinfo=setinfo)  # parse spoilers into mtgjson format
-        print manual_sets
         if manual_sets and manual_sets != '' and setinfo['code'] in manual_sets:
             manual_cards = manual_sets[setinfo['code']]
         else:
