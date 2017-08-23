@@ -1,18 +1,21 @@
 
 ### How to Use: #########################################################
 #                                                                       #
-#    Each card to correct has to be                                     #
-#     * in its own new block                                            #
+#    Each set block has to start with                                   #
+#     * 2 leading spaces ("  ")                                         #
+#     * a dash ("-") to open an new array for each new card             #
 #                                                                       #
-#    Each block has to consist out of                                   #
-#     * 2 leading Spaces ("  ")                                         #
-#     * a Dash ("-")                                                    #
-#     * additional Space (" ")                                          #
-#     * Card Name                                                       #
+#    Each card has to consist out of                                    #
+#     * a new line                                                      #
+#     * 4 leading spaces ("    ")                                       #
+#     * card attribute                                                  #
+#     * colon (":")                                                     #
+#     * additional space (" ")                                          #
+#     * value for that attribute                                        #
 #                                                                       #
 ### Hint: ###############################################################
 #                                                                       #
-#        #
+#   Each card that you want to manually add has to be in a set block    #
 #                                                                       #
 ### Form: ###############################################################
 #                                                                       #
