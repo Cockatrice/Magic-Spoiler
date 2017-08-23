@@ -30,7 +30,10 @@
 # url: http://wizards.c0m/link/to/card.png
 #
 # Indentation is critical, two spaces per indentation
-
-cards:
-  - Cannot be empty
+#
+#########################################################################
+# never remove this part of the file, since it will break otherwise     #
+cards_corrections.yml:                                                  #
+  - Cannot be empty                                                     # 
+#########################################################################
 
