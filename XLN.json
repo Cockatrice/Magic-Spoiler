@@ -253,7 +253,7 @@
       "name":"River's Rebuke",
       "number":"?",
       "rarity":"Rare",
-      "text":"Return all nonland permanents target player controls to that owner's hand. ",
+      "text":"Return all nonland permanents target player controls to their owner's hand. ",
       "type":"Sorcery",
       "types":[
         "Sorcery"
@@ -325,7 +325,7 @@
         "Human",
         "Pirate"
       ],
-      "text":"Menace \n\nWhenever Fathom Fleet Captain attacks, if you control another attacking Pirate, you may pay 2. If you do, create a 2/2 black Pirate creature token with lifelink. ",
+      "text":"Menace \n\nWhenever Fathom Fleet Captain attacks, if you control another attacking Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.",
       "toughness":"1",
       "type":"Creature — Human Pirate",
       "types":[
@@ -373,7 +373,7 @@
         "Dinosaur",
         "Avatar"
       ],
-      "text":"Trample, vigilance, haste \n\nWhen Gishark, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.",
+      "text":"Trample, vigilance, haste \n\nWhenever Gishark, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.",
       "toughness":"6",
       "type":"Legendary Creature — Dinosaur Avatar",
       "types":[
@@ -699,7 +699,7 @@
         "White"
       ],
       "manaCost":"2W",
-      "name":"~Kimalla's Sunwing",
+      "name":"Kimalla's Sunwing",
       "number":"?",
       "power":"2",
       "rarity":"Rare",
@@ -730,7 +730,7 @@
       "subtypes":[
         "Dinosaur"
       ],
-      "text":"Whenever Emperor's Vanguard deals combat damage to a player, explore. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.) ",
+      "text":"Whenever Emperor's Vanguard deals combat damage to a player, explore. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)",
       "toughness":"3",
       "type":"Creature — Dinosaur",
       "types":[
@@ -802,7 +802,7 @@
         "Black"
       ],
       "manaCost":"3BB",
-      "name":"Ogre Fleet Ravager",
+      "name":"Dire Fleet Ravager",
       "number":"?",
       "rarity":"Mythic Rare",
       "subtypes":[
@@ -810,7 +810,7 @@
         "Pirate",
         "Wizard"
       ],
-      "text":"Creature - Orc Pirate Wizard\nMenace, deathtouch\n\nWhen Ogre Fleet Ravager enters the battlefield, each player loses a third of his or her life, rounded up. ",
+      "text":"Menace, deathtouch\n\nWhen Dire Fleet Ravager enters the battlefield, each player loses a third of his or her life, rounded up.",
       "type":"Creature — Orc Pirate Wizard",
       "types":[
         "Creature"

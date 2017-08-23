@@ -128,7 +128,7 @@ Abilities your opponents activate that target a Merfolk you control cost {1} mor
 			<color>U</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Return all nonland permanents target player controls to that owner's hand. </text>			
+			<text>Return all nonland permanents target player controls to their owner's hand. </text>			
 		</card>		
 		<card>			
 			<name>Vraska's Contempt</name>			
@@ -162,7 +162,7 @@ Abilities your opponents activate that target a Merfolk you control cost {1} mor
 			<tablerow>2</tablerow>			
 			<text>Menace 
 
-Whenever Fathom Fleet Captain attacks, if you control another attacking Pirate, you may pay 2. If you do, create a 2/2 black Pirate creature token with lifelink. </text>			
+Whenever Fathom Fleet Captain attacks, if you control another attacking Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.</text>			
 		</card>		
 		<card>			
 			<name>Boneyard Parley</name>			
@@ -187,7 +187,7 @@ Whenever Fathom Fleet Captain attacks, if you control another attacking Pirate, 
 			<tablerow>2</tablerow>			
 			<text>Trample, vigilance, haste 
 
-When Gishark, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.</text>			
+Whenever Gishark, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.</text>			
 		</card>		
 		<card>			
 			<name>Tilomalli's Skinshifter</name>			
@@ -339,7 +339,7 @@ Trample, hexproof</text>
 			<text>Tough - Whenever Haven Raptor is dealt damage, draw a card.</text>			
 		</card>		
 		<card>			
-			<name>~Kimalla's Sunwing</name>			
+			<name>Kimalla's Sunwing</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
@@ -359,7 +359,7 @@ Creatures your opponents control enter the battlefield tapped.</text>
 			<type>Creature — Dinosaur</type>			
 			<pt>4/3</pt>			
 			<tablerow>2</tablerow>			
-			<text>Whenever Emperor's Vanguard deals combat damage to a player, explore. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.) </text>			
+			<text>Whenever Emperor's Vanguard deals combat damage to a player, explore. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)</text>			
 		</card>		
 		<card>			
 			<name>Evaporating Melody</name>			
@@ -394,17 +394,16 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 			<text>Tiehana, Voice of Thunder's power and toughness are equal to the number of cards in your hand.\nYou have no maximum hand size.\nWhen Tiehana enters the battlefield, draw a card for each creature you control.</text>			
 		</card>		
 		<card>			
-			<name>Ogre Fleet Ravager</name>			
+			<name>Dire Fleet Ravager</name>			
 			<set picURL="" rarity="Mythic Rare">XLN</set>			
 			<manacost>3BB</manacost>			
 			<cmc>5</cmc>			
 			<color>B</color>			
 			<type>Creature — Orc Pirate Wizard</type>			
 			<tablerow>2</tablerow>			
-			<text>Creature - Orc Pirate Wizard
-Menace, deathtouch
+			<text>Menace, deathtouch
 
-When Ogre Fleet Ravager enters the battlefield, each player loses a third of his or her life, rounded up. </text>			
+When Dire Fleet Ravager enters the battlefield, each player loses a third of his or her life, rounded up.</text>			
 		</card>		
 		<card>			
 			<name>Deeproot Champion</name>			
