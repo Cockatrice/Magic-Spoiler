@@ -121,8 +121,12 @@ if __name__ == '__main__':
             mtgs = mtgs_scraper.scrape_mtgs(
                 'http://www.mtgsalvation.com/spoilers.rss')  # scrape mtgs rss feed
             mtgs = mtgs_scraper.parse_mtgs(mtgs, setinfo=setinfo)  # parse spoilers into mtgjson format
+        if not setinfo['code'] in manual_sets:
+            manual_cards = ['']
+        else:
+            manual_cards = manual_sets[setinfo['code']]
         mtgs = spoilers.correct_cards(
-            mtgs, manual_sets[setinfo['code']], card_corrections, delete_cards['delete'])  # fix using the fixfiles
+            mtgs, manual_cards, card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(
             mtgs, presets['isfullspoil'], setinfo['code'], setinfo['name'], setinfo['size'], setinfo)  # get images
         if presets['scryfallOnly'] or 'scryfallOnly' in setinfo and setinfo['scryfallOnly']:
