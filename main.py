@@ -125,7 +125,7 @@ if __name__ == '__main__':
         if manual_sets and manual_sets != '' and setinfo['code'] in manual_sets:
             manual_cards = manual_sets[setinfo['code']]
         else:
-            manual_cards = ['']
+            manual_cards = []
         mtgs = spoilers.correct_cards(
             mtgs, manual_cards, card_corrections, delete_cards['delete'])  # fix using the fixfiles
         mtgjson = spoilers.get_image_urls(
