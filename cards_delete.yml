@@ -5,6 +5,10 @@
 # delete:
 #   - Not a Real Card
 #   - " Test Card "
+#
+#########################################################################
+# never remove this part of the file, since it will break otherwise     #
+cards_delete.yml:                                                       #
+  - must not be empty!                                                  #
+#########################################################################
 
-delete:
-  - Cannot be empty
