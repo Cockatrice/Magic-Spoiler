@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Wed, Aug 23 2017, 17:35:03 (UTC)
+        created: Thu, Aug 24 2017, 17:35:13 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -102,7 +102,7 @@ Abilities your opponents activate that target a Merfolk you control cost {1} mor
 			<text>Exile all attacking creatures target player controls. That player may search his or her library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle his or her library.</text>			
 		</card>		
 		<card>			
-			<name>Priest of the Wandering Sun</name>			
+			<name>Priest of the Wakening Sun</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<color>W</color>			
 			<manacost>W</manacost>			
@@ -112,7 +112,7 @@ Abilities your opponents activate that target a Merfolk you control cost {1} mor
 			<tablerow>2</tablerow>			
 			<text>At the beginning of your upkeep, you may reveal a Dinosaur card from your hand. If you do, gain 2 life.
 
-{3}{W}{W}, Sacrifice Priest of the Wandering Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle your library.</text>			
+{3}{W}{W}, Sacrifice Priest of the Wakening Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Sanguine Sacrament</name>			
@@ -287,7 +287,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 			<text>Creatures you control with +1/+1 counters on them can't be blocked. </text>			
 		</card>		
 		<card>			
-			<name>Shaper's Sanctuary</name>			
+			<name>Shapers' Sanctuary</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<color>G</color>			
 			<manacost>G</manacost>			
@@ -363,7 +363,7 @@ Creatures your opponents control enter the battlefield tapped.</text>
 			<type>Creature — Dinosaur</type>			
 			<pt>4/3</pt>			
 			<tablerow>2</tablerow>			
-			<text>Whenever Emperor's Vanguard deals combat damage to a player, explore. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)</text>			
+			<text>Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)</text>			
 		</card>		
 		<card>			
 			<name>Evaporating Melody</name>			
@@ -404,6 +404,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 			<manacost>3BB</manacost>			
 			<cmc>5</cmc>			
 			<type>Creature — Orc Pirate Wizard</type>			
+			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
 			<text>Menace, deathtouch
 

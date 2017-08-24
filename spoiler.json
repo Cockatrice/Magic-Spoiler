@@ -207,7 +207,7 @@
           "White"
         ],
         "manaCost":"W",
-        "name":"Priest of the Wandering Sun",
+        "name":"Priest of the Wakening Sun",
         "number":"?",
         "power":"1",
         "rarity":"Rare",
@@ -215,7 +215,7 @@
           "Human",
           "Cleric"
         ],
-        "text":"At the beginning of your upkeep, you may reveal a Dinosaur card from your hand. If you do, gain 2 life.\n\n{3}{W}{W}, Sacrifice Priest of the Wandering Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle your library.",
+        "text":"At the beginning of your upkeep, you may reveal a Dinosaur card from your hand. If you do, gain 2 life.\n\n{3}{W}{W}, Sacrifice Priest of the Wakening Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle your library.",
         "toughness":"1",
         "type":"Creature — Human Cleric",
         "types":[
@@ -583,7 +583,7 @@
           "Green"
         ],
         "manaCost":"G",
-        "name":"Shaper's Sanctuary",
+        "name":"Shapers' Sanctuary",
         "number":"?",
         "rarity":"Rare",
         "text":"Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may draw a card. ",
@@ -731,7 +731,7 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Whenever Emperor's Vanguard deals combat damage to a player, explore. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)",
+        "text":"Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)",
         "toughness":"3",
         "type":"Creature — Dinosaur",
         "types":[
@@ -805,6 +805,7 @@
         "manaCost":"3BB",
         "name":"Dire Fleet Ravager",
         "number":"?",
+        "power":"4",
         "rarity":"Mythic Rare",
         "subtypes":[
           "Orc",
@@ -812,6 +813,7 @@
           "Wizard"
         ],
         "text":"Menace, deathtouch\n\nWhen Dire Fleet Ravager enters the battlefield, each player loses a third of his or her life, rounded up.",
+        "toughness":"4",
         "type":"Creature — Orc Pirate Wizard",
         "types":[
           "Creature"
