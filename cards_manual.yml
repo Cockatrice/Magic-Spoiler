@@ -1,4 +1,4 @@
-#
+
 ### How to Use: #########################################################
 #                                                                       #
 #    Each card that you want to manually add has to be                  #
@@ -26,8 +26,8 @@
 ### Hints: ##############################################################
 #                                                                       #
 #  * Each card attribute you want your card to have needs its own line  #
+#  * Most important fields are: name, manaCost, rarity, type and url    #
 #  * Indentation is critical, two spaces per indentation                #
-#  * THIS FILE MUST NOT BE ALLOWED TO CONTAIN ANY EMPTY LINES           #
 #                                                                       #
 ### Form: ###############################################################
 #                                                                       #
@@ -35,9 +35,11 @@
 #  -                                                                    #
 #    card field to add: value                                           #
 #    card field to add: value                                           #
-#    card field to add: value                                           #
 #  -                                                                    #
 #    card field to add: value                                           #
+#                                                                       #
+#other set code:                                                        #
+#  -                                                                    #
 #    card field to add: value                                           #
 #                                                                       #
 ### Example Entry: ######################################################
@@ -46,10 +48,10 @@
 #  -                                                                    #
 #    name: Haven Raptor                                                 #
 #    manaCost: 2GG                                                      #
-#    number: 0                                                          #
+#    number: 0                                                <--- fix  #
 #    rarity: Rare                                                       #
 #    type: Creature - Dinosaur                                          #
-#    url: http://mythicspoiler.com/ixa/cards/havenraptor.jpg            #
+#    url: http://mythicspoiler.com/ixa/cards/havenraptor.jpg      <---  #
 #    text: Tough - Whenever Haven Raptor is dealt damage, draw a card.  #
 #    cmc: 4                                                             #
 #    power: 4                                                           #
@@ -57,15 +59,11 @@
 #  -                                                                    #
 #    name: Vraska's Contempt                                            #
 #    manaCost: 2BB                                                      #
-#    number: 0                                                          #
 #    rarity: Rare                                                       #
 #    type: Instant                                                      #
-#    url: http://mythicspoiler.com/ixa/cards/vraskascontempt.jpg        #
-#    text: Exile target creature or planeswalker. You gain 2 life.      #
-#    cmc: 4                                                             #
+#    url: http://mythicspoiler.com/ixa/cards/vraskascontempt.jpg  <---  #
 #                                                                       #
 #########################################################################
 
-#
 # Enter cards that should be added manually directly below. But note the syntax hints on top!
-#
+
