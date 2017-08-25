@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Thu, Aug 24 2017, 17:35:13 (UTC)
+        created: Fri, Aug 25 2017, 17:35:45 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,72 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Fathom Fleet Plundering</name>			
+			<set picURL="" rarity="Rare">XLN</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays ? life. Then exile the rest.</text>			
+		</card>		
+		<card>			
+			<name>Fleet Swallower</name>			
+			<set picURL="" rarity="Rare">XLN</set>			
+			<color>U</color>			
+			<manacost>3UU</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Fish</type>			
+			<pt>4/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Fleet Swallower attacks, target player puts the top half of his or her library, rounded up, into his or her graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Wakening Sun's Avatar</name>			
+			<set picURL="" rarity="Mythic Rare">XLN</set>			
+			<color>W</color>			
+			<manacost>5WWW</manacost>			
+			<cmc>8</cmc>			
+			<type>Creature — Dinosaur Avatar</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Wakening Sun's Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures.</text>			
+		</card>		
+		<card>			
+			<name>Regisaur Alpha</name>			
+			<set picURL="" rarity="Rare">XLN</set>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>3RG</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Other Dinosaurs you control have haste.
+
+When Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature token with trample.</text>			
+		</card>		
+		<card>			
+			<name>Deathgorge Scavenger</name>			
+			<set picURL="" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard.  If a creature card is exiled this way, you gain 2 life.  If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Spell Swindle</name>			
+			<set picURL="" rarity="Rare">XLN</set>			
+			<color>U</color>			
+			<manacost>3UU</manacost>			
+			<cmc>5</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target spell.  Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
 		<card>			
 			<name>Bishop of Rebirth</name>			
 			<set picURL="http://mythicspoiler.com/ixa/cards/bishopofrebirth.jpg" rarity="Rare">XLN</set>			

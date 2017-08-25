@@ -27,6 +27,136 @@
     "border":"black",
     "cards":[
       {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2B",
+        "name":"Fathom Fleet Plundering",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays ? life. Then exile the rest.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":""
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"3UU",
+        "name":"Fleet Swallower",
+        "number":"?",
+        "power":"4",
+        "rarity":"Rare",
+        "subtypes":[
+          "Fish"
+        ],
+        "text":"Whenever Fleet Swallower attacks, target player puts the top half of his or her library, rounded up, into his or her graveyard.",
+        "toughness":"6",
+        "type":"Creature — Fish",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":8,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"5WWW",
+        "name":"Wakening Sun's Avatar",
+        "number":"?",
+        "power":"7",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Dinosaur",
+          "Avatar"
+        ],
+        "text":"When Wakening Sun's Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures.",
+        "toughness":"7",
+        "type":"Creature — Dinosaur Avatar",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "R",
+          "G"
+        ],
+        "colors":[
+          "Red",
+          "Green"
+        ],
+        "manaCost":"3RG",
+        "name":"Regisaur Alpha",
+        "number":"?",
+        "power":"4",
+        "rarity":"Rare",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Other Dinosaurs you control have haste.\n\nWhen Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature token with trample.",
+        "toughness":"4",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":0,
+        "name":"Deathgorge Scavenger",
+        "number":"?",
+        "power":"3",
+        "rarity":"Rare",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard.  If a creature card is exiled this way, you gain 2 life.  If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.",
+        "toughness":"2",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"3UU",
+        "name":"Spell Swindle",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"Counter target spell.  Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":""
+      },
+      {
         "cmc":5,
         "colorIdentity":[
           "W"
