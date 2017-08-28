@@ -26,6 +26,187 @@
   "border":"black",
   "cards":[
     {
+      "cmc":5,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"4R",
+      "name":"Unfriendly Fire",
+      "number":"172",
+      "rarity":"Common",
+      "text":"Unfriendly Fire deals 4 damage to target creature or player.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":""
+    },
+    {
+      "cmc":3,
+      "manaCost":"3",
+      "name":"Sleek Schooner",
+      "number":"247",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Vehicle"
+      ],
+      "text":"Crew 1 (Tap any number of creatures you control with power 1 or more: This vehicle becomes an artifact creature until end of turn.)",
+      "type":"Artifact — Vehicle",
+      "types":[
+        "Artifact"
+      ],
+      "url":""
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"2G",
+      "name":"Tishana's Wayfinder",
+      "number":"211",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Merfolk",
+        "Scout"
+      ],
+      "text":"When Tishana's Wayfinder enters the battlefield, it explores. Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise put a +1/+1 counter on this creature, then put the card back or put it into your graveyard",
+      "toughness":"2",
+      "type":"Creature — Merfolk Scout",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"4U",
+      "name":"Prosperous Pirates",
+      "number":"69",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with \"{T}Sacrifice this artifact: Add one mana of any color to your mana pool",
+      "toughness":"4",
+      "type":"Creature — Human Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"2B",
+      "name":"Deadeye Tormentor",
+      "number":"98",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"Raid - When Deadeye Tormentor enters the battlefield, if you attacked with a creature this turn, target opponent discards a card.",
+      "toughness":"2",
+      "type":"Creature — Human Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
+      "cmc":6,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"4RR",
+      "name":"Sun-Crowned Hunters",
+      "number":"164",
+      "power":"5",
+      "rarity":"Common",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"Enrage Whenever Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent.",
+      "toughness":"4",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"1UU",
+      "name":"Jace, Cunning Castaway",
+      "number":"60",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Jace"
+      ],
+      "text":"+1: Whenever one or more creatures you control deal combat damage to a player this turn, draw a card, then discard a card.\n\n-2: Create a 2/2 blue Illusion creature token with \"When this creature becomes the target of a spell, sacrifice it.\"\n\n-5: Create two tokens that are copies of Jace, Cunning Castaway, except they're not legendary",
+      "type":"Legendary Planeswalker — Jace",
+      "types":[
+        "Planeswalker"
+      ],
+      "url":""
+    },
+    {
+      "cmc":0,
+      "name":"Treasure Cove",
+      "number":"250",
+      "rarity":"Rare",
+      "text":"(Transforms from Treasure Map.)\n{T}: Add {C} to your mana pool\n{T}, Sacrifice a treasure: Draw a card.",
+      "type":"Land",
+      "types":[
+        "Land"
+      ],
+      "url":""
+    },
+    {
+      "cmc":2,
+      "manaCost":"2",
+      "name":"Treasure Map",
+      "number":"250",
+      "rarity":"Rare",
+      "text":"{1}, {T}: Scry1. Put a landmark counter on Treasure Map. Then if there are three or more counters on it, remove those counters, transform Treasure Map and create three colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":""
+    },
+    {
       "cmc":3,
       "colorIdentity":[
         "B"
@@ -190,14 +371,14 @@
       ],
       "manaCost":"1UU",
       "name":"Kopala, Warden of Waves",
-      "number":"?",
+      "number":"61",
       "power":"2",
       "rarity":"Rare",
       "subtypes":[
         "Merfolk",
         "Wizard"
       ],
-      "text":" Spells your opponents cast that target a Merfolk you control cost {1} more to cast.\n\nAbilities your opponents activate that target a Merfolk you control cost {1} more to activate.",
+      "text":" Spells your opponents cast that target a Merfolk you control cost {2} more to cast.\n\nAbilities your opponents activate that target a Merfolk you control cost {2} more to activate.",
       "toughness":"2",
       "type":"Legendary Creature — Merfolk Wizard",
       "types":[
@@ -295,7 +476,7 @@
       ],
       "manaCost":"1W",
       "name":"Ashes of the Abhorrent",
-      "number":"?",
+      "number":"2",
       "rarity":"Rare",
       "text":"Players can't cast spells from graveyards or activate abilities of cards in graveyards.\n\nWhenever a creature dies, you gain 1 life.",
       "type":"Enchantment",
@@ -314,7 +495,7 @@
       ],
       "manaCost":"2WW",
       "name":"Settle the Wreckage",
-      "number":"?",
+      "number":"34",
       "rarity":"Rare",
       "text":"Exile all attacking creatures target player controls. That player may search his or her library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle his or her library.",
       "type":"Instant",
@@ -333,7 +514,7 @@
       ],
       "manaCost":"W",
       "name":"Priest of the Wakening Sun",
-      "number":"?",
+      "number":"27",
       "power":"1",
       "rarity":"Rare",
       "subtypes":[
@@ -358,7 +539,7 @@
       ],
       "manaCost":"XWW",
       "name":"Sanguine Sacrament",
-      "number":"?",
+      "number":"33",
       "rarity":"Rare",
       "text":"You gain twice X life. Put Sanguine Sacrament on the bottom of its owner's library. ",
       "type":"Instant",
@@ -377,7 +558,7 @@
       ],
       "manaCost":"4UU",
       "name":"River's Rebuke",
-      "number":"?",
+      "number":"71",
       "rarity":"Rare",
       "text":"Return all nonland permanents target player controls to their owner's hand. ",
       "type":"Sorcery",
@@ -396,7 +577,7 @@
       ],
       "manaCost":"2BB",
       "name":"Vraska's Contempt",
-      "number":"?",
+      "number":"129",
       "rarity":"Rare",
       "text":"Exile target creature or planeswalker.  You gain 2 life.",
       "type":"Instant",
@@ -415,14 +596,14 @@
       ],
       "manaCost":"B",
       "name":"Deadeye Tracker",
-      "number":"?",
+      "number":"99",
       "power":"1",
       "rarity":"Rare",
       "subtypes":[
         "Human",
         "Pirate"
       ],
-      "text":"{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)",
+      "text":"{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
       "toughness":"1",
       "type":"Creature — Human Pirate",
       "types":[
@@ -440,14 +621,14 @@
       ],
       "manaCost":"1B",
       "name":"Fathom Fleet Captain",
-      "number":"?",
+      "number":"106",
       "power":"2",
       "rarity":"Rare",
       "subtypes":[
         "Human",
         "Pirate"
       ],
-      "text":"Menace \n\nWhenever Fathom Fleet Captain attacks, if you control another attacking Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.",
+      "text":"Menace \n\nWhenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.",
       "toughness":"1",
       "type":"Creature — Human Pirate",
       "types":[
@@ -465,9 +646,9 @@
       ],
       "manaCost":"5BB",
       "name":"Boneyard Parley",
-      "number":"?",
+      "number":"94",
       "rarity":"Mythic Rare",
-      "text":"Exile up to five target creature cards from graveyards. An opponent seperates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the other into their owner's graveyards.",
+      "text":"Exile up to five target creature cards from graveyards. An opponent separates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the other into their owner's graveyards.",
       "type":"Sorcery",
       "types":[
         "Sorcery"
@@ -487,15 +668,15 @@
         "Green"
       ],
       "manaCost":"5RGW",
-      "name":"Gishark, Sun's Avatar",
-      "number":"?",
+      "name":"Gishath, Sun's Avatar",
+      "number":"222",
       "power":"7",
       "rarity":"Mythic Rare",
       "subtypes":[
         "Dinosaur",
         "Avatar"
       ],
-      "text":"Trample, vigilance, haste \n\nWhenever Gishark, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.",
+      "text":"Trample, vigilance, haste \n\nWhenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.",
       "toughness":"6",
       "type":"Legendary Creature — Dinosaur Avatar",
       "types":[
@@ -512,15 +693,15 @@
         "Red"
       ],
       "manaCost":"2R",
-      "name":"Tilomalli's Skinshifter",
-      "number":"?",
+      "name":"Tilonalli's Skinshifter",
+      "number":"170",
       "power":"0",
       "rarity":"Rare",
       "subtypes":[
         "Human",
         "Shaman"
       ],
-      "text":"Haste\n\nWhenever Tilomalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn.",
+      "text":"Haste\n\nWhenever Tilonalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn.",
       "toughness":"1",
       "type":"Creature — Human Shaman",
       "types":[
@@ -537,8 +718,8 @@
         "White"
       ],
       "manaCost":"1W",
-      "name":" Tocaf's Honor Guard ",
-      "number":"?",
+      "name":"Tocatli Honor Guard ",
+      "number":"42",
       "power":"1",
       "rarity":"Rare",
       "subtypes":[
@@ -546,7 +727,7 @@
         "Soldier"
       ],
       "text":"Creatures entering the battlefield don't cause abilities to trigger. ",
-      "toughness":"2",
+      "toughness":"3",
       "type":"Creature — Human Soldier",
       "types":[
         "Creature"
@@ -567,7 +748,7 @@
       ],
       "manaCost":"1UBR",
       "name":"Admiral Beckett Brass",
-      "number":"?",
+      "number":"217",
       "power":"3",
       "rarity":"Mythic Rare",
       "subtypes":[
@@ -592,7 +773,7 @@
       ],
       "manaCost":"5R",
       "name":"Sunbird's Invocation",
-      "number":"?",
+      "number":"165",
       "rarity":"Rare",
       "text":"Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's converted mana cost. You may cast a card revealed this way with converted mana cost X or less without paying its mana cost. Put the rest on the bottom of your library in a random order.",
       "type":"Enchantment",
@@ -610,8 +791,8 @@
         "White"
       ],
       "manaCost":"2W",
-      "name":"Mynea Frian, Dark Apostle ",
-      "number":"?",
+      "name":"Mavren Fein, Dusk Apostle ",
+      "number":"24",
       "power":"2",
       "rarity":"Rare",
       "subtypes":[
@@ -636,7 +817,7 @@
       ],
       "manaCost":"5RR",
       "name":"Star of Extinction",
-      "number":"?",
+      "number":"161",
       "rarity":"Mythic Rare",
       "text":" Destroy target land. Star of Extinction deals 20 damage to each creature and each planeswalker.",
       "type":"Sorcery",
@@ -654,15 +835,15 @@
         "Red"
       ],
       "manaCost":"3RR",
-      "name":"Aegriah's Marauders",
-      "number":"?",
+      "name":"Angrath's Marauders",
+      "number":"132",
       "power":"4",
       "rarity":"Rare",
       "subtypes":[
         "Human",
         "Pirate"
       ],
-      "text":"If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead. ",
+      "text":"If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead. ",
       "toughness":"4",
       "type":"Creature — Human Pirate",
       "types":[
@@ -671,16 +852,16 @@
       "url":""
     },
     {
-      "cmc":3,
+      "cmc":4,
       "colorIdentity":[
         "U"
       ],
       "colors":[
         "Blue"
       ],
-      "manaCost":"2U",
-      "name":"Herald of Seven Servants",
-      "number":"?",
+      "manaCost":"3U",
+      "name":"Herald of Secret Streams",
+      "number":"59",
       "power":"2",
       "rarity":"Rare",
       "subtypes":[
@@ -705,7 +886,7 @@
       ],
       "manaCost":"G",
       "name":"Shapers' Sanctuary",
-      "number":"?",
+      "number":"206",
       "rarity":"Rare",
       "text":"Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may draw a card. ",
       "type":"Enchantment",
@@ -724,7 +905,7 @@
       ],
       "manaCost":"5GG",
       "name":"Verdant Sun's Avatar",
-      "number":"?",
+      "number":"213",
       "power":"5",
       "rarity":"Rare",
       "subtypes":[
@@ -749,7 +930,7 @@
       ],
       "manaCost":"4GG",
       "name":"Carnage Tyrant",
-      "number":"?",
+      "number":"179",
       "power":"7",
       "rarity":"Mythic Rare",
       "subtypes":[
@@ -773,7 +954,7 @@
       ],
       "manaCost":"2GG",
       "name":"Waker of the Wilds",
-      "number":"?",
+      "number":"215",
       "power":"3",
       "rarity":"Rare",
       "subtypes":[
@@ -797,14 +978,14 @@
         "Green"
       ],
       "manaCost":"2GG",
-      "name":"Haven Raptor",
-      "number":"?",
+      "name":"Ripjaw Raptor",
+      "number":"203",
       "power":"4",
       "rarity":"Rare",
       "subtypes":[
         "Dinosaur"
       ],
-      "text":"Tough — Whenever Haven Raptor is dealt damage, draw a card. ",
+      "text":"Enrage — Whenever Ripjaw Raptor is dealt damage, draw a card. ",
       "toughness":"5",
       "type":"Creature — Dinosaur",
       "types":[
@@ -821,8 +1002,8 @@
         "White"
       ],
       "manaCost":"2W",
-      "name":"Kimalla's Sunwing",
-      "number":"?",
+      "name":"Kinjalli's Sunwing",
+      "number":"19",
       "power":"2",
       "rarity":"Rare",
       "subtypes":[
@@ -837,24 +1018,25 @@
       "url":""
     },
     {
-      "cmc":6,
+      "cmc":4,
       "colorIdentity":[
         "G"
       ],
       "colors":[
         "Green"
       ],
-      "manaCost":"5G",
+      "manaCost":"3G",
       "name":"Emperor's Vanguard",
-      "number":"?",
+      "number":"189",
       "power":"4",
       "rarity":"Rare",
       "subtypes":[
-        "Dinosaur"
+        "Human",
+        "Scout"
       ],
-      "text":"Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)",
+      "text":"Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
       "toughness":"3",
-      "type":"Creature — Dinosaur",
+      "type":"Creature — Human Scout",
       "types":[
         "Creature"
       ],
@@ -869,13 +1051,13 @@
         "Blue"
       ],
       "manaCost":"XUU",
-      "name":"Evaporating Melody",
-      "number":"?",
+      "name":"Entrancing Melody",
+      "number":"55",
       "rarity":"Rare",
       "text":"Gain control of target creature with converted mana cost X. ",
-      "type":"Instant",
+      "type":"Sorcery",
       "types":[
-        "Instant"
+        "Sorcery"
       ],
       "url":""
     },
@@ -889,7 +1071,7 @@
       ],
       "manaCost":"4B",
       "name":"Revel in Riches",
-      "number":"?",
+      "number":"117",
       "rarity":"Rare",
       "text":"Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\" \n\nAt the beginning of your upkeep, if you control ten or more Treasures, you win the game.",
       "type":"Enchantment",
@@ -899,17 +1081,27 @@
       "url":""
     },
     {
-      "cmc":0,
-      "name":"Tiehana, Voice of Thunder",
-      "number":"?",
+      "cmc":7,
+      "colorIdentity":[
+        "U",
+        "G"
+      ],
+      "colors":[
+        "Blue",
+        "Green"
+      ],
+      "manaCost":"5GU",
+      "name":"Tishana, Voice of Thunder",
+      "number":"230",
       "power":"*",
       "rarity":"Mythic Rare",
       "subtypes":[
-        "Merfolk"
+        "Merfolk",
+        "Shaman"
       ],
-      "text":"Tiehana, Voice of Thunder's power and toughness are equal to the number of cards in your hand.\n\nYou have no maximum hand size.\n\nWhen Tiehana enters the battlefield, draw a card for each creature you control. ",
+      "text":"Tishana, Voice of Thunder's power and toughness are equal to the number of cards in your hand.\n\nYou have no maximum hand size.\n\nWhen Tishana enters the battlefield, draw a card for each creature you control. ",
       "toughness":"*",
-      "type":"Legendary Creature — Merfolk",
+      "type":"Legendary Creature — Merfolk Shaman",
       "types":[
         "Creature"
       ],
@@ -951,7 +1143,7 @@
       ],
       "manaCost":"1G",
       "name":"Deeproot Champion",
-      "number":"?",
+      "number":"185",
       "power":"1",
       "rarity":"Rare",
       "subtypes":[
@@ -967,16 +1159,16 @@
       "url":""
     },
     {
-      "cmc":5,
+      "cmc":4,
       "colorIdentity":[
         "U"
       ],
       "colors":[
         "Blue"
       ],
-      "manaCost":"3UU",
+      "manaCost":"2UU",
       "name":"Dreamcaller Siren",
-      "number":"?",
+      "number":"54",
       "power":"3",
       "rarity":"Rare",
       "subtypes":[
@@ -1001,7 +1193,7 @@
       ],
       "manaCost":"5WW",
       "name":"Goring Ceratops",
-      "number":"?",
+      "number":"13",
       "power":"?",
       "rarity":"Rare",
       "subtypes":[
@@ -1027,15 +1219,15 @@
       ],
       "manaCost":"2UB",
       "name":"Hostage Taker",
-      "number":"?",
+      "number":"223",
       "power":"2",
       "rarity":"Rare",
       "subtypes":[
         "Human",
         "Pirate"
       ],
-      "text":"When Hostage Taker enters the battlefield, exile target artifact or creature until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell. ",
-      "toughness":"1",
+      "text":"When Hostage Taker enters the battlefield, exile target artifact or creature until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell. ",
+      "toughness":"3",
       "type":"Creature — Human Pirate",
       "types":[
         "Creature"
@@ -1049,7 +1241,7 @@
         "G"
       ],
       "name":"Sunpetal Grove",
-      "number":"?",
+      "number":"257",
       "rarity":"Rare",
       "text":"Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.\n{T}: Add {G} or {W} to your mana pool.",
       "type":"Land",
@@ -1068,13 +1260,15 @@
       ],
       "manaCost":"2B",
       "name":"Ruin Raider",
-      "number":"?",
+      "number":"118",
+      "power":"3",
       "rarity":"Rare",
       "subtypes":[
         "Orc",
         "Pirate"
       ],
-      "text":"Raid — At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put it into your hand. You lose life equal to that card's converted mana cost. ",
+      "text":"Raid — At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put it into your hand. You lose life equal to the card's converted mana cost. ",
+      "toughness":"2",
       "type":"Creature — Orc Pirate",
       "types":[
         "Creature"
@@ -1088,7 +1282,7 @@
         "G"
       ],
       "name":"Rootbound Crag",
-      "number":"?",
+      "number":"256",
       "rarity":"Rare",
       "text":"Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G} to your mana pool.",
       "type":"Land",
@@ -1107,16 +1301,16 @@
       ],
       "manaCost":"3RR",
       "name":"Rowdy Crew",
-      "number":"?",
+      "number":"159",
       "power":"3",
       "rarity":"Rare",
       "subtypes":[
-        "Goblin",
+        "Human",
         "Pirate"
       ],
       "text":"Trample\n \nWhen Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type were discarded this way, put two +1/+1 counters on Rowdy Crew.",
       "toughness":"3",
-      "type":"Creature — Goblin Pirate",
+      "type":"Creature — Human Pirate",
       "types":[
         "Creature"
       ],
@@ -1129,7 +1323,7 @@
         "U"
       ],
       "name":"Glacial Fortress",
-      "number":"?",
+      "number":"255",
       "rarity":"Rare",
       "text":"Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U} to your mana pool.",
       "type":"Land",
@@ -1145,7 +1339,7 @@
         "B"
       ],
       "name":"Drowned Catacomb",
-      "number":"?",
+      "number":"253",
       "rarity":"Rare",
       "text":"Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B} to your mana pool.",
       "type":"Land",
@@ -1161,7 +1355,7 @@
         "R"
       ],
       "name":"Dragonskull Summit",
-      "number":"?",
+      "number":"252",
       "rarity":"Rare",
       "text":"Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R} to your mana pool.",
       "type":"Land",
@@ -1171,23 +1365,23 @@
       "url":""
     },
     {
-      "cmc":4,
+      "cmc":2,
       "colorIdentity":[
         "B"
       ],
       "colors":[
         "Black"
       ],
-      "manaCost":"3B",
-      "name":"Bloodstained Paladin",
-      "number":"?",
+      "manaCost":"1B",
+      "name":"Bloodcrazed Paladin",
+      "number":"93",
       "power":"1",
       "rarity":"Rare",
       "subtypes":[
         "Vampire",
         "Knight"
       ],
-      "text":"Flash\n\nBloodstained Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.",
+      "text":"Flash\n\nBloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.",
       "toughness":"1",
       "type":"Creature — Vampire Knight",
       "types":[
@@ -1224,7 +1418,7 @@
       ],
       "manaCost":"2R",
       "name":"Captain Lannery Storm",
-      "number":"176",
+      "number":"136",
       "power":"2",
       "rarity":"Rare",
       "subtypes":[
@@ -1233,9 +1427,9 @@
       ],
       "text":"Haste\n\nWhenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"\n\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn. ",
       "toughness":"2",
-      "type":"Crteature — Human Pirate",
+      "type":"Legendary Creature — Human Pirate",
       "types":[
-        "Crteature"
+        "Creature"
       ],
       "url":""
     },
@@ -1249,13 +1443,15 @@
       ],
       "manaCost":"1U",
       "name":"Daring Saboteur",
-      "number":"?",
+      "number":"49",
+      "power":"2",
       "rarity":"Rare",
       "subtypes":[
         "Human",
         "Pirate"
       ],
       "text":"{2}{U}: Daring Saboteur can't be blocked this turn.\n\nWhenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card.",
+      "toughness":"1",
       "type":"Creature — Human Pirate",
       "types":[
         "Creature"
@@ -1279,7 +1475,7 @@
       "cmc":5,
       "manaCost":"5",
       "name":"Vanquisher's Banner",
-      "number":"279",
+      "number":"251",
       "rarity":"Rare",
       "text":"As Vanquisher's Banner enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card.",
       "type":"Artifact",

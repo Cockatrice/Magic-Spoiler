@@ -9,6 +9,103 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Unfriendly Fire</name>			
+			<set picURL="" rarity="Common">XLN</set>			
+			<manacost>4R</manacost>			
+			<cmc>5</cmc>			
+			<color>R</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Unfriendly Fire deals 4 damage to target creature or player.</text>			
+		</card>		
+		<card>			
+			<name>Sleek Schooner</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact — Vehicle</type>			
+			<tablerow>1</tablerow>			
+			<text>Crew 1 (Tap any number of creatures you control with power 1 or more: This vehicle becomes an artifact creature until end of turn.)</text>			
+		</card>		
+		<card>			
+			<name>Tishana's Wayfinder</name>			
+			<set picURL="" rarity="Common">XLN</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Merfolk Scout</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Tishana's Wayfinder enters the battlefield, it explores. Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise put a +1/+1 counter on this creature, then put the card back or put it into your graveyard</text>			
+		</card>		
+		<card>			
+			<name>Prosperous Pirates</name>			
+			<set picURL="" rarity="Common">XLN</set>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<color>U</color>			
+			<type>Creature — Human Pirate</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with &quot;{T}Sacrifice this artifact: Add one mana of any color to your mana pool</text>			
+		</card>		
+		<card>			
+			<name>Deadeye Tormentor</name>			
+			<set picURL="" rarity="Common">XLN</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Raid - When Deadeye Tormentor enters the battlefield, if you attacked with a creature this turn, target opponent discards a card.</text>			
+		</card>		
+		<card>			
+			<name>Sun-Crowned Hunters</name>			
+			<set picURL="" rarity="Common">XLN</set>			
+			<manacost>4RR</manacost>			
+			<cmc>6</cmc>			
+			<color>R</color>			
+			<type>Creature — Dinosaur</type>			
+			<pt>5/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Enrage Whenever Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent.</text>			
+		</card>		
+		<card>			
+			<name>Jace, Cunning Castaway</name>			
+			<set picURL="" rarity="Mythic Rare">XLN</set>			
+			<manacost>1UU</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Legendary Planeswalker — Jace</type>			
+			<tablerow>1</tablerow>			
+			<text>+1: Whenever one or more creatures you control deal combat damage to a player this turn, draw a card, then discard a card.
+
+-2: Create a 2/2 blue Illusion creature token with &quot;When this creature becomes the target of a spell, sacrifice it.&quot;
+
+-5: Create two tokens that are copies of Jace, Cunning Castaway, except they're not legendary</text>			
+		</card>		
+		<card>			
+			<name>Treasure Cove</name>			
+			<set picURL="" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Treasure Map.)
+{T}: Add {C} to your mana pool
+{T}, Sacrifice a treasure: Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Treasure Map</name>			
+			<set picURL="" rarity="Rare">XLN</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{1}, {T}: Scry1. Put a landmark counter on Treasure Map. Then if there are three or more counters on it, remove those counters, transform Treasure Map and create three colorless Treasure artifact tokens with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
 			<name>Fathom Fleet Plundering</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<manacost>2B</manacost>			
@@ -96,9 +193,9 @@ Whenever Bishop of Rebirth attacks, you may return target creature card with con
 			<type>Legendary Creature — Merfolk Wizard</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
-			<text> Spells your opponents cast that target a Merfolk you control cost {1} more to cast.
+			<text> Spells your opponents cast that target a Merfolk you control cost {2} more to cast.
 
-Abilities your opponents activate that target a Merfolk you control cost {1} more to activate.</text>			
+Abilities your opponents activate that target a Merfolk you control cost {2} more to activate.</text>			
 		</card>		
 		<card>			
 			<name>Walk the Plank</name>			
@@ -219,7 +316,7 @@ Whenever a creature dies, you gain 1 life.</text>
 			<type>Creature — Human Pirate</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)</text>			
+			<text>{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>			
 		</card>		
 		<card>			
 			<name>Fathom Fleet Captain</name>			
@@ -232,7 +329,7 @@ Whenever a creature dies, you gain 1 life.</text>
 			<tablerow>2</tablerow>			
 			<text>Menace 
 
-Whenever Fathom Fleet Captain attacks, if you control another attacking Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.</text>			
+Whenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.</text>			
 		</card>		
 		<card>			
 			<name>Boneyard Parley</name>			
@@ -242,10 +339,10 @@ Whenever Fathom Fleet Captain attacks, if you control another attacking Pirate, 
 			<color>B</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Exile up to five target creature cards from graveyards. An opponent seperates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the other into their owner's graveyards.</text>			
+			<text>Exile up to five target creature cards from graveyards. An opponent separates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the other into their owner's graveyards.</text>			
 		</card>		
 		<card>			
-			<name>Gishark, Sun's Avatar</name>			
+			<name>Gishath, Sun's Avatar</name>			
 			<set picURL="" rarity="Mythic Rare">XLN</set>			
 			<manacost>5RGW</manacost>			
 			<cmc>8</cmc>			
@@ -257,10 +354,10 @@ Whenever Fathom Fleet Captain attacks, if you control another attacking Pirate, 
 			<tablerow>2</tablerow>			
 			<text>Trample, vigilance, haste 
 
-Whenever Gishark, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.</text>			
+Whenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.</text>			
 		</card>		
 		<card>			
-			<name>Tilomalli's Skinshifter</name>			
+			<name>Tilonalli's Skinshifter</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
@@ -270,16 +367,16 @@ Whenever Gishark, Sun's Avatar deals combat damage to a player, reveal that many
 			<tablerow>2</tablerow>			
 			<text>Haste
 
-Whenever Tilomalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn.</text>			
+Whenever Tilonalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn.</text>			
 		</card>		
 		<card>			
-			<name> Tocaf's Honor Guard </name>			
+			<name>Tocatli Honor Guard </name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
 			<color>W</color>			
 			<type>Creature — Human Soldier</type>			
-			<pt>1/2</pt>			
+			<pt>1/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>Creatures entering the battlefield don't cause abilities to trigger. </text>			
 		</card>		
@@ -309,7 +406,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 			<text>Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's converted mana cost. You may cast a card revealed this way with converted mana cost X or less without paying its mana cost. Put the rest on the bottom of your library in a random order.</text>			
 		</card>		
 		<card>			
-			<name>Mynea Frian, Dark Apostle </name>			
+			<name>Mavren Fein, Dusk Apostle </name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
@@ -331,7 +428,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 			<text> Destroy target land. Star of Extinction deals 20 damage to each creature and each planeswalker.</text>			
 		</card>		
 		<card>			
-			<name>Aegriah's Marauders</name>			
+			<name>Angrath's Marauders</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<manacost>3RR</manacost>			
 			<cmc>5</cmc>			
@@ -339,13 +436,13 @@ At the beginning of your end step, gain control of target nonland permanent cont
 			<type>Creature — Human Pirate</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
-			<text>If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead. </text>			
+			<text>If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead. </text>			
 		</card>		
 		<card>			
-			<name>Herald of Seven Servants</name>			
+			<name>Herald of Secret Streams</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
-			<manacost>2U</manacost>			
-			<cmc>3</cmc>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
 			<color>U</color>			
 			<type>Creature — Merfolk Warrior</type>			
 			<pt>2/3</pt>			
@@ -398,7 +495,7 @@ Trample, hexproof</text>
 			<text>{X}{G}{G}: Put X +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It's still a land. </text>			
 		</card>		
 		<card>			
-			<name>Haven Raptor</name>			
+			<name>Ripjaw Raptor</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<manacost>2GG</manacost>			
 			<cmc>4</cmc>			
@@ -406,10 +503,10 @@ Trample, hexproof</text>
 			<type>Creature — Dinosaur</type>			
 			<pt>4/5</pt>			
 			<tablerow>2</tablerow>			
-			<text>Tough — Whenever Haven Raptor is dealt damage, draw a card. </text>			
+			<text>Enrage — Whenever Ripjaw Raptor is dealt damage, draw a card. </text>			
 		</card>		
 		<card>			
-			<name>Kimalla's Sunwing</name>			
+			<name>Kinjalli's Sunwing</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
@@ -423,21 +520,21 @@ Creatures your opponents control enter the battlefield tapped.</text>
 		<card>			
 			<name>Emperor's Vanguard</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
-			<manacost>5G</manacost>			
-			<cmc>6</cmc>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
 			<color>G</color>			
-			<type>Creature — Dinosaur</type>			
+			<type>Creature — Human Scout</type>			
 			<pt>4/3</pt>			
 			<tablerow>2</tablerow>			
-			<text>Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.)</text>			
+			<text>Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>			
 		</card>		
 		<card>			
-			<name>Evaporating Melody</name>			
+			<name>Entrancing Melody</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
 			<manacost>XUU</manacost>			
 			<cmc>2</cmc>			
 			<color>U</color>			
-			<type>Instant</type>			
+			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Gain control of target creature with converted mana cost X. </text>			
 		</card>		
@@ -454,18 +551,20 @@ Creatures your opponents control enter the battlefield tapped.</text>
 At the beginning of your upkeep, if you control ten or more Treasures, you win the game.</text>			
 		</card>		
 		<card>			
-			<name>Tiehana, Voice of Thunder</name>			
+			<name>Tishana, Voice of Thunder</name>			
 			<set picURL="" rarity="Mythic Rare">XLN</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
-			<type>Legendary Creature — Merfolk</type>			
+			<manacost>5GU</manacost>			
+			<cmc>7</cmc>			
+			<color>U</color>			
+			<color>G</color>			
+			<type>Legendary Creature — Merfolk Shaman</type>			
 			<pt>*/*</pt>			
 			<tablerow>2</tablerow>			
-			<text>Tiehana, Voice of Thunder's power and toughness are equal to the number of cards in your hand.
+			<text>Tishana, Voice of Thunder's power and toughness are equal to the number of cards in your hand.
 
 You have no maximum hand size.
 
-When Tiehana enters the battlefield, draw a card for each creature you control. </text>			
+When Tishana enters the battlefield, draw a card for each creature you control. </text>			
 		</card>		
 		<card>			
 			<name>Dire Fleet Ravager</name>			
@@ -494,8 +593,8 @@ When Dire Fleet Ravager enters the battlefield, each player loses a third of his
 		<card>			
 			<name>Dreamcaller Siren</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
-			<manacost>3UU</manacost>			
-			<cmc>5</cmc>			
+			<manacost>2UU</manacost>			
+			<cmc>4</cmc>			
 			<color>U</color>			
 			<type>Creature — Siren Pirate</type>			
 			<pt>3/3</pt>			
@@ -529,9 +628,9 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 			<color>U</color>			
 			<color>B</color>			
 			<type>Creature — Human Pirate</type>			
-			<pt>2/1</pt>			
+			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
-			<text>When Hostage Taker enters the battlefield, exile target artifact or creature until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell. </text>			
+			<text>When Hostage Taker enters the battlefield, exile target artifact or creature until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell. </text>			
 		</card>		
 		<card>			
 			<name>Sunpetal Grove</name>			
@@ -551,8 +650,9 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 			<cmc>3</cmc>			
 			<color>B</color>			
 			<type>Creature — Orc Pirate</type>			
+			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>Raid — At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put it into your hand. You lose life equal to that card's converted mana cost. </text>			
+			<text>Raid — At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put it into your hand. You lose life equal to the card's converted mana cost. </text>			
 		</card>		
 		<card>			
 			<name>Rootbound Crag</name>			
@@ -571,7 +671,7 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 			<manacost>3RR</manacost>			
 			<cmc>5</cmc>			
 			<color>R</color>			
-			<type>Creature — Goblin Pirate</type>			
+			<type>Creature — Human Pirate</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>Trample
@@ -612,17 +712,17 @@ When Rowdy Crew enters the battlefield, draw three cards, then discard two cards
 {T}: Add {B} or {R} to your mana pool.</text>			
 		</card>		
 		<card>			
-			<name>Bloodstained Paladin</name>			
+			<name>Bloodcrazed Paladin</name>			
 			<set picURL="" rarity="Rare">XLN</set>			
-			<manacost>3B</manacost>			
-			<cmc>4</cmc>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
 			<color>B</color>			
 			<type>Creature — Vampire Knight</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>Flash
 
-Bloodstained Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.</text>			
+Bloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.</text>			
 		</card>		
 		<card>			
 			<name>Arcane Adaptation</name>			
@@ -641,9 +741,9 @@ Creatures you control are the chosen type in addition to their other types. The 
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
 			<color>R</color>			
-			<type>Crteature — Human Pirate</type>			
+			<type>Legendary Creature — Human Pirate</type>			
 			<pt>2/2</pt>			
-			<tablerow>1</tablerow>			
+			<tablerow>2</tablerow>			
 			<text>Haste
 
 Whenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;
@@ -657,6 +757,7 @@ Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of
 			<cmc>2</cmc>			
 			<color>U</color>			
 			<type>Creature — Human Pirate</type>			
+			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>{2}{U}: Daring Saboteur can't be blocked this turn.
 
