@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Mon, Aug 28 2017, 18:47:50 (UTC)
+        created: Mon, Aug 28 2017, 19:01:14 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,17 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Queen's Bay Soldier</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/252/636395256166054650.jpeg" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Vampire Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
 		<card>			
 			<name>Unfriendly Fire</name>			
 			<set picURL="" rarity="Common">XLN</set>			
@@ -88,6 +99,7 @@
 -2: Create a 2/2 blue Illusion creature token with &quot;When this creature becomes the target of a spell, sacrifice it.&quot;
 
 -5: Create two tokens that are copies of Jace, Cunning Castaway, except they're not legendary</text>			
+			<loyalty>3</loyalty>			
 		</card>		
 		<card>			
 			<name>Treasure Cove</name>			

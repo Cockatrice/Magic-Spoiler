@@ -27,6 +27,31 @@
     "border":"black",
     "cards":[
       {
+        "cmc":2,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"1B",
+        "name":"Queen's Bay Soldier",
+        "number":"115",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Vampire",
+          "Soldier"
+        ],
+        "text":"",
+        "toughness":"2",
+        "type":"Creature — Vampire Soldier",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/252/636395256166054650.jpeg"
+      },
+      {
         "cmc":5,
         "colorIdentity":[
           "R"
@@ -168,6 +193,7 @@
         "colors":[
           "Blue"
         ],
+        "loyalty":3,
         "manaCost":"1UU",
         "name":"Jace, Cunning Castaway",
         "number":"60",
