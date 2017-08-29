@@ -26,6 +26,151 @@
   "border":"black",
   "cards":[
     {
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"2U",
+      "name":"Deeproot Waters",
+      "number":"51",
+      "rarity":"Uncommon",
+      "text":"Whenever you cast a Merfolk spell, create a 1/1 blue Merfolk creature token with hexproof.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":""
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "B",
+        "R"
+      ],
+      "colors":[
+        "Black",
+        "Red"
+      ],
+      "manaCost":"BR",
+      "name":"Dire Fleet Captain",
+      "number":"221",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Orc",
+        "Pirate"
+      ],
+      "text":"Whenever Dire Fleet Captain attacks, it gets +1/+1 until end of turn for each other attacking Pirate.",
+      "toughness":"2",
+      "type":"Creature — Orc Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/257/636395890553623818.png"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "U",
+        "B"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "manaCost":"3UB",
+      "name":"Deadeye Pillagers",
+      "number":"220",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"Deadeye Pillagers gets +1/+1 for each artifact you control.\n\n{2}{U}{B}: Create a colorless artifact token named Treasure with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+      "toughness":"3",
+      "type":"Creature — Human Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
+      "cmc":7,
+      "colorIdentity":[
+        "W",
+        "G"
+      ],
+      "colors":[
+        "White",
+        "Green"
+      ],
+      "manaCost":"5GW",
+      "name":"~Belligerent Dinosaur",
+      "number":"218",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"Each creature you control assigns damage equal to its toughness rather than its power.",
+      "toughness":"6",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "W",
+        "B"
+      ],
+      "colors":[
+        "White",
+        "Black"
+      ],
+      "manaCost":"2WB",
+      "name":"~Invite the Party",
+      "number":"219",
+      "rarity":"Uncommon",
+      "text":"Create three 1/1 White Vampire creature tokens with lifelink.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":""
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"3U",
+      "name":"Headwater Sentries",
+      "number":"58",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Merfolk",
+        "Warrior"
+      ],
+      "text":"",
+      "toughness":"5",
+      "type":"Creature — Merfolk Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/253/636395262652608345.jpeg"
+    },
+    {
       "cmc":2,
       "colorIdentity":[
         "B"
