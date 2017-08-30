@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Tue, Aug 29 2017, 17:38:55 (UTC)
+        created: Wed, Aug 30 2017, 17:39:13 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,77 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Rampaging Gladiodon</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>3RG</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+
+When Rampaging Gladiodon enters the battlefield, it deals one damage to each other creature.</text>			
+		</card>		
+		<card>			
+			<name>Kumena's Omenspeaker</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Merfolk Warrior</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kumena's Omenspeaker gets +1/+1 as long as you control another Merfolk or an Island.</text>			
+		</card>		
+		<card>			
+			<name>~Legion of Dusk Battleship</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<manacost>5</manacost>			
+			<cmc>5</cmc>			
+			<type>Artifact — Vehicle</type>			
+			<tablerow>1</tablerow>			
+			<text>Crew 2
+
+Vigilance</text>			
+		</card>		
+		<card>			
+			<name>Pillar of Genesis</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>As Pillar of Genesis enters the battlefield, choose a creature type.
+
+{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type.</text>			
+		</card>		
+		<card>			
+			<name>~Bellowing Anklodon</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<manacost>5W</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>3/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Enrage - Whenever ~ is dealt damage, put a +1/+1 counter on each other creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Deathless Ancient</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>4BB</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Vampire Knight</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+
+Tap three untapped Vampires you control: Return Deathless Ancient from your graveyard to your hand.</text>			
+		</card>		
 		<card>			
 			<name>Deeproot Waters</name>			
 			<set picURL="" rarity="Uncommon">XLN</set>			
@@ -49,7 +120,7 @@
 {2}{U}{B}: Create a colorless artifact token named Treasure with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
 		</card>		
 		<card>			
-			<name>~Belligerent Dinosaur</name>			
+			<name>Belligerent Brontodon</name>			
 			<set picURL="" rarity="Uncommon">XLN</set>			
 			<color>W</color>			
 			<color>G</color>			
@@ -61,7 +132,7 @@
 			<text>Each creature you control assigns damage equal to its toughness rather than its power.</text>			
 		</card>		
 		<card>			
-			<name>~Invite the Party</name>			
+			<name>Call to the Feast</name>			
 			<set picURL="" rarity="Uncommon">XLN</set>			
 			<color>W</color>			
 			<color>B</color>			
@@ -319,7 +390,7 @@ Abilities your opponents activate that target a Merfolk you control cost {2} mor
 		</card>		
 		<card>			
 			<name>Old-Growth Dryads</name>			
-			<set picURL="" rarity="Rare">XLN</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/266/636396719892450128.png" rarity="Rare">XLN</set>			
 			<color>G</color>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
