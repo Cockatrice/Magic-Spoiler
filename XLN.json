@@ -26,6 +26,248 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"1W",
+      "name":"Huatli's Snubhorn",
+      "number":"286",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"Vigilance\n",
+      "toughness":"2",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/336/636398663414950572.png"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "U",
+        "G"
+      ],
+      "name":"Woodland Stream",
+      "number":"284",
+      "rarity":"Basic Land",
+      "text":"Woodland Stream enters the battlefield tapped.\n\n{T}: Add {G} or {U} to your mana pool.",
+      "type":"Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/335/636398658300674222.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"1U",
+      "name":"Jace's Sentinel ",
+      "number":"283",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Merfolk",
+        "Warrior"
+      ],
+      "text":"As long as you control a Jace planeswalker Jace's Sentinel gets +1/+0 and can't be blocked.",
+      "toughness":"3",
+      "type":"Creature — Merfolk Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/334/636398656230786078.png"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"4U",
+      "name":"Grasping Current",
+      "number":"282",
+      "rarity":"Rare",
+      "text":"Return up to two target creatures to their owner's hand.\n\nSearch your library and/or  graveyard for a card named Jace, Ingenious Mind-Mage, reveal it, and put it into your hand. If you searched your library this way shuffle it.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/331/636398646526787878.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"3U",
+      "name":"Castaway's Despair",
+      "number":"281",
+      "rarity":"Common",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant Creature\n\nWhen Castaway's Despair enters the battlefield, tap enchanted creature.\n\nEnchanted creature doesn't untap during it's controller's untap step.",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/330/636398622067099150.png"
+    },
+    {
+      "cmc":6,
+      "colorIdentity":[
+        "W",
+        "R"
+      ],
+      "colors":[
+        "White",
+        "Red"
+      ],
+      "manaCost":"4RW",
+      "name":"Huatli, Dinosaur Knight",
+      "number":"285",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Huatil"
+      ],
+      "text":"+2: Put two +1/+1 counters on up to one target dinosaur you control.\n\n-3: Target Dinosaur you control deals damage equal to it's power to target creature don't control.\n\n-7: Dinosaurs you control get +4/+4 until end of turn.",
+      "type":"Legendary Planeswalker — Huatil",
+      "types":[
+        "Planeswalker"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/329/636398616515693527.png"
+    },
+    {
+      "cmc":6,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"4UU",
+      "name":"Jace, Ingenious Mind-Mage",
+      "number":"280",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Jace"
+      ],
+      "text":"+1: Draw a card.\n\n+1: Untap all creatures you control\n\n-9: Gain control of up to three target creatures",
+      "type":"Legendary Planeswalker — Jace",
+      "types":[
+        "Planeswalker"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/328/636398609498566306.png"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "B"
+      ],
+      "name":"Swamp",
+      "number":"269",
+      "rarity":"Basic Land",
+      "subtypes":[
+        "Swamp"
+      ],
+      "text":"{T}: Add {B} to your mana pool.",
+      "type":"Basic Land — Swamp",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/323/636398585566397563.png"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "W"
+      ],
+      "name":"Plains",
+      "number":"261",
+      "rarity":"Basic Land",
+      "subtypes":[
+        "Plains"
+      ],
+      "text":"{T}: Add {W} to your mana pool.",
+      "type":"Basic Land — Plains",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/322/636398584539872341.png"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "R"
+      ],
+      "name":"Mountain",
+      "number":"273",
+      "rarity":"Basic Land",
+      "subtypes":[
+        "Mountain"
+      ],
+      "text":"{T}: Add {R} to your mana pool.",
+      "type":"Basic Land — Mountain",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/321/636398584094659923.png"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "U"
+      ],
+      "name":"Island",
+      "number":"265",
+      "rarity":"Basic Land",
+      "subtypes":[
+        "Island"
+      ],
+      "text":"{T}: Add {U} to your mana pool.",
+      "type":"Basic Land — Island",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/320/636398583680862164.png"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "G"
+      ],
+      "name":"Forest",
+      "number":"277",
+      "rarity":"Basic Land",
+      "subtypes":[
+        "Forest"
+      ],
+      "text":"{T}: Add {G} to your mana pool.",
+      "type":"Basic Land — Forest",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/319/636398583204343166.png"
+    },
+    {
       "cmc":4,
       "colorIdentity":[
         "U",
@@ -44,7 +286,7 @@
         "Human",
         "Pirate"
       ],
-      "text":"Raid --- At the beginning of your end step, if you attacked with a creature this turn, you may draw a card. If you do discard a card.",
+      "text":"Raid — At the beginning of your end step, if you attacked with a creature this turn, you may draw a card. If you do discard a card.",
       "toughness":"3",
       "type":"Creature — Human Pirate",
       "types":[
@@ -63,20 +305,20 @@
         "Green"
       ],
       "manaCost":"3RG",
-      "name":"Rampaging Gladiodon",
+      "name":"Raging Swordtooth",
       "number":"226",
       "power":"5",
       "rarity":"Uncommon",
       "subtypes":[
         "Dinosaur"
       ],
-      "text":"Trample\n\nWhen Rampaging Gladiodon enters the battlefield, it deals one damage to each other creature.",
+      "text":"Trample\n\nWhen Raging Swordtooth enters the battlefield, it deals 1 damage to each other creature.",
       "toughness":"5",
       "type":"Creature — Dinosaur",
       "types":[
         "Creature"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/306/636398295468249146.png"
     },
     {
       "cmc":1,
@@ -112,7 +354,7 @@
       "subtypes":[
         "Vehicle"
       ],
-      "text":"Crew 2\n\nVigilance",
+      "text":"Vigilance\n\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",
       "type":"Artifact — Vehicle",
       "types":[
         "Artifact"
@@ -130,7 +372,7 @@
       "types":[
         "Artifact"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/307/636398298274765658.png"
     },
     {
       "cmc":6,
@@ -148,7 +390,7 @@
       "subtypes":[
         "Dinosaur"
       ],
-      "text":"Enrage - Whenever Bellowing Aegisaur is dealt damage, put a +1/+1 counter on each other creature you control.",
+      "text":"Enrage — Whenever Bellowing Aegisaur is dealt damage, put a +1/+1 counter on each other creature you control.",
       "toughness":"5",
       "type":"Creature — Dinosaur",
       "types":[
@@ -238,7 +480,7 @@
         "Black"
       ],
       "manaCost":"3UB",
-      "name":"Deadeye Pillagers",
+      "name":"Deadeye Plunderers",
       "number":"220",
       "power":"3",
       "rarity":"Uncommon",
@@ -246,13 +488,13 @@
         "Human",
         "Pirate"
       ],
-      "text":"Deadeye Pillagers gets +1/+1 for each artifact you control.\n\n{2}{U}{B}: Create a colorless artifact token named Treasure with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+      "text":"Deadeye Plunderers gets +1/+1 for each artifact you control.\n\n{2}{U}{B}: Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
       "toughness":"3",
       "type":"Creature — Human Pirate",
       "types":[
         "Creature"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/305/636398285734928261.png"
     },
     {
       "cmc":7,
@@ -278,7 +520,7 @@
       "types":[
         "Creature"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/304/636398279855942937.png"
     },
     {
       "cmc":4,
@@ -294,7 +536,7 @@
       "name":"Call to the Feast",
       "number":"219",
       "rarity":"Uncommon",
-      "text":"Create three 1/1 White Vampire creature tokens with lifelink.",
+      "text":"Create three 1/1 white Vampire creature tokens with lifelink.",
       "type":"Sorcery",
       "types":[
         "Sorcery"
@@ -368,7 +610,7 @@
       "types":[
         "Instant"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/308/636398309749349910.png"
     },
     {
       "cmc":3,
@@ -379,7 +621,7 @@
       "subtypes":[
         "Vehicle"
       ],
-      "text":"Crew 1 (Tap any number of creatures you control with power 1 or more: This vehicle becomes an artifact creature until end of turn.)",
+      "text":"Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
       "type":"Artifact — Vehicle",
       "types":[
         "Artifact"
@@ -403,7 +645,7 @@
         "Merfolk",
         "Scout"
       ],
-      "text":"When Tishana's Wayfinder enters the battlefield, it explores. Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise put a +1/+1 counter on this creature, then put the card back or put it into your graveyard",
+      "text":"When Tishana's Wayfinder enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
       "toughness":"2",
       "type":"Creature — Merfolk Scout",
       "types":[
@@ -428,7 +670,7 @@
         "Human",
         "Pirate"
       ],
-      "text":"When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with \"{T}Sacrifice this artifact: Add one mana of any color to your mana pool",
+      "text":"When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
       "toughness":"4",
       "type":"Creature — Human Pirate",
       "types":[
@@ -453,7 +695,7 @@
         "Human",
         "Pirate"
       ],
-      "text":"Raid - When Deadeye Tormentor enters the battlefield, if you attacked with a creature this turn, target opponent discards a card.",
+      "text":"Raid — When Deadeye Tormentor enters the battlefield, if you attacked with a creature this turn, target opponent discards a card.",
       "toughness":"2",
       "type":"Creature — Human Pirate",
       "types":[
@@ -477,7 +719,7 @@
       "subtypes":[
         "Dinosaur"
       ],
-      "text":"Enrage Whenever Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent.",
+      "text":"Enrage — Whenever Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent.",
       "toughness":"4",
       "type":"Creature — Dinosaur",
       "types":[
@@ -501,7 +743,7 @@
       "subtypes":[
         "Jace"
       ],
-      "text":"+1: Whenever one or more creatures you control deal combat damage to a player this turn, draw a card, then discard a card.\n\n-2: Create a 2/2 blue Illusion creature token with \"When this creature becomes the target of a spell, sacrifice it.\"\n\n-5: Create two tokens that are copies of Jace, Cunning Castaway, except they're not legendary",
+      "text":"+1: Whenever one or more creatures you control deal combat damage to a player this turn, draw a card, then discard a card.\n\n-2: Create a 2/2 blue Illusion creature token with \"When this creature becomes the target of a spell, sacrifice it.\"\n\n-5: Create two tokens that are copies of Jace, Cunning Castaway, except they're not legendary.",
       "type":"Legendary Planeswalker — Jace",
       "types":[
         "Planeswalker"
@@ -513,7 +755,7 @@
       "name":"Treasure Cove",
       "number":"250",
       "rarity":"Rare",
-      "text":"(Transforms from Treasure Map.)\n{T}: Add {C} to your mana pool\n{T}, Sacrifice a treasure: Draw a card.",
+      "text":"(Transforms from Treasure Map.)\n{T}: Add {C} to your mana pool\n{T}, Sacrifice a Treasure: Draw a card.",
       "type":"Land",
       "types":[
         "Land"
@@ -526,7 +768,7 @@
       "name":"Treasure Map",
       "number":"250",
       "rarity":"Rare",
-      "text":"{1}, {T}: Scry1. Put a landmark counter on Treasure Map. Then if there are three or more counters on it, remove those counters, transform Treasure Map and create three colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+      "text":"{1}, {T}: Scry1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map and create three colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
       "type":"Artifact",
       "types":[
         "Artifact"
@@ -730,7 +972,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/149/636390127689851314.jpeg"
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/324/636398585972507272.png"
     },
     {
       "cmc":0,
@@ -742,7 +984,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/148/636390127581568259.jpeg"
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/325/636398586104268963.png"
     },
     {
       "cmc":6,
@@ -1521,13 +1763,13 @@
       "manaCost":"5WW",
       "name":"Goring Ceratops",
       "number":"13",
-      "power":"?",
+      "power":"3.",
       "rarity":"Rare",
       "subtypes":[
         "Dinosaur"
       ],
       "text":"Double strike\n\nWhenever Goring Ceratops attacks, other creatures you control gain double strike until end of turn. ",
-      "toughness":"?",
+      "toughness":"3.",
       "type":"Creature — Dinosaur",
       "types":[
         "Creature"
@@ -1630,7 +1872,7 @@
       "name":"Rowdy Crew",
       "number":"159",
       "power":"3",
-      "rarity":"Rare",
+      "rarity":"Mythic Rare",
       "subtypes":[
         "Human",
         "Pirate"
