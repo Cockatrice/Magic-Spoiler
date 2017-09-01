@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Fri, Sep 01 2017, 17:41:14 (UTC)
+        created: Fri, Sep 01 2017, 18:39:41 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,38 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Stone Quarry</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/341/636398698965498528.png" rarity="Common">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Stone Quarry comes in tapped.
+{T}: Add {R} or {W} to your mana pool</text>			
+		</card>		
+		<card>			
+			<name>Sun-Blessed Mount</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/340/636398689939303873.png" rarity="Rare">XLN</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<manacost>3RW</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Sun-Blessed Mount enters the battlefield, you may search your library for a card named Huatli, Dinosaur Knight, reveal it, then put it into your hand. If you searched your library this way, shuffle it.</text>			
+		</card>		
+		<card>			
+			<name>Huatli's Spurring</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/337/636398684335393944.png" rarity="Uncommon">XLN</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +2/+0 until end of turn. If you control a Huatli planeswalker, that creature gets +4/+0 until the end of turn instead.</text>			
+		</card>		
 		<card>			
 			<name>Huatli's Snubhorn</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/336/636398663414950572.png" rarity="Common">XLN</set>			
@@ -87,6 +119,7 @@ Enchanted creature doesn't untap during it's controller's untap step.</text>
 -3: Target Dinosaur you control deals damage equal to it's power to target creature don't control.
 
 -7: Dinosaurs you control get +4/+4 until end of turn.</text>			
+			<loyalty>4</loyalty>			
 		</card>		
 		<card>			
 			<name>Jace, Ingenious Mind-Mage</name>			
@@ -101,6 +134,7 @@ Enchanted creature doesn't untap during it's controller's untap step.</text>
 +1: Untap all creatures you control
 
 -9: Gain control of up to three target creatures</text>			
+			<loyalty>5</loyalty>			
 		</card>		
 		<card>			
 			<name>Swamp</name>			
