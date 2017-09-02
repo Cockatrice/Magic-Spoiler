@@ -127,6 +127,8 @@ if __name__ == '__main__':
             manual_cards = []
         mtgs = spoilers.correct_cards(
             mtgs, manual_cards, card_corrections, delete_cards['delete'])  # fix using the fixfiles
+        if not 'mythicCode' in setinfo:
+            setinfo['mythicCode'] = setinfo['code']
         mtgjson = spoilers.get_image_urls(
             mtgs, presets['isfullspoil'], setinfo['code'], setinfo['mythicCode'], setinfo['name'], setinfo['size'], setinfo)  # get images
         if presets['scryfallOnly'] or 'scryfallOnly' in setinfo and setinfo['scryfallOnly']:
