@@ -302,7 +302,7 @@ def remove_corrected_errors(errorlog=[], card_corrections=[], print_fixed=False)
     return errorlog2
 
 
-def get_image_urls(mtgjson, isfullspoil, code, name, size=269, setinfo=False):
+def get_image_urls(mtgjson, isfullspoil, code, mythicCode, name, size=269, setinfo=False):
     IMAGES = 'http://magic.wizards.com/en/content/' + \
         name.lower().replace(' ', '-') + '-cards'
     IMAGES2 = 'http://mythicspoiler.com/newspoilers.html'
@@ -314,7 +314,7 @@ def get_image_urls(mtgjson, isfullspoil, code, name, size=269, setinfo=False):
     text3 = requests.get(IMAGES3).text
     wotcpattern = r'<img alt="{}.*?" src="(?P<img>.*?\.png)"'
     wotcpattern2 = r'<img src="(?P<img>.*?\.png).*?alt="{}.*?"'
-    mythicspoilerpattern = r' src="' + code.lower() + '/cards/{}.*?.jpg">'
+    mythicspoilerpattern = r' src="' + mythicCode.lower() + '/cards/{}.*?.jpg">'
     WOTC = []
     for c in mtgjson['cards']:
         if 'names' in c:
