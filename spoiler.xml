@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sat, Sep 02 2017, 15:27:09 (UTC)
+        created: Sat, Sep 02 2017, 17:41:55 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,17 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Sentinel Totem</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/358/636399483604451610.jpeg" rarity="Uncommon">XLN</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>When Sentinel Totem enters the battlefield, Scry 1
+
+{T}, Exile Sentinel Totem: Exile all cards from graveyards.</text>			
+		</card>		
 		<card>			
 			<name>Stone Quarry</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/341/636398698965498528.png" rarity="Common">XLN</set>			
