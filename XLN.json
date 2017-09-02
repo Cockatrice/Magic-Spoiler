@@ -34,7 +34,7 @@
       "name":"Stone Quarry",
       "number":"289",
       "rarity":"Common",
-      "text":"Stone Quarry comes in tapped.\n{T}: Add {R} or {W} to your mana pool",
+      "text":"Stone Quarry enters the battlefield tapped.\n{T}: Add {R} or {W} to your mana pool.",
       "type":"Land",
       "types":[
         "Land"
@@ -79,7 +79,7 @@
       "name":"Huatli's Spurring",
       "number":"287",
       "rarity":"Uncommon",
-      "text":"Target creature gets +2/+0 until end of turn. If you control a Huatli planeswalker, that creature gets +4/+0 until the end of turn instead.",
+      "text":"Target creature gets +2/+0 until end of turn. If you control a Huatli planeswalker, that creature gets +4/+0 until end of turn instead.",
       "type":"Instant",
       "types":[
         "Instant"
@@ -118,7 +118,7 @@
       ],
       "name":"Woodland Stream",
       "number":"284",
-      "rarity":"Basic Land",
+      "rarity":"Common",
       "text":"Woodland Stream enters the battlefield tapped.\n\n{T}: Add {G} or {U} to your mana pool.",
       "type":"Land",
       "types":[
@@ -143,7 +143,7 @@
         "Merfolk",
         "Warrior"
       ],
-      "text":"As long as you control a Jace planeswalker Jace's Sentinel gets +1/+0 and can't be blocked.",
+      "text":"As long as you control a Jace planeswalker, Jace's Sentinel gets +1/+0 and can't be blocked.",
       "toughness":"3",
       "type":"Creature — Merfolk Warrior",
       "types":[
@@ -163,7 +163,7 @@
       "name":"Grasping Current",
       "number":"282",
       "rarity":"Rare",
-      "text":"Return up to two target creatures to their owner's hand.\n\nSearch your library and/or  graveyard for a card named Jace, Ingenious Mind-Mage, reveal it, and put it into your hand. If you searched your library this way shuffle it.",
+      "text":"Return up to two target creatures to their owner's hand.\n\nSearch your library and/or  graveyard for a card named Jace, Ingenious Mind-Mage, reveal it, and put it into your hand. If you searched your library this way, shuffle it.",
       "type":"Sorcery",
       "types":[
         "Sorcery"
@@ -185,7 +185,7 @@
       "subtypes":[
         "Aura"
       ],
-      "text":"Enchant Creature\n\nWhen Castaway's Despair enters the battlefield, tap enchanted creature.\n\nEnchanted creature doesn't untap during it's controller's untap step.",
+      "text":"Enchant creature\n\nWhen Castaway's Despair enters the battlefield, tap enchanted creature.\n\nEnchanted creature doesn't untap during it's controller's untap step.",
       "type":"Enchantment — Aura",
       "types":[
         "Enchantment"
@@ -208,10 +208,10 @@
       "number":"285",
       "rarity":"Mythic Rare",
       "subtypes":[
-        "Huatil"
+        "Huatli"
       ],
-      "text":"+2: Put two +1/+1 counters on up to one target dinosaur you control.\n\n-3: Target Dinosaur you control deals damage equal to it's power to target creature don't control.\n\n-7: Dinosaurs you control get +4/+4 until end of turn.",
-      "type":"Legendary Planeswalker — Huatil",
+      "text":"+2: Put two +1/+1 counters on up to one target Dinosaur you control.\n\n-3: Target Dinosaur you control deals damage equal to its power to target creature you don't control.\n\n-7: Dinosaurs you control get +4/+4 until end of turn.",
+      "type":"Legendary Planeswalker — Huatli",
       "types":[
         "Planeswalker"
       ],
@@ -233,7 +233,7 @@
       "subtypes":[
         "Jace"
       ],
-      "text":"+1: Draw a card.\n\n+1: Untap all creatures you control\n\n-9: Gain control of up to three target creatures",
+      "text":"+1: Draw a card.\n\n+1: Untap all creatures you control.\n\n-9: Gain control of up to three target creatures.",
       "type":"Legendary Planeswalker — Jace",
       "types":[
         "Planeswalker"
