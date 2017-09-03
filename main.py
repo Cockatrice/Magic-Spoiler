@@ -184,7 +184,7 @@ if __name__ == '__main__':
     if presets['dumpErrors']:
         if errorlog != {}:
             print '//----- DUMPING ERROR LOG -----'
-            print json.dumps(errorlog, ensure_ascii=False, encoding='utf8', indent=2, sort_keys=True, separators=(',', ':'))
+            print yaml.safe_dump(errorlog, default_flow_style=False)
             print '//-----   END ERROR LOG   -----'
         else:
             print "No Detected Errors!"
