@@ -9,8 +9,51 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Primal Amulet</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/410/636401187279049993.png" rarity="Rare">XLN</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Instant and Sorcery spells you cast cost {1} less to cast.
+
+Whenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it you may remove those counters and transform it</text>			
+		</card>		
+		<card>			
+			<name>Primal Wellspring</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/409/636401184205869891.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for that spell.</text>			
+		</card>		
+		<card>			
+			<name>~ Deadeye Foreman</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<color>U</color>			
+			<type>Creature — Pirate</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Deadeye Foreman enters the battlefield, you may search your library for an Equipment or a Vehicle card and put it into your hand. If you do, shuffle your library.
+</text>			
+		</card>		
+		<card>			
+			<name>Wakening Sun's Avatar</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/397/636401149347836561.png" rarity="Mythic Rare">XLN</set>			
+			<manacost>5WWW</manacost>			
+			<cmc>8</cmc>			
+			<color>W</color>			
+			<type>Creature — Dinosaur Avatar</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Wakening Sun's Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures.</text>			
+		</card>		
+		<card>			
 			<name>Ixalan's Binding</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/370/636399668545112653.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_u9Gm7DRdGS.png" rarity="Uncommon">XLN</set>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
 			<color>W</color>			
@@ -22,7 +65,7 @@ Your opponents can't cast spells with the same name as the exiled card.</text>
 		</card>		
 		<card>			
 			<name>Huatli, Warrior Poet</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/371/636399669207800654.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_5FTmAhfoQp.png" rarity="Mythic Rare">XLN</set>			
 			<manacost>3RW</manacost>			
 			<cmc>5</cmc>			
 			<color>W</color>			
@@ -218,7 +261,7 @@ Enchanted creature doesn't untap during it's controller's untap step.</text>
 		</card>		
 		<card>			
 			<name>Marauding Looter</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/270/636397000533707384.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_fxCYVuVKth.png" rarity="Uncommon">XLN</set>			
 			<manacost>2UR</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -230,7 +273,7 @@ Enchanted creature doesn't untap during it's controller's untap step.</text>
 		</card>		
 		<card>			
 			<name>Raging Swordtooth</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/306/636398295468249146.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_dOEsObctKc.png" rarity="Uncommon">XLN</set>			
 			<manacost>3RG</manacost>			
 			<cmc>5</cmc>			
 			<color>R</color>			
@@ -244,7 +287,7 @@ When Raging Swordtooth enters the battlefield, it deals 1 damage to each other c
 		</card>		
 		<card>			
 			<name>Kumena's Speaker</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/276/636397056900943754.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_tjpm9lUw0o.png" rarity="Uncommon">XLN</set>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
 			<color>G</color>			
@@ -255,7 +298,7 @@ When Raging Swordtooth enters the battlefield, it deals 1 damage to each other c
 		</card>		
 		<card>			
 			<name>Dusk Legion Dreadnought</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/274/636397051662113957.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_Y4K8dqFzi4.png" rarity="Uncommon">XLN</set>			
 			<manacost>5</manacost>			
 			<cmc>5</cmc>			
 			<type>Artifact — Vehicle</type>			
@@ -266,7 +309,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 		</card>		
 		<card>			
 			<name>Pillar of Origins</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/307/636398298274765658.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_OLHsjTy1UL.png" rarity="Uncommon">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact</type>			
@@ -288,7 +331,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 		</card>		
 		<card>			
 			<name>Deathless Ancient</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/273/636397046514050093.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_hJ0SvTEDiP.png" rarity="Uncommon">XLN</set>			
 			<manacost>4BB</manacost>			
 			<cmc>6</cmc>			
 			<color>B</color>			
@@ -301,7 +344,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Deeproot Waters</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/272/636397040709132177.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_mH5Nja9ImK.png" rarity="Uncommon">XLN</set>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
 			<color>U</color>			
@@ -311,7 +354,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Dire Fleet Captain</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/257/636395890553623818.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_t7RdWftJtL.png" rarity="Uncommon">XLN</set>			
 			<manacost>BR</manacost>			
 			<cmc>2</cmc>			
 			<color>B</color>			
@@ -323,7 +366,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Deadeye Plunderers</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/305/636398285734928261.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_5BlOFj41dP.png" rarity="Uncommon">XLN</set>			
 			<manacost>3UB</manacost>			
 			<cmc>5</cmc>			
 			<color>U</color>			
@@ -337,7 +380,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Belligerent Brontodon</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/304/636398279855942937.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_kym9E6V1Vd.png" rarity="Uncommon">XLN</set>			
 			<manacost>5GW</manacost>			
 			<cmc>7</cmc>			
 			<color>W</color>			
@@ -345,11 +388,11 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 			<type>Creature — Dinosaur</type>			
 			<pt>4/6</pt>			
 			<tablerow>2</tablerow>			
-			<text>Each creature you control assigns damage equal to its toughness rather than its power.</text>			
+			<text>Each creature you control assigns combat damage equal to its toughness rather than its power.</text>			
 		</card>		
 		<card>			
 			<name>Call to the Feast</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/275/636397054944780661.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_VLM0EzE4GV.png" rarity="Uncommon">XLN</set>			
 			<manacost>2WB</manacost>			
 			<cmc>4</cmc>			
 			<color>W</color>			
@@ -360,7 +403,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Headwater Sentries</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/253/636395262652608345.jpeg" rarity="Common">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_IWOsZZfT5d.png" rarity="Common">XLN</set>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -371,7 +414,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Queen's Bay Soldier</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/252/636395256166054650.jpeg" rarity="Common">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_nPCMAHUMBl.png" rarity="Common">XLN</set>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
 			<color>B</color>			
@@ -382,7 +425,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Unfriendly Fire</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/308/636398309749349910.png" rarity="Common">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_mY2MakspZu.png" rarity="Common">XLN</set>			
 			<manacost>4R</manacost>			
 			<cmc>5</cmc>			
 			<color>R</color>			
@@ -392,7 +435,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Sleek Schooner</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/241/636395129882219298.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_gfDHwBBPHF.png" rarity="Uncommon">XLN</set>			
 			<manacost>3</manacost>			
 			<cmc>3</cmc>			
 			<type>Artifact — Vehicle</type>			
@@ -401,7 +444,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Tishana's Wayfinder</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/236/636395127706157695.png" rarity="Common">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_gohG04WiSz.png" rarity="Common">XLN</set>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
 			<color>G</color>			
@@ -412,7 +455,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Prosperous Pirates</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/230/636395124543822260.png" rarity="Common">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_vAYcL44vjW.png" rarity="Common">XLN</set>			
 			<manacost>4U</manacost>			
 			<cmc>5</cmc>			
 			<color>U</color>			
@@ -423,7 +466,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Deadeye Tormentor</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/223/636395120618451719.png" rarity="Common">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_vdHw0swbOR.png" rarity="Common">XLN</set>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
 			<color>B</color>			
@@ -434,7 +477,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Sun-Crowned Hunters</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/216/636395117217834764.png" rarity="Common">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_wO9xGNUMhW.png" rarity="Common">XLN</set>			
 			<manacost>4RR</manacost>			
 			<cmc>6</cmc>			
 			<color>R</color>			
@@ -445,7 +488,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Jace, Cunning Castaway</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/208/636395113148690577.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_TEfbSu9pam.png" rarity="Mythic Rare">XLN</set>			
 			<manacost>1UU</manacost>			
 			<cmc>3</cmc>			
 			<color>U</color>			
@@ -460,7 +503,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Treasure Cove</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/196/636395088027328347.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_bdTtGwdBPz.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Land</type>			
@@ -471,7 +514,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Treasure Map</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/195/636395084690034175.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_y4nmM488Eh.png" rarity="Rare">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact</type>			
@@ -498,17 +541,6 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 			<pt>4/6</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever Fleet Swallower attacks, target player puts the top half of his or her library, rounded up, into his or her graveyard.</text>			
-		</card>		
-		<card>			
-			<name>Wakening Sun's Avatar</name>			
-			<set picURL="" rarity="Mythic Rare">XLN</set>			
-			<manacost>5WWW</manacost>			
-			<cmc>8</cmc>			
-			<color>W</color>			
-			<type>Creature — Dinosaur Avatar</type>			
-			<pt>7/7</pt>			
-			<tablerow>2</tablerow>			
-			<text>When Wakening Sun's Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures.</text>			
 		</card>		
 		<card>			
 			<name>Regisaur Alpha</name>			
@@ -546,7 +578,7 @@ When Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature
 		</card>		
 		<card>			
 			<name>Bishop of Rebirth</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/206/636395112085480539.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_uDtRbs8m1P.png" rarity="Rare">XLN</set>			
 			<manacost>3WW</manacost>			
 			<cmc>5</cmc>			
 			<color>W</color>			
@@ -559,7 +591,7 @@ Whenever Bishop of Rebirth attacks, you may return target creature card with con
 		</card>		
 		<card>			
 			<name>Kopala, Warden of Waves</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/248/636395133362356867.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_64ZmfLZVZL.png" rarity="Rare">XLN</set>			
 			<manacost>1UU</manacost>			
 			<cmc>3</cmc>			
 			<color>U</color>			
@@ -572,7 +604,7 @@ Abilities your opponents activate that target a Merfolk you control cost {2} mor
 		</card>		
 		<card>			
 			<name>Walk the Plank</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/324/636398585972507272.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_WBcn4m7YSm.png" rarity="Uncommon">XLN</set>			
 			<manacost>BB</manacost>			
 			<cmc>2</cmc>			
 			<color>B</color>			
@@ -582,7 +614,7 @@ Abilities your opponents activate that target a Merfolk you control cost {2} mor
 		</card>		
 		<card>			
 			<name>Unclaimed Territory</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/325/636398586104268963.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_pELrMZ7YoA_b.png" rarity="Uncommon">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Land</type>			
@@ -595,7 +627,7 @@ Abilities your opponents activate that target a Merfolk you control cost {2} mor
 		</card>		
 		<card>			
 			<name>Burning Sun's Avatar</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/233/636395125538051582.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_C1oC1OiTqv.png" rarity="Rare">XLN</set>			
 			<manacost>3RRR</manacost>			
 			<cmc>6</cmc>			
 			<color>R</color>			
@@ -606,7 +638,7 @@ Abilities your opponents activate that target a Merfolk you control cost {2} mor
 		</card>		
 		<card>			
 			<name>Old-Growth Dryads</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/266/636396719892450128.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_0u9FM4XR6l.png" rarity="Rare">XLN</set>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
 			<color>G</color>			
@@ -617,7 +649,7 @@ Abilities your opponents activate that target a Merfolk you control cost {2} mor
 		</card>		
 		<card>			
 			<name>Ashes of the Abhorrent</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/205/636395110772892637.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_8BuR5T4kqb.png" rarity="Rare">XLN</set>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
 			<color>W</color>			
@@ -629,7 +661,7 @@ Whenever a creature dies, you gain 1 life.</text>
 		</card>		
 		<card>			
 			<name>Settle the Wreckage</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/229/636395123713938031.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_om3PkZGo5v.png" rarity="Rare">XLN</set>			
 			<manacost>2WW</manacost>			
 			<cmc>4</cmc>			
 			<color>W</color>			
@@ -639,7 +671,7 @@ Whenever a creature dies, you gain 1 life.</text>
 		</card>		
 		<card>			
 			<name>Priest of the Wakening Sun</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/222/636395120594277983.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_4zqXWg6oS5.png" rarity="Rare">XLN</set>			
 			<manacost>W</manacost>			
 			<cmc>1</cmc>			
 			<color>W</color>			
@@ -652,7 +684,7 @@ Whenever a creature dies, you gain 1 life.</text>
 		</card>		
 		<card>			
 			<name>Sanguine Sacrament</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/226/636395122430213652.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_HGxEL3mMy8.png" rarity="Rare">XLN</set>			
 			<manacost>XWW</manacost>			
 			<cmc>2</cmc>			
 			<color>W</color>			
@@ -662,7 +694,7 @@ Whenever a creature dies, you gain 1 life.</text>
 		</card>		
 		<card>			
 			<name>River's Rebuke</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/250/636395135256220070.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_q5ePSq2ZwS.png" rarity="Rare">XLN</set>			
 			<manacost>4UU</manacost>			
 			<cmc>6</cmc>			
 			<color>U</color>			
@@ -672,7 +704,7 @@ Whenever a creature dies, you gain 1 life.</text>
 		</card>		
 		<card>			
 			<name>Vraska's Contempt</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/237/636395128371009432.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_lrdJDXzb6a.png" rarity="Rare">XLN</set>			
 			<manacost>2BB</manacost>			
 			<cmc>4</cmc>			
 			<color>B</color>			
@@ -682,7 +714,7 @@ Whenever a creature dies, you gain 1 life.</text>
 		</card>		
 		<card>			
 			<name>Deadeye Tracker</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/245/636395131601309449.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_QK2Sa8vzUh.png" rarity="Rare">XLN</set>			
 			<manacost>B</manacost>			
 			<cmc>1</cmc>			
 			<color>B</color>			
@@ -693,7 +725,7 @@ Whenever a creature dies, you gain 1 life.</text>
 		</card>		
 		<card>			
 			<name>Fathom Fleet Captain</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/244/636395130582427149.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_8YZqEihIrj.png" rarity="Rare">XLN</set>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
 			<color>B</color>			
@@ -706,7 +738,7 @@ Whenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, y
 		</card>		
 		<card>			
 			<name>Boneyard Parley</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/247/636395133060898877.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_1Qg0ZyNjGJ.png" rarity="Mythic Rare">XLN</set>			
 			<manacost>5BB</manacost>			
 			<cmc>7</cmc>			
 			<color>B</color>			
@@ -716,7 +748,7 @@ Whenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, y
 		</card>		
 		<card>			
 			<name>Gishath, Sun's Avatar</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/209/636395113320897602.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_ulChNTz1mz.png" rarity="Mythic Rare">XLN</set>			
 			<manacost>5RGW</manacost>			
 			<cmc>8</cmc>			
 			<color>W</color>			
@@ -731,7 +763,7 @@ Whenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many
 		</card>		
 		<card>			
 			<name>Tilonalli's Skinshifter</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/224/636395121586278317.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_Vpp3G9u49p.png" rarity="Rare">XLN</set>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
 			<color>R</color>			
@@ -755,7 +787,7 @@ Whenever Tilonalli's Skinshifter attacks, it becomes a copy of another target no
 		</card>		
 		<card>			
 			<name>Admiral Beckett Brass</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/211/636395113983457622.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_dXpvfRNxUN.png" rarity="Mythic Rare">XLN</set>			
 			<manacost>1UBR</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -770,7 +802,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 		</card>		
 		<card>			
 			<name>Sunbird's Invocation</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/225/636395122071269734.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_wZkZ5jvNGp.png" rarity="Rare">XLN</set>			
 			<manacost>5R</manacost>			
 			<cmc>6</cmc>			
 			<color>R</color>			
@@ -792,7 +824,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 		</card>		
 		<card>			
 			<name>Star of Extinction</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/227/636395122960944344.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_iq9N1Q3Q1z.png" rarity="Mythic Rare">XLN</set>			
 			<manacost>5RR</manacost>			
 			<cmc>7</cmc>			
 			<color>R</color>			
@@ -802,7 +834,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 		</card>		
 		<card>			
 			<name>Angrath's Marauders</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/235/636395127227839850.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_2S0d70qzYk.png" rarity="Rare">XLN</set>			
 			<manacost>3RR</manacost>			
 			<cmc>5</cmc>			
 			<color>R</color>			
@@ -813,7 +845,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 		</card>		
 		<card>			
 			<name>Herald of Secret Streams</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/246/636395131861832727.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_J87EyxwFSn.png" rarity="Rare">XLN</set>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -824,7 +856,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 		</card>		
 		<card>			
 			<name>Shapers' Sanctuary</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/215/636395116738152583.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_bGeHXD0yU0.png" rarity="Rare">XLN</set>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
 			<color>G</color>			
@@ -834,7 +866,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 		</card>		
 		<card>			
 			<name>Verdant Sun's Avatar</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/214/636395116205473959.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_meUgsDytXJ.png" rarity="Rare">XLN</set>			
 			<manacost>5GG</manacost>			
 			<cmc>7</cmc>			
 			<color>G</color>			
@@ -845,7 +877,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 		</card>		
 		<card>			
 			<name>Carnage Tyrant</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/221/636395119952355566.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_KvaL61GJr1.png" rarity="Mythic Rare">XLN</set>			
 			<manacost>4GG</manacost>			
 			<cmc>6</cmc>			
 			<color>G</color>			
@@ -858,7 +890,7 @@ Trample, hexproof</text>
 		</card>		
 		<card>			
 			<name>Waker of the Wilds</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/212/636395115364730823.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_UBMBPNXl7u.png" rarity="Rare">XLN</set>			
 			<manacost>2GG</manacost>			
 			<cmc>4</cmc>			
 			<color>G</color>			
@@ -869,7 +901,7 @@ Trample, hexproof</text>
 		</card>		
 		<card>			
 			<name>Ripjaw Raptor</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/217/636395117604362976.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_oUjuu5E2th.png" rarity="Rare">XLN</set>			
 			<manacost>2GG</manacost>			
 			<cmc>4</cmc>			
 			<color>G</color>			
@@ -880,7 +912,7 @@ Trample, hexproof</text>
 		</card>		
 		<card>			
 			<name>Kinjalli's Sunwing</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/213/636395116132466904.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_NPS8WefIOD.png" rarity="Rare">XLN</set>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
 			<color>W</color>			
@@ -892,7 +924,7 @@ Creatures your opponents control enter the battlefield tapped.</text>
 		</card>		
 		<card>			
 			<name>Emperor's Vanguard</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/219/636395118445032364.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_iMFkwLZJc2.png" rarity="Rare">XLN</set>			
 			<manacost>3G</manacost>			
 			<cmc>4</cmc>			
 			<color>G</color>			
@@ -903,7 +935,7 @@ Creatures your opponents control enter the battlefield tapped.</text>
 		</card>		
 		<card>			
 			<name>Entrancing Melody</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/243/636395130416403211.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_bIRJ8UVJvW.png" rarity="Rare">XLN</set>			
 			<manacost>XUU</manacost>			
 			<cmc>2</cmc>			
 			<color>U</color>			
@@ -913,7 +945,7 @@ Creatures your opponents control enter the battlefield tapped.</text>
 		</card>		
 		<card>			
 			<name>Revel in Riches</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/242/636395129995576891.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_APATUYl9Wm.png" rarity="Rare">XLN</set>			
 			<manacost>4B</manacost>			
 			<cmc>5</cmc>			
 			<color>B</color>			
@@ -925,7 +957,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 		</card>		
 		<card>			
 			<name>Tishana, Voice of Thunder</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/204/636395110597959258.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_C47hkllAv1.png" rarity="Mythic Rare">XLN</set>			
 			<manacost>5GU</manacost>			
 			<cmc>7</cmc>			
 			<color>U</color>			
@@ -954,7 +986,7 @@ When Dire Fleet Ravager enters the battlefield, each player loses a third of his
 		</card>		
 		<card>			
 			<name>Deeproot Champion</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/220/636395119174480231.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_Cu9bETMyt6.png" rarity="Rare">XLN</set>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
 			<color>G</color>			
@@ -965,7 +997,7 @@ When Dire Fleet Ravager enters the battlefield, each player loses a third of his
 		</card>		
 		<card>			
 			<name>Dreamcaller Siren</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/240/636395129387303923.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_EAsB1HfXSz.png" rarity="Rare">XLN</set>			
 			<manacost>2UU</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -982,7 +1014,7 @@ When Dreamcaller Siren enters the battlefield, if you control another Pirate, ta
 		</card>		
 		<card>			
 			<name>Goring Ceratops</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/210/636395113357349048.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_mE5iPDdxrO.png" rarity="Rare">XLN</set>			
 			<manacost>5WW</manacost>			
 			<cmc>7</cmc>			
 			<color>W</color>			
@@ -995,7 +1027,7 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 		</card>		
 		<card>			
 			<name>Hostage Taker</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/207/636395112417134492.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_PxlYqa3ZQJ.png" rarity="Rare">XLN</set>			
 			<manacost>2UB</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -1007,7 +1039,7 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 		</card>		
 		<card>			
 			<name>Sunpetal Grove</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/197/636395103824213254.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_cydtngAy9E.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<cipt>1</cipt>			
@@ -1018,7 +1050,7 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 		</card>		
 		<card>			
 			<name>Ruin Raider</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/239/636395128973886139.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_Okd58Nyuhd.png" rarity="Rare">XLN</set>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
 			<color>B</color>			
@@ -1029,7 +1061,7 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 		</card>		
 		<card>			
 			<name>Rootbound Crag</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/198/636395104793196441.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_Jt9yurxL7m.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<cipt>1</cipt>			
@@ -1040,7 +1072,7 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 		</card>		
 		<card>			
 			<name>Rowdy Crew</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/228/636395123570097762.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_N6hDAxf5ku.png" rarity="Mythic Rare">XLN</set>			
 			<manacost>3RR</manacost>			
 			<cmc>5</cmc>			
 			<color>R</color>			
@@ -1053,7 +1085,7 @@ When Rowdy Crew enters the battlefield, draw three cards, then discard two cards
 		</card>		
 		<card>			
 			<name>Glacial Fortress</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/199/636395105973034180.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_gW91ZN4eBi.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<cipt>1</cipt>			
@@ -1064,7 +1096,7 @@ When Rowdy Crew enters the battlefield, draw three cards, then discard two cards
 		</card>		
 		<card>			
 			<name>Drowned Catacomb</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/200/636395107142404246.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_3UcGoidOjU.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<cipt>1</cipt>			
@@ -1075,7 +1107,7 @@ When Rowdy Crew enters the battlefield, draw three cards, then discard two cards
 		</card>		
 		<card>			
 			<name>Dragonskull Summit</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/201/636395108546565654.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_x87NZsf14I.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<cipt>1</cipt>			
@@ -1086,7 +1118,7 @@ When Rowdy Crew enters the battlefield, draw three cards, then discard two cards
 		</card>		
 		<card>			
 			<name>Bloodcrazed Paladin</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/249/636395134246029463.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_lvIrNYtCaH.png" rarity="Rare">XLN</set>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
 			<color>B</color>			
@@ -1099,7 +1131,7 @@ Bloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each c
 		</card>		
 		<card>			
 			<name>Arcane Adaptation</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/234/636395126407435350.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_uRA1svXM1W.png" rarity="Rare">XLN</set>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
 			<color>U</color>			
@@ -1110,7 +1142,7 @@ Creatures you control are the chosen type in addition to their other types. The 
 		</card>		
 		<card>			
 			<name>Captain Lannery Storm</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/231/636395124718694823.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_P9FMMTi6df.png" rarity="Rare">XLN</set>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
 			<color>R</color>			
@@ -1125,7 +1157,7 @@ Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of
 		</card>		
 		<card>			
 			<name>Daring Saboteur</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/238/636395128610938717.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_Z9vnrlQdDI.png" rarity="Rare">XLN</set>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
 			<color>U</color>			
@@ -1138,7 +1170,7 @@ Whenever Daring Saboteur deals combat damage to a player, you may draw a card. I
 		</card>		
 		<card>			
 			<name>Sorcerous Spyglass</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/203/636395109887951560.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_SCFDEAyX2B.png" rarity="Rare">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact</type>			
@@ -1149,7 +1181,7 @@ Activated abilities of sources with the chosen name can't be activated unless th
 		</card>		
 		<card>			
 			<name>Vanquisher's Banner</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/202/636395109493507117.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_g5JIX0IwbO.png" rarity="Rare">XLN</set>			
 			<manacost>5</manacost>			
 			<cmc>5</cmc>			
 			<type>Artifact</type>			

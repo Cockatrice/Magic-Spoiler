@@ -27,6 +27,80 @@
   "cards":[
     {
       "cmc":4,
+      "manaCost":"4",
+      "name":"Primal Amulet",
+      "number":"243",
+      "rarity":"Rare",
+      "text":"Instant and Sorcery spells you cast cost {1} less to cast.\n\nWhenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it you may remove those counters and transform it",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/410/636401187279049993.png"
+    },
+    {
+      "cmc":0,
+      "name":"Primal Wellspring",
+      "number":"243",
+      "rarity":"Rare",
+      "text":"{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for that spell.",
+      "type":"Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/409/636401184205869891.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"3U",
+      "name":"~ Deadeye Foreman",
+      "number":"50",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Pirate"
+      ],
+      "text":"When Deadeye Foreman enters the battlefield, you may search your library for an Equipment or a Vehicle card and put it into your hand. If you do, shuffle your library.\n",
+      "toughness":"2",
+      "type":"Creature — Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
+      "cmc":8,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"5WWW",
+      "name":"Wakening Sun's Avatar",
+      "number":"44",
+      "power":"7",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Dinosaur",
+        "Avatar"
+      ],
+      "text":"When Wakening Sun's Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures.",
+      "toughness":"7",
+      "type":"Creature — Dinosaur Avatar",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/397/636401149347836561.png"
+    },
+    {
+      "cmc":4,
       "colorIdentity":[
         "W"
       ],
@@ -42,7 +116,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/370/636399668545112653.png"
+      "url":"http://media.wizards.com/2017/xln/en_u9Gm7DRdGS.png"
     },
     {
       "cmc":5,
@@ -66,7 +140,7 @@
       "types":[
         "Planeswalker"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/371/636399669207800654.png"
+      "url":"http://media.wizards.com/2017/xln/en_5FTmAhfoQp.png"
     },
     {
       "cmc":1,
@@ -411,7 +485,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/270/636397000533707384.jpeg"
+      "url":"http://media.wizards.com/2017/xln/en_fxCYVuVKth.png"
     },
     {
       "cmc":5,
@@ -437,7 +511,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/306/636398295468249146.png"
+      "url":"http://media.wizards.com/2017/xln/en_dOEsObctKc.png"
     },
     {
       "cmc":1,
@@ -462,7 +536,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/276/636397056900943754.png"
+      "url":"http://media.wizards.com/2017/xln/en_tjpm9lUw0o.png"
     },
     {
       "cmc":5,
@@ -478,7 +552,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/274/636397051662113957.png"
+      "url":"http://media.wizards.com/2017/xln/en_Y4K8dqFzi4.png"
     },
     {
       "cmc":2,
@@ -491,7 +565,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/307/636398298274765658.png"
+      "url":"http://media.wizards.com/2017/xln/en_OLHsjTy1UL.png"
     },
     {
       "cmc":6,
@@ -540,7 +614,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/273/636397046514050093.png"
+      "url":"http://media.wizards.com/2017/xln/en_hJ0SvTEDiP.png"
     },
     {
       "cmc":3,
@@ -559,7 +633,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/272/636397040709132177.png"
+      "url":"http://media.wizards.com/2017/xln/en_mH5Nja9ImK.png"
     },
     {
       "cmc":2,
@@ -586,7 +660,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/257/636395890553623818.png"
+      "url":"http://media.wizards.com/2017/xln/en_t7RdWftJtL.png"
     },
     {
       "cmc":5,
@@ -613,7 +687,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/305/636398285734928261.png"
+      "url":"http://media.wizards.com/2017/xln/en_5BlOFj41dP.png"
     },
     {
       "cmc":7,
@@ -633,13 +707,13 @@
       "subtypes":[
         "Dinosaur"
       ],
-      "text":"Each creature you control assigns damage equal to its toughness rather than its power.",
+      "text":"Each creature you control assigns combat damage equal to its toughness rather than its power.",
       "toughness":"6",
       "type":"Creature — Dinosaur",
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/304/636398279855942937.png"
+      "url":"http://media.wizards.com/2017/xln/en_kym9E6V1Vd.png"
     },
     {
       "cmc":4,
@@ -660,7 +734,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/275/636397054944780661.png"
+      "url":"http://media.wizards.com/2017/xln/en_VLM0EzE4GV.png"
     },
     {
       "cmc":4,
@@ -685,7 +759,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/253/636395262652608345.jpeg"
+      "url":"http://media.wizards.com/2017/xln/en_IWOsZZfT5d.png"
     },
     {
       "cmc":2,
@@ -710,7 +784,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/252/636395256166054650.jpeg"
+      "url":"http://media.wizards.com/2017/xln/en_nPCMAHUMBl.png"
     },
     {
       "cmc":5,
@@ -729,7 +803,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/308/636398309749349910.png"
+      "url":"http://media.wizards.com/2017/xln/en_mY2MakspZu.png"
     },
     {
       "cmc":3,
@@ -745,7 +819,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/241/636395129882219298.png"
+      "url":"http://media.wizards.com/2017/xln/en_gfDHwBBPHF.png"
     },
     {
       "cmc":3,
@@ -770,7 +844,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/236/636395127706157695.png"
+      "url":"http://media.wizards.com/2017/xln/en_gohG04WiSz.png"
     },
     {
       "cmc":5,
@@ -795,7 +869,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/230/636395124543822260.png"
+      "url":"http://media.wizards.com/2017/xln/en_vAYcL44vjW.png"
     },
     {
       "cmc":3,
@@ -820,7 +894,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/223/636395120618451719.png"
+      "url":"http://media.wizards.com/2017/xln/en_vdHw0swbOR.png"
     },
     {
       "cmc":6,
@@ -844,7 +918,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/216/636395117217834764.png"
+      "url":"http://media.wizards.com/2017/xln/en_wO9xGNUMhW.png"
     },
     {
       "cmc":3,
@@ -867,7 +941,7 @@
       "types":[
         "Planeswalker"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/208/636395113148690577.png"
+      "url":"http://media.wizards.com/2017/xln/en_TEfbSu9pam.png"
     },
     {
       "cmc":0,
@@ -879,7 +953,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/196/636395088027328347.png"
+      "url":"http://media.wizards.com/2017/xln/en_bdTtGwdBPz.png"
     },
     {
       "cmc":2,
@@ -892,7 +966,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/195/636395084690034175.png"
+      "url":"http://media.wizards.com/2017/xln/en_y4nmM488Eh.png"
     },
     {
       "cmc":3,
@@ -932,31 +1006,6 @@
       "text":"Whenever Fleet Swallower attacks, target player puts the top half of his or her library, rounded up, into his or her graveyard.",
       "toughness":"6",
       "type":"Creature — Fish",
-      "types":[
-        "Creature"
-      ],
-      "url":""
-    },
-    {
-      "cmc":8,
-      "colorIdentity":[
-        "W"
-      ],
-      "colors":[
-        "White"
-      ],
-      "manaCost":"5WWW",
-      "name":"Wakening Sun's Avatar",
-      "number":"?",
-      "power":"7",
-      "rarity":"Mythic Rare",
-      "subtypes":[
-        "Dinosaur",
-        "Avatar"
-      ],
-      "text":"When Wakening Sun's Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures.",
-      "toughness":"7",
-      "type":"Creature — Dinosaur Avatar",
       "types":[
         "Creature"
       ],
@@ -1047,7 +1096,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/206/636395112085480539.png"
+      "url":"http://media.wizards.com/2017/xln/en_uDtRbs8m1P.png"
     },
     {
       "cmc":3,
@@ -1072,7 +1121,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/248/636395133362356867.png"
+      "url":"http://media.wizards.com/2017/xln/en_64ZmfLZVZL.png"
     },
     {
       "cmc":2,
@@ -1091,7 +1140,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/324/636398585972507272.png"
+      "url":"http://media.wizards.com/2017/xln/en_WBcn4m7YSm.png"
     },
     {
       "cmc":0,
@@ -1103,7 +1152,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/325/636398586104268963.png"
+      "url":"http://media.wizards.com/2017/xln/en_pELrMZ7YoA_b.png"
     },
     {
       "cmc":6,
@@ -1128,7 +1177,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/233/636395125538051582.png"
+      "url":"http://media.wizards.com/2017/xln/en_C1oC1OiTqv.png"
     },
     {
       "cmc":1,
@@ -1152,7 +1201,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/266/636396719892450128.png"
+      "url":"http://media.wizards.com/2017/xln/en_0u9FM4XR6l.png"
     },
     {
       "cmc":2,
@@ -1171,7 +1220,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/205/636395110772892637.png"
+      "url":"http://media.wizards.com/2017/xln/en_8BuR5T4kqb.png"
     },
     {
       "cmc":4,
@@ -1190,7 +1239,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/229/636395123713938031.png"
+      "url":"http://media.wizards.com/2017/xln/en_om3PkZGo5v.png"
     },
     {
       "cmc":1,
@@ -1215,7 +1264,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/222/636395120594277983.png"
+      "url":"http://media.wizards.com/2017/xln/en_4zqXWg6oS5.png"
     },
     {
       "cmc":2,
@@ -1234,7 +1283,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/226/636395122430213652.png"
+      "url":"http://media.wizards.com/2017/xln/en_HGxEL3mMy8.png"
     },
     {
       "cmc":6,
@@ -1253,7 +1302,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/250/636395135256220070.png"
+      "url":"http://media.wizards.com/2017/xln/en_q5ePSq2ZwS.png"
     },
     {
       "cmc":4,
@@ -1272,7 +1321,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/237/636395128371009432.png"
+      "url":"http://media.wizards.com/2017/xln/en_lrdJDXzb6a.png"
     },
     {
       "cmc":1,
@@ -1297,7 +1346,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/245/636395131601309449.png"
+      "url":"http://media.wizards.com/2017/xln/en_QK2Sa8vzUh.png"
     },
     {
       "cmc":2,
@@ -1322,7 +1371,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/244/636395130582427149.png"
+      "url":"http://media.wizards.com/2017/xln/en_8YZqEihIrj.png"
     },
     {
       "cmc":7,
@@ -1341,7 +1390,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/247/636395133060898877.png"
+      "url":"http://media.wizards.com/2017/xln/en_1Qg0ZyNjGJ.png"
     },
     {
       "cmc":8,
@@ -1370,7 +1419,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/209/636395113320897602.png"
+      "url":"http://media.wizards.com/2017/xln/en_ulChNTz1mz.png"
     },
     {
       "cmc":3,
@@ -1395,7 +1444,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/224/636395121586278317.png"
+      "url":"http://media.wizards.com/2017/xln/en_Vpp3G9u49p.png"
     },
     {
       "cmc":2,
@@ -1449,7 +1498,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/211/636395113983457622.png"
+      "url":"http://media.wizards.com/2017/xln/en_dXpvfRNxUN.png"
     },
     {
       "cmc":6,
@@ -1468,7 +1517,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/225/636395122071269734.png"
+      "url":"http://media.wizards.com/2017/xln/en_wZkZ5jvNGp.png"
     },
     {
       "cmc":3,
@@ -1512,7 +1561,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/227/636395122960944344.png"
+      "url":"http://media.wizards.com/2017/xln/en_iq9N1Q3Q1z.png"
     },
     {
       "cmc":5,
@@ -1537,7 +1586,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/235/636395127227839850.png"
+      "url":"http://media.wizards.com/2017/xln/en_2S0d70qzYk.png"
     },
     {
       "cmc":4,
@@ -1562,7 +1611,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/246/636395131861832727.png"
+      "url":"http://media.wizards.com/2017/xln/en_J87EyxwFSn.png"
     },
     {
       "cmc":1,
@@ -1581,7 +1630,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/215/636395116738152583.png"
+      "url":"http://media.wizards.com/2017/xln/en_bGeHXD0yU0.png"
     },
     {
       "cmc":7,
@@ -1606,7 +1655,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/214/636395116205473959.png"
+      "url":"http://media.wizards.com/2017/xln/en_meUgsDytXJ.png"
     },
     {
       "cmc":6,
@@ -1630,7 +1679,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/221/636395119952355566.png"
+      "url":"http://media.wizards.com/2017/xln/en_KvaL61GJr1.png"
     },
     {
       "cmc":4,
@@ -1655,7 +1704,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/212/636395115364730823.png"
+      "url":"http://media.wizards.com/2017/xln/en_UBMBPNXl7u.png"
     },
     {
       "cmc":4,
@@ -1679,7 +1728,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/217/636395117604362976.png"
+      "url":"http://media.wizards.com/2017/xln/en_oUjuu5E2th.png"
     },
     {
       "cmc":3,
@@ -1703,7 +1752,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/213/636395116132466904.png"
+      "url":"http://media.wizards.com/2017/xln/en_NPS8WefIOD.png"
     },
     {
       "cmc":4,
@@ -1728,7 +1777,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/219/636395118445032364.png"
+      "url":"http://media.wizards.com/2017/xln/en_iMFkwLZJc2.png"
     },
     {
       "cmc":2,
@@ -1747,7 +1796,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/243/636395130416403211.png"
+      "url":"http://media.wizards.com/2017/xln/en_bIRJ8UVJvW.png"
     },
     {
       "cmc":5,
@@ -1766,7 +1815,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/242/636395129995576891.png"
+      "url":"http://media.wizards.com/2017/xln/en_APATUYl9Wm.png"
     },
     {
       "cmc":7,
@@ -1793,7 +1842,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/204/636395110597959258.png"
+      "url":"http://media.wizards.com/2017/xln/en_C47hkllAv1.png"
     },
     {
       "cmc":5,
@@ -1844,7 +1893,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/220/636395119174480231.png"
+      "url":"http://media.wizards.com/2017/xln/en_Cu9bETMyt6.png"
     },
     {
       "cmc":4,
@@ -1869,7 +1918,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/240/636395129387303923.png"
+      "url":"http://media.wizards.com/2017/xln/en_EAsB1HfXSz.png"
     },
     {
       "cmc":7,
@@ -1893,7 +1942,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/210/636395113357349048.png"
+      "url":"http://media.wizards.com/2017/xln/en_mE5iPDdxrO.png"
     },
     {
       "cmc":4,
@@ -1920,7 +1969,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/207/636395112417134492.png"
+      "url":"http://media.wizards.com/2017/xln/en_PxlYqa3ZQJ.png"
     },
     {
       "cmc":0,
@@ -1936,7 +1985,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/197/636395103824213254.png"
+      "url":"http://media.wizards.com/2017/xln/en_cydtngAy9E.png"
     },
     {
       "cmc":3,
@@ -1961,7 +2010,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/239/636395128973886139.png"
+      "url":"http://media.wizards.com/2017/xln/en_Okd58Nyuhd.png"
     },
     {
       "cmc":0,
@@ -1977,7 +2026,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/198/636395104793196441.png"
+      "url":"http://media.wizards.com/2017/xln/en_Jt9yurxL7m.png"
     },
     {
       "cmc":5,
@@ -2002,7 +2051,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/228/636395123570097762.png"
+      "url":"http://media.wizards.com/2017/xln/en_N6hDAxf5ku.png"
     },
     {
       "cmc":0,
@@ -2018,7 +2067,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/199/636395105973034180.png"
+      "url":"http://media.wizards.com/2017/xln/en_gW91ZN4eBi.png"
     },
     {
       "cmc":0,
@@ -2034,7 +2083,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/200/636395107142404246.png"
+      "url":"http://media.wizards.com/2017/xln/en_3UcGoidOjU.png"
     },
     {
       "cmc":0,
@@ -2050,7 +2099,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/201/636395108546565654.png"
+      "url":"http://media.wizards.com/2017/xln/en_x87NZsf14I.png"
     },
     {
       "cmc":2,
@@ -2075,7 +2124,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/249/636395134246029463.png"
+      "url":"http://media.wizards.com/2017/xln/en_lvIrNYtCaH.png"
     },
     {
       "cmc":3,
@@ -2094,7 +2143,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/234/636395126407435350.png"
+      "url":"http://media.wizards.com/2017/xln/en_uRA1svXM1W.png"
     },
     {
       "cmc":3,
@@ -2119,7 +2168,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/231/636395124718694823.png"
+      "url":"http://media.wizards.com/2017/xln/en_P9FMMTi6df.png"
     },
     {
       "cmc":2,
@@ -2144,7 +2193,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/238/636395128610938717.png"
+      "url":"http://media.wizards.com/2017/xln/en_Z9vnrlQdDI.png"
     },
     {
       "cmc":2,
@@ -2157,7 +2206,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/203/636395109887951560.png"
+      "url":"http://media.wizards.com/2017/xln/en_SCFDEAyX2B.png"
     },
     {
       "cmc":5,
@@ -2170,7 +2219,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/202/636395109493507117.png"
+      "url":"http://media.wizards.com/2017/xln/en_g5JIX0IwbO.png"
     }
   ],
   "code":"XLN",
