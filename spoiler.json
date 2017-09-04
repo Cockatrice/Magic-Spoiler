@@ -27,6 +27,52 @@
     "border":"black",
     "cards":[
       {
+        "cmc":2,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"1R",
+        "name":"Lightning Strike",
+        "number":"149",
+        "rarity":"Uncommon",
+        "text":"Lightning Strike does 3 damage to target creature or player",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/412/636401248380534157.jpeg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "U",
+          "G"
+        ],
+        "colors":[
+          "Blue",
+          "Green"
+        ],
+        "manaCost":"1GU",
+        "name":"Shapers of Nature",
+        "number":"228",
+        "power":"3",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Merfolk",
+          "Shaman"
+        ],
+        "text":"{3}{G}: Put a +1/+1 counter on target creature.\n\n{2}{U}: Remove a +1/+1 counter from a creature you control: Draw a card",
+        "toughness":"3",
+        "type":"Creature — Merfolk Shaman",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/411/636401215297708108.jpeg"
+      },
+      {
         "cmc":4,
         "manaCost":"4",
         "name":"Primal Amulet",
