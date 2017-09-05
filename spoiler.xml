@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Mon, Sep 04 2017, 18:51:40 (UTC)
+        created: Tue, Sep 05 2017, 08:07:07 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,29 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Wanted Scoundrels</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/423/636401565868872586.jpeg" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Wanted Scoundrels dies, target opponent creates two colorless Treasure artifact tokens with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Drover of the Mighty</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/418/636401363972437808.png" rarity="Uncommon">XLN</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Druid</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Drover of the Mighty gets +2/+2 as long as you control a Dinosaur. 
+{T}: Add one mana of any color to your mana pool.</text>			
+		</card>		
 		<card>			
 			<name>Siren Stormtamer</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/413/636401297128433815.jpeg" rarity="Uncommon">XLN</set>			
@@ -32,7 +55,7 @@
 			<cmc>2</cmc>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
-			<text>Lightning Strike does 3 damage to target creature or player</text>			
+			<text>Lightning Strike deals 3 damage to target creature or player.</text>			
 		</card>		
 		<card>			
 			<name>Shapers of Nature</name>			
@@ -46,7 +69,7 @@
 			<tablerow>2</tablerow>			
 			<text>{3}{G}: Put a +1/+1 counter on target creature.
 
-{2}{U}: Remove a +1/+1 counter from a creature you control: Draw a card</text>			
+{2}{U}, Remove a +1/+1 counter from a creature you control: Draw a card.</text>			
 		</card>		
 		<card>			
 			<name>Primal Amulet</name>			
@@ -55,9 +78,9 @@
 			<cmc>4</cmc>			
 			<type>Artifact</type>			
 			<tablerow>1</tablerow>			
-			<text>Instant and Sorcery spells you cast cost {1} less to cast.
+			<text>Instant and sorcery spells you cast cost {1} less to cast.
 
-Whenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it you may remove those counters and transform it</text>			
+Whenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.</text>			
 		</card>		
 		<card>			
 			<name>Primal Wellspring</name>			
@@ -66,18 +89,20 @@ Whenever you cast an instant or sorcery spell, put a charge counter on Primal Am
 			<cmc>0</cmc>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
-			<text>{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for that spell.</text>			
+			<text>(Transforms from Primal Amulet.)
+
+{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.</text>			
 		</card>		
 		<card>			
-			<name>~ Deadeye Foreman</name>			
-			<set picURL="" rarity="Uncommon">XLN</set>			
+			<name>Deadeye Foreman</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/417/636401326125824297.png" rarity="Uncommon">XLN</set>			
 			<color>U</color>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
-			<type>Creature — Pirate</type>			
+			<type>Creature — Human Pirate</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>When Deadeye Foreman enters the battlefield, you may search your library for an Equipment or a Vehicle card and put it into your hand. If you do, shuffle your library.
+			<text>When Deadeye Foreman enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, and put it into your hand. If you do, shuffle your library.
 </text>			
 		</card>		
 		<card>			
@@ -171,8 +196,7 @@ Your opponents can't cast spells with the same name as the exiled card.</text>
 			<type>Creature — Dinosaur</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>Vigilance
-</text>			
+			<text>Vigilance (Attacking doesn't cause this creature to tap.)</text>			
 		</card>		
 		<card>			
 			<name>Woodland Stream</name>			
@@ -390,7 +414,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 			<cmc>3</cmc>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
-			<text>Whenever you cast a Merfolk spell, create a 1/1 blue Merfolk creature token with hexproof.</text>			
+			<text>Whenever you cast a Merfolk spell, create a 1/1 blue Merfolk creature token with hexproof. (A creature with hexproof can't be the target of spells or abilities your opponents control.)</text>			
 		</card>		
 		<card>			
 			<name>Dire Fleet Captain</name>			

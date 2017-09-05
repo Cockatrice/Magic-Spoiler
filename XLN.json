@@ -26,6 +26,56 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"1B",
+      "name":"Wanted Scoundrels",
+      "number":"131",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"When Wanted Scoundrels dies, target opponent creates two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+      "toughness":"3",
+      "type":"Creature — Human Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/423/636401565868872586.jpeg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1G",
+      "name":"Drover of the Mighty",
+      "number":"187",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Druid"
+      ],
+      "text":"Drover of the Mighty gets +2/+2 as long as you control a Dinosaur. \n{T}: Add one mana of any color to your mana pool.",
+      "toughness":"1",
+      "type":"Creature — Human Druid",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/418/636401363972437808.png"
+    },
+    {
       "cmc":1,
       "colorIdentity":[
         "U"
@@ -63,7 +113,7 @@
       "name":"Lightning Strike",
       "number":"149",
       "rarity":"Uncommon",
-      "text":"Lightning Strike does 3 damage to target creature or player",
+      "text":"Lightning Strike deals 3 damage to target creature or player.",
       "type":"Instant",
       "types":[
         "Instant"
@@ -89,7 +139,7 @@
         "Merfolk",
         "Shaman"
       ],
-      "text":"{3}{G}: Put a +1/+1 counter on target creature.\n\n{2}{U}: Remove a +1/+1 counter from a creature you control: Draw a card",
+      "text":"{3}{G}: Put a +1/+1 counter on target creature.\n\n{2}{U}, Remove a +1/+1 counter from a creature you control: Draw a card.",
       "toughness":"3",
       "type":"Creature — Merfolk Shaman",
       "types":[
@@ -103,7 +153,7 @@
       "name":"Primal Amulet",
       "number":"243",
       "rarity":"Rare",
-      "text":"Instant and Sorcery spells you cast cost {1} less to cast.\n\nWhenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it you may remove those counters and transform it",
+      "text":"Instant and sorcery spells you cast cost {1} less to cast.\n\nWhenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.",
       "type":"Artifact",
       "types":[
         "Artifact"
@@ -115,7 +165,7 @@
       "name":"Primal Wellspring",
       "number":"243",
       "rarity":"Rare",
-      "text":"{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for that spell.",
+      "text":"(Transforms from Primal Amulet.)\n\n{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.",
       "type":"Land",
       "types":[
         "Land"
@@ -131,20 +181,21 @@
         "Blue"
       ],
       "manaCost":"3U",
-      "name":"~ Deadeye Foreman",
+      "name":"Deadeye Foreman",
       "number":"50",
       "power":"2",
       "rarity":"Uncommon",
       "subtypes":[
+        "Human",
         "Pirate"
       ],
-      "text":"When Deadeye Foreman enters the battlefield, you may search your library for an Equipment or a Vehicle card and put it into your hand. If you do, shuffle your library.\n",
+      "text":"When Deadeye Foreman enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, and put it into your hand. If you do, shuffle your library.\n",
       "toughness":"2",
-      "type":"Creature — Pirate",
+      "type":"Creature — Human Pirate",
       "types":[
         "Creature"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/417/636401326125824297.png"
     },
     {
       "cmc":8,
@@ -304,7 +355,7 @@
       "subtypes":[
         "Dinosaur"
       ],
-      "text":"Vigilance\n",
+      "text":"Vigilance (Attacking doesn't cause this creature to tap.)",
       "toughness":"2",
       "type":"Creature — Dinosaur",
       "types":[
@@ -700,7 +751,7 @@
       "name":"Deeproot Waters",
       "number":"51",
       "rarity":"Uncommon",
-      "text":"Whenever you cast a Merfolk spell, create a 1/1 blue Merfolk creature token with hexproof.",
+      "text":"Whenever you cast a Merfolk spell, create a 1/1 blue Merfolk creature token with hexproof. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",
       "type":"Enchantment",
       "types":[
         "Enchantment"
@@ -1095,7 +1146,7 @@
       ],
       "manaCost":"3RG",
       "name":"Regisaur Alpha",
-      "number":"?",
+      "number":"227",
       "power":"4",
       "rarity":"Rare",
       "subtypes":[
