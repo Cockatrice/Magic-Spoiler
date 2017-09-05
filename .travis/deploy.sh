@@ -59,9 +59,24 @@ git config user.email "$COMMIT_AUTHOR_EMAIL"
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
-git add -A .
-#git commit --allow-empty -m "Deploy to GitHub: ${SHA}"
-git commit -m "Travis Deploy ${SHA}"
+# Only commit if more than one line has been changed (datetime in spoiler.xml)
+CHANGED_FILES=`git diff --numstat --minimal | sed '/^[1-]\s\+[1-]\s\+.*/d' | wc -c`
+ONLYDATECHANGE=true
+if [[ $CHANGED_FILES -eq 0 ]]; then
+  for CHANGED_FILE in `git diff --name-only`; do
+    if ! [[ $CHANGED_FILE =~ "spoiler.xml" ]]; then
+      ONLYDATECHANGE=false
+	fi
+  done
+else
+  ONLYDATECHANGE=false
+fi
+if [[ $ONLYDATECHANGE == true ]]; then
+  git add -A .
+  git commit -m "Travis Deploy: ${SHA}"
+else
+  echo "Only date in spoiler.xml changed, not committing
+fi
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
