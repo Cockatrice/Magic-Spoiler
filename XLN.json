@@ -26,6 +26,31 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"RR",
+      "name":"Wily Goblin",
+      "number":"174",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Goblin",
+        "Pirate"
+      ],
+      "text":"When Wily Goblin enters the battlefield, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+      "toughness":"1",
+      "type":"Creature — Goblin Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/442/636402180992302008.jpeg"
+    },
+    {
       "cmc":3,
       "manaCost":"3",
       "name":"Pirate's Cutlass",
@@ -34,7 +59,7 @@
       "subtypes":[
         "Equipment"
       ],
-      "text":"When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.\nEquipped creatures gets +2/+1.\nEquip {2}",
+      "text":"When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.\nEquipped creatures gets +2/+1.\nEquip {2} ({2}: Attach to target creature you control.  Equip only as a sorcery.)",
       "type":"Artifact — Equipment",
       "types":[
         "Artifact"
@@ -99,11 +124,12 @@
       "power":"3",
       "rarity":"Rare",
       "subtypes":[
-        "Vampire"
+        "Vampire",
+        "Knight"
       ],
       "text":"Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.",
       "toughness":"4",
-      "type":"Creature — Vampire",
+      "type":"Creature — Vampire Knight",
       "types":[
         "Creature"
       ],
@@ -114,7 +140,7 @@
       "name":"Spires of Orazca",
       "number":"249",
       "rarity":"Rare",
-      "text":"(Transforms from Thaumatic Compass.\n{T}: Add {C} to your mana pool.\n{T}: Untap target attacking creature an opponent controls and remove it from combat.",
+      "text":"(Transforms from Thaumatic Compass.)\n{T}: Add {C} to your mana pool.\n{T}: Untap target attacking creature an opponent controls and remove it from combat.",
       "type":"Land",
       "types":[
         "Land"
@@ -171,20 +197,20 @@
         "Green"
       ],
       "manaCost":"1G",
-      "name":"Walker of Overgrowth",
+      "name":"Wildgrowth Walker",
       "number":"216",
       "power":"1",
       "rarity":"Uncommon",
       "subtypes":[
         "Elemental"
       ],
-      "text":"Whenever a creature you control explores, put a +1/+1 counter on Walker of Overgrowth and you gain 3 life.",
+      "text":"Whenever a creature you control explores, put a +1/+1 counter on Wildgrowth Walker and you gain 3 life.",
       "toughness":"3",
       "type":"Creature — Elemental",
       "types":[
         "Creature"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/444/636402207651286366.png"
     },
     {
       "cmc":2,
