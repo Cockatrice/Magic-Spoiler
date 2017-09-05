@@ -66,7 +66,7 @@ if [[ $CHANGED_FILES -eq 0 ]]; then
   for CHANGED_FILE in `git diff --name-only`; do
     if ! [[ $CHANGED_FILE =~ "spoiler.xml" ]]; then
       ONLYDATECHANGE=false
-	fi
+    fi
   done
 else
   ONLYDATECHANGE=false
@@ -75,7 +75,7 @@ if [[ $ONLYDATECHANGE == true ]]; then
   git add -A .
   git commit -m "Travis Deploy: ${SHA}"
 else
-  echo "Only date in spoiler.xml changed, not committing
+  echo "Only date in spoiler.xml changed, not committing"
 fi
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
