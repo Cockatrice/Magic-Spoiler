@@ -27,6 +27,25 @@
     "border":"black",
     "cards":[
       {
+        "cmc":3,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2G",
+        "name":"Savage Stomp",
+        "number":"205",
+        "rarity":"Uncommon",
+        "text":"Savage Stomp costs {2} less to cast if it targets a Dinosaur you control.\n\nPut a +1/+1 counter on target creature you control.  Then that creature fights target creature you don't control.  (Each deals damage equal to its power to the other.)",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/445/636402215592803027.jpeg"
+      },
+      {
         "cmc":2,
         "colorIdentity":[
           "R"
@@ -102,7 +121,7 @@
         ],
         "manaCost":"4UUU",
         "name":"Overflowing Insight",
-        "number":"44",
+        "number":"64",
         "rarity":"Mythic Rare",
         "text":"Target player draws seven cards.",
         "type":"Sorcery",
