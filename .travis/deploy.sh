@@ -75,6 +75,9 @@ if [[ $ONLYDATECHANGE == true ]]; then
   git add -A .
   git commit -m "Travis Deploy: ${SHA}"
 else
+  git diff
+  git diff --numstat --minimal
+  git diff --name-only
   echo "Only date in spoiler.xml changed, not committing"
 fi
 
