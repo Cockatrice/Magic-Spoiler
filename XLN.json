@@ -26,6 +26,167 @@
   "border":"black",
   "cards":[
     {
+      "cmc":3,
+      "manaCost":"3",
+      "name":"Pirate's Cutlass",
+      "number":"242",
+      "rarity":"Common",
+      "subtypes":[
+        "Equipment"
+      ],
+      "text":"When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.\nEquipped creatures gets +2/+1.\nEquip {2}",
+      "type":"Artifact — Equipment",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/437/636402092420615250.jpeg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"1B",
+      "name":"Kitesail Freebooter",
+      "number":"110",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"Flying\nWhen Kitesail Freebooter enters the battlefield, target opponent reveals his or her hand.  You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.",
+      "toughness":"2",
+      "type":"Creature — Human Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/436/636402091131476639.jpeg"
+    },
+    {
+      "cmc":7,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"4UUU",
+      "name":"Overflowing Insight",
+      "number":"44",
+      "rarity":"Mythic Rare",
+      "text":"Target player draws seven cards.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/435/636402078524351891.jpeg"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"2BB",
+      "name":"Sanctum Seeker",
+      "number":"120",
+      "power":"3",
+      "rarity":"Rare",
+      "subtypes":[
+        "Vampire"
+      ],
+      "text":"Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.",
+      "toughness":"4",
+      "type":"Creature — Vampire",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/433/636402036279715721.png"
+    },
+    {
+      "cmc":0,
+      "name":"Spires of Orazca",
+      "number":"249",
+      "rarity":"Rare",
+      "text":"(Transforms from Thaumatic Compass.\n{T}: Add {C} to your mana pool.\n{T}: Untap target attacking creature an opponent controls and remove it from combat.",
+      "type":"Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/432/636402031913028319.png"
+    },
+    {
+      "cmc":2,
+      "manaCost":"2",
+      "name":"Thaumatic Compass",
+      "number":"249",
+      "rarity":"Rare",
+      "text":"{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nAt the beginning of your end step, if you control seven or more lands, transform Thaumatic Compass.",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/431/636402030772132265.png"
+    },
+    {
+      "cmc":0,
+      "name":"Conqueror's Foothold",
+      "number":"234",
+      "rarity":"Rare",
+      "text":"(Transforms from Conqueror's Galleon.)\n{T}: Add {C} to your mana pool.\n{2}, {T}: Draw a card, then discard a card.\n{4}, {T}: Draw a card.\n{6}, {T}: Return target card from your graveyard to your hand.",
+      "type":"Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/429/636402013670334353.png"
+    },
+    {
+      "cmc":4,
+      "manaCost":"4",
+      "name":"Conqueror's Galleon",
+      "number":"234",
+      "rarity":"Rare",
+      "subtypes":[
+        "Vehicle"
+      ],
+      "text":"When Conqueror's Galleon attacks, exile it at end of combat, then return it to the battlefield transformed.\nCrew 4 (Tap any number of creatures with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)",
+      "type":"Artifact — Vehicle",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/428/636402012420241420.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1G",
+      "name":"Walker of Overgrowth",
+      "number":"216",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"Whenever a creature you control explores, put a +1/+1 counter on Walker of Overgrowth and you gain 3 life.",
+      "toughness":"3",
+      "type":"Creature — Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
       "cmc":2,
       "colorIdentity":[
         "B"
@@ -99,7 +260,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/413/636401297128433815.jpeg"
+      "url":"http://media.wizards.com/2017/xln/en_D41oqXU9Rw.png"
     },
     {
       "cmc":2,
@@ -118,7 +279,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/412/636401248380534157.jpeg"
+      "url":"http://media.wizards.com/2017/xln/en_UrQRvOPtYz.png"
     },
     {
       "cmc":3,
@@ -145,7 +306,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/411/636401215297708108.jpeg"
+      "url":"http://media.wizards.com/2017/xln/en_dih805xL65.png"
     },
     {
       "cmc":4,
@@ -158,7 +319,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/410/636401187279049993.png"
+      "url":"http://media.wizards.com/2017/xln/en_hz81cQLpKQ.png"
     },
     {
       "cmc":0,
@@ -170,7 +331,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/409/636401184205869891.png"
+      "url":"http://media.wizards.com/2017/xln/en_nwpo11MmZ6.png"
     },
     {
       "cmc":4,
@@ -181,7 +342,7 @@
         "Blue"
       ],
       "manaCost":"3U",
-      "name":"Deadeye Foreman",
+      "name":"Deadeye Quartermaster",
       "number":"50",
       "power":"2",
       "rarity":"Uncommon",
@@ -189,13 +350,13 @@
         "Human",
         "Pirate"
       ],
-      "text":"When Deadeye Foreman enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, and put it into your hand. If you do, shuffle your library.\n",
+      "text":"When Deadeye Quartermaster enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, put it into your hand, then shuffle your library.\n",
       "toughness":"2",
       "type":"Creature — Human Pirate",
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/417/636401326125824297.png"
+      "url":"http://media.wizards.com/2017/xln/en_tvLGVePEQs.png"
     },
     {
       "cmc":8,
@@ -220,7 +381,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/397/636401149347836561.png"
+      "url":"http://media.wizards.com/2017/xln/en_tY8FsI3P30.png"
     },
     {
       "cmc":4,
@@ -276,7 +437,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/358/636399483604451610.jpeg"
+      "url":"http://media.wizards.com/2017/xln/en_xT0UfeLCs1.png"
     },
     {
       "cmc":0,
@@ -1275,7 +1436,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_pELrMZ7YoA_b.png"
+      "url":"http://media.wizards.com/2017/xln/en_pELrMZ7YoA.png"
     },
     {
       "cmc":6,

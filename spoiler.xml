@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Tue, Sep 05 2017, 08:23:14 (UTC)
+        created: Tue, Sep 05 2017, 17:42:31 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,105 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Pirate's Cutlass</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/437/636402092420615250.jpeg" rarity="Common">XLN</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact — Equipment</type>			
+			<tablerow>1</tablerow>			
+			<text>When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.
+Equipped creatures gets +2/+1.
+Equip {2}</text>			
+		</card>		
+		<card>			
+			<name>Kitesail Freebooter</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/436/636402091131476639.jpeg" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Kitesail Freebooter enters the battlefield, target opponent reveals his or her hand.  You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Overflowing Insight</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/435/636402078524351891.jpeg" rarity="Mythic Rare">XLN</set>			
+			<color>U</color>			
+			<manacost>4UUU</manacost>			
+			<cmc>7</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target player draws seven cards.</text>			
+		</card>		
+		<card>			
+			<name>Sanctum Seeker</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/433/636402036279715721.png" rarity="Rare">XLN</set>			
+			<color>B</color>			
+			<manacost>2BB</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Vampire</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.</text>			
+		</card>		
+		<card>			
+			<name>Spires of Orazca</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/432/636402031913028319.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Thaumatic Compass.
+{T}: Add {C} to your mana pool.
+{T}: Untap target attacking creature an opponent controls and remove it from combat.</text>			
+		</card>		
+		<card>			
+			<name>Thaumatic Compass</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/431/636402030772132265.png" rarity="Rare">XLN</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+At the beginning of your end step, if you control seven or more lands, transform Thaumatic Compass.</text>			
+		</card>		
+		<card>			
+			<name>Conqueror's Foothold</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/429/636402013670334353.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Conqueror's Galleon.)
+{T}: Add {C} to your mana pool.
+{2}, {T}: Draw a card, then discard a card.
+{4}, {T}: Draw a card.
+{6}, {T}: Return target card from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Conqueror's Galleon</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/428/636402012420241420.png" rarity="Rare">XLN</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact — Vehicle</type>			
+			<tablerow>1</tablerow>			
+			<text>When Conqueror's Galleon attacks, exile it at end of combat, then return it to the battlefield transformed.
+Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>			
+		</card>		
+		<card>			
+			<name>Walker of Overgrowth</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever a creature you control explores, put a +1/+1 counter on Walker of Overgrowth and you gain 3 life.</text>			
+		</card>		
 		<card>			
 			<name>Wanted Scoundrels</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/423/636401565868872586.jpeg" rarity="Uncommon">XLN</set>			
@@ -37,7 +136,7 @@
 		</card>		
 		<card>			
 			<name>Siren Stormtamer</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/413/636401297128433815.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_D41oqXU9Rw.png" rarity="Uncommon">XLN</set>			
 			<color>U</color>			
 			<manacost>U</manacost>			
 			<cmc>1</cmc>			
@@ -49,7 +148,7 @@
 		</card>		
 		<card>			
 			<name>Lightning Strike</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/412/636401248380534157.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_UrQRvOPtYz.png" rarity="Uncommon">XLN</set>			
 			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
@@ -59,7 +158,7 @@
 		</card>		
 		<card>			
 			<name>Shapers of Nature</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/411/636401215297708108.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_dih805xL65.png" rarity="Uncommon">XLN</set>			
 			<color>U</color>			
 			<color>G</color>			
 			<manacost>1GU</manacost>			
@@ -73,7 +172,7 @@
 		</card>		
 		<card>			
 			<name>Primal Amulet</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/410/636401187279049993.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_hz81cQLpKQ.png" rarity="Rare">XLN</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact</type>			
@@ -84,7 +183,7 @@ Whenever you cast an instant or sorcery spell, put a charge counter on Primal Am
 		</card>		
 		<card>			
 			<name>Primal Wellspring</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/409/636401184205869891.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_nwpo11MmZ6.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Land</type>			
@@ -94,20 +193,20 @@ Whenever you cast an instant or sorcery spell, put a charge counter on Primal Am
 {T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.</text>			
 		</card>		
 		<card>			
-			<name>Deadeye Foreman</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/417/636401326125824297.png" rarity="Uncommon">XLN</set>			
+			<name>Deadeye Quartermaster</name>			
+			<set picURL="http://media.wizards.com/2017/xln/en_tvLGVePEQs.png" rarity="Uncommon">XLN</set>			
 			<color>U</color>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
 			<type>Creature — Human Pirate</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>When Deadeye Foreman enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, and put it into your hand. If you do, shuffle your library.
+			<text>When Deadeye Quartermaster enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, put it into your hand, then shuffle your library.
 </text>			
 		</card>		
 		<card>			
 			<name>Wakening Sun's Avatar</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/397/636401149347836561.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_tY8FsI3P30.png" rarity="Mythic Rare">XLN</set>			
 			<color>W</color>			
 			<manacost>5WWW</manacost>			
 			<cmc>8</cmc>			
@@ -145,7 +244,7 @@ Your opponents can't cast spells with the same name as the exiled card.</text>
 		</card>		
 		<card>			
 			<name>Sentinel Totem</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/358/636399483604451610.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_xT0UfeLCs1.png" rarity="Uncommon">XLN</set>			
 			<manacost>1</manacost>			
 			<cmc>1</cmc>			
 			<type>Artifact</type>			
@@ -678,7 +777,7 @@ Abilities your opponents activate that target a Merfolk you control cost {2} mor
 		</card>		
 		<card>			
 			<name>Unclaimed Territory</name>			
-			<set picURL="http://media.wizards.com/2017/xln/en_pELrMZ7YoA_b.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_pELrMZ7YoA.png" rarity="Uncommon">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Land</type>			
