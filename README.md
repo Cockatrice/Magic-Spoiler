@@ -1,5 +1,5 @@
 # Magic-Spoiler [![Gitter Chat](https://img.shields.io/gitter/room/Cockatrice/Magic-Spoiler.svg)](https://gitter.im/Cockatrice/Magic-Spoiler) #
-
+ 
 Magic-Spoiler is a Python script to scrape <i>MTG Salvation</i>, <i>Scryfall</i>, <i>MythicSpoiler</i> and <i>Wizards</i> to compile<br>
 XML files (Cockatrice formatted) and application-ready json files (mtgjson formatted) with information about spoiled cards from upcoming sets.
 
