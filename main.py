@@ -10,6 +10,7 @@ import io
 import sys
 import verify_files
 import requests
+import yaml
 from lxml import etree
 
 presets = {
@@ -66,9 +67,8 @@ def save_setjson(mtgs, filename):
 
 
 def save_errorlog(errorlog):
-    with open('out/errors.json', 'w') as outfile:
-        json.dump(errorlog, outfile, sort_keys=True,
-                  indent=2, separators=(',', ': '))
+    with open('out/errors.yml', 'w') as outfile:
+        yaml.safe_dump(errorlog, outfile, default_flow_style=False)
 
 
 def save_xml(xmlstring, outfile):
@@ -127,10 +127,7 @@ if __name__ == '__main__':
             manual_cards = []
         mtgs = spoilers.correct_cards(
             mtgs, manual_cards, card_corrections, delete_cards['delete'])  # fix using the fixfiles
-        if not 'mythicCode' in setinfo:
-            setinfo['mythicCode'] = setinfo['code']
-        mtgjson = spoilers.get_image_urls(
-            mtgs, presets['isfullspoil'], setinfo['code'], setinfo['mythicCode'], setinfo['name'], setinfo['size'], setinfo)  # get images
+        mtgjson = spoilers.get_image_urls(mtgs, presets['isfullspoil'], setinfo)  # get images
         if presets['scryfallOnly'] or 'scryfallOnly' in setinfo and setinfo['scryfallOnly']:
             scryfall = scryfall_scraper.get_scryfall(
                 'https://api.scryfall.com/cards/search?q=++e:' + setinfo['code'].lower())
@@ -184,7 +181,7 @@ if __name__ == '__main__':
     if presets['dumpErrors']:
         if errorlog != {}:
             print '//----- DUMPING ERROR LOG -----'
-            print json.dumps(errorlog, ensure_ascii=False, encoding='utf8', indent=2, sort_keys=True, separators=(',', ':'))
+            print yaml.safe_dump(errorlog, default_flow_style=False)
             print '//-----   END ERROR LOG   -----'
         else:
             print "No Detected Errors!"

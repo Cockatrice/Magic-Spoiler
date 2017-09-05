@@ -73,7 +73,7 @@ else
 fi
 if [[ $ONLYDATECHANGE == true ]]; then
   git add -A .
-  git commit --allow-empty -m "Travis deploy to GitHub: ${SHA}"
+  git commit -m "Travis Deploy: ${SHA}"
 else
   echo "Only date in spoiler.xml changed, not committing
 fi

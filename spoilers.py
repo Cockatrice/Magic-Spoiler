@@ -302,19 +302,21 @@ def remove_corrected_errors(errorlog=[], card_corrections=[], print_fixed=False)
     return errorlog2
 
 
-def get_image_urls(mtgjson, isfullspoil, code, mythicCode, name, size=269, setinfo=False):
+def get_image_urls(mtgjson, isfullspoil, setinfo=False):
+    if not 'mythicCode' in setinfo:
+        setinfo['mythicCode'] = setinfo['code']
     IMAGES = 'http://magic.wizards.com/en/content/' + \
-        name.lower().replace(' ', '-') + '-cards'
+        setinfo['name'].lower().replace(' ', '-') + '-cards'
     IMAGES2 = 'http://mythicspoiler.com/newspoilers.html'
     IMAGES3 = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + \
-        name.lower().replace('of', '').replace('  ', ' ').replace(' ', '-')
+        setinfo['name'].lower().replace('of', '').replace('  ', ' ').replace(' ', '-')
 
     text = requests.get(IMAGES).text
     text2 = requests.get(IMAGES2).text
     text3 = requests.get(IMAGES3).text
     wotcpattern = r'<img alt="{}.*?" src="(?P<img>.*?\.png)"'
     wotcpattern2 = r'<img src="(?P<img>.*?\.png).*?alt="{}.*?"'
-    mythicspoilerpattern = r' src="' + mythicCode.lower() + '/cards/{}.*?.jpg">'
+    mythicspoilerpattern = r' src="' + setinfo['mythicCode'].lower() + '/cards/{}.*?.jpg">'
     WOTC = []
     for c in mtgjson['cards']:
         if 'names' in c:

@@ -41,6 +41,9 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], rela
             print "Removing card scraped from MTGS RSS but not in their gallery: " + card['name']
             cards.remove(card)
 
+    for card in cards:
+        card['name'] = card['name'].strip()
+
     # if we didn't find any cards, let's bail out to prevent overwriting good data
     if len(cards) < 1:
         sys.exit("No cards found, exiting to prevent file overwrite")
