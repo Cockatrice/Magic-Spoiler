@@ -305,8 +305,8 @@ def remove_corrected_errors(errorlog=[], card_corrections=[], print_fixed=False)
 def get_image_urls(mtgjson, isfullspoil, setinfo=False):
     if not 'mythicCode' in setinfo:
         setinfo['mythicCode'] = setinfo['code']
-    IMAGES = 'http://magic.wizards.com/en/content/' + \
-        setinfo['name'].lower().replace(' ', '-') + '-cards'
+    IMAGES = 'https://magic.wizards.com/en/products/' + \
+        setinfo['name'].lower().replace(' ', '-') + '/cards'
     IMAGES2 = 'http://mythicspoiler.com/newspoilers.html'
     IMAGES3 = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + \
         setinfo['name'].lower().replace('of', '').replace('  ', ' ').replace(' ', '-')
