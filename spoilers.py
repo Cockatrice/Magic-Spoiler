@@ -92,10 +92,44 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
         print "Manual Cards Added: " + str(manual_added).strip('[]')
 
     mtgjson = {"cards": mtgjson2}
-
+    transforms = {}
     for card in mtgjson['cards']:
-        if '{' in card['text']:
-            card['text'] = re.sub(r'{(.*?)}', replace_costs, card['text'])
+        if 'text' in card:
+            if '{' in card['text']:
+                card['text'] = re.sub(r'{(.*?)}', replace_costs, card['text'])
+            for card2 in mtgjson['cards']:
+                if 'number' in card and 'number' in card2 and card2['number'] == card['number'] and \
+                    not card['name'] == card2['name']:
+                    transforms[card['name']] = card2['name']
+            if 'transforms from' in card['text'].lower():
+                if 'number' in card:
+                    if not 'b' in card['number']:
+                        if 'a' in card['number']:
+                            card['number'] = card['number'].replace('a','b')
+                        else:
+                            card['number'] = str(card['number']) + 'b'
+                card['layout'] = 'double-faced'
+            if 'transform ' in card['text'].lower() or 'transformed' in card['text'].lower():
+                if 'number' in card:
+                    if not 'a' in card['number']:
+                        if 'b' in card['number']:
+                            card['number'] = card['number'].replace('b','a')
+                        else:
+                            card['number'] = str(card['number']) + 'a'
+                card['layout'] = 'double-faced'
+        if 'number' in card and 'a' in card['number'] or 'b' in card['number']:
+            for card1 in transforms:
+                if card['name'] == card1:
+                    if 'a' in card['number']:
+                        card['names'] = [card1, transforms[card1]]
+                    else:
+                        card['names'] = [transforms[card1], card1]
+                if card['name'] == transforms[card1]:
+                    if 'a' in card['number']:
+                        card['names'] = [card['name'], card1]
+                    else:
+                        card['names'] = [card1, card['name']]
+
     return mtgjson
 
 
@@ -355,9 +389,9 @@ def get_image_urls(mtgjson, isfullspoil, setinfo=False):
                     if mtgsImages[card['name']]['url'] != '':
                         card['url'] = mtgsImages[card['name']]['url']
 
-    for card in mtgjson['cards']:
-        if len(str(card['url'])) < 10:
-            print(card['name'] + ' has no image.')
+    #for card in mtgjson['cards']:
+    #    if len(str(card['url'])) < 10:
+    #        print(card['name'] + ' has no image.')
     return mtgjson
 
 
@@ -413,14 +447,17 @@ def write_xml(mtgjson, code, name, releaseDate):
         cardtype = card["type"]
         if card.has_key("names"):
             if "layout" in card:
-                if card['layout'] == 'split' or card['layout'] == 'aftermath':
+                if card['layout'] == 'split' or card['layout'] == 'aftermath' or card['layout'] == 'double-faced':
                     if 'names' in card:
                         if card['name'] == card['names'][0]:
                             for jsoncard in mtgjson["cards"]:
                                 if jsoncard['name'] == card['names'][1]:
                                     cardtype += " // " + jsoncard["type"]
+                                    newmanacost = ""
+                                    if 'manaCost' in jsoncard:
+                                        newmanacost = jsoncard['manaCost']
                                     manacost += " // " + \
-                                        (jsoncard["manaCost"]).replace(
+                                        newmanacost.replace(
                                             '{', '').replace('}', '')
                                     cardcmc += " // " + str(jsoncard["cmc"])
                                     text += "\n---\n" + jsoncard["text"]
