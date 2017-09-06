@@ -484,12 +484,13 @@ def write_xml(mtgjson, code, name, releaseDate):
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
 
-    print 'XML Stats for ' + code
-    print 'Total cards: ' + str(count)
-    if dfccount > 0:
-        print 'DFC: ' + str(dfccount)
-    print 'Newest: ' + str(newest)
-    print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' (UTC) on ' + str(datetime.date.today())
+    if count > 0:
+        print 'XML Stats for ' + code
+        print 'Total cards: ' + str(count)
+        if dfccount > 0:
+            print 'DFC: ' + str(dfccount)
+        print 'Newest: ' + str(newest)
+        print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' (UTC) on ' + str(datetime.date.today())
 
 
 def write_combined_xml(mtgjson, setinfos):
@@ -631,13 +632,13 @@ def write_combined_xml(mtgjson, setinfos):
             cardsxml.write("</card>\n")
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
-    if count > 0:
-        print 'XML COMBINED STATS'
-        print 'Total cards: ' + str(count)
-        if dfccount > 0:
-            print 'DFC: ' + str(dfccount)
-        print 'Newest: ' + str(newest)
-        print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' (UTC) on ' + str(datetime.date.today())
+    
+    print 'XML COMBINED STATS'
+    print 'Total cards: ' + str(count)
+    if dfccount > 0:
+        print 'DFC: ' + str(dfccount)
+    print 'Newest: ' + str(newest)
+    print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' (UTC) on ' + str(datetime.date.today())
 
 
 def pretty_xml(infile):
