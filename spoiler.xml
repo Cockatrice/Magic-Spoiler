@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Tue, Sep 05 2017, 21:38:13 (UTC)
+        created: Wed, Sep 06 2017, 17:28:09 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -13,8 +13,96 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Spell Pierce</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/474/636402972992300611.png" rarity="Uncommon">XLN</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target noncreature spell unless its controller pays {2}.</text>			
+		</card>		
+		<card>			
+			<name>Opt</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/463/636402881611060631.jpeg" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Duress</name>			
+			<set picURL="http://mythicspoiler.com/ixa/cards/duress.jpg" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.</text>			
+		</card>		
+		<card>			
+			<name>Slice in Twain</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/462/636402876579977615.jpeg" rarity="Uncommon">XLN</set>			
+			<color>G</color>			
+			<manacost>2GG</manacost>			
+			<cmc>4</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target artifact or enchantment.
+Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>~Dusk Legion Sky Walker</name>			
+			<set picURL="" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Vampire Cleric</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{W}, {T}: Target attacking Vampire gets +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Favorable Winds</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/457/636402686574165663.png" rarity="Uncommon">XLN</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Creatures you control with flying get +1/+1.</text>			
+		</card>		
+		<card>			
+			<name>Storm Fleet Arsonist</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/456/636402685294679205.png" rarity="Uncommon">XLN</set>			
+			<color>R</color>			
+			<manacost>4R</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Orc Pirate</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Raid — When Storm Fleet Arsonist enters the battlefield, if you attacked with a creature this turn, target opponent sacrifices a permanent.</text>			
+		</card>		
+		<card>			
+			<name>Storm Fleet Aerialist</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/455/636402684190369385.png" rarity="Uncommon">XLN</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+
+Raid — Storm Fleet Aerialist enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.</text>			
+		</card>		
+		<card>			
 			<name>Savage Stomp</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/445/636402215592803027.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_UK76KUgUYf.png" rarity="Uncommon">XLN</set>			
 			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
@@ -26,7 +114,7 @@ Put a +1/+1 counter on target creature you control.  Then that creature fights t
 		</card>		
 		<card>			
 			<name>Wily Goblin</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/442/636402180992302008.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_uQjlD0CjMj.png" rarity="Uncommon">XLN</set>			
 			<color>R</color>			
 			<manacost>RR</manacost>			
 			<cmc>2</cmc>			
@@ -37,7 +125,7 @@ Put a +1/+1 counter on target creature you control.  Then that creature fights t
 		</card>		
 		<card>			
 			<name>Pirate's Cutlass</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/437/636402092420615250.jpeg" rarity="Common">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_4RR0xWZ9Qt.png" rarity="Common">XLN</set>			
 			<manacost>3</manacost>			
 			<cmc>3</cmc>			
 			<type>Artifact — Equipment</type>			
@@ -48,7 +136,7 @@ Equip {2} ({2}: Attach to target creature you control.  Equip only as a sorcery.
 		</card>		
 		<card>			
 			<name>Kitesail Freebooter</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/436/636402091131476639.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_AUl9VbPXTg.png" rarity="Uncommon">XLN</set>			
 			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
@@ -60,7 +148,7 @@ When Kitesail Freebooter enters the battlefield, target opponent reveals his or 
 		</card>		
 		<card>			
 			<name>Overflowing Insight</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/435/636402078524351891.jpeg" rarity="Mythic Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_IFhaOeKWyJ.png" rarity="Mythic Rare">XLN</set>			
 			<color>U</color>			
 			<manacost>4UUU</manacost>			
 			<cmc>7</cmc>			
@@ -70,7 +158,7 @@ When Kitesail Freebooter enters the battlefield, target opponent reveals his or 
 		</card>		
 		<card>			
 			<name>Sanctum Seeker</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/433/636402036279715721.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_wetBr8S7zS.png" rarity="Rare">XLN</set>			
 			<color>B</color>			
 			<manacost>2BB</manacost>			
 			<cmc>4</cmc>			
@@ -81,7 +169,7 @@ When Kitesail Freebooter enters the battlefield, target opponent reveals his or 
 		</card>		
 		<card>			
 			<name>Spires of Orazca</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/432/636402031913028319.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_SGiJXW9Dw5.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Land</type>			
@@ -92,7 +180,7 @@ When Kitesail Freebooter enters the battlefield, target opponent reveals his or 
 		</card>		
 		<card>			
 			<name>Thaumatic Compass</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/431/636402030772132265.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_5tOynBtb9Y.png" rarity="Rare">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact</type>			
@@ -102,7 +190,7 @@ At the beginning of your end step, if you control seven or more lands, transform
 		</card>		
 		<card>			
 			<name>Conqueror's Foothold</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/429/636402013670334353.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_AtEtI4P4mo.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Land</type>			
@@ -115,7 +203,7 @@ At the beginning of your end step, if you control seven or more lands, transform
 		</card>		
 		<card>			
 			<name>Conqueror's Galleon</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/428/636402012420241420.png" rarity="Rare">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_8wskFlvdlC.png" rarity="Rare">XLN</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact — Vehicle</type>			
@@ -125,7 +213,7 @@ Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle bec
 		</card>		
 		<card>			
 			<name>Wildgrowth Walker</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/444/636402207651286366.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_nQgXIAveib.png" rarity="Uncommon">XLN</set>			
 			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
@@ -136,7 +224,7 @@ Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle bec
 		</card>		
 		<card>			
 			<name>Wanted Scoundrels</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/423/636401565868872586.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_pBMChCwLLC.png" rarity="Uncommon">XLN</set>			
 			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
@@ -147,7 +235,7 @@ Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle bec
 		</card>		
 		<card>			
 			<name>Drover of the Mighty</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/418/636401363972437808.png" rarity="Uncommon">XLN</set>			
+			<set picURL="http://media.wizards.com/2017/xln/en_4b8OyOmodU.png" rarity="Uncommon">XLN</set>			
 			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
@@ -730,7 +818,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Regisaur Alpha</name>			
-			<set picURL="" rarity="Rare">XLN</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/470/636402921841372736.png" rarity="Rare">XLN</set>			
 			<color>R</color>			
 			<color>G</color>			
 			<manacost>3RG</manacost>			

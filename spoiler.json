@@ -27,6 +27,176 @@
     "border":"black",
     "cards":[
       {
+        "cmc":1,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"U",
+        "name":"Spell Pierce",
+        "number":"81",
+        "rarity":"Uncommon",
+        "text":"Counter target noncreature spell unless its controller pays {2}.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/474/636402972992300611.png"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"U",
+        "name":"Opt",
+        "number":"65",
+        "rarity":"Common",
+        "text":"Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\nDraw a card.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/463/636402881611060631.jpeg"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"B",
+        "name":"Duress",
+        "number":"105",
+        "rarity":"Common",
+        "text":"Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/duress.jpg"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2GG",
+        "name":"Slice in Twain",
+        "number":"207",
+        "rarity":"Uncommon",
+        "text":"Destroy target artifact or enchantment.\nDraw a card.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/462/636402876579977615.jpeg"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"W",
+        "name":"~Dusk Legion Sky Walker",
+        "number":"9",
+        "power":"1",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Vampire",
+          "Cleric"
+        ],
+        "text":"Flying\n{W}, {T}: Target attacking Vampire gets +1/+1 until end of turn.",
+        "toughness":"1",
+        "type":"Creature — Vampire Cleric",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"1U",
+        "name":"Favorable Winds",
+        "number":"56",
+        "rarity":"Uncommon",
+        "text":"Creatures you control with flying get +1/+1.",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/457/636402686574165663.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"4R",
+        "name":"Storm Fleet Arsonist",
+        "number":"162",
+        "power":"4",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Orc",
+          "Pirate"
+        ],
+        "text":"Raid — When Storm Fleet Arsonist enters the battlefield, if you attacked with a creature this turn, target opponent sacrifices a permanent.",
+        "toughness":"4",
+        "type":"Creature — Orc Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/456/636402685294679205.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"1U",
+        "name":"Storm Fleet Aerialist",
+        "number":"83",
+        "power":"1",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Flying\n\nRaid — Storm Fleet Aerialist enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.",
+        "toughness":"2",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/455/636402684190369385.png"
+      },
+      {
         "cmc":3,
         "colorIdentity":[
           "G"
@@ -43,7 +213,7 @@
         "types":[
           "Sorcery"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/445/636402215592803027.jpeg"
+        "url":"http://media.wizards.com/2017/xln/en_UK76KUgUYf.png"
       },
       {
         "cmc":2,
@@ -68,7 +238,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/442/636402180992302008.jpeg"
+        "url":"http://media.wizards.com/2017/xln/en_uQjlD0CjMj.png"
       },
       {
         "cmc":3,
@@ -84,7 +254,7 @@
         "types":[
           "Artifact"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/437/636402092420615250.jpeg"
+        "url":"http://media.wizards.com/2017/xln/en_4RR0xWZ9Qt.png"
       },
       {
         "cmc":2,
@@ -109,7 +279,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/436/636402091131476639.jpeg"
+        "url":"http://media.wizards.com/2017/xln/en_AUl9VbPXTg.png"
       },
       {
         "cmc":7,
@@ -128,7 +298,7 @@
         "types":[
           "Sorcery"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/435/636402078524351891.jpeg"
+        "url":"http://media.wizards.com/2017/xln/en_IFhaOeKWyJ.png"
       },
       {
         "cmc":4,
@@ -153,7 +323,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/433/636402036279715721.png"
+        "url":"http://media.wizards.com/2017/xln/en_wetBr8S7zS.png"
       },
       {
         "cmc":0,
@@ -165,7 +335,7 @@
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/432/636402031913028319.png"
+        "url":"http://media.wizards.com/2017/xln/en_SGiJXW9Dw5.png"
       },
       {
         "cmc":2,
@@ -178,7 +348,7 @@
         "types":[
           "Artifact"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/431/636402030772132265.png"
+        "url":"http://media.wizards.com/2017/xln/en_5tOynBtb9Y.png"
       },
       {
         "cmc":0,
@@ -190,7 +360,7 @@
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/429/636402013670334353.png"
+        "url":"http://media.wizards.com/2017/xln/en_AtEtI4P4mo.png"
       },
       {
         "cmc":4,
@@ -206,7 +376,7 @@
         "types":[
           "Artifact"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/428/636402012420241420.png"
+        "url":"http://media.wizards.com/2017/xln/en_8wskFlvdlC.png"
       },
       {
         "cmc":2,
@@ -230,7 +400,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/444/636402207651286366.png"
+        "url":"http://media.wizards.com/2017/xln/en_nQgXIAveib.png"
       },
       {
         "cmc":2,
@@ -255,7 +425,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/423/636401565868872586.jpeg"
+        "url":"http://media.wizards.com/2017/xln/en_pBMChCwLLC.png"
       },
       {
         "cmc":2,
@@ -280,7 +450,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/418/636401363972437808.png"
+        "url":"http://media.wizards.com/2017/xln/en_4b8OyOmodU.png"
       },
       {
         "cmc":1,
@@ -1365,7 +1535,7 @@
         "types":[
           "Creature"
         ],
-        "url":""
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/470/636402921841372736.png"
       },
       {
         "cmc":0,
