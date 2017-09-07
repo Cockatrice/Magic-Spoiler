@@ -26,6 +26,112 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"1R",
+      "name":"Raptor Hatchling",
+      "number":"155",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"Enrage — Whenever Raptor Hatchling is dealt damage, create a 3/3 green Dinosaur creature token with trample.",
+      "toughness":"1",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/503/636403741022946557.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"2G",
+      "name":"Ranging Raptors",
+      "number":"201",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"Enrage — Whenever Ranging Raptors is dealt damage, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "toughness":"3",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/502/636403739804603319.png"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "B"
+      ],
+      "name":"Temple of Aclazotz",
+      "number":"90",
+      "rarity":"Rare",
+      "text":"(Transforms from Arguel's Blood Fast)\n\n{T}: Add {B} to your mana pool\n\n{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness ",
+      "type":"Legendary Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/501/636403739718439816.jpeg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"2G",
+      "name":"Ravenous Daggertooth",
+      "number":"202",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"Enrage — Whenever Ravenous Daggertooth is dealt damage, you gain 2 life.",
+      "toughness":"2",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/500/636403738616850318.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"1B",
+      "name":"Arguel's Blood Fast",
+      "number":"90",
+      "rarity":"Rare",
+      "text":"{1}{B}, Pay 2 life: Draw a card.\n\nAt the beginning of your upkeep if you have five or less life, you may transform Arguel's Blood Fast",
+      "type":"Legendary Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/499/636403733009648316.jpeg"
+    },
+    {
       "cmc":1,
       "colorIdentity":[
         "U"
@@ -36,13 +142,13 @@
       "manaCost":"U",
       "name":"Spell Pierce",
       "number":"81",
-      "rarity":"Uncommon",
+      "rarity":"Common",
       "text":"Counter target noncreature spell unless its controller pays {2}.",
       "type":"Instant",
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/474/636402972992300611.png"
+      "url":"https://media.wizards.com/2017/xln/en_Pjp1monN0l.png"
     },
     {
       "cmc":1,
@@ -61,7 +167,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/463/636402881611060631.jpeg"
+      "url":"https://media.wizards.com/2017/xln/en_BmfrsaYAaP.png"
     },
     {
       "cmc":1,
@@ -80,7 +186,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://mythicspoiler.com/ixa/cards/duress.jpg"
+      "url":"https://media.wizards.com/2017/xln/en_erLx9hJWdu.png"
     },
     {
       "cmc":4,
@@ -99,7 +205,7 @@
       "types":[
         "Instant"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/462/636402876579977615.jpeg"
+      "url":"https://media.wizards.com/2017/xln/en_CO1f3VzmMN.png"
     },
     {
       "cmc":1,
@@ -110,7 +216,7 @@
         "White"
       ],
       "manaCost":"W",
-      "name":"~Dusk Legion Sky Walker",
+      "name":"Duskborne Skymarcher",
       "number":"9",
       "power":"1",
       "rarity":"Uncommon",
@@ -124,7 +230,7 @@
       "types":[
         "Creature"
       ],
-      "url":""
+      "url":"https://media.wizards.com/2017/xln/en_a2cndcEDnY.png"
     },
     {
       "cmc":2,
@@ -143,7 +249,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/457/636402686574165663.png"
+      "url":"https://media.wizards.com/2017/xln/en_Euk41DLocr.png"
     },
     {
       "cmc":5,
@@ -168,7 +274,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/456/636402685294679205.png"
+      "url":"https://media.wizards.com/2017/xln/en_uztvewpkp2.png"
     },
     {
       "cmc":2,
@@ -193,7 +299,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/455/636402684190369385.png"
+      "url":"https://media.wizards.com/2017/xln/en_JuJBlUbdre.png"
     },
     {
       "cmc":3,
@@ -212,7 +318,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_UK76KUgUYf.png"
+      "url":"https://media.wizards.com/2017/xln/en_UK76KUgUYf.png"
     },
     {
       "cmc":2,
@@ -237,7 +343,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_uQjlD0CjMj.png"
+      "url":"https://media.wizards.com/2017/xln/en_uQjlD0CjMj.png"
     },
     {
       "cmc":3,
@@ -253,7 +359,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_4RR0xWZ9Qt.png"
+      "url":"https://media.wizards.com/2017/xln/en_4RR0xWZ9Qt.png"
     },
     {
       "cmc":2,
@@ -278,7 +384,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_AUl9VbPXTg.png"
+      "url":"https://media.wizards.com/2017/xln/en_AUl9VbPXTg.png"
     },
     {
       "cmc":7,
@@ -297,7 +403,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_IFhaOeKWyJ.png"
+      "url":"https://media.wizards.com/2017/xln/en_IFhaOeKWyJ.png"
     },
     {
       "cmc":4,
@@ -322,7 +428,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_wetBr8S7zS.png"
+      "url":"https://media.wizards.com/2017/xln/en_wetBr8S7zS.png"
     },
     {
       "cmc":0,
@@ -334,7 +440,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_SGiJXW9Dw5.png"
+      "url":"https://media.wizards.com/2017/xln/en_SGiJXW9Dw5.png"
     },
     {
       "cmc":2,
@@ -347,7 +453,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_5tOynBtb9Y.png"
+      "url":"https://media.wizards.com/2017/xln/en_5tOynBtb9Y.png"
     },
     {
       "cmc":0,
@@ -359,7 +465,7 @@
       "types":[
         "Land"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_AtEtI4P4mo.png"
+      "url":"https://media.wizards.com/2017/xln/en_AtEtI4P4mo.png"
     },
     {
       "cmc":4,
@@ -375,7 +481,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_8wskFlvdlC.png"
+      "url":"https://media.wizards.com/2017/xln/en_8wskFlvdlC.png"
     },
     {
       "cmc":2,
@@ -399,7 +505,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_nQgXIAveib.png"
+      "url":"https://media.wizards.com/2017/xln/en_nQgXIAveib.png"
     },
     {
       "cmc":2,
@@ -424,7 +530,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_pBMChCwLLC.png"
+      "url":"https://media.wizards.com/2017/xln/en_pBMChCwLLC.png"
     },
     {
       "cmc":2,
@@ -449,7 +555,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media.wizards.com/2017/xln/en_4b8OyOmodU.png"
+      "url":"https://media.wizards.com/2017/xln/en_4b8OyOmodU.png"
     },
     {
       "cmc":1,
@@ -1535,7 +1641,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/470/636402921841372736.png"
+      "url":"https://media.wizards.com/2017/xln/en_lhJCu0xjCy.png"
     },
     {
       "cmc":0,
