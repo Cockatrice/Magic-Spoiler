@@ -491,6 +491,8 @@ def write_xml(mtgjson, code, name, releaseDate):
             print 'DFC: ' + str(dfccount)
         print 'Newest: ' + str(newest)
         print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' (UTC) on ' + str(datetime.date.today())
+    else:
+        print 'Set ' + code + ' has no spoiled cards.'
 
 
 def write_combined_xml(mtgjson, setinfos):
