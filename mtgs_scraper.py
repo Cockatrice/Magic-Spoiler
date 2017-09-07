@@ -264,6 +264,8 @@ def scrape_mtgs_images(url='http://www.mtgsalvation.com/spoilers/183-hour-of-dev
 
 
 def list_mtgs_gallery(url=''):
+    if url == '':
+        return ''
     page = requests.get(url)
     tree = html.fromstring(page.content)
     cards = []

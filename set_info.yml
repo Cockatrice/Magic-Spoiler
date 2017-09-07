@@ -15,6 +15,11 @@
 # mtgsurl: "http://url_to_mtgsalvation.com/spoilers/page
 # mtgscardpath "http://url_to_mtgsalvation.com/cards/setpage/"
 # fullSpoil: false
+# noRSS: true                                                               #don't check MTGS spoiler newsfeed spoiler.rss for this set
+# noBooster: 
+# mythicCode: 
+# mythicOnly: 
+# scryfallOnly: 
 # masterpieces:
 #
 # Masterpieces contain code, name, releaseDate as above
@@ -30,7 +35,7 @@
 # block: "Amonkhet"
 # size: 199
 # releaseDate: "2017-07-14"
-# type: "expansion"
+# type: "expansion"                                                          #can be "expansion", "core", "commander", "masters" - for full list see http://mtgjson.com/documentation.html#sets
 # mtgsurl: "http://www.mtgsalvation.com/spoilers/183-hour-of-devastation"    #looks like http://www.mtgsalvation.com/spoilers/183 automatically redirects to same page
 # mtgscardpath: "http://www.mtgsalvation.com/cards/hour-of-devastation/"     #important: don't forget the trailing slash "/" at the end of the link!
 # fullSpoil: false
@@ -63,3 +68,69 @@ fullSpoil: false
 #   additionalCardNames: []
 #   mtgsurl: "?"
 #   mtgscardpath: "?"
+---
+code: "IMA"
+name: "Iconic Masters"
+#block: "?"
+#size: ?
+releaseDate: "2017-11-17"
+type: "masters"
+mtgsurl: ""
+#mtgscardpath: "?"
+fullSpoil: false
+noRSS: true
+---
+code: "UST"
+name: "Unstable"
+#block: "?"
+#size: ?
+releaseDate: "2017-12-08"
+type: "un"
+mtgsurl: ""
+#mtgscardpath: "?"
+fullSpoil: false
+noRSS: true
+---
+code: "RIX"
+name: "Rivals of Ixalan"
+block: "Ixalan"
+#size: ?
+releaseDate: "2018-01-19"
+type: "expansion"
+mtgsurl: ""
+#mtgscardpath: "?"
+fullSpoil: false
+noRSS: true
+---
+code: "A25"
+name: "Masters 25"
+#block: "?"
+#size: ?
+releaseDate: "2018-03-16"
+type: "masters"
+mtgsurl: ""
+#mtgscardpath: "?"
+fullSpoil: false
+noRSS: true
+---
+code: "DOM"
+name: "Dominaria"
+#block: "?"
+#size: ?
+releaseDate: "2018-04-27"
+type: "expansion"
+mtgsurl: ""
+#mtgscardpath: "?"
+fullSpoil: false
+noRSS: true
+---
+code: "M19"
+name: "Core 2019"
+#block: "?"
+#size: ?
+releaseDate: "2018-07-20"
+type: "core"
+mtgsurl: ""
+#mtgscardpath: "?"
+fullSpoil: false
+noRSS: true
