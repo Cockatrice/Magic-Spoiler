@@ -362,6 +362,8 @@ def get_image_urls(mtgjson, isfullspoil, setinfo=False):
 
 
 def write_xml(mtgjson, code, name, releaseDate):
+    if not 'cards' in mtgjson or not mtgjson['cards'] or mtgjson['cards'] == []:
+        return
     if not os.path.isdir('out/'):
         os.makedirs('out/')
     cardsxml = open('out/' + code + '.xml', 'w+')
