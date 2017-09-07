@@ -158,9 +158,11 @@ if __name__ == '__main__':
             save_masterpieces(masterpieces, setinfo)
             save_xml(spoilers.pretty_xml('out/' + setinfo['masterpieces']['code'] + '.xml'), 'out/' + setinfo['masterpieces']['code'] + '.xml')
             combinedjson[setinfo['masterpieces']['code']] = masterpieces
-        save_setjson(mtgjson, setinfo['code'])
-        save_xml(spoilers.pretty_xml('out/' + setinfo['code'] + '.xml'), 'out/' + setinfo['code'] + '.xml')
-        combinedjson[setinfo['code']] = mtgjson
+        if 'cards' in mtgjson and mtgjson['cards'] and not mtgjson['cards'] == []:
+            save_setjson(mtgjson, setinfo['code'])
+            combinedjson[setinfo['code']] = mtgjson
+        if os.path.isfile('out/' + setinfo['code'] + '.xml'):
+            save_xml(spoilers.pretty_xml('out/' + setinfo['code'] + '.xml'), 'out/' + setinfo['code'] + '.xml')
     save_setjson(combinedjson, 'spoiler')
     spoilers.write_combined_xml(combinedjson, setinfos)
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
