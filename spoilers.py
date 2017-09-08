@@ -305,7 +305,7 @@ def error_check(mtgjson, card_corrections={}):
                 for correctionType in card_corrections[cardCorrection]:
                     # if not correctionType in card and correctionType not in :
                     #    sys.exit("Invalid correction for " + cardCorrection + " of type " + card)
-                    if correctionType = 'number':
+                    if correctionType == 'number':
                         card_corrections[cardCorrection]['number'] = str(card_corrections[cardCorrection]['number'])
                     if not correctionType == 'name':
                         if correctionType == 'img':
