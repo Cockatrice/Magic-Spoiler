@@ -111,6 +111,7 @@ if __name__ == '__main__':
     parseargs()
     AllSets = spoilers.get_allsets()  # get AllSets from mtgjson
     combinedjson = {}
+    noCards = []
     for setinfo in setinfos:
         if setinfo['code'] in AllSets:
             print "Found " +setinfo['code']+ " set from set_info.yml in MTGJSON, not adding it"
@@ -138,6 +139,9 @@ if __name__ == '__main__':
         [mtgjson, errors] = spoilers.error_check(
             mtgjson, card_corrections)  # check for errors where possible
         errorlog += errors
+        if not 'cards' in mtgjson or mtgjson['cards'] == [] or not mtgjson['cards']:
+            noCards.append(setinfo['code'])
+            continue
         spoilers.write_xml(
             mtgjson, setinfo['code'], setinfo['name'], setinfo['releaseDate'])
         #save_xml(spoilers.pretty_xml(setinfo['code']), 'out/spoiler.xml')
@@ -163,6 +167,8 @@ if __name__ == '__main__':
             combinedjson[setinfo['code']] = mtgjson
         if os.path.isfile('out/' + setinfo['code'] + '.xml'):
             save_xml(spoilers.pretty_xml('out/' + setinfo['code'] + '.xml'), 'out/' + setinfo['code'] + '.xml')
+    if noCards != []:
+        print("Not proccesing set(s) with no cards: {}".format(noCards))
     save_setjson(combinedjson, 'spoiler')
     spoilers.write_combined_xml(combinedjson, setinfos)
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
