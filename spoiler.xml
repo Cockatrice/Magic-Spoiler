@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Fri, Sep 08 2017, 08:44:22 (UTC)
+        created: Fri, Sep 08 2017, 15:18:02 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,51 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Rile</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_jW7miymqTQ.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Rile deals 1 damage to target creature you control. That creature gains trample until end of turn.
+Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Dinosaur Stampede</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_Ee7YrmKo5j.png" rarity="Uncommon">XLN</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Attacking creatures get +2/+0 until end of turn. Dinosaurs you control gain trample until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Rampaging Ferocidon</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/540/636404602011984689.png" rarity="Rare">XLN</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Menace
+Players can't gain life.
+Whenever another creature enters the battlefield, Rampaging Ferocidon deals 1 damage to that creature's controller.</text>			
+		</card>		
+		<card>			
+			<name>~Conqueror of Battle</name>			
+			<set picURL="" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Vampire Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Conqueror of Battle enters the battlefield, you may search your library for any number of cards named Conqueror of Battle, reveal them, and put them into your hand. If you do, shuffle your library.</text>			
+		</card>		
 		<card>			
 			<name>Lookout's Dispersal</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/538/636404251329691691.png" rarity="Uncommon">XLN</set>			
@@ -26,7 +71,7 @@ Counter target spell unless its controller pays {4}.</text>
 		</card>		
 		<card>			
 			<name>Thundering Spineback</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/529/636404138186492768.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_DSiEwZIJzv.png" rarity="Uncommon">XLN</set>			
 			<color>G</color>			
 			<manacost>5GG</manacost>			
 			<cmc>7</cmc>			
@@ -39,7 +84,7 @@ Counter target spell unless its controller pays {4}.</text>
 		</card>		
 		<card>			
 			<name>Storm Fleet Spy</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/539/636404281935890326.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ihJrpuHbfm.png" rarity="Uncommon">XLN</set>			
 			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
@@ -50,7 +95,7 @@ Counter target spell unless its controller pays {4}.</text>
 		</card>		
 		<card>			
 			<name>Otepec Huntmaster</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/535/636404169572519607.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_halxu6YFDg.png" rarity="Uncommon">XLN</set>			
 			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
@@ -63,7 +108,7 @@ Counter target spell unless its controller pays {4}.</text>
 		</card>		
 		<card>			
 			<name>Itlimoc, Cradle of the Sun</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/536/636404171528234445.jpeg" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_NyYNyTtDLS.png" rarity="Rare">XLN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Legendary Land</type>			
@@ -76,7 +121,7 @@ Counter target spell unless its controller pays {4}.</text>
 		</card>		
 		<card>			
 			<name>Growing Rites of Itlimoc</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/531/636404158118752323.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5MpazyK4wb.png" rarity="Rare">XLN</set>			
 			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
@@ -88,7 +133,7 @@ At the beginning of your end step, if you control four or more creatures, transf
 		</card>		
 		<card>			
 			<name>Fell Flagship</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/532/636404163268573784.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_Gfm8W9lmuq.png" rarity="Rare">XLN</set>			
 			<manacost>3</manacost>			
 			<cmc>3</cmc>			
 			<type>Artifact — Vehicle</type>			
@@ -101,7 +146,7 @@ Crew 3</text>
 		</card>		
 		<card>			
 			<name>Skittering Heartstopper</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/528/636404132910858856.png" rarity="Common">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_CKyq0ICHIH.png" rarity="Common">XLN</set>			
 			<color>B</color>			
 			<manacost>B</manacost>			
 			<cmc>1</cmc>			
@@ -112,7 +157,7 @@ Crew 3</text>
 		</card>		
 		<card>			
 			<name>Chart a Course</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/527/636404124639076994.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_TTtrIXG1Mp.png" rarity="Uncommon">XLN</set>			
 			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
@@ -122,7 +167,7 @@ Crew 3</text>
 		</card>		
 		<card>			
 			<name>Grazing Whiptail</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/526/636404119786425970.png" rarity="Common">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_McKfX4KS2x.png" rarity="Common">XLN</set>			
 			<color>G</color>			
 			<manacost>2GG</manacost>			
 			<cmc>4</cmc>			
@@ -133,7 +178,7 @@ Crew 3</text>
 		</card>		
 		<card>			
 			<name>Commune with Dinosaurs</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/525/636404115408727913.png" rarity="Common">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_uGuZKWBvaH.png" rarity="Common">XLN</set>			
 			<color>G</color>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
@@ -143,7 +188,7 @@ Crew 3</text>
 		</card>		
 		<card>			
 			<name>Vona, Butcher of Magan</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/512/636403911830206029.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_s5gSLJdQiN.png" rarity="Mythic Rare">XLN</set>			
 			<color>W</color>			
 			<color>B</color>			
 			<manacost>3WB</manacost>			
@@ -157,7 +202,7 @@ Crew 3</text>
 		</card>		
 		<card>			
 			<name>Raptor Hatchling</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/503/636403741022946557.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5xDCCj6rkP.png" rarity="Uncommon">XLN</set>			
 			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
@@ -168,7 +213,7 @@ Crew 3</text>
 		</card>		
 		<card>			
 			<name>Ranging Raptors</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/502/636403739804603319.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_0zIZLRuzt1.png" rarity="Uncommon">XLN</set>			
 			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
@@ -195,7 +240,7 @@ Crew 3</text>
 		</card>		
 		<card>			
 			<name>Ravenous Daggertooth</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/500/636403738616850318.png" rarity="Common">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_8FRtkHLbi2.png" rarity="Common">XLN</set>			
 			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
