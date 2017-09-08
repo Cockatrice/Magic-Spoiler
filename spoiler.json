@@ -27,6 +27,236 @@
     "border":"black",
     "cards":[
       {
+        "cmc":7,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"5GG",
+        "name":"Thundering Spineback",
+        "number":"?",
+        "power":"5",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Other Dinosaurs you control get +1/+1.\n\n{5}{G}: Create a 3/3 green Dinosaur creature token with trample.",
+        "toughness":"5",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/529/636404138186492768.png"
+      },
+      {
+        "cmc":0,
+        "name":"Storm Fleet Spy",
+        "number":"?",
+        "power":"2",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Raid — When Storm Fleet Spy enters the battlefield, if you attacked with a creature this turn, draw a card.",
+        "toughness":"2",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"1R",
+        "name":"Otepec Huntmaster",
+        "number":"?",
+        "power":"1",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Human",
+          "Shaman"
+        ],
+        "text":"Dinosaur spells you cast cost {1} less to cast.\n\n{T}: Target Dinosaur gets haste until end of turn.",
+        "toughness":"2",
+        "type":"Creature — Human Shaman",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/otepechuntmaster.jpg"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "G"
+        ],
+        "name":"Itlimoc, Cradle of the Sun",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"(Transforms from Growing Rites of Itlimoc.)\n\n{T}: Add {G} to your mana pool.\n\n{T}: Add {G} to your mana pool for each creature you control.",
+        "type":"Legendary Land",
+        "types":[
+          "Land"
+        ],
+        "url":""
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2G",
+        "name":"Growing Rites of Itlimoc",
+        "number":"?",
+        "rarity":"Rare",
+        "text":"When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library.  You may reveal a creature card from among them and put it into your hand.  Put the rest on the bottom of your library in any order.\n\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.",
+        "type":"Legendary Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/growingritesofitlimoc.jpg"
+      },
+      {
+        "cmc":3,
+        "manaCost":"3",
+        "name":"Fell Flagship",
+        "number":"?",
+        "rarity":"Rare",
+        "subtypes":[
+          "Vehicle"
+        ],
+        "text":"Pirates you control get +1/+0.\n\nWhenever Fell Flagship deals combat damage to a player, that player discards a card.\n\nCrew 3",
+        "type":"Artifact — Vehicle",
+        "types":[
+          "Artifact"
+        ],
+        "url":"http://mythicspoiler.com/ixa/cards/fellflagship.jpg"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"B",
+        "name":"Skittering Heartstopper",
+        "number":"?",
+        "power":"1",
+        "rarity":"Common",
+        "subtypes":[
+          "Insect"
+        ],
+        "text":"{B}: Skittering Heartstopper gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
+        "toughness":"2",
+        "type":"Creature — Insect",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/528/636404132910858856.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"1U",
+        "name":"Chart a Course",
+        "number":"?",
+        "rarity":"Uncommon",
+        "text":"Draw two cards.  Then discard a card unless you attacked with a creature this turn.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/527/636404124639076994.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"2GG",
+        "name":"Grazing Whiptail",
+        "number":"?",
+        "power":"3",
+        "rarity":"Common",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Reach (This creature can block creatures with flying.)",
+        "toughness":"4",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/526/636404119786425970.png"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"G",
+        "name":"Commune with Dinosaurs",
+        "number":"?",
+        "rarity":"Common",
+        "text":"Look at the top five cards of your library. You may reveal a Dinosaur or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/525/636404115408727913.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "W",
+          "B"
+        ],
+        "colors":[
+          "White",
+          "Black"
+        ],
+        "manaCost":"3WB",
+        "name":"Vona, Butcher of Magan",
+        "number":"231",
+        "power":"4",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Vampire",
+          "Knight"
+        ],
+        "text":"Vigilance, lifelink\n\n{T}, Pay 7 life: Destroy target nonland permanent. Activate this ability only during your turn.",
+        "toughness":"4",
+        "type":"Legendary Creature — Vampire Knight",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/512/636403911830206029.png"
+      },
+      {
         "cmc":2,
         "colorIdentity":[
           "R"
@@ -79,10 +309,15 @@
         "colorIdentity":[
           "B"
         ],
+        "layout":"double-faced",
         "name":"Temple of Aclazotz",
-        "number":"90",
+        "names":[
+          "Arguel's Blood Fast",
+          "Temple of Aclazotz"
+        ],
+        "number":"90b",
         "rarity":"Rare",
-        "text":"(Transforms from Arguel's Blood Fast)\n\n{T}: Add {B} to your mana pool\n\n{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness ",
+        "text":"(Transforms from Arguel's Blood Fast.)\n\n{T}: Add {B} to your mana pool.\n\n{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness .",
         "type":"Legendary Land",
         "types":[
           "Land"
@@ -121,11 +356,16 @@
         "colors":[
           "Black"
         ],
+        "layout":"double-faced",
         "manaCost":"1B",
         "name":"Arguel's Blood Fast",
-        "number":"90",
+        "names":[
+          "Arguel's Blood Fast",
+          "Temple of Aclazotz"
+        ],
+        "number":"90a",
         "rarity":"Rare",
-        "text":"{1}{B}, Pay 2 life: Draw a card.\n\nAt the beginning of your upkeep if you have five or less life, you may transform Arguel's Blood Fast",
+        "text":"{1}{B}, Pay 2 life: Draw a card.\n\nAt the beginning of your upkeep, if you have 5 or less life, you may transform Arguel's Blood Fast.",
         "type":"Legendary Enchantment",
         "types":[
           "Enchantment"
@@ -433,46 +673,66 @@
       },
       {
         "cmc":0,
+        "layout":"double-faced",
         "name":"Spires of Orazca",
-        "number":"249",
+        "names":[
+          "Thaumatic Compass",
+          "Spires of Orazca"
+        ],
+        "number":"249b",
         "rarity":"Rare",
         "text":"(Transforms from Thaumatic Compass.)\n{T}: Add {C} to your mana pool.\n{T}: Untap target attacking creature an opponent controls and remove it from combat.",
         "type":"Land",
         "types":[
           "Land"
         ],
-        "url":"https://media.wizards.com/2017/xln/en_SGiJXW9Dw5.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/432/636402031913028319.png"
       },
       {
         "cmc":2,
+        "layout":"double-faced",
         "manaCost":"2",
         "name":"Thaumatic Compass",
-        "number":"249",
+        "names":[
+          "Thaumatic Compass",
+          "Spires of Orazca"
+        ],
+        "number":"249a",
         "rarity":"Rare",
         "text":"{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nAt the beginning of your end step, if you control seven or more lands, transform Thaumatic Compass.",
         "type":"Artifact",
         "types":[
           "Artifact"
         ],
-        "url":"https://media.wizards.com/2017/xln/en_5tOynBtb9Y.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/431/636402030772132265.png"
       },
       {
         "cmc":0,
+        "layout":"double-faced",
         "name":"Conqueror's Foothold",
-        "number":"234",
+        "names":[
+          "Conqueror's Galleon",
+          "Conqueror's Foothold"
+        ],
+        "number":"234b",
         "rarity":"Rare",
         "text":"(Transforms from Conqueror's Galleon.)\n{T}: Add {C} to your mana pool.\n{2}, {T}: Draw a card, then discard a card.\n{4}, {T}: Draw a card.\n{6}, {T}: Return target card from your graveyard to your hand.",
         "type":"Land",
         "types":[
           "Land"
         ],
-        "url":"https://media.wizards.com/2017/xln/en_AtEtI4P4mo.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/429/636402013670334353.png"
       },
       {
         "cmc":4,
+        "layout":"double-faced",
         "manaCost":"4",
         "name":"Conqueror's Galleon",
-        "number":"234",
+        "names":[
+          "Conqueror's Galleon",
+          "Conqueror's Foothold"
+        ],
+        "number":"234a",
         "rarity":"Rare",
         "subtypes":[
           "Vehicle"
@@ -482,7 +742,7 @@
         "types":[
           "Artifact"
         ],
-        "url":"https://media.wizards.com/2017/xln/en_8wskFlvdlC.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/428/636402012420241420.png"
       },
       {
         "cmc":2,
@@ -632,28 +892,38 @@
       },
       {
         "cmc":4,
+        "layout":"double-faced",
         "manaCost":"4",
         "name":"Primal Amulet",
-        "number":"243",
+        "names":[
+          "Primal Amulet",
+          "Primal Wellspring"
+        ],
+        "number":"243a",
         "rarity":"Rare",
         "text":"Instant and sorcery spells you cast cost {1} less to cast.\n\nWhenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.",
         "type":"Artifact",
         "types":[
           "Artifact"
         ],
-        "url":"https://media.wizards.com/2017/xln/en_hz81cQLpKQ.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/410/636401187279049993.png"
       },
       {
         "cmc":0,
+        "layout":"double-faced",
         "name":"Primal Wellspring",
-        "number":"243",
+        "names":[
+          "Primal Amulet",
+          "Primal Wellspring"
+        ],
+        "number":"243b",
         "rarity":"Rare",
         "text":"(Transforms from Primal Amulet.)\n\n{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.",
         "type":"Land",
         "types":[
           "Land"
         ],
-        "url":"https://media.wizards.com/2017/xln/en_nwpo11MmZ6.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/409/636401184205869891.png"
       },
       {
         "cmc":4,
@@ -886,7 +1156,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://mythicspoiler.com/ixa/cards/jacessentinel.jpg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/334/636398656230786078.png"
       },
       {
         "cmc":5,
@@ -1552,28 +1822,38 @@
       },
       {
         "cmc":0,
+        "layout":"double-faced",
         "name":"Treasure Cove",
-        "number":"250",
+        "names":[
+          "Treasure Map",
+          "Treasure Cove"
+        ],
+        "number":"250b",
         "rarity":"Rare",
         "text":"(Transforms from Treasure Map.)\n{T}: Add {C} to your mana pool\n{T}, Sacrifice a Treasure: Draw a card.",
         "type":"Land",
         "types":[
           "Land"
         ],
-        "url":"https://media.wizards.com/2017/xln/en_bdTtGwdBPz.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/196/636395088027328347.png"
       },
       {
         "cmc":2,
+        "layout":"double-faced",
         "manaCost":"2",
         "name":"Treasure Map",
-        "number":"250",
+        "names":[
+          "Treasure Map",
+          "Treasure Cove"
+        ],
+        "number":"250a",
         "rarity":"Rare",
         "text":"{1}, {T}: Scry1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map and create three colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
         "type":"Artifact",
         "types":[
           "Artifact"
         ],
-        "url":"https://media.wizards.com/2017/xln/en_y4nmM488Eh.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/195/636395084690034175.png"
       },
       {
         "cmc":3,
