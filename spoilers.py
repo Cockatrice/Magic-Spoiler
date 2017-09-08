@@ -99,24 +99,25 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                 card['text'] = re.sub(r'{(.*?)}', replace_costs, card['text'])
             for card2 in mtgjson['cards']:
                 if 'number' in card and 'number' in card2 and card2['number'] == card['number'] and \
-                    not card['name'] == card2['name']:
+                    not card['name'] == card2['name'] and card['number'] != '?' and card2['number'] != '?':
                     transforms[card['name']] = card2['name']
-            if 'transforms from' in card['text'].lower():
-                if 'number' in card:
-                    if not 'b' in card['number']:
-                        if 'a' in card['number']:
-                            card['number'] = card['number'].replace('a','b')
-                        else:
-                            card['number'] = str(card['number']) + 'b'
-                card['layout'] = 'double-faced'
-            if 'transform ' in card['text'].lower() or 'transformed' in card['text'].lower():
-                if 'number' in card:
-                    if not 'a' in card['number']:
-                        if 'b' in card['number']:
-                            card['number'] = card['number'].replace('b','a')
-                        else:
-                            card['number'] = str(card['number']) + 'a'
-                card['layout'] = 'double-faced'
+            if 'number' in card and not '?' in card['number']:
+                if 'transforms from' in card['text'].lower():
+                    if 'number' in card:
+                        if not 'b' in card['number']:
+                            if 'a' in card['number']:
+                                card['number'] = card['number'].replace('a','b')
+                            else:
+                                card['number'] = str(card['number']) + 'b'
+                    card['layout'] = 'double-faced'
+                if 'transform ' in card['text'].lower() or 'transformed' in card['text'].lower():
+                    if 'number' in card:
+                        if not 'a' in card['number']:
+                            if 'b' in card['number']:
+                                card['number'] = card['number'].replace('b','a')
+                            else:
+                                card['number'] = str(card['number']) + 'a'
+                    card['layout'] = 'double-faced'
         if 'number' in card and 'a' in card['number'] or 'b' in card['number']:
             for card1 in transforms:
                 if card['name'] == card1:
