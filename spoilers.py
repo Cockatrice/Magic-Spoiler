@@ -447,7 +447,7 @@ def write_xml(mtgjson, code, name, releaseDate):
         cardtype = card["type"]
         if card.has_key("names"):
             if "layout" in card:
-                if card['layout'] == 'split' or card['layout'] == 'aftermath' or card['layout'] == 'double-faced':
+                if card['layout'] == 'split' or card['layout'] == 'aftermath':
                     if 'names' in card:
                         if card['name'] == card['names'][0]:
                             for jsoncard in mtgjson["cards"]:
@@ -462,8 +462,15 @@ def write_xml(mtgjson, code, name, releaseDate):
                                     cardcmc += " // " + str(jsoncard["cmc"])
                                     text += "\n---\n" + jsoncard["text"]
                                     name += " // " + jsoncard['name']
+                elif card['layout'] == 'double-faced':
+                    if not 'names' in card:
+                        print card['name'] + ' is double-faced but no "names" key'
+                    else:
+                        for dfcname in card['names']:
+                            if dfcname != card['name']:
+                                related = dfcname
                 else:
-                    print card["name"] + " has names, but layout != split"
+                    print card["name"] + " has names, but layout != split, aftermath, or double-faced"
             else:
                 print card["name"] + " has multiple names and no 'layout' key"
 
