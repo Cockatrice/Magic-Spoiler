@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Fri, Sep 08 2017, 18:13:18 (UTC)
+        created: Fri, Sep 08 2017, 18:16:34 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -186,6 +186,7 @@ Counter target spell unless its controller pays {4}.</text>
 		<card>			
 			<name>Itlimoc, Cradle of the Sun</name>			
 			<set picURL="https://media.wizards.com/2017/xln/en_NyYNyTtDLS.png" rarity="Rare">XLN</set>			
+			<related>Growing Rites of Itlimoc</related>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Legendary Land</type>			
@@ -194,19 +195,24 @@ Counter target spell unless its controller pays {4}.</text>
 
 {T}: Add {G} to your mana pool.
 
-{T}: Add {G} to your mana pool for each creature you control.</text>			
+{T}: Add {G} to your mana pool for each creature you control.
+
+(Related: Growing Rites of Itlimoc)</text>			
 		</card>		
 		<card>			
 			<name>Growing Rites of Itlimoc</name>			
 			<set picURL="https://media.wizards.com/2017/xln/en_5MpazyK4wb.png" rarity="Rare">XLN</set>			
 			<color>G</color>			
+			<related>Itlimoc, Cradle of the Sun</related>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
 			<type>Legendary Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library.  You may reveal a creature card from among them and put it into your hand.  Put the rest on the bottom of your library in any order.
 
-At the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.</text>			
+At the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.
+
+(Related: Itlimoc, Cradle of the Sun)</text>			
 		</card>		
 		<card>			
 			<name>Fell Flagship</name>			
