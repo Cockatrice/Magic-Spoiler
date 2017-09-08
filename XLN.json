@@ -26,6 +26,150 @@
   "border":"black",
   "cards":[
     {
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"3B",
+      "name":"Lurking Chupacabra",
+      "number":"111",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Beast",
+        "Horror"
+      ],
+      "text":"Whenever a creature you control explores, target creature an opponent controls  gets -2/-2 until end of turn",
+      "toughness":"3",
+      "type":"Creature — Beast Horror",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/552/636404702157356287.jpeg"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"3BB",
+      "name":"Bishop of the Bloodstained",
+      "number":"91",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Vampire",
+        "Cleric"
+      ],
+      "text":"When Bishop of the Bloodstained enters the battlefield, target player loses 1 life for each vampire you control.",
+      "toughness":"3",
+      "type":"Creature — Vampire Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/547/636404666594788297.jpeg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1G",
+      "name":"Merfolk Branchwalker",
+      "number":"197",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Merfolk",
+        "Scout"
+      ],
+      "text":"When Merfolk Branchwalker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put that card back or put it into your graveyard.)",
+      "toughness":"1",
+      "type":"Creature — Merfolk Scout",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/546/636404654917145910.jpeg"
+    },
+    {
+      "cmc":6,
+      "colorIdentity":[
+        "B",
+        "G"
+      ],
+      "colors":[
+        "Black",
+        "Green"
+      ],
+      "loyalty":6,
+      "manaCost":"4BG",
+      "name":"Vraska, Relic Seeker",
+      "number":"232",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Vraska"
+      ],
+      "text":"+2: Create a 2/2 Black Pirate with Menace\n\n-3: Destroy target artifact, creature or enchantment, create a treasure\n\n-10: Target players life total becomes 1",
+      "type":"Legendary Planeswalker — Vraska",
+      "types":[
+        "Planeswalker"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/545/636404643707017329.jpeg"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "U"
+      ],
+      "layout":"double-faced",
+      "name":"Azcanta, The Sunken Ruin",
+      "names":[
+        "Search for Azcanta",
+        "Azcanta, The Sunken Ruin"
+      ],
+      "number":"74b",
+      "rarity":"Rare",
+      "text":"(Transforms from Search for Azcanta)\n\n{T} : Add {U} to your mana pool.\n{2}{U} , {T} : Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order. ",
+      "type":"Legendary Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/543/636404632806634835.jpeg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "layout":"double-faced",
+      "manaCost":"1U",
+      "name":"Search for Azcanta",
+      "names":[
+        "Search for Azcanta",
+        "Azcanta, The Sunken Ruin"
+      ],
+      "number":"74a",
+      "rarity":"Rare",
+      "text":"At the beginning of your upkeep, look at the top card of your library. You may put it into your graveyard. Then if you have seven or more cards in your graveyard, you may transform Search for Azcanta",
+      "type":"Legendary Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/544/636404633452543989.png"
+    },
+    {
       "cmc":1,
       "colorIdentity":[
         "R"
@@ -211,7 +355,7 @@
         "G"
       ],
       "name":"Itlimoc, Cradle of the Sun",
-      "number":"?",
+      "number":"194",
       "rarity":"Rare",
       "text":"(Transforms from Growing Rites of Itlimoc.)\n\n{T}: Add {G} to your mana pool.\n\n{T}: Add {G} to your mana pool for each creature you control.",
       "type":"Legendary Land",
@@ -230,7 +374,7 @@
       ],
       "manaCost":"2G",
       "name":"Growing Rites of Itlimoc",
-      "number":"?",
+      "number":"194",
       "rarity":"Rare",
       "text":"When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library.  You may reveal a creature card from among them and put it into your hand.  Put the rest on the bottom of your library in any order.\n\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.",
       "type":"Legendary Enchantment",

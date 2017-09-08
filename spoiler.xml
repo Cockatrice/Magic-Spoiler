@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Fri, Sep 08 2017, 15:18:02 (UTC)
+        created: Fri, Sep 08 2017, 17:51:53 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,83 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Lurking Chupacabra</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/552/636404702157356287.jpeg" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Beast Horror</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever a creature you control explores, target creature an opponent controls  gets -2/-2 until end of turn</text>			
+		</card>		
+		<card>			
+			<name>Bishop of the Bloodstained</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/547/636404666594788297.jpeg" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>3BB</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Vampire Cleric</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Bishop of the Bloodstained enters the battlefield, target player loses 1 life for each vampire you control.</text>			
+		</card>		
+		<card>			
+			<name>Merfolk Branchwalker</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/546/636404654917145910.jpeg" rarity="Uncommon">XLN</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Merfolk Scout</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Merfolk Branchwalker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put that card back or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Vraska, Relic Seeker</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/545/636404643707017329.jpeg" rarity="Mythic Rare">XLN</set>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>4BG</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Planeswalker — Vraska</type>			
+			<tablerow>1</tablerow>			
+			<text>+2: Create a 2/2 Black Pirate with Menace
+
+-3: Destroy target artifact, creature or enchantment, create a treasure
+
+-10: Target players life total becomes 1</text>			
+			<loyalty>6</loyalty>			
+		</card>		
+		<card>			
+			<name>Azcanta, The Sunken Ruin</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/543/636404632806634835.jpeg" rarity="Rare">XLN</set>			
+			<related>Search for Azcanta</related>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Search for Azcanta)
+
+{T} : Add {U} to your mana pool.
+{2}{U} , {T} : Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order. 
+
+(Related: Search for Azcanta)</text>			
+		</card>		
+		<card>			
+			<name>Search for Azcanta</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/544/636404633452543989.png" rarity="Rare">XLN</set>			
+			<color>U</color>			
+			<related>Azcanta, The Sunken Ruin</related>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>At the beginning of your upkeep, look at the top card of your library. You may put it into your graveyard. Then if you have seven or more cards in your graveyard, you may transform Search for Azcanta
+
+(Related: Azcanta, The Sunken Ruin)</text>			
+		</card>		
 		<card>			
 			<name>Rile</name>			
 			<set picURL="https://media.wizards.com/2017/xln/en_jW7miymqTQ.png" rarity="Common">XLN</set>			
