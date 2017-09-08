@@ -168,7 +168,7 @@ if __name__ == '__main__':
         if os.path.isfile('out/' + setinfo['code'] + '.xml'):
             save_xml(spoilers.pretty_xml('out/' + setinfo['code'] + '.xml'), 'out/' + setinfo['code'] + '.xml')
     if noCards != []:
-        print("Not proccesing set(s) with no cards: {}".format(noCards))
+        print("Not processing set(s) with no cards: {}".format(noCards))
     save_setjson(combinedjson, 'spoiler')
     spoilers.write_combined_xml(combinedjson, setinfos)
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
