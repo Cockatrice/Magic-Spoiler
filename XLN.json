@@ -42,7 +42,7 @@
         "Beast",
         "Horror"
       ],
-      "text":"Whenever a creature you control explores, target creature an opponent controls  gets -2/-2 until end of turn",
+      "text":"Whenever a creature you control explores, target creature an opponent controls  gets -2/-2 until end of turn.",
       "toughness":"3",
       "type":"Creature — Beast Horror",
       "types":[
@@ -67,7 +67,7 @@
         "Vampire",
         "Cleric"
       ],
-      "text":"When Bishop of the Bloodstained enters the battlefield, target player loses 1 life for each vampire you control.",
+      "text":"When Bishop of the Bloodstained enters the battlefield, target player loses 1 life for each Vampire you control.",
       "toughness":"3",
       "type":"Creature — Vampire Cleric",
       "types":[
@@ -138,7 +138,7 @@
       ],
       "number":"74b",
       "rarity":"Rare",
-      "text":"(Transforms from Search for Azcanta)\n\n{T} : Add {U} to your mana pool.\n{2}{U} , {T} : Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order. ",
+      "text":"(Transforms from Search for Azcanta.)\n\n{T} : Add {U} to your mana pool.\n{2}{U} , {T} : Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order. ",
       "type":"Legendary Land",
       "types":[
         "Land"
@@ -162,7 +162,7 @@
       ],
       "number":"74a",
       "rarity":"Rare",
-      "text":"At the beginning of your upkeep, look at the top card of your library. You may put it into your graveyard. Then if you have seven or more cards in your graveyard, you may transform Search for Azcanta",
+      "text":"At the beginning of your upkeep, look at the top card of your library. You may put it into your graveyard. Then if you have seven or more cards in your graveyard, you may transform Search for Azcanta.",
       "type":"Legendary Enchantment",
       "types":[
         "Enchantment"
@@ -240,7 +240,7 @@
         "White"
       ],
       "manaCost":"2W",
-      "name":"~Conqueror of Battle",
+      "name":"Legion Conquistador",
       "number":"20",
       "power":"2",
       "rarity":"Common",
@@ -248,13 +248,13 @@
         "Vampire",
         "Soldier"
       ],
-      "text":"When Conqueror of Battle enters the battlefield, you may search your library for any number of cards named Conqueror of Battle, reveal them, and put them into your hand. If you do, shuffle your library.",
+      "text":"When Legion Conquistador enters the battlefield, you may search your library for any number of cards named Legion Conquistador, reveal them, put them into your hand, then shuffle your library.",
       "toughness":"2",
       "type":"Creature — Vampire Soldier",
       "types":[
         "Creature"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/553/636404774241547758.png"
     },
     {
       "cmc":3,
@@ -285,7 +285,7 @@
       ],
       "manaCost":"5GG",
       "name":"Thundering Spineback",
-      "number":"?",
+      "number":"210",
       "power":"5",
       "rarity":"Uncommon",
       "subtypes":[
@@ -309,7 +309,7 @@
       ],
       "manaCost":"2U",
       "name":"Storm Fleet Spy",
-      "number":"?",
+      "number":"84",
       "power":"2",
       "rarity":"Uncommon",
       "subtypes":[
@@ -334,7 +334,7 @@
       ],
       "manaCost":"1R",
       "name":"Otepec Huntmaster",
-      "number":"?",
+      "number":"153",
       "power":"1",
       "rarity":"Uncommon",
       "subtypes":[
@@ -367,7 +367,7 @@
       "types":[
         "Land"
       ],
-      "url":"https://media.wizards.com/2017/xln/en_NyYNyTtDLS.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/562/636404784908356408.png"
     },
     {
       "cmc":3,
@@ -391,18 +391,18 @@
       "types":[
         "Enchantment"
       ],
-      "url":"https://media.wizards.com/2017/xln/en_5MpazyK4wb.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/561/636404783960614410.png"
     },
     {
       "cmc":3,
       "manaCost":"3",
       "name":"Fell Flagship",
-      "number":"?",
+      "number":"238",
       "rarity":"Rare",
       "subtypes":[
         "Vehicle"
       ],
-      "text":"Pirates you control get +1/+0.\n\nWhenever Fell Flagship deals combat damage to a player, that player discards a card.\n\nCrew 3",
+      "text":"Pirates you control get +1/+0.\n\nWhenever Fell Flagship deals combat damage to a player, that player discards a card.\n\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
       "type":"Artifact — Vehicle",
       "types":[
         "Artifact"
@@ -419,13 +419,13 @@
       ],
       "manaCost":"B",
       "name":"Skittering Heartstopper",
-      "number":"?",
+      "number":"122",
       "power":"1",
       "rarity":"Common",
       "subtypes":[
         "Insect"
       ],
-      "text":"{B}: Skittering Heartstopper gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
+      "text":"{B}: Skittering Heartstopper gains deathtouch until end of turn.",
       "toughness":"2",
       "type":"Creature — Insect",
       "types":[
@@ -443,7 +443,7 @@
       ],
       "manaCost":"1U",
       "name":"Chart a Course",
-      "number":"?",
+      "number":"48",
       "rarity":"Uncommon",
       "text":"Draw two cards.  Then discard a card unless you attacked with a creature this turn.",
       "type":"Sorcery",
@@ -462,13 +462,13 @@
       ],
       "manaCost":"2GG",
       "name":"Grazing Whiptail",
-      "number":"?",
+      "number":"190",
       "power":"3",
       "rarity":"Common",
       "subtypes":[
         "Dinosaur"
       ],
-      "text":"Reach (This creature can block creatures with flying.)",
+      "text":"Reach",
       "toughness":"4",
       "type":"Creature — Dinosaur",
       "types":[
@@ -486,7 +486,7 @@
       ],
       "manaCost":"G",
       "name":"Commune with Dinosaurs",
-      "number":"?",
+      "number":"181",
       "rarity":"Common",
       "text":"Look at the top five cards of your library. You may reveal a Dinosaur or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
       "type":"Sorcery",
