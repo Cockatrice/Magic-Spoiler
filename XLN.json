@@ -26,6 +26,32 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "colorIdentity":[
+        "W",
+        "R"
+      ],
+      "colors":[
+        "White",
+        "Red"
+      ],
+      "manaCost":"RW",
+      "name":"Terror of the Skies",
+      "number":"229",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"Flying, menace",
+      "toughness":"2",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/578/636406076192625428.png"
+    },
+    {
       "cmc":4,
       "colorIdentity":[
         "B"
@@ -118,7 +144,7 @@
       "subtypes":[
         "Vraska"
       ],
-      "text":"+2: Create a 2/2 Black Pirate with Menace\n\n-3: Destroy target artifact, creature or enchantment, create a treasure\n\n-10: Target players life total becomes 1",
+      "text":"+2: Create a 2/2 black Pirate creature token with menace.\n\n-3: Destroy target artifact, creature, or enchantment.  Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"\n\n-10: Target player's life total becomes 1.",
       "type":"Legendary Planeswalker — Vraska",
       "types":[
         "Planeswalker"

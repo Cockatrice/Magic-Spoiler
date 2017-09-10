@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sat, Sep 09 2017, 17:44:30 (UTC)
+        created: Sun, Sep 10 2017, 17:44:32 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,18 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Terror of the Skies</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/578/636406076192625428.png" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<manacost>RW</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, menace</text>			
+		</card>		
 		<card>			
 			<name>Lurking Chupacabra</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/552/636404702157356287.jpeg" rarity="Uncommon">XLN</set>			
@@ -54,11 +66,11 @@
 			<cmc>6</cmc>			
 			<type>Legendary Planeswalker — Vraska</type>			
 			<tablerow>1</tablerow>			
-			<text>+2: Create a 2/2 Black Pirate with Menace
+			<text>+2: Create a 2/2 black Pirate creature token with menace.
 
--3: Destroy target artifact, creature or enchantment, create a treasure
+-3: Destroy target artifact, creature, or enchantment.  Create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;
 
--10: Target players life total becomes 1</text>			
+-10: Target player's life total becomes 1.</text>			
 			<loyalty>6</loyalty>			
 		</card>		
 		<card>			
