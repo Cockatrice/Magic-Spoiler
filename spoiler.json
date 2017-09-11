@@ -27,6 +27,131 @@
     "border":"black",
     "cards":[
       {
+        "cmc":4,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"3R",
+        "name":"Trove of Temptation",
+        "number":"171",
+        "rarity":"Uncommon",
+        "text":"Each opponent must attack you or a planeswalker you control with at least one creature each combat if able.\n\nAt the beginning of your end step, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/596/636407220055470562.png"
+      },
+      {
+        "cmc":0,
+        "layout":"double-faced",
+        "name":"Lost Vale",
+        "names":[
+          "Dowsing Dagger",
+          "Lost Vale"
+        ],
+        "number":"235b",
+        "rarity":"Rare",
+        "text":"(Transforms from Dowsing Dagger.)\n{T}: Add three mana of any one color to your mana pool.",
+        "type":"Land",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/592/636407197460257871.png"
+      },
+      {
+        "cmc":2,
+        "layout":"double-faced",
+        "manaCost":"2",
+        "name":"Dowsing Dagger",
+        "names":[
+          "Dowsing Dagger",
+          "Lost Vale"
+        ],
+        "number":"235a",
+        "rarity":"Rare",
+        "subtypes":[
+          "Equipment"
+        ],
+        "text":"When Dowsing Dagger enters the battlefield,  target opponent creates two 0/2 green Plant creature tokens with defender.\nEquipped creature gets +2/+1.\nWhenever equipped creature deals combat damage to a player, you may transform Dowsing Dagger.\nEquip {2}",
+        "type":"Artifact — Equipment",
+        "types":[
+          "Artifact"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/591/636407196622261397.png"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "W"
+        ],
+        "layout":"double-faced",
+        "name":"Adanto, the First Fort",
+        "names":[
+          "Legion's Landing",
+          "Adanto, the First Fort"
+        ],
+        "number":"22b",
+        "rarity":"Rare",
+        "text":"(Transforms from Legion's Landing.)\n{T}: Add {W} to your mana pool.\n{2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.",
+        "type":"Legendary Land",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/590/636407179956434592.png"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "layout":"double-faced",
+        "manaCost":"W",
+        "name":"Legion's Landing",
+        "names":[
+          "Legion's Landing",
+          "Adanto, the First Fort"
+        ],
+        "number":"22a",
+        "rarity":"Rare",
+        "text":"When Legion's Landing enters the battlefield, create a 1/1 white Vampire creature token with lifelink.\n\nWhen you attack with three or more creatures, transform Legion's Landing.",
+        "type":"Legendary Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/589/636407178986902544.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"4G",
+        "name":"Snapping Sailback",
+        "number":"208",
+        "power":"4",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Flash\n\nEnrage — Whenever Snapping Sailback is dealt damage, put a +1/+1 counter on it. (It must survive the damage to get the counter.)",
+        "toughness":"4",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/587/636407119768404240.png"
+      },
+      {
         "cmc":2,
         "colorIdentity":[
           "W",
@@ -75,7 +200,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/552/636404702157356287.jpeg"
+        "url":"https://media.wizards.com/2017/xln/en_DWRMnr1iaG.png"
       },
       {
         "cmc":5,
@@ -94,13 +219,13 @@
           "Vampire",
           "Cleric"
         ],
-        "text":"When Bishop of the Bloodstained enters the battlefield, target player loses 1 life for each Vampire you control.",
+        "text":"When Bishop of the Bloodstained enters the battlefield, target opponent loses 1 life for each Vampire you control.",
         "toughness":"3",
         "type":"Creature — Vampire Cleric",
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/547/636404666594788297.jpeg"
+        "url":"https://media.wizards.com/2017/xln/en_JWL97OP2Uu.png"
       },
       {
         "cmc":2,
@@ -125,7 +250,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/546/636404654917145910.jpeg"
+        "url":"https://media.wizards.com/2017/xln/en_y2GmUGpgYq.png"
       },
       {
         "cmc":6,
@@ -150,7 +275,7 @@
         "types":[
           "Planeswalker"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/545/636404643707017329.jpeg"
+        "url":"https://media.wizards.com/2017/xln/en_jTImWTGW8L.png"
       },
       {
         "cmc":0,
@@ -256,7 +381,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/540/636404602011984689.png"
+        "url":"https://media.wizards.com/2017/xln/en_iBuUrYKxrz.png"
       },
       {
         "cmc":3,
@@ -281,7 +406,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/553/636404774241547758.png"
+        "url":"https://media.wizards.com/2017/xln/en_ftxkh1zJPl.png"
       },
       {
         "cmc":3,
@@ -300,7 +425,7 @@
         "types":[
           "Instant"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/538/636404251329691691.png"
+        "url":"https://media.wizards.com/2017/xln/en_4wUpGt2QHo.png"
       },
       {
         "cmc":7,
@@ -2244,14 +2369,14 @@
         ],
         "manaCost":"3UU",
         "name":"Spell Swindle",
-        "number":"?",
+        "number":"82",
         "rarity":"Rare",
         "text":"Counter target spell.  Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
         "type":"Instant",
         "types":[
           "Instant"
         ],
-        "url":""
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/588/636407144541297839.jpeg"
       },
       {
         "cmc":5,
