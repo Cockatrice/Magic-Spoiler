@@ -205,7 +205,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], rela
         if subtypes:
             cardjson['subtypes'] = subtypes
         cardjson["rarity"] = card['rarity']
-        cardjson["text"] = card['rules']
+        cardjson["text"] = card['rules'].replace(".  ",". ")
         cardjson["type"] = card['type']
 
         workingtypes = card['type']
