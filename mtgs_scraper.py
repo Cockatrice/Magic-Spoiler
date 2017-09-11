@@ -5,6 +5,7 @@ import re
 import sys
 import time
 from lxml import html
+from xml.sax.saxutils import unescape
 
 
 def scrape_mtgs(url):
@@ -89,19 +90,14 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], rela
 
     for card in cards:
         card['name'] = card['name'].replace('&#x27;', '\'')
-        card['rules'] = card['rules'].replace('&#x27;', '\'') \
-            .replace('&lt;i&gt;', '') \
-            .replace('&lt;/i&gt;', '') \
-            .replace('&quot;', '"') \
+        card['rules'] = unescape(card['rules'].replace('&#x27;', '\'') \
             .replace('blkocking', 'blocking')\
-            .replace('&amp;bull;', u'•')\
-            .replace('&bull;', u'•')\
             .replace('comes into the', 'enters the')\
             .replace('threeor', 'three or')\
             .replace('[i]', '')\
             .replace('[/i]', '')\
             .replace('Lawlwss', 'Lawless')\
-            .replace('Costner', "Counter")
+            .replace('Costner', "Counter"))
         card['type'] = card['type'].replace('  ', ' ')\
             .replace('Crature', 'Creature')
 
