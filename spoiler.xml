@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Mon, Sep 11 2017, 17:45:10 (UTC)
+        created: Tue, Sep 12 2017, 09:40:26 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,27 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Makeshift Munitions</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/869/636407708656477141.png" rarity="Uncommon">XLN</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>{1}, Sacrifice an artifact or creature: Makeshift Munitions deals 1 damage to target creature or player.</text>			
+		</card>		
+		<card>			
+			<name>Vicious Conquistador</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/868/636407705934888963.png" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Vampire Soldier</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Vicious Conquistador attacks, each opponent loses 1 life.</text>			
+		</card>		
 		<card>			
 			<name>Trove of Temptation</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/596/636407220055470562.png" rarity="Uncommon">XLN</set>			
@@ -150,7 +171,7 @@ Enrage — Whenever Snapping Sailback is dealt damage, put a +1/+1 counter on it
 			<tablerow>1</tablerow>			
 			<text>+2: Create a 2/2 black Pirate creature token with menace.
 
--3: Destroy target artifact, creature, or enchantment.  Create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;
+-3: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;
 
 -10: Target player's life total becomes 1.</text>			
 			<loyalty>6</loyalty>			
@@ -302,7 +323,7 @@ Counter target spell unless its controller pays {4}.</text>
 			<cmc>3</cmc>			
 			<type>Legendary Enchantment</type>			
 			<tablerow>1</tablerow>			
-			<text>When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library.  You may reveal a creature card from among them and put it into your hand.  Put the rest on the bottom of your library in any order.
+			<text>When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 
 At the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.
 
@@ -340,7 +361,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 			<cmc>2</cmc>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Draw two cards.  Then discard a card unless you attacked with a creature this turn.</text>			
+			<text>Draw two cards. Then discard a card unless you attacked with a creature this turn.</text>			
 		</card>		
 		<card>			
 			<name>Grazing Whiptail</name>			
@@ -539,7 +560,7 @@ Raid — Storm Fleet Aerialist enters the battlefield with a +1/+1 counter on it
 			<tablerow>3</tablerow>			
 			<text>Savage Stomp costs {2} less to cast if it targets a Dinosaur you control.
 
-Put a +1/+1 counter on target creature you control.  Then that creature fights target creature you don't control.  (Each deals damage equal to its power to the other.)</text>			
+Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)</text>			
 		</card>		
 		<card>			
 			<name>Wily Goblin</name>			
@@ -561,7 +582,7 @@ Put a +1/+1 counter on target creature you control.  Then that creature fights t
 			<tablerow>1</tablerow>			
 			<text>When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.
 Equipped creatures gets +2/+1.
-Equip {2} ({2}: Attach to target creature you control.  Equip only as a sorcery.)</text>			
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)</text>			
 		</card>		
 		<card>			
 			<name>Kitesail Freebooter</name>			
@@ -573,7 +594,7 @@ Equip {2} ({2}: Attach to target creature you control.  Equip only as a sorcery.
 			<pt>1/2</pt>			
 			<tablerow>2</tablerow>			
 			<text>Flying
-When Kitesail Freebooter enters the battlefield, target opponent reveals his or her hand.  You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.</text>			
+When Kitesail Freebooter enters the battlefield, target opponent reveals his or her hand. You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.</text>			
 		</card>		
 		<card>			
 			<name>Overflowing Insight</name>			
@@ -798,7 +819,7 @@ Your opponents can't cast spells with the same name as the exiled card.</text>
 
 0: Create a 3/3 green Dinosaur creature token with trample.
 
--X: Huatli, Warrior Poet deals X damage divided as you choose among any number of target creatures.  Creatures dealt damage this way can't block this turn.</text>			
+-X: Huatli, Warrior Poet deals X damage divided as you choose among any number of target creatures. Creatures dealt damage this way can't block this turn.</text>			
 			<loyalty>3</loyalty>			
 		</card>		
 		<card>			
@@ -1292,7 +1313,7 @@ When Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature
 			<type>Creature — Dinosaur</type>			
 			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard.  If a creature card is exiled this way, you gain 2 life.  If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.</text>			
+			<text>Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard. If a creature card is exiled this way, you gain 2 life. If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Spell Swindle</name>			
@@ -1302,7 +1323,7 @@ When Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature
 			<cmc>5</cmc>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
-			<text>Counter target spell.  Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+			<text>Counter target spell. Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
 		</card>		
 		<card>			
 			<name>Bishop of Rebirth</name>			
@@ -1351,7 +1372,7 @@ Abilities your opponents activate that target a Merfolk you control cost {2} mor
 
 {T}: Add {C} to your mana pool.
 
-{T}: Add one mana of any color to your mana pool.  Spend this mana only to cast a creature spell of the chosen type.</text>			
+{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type.</text>			
 		</card>		
 		<card>			
 			<name>Burning Sun's Avatar</name>			
@@ -1438,7 +1459,7 @@ Whenever a creature dies, you gain 1 life.</text>
 			<cmc>4</cmc>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
-			<text>Exile target creature or planeswalker.  You gain 2 life.</text>			
+			<text>Exile target creature or planeswalker. You gain 2 life.</text>			
 		</card>		
 		<card>			
 			<name>Deadeye Tracker</name>			

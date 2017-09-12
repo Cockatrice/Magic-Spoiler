@@ -26,6 +26,50 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"1R",
+      "name":"Makeshift Munitions",
+      "number":"151",
+      "rarity":"Uncommon",
+      "text":"{1}, Sacrifice an artifact or creature: Makeshift Munitions deals 1 damage to target creature or player.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/869/636407708656477141.png"
+    },
+    {
+      "cmc":1,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"B",
+      "name":"Vicious Conquistador",
+      "number":"128",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Vampire",
+        "Soldier"
+      ],
+      "text":"Whenever Vicious Conquistador attacks, each opponent loses 1 life.",
+      "toughness":"2",
+      "type":"Creature — Vampire Soldier",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/868/636407705934888963.png"
+    },
+    {
       "cmc":4,
       "colorIdentity":[
         "R"
@@ -269,7 +313,7 @@
       "subtypes":[
         "Vraska"
       ],
-      "text":"+2: Create a 2/2 black Pirate creature token with menace.\n\n-3: Destroy target artifact, creature, or enchantment.  Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"\n\n-10: Target player's life total becomes 1.",
+      "text":"+2: Create a 2/2 black Pirate creature token with menace.\n\n-3: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"\n\n-10: Target player's life total becomes 1.",
       "type":"Legendary Planeswalker — Vraska",
       "types":[
         "Planeswalker"
@@ -537,7 +581,7 @@
       ],
       "number":"194a",
       "rarity":"Rare",
-      "text":"When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library.  You may reveal a creature card from among them and put it into your hand.  Put the rest on the bottom of your library in any order.\n\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.",
+      "text":"When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\n\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.",
       "type":"Legendary Enchantment",
       "types":[
         "Enchantment"
@@ -596,7 +640,7 @@
       "name":"Chart a Course",
       "number":"48",
       "rarity":"Uncommon",
-      "text":"Draw two cards.  Then discard a card unless you attacked with a creature this turn.",
+      "text":"Draw two cards. Then discard a card unless you attacked with a creature this turn.",
       "type":"Sorcery",
       "types":[
         "Sorcery"
@@ -971,7 +1015,7 @@
       "name":"Savage Stomp",
       "number":"205",
       "rarity":"Uncommon",
-      "text":"Savage Stomp costs {2} less to cast if it targets a Dinosaur you control.\n\nPut a +1/+1 counter on target creature you control.  Then that creature fights target creature you don't control.  (Each deals damage equal to its power to the other.)",
+      "text":"Savage Stomp costs {2} less to cast if it targets a Dinosaur you control.\n\nPut a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)",
       "type":"Sorcery",
       "types":[
         "Sorcery"
@@ -1012,7 +1056,7 @@
       "subtypes":[
         "Equipment"
       ],
-      "text":"When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.\nEquipped creatures gets +2/+1.\nEquip {2} ({2}: Attach to target creature you control.  Equip only as a sorcery.)",
+      "text":"When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.\nEquipped creatures gets +2/+1.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
       "type":"Artifact — Equipment",
       "types":[
         "Artifact"
@@ -1036,7 +1080,7 @@
         "Human",
         "Pirate"
       ],
-      "text":"Flying\nWhen Kitesail Freebooter enters the battlefield, target opponent reveals his or her hand.  You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.",
+      "text":"Flying\nWhen Kitesail Freebooter enters the battlefield, target opponent reveals his or her hand. You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.",
       "toughness":"2",
       "type":"Creature — Human Pirate",
       "types":[
@@ -1429,7 +1473,7 @@
       "subtypes":[
         "Huatli"
       ],
-      "text":"+2: You gain life equal to the greatest power among creatures you control.\n\n0: Create a 3/3 green Dinosaur creature token with trample.\n\n-X: Huatli, Warrior Poet deals X damage divided as you choose among any number of target creatures.  Creatures dealt damage this way can't block this turn.",
+      "text":"+2: You gain life equal to the greatest power among creatures you control.\n\n0: Create a 3/3 green Dinosaur creature token with trample.\n\n-X: Huatli, Warrior Poet deals X damage divided as you choose among any number of target creatures. Creatures dealt damage this way can't block this turn.",
       "type":"Legendary Planeswalker — Huatli",
       "types":[
         "Planeswalker"
@@ -2350,7 +2394,7 @@
       "subtypes":[
         "Dinosaur"
       ],
-      "text":"Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard.  If a creature card is exiled this way, you gain 2 life.  If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.",
+      "text":"Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard. If a creature card is exiled this way, you gain 2 life. If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.",
       "toughness":"2",
       "type":"Creature — Dinosaur",
       "types":[
@@ -2370,7 +2414,7 @@
       "name":"Spell Swindle",
       "number":"82",
       "rarity":"Rare",
-      "text":"Counter target spell.  Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+      "text":"Counter target spell. Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
       "type":"Instant",
       "types":[
         "Instant"
@@ -2451,7 +2495,7 @@
       "name":"Unclaimed Territory",
       "number":"258",
       "rarity":"Uncommon",
-      "text":"As Unclaimed Territory enters the battlefield, choose a creature type.\n\n{T}: Add {C} to your mana pool.\n\n{T}: Add one mana of any color to your mana pool.  Spend this mana only to cast a creature spell of the chosen type.",
+      "text":"As Unclaimed Territory enters the battlefield, choose a creature type.\n\n{T}: Add {C} to your mana pool.\n\n{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type.",
       "type":"Land",
       "types":[
         "Land"
@@ -2620,7 +2664,7 @@
       "name":"Vraska's Contempt",
       "number":"129",
       "rarity":"Rare",
-      "text":"Exile target creature or planeswalker.  You gain 2 life.",
+      "text":"Exile target creature or planeswalker. You gain 2 life.",
       "type":"Instant",
       "types":[
         "Instant"
