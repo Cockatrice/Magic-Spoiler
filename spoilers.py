@@ -1,271 +1,42 @@
 # -*- coding: utf-8 -*-
 import requests
-import feedparser
 import re
-import sys
 import os
-import shutil
-import time
-from lxml import html, etree
-from PIL import Image
+from lxml import html
 import datetime
-import urllib
 import json
+import mtgs_scraper
 import xml.dom.minidom
-from bs4 import BeautifulSoup as BS
-from bs4 import Comment
 
-
-def scrape_mtgs(url):
-    return requests.get(url, headers={'Cache-Control':'no-cache', 'Pragma':'no-cache', 'Expires': 'Thu, 01 Jan 1970 00:00:00 GMT'}).text
-
-def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], split_cards=[], related_cards=[]):
-    mtgs = mtgs.replace('utf-16','utf-8')
-    patterns = ['<b>Name:</b> <b>(?P<name>.*?)<',
-                'Cost: (?P<cost>\d{0,2}[WUBRGC]*?)<',
-                'Type: (?P<type>.*?)<',
-                'Pow/Tgh: (?P<pow>.*?)<',
-                'Rules Text: (?P<rules>.*?)<br /',
-                'Rarity: (?P<rarity>.*?)<',
-                'Set Number: #(?P<setnumber>.*?)/'
-                ]
-    d = feedparser.parse(mtgs)
-
-    cards = []
-    for entry in d.items()[5][1]:
-        card = dict(cost='',cmc='',img='',pow='',name='',rules='',type='',
-                color='', altname='', colorIdentity='', colorArray=[], colorIdentityArray=[], setnumber='', rarity='')
-        summary = entry['summary']
-        for pattern in patterns:
-            match = re.search(pattern, summary, re.MULTILINE|re.DOTALL)
-            if match:
-                dg = match.groupdict()
-                card[dg.items()[0][0]] = dg.items()[0][1]
-        cards.append(card)
-
-    #if we didn't find any cards, let's bail out to prevent overwriting good data
-    count = 0
-    for card in cards:
-        count = count + 1
-    if count < 1:
-        sys.exit("No cards found, exiting to prevent file overwrite")
-
-    #for manual_card in manual_cards:
-        #initialize some keys
-        #manual_card['colorArray'] = []
-        #manual_card['colorIdentityArray'] = []
-        #manual_card['color'] = ''
-        #manual_card['colorIdentity'] = ''
-        #if not manual_card.has_key('rules'):
-        #    manual_card['rules'] = ''
-        #if not manual_card.has_key('pow'):
-        #    manual_card['pow'] = ''
-        #if not manual_card.has_key('setnumber'):
-        #    manual_card['setnumber'] = '0'
-        #if not manual_card.has_key('type'):
-        #    manual_card['type'] = ''
-        #see if this is a dupe
-        #and remove the spoiler version
-        #i trust my manual cards over their data
-        #for card in cards:
-        #    if card['name'] == manual_card['name']:
-        #        cards.remove(card)
-        #cards.append(manual_card)
-
-    for card in cards:
-        card['name'] = card['name'].replace('&#x27;', '\'')
-        card['rules'] = card['rules'].replace('&#x27;', '\'') \
-            .replace('&lt;i&gt;', '') \
-            .replace('&lt;/i&gt;', '') \
-            .replace('&quot;', '"') \
-            .replace('blkocking', 'blocking')\
-            .replace('&amp;bull;',u'•')\
-            .replace('&bull;',u'•')\
-            .replace('comes into the','enters the')\
-            .replace('threeor', 'three or')\
-            .replace('[i]','')\
-            .replace('[/i]','')\
-            .replace('Lawlwss','Lawless')\
-            .replace('Costner',"Counter")
-        card['type'] = card['type'].replace('  ',' ')\
-            .replace('Crature', 'Creature')
-        if card['type'][-1] == ' ':
-            card['type'] = card['type'][:-1]
-        #if card['name'] in card_corrections:
-        #    for correction in card_corrections[card['name']]:
-        #        if correction != 'name':
-        #            card[correction] = card_corrections[card['name']][correction]
-        #    for correction in card_corrections[card['name']]:
-        #        if correction == 'name':
-        #            oldname = card['name']
-        #            card['name'] = card_corrections[oldname]['name']
-        #            card['rules'] = card['rules'].replace(oldname, card_corrections[oldname][correction])
-        if 'cost' in card and len(card['cost']) > 0:
-            workingCMC = 0
-            stripCost = card['cost'].replace('{','').replace('}','')
-            for manaSymbol in stripCost:
-                if manaSymbol.isdigit():
-                    workingCMC += int(manaSymbol)
-                elif not manaSymbol == 'X':
-                    workingCMC += 1
-            card['cmc'] = workingCMC
-        # figure out color
-        for c in 'WUBRG':
-            if c not in card['colorIdentity']:
-                if c in card['cost']:
-                    card['color'] += c
-                    card['colorIdentity'] += c
-                if (c + '}') in card['rules'] or (str.lower(c) + '}') in card['rules']:
-                    if not (c in card['colorIdentity']):
-                        card['colorIdentity'] += c
-
-    cleanedcards = []
-
-    #let's remove any cards that are named in delete_cards array
-    for card in cards:
-        if not card['name'] in delete_cards:
-            cleanedcards.append(card)
-    cards = cleanedcards
-
-    cardlist = []
-    cardarray = []
-    for card in cards:
-        dupe = False
-        for dupecheck in cardarray:
-            if dupecheck['name'] == card['name']:
-                dupe = True
-        if dupe == True:
-            continue
-        #if 'draft' in card['rules']:
-        #    continue
-        for cid in card['colorIdentity']:
-            card['colorIdentityArray'].append(cid)
-        if 'W' in card['color']:
-            card['colorArray'].append('White')
-        if 'U' in card['color']:
-            card['colorArray'].append('Blue')
-        if 'B' in card['color']:
-            card['colorArray'].append('Black')
-        if 'R' in card['color']:
-            card['colorArray'].append('Red')
-        if 'G' in card['color']:
-            card['colorArray'].append('Green')
-        cardpower = ''
-        cardtoughness = ''
-        if len(card['pow'].split('/')) > 1:
-            cardpower = card['pow'].split('/')[0]
-            cardtoughness = card['pow'].split('/')[1]
-        cardnames = []
-        cardnumber = card['setnumber'].lstrip('0')
-        if card['name'] in related_cards:
-            cardnames.append(card['name'])
-            cardnames.append(related_cards[card['name']])
-            cardnumber += 'a'
-            card['layout'] = 'double-faced'
-        for namematch in related_cards:
-            if card['name'] == related_cards[namematch]:
-                card['layout'] = 'double-faced'
-                cardnames.append(namematch)
-                if not card['name'] in cardnames:
-                    cardnames.append(card['name'])
-                    cardnumber += 'b'
-        cardnames = []
-        if card['name'] in split_cards:
-            cardnames.append(card['name'])
-            cardnames.append(split_cards[card['name']])
-            cardnumber = cardnumber.replace('b','').replace('a','') + 'a'
-            card['layout'] = 'split'
-        for namematch in split_cards:
-            if card['name'] == split_cards[namematch]:
-                card['layout'] = 'split'
-                cardnames.append(namematch)
-                if not card['name'] in cardnames:
-                    cardnames.append(card['name'])
-                    cardnumber = cardnumber.replace('b','').replace('a','') + 'b'
-        if 'number' in card:
-            if 'b' in card['number'] or 'a' in card['number']:
-                if not 'layout' in card:
-                    print card['name'] + " has a a/b number but no 'layout'"
-
-        cardtypes = []
-        if not '-' in card['type']:
-            card['type'] = card['type'].replace('instant','Instant').replace('sorcery','Sorcery').replace('creature','Creature')
-            cardtypes.append(card['type'].replace('instant','Instant'))
-        else:
-            cardtypes = card['type'].replace('Legendary ','').split(' - ')[0].split(' ')[:-1]
-        if '-' in card['type']:
-            subtype = card['type'].split(' - ')[1].strip()
-        else:
-            subtype = False
-        #if u"—" in card['type']:
-        #    subtype = card['type'].split(' — ')[1].strip()
-        if subtype:
-            subtypes = subtype.split(' ')
-        else:
-            subtypes = False
-        if card['cmc'] == '':
-            card['cmc'] = 0
-        cardjson = {}
-        #cardjson["id"] = hashlib.sha1(setname + card['name'] + str(card['name']).lower()).hexdigest()
-        cardjson["cmc"] = card['cmc']
-        cardjson["manaCost"] = card['cost']
-        cardjson["name"] = card['name']
-        cardjson["number"] = cardnumber
-        #not sure if mtgjson has a list of acceptable rarities, but my application does
-        #so we'll warn me but continue to write a non-standard rarity (timeshifted?)
-        #may force 'special' in the future
-        if card['rarity'] not in ['Mythic Rare','Rare','Uncommon','Common','Special']:
-            #errors.append({"name": card['name'], "key": "rarity", "value": card['rarity']})
-            print card['name'] + ' has rarity = ' + card['rarity']
-        if subtypes:
-            cardjson['subtypes'] = subtypes
-        cardjson["rarity"] = card['rarity']
-        cardjson["text"] = card['rules']
-        cardjson["type"] = card['type']
-        cardjson["url"] = card['img']
-        cardjson["types"] = cardtypes
-        #optional fields
-        if len(card['colorIdentityArray']) > 0:
-            cardjson["colorIdentity"] = card['colorIdentityArray']
-        if len(card['colorArray']) > 0:
-            cardjson["colors"] = card['colorArray']
-        if len(cardnames) > 1:
-            cardjson["names"] = cardnames
-        if cardpower or cardpower == '0':
-            cardjson["power"] = cardpower
-            cardjson["toughness"] = cardtoughness
-        if card.has_key('loyalty'):
-            cardjson["loyalty"] = card['loyalty']
-        if card.has_key('layout'):
-            cardjson["layout"] = card['layout']
-
-        cardarray.append(cardjson)
-
-    return {"cards": cardarray}
 
 def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]):
     mtgjson2 = []
     for card in manual_cards:
+        if 'manaCost' in card:
+            card['manaCost'] = str(card['manaCost'])
+        if 'number' in card:
+            card['number'] = str(card['number'])
         if 'cmc' not in card:
             workingCMC = 0
-            stripCost = card['manaCost'].replace('{','').replace('}','')
-            for manaSymbol in stripCost:
-                if manaSymbol.isdigit():
-                    workingCMC += int(manaSymbol)
-                elif not manaSymbol == 'X':
-                    workingCMC += 1
+            if 'manaCost' in card:
+                stripCost = card['manaCost'].replace('{','').replace('}','')
+                for manaSymbol in stripCost:
+                    if manaSymbol.isdigit():
+                        workingCMC += int(manaSymbol)
+                    elif not manaSymbol == 'X':
+                        workingCMC += 1
+            card['cmc'] = workingCMC
         if 'types' not in card:
             card['types'] = []
-#            if '—' in card['type']:
-#                workingTypes = card['type'].split('—')[0].strip()
-#            else:
-            workingTypes = card['type'].split('-')[0].strip()
-            workingTypes.replace('Legendary ','').replace('Snow ','')\
-                .replace('Elite ','').replace('Basic ','').replace('World ','').replace('Ongoing ','')
-            card['types'] += workingTypes.split(' ')
+            workingtypes = card['type']
+            if ' - ' in workingtypes:
+                workingtypes = card['type'].split(' - ')[0]
+            card['types'] = workingtypes.replace('Legendary ', '').replace('Snow ', '') \
+                .replace('Elite ', '').replace('Basic ', '').replace('World ', '').replace('Ongoing ', '') \
+                .strip().split(' ')
         if 'subtypes' not in card:
-#            if '—' in card['type']:
-#                workingSubtypes = card['type'].split('—')[1].strip()
+            #            if '—' in card['type']:
+            #                workingSubtypes = card['type'].split('—')[1].strip()
             if '-' in card['type']:
                 workingSubtypes = card['type'].split('-')[1].strip()
             if workingSubtypes:
@@ -279,7 +50,7 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
         }
         if 'manaCost' in card:
             if 'text' in card and not 'Devoid' in card['text']:
-                for letter in card['manaCost']:
+                for letter in str(card['manaCost']):
                     if not letter.isdigit() and not letter == 'X':
                         if 'colorIdentity' in card:
                             if not letter in card['colorIdentity']:
@@ -299,17 +70,16 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                             card['colorIdentity'] += CID
                     else:
                         card['colorIdentity'] = [CID]
-    print mtgjson
+    manual_added = []
     for card in mtgjson['cards']:
         isManual = False
         for manualCard in manual_cards:
             if card['name'] == manualCard['name']:
                 mtgjson2.append(manualCard)
-                print 'overwriting card ' + card['name']
+                manual_added.append(manualCard['name'] + " (overwritten)")
                 isManual = True
         if not isManual and not card['name'] in delete_cards:
             mtgjson2.append(card)
-
     for manualCard in manual_cards:
         addManual = True
         for card in mtgjson['cards']:
@@ -317,41 +87,87 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
                 addManual = False
         if addManual:
             mtgjson2.append(manualCard)
-            print 'inserting manual card ' + manualCard['name']
+            manual_added.append(manualCard['name'])
+    if manual_added != []:
+        print "Manual Cards Added: " + str(manual_added).strip('[]')
 
     mtgjson = {"cards": mtgjson2}
-
+    transforms = {}
     for card in mtgjson['cards']:
-        for cardCorrection in card_corrections:
-            if card['name'] == cardCorrection:
-                for correctionType in card_corrections[cardCorrection]:
-                    if not correctionType == 'name':
-                        card[correctionType] = card_corrections[cardCorrection][correctionType]
-                if 'name' in card_corrections[cardCorrection]:
-                    card['name'] = card_corrections[cardCorrection]['name']
+        if 'text' in card:
+            if '{' in card['text']:
+                card['text'] = re.sub(r'{(.*?)}', replace_costs, card['text'])
+            for card2 in mtgjson['cards']:
+                if 'number' in card and 'number' in card2 and card2['number'] == card['number'] and \
+                    not card['name'] == card2['name'] and card['number'] != '?' and card2['number'] != '?':
+                    transforms[card['name']] = card2['name']
+            if 'number' in card and not '?' in card['number']:
+                if 'transforms from' in card['text'].lower():
+                    if 'number' in card:
+                        if not 'b' in card['number']:
+                            if 'a' in card['number']:
+                                card['number'] = card['number'].replace('a','b')
+                            else:
+                                card['number'] = str(card['number']) + 'b'
+                    card['layout'] = 'double-faced'
+                if 'transform ' in card['text'].lower() or 'transformed' in card['text'].lower():
+                    if 'number' in card:
+                        if not 'a' in card['number']:
+                            if 'b' in card['number']:
+                                card['number'] = card['number'].replace('b','a')
+                            else:
+                                card['number'] = str(card['number']) + 'a'
+                    card['layout'] = 'double-faced'
+        if 'number' in card and 'a' in card['number'] or 'b' in card['number']:
+            for card1 in transforms:
+                if card['name'] == card1:
+                    if 'a' in card['number']:
+                        card['names'] = [card1, transforms[card1]]
+                    else:
+                        card['names'] = [transforms[card1], card1]
+                if card['name'] == transforms[card1]:
+                    if 'a' in card['number']:
+                        card['names'] = [card['name'], card1]
+                    else:
+                        card['names'] = [card1, card['name']]
+
     return mtgjson
 
-def errorcheck(mtgjson):
+
+def replace_costs(match):
+    full_cost = match.group(1)
+    individual_costs = []
+    if len(full_cost) > 0:
+        for x in range(0, len(full_cost)):
+            individual_costs.append('{' + str(full_cost[x]).upper() + '}')
+    return ''.join(individual_costs)
+
+
+def error_check(mtgjson, card_corrections={}):
     errors = []
     for card in mtgjson['cards']:
         for key in card:
             if key == "":
                 errors.append({"name": card['name'], "key": key, "value": ""})
-        requiredKeys = ['name','type']
+        requiredKeys = ['name', 'type', 'types']
         for requiredKey in requiredKeys:
             if not requiredKey in card:
-                errors.append({"name": card['name'], "key": key, "missing": True})
+                errors.append(
+                    {"name": card['name'], "key": key, "missing": True})
         if 'text' in card:
-            #foo = 1
-            card['text'] = card['text'].replace('<i>','').replace('</i>','').replace('<em>','').replace('</em','').replace('(','').replace('&bull;',u'•')
+            card['text'] = card['text'].replace('<i>', '').replace(
+                '</i>', '').replace('<em>', '').replace('</em', '').replace('&bull;', u'•')
         if 'type' in card:
             if 'Planeswalker' in card['type']:
                 if not 'loyalty' in card:
-                    errors.append({"name": card['name'], "key": "loyalty", "value": ""})
+                    errors.append(
+                        {"name": card['name'], "key": "loyalty", "value": ""})
                 if not card['rarity'] == 'Mythic Rare':
-                    errors.append({"name": card['name'], "key": "rarity", "value": card['rarity']})
+                    errors.append(
+                        {"name": card['name'], "key": "rarity", "value": card['rarity']})
                 if not 'subtypes' in card:
-                    errors.append({"name": card['name'], "key": "subtypes", "oldvalue": "", "newvalue": card['name'].split(" ")[0], "fixed": True})
+                    errors.append({"name": card['name'], "key": "subtypes", "oldvalue": "",
+                                   "newvalue": card['name'].split(" ")[0], "fixed": True})
                     if not card['name'].split(' ')[0] == 'Ob' and not card['name'].split(' ') == 'Nicol':
                         card["subtypes"] = card['name'].split(" ")[0]
                     else:
@@ -364,406 +180,230 @@ def errorcheck(mtgjson):
                     card['types'].append("Planeswalker")
             if 'Creature' in card['type']:
                 if not 'power' in card:
-                    errors.append({"name": card['name'], "key": "power", "value": ""})
+                    errors.append(
+                        {"name": card['name'], "key": "power", "value": ""})
                 if not 'toughness' in card:
-                    errors.append({"name": card['name'], "key": "toughness", "value": ""})
+                    errors.append(
+                        {"name": card['name'], "key": "toughness", "value": ""})
                 if not 'subtypes' in card:
-                    errors.append({"name": card['name'], "key": "subtypes", "value": ""})
+                    errors.append(
+                        {"name": card['name'], "key": "subtypes", "value": ""})
+            if '-' in card['type']:
+                card['type'] = card['type'].replace('-',u'—')
         if 'manaCost' in card:
             workingCMC = 0
-            stripCost = card['manaCost'].replace('{','').replace('}','')
+            stripCost = card['manaCost'].replace('{', '').replace('}', '')
             for manaSymbol in stripCost:
                 if manaSymbol.isdigit():
                     workingCMC += int(manaSymbol)
                 elif not manaSymbol == 'X':
                     workingCMC += 1
             if not 'cmc' in card:
-                errors.append({"name": card['name'], "key": "cmc", "value": ""})
+                errors.append(
+                    {"name": card['name'], "key": "cmc", "value": ""})
             elif not card['cmc'] == workingCMC:
-                errors.append({"name": card['name'], "key": "cmc", "oldvalue": card['cmc'], "newvalue": workingCMC, "fixed": True, "match": card['manaCost']})
+                errors.append({"name": card['name'], "key": "cmc", "oldvalue": card['cmc'],
+                               "newvalue": workingCMC, "fixed": True, "match": card['manaCost']})
                 card['cmc'] = workingCMC
+        else:
+            if 'type' in card and not 'land' in card['type'].lower():
+                errors.append(
+                    {"name": card['name'], "key": "manaCost", "value": ""})
         if not 'cmc' in card:
             errors.append({"name": card['name'], "key": "cmc", "value": ""})
         else:
             if not isinstance(card['cmc'], int):
-                errors.append({"name": card['name'], "key": "cmc", "oldvalue": card['cmc'], "newvalue": int(card['cmc']), "fixed": True})
+                errors.append({"name": card['name'], "key": "cmc", "oldvalue": card['cmc'], "newvalue": int(
+                    card['cmc']), "fixed": True})
                 card['cmc'] = int(card['cmc'])
             else:
                 if card['cmc'] > 0:
                     if not 'manaCost' in card:
-                        errors.append({"name": card['name'], "key": "manaCost", "value": "", "match": card['cmc']})
+                        errors.append(
+                            {"name": card['name'], "key": "manaCost", "value": "", "match": card['cmc']})
                 else:
                     if 'manaCost' in card:
-                        errors.append({"name": card['name'], "key": "manaCost", "oldvalue": card['manaCost'], "fixed": True})
+                        errors.append(
+                            {"name": card['name'], "key": "manaCost", "oldvalue": card['manaCost'], "fixed": True})
                         del card["manaCost"]
         if 'colors' in card:
             if not 'colorIdentity' in card:
                 if 'text' in card:
                     if not 'devoid' in card['text'].lower():
-                        errors.append({"name": card['name'], "key": "colorIdentity", "value": ""})
+                        errors.append(
+                            {"name": card['name'], "key": "colorIdentity", "value": ""})
                 else:
-                    errors.append({"name": card['name'], "key": "colorIdentity", "value": ""})
+                    errors.append(
+                        {"name": card['name'], "key": "colorIdentity", "value": ""})
         if 'colorIdentity' in card:
             if not 'colors' in card:
-                #this one will false positive on emerge cards
+                # this one will false positive on emerge cards
                 if not 'Land' in card['type'] and not 'Artifact' in card['type'] and not 'Eldrazi' in card['type']:
                     if 'text' in card:
                         if not 'emerge' in card['text'].lower() and not 'devoid' in card['text'].lower():
-                            errors.append({"name": card['name'], "key": "colors", "value": ""})
+                            errors.append(
+                                {"name": card['name'], "key": "colors", "value": ""})
                     else:
-                        errors.append({"name": card['name'], "key": "colors", "value": ""})
-                #if not 'Land' in card['type'] and not 'Artifact' in card['type'] and not 'Eldrazi' in card['type']:
+                        errors.append(
+                            {"name": card['name'], "key": "colors", "value": ""})
+                # if not 'Land' in card['type'] and not 'Artifact' in card['type'] and not 'Eldrazi' in card['type']:
                 #    errors.append({"name": card['name'], "key": "colors", "value": ""})
         if not 'url' in card:
             errors.append({"name": card['name'], "key": "url", "value": ""})
         elif len(card['url']) < 10:
             errors.append({"name": card['name'], "key": "url", "value": ""})
-        if 'layout' in card:
-            if card['layout'] == 'split' or card['layout'] == 'meld' or card['layout'] == 'aftermath':
-                if not 'names' in card:
-                    errors.append({"name": card['name'], "key": "names", "value": ""})
-                if 'number' in card:
-                    if not 'a' in card['number'] and not 'b' in card['number'] and not 'c' in card['number']:
-                        errors.append({"name": card['name'], "key": "number", "value": card['number']})
         if not 'number' in card:
             errors.append({"name": card['name'], "key": "number", "value": ""})
         if not 'types' in card:
             errors.append({"name": card['name'], "key": "types", "value": ""})
-    #print errors
+        else:
+            for type in card['types']:
+                if type not in ['Creature', 'Artifact', 'Conspiracy', 'Enchantment', 'Instant', 'Land', 'Phenomenon', 'Plane', 'Planeswalker', 'Scheme',
+                                'Sorcery', 'Tribal', 'Vanguard']:
+                    errors.append({"name": card['name'], "key": "types", "value":card['types']})
+
+    # we're going to loop through again and make sure split cards get paired
+    for card in mtgjson['cards']:
+        if 'layout' in card:
+            if card['layout'] == 'split' or card['layout'] == 'meld' or card['layout'] == 'aftermath':
+                if not 'names' in card:
+                    errors.append(
+                        {"name": card['name'], "key": "names", "value": ""})
+                else:
+                    for related_card_name in card['names']:
+                        if related_card_name != card['name']:
+                            related_card = False
+                            for card2 in mtgjson['cards']:
+                                if card2['name'] == related_card_name:
+                                    related_card = card2
+                            if not related_card:
+                                errors.append(
+                                    {"name": card['name'], "key": "names", "value": card['names']})
+                            else:
+                                if 'colors' in related_card:
+                                    for color in related_card['colors']:
+                                        if not 'colors' in card:
+                                            card['colors'] = [color]
+                                        elif not color in card['colors']:
+                                            card['colors'].append(color)
+                                if 'colorIdentity' in related_card:
+                                    for colorIdentity in related_card['colorIdentity']:
+                                        if not 'colorIdentity' in card:
+                                            card['colorIdentity'] = [
+                                                colorIdentity]
+                                        elif not colorIdentity in card['colorIdentity']:
+                                            card['colorIdentity'].append(
+                                                colorIdentity)
+                if 'number' in card:
+                    if not 'a' in card['number'] and not 'b' in card['number'] and not 'c' in card['number']:
+                        errors.append(
+                            {"name": card['name'], "key": "number", "value": card['number']})
+
+    for card in mtgjson['cards']:
+        for cardCorrection in card_corrections:
+            if card['name'] == cardCorrection:
+                for correctionType in card_corrections[cardCorrection]:
+                    # if not correctionType in card and correctionType not in :
+                    #    sys.exit("Invalid correction for " + cardCorrection + " of type " + card)
+                    if correctionType == 'number':
+                        card_corrections[cardCorrection]['number'] = str(card_corrections[cardCorrection]['number'])
+                    if not correctionType == 'name':
+                        if correctionType == 'img':
+                            card['url'] = card_corrections[cardCorrection][correctionType]
+                        else:
+                            card[correctionType] = card_corrections[cardCorrection][correctionType]
+                if 'name' in card_corrections[cardCorrection]:
+                    card['name'] = card_corrections[cardCorrection]['name']
+
     return [mtgjson, errors]
 
-def get_scryfall(setUrl):
-    #getUrl = 'https://api.scryfall.com/cards/search?q=++e:'
-    #setUrl = getUrl + setname.lower()
-    setDone = False
-    scryfall = []
 
-    #firstPass = True
-    while setDone == False:
-        setcards = requests.get(setUrl)
-        setcards = setcards.json()
-        if setcards.has_key('data'):
-                #if firstPass:
-                #    cards[set]["cards"] = []
-                #    firstPass = False
-            scryfall.append(setcards['data'])
-                #for setkey in mtgjson[set]:
-                #    if 'card' not in setkey:
-                #        if set != 'NMS':
-                #            cards[set][setkey] = mtgjson[set][setkey]
-        else:
-            setDone = True
-            print setUrl
-            print setcards
-            print 'No Scryfall data'
-            scryfall = ['']
-                #noset.append(set)
-        time.sleep(.1)
-        if setcards.has_key('has_more'):
-            if setcards['has_more'] == True:
-                #print 'Going to extra page of ' + set
-                setUrl = setcards['next_page']
-            else:
-                setDone = True
-        else:
-            setDone = True
-    if not scryfall[0] == '':
-        scryfall = convert_scryfall(scryfall[0])
-        return {'cards': scryfall}
-    else:
-        return {'cards': []}
+def remove_corrected_errors(errorlog=[], card_corrections=[], print_fixed=False):
+    errorlog2 = {}
+    for error in errorlog:
+        if not print_fixed:
+            if 'fixed' in error and error['fixed'] == True:
+                continue
+        removeError = False
+        for correction in card_corrections:
+            for correction_type in card_corrections[correction]:
+                if error['name'] == correction:
+                    if error['key'] == correction_type:
+                        removeError = True
+        if not removeError:
+            if not error['name'] in errorlog2:
+                errorlog2[error['name']] = {}
+            if not 'value' in error:
+                error['value'] = ""
+            errorlog2[error['name']][error['key']] = error['value']
+    return errorlog2
 
-def convert_scryfall(scryfall):
-    cards2 = []
-    for card in scryfall:
-        card2 = {}
-        card2['cmc'] = int((card['cmc']).split('.')[0])
-        if card.has_key('mana_cost'):
-            card2['manaCost'] = card['mana_cost'].replace('{','').replace('}','')
-        else:
-            card2['manaCost'] = ''
-        card2['name'] = card['name']
-        card2['number'] = card['collector_number']
-        card2['rarity'] = card['rarity'].replace('mythic','mythic rare').title()
-        if card.has_key('oracle_text'):
-            card2['text'] = card['oracle_text'].replace(u"\u2022 ", u'*').replace(u"\u2014",'-').replace(u"\u2212","-")
-        else:
-            card2['text'] = ''
-        card2['url'] = card['image_uri']
-        if not 'type_line' in card:
-            card['type_line'] = 'Unknown'
-        card2['type'] = card['type_line'].replace(u'—','-')
-        cardtypes = card['type_line'].split(u' — ')[0].replace('Legendary ','').replace('Snow ','')\
-        .replace('Elite ','').replace('Basic ','').replace('World ','').replace('Ongoing ','')
-        cardtypes = cardtypes.split(' ')
-        if u' — ' in card['type_line']:
-            cardsubtypes = card['type_line'].split(u' — ')[1]
-            if ' ' in cardsubtypes:
-                card2['subtypes'] = cardsubtypes.split(' ')
-            else:
-                card2['subtypes'] = [cardsubtypes]
-        if 'Legendary' in card['type_line']:
-            if card2.has_key('supertypes'):
-                card2['supertypes'].append('Legendary')
-            else:
-                card2['supertypes'] = ['Legendary']
-        if 'Snow' in card['type_line']:
-            if card2.has_key('supertypes'):
-                card2['supertypes'].append('Snow')
-            else:
-                card2['supertypes'] = ['Snow']
-        if 'Elite' in card['type_line']:
-            if card2.has_key('supertypes'):
-                card2['supertypes'].append('Elite')
-            else:
-                card2['supertypes'] = ['Elite']
-        if 'Basic' in card['type_line']:
-            if card2.has_key('supertypes'):
-                card2['supertypes'].append('Basic')
-            else:
-                card2['supertypes'] = ['Basic']
-        if 'World' in card['type_line']:
-            if card2.has_key('supertypes'):
-                card2['supertypes'].append('World')
-            else:
-                card2['supertypes'] = ['World']
-        if 'Ongoing' in card['type_line']:
-            if card2.has_key('supertypes'):
-                card2['supertypes'].append('Ongoing')
-            else:
-                card2['supertypes'] = ['Ongoing']
-        card2['types'] = cardtypes
-        if card.has_key('color_identity'):
-            card2['colorIdentity'] = card['color_identity']
-        if card.has_key('colors'):
-            if not card['colors'] == []:
-                card2['colors'] = []
-                if 'W' in card['colors']:
-                    card2['colors'].append("White")
-                if 'U' in card['colors']:
-                    card2['colors'].append("Blue")
-                if 'B' in card['colors']:
-                    card2['colors'].append("Black")
-                if 'R' in card['colors']:
-                    card2['colors'].append("Red")
-                if 'G' in card['colors']:
-                    card2['colors'].append("Green")
-                #card2['colors'] = card['colors']
-        if card.has_key('all_parts'):
-            card2['names'] = []
-            for partname in card['all_parts']:
-                card2['names'].append(partname['name'])
-        if card.has_key('power'):
-            card2['power'] = card['power']
-        if card.has_key('toughness'):
-            card2['toughness'] = card['toughness']
-        if card.has_key('layout'):
-            if card['layout'] != 'normal':
-                card2['layout'] = card['layout']
-        if card.has_key('loyalty'):
-            card2['loyalty'] = card['loyalty']
-        if card.has_key('artist'):
-            card2['artist'] = card['artist']
-        #if card.has_key('source'):
-        #    card2['source'] = card['source']
-        #if card.has_key('rulings'):
-        #    card2['rulings'] = card['rulings']
-        if card.has_key('flavor_text'):
-            card2['flavor'] = card['flavor_text']
-        if card.has_key('multiverse_id'):
-            card2['multiverseid'] = card['multiverse_id']
 
-        cards2.append(card2)
-
-    return cards2
-    print
-
-def smash_mtgs_scryfall(mtgs, scryfall):
-    for mtgscard in mtgs['cards']:
-        cardFound = False
-        for scryfallcard in scryfall['cards']:
-            if scryfallcard['name'] == mtgscard['name']:
-                for key in scryfallcard:
-                    if key in mtgscard:
-                        if not mtgscard[key] == scryfallcard[key]:
-                            print "%s's key %s\nMTGS    : %s\nScryfall: %s" % (mtgscard['name'], key, mtgscard[key], scryfallcard[key])
-                cardFound = True
-        if not cardFound:
-            print "MTGS has card %s and Scryfall does not." % mtgscard['name']
-    for scryfallcard in scryfall['cards']:
-        cardFound = False
-        for mtgscard in mtgs['cards']:
-            if scryfallcard['name'] == mtgscard['name']:
-                cardFound = True
-        if not cardFound:
-            print "Scryfall has card %s and MTGS does not." % scryfallcard['name']
-
-    return mtgs
-
-def scrape_fullspoil(url, showRarityColors=False, showFrameColors=False, manual_cards=[], delete_cards=[], split_cards=[]):
-    page = requests.get(url)
-    tree = html.fromstring(page.content)
-    cards = []
-    cardtree = tree.xpath('//*[@id="content-detail-page-of-an-article"]')
-    for child in cardtree:
-        cardElements = child.xpath('//*/p/img')
-        cardcount = 0
-        for cardElement in cardElements:
-            card = {
-                "name": cardElement.attrib['alt'].replace(u"\u2019",'\'').split(' /// ')[0],
-                "img": cardElement.attrib['src']
-            }
-            card["url"] = card["img"]
-            card["cmc"] = 0
-            card["manaCost"] = ""
-            card["type"] = "Land"
-            card["types"] = ["Land"]
-            card["text"] = ""
-            #card["colorIdentity"] = [""]
-
-            if card['name'] in split_cards:
-                card["names"] = [card['name'], split_cards[card['name']]]
-                card["layout"] = "split"
-            notSplit = True
-            for backsplit in split_cards:
-                if card['name'] == split_cards[backsplit]:
-                    notSplit = False
-            if notSplit and not card['name'] in delete_cards:
-                cards.append(card)
-            cardcount += 1
-    print "Spoil Gallery has " + str(cardcount) + " cards."
-    #print mtgjson
-    #print cards
-    #return cards
-    get_rarities_by_symbol(fullspoil, showRarityColors)
-    get_colors_by_frame(fullspoil, showFrameColors)
-    return cards
-
-def get_rarities_by_symbol(fullspoil, split_cards=[]):
-    symbolPixels = (234, 215, 236, 218)
-    highVariance = 15
-    colorAverages = {
-        "Common": [225, 224, 225],
-        "Uncommon": [194, 228, 240],
-        "Rare": [225, 201, 134],
-        "Mythic Rare": [249, 163, 15]
-    }
-    #symbolCount = 0
-    for card in fullspoil:
-        cardImage = Image.open('images/' + card['name'] + '.png')
-        if card['name'] in split_cards:
-            setSymbol = cardImage.crop((234, 134, 236, 137))
-        else:
-            setSymbol = cardImage.crop(symbolPixels)
-        cardHistogram = setSymbol.histogram()
-        reds = cardHistogram[0:256]
-        greens = cardHistogram[256:256 * 2]
-        blues = cardHistogram[256 * 2: 256 * 3]
-        reds = sum(i * w for i, w in enumerate(reds)) / sum(reds)
-        greens = sum(i * w for i, w in enumerate(greens)) / sum(greens)
-        blues = sum(i * w for i, w in enumerate(blues)) / sum(blues)
-        variance = 768
-        for color in colorAverages:
-            colorVariance = 0
-            colorVariance = colorVariance + abs(colorAverages[color][0] - reds)
-            colorVariance = colorVariance + abs(colorAverages[color][1] - greens)
-            colorVariance = colorVariance + abs(colorAverages[color][2] - blues)
-            if colorVariance < variance:
-                variance = colorVariance
-                card['rarity'] = color
-        if variance > highVariance:
-            # if a card isn't close to any of the colors, it's probably a planeswalker? make it mythic.
-            print card['name'], 'has high variance of', variance, ', closest rarity is', card['rarity']
-            card['rarity'] = "Mythic Rare"
-            print card['name'], '$', reds, greens, blues
-        #if symbolCount < 10:
-        #setSymbol.save('images/' + card['name'] + '.symbol.jpg')
-        #    symbolCount += 1
-    return fullspoil
-    print
-
-def get_colors_by_frame(fullspoil, split_cards=[]):
-    framePixels = (20, 11, 76, 16)
-    highVariance = 10
-    colorAverages = {
-        "White": [231,225,200],
-        "Blue": [103,193,230],
-        "Black": [58, 61, 54],
-        "Red": [221, 122, 101],
-        "Green": [118, 165, 131],
-        "Multicolor": [219, 200, 138],
-        "Artifact": [141, 165, 173],
-        "Colorless": [216, 197, 176],
-    }
-    #symbolCount = 0
-    for card in fullspoil:
-        cardImage = Image.open('images/' + card['name'] + '.png')
-        if card['name'] in split_cards:
-            continue
-            #setSymbol = cardImage.crop((234, 134, 236, 137))
-        #else:
-        cardColor = cardImage.crop(framePixels)
-
-        cardHistogram = cardColor.histogram()
-        reds = cardHistogram[0:256]
-        greens = cardHistogram[256:256 * 2]
-        blues = cardHistogram[256 * 2: 256 * 3]
-        reds = sum(i * w for i, w in enumerate(reds)) / sum(reds)
-        greens = sum(i * w for i, w in enumerate(greens)) / sum(greens)
-        blues = sum(i * w for i, w in enumerate(blues)) / sum(blues)
-        variance = 768
-        for color in colorAverages:
-            colorVariance = 0
-            colorVariance = colorVariance + abs(colorAverages[color][0] - reds)
-            colorVariance = colorVariance + abs(colorAverages[color][1] - greens)
-            colorVariance = colorVariance + abs(colorAverages[color][2] - blues)
-            if colorVariance < variance:
-                variance = colorVariance
-                card['colors'] = [color]
-        if variance > highVariance:
-            # if a card isn't close to any of the colors, it's probably a planeswalker? make it mythic.
-            #print card['name'], 'has high variance of', variance, ', closest rarity is', card['color']
-            print card['name'], '$ colors $', reds, greens, blues
-        #if 'Multicolor' in card['colors'] or 'Colorless' in card['colors'] or 'Artifact' in card['colors']:
-        #    card['colors'] = []
-        #if symbolCount < 10:
-        #cardColor.save('images/' + card['name'] + '.symbol.jpg')
-        #    symbolCount += 1
-    return fullspoil
-
-def get_image_urls(mtgjson, isfullspoil, setname, setlongname, setSize=269):
-    IMAGES = 'http://magic.wizards.com/en/content/' + setlongname.lower().replace(' ', '-') + '-cards'
+def get_image_urls(mtgjson, isfullspoil, setinfo=False):
+    if not 'mythicCode' in setinfo:
+        setinfo['mythicCode'] = setinfo['code']
+    IMAGES = 'https://magic.wizards.com/en/products/' + \
+        setinfo['name'].lower().replace(' ', '-') + '/cards'
     IMAGES2 = 'http://mythicspoiler.com/newspoilers.html'
-    IMAGES3 = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + setlongname.lower().replace(' ', '-')
+    IMAGES3 = 'http://magic.wizards.com/en/articles/archive/card-image-gallery/' + \
+        setinfo['name'].lower().replace('of', '').replace('  ', ' ').replace(' ', '-')
 
     text = requests.get(IMAGES).text
     text2 = requests.get(IMAGES2).text
     text3 = requests.get(IMAGES3).text
     wotcpattern = r'<img alt="{}.*?" src="(?P<img>.*?\.png)"'
-    mythicspoilerpattern = r' src="' + setname.lower() + '/cards/{}.*?.jpg">'
+    wotcpattern2 = r'<img src="(?P<img>.*?\.png).*?alt="{}.*?"'
+    mythicspoilerpattern = r' src="' + setinfo['mythicCode'].lower() + '/cards/{}.*?.jpg">'
+    WOTC = []
     for c in mtgjson['cards']:
-        match = re.search(wotcpattern.format(c['name'].replace('\'','&rsquo;')), text, re.DOTALL)
+        if 'names' in c:
+            cardname = ' // '.join(c['names'])
+        else:
+            cardname = c['name']
+        match = re.search(wotcpattern.format(
+            cardname.replace('\'', '&rsquo;')), text, re.DOTALL)
         if match:
             c['url'] = match.groupdict()['img']
         else:
-            match3 = re.search(wotcpattern.format(c['name'].replace('\'','&rsquo;')), text3, re.DOTALL)
+            match3 = re.search(wotcpattern2.format(
+                cardname.replace('\'', '&rsquo;')), text3)
             if match3:
                 c['url'] = match3.groupdict()['img']
             else:
-                match2 = re.search(mythicspoilerpattern.format((c['name']).lower().replace(' ', '').replace('&#x27;', '').replace('-', '').replace('\'','').replace(',', '')), text2, re.DOTALL)
-                if match2 and not isfullspoil:
-                    c['url'] = match2.group(0).replace(' src="', 'http://mythicspoiler.com/').replace('">', '')
-                pass
-        #if ('Creature' in c['type'] and not c.has_key('power')) or ('Vehicle' in c['type'] and not c.has_key('power')):
-        #    print(c['name'] + ' is a creature w/o p/t img: ' + c['url'])
-        if len(str(c['url'])) < 10:
-            print(c['name'] + ' has no image.')
+                match4 = re.search(wotcpattern.format(
+                    cardname.replace('\'', '&rsquo;')), text3, re.DOTALL)
+                if match4:
+                    c['url'] = match4.groupdict()['img']
+                else:
+                    match2 = re.search(mythicspoilerpattern.format(cardname.lower().replace(' // ', '').replace(
+                        ' ', '').replace('&#x27;', '').replace('-', '').replace('\'', '').replace(',', '')), text2, re.DOTALL)
+                    if match2 and not isfullspoil:
+                        c['url'] = match2.group(0).replace(
+                            ' src="', 'http://mythicspoiler.com/').replace('">', '')
+                    pass
+        if 'wizards.com' in c['url']:
+            WOTC.append(c['name'])
+    if setinfo:
+        if 'mtgsurl' in setinfo and 'mtgscardpath' in setinfo:
+            mtgsImages = mtgs_scraper.scrape_mtgs_images(
+                setinfo['mtgsurl'], setinfo['mtgscardpath'], WOTC)
+            for card in mtgjson['cards']:
+                if card['name'] in mtgsImages:
+                    if mtgsImages[card['name']]['url'] != '':
+                        card['url'] = mtgsImages[card['name']]['url']
+
+    #for card in mtgjson['cards']:
+    #    if len(str(card['url'])) < 10:
+    #        print(card['name'] + ' has no image.')
     return mtgjson
 
-def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
+
+def write_xml(mtgjson, code, name, releaseDate):
+    if not 'cards' in mtgjson or not mtgjson['cards'] or mtgjson['cards'] == []:
+        return
     if not os.path.isdir('out/'):
         os.makedirs('out/')
-    cardsxml = open('out/' + setname + '.xml', 'w+')
+    cardsxml = open('out/' + code + '.xml', 'w+')
     cardsxml.truncate()
     count = 0
     dfccount = 0
@@ -772,22 +412,22 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
     cardsxml.write("<?xml version='1.0' encoding='UTF-8'?>\n"
                    "<cockatrice_carddatabase version='3'>\n"
                    "<sets>\n<set>\n<name>"
-                   + setname +
+                   + code +
                    "</name>\n"
                    "<longname>"
-                   + setlongname +
+                   + name +
                    "</longname>\n"
                    "<settype>Expansion</settype>\n"
                    "<releasedate>"
-                   + setreleasedate +
+                   + releaseDate +
                    "</releasedate>\n"
                    "</set>\n"
                    "</sets>\n"
                    "<cards>\n")
-    #print mtgjson
+    # print mtgjson
     for card in mtgjson["cards"]:
-        for carda in split_cards:
-            if card["name"] == split_cards[carda]:
+        if 'names' in card:
+            if card["name"] == card['names'][1]:
                 continue
         if count == 0:
             newest = card["name"]
@@ -812,29 +452,32 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardtype = card["type"]
         if card.has_key("names"):
             if "layout" in card:
-                if card["layout"] != 'split':
-                    if len(card["names"]) > 1:
-                        if card["names"][0] == card["name"]:
-                            related = card["names"][1]
-                            text += '\n\n(Related: ' + card["names"][1] + ')'
-                            dfccount += 1
-                        elif card['names'][1] == card['name']:
-                            related = card["names"][0]
-                            text += '\n\n(Related: ' + card["names"][0] + ')'
-                else:
-                    for carda in split_cards:
-                        if card["name"] == carda:
-                            cardb = split_cards[carda]
+                if card['layout'] == 'split' or card['layout'] == 'aftermath':
+                    if 'names' in card:
+                        if card['name'] == card['names'][0]:
                             for jsoncard in mtgjson["cards"]:
-                                if cardb == jsoncard["name"]:
+                                if jsoncard['name'] == card['names'][1]:
                                     cardtype += " // " + jsoncard["type"]
-                                    manacost += " // " + (jsoncard["manaCost"]).replace('{', '').replace('}', '')
+                                    newmanacost = ""
+                                    if 'manaCost' in jsoncard:
+                                        newmanacost = jsoncard['manaCost']
+                                    manacost += " // " + \
+                                        newmanacost.replace(
+                                            '{', '').replace('}', '')
                                     cardcmc += " // " + str(jsoncard["cmc"])
                                     text += "\n---\n" + jsoncard["text"]
-                                    name += " // " + cardb
+                                    name += " // " + jsoncard['name']
+                elif card['layout'] == 'double-faced':
+                    if not 'names' in card:
+                        print card['name'] + ' is double-faced but no "names" key'
+                    else:
+                        for dfcname in card['names']:
+                            if dfcname != card['name']:
+                                related = dfcname
+                else:
+                    print card["name"] + " has names, but layout != split, aftermath, or double-faced"
             else:
                 print card["name"] + " has multiple names and no 'layout' key"
-
 
         tablerow = "1"
         if "Land" in cardtype:
@@ -847,16 +490,18 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
             tablerow = "2"
 
         if 'number' in card:
-            if 'b' in card['number']:
+            if 'b' in str(card['number']):
                 if 'layout' in card:
-                    if card['layout'] == 'split':
-                        #print "We're skipping " + card['name'] + " because it's the right side of a split card"
+                    if card['layout'] == 'split' or card['layout'] == 'aftermath':
+                        # print "We're skipping " + card['name'] + " because it's the right side of a split card"
                         continue
 
         cardsxml.write("<card>\n")
         cardsxml.write("<name>" + name.encode('utf-8') + "</name>\n")
-        cardsxml.write('<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + setname + '</set>\n')
-        cardsxml.write("<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
+        cardsxml.write(
+            '<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + code + '</set>\n')
+        cardsxml.write(
+            "<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
         cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
         if card.has_key('colors'):
             colorTranslate = {
@@ -867,7 +512,8 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
                 "Green": "G"
             }
             for color in card['colors']:
-                cardsxml.write('<color>' + colorTranslate[color] + '</color>\n')
+                cardsxml.write(
+                    '<color>' + colorTranslate[color] + '</color>\n')
         if name + ' enters the battlefield tapped' in text:
             cardsxml.write("<cipt>1</cipt>\n")
         cardsxml.write("<type>" + cardtype.encode('utf-8') + "</type>\n")
@@ -878,20 +524,25 @@ def write_xml(mtgjson, setname, setlongname, setreleasedate, split_cards=[]):
         cardsxml.write("<tablerow>" + tablerow + "</tablerow>\n")
         cardsxml.write("<text>" + text.encode('utf-8') + "</text>\n")
         if related:
-        #    for relatedname in related:
-            cardsxml.write("<related>" + related.encode('utf-8') + "</related>\n")
+            #    for relatedname in related:
+            cardsxml.write(
+                "<related>" + related.encode('utf-8') + "</related>\n")
             related = ''
 
         cardsxml.write("</card>\n")
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
 
-    print 'XML STATS'
-    print 'Total cards: ' + str(count)
-    if dfccount > 0:
-        print 'DFC: ' + str(dfccount)
-    print 'Newest: ' + str(newest)
-    print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' on ' + str(datetime.date.today())
+    if count > 0:
+        print 'XML Stats for ' + code
+        print 'Total cards: ' + str(count)
+        if dfccount > 0:
+            print 'DFC: ' + str(dfccount)
+        print 'Newest: ' + str(newest)
+        print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' (UTC) on ' + str(datetime.date.today())
+    else:
+        print 'Set ' + code + ' has no spoiled cards.'
+
 
 def write_combined_xml(mtgjson, setinfos):
     if not os.path.isdir('out/'):
@@ -899,27 +550,29 @@ def write_combined_xml(mtgjson, setinfos):
     cardsxml = open('out/spoiler.xml', 'w+')
     cardsxml.truncate()
     cardsxml.write("<?xml version='1.0' encoding='UTF-8'?>\n"
-                   "<cockatrice_carddatabase version='3'>\n"
-                   "<sets>\n")
+                   "<cockatrice_carddatabase version='3'>\n")
+    cardsxml.write("<!--\n        created: " + datetime.datetime.utcnow().strftime("%a, %b %d %Y, %H:%M:%S") + " (UTC)"
+                   + "\n        by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler\n        -->\n")
+    cardsxml.write("<sets>\n")
     for setcode in mtgjson:
         setobj = mtgjson[setcode]
         if 'cards' in setobj and len(setobj['cards']) > 0:
             cardsxml.write("<set>\n<name>"
-             + setcode +
-             "</name>\n"
-             "<longname>"
-             + setobj['name'] +
-             "</longname>\n"
-             "<settype>"
-             + setobj['type'].title() +
-             "</settype>\n"
-             "<releasedate>"
-             + setobj['releaseDate'] +
-             "</releasedate>\n"
-             "</set>\n")
+                           + setcode +
+                           "</name>\n"
+                           "<longname>"
+                           + setobj['name'] +
+                           "</longname>\n"
+                           "<settype>"
+                           + setobj['type'].title() +
+                           "</settype>\n"
+                           "<releasedate>"
+                           + setobj['releaseDate'] +
+                           "</releasedate>\n"
+                           "</set>\n")
     cardsxml.write(
-             "</sets>\n"
-             "<cards>\n")
+        "</sets>\n"
+        "<cards>\n")
     count = 0
     dfccount = 0
     newest = ''
@@ -927,7 +580,7 @@ def write_combined_xml(mtgjson, setinfos):
     for setcode in mtgjson:
         setobj = mtgjson[setcode]
         for card in setobj["cards"]:
-            if 'layout' in card and card['layout'] == 'split':
+            if 'layout' in card and (card['layout'] == 'split' or card['layout'] == 'aftermath'):
                 if 'b' in card["number"]:
                     continue
             if count == 0:
@@ -953,26 +606,29 @@ def write_combined_xml(mtgjson, setinfos):
             cardtype = card["type"]
             if card.has_key("names"):
                 if "layout" in card:
-                    if card["layout"] != 'split':
+                    if card["layout"] != 'split' and card["layout"] != 'aftermath':
                         if len(card["names"]) > 1:
                             if card["names"][0] == card["name"]:
                                 related = card["names"][1]
-                                text += '\n\n(Related: ' + card["names"][1] + ')'
+                                text += '\n\n(Related: ' + \
+                                    card["names"][1] + ')'
                                 dfccount += 1
                             elif card['names'][1] == card['name']:
                                 related = card["names"][0]
-                                text += '\n\n(Related: ' + card["names"][0] + ')'
+                                text += '\n\n(Related: ' + \
+                                    card["names"][0] + ')'
                     else:
                         for cardb in setobj['cards']:
                             if cardb['name'] == card["names"][1]:
                                 cardtype += " // " + cardb['type']
-                                manacost += " // " + (cardb["manaCost"]).replace('{', '').replace('}', '')
+                                manacost += " // " + \
+                                    (cardb["manaCost"]).replace(
+                                        '{', '').replace('}', '')
                                 cardcmc += " // " + str(cardb["cmc"])
                                 text += "\n---\n" + cardb["text"]
                                 name += " // " + cardb['name']
                 else:
                     print card["name"] + " has multiple names and no 'layout' key"
-
 
             tablerow = "1"
             if "Land" in cardtype:
@@ -987,15 +643,14 @@ def write_combined_xml(mtgjson, setinfos):
             if 'number' in card:
                 if 'b' in card['number']:
                     if 'layout' in card:
-                        if card['layout'] == 'split':
-                            #print "We're skipping " + card['name'] + " because it's the right side of a split card"
+                        if card['layout'] == 'split' or card['layout'] == 'aftermath':
+                            # print "We're skipping " + card['name'] + " because it's the right side of a split card"
                             continue
 
             cardsxml.write("<card>\n")
             cardsxml.write("<name>" + name.encode('utf-8') + "</name>\n")
-            cardsxml.write('<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + setcode + '</set>\n')
-            cardsxml.write("<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
-            cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
+            cardsxml.write(
+                '<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + setcode + '</set>\n')
             if card.has_key('colors'):
                 colorTranslate = {
                     "White": "W",
@@ -1005,40 +660,49 @@ def write_combined_xml(mtgjson, setinfos):
                     "Green": "G"
                 }
                 for color in card['colors']:
-                    cardsxml.write('<color>' + colorTranslate[color] + '</color>\n')
-            if name + ' enters the battlefield tapped' in text:
-                cardsxml.write("<cipt>1</cipt>\n")
+                    cardsxml.write(
+                        '<color>' + colorTranslate[color] + '</color>\n')
+            if related:
+                #    for relatedname in related:
+                cardsxml.write(
+                    "<related>" + related.encode('utf-8') + "</related>\n")
+                related = ''
+            cardsxml.write(
+                "<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
+            cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
             cardsxml.write("<type>" + cardtype.encode('utf-8') + "</type>\n")
             if pt:
                 cardsxml.write("<pt>" + pt + "</pt>\n")
-            if card.has_key('loyalty'):
-                cardsxml.write("<loyalty>" + str(card['loyalty']) + "</loyalty>\n")
             cardsxml.write("<tablerow>" + tablerow + "</tablerow>\n")
             cardsxml.write("<text>" + text.encode('utf-8') + "</text>\n")
-            if related:
-            #    for relatedname in related:
-                cardsxml.write("<related>" + related.encode('utf-8') + "</related>\n")
-                related = ''
-
+            if name + ' enters the battlefield tapped' in text:
+                cardsxml.write("<cipt>1</cipt>\n")
+            if card.has_key('loyalty'):
+                cardsxml.write(
+                    "<loyalty>" + str(card['loyalty']) + "</loyalty>\n")
             cardsxml.write("</card>\n")
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
-
+    
     print 'XML COMBINED STATS'
     print 'Total cards: ' + str(count)
     if dfccount > 0:
         print 'DFC: ' + str(dfccount)
     print 'Newest: ' + str(newest)
-    print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' on ' + str(datetime.date.today())
+    print 'Runtime: ' + str(datetime.datetime.today().strftime('%H:%M')) + ' (UTC) on ' + str(datetime.date.today())
+
 
 def pretty_xml(infile):
-    prettyxml = xml.dom.minidom.parse(infile)  # or xml.dom.minidom.parseString(xml_string)
+    # or xml.dom.minidom.parseString(xml_string)
+    prettyxml = xml.dom.minidom.parse(infile)
     pretty_xml_as_string = prettyxml.toprettyxml(newl='')
     return pretty_xml_as_string
 
-def make_allsets(AllSets, mtgjson, setname):
-    AllSets[setname] = mtgjson
+
+def make_allsets(AllSets, mtgjson, code):
+    AllSets[code] = mtgjson
     return AllSets
+
 
 def scrape_masterpieces(url='http://www.mtgsalvation.com/spoilers/181-amonkhet-invocations', mtgscardurl='http://www.mtgsalvation.com/cards/amonkhet-invocations/'):
     page = requests.get(url)
@@ -1046,7 +710,8 @@ def scrape_masterpieces(url='http://www.mtgsalvation.com/spoilers/181-amonkhet-i
     cards = []
     cardstree = tree.xpath('//*[contains(@class, "log-card")]')
     for child in cardstree:
-        childurl = mtgscardurl + child.attrib['data-card-id'] + '-' + child.text.replace(' ','-')
+        childurl = mtgscardurl + \
+            child.attrib['data-card-id'] + '-' + child.text.replace(' ', '-')
         cardpage = requests.get(childurl)
         tree = html.fromstring(cardpage.content)
         cardtree = tree.xpath('//img[contains(@class, "card-spoiler-image")]')
@@ -1062,13 +727,15 @@ def scrape_masterpieces(url='http://www.mtgsalvation.com/spoilers/181-amonkhet-i
         cards.append(card)
     return cards
 
+
 def make_masterpieces(headers, AllSets, spoil):
-    masterpieces = scrape_masterpieces(headers['mtgsurl'], headers['mtgscardpath'])
+    masterpieces = scrape_masterpieces(
+        headers['mtgsurl'], headers['mtgscardpath'])
     masterpieces2 = []
     for masterpiece in masterpieces:
         matched = False
-        if headers['setname'] in AllSets:
-            for oldMasterpiece in AllSets[headers['setname']]['cards']:
+        if headers['code'] in AllSets:
+            for oldMasterpiece in AllSets[headers['code']]['cards']:
                 if masterpiece['name'] == oldMasterpiece['name']:
                     matched = True
         for set in AllSets:
@@ -1094,48 +761,47 @@ def make_masterpieces(headers, AllSets, spoil):
             print "We couldn't find a card object to assign the data to for masterpiece " + masterpiece['name']
             masterpieces2.append(masterpiece)
     mpsjson = {
-        "name": headers['setlongname'],
+        "name": headers['name'],
         "alternativeNames": headers['alternativeNames'],
-        "code": headers['setname'],
-        "releaseDate": headers['setreleasedate'],
+        "code": headers['code'],
+        "releaseDate": headers['releaseDate'],
         "border": "black",
         "type": "masterpiece",
         "cards": masterpieces2
     }
     return mpsjson
 
+
 def set_has_cards(setinfo, manual_cards, mtgjson):
-    if setinfo['setname'] in manual_cards or setinfo['setname'] in mtgjson:
+    if setinfo['code'] in manual_cards or setinfo['code'] in mtgjson:
         return True
     for card in manual_cards['cards']:
         if set in card:
-            if set == setinfo['setname']:
+            if set == setinfo['code']:
                 return True
 
-def get_allsets():
-    class MyOpener(urllib.FancyURLopener):
-        version = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko / 20071127 Firefox / 2.0.0.11'
 
-    opener = MyOpener()
-    opener.retrieve('http://mtgjson.com/json/AllSets.json', 'AllSets.pre.json')
-    with open('AllSets.pre.json') as data_file:
-        AllSets = json.load(data_file)
+def get_allsets():
+    headers = {'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko / 20071127 Firefox / 2.0.0.11'}
+    json_file = requests.get('http://mtgjson.com/json/AllSets.json', headers=headers)
+    AllSets = json.loads(json_file.text)
     return AllSets
+
 
 def add_headers(mtgjson, setinfos):
     mtgjson2 = {
         "border": "black",
-        "code": setinfos['setname'],
-        "name": setinfos['setlongname'],
-        "releaseDate": setinfos['setreleasedate'],
-        "type": setinfos['settype'],
+        "code": setinfos['code'],
+        "name": setinfos['name'],
+        "releaseDate": setinfos['releaseDate'],
+        "type": setinfos['type'],
         "cards": mtgjson['cards']
     }
     if not 'noBooster' in setinfos:
         mtgjson2['booster'] = [
                 [
-                "rare",
-                "mythic rare"
+                    "rare",
+                    "mythic rare"
                 ],
             "uncommon",
             "uncommon",
@@ -1153,84 +819,6 @@ def add_headers(mtgjson, setinfos):
             "land",
             "marketing"
         ],
-    if 'blockname' in setinfos:
-        mtgjson2['block'] = setinfos['blockname']
+    if 'block' in setinfos:
+        mtgjson2['block'] = setinfos['block']
     return mtgjson2
-
-def get_mythic_cards(url='http://mythicspoiler.com/ixa/', mtgjson=False): #mtgjson is optional, will ignore cards found if passed
-    cards = {'cards':[]}
-    r = requests.get(url)
-    soup = BS(r.text, "html.parser")
-    cardurls = soup.find_all('a', 'card')
-    urllist = []
-    for cardurl in cardurls:
-        try:
-            urllist.append(url + str(cardurl).split("href=\"")[1].split('"><img')[0])
-        except:
-            pass
-    if not mtgjson:
-        for url in urllist:
-            card = scrape_mythic_card_page(url)
-            if card != '' and 'name' in card and card['name'] != '':
-                cards['cards'].append(scrape_mythic_card_page(url))
-            time.sleep(.5)
-    else:
-        for url in urllist:
-            needsScraped = True
-            for card in mtgjson['cards']:
-                if card['name'].lower().replace(' ','') in url:
-                    needsScraped = False
-            if needsScraped:
-                card = scrape_mythic_card_page(url)
-                if card != '' and 'name' in card and card['name'] != '':
-                    mtgjson['cards'].append(card)
-        cards = mtgjson
-
-    return cards
-
-def scrape_mythic_card_page(url):
-    r = requests.get(url)
-
-    soup = BS(r.text, "html.parser")
-
-    comments = soup.find_all(string=lambda text:isinstance(text,Comment))
-
-    card = {}
-
-    for comment in comments:
-        if comment == 'CARD NAME':
-            card['name'] = comment.next_element.strip().replace('"','')
-        elif comment == 'MANA COST':
-            try:
-                card['manaCost'] = comment.next_element.strip().replace('"','')
-            except:
-                pass
-        elif comment == 'TYPE':
-            card['type'] = comment.next_element.strip().replace('"','')
-        elif comment == 'CARD TEXT':
-            buildText = ''
-            for element in comment.next_elements:
-                try:
-                    if not element.strip() in ['CARD TEXT', 'FLAVOR TEXT', '']:
-                        if buildText != '':
-                            buildText += '\n'
-                        buildText += element.strip()
-                    if element.strip() == 'FLAVOR TEXT':
-                        card['text'] = buildText
-                        break
-                except:
-                    pass
-        elif comment == 'Set Number':
-            try:
-                card['number'] = comment.next_element.strip()
-            except:
-                pass
-        elif comment == 'P/T':
-            try:
-                if comment.next_element.strip().split('/')[0] != '':
-                    card['power'] = comment.next_element.strip().split('/')[0]
-                    card['toughness'] = comment.next_element.strip().split('/')[1]
-            except:
-                pass
-
-    return card

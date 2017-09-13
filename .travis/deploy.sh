@@ -1,15 +1,15 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
-SOURCE_BRANCH="deploy-to-SpoilerSeasonFiles"
+SOURCE_BRANCH="master"
 TARGET_BRANCH="files"
 
 function doCompile {
-    python main.py
+    python main.py dumpXML=True
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
-if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
     echo "Skipping deploy; just doing a build."
     doCompile
     exit 0
@@ -59,18 +59,36 @@ git config user.email "$COMMIT_AUTHOR_EMAIL"
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
-git add -A .
-git commit --allow-empty -m "Deploy to GitHub: ${SHA}"
+# Only commit if more than one line has been changed (datetime in spoiler.xml)
+CHANGED_FILES=`git diff --numstat --minimal | sed '/^[1-]\s\+[1-]\s\+.*/d' | wc -c`
+ONLYDATECHANGE=true
+if [[ $CHANGED_FILES -eq 0 ]]; then
+  for CHANGED_FILE in `git diff --name-only`; do
+    if ! [[ $CHANGED_FILE =~ "spoiler.xml" ]]; then
+      ONLYDATECHANGE=false
+    fi
+  done
+else
+  ONLYDATECHANGE=false
+fi
+if [[ $ONLYDATECHANGE == false ]]; then
+  git add -A .
+  git commit -m "Travis Deploy: ${SHA}"
+else
+  echo "Only date in spoiler.xml changed, not committing"
+fi
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
 ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
 ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
-openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in ../deploy_key.enc -out ../deploy_key -d
+openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in ../.travis/deploy_key.enc -out ../deploy_key -d
 chmod 600 ../deploy_key
 eval `ssh-agent -s`
 ssh-add ../deploy_key
 
 # Now that we're all set up, we can push.
 git push $SSH_REPO $TARGET_BRANCH
+
+ssh-agent -k
