@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Wed, Sep 13 2017, 10:16:03 (UTC)
+        created: Wed, Sep 13 2017, 17:46:02 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,84 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Skulduggery</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/917/636408980776787568.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Until end of turn, target creature you control gets +1/+1 and target creature an opponent controls gets -1/-1.</text>			
+		</card>		
+		<card>			
+			<name>Dire Fleet Hoarder</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/919/636408994092639069.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Dire Fleet Hoarder dies, create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Desperate Castaways</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/916/636408975244658534.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Desperate Castaways can't attack unless you control an artifact.</text>			
+		</card>		
+		<card>			
+			<name>Brazen Buccaneers</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/915/636408970062104615.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste
+
+When Brazen Buccaneers enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Tilonalli's Knight</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/912/636408949541191392.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Knight</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Tilonalli's Knight attacks, if you control a Dinosaur, Tilonalli's Knight gets +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Kinjalli's Caller</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/911/636408948327811664.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Human Cleric</type>			
+			<pt>0/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Dinosaur spells you cast cost {1} less to cast.</text>			
+		</card>		
+		<card>			
+			<name>Field of Ruin</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/914/636408964729562700.png" rarity="Uncommon">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+
+{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches his or her library for a basic land card and puts it onto the battlefield, then shuffles his or her library.</text>			
+		</card>		
 		<card>			
 			<name>Rigging Runner</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/894/636408603401046494.png" rarity="Uncommon">XLN</set>			
@@ -27,7 +105,7 @@ Raid — Rigging runner enters the battlefield with a +1/+1 counter on it if you
 		</card>		
 		<card>			
 			<name>Lightning-Rig Crew</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/888/636408471703619173.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_iJZHsnuzaL.png" rarity="Uncommon">XLN</set>			
 			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
@@ -40,7 +118,7 @@ Whenever you cast a Pirate spell, untap Lightning-Rig Crew.</text>
 		</card>		
 		<card>			
 			<name>Raiders' Wake</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/887/636408470568871817.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_eZimmFDXXe.png" rarity="Uncommon">XLN</set>			
 			<color>B</color>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
@@ -52,7 +130,7 @@ Raid — At the beginning of your end step, if you attacked with a creature this
 		</card>		
 		<card>			
 			<name>Ruthless Knave</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/886/636408469426725256.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_LI6kQHOGIC.png" rarity="Uncommon">XLN</set>			
 			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
@@ -65,7 +143,7 @@ Sacrifice three Treasures: Draw a card.</text>
 		</card>		
 		<card>			
 			<name>River Sneak</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/879/636408065560655174.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_xlSb1TC2Sw.png" rarity="Uncommon">XLN</set>			
 			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
@@ -78,7 +156,7 @@ Whenever another Merfolk enters the battlefield under your control, River sneak 
 		</card>		
 		<card>			
 			<name>Captivating Crew</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/878/636408062360922987.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_jqsSv2hJil.png" rarity="Rare">XLN</set>			
 			<color>R</color>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
@@ -89,7 +167,7 @@ Whenever another Merfolk enters the battlefield under your control, River sneak 
 		</card>		
 		<card>			
 			<name>Adanto Vanguard</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/877/636408060559220791.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_yIHG7SYDro.png" rarity="Uncommon">XLN</set>			
 			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
@@ -101,7 +179,7 @@ Pay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and 
 		</card>		
 		<card>			
 			<name>Charging Monstrosaur</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/876/636408059878223724.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_RU2Vwi6ABm.png" rarity="Uncommon">XLN</set>			
 			<color>R</color>			
 			<manacost>4R</manacost>			
 			<cmc>5</cmc>			
@@ -112,7 +190,7 @@ Pay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and 
 		</card>		
 		<card>			
 			<name>Imperial Lancer</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/875/636408000469122870.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_rXoEuzjgbw.png" rarity="Uncommon">XLN</set>			
 			<color>W</color>			
 			<manacost>W</manacost>			
 			<cmc>1</cmc>			
@@ -123,7 +201,7 @@ Pay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and 
 		</card>		
 		<card>			
 			<name>Makeshift Munitions</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/869/636407708656477141.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_2NCmehnIjg.png" rarity="Uncommon">XLN</set>			
 			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
@@ -133,7 +211,7 @@ Pay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and 
 		</card>		
 		<card>			
 			<name>Vicious Conquistador</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/868/636407705934888963.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_mKVmSqQzLF.png" rarity="Uncommon">XLN</set>			
 			<color>B</color>			
 			<manacost>B</manacost>			
 			<cmc>1</cmc>			
@@ -1831,7 +1909,7 @@ When Tishana enters the battlefield, draw a card for each creature you control. 
 		</card>		
 		<card>			
 			<name>Dire Fleet Ravager</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/882/636408077471944077.png" rarity="Mythic Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_m0kMO8TGWS.png" rarity="Mythic Rare">XLN</set>			
 			<color>B</color>			
 			<manacost>3BB</manacost>			
 			<cmc>5</cmc>			
