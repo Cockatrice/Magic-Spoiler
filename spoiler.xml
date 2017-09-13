@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Tue, Sep 12 2017, 17:45:20 (UTC)
+        created: Wed, Sep 13 2017, 10:16:03 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,57 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Rigging Runner</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/894/636408603401046494.png" rarity="Uncommon">XLN</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Goblin Pirate</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>First strike
+
+Raid — Rigging runner enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.</text>			
+		</card>		
+		<card>			
+			<name>Lightning-Rig Crew</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/888/636408471703619173.jpeg" rarity="Uncommon">XLN</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Goblin Pirate</type>			
+			<pt>0/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Lightning-Rig Crew deals 1 damage to each opponent.
+
+Whenever you cast a Pirate spell, untap Lightning-Rig Crew.</text>			
+		</card>		
+		<card>			
+			<name>Raiders' Wake</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/887/636408470568871817.jpeg" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever an opponent discards a card, that player loses 2 life.
+
+Raid — At the beginning of your end step, if you attacked with a creature this turn, target opponent discards a card.</text>			
+		</card>		
+		<card>			
+			<name>Ruthless Knave</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/886/636408469426725256.jpeg" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Orc Pirate</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{2}{B}, Sacrifice a creature: Create two colorless Treasure artifact tokens with &quot;{T}, sacrifice this artifact: Add one mana of any color to your mana pool.&quot;
+
+Sacrifice three Treasures: Draw a card.</text>			
+		</card>		
 		<card>			
 			<name>River Sneak</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/879/636408065560655174.png" rarity="Uncommon">XLN</set>			
@@ -1329,14 +1380,14 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 (Related: Treasure Cove)</text>			
 		</card>		
 		<card>			
-			<name>Fathom Fleet Plundering</name>			
-			<set picURL="" rarity="Rare">XLN</set>			
+			<name>Sword-Point Diplomacy</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/893/636408582812583112.png" rarity="Rare">XLN</set>			
 			<color>B</color>			
 			<manacost>2B</manacost>			
 			<cmc>3</cmc>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays ? life. Then exile the rest.</text>			
+			<text>Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest.</text>			
 		</card>		
 		<card>			
 			<name>Fleet Swallower</name>			

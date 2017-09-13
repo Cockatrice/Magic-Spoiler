@@ -27,6 +27,100 @@
     "border":"black",
     "cards":[
       {
+        "cmc":1,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"R",
+        "name":"Rigging Runner",
+        "number":"157",
+        "power":"1",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Goblin",
+          "Pirate"
+        ],
+        "text":"First strike\n\nRaid — Rigging runner enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.",
+        "toughness":"1",
+        "type":"Creature — Goblin Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/894/636408603401046494.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"2R",
+        "name":"Lightning-Rig Crew",
+        "number":"150",
+        "power":"0",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Goblin",
+          "Pirate"
+        ],
+        "text":"{T}: Lightning-Rig Crew deals 1 damage to each opponent.\n\nWhenever you cast a Pirate spell, untap Lightning-Rig Crew.",
+        "toughness":"5",
+        "type":"Creature — Goblin Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/888/636408471703619173.jpeg"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"3B",
+        "name":"Raiders' Wake",
+        "number":"116",
+        "rarity":"Uncommon",
+        "text":"Whenever an opponent discards a card, that player loses 2 life.\n\nRaid — At the beginning of your end step, if you attacked with a creature this turn, target opponent discards a card.",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/887/636408470568871817.jpeg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2B",
+        "name":"Ruthless Knave",
+        "number":"119",
+        "power":"3",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Orc",
+          "Pirate"
+        ],
+        "text":"{2}{B}, Sacrifice a creature: Create two colorless Treasure artifact tokens with \"{T}, sacrifice this artifact: Add one mana of any color to your mana pool.\"\n\nSacrifice three Treasures: Draw a card.",
+        "toughness":"2",
+        "type":"Creature — Orc Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/886/636408469426725256.jpeg"
+      },
+      {
         "cmc":2,
         "colorIdentity":[
           "U"
@@ -2450,15 +2544,15 @@
           "Black"
         ],
         "manaCost":"2B",
-        "name":"Fathom Fleet Plundering",
-        "number":"?",
+        "name":"Sword-Point Diplomacy",
+        "number":"126",
         "rarity":"Rare",
-        "text":"Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays ? life. Then exile the rest.",
+        "text":"Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
         ],
-        "url":""
+        "url":"http://media-dominaria.cursecdn.com/avatars/133/893/636408582812583112.png"
       },
       {
         "cmc":5,
