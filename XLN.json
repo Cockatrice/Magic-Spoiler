@@ -26,6 +26,25 @@
   "border":"black",
   "cards":[
     {
+      "cmc":6,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"4WW",
+      "name":"Axis of Mortality",
+      "number":"3",
+      "rarity":"Mythic Rare",
+      "text":"At the beginning of your upkeep, you may have two target players exchange life totals.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/933/636409300883104159.png"
+    },
+    {
       "cmc":1,
       "colorIdentity":[
         "B"
@@ -174,12 +193,12 @@
       "name":"Field of Ruin",
       "number":"254",
       "rarity":"Uncommon",
-      "text":"{T}: Add {C} to your mana pool.\n\n{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches his or her library for a basic land card and puts it onto the battlefield, then shuffles his or her library.",
+      "text":"{T}: Add {C} to your mana pool.\n\n{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches his or her library for a basic land card, puts it onto the battlefield, then shuffles his or her library.",
       "type":"Land",
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/914/636408964729562700.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/920/636409073396223990.png"
     },
     {
       "cmc":1,
@@ -2760,9 +2779,16 @@
       "url":"https://media.wizards.com/2017/xln/en_lhJCu0xjCy.png"
     },
     {
-      "cmc":0,
+      "cmc":3,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"2G",
       "name":"Deathgorge Scavenger",
-      "number":"?",
+      "number":"184",
       "power":"3",
       "rarity":"Rare",
       "subtypes":[
@@ -2774,7 +2800,7 @@
       "types":[
         "Creature"
       ],
-      "url":""
+      "url":"http://media-dominaria.cursecdn.com/avatars/133/945/636409372046541978.png"
     },
     {
       "cmc":5,
