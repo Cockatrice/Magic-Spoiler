@@ -190,7 +190,7 @@ def error_check(mtgjson, card_corrections={}):
                         {"name": card['name'], "key": "subtypes", "value": ""})
             if '-' in card['type']:
                 card['type'] = card['type'].replace('-',u'—')
-        if 'manaCost' in card:
+        if 'manaCost' in card and card['manaCost'] != "":
             workingCMC = 0
             stripCost = card['manaCost'].replace('{', '').replace('}', '')
             for manaSymbol in stripCost:
