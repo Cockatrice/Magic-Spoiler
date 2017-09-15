@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Thu, Sep 14 2017, 17:46:23 (UTC)
+        created: Fri, Sep 15 2017, 17:44:21 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -13,8 +13,1172 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Tempest Caller</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_qMFe2MsMZS.png" rarity="Uncommon">XLN</set>			
+			<color>U</color>			
+			<manacost>2UU</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Merfolk Wizard</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Tempest Caller enters the battlefield, tap all creatures target opponent controls.</text>			
+		</card>		
+		<card>			
+			<name>Siren's Ruse</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_jvCAf4qnKI.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Exile target creature you control, then return that card to the battlefield under it's owner's control. If a Pirate was exiled this way, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Siren Lookout</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_MtsYj2PFH1.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Siren Pirate</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Siren Lookout enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put that card back or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Bonded Horncrest</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_1hSnD5Ppzr.png" rarity="Uncommon">XLN</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Bonded Horncrest can't attack or block alone.</text>			
+		</card>		
+		<card>			
+			<name>Shore Keeper</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_tUQqISo9hz.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Trilobite</type>			
+			<pt>0/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{7}{U}, {T}, Sacrifice Shore Keeper: Draw three cards.</text>			
+		</card>		
+		<card>			
+			<name>Dual Shot</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_sDHqEyVZRu.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Dual Shot deals 1 damage to each of up to two target creatures.</text>			
+		</card>		
+		<card>			
+			<name>Storm Sculptor</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_VdWIGLwN7K.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Merfolk Wizard</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Storm Sculptor can't be blocked.
+
+When Storm Sculptor enters the battlefield, return a creature you control to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Demolish</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5FxgxGM62t.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target artifact or land.</text>			
+		</card>		
+		<card>			
+			<name>Fathom Fleet Firebrand</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_VvAvbFhwR0.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{R}: Fathom Fleet Firebrand gets +1/+0 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Fiery Cannonade</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_KkAuXIepxD.png" rarity="Uncommon">XLN</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Fiery Cannonade deals 2 damage to each non-Pirate creature.</text>			
+		</card>		
+		<card>			
+			<name>Watertrap Weaver</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_JESJUwm86X.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Merfolk Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Watertrap Weaver enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.</text>			
+		</card>		
+		<card>			
+			<name>Fire Shrine Keeper</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_nNu4AGKopL.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Menace
+{7}{R}, {T}, Sacrifice Fire Shrine Keeper: It deals 3 damage to each of up to two target creatures.</text>			
+		</card>		
+		<card>			
+			<name>Shipwreck Looter</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_96n1CQiLmT.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Raid-- When Shipwreck Looter enters the battlefield,if you attacked with a creature this turn, you may draw a card. If you do, discard a card.</text>			
+		</card>		
+		<card>			
+			<name>Wind Strider</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_f6SySDBpt7.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Merfolk Wizard</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+Flying</text>			
+		</card>		
+		<card>			
+			<name>Firecannon Blast</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_UPGTYar5K5.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Firecannon Blast deals 3 damage to target creature.
+Raid -- Firecannon Blast deals 6 damage to that creature instead if you attacked with a creature this turn.</text>			
+		</card>		
+		<card>			
+			<name>Frenzied Raptor</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_eC4YiJB5M4.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>4/2</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Headstrong Brute</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_YkkxweYQVR.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Orc Pirate</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Headstrong Brute can't block.
+Headstrong Brute has menace as long as you control another Pirate.</text>			
+		</card>		
+		<card>			
+			<name>Hijack</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_28vminrxJz.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Vanquish the Weak</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_WXYozFMCa7.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target creature with power 3 or less.</text>			
+		</card>		
+		<card>			
+			<name>Nest Robber</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_WeG0QrD2An.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste</text>			
+		</card>		
+		<card>			
+			<name>Spreading Rot</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_Ls4pRv3egu.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target land. Its controller loses 2 life.</text>			
+		</card>		
+		<card>			
+			<name>Rummaging Goblin</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_MSUC0Meg5c.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Goblin Rogue</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}, Discard a card: Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Skymarch Bloodletter</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5xYYEyCZi5.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Vampire Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Skymarch Bloodletters enters the battlefield, target opponent loses 1 life and you gain 1 life.</text>			
+		</card>		
+		<card>			
+			<name>Storm Fleet Pyromancer</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_MJDrcTtitf.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>4R</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Human Pirate Wizard</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Raid -- When Storm Fleet Pyromancer enters the battlefield, if you attacked with a creature this turn, Storm Fleet Pyromancer deals 2 damage to target creature or player.</text>			
+		</card>		
+		<card>			
+			<name>Seekers' Squire</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_dO2JxhALws.png" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Scout</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Seekers' Squire enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Shaper Apprentice</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_MVAbp7zWhX.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Merfolk Wizard</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Shaper Apprentice has flying as long as you control another Merfolk.</text>			
+		</card>		
+		<card>			
+			<name>Sure Strike</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_vwkOHacDOw.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +3/+0 and gains first strike until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Queen's Agent</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_aISfJX85BC.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>5B</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Vampire Scout</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Lifelink
+
+When Queen's Agent enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Swashbuckling</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_A9YryGGnzO.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and has haste.</text>			
+		</card>		
+		<card>			
+			<name>Mark of the Vampire</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_aCs28rmzzU.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and has lifelink.</text>			
+		</card>		
+		<card>			
+			<name>March of the Drowned</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_kQreNok5VK.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one —
+• Return target creature card from your graveyard to your hand.
+• Return two target Pirate cards from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Thrash of Raptors</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_eyNmrnSPHZ.png" rarity="Common">XLN</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>As long as you control another Dinosaur, Thrash of Raptors gets +2/+0 and has trample.</text>			
+		</card>		
+		<card>			
+			<name>Heartless Pillage</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_o6LPTjzOik.png" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target opponent discards two cards.
+
+Raid — If you attacked with a creature this turn, create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Sailor of Means</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_vDz1QI0mnl.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>1/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Sailor of Means enters the battlefield, create a colorless Treasure artifact token with  &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Atzocan Archer</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_xQgJtSbG5q.png" rarity="Uncommon">XLN</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Archer</type>			
+			<pt>1/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Reach
+When Atzocan Archer enters the battlefield, you may have it fight another target creature.</text>			
+		</card>		
+		<card>			
+			<name>Grim Captain's Call</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_dz4uDxN2j5.png" rarity="Uncommon">XLN</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return a Pirate card from your graveyard to your hand, then do the same for Vampire, Dinosaur, and Merfolk.</text>			
+		</card>		
+		<card>			
+			<name>Blinding Fog</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_0PPdNFGGoi.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Prevent all damage that would be dealt to creatures this turn. Creatures you control gain hexproof until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Fathom Fleet Cutthroat</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_b23sQB45Sr.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Fathom Fleet Cutthroat enters the battlefield, destroy target creature an opponent controls that was dealt damage this turn.</text>			
+		</card>		
+		<card>			
+			<name>Blossom Dryad</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_tjZUvLfVN2.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Dryad</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Untap target land.</text>			
+		</card>		
+		<card>			
+			<name>Dire Fleet Interloper</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_bF818wkyp7.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Menace
+
+When Dire Fleet Interloper enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Colossal Dreadmaw</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_1RNIDOPt7I.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>4GG</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample</text>			
+		</card>		
+		<card>			
+			<name>Crash the Ramparts</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_xKQIm8JZpN.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +3/+3 and gains trample until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Dark Nourishment</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_jWvyPdmUFP.png" rarity="Uncommon">XLN</set>			
+			<manacost>97</manacost>			
+			<cmc>16</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Dark Nourishment deals 3 damage to target creature or player. You gain 3 life.</text>			
+		</card>		
+		<card>			
+			<name>Crushing Canopy</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_3xybN8AEO5.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one --
+* Destroy target creature with flying.
+* Destroy target enchantment.</text>			
+		</card>		
+		<card>			
+			<name>Costly Plunder</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_jU8FiF81jH.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>As an additional cost to cast Costly Plunder, sacrifice an artifact or creature.
+
+Draw two cards.</text>			
+		</card>		
+		<card>			
+			<name>Deeproot Warrior</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_qUFwFkjWxt.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Merfolk Warrior</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Deeproot Warrior becomes blocked, it gets +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Contract Killing</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_G2Bt8GEcNQ.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>3BB</manacost>			
+			<cmc>5</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target creature. Create two colorless Treasure artifact tokens with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Emergent Growth</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_VOf4twHy3J.png" rarity="Uncommon">XLN</set>			
+			<color>G</color>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +5/+5 until end of turn and must be blocked this turn if able.</text>			
+		</card>		
+		<card>			
+			<name>Ixalli's Diviner</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ICJspZtQqc.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Druid</type>			
+			<pt>0/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Ixalli's Diviner enters the battlefield, it explores. Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Blight Keeper</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ySN6YD9m9O.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Bat Imp</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+
+{7}{B}, {T}, Sacrifice Blight Keeper: Target opponent loses 4 life and you gain 4 life.</text>			
+		</card>		
+		<card>			
+			<name>Ixalli's Keeper</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_01GBxYoDeH.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{7}{G}, {T}, Sacrifice Ixalli's Keeper: Target creature gets +5/+5 and gains trample until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Anointed Deacon</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_g56N9ZoWZy.png" rarity="Common">XLN</set>			
+			<color>B</color>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Vampire Cleric</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of combat on your turn, you may have target Vampire get +2/+0 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Jade Guardian</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_RuaG3NhYTq.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Merfolk Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Hexproof
+When Jade Guardian enters the battlefield, put a +1/+1 counter on target Merfolk you control.</text>			
+		</card>		
+		<card>			
+			<name>Jungle Delver</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_pTKJc6wRal.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Merfolk Warrior</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{3}{G}: Put a +1/+1 counter on Jungle Delver.</text>			
+		</card>		
+		<card>			
+			<name>Vampire's Zeal</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_iQvb4J1GOT.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +2/+2 until end of turn. If it's a Vampire, it gains first strike until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Run Aground</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_gBenZhCfhJ.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Put target artifact or creature on top of it's owner's library.</text>			
+		</card>		
+		<card>			
+			<name>New Horizons</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_59sKsxfRnY.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant land
+When New Horizons enters the battlefield, put a +1/+1 counter on target creature you control.
+Enchanted land has &quot;{t]: Add two mana of any one color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Territorial Hammerskull</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_adePU5jrbD.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Territorial Hammerskull attacks, tap target creature an opponent controls.</text>			
+		</card>		
+		<card>			
+			<name>Pirate's Prize</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_BLKANqUD00.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw two cards. Create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Pounce</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_2BqpFFb286.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature you control fights target creature you don't control.</text>			
+		</card>		
+		<card>			
+			<name>Sunrise Seeker</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_fBuKAHKZXB.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Human Scout</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance
+
+When Sunrise Seeker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Steadfast Armasaur</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_dXTxJENSpe.png" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance
+
+{1}{W}, {T}: Steadfast Armasaur deals damage equal to its toughness to target creature blocking or blocked by it.</text>			
+		</card>		
+		<card>			
+			<name>River Heralds' Boon</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_DhuQjPqsMp.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Put a +1/+1 counter on target creature and a +1/+1 counter on up to one target Merfolk.</text>			
+		</card>		
+		<card>			
+			<name>One with the Wind</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/134/40/636410685366467197.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant Creature
+
+Enchanted creature gets +2/+2 and has flying.</text>			
+		</card>		
+		<card>			
+			<name>Slash of Talons</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_HpMGfOujxK.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Slash of Talons deals 2 damage to target attacking or blocking creature.</text>			
+		</card>		
+		<card>			
+			<name>Verdant Rebirth</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ulU2Wn4lKk.png" rarity="Uncommon">XLN</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Until end of turn, target creature gains &quot;When this creature dies, return it to its owner's hand.&quot;
+Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Skyblade of the Legion</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_obgw0foQAb.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Vampire Soldier</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying</text>			
+		</card>		
+		<card>			
+			<name>Shining Aerosaur</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_lXgNtoTbou.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying</text>			
+		</card>		
+		<card>			
+			<name>Navigator's Ruin</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_bdvjuQZBF3.png" rarity="Uncommon">XLN</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Raid-- At the beginning of your end step, if you attacked with a creature this turm, target opponent puts the top four cards of his or her library into his or her graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Sheltering Light</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_CMjwNkDznY.png" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gains indestructible until end of turn. Scry 1. (Damage and effects that say &quot;destroy&quot; don't destroy the creature.)</text>			
+		</card>		
+		<card>			
+			<name>Cobbled Wings</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_UEEqkKo5AI.png" rarity="Common">XLN</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact — Equipment</type>			
+			<tablerow>1</tablerow>			
+			<text>Equipped creature has flying.
+Equip {1}</text>			
+		</card>		
+		<card>			
+			<name>Ritual of Rejuvenation</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_2NtgKIsQyk.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>You gain 4 life.
+
+Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Elaborate Firecannon</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_wJYGu9sQeO.png" rarity="Uncommon">XLN</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Elaborate Firecannon doesn't untap during your untap step.
+{4}, {T}: Elaborate Firecannon deals 2 damage to target creature or player.
+At the beginning of your upkeep, you may discard a card. If you do, untap Elaborate Firecannon.</text>			
+		</card>		
+		<card>			
+			<name>Gilded Sentinel</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_jh2Qn5apHj.png" rarity="Common">XLN</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Raptor Companion</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_1Q4SCT62ZB.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Hierophant's Chalice</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_kp9MfskDHG.png" rarity="Common">XLN</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>When Hierophant's Chalice enters the battlefield, target opponent loses 1 life and you gain 1 life.
+{T}: Add {C} to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>Rallying Roar</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_CrhqxNfbZ3.png" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Creatures you control get +1/+1 until end of turn. Untap them.</text>			
+		</card>		
+		<card>			
+			<name>Dive Down</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_1MOcDHsRnk.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature you control gets +0/+3 until end of turn. (It can't be the target of spells or abilities your opponent control)</text>			
+		</card>		
+		<card>			
+			<name>Queen's Commission</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_HYqMlHv7I3.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Create two 1/1 white Vampire creature tokens with lifelink.</text>			
+		</card>		
+		<card>			
+			<name>Prying Blade</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_nlGnU7QSsw.png" rarity="Common">XLN</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact — Equipment</type>			
+			<tablerow>1</tablerow>			
+			<text>Equipped creature gets +1/+0.
+Whenever equipped creature deals combat damage to a player, create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;
+Equip {2}</text>			
+		</card>		
+		<card>			
+			<name>Pterodon Knight</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_JB0lDoCGgA.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Knight</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Pterodon Knight has flying as long as you control a Dinosaur.</text>			
+		</card>		
+		<card>			
+			<name>Pious Interdiction</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_fwjvkJ6DeV.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+When Pious Interdiction enters the battlefield, you gain 2 life.
+Enchanted creature can't attack or block.</text>			
+		</card>		
+		<card>			
+			<name>Paladin of the Bloodstained</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_3E5t0NuERb.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Vampire Knight</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Paladin of the Bloodstained enters the battlefield, create a 1/1 white Vampire creature token with lifelink.</text>			
+		</card>		
+		<card>			
+			<name>Depths of Desire</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_wKsgqjiT6g.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target creature to its owner's hand. Create a colorless Treasure token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Unknown Shores</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_B5O3SgRoAK.png" rarity="Common">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+{1}, {T}: Add one mana of any color to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>Legion's Judgment</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_kBlyfsxEWL.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target creature with power 4 or greater.</text>			
+		</card>		
+		<card>			
+			<name>Plains</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_PGeTrvkP0Y.png" rarity="Basic Land">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Basic Land — Plains</type>			
+			<tablerow>0</tablerow>			
+			<text>[w}</text>			
+		</card>		
+		<card>			
+			<name>Inspiring Cleric</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_yeX1wyGxk4.png" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Vampire Cleric</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Inspiring Cleric enters the battlefield, you gain 4 life.</text>			
+		</card>		
+		<card>			
+			<name>Island</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_SzxVLGn48P.png" rarity="Basic Land">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Basic Land — Island</type>			
+			<tablerow>0</tablerow>			
+			<text>{U}</text>			
+		</card>		
+		<card>			
+			<name>Imperial Aerosaur</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_wqE7gNntgC.png" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+
+When Imperial Aerosaur enters the battlefield, another target creature you control gets +1/+1 and gains flying until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Glorifier of Dusk</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_b7uK1u0txN.png" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<manacost>3WW</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Vampire Soldier</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Pay 2 life: Glorifier of Dusk gains flying until end of turn.
+
+Pay 2 life: Glorifier of Dusk gains vigilance until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Cancel</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_v5rI5KhCQx.png" rarity="Common">XLN</set>			
+			<color>U</color>			
+			<manacost>1UU</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target spell.</text>			
+		</card>		
+		<card>			
+			<name>Swamp</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_TNyHeNYN4Y.png" rarity="Basic Land">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Basic Land — Swamp</type>			
+			<tablerow>0</tablerow>			
+			<text>{B}</text>			
+		</card>		
+		<card>			
+			<name>Encampment Keeper</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ovfNbVxPbh.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Hound</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>First strike
+
+{7}{W}, Sacrifice Encampment Keeper: Creatures you control get +2/+2 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Mountain</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_74ZDGJZFde.png" rarity="Basic Land">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Basic Land — Mountain</type>			
+			<tablerow>0</tablerow>			
+			<text>{R}</text>			
+		</card>		
+		<card>			
+			<name>Air Elemental</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_xAELLEcURJ.png" rarity="Uncommon">XLN</set>			
+			<color>U</color>			
+			<manacost>3UU</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying</text>			
+		</card>		
+		<card>			
+			<name>Demystify</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_fNO43jDbQg.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target enchantment.</text>			
+		</card>		
+		<card>			
+			<name>Bright Reprisal</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_tINodtCBVd.png" rarity="Uncommon">XLN</set>			
+			<color>W</color>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target attacking creature.
+
+Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Bishop's Soldier</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_xPs6OcVhrM.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Vampire Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Lifelink</text>			
+		</card>		
+		<card>			
+			<name>Forest</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_f6JTZG7Nk3.png" rarity="Basic Land">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Basic Land — Forest</type>			
+			<tablerow>0</tablerow>			
+			<text>{G}</text>			
+		</card>		
+		<card>			
+			<name>Spike-Tailed Ceratops</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_FZq9fhQZGg.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>4G</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Spike-Tailed Ceratops can block an additional creature each combat.</text>			
+		</card>		
+		<card>			
+			<name>Looming Altisaur</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_vaOUmgBOdr.png" rarity="Common">XLN</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>1/7</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Ancient Brontodon</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_JExOVIXOsB.png" rarity="Common">XLN</set>			
+			<color>G</color>			
+			<manacost>6GG</manacost>			
+			<cmc>8</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>9/9</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Vineshaper Mystic</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_HiifuSCplb.png" rarity="Uncommon">XLN</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Merfolk Shaman</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Vineshaper Mystic enters the battlefield, put a +1/+1 counter on each of up to two target Merfolk you control.</text>			
+		</card>		
+		<card>			
+			<name>Spitfire Bastion</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/972/636409978728759149.png" rarity="Rare">XLN</set>			
+			<related>Vance's Blasting Cannons</related>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Vance's Blasting Cannons.)
+
+{T}: Add {R} to your mana pool.
+
+{2}{R}, {T}: Spitfire Bastion deals 3 damage to target creature or player.
+
+(Related: Vance's Blasting Cannons)</text>			
+		</card>		
+		<card>			
+			<name>Vance's Blasting Cannons</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/971/636409974760970975.jpeg" rarity="Rare">XLN</set>			
+			<color>R</color>			
+			<related>Spitfire Bastion</related>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>At the beginning of your upkeep, exile the top card of your library. If it's a nonland card, you may cast that card this turn.
+
+Whenever you cast your third spell in a turn, transform Vance's Blasting Cannons.
+
+(Related: Spitfire Bastion)</text>			
+		</card>		
+		<card>			
 			<name>Perilous Voyage</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/960/636409814565860503.jpeg" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5rdcvyq3pX.png" rarity="Uncommon">XLN</set>			
 			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
@@ -24,7 +1188,7 @@
 		</card>		
 		<card>			
 			<name>Emissary of Sunrise</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/957/636409785966385140.png" rarity="Uncommon">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_dAdhUGwy7d.png" rarity="Uncommon">XLN</set>			
 			<color>W</color>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
@@ -36,7 +1200,7 @@ When Emissary of Sunrise enters the battlefield, it explores. (Reveal the top ca
 		</card>		
 		<card>			
 			<name>Shadowed Caravel</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/956/636409785656822766.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_VKVipr3utp.png" rarity="Rare">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact — Vehicle</type>			
@@ -46,15 +1210,15 @@ When Emissary of Sunrise enters the battlefield, it explores. (Reveal the top ca
 Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>			
 		</card>		
 		<card>			
-			<name>Repeated Volley</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/958/636409792052008177.png" rarity="Rare">XLN</set>			
+			<name>Repeating Barrage</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5NhGLNtay1.png" rarity="Rare">XLN</set>			
 			<color>R</color>			
 			<manacost>1RR</manacost>			
 			<cmc>3</cmc>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Repeated Volley deals 3 damage to target creature or player.
-Raid — {3}{R}{R}: Return Repeated Volley from your graveyard to your hand. Activate this ability only if you attacked with a creature this turn.</text>			
+			<text>Repeating Barrage deals 3 damage to target creature or player.
+Raid — {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate this ability only if you attacked with a creature this turn.</text>			
 		</card>		
 		<card>			
 			<name>Axis of Mortality</name>			
@@ -68,7 +1232,7 @@ Raid — {3}{R}{R}: Return Repeated Volley from your graveyard to your hand. Act
 		</card>		
 		<card>			
 			<name>Skulduggery</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/917/636408980776787568.png" rarity="Common">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_qmvbJ2LQkK.png" rarity="Common">XLN</set>			
 			<color>B</color>			
 			<manacost>B</manacost>			
 			<cmc>1</cmc>			
@@ -78,7 +1242,7 @@ Raid — {3}{R}{R}: Return Repeated Volley from your graveyard to your hand. Act
 		</card>		
 		<card>			
 			<name>Dire Fleet Hoarder</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/919/636408994092639069.png" rarity="Common">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_S4occP6buy.png" rarity="Common">XLN</set>			
 			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
@@ -89,7 +1253,7 @@ Raid — {3}{R}{R}: Return Repeated Volley from your graveyard to your hand. Act
 		</card>		
 		<card>			
 			<name>Desperate Castaways</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/916/636408975244658534.png" rarity="Common">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ugc7TQMVpj.png" rarity="Common">XLN</set>			
 			<color>B</color>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
@@ -100,7 +1264,7 @@ Raid — {3}{R}{R}: Return Repeated Volley from your graveyard to your hand. Act
 		</card>		
 		<card>			
 			<name>Brazen Buccaneers</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/915/636408970062104615.png" rarity="Common">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_z4rtliWary.png" rarity="Common">XLN</set>			
 			<color>R</color>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
@@ -1199,51 +2363,6 @@ Enchanted creature doesn't untap during it's controller's untap step.</text>
 			<loyalty>5</loyalty>			
 		</card>		
 		<card>			
-			<name>Swamp</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/323/636398585566397563.png" rarity="Basic Land">XLN</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
-			<type>Basic Land — Swamp</type>			
-			<tablerow>0</tablerow>			
-			<text>{T}: Add {B} to your mana pool.</text>			
-		</card>		
-		<card>			
-			<name>Plains</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/322/636398584539872341.png" rarity="Basic Land">XLN</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
-			<type>Basic Land — Plains</type>			
-			<tablerow>0</tablerow>			
-			<text>{T}: Add {W} to your mana pool.</text>			
-		</card>		
-		<card>			
-			<name>Mountain</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/321/636398584094659923.png" rarity="Basic Land">XLN</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
-			<type>Basic Land — Mountain</type>			
-			<tablerow>0</tablerow>			
-			<text>{T}: Add {R} to your mana pool.</text>			
-		</card>		
-		<card>			
-			<name>Island</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/320/636398583680862164.png" rarity="Basic Land">XLN</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
-			<type>Basic Land — Island</type>			
-			<tablerow>0</tablerow>			
-			<text>{T}: Add {U} to your mana pool.</text>			
-		</card>		
-		<card>			
-			<name>Forest</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/319/636398583204343166.png" rarity="Basic Land">XLN</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
-			<type>Basic Land — Forest</type>			
-			<tablerow>0</tablerow>			
-			<text>{T}: Add {G} to your mana pool.</text>			
-		</card>		
-		<card>			
 			<name>Marauding Looter</name>			
 			<set picURL="https://media.wizards.com/2017/xln/en_fxCYVuVKth.png" rarity="Uncommon">XLN</set>			
 			<color>U</color>			
@@ -1523,7 +2642,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 		</card>		
 		<card>			
 			<name>Fleet Swallower</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/955/636409780721383771.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_dEquoVXWFQ.png" rarity="Rare">XLN</set>			
 			<color>U</color>			
 			<manacost>5UU</manacost>			
 			<cmc>7</cmc>			
@@ -1548,7 +2667,7 @@ When Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature
 		</card>		
 		<card>			
 			<name>Deathgorge Scavenger</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/945/636409372046541978.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_LZaFbMCTHB.png" rarity="Rare">XLN</set>			
 			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
@@ -2060,126 +3179,6 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 			<text>Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.
 {T}: Add {R} or {G} to your mana pool.</text>			
 			<cipt>1</cipt>			
-		</card>		
-		<card>			
-			<name>Rowdy Crew</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_N6hDAxf5ku.png" rarity="Mythic Rare">XLN</set>			
-			<color>R</color>			
-			<manacost>3RR</manacost>			
-			<cmc>5</cmc>			
-			<type>Creature — Human Pirate</type>			
-			<pt>3/3</pt>			
-			<tablerow>2</tablerow>			
-			<text>Trample
- 
-When Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type were discarded this way, put two +1/+1 counters on Rowdy Crew.</text>			
-		</card>		
-		<card>			
-			<name>Glacial Fortress</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_gW91ZN4eBi.png" rarity="Rare">XLN</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
-			<type>Land</type>			
-			<tablerow>0</tablerow>			
-			<text>Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.
-{T}: Add {W} or {U} to your mana pool.</text>			
-			<cipt>1</cipt>			
-		</card>		
-		<card>			
-			<name>Drowned Catacomb</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_3UcGoidOjU.png" rarity="Rare">XLN</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
-			<type>Land</type>			
-			<tablerow>0</tablerow>			
-			<text>Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.
-{T}: Add {U} or {B} to your mana pool.</text>			
-			<cipt>1</cipt>			
-		</card>		
-		<card>			
-			<name>Dragonskull Summit</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_x87NZsf14I.png" rarity="Rare">XLN</set>			
-			<manacost/>			
-			<cmc>0</cmc>			
-			<type>Land</type>			
-			<tablerow>0</tablerow>			
-			<text>Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
-{T}: Add {B} or {R} to your mana pool.</text>			
-			<cipt>1</cipt>			
-		</card>		
-		<card>			
-			<name>Bloodcrazed Paladin</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_lvIrNYtCaH.png" rarity="Rare">XLN</set>			
-			<color>B</color>			
-			<manacost>1B</manacost>			
-			<cmc>2</cmc>			
-			<type>Creature — Vampire Knight</type>			
-			<pt>1/1</pt>			
-			<tablerow>2</tablerow>			
-			<text>Flash
-
-Bloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.</text>			
-		</card>		
-		<card>			
-			<name>Arcane Adaptation</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_uRA1svXM1W.png" rarity="Rare">XLN</set>			
-			<color>U</color>			
-			<manacost>2U</manacost>			
-			<cmc>3</cmc>			
-			<type>Enchantment</type>			
-			<tablerow>1</tablerow>			
-			<text>As Arcane Adaptation enters the battlefield, choose a creature type.
-Creatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.</text>			
-		</card>		
-		<card>			
-			<name>Captain Lannery Storm</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_P9FMMTi6df.png" rarity="Rare">XLN</set>			
-			<color>R</color>			
-			<manacost>2R</manacost>			
-			<cmc>3</cmc>			
-			<type>Legendary Creature — Human Pirate</type>			
-			<pt>2/2</pt>			
-			<tablerow>2</tablerow>			
-			<text>Haste
-
-Whenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;
-
-Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn. </text>			
-		</card>		
-		<card>			
-			<name>Daring Saboteur</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_Z9vnrlQdDI.png" rarity="Rare">XLN</set>			
-			<color>U</color>			
-			<manacost>1U</manacost>			
-			<cmc>2</cmc>			
-			<type>Creature — Human Pirate</type>			
-			<pt>2/1</pt>			
-			<tablerow>2</tablerow>			
-			<text>{2}{U}: Daring Saboteur can't be blocked this turn.
-
-Whenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card.</text>			
-		</card>		
-		<card>			
-			<name>Sorcerous Spyglass</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_SCFDEAyX2B.png" rarity="Rare">XLN</set>			
-			<manacost>2</manacost>			
-			<cmc>2</cmc>			
-			<type>Artifact</type>			
-			<tablerow>1</tablerow>			
-			<text>As Sorcerous Spyglass enters the battlefield, look at an opponent's hand, then choose any card name.
-
-Activated abilities of sources with the chosen name can't be activated unless they're mana abilities. </text>			
-		</card>		
-		<card>			
-			<name>Vanquisher's Banner</name>			
-			<set picURL="https://media.wizards.com/2017/xln/en_g5JIX0IwbO.png" rarity="Rare">XLN</set>			
-			<manacost>5</manacost>			
-			<cmc>5</cmc>			
-			<type>Artifact</type>			
-			<tablerow>1</tablerow>			
-			<text>As Vanquisher's Banner enters the battlefield, choose a creature type.
-Creatures you control of the chosen type get +1/+1.
-Whenever you cast a creature spell of the chosen type, draw a card.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
