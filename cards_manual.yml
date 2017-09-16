@@ -1,69 +1,125 @@
 
-### How to Use: #########################################################
-#                                                                       #
-#    Each card that you want to manually add has to be                  #
-#     * in its correct set block                                        #
-#                                                                       #
-#    Each set block has to start with                                   #
-#     * set code                                                        #
-#     * followed by a colon (":")                                       #
-#                                                                       #
-#    Each set block consist out of                                      #
-#     * a list of cards                                                 #
-#                                                                       #
-#    Each card in the list has to start with                            #
-#     * 2 leading spaces ("  ")                                         #
-#     * a dash ("-") to open an new array for each card                 #
-#                                                                       #
-#    Each new card has to consist out of                                #
-#     * a new line                                                      #
-#     * 4 leading spaces in total ("    ")                              #
-#     * card attribute                                                  #
-#     * followed by a colon (":")                                       #
-#     * additional space (" ")                                          #
-#     * value for that attribute                                        #
-#                                                                       #
-### Hints: ##############################################################
-#                                                                       #
-#  * Each card attribute you want your card to have needs its own line  #
-#  * Most important fields are: name, manaCost, rarity, type and url    #
-#  * Indentation is critical, two spaces per indentation                #
-#                                                                       #
-### Form: ###############################################################
-#                                                                       #
-#set code:                                                              #
-#  -                                                                    #
-#    card field to add: value                                           #
-#    card field to add: value                                           #
-#  -                                                                    #
-#    card field to add: value                                           #
-#                                                                       #
-#other set code:                                                        #
-#  -                                                                    #
-#    card field to add: value                                           #
-#                                                                       #
-### Example Entry: ######################################################
-#                                                                       #
-#XLN:                                                                   #
-#  -                                                                    #
-#    name: Haven Raptor                                                 #
-#    manaCost: 2GG                                                      #
-#    number: 0                                                <--- fix  #
-#    rarity: Rare                                                       #
-#    type: Creature - Dinosaur                                          #
-#    url: http://mythicspoiler.com/ixa/cards/havenraptor.jpg      <---  #
-#    text: Tough - Whenever Haven Raptor is dealt damage, draw a card.  #
-#    cmc: 4                                                             #
-#    power: 4                                                           #
-#    toughness: 5                                                       #
-#  -                                                                    #
-#    name: Vraska's Contempt                                            #
-#    manaCost: 2BB                                                      #
-#    rarity: Rare                                                       #
-#    type: Instant                                                      #
-#    url: http://mythicspoiler.com/ixa/cards/vraskascontempt.jpg  <---  #
-#                                                                       #
-#########################################################################
+### How to Use: ############################################################
+#                                                                          #
+#    Each card that you want to manually add has to be                     #
+#     * in its correct set block                                           #
+#                                                                          #
+#    Each set block has to start with                                      #
+#     * set code                                                           #
+#     * followed by a colon (":")                                          #
+#                                                                          #
+#    Each set block consist out of                                         #
+#     * a list of cards                                                    #
+#                                                                          #
+#    Each card in the list has to start with                               #
+#     * 2 leading spaces ("  ")                                            #
+#     * a dash ("-") to open an new array for each card                    #
+#                                                                          #
+#    Each new card has to consist out of                                   #
+#     * a new line                                                         #
+#     * 4 leading spaces in total ("    ")                                 #
+#     * card attribute                                                     #
+#     * followed by a colon (":")                                          #
+#     * additional space (" ")                                             #
+#     * value for that attribute                                           #
+#                                                                          #
+### Hints: #################################################################
+#                                                                          #
+#  * Each card attribute you want your card to have needs its own line     #
+#  * Most important fields are: name, manaCost, rarity, type and url       #
+#  * Values for the text field must be surrounded by quatation marks (")   #
+#  * Indentation is critical, two spaces per indentation                   #
+#                                                                          #
+### Form: ##################################################################
+#                                                                          #
+#set code:                                                                 #
+#  -                                                                       #
+#    card field to add: value                                              #
+#    card field to add: value                                              #
+#  -                                                                       #
+#    card field to add: value                                              #
+#                                                                          #
+#other set code:                                                           #
+#  -                                                                       #
+#    card field to add: value                                              #
+#                                                                          #
+### Example Entry: #########################################################
+#                                                                          #
+#XLN:                                                                      #
+#  -                                                                       #
+#    name: Ripjaw Raptor                                                   #
+#    manaCost: 2GG                                                         #
+#    number: 203                                                           #
+#    rarity: Rare                                                          #
+#    type: Creature - Dinosaur                                             #
+#    url: http://mythicspoiler.com/ixa/cards/havenraptor.jpg   <--- gath   #
+#    text: "Enrage - Whenever Ripjaw Raptor is dealt damage, draw a card." #
+#    cmc: 4                                                                #
+#    power: 4                                                              #
+#    toughness: 5                                                          #
+#  -                                                                       #
+#    name: Vraska's Contempt                                               #
+#    manaCost: 2BB                                                         #
+#    rarity: Rare                                                          #
+#    type: Instant                                                         #
+#    url: https://media.wizards.com/2017/xln/en_oUjuu5E2th.png   <--- ?    #
+#                                                                          #
+############################################################################
 
 # Enter cards that should be added manually directly below. But note the syntax hints on top!
-
+XLN:
+  -
+    name: Bloodcrazed Paladin
+    manaCost: 1B
+    number: 93
+    rarity: Rare
+    type: Creature - Vampire Knight
+    url: https://media.wizards.com/2017/xln/en_lvIrNYtCaH.png
+    text: "Flash\nBloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn."
+    cmc: 2
+    power: 1
+    toughness: 1
+  -
+    name: Captain Lannery Storm
+    manaCost: 2R
+    number: 136
+    rarity: Rare
+    type: Legendary Creature - Human Pirate
+    url: https://media.wizards.com/2017/xln/en_P9FMMTi6df.png
+    text: "Haste\nWhenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with “{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.”\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."
+    cmc: 3
+    power: 2
+    toughness: 2
+  -
+    name: Vanquisher's Banner
+    manaCost: 5
+    number: 251
+    rarity: Rare
+    type: Artifact
+    url: https://media.wizards.com/2017/xln/en_g5JIX0IwbO.png
+    text: "As Vanquisher’s Banner enters the battlefield, choose a creature type.\nCreatures of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card."
+    cmc: 5
+  -
+    name: Dragonskull Summit
+    number: 252
+    rarity: Rare
+    type: Land
+    url: https://media.wizards.com/2017/xln/en_x87NZsf14I.png
+    text: "Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R} to your mana pool."
+    cmc: 0
+  -
+    name: Drowned Catacomb
+    number: 253
+    rarity: Rare
+    type: Land
+    url: https://media.wizards.com/2017/xln/en_3UcGoidOjU.png
+    text: "Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B} to your mana pool."
+    cmc: 0
+  -
+    name: Glacial Fortress
+    number: 255
+    rarity: Rare
+    type: Land
+    url: https://media.wizards.com/2017/xln/en_gW91ZN4eBi.png
+    text: "Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U} to your mana pool."
+    cmc: 0
