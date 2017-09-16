@@ -3,7 +3,7 @@ import requests
 import time
 
 
-def get_scryfall(setUrl):
+def get_scryfall(setUrl='https://api.scryfall.com/cards/search?q=++e:xln'):
     #getUrl = 'https://api.scryfall.com/cards/search?q=++e:'
     #setUrl = getUrl + code.lower()
     setDone = False
@@ -16,20 +16,24 @@ def get_scryfall(setUrl):
             scryfall.append(setcards['data'])
         else:
             setDone = True
-            # print setUrl
-            # print setcards
             print 'No Scryfall data'
             scryfall = ['']
         time.sleep(.1)
         if setcards.has_key('has_more'):
-            if setcards['has_more'] == True:
+            if setcards['has_more']:
                 setUrl = setcards['next_page']
             else:
                 setDone = True
         else:
+            print 'Scryfall does not "has_more"'
             setDone = True
     if not scryfall[0] == '':
-        scryfall = convert_scryfall(scryfall[0])
+        import json
+        scryfall2 = []
+        for cardarray in scryfall:
+            for card in cardarray:
+                scryfall2.append(card)
+        scryfall = convert_scryfall(scryfall2)
         return {'cards': scryfall}
     else:
         return {'cards': []}
