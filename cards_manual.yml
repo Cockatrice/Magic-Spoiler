@@ -28,7 +28,7 @@
 #  * Each card attribute you want your card to have needs its own line  #
 #  * Most important fields are: name, manaCost, rarity, type and url    #
 #  * Indentation is critical, two spaces per indentation                #
-#  * The value for the text field must be surrounded by '' or ""        #
+#  * The value for the text field must be surrounded by ""              #
 #                                                                       #
 ### Form: ###############################################################
 #                                                                       #
@@ -53,7 +53,7 @@
 #    rarity: Rare                                                       #
 #    type: Creature - Dinosaur                                          #
 #    url: http://mythicspoiler.com/ixa/cards/havenraptor.jpg      <---  #
-#    text: 'Tough - Whenever Haven Raptor is dealt damage, draw a card.'#
+#    text: "Tough - Whenever Haven Raptor is dealt damage, draw a card."#
 #    cmc: 4                                                             #
 #    power: 4                                                           #
 #    toughness: 5                                                       #
@@ -75,7 +75,7 @@ XLN:
     rarity: Rare
     type: Creature - Vampire Knight
     url: https://media.wizards.com/2017/xln/en_lvIrNYtCaH.png
-    text: 'Flash\nBloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.'
+    text: "Flash\nBloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn."
     cmc: 2
     power: 1
     toughness: 1
@@ -97,7 +97,7 @@ XLN:
     rarity: Rare
     type: Artifact
     url: https://media.wizards.com/2017/xln/en_g5JIX0IwbO.png
-    text: 'As Vanquisher’s Banner enters the battlefield, choose a creature type.\nCreatures of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card.'
+    text: "As Vanquisher’s Banner enters the battlefield, choose a creature type.\nCreatures of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card."
     cmc: 5
   -
     name: Dragonskull Summit
@@ -105,7 +105,7 @@ XLN:
     rarity: Rare
     type: Land
     url: https://media.wizards.com/2017/xln/en_x87NZsf14I.png
-    text: 'Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R} to your mana pool.'
+    text: "Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R} to your mana pool."
     cmc: 0
 
   -
@@ -114,7 +114,7 @@ XLN:
     rarity: Rare
     type: Land
     url: https://media.wizards.com/2017/xln/en_3UcGoidOjU.png
-    text: 'Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B} to your mana pool.'
+    text: "Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B} to your mana pool."
     cmc: 0
   -
     name: Glacial Fortress
@@ -122,21 +122,5 @@ XLN:
     rarity: Rare
     type: Land
     url: https://media.wizards.com/2017/xln/en_gW91ZN4eBi.png
-    text: 'Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U} to your mana pool.'
-    cmc: 0
-  -
-    name: Rootbound Crag
-    number: 256
-    rarity: Rare
-    type: Land
-    url: https://media.wizards.com/2017/xln/en_Jt9yurxL7m.png
-    text: 'Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G} to your mana pool.'
-    cmc: 0
-  -
-    name: Sunpetal Grove
-    number: 257
-    rarity: Rare
-    type: Land
-    url: https://media.wizards.com/2017/xln/en_cydtngAy9E.png
-    text: 'Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.\n{T}: Add {G} or {W} to your mana pool.'
+    text: "Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U} to your mana pool."
     cmc: 0
