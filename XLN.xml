@@ -3010,5 +3010,85 @@ Whenever Goring Ceratops attacks, other creatures you control gain double strike
 			<text>Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.
 {T}: Add {R} or {G} to your mana pool.</text>			
 		</card>		
+		<card>			
+			<name>Bloodcrazed Paladin</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_lvIrNYtCaH.png" rarity="Rare">XLN</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Creature — Vampire Knight</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+Bloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.</text>			
+		</card>		
+		<card>			
+			<name>Captain Lannery Storm</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_P9FMMTi6df.png" rarity="Rare">XLN</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Legendary Creature — Human Pirate</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste
+Whenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with “{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.”
+Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Vanquisher's Banner</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_g5JIX0IwbO.png" rarity="Rare">XLN</set>			
+			<manacost>5</manacost>			
+			<cmc>5</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>As Vanquisher’s Banner enters the battlefield, choose a creature type.
+Creatures of the chosen type get +1/+1.
+Whenever you cast a creature spell of the chosen type, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Dragonskull Summit</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_x87NZsf14I.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<cipt>1</cipt>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
+{T}: Add {B} or {R} to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>Drowned Catacomb</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_3UcGoidOjU.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<cipt>1</cipt>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.
+{T}: Add {U} or {B} to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>Glacial Fortress</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_gW91ZN4eBi.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<cipt>1</cipt>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.
+{T}: Add {W} or {U} to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>Rowdy Crew</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_N6hDAxf5ku.png" rarity="Mythic">XLN</set>			
+			<manacost>2RR</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Creature — Human Pirate</type>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+When Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type are discarded this way, put two +1/+1 counters on Rowdy Crew.</text>			
+		</card>		
 	</cards>	
 </cockatrice_carddatabase>
