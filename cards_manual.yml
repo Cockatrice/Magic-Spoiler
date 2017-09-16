@@ -28,6 +28,7 @@
 #  * Each card attribute you want your card to have needs its own line     #
 #  * Most important fields are: name, manaCost, rarity, type and url       #
 #  * Values for the text field must be surrounded by quatation marks (")   #
+#  * Newlines in the text field must be replaced by \n                     #
 #  * Indentation is critical, two spaces per indentation                   #
 #                                                                          #
 ### Form: ##################################################################
@@ -134,3 +135,29 @@ XLN:
     cmc: 4
     power: 3
     toughness: 3
+  -
+    name: Arcane Adapation
+    manaCost: 2U
+    number: 46
+    rarity: Rare
+    type: Enchantment
+    url: https://media.wizards.com/2017/xln/en_uRA1svXM1W.png
+    text: "As Arcane Adaptation enters the battlefield, choose a creature type.\nCreatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren’t on the battlefield."
+    cmc: 3
+  -
+    name  Daring Saboteur
+    manaCost: 1U
+    number: 49
+    type: Creature - Human Pirate
+    url: https://media.wizards.com/2017/xln/en_Z9vnrlQdDI.png
+    text: "{2}{U}: Daring Saboteur can’t be blocked this turn.\nWhenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card."
+    cmc: 2
+  -
+    name: Sorcerous Spyglass
+    manaCost: 2
+    number: 248
+    type: Artifact
+    url: https://media.wizards.com/2017/xln/en_SCFDEAyX2B.png
+    text: "As Sorcerous Spyglass enters the battlefield, look at an opponent’s hand, then choose any card name.\nActivated abilities of sources with the chosen name can’t be activated unless their mana abilities."
+    cmc: 2
+    
