@@ -58,17 +58,20 @@ type: "expansion"
 mtgsurl: "http://www.mtgsalvation.com/spoilers/185-ixalan"
 mtgscardpath: "http://www.mtgsalvation.com/cards/ixalan/"
 mythicCode: "ixa"
-fullSpoil: false
+fullSpoil: true
 scryfallOnly: true
-# masterpieces:
-#   code: "MPS_?"
-#   name: "Masterpiece Series: ?"
-#   releaseDate: "2017-09-29"
-#   alternativeNames: ["?"]
-#   galleryURL: "?"
-#   additionalCardNames: []
-#   mtgsurl: "?"
-#   mtgscardpath: "?"
+---
+code: "IMA"
+name: "Iconic Masters"
+#block: "?"
+#size: ?
+releaseDate: "2017-11-17"
+type: "masters"
+mtgsurl: ""
+#mtgscardpath: "?"
+scryfallOnly: true
+fullSpoil: true
+noRSS: true
 ---
 code: "UST"
 name: "Unstable"
