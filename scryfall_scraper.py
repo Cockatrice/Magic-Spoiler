@@ -64,6 +64,8 @@ def convert_scryfall(scryfall):
     for card in scryfall:
         card2 = {}
         card2['cmc'] = int(card['cmc'])
+        if 'names' in card:
+            card2['names'] = card['names']
         if card.has_key('mana_cost'):
             card2['manaCost'] = card['mana_cost'].replace(
                 '{', '').replace('}', '')
