@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sun, Sep 17 2017, 14:54:42 (UTC)
+        created: Sun, Sep 17 2017, 15:03:28 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -3239,6 +3239,20 @@ Whenever Daring Saboteur deals combat damage to a player, you may draw a card. I
 			<tablerow>1</tablerow>			
 			<text>As Sorcerous Spyglass enters the battlefield, look at an opponent’s hand, then choose any card name.
 Activated abilities of sources with the chosen name can’t be activated unless their mana abilities.</text>			
+		</card>		
+		<card>			
+			<name>Azcanta, the Sunken Ruin</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_Ino8szLZ1O.png" rarity="Rare">XLN</set>			
+			<related>Azcanta, The Sunken Ruin</related>			
+			<manacost/>			
+			<cmc>2</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Search for Azcanta.)
+{T}: Add {U} to your mana pool.
+{2}{U}, {T}: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+
+(Related: Azcanta, The Sunken Ruin)</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
