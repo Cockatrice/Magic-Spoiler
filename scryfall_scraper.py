@@ -41,6 +41,26 @@ def get_scryfall(setUrl='https://api.scryfall.com/cards/search?q=++e:xln'):
 
 def convert_scryfall(scryfall):
     cards2 = []
+    scryfall2 = []
+    for card in scryfall:
+        if card == "cards" or card == "" or card == []:
+            continue
+        if 'layout' in card and card['layout'] == 'transform':
+            cardNoFaces = {}
+            for key in card:
+                if key != 'card_faces':
+                    cardNoFaces[key] = card[key]
+            cardNoFaces['layout'] = 'double-faced'
+            cardNoFaces['names'] = [card['card_faces'][0]['name'], card['card_faces'][1]['name']]
+            card1 = dict(cardNoFaces.items() + card['card_faces'][0].items())
+            card2 = dict(cardNoFaces.items() + card['card_faces'][1].items())
+            card1['collector_number'] = card1['collector_number'] + 'a'
+            card2['collector_number'] = card2['collector_number'] + 'b'
+            scryfall2.append(card1)
+            scryfall2.append(card2)
+        else:
+            scryfall2.append(card)
+    scryfall = scryfall2
     for card in scryfall:
         card2 = {}
         card2['cmc'] = int(card['cmc'])
