@@ -2276,24 +2276,24 @@
       "url":"https://media.wizards.com/2017/xln/en_HiifuSCplb.png"
     },
     {
-      "cmc":0,
+      "cmc":4,
       "colorIdentity":[
         "R"
       ],
       "layout":"double-faced",
       "name":"Spitfire Bastion",
-      "names":[
-        "Vance's Blasting Cannons",
-        "Spitfire Bastion"
-      ],
       "number":"173b",
       "rarity":"Rare",
-      "text":"(Transforms from Vance's Blasting Cannons.)\n\n{T}: Add {R} to your mana pool.\n\n{2}{R}, {T}: Spitfire Bastion deals 3 damage to target creature or player.",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"(Transforms from Vance’s Blasting Cannons.)\n{T}: Add {R} to your mana pool.\n{2}{R}, {T}: Spitfire Bastion deals 3 damage to target creature or player.",
       "type":"Legendary Land",
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/972/636409978728759149.png"
+      "url":"https://media.wizards.com/2017/xln/en_9nQVcgTYrC.png"
     },
     {
       "cmc":4,
@@ -2306,10 +2306,6 @@
       "layout":"double-faced",
       "manaCost":"3R",
       "name":"Vance's Blasting Cannons",
-      "names":[
-        "Vance's Blasting Cannons",
-        "Spitfire Bastion"
-      ],
       "number":"173a",
       "rarity":"Rare",
       "text":"At the beginning of your upkeep, exile the top card of your library. If it's a nonland card, you may cast that card this turn.\n\nWhenever you cast your third spell in a turn, transform Vance's Blasting Cannons.",
@@ -2317,7 +2313,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/971/636409974760970975.jpeg"
+      "url":"https://media.wizards.com/2017/xln/en_5KrvPa90aV.png"
     },
     {
       "cmc":2,
@@ -2855,31 +2851,27 @@
       "url":"https://media.wizards.com/2017/xln/en_ykMZj6wCcj.png"
     },
     {
-      "cmc":0,
+      "cmc":2,
       "layout":"double-faced",
       "name":"Lost Vale",
-      "names":[
-        "Dowsing Dagger",
-        "Lost Vale"
-      ],
       "number":"235b",
       "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
       "text":"(Transforms from Dowsing Dagger.)\n{T}: Add three mana of any one color to your mana pool.",
       "type":"Land",
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/592/636407197460257871.png"
+      "url":"https://media.wizards.com/2017/xln/en_cINU9LtjbR.png"
     },
     {
       "cmc":2,
       "layout":"double-faced",
       "manaCost":"2",
       "name":"Dowsing Dagger",
-      "names":[
-        "Dowsing Dagger",
-        "Lost Vale"
-      ],
       "number":"235a",
       "rarity":"Rare",
       "subtypes":[
@@ -2890,27 +2882,27 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/591/636407196622261397.png"
+      "url":"https://media.wizards.com/2017/xln/en_E3ZKnSXbJa.png"
     },
     {
-      "cmc":0,
+      "cmc":1,
       "colorIdentity":[
         "W"
       ],
       "layout":"double-faced",
       "name":"Adanto, the First Fort",
-      "names":[
-        "Legion's Landing",
-        "Adanto, the First Fort"
-      ],
       "number":"22b",
       "rarity":"Rare",
-      "text":"(Transforms from Legion's Landing.)\n{T}: Add {W} to your mana pool.\n{2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"(Transforms from Legion’s Landing.)\n{T}: Add W to your mana pool.\n{2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.",
       "type":"Legendary Land",
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/590/636407179956434592.png"
+      "url":"https://media.wizards.com/2017/xln/en_smfibkFjaT.png"
     },
     {
       "cmc":1,
@@ -2923,10 +2915,6 @@
       "layout":"double-faced",
       "manaCost":"W",
       "name":"Legion's Landing",
-      "names":[
-        "Legion's Landing",
-        "Adanto, the First Fort"
-      ],
       "number":"22a",
       "rarity":"Rare",
       "text":"When Legion's Landing enters the battlefield, create a 1/1 white Vampire creature token with lifelink.\n\nWhen you attack with three or more creatures, transform Legion's Landing.",
@@ -2934,7 +2922,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/589/636407178986902544.png"
+      "url":"https://media.wizards.com/2017/xln/en_ELsHk8phhf.png"
     },
     {
       "cmc":5,
@@ -3311,7 +3299,7 @@
       "url":"https://media.wizards.com/2017/xln/en_halxu6YFDg.png"
     },
     {
-      "cmc":0,
+      "cmc":3,
       "colorIdentity":[
         "G"
       ],
@@ -3323,12 +3311,16 @@
       ],
       "number":"194b",
       "rarity":"Rare",
-      "text":"(Transforms from Growing Rites of Itlimoc.)\n\n{T}: Add {G} to your mana pool.\n\n{T}: Add {G} to your mana pool for each creature you control.",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"Add {G} to your mana pool.\n{T}: Add {G} to your mana pool for each creature you control.",
       "type":"Legendary Land",
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/562/636404784908356408.png"
+      "url":"https://media.wizards.com/2017/xln/en_NyYNyTtDLS.png"
     },
     {
       "cmc":3,
@@ -3352,7 +3344,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/561/636404783960614410.png"
+      "url":"https://media.wizards.com/2017/xln/en_5MpazyK4wb.png"
     },
     {
       "cmc":3,
@@ -3532,24 +3524,24 @@
       "url":"https://media.wizards.com/2017/xln/en_0zIZLRuzt1.png"
     },
     {
-      "cmc":0,
+      "cmc":2,
       "colorIdentity":[
         "B"
       ],
       "layout":"double-faced",
       "name":"Temple of Aclazotz",
-      "names":[
-        "Arguel's Blood Fast",
-        "Temple of Aclazotz"
-      ],
       "number":"90b",
       "rarity":"Rare",
-      "text":"(Transforms from Arguel's Blood Fast.)\n\n{T}: Add {B} to your mana pool.\n\n{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness .",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"(Transforms from Arguel’s Blood Fast.)\n{T}: Add {B} to your mana pool.\n{T}, Sacrifice a creature: you gain life equal to the sacrificed creature’s toughness.",
       "type":"Legendary Land",
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/501/636403739718439816.jpeg"
+      "url":"https://media.wizards.com/2017/xln/en_0S9PAxGw5M.png"
     },
     {
       "cmc":3,
@@ -3586,10 +3578,6 @@
       "layout":"double-faced",
       "manaCost":"1B",
       "name":"Arguel's Blood Fast",
-      "names":[
-        "Arguel's Blood Fast",
-        "Temple of Aclazotz"
-      ],
       "number":"90a",
       "rarity":"Rare",
       "text":"{1}{B}, Pay 2 life: Draw a card.\n\nAt the beginning of your upkeep, if you have 5 or less life, you may transform Arguel's Blood Fast.",
@@ -3597,7 +3585,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/883/636408077971219470.png"
+      "url":"https://media.wizards.com/2017/xln/en_ZgO00izum6.png"
     },
     {
       "cmc":1,
@@ -3899,31 +3887,27 @@
       "url":"https://media.wizards.com/2017/xln/en_wetBr8S7zS.png"
     },
     {
-      "cmc":0,
+      "cmc":2,
       "layout":"double-faced",
       "name":"Spires of Orazca",
-      "names":[
-        "Thaumatic Compass",
-        "Spires of Orazca"
-      ],
       "number":"249b",
       "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
       "text":"(Transforms from Thaumatic Compass.)\n{T}: Add {C} to your mana pool.\n{T}: Untap target attacking creature an opponent controls and remove it from combat.",
       "type":"Land",
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/432/636402031913028319.png"
+      "url":"https://media.wizards.com/2017/xln/en_SGiJXW9Dw5.png"
     },
     {
       "cmc":2,
       "layout":"double-faced",
       "manaCost":"2",
       "name":"Thaumatic Compass",
-      "names":[
-        "Thaumatic Compass",
-        "Spires of Orazca"
-      ],
       "number":"249a",
       "rarity":"Rare",
       "text":"{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nAt the beginning of your end step, if you control seven or more lands, transform Thaumatic Compass.",
@@ -3931,34 +3915,30 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/431/636402030772132265.png"
+      "url":"https://media.wizards.com/2017/xln/en_5tOynBtb9Y.png"
     },
     {
-      "cmc":0,
+      "cmc":4,
       "layout":"double-faced",
       "name":"Conqueror's Foothold",
-      "names":[
-        "Conqueror's Galleon",
-        "Conqueror's Foothold"
-      ],
       "number":"234b",
       "rarity":"Rare",
-      "text":"(Transforms from Conqueror's Galleon.)\n{T}: Add {C} to your mana pool.\n{2}, {T}: Draw a card, then discard a card.\n{4}, {T}: Draw a card.\n{6}, {T}: Return target card from your graveyard to your hand.",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"(Transforms from Conqueror’s Galleon.)\n{T}: Add {C} to your mana pool.\n{2}, {T}: Draw a card, then discard a card.\n{4}, {T}: Draw a card.\n{6}, {T}: Return target card from your graveyard to your hand.",
       "type":"Land",
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/429/636402013670334353.png"
+      "url":"https://media.wizards.com/2017/xln/en_AtEtI4P4mo.png"
     },
     {
       "cmc":4,
       "layout":"double-faced",
       "manaCost":"4",
       "name":"Conqueror's Galleon",
-      "names":[
-        "Conqueror's Galleon",
-        "Conqueror's Foothold"
-      ],
       "number":"234a",
       "rarity":"Rare",
       "subtypes":[
@@ -3969,7 +3949,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/428/636402012420241420.png"
+      "url":"https://media.wizards.com/2017/xln/en_8wskFlvdlC.png"
     },
     {
       "cmc":2,
@@ -4122,10 +4102,6 @@
       "layout":"double-faced",
       "manaCost":"4",
       "name":"Primal Amulet",
-      "names":[
-        "Primal Amulet",
-        "Primal Wellspring"
-      ],
       "number":"243a",
       "rarity":"Rare",
       "text":"Instant and sorcery spells you cast cost {1} less to cast.\n\nWhenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.",
@@ -4133,24 +4109,24 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/410/636401187279049993.png"
+      "url":"https://media.wizards.com/2017/xln/en_hz81cQLpKQ.png"
     },
     {
-      "cmc":0,
+      "cmc":4,
       "layout":"double-faced",
       "name":"Primal Wellspring",
-      "names":[
-        "Primal Amulet",
-        "Primal Wellspring"
-      ],
       "number":"243b",
       "rarity":"Rare",
-      "text":"(Transforms from Primal Amulet.)\n\n{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"(Transforms from Primal Amulet.)\n{T}: Add one mana of any color to your mana pool. When that mana is used to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.",
       "type":"Land",
       "types":[
         "Land"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/133/409/636401184205869891.png"
+      "url":"https://media.wizards.com/2017/xln/en_nwpo11MmZ6.png"
     },
     {
       "cmc":4,
@@ -6197,17 +6173,107 @@
       "manaCost":"2RR",
       "name":"Rowdy Crew",
       "number":"159",
+      "power":3,
       "rarity":"Mythic",
       "subtypes":[
         "Human",
         "Pirate"
       ],
       "text":"Trample\nWhen Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type are discarded this way, put two +1/+1 counters on Rowdy Crew.",
+      "toughness":3,
       "type":"Creature — Human Pirate",
       "types":[
         "Creature"
       ],
       "url":"https://media.wizards.com/2017/xln/en_N6hDAxf5ku.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"2U",
+      "name":"Arcane Adapation",
+      "number":"46",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"As Arcane Adaptation enters the battlefield, choose a creature type.\nCreatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren’t on the battlefield.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://media.wizards.com/2017/xln/en_uRA1svXM1W.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"1U",
+      "name":"Daring Saboteur",
+      "number":"49",
+      "power":2,
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"{2}{U}: Daring Saboteur can’t be blocked this turn.\nWhenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card.",
+      "toughness":1,
+      "type":"Creature — Human Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://media.wizards.com/2017/xln/en_Z9vnrlQdDI.png"
+    },
+    {
+      "cmc":2,
+      "manaCost":"2",
+      "name":"Sorcerous Spyglass",
+      "number":"248",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"As Sorcerous Spyglass enters the battlefield, look at an opponent’s hand, then choose any card name.\nActivated abilities of sources with the chosen name can’t be activated unless their mana abilities.",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"https://media.wizards.com/2017/xln/en_SCFDEAyX2B.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "name":"Azcanta, the Sunken Ruin",
+      "names":[
+        "Azcanta, The Sunken Ruin",
+        "Azcanta, the Sunken Ruin"
+      ],
+      "number":"74b",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"{T}: Add {U} to your mana pool.\n{2}{U}, {T}: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
+      "type":"Legendary Land",
+      "types":[
+        "Land"
+      ],
+      "url":"https://media.wizards.com/2017/xln/en_Ino8szLZ1O.png"
     }
   ],
   "code":"XLN",

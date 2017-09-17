@@ -1144,8 +1144,19 @@ Draw a card.</text>
 			<text>When Vineshaper Mystic enters the battlefield, put a +1/+1 counter on each of up to two target Merfolk you control.</text>			
 		</card>		
 		<card>			
+			<name>Spitfire Bastion</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_9nQVcgTYrC.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>4</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Vance’s Blasting Cannons.)
+{T}: Add {R} to your mana pool.
+{2}{R}, {T}: Spitfire Bastion deals 3 damage to target creature or player.</text>			
+		</card>		
+		<card>			
 			<name>Vance's Blasting Cannons</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/971/636409974760970975.jpeg" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5KrvPa90aV.png" rarity="Rare">XLN</set>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
 			<color>R</color>			
@@ -1154,7 +1165,6 @@ Draw a card.</text>
 			<text>At the beginning of your upkeep, exile the top card of your library. If it's a nonland card, you may cast that card this turn.
 
 Whenever you cast your third spell in a turn, transform Vance's Blasting Cannons.</text>			
-			<related>Spitfire Bastion</related>			
 		</card>		
 		<card>			
 			<name>Perilous Voyage</name>			
@@ -1431,8 +1441,18 @@ Pay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and 
 At the beginning of your end step, create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
 		</card>		
 		<card>			
+			<name>Lost Vale</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_cINU9LtjbR.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>2</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Dowsing Dagger.)
+{T}: Add three mana of any one color to your mana pool.</text>			
+		</card>		
+		<card>			
 			<name>Dowsing Dagger</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/591/636407196622261397.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_E3ZKnSXbJa.png" rarity="Rare">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact — Equipment</type>			
@@ -1441,11 +1461,21 @@ At the beginning of your end step, create a colorless Treasure artifact token wi
 Equipped creature gets +2/+1.
 Whenever equipped creature deals combat damage to a player, you may transform Dowsing Dagger.
 Equip {2}</text>			
-			<related>Lost Vale</related>			
+		</card>		
+		<card>			
+			<name>Adanto, the First Fort</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_smfibkFjaT.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>1</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Legion’s Landing.)
+{T}: Add W to your mana pool.
+{2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.</text>			
 		</card>		
 		<card>			
 			<name>Legion's Landing</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/589/636407178986902544.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ELsHk8phhf.png" rarity="Rare">XLN</set>			
 			<manacost>W</manacost>			
 			<cmc>1</cmc>			
 			<color>W</color>			
@@ -1454,7 +1484,6 @@ Equip {2}</text>
 			<text>When Legion's Landing enters the battlefield, create a 1/1 white Vampire creature token with lifelink.
 
 When you attack with three or more creatures, transform Legion's Landing.</text>			
-			<related>Adanto, the First Fort</related>			
 		</card>		
 		<card>			
 			<name>Snapping Sailback</name>			
@@ -1637,7 +1666,7 @@ Counter target spell unless its controller pays {4}.</text>
 		</card>		
 		<card>			
 			<name>Growing Rites of Itlimoc</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/561/636404783960614410.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5MpazyK4wb.png" rarity="Rare">XLN</set>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
 			<color>G</color>			
@@ -1740,6 +1769,17 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 			<text>Enrage — Whenever Ranging Raptors is dealt damage, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</text>			
 		</card>		
 		<card>			
+			<name>Temple of Aclazotz</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_0S9PAxGw5M.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>2</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Arguel’s Blood Fast.)
+{T}: Add {B} to your mana pool.
+{T}, Sacrifice a creature: you gain life equal to the sacrificed creature’s toughness.</text>			
+		</card>		
+		<card>			
 			<name>Ravenous Daggertooth</name>			
 			<set picURL="https://media.wizards.com/2017/xln/en_8FRtkHLbi2.png" rarity="Common">XLN</set>			
 			<manacost>2G</manacost>			
@@ -1752,7 +1792,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 		</card>		
 		<card>			
 			<name>Arguel's Blood Fast</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/883/636408077971219470.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ZgO00izum6.png" rarity="Rare">XLN</set>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
 			<color>B</color>			
@@ -1761,7 +1801,6 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 			<text>{1}{B}, Pay 2 life: Draw a card.
 
 At the beginning of your upkeep, if you have 5 or less life, you may transform Arguel's Blood Fast.</text>			
-			<related>Temple of Aclazotz</related>			
 		</card>		
 		<card>			
 			<name>Spell Pierce</name>			
@@ -1919,26 +1958,48 @@ When Kitesail Freebooter enters the battlefield, target opponent reveals his or 
 			<text>Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.</text>			
 		</card>		
 		<card>			
+			<name>Spires of Orazca</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_SGiJXW9Dw5.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>2</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Thaumatic Compass.)
+{T}: Add {C} to your mana pool.
+{T}: Untap target attacking creature an opponent controls and remove it from combat.</text>			
+		</card>		
+		<card>			
 			<name>Thaumatic Compass</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/431/636402030772132265.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5tOynBtb9Y.png" rarity="Rare">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact</type>			
 			<tablerow>1</tablerow>			
 			<text>{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
 At the beginning of your end step, if you control seven or more lands, transform Thaumatic Compass.</text>			
-			<related>Spires of Orazca</related>			
+		</card>		
+		<card>			
+			<name>Conqueror's Foothold</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_AtEtI4P4mo.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>4</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Conqueror’s Galleon.)
+{T}: Add {C} to your mana pool.
+{2}, {T}: Draw a card, then discard a card.
+{4}, {T}: Draw a card.
+{6}, {T}: Return target card from your graveyard to your hand.</text>			
 		</card>		
 		<card>			
 			<name>Conqueror's Galleon</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/428/636402012420241420.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_8wskFlvdlC.png" rarity="Rare">XLN</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact — Vehicle</type>			
 			<tablerow>1</tablerow>			
 			<text>When Conqueror's Galleon attacks, exile it at end of combat, then return it to the battlefield transformed.
 Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>			
-			<related>Conqueror's Foothold</related>			
 		</card>		
 		<card>			
 			<name>Wildgrowth Walker</name>			
@@ -2012,7 +2073,7 @@ Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle bec
 		</card>		
 		<card>			
 			<name>Primal Amulet</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/410/636401187279049993.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_hz81cQLpKQ.png" rarity="Rare">XLN</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact</type>			
@@ -2020,7 +2081,16 @@ Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle bec
 			<text>Instant and sorcery spells you cast cost {1} less to cast.
 
 Whenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.</text>			
-			<related>Primal Wellspring</related>			
+		</card>		
+		<card>			
+			<name>Primal Wellspring</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_nwpo11MmZ6.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>4</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Primal Amulet.)
+{T}: Add one mana of any color to your mana pool. When that mana is used to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.</text>			
 		</card>		
 		<card>			
 			<name>Deadeye Quartermaster</name>			
@@ -3086,9 +3156,43 @@ Whenever you cast a creature spell of the chosen type, draw a card.</text>
 			<cmc>4</cmc>			
 			<color>R</color>			
 			<type>Creature — Human Pirate</type>			
+			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>Trample
 When Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type are discarded this way, put two +1/+1 counters on Rowdy Crew.</text>			
+		</card>		
+		<card>			
+			<name>Arcane Adapation</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_uRA1svXM1W.png" rarity="Rare">XLN</set>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>As Arcane Adaptation enters the battlefield, choose a creature type.
+Creatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren’t on the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Daring Saboteur</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_Z9vnrlQdDI.png" rarity="Rare">XLN</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{2}{U}: Daring Saboteur can’t be blocked this turn.
+Whenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card.</text>			
+		</card>		
+		<card>			
+			<name>Sorcerous Spyglass</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_SCFDEAyX2B.png" rarity="Rare">XLN</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>As Sorcerous Spyglass enters the battlefield, look at an opponent’s hand, then choose any card name.
+Activated abilities of sources with the chosen name can’t be activated unless their mana abilities.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>

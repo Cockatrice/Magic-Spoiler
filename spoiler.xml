@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sat, Sep 16 2017, 17:40:35 (UTC)
+        created: Sun, Sep 17 2017, 13:26:39 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -1149,34 +1149,26 @@ Draw a card.</text>
 		</card>		
 		<card>			
 			<name>Spitfire Bastion</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/972/636409978728759149.png" rarity="Rare">XLN</set>			
-			<related>Vance's Blasting Cannons</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_9nQVcgTYrC.png" rarity="Rare">XLN</set>			
 			<manacost/>			
-			<cmc>0</cmc>			
+			<cmc>4</cmc>			
 			<type>Legendary Land</type>			
 			<tablerow>0</tablerow>			
-			<text>(Transforms from Vance's Blasting Cannons.)
-
+			<text>(Transforms from Vance’s Blasting Cannons.)
 {T}: Add {R} to your mana pool.
-
-{2}{R}, {T}: Spitfire Bastion deals 3 damage to target creature or player.
-
-(Related: Vance's Blasting Cannons)</text>			
+{2}{R}, {T}: Spitfire Bastion deals 3 damage to target creature or player.</text>			
 		</card>		
 		<card>			
 			<name>Vance's Blasting Cannons</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/971/636409974760970975.jpeg" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5KrvPa90aV.png" rarity="Rare">XLN</set>			
 			<color>R</color>			
-			<related>Spitfire Bastion</related>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
 			<type>Legendary Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>At the beginning of your upkeep, exile the top card of your library. If it's a nonland card, you may cast that card this turn.
 
-Whenever you cast your third spell in a turn, transform Vance's Blasting Cannons.
-
-(Related: Spitfire Bastion)</text>			
+Whenever you cast your third spell in a turn, transform Vance's Blasting Cannons.</text>			
 		</card>		
 		<card>			
 			<name>Perilous Voyage</name>			
@@ -1454,21 +1446,17 @@ At the beginning of your end step, create a colorless Treasure artifact token wi
 		</card>		
 		<card>			
 			<name>Lost Vale</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/592/636407197460257871.png" rarity="Rare">XLN</set>			
-			<related>Dowsing Dagger</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_cINU9LtjbR.png" rarity="Rare">XLN</set>			
 			<manacost/>			
-			<cmc>0</cmc>			
+			<cmc>2</cmc>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>(Transforms from Dowsing Dagger.)
-{T}: Add three mana of any one color to your mana pool.
-
-(Related: Dowsing Dagger)</text>			
+{T}: Add three mana of any one color to your mana pool.</text>			
 		</card>		
 		<card>			
 			<name>Dowsing Dagger</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/591/636407196622261397.png" rarity="Rare">XLN</set>			
-			<related>Lost Vale</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_E3ZKnSXbJa.png" rarity="Rare">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact — Equipment</type>			
@@ -1476,38 +1464,30 @@ At the beginning of your end step, create a colorless Treasure artifact token wi
 			<text>When Dowsing Dagger enters the battlefield,  target opponent creates two 0/2 green Plant creature tokens with defender.
 Equipped creature gets +2/+1.
 Whenever equipped creature deals combat damage to a player, you may transform Dowsing Dagger.
-Equip {2}
-
-(Related: Lost Vale)</text>			
+Equip {2}</text>			
 		</card>		
 		<card>			
 			<name>Adanto, the First Fort</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/590/636407179956434592.png" rarity="Rare">XLN</set>			
-			<related>Legion's Landing</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_smfibkFjaT.png" rarity="Rare">XLN</set>			
 			<manacost/>			
-			<cmc>0</cmc>			
+			<cmc>1</cmc>			
 			<type>Legendary Land</type>			
 			<tablerow>0</tablerow>			
-			<text>(Transforms from Legion's Landing.)
-{T}: Add {W} to your mana pool.
-{2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.
-
-(Related: Legion's Landing)</text>			
+			<text>(Transforms from Legion’s Landing.)
+{T}: Add W to your mana pool.
+{2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.</text>			
 		</card>		
 		<card>			
 			<name>Legion's Landing</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/589/636407178986902544.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ELsHk8phhf.png" rarity="Rare">XLN</set>			
 			<color>W</color>			
-			<related>Adanto, the First Fort</related>			
 			<manacost>W</manacost>			
 			<cmc>1</cmc>			
 			<type>Legendary Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>When Legion's Landing enters the battlefield, create a 1/1 white Vampire creature token with lifelink.
 
-When you attack with three or more creatures, transform Legion's Landing.
-
-(Related: Adanto, the First Fort)</text>			
+When you attack with three or more creatures, transform Legion's Landing.</text>			
 		</card>		
 		<card>			
 			<name>Snapping Sailback</name>			
@@ -1707,23 +1687,20 @@ Counter target spell unless its controller pays {4}.</text>
 		</card>		
 		<card>			
 			<name>Itlimoc, Cradle of the Sun</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/562/636404784908356408.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_NyYNyTtDLS.png" rarity="Rare">XLN</set>			
 			<related>Growing Rites of Itlimoc</related>			
 			<manacost/>			
-			<cmc>0</cmc>			
+			<cmc>3</cmc>			
 			<type>Legendary Land</type>			
 			<tablerow>0</tablerow>			
-			<text>(Transforms from Growing Rites of Itlimoc.)
-
-{T}: Add {G} to your mana pool.
-
+			<text>Add {G} to your mana pool.
 {T}: Add {G} to your mana pool for each creature you control.
 
 (Related: Growing Rites of Itlimoc)</text>			
 		</card>		
 		<card>			
 			<name>Growing Rites of Itlimoc</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/561/636404783960614410.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5MpazyK4wb.png" rarity="Rare">XLN</set>			
 			<color>G</color>			
 			<related>Itlimoc, Cradle of the Sun</related>			
 			<manacost>2G</manacost>			
@@ -1829,19 +1806,14 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 		</card>		
 		<card>			
 			<name>Temple of Aclazotz</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/501/636403739718439816.jpeg" rarity="Rare">XLN</set>			
-			<related>Arguel's Blood Fast</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_0S9PAxGw5M.png" rarity="Rare">XLN</set>			
 			<manacost/>			
-			<cmc>0</cmc>			
+			<cmc>2</cmc>			
 			<type>Legendary Land</type>			
 			<tablerow>0</tablerow>			
-			<text>(Transforms from Arguel's Blood Fast.)
-
+			<text>(Transforms from Arguel’s Blood Fast.)
 {T}: Add {B} to your mana pool.
-
-{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness .
-
-(Related: Arguel's Blood Fast)</text>			
+{T}, Sacrifice a creature: you gain life equal to the sacrificed creature’s toughness.</text>			
 		</card>		
 		<card>			
 			<name>Ravenous Daggertooth</name>			
@@ -1856,18 +1828,15 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 		</card>		
 		<card>			
 			<name>Arguel's Blood Fast</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/883/636408077971219470.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_ZgO00izum6.png" rarity="Rare">XLN</set>			
 			<color>B</color>			
-			<related>Temple of Aclazotz</related>			
 			<manacost>1B</manacost>			
 			<cmc>2</cmc>			
 			<type>Legendary Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>{1}{B}, Pay 2 life: Draw a card.
 
-At the beginning of your upkeep, if you have 5 or less life, you may transform Arguel's Blood Fast.
-
-(Related: Temple of Aclazotz)</text>			
+At the beginning of your upkeep, if you have 5 or less life, you may transform Arguel's Blood Fast.</text>			
 		</card>		
 		<card>			
 			<name>Spell Pierce</name>			
@@ -2026,59 +1995,47 @@ When Kitesail Freebooter enters the battlefield, target opponent reveals his or 
 		</card>		
 		<card>			
 			<name>Spires of Orazca</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/432/636402031913028319.png" rarity="Rare">XLN</set>			
-			<related>Thaumatic Compass</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_SGiJXW9Dw5.png" rarity="Rare">XLN</set>			
 			<manacost/>			
-			<cmc>0</cmc>			
+			<cmc>2</cmc>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>(Transforms from Thaumatic Compass.)
 {T}: Add {C} to your mana pool.
-{T}: Untap target attacking creature an opponent controls and remove it from combat.
-
-(Related: Thaumatic Compass)</text>			
+{T}: Untap target attacking creature an opponent controls and remove it from combat.</text>			
 		</card>		
 		<card>			
 			<name>Thaumatic Compass</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/431/636402030772132265.png" rarity="Rare">XLN</set>			
-			<related>Spires of Orazca</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_5tOynBtb9Y.png" rarity="Rare">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact</type>			
 			<tablerow>1</tablerow>			
 			<text>{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
-At the beginning of your end step, if you control seven or more lands, transform Thaumatic Compass.
-
-(Related: Spires of Orazca)</text>			
+At the beginning of your end step, if you control seven or more lands, transform Thaumatic Compass.</text>			
 		</card>		
 		<card>			
 			<name>Conqueror's Foothold</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/429/636402013670334353.png" rarity="Rare">XLN</set>			
-			<related>Conqueror's Galleon</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_AtEtI4P4mo.png" rarity="Rare">XLN</set>			
 			<manacost/>			
-			<cmc>0</cmc>			
+			<cmc>4</cmc>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
-			<text>(Transforms from Conqueror's Galleon.)
+			<text>(Transforms from Conqueror’s Galleon.)
 {T}: Add {C} to your mana pool.
 {2}, {T}: Draw a card, then discard a card.
 {4}, {T}: Draw a card.
-{6}, {T}: Return target card from your graveyard to your hand.
-
-(Related: Conqueror's Galleon)</text>			
+{6}, {T}: Return target card from your graveyard to your hand.</text>			
 		</card>		
 		<card>			
 			<name>Conqueror's Galleon</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/428/636402012420241420.png" rarity="Rare">XLN</set>			
-			<related>Conqueror's Foothold</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_8wskFlvdlC.png" rarity="Rare">XLN</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact — Vehicle</type>			
 			<tablerow>1</tablerow>			
 			<text>When Conqueror's Galleon attacks, exile it at end of combat, then return it to the battlefield transformed.
-Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)
-
-(Related: Conqueror's Foothold)</text>			
+Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>			
 		</card>		
 		<card>			
 			<name>Wildgrowth Walker</name>			
@@ -2152,31 +2109,24 @@ Crew 4 (Tap any number of creatures with total power 4 or more: This Vehicle bec
 		</card>		
 		<card>			
 			<name>Primal Amulet</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/410/636401187279049993.png" rarity="Rare">XLN</set>			
-			<related>Primal Wellspring</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_hz81cQLpKQ.png" rarity="Rare">XLN</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact</type>			
 			<tablerow>1</tablerow>			
 			<text>Instant and sorcery spells you cast cost {1} less to cast.
 
-Whenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.
-
-(Related: Primal Wellspring)</text>			
+Whenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.</text>			
 		</card>		
 		<card>			
 			<name>Primal Wellspring</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/409/636401184205869891.png" rarity="Rare">XLN</set>			
-			<related>Primal Amulet</related>			
+			<set picURL="https://media.wizards.com/2017/xln/en_nwpo11MmZ6.png" rarity="Rare">XLN</set>			
 			<manacost/>			
-			<cmc>0</cmc>			
+			<cmc>4</cmc>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>(Transforms from Primal Amulet.)
-
-{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.
-
-(Related: Primal Amulet)</text>			
+{T}: Add one mana of any color to your mana pool. When that mana is used to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.</text>			
 		</card>		
 		<card>			
 			<name>Deadeye Quartermaster</name>			
@@ -3258,9 +3208,53 @@ Whenever you cast a creature spell of the chosen type, draw a card.</text>
 			<manacost>2RR</manacost>			
 			<cmc>4</cmc>			
 			<type>Creature — Human Pirate</type>			
+			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>Trample
 When Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type are discarded this way, put two +1/+1 counters on Rowdy Crew.</text>			
+		</card>		
+		<card>			
+			<name>Arcane Adapation</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_uRA1svXM1W.png" rarity="Rare">XLN</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>As Arcane Adaptation enters the battlefield, choose a creature type.
+Creatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren’t on the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Daring Saboteur</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_Z9vnrlQdDI.png" rarity="Rare">XLN</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{2}{U}: Daring Saboteur can’t be blocked this turn.
+Whenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card.</text>			
+		</card>		
+		<card>			
+			<name>Sorcerous Spyglass</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_SCFDEAyX2B.png" rarity="Rare">XLN</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>As Sorcerous Spyglass enters the battlefield, look at an opponent’s hand, then choose any card name.
+Activated abilities of sources with the chosen name can’t be activated unless their mana abilities.</text>			
+		</card>		
+		<card>			
+			<name>Azcanta, the Sunken Ruin</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_Ino8szLZ1O.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>2</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {U} to your mana pool.
+{2}{U}, {T}: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
