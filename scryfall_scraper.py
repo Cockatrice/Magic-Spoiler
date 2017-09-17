@@ -3,7 +3,7 @@ import requests
 import time
 
 
-def get_scryfall(setUrl):
+def get_scryfall(setUrl='https://api.scryfall.com/cards/search?q=++e:xln'):
     #getUrl = 'https://api.scryfall.com/cards/search?q=++e:'
     #setUrl = getUrl + code.lower()
     setDone = False
@@ -16,20 +16,24 @@ def get_scryfall(setUrl):
             scryfall.append(setcards['data'])
         else:
             setDone = True
-            # print setUrl
-            # print setcards
             print 'No Scryfall data'
             scryfall = ['']
         time.sleep(.1)
         if setcards.has_key('has_more'):
-            if setcards['has_more'] == True:
+            if setcards['has_more']:
                 setUrl = setcards['next_page']
             else:
                 setDone = True
         else:
+            print 'Scryfall does not "has_more"'
             setDone = True
     if not scryfall[0] == '':
-        scryfall = convert_scryfall(scryfall[0])
+        import json
+        scryfall2 = []
+        for cardarray in scryfall:
+            for card in cardarray:
+                scryfall2.append(card)
+        scryfall = convert_scryfall(scryfall2)
         return {'cards': scryfall}
     else:
         return {'cards': []}
@@ -37,9 +41,31 @@ def get_scryfall(setUrl):
 
 def convert_scryfall(scryfall):
     cards2 = []
+    scryfall2 = []
+    for card in scryfall:
+        if card == "cards" or card == "" or card == []:
+            continue
+        if 'layout' in card and card['layout'] == 'transform':
+            cardNoFaces = {}
+            for key in card:
+                if key != 'card_faces':
+                    cardNoFaces[key] = card[key]
+            cardNoFaces['layout'] = 'double-faced'
+            cardNoFaces['names'] = [card['card_faces'][0]['name'], card['card_faces'][1]['name']]
+            card1 = dict(cardNoFaces.items() + card['card_faces'][0].items())
+            card2 = dict(cardNoFaces.items() + card['card_faces'][1].items())
+            card1['collector_number'] = card1['collector_number'] + 'a'
+            card2['collector_number'] = card2['collector_number'] + 'b'
+            scryfall2.append(card1)
+            scryfall2.append(card2)
+        else:
+            scryfall2.append(card)
+    scryfall = scryfall2
     for card in scryfall:
         card2 = {}
         card2['cmc'] = int(card['cmc'])
+        if 'names' in card:
+            card2['names'] = card['names']
         if card.has_key('mana_cost'):
             card2['manaCost'] = card['mana_cost'].replace(
                 '{', '').replace('}', '')

@@ -59,24 +59,17 @@ mtgsurl: "http://www.mtgsalvation.com/spoilers/185-ixalan"
 mtgscardpath: "http://www.mtgsalvation.com/cards/ixalan/"
 mythicCode: "ixa"
 fullSpoil: false
-# masterpieces:
-#   code: "MPS_?"
-#   name: "Masterpiece Series: ?"
-#   releaseDate: "2017-09-29"
-#   alternativeNames: ["?"]
-#   galleryURL: "?"
-#   additionalCardNames: []
-#   mtgsurl: "?"
-#   mtgscardpath: "?"
+scryfallOnly: false
 ---
 code: "IMA"
 name: "Iconic Masters"
 #block: "?"
-#size: ?
+size: 249
 releaseDate: "2017-11-17"
 type: "masters"
 mtgsurl: ""
 #mtgscardpath: "?"
+scryfallOnly: true
 fullSpoil: false
 noRSS: true
 ---
