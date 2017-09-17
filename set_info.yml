@@ -60,6 +60,7 @@ mtgscardpath: "http://www.mtgsalvation.com/cards/ixalan/"
 mythicCode: "ixa"
 fullSpoil: false
 scryfallOnly: false
+noRSS: true
 ---
 code: "IMA"
 name: "Iconic Masters"
@@ -69,7 +70,7 @@ releaseDate: "2017-11-17"
 type: "masters"
 mtgsurl: ""
 #mtgscardpath: "?"
-scryfallOnly: false
+scryfallOnly: true
 fullSpoil: false
 noRSS: true
 ---
