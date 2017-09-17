@@ -2521,14 +2521,24 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 -5: Create two tokens that are copies of Jace, Cunning Castaway, except they're not legendary.</text>			
 		</card>		
 		<card>			
+			<name>Treasure Cove</name>			
+			<set picURL="https://media.wizards.com/2017/xln/en_bdTtGwdBPz.png" rarity="Rare">XLN</set>			
+			<manacost/>			
+			<cmc>2</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>(Transforms from Treasure Map.)
+{T}: Add {C} to your mana pool.
+{T}, Sacrifice a Treasure: Draw a card.</text>			
+		</card>		
+		<card>			
 			<name>Treasure Map</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/133/195/636395084690034175.png" rarity="Rare">XLN</set>			
+			<set picURL="https://media.wizards.com/2017/xln/en_y4nmM488Eh.png" rarity="Rare">XLN</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact</type>			
 			<tablerow>1</tablerow>			
 			<text>{1}, {T}: Scry1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map and create three colorless Treasure artifact tokens with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
-			<related>Treasure Cove</related>			
 		</card>		
 		<card>			
 			<name>Sword-Point Diplomacy</name>			

@@ -4935,31 +4935,27 @@
         "url":"https://media.wizards.com/2017/xln/en_TEfbSu9pam.png"
       },
       {
-        "cmc":0,
+        "cmc":2,
         "layout":"double-faced",
         "name":"Treasure Cove",
-        "names":[
-          "Treasure Map",
-          "Treasure Cove"
-        ],
         "number":"250b",
         "rarity":"Rare",
-        "text":"(Transforms from Treasure Map.)\n{T}: Add {C} to your mana pool\n{T}, Sacrifice a Treasure: Draw a card.",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"(Transforms from Treasure Map.)\n{T}: Add {C} to your mana pool.\n{T}, Sacrifice a Treasure: Draw a card.",
         "type":"Land",
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/196/636395088027328347.png"
+        "url":"https://media.wizards.com/2017/xln/en_bdTtGwdBPz.png"
       },
       {
         "cmc":2,
         "layout":"double-faced",
         "manaCost":"2",
         "name":"Treasure Map",
-        "names":[
-          "Treasure Map",
-          "Treasure Cove"
-        ],
         "number":"250a",
         "rarity":"Rare",
         "text":"{1}, {T}: Scry1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map and create three colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
@@ -4967,7 +4963,7 @@
         "types":[
           "Artifact"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/133/195/636395084690034175.png"
+        "url":"https://media.wizards.com/2017/xln/en_y4nmM488Eh.png"
       },
       {
         "cmc":3,
