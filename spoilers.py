@@ -427,8 +427,9 @@ def write_xml(mtgjson, code, name, releaseDate):
     # print mtgjson
     for card in mtgjson["cards"]:
         if 'names' in card:
-            if card["name"] == card['names'][1]:
-                continue
+            if 'layout' in card and card['layout'] != 'double-faced': 
+                if card["name"] == card['names'][1]:
+                    continue
         if count == 0:
             newest = card["name"]
         count += 1
