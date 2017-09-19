@@ -30,7 +30,8 @@ cd ..
 # Clean out existing contents
 rm -rf out/**/* || exit 0
 
-# Run our compile script
+# Run our compile script and let user know in logs
+echo "Running script..."
 doCompile
 
 echo TRAVIS_PULL_REQUEST ${TRAVIS_PULL_REQUEST}
