@@ -9,7 +9,7 @@ Just looking for XML or JSON files?  [They are in our `files` branch!](https://g
 When run by Travis, the script automatically updates the files and uploads new versions there. ([History of changes](https://github.com/Cockatrice/Magic-Spoiler/commits/files))<br>
 Travis CI is run daily on a cron job basis.
 
-## Errors ##
+## Errors ## 
 Noticed an error?  Check out our [Contributing file](https://github.com/Cockatrice/Magic-Spoiler/blob/master/.github/CONTRIBUTING.md) for information on how to help!
 
 ## Running ##
