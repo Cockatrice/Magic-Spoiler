@@ -80,7 +80,16 @@ def convert_scryfall(scryfall):
                 u"\u2014", '-').replace(u"\u2212", "-")
         else:
             card2['text'] = ''
-        card2['url'] = card['image_uri']
+        if 'image_uri' in card:
+            card2['url'] = card['image_uri']
+        else if 'image_uris' in card:
+            if 'large' in card['image_uris']:
+                card2['url'] = card['image_uris']['large']
+            else if 'normal' in card['image_uris']:
+                card2['url'] = card['image_uris']['normal']
+            else if 'small' in card['image_uris']:
+                card2['url'] = card['image_uris']['small']
+                
         if not 'type_line' in card:
             card['type_line'] = 'Unknown'
         card2['type'] = card['type_line'].replace(u'—', '-')
