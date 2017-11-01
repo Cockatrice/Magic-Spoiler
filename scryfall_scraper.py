@@ -82,12 +82,12 @@ def convert_scryfall(scryfall):
             card2['text'] = ''
         if 'image_uri' in card:
             card2['url'] = card['image_uri']
-        else if 'image_uris' in card:
+        elif 'image_uris' in card:
             if 'large' in card['image_uris']:
                 card2['url'] = card['image_uris']['large']
-            else if 'normal' in card['image_uris']:
+            elif 'normal' in card['image_uris']:
                 card2['url'] = card['image_uris']['normal']
-            else if 'small' in card['image_uris']:
+            elif 'small' in card['image_uris']:
                 card2['url'] = card['image_uris']['small']
                 
         if not 'type_line' in card:
