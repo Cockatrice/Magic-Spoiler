@@ -5,6 +5,7 @@ SOURCE_BRANCH="master"
 TARGET_BRANCH="files"
 
 function doCompile {
+    echo "Running script..."
     python main.py dumpXML=True
 }
 
@@ -12,7 +13,6 @@ function doCompile {
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
     echo "Skipping deploy; just doing a build."
     # Run our compile script and let user know in logs
-    echo "Running script..."
     doCompile
     exit 0
 fi
@@ -33,7 +33,6 @@ cd ..
 rm -rf out/**/* || exit 0
 
 # Run our compile script and let user know in logs
-echo "Running script..."
 doCompile
 
 echo TRAVIS_PULL_REQUEST ${TRAVIS_PULL_REQUEST}
