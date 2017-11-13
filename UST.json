@@ -1,0 +1,231 @@
+{
+  "booster":[
+    [
+      [
+        "rare",
+        "mythic rare"
+      ],
+      "uncommon",
+      "uncommon",
+      "uncommon",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "land",
+      "marketing"
+    ]
+  ],
+  "border":"black",
+  "cards":[
+    {
+      "cmc":1,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"B",
+      "name":"Hangman",
+      "number":"56",
+      "power":"1",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Villain"
+      ],
+      "text":"As Hangman enters the battlefield, secretly note a word with six to eight letters.\n{1}: Target player who doesn't control Hangman guesses the noted word or an unguessed letter in that word. If he or she guesses wrong, put a +1/+1 counter on Hangman. Any player may activate this ability.\nWhen a player guesses the noted word or all of its letters, sacrifice Hangman.",
+      "toughness":"1",
+      "type":"Creature — Human Villain",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/hangman.jpg"
+    },
+    {
+      "cmc":0,
+      "name":"Bee-Bee Gun",
+      "number":"171",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Contraption"
+      ],
+      "text":"When you crank Bee-Bee Gun, until end of turn, target creature gains \"{2}: This creature fights another target creature.\"",
+      "type":"Artifact — Contraption",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/beebeegun.jpg"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"3RR",
+      "name":"Steamflogger of the Month",
+      "number":"94",
+      "power":"3",
+      "rarity":"Rare",
+      "subtypes":[
+        "Goblin",
+        "Rigger"
+      ],
+      "text":"When Steamflogger of the Month enters the battlefield, it assembles a Contraption for each Contraption you control. (To assemble a Contraption, put the top card of your Contraption deck onto one of your sprockets.)",
+      "toughness":"3",
+      "type":"Creature — Goblin Rigger",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/steamfloggerofthemonth.jpg"
+    },
+    {
+      "cmc":0,
+      "name":"Genetic Recombinator",
+      "number":"182",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Contraption"
+      ],
+      "text":"Whenever you crank Genetic Recombinator, up to two target creatures each get +2/+2 until end of turn.",
+      "type":"Artifact — Contraption",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/geneticrecombinator.jpg"
+    },
+    {
+      "cmc":6,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"5B",
+      "name":"Finders, Keepers",
+      "number":"55",
+      "rarity":"Common",
+      "text":"Destroy target creature, then assemble a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/finderskeepers.jpg"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"3W",
+      "name":"Aerial Toastmaster",
+      "number":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Cyborg",
+        "Rigger"
+      ],
+      "text":"Flying\n{3}{W}, Sacrifice another artifact: Aerial Toastmaster assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+      "type":"Artifact Creature — Cyborg Rigger",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/aerialtoastmaster.jpg"
+    },
+    {
+      "cmc":0,
+      "name":"Dogsnail Engine",
+      "number":"178",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Contraption"
+      ],
+      "text":"Whenever you crank Dogsnail Engine, target player gains life equal to the greatest power among creatures you control.",
+      "type":"Artifact — Contraption",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/dogsnailengine.jpg"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"3R",
+      "name":"Steamflogger Boss",
+      "number":"93",
+      "power":"3",
+      "rarity":"Rare",
+      "subtypes":[
+        "Goblin",
+        "Rigger"
+      ],
+      "text":"Other Riggers you control get +1/+0 and have haste.\n\nIf a Rigger you control would assemble a Contraption, it assembles two Contraptions instead.",
+      "toughness":"3",
+      "type":"Creature — Goblin Rigger",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://media.wizards.com/2017/ust/en_K8Y7JeHzEG.png"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "R"
+      ],
+      "name":"Mountain",
+      "number":"215",
+      "rarity":"Basic Land",
+      "subtypes":[
+        "Mountain"
+      ],
+      "text":"{T}: Add {R} to your mana pool.",
+      "type":"Basic Land — Mountain",
+      "types":[
+        "Land"
+      ],
+      "url":"https://media.wizards.com/2017/ust/en_uC6z8IcWFv.png"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "B"
+      ],
+      "name":"Swamp",
+      "number":"214",
+      "rarity":"Basic Land",
+      "subtypes":[
+        "Swamp"
+      ],
+      "text":"{T}: Add {B} to your mana pool.",
+      "type":"Basic Land — Swamp",
+      "types":[
+        "Land"
+      ],
+      "url":"https://media.wizards.com/2017/ust/en_zp68lneUAm.png"
+    }
+  ],
+  "code":"UST",
+  "name":"Unstable",
+  "releaseDate":"2017-12-08",
+  "type":"un"
+}
