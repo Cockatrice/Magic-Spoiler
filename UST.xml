@@ -9,8 +9,104 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Boomflinger</name>			
+			<set picURL="http://mythicspoiler.com/ust/cards/boomflinger.jpg" rarity="Common">UST</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Artifact — Contraption</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever you crank Boomflinger, roll two six-sided dice. Boomflinger deals damage to target player equalto the difference between those results.</text>			
+		</card>		
+		<card>			
+			<name>Division Table</name>			
+			<set picURL="http://mythicspoiler.com/ust/cards/divisiontable.jpg" rarity="Common">UST</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Artifact — Contraption</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever you crank Division Table, target player loses 2 life.</text>			
+		</card>		
+		<card>			
+			<name>Spike, Tournament Grinder</name>			
+			<set picURL="http://mythicspoiler.com/ust/cards/spiketournamentgrinder.jpg" rarity="Rare">UST</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Creature — Human Gamer</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>({(}{B}{/}{P}{)} can be paid with {B} or 2 life)
+{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}: Choose a card you own from outside the game that has been banned or restricted in a Constructed format, reveal that card and put it into your hand.</text>			
+		</card>		
+		<card>			
+			<name>Ineffable Blessing</name>			
+			<set picURL="http://mythicspoiler.com/ust/cards/ineffableblessing.jpg" rarity="Rare">UST</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>As Ineffable Blessing enters the battlefield, choose Flavorful or Bland.
+
+• Flavorful - Whenever a creature with flavor text enters the battlefield under your control, draw a card.
+
+• Bland - Whenever a creature without flavor text enters the battlefield under your control, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Do-It-Yourself Seraph</name>			
+			<set picURL="http://mythicspoiler.com/ust/cards/doityourselfseraph.jpg" rarity="Mythic Rare">UST</set>			
+			<manacost>4WW</manacost>			
+			<cmc>6</cmc>			
+			<color>W</color>			
+			<type>Artifact Creature — Cyborg Angel</type>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever Do-It-Yourself Seraph attacks, you may search your library for an artifact card, exile it, then shuffle your library.
+Do-It-Yourself Seraph has the text box of each card exiled with Do-It-Yourself Seraph in addition to its own.</text>			
+		</card>		
+		<card>			
+			<name>Steamflogger Service Rep</name>			
+			<set picURL="http://mythicspoiler.com/ust/cards/steamfloggerservicerep.jpg" rarity="Uncommon">UST</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Goblin Rigger</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever another Goblin enters the battlefield under your control you may pay {1}. If you do, Steamflogger Service Rep assembles a contraption</text>			
+		</card>		
+		<card>			
+			<name>capital offense</name>			
+			<set picURL="" rarity="Common">UST</set>			
+			<manacost>2BB</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>target creature gets -x/-x until end of turn, where x is the number of times a capital letter appears in its rules text. (ignore reminder text and flavor text.)</text>			
+		</card>		
+		<card>			
+			<name>Squirrel-Powered Scheme</name>			
+			<set picURL="http://mythicspoiler.com/ust/cards/squirrelpoweredscheme.jpg" rarity="Uncommon">UST</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Increase the result of each die you roll by 2.</text>			
+		</card>		
+		<card>			
+			<name>Summon the Pack</name>			
+			<set picURL="https://media.wizards.com/2017/ust/en_u31LIYACyT.png" rarity="Mythic Rare">UST</set>			
+			<manacost>7B</manacost>			
+			<cmc>8</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Open a sealed Magic booster pack, reveal the cards, and put all creature cards revealed this way onto the battlefield under your control. They're Zombies in addition to their other types. (Remove those cards from your deck before starting a new game.)</text>			
+		</card>		
+		<card>			
 			<name>Hangman</name>			
-			<set picURL="http://mythicspoiler.com/ust/cards/hangman.jpg" rarity="Rare">UST</set>			
+			<set picURL="https://media.wizards.com/2017/ust/en_iF8RcULPBT.png" rarity="Rare">UST</set>			
 			<manacost>B</manacost>			
 			<cmc>1</cmc>			
 			<color>B</color>			
@@ -23,7 +119,7 @@ When a player guesses the noted word or all of its letters, sacrifice Hangman.</
 		</card>		
 		<card>			
 			<name>Bee-Bee Gun</name>			
-			<set picURL="http://mythicspoiler.com/ust/cards/beebeegun.jpg" rarity="Mythic Rare">UST</set>			
+			<set picURL="https://media.wizards.com/2017/ust/en_lJdKdsFDTl.png" rarity="Mythic Rare">UST</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Artifact — Contraption</type>			
@@ -32,7 +128,7 @@ When a player guesses the noted word or all of its letters, sacrifice Hangman.</
 		</card>		
 		<card>			
 			<name>Steamflogger of the Month</name>			
-			<set picURL="http://mythicspoiler.com/ust/cards/steamfloggerofthemonth.jpg" rarity="Rare">UST</set>			
+			<set picURL="https://media.wizards.com/2017/ust/en_8JvXjVXG2H.png" rarity="Rare">UST</set>			
 			<manacost>3RR</manacost>			
 			<cmc>5</cmc>			
 			<color>R</color>			
@@ -43,7 +139,7 @@ When a player guesses the noted word or all of its letters, sacrifice Hangman.</
 		</card>		
 		<card>			
 			<name>Genetic Recombinator</name>			
-			<set picURL="http://mythicspoiler.com/ust/cards/geneticrecombinator.jpg" rarity="Uncommon">UST</set>			
+			<set picURL="https://media.wizards.com/2017/ust/en_dhR2uBQcIj.png" rarity="Uncommon">UST</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Artifact — Contraption</type>			
@@ -52,7 +148,7 @@ When a player guesses the noted word or all of its letters, sacrifice Hangman.</
 		</card>		
 		<card>			
 			<name>Finders, Keepers</name>			
-			<set picURL="http://mythicspoiler.com/ust/cards/finderskeepers.jpg" rarity="Common">UST</set>			
+			<set picURL="https://media.wizards.com/2017/ust/en_3T4fQT7lTe.png" rarity="Common">UST</set>			
 			<manacost>5B</manacost>			
 			<cmc>6</cmc>			
 			<color>B</color>			
@@ -62,7 +158,7 @@ When a player guesses the noted word or all of its letters, sacrifice Hangman.</
 		</card>		
 		<card>			
 			<name>Aerial Toastmaster</name>			
-			<set picURL="http://mythicspoiler.com/ust/cards/aerialtoastmaster.jpg" rarity="Uncommon">UST</set>			
+			<set picURL="https://media.wizards.com/2017/ust/en_NXu8H09XiH.png" rarity="Uncommon">UST</set>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
 			<color>W</color>			
@@ -73,7 +169,7 @@ When a player guesses the noted word or all of its letters, sacrifice Hangman.</
 		</card>		
 		<card>			
 			<name>Dogsnail Engine</name>			
-			<set picURL="http://mythicspoiler.com/ust/cards/dogsnailengine.jpg" rarity="Uncommon">UST</set>			
+			<set picURL="https://media.wizards.com/2017/ust/en_DMAbuaaS8i.png" rarity="Uncommon">UST</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Artifact — Contraption</type>			

@@ -25,6 +25,182 @@
   "border":"black",
   "cards":[
     {
+      "cmc":0,
+      "name":"Boomflinger",
+      "number":"172",
+      "rarity":"Common",
+      "subtypes":[
+        "Contraption"
+      ],
+      "text":"Whenever you crank Boomflinger, roll two six-sided dice. Boomflinger deals damage to target player equalto the difference between those results.",
+      "type":"Artifact — Contraption",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/boomflinger.jpg"
+    },
+    {
+      "cmc":0,
+      "name":"Division Table",
+      "number":"177",
+      "rarity":"Common",
+      "subtypes":[
+        "Contraption"
+      ],
+      "text":"Whenever you crank Division Table, target player loses 2 life.",
+      "type":"Artifact — Contraption",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/divisiontable.jpg"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "B"
+      ],
+      "name":"Spike, Tournament Grinder",
+      "number":"69",
+      "power":"1",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Gamer"
+      ],
+      "text":"({(}{B}{/}{P}{)} can be paid with {B} or 2 life)\n{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}: Choose a card you own from outside the game that has been banned or restricted in a Constructed format, reveal that card and put it into your hand.",
+      "toughness":"1",
+      "type":"Legendary Creature — Human Gamer",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/spiketournamentgrinder.jpg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1G",
+      "name":"Ineffable Blessing",
+      "number":"113",
+      "rarity":"Rare",
+      "text":"As Ineffable Blessing enters the battlefield, choose Flavorful or Bland.\n\n• Flavorful - Whenever a creature with flavor text enters the battlefield under your control, draw a card.\n\n• Bland - Whenever a creature without flavor text enters the battlefield under your control, draw a card.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/ineffableblessing.jpg"
+    },
+    {
+      "cmc":6,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"4WW",
+      "name":"Do-It-Yourself Seraph",
+      "number":"6",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Cyborg",
+        "Angel"
+      ],
+      "text":"Flying\nWhenever Do-It-Yourself Seraph attacks, you may search your library for an artifact card, exile it, then shuffle your library.\nDo-It-Yourself Seraph has the text box of each card exiled with Do-It-Yourself Seraph in addition to its own.",
+      "type":"Artifact Creature — Cyborg Angel",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/doityourselfseraph.jpg"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"2G",
+      "name":"Steamflogger Service Rep",
+      "number":"124",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Goblin",
+        "Rigger"
+      ],
+      "text":"Whenever another Goblin enters the battlefield under your control you may pay {1}. If you do, Steamflogger Service Rep assembles a contraption",
+      "toughness":"1",
+      "type":"Creature — Goblin Rigger",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/steamfloggerservicerep.jpg"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"2BB",
+      "name":"capital offense",
+      "number":"52",
+      "rarity":"Common",
+      "text":"target creature gets -x/-x until end of turn, where x is the number of times a capital letter appears in its rules text. (ignore reminder text and flavor text.)",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":""
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"2B",
+      "name":"Squirrel-Powered Scheme",
+      "number":"70",
+      "rarity":"Uncommon",
+      "text":"Increase the result of each die you roll by 2.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/squirrelpoweredscheme.jpg"
+    },
+    {
+      "cmc":8,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"7B",
+      "name":"Summon the Pack",
+      "number":"74",
+      "rarity":"Mythic Rare",
+      "text":"Open a sealed Magic booster pack, reveal the cards, and put all creature cards revealed this way onto the battlefield under your control. They're Zombies in addition to their other types. (Remove those cards from your deck before starting a new game.)",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://media.wizards.com/2017/ust/en_u31LIYACyT.png"
+    },
+    {
       "cmc":1,
       "colorIdentity":[
         "B"
@@ -47,7 +223,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://mythicspoiler.com/ust/cards/hangman.jpg"
+      "url":"https://media.wizards.com/2017/ust/en_iF8RcULPBT.png"
     },
     {
       "cmc":0,
@@ -62,7 +238,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://mythicspoiler.com/ust/cards/beebeegun.jpg"
+      "url":"https://media.wizards.com/2017/ust/en_lJdKdsFDTl.png"
     },
     {
       "cmc":5,
@@ -87,7 +263,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://mythicspoiler.com/ust/cards/steamfloggerofthemonth.jpg"
+      "url":"https://media.wizards.com/2017/ust/en_8JvXjVXG2H.png"
     },
     {
       "cmc":0,
@@ -102,7 +278,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://mythicspoiler.com/ust/cards/geneticrecombinator.jpg"
+      "url":"https://media.wizards.com/2017/ust/en_dhR2uBQcIj.png"
     },
     {
       "cmc":6,
@@ -121,7 +297,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"http://mythicspoiler.com/ust/cards/finderskeepers.jpg"
+      "url":"https://media.wizards.com/2017/ust/en_3T4fQT7lTe.png"
     },
     {
       "cmc":4,
@@ -145,7 +321,7 @@
         "Artifact",
         "Creature"
       ],
-      "url":"http://mythicspoiler.com/ust/cards/aerialtoastmaster.jpg"
+      "url":"https://media.wizards.com/2017/ust/en_NXu8H09XiH.png"
     },
     {
       "cmc":0,
@@ -160,7 +336,7 @@
       "types":[
         "Artifact"
       ],
-      "url":"http://mythicspoiler.com/ust/cards/dogsnailengine.jpg"
+      "url":"https://media.wizards.com/2017/ust/en_DMAbuaaS8i.png"
     },
     {
       "cmc":4,
