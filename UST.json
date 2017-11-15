@@ -25,6 +25,50 @@
   "border":"black",
   "cards":[
     {
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1G",
+      "name":"Selfie Preservation",
+      "number":"?",
+      "rarity":"Common",
+      "text":"Search your library for a basic land card and reveal it. If there's a tree in its art, put it on the battlefield tapped. Otherwise put it into your hand. Then shuffle your library.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/selfiepreservation.jpg"
+    },
+    {
+      "cmc":5,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"4R",
+      "name":"Party Crasher",
+      "number":"92",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Goblin",
+        "Bezerker"
+      ],
+      "text":"Haste\nYou can attack with Party Crasher once each combat during each opponent's turn.",
+      "toughness":"3",
+      "type":"Creature — Goblin Bezerker",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://mythicspoiler.com/ust/cards/partycrasher.jpg"
+    },
+    {
       "cmc":0,
       "name":"Boomflinger",
       "number":"172",
@@ -32,7 +76,7 @@
       "subtypes":[
         "Contraption"
       ],
-      "text":"Whenever you crank Boomflinger, roll two six-sided dice. Boomflinger deals damage to target player equalto the difference between those results.",
+      "text":"Whenever you crank Boomflinger, roll two six-sided dice. Boomflinger deals damage to target player equal to the difference between those results.",
       "type":"Artifact — Contraption",
       "types":[
         "Artifact"
@@ -67,7 +111,7 @@
         "Human",
         "Gamer"
       ],
-      "text":"({(}{B}{/}{P}{)} can be paid with {B} or 2 life)\n{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}: Choose a card you own from outside the game that has been banned or restricted in a Constructed format, reveal that card and put it into your hand.",
+      "text":"({(}{B}{/}{P}{)} can be paid with {B} or 2 life.)\n{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}: Choose a card you own from outside the game that has been banned or restricted in a Constructed format, reveal that card, and put it into your hand.",
       "toughness":"1",
       "type":"Legendary Creature — Human Gamer",
       "types":[
@@ -87,7 +131,7 @@
       "name":"Ineffable Blessing",
       "number":"113",
       "rarity":"Rare",
-      "text":"As Ineffable Blessing enters the battlefield, choose Flavorful or Bland.\n\n• Flavorful - Whenever a creature with flavor text enters the battlefield under your control, draw a card.\n\n• Bland - Whenever a creature without flavor text enters the battlefield under your control, draw a card.",
+      "text":"As Ineffable Blessing enters the battlefield, choose Flavorful or Bland.\n\n• Flavorful — Whenever a creature with flavor text enters the battlefield under your control, draw a card.\n\n• Bland — Whenever a creature without flavor text enters the battlefield under your control, draw a card.",
       "type":"Enchantment",
       "types":[
         "Enchantment"
@@ -135,7 +179,7 @@
         "Goblin",
         "Rigger"
       ],
-      "text":"Whenever another Goblin enters the battlefield under your control you may pay {1}. If you do, Steamflogger Service Rep assembles a contraption",
+      "text":"Whenever another Goblin enters the battlefield under your control you may pay {1}. If you do, Steamflogger Service Rep assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
       "toughness":"1",
       "type":"Creature — Goblin Rigger",
       "types":[

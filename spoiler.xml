@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Tue, Nov 14 2017, 18:16:53 (UTC)
+        created: Wed, Nov 15 2017, 09:26:50 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -13,13 +13,35 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Selfie Preservation</name>			
+			<set picURL="http://mythicspoiler.com/ust/cards/selfiepreservation.jpg" rarity="Common">UST</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Search your library for a basic land card and reveal it. If there's a tree in its art, put it on the battlefield tapped. Otherwise put it into your hand. Then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Party Crasher</name>			
+			<set picURL="http://mythicspoiler.com/ust/cards/partycrasher.jpg" rarity="Uncommon">UST</set>			
+			<color>R</color>			
+			<manacost>4R</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Goblin Bezerker</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste
+You can attack with Party Crasher once each combat during each opponent's turn.</text>			
+		</card>		
+		<card>			
 			<name>Boomflinger</name>			
 			<set picURL="http://mythicspoiler.com/ust/cards/boomflinger.jpg" rarity="Common">UST</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Artifact — Contraption</type>			
 			<tablerow>1</tablerow>			
-			<text>Whenever you crank Boomflinger, roll two six-sided dice. Boomflinger deals damage to target player equalto the difference between those results.</text>			
+			<text>Whenever you crank Boomflinger, roll two six-sided dice. Boomflinger deals damage to target player equal to the difference between those results.</text>			
 		</card>		
 		<card>			
 			<name>Division Table</name>			
@@ -38,8 +60,8 @@
 			<type>Legendary Creature — Human Gamer</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>({(}{B}{/}{P}{)} can be paid with {B} or 2 life)
-{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}: Choose a card you own from outside the game that has been banned or restricted in a Constructed format, reveal that card and put it into your hand.</text>			
+			<text>({(}{B}{/}{P}{)} can be paid with {B} or 2 life.)
+{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}{(}{B}{/}{P}{)}: Choose a card you own from outside the game that has been banned or restricted in a Constructed format, reveal that card, and put it into your hand.</text>			
 		</card>		
 		<card>			
 			<name>Ineffable Blessing</name>			
@@ -51,9 +73,9 @@
 			<tablerow>1</tablerow>			
 			<text>As Ineffable Blessing enters the battlefield, choose Flavorful or Bland.
 
-• Flavorful - Whenever a creature with flavor text enters the battlefield under your control, draw a card.
+• Flavorful — Whenever a creature with flavor text enters the battlefield under your control, draw a card.
 
-• Bland - Whenever a creature without flavor text enters the battlefield under your control, draw a card.</text>			
+• Bland — Whenever a creature without flavor text enters the battlefield under your control, draw a card.</text>			
 		</card>		
 		<card>			
 			<name>Do-It-Yourself Seraph</name>			
@@ -76,7 +98,7 @@ Do-It-Yourself Seraph has the text box of each card exiled with Do-It-Yourself S
 			<type>Creature — Goblin Rigger</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>Whenever another Goblin enters the battlefield under your control you may pay {1}. If you do, Steamflogger Service Rep assembles a contraption</text>			
+			<text>Whenever another Goblin enters the battlefield under your control you may pay {1}. If you do, Steamflogger Service Rep assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)</text>			
 		</card>		
 		<card>			
 			<name>capital offense</name>			
