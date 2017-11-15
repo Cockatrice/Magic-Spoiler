@@ -12,6 +12,10 @@ import xml.dom.minidom
 def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]):
     mtgjson2 = []
     for card in manual_cards:
+        
+        # XML doesn't like unescaped &
+        card['name'] = card['name'].replace('&','&amp')
+            
         if 'manaCost' in card:
             card['manaCost'] = str(card['manaCost'])
         if 'number' in card:
