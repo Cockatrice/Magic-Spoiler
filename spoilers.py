@@ -433,7 +433,7 @@ def write_xml(mtgjson, code, name, releaseDate):
         if count == 0:
             newest = card["name"]
         count += 1
-        name = card["name"]
+        name = card["name"].replace('& ','&amp ')
         if card.has_key("manaCost"):
             manacost = card["manaCost"].replace('{', '').replace('}', '')
         else:
@@ -692,13 +692,6 @@ def write_combined_xml(mtgjson, setinfos):
 
 
 def pretty_xml(infile):
-    with open(infile,'r') as f:
-        newlines = []
-        for line in f.readlines():
-            newlines.append(line.replace('& ', '&amp '))
-    with open(infile, 'w') as f:
-        for line in newlines:
-            f.write(line)
     # or xml.dom.minidom.parseString(xml_string)
     prettyxml = xml.dom.minidom.parse(infile)
     pretty_xml_as_string = prettyxml.toprettyxml(newl='')
