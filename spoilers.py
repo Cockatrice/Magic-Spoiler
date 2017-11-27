@@ -433,7 +433,7 @@ def write_xml(mtgjson, code, name, releaseDate):
         if count == 0:
             newest = card["name"]
         count += 1
-        name = card["name"]
+        name = card["name"].replace('& ','&amp;')
         if card.has_key("manaCost"):
             manacost = card["manaCost"].replace('{', '').replace('}', '')
         else:
