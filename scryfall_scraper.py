@@ -18,7 +18,7 @@ def get_scryfall(setUrl='https://api.scryfall.com/cards/search?q=++e:xln'):
             setDone = True
             print 'No Scryfall data'
             scryfall = ['']
-        time.sleep(.1)
+        time.sleep(.1)    # 100ms sleep, see "Rate Limits and Good Citizenship" at https://scryfall.com/docs/api
         if setcards.has_key('has_more'):
             if setcards['has_more']:
                 setUrl = setcards['next_page']
