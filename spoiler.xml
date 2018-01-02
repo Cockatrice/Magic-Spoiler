@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Tue, Jan 02 2018, 16:12:24 (UTC)
+        created: Tue, Jan 02 2018, 18:41:52 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,18 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Admiral's Order</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/467/636505110705941053.png" rarity="Rare">RIX</set>			
+			<color>U</color>			
+			<manacost>1UU</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Raid — If you attacked with a creature this turn, you may pay {U} rather than pay this spell's mana cost.
+
+Counter target spell.</text>			
+		</card>		
 		<card>			
 			<name>Jadelight Ranger</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/466/636505057877414865.png" rarity="Rare">RIX</set>			
@@ -96,29 +108,29 @@ At the beginning of your upkeep, each player draws a card. If you have the city'
 			<text>Other Vampires you control get +1/+1.</text>			
 		</card>		
 		<card>			
-			<name>~Ambush from the Water</name>			
-			<set picURL="" rarity="Uncommon">RIX</set>			
+			<name>Aquatic Incursion</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/469/636505132345885797.png" rarity="Uncommon">RIX</set>			
 			<color>U</color>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
-			<text>When Ambush from the Water enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof.
+			<text>When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof.
 
-{3}{U}: Merfolk creatures you control can't be blocked this turn.</text>			
+{3}{U}: Target Merfolk can't be blocked this turn.</text>			
 		</card>		
 		<card>			
-			<name>~Famished Paladin</name>			
-			<set picURL="" rarity="Uncommon">RIX</set>			
+			<name>Famished Paladin</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/470/636505133075054494.png" rarity="Uncommon">RIX</set>			
 			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
 			<type>Creature — Vampire Knight</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
-			<text>~ does not untap during your untap step.
+			<text>Famished Paladin does not untap during your untap step.
 
-Whenever you gain life, untap ~.</text>			
+Whenever you gain life, untap Famished Paladin.</text>			
 		</card>		
 		<card>			
 			<name>Timestream Navigator</name>			
@@ -147,7 +159,7 @@ Whenever you gain life, untap ~.</text>
 		</card>		
 		<card>			
 			<name>Tilonalli's Summoner</name>			
-			<set picURL="" rarity="Rare">RIX</set>			
+			<set picURL="http://mythicspoiler.com/rix/cards/tilonallissummoner.jpg" rarity="Rare">RIX</set>			
 			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
@@ -193,8 +205,8 @@ When Paladin of Atonement dies, you gain life equal to it's toughness.</text>
 			<text>Whenever a Merfolk you controls deals combat damage to a player, draw a card.</text>			
 		</card>		
 		<card>			
-			<name>Shrine Altisaur</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/shrinealtisaur.jpg" rarity="Rare">RIX</set>			
+			<name>Temple Altisaur</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/468/636505131607916278.png" rarity="Rare">RIX</set>			
 			<color>W</color>			
 			<manacost>4W</manacost>			
 			<cmc>5</cmc>			
