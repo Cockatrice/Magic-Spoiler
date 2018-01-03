@@ -26,6 +26,644 @@
   "border":"black",
   "cards":[
     {
+      "cmc":1,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"R",
+      "name":"Fanatical Firebrand",
+      "number":"101",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Goblin",
+        "Pirate"
+      ],
+      "text":"Haste\n{T}, Sacrifice Fanatical Firebrand: It deals one damage to target creature or player.",
+      "toughness":"1",
+      "type":"Creature — Goblin Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/510/636505959502010813.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "U",
+        "R"
+      ],
+      "colors":[
+        "Blue",
+        "Red"
+      ],
+      "manaCost":"1UR",
+      "name":"Protean Raider",
+      "number":"167",
+      "power":"2",
+      "rarity":"Rare",
+      "subtypes":[
+        "Shapeshifter",
+        "Pirate"
+      ],
+      "text":"Raid — If you attacked with a creature this turn, you may have Protean Raider enter the battlefield as a copy of any creature on the battlefield.\n",
+      "toughness":"2",
+      "type":"Creature — Shapeshifter Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/509/636505955966527374.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"UU",
+      "name":"Flood of Recollection",
+      "number":"38",
+      "rarity":"Uncommon",
+      "text":"Return Target instant or sorcery card from your graveyard to your hand. Exile Flood of Recollection.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/505/636505947479813721.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"1B",
+      "name":"Dusk Legion Zealot",
+      "number":"70",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Vampire",
+        "Soldier"
+      ],
+      "text":"When Dusk Legion Zealot enters the battlefield, you draw a card and you lose 1 life.",
+      "toughness":"1",
+      "type":"Creature — Vampire Soldier",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/501/636505940658561838.jpeg"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"2RR",
+      "name":"Rekindling Phoenix",
+      "number":"111",
+      "power":"4",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Phoenix"
+      ],
+      "text":"Flying\nWhen Rekindling Phoenix dies, create a 0/1 red Elemental creature token with \"At the beginning of your upkeep, sacrifice this creature and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn.\"",
+      "toughness":"3",
+      "type":"Creature — Phoenix",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/500/636505934680910765.png"
+    },
+    {
+      "cmc":0,
+      "name":"Gold-Forge Garrison",
+      "number":"179",
+      "rarity":"Rare",
+      "text":"{T}: Add two mana of any one color to your mana pool.\n{4}, {T}: Create a 4/4 colorless Golem artifact creature token.",
+      "type":"Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://mythicspoiler.com/rix/cards/goldforgegarrison.jpg"
+    },
+    {
+      "cmc":4,
+      "layout":"double-faced",
+      "manaCost":"4",
+      "name":"Golden  Guardian",
+      "names":[
+        "Golden  Guardian",
+        "Gold-Forge Garrison"
+      ],
+      "number":"179a",
+      "power":"4",
+      "rarity":"Rare",
+      "subtypes":[
+        "Golem"
+      ],
+      "text":"Defender\n{2}: This creature fights another target creature you  control. When this dies this turn, return it to the battlefield transformed.",
+      "toughness":"4",
+      "type":"Creature — Golem",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
+      "cmc":8,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"6GG",
+      "name":"Polyraptor",
+      "number":"144",
+      "power":"5",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"Enrage — Whenever Polyraptor is dealt damage, create a token that is a copy of Polyraptor",
+      "toughness":"5",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/499/636505927059111742.png"
+    },
+    {
+      "cmc":6,
+      "colorIdentity":[
+        "W",
+        "U"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "manaCost":"2WWUU",
+      "name":"Azor, the Lawbringer",
+      "number":"154",
+      "power":"6",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Sphinx"
+      ],
+      "text":"Flying\n\nWhen Azor, the Lawbringer enters the battlefield, each opponent can't cast instant and sorcery spells during that player's next turn.\n\nWhenever Azor attacks, you may pay {X}{W}{U}{U}. If you do, you may gain X life and draw X cards.",
+      "toughness":"6",
+      "type":"Legendary Creature — Sphinx",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/498/636505920594739984.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"1U",
+      "name":"~Warsail Marauder",
+      "number":"60",
+      "power":"2",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"Flying\n\nWhenever Warsail Marauder attacks, target creature loses all abilities and has base power and toughness 0/1 until end of turn.",
+      "toughness":"1",
+      "type":"Creature — Human Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":""
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1G",
+      "name":"Cherished Hatchling",
+      "number":"124",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"When Cherished Hatchling dies, you may cast Dinosaur spells this turn as though they had flash, and  whenever you cast a Dinosaur spell this turn, it gains \"When this creature enters the battlefield, you may have it fight another target creature.\"",
+      "toughness":"1",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/497/636505872396558576.jpeg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"1W",
+      "name":"Baffling End",
+      "number":"1",
+      "rarity":"Uncommon",
+      "text":"When Baffling End enters the battlefield, exile target creature an opponent controls with converted mana cost 3 or less.\n\nWhen Baffling End leaves the battlefield, target opponent create a 3/3 green Dinosaur creature token with trample.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/504/636505946257451200.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"2W",
+      "name":"Forerunner of the Legion",
+      "number":"9",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Vampire",
+        "Knight"
+      ],
+      "text":"When Forerunner of the Legion enters the battlefield, you may search your library for a Vampire card, reveal it, then shuffle your library and put that card on top of it.\n\nWhenever another Vampire enters the battlefield under your control, target creature gets +1/+1 until end of turn.",
+      "toughness":"2",
+      "type":"Creature — Vampire Knight",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/495/636505683399704633.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"3G",
+      "name":"Forerunner of the Heralds",
+      "number":"129",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Merfolk",
+        "Scout"
+      ],
+      "text":"When Forerunner of the Heralds enters the battlefield, you may search your library for a Merfolk card, reveal it, then shuffle your library and put that card on top of it.\n\nWhenever another Merfolk enters the battlefield under your control, put a +1/+1 counter on Forerunner of the Heralds.",
+      "toughness":"2",
+      "type":"Creature — Merfolk Scout",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/494/636505682404049934.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"3R",
+      "name":"Forerunner of the Empire",
+      "number":"102",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Soldier"
+      ],
+      "text":"When Forerunner of the Empire enters the battlefield, you may search your library for a Dinosaur card, reveal it, then shuffle your library and put that card on top of it.\n\nWhenever a Dinosaur enters the battlefield under your control, you may have Forerunner of the Empire deal 1 damage to each creature.",
+      "toughness":"3",
+      "type":"Creature — Human Soldier",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/493/636505681592869242.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"2B",
+      "name":"Forerunner of the Coalition",
+      "number":"72",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"When Forerunner of the Coalition enters the battlefield, you may search your library for a Pirate card, reveal it, then shuffle your library and put that card on top of it.\n\nWhenever another Pirate enters the battlefield under your control, each opponent loses 1 life.",
+      "toughness":"2",
+      "type":"Creature — Human Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/492/636505680460174803.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1G",
+      "name":"Deeproot Elite",
+      "number":"127",
+      "power":"1",
+      "rarity":"Rare",
+      "subtypes":[
+        "Merfolk",
+        "Warrior"
+      ],
+      "text":"Whenever another Merfolk enters the battlefield under your control, put a +1/+1 counter on target Merfolk you control.",
+      "toughness":"1",
+      "type":"Creature — Merfolk Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/496/636505688337773886.png"
+    },
+    {
+      "cmc":1,
+      "manaCost":"1",
+      "name":"Silent Gravestone",
+      "number":"182",
+      "rarity":"Rare",
+      "text":"Cards in graveyards can't be the targets of spells or abilities.\n\n{4}, {T}: Exile Silent Gravestone and all cards from all graveyards. Draw a card.",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/490/636505528990262281.png"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"1W",
+      "name":"Sphinx's Decree",
+      "number":"24",
+      "rarity":"Rare",
+      "text":"Each opponent can't cast instant or sorcery spells during that player's next turn.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/489/636505527271264883.jpeg"
+    },
+    {
+      "cmc":0,
+      "colorIdentity":[
+        "W",
+        "B"
+      ],
+      "name":"Tomb of the Dusk Rose",
+      "number":"166",
+      "rarity":"Rare",
+      "text":"{T}: Add one mana of any color to your mana pool.\n\n{2}{W}{B}，{T} : Put a creature card exiled with this permanent onto the battlefield under your control.",
+      "type":"Legendary Land",
+      "types":[
+        "Land"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/503/636505945034288857.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "W",
+        "B"
+      ],
+      "colors":[
+        "White",
+        "Black"
+      ],
+      "layout":"double-faced",
+      "manaCost":"1WB",
+      "name":"Profane Procession",
+      "names":[
+        "Profane Procession",
+        "Tomb of the Dusk Rose"
+      ],
+      "number":"166a",
+      "rarity":"Rare",
+      "text":"{3}{W}{B}: Exile target creature. Then if there are three or more cards exiled with Profane Procession, transform it.",
+      "type":"Legendary Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/502/636505944681179167.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"3W",
+      "name":"Bishop of Binding",
+      "number":"2",
+      "power":"1",
+      "rarity":"Rare",
+      "subtypes":[
+        "Vampire",
+        "Cleric"
+      ],
+      "text":"When Bishop of Binding enters the battlefield, exile target creature an opponent controls until Bishop of Binding leaves the battlefield.\n\nWhenever Bishop of Binding attacks, target Vampire gets +X/+X until end of turn, where X is the power of the exiled card.",
+      "toughness":"1",
+      "type":"Creature — Vampire Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/481/636505371047012880.jpeg"
+    },
+    {
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"1B",
+      "name":"Dead Man's Chest",
+      "number":"66",
+      "rarity":"Rare",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature an opponent controls\n\nWhen enchanted creature dies, exile cards equal to its power from the top of its owner's library. You may cast nonland cards from among them as long as they remain exiled, and you may spend mana as though it were mana of any type to cast those spells.",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/480/636505364249106463.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"3R",
+      "name":"Pirate's Pillage",
+      "number":"109",
+      "rarity":"Uncommon",
+      "text":"As an additional cost to cast Pirate's Pillage, discard a card.\n\nDraw two cards and create two colorless Treasure artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/478/636505304591854944.png"
+    },
+    {
+      "cmc":1,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"W",
+      "name":"Skymarcher Aspirant",
+      "number":"21",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Vampire",
+        "Soldier"
+      ],
+      "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\n\nSkymarcher Aspirant has flying as long as you have the city's blessing.",
+      "toughness":"1",
+      "type":"Creature — Vampire Soldier",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/476/636505300690377273.png"
+    },
+    {
+      "cmc":3,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"1GG",
+      "name":"Swift Warden",
+      "number":"146",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Merfolk",
+        "Warrior"
+      ],
+      "text":"When Swift Warden enters the battlefield, target Merfolk you control gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
+      "toughness":"3",
+      "type":"Creature — Merfolk Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/475/636505300392659385.png"
+    },
+    {
+      "cmc":4,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"3G",
+      "name":"World Shaper",
+      "number":"151",
+      "power":"3",
+      "rarity":"Rare",
+      "subtypes":[
+        "Merfolk",
+        "Shaman"
+      ],
+      "text":"Whenever World Shaper attacks, you may put the top three cards of your library into your graveyard.\nWhen World Shaper dies, put all land cards from your graveyard onto the battlefield tapped.",
+      "toughness":"3",
+      "type":"Creature — Merfolk Shaman",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/472/636505169272391451.png"
+    },
+    {
+      "cmc":6,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"4RR",
+      "name":"Etali, Primal Storm",
+      "number":"100",
+      "power":"6",
+      "rarity":"Rare",
+      "subtypes":[
+        "Elder",
+        "Dinosaur"
+      ],
+      "text":"Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of nonland cards exiled this way without paying their mana costs.",
+      "toughness":"6",
+      "type":"Legendary Creature — Elder Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/471/636505160132295333.png"
+    },
+    {
       "cmc":3,
       "colorIdentity":[
         "U"
@@ -61,7 +699,7 @@
         "Merfolk",
         "Scout"
       ],
-      "text":"When Jadelight Ranger enters the battlefield it explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard. Then repeat this process) ",
+      "text":"When Jadelight Ranger enters the battlefield it explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard. Then repeat this process.) ",
       "toughness":"1",
       "type":"Creature — Merfolk Scout",
       "types":[
@@ -86,7 +724,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://mythicspoiler.com/rix/cards/inducedamnesia.jpg"
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/465/636505057072229681.png"
     },
     {
       "cmc":4,
@@ -149,7 +787,7 @@
         "Human",
         "Pirate"
       ],
-      "text":"As an additional cost to cast Daring Buccaneer, reveal a Pirate card from your hand or pay 2.",
+      "text":"As an additional cost to cast Daring Buccaneer, reveal a Pirate card from your hand or pay {2}.",
       "toughness":"2",
       "type":"Creature — Human Pirate",
       "types":[
@@ -220,7 +858,7 @@
       "name":"Aquatic Incursion",
       "number":"32",
       "rarity":"Uncommon",
-      "text":"When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof.\n\n{3}{U}: Target Merfolk can't be blocked this turn.",
+      "text":"When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof. (They can't be the target of spells or abilities your opponents control.)\n\n{3}{U}: Target Merfolk can't be blocked this turn.",
       "type":"Enchantment",
       "types":[
         "Enchantment"
@@ -244,7 +882,7 @@
         "Vampire",
         "Knight"
       ],
-      "text":"Famished Paladin does not untap during your untap step.\n\nWhenever you gain life, untap Famished Paladin.",
+      "text":"Famished Paladin doesn't untap during your untap step.\n\nWhenever you gain life, untap Famished Paladin.",
       "toughness":"3",
       "type":"Creature — Vampire Knight",
       "types":[
@@ -270,13 +908,13 @@
         "Pirate",
         "Wizard"
       ],
-      "text":"Ascend (If you control ten or more permanents, you gain The City's Blessing for the rest of the game.)\n\n{2}{U}{U}, {T}, Put Timestream Navigator at the bottom of its owner's library: Take an extra turn after this one. Activate this ability only if you have The City's Blessing.",
+      "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\n\n{2}{U}{U}, {T}, Put Timestream Navigator on the bottom of its owner's library: Take an extra turn after this one. Activate this ability only if you have the city's blessing.",
       "toughness":"1",
       "type":"Creature — Human Pirate Wizard",
       "types":[
         "Creature"
       ],
-      "url":"http://mythicspoiler.com/rix/cards/timestreamnavigator.jpg"
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/474/636505232649402284.png"
     },
     {
       "cmc":2,
@@ -289,7 +927,7 @@
         "Green"
       ],
       "manaCost":"GU",
-      "name":"Merfolk Mistbender",
+      "name":"Merfolk Mistbinder",
       "number":"164",
       "power":"2",
       "rarity":"Uncommon",
@@ -322,13 +960,13 @@
         "Human",
         "Shaman"
       ],
-      "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\n\nWhenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1/1 Elemental creature tokens tapped and attacking. Exile them at the beginning of the next end step, unless you have the City's blessing.",
+      "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\n\nWhenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1/1 Elemental creature tokens tapped and attacking. Exile them at the beginning of the next end step unless you have the city's blessing.",
       "toughness":"1",
       "type":"Creature — Human Shaman",
       "types":[
         "Creature"
       ],
-      "url":"http://mythicspoiler.com/rix/cards/tilonallissummoner.jpg"
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/483/636505385385175303.png"
     },
     {
       "cmc":4,
@@ -347,7 +985,7 @@
       "types":[
         "Enchantment"
       ],
-      "url":"http://mythicspoiler.com/rix/cards/pathtodiscovery.jpg"
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/482/636505381534367253.png"
     },
     {
       "cmc":2,
@@ -366,7 +1004,7 @@
         "Vampire",
         "Knight"
       ],
-      "text":"At the beginning of each upkeep, if you lost life last turn, put a +1/+1 counter on Paladin of Atonement.\n\nWhen Paladin of Atonement dies, you gain life equal to it's toughness.",
+      "text":"At the beginning of each upkeep, if you lost life last turn, put a +1/+1 counter on Paladin of Atonement.\n\nWhen Paladin of Atonement dies, you gain life equal to its toughness.",
       "toughness":"1",
       "type":"Creature — Vampire Knight",
       "types":[
@@ -377,12 +1015,12 @@
     {
       "cmc":4,
       "colorIdentity":[
-        "W"
+        "U"
       ],
       "colors":[
-        "White"
+        "Blue"
       ],
-      "manaCost":"2WW",
+      "manaCost":"2UU",
       "name":"Seafloor Oracle",
       "number":"51",
       "power":"2",
@@ -397,7 +1035,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://mythicspoiler.com/rix/cards/seafloororacle1.jpg"
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/457/636504939694300709.png"
     },
     {
       "cmc":5,
@@ -432,15 +1070,15 @@
         "White"
       ],
       "manaCost":"2W",
-      "name":"Glorious Destiny",
+      "name":"Radiant Destiny",
       "number":"18",
       "rarity":"Rare",
-      "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nAs Glorious Destiny enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1. They have vigilance as long as you have the city's blessing.",
+      "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nAs Radiant Destiny enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1. They have vigilance as long as you have the city's blessing.",
       "type":"Enchantment",
       "types":[
         "Enchantment"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/202/452/636504675910328828.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/484/636505394008270027.png"
     },
     {
       "cmc":4,
@@ -674,19 +1312,19 @@
     {
       "cmc":4,
       "manaCost":"4",
-      "name":"Awakened Amalgamation",
+      "name":"Awakened Amalgam",
       "number":"175",
       "rarity":"Rare",
       "subtypes":[
         "Golem"
       ],
-      "text":"Awakened Amalgamation's power and toughness are each equal to the number of lands you control with different names.",
+      "text":"Awakened Amalgam's power and toughness are each equal to the number of differently named lands you control.",
       "type":"Artifact Creature — Golem",
       "types":[
         "Artifact",
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/202/444/636504522289425414.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/473/636505173863794918.png"
     },
     {
       "cmc":3,
@@ -783,7 +1421,7 @@
       "types":[
         "Creature"
       ],
-      "url":"http://media-dominaria.cursecdn.com/avatars/202/400/636503407363182502.png"
+      "url":"http://media-dominaria.cursecdn.com/avatars/202/477/636505302665928831.png"
     },
     {
       "cmc":3,

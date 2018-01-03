@@ -9,6 +9,340 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Fanatical Firebrand</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/510/636505959502010813.png" rarity="Common">RIX</set>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<color>R</color>			
+			<type>Creature — Goblin Pirate</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste
+{T}, Sacrifice Fanatical Firebrand: It deals one damage to target creature or player.</text>			
+		</card>		
+		<card>			
+			<name>Protean Raider</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/509/636505955966527374.png" rarity="Rare">RIX</set>			
+			<manacost>1UR</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<color>R</color>			
+			<type>Creature — Shapeshifter Pirate</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Raid — If you attacked with a creature this turn, you may have Protean Raider enter the battlefield as a copy of any creature on the battlefield.
+</text>			
+		</card>		
+		<card>			
+			<name>Flood of Recollection</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/505/636505947479813721.png" rarity="Uncommon">RIX</set>			
+			<manacost>UU</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return Target instant or sorcery card from your graveyard to your hand. Exile Flood of Recollection.</text>			
+		</card>		
+		<card>			
+			<name>Dusk Legion Zealot</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/501/636505940658561838.jpeg" rarity="Common">RIX</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Creature — Vampire Soldier</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Dusk Legion Zealot enters the battlefield, you draw a card and you lose 1 life.</text>			
+		</card>		
+		<card>			
+			<name>Rekindling Phoenix</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/500/636505934680910765.png" rarity="Mythic Rare">RIX</set>			
+			<manacost>2RR</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Creature — Phoenix</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Rekindling Phoenix dies, create a 0/1 red Elemental creature token with &quot;At the beginning of your upkeep, sacrifice this creature and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Gold-Forge Garrison</name>			
+			<set picURL="http://mythicspoiler.com/rix/cards/goldforgegarrison.jpg" rarity="Rare">RIX</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add two mana of any one color to your mana pool.
+{4}, {T}: Create a 4/4 colorless Golem artifact creature token.</text>			
+		</card>		
+		<card>			
+			<name>Golden  Guardian</name>			
+			<set picURL="" rarity="Rare">RIX</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Golem</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender
+{2}: This creature fights another target creature you  control. When this dies this turn, return it to the battlefield transformed.</text>			
+			<related>Gold-Forge Garrison</related>			
+		</card>		
+		<card>			
+			<name>Polyraptor</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/499/636505927059111742.png" rarity="Mythic Rare">RIX</set>			
+			<manacost>6GG</manacost>			
+			<cmc>8</cmc>			
+			<color>G</color>			
+			<type>Creature — Dinosaur</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Enrage — Whenever Polyraptor is dealt damage, create a token that is a copy of Polyraptor</text>			
+		</card>		
+		<card>			
+			<name>Azor, the Lawbringer</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/498/636505920594739984.png" rarity="Mythic Rare">RIX</set>			
+			<manacost>2WWUU</manacost>			
+			<cmc>6</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Legendary Creature — Sphinx</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+
+When Azor, the Lawbringer enters the battlefield, each opponent can't cast instant and sorcery spells during that player's next turn.
+
+Whenever Azor attacks, you may pay {X}{W}{U}{U}. If you do, you may gain X life and draw X cards.</text>			
+		</card>		
+		<card>			
+			<name>~Warsail Marauder</name>			
+			<set picURL="" rarity="Rare">RIX</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+
+Whenever Warsail Marauder attacks, target creature loses all abilities and has base power and toughness 0/1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Cherished Hatchling</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/497/636505872396558576.jpeg" rarity="Uncommon">RIX</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Dinosaur</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Cherished Hatchling dies, you may cast Dinosaur spells this turn as though they had flash, and  whenever you cast a Dinosaur spell this turn, it gains &quot;When this creature enters the battlefield, you may have it fight another target creature.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Baffling End</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/504/636505946257451200.png" rarity="Uncommon">RIX</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>When Baffling End enters the battlefield, exile target creature an opponent controls with converted mana cost 3 or less.
+
+When Baffling End leaves the battlefield, target opponent create a 3/3 green Dinosaur creature token with trample.</text>			
+		</card>		
+		<card>			
+			<name>Forerunner of the Legion</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/495/636505683399704633.png" rarity="Uncommon">RIX</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Creature — Vampire Knight</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Forerunner of the Legion enters the battlefield, you may search your library for a Vampire card, reveal it, then shuffle your library and put that card on top of it.
+
+Whenever another Vampire enters the battlefield under your control, target creature gets +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Forerunner of the Heralds</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/494/636505682404049934.png" rarity="Uncommon">RIX</set>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Creature — Merfolk Scout</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Forerunner of the Heralds enters the battlefield, you may search your library for a Merfolk card, reveal it, then shuffle your library and put that card on top of it.
+
+Whenever another Merfolk enters the battlefield under your control, put a +1/+1 counter on Forerunner of the Heralds.</text>			
+		</card>		
+		<card>			
+			<name>Forerunner of the Empire</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/493/636505681592869242.png" rarity="Uncommon">RIX</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Creature — Human Soldier</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Forerunner of the Empire enters the battlefield, you may search your library for a Dinosaur card, reveal it, then shuffle your library and put that card on top of it.
+
+Whenever a Dinosaur enters the battlefield under your control, you may have Forerunner of the Empire deal 1 damage to each creature.</text>			
+		</card>		
+		<card>			
+			<name>Forerunner of the Coalition</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/492/636505680460174803.png" rarity="Uncommon">RIX</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Forerunner of the Coalition enters the battlefield, you may search your library for a Pirate card, reveal it, then shuffle your library and put that card on top of it.
+
+Whenever another Pirate enters the battlefield under your control, each opponent loses 1 life.</text>			
+		</card>		
+		<card>			
+			<name>Deeproot Elite</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/496/636505688337773886.png" rarity="Rare">RIX</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Merfolk Warrior</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever another Merfolk enters the battlefield under your control, put a +1/+1 counter on target Merfolk you control.</text>			
+		</card>		
+		<card>			
+			<name>Silent Gravestone</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/490/636505528990262281.png" rarity="Rare">RIX</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Cards in graveyards can't be the targets of spells or abilities.
+
+{4}, {T}: Exile Silent Gravestone and all cards from all graveyards. Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Sphinx's Decree</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/489/636505527271264883.jpeg" rarity="Rare">RIX</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Each opponent can't cast instant or sorcery spells during that player's next turn.</text>			
+		</card>		
+		<card>			
+			<name>Tomb of the Dusk Rose</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/503/636505945034288857.png" rarity="Rare">RIX</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add one mana of any color to your mana pool.
+
+{2}{W}{B}，{T} : Put a creature card exiled with this permanent onto the battlefield under your control.</text>			
+		</card>		
+		<card>			
+			<name>Profane Procession</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/502/636505944681179167.png" rarity="Rare">RIX</set>			
+			<manacost>1WB</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<color>B</color>			
+			<type>Legendary Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>{3}{W}{B}: Exile target creature. Then if there are three or more cards exiled with Profane Procession, transform it.</text>			
+			<related>Tomb of the Dusk Rose</related>			
+		</card>		
+		<card>			
+			<name>Bishop of Binding</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/481/636505371047012880.jpeg" rarity="Rare">RIX</set>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Creature — Vampire Cleric</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Bishop of Binding enters the battlefield, exile target creature an opponent controls until Bishop of Binding leaves the battlefield.
+
+Whenever Bishop of Binding attacks, target Vampire gets +X/+X until end of turn, where X is the power of the exiled card.</text>			
+		</card>		
+		<card>			
+			<name>Dead Man's Chest</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/480/636505364249106463.png" rarity="Rare">RIX</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature an opponent controls
+
+When enchanted creature dies, exile cards equal to its power from the top of its owner's library. You may cast nonland cards from among them as long as they remain exiled, and you may spend mana as though it were mana of any type to cast those spells.</text>			
+		</card>		
+		<card>			
+			<name>Pirate's Pillage</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/478/636505304591854944.png" rarity="Uncommon">RIX</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>As an additional cost to cast Pirate's Pillage, discard a card.
+
+Draw two cards and create two colorless Treasure artifacts with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Skymarcher Aspirant</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/476/636505300690377273.png" rarity="Uncommon">RIX</set>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<color>W</color>			
+			<type>Creature — Vampire Soldier</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+
+Skymarcher Aspirant has flying as long as you have the city's blessing.</text>			
+		</card>		
+		<card>			
+			<name>Swift Warden</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/475/636505300392659385.png" rarity="Uncommon">RIX</set>			
+			<manacost>1GG</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Merfolk Warrior</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Swift Warden enters the battlefield, target Merfolk you control gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)</text>			
+		</card>		
+		<card>			
+			<name>World Shaper</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/472/636505169272391451.png" rarity="Rare">RIX</set>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Creature — Merfolk Shaman</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever World Shaper attacks, you may put the top three cards of your library into your graveyard.
+When World Shaper dies, put all land cards from your graveyard onto the battlefield tapped.</text>			
+		</card>		
+		<card>			
+			<name>Etali, Primal Storm</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/471/636505160132295333.png" rarity="Rare">RIX</set>			
+			<manacost>4RR</manacost>			
+			<cmc>6</cmc>			
+			<color>R</color>			
+			<type>Legendary Creature — Elder Dinosaur</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of nonland cards exiled this way without paying their mana costs.</text>			
+		</card>		
+		<card>			
 			<name>Admiral's Order</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/467/636505110705941053.png" rarity="Rare">RIX</set>			
 			<manacost>1UU</manacost>			
@@ -29,11 +363,11 @@ Counter target spell.</text>
 			<type>Creature — Merfolk Scout</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>When Jadelight Ranger enters the battlefield it explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard. Then repeat this process) </text>			
+			<text>When Jadelight Ranger enters the battlefield it explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard. Then repeat this process.) </text>			
 		</card>		
 		<card>			
 			<name>Induced Amnesia</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/inducedamnesia.jpg" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/465/636505057072229681.png" rarity="Rare">RIX</set>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
 			<color>U</color>			
@@ -74,7 +408,7 @@ At the beginning of your upkeep, each player draws a card. If you have the city'
 			<type>Creature — Human Pirate</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>As an additional cost to cast Daring Buccaneer, reveal a Pirate card from your hand or pay 2.</text>			
+			<text>As an additional cost to cast Daring Buccaneer, reveal a Pirate card from your hand or pay {2}.</text>			
 		</card>		
 		<card>			
 			<name>Huatli, Radiant Champion</name>			
@@ -111,7 +445,7 @@ At the beginning of your upkeep, each player draws a card. If you have the city'
 			<color>U</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
-			<text>When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof.
+			<text>When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof. (They can't be the target of spells or abilities your opponents control.)
 
 {3}{U}: Target Merfolk can't be blocked this turn.</text>			
 		</card>		
@@ -124,25 +458,25 @@ At the beginning of your upkeep, each player draws a card. If you have the city'
 			<type>Creature — Vampire Knight</type>			
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
-			<text>Famished Paladin does not untap during your untap step.
+			<text>Famished Paladin doesn't untap during your untap step.
 
 Whenever you gain life, untap Famished Paladin.</text>			
 		</card>		
 		<card>			
 			<name>Timestream Navigator</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/timestreamnavigator.jpg" rarity="Mythic Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/474/636505232649402284.png" rarity="Mythic Rare">RIX</set>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
 			<color>U</color>			
 			<type>Creature — Human Pirate Wizard</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>Ascend (If you control ten or more permanents, you gain The City's Blessing for the rest of the game.)
+			<text>Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
 
-{2}{U}{U}, {T}, Put Timestream Navigator at the bottom of its owner's library: Take an extra turn after this one. Activate this ability only if you have The City's Blessing.</text>			
+{2}{U}{U}, {T}, Put Timestream Navigator on the bottom of its owner's library: Take an extra turn after this one. Activate this ability only if you have the city's blessing.</text>			
 		</card>		
 		<card>			
-			<name>Merfolk Mistbender</name>			
+			<name>Merfolk Mistbinder</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/459/636505025197293815.png" rarity="Uncommon">RIX</set>			
 			<manacost>GU</manacost>			
 			<cmc>2</cmc>			
@@ -155,7 +489,7 @@ Whenever you gain life, untap Famished Paladin.</text>
 		</card>		
 		<card>			
 			<name>Tilonalli's Summoner</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/tilonallissummoner.jpg" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/483/636505385385175303.png" rarity="Rare">RIX</set>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
 			<color>R</color>			
@@ -164,11 +498,11 @@ Whenever you gain life, untap Famished Paladin.</text>
 			<tablerow>2</tablerow>			
 			<text>Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
 
-Whenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1/1 Elemental creature tokens tapped and attacking. Exile them at the beginning of the next end step, unless you have the City's blessing.</text>			
+Whenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1/1 Elemental creature tokens tapped and attacking. Exile them at the beginning of the next end step unless you have the city's blessing.</text>			
 		</card>		
 		<card>			
 			<name>Path to Discovery</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/pathtodiscovery.jpg" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/482/636505381534367253.png" rarity="Rare">RIX</set>			
 			<manacost>3G</manacost>			
 			<cmc>4</cmc>			
 			<color>G</color>			
@@ -187,14 +521,14 @@ Whenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1
 			<tablerow>2</tablerow>			
 			<text>At the beginning of each upkeep, if you lost life last turn, put a +1/+1 counter on Paladin of Atonement.
 
-When Paladin of Atonement dies, you gain life equal to it's toughness.</text>			
+When Paladin of Atonement dies, you gain life equal to its toughness.</text>			
 		</card>		
 		<card>			
 			<name>Seafloor Oracle</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/seafloororacle1.jpg" rarity="Rare">RIX</set>			
-			<manacost>2WW</manacost>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/457/636504939694300709.png" rarity="Rare">RIX</set>			
+			<manacost>2UU</manacost>			
 			<cmc>4</cmc>			
-			<color>W</color>			
+			<color>U</color>			
 			<type>Creature — Merfolk Wizard</type>			
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
@@ -212,15 +546,15 @@ When Paladin of Atonement dies, you gain life equal to it's toughness.</text>
 			<text>If a source would deal damage to another Dinosaur you control, prevent all but 1 of that damage.</text>			
 		</card>		
 		<card>			
-			<name>Glorious Destiny</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/452/636504675910328828.png" rarity="Rare">RIX</set>			
+			<name>Radiant Destiny</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/484/636505394008270027.png" rarity="Rare">RIX</set>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
 			<color>W</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
-As Glorious Destiny enters the battlefield, choose a creature type.
+As Radiant Destiny enters the battlefield, choose a creature type.
 Creatures you control of the chosen type get +1/+1. They have vigilance as long as you have the city's blessing.</text>			
 		</card>		
 		<card>			
@@ -349,13 +683,13 @@ When Gleaming Barrier dies, create a colorless Treasure artifact token with &quo
 			<text>Enrage — Whenever Frilled Deathspitter is dealt damage, it deals 2 damage to target opponent.</text>			
 		</card>		
 		<card>			
-			<name>Awakened Amalgamation</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/444/636504522289425414.png" rarity="Rare">RIX</set>			
+			<name>Awakened Amalgam</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/473/636505173863794918.png" rarity="Rare">RIX</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact Creature — Golem</type>			
 			<tablerow>2</tablerow>			
-			<text>Awakened Amalgamation's power and toughness are each equal to the number of lands you control with different names.</text>			
+			<text>Awakened Amalgam's power and toughness are each equal to the number of differently named lands you control.</text>			
 		</card>		
 		<card>			
 			<name>Secrets of the Golden City</name>			
@@ -400,7 +734,7 @@ Dusk Charger gets +2/+2 as long as you have the city's blessing.</text>
 		</card>		
 		<card>			
 			<name>Atzocan Seer</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/400/636503407363182502.png" rarity="Uncommon">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/477/636505302665928831.png" rarity="Uncommon">RIX</set>			
 			<manacost>1GW</manacost>			
 			<cmc>3</cmc>			
 			<color>W</color>			
