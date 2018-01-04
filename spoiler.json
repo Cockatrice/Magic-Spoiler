@@ -29,6 +29,150 @@
       {
         "cmc":5,
         "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"3BB",
+        "name":"Champion of Dusk",
+        "number":"64",
+        "power":"4",
+        "rarity":"Rare",
+        "subtypes":[
+          "Vampire",
+          "Knight"
+        ],
+        "text":"When Champion of Dusk enters the battlefield, you draw X cards and you lose X life, where X is the number of Vampires you control.",
+        "toughness":"4",
+        "type":"Creature — Vampire Knight",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/597/636506948600099537.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2BB",
+        "name":"Mastermind's Acquisition",
+        "number":"77",
+        "rarity":"Rare",
+        "text":"Choose one —\n• Search your library for a card, put it into your hand, then shuffle your library.\n• Choose a card you own from outside the game and put it into your hand.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/596/636506936619055050.jpeg"
+      },
+      {
+        "cmc":9,
+        "colorIdentity":[
+          "W",
+          "R",
+          "G"
+        ],
+        "colors":[
+          "White",
+          "Red",
+          "Green"
+        ],
+        "manaCost":"6RGW",
+        "name":"Zacama, Primal Calamity",
+        "number":"174",
+        "power":"9",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Elder",
+          "Dinosaur"
+        ],
+        "text":"Vigilance, reach, trample\nWhen Zacama, Primal Calamity enters the battlefield, if you cast it, untap all lands you control.\n{2}{R}: Zacama deals 3 damage to target creature.\n{2}{G}: Destroy target artifact or enchantment.\n{2}{W}: You gain 3 life.",
+        "toughness":"9",
+        "type":"Legendary Creature — Elder Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/595/636506935336917498.jpeg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"2U",
+        "name":"Hornswoggle",
+        "number":"39",
+        "rarity":"Uncommon",
+        "text":"Counter target creature spell. You create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/585/636506908145767890.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "R",
+          "G"
+        ],
+        "colors":[
+          "Red",
+          "Green"
+        ],
+        "manaCost":"2RG",
+        "name":"Raging Regisaur",
+        "number":"168",
+        "power":"4",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Whenever Raging Regisaur attacks, it deals 1 damage to target creature or player.",
+        "toughness":"4",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/577/636506893143770140.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W",
+          "U"
+        ],
+        "colors":[
+          "White",
+          "Blue"
+        ],
+        "manaCost":"1WU",
+        "name":"Resplendent Griffin",
+        "number":"170",
+        "power":"2",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Griffin"
+        ],
+        "text":"Flying\nAscend (If you control ten or more permenants, you get the city's blessing for the rest of the game.)\nWhenever Resplendent Griffin attacks, if you have the city's blessing, put a +1/+1 counter on it.",
+        "toughness":"2",
+        "type":"Creature — Griffin",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/576/636506891774095333.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
           "W"
         ],
         "colors":[
@@ -42,7 +186,7 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Flying\nSun-Crested Pterodon has Vigilance as long as you control another Dinosaur.",
+        "text":"Flying\nSun-Crested Pterodon has vigilance as long as you control another Dinosaur.",
         "toughness":"5",
         "type":"Creature — Dinosaur",
         "types":[
@@ -72,7 +216,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://mythicspoiler.com/rix/cards/suncollaredraptor.jpg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/575/636506890382358166.png"
       },
       {
         "cmc":3,
@@ -105,7 +249,7 @@
         "name":"Naturalize",
         "number":"139",
         "rarity":"Common",
-        "text":"Destroy target artifact or enchantment",
+        "text":"Destroy target artifact or enchantment.",
         "type":"Instant",
         "types":[
           "Instant"
@@ -162,12 +306,12 @@
         "name":"Arterial Flow",
         "number":"62",
         "rarity":"Uncommon",
-        "text":"Each opponent discards two cards.\nIf you control a Vampire, each opponent loses 2 life and you gain 2 life.",
+        "text":"Each opponent discards two cards. If you control a Vampire, each opponent loses 2 life and you gain 2 life.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
         ],
-        "url":"http://mythicspoiler.com/rix/cards/arterialflow.jpg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/591/636506923998717008.png"
       },
       {
         "cmc":0,
@@ -255,7 +399,7 @@
         ],
         "number":"176a",
         "rarity":"Mythic Rare",
-        "text":"{1}, {T}: Draw a card, then exile a card from your hand. If cards with five or more different covernted mana costs are exiled with Azor's Gateway, you gain 5 life, untap Azor's Gateway, and transform it.",
+        "text":"{1}, {T}: Draw a card, then exile a card from your hand. If cards with five or more different converted mana costs are exiled with Azor's Gateway, you gain 5 life, untap Azor's Gateway, and transform it.",
         "type":"Legendary Artifact",
         "types":[
           "Artifact"
@@ -271,15 +415,15 @@
           "Blue"
         ],
         "manaCost":"2U",
-        "name":"Disperse in the Wind",
+        "name":"Return to the Wind",
         "number":"46",
         "rarity":"Rare",
-        "text":"Exile target nonland permanent. For as long as that card remains exiled, it's owner may cast it without paying its mana cost.",
+        "text":"Exile target nonland permanent. For as long as that card remains exiled, its owner may cast it without paying its mana cost.",
         "type":"Instant",
         "types":[
           "Instant"
         ],
-        "url":"http://mythicspoiler.com/rix/cards/disperseinthewind.jpg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/598/636506953811236408.png"
       },
       {
         "cmc":3,
@@ -298,7 +442,7 @@
         "types":[
           "Sorcery"
         ],
-        "url":"http://mythicspoiler.com/rix/cards/slaughterthestrong1.jpg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/589/636506920932790133.png"
       },
       {
         "cmc":4,
@@ -309,7 +453,7 @@
           "Blue"
         ],
         "manaCost":"3U",
-        "name":"Deadeye Rig Hauler",
+        "name":"Deadeye Rig-Hauler",
         "number":"36",
         "power":"3",
         "rarity":"Common",
@@ -317,13 +461,13 @@
           "Human",
           "Pirate"
         ],
-        "text":"Raid— When Fathom Fleet Rig-Hauler enters the battlefield, if you attacked with a creature this turn, you may return target creature to its owner's hand.",
+        "text":"Raid— When Deadeye Rig-Hauler enters the battlefield, if you attacked with a creature this turn, you may return target creature to its owner's hand.",
         "toughness":"2",
         "type":"Creature — Human Pirate",
         "types":[
           "Creature"
         ],
-        "url":""
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/581/636506899130702235.png"
       },
       {
         "cmc":2,
@@ -342,13 +486,13 @@
           "Human",
           "Pirate"
         ],
-        "text":"First strike\nWhen this enters the battlefield, exile target instant or sorcery card from an opponent's graveyard. You may cast that card this turn and you may spend mana as though it were mana of any color. If that card would be put into a graveyard this turn, exile it instead.",
+        "text":"First strike\nWhen Dire Fleet Daredevil enters the battlefield, exile target instant or sorcery card from an opponent's graveyard. You may cast that card this turn, and you may spend mana as though it were mana of any type to cast that spell. If that card would be put into a graveyard this turn, exile it instead.",
         "toughness":"1",
         "type":"Creature — Human Pirate",
         "types":[
           "Creature"
         ],
-        "url":"http://mythicspoiler.com/rix/cards/direfleetdaredevil.jpg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/580/636506898395880513.png"
       },
       {
         "cmc":0,
@@ -356,15 +500,20 @@
           "W",
           "R"
         ],
+        "layout":"double-faced",
         "name":"Metzali, Tower of Triumph",
-        "number":"165",
+        "names":[
+          "Path of Mettle",
+          "Metzali, Tower of Triumph"
+        ],
+        "number":"165b",
         "rarity":"Rare",
-        "text":"{T}: Add one mana of any color to your mana pool.\n{1}{R}, {T}: Metzali, Tower of Triumph deals 2 damage to each opponent.\n{2}{W}, {T}: Choose a creature at random that attacked this turn. Destroy that creature.",
+        "text":"(Transforms from Path of Mettle.)\n{T}: Add one mana of any color to your mana pool.\n{1}{R}, {T}: Metzali, Tower of Triumph deals 2 damage to each opponent.\n{2}{W}, {T}: Choose a creature at random that attacked this turn. Destroy that creature.",
         "type":"Legendary Land",
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/558/636506700330547626.jpeg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/579/636506897055818170.png"
       },
       {
         "cmc":2,
@@ -385,12 +534,12 @@
         ],
         "number":"165a",
         "rarity":"Rare",
-        "text":"When ~ enters the battlefield, it deals 1 damage to each creature that doesn't have first strike, double strike, vigilance, or haste.\n\nWhenever you attack with at least two creatures that have first strike, double strike, vigilance, and/or haste, transform ~.",
+        "text":"When Path of Mettle enters the battlefield, it deals 1 damage to each creature that doesn't have first strike, double strike, vigilance, or haste.\n\nWhenever you attack with at least two creatures that have first strike, double strike, vigilance, and/or haste, transform Path of Mettle.",
         "type":"Legendary Enchantment",
         "types":[
           "Enchantment"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/556/636506697696566694.jpeg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/578/636506896453557596.png"
       },
       {
         "cmc":7,
@@ -414,7 +563,7 @@
         "types":[
           "Creature"
         ],
-        "url":""
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/588/636506917986102886.png"
       },
       {
         "cmc":2,
@@ -819,29 +968,31 @@
         "types":[
           "Land"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/536/636506314451996807.jpeg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/584/636506906809986001.png"
       },
       {
         "cmc":4,
         "layout":"double-faced",
         "manaCost":"4",
-        "name":"Golden  Guardian",
+        "name":"Golden Guardian",
         "names":[
           "Golden  Guardian",
           "Gold-Forge Garrison"
         ],
         "number":"179a",
+        "power":4,
         "rarity":"Rare",
         "subtypes":[
           "Golem"
         ],
         "text":"Defender\n{2}: Golden Guardian fights another target creature you control. When Golden Guardian dies this turn, return it to the battlefield transformed under your control.",
+        "toughness":4,
         "type":"Artifact Creature — Golem",
         "types":[
           "Artifact",
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/530/636506229797529698.jpeg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/583/636506906341126746.png"
       },
       {
         "cmc":8,
@@ -902,7 +1053,7 @@
           "Blue"
         ],
         "manaCost":"1U",
-        "name":"Warsail Marauder",
+        "name":"Warkite Marauder",
         "number":"60",
         "power":"2",
         "rarity":"Rare",
@@ -910,13 +1061,13 @@
           "Human",
           "Pirate"
         ],
-        "text":"Flying\n\nWhenever Warsail Marauder attacks, target creature loses all abilities and has base power and toughness 0/1 until end of turn.",
+        "text":"Flying\n\nWhenever Warkite Marauder attacks, target creature defending player controls loses all abilities and has base power and toughness 0/1 until end of turn.",
         "toughness":"1",
         "type":"Creature — Human Pirate",
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/519/636506080260046434.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/582/636506905946113469.png"
       },
       {
         "cmc":2,
@@ -1084,7 +1235,7 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/496/636505688337773886.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/593/636506930332928159.png"
       },
       {
         "cmc":1,
@@ -1097,7 +1248,7 @@
         "types":[
           "Artifact"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/490/636505528990262281.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/594/636506930895315088.png"
       },
       {
         "cmc":2,
@@ -1473,6 +1624,7 @@
           "White",
           "Green"
         ],
+        "loyalty":3,
         "manaCost":"2GW",
         "name":"Huatli, Radiant Champion",
         "number":"159",
@@ -1916,11 +2068,13 @@
         "manaCost":"2",
         "name":"Gleaming Barrier",
         "number":"178",
+        "power":0,
         "rarity":"Common",
         "subtypes":[
           "Wall"
         ],
         "text":"Defender\n\nWhen Gleaming Barrier dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+        "toughness":4,
         "type":"Artifact Creature — Wall",
         "types":[
           "Artifact",
@@ -2150,6 +2304,7 @@
           "Black",
           "Red"
         ],
+        "loyalty":4,
         "manaCost":"3BR",
         "name":"Angrath, the Flame-Chained",
         "number":"152",
@@ -2325,6 +2480,7 @@
           "Black",
           "Red"
         ],
+        "loyalty":5,
         "manaCost":"4BR",
         "name":"Angrath, Minotaur Pirate",
         "number":"201",
@@ -2418,6 +2574,7 @@
         "colors":[
           "Black"
         ],
+        "loyalty":5,
         "manaCost":"4BB",
         "name":"Vraska, Scheming Gorgon",
         "number":"197",

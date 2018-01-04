@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Thu, Jan 04 2018, 18:43:45 (UTC)
+        created: Thu, Jan 04 2018, 20:48:52 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -13,6 +13,82 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Champion of Dusk</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/597/636506948600099537.png" rarity="Rare">RIX</set>			
+			<color>B</color>			
+			<manacost>3BB</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Vampire Knight</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Champion of Dusk enters the battlefield, you draw X cards and you lose X life, where X is the number of Vampires you control.</text>			
+		</card>		
+		<card>			
+			<name>Mastermind's Acquisition</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/596/636506936619055050.jpeg" rarity="Rare">RIX</set>			
+			<color>B</color>			
+			<manacost>2BB</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one —
+• Search your library for a card, put it into your hand, then shuffle your library.
+• Choose a card you own from outside the game and put it into your hand.</text>			
+		</card>		
+		<card>			
+			<name>Zacama, Primal Calamity</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/595/636506935336917498.jpeg" rarity="Mythic Rare">RIX</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>6RGW</manacost>			
+			<cmc>9</cmc>			
+			<type>Legendary Creature — Elder Dinosaur</type>			
+			<pt>9/9</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance, reach, trample
+When Zacama, Primal Calamity enters the battlefield, if you cast it, untap all lands you control.
+{2}{R}: Zacama deals 3 damage to target creature.
+{2}{G}: Destroy target artifact or enchantment.
+{2}{W}: You gain 3 life.</text>			
+		</card>		
+		<card>			
+			<name>Hornswoggle</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/585/636506908145767890.png" rarity="Uncommon">RIX</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target creature spell. You create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Raging Regisaur</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/577/636506893143770140.png" rarity="Uncommon">RIX</set>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>2RG</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Raging Regisaur attacks, it deals 1 damage to target creature or player.</text>			
+		</card>		
+		<card>			
+			<name>Resplendent Griffin</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/576/636506891774095333.png" rarity="Uncommon">RIX</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>1WU</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Griffin</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Ascend (If you control ten or more permenants, you get the city's blessing for the rest of the game.)
+Whenever Resplendent Griffin attacks, if you have the city's blessing, put a +1/+1 counter on it.</text>			
+		</card>		
+		<card>			
 			<name>Sun-Crested Pterodon</name>			
 			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/573/636506853760348904.png" rarity="Common">RIX</set>			
 			<color>W</color>			
@@ -22,11 +98,11 @@
 			<pt>2/5</pt>			
 			<tablerow>2</tablerow>			
 			<text>Flying
-Sun-Crested Pterodon has Vigilance as long as you control another Dinosaur.</text>			
+Sun-Crested Pterodon has vigilance as long as you control another Dinosaur.</text>			
 		</card>		
 		<card>			
 			<name>Sun-Collared Raptor</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/suncollaredraptor.jpg" rarity="Common">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/575/636506890382358166.png" rarity="Common">RIX</set>			
 			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
@@ -56,7 +132,7 @@ All lands lose all abilities except mana abilities.</text>
 			<cmc>2</cmc>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
-			<text>Destroy target artifact or enchantment</text>			
+			<text>Destroy target artifact or enchantment.</text>			
 		</card>		
 		<card>			
 			<name>Negate</name>			
@@ -80,14 +156,13 @@ All lands lose all abilities except mana abilities.</text>
 		</card>		
 		<card>			
 			<name>Arterial Flow</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/arterialflow.jpg" rarity="Uncommon">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/591/636506923998717008.png" rarity="Uncommon">RIX</set>			
 			<color>B</color>			
 			<manacost>1BB</manacost>			
 			<cmc>3</cmc>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Each opponent discards two cards.
-If you control a Vampire, each opponent loses 2 life and you gain 2 life.</text>			
+			<text>Each opponent discards two cards. If you control a Vampire, each opponent loses 2 life and you gain 2 life.</text>			
 		</card>		
 		<card>			
 			<name>Arch of Orazca</name>			
@@ -145,23 +220,23 @@ Whenever Deadeye Brawler deals combat damage to a player, if you have the city's
 			<cmc>2</cmc>			
 			<type>Legendary Artifact</type>			
 			<tablerow>1</tablerow>			
-			<text>{1}, {T}: Draw a card, then exile a card from your hand. If cards with five or more different covernted mana costs are exiled with Azor's Gateway, you gain 5 life, untap Azor's Gateway, and transform it.
+			<text>{1}, {T}: Draw a card, then exile a card from your hand. If cards with five or more different converted mana costs are exiled with Azor's Gateway, you gain 5 life, untap Azor's Gateway, and transform it.
 
 (Related: Sanctum of the Sun)</text>			
 		</card>		
 		<card>			
-			<name>Disperse in the Wind</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/disperseinthewind.jpg" rarity="Rare">RIX</set>			
+			<name>Return to the Wind</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/598/636506953811236408.png" rarity="Rare">RIX</set>			
 			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
-			<text>Exile target nonland permanent. For as long as that card remains exiled, it's owner may cast it without paying its mana cost.</text>			
+			<text>Exile target nonland permanent. For as long as that card remains exiled, its owner may cast it without paying its mana cost.</text>			
 		</card>		
 		<card>			
 			<name>Slaughter the Strong</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/slaughterthestrong1.jpg" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/589/636506920932790133.png" rarity="Rare">RIX</set>			
 			<color>W</color>			
 			<manacost>1WW</manacost>			
 			<cmc>3</cmc>			
@@ -170,19 +245,19 @@ Whenever Deadeye Brawler deals combat damage to a player, if you have the city's
 			<text>Each player chooses any number of creatures he or she controls with total power 4 or less, then sacrifices all other creatures he or she controls.</text>			
 		</card>		
 		<card>			
-			<name>Deadeye Rig Hauler</name>			
-			<set picURL="" rarity="Common">RIX</set>			
+			<name>Deadeye Rig-Hauler</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/581/636506899130702235.png" rarity="Common">RIX</set>			
 			<color>U</color>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
 			<type>Creature — Human Pirate</type>			
 			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>Raid— When Fathom Fleet Rig-Hauler enters the battlefield, if you attacked with a creature this turn, you may return target creature to its owner's hand.</text>			
+			<text>Raid— When Deadeye Rig-Hauler enters the battlefield, if you attacked with a creature this turn, you may return target creature to its owner's hand.</text>			
 		</card>		
 		<card>			
 			<name>Dire Fleet Daredevil</name>			
-			<set picURL="http://mythicspoiler.com/rix/cards/direfleetdaredevil.jpg" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/580/636506898395880513.png" rarity="Rare">RIX</set>			
 			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
@@ -190,22 +265,26 @@ Whenever Deadeye Brawler deals combat damage to a player, if you have the city's
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>First strike
-When this enters the battlefield, exile target instant or sorcery card from an opponent's graveyard. You may cast that card this turn and you may spend mana as though it were mana of any color. If that card would be put into a graveyard this turn, exile it instead.</text>			
+When Dire Fleet Daredevil enters the battlefield, exile target instant or sorcery card from an opponent's graveyard. You may cast that card this turn, and you may spend mana as though it were mana of any type to cast that spell. If that card would be put into a graveyard this turn, exile it instead.</text>			
 		</card>		
 		<card>			
 			<name>Metzali, Tower of Triumph</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/558/636506700330547626.jpeg" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/579/636506897055818170.png" rarity="Rare">RIX</set>			
+			<related>Path of Mettle</related>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Legendary Land</type>			
 			<tablerow>0</tablerow>			
-			<text>{T}: Add one mana of any color to your mana pool.
+			<text>(Transforms from Path of Mettle.)
+{T}: Add one mana of any color to your mana pool.
 {1}{R}, {T}: Metzali, Tower of Triumph deals 2 damage to each opponent.
-{2}{W}, {T}: Choose a creature at random that attacked this turn. Destroy that creature.</text>			
+{2}{W}, {T}: Choose a creature at random that attacked this turn. Destroy that creature.
+
+(Related: Path of Mettle)</text>			
 		</card>		
 		<card>			
 			<name>Path of Mettle</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/556/636506697696566694.jpeg" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/578/636506896453557596.png" rarity="Rare">RIX</set>			
 			<color>W</color>			
 			<color>R</color>			
 			<related>Metzali, Tower of Triumph</related>			
@@ -213,15 +292,15 @@ When this enters the battlefield, exile target instant or sorcery card from an o
 			<cmc>2</cmc>			
 			<type>Legendary Enchantment</type>			
 			<tablerow>1</tablerow>			
-			<text>When ~ enters the battlefield, it deals 1 damage to each creature that doesn't have first strike, double strike, vigilance, or haste.
+			<text>When Path of Mettle enters the battlefield, it deals 1 damage to each creature that doesn't have first strike, double strike, vigilance, or haste.
 
-Whenever you attack with at least two creatures that have first strike, double strike, vigilance, and/or haste, transform ~.
+Whenever you attack with at least two creatures that have first strike, double strike, vigilance, and/or haste, transform Path of Mettle.
 
 (Related: Metzali, Tower of Triumph)</text>			
 		</card>		
 		<card>			
 			<name>Steelclad Ferocidons</name>			
-			<set picURL="" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/588/636506917986102886.png" rarity="Rare">RIX</set>			
 			<color>R</color>			
 			<manacost>5RR</manacost>			
 			<cmc>7</cmc>			
@@ -429,7 +508,7 @@ When Rekindling Phoenix dies, create a 0/1 red Elemental creature token with &qu
 		</card>		
 		<card>			
 			<name>Gold-Forge Garrison</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/536/636506314451996807.jpeg" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/584/636506906809986001.png" rarity="Rare">RIX</set>			
 			<related>Golden  Guardian</related>			
 			<manacost/>			
 			<cmc>0</cmc>			
@@ -443,17 +522,15 @@ When Rekindling Phoenix dies, create a 0/1 red Elemental creature token with &qu
 (Related: Golden  Guardian)</text>			
 		</card>		
 		<card>			
-			<name>Golden  Guardian</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/530/636506229797529698.jpeg" rarity="Rare">RIX</set>			
-			<related>Gold-Forge Garrison</related>			
+			<name>Golden Guardian</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/583/636506906341126746.png" rarity="Rare">RIX</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact Creature — Golem</type>			
+			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
 			<text>Defender
-{2}: Golden Guardian fights another target creature you control. When Golden Guardian dies this turn, return it to the battlefield transformed under your control.
-
-(Related: Gold-Forge Garrison)</text>			
+{2}: Golden Guardian fights another target creature you control. When Golden Guardian dies this turn, return it to the battlefield transformed under your control.</text>			
 		</card>		
 		<card>			
 			<name>Polyraptor</name>			
@@ -483,8 +560,8 @@ When Azor, the Lawbringer enters the battlefield, each opponent can't cast insta
 Whenever Azor attacks, you may pay {X}{W}{U}{U}. If you do, you gain X life and draw X cards.</text>			
 		</card>		
 		<card>			
-			<name>Warsail Marauder</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/519/636506080260046434.png" rarity="Rare">RIX</set>			
+			<name>Warkite Marauder</name>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/582/636506905946113469.png" rarity="Rare">RIX</set>			
 			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
@@ -493,7 +570,7 @@ Whenever Azor attacks, you may pay {X}{W}{U}{U}. If you do, you gain X life and 
 			<tablerow>2</tablerow>			
 			<text>Flying
 
-Whenever Warsail Marauder attacks, target creature loses all abilities and has base power and toughness 0/1 until end of turn.</text>			
+Whenever Warkite Marauder attacks, target creature defending player controls loses all abilities and has base power and toughness 0/1 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Cherished Hatchling</name>			
@@ -572,7 +649,7 @@ Whenever another Pirate enters the battlefield under your control, each opponent
 		</card>		
 		<card>			
 			<name>Deeproot Elite</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/496/636505688337773886.png" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/593/636506930332928159.png" rarity="Rare">RIX</set>			
 			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
@@ -583,7 +660,7 @@ Whenever another Pirate enters the battlefield under your control, each opponent
 		</card>		
 		<card>			
 			<name>Silent Gravestone</name>			
-			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/490/636505528990262281.png" rarity="Rare">RIX</set>			
+			<set picURL="http://media-dominaria.cursecdn.com/avatars/202/594/636506930895315088.png" rarity="Rare">RIX</set>			
 			<manacost>1</manacost>			
 			<cmc>1</cmc>			
 			<type>Artifact</type>			
@@ -798,6 +875,7 @@ At the beginning of your upkeep, each player draws a card. If you have the city'
 -1: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.
 
 -8: You get an emblem with &quot;Whenever a creature enters the battlefield under your control, you may draw a card.&quot;</text>			
+			<loyalty>3</loyalty>			
 		</card>		
 		<card>			
 			<name>Legion Lieutenant</name>			
@@ -1160,6 +1238,7 @@ Sacrifice Atzocan Seer: Return target Dinosaur card from your graveyard to your 
 -3: Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it has converted mana cost 3 or less.
 
 -8: Each opponent loses life equal to the number of cards in his or her graveyard.</text>			
+			<loyalty>4</loyalty>			
 		</card>		
 		<card>			
 			<name>Vona's Hunger</name>			
@@ -1261,6 +1340,7 @@ Equip {1}</text>
 -3: Return target Pirate card from your graveyard to the battlefield.
 
 -11: Destroy all creature target opponent controls. Angrath, Minotaur Pirate deals damage to that player equal to their total power.</text>			
+			<loyalty>5</loyalty>			
 		</card>		
 		<card>			
 			<name>Vampire Champion</name>			
@@ -1308,6 +1388,7 @@ Equip {1}</text>
 -3: Destroy target creature.
 
 -10: Until end of turn, creatures you control gain deathtouch and &quot;Whenever this creature deals damage to an opponent, that player loses the game.&quot;</text>			
+			<loyalty>5</loyalty>			
 		</card>		
 		<card>			
 			<name>Tetzimoc, Primal Death</name>			
