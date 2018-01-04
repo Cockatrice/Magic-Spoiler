@@ -27,6 +27,664 @@
     "border":"black",
     "cards":[
       {
+        "cmc":5,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"4W",
+        "name":"Sun-Crested Pterodon",
+        "number":"27",
+        "power":"2",
+        "rarity":"Common",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Flying\nSun-Crested Pterodon has Vigilance as long as you control another Dinosaur.",
+        "toughness":"5",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/573/636506853760348904.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"1R",
+        "name":"Sun-Collared Raptor",
+        "number":"118",
+        "power":"1",
+        "rarity":"Common",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Trample\n{2}{R}: Sun-Collared Raptor gets +3/+0 until end of turn.",
+        "toughness":"2",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://mythicspoiler.com/rix/cards/suncollaredraptor.jpg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"2R",
+        "name":"Blood Sun",
+        "number":"92",
+        "rarity":"Rare",
+        "text":"When Blood Sun enters the battlefield, draw a card.\n\nAll lands lose all abilities except mana abilities.",
+        "type":"Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/572/636506833079506851.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"1G",
+        "name":"Naturalize",
+        "number":"139",
+        "rarity":"Common",
+        "text":"Destroy target artifact or enchantment",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/567/636506807081937189.jpeg"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"1U",
+        "name":"Negate",
+        "number":"44",
+        "rarity":"Common",
+        "text":"Counter target noncreature spell.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/566/636506805893407538.jpeg"
+      },
+      {
+        "cmc":1,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"R",
+        "name":"Mutiny",
+        "number":"106",
+        "rarity":"Common",
+        "text":"Target creature an opponent controls deals damage equal to its power to another target creature that player controls.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/565/636506803372586238.jpeg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"1BB",
+        "name":"Arterial Flow",
+        "number":"62",
+        "rarity":"Uncommon",
+        "text":"Each opponent discards two cards.\nIf you control a Vampire, each opponent loses 2 life and you gain 2 life.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://mythicspoiler.com/rix/cards/arterialflow.jpg"
+      },
+      {
+        "cmc":0,
+        "name":"Arch of Orazca",
+        "number":"185",
+        "rarity":"Rare",
+        "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\n{T}: Add {C} to your mana pool.\n{5}, {T}: Draw a card. Activate this ability only if you have the city's blessing.",
+        "type":"Land",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/564/636506795280911886.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "U",
+          "B"
+        ],
+        "colors":[
+          "Blue",
+          "Black"
+        ],
+        "manaCost":"2UB",
+        "name":"Deadeye Brawler",
+        "number":"155",
+        "power":"2",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Deathtouch\nAscend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nWhenever Deadeye Brawler deals combat damage to a player, if you have the city's blessing, draw a card.",
+        "toughness":"4",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/563/636506793258408450.png"
+      },
+      {
+        "cmc":0,
+        "layout":"double-faced",
+        "name":"Sanctum of the Sun",
+        "names":[
+          "Azor's Gateway",
+          "Sanctum of the Sun"
+        ],
+        "number":"176b",
+        "rarity":"Mythic Rare",
+        "text":"(Transforms from Azor's Gateway.)\n{T}: Add X mana of any one color to your mana pool, where X is your life total.",
+        "type":"Legendary Land",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/562/636506791180485161.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"1B",
+        "name":"Moment of Craving",
+        "number":"79",
+        "rarity":"Common",
+        "text":"Target creature gets -2/-2 until end of turn. You gain 2 life.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/561/636506790965576154.png"
+      },
+      {
+        "cmc":2,
+        "layout":"double-faced",
+        "manaCost":"2",
+        "name":"Azor's Gateway",
+        "names":[
+          "Azor's Gateway",
+          "Sanctum of the Sun"
+        ],
+        "number":"176a",
+        "rarity":"Mythic Rare",
+        "text":"{1}, {T}: Draw a card, then exile a card from your hand. If cards with five or more different covernted mana costs are exiled with Azor's Gateway, you gain 5 life, untap Azor's Gateway, and transform it.",
+        "type":"Legendary Artifact",
+        "types":[
+          "Artifact"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/560/636506789628139343.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"2U",
+        "name":"Disperse in the Wind",
+        "number":"46",
+        "rarity":"Rare",
+        "text":"Exile target nonland permanent. For as long as that card remains exiled, it's owner may cast it without paying its mana cost.",
+        "type":"Instant",
+        "types":[
+          "Instant"
+        ],
+        "url":"http://mythicspoiler.com/rix/cards/disperseinthewind.jpg"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"1WW",
+        "name":"Slaughter the Strong",
+        "number":"22",
+        "rarity":"Rare",
+        "text":"Each player chooses any number of creatures he or she controls with total power 4 or less, then sacrifices all other creatures he or she controls.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://mythicspoiler.com/rix/cards/slaughterthestrong1.jpg"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"3U",
+        "name":"Deadeye Rig Hauler",
+        "number":"36",
+        "power":"3",
+        "rarity":"Common",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Raid— When Fathom Fleet Rig-Hauler enters the battlefield, if you attacked with a creature this turn, you may return target creature to its owner's hand.",
+        "toughness":"2",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"1R",
+        "name":"Dire Fleet Daredevil",
+        "number":"99",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"First strike\nWhen this enters the battlefield, exile target instant or sorcery card from an opponent's graveyard. You may cast that card this turn and you may spend mana as though it were mana of any color. If that card would be put into a graveyard this turn, exile it instead.",
+        "toughness":"1",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://mythicspoiler.com/rix/cards/direfleetdaredevil.jpg"
+      },
+      {
+        "cmc":0,
+        "colorIdentity":[
+          "W",
+          "R"
+        ],
+        "name":"Metzali, Tower of Triumph",
+        "number":"165",
+        "rarity":"Rare",
+        "text":"{T}: Add one mana of any color to your mana pool.\n{1}{R}, {T}: Metzali, Tower of Triumph deals 2 damage to each opponent.\n{2}{W}, {T}: Choose a creature at random that attacked this turn. Destroy that creature.",
+        "type":"Legendary Land",
+        "types":[
+          "Land"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/558/636506700330547626.jpeg"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W",
+          "R"
+        ],
+        "colors":[
+          "White",
+          "Red"
+        ],
+        "layout":"double-faced",
+        "manaCost":"RW",
+        "name":"Path of Mettle",
+        "names":[
+          "Path of Mettle",
+          "Metzali, Tower of Triumph"
+        ],
+        "number":"165a",
+        "rarity":"Rare",
+        "text":"When ~ enters the battlefield, it deals 1 damage to each creature that doesn't have first strike, double strike, vigilance, or haste.\n\nWhenever you attack with at least two creatures that have first strike, double strike, vigilance, and/or haste, transform ~.",
+        "type":"Legendary Enchantment",
+        "types":[
+          "Enchantment"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/556/636506697696566694.jpeg"
+      },
+      {
+        "cmc":7,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"5RR",
+        "name":"Steelclad Ferocidons",
+        "number":"115",
+        "power":"8",
+        "rarity":"Rare",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Enrage — Whenever Steelclad Ferocidons is dealt damage, each opponent sacrifices a permanent.",
+        "toughness":"5",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":""
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"1B",
+        "name":"Dire Fleet Poisoner",
+        "number":"68",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Flash\nDeathtouch\nWhen Dire Fleet Poisoner enters the battlefield, target attacking Pirate you control gets +1/+1 and gains deathtouch until end of turn.",
+        "toughness":"2",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/546/636506485362136449.png"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"3U",
+        "name":"Crafty Cutpurse",
+        "number":"33",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Flash\nWhen Crafty Cutpurse enters the battlefield, each token that would be created under an opponent's control this turn is created your control instead.",
+        "toughness":"2",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/542/636506409285132503.png"
+      },
+      {
+        "cmc":5,
+        "colorIdentity":[
+          "W"
+        ],
+        "colors":[
+          "White"
+        ],
+        "manaCost":"3WW",
+        "name":"Vicious Cagemaw",
+        "number":"29",
+        "power":"5",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Enrage — Whenever Vicious Cagemaw is dealt damage, exile target creature an opponent controls until Vicious Cagemaw leaves the battlefield.",
+        "toughness":"5",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/545/636506424059847651.png"
+      },
+      {
+        "cmc":7,
+        "colorIdentity":[
+          "U"
+        ],
+        "colors":[
+          "Blue"
+        ],
+        "manaCost":"5UU",
+        "name":"Nezahal, Primal Tide",
+        "number":"45",
+        "power":"7",
+        "rarity":"Mythic Rare",
+        "subtypes":[
+          "Elder",
+          "Dinosaur"
+        ],
+        "text":"Nezahal, Primal Tide can't be countered.\n\nYou have no maximum hand size.\n\nWhenever an opponent casts a noncreature spell, draw a card.\n\nDiscard three cards: Exile Nezahal. Return it to the battlefield tapped under its owner's control at the beginning of the next end step.",
+        "toughness":"7",
+        "type":"Legendary Creature — Elder Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/534/636506308415960913.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "W",
+          "G"
+        ],
+        "colors":[
+          "White",
+          "Green"
+        ],
+        "manaCost":"GW",
+        "name":"Siegehorn Ceratops",
+        "number":"171",
+        "power":"2",
+        "rarity":"Rare",
+        "subtypes":[
+          "Dinosaur"
+        ],
+        "text":"Enrage — Whenever Siegehorn Ceratops is dealt damage, put two +1/+1 counters on it. (It must survive the damage to get the counters.)",
+        "toughness":"2",
+        "type":"Creature — Dinosaur",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/532/636506275298834321.png"
+      },
+      {
+        "cmc":2,
+        "colorIdentity":[
+          "G"
+        ],
+        "colors":[
+          "Green"
+        ],
+        "manaCost":"1G",
+        "name":"Thunderherd Migration",
+        "number":"149",
+        "rarity":"Uncommon",
+        "text":"As an additional cost to cast Thunderherd Migration, reveal a Dinosaur card from your hand or pay {1}.\n\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/527/636506189781871380.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B",
+          "G"
+        ],
+        "colors":[
+          "Black",
+          "Green"
+        ],
+        "manaCost":"1BG",
+        "name":"Jungle Creeper",
+        "number":"161",
+        "power":"3",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Elemental"
+        ],
+        "text":"{3}{B}{G}: Return Jungle Creeper from your graveyard to your hand.",
+        "toughness":"3",
+        "type":"Creature — Elemental",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/524/636506173908944866.jpeg"
+      },
+      {
+        "cmc":4,
+        "colorIdentity":[
+          "B",
+          "R"
+        ],
+        "colors":[
+          "Black",
+          "Red"
+        ],
+        "manaCost":"2BR",
+        "name":"Dire Fleet Neckbreaker",
+        "number":"156",
+        "power":"3",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Orc",
+          "Pirate"
+        ],
+        "text":"Attacking Pirates you control get +2/+0.",
+        "toughness":"2",
+        "type":"Creature — Orc Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/523/636506161461810253.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"2B",
+        "name":"Tomb Robber",
+        "number":"87",
+        "power":"1",
+        "rarity":"Rare",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Menace\n\n{1}, Discard a card: Tomb Robber explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
+        "toughness":"1",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/522/636506160438786562.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "B"
+        ],
+        "colors":[
+          "Black"
+        ],
+        "manaCost":"1BB",
+        "name":"Golden Demise",
+        "number":"73",
+        "rarity":"Uncommon",
+        "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\n\nAll creatures get -2/-2 until end of turn. If you have the city's blessing, instead only creatures your opponents control get -2/-2 until end of turn.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/518/636506072959500407.png"
+      },
+      {
+        "cmc":3,
+        "colorIdentity":[
+          "U",
+          "R"
+        ],
+        "colors":[
+          "Blue",
+          "Red"
+        ],
+        "manaCost":"1UR",
+        "name":"Storm Fleet Sprinter",
+        "number":"172",
+        "power":"2",
+        "rarity":"Uncommon",
+        "subtypes":[
+          "Human",
+          "Pirate"
+        ],
+        "text":"Haste\nStorm Fleet Sprinter can't be blocked.",
+        "toughness":"2",
+        "type":"Creature — Human Pirate",
+        "types":[
+          "Creature"
+        ],
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/513/636506035658090247.png"
+      },
+      {
         "cmc":1,
         "colorIdentity":[
           "R"
@@ -90,7 +748,7 @@
         "name":"Flood of Recollection",
         "number":"38",
         "rarity":"Uncommon",
-        "text":"Return Target instant or sorcery card from your graveyard to your hand. Exile Flood of Recollection.",
+        "text":"Return target instant or sorcery card from your graveyard to your hand. Exile Flood of Recollection.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
@@ -144,19 +802,24 @@
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/500/636505934680910765.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/514/636506062836093535.png"
       },
       {
         "cmc":0,
+        "layout":"double-faced",
         "name":"Gold-Forge Garrison",
-        "number":"179",
+        "names":[
+          "Golden  Guardian",
+          "Gold-Forge Garrison"
+        ],
+        "number":"179b",
         "rarity":"Rare",
-        "text":"{T}: Add two mana of any one color to your mana pool.\n{4}, {T}: Create a 4/4 colorless Golem artifact creature token.",
+        "text":"(Transforms from Golden Guardian.)\n\n{T}: Add two mana of any one color to your mana pool.\n{4}, {T}: Create a 4/4 colorless Golem artifact creature token.",
         "type":"Land",
         "types":[
           "Land"
         ],
-        "url":"http://mythicspoiler.com/rix/cards/goldforgegarrison.jpg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/536/636506314451996807.jpeg"
       },
       {
         "cmc":4,
@@ -168,18 +831,17 @@
           "Gold-Forge Garrison"
         ],
         "number":"179a",
-        "power":"4",
         "rarity":"Rare",
         "subtypes":[
           "Golem"
         ],
-        "text":"Defender\n{2}: This creature fights another target creature you  control. When this dies this turn, return it to the battlefield transformed.",
-        "toughness":"4",
-        "type":"Creature — Golem",
+        "text":"Defender\n{2}: Golden Guardian fights another target creature you control. When Golden Guardian dies this turn, return it to the battlefield transformed under your control.",
+        "type":"Artifact Creature — Golem",
         "types":[
+          "Artifact",
           "Creature"
         ],
-        "url":""
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/530/636506229797529698.jpeg"
       },
       {
         "cmc":8,
@@ -197,7 +859,7 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Enrage — Whenever Polyraptor is dealt damage, create a token that is a copy of Polyraptor",
+        "text":"Enrage — Whenever Polyraptor is dealt damage, create a token that is a copy of Polyraptor.",
         "toughness":"5",
         "type":"Creature — Dinosaur",
         "types":[
@@ -223,7 +885,7 @@
         "subtypes":[
           "Sphinx"
         ],
-        "text":"Flying\n\nWhen Azor, the Lawbringer enters the battlefield, each opponent can't cast instant and sorcery spells during that player's next turn.\n\nWhenever Azor attacks, you may pay {X}{W}{U}{U}. If you do, you may gain X life and draw X cards.",
+        "text":"Flying\n\nWhen Azor, the Lawbringer enters the battlefield, each opponent can't cast instant and sorcery spells during that player's next turn.\n\nWhenever Azor attacks, you may pay {X}{W}{U}{U}. If you do, you gain X life and draw X cards.",
         "toughness":"6",
         "type":"Legendary Creature — Sphinx",
         "types":[
@@ -240,7 +902,7 @@
           "Blue"
         ],
         "manaCost":"1U",
-        "name":"~Warsail Marauder",
+        "name":"Warsail Marauder",
         "number":"60",
         "power":"2",
         "rarity":"Rare",
@@ -254,7 +916,7 @@
         "types":[
           "Creature"
         ],
-        "url":""
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/519/636506080260046434.png"
       },
       {
         "cmc":2,
@@ -462,10 +1124,15 @@
           "W",
           "B"
         ],
+        "layout":"double-faced",
         "name":"Tomb of the Dusk Rose",
-        "number":"166",
+        "names":[
+          "Profane Procession",
+          "Tomb of the Dusk Rose"
+        ],
+        "number":"166b",
         "rarity":"Rare",
-        "text":"{T}: Add one mana of any color to your mana pool.\n\n{2}{W}{B}，{T} : Put a creature card exiled with this permanent onto the battlefield under your control.",
+        "text":"(Transforms from Profane Procession.)\n\n{T}: Add one mana of any color to your mana pool.\n\n{2}{W}{B}，{T} : Put a creature card exiled with this permanent onto the battlefield under your control.",
         "type":"Legendary Land",
         "types":[
           "Land"
@@ -961,13 +1628,13 @@
           "Human",
           "Shaman"
         ],
-        "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\n\nWhenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1/1 Elemental creature tokens tapped and attacking. Exile them at the beginning of the next end step unless you have the city's blessing.",
+        "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\n\nWhenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1/1 Elemental creature tokens that are tapped and attacking. At the beginning of the next end step, exile those tokens unless you have the city's blessing.",
         "toughness":"1",
         "type":"Creature — Human Shaman",
         "types":[
           "Creature"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/483/636505385385175303.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/516/636506066836122687.png"
       },
       {
         "cmc":4,
@@ -986,7 +1653,7 @@
         "types":[
           "Enchantment"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/482/636505381534367253.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/517/636506067287296116.png"
       },
       {
         "cmc":2,
@@ -1074,12 +1741,12 @@
         "name":"Radiant Destiny",
         "number":"18",
         "rarity":"Rare",
-        "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nAs Radiant Destiny enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1. They have vigilance as long as you have the city's blessing.",
+        "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nAs Radiant Destiny enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1. As long as you have the city's blessing, they also have vigilance.",
         "type":"Enchantment",
         "types":[
           "Enchantment"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/484/636505394008270027.png"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/515/636506066175873299.png"
       },
       {
         "cmc":4,
@@ -1357,7 +2024,7 @@
           "Green"
         ],
         "manaCost":"1GU",
-        "name":"Kumena, Tyrant of Orzca",
+        "name":"Kumena, Tyrant of Orazca",
         "number":"162",
         "power":"2",
         "rarity":"Mythic Rare",
@@ -1365,7 +2032,7 @@
           "Merfolk",
           "Shaman"
         ],
-        "text":"Tap another untapped Merfolk you control: Kumena, Tyrant of Orzca can't be blocked this turn.\n\nTap three untapped Merfolk you control: Draw a card.\n\nTap five untapped Merfolk you control: Put a +1/+1 counter on each Merfolk you control.",
+        "text":"Tap another untapped Merfolk you control: Kumena, Tyrant of Orzaca can't be blocked this turn.\n\nTap three untapped Merfolk you control: Draw a card.\n\nTap five untapped Merfolk you control: Put a +1/+1 counter on each Merfolk you control.",
         "toughness":"4",
         "type":"Legendary Creature — Merfolk Shaman",
         "types":[
@@ -1495,7 +2162,7 @@
         "types":[
           "Planeswalker"
         ],
-        "url":"http://media-dominaria.cursecdn.com/avatars/202/396/636503390767624614.jpeg"
+        "url":"http://media-dominaria.cursecdn.com/avatars/202/526/636506176169528010.png"
       },
       {
         "cmc":3,
