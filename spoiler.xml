@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sat, Jan 06 2018, 21:53:13 (UTC)
+        created: Mon, Jan 08 2018, 18:45:37 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -844,7 +844,7 @@ All creatures get -2/-2 until end of turn. If you have the city's blessing, inst
 		</card>		
 		<card>			
 			<name>Golden Guardian</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/rix/179a.jpg?1515063928" rarity="Rare">RIX</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/rix/179a.jpg?1515334430" rarity="Rare">RIX</set>			
 			<related>Gold-Forge Garrison</related>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
@@ -858,7 +858,7 @@ All creatures get -2/-2 until end of turn. If you have the city's blessing, inst
 		</card>		
 		<card>			
 			<name>Gold-Forge Garrison</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/rix/179b.jpg?1515063928" rarity="Rare">RIX</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/rix/179b.jpg?1515334430" rarity="Rare">RIX</set>			
 			<related>Golden Guardian</related>			
 			<manacost/>			
 			<cmc>4</cmc>			
@@ -866,7 +866,7 @@ All creatures get -2/-2 until end of turn. If you have the city's blessing, inst
 			<tablerow>0</tablerow>			
 			<text>(Transforms from Golden Guardian.)
 {T}: Add two mana of any color to your mana pool.
-{4}, {T}: Creature a 4/4 colorless Golem artifact creature token.
+{4}, {T}: Create a 4/4 colorless Golem artifact creature token.
 
 (Related: Golden Guardian)</text>			
 		</card>		
@@ -1350,6 +1350,17 @@ You may cast Oathsworn Vampire from your graveyard if you gained life this turn.
 			<cipt>1</cipt>			
 		</card>		
 		<card>			
+			<name>Orazca Frillback</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/rix/140.jpg?1515418303" rarity="Common">RIX</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>4/2</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
 			<name>Orazca Raptor</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/rix/108.jpg?1515151867" rarity="Common">RIX</set>			
 			<color>R</color>			
@@ -1370,17 +1381,6 @@ You may cast Oathsworn Vampire from your graveyard if you gained life this turn.
 			<text>Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
 {T}: Add {C} to your mana pool.
 {T}, Sacrifice Orazca Relic: You gain 3 life and draw a card. Activate this ability only if you have the city's blessing.</text>			
-		</card>		
-		<card>			
-			<name>Orzaca Frillback</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/rix/140.jpg?1515153622" rarity="Common">RIX</set>			
-			<color>G</color>			
-			<manacost>2G</manacost>			
-			<cmc>3</cmc>			
-			<type>Creature — Dinosaur</type>			
-			<pt>4/2</pt>			
-			<tablerow>2</tablerow>			
-			<text/>			
 		</card>		
 		<card>			
 			<name>Overgrown Armasaur</name>			
@@ -1606,13 +1606,13 @@ Creatures you control of the chosen type get +1/+1. As long as you have the city
 		</card>		
 		<card>			
 			<name>Reckless Rage</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/rix/110.jpg?1515151955" rarity="Uncommon">RIX</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/rix/110.jpg?1515418282" rarity="Uncommon">RIX</set>			
 			<color>R</color>			
 			<manacost>R</manacost>			
 			<cmc>1</cmc>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
-			<text>Reckless Rage dals 4 damage to target creature you don't control and 2 damage to target creature you control.</text>			
+			<text>Reckless Rage deals 4 damage to target creature you don't control and 2 damage to target creature you control.</text>			
 		</card>		
 		<card>			
 			<name>Recover</name>			
