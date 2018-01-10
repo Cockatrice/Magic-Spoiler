@@ -106,6 +106,7 @@
         "colors":[
           "Black"
         ],
+        "flavor":"Orcs have been enemies of the Legion of Dusk since it was formed, and the entire race has been declared anathema.",
         "manaCost":"2B",
         "name":"Angrath's Ambusher",
         "number":"202",
@@ -187,7 +188,7 @@
         "name":"Aquatic Incursion",
         "number":"32",
         "rarity":"Uncommon",
-        "text":"When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof.\n{3}{U}: Target Merfolk can't be blocked this turn.",
+        "text":"When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof. (They can't be the targets of spells or abilities your opponents control.)\n{3}{U}: Target Merfolk can't be blocked this turn.",
         "type":"Enchantment",
         "types":[
           "Enchantment"
@@ -240,8 +241,8 @@
           "White",
           "Green"
         ],
-        "flavor":"Steams of gold and bright feathers flash in the orb, visions of past and future.",
-        "manaCost":"1WG",
+        "flavor":"Streams of gold and bright feathers flash in the orb, visions of past and future.",
+        "manaCost":"1GW",
         "name":"Atzocan Seer",
         "number":"153",
         "power":"2",
@@ -250,7 +251,7 @@
           "Human",
           "Druid"
         ],
-        "text":"{T}: Add one mana of any color to your mana pool.\nSacrifice Atzocan Seer: Return target Dinosaur from your graveyard to your hand.",
+        "text":"{T}: Add one mana of any color to your mana pool.\nSacrifice Atzocan Seer: Return target Dinosaur card from your graveyard to your hand.",
         "toughness":"3",
         "type":"Creature — Human Druid",
         "types":[
@@ -262,7 +263,7 @@
         "artist":"Zack Stella",
         "cmc":4,
         "colorIdentity":[],
-        "flavor":"\"The fools have done it.\"\n—Tishana",
+        "flavor":"\"The fools have done it.\" —Tishana",
         "manaCost":"4",
         "name":"Awakened Amalgam",
         "number":"175",
@@ -271,7 +272,7 @@
         "subtypes":[
           "Golem"
         ],
-        "text":"Awakened Amalgam's power and toughness is equal to the number of lands you control with different names.",
+        "text":"Awakened Amalgam's power and toughness are each equal to the number of differently named lands you control.",
         "toughness":"*",
         "type":"Artifact Creature — Golem",
         "types":[
@@ -307,7 +308,7 @@
         "artist":"Yeong-Hao Han",
         "cmc":2,
         "colorIdentity":[],
-        "flavor":"As soon as Jace laid eyes on the great sphinx's chamber, the shards of memory began sliding into place.",
+        "flavor":"As soon as Jace laid eyes on the great sphinx's chamber, the shards of memory began sliding into place. As soon as Jace laid eyes on the great sphinx's chamber, the shards of memory began sliding into place.",
         "layout":"double-faced",
         "manaCost":"",
         "name":"Sanctum of the Sun",
@@ -395,7 +396,7 @@
           "Vampire",
           "Cleric"
         ],
-        "text":"When Bishop of Binding enters the battlefield, exile target creature an opponent controls until Bishop of Binding leaves the battlefield.\nWhenever Bishop of Binding attacks, target Vampire gets +X/+X until end of turn, where X is the power of the exiled card. ",
+        "text":"When Bishop of Binding enters the battlefield, exile target creature an opponent controls until Bishop of Binding leaves the battlefield.\nWhenever Bishop of Binding attacks, target Vampire gets +X/+X until end of turn, where X is the power of the exiled card.",
         "toughness":"1",
         "type":"Creature — Vampire Cleric",
         "types":[
@@ -412,7 +413,7 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"No shadow remains for you to hide in.\"\n—Caparocti Sunborn",
+        "flavor":"\"No shadow remains for you to hide in.\" —Caparocti Sunborn",
         "manaCost":"W",
         "name":"Blazing Hope",
         "number":"3",
@@ -454,7 +455,7 @@
         "colors":[
           "Red"
         ],
-        "flavor":"\"Want to sink a ship? Blow a hole in the hull? Want to kill a regisaur? Same answer.\"\n—Captain Brandis Thorn",
+        "flavor":"\"Want to sink a ship? Blow a hole in the hull. Want to kill a regisaur? Same answer.\" —Captain Brandis Thorn",
         "manaCost":"2R",
         "name":"Bombard",
         "number":"93",
@@ -475,7 +476,7 @@
         "colors":[
           "Red"
         ],
-        "flavor":"\"Why squabble for trinkets when we could be living large off all this gold?\"\n—Admiral Beckett Brass",
+        "flavor":"\"Why squabble for trinkets when we could be living large off all this gold?\" —Admiral Beckett Brass",
         "manaCost":"6R",
         "name":"Brass's Bounty",
         "number":"94",
@@ -496,7 +497,7 @@
         "colors":[
           "Red"
         ],
-        "flavor":"Finders, Keepers.",
+        "flavor":"Finders, keepers.",
         "manaCost":"3R",
         "name":"Brazen Freebooter",
         "number":"95",
@@ -523,12 +524,12 @@
         "colors":[
           "Red"
         ],
-        "flavor":"Never underestimate the power of pan ache.",
+        "flavor":"Never underestimate the power of panache.",
         "manaCost":"1R",
         "name":"Buccaneer's Bravado",
         "number":"96",
         "rarity":"Common",
-        "text":"Choose one-\n• Target creature gets +1/+1 and gains first strike until end of turn.\n• Target Pirate gets +1/+1 and gains double strike until end of turn.",
+        "text":"Choose one -\n• Target creature gets +1/+1 and gains first strike until end of turn.\n• Target Pirate gets +1/+1 and gains double strike until end of turn.",
         "type":"Instant",
         "types":[
           "Instant"
@@ -553,7 +554,7 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Enrage-Whenever Cacophodon is dealt damage, untap target permanent.",
+        "text":"Enrage - Whenever Cacophodon is dealt damage, untap target permanent.",
         "toughness":"5",
         "type":"Creature — Dinosaur",
         "types":[
@@ -570,7 +571,7 @@
         "colors":[
           "Black"
         ],
-        "flavor":"The first goblin tried to swim the canal. The second built a raft. The last and craftiest goblin launched herself from a fire cannon and soared over the canal, trailing smoke. All were eaten, but only one was cooked.",
+        "flavor":"The first goblin tried to swim the canal. The second built a raft. The last and craftiest goblin launched herself from a firecannon and soared over the canal, trailing smoke. All were eaten, but only one was cooked.",
         "manaCost":"4B",
         "name":"Canal Monitor",
         "number":"63",
@@ -667,6 +668,7 @@
         "colors":[
           "Green"
         ],
+        "flavor":"Despite its appearance, it's anything but defenseless.",
         "manaCost":"1G",
         "name":"Cherished Hatchling",
         "number":"124",
@@ -681,7 +683,7 @@
         "types":[
           "Creature"
         ],
-        "url":"https://img.scryfall.com/cards/large/en/rix/124.jpg?1514976014"
+        "url":"https://img.scryfall.com/cards/large/en/rix/124.jpg?1515564415"
       },
       {
         "artist":"Jonas De Ro",
@@ -690,7 +692,7 @@
           "B",
           "R"
         ],
-        "flavor":"\"Burn their fleet to the waterline, and sink whatever's left.\" — Angrath",
+        "flavor":"\"Burn their fleet to the waterline, and sink whatever's left.\" —Angrath",
         "name":"Cinder Barrens",
         "number":"205",
         "rarity":"Common",
@@ -710,12 +712,12 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"The sun creates, sustains, and consumes so it can create again.\"\n—Caparocti Sunborn",
+        "flavor":"\"The sun creates, sustains, and consumes so it can create again.\" —Caparocti Sunborn",
         "manaCost":"1W",
         "name":"Cleansing Ray",
         "number":"4",
         "rarity":"Common",
-        "text":"Choose one-\n• Destroy target Vampire.\n• Destroy target enchantment.",
+        "text":"Choose one -\n• Destroy target Vampire.\n• Destroy target enchantment.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
@@ -731,7 +733,7 @@
         "colors":[
           "Green"
         ],
-        "flavor":"\"Remember when it was the most terrifying thing you'd ever seen?\"\n—Captain Lannery Storm",
+        "flavor":"\"Remember when it was the most terrifying thing you'd ever seen?\" —Captain Lannery Storm",
         "manaCost":"4GG",
         "name":"Colossal Dreadmaw",
         "number":"125",
@@ -804,7 +806,7 @@
         "colors":[
           "Green"
         ],
-        "flavor":"\"Our survival, like theirs, depends on our ability to work together.\"\n—Huatli, to Tishana",
+        "flavor":"\"Our survival, like theirs, depends on our ability to work together.\" —Huatli, to Tishana",
         "manaCost":"3GG",
         "name":"Crested Herdcaller",
         "number":"126",
@@ -813,13 +815,13 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Trampler\nWhen Crested Herdcaller enters the battlefield, create a 3/3 green Dinosaur creature token with trampler.",
+        "text":"Trample\nWhen Crested Herdcaller enters the battlefield, create a 3/3 green Dinosaur creature token with trample.",
         "toughness":"3",
         "type":"Creature — Dinosaur",
         "types":[
           "Creature"
         ],
-        "url":"https://img.scryfall.com/cards/large/en/rix/126.jpg?1515200087"
+        "url":"https://img.scryfall.com/cards/large/en/rix/126.jpg?1515511850"
       },
       {
         "artist":"Daniel Ljunggren",
@@ -939,7 +941,7 @@
           "Human",
           "Pirate"
         ],
-        "text":"Raid-When Deadeye Rig-Hauler enters the battlefield, if you attacked with a creature this turn, you may return target creature to its owner's hand.",
+        "text":"Raid - When Deadeye Rig-Hauler enters the battlefield, if you attacked with a creature this turn, you may return target creature to its owner's hand.",
         "toughness":"2",
         "type":"Creature — Human Pirate",
         "types":[
@@ -1016,7 +1018,7 @@
           "Human",
           "Pirate"
         ],
-        "text":"Whenever Dinosaur Hunter deals combat damage to a Dinosaur, destroy that creature.",
+        "text":"Whenever Dinosaur Hunter deals damage to a Dinosaur, destroy that creature.",
         "toughness":"2",
         "type":"Creature — Human Pirate",
         "types":[
@@ -1042,7 +1044,7 @@
           "Human",
           "Pirate"
         ],
-        "text":"First Strike\nWhen Dire Fleet Daredevil enters the battlefield, exile target instant or sorcery from an opponent's graveyard. You may cast that card this turn, and you may spend mana as though as it were mana of any type to cast that spell. If that card would be put into a graveyard this turn, exile it instead.",
+        "text":"First strike\nWhen Dire Fleet Daredevil enters the battlefield, exile target instant or sorcery card from an opponent's graveyard. You may cast that card this turn, and you may spend mana as though it were mana of any type to cast that spell. If that card would be put into a graveyard this turn, exile it instead.",
         "toughness":"1",
         "type":"Creature — Human Pirate",
         "types":[
@@ -1253,7 +1255,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of non land cards exiled this way without paying their mana costs.",
+        "text":"Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of nonland cards exiled this way without paying their mana costs.",
         "toughness":"6",
         "type":"Legendary Creature — Elder Dinosaur",
         "types":[
@@ -1270,7 +1272,7 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"Undefeated in battle, she is the shining future our empire deserves.\"\n—Huatli",
+        "flavor":"\"Undefeated in battle, she is the shining future our empire deserves.\" —Huatli",
         "manaCost":"1WW",
         "name":"Everdawn Champion",
         "number":"6",
@@ -1332,7 +1334,7 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"We have come at least to this holiest of holy places. What was stolen from us long ago is ours once again.\"",
+        "flavor":"\"We have come at last to this holiest of holy places. What was stolen from us long ago is ours once again.\"",
         "manaCost":"1WW",
         "name":"Exultant Skymarcher",
         "number":"7",
@@ -1386,7 +1388,7 @@
         "colors":[
           "Red"
         ],
-        "flavor":"\"The Brazen Coalition is a firecannon pointed at our enemies. Goblins like him are the spark to its powder.\"\n–Admiral Beckett Brass",
+        "flavor":"\"The Brazen Coalition is a firecannon pointed at our enemies. Goblins like him are the spark to its powder.\" —Admiral Beckett Brass",
         "manaCost":"R",
         "name":"Fanatical Firebrand",
         "number":"101",
@@ -1699,7 +1701,7 @@
         "colors":[
           "Green"
         ],
-        "flavor":"\"The only gold I need it the sheltering shimmer of the trees.",
+        "flavor":"\"The only gold I need is the sheltering shimmer of the trees.\"",
         "manaCost":"1G",
         "name":"Giltgrove Stalker",
         "number":"131",
@@ -1721,7 +1723,7 @@
         "artist":"Jason Felix",
         "cmc":2,
         "colorIdentity":[],
-        "flavor":"\"Gold without freedom might as well be lead.\" — Angrath",
+        "flavor":"\"Gold without freedom might as well be lead.\" —Angrath",
         "manaCost":"2",
         "name":"Gleaming Barrier",
         "number":"178",
@@ -1748,7 +1750,7 @@
         "colors":[
           "Red"
         ],
-        "flavor":"\"Why are we following the goblin? Can he even read that map?\"\n—Daphne Vail, Diremore first mate.",
+        "flavor":"\"Why are we following the goblin? Can he even read that map?\" —Daphne Vail, Diremore first mate",
         "manaCost":"1R",
         "name":"Goblin Trailblazer",
         "number":"105",
@@ -1816,7 +1818,7 @@
         "artist":"Svetlin Velinov & Svetlin Velinov",
         "cmc":4,
         "colorIdentity":[],
-        "flavor":"Any army of living gold for the golden city.",
+        "flavor":"An army of living gold for the golden city. An army of living gold for the golden city.",
         "layout":"double-faced",
         "manaCost":"",
         "name":"Gold-Forge Garrison",
@@ -1826,7 +1828,7 @@
         ],
         "number":"179b",
         "rarity":"Rare",
-        "text":"(Transforms from Golden Guardian.)\n{T}: Add two mana of any color to your mana pool.\n{4}, {T}: Create a 4/4 colorless Golem artifact creature token.",
+        "text":"(Transforms from Golden Guardian.)\n{T}: Add two mana of any one color to your mana pool.\n{4}, {T}: Create a 4/4 colorless Golem artifact creature token.",
         "type":"Land",
         "types":[
           "Land"
@@ -1852,7 +1854,7 @@
           "Human",
           "Pirate"
         ],
-        "text":"Grasping Scoundrel gets +1/+0 as long as it is attacking.",
+        "text":"Grasping Scoundrel gets +1/+0 as long as it's attacking.",
         "toughness":"1",
         "type":"Creature — Human Pirate",
         "types":[
@@ -1869,7 +1871,7 @@
         "colors":[
           "Black"
         ],
-        "flavor":"\"You were keen enough to sink your fangs in to us, vampire! And now you're afraid of a few little nibbles?\"\n- Udvil \"Ratty\" Ratlock",
+        "flavor":"\"You were keen enough to sink your fangs into us, vampire! And now you're afraid of a few little nibbles?\" —Udvil \"Ratty\" Ratlock",
         "manaCost":"2B",
         "name":"Gruesome Fate",
         "number":"75",
@@ -1892,9 +1894,9 @@
           "Blue",
           "Green"
         ],
-        "flavor":"Hadana seeks power in the service of peace.",
+        "flavor":"Hadana seeks power in the service of peace. Hadana seeks power in the service of peace.",
         "layout":"double-faced",
-        "manaCost":"1UG",
+        "manaCost":"1GU",
         "name":"Hadana's Climb",
         "names":[
           "Hadana's Climb",
@@ -1905,7 +1907,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. then if that creature has three or more +1/+1 counters on it, transform Hadana's Climb.",
+        "text":"At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if that creature has three or more +1/+1 counters on it, transform Hadana's Climb.",
         "type":"Legendary Enchantment",
         "types":[
           "Enchantment"
@@ -1931,7 +1933,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"(Transforms from Hadana's Climb.)\n{T}: Add one mana of any color to your mana pool.\n{1}{G}{U}, {T}: Target creature yo ucontrol gains flying and gets +x/+x until end of turn, where X is its power.",
+        "text":"(Transforms from Hadana's Climb.)\n{T}: Add one mana of any color to your mana pool.\n{1}{G}{U}, {T}: Target creature you control gains flying and gets +X/+X until end of turn, where X is its power.",
         "type":"Legendary Land",
         "types":[
           "Land"
@@ -1972,7 +1974,7 @@
           "R",
           "U"
         ],
-        "flavor":"\"A place like this makes me wonder if there's more to life than blood and treasure...Nah.\"\n—Boyl Bucksalt, Storm Fleet swab",
+        "flavor":"\"A place like this makes me wonder if there's more to life than blood and treasure . . . Nah.\" —Boyl Bucksalt, Storm Fleet swab",
         "name":"Highland Lake",
         "number":"189",
         "rarity":"Uncommon",
@@ -2016,7 +2018,7 @@
           "Green"
         ],
         "loyalty":3,
-        "manaCost":"2WG",
+        "manaCost":"2GW",
         "name":"Huatli, Radiant Champion",
         "number":"159",
         "rarity":"Mythic Rare",
@@ -2026,7 +2028,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"+1: Put a loyalty counter on Huatli, Radiant Champion for each creature you control.\n-1: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.\n-8: You get an emblem with \"Whenever a creature enters the battlefield under your control, you may draw a card.",
+        "text":"+1: Put a loyalty counter on Huatli, Radiant Champion for each creature you control.\n-1: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.\n-8: You get an emblem with \"Whenever a creature enters the battlefield under your control, you may draw a card.\"",
         "type":"Legendary Planeswalker — Huatli",
         "types":[
           "Planeswalker"
@@ -2042,7 +2044,7 @@
         "colors":[
           "Green"
         ],
-        "flavor":"\"Death lizard approaching, cap'n!\"\n—Brint Doobin, last words",
+        "flavor":"\"Death lizard approaching, cap'n!\" —Brint Doobin, last words",
         "manaCost":"3G",
         "name":"Hunt the Weak",
         "number":"133",
@@ -2084,7 +2086,7 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"The music of blades against its silver armor merely inspires it to bellow more full-throated melodies.\"\n—Huatli",
+        "flavor":"\"The music of blades against its silver armor merely inspires it to bellow more full-throated melodies.\" —Huatli",
         "manaCost":"4W",
         "name":"Imperial Ceratops",
         "number":"10",
@@ -2093,7 +2095,7 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Enrage-Whenever Imperial Ceratops is dealt damage, you gain 2 life.",
+        "text":"Enrage - Whenever Imperial Ceratops is dealt damage, you gain 2 life.",
         "toughness":"5",
         "type":"Creature — Dinosaur",
         "types":[
@@ -2114,7 +2116,7 @@
         "name":"Induced Amnesia",
         "number":"40",
         "rarity":"Rare",
-        "text":"When Induced Amnesia enters the battlefield, target player exiles all cards from his or her hand face down, then draws that many cards. When Induced Amnesia is put into a graveyard from the battlefield, return the exiled cards to their owner's hand.",
+        "text":"When Induced Amnesia enters the battlefield, target player exiles all cards from his or her hand face down, then draws that many cards.\nWhen Induced Amnesia is put into a graveyard from the battlefield, return the exiled cards to their owner's hand.",
         "type":"Enchantment",
         "types":[
           "Enchantment"
@@ -2234,7 +2236,7 @@
           "Black",
           "Green"
         ],
-        "flavor":"Every journey has its inevitable end...",
+        "flavor":"Every journey has its inevitable end . . . Every journey has its inevitable end . . .",
         "layout":"double-faced",
         "manaCost":"1BG",
         "name":"Journey to Eternity",
@@ -2250,7 +2252,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"Enchant creature you control\nWhen enchanted creature dies, return it to the battlefield under your control, then return Journey to Eternity to the battlefield transformed under your control.\n",
+        "text":"Enchant creature you control\nWhen enchanted creature dies, return it to the battlefield under your control, then return Journey to Eternity to the battlefield transformed under your control.",
         "type":"Legendary Enchantment — Aura",
         "types":[
           "Enchantment"
@@ -2264,7 +2266,7 @@
           "B",
           "G"
         ],
-        "flavor":"...but every end is a new beginning.",
+        "flavor":". . . but every end is a new beginning. . . . but every end is a new beginning.",
         "layout":"double-faced",
         "manaCost":"",
         "name":"Atzal, Cave of Eternity",
@@ -2277,7 +2279,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"{T}: Add one mana of any color to your mana pool.\n{3}{B}{G}, {T}: Return target creature card from your graveyard to the battlefield.",
+        "text":"(Transforms from Journey to Eternity.)\n{T}: Add one mana of any color to your mana pool.\n{3}{B}{G}, {T}: Return target creature card from your graveyard to the battlefield.",
         "type":"Legendary Land",
         "types":[
           "Land"
@@ -2322,7 +2324,7 @@
           "Black",
           "Green"
         ],
-        "flavor":"\"You cannot kill it, not for long. It ripens where the ground is soaked with blood of the slaughtered.\"\n—Atiuru, priest of the Verdant Sun.",
+        "flavor":"\"You cannot kill it, not for long. It ripens where the ground is soaked with the blood of the slaughtered.\" —Atiuru, priest of the Verdant Sun",
         "manaCost":"1BG",
         "name":"Jungle Creeper",
         "number":"161",
@@ -2424,7 +2426,7 @@
           "Blue",
           "Green"
         ],
-        "manaCost":"1UG",
+        "manaCost":"1GU",
         "name":"Kumena, Tyrant of Orazca",
         "number":"162",
         "power":"2",
@@ -2482,7 +2484,7 @@
           "White",
           "Black"
         ],
-        "flavor":"\"We long ago abandoned the things that make humans weak: friendship, marriage, family. All that remains is the strength of our devotion.",
+        "flavor":"\"We long ago abandoned the things that make humans weak: friendship, marriage, family. All that remains is the strength of our devotion.\"",
         "manaCost":"WB",
         "name":"Legion Lieutenant",
         "number":"163",
@@ -2533,7 +2535,7 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"Its rise is like the sun's, a beautiful beginning. Its descent is like the sun's, a frightful ending.\"\n—Huatli",
+        "flavor":"\"Its rise is like the sun's, a beautiful beginning. Its descent is like the sun's, a frightful ending.\" —Huatli",
         "manaCost":"3W",
         "name":"Majestic Heliopterus",
         "number":"13",
@@ -2591,7 +2593,7 @@
         "name":"Mastermind's Acquisition",
         "number":"77",
         "rarity":"Rare",
-        "text":"Choose one-\n• Search your library for a card, put it into your hand, then shuffle your library.\n• Choose a card you own from outside the game and put it into your hand.",
+        "text":"Choose one -\n• Search your library for a card, put it into your hand, then shuffle your library.\n• Choose a card you own from outside the game and put it into your hand.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
@@ -2634,8 +2636,8 @@
           "Blue",
           "Green"
         ],
-        "flavor":"\"The mist clothes us when we are bare, hides us when we are alone, and unites us when we are together.\"\n—Nirit of Pashona's band",
-        "manaCost":"UG",
+        "flavor":"\"The mist clothes us when we are bare, hides us when we are alone, and unites us when we are together.\" —Nirit of Pashona's band",
+        "manaCost":"GU",
         "name":"Merfolk Mistbinder",
         "number":"164",
         "power":"2",
@@ -2773,7 +2775,7 @@
         "colors":[
           "Green"
         ],
-        "flavor":"\"Better to let the sword go than to lose the arm with it.\"\n—Captain Lannery Storm",
+        "flavor":"\"Better to let the sword go than to lose the arm with it.\" —Captain Lannery Storm",
         "manaCost":"1G",
         "name":"Naturalize",
         "number":"139",
@@ -2803,7 +2805,7 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Enrage-Whenever Needletooth Raptor is dealt damage, it deals 5 damage to target creature an opponent controls.",
+        "text":"Enrage - Whenever Needletooth Raptor is dealt damage, it deals 5 damage to target creature an opponent controls.",
         "toughness":"2",
         "type":"Creature — Dinosaur",
         "types":[
@@ -2853,7 +2855,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"Nezahal, Primal Tide can't be countered.\nYou have no maximum hand size.\nWhenever an opponent casts a non creature spell, draw a card.\nDiscard three cards: Exile Nezahal. Return it to the battlefield under its owner's control at the beginning of the next end step.",
+        "text":"Nezahal, Primal Tide can't be countered.\nYou have no maximum hand size.\nWhenever an opponent casts a noncreature spell, draw a card.\nDiscard three cards: Exile Nezahal. Return it to the battlefield tapped under its owner's control at the beginning of the next end step.",
         "toughness":"7",
         "type":"Legendary Creature — Elder Dinosaur",
         "types":[
@@ -2870,7 +2872,7 @@
         "colors":[
           "Black"
         ],
-        "flavor":"\"My conquistadors are never slain, merely laid to rest.\"\n- Queen Miralda the Pious",
+        "flavor":"\"My conquistadors are never slain, merely laid to rest.\" —Queen Miralda the Pious",
         "manaCost":"1B",
         "name":"Oathsworn Vampire",
         "number":"80",
@@ -2923,7 +2925,7 @@
         "colors":[
           "Red"
         ],
-        "flavor":"\"If you come across a raptor in the city, stay perfectly still. At least then you'll be well rested when you die.\"\n—Captain Brandis Thorn",
+        "flavor":"\"If you come across a raptor in the city, stay perfectly still. At least then you'll be well rested when you die.\" —Captain Brandis Thorn",
         "manaCost":"2RR",
         "name":"Orazca Raptor",
         "number":"108",
@@ -2964,7 +2966,7 @@
         "colors":[
           "Green"
         ],
-        "flavor":"It embodies the riotous growth of the jundle, where creatures crowd upon creatures, where roots sprawl and vines swarm.",
+        "flavor":"It embodies the riotous growth of the jungle, where creatures crowd upon creatures, where roots sprawl and vines swarm.",
         "manaCost":"3GG",
         "name":"Overgrown Armasaur",
         "number":"141",
@@ -2973,7 +2975,7 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Enrage-Whenever Overgrown Armasaur is dealt damage, create a 1/1 green Saproling creature token.",
+        "text":"Enrage - Whenever Overgrown Armasaur is dealt damage, create a 1/1 green Saproling creature token.",
         "toughness":"4",
         "type":"Creature — Dinosaur",
         "types":[
@@ -3040,7 +3042,7 @@
           "Red"
         ],
         "layout":"double-faced",
-        "manaCost":"WR",
+        "manaCost":"RW",
         "name":"Path of Mettle",
         "names":[
           "Path of Mettle",
@@ -3163,7 +3165,7 @@
         "colors":[
           "Green"
         ],
-        "flavor":"\"Still, the pterodon chasing the clouds from its skies must bow to the great forest below.\"\n—Mahuiz, Sun Empire archer",
+        "flavor":"\"Still, the pterodon chasing the clouds from its skies must bow to the great forest below.\" —Mahuiz, Sun Empire archer",
         "manaCost":"1G",
         "name":"Plummet",
         "number":"143",
@@ -3232,7 +3234,7 @@
           "White",
           "Black"
         ],
-        "flavor":"Vona sought a conqueror. Mavren sought a savior. Both found what they sought...",
+        "flavor":"Vona sought a conqueror. Mavren sought a savior. Both found what they sought . . . Vona sought a conqueror. Mavren sought a savior. Both found what they sought . . .",
         "layout":"double-faced",
         "manaCost":"1WB",
         "name":"Profane Procession",
@@ -3245,7 +3247,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"{3}{W}{B}：Exile target creature. Then if there are three or more cards exiled with Profane Procession, transform it.",
+        "text":"{3}{W}{B}: Exile target creature. Then if there are three or more cards exiled with Profane Procession, transform it.",
         "type":"Legendary Enchantment",
         "types":[
           "Enchantment"
@@ -3259,7 +3261,7 @@
           "B",
           "W"
         ],
-        "flavor":"...resting in the splendor of the dead.",
+        "flavor":". . . resting in the splendor of the dead. . . . resting in the splendor of the dead.",
         "layout":"double-faced",
         "manaCost":"",
         "name":"Tomb of the Dusk Rose",
@@ -3439,7 +3441,7 @@
         "colors":[
           "Red"
         ],
-        "flavor":"\"Hard to starboard! Starb—Abandon ship! Abandon ship!\"",
+        "flavor":"\"Hard to starboard! Starb— Abandon ship! Abandon ship!\"",
         "manaCost":"R",
         "name":"Reckless Rage",
         "number":"110",
@@ -3460,7 +3462,7 @@
         "colors":[
           "Black"
         ],
-        "flavor":"\"No more fear of death's oblivion - is this not the greatest treasure of all?\"\n- Gurezan, Legion resurrectionist",
+        "flavor":"\"No more fear of death's oblivion—is this not the greatest treasure of all?\" —Gurezan, Legion resurrectionist",
         "manaCost":"2B",
         "name":"Recover",
         "number":"84",
@@ -3506,6 +3508,7 @@
         "colors":[
           "Blue"
         ],
+        "flavor":"\"Here and gone like a fleeting breeze.\"",
         "manaCost":"2U",
         "name":"Release to the Wind",
         "number":"46",
@@ -3529,7 +3532,7 @@
           "Red"
         ],
         "flavor":"As the battle for Orazca unfolded, the contenders discovered that others had already staked a claim.",
-        "manaCost":"WR",
+        "manaCost":"RW",
         "name":"Relentless Raptor",
         "number":"169",
         "power":"3",
@@ -3581,7 +3584,7 @@
         "colors":[
           "Blue"
         ],
-        "flavor":"\"Don't make splashes. Make progress.\"\n—Tishana",
+        "flavor":"\"Don't make splashes. Make progress.\" —Tishana",
         "manaCost":"2U",
         "name":"River Darter",
         "number":"47",
@@ -3645,7 +3648,7 @@
           "Vampire",
           "Soldier"
         ],
-        "text":"As an additional cost to cast Sadistic Skymarcher, reveal a Vampire card in your hand or pay {1}.\nFlying, lifelink.",
+        "text":"As an additional cost to cast Sadistic Skymarcher, reveal a Vampire card from your hand or pay {1}.\nFlying, lifelink",
         "toughness":"2",
         "type":"Creature — Vampire Soldier",
         "types":[
@@ -3855,8 +3858,8 @@
           "White",
           "Green"
         ],
-        "flavor":"To a siege horn, there is no such thing as a dead end.",
-        "manaCost":"WG",
+        "flavor":"To a siegehorn, there is no such thing as a dead end.",
+        "manaCost":"GW",
         "name":"Siegehorn Ceratops",
         "number":"171",
         "power":"2",
@@ -3876,7 +3879,7 @@
         "artist":"Suzanne Helmigh",
         "cmc":1,
         "colorIdentity":[],
-        "flavor":"Made to ward off the Grim Captain and silent the lure of undeath.",
+        "flavor":"Made to ward off the Grim Captain and silence the lure of undeath.",
         "manaCost":"1",
         "name":"Silent Gravestone",
         "number":"182",
@@ -3897,7 +3900,7 @@
         "colors":[
           "Red"
         ],
-        "flavor":"\"Control them? No. I gird them in armor and let them loose.\"\n—Yacha, Otepec huntmaster",
+        "flavor":"\"Control them? No. I gird them in armor and let them loose.\" —Yacha, Otepec huntmaster",
         "manaCost":"5RR",
         "name":"Silverclad Ferocidons",
         "number":"115",
@@ -3906,7 +3909,7 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Enrage-Whenever Silverclad Ferocidons is dealt damage, each opponent sacrifices a permanent.",
+        "text":"Enrage - Whenever Silverclad Ferocidons is dealt damage, each opponent sacrifices a permanent.",
         "toughness":"5",
         "type":"Creature — Dinosaur",
         "types":[
@@ -3960,7 +3963,7 @@
           "Siren",
           "Pirate"
         ],
-        "text":"Raid-Siren Reaver costs {1} less to cast if you attacked with a creature this turn.\nFlying",
+        "text":"Raid - Siren Reaver costs {1} less to cast if you attacked with a creature this turn.\nFlying",
         "toughness":"2",
         "type":"Creature — Siren Pirate",
         "types":[
@@ -4004,12 +4007,12 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"Cut the beasts out from under them and their strength is nothing.\"\n—Vona of Iedo, Butcher of Magan",
+        "flavor":"\"Cut the beasts out from under them and their strength is nothing.\" —Vona of Iedo, Butcher of Magan",
         "manaCost":"1WW",
         "name":"Slaughter the Strong",
         "number":"22",
         "rarity":"Rare",
-        "text":"Each player chooses any number of creatures he or she controls with total power 4 or less, then sacrifices the rest.",
+        "text":"Each player chooses any number of creatures he or she controls with total power 4 or less, then sacrifices all other creatures he or she controls.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
@@ -4025,6 +4028,7 @@
         "colors":[
           "Blue"
         ],
+        "flavor":"\"I'd rather be caught red-handed than leave empty-handed!\"",
         "manaCost":"2U",
         "name":"Slippery Scoundrel",
         "number":"55",
@@ -4103,7 +4107,7 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"Be still.\"\n—Azor",
+        "flavor":"\"Be still.\" —Azor",
         "manaCost":"1W",
         "name":"Sphinx's Decree",
         "number":"24",
@@ -4218,7 +4222,7 @@
           "Blue",
           "Red"
         ],
-        "flavor":"\"Charge like a red-hot cannonball straight to your target. You slow down, you sink.\"\n- Captain Lannery Storm",
+        "flavor":"\"Charge like a red-hot cannonball straight to your target. You slow down, you sink.\" —Captain Lannery Storm",
         "manaCost":"1UR",
         "name":"Storm Fleet Sprinter",
         "number":"172",
@@ -4286,7 +4290,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"Whenever one or more creatures you control deal combat damage to a player, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"\nAt the beginning of your end step, if you control five or more artifacts, transform Storm the Vault",
+        "text":"Whenever one or more creatures you control deal combat damage to a player, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"\nAt the beginning of your end step, if you control five or more artifacts, transform Storm the Vault.",
         "type":"Legendary Enchantment",
         "types":[
           "Enchantment"
@@ -4300,7 +4304,7 @@
           "R",
           "U"
         ],
-        "flavor":"Swimming in coins proved harder than they'd hoped, but dancing was jingling delight.",
+        "flavor":"Swimming in coins proved harder than they'd hoped, but dancing was a jingling delight. Swimming in coins proved harder than they'd hoped, but dancing was a jingling delight.",
         "layout":"double-faced",
         "manaCost":"",
         "name":"Vault of Catlacan",
@@ -4345,7 +4349,7 @@
         "artist":"Kev Walker",
         "cmc":3,
         "colorIdentity":[],
-        "flavor":"\"Because the giant, implacable death lizard wasn't scary enough already.\"\n—Captain Brinely Rage",
+        "flavor":"\"Because the giant, implacable death lizard wasn't scary enough already.\" —Captain Brinely Rage",
         "manaCost":"3",
         "name":"Strider Harness",
         "number":"183",
@@ -4353,7 +4357,7 @@
         "subtypes":[
           "Equipment"
         ],
-        "text":"Equipped creature gets +1/+1 and has haste.\nEquip {1}",
+        "text":"Equipped creature gets +1/+1 and has haste.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
         "type":"Artifact — Equipment",
         "types":[
           "Artifact"
@@ -4369,7 +4373,7 @@
         "colors":[
           "Red"
         ],
-        "flavor":"\"When Tilonalli's gifts, even the smallest of us can become great.\"\n—Huatli",
+        "flavor":"\"With Tilonalli's gifts, even the smallest of us can become great.\" —Huatli",
         "manaCost":"1R",
         "name":"Sun-Collared Raptor",
         "number":"118",
@@ -4395,7 +4399,7 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"Pterodons tolerate no intrusion into their skies. Even the clouds must ask permission.\"\n—Mahuiz, Sun Empire archver",
+        "flavor":"\"Pterodons tolerate no intrusion into their skies. Even the clouds must ask permission.\" —Mahuiz, Sun Empire archer",
         "manaCost":"4W",
         "name":"Sun-Crested Pterodon",
         "number":"27",
@@ -4578,7 +4582,7 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"Kinjalli sculpted humans from clay, but the dinosaurs were carved from unyielding stone.\"\n—Itzama the Crested",
+        "flavor":"\"Kinjalli sculpted humans from clay, but the dinosaurs were carved from unyielding stone.\" —Itzama the Crested",
         "manaCost":"4W",
         "name":"Temple Altisaur",
         "number":"28",
@@ -4641,7 +4645,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"Deathtouch\n{B}, Reveal Tetzimoc, Primal Death from your hand: Put a prey counter on target creature. Only activate this ability during your turn.\nWhen Tetzimoc enters the battlefield, destroy each creature your opponents control with a prey counter on it.",
+        "text":"Deathtouch\n{B}, Reveal Tetzimoc, Primal Death from your hand: Put a prey counter on target creature. Activate this ability only during your turn.\nWhen Tetzimoc enters the battlefield, destroy each creature your opponents control with a prey counter on it.",
         "toughness":"6",
         "type":"Legendary Creature — Elder Dinosaur",
         "types":[
@@ -4707,7 +4711,7 @@
         "name":"Thunderherd Migration",
         "number":"149",
         "rarity":"Uncommon",
-        "text":"As an additional cost to cast Thunderherd Migration, reveal a Dinosaur card for your hand or pay {1}.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+        "text":"As an additional cost to cast Thunderherd Migration, reveal a Dinosaur card from your hand or pay {1}.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
@@ -4755,7 +4759,7 @@
           "Human",
           "Shaman"
         ],
-        "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nWhenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X  1/1 red Elemental creature tokens that are tapped and attacking. At the beginning of the next end step, exile those tokens unless you have the City's blessing.",
+        "text":"Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nWhenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1/1 red Elemental creature tokens that are tapped and attacking. At the beginning of the next end step, exile those tokens unless you have the city's blessing.",
         "toughness":"1",
         "type":"Creature — Human Shaman",
         "types":[
@@ -4825,7 +4829,7 @@
         "colors":[
           "White"
         ],
-        "flavor":"\"I would advise you not to struggle.\"\n—Huatli",
+        "flavor":"\"I would advise you not to struggle.\" —Huatli",
         "manaCost":"3WW",
         "name":"Trapjaw Tyrant",
         "number":"29",
@@ -4834,7 +4838,7 @@
         "subtypes":[
           "Dinosaur"
         ],
-        "text":"Enrage-Whenever Trapjaw Tyrant is dealt damage, exile target creature your opponent controls until Trapjaw Tyrant leaves the battlefield.",
+        "text":"Enrage - Whenever Trapjaw Tyrant is dealt damage, exile target creature an opponent controls until Trapjaw Tyrant leaves the battlefield.",
         "toughness":"5",
         "type":"Creature — Dinosaur",
         "types":[
@@ -4846,12 +4850,12 @@
         "artist":"Yeong-Hao Han",
         "cmc":1,
         "colorIdentity":[],
-        "flavor":"\"The best kind of treasure is the kind that leads to more treasure!\"\n—Captain Lannery Storm",
+        "flavor":"\"The best kind of treasure is the kind that leads to more treasure!\" —Captain Lannery Storm",
         "manaCost":"1",
         "name":"Traveler's Amulet",
         "number":"184",
         "rarity":"Common",
-        "text":"{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.",
+        "text":"{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
         "type":"Artifact",
         "types":[
           "Artifact"
@@ -4920,7 +4924,7 @@
         "colors":[
           "Black"
         ],
-        "flavor":"\"A thick fog obscures the port of Leor, but it's not thick enough to muffle the screams.\"\n- Admiral Beckett Brass",
+        "flavor":"\"A thick fog obscures the port of Leor, but it's not thick enough to muffle the screams.\" —Admiral Beckett Brass",
         "manaCost":"3B",
         "name":"Vampire Revenant",
         "number":"89",
@@ -4977,7 +4981,7 @@
           "Vampire",
           "Knight"
         ],
-        "text":"Menace\nWhen Voracious Vampire enters the battlefield, target Vampire gets +1/+1 and gains menace until end of turn.",
+        "text":"Menace\nWhen Voracious Vampire enters the battlefield, target Vampire you control gets +1/+1 and gains menace until end of turn.",
         "toughness":"2",
         "type":"Creature — Vampire Knight",
         "types":[
@@ -5031,7 +5035,7 @@
           "Vampire",
           "Soldier"
         ],
-        "text":"Whenever Vraska's Conquistador attacks or blocks, if you control a Vraska planes walker, target opponent loses 2 life and you gain 2 life.",
+        "text":"Whenever Vraska's Conquistador attacks or blocks, if you control a Vraska planeswalker, target opponent loses 2 life and you gain 2 life.",
         "toughness":"1",
         "type":"Creature — Vampire Soldier",
         "types":[
@@ -5077,7 +5081,7 @@
           "Human",
           "Pirate"
         ],
-        "text":"Flying\nWhenever Warkite Marauder attacks, target creature defending player controls loses all abilities and has base power/toughness 0/1 until end of turn.",
+        "text":"Flying\nWhenever Warkite Marauder attacks, target creature defending player controls loses all abilities and has base power and toughness 0/1 until end of turn.",
         "toughness":"1",
         "type":"Creature — Human Pirate",
         "types":[
@@ -5191,7 +5195,7 @@
           "Red",
           "Green"
         ],
-        "manaCost":"6WRG",
+        "manaCost":"6RGW",
         "name":"Zacama, Primal Calamity",
         "number":"174",
         "power":"9",
