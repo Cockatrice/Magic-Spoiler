@@ -1,3 +1,6 @@
+[![](https://img.shields.io/badge/dynamic/json.svg?label=currently%20included%20sets&colorB=4ac41d&query=$.*.name&uri=https%3A%2F%2Fraw.githubusercontent.com%2FCockatrice%2FMagic-Spoiler%2Ffiles%2Fspoiler.json)](https://github.com/Cockatrice/Magic-Spoiler/blob/files/spoiler.xml)
+
+
 # Magic-Spoiler [![Gitter Chat](https://img.shields.io/gitter/room/Cockatrice/Magic-Spoiler.svg)](https://gitter.im/Cockatrice/Magic-Spoiler) #
 
 Magic-Spoiler is a Python script to scrape <i>MTG Salvation</i>, <i>Scryfall</i>, <i>MythicSpoiler</i> and <i>Wizards</i> to compile<br>
