@@ -49,18 +49,6 @@
 #   mtgsurl: "http://www.mtgsalvation.com/spoilers/181-amonkhet-invocations"
 #   mtgscardpath: "http://www.mtgsalvation.com/cards/amonkhet-invocations/"
 ---
-code: "RIX"
-name: "Rivals of Ixalan"
-block: "Ixalan"
-size: 196
-releaseDate: "2018-01-19"
-type: "expansion"
-mtgsurl: "http://www.mtgsalvation.com/spoilers/188-rivals-of-ixalan"
-mtgscardpath: "http://www.mtgsalvation.com/cards/rivals-of-ixalan/"
-fullSpoil: false
-noRSS: false
-scryfallOnly: true
----
 code: "A25"
 name: "Masters 25"
 #block: "?"
@@ -70,6 +58,7 @@ type: "masters"
 mtgsurl: ""
 #mtgscardpath: "?"
 fullSpoil: false
+scryfallOnly: false
 noRSS: true
 ---
 code: "DOM"
@@ -81,6 +70,7 @@ type: "expansion"
 mtgsurl: ""
 #mtgscardpath: "?"
 fullSpoil: false
+scryfallOnly: false
 noRSS: true
 ---
 code: "M19"
@@ -92,4 +82,5 @@ type: "core"
 mtgsurl: ""
 #mtgscardpath: "?"
 fullSpoil: false
+scryfallOnly: false
 noRSS: true
