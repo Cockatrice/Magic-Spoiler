@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Tue, Feb 20 2018, 19:08:23 (UTC)
+        created: Mon, Feb 26 2018, 19:12:57 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -13,8 +13,22 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Akroma, Angel of Fury</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/119.jpg?1519641675" rarity="Mythic Rare">A25</set>			
+			<color>R</color>			
+			<manacost>5RRR</manacost>			
+			<cmc>8</cmc>			
+			<type>Legendary Creature — Angel</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Akroma, Angel of Fury can't be countered.
+Flying, trample, protection from white and from blue
+{R}: Akroma, Angel of Fury gets +1/+0 until end of turn.
+Morph {3}{R}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</text>			
+		</card>		
+		<card>			
 			<name>Azusa, Lost but Seeking</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/161.jpg?1517813031" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/161.jpg?1519641312" rarity="Rare">A25</set>			
 			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
@@ -24,8 +38,99 @@
 			<text>You may play two additional lands on each of your turns.</text>			
 		</card>		
 		<card>			
+			<name>Balduvian Horde</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/120.jpg?1519641642" rarity="Common">A25</set>			
+			<color>R</color>			
+			<manacost>2RR</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Barbarian</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Balduvian Horde enters the battlefield, sacrifice it unless you discard a card at random.</text>			
+		</card>		
+		<card>			
+			<name>Blood Moon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/122.jpg?1519641958" rarity="Rare">A25</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Nonbasic lands are Mountains.</text>			
+		</card>		
+		<card>			
+			<name>Blue Elemental Blast</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/43.jpg?1519636196" rarity="Uncommon">A25</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one -
+• Counter target red spell.
+• Destroy target red permanent.</text>			
+		</card>		
+		<card>			
+			<name>Chalice of the Void</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/222.jpg?1519641742" rarity="Mythic Rare">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Chalice of the Void enters the battlefield with X charge counters on it.
+Whenever a player casts a spell with converted mana cost equal to the number of charge counters on Chalice of the Void, counter that spell.</text>			
+		</card>		
+		<card>			
+			<name>Cursecatcher</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/53.jpg?1519644008" rarity="Uncommon">A25</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Merfolk Wizard</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Sacrifice Cursecatcher: Counter target instant or sorcery spell unless its controller pays {1}.</text>			
+		</card>		
+		<card>			
+			<name>Gisela, Blade of Goldnight</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/204.jpg?1519645413" rarity="Mythic Rare">A25</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<manacost>4RWW</manacost>			
+			<cmc>7</cmc>			
+			<type>Legendary Creature — Angel</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, first strike
+If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.</text>			
+		</card>		
+		<card>			
+			<name>Hanna, Ship's Navigator</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/206.jpg?1519650485" rarity="Rare">A25</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>1WU</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Human Artificer</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{W}{U}, {T}: Return target artifact or enchantment card from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Imperial Recruiter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/136.jpg?1519643551" rarity="Mythic Rare">A25</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Advisor</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Imperial Recruiter enters the battlefield, search your library for a creature card with power 2 or less, reveal it, and put it into your hand. Then shuffle your library.</text>			
+		</card>		
+		<card>			
 			<name>Jace, the Mind Sculptor</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/62.jpg?1517813031" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/62.jpg?1519641275" rarity="Mythic Rare">A25</set>			
 			<color>U</color>			
 			<manacost>2UU</manacost>			
 			<cmc>4</cmc>			
@@ -39,13 +144,27 @@
 		</card>		
 		<card>			
 			<name>Murder</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/98.jpg?1518713534" rarity="Common">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/98.jpg?1519641298" rarity="Common">A25</set>			
 			<color>B</color>			
 			<manacost>1BB</manacost>			
 			<cmc>3</cmc>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target creature.</text>			
+		</card>		
+		<card>			
+			<name>Niv-Mizzet, the Firemind</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/210.jpg?1519641451" rarity="Rare">A25</set>			
+			<color>U</color>			
+			<color>R</color>			
+			<manacost>2UURR</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Dragon Wizard</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.
+{T}: Draw a card.</text>			
 		</card>		
 		<card>			
 			<name>Phyrexian Obliterator</name>			
@@ -58,6 +177,50 @@
 			<tablerow>2</tablerow>			
 			<text>Trample
 Whenever a source deals damage to Phyrexian Obliterator, that source's controller sacrifices that many permanents.</text>			
+		</card>		
+		<card>			
+			<name>Pillage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/144.jpg?1519641563" rarity="Common">A25</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target artifact or land. It can't be regenerated.</text>			
+		</card>		
+		<card>			
+			<name>Red Elemental Blast</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/147.jpg?1519636164" rarity="Uncommon">A25</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one -
+• Counter target blue spell.
+• Destroy target blue permanent.</text>			
+		</card>		
+		<card>			
+			<name>Sundering Titan</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/233.jpg?1519643240" rarity="Rare">A25</set>			
+			<manacost>8</manacost>			
+			<cmc>8</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<pt>7/10</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.</text>			
+		</card>		
+		<card>			
+			<name>Thalia, Guardian of Thraben</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/36.jpg?1519639370" rarity="Rare">A25</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Creature — Human Soldier</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>First strike
+Noncreature spells cost {1} more to cast.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
