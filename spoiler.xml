@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Tue, Feb 27 2018, 19:13:22 (UTC)
+        created: Wed, Feb 28 2018, 19:13:55 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -14,7 +14,7 @@
 	<cards>		
 		<card>			
 			<name>Akroma, Angel of Fury</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/119.jpg?1519641675" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/119.jpg?1519779683" rarity="Mythic Rare">A25</set>			
 			<color>R</color>			
 			<manacost>5RRR</manacost>			
 			<cmc>8</cmc>			
@@ -28,7 +28,7 @@ Morph {3}{R}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. 
 		</card>		
 		<card>			
 			<name>Akroma's Vengeance</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/3.jpg?1519733544" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/3.jpg?1519779517" rarity="Rare">A25</set>			
 			<color>W</color>			
 			<manacost>4WW</manacost>			
 			<cmc>6</cmc>			
@@ -38,8 +38,23 @@ Morph {3}{R}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. 
 Cycling {3} ({3}, Discard this card: Draw a card.)</text>			
 		</card>		
 		<card>			
+			<name>Animar, Soul of Elements</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/196.jpg?1519824549" rarity="Mythic Rare">A25</set>			
+			<color>U</color>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>URG</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Elemental</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Protection from white and from black
+Whenever you cast a creature spell, put a +1/+1 counter on Animar, Soul of Elements.
+Creature spells you cast cost {1} less to cast for each +1/+1 counter on Animar.</text>			
+		</card>		
+		<card>			
 			<name>Armageddon</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/5.jpg?1519727625" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/5.jpg?1519779525" rarity="Mythic Rare">A25</set>			
 			<color>W</color>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
@@ -48,8 +63,18 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</text>
 			<text>Destroy all lands.</text>			
 		</card>		
 		<card>			
+			<name>Ash Barrens</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/236.jpg?1519824486" rarity="Uncommon">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+Basic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</text>			
+		</card>		
+		<card>			
 			<name>Azusa, Lost but Seeking</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/161.jpg?1519641312" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/161.jpg?1519779761" rarity="Rare">A25</set>			
 			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
@@ -60,7 +85,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</text>
 		</card>		
 		<card>			
 			<name>Balduvian Horde</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/120.jpg?1519641642" rarity="Common">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/120.jpg?1519779693" rarity="Common">A25</set>			
 			<color>R</color>			
 			<manacost>2RR</manacost>			
 			<cmc>4</cmc>			
@@ -71,7 +96,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</text>
 		</card>		
 		<card>			
 			<name>Ball Lightning</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/121.jpg?1519722406" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/121.jpg?1519779722" rarity="Rare">A25</set>			
 			<color>R</color>			
 			<manacost>RRR</manacost>			
 			<cmc>3</cmc>			
@@ -84,7 +109,7 @@ At the beginning of the end step, sacrifice Ball Lightning.</text>
 		</card>		
 		<card>			
 			<name>Bident of Thassa</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/42.jpg?1519699495" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/42.jpg?1519779560" rarity="Rare">A25</set>			
 			<color>U</color>			
 			<manacost>2UU</manacost>			
 			<cmc>4</cmc>			
@@ -105,7 +130,7 @@ At the beginning of the end step, sacrifice Ball Lightning.</text>
 		</card>		
 		<card>			
 			<name>Blue Elemental Blast</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/43.jpg?1519727948" rarity="Uncommon">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/43.jpg?1519808560" rarity="Uncommon">A25</set>			
 			<color>U</color>			
 			<manacost>U</manacost>			
 			<cmc>1</cmc>			
@@ -116,14 +141,80 @@ At the beginning of the end step, sacrifice Ball Lightning.</text>
 • Destroy target red permanent.</text>			
 		</card>		
 		<card>			
+			<name>Blue Sun's Zenith</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/44.jpg?1519808001" rarity="Rare">A25</set>			
+			<color>U</color>			
+			<manacost>XUUU</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.</text>			
+		</card>		
+		<card>			
+			<name>Brainstorm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/46.jpg?1519748534" rarity="Common">A25</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw three cards, then put two cards from your hand on top of your library in any order.</text>			
+		</card>		
+		<card>			
+			<name>Brine Elemental</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/47.jpg?1519822408" rarity="Uncommon">A25</set>			
+			<color>U</color>			
+			<manacost>4UU</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>5/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Morph {5}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+When Brine Elemental is turned face up, each opponent skips his or her next untap step.</text>			
+		</card>		
+		<card>			
+			<name>Cascade Bluffs</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/237.jpg?1519814359" rarity="Rare">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+{U/R}, {T}: Add {U}{U}, {U}{R}, or {R}{R} to your mana pool.</text>			
+		</card>		
+		<card>			
 			<name>Chalice of the Void</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/222.jpg?1519641742" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/222.jpg?1519779839" rarity="Mythic Rare">A25</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Artifact</type>			
 			<tablerow>1</tablerow>			
 			<text>Chalice of the Void enters the battlefield with X charge counters on it.
 Whenever a player casts a spell with converted mana cost equal to the number of charge counters on Chalice of the Void, counter that spell.</text>			
+		</card>		
+		<card>			
+			<name>Conflux</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/202.jpg?1519779792" rarity="Rare">A25</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<color>B</color>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>3WUBRG</manacost>			
+			<cmc>8</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Counterspell</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/50.jpg?1519748563" rarity="Common">A25</set>			
+			<color>U</color>			
+			<manacost>UU</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target spell.</text>			
 		</card>		
 		<card>			
 			<name>Cursecatcher</name>			
@@ -138,7 +229,7 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 		</card>		
 		<card>			
 			<name>Darien, King of Kjeldor</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/9.jpg?1519730236" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/9.jpg?1519779531" rarity="Rare">A25</set>			
 			<color>W</color>			
 			<manacost>4WW</manacost>			
 			<cmc>6</cmc>			
@@ -149,7 +240,7 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 		</card>		
 		<card>			
 			<name>Dark Ritual</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/82.jpg?1519661986" rarity="Common">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/82.jpg?1519779607" rarity="Common">A25</set>			
 			<color>B</color>			
 			<manacost>B</manacost>			
 			<cmc>1</cmc>			
@@ -158,8 +249,20 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 			<text>Add {B}{B}{B} to your mana pool.</text>			
 		</card>		
 		<card>			
+			<name>Decree of Justice</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/11.jpg?1519779536" rarity="Rare">A25</set>			
+			<color>W</color>			
+			<manacost>XX2WW</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Create X 4/4 white Angel creature tokens with flying.
+Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
+When you cycle Decree of Justice, you may pay {X}. If you do, create X 1/1 white Soldier creature tokens.</text>			
+		</card>		
+		<card>			
 			<name>Doomsday</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/88.jpg?1519724907" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/88.jpg?1519779616" rarity="Mythic Rare">A25</set>			
 			<color>B</color>			
 			<manacost>BBB</manacost>			
 			<cmc>3</cmc>			
@@ -169,7 +272,7 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 		</card>		
 		<card>			
 			<name>Eidolon of the Great Revel</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/1289.jpg?1519737013" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/128.jpg?1519816456" rarity="Rare">A25</set>			
 			<color>R</color>			
 			<manacost>RR</manacost>			
 			<cmc>2</cmc>			
@@ -180,7 +283,7 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 		</card>		
 		<card>			
 			<name>Eladamri's Call</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/203.jpg?1519686562" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/203.jpg?1519808158" rarity="Rare">A25</set>			
 			<color>W</color>			
 			<color>G</color>			
 			<manacost>GW</manacost>			
@@ -191,7 +294,7 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 		</card>		
 		<card>			
 			<name>Ensnaring Bridge</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/224.jpg?1519726391" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/224.jpg?1519779834" rarity="Mythic Rare">A25</set>			
 			<manacost>3</manacost>			
 			<cmc>3</cmc>			
 			<type>Artifact</type>			
@@ -199,8 +302,30 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 			<text>Creatures with power greater than the number of cards in your hand can't attack.</text>			
 		</card>		
 		<card>			
+			<name>Fathom Seer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/56.jpg?1519822357" rarity="Common">A25</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Illusion</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Morph-Return two Islands you control to their owner's hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+When Fathom Seer is turned face up, draw two cards.</text>			
+		</card>		
+		<card>			
+			<name>Fetid Heath</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/238.jpg?1519814493" rarity="Rare">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B} to your mana pool.</text>			
+		</card>		
+		<card>			
 			<name>Fierce Empath</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/171.jpg?1519725888" rarity="Uncommon">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/171.jpg?1519779766" rarity="Uncommon">A25</set>			
 			<color>G</color>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
@@ -211,7 +336,7 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 		</card>		
 		<card>			
 			<name>Flash</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/57.jpg?1519727738" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/57.jpg?1519779582" rarity="Rare">A25</set>			
 			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
@@ -220,8 +345,29 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 			<text>You may put a creature card from your hand onto the battlefield. If you do, sacrifice it unless you pay its mana cost reduced by up to {2}.</text>			
 		</card>		
 		<card>			
+			<name>Flooded Grove</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/239.jpg?1519814531" rarity="Rare">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+{G/U}, {T}: Add {G}{G}, {G}{U}, or {U}{U} to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>Frenzied Goblin</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/131.jpg?1519816200" rarity="Common">A25</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Goblin Berserker</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn.</text>			
+		</card>		
+		<card>			
 			<name>Giant Growth</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/172.jpg?1519722486" rarity="Common">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/172.jpg?1519779771" rarity="Common">A25</set>			
 			<color>G</color>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
@@ -231,7 +377,7 @@ Whenever a player casts a spell with converted mana cost equal to the number of 
 		</card>		
 		<card>			
 			<name>Gisela, Blade of Goldnight</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/204.jpg?1519728024" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/204.jpg?1519779801" rarity="Mythic Rare">A25</set>			
 			<color>W</color>			
 			<color>R</color>			
 			<manacost>4RWW</manacost>			
@@ -245,7 +391,7 @@ If a source would deal damage to you or a permanent you control, prevent half th
 		</card>		
 		<card>			
 			<name>Goblin War Drums</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/133.jpg?1519667018" rarity="Uncommon">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/133.jpg?1519808508" rarity="Uncommon">A25</set>			
 			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
@@ -254,8 +400,21 @@ If a source would deal damage to you or a permanent you control, prevent half th
 			<text>Creatures you control have menace. (They can't be blocked except by two or more creatures.)</text>			
 		</card>		
 		<card>			
+			<name>Grenzo, Dungeon Warden</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/205.jpg?1519820727" rarity="Rare">A25</set>			
+			<color>B</color>			
+			<color>R</color>			
+			<manacost>XBR</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Creature — Goblin Rogue</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Grenzo, Dungeon Warden enters the battlefield with X +1/+1 counters on it.
+{2}: Put the bottom card of your library into your graveyard. If it's a creature card with power less than or equal to Grenzo's power, put it onto the battlefield.</text>			
+		</card>		
+		<card>			
 			<name>Hanna, Ship's Navigator</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/206.jpg?1519650485" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/206.jpg?1519779806" rarity="Rare">A25</set>			
 			<color>W</color>			
 			<color>U</color>			
 			<manacost>1WU</manacost>			
@@ -266,8 +425,29 @@ If a source would deal damage to you or a permanent you control, prevent half th
 			<text>{1}{W}{U}, {T}: Return target artifact or enchantment card from your graveyard to your hand.</text>			
 		</card>		
 		<card>			
+			<name>Hordeling Outburst</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/134.jpg?1519816266" rarity="Common">A25</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Create three 1/1 red Goblin creature tokens.</text>			
+		</card>		
+		<card>			
+			<name>Ihsan's Shade</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/94.jpg?1519823727" rarity="Uncommon">A25</set>			
+			<color>B</color>			
+			<manacost>3BBB</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Shade Knight</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Protection from white</text>			
+		</card>		
+		<card>			
 			<name>Imperial Recruiter</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/136.jpg?1519643551" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/136.jpg?1519779712" rarity="Mythic Rare">A25</set>			
 			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
@@ -277,8 +457,19 @@ If a source would deal damage to you or a permanent you control, prevent half th
 			<text>When Imperial Recruiter enters the battlefield, search your library for a creature card with power 2 or less, reveal it, and put it into your hand. Then shuffle your library.</text>			
 		</card>		
 		<card>			
+			<name>Invigorate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/173.jpg?1519822424" rarity="Uncommon">A25</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>If you control a Forest, rather than pay Invigorate's mana cost, you may have an opponent gain 3 life.
+Target creature gets +4/+4 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Jace, the Mind Sculptor</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/62.jpg?1519641275" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/62.jpg?1519808301" rarity="Mythic Rare">A25</set>			
 			<color>U</color>			
 			<manacost>2UU</manacost>			
 			<cmc>4</cmc>			
@@ -291,8 +482,19 @@ If a source would deal damage to you or a permanent you control, prevent half th
 			<loyalty>3</loyalty>			
 		</card>		
 		<card>			
+			<name>Jalira, Master Polymorphist</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/63.jpg?1519815201" rarity="Uncommon">A25</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{2}{U}, {T}, Sacrifice another creature: Reveal cards from the top of your library until you reveal a nonlegendary creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.</text>			
+		</card>		
+		<card>			
 			<name>Kor Firewalker</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/21.jpg?1519722663" rarity="Uncommon">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/21.jpg?1519779543" rarity="Uncommon">A25</set>			
 			<color>W</color>			
 			<manacost>WW</manacost>			
 			<cmc>2</cmc>			
@@ -303,8 +505,18 @@ If a source would deal damage to you or a permanent you control, prevent half th
 Whenever a player casts a red spell, you may gain 1 life.</text>			
 		</card>		
 		<card>			
+			<name>Lightning Bolt</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/141.jpg?1519779730" rarity="Uncommon">A25</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Lightning Bolt deals 3 damage to target creature or player.</text>			
+		</card>		
+		<card>			
 			<name>Living Death</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/96.jpg?1519722610" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/96.jpg?1519779622" rarity="Rare">A25</set>			
 			<color>B</color>			
 			<manacost>3BB</manacost>			
 			<cmc>5</cmc>			
@@ -314,7 +526,7 @@ Whenever a player casts a red spell, you may gain 1 life.</text>
 		</card>		
 		<card>			
 			<name>Living Wish</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/179.jpg?1519673115" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/179.jpg?1519779776" rarity="Rare">A25</set>			
 			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
@@ -324,7 +536,7 @@ Whenever a player casts a red spell, you may gain 1 life.</text>
 		</card>		
 		<card>			
 			<name>Magus of the Wheel</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/142.jpg?1519726630" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/142.jpg?1519779746" rarity="Rare">A25</set>			
 			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
@@ -334,8 +546,63 @@ Whenever a player casts a red spell, you may gain 1 life.</text>
 			<text>{1}{R}, {T}, Sacrifice Magus of the Wheel: Each player discards his or her hand, then draws seven cards.</text>			
 		</card>		
 		<card>			
+			<name>Man-o'-War</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/64.jpg?1519808374" rarity="Common">A25</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Jellyfish</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Man-o'-War enters the battlefield, return target creature to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Master of the Wild Hunt</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/181.jpg?1519782016" rarity="Mythic Rare">A25</set>			
+			<color>G</color>			
+			<manacost>2GG</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Shaman</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of your upkeep, create a 2/2 green Wolf creature token.
+{T}: Tap all untapped Wolf creatures you control. Each Wolf tapped this way deals damage equal to its power to target creature. That creature deals damage equal to its power divided as its controller chooses among any number of those Wolves.</text>			
+		</card>		
+		<card>			
+			<name>Merfolk Looter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/65.jpg?1519821063" rarity="Uncommon">A25</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Merfolk Rogue</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Draw a card, then discard a card.</text>			
+		</card>		
+		<card>			
+			<name>Mikokoro, Center of the Sea</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/241.jpg?1519808799" rarity="Rare">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+{2}, {T}: Each player draws a card.</text>			
+		</card>		
+		<card>			
+			<name>Mishra's Factory</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/242.jpg?1519748589" rarity="Uncommon">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+{1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.
+{T}: Target Assembly-Worker creature gets +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Murder</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/98.jpg?1519641298" rarity="Common">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/98.jpg?1519779627" rarity="Common">A25</set>			
 			<color>B</color>			
 			<manacost>1BB</manacost>			
 			<cmc>3</cmc>			
@@ -344,8 +611,35 @@ Whenever a player casts a red spell, you may gain 1 life.</text>
 			<text>Destroy target creature.</text>			
 		</card>		
 		<card>			
+			<name>Nezumi Cutthroat</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/99.jpg?1519808410" rarity="Common">A25</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Rat Warrior</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
+Nezumi Cutthroat can't block.</text>			
+		</card>		
+		<card>			
+			<name>Nicol Bolas</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/209.jpg?1519813494" rarity="Rare">A25</set>			
+			<color>U</color>			
+			<color>B</color>			
+			<color>R</color>			
+			<manacost>2UUBBRR</manacost>			
+			<cmc>8</cmc>			
+			<type>Legendary Creature — Elder Dragon</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.
+Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.</text>			
+		</card>		
+		<card>			
 			<name>Niv-Mizzet, the Firemind</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/210.jpg?1519641451" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/210.jpg?1519779812" rarity="Rare">A25</set>			
 			<color>U</color>			
 			<color>R</color>			
 			<manacost>2UURR</manacost>			
@@ -358,8 +652,18 @@ Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target crea
 {T}: Draw a card.</text>			
 		</card>		
 		<card>			
+			<name>Pendelhaven</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/244.jpg?1519823773" rarity="Rare">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {G} to your mana pool.
+{T}: Target 1/1 creature gets +1/+2 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Phyrexian Obliterator</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/101.jpg?1519058198" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/101.jpg?1519777035" rarity="Mythic Rare">A25</set>			
 			<color>B</color>			
 			<manacost>BBBB</manacost>			
 			<cmc>4</cmc>			
@@ -371,7 +675,7 @@ Whenever a source deals damage to Phyrexian Obliterator, that source's controlle
 		</card>		
 		<card>			
 			<name>Pillage</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/144.jpg?1519678043" rarity="Common">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/144.jpg?1519779751" rarity="Common">A25</set>			
 			<color>R</color>			
 			<manacost>1RR</manacost>			
 			<cmc>3</cmc>			
@@ -380,8 +684,18 @@ Whenever a source deals damage to Phyrexian Obliterator, that source's controlle
 			<text>Destroy target artifact or land. It can't be regenerated.</text>			
 		</card>		
 		<card>			
+			<name>Promise of Bunrei</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/30.jpg?1519822505" rarity="Uncommon">A25</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>When a creature you control dies, sacrifice Promise of Bunrei. If you do, create four 1/1 colorless Spirit creature tokens.</text>			
+		</card>		
+		<card>			
 			<name>Prossh, Skyraider of Kher</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/214.jpg?1519665477" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/214.jpg?1519779818" rarity="Mythic Rare">A25</set>			
 			<color>B</color>			
 			<color>R</color>			
 			<color>G</color>			
@@ -396,7 +710,7 @@ Sacrifice another creature: Prossh gets +1/+0 until end of turn.</text>
 		</card>		
 		<card>			
 			<name>Protean Hulk</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/185.jpg?1519727686" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/185.jpg?1519779787" rarity="Rare">A25</set>			
 			<color>G</color>			
 			<manacost>5GG</manacost>			
 			<cmc>7</cmc>			
@@ -406,8 +720,20 @@ Sacrifice another creature: Prossh gets +1/+0 until end of turn.</text>
 			<text>When Protean Hulk dies, search your library for any number of creature cards with total converted mana cost 6 or less and put them onto the battlefield. Then shuffle your library.</text>			
 		</card>		
 		<card>			
+			<name>Ratcatcher</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/103.jpg?1519779639" rarity="Rare">A25</set>			
+			<color>B</color>			
+			<manacost>4BB</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Ogre Rogue</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
+At the beginning of your upkeep, you may search your library for a Rat card, reveal it, and put it into your hand. If you do, shuffle your library.</text>			
+		</card>		
+		<card>			
 			<name>Red Elemental Blast</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/147.jpg?1519727961" rarity="Uncommon">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/147.jpg?1519808574" rarity="Uncommon">A25</set>			
 			<color>R</color>			
 			<manacost>R</manacost>			
 			<cmc>1</cmc>			
@@ -418,8 +744,31 @@ Sacrifice another creature: Prossh gets +1/+0 until end of turn.</text>
 • Destroy target blue permanent.</text>			
 		</card>		
 		<card>			
+			<name>Reef Worm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/70.jpg?1519814680" rarity="Rare">A25</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Worm</type>			
+			<pt>0/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Reef Worm dies, create a 3/3 blue Fish creature token with &quot;When this creature dies, create a 6/6 blue Whale creature token with 'When this creature dies, create a 9/9 blue Kraken creature token.'&quot;</text>			
+		</card>		
+		<card>			
+			<name>Relentless Rats</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/105.jpg?1519779644" rarity="Common">A25</set>			
+			<color>B</color>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Rat</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats.
+A deck can have any number of cards named Relentless Rats.</text>			
+		</card>		
+		<card>			
 			<name>Rishadan Port</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/246.jpg?1519729541" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/246.jpg?1519779850" rarity="Rare">A25</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Land</type>			
@@ -428,8 +777,18 @@ Sacrifice another creature: Prossh gets +1/+0 until end of turn.</text>
 {1}, {T}: Tap target land.</text>			
 		</card>		
 		<card>			
+			<name>Rugged Prairie</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/247.jpg?1519814588" rarity="Rare">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W} to your mana pool.</text>			
+		</card>		
+		<card>			
 			<name>Ruric Thar, the Unbowed</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/216.jpg?1519705644" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/216.jpg?1519779860" rarity="Rare">A25</set>			
 			<color>R</color>			
 			<color>G</color>			
 			<manacost>4RG</manacost>			
@@ -443,7 +802,7 @@ Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that p
 		</card>		
 		<card>			
 			<name>Savannah Lions</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/33.jpg?1519723011" rarity="Common">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/33.jpg?1519779549" rarity="Common">A25</set>			
 			<color>W</color>			
 			<manacost>W</manacost>			
 			<cmc>1</cmc>			
@@ -453,8 +812,28 @@ Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that p
 			<text/>			
 		</card>		
 		<card>			
+			<name>Strionic Resonator</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/232.jpg?1519814721" rarity="Rare">A25</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy. (A triggered ability uses the words &quot;when,&quot; &quot;whenever,&quot; or &quot;at.&quot;)</text>			
+		</card>		
+		<card>			
+			<name>Summoner's Pact</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/189.jpg?1519814877" rarity="Rare">A25</set>			
+			<color>G</color>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Search your library for a green creature card, reveal it, and put it into your hand. Then shuffle your library.
+At the beginning of your next upkeep, pay {2}{G}{G}. If you don't, you lose the game.</text>			
+		</card>		
+		<card>			
 			<name>Sundering Titan</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/233.jpg?1519643240" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/233.jpg?1519779844" rarity="Rare">A25</set>			
 			<manacost>8</manacost>			
 			<cmc>8</cmc>			
 			<type>Artifact Creature — Golem</type>			
@@ -464,7 +843,7 @@ Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that p
 		</card>		
 		<card>			
 			<name>Thalia, Guardian of Thraben</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/36.jpg?1519639370" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/36.jpg?1519779554" rarity="Rare">A25</set>			
 			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
@@ -475,8 +854,18 @@ Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that p
 Noncreature spells cost {1} more to cast.</text>			
 		</card>		
 		<card>			
+			<name>Twilight Mire</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/248.jpg?1519814635" rarity="Rare">A25</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C} to your mana pool.
+{B/G}, {T}: Add {B}{B}, {B}{G}, or {G}{G} to your mana pool.</text>			
+		</card>		
+		<card>			
 			<name>Undead Gladiator</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/112.jpg?1519722561" rarity="Uncommon">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/112.jpg?1519779648" rarity="Uncommon">A25</set>			
 			<color>B</color>			
 			<manacost>1BB</manacost>			
 			<cmc>3</cmc>			
@@ -488,7 +877,7 @@ Cycling {1}{B} ({1}{B}, Discard this card: Draw a card.)</text>
 		</card>		
 		<card>			
 			<name>Vendilion Clique</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/76.jpg?1519727768" rarity="Mythic Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/76.jpg?1519779594" rarity="Mythic Rare">A25</set>			
 			<color>U</color>			
 			<manacost>1UU</manacost>			
 			<cmc>3</cmc>			
@@ -500,8 +889,20 @@ Flying
 When Vendilion Clique enters the battlefield, look at target player's hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of his or her library, then draws a card.</text>			
 		</card>		
 		<card>			
+			<name>Vesuvan Shapeshifter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/77.jpg?1519822376" rarity="Rare">A25</set>			
+			<color>U</color>			
+			<manacost>3UU</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Shapeshifter</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>As Vesuvan Shapeshifter enters the battlefield or is turned face up, you may choose another creature on the battlefield. If you do, until Vesuvan Shapeshifter is turned face down, it becomes a copy of that creature and gains &quot;At the beginning of your upkeep, you may turn this creature face down.&quot;
+Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</text>			
+		</card>		
+		<card>			
 			<name>Vindicate</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/219.jpg?1519678670" rarity="Rare">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/219.jpg?1519779829" rarity="Rare">A25</set>			
 			<color>W</color>			
 			<color>B</color>			
 			<manacost>1WB</manacost>			
@@ -512,7 +913,7 @@ When Vendilion Clique enters the battlefield, look at target player's hand. You 
 		</card>		
 		<card>			
 			<name>Willbender</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/78.jpg?1519737231" rarity="Uncommon">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/78.jpg?1519808275" rarity="Uncommon">A25</set>			
 			<color>U</color>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
@@ -524,7 +925,7 @@ When Willbender is turned face up, change the target of target spell or ability 
 		</card>		
 		<card>			
 			<name>Zombify</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/a25/116.jpg?1519725852" rarity="Uncommon">A25</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/a25/116.jpg?1519779657" rarity="Uncommon">A25</set>			
 			<color>B</color>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
