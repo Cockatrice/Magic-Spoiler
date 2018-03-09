@@ -1,10 +1,1672 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Thu, Mar 08 2018, 19:18:09 (UTC)
+        created: Fri, Mar 09 2018, 22:15:01 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
-	<sets>
-</sets>	
-	<cards>
-</cards>	
+	<sets>		
+		<set>			
+			<name>DOM</name>			
+			<longname>Dominaria</longname>			
+			<settype>Expansion</settype>			
+			<releasedate>2018-04-27</releasedate>			
+		</set>		
+	</sets>	
+	<cards>		
+		<card>			
+			<name>Academy Journeymage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XAJ.jpg?1520612717" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>This spell costs {1} less to cast if you control a Wizard.
+When Academy Journeymage enters the battlefield, return target creature an opponent controls to its owner's hand.
+</text>			
+		</card>		
+		<card>			
+			<name>Adeliz, the Cinder Wind</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XATCW.jpg?1520612729" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<color>R</color>			
+			<manacost>1UR</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Human Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, haste
+Whenever you cast an instant or sorcery spell, Wizards you control get +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Ancient Animus</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XAA.jpg?1520612715" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Put a +1/+1 counter on target creature you control if it's legendary. Then it fights target creature an opponent controls. (Each deals damage equal to its power to the other.)</text>			
+		</card>		
+		<card>			
+			<name>Arvad the Cursed</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XATC.jpg?1520612725" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<color>B</color>			
+			<manacost>3WB</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Creature — Vampire Knight</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Deathtouch, lifelink
+Other legendary creatures you control get +2/+2.</text>			
+		</card>		
+		<card>			
+			<name>Aryel, Knight of Windgrace</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XAKOW.jpg?1520612721" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<color>B</color>			
+			<manacost>2WB</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Knight</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance
+{2}{W}, {T}: Create a 2/2 white Knight creature token with vigilance.
+{B}, {T}, Tap X untapped Knights you control: Destroy target creature with power X or less.</text>			
+		</card>		
+		<card>			
+			<name>Baird, Steward of Argive</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBSOA.jpg?1520612761" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>2WW</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Soldier</type>			
+			<pt>2/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance
+Creatures can't attack you or a planeswalker you control unless their controller pays {1} for each of those creatures.
+</text>			
+		</card>		
+		<card>			
+			<name>Baloth Gorger</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBG.jpg?1520612744" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>2GG</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Beast</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kicker {4} (You may pay an additional 4 as you cast this spell.)
+If Baloth Gorger was kicked, it enters the battlefield with three +1/+1 counters on it.</text>			
+		</card>		
+		<card>			
+			<name>Befuddle</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XB.jpg?1520612738" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets -4/-0 until end of turn. Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Benalish Marshal</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBM.jpg?1520612747" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>WWW</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Knight</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Other creatures you control get +1/+1.</text>			
+		</card>		
+		<card>			
+			<name>Blackblade Reforged</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBR.jpg?1520612754" rarity="Rare">DOM</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Artifact — Equipment</type>			
+			<tablerow>1</tablerow>			
+			<text>Equipped creature gets +1/+1 for each land you control. 
+Equip legendary creature {3}
+Equip {7}
+</text>			
+		</card>		
+		<card>			
+			<name>Blink of an Eye</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBOAE.jpg?1520612750" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
+Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Bloodstone Goblin</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBSG.jpg?1520612758" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Goblin Warrior</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast a spell, if that spell was kicked, Bloodstone Goblin gets +1/+1 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)</text>			
+		</card>		
+		<card>			
+			<name>Broken Bond</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBB.jpg?1520612741" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target artifact or enchantment. You may put a land card from your hand onto the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Chainer's Torment</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XCT.jpg?1520612783" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.) 
+I, II - Chainer's Torment deals 2 damage to each opponent and you gain 2 life.
+III - Create an X/X black Nightmare Horror creature token, where X is half your life total, rounded up. It deals X damage to you.
+</text>			
+		</card>		
+		<card>			
+			<name>Chandra, Bold Pyromancer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XCBP.jpg?1520612767" rarity="Mythic Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>4RR</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Planeswalker — Chandra</type>			
+			<tablerow>1</tablerow>			
+			<text>+1: Add {R}{R}. Chandra, Bold Pyromancer deals 2 damage to target player.
+-3: Chandra, Bold Pyromancer deals 3 damage to target creature or planeswalker.
+-7: Chandra, Bold Pyromancer deals 10 damage to target player and each creature and planeswalker they control.</text>			
+			<loyalty>5</loyalty>			
+		</card>		
+		<card>			
+			<name>Charge</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XC.jpg?1520612764" rarity="Common">DOM</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Creatures you control get +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Clifftop Retreat</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XCR.jpg?1520612778" rarity="Rare">DOM</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Clifftop Retreat enters the battlefield tapped unless you control a Mountain or a Plains.
+{T}: Add {R} or {W} to your mana pool.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Corrosive Ooze</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XCO.jpg?1520612772" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Ooze</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Corrosive Ooze blocks or becomes blocked by an equipped creature, destroy all Equipment attached to that creature at end of combat.</text>			
+		</card>		
+		<card>			
+			<name>Curator's Ward</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XCW.jpg?1520612787" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant permanent
+Enchanted permanent has hexproof.
+When enchanted permanent leaves the battlefield, if it was historic, draw two cards. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
+			<name>Damping Sphere</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XDS.jpg?1520612812" rarity="Rare">DOM</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>If a land is tapped for two or more mana, it produces {C} instead of any other type and amount. 
+Each spell a player casts costs {1} more to cast for each other spell that player has cast this turn.</text>			
+		</card>		
+		<card>			
+			<name>Darigaaz Reincarnated</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XDR.jpg?1520612809" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>4BRG</manacost>			
+			<cmc>7</cmc>			
+			<type>Legendary Creature — Dragon</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, trample, haste
+If Darigaaz Reincarnated would die, instead exile it with three egg counters on it.
+At the beginning of your upkeep, if Darigaaz is exiled with an egg counter on it, remove an egg counter from it. Then if Darigaaz has no egg counters on it, return it to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Dark Bargain</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XDB.jpg?1520612794" rarity="Uncommon">DOM</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Look at the top three cards of your library. Put two of them into your hand and the other into your graveyard. Dark Bargain deals 2 damage to you.</text>			
+		</card>		
+		<card>			
+			<name>Dauntless Bodyguard</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XDBG.jpg?1520612799" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Human Knight</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>As Dauntless Bodyguard enters the battlefield, choose another creature you control. 
+Sacrifice Dauntless Bodyguard: The chosen creature gains indestructible until end of turn.
+</text>			
+		</card>		
+		<card>			
+			<name>Deep Freeze</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XDF.jpg?1520612801" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature has base power and toughness 0/4, has defender, loses all other abilities, and is a blue Wall in addition to its other colors and types.</text>			
+		</card>		
+		<card>			
+			<name>Demonic Vigor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XDV.jpg?1520612819" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +1/+1.
+When enchanted creature dies, return that card to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Demonlord Belzenlok</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XDLB.jpg?1520612805" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>4BB</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Elder Demon</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, trample
+When Demonlord Belzenlok enters the battlefield, exile cards from the top of your library until you exile a nonland card, then put that card into your hand. If the card's converted mana cost is 4 or greater, repeat this process. Demonlord Belzenlok deals 1 damage to you for each card put into your hand this way.</text>			
+		</card>		
+		<card>			
+			<name>Drudge Sentinel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XDSL.jpg?1520612815" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Skeleton Warrior</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{3}: Tap Drudge Sentinel. It gains indestructible until end of turn. (Damage and effects that say &quot;destroy&quot; don't destroy it.)</text>			
+		</card>		
+		<card>			
+			<name>Dub</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XD.jpg?1520612791" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to its other types.</text>			
+		</card>		
+		<card>			
+			<name>Evra, Halcyon Witness</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XEHW.jpg?1520612824" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>4WW</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Avatar</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Lifelink
+{4}: Exchange your life total with Evra, Halcyon Witness's power.</text>			
+		</card>		
+		<card>			
+			<name>Fall of the Thran</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFOTT.jpg?1520612840" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>5W</manacost>			
+			<cmc>6</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.) 
+I - Destroy all lands.
+II, III - Each player returns two land cards from their graveyard to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Fight with Fire</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFWF.jpg?1520612846" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Kicker {5}{R} (You may pay an additional {5}{R} as you cast this spell.)
+Fight with Fire deals 5 damage to target creature. If this spell was kicked, it deals 10 damage divided as you choose among any number of targets instead. (Those targets can include players and planeswalkers.)</text>			
+		</card>		
+		<card>			
+			<name>Firefist Adept</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFA.jpg?1520612827" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>4R</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Firefist Adept enters the battlefield, it deals X damage to target creature an opponent controls, where X is the number of Wizards you control.</text>			
+		</card>		
+		<card>			
+			<name>Firesong and Sunspeaker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFAS.jpg?1520612830" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<manacost>4WR</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Minotaur Cleric</type>			
+			<pt>4/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Red instant and sorcery spells you control have lifelink.
+Whenever a white instant or sorcery spell causes you to gain life, Firesong and Sunspeaker deals 3 damage to target creature or player.</text>			
+		</card>		
+		<card>			
+			<name>Forebear's Blade</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFBB.jpg?1520612832" rarity="Rare">DOM</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact — Equipment</type>			
+			<tablerow>1</tablerow>			
+			<text>Equipped creature gets +3/+0 and has vigilance and trample.
+Whenever equipped creature dies, attach Forebear's Blade to target creature you control. 
+Equip {3}</text>			
+		</card>		
+		<card>			
+			<name>Fungal Infection</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFI.jpg?1520612834" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets -1/-1 until end of turn. Create a 1/1 green Saproling creature token.</text>			
+		</card>		
+		<card>			
+			<name>Gaea's Blessing</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGSB.jpg?1520612870" rarity="Uncommon">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target player shuffles up to three target cards from his or her graveyard into his or her library.
+Draw a card.
+When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library.</text>			
+		</card>		
+		<card>			
+			<name>Gaea's Protector</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGP.jpg?1520612867" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Elemental Warrior</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Gaea's Protector must be blocked if able.</text>			
+		</card>		
+		<card>			
+			<name>Garna, the Bloodflame</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGTB.jpg?1520612873" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<color>R</color>			
+			<manacost>2BR</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Warrior</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+When Garna, the Bloodflame enters the battlefield, return to your hand all creature cards in your graveyard that were put there from anywhere this turn.
+Other creatures you control have haste.</text>			
+		</card>		
+		<card>			
+			<name>Ghitu Journeymage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGJ.jpg?1520612854" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Ghitu Journeymage enters the battlefield, if you control another Wizard, Ghitu Journeymage deals 2 damage to each opponent.</text>			
+		</card>		
+		<card>			
+			<name>Ghitu Lavarunner</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGL.jpg?1520612858" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>As long as there are two or more instant and/or sorcery cards in your graveyard, Ghitu Lavarunner gets +1/+0 and has haste.</text>			
+		</card>		
+		<card>			
+			<name>Gift of Growth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGOG.jpg?1520612864" rarity="Common">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Untap target creature. It gets +2/+2 until end of turn. If this spell was kicked, that creature gets +4/+4 until end of turn instead.</text>			
+		</card>		
+		<card>			
+			<name>Goblin Barrage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGOBB.jpg?1520612860" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Kicker-Sacrifice an artifact or Goblin. (You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.)
+Goblin Barrage deals 4 damage to target creature. If this spell was kicked, it also deals 4 damage to target player or planeswalker.
+</text>			
+		</card>		
+		<card>			
+			<name>Goblin Chainwhirler</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGC.jpg?1520612850" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>RRR</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Goblin Warrior</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>First strike
+When Goblin Chainwhirler enters the battlefield, it deals 1 damage to each opponent and each creature and planeswalker they control.
+</text>			
+		</card>		
+		<card>			
+			<name>Goblin Warchief</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGW.jpg?1520612881" rarity="Uncommon">DOM</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Goblin Warrior</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Goblin spells you cast cost {1} less to cast.
+Goblin creatures you control have haste.</text>			
+		</card>		
+		<card>			
+			<name>Grand Warlord Radha</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGWR.jpg?1520612884" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>2RG</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Elf Warrior</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste
+Whenever one or more creatures you control attack, add that much mana in any combination of {R} and/or {G}. Until end of turn, you don't lose this mana as steps and phases end.</text>			
+		</card>		
+		<card>			
+			<name>Grunn, the Lonely King</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XGTLK.jpg?1520612875" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>4GG</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Ape Warrior</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
+If Grunn, the Lonely King was kicked, it enters the battlefield with five +1/+1 counters on it. Whenever Grunn attacks alone, double its power and toughness until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Hallar, the Firefletcher</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XHTF.jpg?1520612905" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>1RG</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Elf Archer</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+Whenever you cast a spell, if that spell was kicked, put a +1/+1 counter on Hallar, the Firefletcher, then Hallar deals damage equal to the number of +1/+1 counters on it to each opponent.</text>			
+		</card>		
+		<card>			
+			<name>Haphazard Bombardment</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XHB.jpg?1520612886" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>5R</manacost>			
+			<cmc>6</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>When Haphazard Bombardment enters the battlefield, choose four nonenchantment permanents you don't control and put an aim counter on each of them.
+At the beginning of your end step, if two or more permanents you don't control have an aim counter on them, destroy one of those permanents at random.</text>			
+		</card>		
+		<card>			
+			<name>Healing Grace</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XHG.jpg?1520612892" rarity="Common">DOM</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Prevent the next 3 damage that would be dealt to any target this turn by a source of your choice. You gain 3 life.
+</text>			
+		</card>		
+		<card>			
+			<name>Helm of the Host</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XHOTH.jpg?1520612903" rarity="Rare">DOM</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Artifact — Equipment</type>			
+			<tablerow>1</tablerow>			
+			<text>At the beginning of combat on your turn, create a token that's a copy of equipped creature, except the token isn't legendary if equipped creature is legendary. That token gains haste. 
+Equip {5}</text>			
+		</card>		
+		<card>			
+			<name>Hinterland Harbor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XHH.jpg?1520612896" rarity="Rare">DOM</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Hinterland Harbor enters the battlefield tapped unless you control a Forest or an Island.
+{T}: Add {G} or {U} to your mana pool.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>History of Benalia</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XHOB.jpg?1520612899" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>1WW</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II - Create a 2/2 white Knight creature token with vigilance.
+III - Knights you control get +2/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Homarid Explorer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XHE.jpg?1520612889" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Homarid Scout</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Homarid Explorer enters the battlefield, target player puts the top four cards of their library into their graveyard.
+</text>			
+		</card>		
+		<card>			
+			<name>Howling Golem</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XHWG.jpg?1520612908" rarity="Rare">DOM</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Howling Golem attacks or blocks, each player draws a card.</text>			
+		</card>		
+		<card>			
+			<name>Icy Manipulator</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XIM.jpg?1520612916" rarity="Uncommon">DOM</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{1}, {T}: Tap target artifact, creature, or land.</text>			
+		</card>		
+		<card>			
+			<name>In Bolas's Clutches</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XIBC.jpg?1520612911" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>4UU</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant permanent
+You control enchanted permanent. Enchanted permanent is legendary.</text>			
+		</card>		
+		<card>			
+			<name>Invoke the Divine</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XITD.jpg?1520612919" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target artifact or enchantment. You gain 4 life.</text>			
+		</card>		
+		<card>			
+			<name>Isolated Chapel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XIC.jpg?1520612913" rarity="Rare">DOM</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Isolated Chapel enters the battlefield tapped unless you control a Plains or a Swamp.
+{T}: Add {W} or {B} to your mana pool.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Jaya Ballard</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XJAYA.jpg?1520612925" rarity="Mythic Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>2RRR</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Planeswalker — Jaya</type>			
+			<tablerow>1</tablerow>			
+			<text>+1: Add {R}{R}{R}. Spend this mana only to cast instant or sorcery spells.
++1: Discard up to three cards, then draw that many cards.
+-8: You get an emblem with &quot;You may cast instant and sorcery cards from your graveyard. If a card cast this way would be put into your graveyard, exile it instead.&quot;</text>			
+			<loyalty>5</loyalty>			
+		</card>		
+		<card>			
+			<name>Jaya's Immolating Inferno</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XJII.jpg?1520612932" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>XRR</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Jaya's Immolating Inferno deals X damage to each of up to three targets.</text>			
+		</card>		
+		<card>			
+			<name>Jhoira's Familiar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XJFAM.jpg?1520612928" rarity="Rare">DOM</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact Creature — Bird</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Historic spells you cast cost {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
+			<name>Jhoira, Weatherlight Captain</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XJWC.jpg?1520612939" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<color>R</color>			
+			<manacost>2UR</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Artificer</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
+			<name>Jodah, Archmage Eternal</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XJAE.jpg?1520612921" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<color>R</color>			
+			<manacost>1WUR</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Wizard</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+You may pay {W}{U}{B}{R}{G} rather than pay the mana cost for spells that you cast.</text>			
+		</card>		
+		<card>			
+			<name>Juggernaut</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XJUG.jpg?1520612935" rarity="Uncommon">DOM</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact Creature — Juggernaut</type>			
+			<pt>5/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Juggernaut attacks each combat if able.
+Juggernaut can't be blocked by Walls.</text>			
+		</card>		
+		<card>			
+			<name>Kamahl's Druidic Vow</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKDV.jpg?1520612943" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>XGG</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.) 
+Look at the top X cards of your library. You may put any number of land and/or legendary permanent cards with converted mana cost X or less from among them onto the battlefield. Put the rest into your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Karn, Scion of Urza</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKARN.jpg?1520612941" rarity="Mythic Rare">DOM</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Planeswalker — Karn</type>			
+			<tablerow>1</tablerow>			
+			<text>+1: Reveal the top two cards of your library. An opponent chooses one of them. Put that card into your hand and exile the other with a silver counter on it.
+-1: Put a card you own with a silver counter on it from exile into your hand.
+-2: Create a 0/0 colorless Construct artifact creature token with &quot;This creature gets +1/+1 for each artifact you control.&quot;
+</text>			
+			<loyalty>5</loyalty>			
+		</card>		
+		<card>			
+			<name>Karn's Temporal Sundering</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKTS.jpg?1520612961" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>4UU</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.) 
+Target player takes an extra turn after this one. Return up to one target nonland permanent to its owner's hand. Exile Karn's Temporal Sundering.
+</text>			
+		</card>		
+		<card>			
+			<name>Kazarov, Sengir Pureblood</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKSP.jpg?1520612959" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>5BB</manacost>			
+			<cmc>7</cmc>			
+			<type>Legendary Creature — Vampire</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever a creature an opponent controls is dealt damage, put a +1/+1 counter on Kazarov, Sengir Pureblood.
+{3}{R}: Kazarov deals 2 damage to target creature.
+</text>			
+		</card>		
+		<card>			
+			<name>Keldon Overseer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKO.jpg?1520612946" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Warrior</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kicker {3}{R} (You may pay an additional {3}{R} as you cast this spell.)
+Haste
+When Keldon Overseer enters the battlefield, if it was kicked, gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Keldon Warcaller</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKW.jpg?1520612964" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Warrior</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Keldon Warcaller attacks, put a lore counter on target Saga you control.</text>			
+		</card>		
+		<card>			
+			<name>Knight of Grace</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKOG.jpg?1520612949" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Knight</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>First strike
+Hexproof from black (This creature can't be the target of black spells or abilities your opponents control.)
+Knight of Grace gets +1/+0 as long as any player controls a black permanent.</text>			
+		</card>		
+		<card>			
+			<name>Knight of Malice</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKOM.jpg?1520612952" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Knight</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>First strike
+Hexproof from white (This creature can't be the target of white spells or abilities your opponents control.)
+Knight of Malice gets +1/+0 as long as any player controls a white permanent.</text>			
+		</card>		
+		<card>			
+			<name>Kwende, Pride of Femeref</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKPOF.jpg?1520612955" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Knight</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Double strike
+Creatures you control with first strike have double strike.</text>			
+		</card>		
+		<card>			
+			<name>Lich's Mastery</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XLM.jpg?1520612975" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>3BBB</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Hexproof
+You can't lose the game.
+Whenever you gain life, draw that many cards.
+Whenever you lose life, for each 1 life you lost, exile a permanent you control or a card from your hand or graveyard.
+When Lich's Mastery leaves the battlefield, you lose the game.</text>			
+		</card>		
+		<card>			
+			<name>Llanowar Elves</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XLE.jpg?1520612973" rarity="Common">DOM</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Elf Druid</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Add {G} to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>Llanowar Scout</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XLS.jpg?1520612979" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Elf Scout</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: You may put a land card from your hand onto the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Lyra Dawnbringer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XLD.jpg?1520612969" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>3WW</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Creature — Angel</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, first strike, lifelink
+Other Angels you control get +1/+1 and have lifelink.</text>			
+		</card>		
+		<card>			
+			<name>Marwyn, the Nurturer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XMTN.jpg?1520612997" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Elf Druid</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever another Elf enters the battlefield under your control, put a +1/+1 counter on Marwyn, the Nurturer.
+{T}: Add an amount of {G} equal to Marwyn's power.</text>			
+		</card>		
+		<card>			
+			<name>Merfolk Trickster</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XMT.jpg?1520612990" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>UU</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Merfolk Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+When Merfolk Trickster enters the battlefield, tap target creature an opponent controls. It loses all abilities until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Mishra's Self-Replicator</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XMSR.jpg?1520612987" rarity="Rare">DOM</set>			
+			<manacost>5</manacost>			
+			<cmc>5</cmc>			
+			<type>Artifact Creature — Assembly—Worker</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast a historic spell, you may pay {1}. If you do, create a token that's a copy of Mishra's Self-Replicator. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
+			<name>Mox Amber</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XMA.jpg?1520612984" rarity="Rare">DOM</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{T}: Add one mana of any color among legendary creatures and planeswalkers you control.</text>			
+		</card>		
+		<card>			
+			<name>Muldrotha, the Gravetide</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XMTG.jpg?1520612993" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>3UBG</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Elemental Avatar</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>During each of your turns, you may play up to one permanent card of each permanent type from your graveyard. (If a card has multiple permanent types, choose one as you play it.)</text>			
+		</card>		
+		<card>			
+			<name>Multani, Yavimaya's Avatar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XMYA.jpg?1520612999" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>4GG</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Elemental Avatar</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Reach, trample
+Multani, Yavimaya's Avatar gets +1/+1 for each land you control and each land card in your graveyard.
+{1}{G}, Return two lands you control to their owner's hand: Return Multani from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Naban, Dean of Iteration</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XNDOI.jpg?1520613006" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Creature — Human Wizard</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>If a Wizard entering the battlefield under your control causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>			
+		</card>		
+		<card>			
+			<name>Naru Meha, Master Wizard</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XNMMW.jpg?1520613009" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>2UU</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Wizard</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+When Naru Meha, Master Wizard enters the battlefield, copy target instant or sorcery spell you control. You may choose new targets for the copy.
+Other Wizards you control get +1/+1.</text>			
+		</card>		
+		<card>			
+			<name>Navigator's Compass</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XNC.jpg?1520613003" rarity="Rare">DOM</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>When Navigator's Compass enters the battlefield, you gain 3 life.
+{T}: Until end of turn, target land you control becomes the basic land type of your choice in addition to its other types.</text>			
+		</card>		
+		<card>			
+			<name>Oath of Teferi</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XOOT.jpg?1520613011" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>3WU</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>When Oath of Teferi enters the battlefield, exile another target permanent you control. Return it to the battlefield under its owner's control at the beginning of the next end step.
+You may activate the loyalty abilities of planeswalkers you control twice each turn rather than only once.</text>			
+		</card>		
+		<card>			
+			<name>On Serra's Wings</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XOSW.jpg?1520613015" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature is legendary, gets +1/+1, and has flying, vigilance, and lifelink.</text>			
+		</card>		
+		<card>			
+			<name>Phyrexian Scriptures</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XPS.jpg?1520613024" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>2BB</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I - Put a +1/+1 counter on up to one target creature. That creature becomes an artifact in addition to its other types.
+II - Destroy all nonartifact creatures.
+III - Exile all cards from all opponents' graveyards.</text>			
+		</card>		
+		<card>			
+			<name>Powerstone Shard</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XPSS.jpg?1520613027" rarity="Common">DOM</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{T}: Add {C} for each artifact you control named Powerstone Shard.</text>			
+		</card>		
+		<card>			
+			<name>Precognition Field</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XPF.jpg?1520613019" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>You may look at the top card of your library. (You may do this at any time.)
+You may cast the top card of your library if it's an instant or sorcery card. 
+{3}: Exile the top card of your library.</text>			
+		</card>		
+		<card>			
+			<name>Primevals' Glorious Rebirth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XPGR.jpg?1520613021" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<color>B</color>			
+			<manacost>5WB</manacost>			
+			<cmc>7</cmc>			
+			<type>Legendary Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.) 
+Return all legendary permanent cards from your graveyard to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Radiating Lightning</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XRL.jpg?1520613041" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Radiating Lightning deals 3 damage to target player and 1 damage to each creature that player controls.
+</text>			
+		</card>		
+		<card>			
+			<name>Rampaging Cyclops</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XRC.jpg?1520613034" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Cyclops</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Rampaging Cyclops gets -2/-0 as long as two or more creatures are blocking it.</text>			
+		</card>		
+		<card>			
+			<name>Rat Colony</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XRATS.jpg?1520613030" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Rat</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Rat Colony gets +1/+0 for each other Rat you control.
+A deck can have any number of cards named Rat Colony.</text>			
+		</card>		
+		<card>			
+			<name>Rona, Disciple of Gix</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XRDOG.jpg?1520613037" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<color>B</color>			
+			<manacost>1UB</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Human Artificer</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Rona, Disciple of Gix enters the battlefield, you may exile target historic card from your graveyard. (Artifacts, legendaries, and Sagas are historic.)
+You may cast nonland cards exiled with Rona.
+{4}, {T}: Exile the top card of your library.</text>			
+		</card>		
+		<card>			
+			<name>Seal Away</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSA.jpg?1520613045" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Flash
+When Seal Away enters the battlefield, exile target tapped creature an opponent controls until Seal Away leaves the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Sentinel of the Pearl Trident</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSOTPT.jpg?1520613069" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Merfolk Soldier</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+When Sentinel of the Pearl Trident enters the battlefield, you may exile target historic permanent you control. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step. (Artifacts, legendaries, and Sagas are historic.)
+</text>			
+		</card>		
+		<card>			
+			<name>Settle the Score</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSTS.jpg?1520613095" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>2BB</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Exile target creature. Put two loyalty counters on a planeswalker you control.</text>			
+		</card>		
+		<card>			
+			<name>Shanna, Sisay's Legacy</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSHANNA.jpg?1520613054" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<color>G</color>			
+			<manacost>WG</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Creature — Human Warrior</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Shanna, Sisay's Legacy can't be the target of abilities your opponents control. 
+Shanna gets +1/+1 for each creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Shield of the Realm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSOTR.jpg?1520613075" rarity="Rare">DOM</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact — Equipment</type>			
+			<tablerow>1</tablerow>			
+			<text>If a source would deal damage to equipped creature, prevent 2 of that damage. 
+Equip {1}</text>			
+		</card>		
+		<card>			
+			<name>Siege-Gang Commander</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSGC.jpg?1520613051" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>3RR</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Goblin</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Siege-Gang Commander enters the battlefield, create three 1/1 red Goblin creature tokens.
+{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to target creature or player.</text>			
+		</card>		
+		<card>			
+			<name>Skizzik</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XZAP.jpg?1520613209" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>5/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kicker {R} (You may pay an additional {R} as you cast this spell.)
+Trample, haste
+At the beginning of the end step, sacrifice Skizzik unless it was kicked.</text>			
+		</card>		
+		<card>			
+			<name>Slimefoot, the Stowaway</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSLIME.jpg?1520613062" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>1BG</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Fungus</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever a Saproling you control dies, Slimefoot, the Stowaway deals 1 damage to each opponent and you gain 1 life.
+{4}: Create a 1/1 green Saproling creature token.</text>			
+		</card>		
+		<card>			
+			<name>Song of Freyalise</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSOF.jpg?1520613067" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II - Until your next turn, creatures you control gain &quot;{T}: Add one mana of any color.&quot;
+III - Put a +1/+1 counter on each creature you control. Those creatures gain vigilance, trample, and indestructible until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Sorcerer's Wand</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XWAND.jpg?1520613182" rarity="Rare">DOM</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact — Equipment</type>			
+			<tablerow>1</tablerow>			
+			<text>Equipped creature has &quot;{T}: This creature deals 1 damage to target player or planeswalker. If this creature is a Wizard, it deals 2 damage to that player or planeswalker instead.&quot;
+Equip {3}</text>			
+		</card>		
+		<card>			
+			<name>Sparring Construct</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSPAR.jpg?1520613078" rarity="Common">DOM</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Sparring Construct dies, put a +1/+1 counter on target creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Sporecrown Thallid</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSTHAL.jpg?1520613090" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Fungus</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Each other creature you control that's a Fungus or Saproling gets +1/+1.</text>			
+		</card>		
+		<card>			
+			<name>Squee, the Immortal</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSQUEE.jpg?1520613084" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Goblin</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>You may cast Squee, the Immortal from your graveyard or from exile.</text>			
+		</card>		
+		<card>			
+			<name>Steel Leaf Champion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSLC.jpg?1520613057" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>GGG</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Elf Knight</type>			
+			<pt>5/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Steel Leaf Champion can't be blocked by creatures with power 2 or less.</text>			
+		</card>		
+		<card>			
+			<name>Sulfur Falls</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSF.jpg?1520613048" rarity="Rare">DOM</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Sulfur Falls enters the battlefield tapped unless you control an Island or a Mountain.
+{T}: Add {U} or {R} to your mana pool.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Sylvan Awakening</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XAWAKE.jpg?1520612734" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Until your next turn, all lands you control become 2/2 Elemental creatures with reach, indestructible, and haste. They're still lands.</text>			
+		</card>		
+		<card>			
+			<name>Teferi, Hero of Dominaria</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTEFERI.jpg?1520613111" rarity="Mythic Rare">DOM</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>3WU</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Planeswalker — Teferi</type>			
+			<tablerow>1</tablerow>			
+			<text>+1: Draw a card. At the beginning of the next end step, untap two lands.
+-3: Put target nonland permanent into its owner's library third from the top.
+-8: You get an emblem with &quot;Whenever you draw a card, exile target permanent an opponent controls.&quot;</text>			
+			<loyalty>4</loyalty>			
+		</card>		
+		<card>			
+			<name>Tempest Djinn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTD.jpg?1520613104" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>UUU</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Djinn</type>			
+			<pt>0/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Tempest Djinn gets +1/+0 for each basic Island you control.</text>			
+		</card>		
+		<card>			
+			<name>Temporal Machinations</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTM.jpg?1520613132" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target creature to its owner's hand. If you control an artifact, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Territorial Allosaurus</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTA.jpg?1520613097" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>2GG</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Dinosaur</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
+When Territorial Allosaurus enters the battlefield, if it was kicked, it fights another target creature.</text>			
+		</card>		
+		<card>			
+			<name>Teshar, Ancestor's Apostle</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTESHAR.jpg?1520613116" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Bird Cleric</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever you cast a historic spell, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
+			<name>Tetsuko Umezawa, Fugitive</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XUMEZ.jpg?1520613156" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Creature — Human Rogue</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Creatures you control with power or toughness 1 or less can't be blocked.</text>			
+		</card>		
+		<card>			
+			<name>Thallid Soothsayer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTSS.jpg?1520613153" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Fungus</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{2}, Sacrifice a creature: Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>The Antiquities War</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTAW.jpg?1520613102" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II - Look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. 
+III - Artifacts you control become artifact creatures with base power and toughness 5/5 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>The Eldest Reborn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTER.jpg?1520613114" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.) 
+I - Each opponent sacrifices a creature or planeswalker.
+II - Each opponent discards a card.
+III - Put target creature or planeswalker card from a graveyard onto the battlefield under your control.</text>			
+		</card>		
+		<card>			
+			<name>The First Eruption</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTFE.jpg?1520613121" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.) 
+I - The First Eruption deals 1 damage to each creature without flying.
+II - Add {R}{R}.
+III - Sacrifice a Mountain. If you do, The First Eruption deals 3 damage to each creature.</text>			
+		</card>		
+		<card>			
+			<name>The Flame of Keld</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTFOK.jpg?1520613128" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.) 
+I - Discard your hand.
+II - Draw two cards.
+III - If a red source you control would deal damage to a permanent or player this turn, it deals that much damage plus 2 to that permanent or player instead.</text>			
+		</card>		
+		<card>			
+			<name>The Mirari Conjecture</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTMC.jpg?1520613135" rarity="Mythic Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.) 
+I - Return target instant card from your graveyard to your hand.
+II - Return target sorcery card from your graveyard to your hand.
+III - Until end of turn, whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy.</text>			
+		</card>		
+		<card>			
+			<name>Thorn Elemental</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTE.jpg?1520613108" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>5GG</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>You may have Thorn Elemental assign its combat damage as though it weren't blocked.</text>			
+		</card>		
+		<card>			
+			<name>Tiana, Ship's Caretaker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTSC.jpg?1520613149" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<manacost>3WR</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Creature — Angel Artificer</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, first strike
+Whenever an Aura or Equipment you control is put into a graveyard from the battlefield, you may return that card to its owner's hand at the beginning of the next end step.</text>			
+		</card>		
+		<card>			
+			<name>Time of Ice</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTOI.jpg?1520613142" rarity="Rare">DOM</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II - Tap target creature an opponent controls. It doesn't untap during its controller's untap step for as long as you control Time of Ice.
+III - Return all tapped creatures to their owners' hands.</text>			
+		</card>		
+		<card>			
+			<name>Torgaar, Famine Incarnate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTFI.jpg?1520613125" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>6BB</manacost>			
+			<cmc>8</cmc>			
+			<type>Legendary Creature — Avatar</type>			
+			<pt>7/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>As an additional cost to cast this spell, you may sacrifice any number of creatures. This spell costs {2} less to cast for each creature sacrificed this way.
+When Torgaar, Famine Incarnate enters the battlefield, up to one target player's life total becomes half their starting life total, rounded down.</text>			
+		</card>		
+		<card>			
+			<name>Triumph of Gerrard</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTOG.jpg?1520613137" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment — Saga</type>			
+			<tablerow>1</tablerow>			
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II - Put a +1/+1 counter on target creature you control with the greatest power.
+III - Target creature you control with the greatest power gains flying, first strike, and lifelink until end of turn.
+</text>			
+		</card>		
+		<card>			
+			<name>Urgoros, the Empty One</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XUTEO.jpg?1520613162" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>4BB</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Specter</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever Urgoros, the Empty One deals combat damage to a player, that player discards a card at random. If the player can't, you draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Urza's Ruinous Blast</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XURB.jpg?1520613159" rarity="Mythic Rare">DOM</set>			
+			<color>W</color>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Exile all nonland permanents that aren't legendary.</text>			
+		</card>		
+		<card>			
+			<name>Urza's Tome</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTOME.jpg?1520613146" rarity="Rare">DOM</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{3}, {T}: Draw a card. Then discard a card unless you exile a historic card from your graveyard. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
+			<name>Valduk, Keeper of the Flame</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XVKOF.jpg?1520613172" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Human Shaman</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, Keeper of the Flame, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step.</text>			
+		</card>		
+		<card>			
+			<name>Verdant Force</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFORCE.jpg?1520612838" rarity="Rare">DOM</set>			
+			<color>G</color>			
+			<manacost>5GGG</manacost>			
+			<cmc>8</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of each upkeep, create a 1/1 green Saproling creature token.</text>			
+		</card>		
+		<card>			
+			<name>Verix Bladewing</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XVB.jpg?1520613169" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>2RR</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Dragon</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Flying
+When Verix Bladewing enters the battlefield, if it was kicked, create Karox Bladewing, a legendary 4/4 red Dragon creature token with flying.
+</text>			
+		</card>		
+		<card>			
+			<name>Voltaic Servant</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XVSERV.jpg?1520613180" rarity="Rare">DOM</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of your end step, untap target artifact.</text>			
+		</card>		
+		<card>			
+			<name>Warcry Phoenix</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XWP.jpg?1520613197" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Phoenix</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, haste
+Whenever you attack with three or more creatures, you may pay {2}{R}. If you do, return Warcry Phoenix from your graveyard to the battlefield tapped and attacking.</text>			
+		</card>		
+		<card>			
+			<name>Warlord's Fury</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFURY.jpg?1520612843" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Creatures you control gain first strike until end of turn. Draw a card.
+</text>			
+		</card>		
+		<card>			
+			<name>Whisper, Blood Liturgist</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XWBL.jpg?1520613185" rarity="Rare">DOM</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Cleric</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}, Sacrifice two creatures: Return target creature card from your graveyard to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Wizard's Lightning</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XWL.jpg?1520613194" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>This spell costs {2} less to cast if you control a Wizard.
+Wizard's Lightning deals 3 damage to any target.</text>			
+		</card>		
+		<card>			
+			<name>Wizard's Retort</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XWT.jpg?1520613202" rarity="Uncommon">DOM</set>			
+			<color>U</color>			
+			<manacost>1UU</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>This spell costs {1} less to cast if you control a Wizard. 
+Counter target spell.</text>			
+		</card>		
+		<card>			
+			<name>Woodland Cemetery</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/XWC.jpg?1520613189" rarity="Rare">DOM</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Woodland Cemetery enters the battlefield tapped unless you control a Swamp or a Forest.
+{T}: Add {B} or {G} to your mana pool.</text>			
+			<cipt>1</cipt>			
+		</card>		
+	</cards>	
 </cockatrice_carddatabase>
