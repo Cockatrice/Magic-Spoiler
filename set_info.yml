@@ -3,11 +3,11 @@
 #
 # required keys
 #
-# code: FSN
+# code: "FSN"
 # name: "Full Set Name"
 # size: 274
 # releaseDate: "2050-02-28"
-# type: expansion
+# type:" expansion"
 #
 # optional keys
 #
@@ -49,18 +49,6 @@
 #   mtgsurl: "http://www.mtgsalvation.com/spoilers/181-amonkhet-invocations"
 #   mtgscardpath: "http://www.mtgsalvation.com/cards/amonkhet-invocations/"
 ---
-code: "A25"
-name: "Masters 25"
-#block: "?"
-#size: ?
-releaseDate: "2018-03-16"
-type: "masters"
-mtgsurl: ""
-#mtgscardpath: "?"
-fullSpoil: false
-scryfallOnly: true
-noRSS: true
----
 code: "DOM"
 name: "Dominaria"
 #block: "?"
@@ -70,7 +58,7 @@ type: "expansion"
 mtgsurl: ""
 #mtgscardpath: "?"
 fullSpoil: false
-scryfallOnly: false
+scryfallOnly: true
 noRSS: true
 ---
 code: "M19"
