@@ -3,11 +3,11 @@
 #
 # required keys
 #
-# code: FSN
+# code: "FSN"
 # name: "Full Set Name"
 # size: 274
 # releaseDate: "2050-02-28"
-# type: expansion
+# type:" expansion"
 #
 # optional keys
 #
@@ -57,7 +57,7 @@ type: "expansion"
 mtgsurl: ""
 #mtgscardpath: "?"
 fullSpoil: false
-scryfallOnly: false
+scryfallOnly: true
 noRSS: true
 ---
 code: "M19"
