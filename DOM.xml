@@ -9,6 +9,18 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Academy Drake</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/40.jpg?1521629389" rarity="Common">DOM</set>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Creature — Drake</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kicker {4} (You may pay an additional {4} as you cast this spell.)
+If Academy Drake was kicked, it enters the battlefield with two +1/+1 counters on it.</text>			
+		</card>		
+		<card>			
 			<name>Academy Journeymage</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/XAJ.jpg?1521224024" rarity="Rare">DOM</set>			
 			<manacost>4U</manacost>			
@@ -380,7 +392,7 @@ Fight with Fire deals 5 damage to target creature. If this spell was kicked, it 
 		</card>		
 		<card>			
 			<name>Firesong and Sunspeaker</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFAS.jpg?1521224204" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/280.jpg?1521629908" rarity="Rare">DOM</set>			
 			<manacost>4WR</manacost>			
 			<cmc>6</cmc>			
 			<color>W</color>			
@@ -541,6 +553,16 @@ Whenever one or more creatures you control attack, add that much mana in any com
 			<tablerow>2</tablerow>			
 			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
 If Grunn, the Lonely King was kicked, it enters the battlefield with five +1/+1 counters on it. Whenever Grunn attacks alone, double its power and toughness until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Guardioans of Koilos</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/216.jpg?1521628990" rarity="Common">DOM</set>			
+			<manacost>5</manacost>			
+			<cmc>5</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Guardioans of Koilos enters the battlefield, you may return another target historic permanent you control to its owner's hand. (Artifacts, legendaries, and Sagas are historic.)</text>			
 		</card>		
 		<card>			
 			<name>Hallar, the Firefletcher</name>			
@@ -793,7 +815,7 @@ Whenever a creature an opponent controls is dealt damage, put a +1/+1 counter on
 		</card>		
 		<card>			
 			<name>Keldon Overseer</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKO.jpg?1521224440" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/134.jpg?1521628664" rarity="Rare">DOM</set>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
 			<color>R</color>			
@@ -817,7 +839,7 @@ When Keldon Overseer enters the battlefield, if it was kicked, gain control of t
 		</card>		
 		<card>			
 			<name>Knight of Grace</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKOG.jpg?1521224450" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/23.jpg?1521632009" rarity="Uncommon">DOM</set>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
 			<color>W</color>			
@@ -1121,6 +1143,17 @@ You may cast nonland cards exiled with Rona.
 {4}, {T}: Exile the top card of your library.</text>			
 		</card>		
 		<card>			
+			<name>Saproling Migration</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/178.jpg?1521629165" rarity="Common">DOM</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Kicker {4} (You may pay an additional {4} as you cast this spell.)
+Create two 1/1 green Saproling creature tokens. If this spell was kicked, create four of those tokens instead.</text>			
+		</card>		
+		<card>			
 			<name>Seal Away</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSA.jpg?1521224636" rarity="Rare">DOM</set>			
 			<manacost>1W</manacost>			
@@ -1142,6 +1175,18 @@ When Seal Away enters the battlefield, exile target tapped creature an opponent 
 			<tablerow>2</tablerow>			
 			<text>Flash
 When Sentinel of the Pearl Trident enters the battlefield, you may exile target historic permanent you control. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
+			<name>Serra Disciple</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/24.jpg?1521628979" rarity="Common">DOM</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Creature — Bird Cleric</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, first strike
+Whenever you cast a historic spell, Serra Disciple gets +1/+1 until end of turn. (Artifacts, legendaries, and Sagas are historic.)</text>			
 		</card>		
 		<card>			
 			<name>Settle the Score</name>			
@@ -1422,7 +1467,7 @@ III - Sacrifice a Mountain. If you do, The First Eruption deals 3 damage to each
 		</card>		
 		<card>			
 			<name>The Flame of Keld</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTFOK.jpg?1521224741" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/123.jpg?1521629033" rarity="Uncommon">DOM</set>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
 			<color>R</color>			
@@ -1520,7 +1565,7 @@ Whenever Urgoros, the Empty One deals combat damage to a player, that player dis
 		</card>		
 		<card>			
 			<name>Urza's Ruinous Blast</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XURB.jpg?1521224791" rarity="Mythic Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/39.jpg?1521630025" rarity="Rare">DOM</set>			
 			<manacost>4W</manacost>			
 			<cmc>5</cmc>			
 			<color>W</color>			
@@ -1572,6 +1617,17 @@ Exile all nonland permanents that aren't legendary.</text>
 			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
 Flying
 When Verix Bladewing enters the battlefield, if it was kicked, create Karox Bladewing, a legendary 4/4 red Dragon creature token with flying.</text>			
+		</card>		
+		<card>			
+			<name>Vicious Offering</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/110.jpg?1521629082" rarity="Common">DOM</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Kicker-Sacrifice a creature. (You may sacrifice a creature in addition to any other costs as you cast this spell.)
+Target creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -5/-5 until end of turn instead.</text>			
 		</card>		
 		<card>			
 			<name>Voltaic Servant</name>			
