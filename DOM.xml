@@ -173,6 +173,16 @@ Return target nonland permanent to its owner's hand. If this spell was kicked, d
 			<text>Destroy target artifact or enchantment. You may put a land card from your hand onto the battlefield.</text>			
 		</card>		
 		<card>			
+			<name>Cast Down</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/81.jpg?1521744281" rarity="Uncommon">DOM</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target nonlegendary creature.</text>			
+		</card>		
+		<card>			
 			<name>Chainer's Torment</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/XCT.jpg?1521224118" rarity="Rare">DOM</set>			
 			<manacost>3B</manacost>			
@@ -393,7 +403,7 @@ Fight with Fire deals 5 damage to target creature. If this spell was kicked, it 
 		</card>		
 		<card>			
 			<name>Firesong and Sunspeaker</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/280.jpg?1521629908" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/280.jpg?1521741946" rarity="Rare">DOM</set>			
 			<manacost>4WR</manacost>			
 			<cmc>6</cmc>			
 			<color>W</color>			
@@ -892,7 +902,7 @@ When Lich's Mastery leaves the battlefield, you lose the game.</text>
 		</card>		
 		<card>			
 			<name>Llanowar Elves</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XLE.jpg?1521224521" rarity="Common">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/168.jpg?1521744457" rarity="Common">DOM</set>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
 			<color>G</color>			
@@ -938,7 +948,7 @@ Other Angels you control get +1/+1 and have lifelink.</text>
 		</card>		
 		<card>			
 			<name>Merfolk Trickster</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XMT.jpg?1521224545" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/56.jpg?1521818019" rarity="Uncommon">DOM</set>			
 			<manacost>UU</manacost>			
 			<cmc>2</cmc>			
 			<color>U</color>			
@@ -1051,8 +1061,19 @@ You may activate the loyalty abilities of planeswalkers you control twice each t
 Enchanted creature is legendary, gets +1/+1, and has flying, vigilance, and lifelink.</text>			
 		</card>		
 		<card>			
+			<name>Opt</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/60.jpg?1521744236" rarity="Common">DOM</set>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Draw a card.</text>			
+		</card>		
+		<card>			
 			<name>Phyrexian Scriptures</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/100.jpg?1521172752" rarity="Mythic Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/100.jpg?1521760394" rarity="Mythic Rare">DOM</set>			
 			<manacost>2BB</manacost>			
 			<cmc>4</cmc>			
 			<color>B</color>			
@@ -1201,7 +1222,7 @@ Whenever you cast a historic spell, Serra Disciple gets +1/+1 until end of turn.
 		</card>		
 		<card>			
 			<name>Shanna, Sisay's Legacy</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSHANNA.jpg?1521224649" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/204.jpg?1521744321" rarity="Rare">DOM</set>			
 			<manacost>WG</manacost>			
 			<cmc>2</cmc>			
 			<color>W</color>			
@@ -1316,7 +1337,7 @@ Equip {3}</text>
 		</card>		
 		<card>			
 			<name>Steel Leaf Champion</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSLC.jpg?1521224654" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/182.jpg?1521742273" rarity="Rare">DOM</set>			
 			<manacost>GGG</manacost>			
 			<cmc>3</cmc>			
 			<color>G</color>			
@@ -1468,7 +1489,7 @@ III - Sacrifice a Mountain. If you do, The First Eruption deals 3 damage to each
 		</card>		
 		<card>			
 			<name>The Flame of Keld</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/123.jpg?1521629033" rarity="Uncommon">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/123.jpg?1521760435" rarity="Uncommon">DOM</set>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
 			<color>R</color>			
@@ -1706,6 +1727,28 @@ Counter target spell.</text>
 			<tablerow>0</tablerow>			
 			<text>Woodland Cemetery enters the battlefield tapped unless you control a Swamp or a Forest.
 {T}: Add {B} or {G} to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>Zahid, Djinn of the Lamp</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/76.jpg?1521744416" rarity="Rare">DOM</set>			
+			<manacost>4UU</manacost>			
+			<cmc>6</cmc>			
+			<color>U</color>			
+			<type>Legendary Creature — Djinn</type>			
+			<pt>5/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>You may pay {3}{U} and tap an untapped artifact you control rather than pay this spell's mana cost.
+Flying</text>			
+		</card>		
+		<card>			
+			<name>Zhalfirin Void</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/249.jpg?1521744504" rarity="Uncommon">DOM</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>When Zhalfirin Void enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {C}.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
