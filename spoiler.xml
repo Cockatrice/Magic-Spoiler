@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sat, Mar 24 2018, 19:27:36 (UTC)
+        created: Mon, Mar 26 2018, 19:28:13 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -200,7 +200,7 @@ III - Create an X/X black Nightmare Horror creature token, where X is half your 
 		</card>		
 		<card>			
 			<name>Chandra, Bold Pyromancer</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XCBP.jpg?1521224103" rarity="Mythic Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/275.jpg?1522074055" rarity="Mythic Rare">DOM</set>			
 			<color>R</color>			
 			<manacost>4RR</manacost>			
 			<cmc>6</cmc>			
@@ -210,6 +210,17 @@ III - Create an X/X black Nightmare Horror creature token, where X is half your 
 -3: Chandra, Bold Pyromancer deals 3 damage to target creature or planeswalker.
 -7: Chandra, Bold Pyromancer deals 10 damage to target player and each creature and planeswalker they control.</text>			
 			<loyalty>5</loyalty>			
+		</card>		
+		<card>			
+			<name>Chandra's Outburst</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/276.jpg?1522074014" rarity="Rare">DOM</set>			
+			<color>R</color>			
+			<manacost>3RR</manacost>			
+			<cmc>5</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Chandra's Outburst deals 4 damage to target player or planeswalker.
+Search your library and/or graveyard for a card named Chandra, Bold Pryomancer, reveal it, and put it into your hand. If you search your library this way, shuffle it.</text>			
 		</card>		
 		<card>			
 			<name>Charge</name>			
@@ -264,6 +275,18 @@ When enchanted permanent leaves the battlefield, if it was historic, draw two ca
 			<tablerow>1</tablerow>			
 			<text>If a land is tapped for two or more mana, it produces {C} instead of any other type and amount. 
 Each spell a player casts costs {1} more to cast for each other spell that player has cast this turn.</text>			
+		</card>		
+		<card>			
+			<name>Danitha Capashen, Paragon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/12.jpg?1522071801" rarity="Uncommon">DOM</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Human Knight</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>First strike, vigilance, lifelink
+Aura and Equipment spells you cast cost {1} less to cast.</text>			
 		</card>		
 		<card>			
 			<name>Darigaaz Reincarnated</name>			
@@ -373,7 +396,7 @@ Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to 
 		</card>		
 		<card>			
 			<name>Fall of the Thran</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XFOTT.jpg?1521224239" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/18.jpg?1522076313" rarity="Rare">DOM</set>			
 			<color>W</color>			
 			<manacost>5W</manacost>			
 			<cmc>6</cmc>			
@@ -636,7 +659,7 @@ Equip {5}</text>
 		</card>		
 		<card>			
 			<name>History of Benalia</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XHOB.jpg?1521224322" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/21.jpg?1522075881" rarity="Mythic Rare">DOM</set>			
 			<color>W</color>			
 			<manacost>1WW</manacost>			
 			<cmc>3</cmc>			
@@ -816,6 +839,17 @@ Look at the top X cards of your library. You may put any number of land and/or l
 Target player takes an extra turn after this one. Return up to one target nonland permanent to its owner's hand. Exile Karn's Temporal Sundering.</text>			
 		</card>		
 		<card>			
+			<name>Karpulsan Hound</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/277.jpg?1522073917" rarity="Uncommon">DOM</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Hound</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Karpulsan Hound attacks, if you control a Chandra planeswalker, this creature deals 2 damage to any target.</text>			
+		</card>		
+		<card>			
 			<name>Kazarov, Sengir Pureblood</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKSP.jpg?1521895179" rarity="Rare">DOM</set>			
 			<color>B</color>			
@@ -951,6 +985,17 @@ Other Angels you control get +1/+1 and have lifelink.</text>
 {T}: Add an amount of {G} equal to Marwyn's power.</text>			
 		</card>		
 		<card>			
+			<name>Meandering River</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/274.jpg?1522074437" rarity="Common">DOM</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Meandering River enters the battlefield tapped.
+{T}: Add {W} or {U} to your mana pool.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
 			<name>Merfolk Trickster</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/56.jpg?1521818019" rarity="Uncommon">DOM</set>			
 			<color>U</color>			
@@ -1042,6 +1087,18 @@ Other Wizards you control get +1/+1.</text>
 {T}: Until end of turn, target land you control becomes the basic land type of your choice in addition to its other types.</text>			
 		</card>		
 		<card>			
+			<name>Niambi, Faithful Healer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/272.jpg?1522073643" rarity="Rare">DOM</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>1WU</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Human Cleric</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Niambi, Faithful Healer enters the battlefield, you may search your library for a card named Teferi, Timebender, reveal it, and put it into your hand. If you search your library this way, shuffle it.</text>			
+		</card>		
+		<card>			
 			<name>Oath of Teferi</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/XOOT.jpg?1521224600" rarity="Rare">DOM</set>			
 			<color>W</color>			
@@ -1120,6 +1177,17 @@ You may cast the top card of your library if it's an instant or sorcery card.
 			<tablerow>3</tablerow>			
 			<text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.) 
 Return all legendary permanent cards from your graveyard to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Pyromantic Pilgrim</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/278.jpg?1522073820" rarity="Common">DOM</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste (This creature can attack and {T} as soon as it comes under your control.)</text>			
 		</card>		
 		<card>			
 			<name>Radiating Lightning</name>			
@@ -1386,6 +1454,30 @@ Equip {3}</text>
 			<loyalty>4</loyalty>			
 		</card>		
 		<card>			
+			<name>Teferi's Sentinel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/273.jpg?1522074203" rarity="Uncommon">DOM</set>			
+			<manacost>5</manacost>			
+			<cmc>5</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<pt>2/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>As long as you control a Teferi planeswalker, Teferi's Sentinel gets +4/+0</text>			
+		</card>		
+		<card>			
+			<name>Teferi, Timebender</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/270.jpg?1522074373" rarity="Mythic Rare">DOM</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>4WU</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Planeswalker Teferi</type>			
+			<tablerow>1</tablerow>			
+			<text>+2: Untap up to one target artifact or creature.
+-3: You gain 2 life and draw two cards.
+-9: Take an extra turn after this one.</text>			
+			<loyalty>5</loyalty>			
+		</card>		
+		<card>			
 			<name>Tempest Djinn</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTD.jpg?1521224701" rarity="Rare">DOM</set>			
 			<color>U</color>			
@@ -1399,7 +1491,7 @@ Tempest Djinn gets +1/+0 for each basic Island you control.</text>
 		</card>		
 		<card>			
 			<name>Temporal Machinations</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTM.jpg?1521224754" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/271.jpg?1522074873" rarity="Common">DOM</set>			
 			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
@@ -1542,6 +1634,17 @@ III - Until end of turn, whenever you cast an instant or sorcery spell, copy it.
 Whenever an Aura or Equipment you control is put into a graveyard from the battlefield, you may return that card to its owner's hand at the beginning of the next end step.</text>			
 		</card>		
 		<card>			
+			<name>Timber Gorge</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/279.jpg?1522073713" rarity="Common">DOM</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Timber Gorge enters the battlefield tapped.
+{T}: Add {R} or {G} to your mana pool.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
 			<name>Time of Ice</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTOI.jpg?1521224766" rarity="Rare">DOM</set>			
 			<color>U</color>			
@@ -1567,7 +1670,7 @@ When Torgaar, Famine Incarnate enters the battlefield, up to one target player's
 		</card>		
 		<card>			
 			<name>Triumph of Gerrard</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTOG.jpg?1521224764" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/38.jpg?1522071867" rarity="Uncommon">DOM</set>			
 			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
@@ -1701,7 +1804,7 @@ Draw a card.</text>
 		</card>		
 		<card>			
 			<name>Wizard's Lightning</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XWL.jpg?1521224832" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/152.jpg?1522072399" rarity="Uncommon">DOM</set>			
 			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
@@ -1712,7 +1815,7 @@ Wizard's Lightning deals 3 damage to any target.</text>
 		</card>		
 		<card>			
 			<name>Wizard's Retort</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XWT.jpg?1521224843" rarity="Uncommon">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/75.jpg?1522072045" rarity="Uncommon">DOM</set>			
 			<color>U</color>			
 			<manacost>1UU</manacost>			
 			<cmc>3</cmc>			
