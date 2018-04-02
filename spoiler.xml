@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sat, Mar 31 2018, 19:31:30 (UTC)
+        created: Mon, Apr 02 2018, 19:31:50 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -62,7 +62,7 @@ Whenever you cast an instant or sorcery spell, Wizards you control get +1/+1 unt
 		</card>		
 		<card>			
 			<name>Arvad the Cursed</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XATC.jpg?1521224038" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/191.jpg?1522666381" rarity="Uncommon">DOM</set>			
 			<color>W</color>			
 			<color>B</color>			
 			<manacost>3WB</manacost>			
@@ -167,6 +167,16 @@ Return target nonland permanent to its owner's hand. If this spell was kicked, d
 			<text>Whenever you cast a spell, if that spell was kicked, Bloodstone Goblin gets +1/+1 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)</text>			
 		</card>		
 		<card>			
+			<name>Board the Weatherlight</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/8.jpg?1522666761" rarity="Uncommon">DOM</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Look at the top five cards of your library. You may reveal a historic card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
 			<name>Broken Bond</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBB.jpg?1521224058" rarity="Rare">DOM</set>			
 			<color>G</color>			
@@ -175,6 +185,40 @@ Return target nonland permanent to its owner's hand. If this spell was kicked, d
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target artifact or enchantment. You may put a land card from your hand onto the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Cabal Evangel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/78.jpg?1522614032" rarity="Common">DOM</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Cleric</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Cabal Paladin</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/79.jpg?1522611467" rarity="Common">DOM</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Knight</type>			
+			<pt>4/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast a historic spell, Cabal Paladin deals 2 damage to each opponent. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
+			<name>Caligo Skin-Witch</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/80.jpg?1522667929" rarity="Common">DOM</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kicker {3}{B} (You may pay an additional {3}{B} as you cast this spell.)
+When Caligo Skin-Witch enters the battlefield, if it was kicked, each opponent discards two cards.</text>			
 		</card>		
 		<card>			
 			<name>Cast Down</name>			
@@ -734,7 +778,7 @@ Enchanted permanent is legendary.</text>
 		</card>		
 		<card>			
 			<name>Jaya Ballard</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XJAYA.jpg?1521224365" rarity="Mythic Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/132.jpg?1522667545" rarity="Mythic Rare">DOM</set>			
 			<color>R</color>			
 			<manacost>2RRR</manacost>			
 			<cmc>5</cmc>			
@@ -769,7 +813,7 @@ Historic spells you cast cost {1} less to cast. (Artifacts, legendaries, and Sag
 		</card>		
 		<card>			
 			<name>Jhoira, Weatherlight Captain</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XJWC.jpg?1521224415" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/197.jpg?1522666110" rarity="Mythic Rare">DOM</set>			
 			<color>U</color>			
 			<color>R</color>			
 			<manacost>2UR</manacost>			
@@ -1019,7 +1063,7 @@ When Merfolk Trickster enters the battlefield, tap target creature an opponent c
 		</card>		
 		<card>			
 			<name>Mox Amber</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XMOX.jpg?1521224534" rarity="Mythic Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/224.jpg?1522661131" rarity="Mythic Rare">DOM</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Legendary Artifact</type>			
@@ -1200,6 +1244,20 @@ Return all legendary permanent cards from your graveyard to the battlefield.</te
 			<text>Radiating Lightning deals 3 damage to target player and 1 damage to each creature that player controls.</text>			
 		</card>		
 		<card>			
+			<name>Raff Capashen, Ship's Mage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/202.jpg?1522666670" rarity="Uncommon">DOM</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>2WU</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Human Wizard</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+Flying
+You may cast historic spells as though they had flash. (Artifacts, legendaries, and Sagas are historic.)</text>			
+		</card>		
+		<card>			
 			<name>Rampaging Cyclops</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/XRC.jpg?1521224625" rarity="Rare">DOM</set>			
 			<color>R</color>			
@@ -1342,7 +1400,7 @@ At the beginning of the end step, sacrifice Skizzik unless it was kicked.</text>
 		</card>		
 		<card>			
 			<name>Slimefoot, the Stowaway</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSLIME.jpg?1521224658" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/205.jpg?1522666265" rarity="Uncommon">DOM</set>			
 			<color>B</color>			
 			<color>G</color>			
 			<manacost>1BG</manacost>			
@@ -1441,7 +1499,7 @@ Equip {3}</text>
 		</card>		
 		<card>			
 			<name>Teferi, Hero of Dominaria</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTEFERI.jpg?1521224718" rarity="Mythic Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/207.jpg?1522665929" rarity="Mythic Rare">DOM</set>			
 			<color>W</color>			
 			<color>U</color>			
 			<manacost>3WU</manacost>			
@@ -1622,7 +1680,7 @@ III - Until end of turn, whenever you cast an instant or sorcery spell, copy it.
 		</card>		
 		<card>			
 			<name>Tiana, Ship's Caretaker</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTSC.jpg?1521224776" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/208.jpg?1522666193" rarity="Uncommon">DOM</set>			
 			<color>W</color>			
 			<color>R</color>			
 			<manacost>3WR</manacost>			
@@ -1790,6 +1848,18 @@ Whenever you attack with three or more creatures, you may pay {2}{R}. If you do,
 			<tablerow>3</tablerow>			
 			<text>Creatures you control gain first strike until end of turn. 
 Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Weatherlight</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/237.jpg?1522666526" rarity="Mythic Rare">DOM</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Artifact — Vehicle</type>			
+			<pt>4/5</pt>			
+			<tablerow>1</tablerow>			
+			<text>Flying
+Whenever Weatherlight deals combat damage to a player, look at the top five cards of your library. You may reveal a historic card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (Artifacts, legendaries, and Sagas are historic.)
+Crew 3</text>			
 		</card>		
 		<card>			
 			<name>Whisper, Blood Liturgist</name>			
