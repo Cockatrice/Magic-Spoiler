@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Mon, Apr 09 2018, 19:33:50 (UTC)
+        created: Tue, Apr 10 2018, 19:34:21 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -109,6 +109,17 @@ Other legendary creatures you control get +2/+2.</text>
 {B}, {T}, Tap X untapped Knights you control: Destroy target creature with power X or less.</text>			
 		</card>		
 		<card>			
+			<name>Aven Sentry</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/3.jpg?1523371523" rarity="Common">DOM</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Bird Soldier</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying</text>			
+		</card>		
+		<card>			
 			<name>Baird, Steward of Argive</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/4.jpg?1522853902" rarity="Uncommon">DOM</set>			
 			<color>W</color>			
@@ -122,14 +133,14 @@ Creatures can't attack you or a planeswalker you control unless their controller
 		</card>		
 		<card>			
 			<name>Baloth Gorger</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBG.jpg?1521224064" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/156.jpg?1523349131" rarity="Common">DOM</set>			
 			<color>G</color>			
 			<manacost>2GG</manacost>			
 			<cmc>4</cmc>			
 			<type>Creature — Beast</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
-			<text>Kicker {4} (You may pay an additional 4 as you cast this spell.)
+			<text>Kicker {4} (You may pay an additional {4} as you cast this spell.)
 If Baloth Gorger was kicked, it enters the battlefield with three +1/+1 counters on it.</text>			
 		</card>		
 		<card>			
@@ -167,7 +178,7 @@ Draw a card.</text>
 		</card>		
 		<card>			
 			<name>Blackblade Reforged</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBR.jpg?1521224081" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/211.jpg?1523371605" rarity="Rare">DOM</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Legendary Artifact — Equipment</type>			
@@ -209,6 +220,15 @@ Return target nonland permanent to its owner's hand. If this spell was kicked, d
 			<text>Whenever you cast a spell, if that spell was kicked, Bloodstone Goblin gets +1/+1 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)</text>			
 		</card>		
 		<card>			
+			<name>Bloodtallow Candle</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/212.jpg?1523371560" rarity="Common">DOM</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{6}, {T}, Sacrifice Bloodtallow Candle: Target creature gets -5/-5 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Board the Weatherlight</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/8.jpg?1522666761" rarity="Uncommon">DOM</set>			
 			<color>W</color>			
@@ -220,7 +240,7 @@ Return target nonland permanent to its owner's hand. If this spell was kicked, d
 		</card>		
 		<card>			
 			<name>Broken Bond</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XBB.jpg?1521224058" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/157.jpg?1523371659" rarity="Rare">DOM</set>			
 			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
@@ -340,8 +360,20 @@ Search your library and/or graveyard for a card named Chandra, Bold Pryomancer, 
 			<cipt>1</cipt>			
 		</card>		
 		<card>			
+			<name>Cloudreader Sphinx</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/47.jpg?1523371536" rarity="Common">DOM</set>			
+			<color>U</color>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Sphinx</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Cloudreader Sphinx enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</text>			
+		</card>		
+		<card>			
 			<name>Corrosive Ooze</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XCO.jpg?1521224107" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/158.jpg?1523349147" rarity="Rare">DOM</set>			
 			<color>G</color>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
@@ -479,6 +511,16 @@ When Demonlord Belzenlok enters the battlefield, exile cards from the top of you
 			<text>Target player reveals their hand. You choose an artifact or creature card from it. That player discards that card.</text>			
 		</card>		
 		<card>			
+			<name>Divination</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/52.jpg?1523349201" rarity="Common">DOM</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw two cards.</text>			
+		</card>		
+		<card>			
 			<name>Dread Shade</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/88.jpg?1523191994" rarity="Rare">DOM</set>			
 			<color>B</color>			
@@ -510,6 +552,18 @@ When Demonlord Belzenlok enters the battlefield, exile cards from the top of you
 			<tablerow>1</tablerow>			
 			<text>Enchant creature
 Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to its other types.</text>			
+		</card>		
+		<card>			
+			<name>Elfhame Druid</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/159.jpg?1523327115" rarity="Uncommon">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Elf Druid</type>			
+			<pt>0/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Add {G}.
+{T}: Add {G}{G}. Spend this mana only to cast kicked spells.</text>			
 		</card>		
 		<card>			
 			<name>Evra, Halcyon Witness</name>			
@@ -548,7 +602,7 @@ Fight with Fire deals 5 damage to target creature. If this spell was kicked, it 
 		</card>		
 		<card>			
 			<name>Final Parting</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/93.jpg?1523278922" rarity="Uncommon">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/93.jpg?1523371618" rarity="Uncommon">DOM</set>			
 			<color>B</color>			
 			<manacost>3BB</manacost>			
 			<cmc>5</cmc>			
@@ -637,7 +691,7 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 		</card>		
 		<card>			
 			<name>Garna, the Bloodflame</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/194.jpg?1522688396" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/194.jpg?1523371379" rarity="Uncommon">DOM</set>			
 			<color>B</color>			
 			<color>R</color>			
 			<manacost>3BR</manacost>			
@@ -776,7 +830,7 @@ Whenever Grunn attacks alone, double its power and toughness until end of turn.<
 		</card>		
 		<card>			
 			<name>Hallar, the Firefletcher</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/196.jpg?1522688421" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/196.jpg?1523328430" rarity="Uncommon">DOM</set>			
 			<color>R</color>			
 			<color>G</color>			
 			<manacost>1RG</manacost>			
@@ -873,7 +927,7 @@ III - Knights you control get +2/+1 until end of turn.</text>
 		</card>		
 		<card>			
 			<name>In Bolas's Clutches</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/54.jpg?1522688273" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/54.jpg?1523371666" rarity="Rare">DOM</set>			
 			<color>U</color>			
 			<manacost>4UU</manacost>			
 			<cmc>6</cmc>			
@@ -930,7 +984,7 @@ Jaya's Immolating Inferno deals X damage to each of up to three targets.</text>
 		</card>		
 		<card>			
 			<name>Jhoira's Familiar</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XJFAM.jpg?1521224368" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/220.jpg?1523359622" rarity="Uncommon">DOM</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact Creature — Bird</type>			
@@ -1099,7 +1153,7 @@ Knight of Malice gets +1/+0 as long as any player controls a white permanent.</t
 		</card>		
 		<card>			
 			<name>Kwende, Pride of Femeref</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XKPOF.jpg?1521224488" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/25.jpg?1523364003" rarity="Rare">DOM</set>			
 			<color>W</color>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
@@ -1287,7 +1341,7 @@ When Merfolk Trickster enters the battlefield, tap target creature an opponent c
 		</card>		
 		<card>			
 			<name>Mishra's Self-Replicator</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/223.jpg?1522942378" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/223.jpg?1523359711" rarity="Rare">DOM</set>			
 			<manacost>5</manacost>			
 			<cmc>5</cmc>			
 			<type>Artifact Creature — Assembly—Worker</type>			
@@ -1356,7 +1410,7 @@ Other Wizards you control get +1/+1.</text>
 		</card>		
 		<card>			
 			<name>Navigator's Compass</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XNC.jpg?1521224564" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/225.jpg?1523358991" rarity="Common">DOM</set>			
 			<manacost>1</manacost>			
 			<cmc>1</cmc>			
 			<type>Artifact</type>			
@@ -1390,7 +1444,7 @@ You may activate the loyalty abilities of planeswalkers you control twice each t
 		</card>		
 		<card>			
 			<name>On Serra's Wings</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XOSW.jpg?1521224606" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/28.jpg?1523349378" rarity="Uncommon">DOM</set>			
 			<color>W</color>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
@@ -1409,6 +1463,29 @@ Enchanted creature is legendary, gets +1/+1, and has flying, vigilance, and life
 			<tablerow>3</tablerow>			
 			<text>Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Orcish Vandal</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/137.jpg?1523359553" rarity="Uncommon">DOM</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Orc Warrior</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}, Sacrifice an artifact: Orcish Vandal deals 2 damage to any target.</text>			
+		</card>		
+		<card>			
+			<name>Pegasus Courser</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/29.jpg?1523371549" rarity="Common">DOM</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Pegasus</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever Pegasus Courser attacks, another target creature gains flying until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Phyrexian Scriptures</name>			
@@ -1611,7 +1688,7 @@ Whenever you cast a historic spell, Serra Disciple gets +1/+1 until end of turn.
 		</card>		
 		<card>			
 			<name>Settle the Score</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XSTS.jpg?1521224687" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/103.jpg?1523363728" rarity="Uncommon">DOM</set>			
 			<color>B</color>			
 			<manacost>2BB</manacost>			
 			<cmc>4</cmc>			
@@ -1677,6 +1754,16 @@ Equip {1}</text>
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>Sacrifice a Goblin: Add {R} to your mana pool.</text>			
+		</card>		
+		<card>			
+			<name>Skittering Surveyor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/230.jpg?1523358640" rarity="Common">DOM</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Skittering Surveyor enters the battlefield, you may search your library for a basic land card, reveal it, put it in your hand, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Skizzik</name>			
@@ -2088,6 +2175,19 @@ III - Target creature you control with the greatest power gains flying, first st
 			<text>Whenever Two-Headed Giant attacks, flip two coins. If both come up heads, Two-Headed Giant gains double strike until end of turn. If both come up tails, Two-Headed Giant gains menace until end of turn.</text>			
 		</card>		
 		<card>			
+			<name>Untamed Kavu</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/186.jpg?1523371580" rarity="Uncommon">DOM</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Kavu</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Vigilance, trample
+If Untamed Kavu was kicked, it enters the battlefield with three +1/+1 counters on it.</text>			
+		</card>		
+		<card>			
 			<name>Unwind</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/dom/72.jpg?1522942632" rarity="Common">DOM</set>			
 			<color>U</color>			
@@ -2122,7 +2222,7 @@ Exile all nonland permanents that aren't legendary.</text>
 		</card>		
 		<card>			
 			<name>Urza's Tome</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XTOME.jpg?1521224772" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/235.jpg?1523359796" rarity="Uncommon">DOM</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact</type>			
@@ -2177,7 +2277,7 @@ Target creature gets -2/-2 until end of turn. If this spell was kicked, that cre
 		</card>		
 		<card>			
 			<name>Voltaic Servant</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XVSERV.jpg?1521224813" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/236.jpg?1523371497" rarity="Rare">DOM</set>			
 			<manacost>2</manacost>			
 			<cmc>2</cmc>			
 			<type>Artifact Creature — Construct</type>			
@@ -2187,7 +2287,7 @@ Target creature gets -2/-2 until end of turn. If this spell was kicked, that cre
 		</card>		
 		<card>			
 			<name>Warcry Phoenix</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/150.jpg?1522768016" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/150.jpg?1523371595" rarity="Uncommon">DOM</set>			
 			<color>R</color>			
 			<manacost>3R</manacost>			
 			<cmc>4</cmc>			
@@ -2222,7 +2322,7 @@ Crew 3</text>
 		</card>		
 		<card>			
 			<name>Whisper, Blood Liturgist</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/dom/XWBL.jpg?1521224823" rarity="Rare">DOM</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/dom/111.jpg?1523371404" rarity="Uncommon">DOM</set>			
 			<color>B</color>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
