@@ -102,6 +102,8 @@ def convert_scryfall(scryfall):
                 card2['subtypes'] = cardsubtypes.split(' ')
             else:
                 card2['subtypes'] = [cardsubtypes]
+        if 'Basic Land' in card['type_line']:
+            card2['rarity'] = "Basic Land"
         if 'Legendary' in card['type_line']:
             if card2.has_key('supertypes'):
                 card2['supertypes'].append('Legendary')
