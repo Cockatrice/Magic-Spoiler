@@ -19,6 +19,18 @@
 			<text>Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.</text>			
 		</card>		
 		<card>			
+			<name>Arcane Artisan</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/33.jpg?1527162235" rarity="Mythic Rare">BBD</set>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Creature — Human Wizard</type>			
+			<pt>0/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{2}{U}, {T}: Target player draws a card, then exiles a card from their hand. If a creature card is exiled this way, that player creates a token that's a copy of that card.
+When Arcane Artisan leaves the battlefield, exile all tokens created with it at the beginning of the next end step.</text>			
+		</card>		
+		<card>			
 			<name>Archfiend of Despair</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/44.jpg?1526917122" rarity="Mythic Rare">BBD</set>			
 			<manacost>6BB</manacost>			
@@ -30,6 +42,20 @@
 			<text>Flying
 Your opponents can't gain life.
 At the beginning of each end step, each opponent loses life equal to the life that player lost this turn. (Damage causes loss of life.)</text>			
+		</card>		
+		<card>			
+			<name>Archon of Valor's Reach</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/74.jpg?1527155947" rarity="Rare">BBD</set>			
+			<manacost>4WG</manacost>			
+			<cmc>6</cmc>			
+			<color>W</color>			
+			<color>G</color>			
+			<type>Creature — Archon</type>			
+			<pt>5/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, vigilance, trample
+As Archon of Valor's Reach enters the battlefield, choose artifact, enchantment, instant, sorcery, or planeswalker.
+Players can't cast spells of the chosen type.</text>			
 		</card>		
 		<card>			
 			<name>Arena Rector</name>			
@@ -121,6 +147,20 @@ Whenever Blaring Captain attacks, attacking Warriors get +1/+1 until end of turn
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever another nontoken creature enters the battlefield, you may pay {1}{G}. If you do, that creature's controller creates a token that's a copy of that creature.</text>			
+		</card>		
+		<card>			
+			<name>Brightling</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/25.jpg?1527162016" rarity="Mythic Rare">BBD</set>			
+			<manacost>1WW</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Creature — Shapeshifter</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{W}: Brightling gains vigilance until end of turn.
+{W}: Brightling gains lifelink until end of turn.
+{W}: Return Brightling to its owner's hand.
+{1}: Brightling gets +1/-1 or -1/+1 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Centaur Healer</name>			
@@ -1102,6 +1142,16 @@ True-Name Nemesis has protection from the chosen player. (This creature can't be
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>When Veteran Explorer dies, each player may search their library for up to two basic land cards and put them onto the battlefield. Then each player who searched their library this way shuffles it.</text>			
+		</card>		
+		<card>			
+			<name>Victory Chimes</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/80.jpg?1527162574" rarity="Rare">BBD</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Untap Victory Chimes during each other player's untap step.
+{T}: A player of your choice adds {C}.</text>			
 		</card>		
 		<card>			
 			<name>Vigor</name>			
