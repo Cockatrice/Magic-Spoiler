@@ -42,4 +42,5 @@ Errors are logged there as well (`errors.json`)
 
 <br>
 
-[Add the desired <b>.xml</b> file to your <i>customsets</i> folder to make Cockatrice use it.](https://github.com/Cockatrice/Cockatrice/wiki/Custom-Cards-&-Sets#to-add-custom-sets-follow-these-steps)
+Enable "Spoilers" in `Cockatrice → Settings → Deck Editor` to get automatic udpates.<br>
+You can also [add the desired <b>.xml</b> file to your <i>customsets</i> folder manually](https://github.com/Cockatrice/Cockatrice/wiki/Custom-Cards-&-Sets#to-add-custom-sets-follow-these-steps) to make Cockatrice use it.
