@@ -36,6 +36,7 @@ deploy:
   file: out/*.xml
   skip_cleanup: true
   overwrite: true
+  draft: true
   on:
     tags: true
     branch: master
