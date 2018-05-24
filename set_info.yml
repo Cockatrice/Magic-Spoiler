@@ -53,7 +53,7 @@ code: "BBD"
 name: "Battlebond"
 size: 254 
 releaseDate: "2018-06-08"
-type: "?"
+type: "?"    # should be two-headed giant? but that's not supported as of now, see https://github.com/mtgjson/mtgjson/issues/581
 mtgsurl: ""
 #mtgscardpath: "?"
 fullSpoil: false
@@ -71,6 +71,17 @@ fullSpoil: false
 scryfallOnly: false
 noRSS: true
 ---
+code: "GRN"
+name: "Guilds of Ravnica"
+size: 259
+releaseDate: "2018-10-05"
+type: "expansion"
+mtgsurl: ""
+#mtgscardpath: "?"
+fullSpoil: false
+scryfallOnly: false
+noRSS: true
+---
 code: "RNA"
 name: "Ravnica Allegiance"
 size: 264
@@ -81,3 +92,4 @@ mtgsurl: ""
 fullSpoil: false
 scryfallOnly: false
 noRSS: true
+
