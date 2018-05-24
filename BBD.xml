@@ -80,6 +80,18 @@ Players can't cast spells of the chosen type.</text>
 			<text>Target creature gets +4/-4 until end of turn.</text>			
 		</card>		
 		<card>			
+			<name>Azra Oddsmaker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/75.jpg?1527176583" rarity="Uncommon">BBD</set>			
+			<manacost>1BR</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<type>Creature — Azra Warrior</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of combat on your turn, you may discard a card. If you do, choose a creature. Whenever that creature deals combat damage to a player this turn, you draw two cards.</text>			
+		</card>		
+		<card>			
 			<name>Beast Within</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/190.jpg?1527129719" rarity="Uncommon">BBD</set>			
 			<manacost>2G</manacost>			
@@ -112,6 +124,18 @@ Whenever Blaring Captain attacks, attacking Warriors get +1/+1 until end of turn
 			<tablerow>2</tablerow>			
 			<text>Partner with Blaring Captain (When this creature enters the battlefield, target player may put Blaring Captain into their hand from their library, then shuffle.)
 {2}{W}: Create a 1/1 white Warrior creature token.</text>			
+		</card>		
+		<card>			
+			<name>Bloodborn Scoundrels</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/45.jpg?1527176487" rarity="Common">BBD</set>			
+			<manacost>5B</manacost>			
+			<cmc>6</cmc>			
+			<color>B</color>			
+			<type>Creature — Vampire Rogue</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Assist (Another player can pay up to {5} of this spell's cost.)
+When Bloodborn Scoundrels enters the battlefield, target opponent loses 2 life and you gain 2 life.</text>			
 		</card>		
 		<card>			
 			<name>Boldwyr Intimidator</name>			
@@ -196,7 +220,7 @@ Whenever Blaring Captain attacks, attacking Warriors get +1/+1 until end of turn
 		</card>		
 		<card>			
 			<name>Chakram Retriever</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/15.jpg?1527088773" rarity="Uncommon">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/15.jpg?1527176185" rarity="Uncommon">BBD</set>			
 			<manacost>4U</manacost>			
 			<cmc>5</cmc>			
 			<color>U</color>			
@@ -240,6 +264,16 @@ Trample</text>
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever Cheering Fanatic attacks, choose a card name. Spells with the chosen name cost {1} less to cast this turn.</text>			
+		</card>		
+		<card>			
+			<name>Combo Attack</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/67.jpg?1527176157" rarity="Common">BBD</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Two target creatures your team controls each deal damage equal to their power to target creature.</text>			
 		</card>		
 		<card>			
 			<name>Daggerdrome Imp</name>			
@@ -679,6 +713,15 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 			<text>Whenever your opponents are dealt combat damage, if any of that damage was dealt by a Warrior, you draw a card and you lose 1 life.</text>			
 		</card>		
 		<card>			
+			<name>Mind's Eye</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/240.jpg?1527176277" rarity="Rare">BBD</set>			
+			<manacost>5</manacost>			
+			<cmc>5</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever an opponent draws a card, you may pay {1}. If you do, draw a card.</text>			
+		</card>		
+		<card>			
 			<name>Morphic Pool</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/83.jpg?1526904017" rarity="Rare">BBD</set>			
 			<manacost/>			
@@ -699,8 +742,33 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 			<text>({T}: Add {R}.)</text>			
 		</card>		
 		<card>			
+			<name>Mystic Confluence</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/122.jpg?1527170868" rarity="Rare">BBD</set>			
+			<manacost>3UU</manacost>			
+			<cmc>5</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose three. You may choose the same mode more than once.
+• Counter target spell unless its controller pays {3}.
+• Return target creature to its owner's hand.
+• Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Najeela, the Blade-Blossom</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/62.jpg?1527170792" rarity="Mythic Rare">BBD</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Legendary Creature — Human Warrior</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever a Warrior attacks, you may have its controller create a 1/1 white Warrior creature token that's tapped and attacking.
+{W}{U}{B}{R}{G}: Untap all attacking creatures. They gain trample, lifelink, and haste until end of turn. After this phase, there is an additional combat phase. Activate this ability only during combat.</text>			
+		</card>		
+		<card>			
 			<name>Nirkana Revenant</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/150.jpg?1527080445" rarity="Mythic Rare">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/150.jpg?1527176171" rarity="Mythic Rare">BBD</set>			
 			<manacost>4BB</manacost>			
 			<cmc>6</cmc>			
 			<color>B</color>			
@@ -852,7 +920,7 @@ Rowan Kenrith can be your commander.</text>
 		</card>		
 		<card>			
 			<name>Saddleback Lagac</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/211.jpg?1527170263" rarity="Common">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/211.jpg?1527170899" rarity="Common">BBD</set>			
 			<manacost>3G</manacost>			
 			<cmc>4</cmc>			
 			<color>G</color>			
@@ -1019,6 +1087,18 @@ When Sower of Temptation enters the battlefield, gain control of target creature
 			<text>Counter target spell with converted mana cost 2.</text>			
 		</card>		
 		<card>			
+			<name>Spellweaver Duo</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/42.jpg?1527176402" rarity="Common">BBD</set>			
+			<manacost>6U</manacost>			
+			<cmc>7</cmc>			
+			<color>U</color>			
+			<type>Creature — Human Wizard</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Assist (Another player can pay up to {6} of this spell's cost.)
+When Spellweaver Duo enters the battlefield, you may return target tapped creature to its owner's hand.</text>			
+		</card>		
+		<card>			
 			<name>Spire Garden</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/85.jpg?1526903970" rarity="Rare">BBD</set>			
 			<manacost/>			
@@ -1094,6 +1174,16 @@ Double strike
 Dragons your team controls have double strike.</text>			
 		</card>		
 		<card>			
+			<name>Tandem Tactics</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/112.jpg?1527176149" rarity="Common">BBD</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Up to two target creatures each get +1/+2 until end of turn. You gain 2 life.</text>			
+		</card>		
+		<card>			
 			<name>The Crowd Goes Wild</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/68.jpg?1527003092" rarity="Uncommon">BBD</set>			
 			<manacost>XG</manacost>			
@@ -1115,6 +1205,16 @@ Each creature with a +1/+1 counter on it gains trample until end of turn.</text>
 			<pt>4/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever Thrasher Brute or another Warrior enters the battlefield under your team's control, target opponent loses 1 life and you gain 1 life.</text>			
+		</card>		
+		<card>			
+			<name>Thrilling Encore</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/53.jpg?1527176646" rarity="Rare">BBD</set>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Put onto the battlefield under your control all creature cards in all graveyards that were put there from the battlefield this turn.</text>			
 		</card>		
 		<card>			
 			<name>Tidespout Tyrant</name>			
@@ -1248,6 +1348,16 @@ Will Kenrith can be your commander.</text>
 			<text>Partner with Okaun, Eye of Chaos (When this creature enters the battlefield, target player may put Okaun into their hand from their library, then shuffle.)
 At the beginning of combat on your turn, flip a coin until you lose a flip.
 Whenever a player wins a coin flip, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Zndrsplt's Judgment</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/43.jpg?1527170535" rarity="Rare">BBD</set>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<color>U</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>For each player, choose friend or foe. Each friend creates a token that's a copy of a creature they control. Each foe returns a creature they control to its owner's hand.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
