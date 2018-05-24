@@ -332,7 +332,7 @@ def remove_corrected_errors(errorlog=[], card_corrections=[], print_fixed=False)
                         removeError = True
         if not removeError:
             if not error['name'] in errorlog2:
-                errorlog2[error['name']] = ""
+                errorlog2[error['name']] = {}
             if not 'value' in error:
                 error['value'] = ""
             errorlog2[error['name']][error['key']] = error['value']
