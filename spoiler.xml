@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Thu, May 24 2018, 17:05:20 (UTC)
+        created: Thu, May 24 2018, 18:18:45 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -129,6 +129,16 @@ Whenever Blaring Captain attacks, attacking Warriors get +1/+1 until end of turn
 			<text>Cowards can't block Warriors.
 {R}: Target creature becomes a Coward until end of turn.
 {2}{R}: Target creature becomes a Warrior until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Bonus Round</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/56.jpg?1527170364" rarity="Rare">BBD</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Until end of turn, whenever a player casts an instant or sorcery spell, that player copies it and may choose new targets for the copy.</text>			
 		</card>		
 		<card>			
 			<name>Bountiful Promenade</name>			
@@ -651,6 +661,17 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 			<text>{X}, {T}: Untap X target lands.</text>			
 		</card>		
 		<card>			
+			<name>Mangara of Corondor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/98.jpg?1527170383" rarity="Rare">BBD</set>			
+			<color>W</color>			
+			<manacost>1WW</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Human Wizard</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Exile Mangara of Corondor and target permanent.</text>			
+		</card>		
+		<card>			
 			<name>Mindblade Render</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/49.jpg?1526922196" rarity="Rare">BBD</set>			
 			<color>B</color>			
@@ -832,6 +853,17 @@ Rowan Kenrith can be your commander.</text>
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
 			<text>Warriors your team controls have haste.</text>			
+		</card>		
+		<card>			
+			<name>Saddleback Lagac</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/211.jpg?1527170263" rarity="Common">BBD</set>			
+			<color>G</color>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Lizard</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Saddleback Lagac enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)</text>			
 		</card>		
 		<card>			
 			<name>Saltwater Stalwart</name>			
