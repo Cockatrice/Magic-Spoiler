@@ -38,9 +38,9 @@ Outputs the following files to `out/` directory:<br>
 > **{SETCODE}** → files contain just the spoiler available for this single set<br>
 > **MPS_{SETCODE}** → files contain just the spoiler available for this [Masterpiece Series](http://magic.wizards.com/en/articles/archive/making-magic/masterpiece-series-2016-09-12)
 
-Errors are logged there as well (`errors.json`)
+Errors are logged there as well (`errors.yml`)
 
 <br>
 
-Enable "Spoilers" in `Cockatrice → Settings → Deck Editor` to get automatic udpates.<br>
+**Enable "Spoilers" in `Cockatrice → Settings → Deck Editor` to get updates automatically pushed to your client!**<br>
 You can also [add the desired <b>.xml</b> file to your <i>customsets</i> folder manually](https://github.com/Cockatrice/Cockatrice/wiki/Custom-Cards-&-Sets#to-add-custom-sets-follow-these-steps) to make Cockatrice use it.
