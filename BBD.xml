@@ -9,6 +9,16 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Aim High</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/189.jpg?1527256747" rarity="Uncommon">BBD</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Untap target creature. It gets +2/+2 and gains reach until end of turn. (It can block creatures with flying.)</text>			
+		</card>		
+		<card>			
 			<name>Angelic Chorus</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/87.jpg?1527109173" rarity="Rare">BBD</set>			
 			<manacost>3WW</manacost>			
@@ -17,6 +27,42 @@
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.</text>			
+		</card>		
+		<card>			
+			<name>Angelic Gift</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/88.jpg?1527253818" rarity="Common">BBD</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+When Angelic Gift enters the battlefield, draw a card.
+Enchanted creature has flying.</text>			
+		</card>		
+		<card>			
+			<name>Angel of Retribution</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/86.jpg?1527256641" rarity="Uncommon">BBD</set>			
+			<manacost>6W</manacost>			
+			<cmc>7</cmc>			
+			<color>W</color>			
+			<type>Creature — Angel</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, first strike</text>			
+		</card>		
+		<card>			
+			<name>Apocalypse Hydra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/217.jpg?1527255356" rarity="Rare">BBD</set>			
+			<manacost>XRG</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Creature — Hydra</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 or more, it enters the battlefield with an additional X +1/+1 counters on it.
+{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to any target.</text>			
 		</card>		
 		<card>			
 			<name>Arcane Artisan</name>			
@@ -69,6 +115,26 @@ Players can't cast spells of the chosen type.</text>
 			<text>When Arena Rector dies, you may exile it. If you do, search your library for a planeswalker card, put it onto the battlefield, then shuffle your library.</text>			
 		</card>		
 		<card>			
+			<name>Assassinate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/139.jpg?1527253545" rarity="Common">BBD</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target tapped creature.</text>			
+		</card>		
+		<card>			
+			<name>Assassin's Strike</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/138.jpg?1527253493" rarity="Uncommon">BBD</set>			
+			<manacost>4BB</manacost>			
+			<cmc>6</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target creature. Its controller discards a card.</text>			
+		</card>		
+		<card>			
 			<name>Auger Spree</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/218.jpg?1526904530" rarity="Common">BBD</set>			
 			<manacost>1BR</manacost>			
@@ -78,6 +144,28 @@ Players can't cast spells of the chosen type.</text>
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Target creature gets +4/-4 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Aurora Champion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/24.jpg?1527261383" rarity="Common">BBD</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Creature — Elf Warrior</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Aurora Champion attacks, if your team controls another Warrior, tap target creature.</text>			
+		</card>		
+		<card>			
+			<name>Azra Bladeseeker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/55.jpg?1527254633" rarity="Common">BBD</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Creature — Azra Warrior</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Azra Bladeseeker enters the battlefield, each player on your team may discard a card, then each player who discarded a card this way draws a card.</text>			
 		</card>		
 		<card>			
 			<name>Azra Oddsmaker</name>			
@@ -92,6 +180,50 @@ Players can't cast spells of the chosen type.</text>
 			<text>At the beginning of combat on your turn, you may discard a card. If you do, choose a creature. Whenever that creature deals combat damage to a player this turn, you draw two cards.</text>			
 		</card>		
 		<card>			
+			<name>Bathe in Dragonfire</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/164.jpg?1527254897" rarity="Common">BBD</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Bathe in Dragonfire deals 4 damage to target creature.</text>			
+		</card>		
+		<card>			
+			<name>Battle Mastery</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/89.jpg?1527253846" rarity="Uncommon">BBD</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature has double strike. (It deals both first-strike and regular combat damage.)</text>			
+		</card>		
+		<card>			
+			<name>Battle Rampart</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/165.jpg?1527254932" rarity="Common">BBD</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Creature — Wall</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender
+{T}: Target creature gains haste until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Battle-Rattle Shaman</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/166.jpg?1527254970" rarity="Uncommon">BBD</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Creature — Goblin Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Beast Within</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/190.jpg?1527129719" rarity="Uncommon">BBD</set>			
 			<manacost>2G</manacost>			
@@ -100,6 +232,17 @@ Players can't cast spells of the chosen type.</text>
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target permanent. Its controller creates a 3/3 green Beast creature token.</text>			
+		</card>		
+		<card>			
+			<name>Benthic Giant</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/113.jpg?1527254355" rarity="Common">BBD</set>			
+			<manacost>5U</manacost>			
+			<cmc>6</cmc>			
+			<color>U</color>			
+			<type>Creature — Giant</type>			
+			<pt>4/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Hexproof (This creature can't be the target of spells or abilities your opponents control.)</text>			
 		</card>		
 		<card>			
 			<name>Blaring Captain</name>			
@@ -126,6 +269,16 @@ Whenever Blaring Captain attacks, attacking Warriors get +1/+1 until end of turn
 {2}{W}: Create a 1/1 white Warrior creature token.</text>			
 		</card>		
 		<card>			
+			<name>Blaze</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/167.jpg?1527255026" rarity="Uncommon">BBD</set>			
+			<manacost>XR</manacost>			
+			<cmc>1</cmc>			
+			<color>R</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Blaze deals X damage to any target.</text>			
+		</card>		
+		<card>			
 			<name>Bloodborn Scoundrels</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/45.jpg?1527176487" rarity="Common">BBD</set>			
 			<manacost>5B</manacost>			
@@ -136,6 +289,16 @@ Whenever Blaring Captain attacks, attacking Warriors get +1/+1 until end of turn
 			<tablerow>2</tablerow>			
 			<text>Assist (Another player can pay up to {5} of this spell's cost.)
 When Bloodborn Scoundrels enters the battlefield, target opponent loses 2 life and you gain 2 life.</text>			
+		</card>		
+		<card>			
+			<name>Blood Feud</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/168.jpg?1527255055" rarity="Uncommon">BBD</set>			
+			<manacost>4RR</manacost>			
+			<cmc>6</cmc>			
+			<color>R</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature fights another target creature. (Each deals damage equal to its power to the other.)</text>			
 		</card>		
 		<card>			
 			<name>Boldwyr Intimidator</name>			
@@ -159,6 +322,17 @@ When Bloodborn Scoundrels enters the battlefield, target opponent loses 2 life a
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Until end of turn, whenever a player casts an instant or sorcery spell, that player copies it and may choose new targets for the copy.</text>			
+		</card>		
+		<card>			
+			<name>Borderland Marauder</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/170.jpg?1527255113" rarity="Common">BBD</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Human Warrior</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Borderland Marauder attacks, it gets +2/+0 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Bountiful Promenade</name>			
@@ -195,6 +369,49 @@ When Bloodborn Scoundrels enters the battlefield, target opponent loses 2 life a
 {W}: Brightling gains lifelink until end of turn.
 {W}: Return Brightling to its owner's hand.
 {1}: Brightling gets +1/-1 or -1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Bring Down</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/26.jpg?1527255538" rarity="Uncommon">BBD</set>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Assist (Another player can pay up to {3} of this spell's cost.)
+Destroy target creature with power 4 or greater.</text>			
+		</card>		
+		<card>			
+			<name>Bull-Rush Bruiser</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/57.jpg?1527256842" rarity="Common">BBD</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Creature — Minotaur Warrior</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Bull-Rush Bruiser attacks, if your team controls another Warrior, Bull-Rush Bruiser gains first strike until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Call to Heel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/114.jpg?1527254374" rarity="Common">BBD</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target creature to its owner's hand. Its controller draws a card.</text>			
+		</card>		
+		<card>			
+			<name>Canopy Spider</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/191.jpg?1527254973" rarity="Common">BBD</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Spider</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Reach (This creature can block creatures with flying.)</text>			
 		</card>		
 		<card>			
 			<name>Centaur Healer</name>			
@@ -243,6 +460,17 @@ Whenever you cast a spell during your turn, untap target creature.</text>
 {R}, {T}: Chakram Slinger deals 2 damage to target player or planeswalker.</text>			
 		</card>		
 		<card>			
+			<name>Champion of Arashin</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/90.jpg?1527253865" rarity="Common">BBD</set>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Creature — Hound Warrior</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Lifelink (Damage dealt by this creature also causes you to gain that much life.)</text>			
+		</card>		
+		<card>			
 			<name>Charging Binox</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/66.jpg?1527002938" rarity="Common">BBD</set>			
 			<manacost>7G</manacost>			
@@ -253,6 +481,17 @@ Whenever you cast a spell during your turn, untap target creature.</text>
 			<tablerow>2</tablerow>			
 			<text>Assist (Another player can pay up to {7} of this spell's cost.)
 Trample</text>			
+		</card>		
+		<card>			
+			<name>Charging Rhino</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/192.jpg?1527254986" rarity="Common">BBD</set>			
+			<manacost>3GG</manacost>			
+			<cmc>5</cmc>			
+			<color>G</color>			
+			<type>Creature — Rhino</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Charging Rhino can't be blocked by more than one creature.</text>			
 		</card>		
 		<card>			
 			<name>Cheering Fanatic</name>			
@@ -266,6 +505,18 @@ Trample</text>
 			<text>Whenever Cheering Fanatic attacks, choose a card name. Spells with the chosen name cost {1} less to cast this turn.</text>			
 		</card>		
 		<card>			
+			<name>Claustrophobia</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/115.jpg?1527254388" rarity="Common">BBD</set>			
+			<manacost>1UU</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+When Claustrophobia enters the battlefield, tap enchanted creature.
+Enchanted creature doesn't untap during its controller's untap step.</text>			
+		</card>		
+		<card>			
 			<name>Combo Attack</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/67.jpg?1527176157" rarity="Common">BBD</set>			
 			<manacost>2G</manacost>			
@@ -274,6 +525,60 @@ Trample</text>
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Two target creatures your team controls each deal damage equal to their power to target creature.</text>			
+		</card>		
+		<card>			
+			<name>Consulate Skygate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/232.jpg?1527255661" rarity="Common">BBD</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact Creature — Wall</type>			
+			<pt>0/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender
+Reach (This creature can block creatures with flying.)</text>			
+		</card>		
+		<card>			
+			<name>Coralhelm Guide</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/116.jpg?1527254401" rarity="Common">BBD</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Creature — Merfolk Scout Ally</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{4}{U}: Target creature can't be blocked this turn.</text>			
+		</card>		
+		<card>			
+			<name>Cowl Prowler</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/193.jpg?1527254997" rarity="Common">BBD</set>			
+			<manacost>4GG</manacost>			
+			<cmc>6</cmc>			
+			<color>G</color>			
+			<type>Creature — Wurm</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Culling Dais</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/233.jpg?1527255676" rarity="Uncommon">BBD</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{T}, Sacrifice a creature: Put a charge counter on Culling Dais.
+{1}, Sacrifice Culling Dais: Draw a card for each charge counter on Culling Dais.</text>			
+		</card>		
+		<card>			
+			<name>Daggerback Basilisk</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/194.jpg?1527255007" rarity="Common">BBD</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Basilisk</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Deathtouch</text>			
 		</card>		
 		<card>			
 			<name>Daggerdrome Imp</name>			
@@ -288,6 +593,17 @@ Trample</text>
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)</text>			
 		</card>		
 		<card>			
+			<name>Decorated Champion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/69.jpg?1527256954" rarity="Uncommon">BBD</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Elf Warrior</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever another Warrior enters the battlefield under your team's control, put a +1/+1 counter on Decorated Champion.</text>			
+		</card>		
+		<card>			
 			<name>Diabolic Intent</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/141.jpg?1526994947" rarity="Rare">BBD</set>			
 			<manacost>1B</manacost>			
@@ -297,6 +613,18 @@ Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 			<tablerow>3</tablerow>			
 			<text>As an additional cost to cast this spell, sacrifice a creature.
 Search your library for a card and put that card into your hand. Then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Dinrova Horror</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/220.jpg?1527255367" rarity="Uncommon">BBD</set>			
+			<manacost>4UB</manacost>			
+			<cmc>6</cmc>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Creature — Horror</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Dinrova Horror enters the battlefield, return target permanent to its owner's hand, then that player discards a card.</text>			
 		</card>		
 		<card>			
 			<name>Doomed Dissenter</name>			
@@ -332,6 +660,31 @@ Search your library for a card and put that card into your hand. Then shuffle yo
 If an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.</text>			
 		</card>		
 		<card>			
+			<name>Dragon Breath</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/172.jpg?1527255146" rarity="Uncommon">BBD</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature has haste.
+{R}: Enchanted creature gets +1/+0 until end of turn.
+When a creature with converted mana cost 6 or greater enters the battlefield, you may return Dragon Breath from your graveyard to the battlefield attached to that creature.</text>			
+		</card>		
+		<card>			
+			<name>Dragon Hatchling</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/173.jpg?1527255221" rarity="Common">BBD</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Dragon</type>			
+			<pt>0/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{R}: Dragon Hatchling gets +1/+0 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Dwarven Lightsmith</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/27.jpg?1526935933" rarity="Common">BBD</set>			
 			<manacost>5W</manacost>			
@@ -354,6 +707,86 @@ When Dwarven Lightsmith enters the battlefield, creatures your team controls get
 			<text>When Eager Construct enters the battlefield, each player may scry 1. (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</text>			
 		</card>		
 		<card>			
+			<name>Earth Elemental</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/174.jpg?1527255250" rarity="Common">BBD</set>			
+			<manacost>3RR</manacost>			
+			<cmc>5</cmc>			
+			<color>R</color>			
+			<type>Creature — Elemental</type>			
+			<pt>4/5</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Elvish Visionary</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/196.jpg?1527255024" rarity="Common">BBD</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Elf Shaman</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Elvish Visionary enters the battlefield, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Ember Beast</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/175.jpg?1527255281" rarity="Common">BBD</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Creature — Beast</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Ember Beast can't attack or block alone.</text>			
+		</card>		
+		<card>			
+			<name>Enduring Scalelord</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/221.jpg?1527255387" rarity="Uncommon">BBD</set>			
+			<manacost>4GW</manacost>			
+			<cmc>6</cmc>			
+			<color>W</color>			
+			<color>G</color>			
+			<type>Creature — Dragon</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever one or more +1/+1 counters are put on another creature you control, you may put a +1/+1 counter on Enduring Scalelord.</text>			
+		</card>		
+		<card>			
+			<name>Enthralling Victor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/176.jpg?1527255313" rarity="Uncommon">BBD</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Creature — Human Warrior</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Enthralling Victor enters the battlefield, gain control of target creature an opponent controls with power 2 or less until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)</text>			
+		</card>		
+		<card>			
+			<name>Evil Twin</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/222.jpg?1527255399" rarity="Rare">BBD</set>			
+			<manacost>2UB</manacost>			
+			<cmc>4</cmc>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Creature — Shapeshifter</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>You may have Evil Twin enter the battlefield as a copy of any creature on the battlefield, except it gains &quot;{U}{B}, {T}: Destroy target creature with the same name as this creature.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Expedite</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/177.jpg?1527255347" rarity="Common">BBD</set>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<color>R</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gains haste until end of turn.
+Draw a card.</text>			
+		</card>		
+		<card>			
 			<name>Expedition Raptor</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/92.jpg?1526935968" rarity="Common">BBD</set>			
 			<manacost>3WW</manacost>			
@@ -364,6 +797,17 @@ When Dwarven Lightsmith enters the battlefield, creatures your team controls get
 			<tablerow>2</tablerow>			
 			<text>Flying
 When Expedition Raptor enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)</text>			
+		</card>		
+		<card>			
+			<name>Eyeblight Assassin</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/143.jpg?1527253581" rarity="Common">BBD</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Elf Assassin</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Eyeblight Assassin enters the battlefield, target creature an opponent controls gets -1/-1 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Fan Favorite</name>			
@@ -378,6 +822,18 @@ When Expedition Raptor enters the battlefield, support 2. (Put a +1/+1 counter o
 {2}: Fan Favorite gets +1/+1 until end of turn. Any player may activate this ability.</text>			
 		</card>		
 		<card>			
+			<name>Feral Hydra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/197.jpg?1527256684" rarity="Uncommon">BBD</set>			
+			<manacost>XG</manacost>			
+			<cmc>1</cmc>			
+			<color>G</color>			
+			<type>Creature — Hydra Beast</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Feral Hydra enters the battlefield with X +1/+1 counters on it.
+{3}: Put a +1/+1 counter on Feral Hydra. Any player may activate this ability.</text>			
+		</card>		
+		<card>			
 			<name>Fertile Ground</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/198.jpg?1526904214" rarity="Common">BBD</set>			
 			<manacost>1G</manacost>			
@@ -389,13 +845,69 @@ When Expedition Raptor enters the battlefield, support 2. (Put a +1/+1 counter o
 Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.</text>			
 		</card>		
 		<card>			
+			<name>Fertilid</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/199.jpg?1527255050" rarity="Common">BBD</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Elemental</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Fertilid enters the battlefield with two +1/+1 counters on it.
+{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles their library.</text>			
+		</card>		
+		<card>			
+			<name>Fill with Fright</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/144.jpg?1527253624" rarity="Common">BBD</set>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target player discards two cards. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</text>			
+		</card>		
+		<card>			
+			<name>Flamewave Invoker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/178.jpg?1527255385" rarity="Uncommon">BBD</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Creature — Goblin Mutant</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{7}{R}: Flamewave Invoker deals 5 damage to target player or planeswalker.</text>			
+		</card>		
+		<card>			
+			<name>Fog Bank</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/117.jpg?1527254413" rarity="Uncommon">BBD</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Creature — Wall</type>			
+			<pt>0/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender, flying
+Prevent all combat damage that would be dealt to and dealt by Fog Bank.</text>			
+		</card>		
+		<card>			
 			<name>Forest</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/254.jpg?1526936207" rarity="Basic Land">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/254.jpg?1527244817" rarity="Basic Land">BBD</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Basic Land — Forest</type>			
 			<tablerow>0</tablerow>			
 			<text>({T}: Add {G}.)</text>			
+		</card>		
+		<card>			
+			<name>Frost Lynx</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/118.jpg?1527254465" rarity="Common">BBD</set>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Creature — Elemental Cat</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Frost Lynx enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.</text>			
 		</card>		
 		<card>			
 			<name>Fumble</name>			
@@ -442,6 +954,47 @@ Destroy target creature with power X or less.</text>
 Whenever you put one or more counters on a creature you don't control, draw a card.</text>			
 		</card>		
 		<card>			
+			<name>Genesis Chamber</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/235.jpg?1527255694" rarity="Uncommon">BBD</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a nontoken creature enters the battlefield, if Genesis Chamber is untapped, that creature's controller creates a 1/1 colorless Myr artifact creature token.</text>			
+		</card>		
+		<card>			
+			<name>Giant Growth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/200.jpg?1527255072" rarity="Common">BBD</set>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +3/+3 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Goblin Razerunners</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/179.jpg?1527255422" rarity="Rare">BBD</set>			
+			<manacost>2RR</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Creature — Goblin Warrior</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{R}, Sacrifice a land: Put a +1/+1 counter on Goblin Razerunners.
+At the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player or planeswalker.</text>			
+		</card>		
+		<card>			
+			<name>Gold-Forged Sentinel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/236.jpg?1527255714" rarity="Uncommon">BBD</set>			
+			<manacost>6</manacost>			
+			<cmc>6</cmc>			
+			<type>Artifact Creature — Chimera</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying</text>			
+		</card>		
+		<card>			
 			<name>Gorm the Great</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/8.jpg?1526907747" rarity="Rare">BBD</set>			
 			<manacost>3G</manacost>			
@@ -465,6 +1018,16 @@ Gorm the Great must be blocked if able, and Gorm must be blocked by two or more 
 			<text>Sacrifice a creature: Draw cards equal to the sacrificed creature's power, then discard three cards.</text>			
 		</card>		
 		<card>			
+			<name>Grotesque Mutation</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/145.jpg?1527253662" rarity="Common">BBD</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +3/+1 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)</text>			
+		</card>		
+		<card>			
 			<name>Grothama, All-Devouring</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/71.jpg?1527129978" rarity="Mythic Rare">BBD</set>			
 			<manacost>3GG</manacost>			
@@ -477,6 +1040,40 @@ Gorm the Great must be blocked if able, and Gorm must be blocked by two or more 
 When Grothama leaves the battlefield, each player draws cards equal to the amount of damage dealt to Grothama this turn by sources they controlled.</text>			
 		</card>		
 		<card>			
+			<name>Gwafa Hazid, Profiteer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/223.jpg?1527255410" rarity="Rare">BBD</set>			
+			<manacost>1WU</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Legendary Creature — Human Rogue</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{W}{U}, {T}: Put a bribery counter on target creature you don't control. Its controller draws a card.
+Creatures with bribery counters on them can't attack or block.</text>			
+		</card>		
+		<card>			
+			<name>Hand of Silumgar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/146.jpg?1527253707" rarity="Common">BBD</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Creature — Human Warrior</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)</text>			
+		</card>		
+		<card>			
+			<name>Hexplate Golem</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/237.jpg?1527255728" rarity="Common">BBD</set>			
+			<manacost>7</manacost>			
+			<cmc>7</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<pt>5/7</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
 			<name>Huddle Up</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/36.jpg?1526935907" rarity="Common">BBD</set>			
 			<manacost>2U</manacost>			
@@ -486,6 +1083,17 @@ When Grothama leaves the battlefield, each player draws cards equal to the amoun
 			<tablerow>3</tablerow>			
 			<text>Assist (Another player can pay up to {2} of this spell's cost.)
 Two target players each draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Hunted Wumpus</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/202.jpg?1527255084" rarity="Uncommon">BBD</set>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Creature — Beast</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Hunted Wumpus enters the battlefield, each other player may put a creature card from their hand onto the battlefield.</text>			
 		</card>		
 		<card>			
 			<name>Impetuous Protege</name>			
@@ -531,6 +1139,19 @@ When Inner Demon enters the battlefield, all non-Demon creatures get -2/-2 until
 			<text>({T}: Add {U}.)</text>			
 		</card>		
 		<card>			
+			<name>Jelenn Sphinx</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/224.jpg?1527255422" rarity="Uncommon">BBD</set>			
+			<manacost>3WU</manacost>			
+			<cmc>5</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Creature — Sphinx</type>			
+			<pt>1/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, vigilance
+Whenever Jelenn Sphinx attacks, other attacking creatures get +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Jubilant Mascot</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/28.jpg?1527090290" rarity="Uncommon">BBD</set>			
 			<manacost>2W</manacost>			
@@ -542,6 +1163,17 @@ When Inner Demon enters the battlefield, all non-Demon creatures get -2/-2 until
 			<text>At the beginning of combat on your turn, you may pay {3}{W}. If you do, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)</text>			
 		</card>		
 		<card>			
+			<name>Juggernaut</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/238.jpg?1527255743" rarity="Uncommon">BBD</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact Creature — Juggernaut</type>			
+			<pt>5/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Juggernaut attacks each combat if able.
+Juggernaut can't be blocked by Walls.</text>			
+		</card>		
+		<card>			
 			<name>Jungle Wayfinder</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/72.jpg?1526998454" rarity="Common">BBD</set>			
 			<manacost>2G</manacost>			
@@ -551,6 +1183,18 @@ When Inner Demon enters the battlefield, all non-Demon creatures get -2/-2 until
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>When Jungle Wayfinder enters the battlefield, each player may search their library for a basic land card, reveal it, put it into their hand, then shuffle their library.</text>			
+		</card>		
+		<card>			
+			<name>Karametra's Favor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/203.jpg?1527256775" rarity="Uncommon">BBD</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+When Karametra's Favor enters the battlefield, draw a card.
+Enchanted creature has &quot;{T}: Add one mana of any color.&quot;</text>			
 		</card>		
 		<card>			
 			<name>Khorvath Brightflame</name>			
@@ -576,6 +1220,28 @@ Knights your team controls have flying and haste.</text>
 			<text>For each player, choose friend or foe. Each friend discards all cards from their hand, then draws that many cards plus one. Khorvath's Fury deals damage to each foe equal to the number of cards in their hand.</text>			
 		</card>		
 		<card>			
+			<name>Kiss of the Amesha</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/225.jpg?1527255438" rarity="Uncommon">BBD</set>			
+			<manacost>4WU</manacost>			
+			<cmc>6</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target player gains 7 life and draws two cards.</text>			
+		</card>		
+		<card>			
+			<name>Kitesail Corsair</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/120.jpg?1527254522" rarity="Common">BBD</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Creature — Human Pirate</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Kitesail Corsair has flying as long as it's attacking.</text>			
+		</card>		
+		<card>			
 			<name>Kor Spiritdancer</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/93.jpg?1527080007" rarity="Rare">BBD</set>			
 			<manacost>1W</manacost>			
@@ -599,6 +1265,17 @@ Whenever you cast an Aura spell, you may draw a card.</text>
 			<text/>			
 		</card>		
 		<card>			
+			<name>Kraul Warrior</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/204.jpg?1527255112" rarity="Common">BBD</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Insect Warrior</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{5}{G}: Kraul Warrior gets +3/+3 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Krav, the Unredeemed</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/4.jpg?1527003376" rarity="Rare">BBD</set>			
 			<manacost>4B</manacost>			
@@ -619,6 +1296,16 @@ Whenever you cast an Aura spell, you may draw a card.</text>
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, and put them into your hand. If you do, shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Last Gasp</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/147.jpg?1527253757" rarity="Common">BBD</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets -3/-3 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Last One Standing</name>			
@@ -645,6 +1332,16 @@ Flying
 When Lava-Field Overlord enters the battlefield, it deals 4 damage to target creature an opponent controls.</text>			
 		</card>		
 		<card>			
+			<name>Lead by Example</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/205.jpg?1527255142" rarity="Common">BBD</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Support 2. (Put a +1/+1 counter on each of up to two target creatures.)</text>			
+		</card>		
+		<card>			
 			<name>Ley Weaver</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/21.jpg?1527092581" rarity="Uncommon">BBD</set>			
 			<manacost>3G</manacost>			
@@ -655,6 +1352,48 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 			<tablerow>2</tablerow>			
 			<text>Partner with Lore Weaver (When this creature enters the battlefield, target player may put Lore Weaver into their hand from their library, then shuffle.)
 {T}: Untap two target lands.</text>			
+		</card>		
+		<card>			
+			<name>Lightning Talons</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/180.jpg?1527255454" rarity="Common">BBD</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +3/+0 and has first strike. (It deals combat damage before creatures without first strike.)</text>			
+		</card>		
+		<card>			
+			<name>Lightwalker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/95.jpg?1527253920" rarity="Common">BBD</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Creature — Human Warrior</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Lightwalker has flying as long as it has a +1/+1 counter on it.</text>			
+		</card>		
+		<card>			
+			<name>Liturgy of Blood</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/148.jpg?1527253789" rarity="Common">BBD</set>			
+			<manacost>3BB</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target creature. Add {B}{B}{B}.</text>			
+		</card>		
+		<card>			
+			<name>Long Road Home</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/96.jpg?1527253937" rarity="Uncommon">BBD</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner's control with a +1/+1 counter on it.</text>			
 		</card>		
 		<card>			
 			<name>Lore Weaver</name>			
@@ -669,6 +1408,18 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 {5}{U}{U}: Target player draws two cards.</text>			
 		</card>		
 		<card>			
+			<name>Loyal Pegasus</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/97.jpg?1527256787" rarity="Uncommon">BBD</set>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<color>W</color>			
+			<type>Creature — Pegasus</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Loyal Pegasus can't attack or block alone.</text>			
+		</card>		
+		<card>			
 			<name>Luxury Suite</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/82.jpg?1526904049" rarity="Rare">BBD</set>			
 			<manacost/>			
@@ -678,6 +1429,29 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 			<tablerow>0</tablerow>			
 			<text>Luxury Suite enters the battlefield tapped unless you have two or more opponents.
 {T}: Add {B} or {R}.</text>			
+		</card>		
+		<card>			
+			<name>Magma Hellion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/61.jpg?1527256895" rarity="Common">BBD</set>			
+			<manacost>6R</manacost>			
+			<cmc>7</cmc>			
+			<color>R</color>			
+			<type>Creature — Hellion</type>			
+			<pt>5/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Assist (Another player can pay up to {6} of this spell's cost.)
+Trample, haste</text>			
+		</card>		
+		<card>			
+			<name>Magmatic Force</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/181.jpg?1527255496" rarity="Rare">BBD</set>			
+			<manacost>5RRR</manacost>			
+			<cmc>8</cmc>			
+			<color>R</color>			
+			<type>Creature — Elemental</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of each upkeep, Magmatic Force deals 3 damage to any target.</text>			
 		</card>		
 		<card>			
 			<name>Magus of the Candelabra</name>			
@@ -692,7 +1466,7 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 		</card>		
 		<card>			
 			<name>Mangara of Corondor</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/98.jpg?1527170383" rarity="Rare">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/98.jpg?1527256658" rarity="Rare">BBD</set>			
 			<manacost>1WW</manacost>			
 			<cmc>3</cmc>			
 			<color>W</color>			
@@ -700,6 +1474,27 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>{T}: Exile Mangara of Corondor and target permanent.</text>			
+		</card>		
+		<card>			
+			<name>Midnight Guard</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/99.jpg?1527253964" rarity="Common">BBD</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Creature — Human Soldier</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever another creature enters the battlefield, untap Midnight Guard.</text>			
+		</card>		
+		<card>			
+			<name>Millennial Gargoyle</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/239.jpg?1527255756" rarity="Common">BBD</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact Creature — Gargoyle</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying</text>			
 		</card>		
 		<card>			
 			<name>Mindblade Render</name>			
@@ -722,6 +1517,17 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 			<text>Whenever an opponent draws a card, you may pay {1}. If you do, draw a card.</text>			
 		</card>		
 		<card>			
+			<name>Morbid Curiosity</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/149.jpg?1527253824" rarity="Uncommon">BBD</set>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
+Draw cards equal to the converted mana cost of the sacrificed permanent.</text>			
+		</card>		
+		<card>			
 			<name>Morphic Pool</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/83.jpg?1526904017" rarity="Rare">BBD</set>			
 			<manacost/>			
@@ -740,6 +1546,17 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 			<type>Basic Land — Mountain</type>			
 			<tablerow>0</tablerow>			
 			<text>({T}: Add {R}.)</text>			
+		</card>		
+		<card>			
+			<name>Mycosynth Lattice</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/241.jpg?1527188411" rarity="Mythic Rare">BBD</set>			
+			<manacost>6</manacost>			
+			<cmc>6</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>All permanents are artifacts in addition to their other types.
+All cards that aren't on the battlefield, spells, and permanents are colorless.
+Players may spend mana as though it were mana of any color.</text>			
 		</card>		
 		<card>			
 			<name>Mystic Confluence</name>			
@@ -767,6 +1584,49 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 {W}{U}{B}{R}{G}: Untap all attacking creatures. They gain trample, lifelink, and haste until end of turn. After this phase, there is an additional combat phase. Activate this ability only during combat.</text>			
 		</card>		
 		<card>			
+			<name>Negate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/123.jpg?1527254550" rarity="Common">BBD</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target noncreature spell.</text>			
+		</card>		
+		<card>			
+			<name>Night Market Guard</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/242.jpg?1527255768" rarity="Common">BBD</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Night Market Guard can block an additional creature each combat.</text>			
+		</card>		
+		<card>			
+			<name>Nimbus Champion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/37.jpg?1527261315" rarity="Uncommon">BBD</set>			
+			<manacost>5U</manacost>			
+			<cmc>6</cmc>			
+			<color>U</color>			
+			<type>Creature — Avatar Warrior</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever Nimbus Champion attacks, you may return target creature to its owner's hand if that creature's power is less than or equal to the number of Warriors your team controls.</text>			
+		</card>		
+		<card>			
+			<name>Nimbus of the Isles</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/124.jpg?1527254573" rarity="Common">BBD</set>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<color>U</color>			
+			<type>Creature — Elemental</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying (This creature can't be blocked except by creatures with flying or reach.)</text>			
+		</card>		
+		<card>			
 			<name>Nirkana Revenant</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/150.jpg?1527176171" rarity="Mythic Rare">BBD</set>			
 			<manacost>4BB</manacost>			
@@ -779,8 +1639,44 @@ When Lava-Field Overlord enters the battlefield, it deals 4 damage to target cre
 {B}: Nirkana Revenant gets +1/+1 until end of turn.</text>			
 		</card>		
 		<card>			
+			<name>Noosegraf Mob</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/151.jpg?1527253858" rarity="Rare">BBD</set>			
+			<manacost>4BB</manacost>			
+			<cmc>6</cmc>			
+			<color>B</color>			
+			<type>Creature — Zombie</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Noosegraf Mob enters the battlefield with five +1/+1 counters on it.
+Whenever a player casts a spell, remove a +1/+1 counter from Noosegraf Mob. If you do, create a 2/2 black Zombie creature token.</text>			
+		</card>		
+		<card>			
+			<name>Noxious Dragon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/152.jpg?1527253911" rarity="Uncommon">BBD</set>			
+			<manacost>4BB</manacost>			
+			<cmc>6</cmc>			
+			<color>B</color>			
+			<type>Creature — Dragon</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Noxious Dragon dies, you may destroy target creature with converted mana cost 3 or less.</text>			
+		</card>		
+		<card>			
+			<name>Nyxathid</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/153.jpg?1527253942" rarity="Rare">BBD</set>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Elemental</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>As Nyxathid enters the battlefield, choose an opponent.
+Nyxathid gets -1/-1 for each card in the chosen player's hand.</text>			
+		</card>		
+		<card>			
 			<name>Okaun, Eye of Chaos</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/6.jpg?1527101929" rarity="Rare">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/6.jpg?1527199229" rarity="Rare">BBD</set>			
 			<manacost>4R</manacost>			
 			<cmc>5</cmc>			
 			<color>R</color>			
@@ -792,8 +1688,51 @@ At the beginning of combat on your turn, flip a coin until you lose a flip.
 Whenever a player wins a coin flip, double Okaun's power and toughness until end of turn.</text>			
 		</card>		
 		<card>			
+			<name>Omenspeaker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/125.jpg?1527254586" rarity="Common">BBD</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Creature — Human Wizard</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Omenspeaker enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</text>			
+		</card>		
+		<card>			
+			<name>Opportunity</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/126.jpg?1527254618" rarity="Uncommon">BBD</set>			
+			<manacost>4UU</manacost>			
+			<cmc>6</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target player draws four cards.</text>			
+		</card>		
+		<card>			
+			<name>Oracle's Insight</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/127.jpg?1527254630" rarity="Uncommon">BBD</set>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<color>U</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature has &quot;{T}: Scry 1, then draw a card.&quot; (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</text>			
+		</card>		
+		<card>			
+			<name>Oreskos Explorer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/100.jpg?1527253990" rarity="Uncommon">BBD</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Creature — Cat Scout</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Oreskos Explorer enters the battlefield, search your library for up to X Plains cards, where X is the number of players who control more lands than you. Reveal those cards, put them into your hand, then shuffle your library.</text>			
+		</card>		
+		<card>			
 			<name>Out of Bounds</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/38.jpg?1527081324" rarity="Common">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/38.jpg?1527256796" rarity="Uncommon">BBD</set>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -801,6 +1740,48 @@ Whenever a player wins a coin flip, double Okaun's power and toughness until end
 			<tablerow>3</tablerow>			
 			<text>Assist (Another player can pay up to {3} of this spell's cost.)
 Counter target spell.</text>			
+		</card>		
+		<card>			
+			<name>Pacifism</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/101.jpg?1527254004" rarity="Common">BBD</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature can't attack or block.</text>			
+		</card>		
+		<card>			
+			<name>Painful Lesson</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/154.jpg?1527253969" rarity="Common">BBD</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target player draws two cards and loses 2 life.</text>			
+		</card>		
+		<card>			
+			<name>Pathmaker Initiate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/182.jpg?1527255529" rarity="Common">BBD</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Human Wizard</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Target creature with power 2 or less can't be blocked this turn.</text>			
+		</card>		
+		<card>			
+			<name>Peace Strider</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/243.jpg?1527255793" rarity="Common">BBD</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Peace Strider enters the battlefield, you gain 3 life.</text>			
 		</card>		
 		<card>			
 			<name>Peregrine Drake</name>			
@@ -813,6 +1794,27 @@ Counter target spell.</text>
 			<tablerow>2</tablerow>			
 			<text>Flying
 When Peregrine Drake enters the battlefield, untap up to five lands.</text>			
+		</card>		
+		<card>			
+			<name>Phantom Warrior</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/129.jpg?1527254663" rarity="Uncommon">BBD</set>			
+			<manacost>1UU</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Creature — Illusion Warrior</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Phantom Warrior can't be blocked.</text>			
+		</card>		
+		<card>			
+			<name>Pierce Strider</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/244.jpg?1527256609" rarity="Common">BBD</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Pierce Strider enters the battlefield, target opponent loses 3 life.</text>			
 		</card>		
 		<card>			
 			<name>Pir, Imaginative Rascal</name>			
@@ -846,6 +1848,17 @@ If one or more counters would be put on a permanent your team controls, that man
 			<text>({T}: Add {W}.)</text>			
 		</card>		
 		<card>			
+			<name>Plated Crusher</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/207.jpg?1527255159" rarity="Uncommon">BBD</set>			
+			<manacost>4GGG</manacost>			
+			<cmc>7</cmc>			
+			<color>G</color>			
+			<type>Creature — Beast</type>			
+			<pt>7/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample, hexproof</text>			
+		</card>		
+		<card>			
 			<name>Play of the Game</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/29.jpg?1526909370" rarity="Rare">BBD</set>			
 			<manacost>6WW</manacost>			
@@ -855,6 +1868,28 @@ If one or more counters would be put on a permanent your team controls, that man
 			<tablerow>3</tablerow>			
 			<text>Assist (Another player can pay up to {6} of this spell's cost.)
 Exile all nonland permanents.</text>			
+		</card>		
+		<card>			
+			<name>Prakhata Club Security</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/155.jpg?1527254005" rarity="Common">BBD</set>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Creature — Aetherborn Warrior</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Primal Huntbeast</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/208.jpg?1527255173" rarity="Common">BBD</set>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Creature — Beast</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Hexproof (This creature can't be the target of spells or abilities your opponents control.)</text>			
 		</card>		
 		<card>			
 			<name>Proud Mentor</name>			
@@ -867,6 +1902,70 @@ Exile all nonland permanents.</text>
 			<tablerow>2</tablerow>			
 			<text>Partner with Impetuous Protege (When this creature enters the battlefield, target player may put Impetuous Protege into their hand from their library, then shuffle.)
 {W}, {T}: Tap target creature.</text>			
+		</card>		
+		<card>			
+			<name>Pulse of Murasa</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/209.jpg?1527256363" rarity="Uncommon">BBD</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target creature or land card from a graveyard to its owner's hand. You gain 6 life.</text>			
+		</card>		
+		<card>			
+			<name>Quest for the Gravelord</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/156.jpg?1527254035" rarity="Uncommon">BBD</set>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<color>B</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.
+Remove three quest counters from Quest for the Gravelord and sacrifice it: Create a 5/5 black Zombie Giant creature token.</text>			
+		</card>		
+		<card>			
+			<name>Raptor Companion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/102.jpg?1527254020" rarity="Common">BBD</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Creature — Dinosaur</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Rebuke</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/103.jpg?1527254030" rarity="Common">BBD</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target attacking creature.</text>			
+		</card>		
+		<card>			
+			<name>Reckless Reveler</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/183.jpg?1527255561" rarity="Common">BBD</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Satyr</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{R}, Sacrifice Reckless Reveler: Destroy target artifact.</text>			
+		</card>		
+		<card>			
+			<name>Reckless Scholar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/130.jpg?1527254674" rarity="Uncommon">BBD</set>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Creature — Human Wizard</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Target player draws a card, then discards a card.</text>			
 		</card>		
 		<card>			
 			<name>Regna's Sanction</name>			
@@ -892,6 +1991,64 @@ Flying
 At the beginning of each end step, if your team gained life this turn, create two 1/1 white Warrior creature tokens.</text>			
 		</card>		
 		<card>			
+			<name>Relentless Hunter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/226.jpg?1527255451" rarity="Uncommon">BBD</set>			
+			<manacost>1RG</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Creature — Human Warrior</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Return to the Earth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/210.jpg?1527255191" rarity="Common">BBD</set>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target artifact, enchantment, or creature with flying.</text>			
+		</card>		
+		<card>			
+			<name>Rhox Brute</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/227.jpg?1527255459" rarity="Common">BBD</set>			
+			<manacost>2RG</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Creature — Rhino Warrior</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Riptide Crab</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/228.jpg?1527255489" rarity="Common">BBD</set>			
+			<manacost>1WU</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Creature — Crab</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance
+When Riptide Crab dies, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Rotfeaster Maggot</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/157.jpg?1527254104" rarity="Common">BBD</set>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Creature — Insect</type>			
+			<pt>3/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Rotfeaster Maggot enters the battlefield, exile target creature card from a graveyard. You gain life equal to that card's toughness.</text>			
+		</card>		
+		<card>			
 			<name>Rowan Kenrith</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/2.jpg?1526908985" rarity="Mythic Rare">BBD</set>			
 			<manacost>4RR</manacost>			
@@ -905,6 +2062,17 @@ At the beginning of each end step, if your team gained life this turn, create tw
 -8: Target player gets an emblem with &quot;Whenever you activate an ability that isn't a mana ability, copy it. You may choose new targets for the copy.&quot;
 Partner with Will Kenrith
 Rowan Kenrith can be your commander.</text>			
+		</card>		
+		<card>			
+			<name>Royal Trooper</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/104.jpg?1527254120" rarity="Common">BBD</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Creature — Human Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Royal Trooper blocks, it gets +2/+2 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Rushblade Commander</name>			
@@ -941,6 +2109,31 @@ Rowan Kenrith can be your commander.</text>
 			<text>Whenever Saltwater Stalwart deals damage to an opponent, target player draws a card.</text>			
 		</card>		
 		<card>			
+			<name>Savage Ventmaw</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/229.jpg?1527255571" rarity="Uncommon">BBD</set>			
+			<manacost>4RG</manacost>			
+			<cmc>6</cmc>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Creature — Dragon</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever Savage Ventmaw attacks, add {R}{R}{R}{G}{G}{G}. Until end of turn, you don't lose this mana as steps and phases end.</text>			
+		</card>		
+		<card>			
+			<name>Screeching Buzzard</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/158.jpg?1527254196" rarity="Common">BBD</set>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Creature — Bird</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Screeching Buzzard dies, each opponent discards a card.</text>			
+		</card>		
+		<card>			
 			<name>Sea of Clouds</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/84.jpg?1526903900" rarity="Rare">BBD</set>			
 			<manacost/>			
@@ -963,13 +2156,45 @@ Rowan Kenrith can be your commander.</text>
 			<text>Untap all permanents you control during each other player's untap step.</text>			
 		</card>		
 		<card>			
+			<name>Seer's Lantern</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/245.jpg?1527255853" rarity="Common">BBD</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{T}: Add {C}. ({C} represents colorless mana.)
+{2}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</text>			
+		</card>		
+		<card>			
 			<name>Sentinel Tower</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/79.jpg?1527129725" rarity="Rare">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/79.jpg?1527183585" rarity="Rare">BBD</set>			
 			<manacost>4</manacost>			
 			<cmc>4</cmc>			
 			<type>Artifact</type>			
 			<tablerow>1</tablerow>			
-			<text>Whenever an instant or sorcery spell is cast during your turn, Sentinel Tower deals 1 damage to any target equal to 1 plus the number of instant and sorcery spells cast before that spell this turn.</text>			
+			<text>Whenever an instant or sorcery spell is cast during your turn, Sentinel Tower deals damage to any target equal to 1 plus the number of instant and sorcery spells cast before that spell this turn.</text>			
+		</card>		
+		<card>			
+			<name>Shambling Ghoul</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/159.jpg?1527254241" rarity="Common">BBD</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<cipt>1</cipt>			
+			<type>Creature — Zombie</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Shambling Ghoul enters the battlefield tapped.</text>			
+		</card>		
+		<card>			
+			<name>Shock</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/184.jpg?1527255623" rarity="Common">BBD</set>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<color>R</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Shock deals 2 damage to any target.</text>			
 		</card>		
 		<card>			
 			<name>Shoulder to Shoulder</name>			
@@ -992,6 +2217,17 @@ Draw a card.</text>
 			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever Sickle Dancer attacks, if your team controls another Warrior, Sickle Dancer gets +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Silverchase Fox</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/106.jpg?1527254152" rarity="Common">BBD</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Creature — Fox</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{W}, Sacrifice Silverchase Fox: Exile target enchantment.</text>			
 		</card>		
 		<card>			
 			<name>Skyshroud Claim</name>			
@@ -1017,6 +2253,17 @@ Flying
 When Skystreamer enters the battlefield, target player gains 4 life.</text>			
 		</card>		
 		<card>			
+			<name>Slum Reaper</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/160.jpg?1527254271" rarity="Uncommon">BBD</set>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Creature — Horror</type>			
+			<pt>4/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Slum Reaper enters the battlefield, each player sacrifices a creature.</text>			
+		</card>		
+		<card>			
 			<name>Soaring Show-Off</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/40.jpg?1526904384" rarity="Common">BBD</set>			
 			<manacost>2U</manacost>			
@@ -1027,6 +2274,16 @@ When Skystreamer enters the battlefield, target player gains 4 life.</text>
 			<tablerow>2</tablerow>			
 			<text>Flying
 When Soaring Show-Off enters the battlefield, each player draws a card.</text>			
+		</card>		
+		<card>			
+			<name>Solemn Offering</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/107.jpg?1527256819" rarity="Uncommon">BBD</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target artifact or enchantment. You gain 4 life.</text>			
 		</card>		
 		<card>			
 			<name>Soulblade Corrupter</name>			
@@ -1066,6 +2323,26 @@ When Soulblade Renewer enters the battlefield, support 2. (Put a +1/+1 counter o
 When Sower of Temptation enters the battlefield, gain control of target creature for as long as Sower of Temptation remains on the battlefield.</text>			
 		</card>		
 		<card>			
+			<name>Sparring Mummy</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/108.jpg?1527254177" rarity="Common">BBD</set>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Creature — Zombie</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Sparring Mummy enters the battlefield, untap target creature.</text>			
+		</card>		
+		<card>			
+			<name>Spectral Searchlight</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/246.jpg?1527255869" rarity="Uncommon">BBD</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{T}: Choose a player. That player adds one mana of any color they choose.</text>			
+		</card>		
+		<card>			
 			<name>Spellseeker</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/41.jpg?1527088456" rarity="Rare">BBD</set>			
 			<manacost>2U</manacost>			
@@ -1088,7 +2365,7 @@ When Sower of Temptation enters the battlefield, gain control of target creature
 		</card>		
 		<card>			
 			<name>Spellweaver Duo</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/42.jpg?1527176402" rarity="Common">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/42.jpg?1527176752" rarity="Common">BBD</set>			
 			<manacost>6U</manacost>			
 			<cmc>7</cmc>			
 			<color>U</color>			
@@ -1121,6 +2398,18 @@ When Spellweaver Duo enters the battlefield, you may return target tapped creatu
 			<text>When Stadium Vendors enters the battlefield, choose a player. That player adds two mana of any one color they choose.</text>			
 		</card>		
 		<card>			
+			<name>Steppe Glider</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/109.jpg?1527254188" rarity="Uncommon">BBD</set>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<color>W</color>			
+			<type>Creature — Elemental</type>			
+			<pt>2/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, vigilance
+{1}{W}: Target creature with a +1/+1 counter on it gains flying and vigilance until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Stolen Strategy</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/64.jpg?1527003450" rarity="Rare">BBD</set>			
 			<manacost>4R</manacost>			
@@ -1129,6 +2418,16 @@ When Spellweaver Duo enters the battlefield, you may return target tapped creatu
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>At the beginning of your upkeep, exile the top card of each opponent's library. Until end of turn, you may cast nonland cards from among those exiled cards, and you may spend mana as though it were mana of any color to cast those spells.</text>			
+		</card>		
+		<card>			
+			<name>Stone Golem</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/247.jpg?1527256725" rarity="Common">BBD</set>			
+			<manacost>5</manacost>			
+			<cmc>5</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
 		</card>		
 		<card>			
 			<name>Stunning Reversal</name>			
@@ -1143,12 +2442,35 @@ Exile Stunning Reversal.</text>
 		</card>		
 		<card>			
 			<name>Swamp</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/252.jpg?1526936059" rarity="Basic Land">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/252.jpg?1527244840" rarity="Basic Land">BBD</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Basic Land — Swamp</type>			
 			<tablerow>0</tablerow>			
 			<text>({T}: Add {B}.)</text>			
+		</card>		
+		<card>			
+			<name>Swarm of Bloodflies</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/161.jpg?1527254307" rarity="Uncommon">BBD</set>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Creature — Insect</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Swarm of Bloodflies enters the battlefield with two +1/+1 counters on it.
+Whenever another creature dies, put a +1/+1 counter on Swarm of Bloodflies.</text>			
+		</card>		
+		<card>			
+			<name>Switcheroo</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/133.jpg?1527254694" rarity="Uncommon">BBD</set>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<color>U</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Exchange control of two target creatures.</text>			
 		</card>		
 		<card>			
 			<name>Swords to Plowshares</name>			
@@ -1174,6 +2496,16 @@ Double strike
 Dragons your team controls have double strike.</text>			
 		</card>		
 		<card>			
+			<name>Take Up Arms</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/111.jpg?1527254198" rarity="Uncommon">BBD</set>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<color>W</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Create three 1/1 white Warrior creature tokens.</text>			
+		</card>		
+		<card>			
 			<name>Tandem Tactics</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/112.jpg?1527176149" rarity="Common">BBD</set>			
 			<manacost>1W</manacost>			
@@ -1182,6 +2514,28 @@ Dragons your team controls have double strike.</text>
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Up to two target creatures each get +1/+2 until end of turn. You gain 2 life.</text>			
+		</card>		
+		<card>			
+			<name>Tavern Swindler</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/162.jpg?1527254346" rarity="Uncommon">BBD</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Creature — Human Rogue</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}, Pay 3 life: Flip a coin. If you win the flip, you gain 6 life.</text>			
+		</card>		
+		<card>			
+			<name>Tenacious Dead</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/163.jpg?1527254419" rarity="Uncommon">BBD</set>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<color>B</color>			
+			<type>Creature — Skeleton Warrior</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Tenacious Dead dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner's control.</text>			
 		</card>		
 		<card>			
 			<name>The Crowd Goes Wild</name>			
@@ -1215,6 +2569,16 @@ Each creature with a +1/+1 counter on it gains trample until end of turn.</text>
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Put onto the battlefield under your control all creature cards in all graveyards that were put there from the battlefield this turn.</text>			
+		</card>		
+		<card>			
+			<name>Thunder Strike</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/185.jpg?1527255663" rarity="Common">BBD</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +2/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)</text>			
 		</card>		
 		<card>			
 			<name>Tidespout Tyrant</name>			
@@ -1253,6 +2617,16 @@ Whenever you draw a card, put a +1/+1 counter on Toothy, Imaginary Friend.
 When Toothy leaves the battlefield, draw a card for each +1/+1 counter on it.</text>			
 		</card>		
 		<card>			
+			<name>Totally Lost</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/135.jpg?1527254706" rarity="Common">BBD</set>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Put target nonland permanent on top of its owner's library.</text>			
+		</card>		
+		<card>			
 			<name>True-Name Nemesis</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/136.jpg?1526994717" rarity="Mythic Rare">BBD</set>			
 			<manacost>1UU</manacost>			
@@ -1263,6 +2637,64 @@ When Toothy leaves the battlefield, draw a card for each +1/+1 counter on it.</t
 			<tablerow>2</tablerow>			
 			<text>As True-Name Nemesis enters the battlefield, choose a player.
 True-Name Nemesis has protection from the chosen player. (This creature can't be blocked, targeted, dealt damage, or enchanted by anything controlled by that player.)</text>			
+		</card>		
+		<card>			
+			<name>Trumpet Blast</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/186.jpg?1527255699" rarity="Common">BBD</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Attacking creatures get +2/+0 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Tyrant's Machine</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/248.jpg?1527255911" rarity="Common">BBD</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{4}, {T}: Tap target creature.</text>			
+		</card>		
+		<card>			
+			<name>Unflinching Courage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/230.jpg?1527255590" rarity="Uncommon">BBD</set>			
+			<manacost>1GW</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<color>G</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and has trample and lifelink.</text>			
+		</card>		
+		<card>			
+			<name>Urborg Drake</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/231.jpg?1527255610" rarity="Common">BBD</set>			
+			<manacost>1UB</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Creature — Drake</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Urborg Drake attacks each combat if able.</text>			
+		</card>		
+		<card>			
+			<name>Vampire Charmseeker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/78.jpg?1527255330" rarity="Uncommon">BBD</set>			
+			<manacost>6UB</manacost>			
+			<cmc>8</cmc>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Creature — Vampire Wizard</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Assist (Another player can pay up to {6} of this spell's cost.)
+Flying
+When Vampire Charmseeker enters the battlefield, return target instant, sorcery, or creature card from a graveyard to its owner's hand.</text>			
 		</card>		
 		<card>			
 			<name>Veteran Explorer</name>			
@@ -1322,6 +2754,39 @@ Deathtouch
 Whenever Virtus the Veiled deals combat damage to a player, that player loses half their life, rounded up.</text>			
 		</card>		
 		<card>			
+			<name>Wandering Wolf</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/216.jpg?1527255237" rarity="Common">BBD</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Wolf</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Creatures with power less than Wandering Wolf's power can't block it.</text>			
+		</card>		
+		<card>			
+			<name>War's Toll</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/187.jpg?1527255723" rarity="Rare">BBD</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever an opponent taps a land for mana, tap all lands that player controls.
+If a creature an opponent controls attacks, all creatures that opponent controls attack if able.</text>			
+		</card>		
+		<card>			
+			<name>Watercourser</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/137.jpg?1527254718" rarity="Common">BBD</set>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Creature — Elemental</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{U}: Watercourser gets +1/-1 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Will Kenrith</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/bbd/1.jpg?1526922175" rarity="Mythic Rare">BBD</set>			
 			<manacost>4UU</manacost>			
@@ -1337,8 +2802,28 @@ Partner with Rowan Kenrith
 Will Kenrith can be your commander.</text>			
 		</card>		
 		<card>			
+			<name>Wrap in Flames</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/188.jpg?1527255753" rarity="Common">BBD</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Wrap in Flames deals 1 damage to each of up to three target creatures. Those creatures can't block this turn.</text>			
+		</card>		
+		<card>			
+			<name>Yotian Soldier</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/249.jpg?1527255932" rarity="Common">BBD</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact Creature — Soldier</type>			
+			<pt>1/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance</text>			
+		</card>		
+		<card>			
 			<name>Zndrsplt, Eye of Wisdom</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/bbd/5.jpg?1527101930" rarity="Rare">BBD</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/bbd/5.jpg?1527199452" rarity="Rare">BBD</set>			
 			<manacost>4U</manacost>			
 			<cmc>5</cmc>			
 			<color>U</color>			

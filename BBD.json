@@ -25,6 +25,27 @@
   "border":"black",
   "cards":[
     {
+      "artist":"Steve Prescott",
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"\"A slayer gets by on wits and reflexes.\" —Higa, slayer-captain of Gatstaf",
+      "manaCost":"1G",
+      "name":"Aim High",
+      "number":"189",
+      "rarity":"Uncommon",
+      "text":"Untap target creature. It gets +2/+2 and gains reach until end of turn. (It can block creatures with flying.)",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/189.jpg?1527256747"
+    },
+    {
       "artist":"Jim Murray",
       "cmc":5,
       "colorIdentity":[
@@ -44,6 +65,82 @@
         "Enchantment"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/87.jpg?1527109173"
+    },
+    {
+      "artist":"Josu Hernaiz",
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"1W",
+      "name":"Angelic Gift",
+      "number":"88",
+      "rarity":"Common",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature\nWhen Angelic Gift enters the battlefield, draw a card.\nEnchanted creature has flying.",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/88.jpg?1527253818"
+    },
+    {
+      "artist":"rk post",
+      "cmc":7,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"Bitter vengeance never glowed so bright nor sang so sweet.",
+      "manaCost":"6W",
+      "name":"Angel of Retribution",
+      "number":"86",
+      "power":"5",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Angel"
+      ],
+      "text":"Flying, first strike",
+      "toughness":"5",
+      "type":"Creature — Angel",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/86.jpg?1527256641"
+    },
+    {
+      "artist":"Jason Chan",
+      "cmc":2,
+      "colorIdentity":[
+        "G",
+        "R"
+      ],
+      "colors":[
+        "Red",
+        "Green"
+      ],
+      "manaCost":"XRG",
+      "name":"Apocalypse Hydra",
+      "number":"217",
+      "power":"0",
+      "rarity":"Rare",
+      "subtypes":[
+        "Hydra"
+      ],
+      "text":"Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 or more, it enters the battlefield with an additional X +1/+1 counters on it.\n{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to any target.",
+      "toughness":"0",
+      "type":"Creature — Hydra",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/217.jpg?1527255356"
     },
     {
       "artist":"Tommy Arnold",
@@ -151,6 +248,48 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/23.jpg?1527003290"
     },
     {
+      "artist":"Kev Walker",
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"\"This is how wars are won—not with armies of soldiers but with a single knife blade, artfully placed.\" —Yurin, royal assassin",
+      "manaCost":"2B",
+      "name":"Assassinate",
+      "number":"139",
+      "rarity":"Common",
+      "text":"Destroy target tapped creature.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/139.jpg?1527253545"
+    },
+    {
+      "artist":"Chase Stone",
+      "cmc":6,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"When Selesnya missionaries moved into the Shanav Quarter, they faced scorn, ridicule, and ultimately martyrdom.",
+      "manaCost":"4BB",
+      "name":"Assassin's Strike",
+      "number":"138",
+      "rarity":"Uncommon",
+      "text":"Destroy target creature. Its controller discards a card.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/138.jpg?1527253493"
+    },
+    {
       "artist":"Raymond Swanland",
       "cmc":3,
       "colorIdentity":[
@@ -172,6 +311,60 @@
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/218.jpg?1526904530"
+    },
+    {
+      "artist":"Uriah Voth",
+      "cmc":3,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"Many combatants at Valor's Reach wield glowing weapons to distract their enemies and delight the crowd.",
+      "manaCost":"2W",
+      "name":"Aurora Champion",
+      "number":"24",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Elf",
+        "Warrior"
+      ],
+      "text":"Whenever Aurora Champion attacks, if your team controls another Warrior, tap target creature.",
+      "toughness":"2",
+      "type":"Creature — Elf Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/24.jpg?1527261383"
+    },
+    {
+      "artist":"Joe Slucher",
+      "cmc":3,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"Never get too attached to a weapon. You must allow a better one to find its way to you.\"",
+      "manaCost":"2R",
+      "name":"Azra Bladeseeker",
+      "number":"55",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Azra",
+        "Warrior"
+      ],
+      "text":"When Azra Bladeseeker enters the battlefield, each player on your team may discard a card, then each player who discarded a card this way draws a card.",
+      "toughness":"2",
+      "type":"Creature — Azra Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/55.jpg?1527254633"
     },
     {
       "artist":"Josh Hass",
@@ -203,6 +396,104 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/75.jpg?1527176583"
     },
     {
+      "artist":"Chris Rallis",
+      "cmc":3,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"The scent of cooked flesh lingers in the charred landscape of Tarkir.",
+      "manaCost":"2R",
+      "name":"Bathe in Dragonfire",
+      "number":"164",
+      "rarity":"Common",
+      "text":"Bathe in Dragonfire deals 4 damage to target creature.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/164.jpg?1527254897"
+    },
+    {
+      "artist":"Viktor Titov",
+      "cmc":3,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"There is elegance in all the Ojutai do—even their killing.\" —Kirada, Silumgar enforcer",
+      "manaCost":"2W",
+      "name":"Battle Mastery",
+      "number":"89",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature\nEnchanted creature has double strike. (It deals both first-strike and regular combat damage.)",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/89.jpg?1527253846"
+    },
+    {
+      "artist":"Steve Prescott",
+      "cmc":3,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"I will build no sanctuaries. The safety you seek can be won only by the sword.\" —Yannash, outpost builder",
+      "manaCost":"2R",
+      "name":"Battle Rampart",
+      "number":"165",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Wall"
+      ],
+      "text":"Defender\n{T}: Target creature gains haste until end of turn.",
+      "toughness":"3",
+      "type":"Creature — Wall",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/165.jpg?1527254932"
+    },
+    {
+      "artist":"Warren Mahy",
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"The shaman rattles not to inspire a battle fury but to drown out the shrieks of those fleeing the Eldrazi.",
+      "manaCost":"3R",
+      "name":"Battle-Rattle Shaman",
+      "number":"166",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Goblin",
+        "Shaman"
+      ],
+      "text":"At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn.",
+      "toughness":"2",
+      "type":"Creature — Goblin Shaman",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/166.jpg?1527254970"
+    },
+    {
       "artist":"Jesper Ejsing",
       "cmc":3,
       "colorIdentity":[
@@ -222,6 +513,32 @@
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/190.jpg?1527129719"
+    },
+    {
+      "artist":"Jaime Jones",
+      "cmc":6,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"Some fates you can see coming for you, plain as day, and there's nothing you can do about them.\" —Callaphe the mariner",
+      "manaCost":"5U",
+      "name":"Benthic Giant",
+      "number":"113",
+      "power":"4",
+      "rarity":"Common",
+      "subtypes":[
+        "Giant"
+      ],
+      "text":"Hexproof (This creature can't be the target of spells or abilities your opponents control.)",
+      "toughness":"5",
+      "type":"Creature — Giant",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/113.jpg?1527254355"
     },
     {
       "artist":"Grzegorz Rutkowski",
@@ -284,6 +601,27 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/13.jpg?1527136651"
     },
     {
+      "artist":"Alex Horley-Orlandelli",
+      "cmc":1,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"Fire never dies alone.",
+      "manaCost":"XR",
+      "name":"Blaze",
+      "number":"167",
+      "rarity":"Uncommon",
+      "text":"Blaze deals X damage to any target.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/167.jpg?1527255026"
+    },
+    {
       "artist":"Mathias Kollros",
       "cmc":6,
       "colorIdentity":[
@@ -309,6 +647,27 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/45.jpg?1527176487"
+    },
+    {
+      "artist":"Winona Nelson",
+      "cmc":6,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"Succession is a matter of blood, and by blood it is often decided.",
+      "manaCost":"4RR",
+      "name":"Blood Feud",
+      "number":"168",
+      "rarity":"Uncommon",
+      "text":"Target creature fights another target creature. (Each deals damage equal to its power to the other.)",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/168.jpg?1527255055"
     },
     {
       "artist":"Esad Ribic",
@@ -357,6 +716,33 @@
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/56.jpg?1527170364"
+    },
+    {
+      "artist":"Scott M. Fischer",
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"Though she is rightly feared, there are relatively few tales of her deeds in battle, for few survive her raids.",
+      "manaCost":"1R",
+      "name":"Borderland Marauder",
+      "number":"170",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"Whenever Borderland Marauder attacks, it gets +2/+0 until end of turn.",
+      "toughness":"2",
+      "type":"Creature — Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/170.jpg?1527255113"
     },
     {
       "artist":"Jung Park",
@@ -426,6 +812,101 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/25.jpg?1527162016"
+    },
+    {
+      "artist":"Filip Burburan",
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"Big, wicked, and not too smart. Poor thing never stood a chance against us, dear.\" —Regna, to Krav",
+      "manaCost":"3W",
+      "name":"Bring Down",
+      "number":"26",
+      "rarity":"Uncommon",
+      "text":"Assist (Another player can pay up to {3} of this spell's cost.)\nDestroy target creature with power 4 or greater.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/26.jpg?1527255538"
+    },
+    {
+      "artist":"Sam Rowan",
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"There will always be a spot at Valor's Reach for headlong violence.",
+      "manaCost":"3R",
+      "name":"Bull-Rush Bruiser",
+      "number":"57",
+      "power":"4",
+      "rarity":"Common",
+      "subtypes":[
+        "Minotaur",
+        "Warrior"
+      ],
+      "text":"Whenever Bull-Rush Bruiser attacks, if your team controls another Warrior, Bull-Rush Bruiser gains first strike until end of turn.",
+      "toughness":"3",
+      "type":"Creature — Minotaur Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/57.jpg?1527256842"
+    },
+    {
+      "artist":"Randy Gallegos",
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"On Bant, a sigil is both a prize of honor and a bond of duty. The one who bears it may be called to fulfill that charge at any moment.",
+      "manaCost":"1U",
+      "name":"Call to Heel",
+      "number":"114",
+      "rarity":"Common",
+      "text":"Return target creature to its owner's hand. Its controller draws a card.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/114.jpg?1527254374"
+    },
+    {
+      "artist":"Christopher Rush",
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"It keeps the upper reaches of the forest free of every menace . . . except for the spider itself.",
+      "manaCost":"1G",
+      "name":"Canopy Spider",
+      "number":"191",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Spider"
+      ],
+      "text":"Reach (This creature can block creatures with flying.)",
+      "toughness":"3",
+      "type":"Creature — Spider",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/191.jpg?1527254973"
     },
     {
       "artist":"Mark Zug",
@@ -537,6 +1018,33 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/16.jpg?1527087789"
     },
     {
+      "artist":"Joseph Meehan",
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"The blood of Dromoka and the blood of my veins are the same.\"",
+      "manaCost":"3W",
+      "name":"Champion of Arashin",
+      "number":"90",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Hound",
+        "Warrior"
+      ],
+      "text":"Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
+      "toughness":"2",
+      "type":"Creature — Hound Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/90.jpg?1527253865"
+    },
+    {
       "artist":"Jason Felix",
       "cmc":8,
       "colorIdentity":[
@@ -561,6 +1069,32 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/66.jpg?1527002938"
+    },
+    {
+      "artist":"Daren Bader",
+      "cmc":5,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"The knights of Troinir Keep took the rhino as their emblem due to its intense focus when charging down a perceived threat—a trait they discovered on a hunting excursion.",
+      "manaCost":"3GG",
+      "name":"Charging Rhino",
+      "number":"192",
+      "power":"4",
+      "rarity":"Common",
+      "subtypes":[
+        "Rhino"
+      ],
+      "text":"Charging Rhino can't be blocked by more than one creature.",
+      "toughness":"4",
+      "type":"Creature — Rhino",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/192.jpg?1527254986"
     },
     {
       "artist":"Filip Burburan",
@@ -589,6 +1123,30 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/58.jpg?1527087716"
     },
     {
+      "artist":"Ryan Pancoast",
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"Six feet of earth muffled his cries.",
+      "manaCost":"1UU",
+      "name":"Claustrophobia",
+      "number":"115",
+      "rarity":"Common",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature\nWhen Claustrophobia enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/115.jpg?1527254388"
+    },
+    {
       "artist":"Sara Winters",
       "cmc":3,
       "colorIdentity":[
@@ -608,6 +1166,124 @@
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/67.jpg?1527176157"
+    },
+    {
+      "artist":"John Avon",
+      "cmc":2,
+      "colorIdentity":[],
+      "flavor":"All skyships entering or leaving the fairgrounds must pass through the security checkpoint.",
+      "manaCost":"2",
+      "name":"Consulate Skygate",
+      "number":"232",
+      "power":"0",
+      "rarity":"Common",
+      "subtypes":[
+        "Wall"
+      ],
+      "text":"Defender\nReach (This creature can block creatures with flying.)",
+      "toughness":"4",
+      "type":"Artifact Creature — Wall",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/232.jpg?1527255661"
+    },
+    {
+      "artist":"Viktor Titov",
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"She knows every step of this coastline, both above and below the surface, and she has hideouts all along the way. She will get you there.\" —Jori En, expedition leader",
+      "manaCost":"1U",
+      "name":"Coralhelm Guide",
+      "number":"116",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Merfolk",
+        "Scout",
+        "Ally"
+      ],
+      "text":"{4}{U}: Target creature can't be blocked this turn.",
+      "toughness":"1",
+      "type":"Creature — Merfolk Scout Ally",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/116.jpg?1527254401"
+    },
+    {
+      "artist":"Tomasz Jedruszek",
+      "cmc":6,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"Consulate guards who pursue fleeing renegades into the Cowl often become lost—occasionally permanently—in the city's wildest greenbelt.",
+      "manaCost":"4GG",
+      "name":"Cowl Prowler",
+      "number":"193",
+      "power":"6",
+      "rarity":"Common",
+      "subtypes":[
+        "Wurm"
+      ],
+      "text":"",
+      "toughness":"6",
+      "type":"Creature — Wurm",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/193.jpg?1527254997"
+    },
+    {
+      "artist":"Anthony Palumbo",
+      "cmc":2,
+      "colorIdentity":[],
+      "flavor":"\"Forswear the flesh and you will truly see.\" —Jin-Gitaxias, Core Augur",
+      "manaCost":"2",
+      "name":"Culling Dais",
+      "number":"233",
+      "rarity":"Uncommon",
+      "text":"{T}, Sacrifice a creature: Put a charge counter on Culling Dais.\n{1}, Sacrifice Culling Dais: Draw a card for each charge counter on Culling Dais.",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/233.jpg?1527255676"
+    },
+    {
+      "artist":"Jesper Ejsing",
+      "cmc":3,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"\"Petrifying gaze, deadly fangs, knifelike dorsal spines, venomous saliva . . . Am I missing anything? . . . Toxic bones? Seriously?\" —Samila, Murasa Expeditionary House",
+      "manaCost":"2G",
+      "name":"Daggerback Basilisk",
+      "number":"194",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Basilisk"
+      ],
+      "text":"Deathtouch",
+      "toughness":"2",
+      "type":"Creature — Basilisk",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/194.jpg?1527255007"
     },
     {
       "artist":"Jack Wang",
@@ -636,6 +1312,33 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/140.jpg?1526904719"
     },
     {
+      "artist":"Naomi Baker",
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"The oddsmakers hate him because every fight is a foregone conclusion. The crowd loves him for exactly the same reason.",
+      "manaCost":"1G",
+      "name":"Decorated Champion",
+      "number":"69",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Elf",
+        "Warrior"
+      ],
+      "text":"Whenever another Warrior enters the battlefield under your team's control, put a +1/+1 counter on Decorated Champion.",
+      "toughness":"2",
+      "type":"Creature — Elf Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/69.jpg?1527256954"
+    },
+    {
       "artist":"Josu Hernaiz",
       "cmc":2,
       "colorIdentity":[
@@ -654,6 +1357,34 @@
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/141.jpg?1526994947"
+    },
+    {
+      "artist":"Johann Bodin",
+      "cmc":6,
+      "colorIdentity":[
+        "B",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "flavor":"\"Welcome to the Dimir Public Offices. Not responsible for death or loss of property. Basement off-limits.\" —Sign outside Dinrova Building",
+      "manaCost":"4UB",
+      "name":"Dinrova Horror",
+      "number":"220",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Horror"
+      ],
+      "text":"When Dinrova Horror enters the battlefield, return target permanent to its owner's hand, then that player discards a card.",
+      "toughness":"4",
+      "type":"Creature — Horror",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/220.jpg?1527255367"
     },
     {
       "artist":"Tony Foti",
@@ -729,6 +1460,55 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/195.jpg?1526907362"
     },
     {
+      "artist":"Greg Staples",
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"1R",
+      "name":"Dragon Breath",
+      "number":"172",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature\nEnchanted creature has haste.\n{R}: Enchanted creature gets +1/+0 until end of turn.\nWhen a creature with converted mana cost 6 or greater enters the battlefield, you may return Dragon Breath from your graveyard to the battlefield attached to that creature.",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/172.jpg?1527255146"
+    },
+    {
+      "artist":"David Palumbo",
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"Those dragons grow fast. For a while they feed on squirrels and goblins and then suddenly you're missing a mammoth.\" —Hurdek, Mazar mammoth trainer",
+      "manaCost":"1R",
+      "name":"Dragon Hatchling",
+      "number":"173",
+      "power":"0",
+      "rarity":"Common",
+      "subtypes":[
+        "Dragon"
+      ],
+      "text":"Flying\n{R}: Dragon Hatchling gets +1/+0 until end of turn.",
+      "toughness":"1",
+      "type":"Creature — Dragon",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/173.jpg?1527255221"
+    },
+    {
       "artist":"Craig J Spearing",
       "cmc":6,
       "colorIdentity":[
@@ -777,6 +1557,189 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/234.jpg?1526909195"
     },
     {
+      "artist":"Anthony S. Waters",
+      "cmc":5,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"Earth elementals have the eternal strength of stone and the endurance of mountains. Primordially connected to the land they inhabit, they take a long-term view of things, scorning the impetuous haste of short-lived mortal creatures.",
+      "manaCost":"3RR",
+      "name":"Earth Elemental",
+      "number":"174",
+      "power":"4",
+      "rarity":"Common",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"",
+      "toughness":"5",
+      "type":"Creature — Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/174.jpg?1527255250"
+    },
+    {
+      "artist":"D. Alexander Gregory",
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"\"From a tiny sprout, the greatest trees grow and flourish. May the seeds of your mind be equally fruitful.\"",
+      "manaCost":"1G",
+      "name":"Elvish Visionary",
+      "number":"196",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Elf",
+        "Shaman"
+      ],
+      "text":"When Elvish Visionary enters the battlefield, draw a card.",
+      "toughness":"1",
+      "type":"Creature — Elf Shaman",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/196.jpg?1527255024"
+    },
+    {
+      "artist":"David Rapoza",
+      "cmc":3,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"The only livestock that will survive for long in the Smelting District, ember beasts serve many functions—none of them willingly.",
+      "manaCost":"2R",
+      "name":"Ember Beast",
+      "number":"175",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Beast"
+      ],
+      "text":"Ember Beast can't attack or block alone.",
+      "toughness":"4",
+      "type":"Creature — Beast",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/175.jpg?1527255281"
+    },
+    {
+      "artist":"Clint Cearley",
+      "cmc":6,
+      "colorIdentity":[
+        "G",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Green"
+      ],
+      "flavor":"Only the sun that beats down upon Arashin's walls could shine more brightly.",
+      "manaCost":"4GW",
+      "name":"Enduring Scalelord",
+      "number":"221",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Dragon"
+      ],
+      "text":"Flying\nWhenever one or more +1/+1 counters are put on another creature you control, you may put a +1/+1 counter on Enduring Scalelord.",
+      "toughness":"4",
+      "type":"Creature — Dragon",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/221.jpg?1527255387"
+    },
+    {
+      "artist":"Winona Nelson",
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"If you stare at the sun for too long, you'll lose your ability to see clearly.",
+      "manaCost":"3R",
+      "name":"Enthralling Victor",
+      "number":"176",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"When Enthralling Victor enters the battlefield, gain control of target creature an opponent controls with power 2 or less until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)",
+      "toughness":"2",
+      "type":"Creature — Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/176.jpg?1527255313"
+    },
+    {
+      "artist":"Greg Staples",
+      "cmc":4,
+      "colorIdentity":[
+        "B",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "flavor":"You can always tell the evil one by the dagger he's sticking in you.",
+      "manaCost":"2UB",
+      "name":"Evil Twin",
+      "number":"222",
+      "power":"0",
+      "rarity":"Rare",
+      "subtypes":[
+        "Shapeshifter"
+      ],
+      "text":"You may have Evil Twin enter the battlefield as a copy of any creature on the battlefield, except it gains \"{U}{B}, {T}: Destroy target creature with the same name as this creature.\"",
+      "toughness":"0",
+      "type":"Creature — Shapeshifter",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/222.jpg?1527255399"
+    },
+    {
+      "artist":"Kieran Yanner",
+      "cmc":1,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"I run, and thunder follows.\"",
+      "manaCost":"R",
+      "name":"Expedite",
+      "number":"177",
+      "rarity":"Common",
+      "text":"Target creature gains haste until end of turn.\nDraw a card.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/177.jpg?1527255347"
+    },
+    {
       "artist":"Johann Bodin",
       "cmc":5,
       "colorIdentity":[
@@ -800,6 +1763,33 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/92.jpg?1526935968"
+    },
+    {
+      "artist":"Dan Scott",
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"\"Boggart blood disgusts me almost as much as the foul creatures themselves.\"",
+      "manaCost":"2B",
+      "name":"Eyeblight Assassin",
+      "number":"143",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Elf",
+        "Assassin"
+      ],
+      "text":"When Eyeblight Assassin enters the battlefield, target creature an opponent controls gets -1/-1 until end of turn.",
+      "toughness":"2",
+      "type":"Creature — Elf Assassin",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/143.jpg?1527253581"
     },
     {
       "artist":"Suzanne Helmigh",
@@ -829,6 +1819,33 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/46.jpg?1526904464"
     },
     {
+      "artist":"Steve Prescott",
+      "cmc":1,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"It shreds its prey as each head fights for the choicest bits.",
+      "manaCost":"XG",
+      "name":"Feral Hydra",
+      "number":"197",
+      "power":"0",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Hydra",
+        "Beast"
+      ],
+      "text":"Feral Hydra enters the battlefield with X +1/+1 counters on it.\n{3}: Put a +1/+1 counter on Feral Hydra. Any player may activate this ability.",
+      "toughness":"0",
+      "type":"Creature — Hydra Beast",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/197.jpg?1527256684"
+    },
+    {
       "artist":"Heather Hudson",
       "cmc":2,
       "colorIdentity":[
@@ -853,6 +1870,104 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/198.jpg?1526904214"
     },
     {
+      "artist":"Wayne Reynolds",
+      "cmc":3,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"2G",
+      "name":"Fertilid",
+      "number":"199",
+      "power":"0",
+      "rarity":"Common",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"Fertilid enters the battlefield with two +1/+1 counters on it.\n{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles their library.",
+      "toughness":"0",
+      "type":"Creature — Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/199.jpg?1527255050"
+    },
+    {
+      "artist":"Luca Zontini",
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"3B",
+      "name":"Fill with Fright",
+      "number":"144",
+      "rarity":"Common",
+      "text":"Target player discards two cards. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/144.jpg?1527253624"
+    },
+    {
+      "artist":"Dave Dorman",
+      "cmc":3,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"Inside even the humblest goblin lurks the potential for far greater things—and far worse.",
+      "manaCost":"2R",
+      "name":"Flamewave Invoker",
+      "number":"178",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Goblin",
+        "Mutant"
+      ],
+      "text":"{7}{R}: Flamewave Invoker deals 5 damage to target player or planeswalker.",
+      "toughness":"2",
+      "type":"Creature — Goblin Mutant",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/178.jpg?1527255385"
+    },
+    {
+      "artist":"Howard Lyon",
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"The union of sea and sky makes a perfect cover.\" —Talrand, sky summoner",
+      "manaCost":"1U",
+      "name":"Fog Bank",
+      "number":"117",
+      "power":"0",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Wall"
+      ],
+      "text":"Defender, flying\nPrevent all combat damage that would be dealt to and dealt by Fog Bank.",
+      "toughness":"2",
+      "type":"Creature — Wall",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/117.jpg?1527254413"
+    },
+    {
       "artist":"Titus Lunter",
       "cmc":0,
       "colorIdentity":[
@@ -872,7 +1987,34 @@
       "types":[
         "Land"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/bbd/254.jpg?1526936207"
+      "url":"https://img.scryfall.com/cards/large/en/bbd/254.jpg?1527244817"
+    },
+    {
+      "artist":"Izzy",
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"It readily attacks much larger prey, knowing retaliation is impossible.",
+      "manaCost":"2U",
+      "name":"Frost Lynx",
+      "number":"118",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Elemental",
+        "Cat"
+      ],
+      "text":"When Frost Lynx enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+      "toughness":"2",
+      "type":"Creature — Elemental Cat",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/118.jpg?1527254465"
     },
     {
       "artist":"Gabor Szikszai",
@@ -964,6 +2106,92 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/70.jpg?1527088295"
     },
     {
+      "artist":"Mark Tedin",
+      "cmc":2,
+      "colorIdentity":[],
+      "flavor":"\"As the experimental population grows, so do the number of myr. It's a perfect equilibrium.\" —Memnarch",
+      "manaCost":"2",
+      "name":"Genesis Chamber",
+      "number":"235",
+      "rarity":"Uncommon",
+      "text":"Whenever a nontoken creature enters the battlefield, if Genesis Chamber is untapped, that creature's controller creates a 1/1 colorless Myr artifact creature token.",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/235.jpg?1527255694"
+    },
+    {
+      "artist":"Noah Bradley",
+      "cmc":1,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"\"The prohibition of unnecessary tossing of the citizenry by giants shall also extend to spontaneous giants.\" —Isperia's Edict, provision VII.789.2",
+      "manaCost":"G",
+      "name":"Giant Growth",
+      "number":"200",
+      "rarity":"Common",
+      "text":"Target creature gets +3/+3 until end of turn.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/200.jpg?1527255072"
+    },
+    {
+      "artist":"Raymond Swanland",
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"Finding themselves in a new and unexplored world, they immediately set it on fire.",
+      "manaCost":"2RR",
+      "name":"Goblin Razerunners",
+      "number":"179",
+      "power":"3",
+      "rarity":"Rare",
+      "subtypes":[
+        "Goblin",
+        "Warrior"
+      ],
+      "text":"{1}{R}, Sacrifice a land: Put a +1/+1 counter on Goblin Razerunners.\nAt the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player or planeswalker.",
+      "toughness":"4",
+      "type":"Creature — Goblin Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/179.jpg?1527255422"
+    },
+    {
+      "artist":"James Zapata",
+      "cmc":6,
+      "colorIdentity":[],
+      "flavor":"Blessed by the gods. Coveted by mortals. Beholden to neither.",
+      "manaCost":"6",
+      "name":"Gold-Forged Sentinel",
+      "number":"236",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Chimera"
+      ],
+      "text":"Flying",
+      "toughness":"4",
+      "type":"Artifact Creature — Chimera",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/236.jpg?1527255714"
+    },
+    {
       "artist":"Johann Bodin",
       "cmc":4,
       "colorIdentity":[
@@ -1018,6 +2246,26 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/201.jpg?1527027034"
     },
     {
+      "artist":"Dan Scott",
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"1B",
+      "name":"Grotesque Mutation",
+      "number":"145",
+      "rarity":"Common",
+      "text":"Target creature gets +3/+1 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/145.jpg?1527253662"
+    },
+    {
       "artist":"Mark Behm",
       "cmc":5,
       "colorIdentity":[
@@ -1046,6 +2294,87 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/71.jpg?1527129978"
     },
     {
+      "artist":"Todd Lockwood",
+      "cmc":3,
+      "colorIdentity":[
+        "U",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "flavor":"\"Everyone has a price.\"",
+      "manaCost":"1WU",
+      "name":"Gwafa Hazid, Profiteer",
+      "number":"223",
+      "power":"2",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Rogue"
+      ],
+      "supertypes":[
+        "Legendary"
+      ],
+      "text":"{W}{U}, {T}: Put a bribery counter on target creature you don't control. Its controller draws a card.\nCreatures with bribery counters on them can't attack or block.",
+      "toughness":"2",
+      "type":"Legendary Creature — Human Rogue",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/223.jpg?1527255410"
+    },
+    {
+      "artist":"Lius Lasahido",
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"Silumgar trains those whom he favors in his magic, granting them the ability to spread his disdain across the land.",
+      "manaCost":"1B",
+      "name":"Hand of Silumgar",
+      "number":"146",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+      "toughness":"1",
+      "type":"Creature — Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/146.jpg?1527253707"
+    },
+    {
+      "artist":"Matt Cavotta",
+      "cmc":7,
+      "colorIdentity":[],
+      "flavor":"\"Use everything. Iron, rust, scrap . . . even the ground must join our cause.\" —Ezuri, renegade leader",
+      "manaCost":"7",
+      "name":"Hexplate Golem",
+      "number":"237",
+      "power":"5",
+      "rarity":"Common",
+      "subtypes":[
+        "Golem"
+      ],
+      "text":"",
+      "toughness":"7",
+      "type":"Artifact Creature — Golem",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/237.jpg?1527255728"
+    },
+    {
       "artist":"Magali Villeneuve",
       "cmc":3,
       "colorIdentity":[
@@ -1065,6 +2394,32 @@
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/36.jpg?1526935907"
+    },
+    {
+      "artist":"Thomas M. Baxa",
+      "cmc":4,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"Just one can feed a dozen people for a month.",
+      "manaCost":"3G",
+      "name":"Hunted Wumpus",
+      "number":"202",
+      "power":"6",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Beast"
+      ],
+      "text":"When Hunted Wumpus enters the battlefield, each other player may put a creature card from their hand onto the battlefield.",
+      "toughness":"6",
+      "type":"Creature — Beast",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/202.jpg?1527255084"
     },
     {
       "artist":"Jakub Kasper",
@@ -1163,6 +2518,34 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/251.jpg?1526935922"
     },
     {
+      "artist":"Wesley Burt",
+      "cmc":5,
+      "colorIdentity":[
+        "U",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "flavor":"Few among the Azorius have ever spoken with the sphinxes, but all have felt their influence.",
+      "manaCost":"3WU",
+      "name":"Jelenn Sphinx",
+      "number":"224",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Sphinx"
+      ],
+      "text":"Flying, vigilance\nWhenever Jelenn Sphinx attacks, other attacking creatures get +1/+1 until end of turn.",
+      "toughness":"5",
+      "type":"Creature — Sphinx",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/224.jpg?1527255422"
+    },
+    {
       "artist":"Filip Burburan",
       "cmc":3,
       "colorIdentity":[
@@ -1187,6 +2570,28 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/28.jpg?1527090290"
+    },
+    {
+      "artist":"Kev Walker",
+      "cmc":4,
+      "colorIdentity":[],
+      "flavor":"Many a besieged city has surrendered upon hearing the distinctive rumble of the juggernaut.",
+      "manaCost":"4",
+      "name":"Juggernaut",
+      "number":"238",
+      "power":"5",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Juggernaut"
+      ],
+      "text":"Juggernaut attacks each combat if able.\nJuggernaut can't be blocked by Walls.",
+      "toughness":"3",
+      "type":"Artifact Creature — Juggernaut",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/238.jpg?1527255743"
     },
     {
       "artist":"Chris Seaman",
@@ -1214,6 +2619,30 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/72.jpg?1526998454"
+    },
+    {
+      "artist":"Chase Stone",
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"The harvest god's cornucopia contains the fruits of the fields, the forest, and beyond.",
+      "manaCost":"1G",
+      "name":"Karametra's Favor",
+      "number":"203",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature\nWhen Karametra's Favor enters the battlefield, draw a card.\nEnchanted creature has \"{T}: Add one mana of any color.\"",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/203.jpg?1527256775"
     },
     {
       "artist":"Carmen Sinek",
@@ -1266,6 +2695,56 @@
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/59.jpg?1527111596"
+    },
+    {
+      "artist":"Todd Lockwood",
+      "cmc":6,
+      "colorIdentity":[
+        "U",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "flavor":"Once a year, Akrasa holds a joust that draws knights and their leotaus from every nation on Bant. The prize is an Akrasan sigil, but the true reward is the angel's kiss.",
+      "manaCost":"4WU",
+      "name":"Kiss of the Amesha",
+      "number":"225",
+      "rarity":"Uncommon",
+      "text":"Target player gains 7 life and draws two cards.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/225.jpg?1527255438"
+    },
+    {
+      "artist":"Greg Opalinski",
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"Why perch in the crow's nest when I can fly like the crows?\"",
+      "manaCost":"1U",
+      "name":"Kitesail Corsair",
+      "number":"120",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Pirate"
+      ],
+      "text":"Kitesail Corsair has flying as long as it's attacking.",
+      "toughness":"1",
+      "type":"Creature — Human Pirate",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/120.jpg?1527254522"
     },
     {
       "artist":"Scott Chou",
@@ -1321,6 +2800,33 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/121.jpg?1526935895"
     },
     {
+      "artist":"David Rapoza",
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"The insectile kraul lurk in the tunnels below street level. Many are loyal to the Golgari Swarm, but others follow their own esoteric caste system.",
+      "manaCost":"1G",
+      "name":"Kraul Warrior",
+      "number":"204",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Insect",
+        "Warrior"
+      ],
+      "text":"{5}{G}: Kraul Warrior gets +3/+3 until end of turn.",
+      "toughness":"2",
+      "type":"Creature — Insect Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/204.jpg?1527255112"
+    },
+    {
       "artist":"Randy Vargas",
       "cmc":5,
       "colorIdentity":[
@@ -1373,6 +2879,27 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/94.jpg?1526994881"
     },
     {
+      "artist":"Jason A. Engle",
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"Takedowns in Valor's Reach are never meant to be lethal, but that doesn't mean they won't be incredibly painful.",
+      "manaCost":"1B",
+      "name":"Last Gasp",
+      "number":"147",
+      "rarity":"Common",
+      "text":"Target creature gets -3/-3 until end of turn.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/147.jpg?1527253757"
+    },
+    {
       "artist":"Svetlin Velinov",
       "cmc":3,
       "colorIdentity":[
@@ -1421,6 +2948,27 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/60.jpg?1527080753"
     },
     {
+      "artist":"Johannes Voss",
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"Gideon and Nissa carved a path through the Eldrazi swarm, and their Zendikari allies charged into the fray behind them.",
+      "manaCost":"1G",
+      "name":"Lead by Example",
+      "number":"205",
+      "rarity":"Common",
+      "text":"Support 2. (Put a +1/+1 counter on each of up to two target creatures.)",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/205.jpg?1527255142"
+    },
+    {
       "artist":"Livia Prima",
       "cmc":4,
       "colorIdentity":[
@@ -1449,6 +2997,99 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/21.jpg?1527092581"
+    },
+    {
+      "artist":"Johann Bodin",
+      "cmc":3,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"The victim was either clawed to death or struck by lightning. Possibly both.\" —Pel Javya, Wojek investigator",
+      "manaCost":"2R",
+      "name":"Lightning Talons",
+      "number":"180",
+      "rarity":"Common",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature\nEnchanted creature gets +3/+0 and has first strike. (It deals combat damage before creatures without first strike.)",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/180.jpg?1527255454"
+    },
+    {
+      "artist":"Winona Nelson",
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"The greatest gift Dromoka gives is the ability to fly without wings.\" —Urdnan, Dromoka warrior",
+      "manaCost":"1W",
+      "name":"Lightwalker",
+      "number":"95",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"Lightwalker has flying as long as it has a +1/+1 counter on it.",
+      "toughness":"1",
+      "type":"Creature — Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/95.jpg?1527253920"
+    },
+    {
+      "artist":"Zack Stella",
+      "cmc":5,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"\"You harbor such vast potential. It would be such a shame to let you die of old age.\" —Zul Ashur, lich lord",
+      "manaCost":"3BB",
+      "name":"Liturgy of Blood",
+      "number":"148",
+      "rarity":"Common",
+      "text":"Destroy target creature. Add {B}{B}{B}.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/148.jpg?1527253789"
+    },
+    {
+      "artist":"Sidharth Chaturvedi",
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"The person who finishes a journey is rarely the same as the one who starts it.",
+      "manaCost":"1W",
+      "name":"Long Road Home",
+      "number":"96",
+      "rarity":"Uncommon",
+      "text":"Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner's control with a +1/+1 counter on it.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/96.jpg?1527253937"
     },
     {
       "artist":"Livia Prima",
@@ -1481,6 +3122,32 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/22.jpg?1527092535"
     },
     {
+      "artist":"John Severin Brassell",
+      "cmc":1,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"Even if I should die in the saddle, she will not let me fall to the ground.\" —Hypatia of the Winged Horse",
+      "manaCost":"W",
+      "name":"Loyal Pegasus",
+      "number":"97",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Pegasus"
+      ],
+      "text":"Flying\nLoyal Pegasus can't attack or block alone.",
+      "toughness":"1",
+      "type":"Creature — Pegasus",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/97.jpg?1527256787"
+    },
+    {
       "artist":"Jonas De Ro",
       "cmc":0,
       "colorIdentity":[
@@ -1497,6 +3164,58 @@
         "Land"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/82.jpg?1526904049"
+    },
+    {
+      "artist":"Jason Felix",
+      "cmc":7,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"The stadium is well-stocked with hazards to force the action if combatants show too much caution.",
+      "manaCost":"6R",
+      "name":"Magma Hellion",
+      "number":"61",
+      "power":"5",
+      "rarity":"Common",
+      "subtypes":[
+        "Hellion"
+      ],
+      "text":"Assist (Another player can pay up to {6} of this spell's cost.)\nTrample, haste",
+      "toughness":"4",
+      "type":"Creature — Hellion",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/61.jpg?1527256895"
+    },
+    {
+      "artist":"Jung Park",
+      "cmc":8,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"It's the pinnacle of utter destructiveness.",
+      "manaCost":"5RRR",
+      "name":"Magmatic Force",
+      "number":"181",
+      "power":"7",
+      "rarity":"Rare",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"At the beginning of each upkeep, Magmatic Force deals 3 damage to any target.",
+      "toughness":"7",
+      "type":"Creature — Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/181.jpg?1527255496"
     },
     {
       "artist":"Terese Nielsen",
@@ -1553,7 +3272,56 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/bbd/98.jpg?1527170383"
+      "url":"https://img.scryfall.com/cards/large/en/bbd/98.jpg?1527256658"
+    },
+    {
+      "artist":"Jason A. Engle",
+      "cmc":3,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"When you're on watch, no noise is harmless and no shadow can be ignored.\" —Olgard of the Skiltfolk",
+      "manaCost":"2W",
+      "name":"Midnight Guard",
+      "number":"99",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Soldier"
+      ],
+      "text":"Whenever another creature enters the battlefield, untap Midnight Guard.",
+      "toughness":"3",
+      "type":"Creature — Human Soldier",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/99.jpg?1527253964"
+    },
+    {
+      "artist":"Seb McKinnon",
+      "cmc":4,
+      "colorIdentity":[],
+      "flavor":"\"You've got to keep your wits about you on the roofs. Not all stones are compliant handholds.\" —Iveta, rooftop runner",
+      "manaCost":"4",
+      "name":"Millennial Gargoyle",
+      "number":"239",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Gargoyle"
+      ],
+      "text":"Flying",
+      "toughness":"2",
+      "type":"Artifact Creature — Gargoyle",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/239.jpg?1527255756"
     },
     {
       "artist":"Mitchell Malloy",
@@ -1599,6 +3367,27 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/240.jpg?1527176277"
     },
     {
+      "artist":"Kieran Yanner",
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"\"Every creation carries a piece of its creators. Their knowledge, their dreams, their soul. That is the best part.\"",
+      "manaCost":"1BB",
+      "name":"Morbid Curiosity",
+      "number":"149",
+      "rarity":"Uncommon",
+      "text":"As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw cards equal to the converted mana cost of the sacrificed permanent.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/149.jpg?1527253824"
+    },
+    {
       "artist":"Grzegorz Rutkowski",
       "cmc":0,
       "colorIdentity":[
@@ -1637,6 +3426,21 @@
         "Land"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/253.jpg?1526935939"
+    },
+    {
+      "artist":"Anthony S. Waters",
+      "cmc":6,
+      "colorIdentity":[],
+      "manaCost":"6",
+      "name":"Mycosynth Lattice",
+      "number":"241",
+      "rarity":"Mythic Rare",
+      "text":"All permanents are artifacts in addition to their other types.\nAll cards that aren't on the battlefield, spells, and permanents are colorless.\nPlayers may spend mana as though it were mana of any color.",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/241.jpg?1527188411"
     },
     {
       "artist":"Kieran Yanner",
@@ -1688,6 +3492,101 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/62.jpg?1527170792"
     },
     {
+      "artist":"Zack Stella",
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"It is fascinating to see how the people of this plane replicate magical techniques without a natural gift. Also frustrating.\" —Jace Beleren",
+      "manaCost":"1U",
+      "name":"Negate",
+      "number":"123",
+      "rarity":"Common",
+      "text":"Counter target noncreature spell.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/123.jpg?1527254550"
+    },
+    {
+      "artist":"Steve Argyle",
+      "cmc":3,
+      "colorIdentity":[],
+      "flavor":"\"One head watches for Consulate enforcers. The other watches for renegade thieves.\" —Crime Lord Gonti",
+      "manaCost":"3",
+      "name":"Night Market Guard",
+      "number":"242",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Construct"
+      ],
+      "text":"Night Market Guard can block an additional creature each combat.",
+      "toughness":"1",
+      "type":"Artifact Creature — Construct",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/242.jpg?1527255768"
+    },
+    {
+      "artist":"Anastasia Ovchinnikova",
+      "cmc":6,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"5U",
+      "name":"Nimbus Champion",
+      "number":"37",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Avatar",
+        "Warrior"
+      ],
+      "text":"Flying\nWhenever Nimbus Champion attacks, you may return target creature to its owner's hand if that creature's power is less than or equal to the number of Warriors your team controls.",
+      "toughness":"4",
+      "type":"Creature — Avatar Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/37.jpg?1527261315"
+    },
+    {
+      "artist":"Cliff Childs",
+      "cmc":5,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"The people of the Sevick Isles have a unique understanding of the term \"ominous clouds.\"",
+      "manaCost":"4U",
+      "name":"Nimbus of the Isles",
+      "number":"124",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"Flying (This creature can't be blocked except by creatures with flying or reach.)",
+      "toughness":"3",
+      "type":"Creature — Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/124.jpg?1527254573"
+    },
+    {
       "artist":"Igor Kieryluk",
       "cmc":6,
       "colorIdentity":[
@@ -1712,6 +3611,83 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/150.jpg?1527176171"
+    },
+    {
+      "artist":"Seb McKinnon",
+      "cmc":6,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"4BB",
+      "name":"Noosegraf Mob",
+      "number":"151",
+      "power":"0",
+      "rarity":"Rare",
+      "subtypes":[
+        "Zombie"
+      ],
+      "text":"Noosegraf Mob enters the battlefield with five +1/+1 counters on it.\nWhenever a player casts a spell, remove a +1/+1 counter from Noosegraf Mob. If you do, create a 2/2 black Zombie creature token.",
+      "toughness":"0",
+      "type":"Creature — Zombie",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/151.jpg?1527253858"
+    },
+    {
+      "artist":"Svetlin Velinov",
+      "cmc":6,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"Dragons of Silumgar's brood begin to digest their prey even before consuming it, letting their caustic breath do much of the work.",
+      "manaCost":"4BB",
+      "name":"Noxious Dragon",
+      "number":"152",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Dragon"
+      ],
+      "text":"Flying\nWhen Noxious Dragon dies, you may destroy target creature with converted mana cost 3 or less.",
+      "toughness":"4",
+      "type":"Creature — Dragon",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/152.jpg?1527253911"
+    },
+    {
+      "artist":"Raymond Swanland",
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"Born of volcanic forces, it thrives on the absolute panic it inspires.",
+      "manaCost":"1BB",
+      "name":"Nyxathid",
+      "number":"153",
+      "power":"7",
+      "rarity":"Rare",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"As Nyxathid enters the battlefield, choose an opponent.\nNyxathid gets -1/-1 for each card in the chosen player's hand.",
+      "toughness":"7",
+      "type":"Creature — Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/153.jpg?1527253942"
     },
     {
       "artist":"Yongjae Choi",
@@ -1744,7 +3720,104 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/bbd/6.jpg?1527101929"
+      "url":"https://img.scryfall.com/cards/large/en/bbd/6.jpg?1527199229"
+    },
+    {
+      "artist":"Dallas Williams",
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"Her prophecies amaze her even as she speaks them.",
+      "manaCost":"1U",
+      "name":"Omenspeaker",
+      "number":"125",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Wizard"
+      ],
+      "text":"When Omenspeaker enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "toughness":"3",
+      "type":"Creature — Human Wizard",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/125.jpg?1527254586"
+    },
+    {
+      "artist":"Allen Williams",
+      "cmc":6,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"Opportunity isn't something you wait for. It's something you create.\"",
+      "manaCost":"4UU",
+      "name":"Opportunity",
+      "number":"126",
+      "rarity":"Uncommon",
+      "text":"Target player draws four cards.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/126.jpg?1527254618"
+    },
+    {
+      "artist":"Raymond Swanland",
+      "cmc":4,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"3U",
+      "name":"Oracle's Insight",
+      "number":"127",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature\nEnchanted creature has \"{T}: Scry 1, then draw a card.\" (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/127.jpg?1527254630"
+    },
+    {
+      "artist":"Winona Nelson",
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"1W",
+      "name":"Oreskos Explorer",
+      "number":"100",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Cat",
+        "Scout"
+      ],
+      "text":"When Oreskos Explorer enters the battlefield, search your library for up to X Plains cards, where X is the number of players who control more lands than you. Reveal those cards, put them into your hand, then shuffle your library.",
+      "toughness":"2",
+      "type":"Creature — Cat Scout",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/100.jpg?1527253990"
     },
     {
       "artist":"Dmitry Burmak",
@@ -1759,13 +3832,107 @@
       "manaCost":"3U",
       "name":"Out of Bounds",
       "number":"38",
-      "rarity":"Common",
+      "rarity":"Uncommon",
       "text":"Assist (Another player can pay up to {3} of this spell's cost.)\nCounter target spell.",
       "type":"Instant",
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/bbd/38.jpg?1527081324"
+      "url":"https://img.scryfall.com/cards/large/en/bbd/38.jpg?1527256796"
+    },
+    {
+      "artist":"Robert Bliss",
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"For the first time in his life, Grakk felt a little warm and fuzzy inside.",
+      "manaCost":"1W",
+      "name":"Pacifism",
+      "number":"101",
+      "rarity":"Common",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature\nEnchanted creature can't attack or block.",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/101.jpg?1527254004"
+    },
+    {
+      "artist":"Adrian Majkrzak",
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"\"You wish to remember this lesson? I will write it down for you.\" —Senifet, vizier of Bontu",
+      "manaCost":"2B",
+      "name":"Painful Lesson",
+      "number":"154",
+      "rarity":"Common",
+      "text":"Target player draws two cards and loses 2 life.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/154.jpg?1527253969"
+    },
+    {
+      "artist":"Josu Hernaiz",
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"The expected way through the trial is far too tedious.\"",
+      "manaCost":"1R",
+      "name":"Pathmaker Initiate",
+      "number":"182",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Wizard"
+      ],
+      "text":"{T}: Target creature with power 2 or less can't be blocked this turn.",
+      "toughness":"1",
+      "type":"Creature — Human Wizard",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/182.jpg?1527255529"
+    },
+    {
+      "artist":"Igor Kieryluk",
+      "cmc":4,
+      "colorIdentity":[],
+      "flavor":"\"The Vanished must have sent it from beyond to aid us in this struggle.\" —Kessla, Sylvok shaman",
+      "manaCost":"4",
+      "name":"Peace Strider",
+      "number":"243",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Construct"
+      ],
+      "text":"When Peace Strider enters the battlefield, you gain 3 life.",
+      "toughness":"3",
+      "type":"Artifact Creature — Construct",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/243.jpg?1527255793"
     },
     {
       "artist":"Mike Bierek",
@@ -1792,6 +3959,55 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/128.jpg?1526904310"
+    },
+    {
+      "artist":"Greg Staples",
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"The construction of a defense is not accomplished by adding bricks.\" —Jace Beleren",
+      "manaCost":"1UU",
+      "name":"Phantom Warrior",
+      "number":"129",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Illusion",
+        "Warrior"
+      ],
+      "text":"Phantom Warrior can't be blocked.",
+      "toughness":"2",
+      "type":"Creature — Illusion Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/129.jpg?1527254663"
+    },
+    {
+      "artist":"Igor Kieryluk",
+      "cmc":4,
+      "colorIdentity":[],
+      "flavor":"\"Pain isn't a negative stimulus. Pain is a sign of your imperfection.\" —Sheoldred, Whispering One",
+      "manaCost":"4",
+      "name":"Pierce Strider",
+      "number":"244",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Construct"
+      ],
+      "text":"When Pierce Strider enters the battlefield, target opponent loses 3 life.",
+      "toughness":"3",
+      "type":"Artifact Creature — Construct",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/244.jpg?1527256609"
     },
     {
       "artist":"Zoltan Boros",
@@ -1868,6 +4084,32 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/250.jpg?1526935957"
     },
     {
+      "artist":"Jama Jurabaev",
+      "cmc":7,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"\"It might fight the Eldrazi, but don't mistake it for a companion, Gideon. It's not interested in your concept of strength through unity.\"—Najiya, leader of the Tajuru",
+      "manaCost":"4GGG",
+      "name":"Plated Crusher",
+      "number":"207",
+      "power":"7",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Beast"
+      ],
+      "text":"Trample, hexproof",
+      "toughness":"6",
+      "type":"Creature — Beast",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/207.jpg?1527255159"
+    },
+    {
       "artist":"Jung Park",
       "cmc":8,
       "colorIdentity":[
@@ -1887,6 +4129,59 @@
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/29.jpg?1526909370"
+    },
+    {
+      "artist":"Igor Kieryluk",
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"It's rare that the Prakhata Club closes its doors. It's also rare that Lord Gonti meets with Consul Kambal. What are the odds the two would occur on the same day?",
+      "manaCost":"3B",
+      "name":"Prakhata Club Security",
+      "number":"155",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Aetherborn",
+        "Warrior"
+      ],
+      "text":"",
+      "toughness":"4",
+      "type":"Creature — Aetherborn Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/155.jpg?1527254005"
+    },
+    {
+      "artist":"Chris Rahn",
+      "cmc":4,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"\"To the unskilled, it appears as blurred patches of distorted light. Few have seen its true form.\" —Garruk Wildspeaker",
+      "manaCost":"3G",
+      "name":"Primal Huntbeast",
+      "number":"208",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Beast"
+      ],
+      "text":"Hexproof (This creature can't be the target of spells or abilities your opponents control.)",
+      "toughness":"3",
+      "type":"Creature — Beast",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/208.jpg?1527255173"
     },
     {
       "artist":"Jakub Kasper",
@@ -1918,6 +4213,147 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/20.jpg?1526935873"
+    },
+    {
+      "artist":"Matt Stewart",
+      "cmc":3,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"\"Little flower twirl and bloom, arise from this your rocky tomb. Little warrior slash and brawl, be born again to free us all.\"",
+      "manaCost":"2G",
+      "name":"Pulse of Murasa",
+      "number":"209",
+      "rarity":"Uncommon",
+      "text":"Return target creature or land card from a graveyard to its owner's hand. You gain 6 life.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/209.jpg?1527256363"
+    },
+    {
+      "artist":"Chris Rahn",
+      "cmc":1,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"B",
+      "name":"Quest for the Gravelord",
+      "number":"156",
+      "rarity":"Uncommon",
+      "text":"Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.\nRemove three quest counters from Quest for the Gravelord and sacrifice it: Create a 5/5 black Zombie Giant creature token.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/156.jpg?1527254035"
+    },
+    {
+      "artist":"Slawomir Maniak",
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"A raptor will follow any order as long as that order is \"hunt,\" \"kill,\" or \"go for the guts.\"",
+      "manaCost":"1W",
+      "name":"Raptor Companion",
+      "number":"102",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Dinosaur"
+      ],
+      "text":"",
+      "toughness":"1",
+      "type":"Creature — Dinosaur",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/102.jpg?1527254020"
+    },
+    {
+      "artist":"Igor Kieryluk",
+      "cmc":3,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"No one chooses to be stitched together into a skaab. If it could speak, it would beg for its own destruction.\" —Thalia, Knight-Cathar",
+      "manaCost":"2W",
+      "name":"Rebuke",
+      "number":"103",
+      "rarity":"Common",
+      "text":"Destroy target attacking creature.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/103.jpg?1527254030"
+    },
+    {
+      "artist":"Mike Sass",
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"The gods of Theros are born of the expectations and beliefs of mortals. If I have found godhood, what does that say about their true desires?\" —Xenagos, god of revels",
+      "manaCost":"1R",
+      "name":"Reckless Reveler",
+      "number":"183",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Satyr"
+      ],
+      "text":"{R}, Sacrifice Reckless Reveler: Destroy target artifact.",
+      "toughness":"1",
+      "type":"Creature — Satyr",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/183.jpg?1527255561"
+    },
+    {
+      "artist":"Steve Prescott",
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"Progress comes at a price.",
+      "manaCost":"2U",
+      "name":"Reckless Scholar",
+      "number":"130",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Wizard"
+      ],
+      "text":"{T}: Target player draws a card, then discards a card.",
+      "toughness":"1",
+      "type":"Creature — Human Wizard",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/130.jpg?1527254674"
     },
     {
       "artist":"Bayard Wu",
@@ -1973,6 +4409,139 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/3.jpg?1526995307"
     },
     {
+      "artist":"Matt Stewart",
+      "cmc":3,
+      "colorIdentity":[
+        "G",
+        "R"
+      ],
+      "colors":[
+        "Red",
+        "Green"
+      ],
+      "flavor":"\"I swore to take one head for each member of my family they killed. My task is nowhere near its end.\"",
+      "manaCost":"1RG",
+      "name":"Relentless Hunter",
+      "number":"226",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Warrior"
+      ],
+      "text":"{1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.",
+      "toughness":"3",
+      "type":"Creature — Human Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/226.jpg?1527255451"
+    },
+    {
+      "artist":"Mark Winters",
+      "cmc":4,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"\"Dragons are feared for their breath and their bite, but it is their wings that make them unconquerable. Bring them to earth, and they die like any other beast.\" —Kassur, Sultai hunter",
+      "manaCost":"3G",
+      "name":"Return to the Earth",
+      "number":"210",
+      "rarity":"Common",
+      "text":"Destroy target artifact, enchantment, or creature with flying.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/210.jpg?1527255191"
+    },
+    {
+      "artist":"Raymond Swanland",
+      "cmc":4,
+      "colorIdentity":[
+        "G",
+        "R"
+      ],
+      "colors":[
+        "Red",
+        "Green"
+      ],
+      "flavor":"\"In this new world, I have seen the once-devout rhoxes take up arms with the savages of Jund. I would be offended, but I see the wisdom in their choice.\" —Gernan, Dawnray archer",
+      "manaCost":"2RG",
+      "name":"Rhox Brute",
+      "number":"227",
+      "power":"4",
+      "rarity":"Common",
+      "subtypes":[
+        "Rhino",
+        "Warrior"
+      ],
+      "text":"",
+      "toughness":"4",
+      "type":"Creature — Rhino Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/227.jpg?1527255459"
+    },
+    {
+      "artist":"David Martin",
+      "cmc":3,
+      "colorIdentity":[
+        "U",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "flavor":"It sleeps with its claws open.",
+      "manaCost":"1WU",
+      "name":"Riptide Crab",
+      "number":"228",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Crab"
+      ],
+      "text":"Vigilance\nWhen Riptide Crab dies, draw a card.",
+      "toughness":"3",
+      "type":"Creature — Crab",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/228.jpg?1527255489"
+    },
+    {
+      "artist":"Yeong-Hao Han",
+      "cmc":5,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"Is it at the top of the food chain or the bottom?",
+      "manaCost":"4B",
+      "name":"Rotfeaster Maggot",
+      "number":"157",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Insect"
+      ],
+      "text":"When Rotfeaster Maggot enters the battlefield, exile target creature card from a graveyard. You gain life equal to that card's toughness.",
+      "toughness":"5",
+      "type":"Creature — Insect",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/157.jpg?1527254104"
+    },
+    {
       "artist":"Anna Steinbauer",
       "cmc":6,
       "colorIdentity":[
@@ -2002,6 +4571,33 @@
         "Planeswalker"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/2.jpg?1526908985"
+    },
+    {
+      "artist":"Scott M. Fischer",
+      "cmc":3,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"Loyalty guides me. Pride compels me. Anger sustains me. And the pay isn't bad.\"",
+      "manaCost":"2W",
+      "name":"Royal Trooper",
+      "number":"104",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Soldier"
+      ],
+      "text":"Whenever Royal Trooper blocks, it gets +2/+2 until end of turn.",
+      "toughness":"2",
+      "type":"Creature — Human Soldier",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/104.jpg?1527254120"
     },
     {
       "artist":"Gabor Szikszai",
@@ -2086,6 +4682,59 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/39.jpg?1526996408"
     },
     {
+      "artist":"Slawomir Maniak",
+      "cmc":6,
+      "colorIdentity":[
+        "G",
+        "R"
+      ],
+      "colors":[
+        "Red",
+        "Green"
+      ],
+      "manaCost":"4RG",
+      "name":"Savage Ventmaw",
+      "number":"229",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Dragon"
+      ],
+      "text":"Flying\nWhenever Savage Ventmaw attacks, add {R}{R}{R}{G}{G}{G}. Until end of turn, you don't lose this mana as steps and phases end.",
+      "toughness":"4",
+      "type":"Creature — Dragon",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/229.jpg?1527255571"
+    },
+    {
+      "artist":"Heather Hudson",
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"\"A shrill creature that delights in the misery of others—what's not to love?\" —Braids, dementia summoner",
+      "manaCost":"3B",
+      "name":"Screeching Buzzard",
+      "number":"158",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Bird"
+      ],
+      "text":"Flying\nWhen Screeching Buzzard dies, each opponent discards a card.",
+      "toughness":"2",
+      "type":"Creature — Bird",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/158.jpg?1527254196"
+    },
+    {
       "artist":"Florian de Gesincourt",
       "cmc":0,
       "colorIdentity":[
@@ -2131,6 +4780,22 @@
     },
     {
       "artist":"Jung Park",
+      "cmc":3,
+      "colorIdentity":[],
+      "flavor":"A light to bring hope in dark times.",
+      "manaCost":"3",
+      "name":"Seer's Lantern",
+      "number":"245",
+      "rarity":"Common",
+      "text":"{T}: Add {C}. ({C} represents colorless mana.)\n{2}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/245.jpg?1527255853"
+    },
+    {
+      "artist":"Jung Park",
       "cmc":4,
       "colorIdentity":[],
       "flavor":"The built-in obstacles force competitors to think three moves ahead.",
@@ -2138,12 +4803,59 @@
       "name":"Sentinel Tower",
       "number":"79",
       "rarity":"Rare",
-      "text":"Whenever an instant or sorcery spell is cast during your turn, Sentinel Tower deals 1 damage to any target equal to 1 plus the number of instant and sorcery spells cast before that spell this turn.",
+      "text":"Whenever an instant or sorcery spell is cast during your turn, Sentinel Tower deals damage to any target equal to 1 plus the number of instant and sorcery spells cast before that spell this turn.",
       "type":"Artifact",
       "types":[
         "Artifact"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/bbd/79.jpg?1527129725"
+      "url":"https://img.scryfall.com/cards/large/en/bbd/79.jpg?1527183585"
+    },
+    {
+      "artist":"Joseph Meehan",
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"Once he gets up and going, he will forever shamble on.",
+      "manaCost":"1B",
+      "name":"Shambling Ghoul",
+      "number":"159",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Zombie"
+      ],
+      "text":"Shambling Ghoul enters the battlefield tapped.",
+      "toughness":"3",
+      "type":"Creature — Zombie",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/159.jpg?1527254241"
+    },
+    {
+      "artist":"Jason Rainville",
+      "cmc":1,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"The tools of invention became the weapons of revolution.",
+      "manaCost":"R",
+      "name":"Shock",
+      "number":"184",
+      "rarity":"Common",
+      "text":"Shock deals 2 damage to any target.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/184.jpg?1527255623"
     },
     {
       "artist":"Chris Rallis",
@@ -2194,6 +4906,32 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/50.jpg?1526995935"
     },
     {
+      "artist":"Howard Lyon",
+      "cmc":2,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"Be careful in your hunt. The clever little creature can steal your wards and lead you right into the werewolf's den.\" —Britta, midwife of Gatstaf",
+      "manaCost":"1W",
+      "name":"Silverchase Fox",
+      "number":"106",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Fox"
+      ],
+      "text":"{1}{W}, Sacrifice Silverchase Fox: Exile target enchantment.",
+      "toughness":"2",
+      "type":"Creature — Fox",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/106.jpg?1527254152"
+    },
+    {
       "artist":"Mark Romanoski",
       "cmc":4,
       "colorIdentity":[
@@ -2241,6 +4979,32 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/31.jpg?1527098078"
     },
     {
+      "artist":"Karl Kopinski",
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"It's sent into unguilded districts by the Orzhov to collect the souls of those no one will miss.",
+      "manaCost":"3B",
+      "name":"Slum Reaper",
+      "number":"160",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Horror"
+      ],
+      "text":"When Slum Reaper enters the battlefield, each player sacrifices a creature.",
+      "toughness":"2",
+      "type":"Creature — Horror",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/160.jpg?1527254271"
+    },
+    {
       "artist":"Sidharth Chaturvedi",
       "cmc":3,
       "colorIdentity":[
@@ -2266,6 +5030,27 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/40.jpg?1526904384"
+    },
+    {
+      "artist":"Sam Wood",
+      "cmc":3,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"You will be reimbursed for your donation.\" \"The reimbursement is spiritual.\" —Temple signs",
+      "manaCost":"2W",
+      "name":"Solemn Offering",
+      "number":"107",
+      "rarity":"Uncommon",
+      "text":"Destroy target artifact or enchantment. You gain 4 life.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/107.jpg?1527256819"
     },
     {
       "artist":"Suzanne Helmigh",
@@ -2355,6 +5140,48 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/131.jpg?1526994788"
     },
     {
+      "artist":"Ryan Pancoast",
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"Aspiring to earn their place in the afterlife, acolytes train every day against those who fell short of that glory.",
+      "manaCost":"3W",
+      "name":"Sparring Mummy",
+      "number":"108",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Zombie"
+      ],
+      "text":"When Sparring Mummy enters the battlefield, untap target creature.",
+      "toughness":"3",
+      "type":"Creature — Zombie",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/108.jpg?1527254177"
+    },
+    {
+      "artist":"Martina Pilcerova",
+      "cmc":3,
+      "colorIdentity":[],
+      "flavor":"The first searchlights were given as gifts, symbols of cooperation, to the emissaries present at the signing of the Guildpact.",
+      "manaCost":"3",
+      "name":"Spectral Searchlight",
+      "number":"246",
+      "rarity":"Uncommon",
+      "text":"{T}: Choose a player. That player adds one mana of any color they choose.",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/246.jpg?1527255869"
+    },
+    {
       "artist":"Igor Kieryluk",
       "cmc":3,
       "colorIdentity":[
@@ -2411,6 +5238,7 @@
       "colors":[
         "Blue"
       ],
+      "flavor":"Synchronized spell weaving is a difficult but rewarding skill to master.",
       "manaCost":"6U",
       "name":"Spellweaver Duo",
       "number":"42",
@@ -2426,7 +5254,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/bbd/42.jpg?1527176402"
+      "url":"https://img.scryfall.com/cards/large/en/bbd/42.jpg?1527176752"
     },
     {
       "artist":"Darek Zabrocki",
@@ -2473,6 +5301,32 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/63.jpg?1527088437"
     },
     {
+      "artist":"John Severin Brassell",
+      "cmc":5,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"It glides over the landscape. It also happens to be one.",
+      "manaCost":"4W",
+      "name":"Steppe Glider",
+      "number":"109",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"Flying, vigilance\n{1}{W}: Target creature with a +1/+1 counter on it gains flying and vigilance until end of turn.",
+      "toughness":"4",
+      "type":"Creature — Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/109.jpg?1527254188"
+    },
+    {
       "artist":"Dmitry Burmak",
       "cmc":5,
       "colorIdentity":[
@@ -2491,6 +5345,28 @@
         "Enchantment"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/64.jpg?1527003450"
+    },
+    {
+      "artist":"Martina Pilcerova",
+      "cmc":5,
+      "colorIdentity":[],
+      "flavor":"The sculptor, like most artists, put his heart and soul in his work. But the newly awakened golem decided he wanted his creator's other, more tangible parts.",
+      "manaCost":"5",
+      "name":"Stone Golem",
+      "number":"247",
+      "power":"4",
+      "rarity":"Common",
+      "subtypes":[
+        "Golem"
+      ],
+      "text":"",
+      "toughness":"4",
+      "type":"Artifact Creature — Golem",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/247.jpg?1527256725"
     },
     {
       "artist":"Zoltan Boros",
@@ -2533,7 +5409,54 @@
       "types":[
         "Land"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/bbd/252.jpg?1526936059"
+      "url":"https://img.scryfall.com/cards/large/en/bbd/252.jpg?1527244840"
+    },
+    {
+      "artist":"Marco Nelor",
+      "cmc":5,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"In the Gudul delta, bloodfly bites are indistinguishable from spear wounds.",
+      "manaCost":"4B",
+      "name":"Swarm of Bloodflies",
+      "number":"161",
+      "power":"0",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Insect"
+      ],
+      "text":"Flying\nSwarm of Bloodflies enters the battlefield with two +1/+1 counters on it.\nWhenever another creature dies, put a +1/+1 counter on Swarm of Bloodflies.",
+      "toughness":"0",
+      "type":"Creature — Insect",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/161.jpg?1527254307"
+    },
+    {
+      "artist":"Kev Walker",
+      "cmc":5,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"Say hello to your new friend.",
+      "manaCost":"4U",
+      "name":"Switcheroo",
+      "number":"133",
+      "rarity":"Uncommon",
+      "text":"Exchange control of two target creatures.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/133.jpg?1527254694"
     },
     {
       "artist":"Terese Nielsen",
@@ -2590,6 +5513,27 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/10.jpg?1527088169"
     },
     {
+      "artist":"Craig J Spearing",
+      "cmc":5,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"Many scales make the skin of a dragon.\" —Abzan wisdom",
+      "manaCost":"4W",
+      "name":"Take Up Arms",
+      "number":"111",
+      "rarity":"Uncommon",
+      "text":"Create three 1/1 white Warrior creature tokens.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/111.jpg?1527254198"
+    },
+    {
       "artist":"David Gaillet",
       "cmc":2,
       "colorIdentity":[
@@ -2609,6 +5553,60 @@
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/112.jpg?1527176149"
+    },
+    {
+      "artist":"Cynthia Sheppard",
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"Rakdos cultists are her best customers. They never flinch at pain and are seldom good at math.",
+      "manaCost":"1B",
+      "name":"Tavern Swindler",
+      "number":"162",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Rogue"
+      ],
+      "text":"{T}, Pay 3 life: Flip a coin. If you win the flip, you gain 6 life.",
+      "toughness":"2",
+      "type":"Creature — Human Rogue",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/162.jpg?1527254346"
+    },
+    {
+      "artist":"John Stanko",
+      "cmc":1,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"Raising the bones of Hekjek the Mad proved far easier than getting them to lie back down.",
+      "manaCost":"B",
+      "name":"Tenacious Dead",
+      "number":"163",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Skeleton",
+        "Warrior"
+      ],
+      "text":"When Tenacious Dead dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner's control.",
+      "toughness":"1",
+      "type":"Creature — Skeleton Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/163.jpg?1527254419"
     },
     {
       "artist":"Mike Burns",
@@ -2677,6 +5675,27 @@
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/53.jpg?1527176646"
+    },
+    {
+      "artist":"Wayne Reynolds",
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"Lightning reflexes, thunderous might.",
+      "manaCost":"1R",
+      "name":"Thunder Strike",
+      "number":"185",
+      "rarity":"Common",
+      "text":"Target creature gets +2/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/185.jpg?1527255663"
     },
     {
       "artist":"Viktor Titov",
@@ -2757,6 +5776,27 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/12.jpg?1526935988"
     },
     {
+      "artist":"David Palumbo",
+      "cmc":5,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"Fblthp had always hated crowds.",
+      "manaCost":"4U",
+      "name":"Totally Lost",
+      "number":"135",
+      "rarity":"Common",
+      "text":"Put target nonland permanent on top of its owner's library.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/135.jpg?1527254706"
+    },
+    {
       "artist":"Zack Stella",
       "cmc":3,
       "colorIdentity":[
@@ -2781,6 +5821,124 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/bbd/136.jpg?1526994717"
+    },
+    {
+      "artist":"Steve Prescott",
+      "cmc":3,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"Do you hear that, Sarkhan? The glory of the horde! I made a legend from what you abandoned.\" —Zurgo, khan of the Mardu",
+      "manaCost":"2R",
+      "name":"Trumpet Blast",
+      "number":"186",
+      "rarity":"Common",
+      "text":"Attacking creatures get +2/+0 until end of turn.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/186.jpg?1527255699"
+    },
+    {
+      "artist":"Yeong-Hao Han",
+      "cmc":2,
+      "colorIdentity":[],
+      "flavor":"\"Though tempered differently, all wills can be broken.\" —Inquisitor Kyrik",
+      "manaCost":"2",
+      "name":"Tyrant's Machine",
+      "number":"248",
+      "rarity":"Common",
+      "text":"{4}, {T}: Tap target creature.",
+      "type":"Artifact",
+      "types":[
+        "Artifact"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/248.jpg?1527255911"
+    },
+    {
+      "artist":"Mike Bierek",
+      "cmc":3,
+      "colorIdentity":[
+        "G",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Green"
+      ],
+      "manaCost":"1GW",
+      "name":"Unflinching Courage",
+      "number":"230",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Aura"
+      ],
+      "text":"Enchant creature\nEnchanted creature gets +2/+2 and has trample and lifelink.",
+      "type":"Enchantment — Aura",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/230.jpg?1527255590"
+    },
+    {
+      "artist":"Sam Wood",
+      "cmc":3,
+      "colorIdentity":[
+        "B",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "flavor":"Relentless as the sea, remorseless as death.",
+      "manaCost":"1UB",
+      "name":"Urborg Drake",
+      "number":"231",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Drake"
+      ],
+      "text":"Flying\nUrborg Drake attacks each combat if able.",
+      "toughness":"3",
+      "type":"Creature — Drake",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/231.jpg?1527255610"
+    },
+    {
+      "artist":"Manuel Castañón",
+      "cmc":8,
+      "colorIdentity":[
+        "B",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "manaCost":"6UB",
+      "name":"Vampire Charmseeker",
+      "number":"78",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Vampire",
+        "Wizard"
+      ],
+      "text":"Assist (Another player can pay up to {6} of this spell's cost.)\nFlying\nWhen Vampire Charmseeker enters the battlefield, return target instant, sorcery, or creature card from a graveyard to its owner's hand.",
+      "toughness":"4",
+      "type":"Creature — Vampire Wizard",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/78.jpg?1527255330"
     },
     {
       "artist":"Steven Belledin",
@@ -2906,6 +6064,79 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/7.jpg?1526907995"
     },
     {
+      "artist":"Tomasz Jedruszek",
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"Humans still feared wolves, though no connection between them and the curse of lycanthropy had ever been proved.",
+      "manaCost":"1G",
+      "name":"Wandering Wolf",
+      "number":"216",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Wolf"
+      ],
+      "text":"Creatures with power less than Wandering Wolf's power can't block it.",
+      "toughness":"1",
+      "type":"Creature — Wolf",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/216.jpg?1527255237"
+    },
+    {
+      "artist":"Dana Knutson",
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"Razia, archangel of war, demands total commitment.",
+      "manaCost":"3R",
+      "name":"War's Toll",
+      "number":"187",
+      "rarity":"Rare",
+      "text":"Whenever an opponent taps a land for mana, tap all lands that player controls.\nIf a creature an opponent controls attacks, all creatures that opponent controls attack if able.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/187.jpg?1527255723"
+    },
+    {
+      "artist":"Mathias Kollros",
+      "cmc":3,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"Beware an eddy where there should be none or a stretch that flows too fast or too slow.\"—Old Fishbones, Martyne river guide",
+      "manaCost":"2U",
+      "name":"Watercourser",
+      "number":"137",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"{U}: Watercourser gets +1/-1 until end of turn.",
+      "toughness":"3",
+      "type":"Creature — Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/137.jpg?1527254718"
+    },
+    {
       "artist":"Anna Steinbauer",
       "cmc":6,
       "colorIdentity":[
@@ -2937,6 +6168,49 @@
       "url":"https://img.scryfall.com/cards/large/en/bbd/1.jpg?1526922175"
     },
     {
+      "artist":"Véronique Meignaud",
+      "cmc":4,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"Our pyromancer's flames may not have killed them, but they bought us the time we needed.\" —The War Diaries",
+      "manaCost":"3R",
+      "name":"Wrap in Flames",
+      "number":"188",
+      "rarity":"Common",
+      "text":"Wrap in Flames deals 1 damage to each of up to three target creatures. Those creatures can't block this turn.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/188.jpg?1527255753"
+    },
+    {
+      "artist":"Luca Zontini",
+      "cmc":3,
+      "colorIdentity":[],
+      "flavor":"Poets dream the verses of otherworldly stories. Artificers dream the blueprints of otherplanar artifacts.",
+      "manaCost":"3",
+      "name":"Yotian Soldier",
+      "number":"249",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Soldier"
+      ],
+      "text":"Vigilance",
+      "toughness":"4",
+      "type":"Artifact Creature — Soldier",
+      "types":[
+        "Artifact",
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/bbd/249.jpg?1527255932"
+    },
+    {
       "artist":"Yongjae Choi",
       "cmc":5,
       "colorIdentity":[
@@ -2966,7 +6240,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/bbd/5.jpg?1527101930"
+      "url":"https://img.scryfall.com/cards/large/en/bbd/5.jpg?1527199452"
     },
     {
       "artist":"Bayard Wu",
