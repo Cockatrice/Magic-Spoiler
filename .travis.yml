@@ -28,18 +28,41 @@ notifications:
     on_failure: change  # options: [always|never|change] default: always
     on_start: never     # options: [always|never|change] default: always
 
+
+# Builds for pull requests skip the deployment step altogether
 deploy:
-  provider: releases
-  api_key:
-    secure: Bin220gU9Re176T/1bIaX/rhGB+uEaw13aoB2/ir0ePHQB0ihasEJcsgmlN8kz93KSN6vp4y2HwMLnz3t7Pn0amTV8QVL/AlOOzjbq8m/1kYTbXdPlYnMsosZPVFLHRan4LEGFsovRia6LO4p9fqC8BDgQl89W/88PlYAMWzao5jTyKKHp8o+sioYhKj9D+86lxLYspQ+6SN0HOCnF2MZ/vZtxbY32ituswAc/sJK1MtZ/PExoMe1nSI2iKCaatXyKA+FVCUNLHRAu4LgB1GfJCLpmlPbvjud8A6WAKNF6poNCvFck+Ox56tt4bw3ggR5W9kTEhvX74l6AEeC7Qz6bHjh1CEngrqFjyaHy25CcygWgagf0DUsvyGRS0RqEx4bz9psD09d+oWihdkJMfa5kRzXtVQD8sxDgsBqEz/DjsMIlf/L5ISSa7lAYiqq65ELpezBFOlvEZ9avOYLcZc7m5/5ZhtcA4HPSqzfn2nhkPpeggBKufMdyc8JIDkvs/JlFsNu46QVvugjbdGvtb4SlQK310py0TOA6nYt7WntDhX3SukKAeh6oHjZaL5aeoSBhnlQRgJfDBqI3+7anLatD30uEKCMp5sWcLrjB1HO9ZH5nceWBg4cMKJvI/zT77h96fCy7uMkPNt867GP8O9KkWVWzxGBkpIdstigNWfT5g=
-  file_glob: true
-  file: out/*.xml
-  skip_cleanup: true
-  overwrite: true
-  draft: true
-  on:
-    tags: true
-    branch: master
+# Continious deployment of most recent spoiler.xml
+  - provider: releases
+    api_key:
+      secure: Bin220gU9Re176T/1bIaX/rhGB+uEaw13aoB2/ir0ePHQB0ihasEJcsgmlN8kz93KSN6vp4y2HwMLnz3t7Pn0amTV8QVL/AlOOzjbq8m/1kYTbXdPlYnMsosZPVFLHRan4LEGFsovRia6LO4p9fqC8BDgQl89W/88PlYAMWzao5jTyKKHp8o+sioYhKj9D+86lxLYspQ+6SN0HOCnF2MZ/vZtxbY32ituswAc/sJK1MtZ/PExoMe1nSI2iKCaatXyKA+FVCUNLHRAu4LgB1GfJCLpmlPbvjud8A6WAKNF6poNCvFck+Ox56tt4bw3ggR5W9kTEhvX74l6AEeC7Qz6bHjh1CEngrqFjyaHy25CcygWgagf0DUsvyGRS0RqEx4bz9psD09d+oWihdkJMfa5kRzXtVQD8sxDgsBqEz/DjsMIlf/L5ISSa7lAYiqq65ELpezBFOlvEZ9avOYLcZc7m5/5ZhtcA4HPSqzfn2nhkPpeggBKufMdyc8JIDkvs/JlFsNu46QVvugjbdGvtb4SlQK310py0TOA6nYt7WntDhX3SukKAeh6oHjZaL5aeoSBhnlQRgJfDBqI3+7anLatD30uEKCMp5sWcLrjB1HO9ZH5nceWBg4cMKJvI/zT77h96fCy7uMkPNt867GP8O9KkWVWzxGBkpIdstigNWfT5g=
+    name: "Current output"
+    body: "Most recent spoiler.xml (put date here)"
+    file_glob: true
+    file: out/spoiler.xml
+    skip_cleanup: true
+    overwrite: true
+    draft: false
+    prerelease: true
+    on:
+      repo: Cockatrice/Magic-Spoiler
+      branch: master
+
+# Deployment of fully spoiled sets for archive reasons (on tags)
+  - provider: releases
+    api_key:
+      secure: Bin220gU9Re176T/1bIaX/rhGB+uEaw13aoB2/ir0ePHQB0ihasEJcsgmlN8kz93KSN6vp4y2HwMLnz3t7Pn0amTV8QVL/AlOOzjbq8m/1kYTbXdPlYnMsosZPVFLHRan4LEGFsovRia6LO4p9fqC8BDgQl89W/88PlYAMWzao5jTyKKHp8o+sioYhKj9D+86lxLYspQ+6SN0HOCnF2MZ/vZtxbY32ituswAc/sJK1MtZ/PExoMe1nSI2iKCaatXyKA+FVCUNLHRAu4LgB1GfJCLpmlPbvjud8A6WAKNF6poNCvFck+Ox56tt4bw3ggR5W9kTEhvX74l6AEeC7Qz6bHjh1CEngrqFjyaHy25CcygWgagf0DUsvyGRS0RqEx4bz9psD09d+oWihdkJMfa5kRzXtVQD8sxDgsBqEz/DjsMIlf/L5ISSa7lAYiqq65ELpezBFOlvEZ9avOYLcZc7m5/5ZhtcA4HPSqzfn2nhkPpeggBKufMdyc8JIDkvs/JlFsNu46QVvugjbdGvtb4SlQK310py0TOA6nYt7WntDhX3SukKAeh6oHjZaL5aeoSBhnlQRgJfDBqI3+7anLatD30uEKCMp5sWcLrjB1HO9ZH5nceWBg4cMKJvI/zT77h96fCy7uMkPNt867GP8O9KkWVWzxGBkpIdstigNWfT5g=
+    body: "Thanks to everyone who assisted with code or provided data corrections."
+    file_glob: true
+    file: out/*.xml
+    skip_cleanup: true
+    overwrite: true
+    draft: true
+    prerelease: false
+    on:
+      tags: true
+      repo: Cockatrice/Magic-Spoiler
+      branch: master
+
 
 env:
   global:
