@@ -62,6 +62,7 @@ deploy:
       tags: true
       repo: Cockatrice/Magic-Spoiler
       branch: master
+      condition: $TRAVIS_TAG =~ ^[0-9]     # regex to skip automatically added "untagged" tags from continious deployment "Current output"
 
 
 env:
