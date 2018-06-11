@@ -49,17 +49,6 @@
 #   mtgsurl: "http://www.mtgsalvation.com/spoilers/181-amonkhet-invocations"
 #   mtgscardpath: "http://www.mtgsalvation.com/cards/amonkhet-invocations/"
 ---
-code: "CM2"
-name: "Commander Anthology Volume II"
-#size: ?
-releaseDate: "2018-06-08"
-type: "commander"
-mtgsurl: ""
-#mtgscardpath: "?"
-fullSpoil: false
-scryfallOnly: false
-noRSS: true
----
 code: "M19"
 name: "Core Set 2019"
 size: 269
@@ -68,7 +57,7 @@ type: "core"
 mtgsurl: ""
 #mtgscardpath: "?"
 fullSpoil: false
-scryfallOnly: false
+scryfallOnly: true
 noRSS: true
 ---
 code: "C18"
