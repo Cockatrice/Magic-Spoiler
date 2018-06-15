@@ -42,6 +42,19 @@ Other creatures you control have trample.</text>
 			<text>Flying</text>			
 		</card>		
 		<card>			
+			<name>Ajani, Wise Counselor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/281.jpg?1529072040" rarity="Mythic Rare">M19</set>			
+			<manacost>3WW</manacost>			
+			<cmc>5</cmc>			
+			<color>W</color>			
+			<type>Legendary Planeswalker — Ajani</type>			
+			<loyalty>5</loyalty>			
+			<tablerow>1</tablerow>			
+			<text>+2: You gain 1 life for each creature you control.
+-3: Creatures you control get +2/+2 until end of turn.
+-9: Put X +1/+1 counters on target creature, there X is your life total.</text>			
+		</card>		
+		<card>			
 			<name>Anticipate</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/44.jpg?1525566435" rarity="Common">M19</set>			
 			<manacost>1U</manacost>			
@@ -61,6 +74,17 @@ Other creatures you control have trample.</text>
 			<tablerow>3</tablerow>			
 			<text>Exile the top seven cards of your library. Until end of turn, you may cast nonland cards exiled this way.
 If this spell was cast from your hand, add ten mana of any one color.</text>			
+		</card>		
+		<card>			
+			<name>Arisen Gorgon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/292.jpg?1529072684" rarity="Uncommon">M19</set>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Zombie Gorgon</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Arisen Gorgon has deathtouch as long as you control a Liliana planeswalker. (Any amount of damage this deals to a creature is enough to destroy it.)</text>			
 		</card>		
 		<card>			
 			<name>Aven Wind Mage</name>			
@@ -151,6 +175,18 @@ Draw a card.</text>
 			<text>Trample</text>			
 		</card>		
 		<card>			
+			<name>Court Cleric</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/283.jpg?1529071764" rarity="Uncommon">M19</set>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<color>W</color>			
+			<type>Creature — Human Cleric</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Court Cleric gets +1/+1 as long as you control an Ajani planeswalker.</text>			
+		</card>		
+		<card>			
 			<name>Daybreak Chaplain</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/10.jpg?1525566643" rarity="Common">M19</set>			
 			<manacost>1W</manacost>			
@@ -160,6 +196,17 @@ Draw a card.</text>
 			<pt>1/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>Lifelink (Damage dealt by this creature also causes you to gain that much life.)</text>			
+		</card>		
+		<card>			
+			<name>Death Baron</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/90.jpg?1529019606" rarity="Rare">M19</set>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Zombie Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Skeleton creatures you control and other Zombie creatures you control get +1/+1 and have deathtouch.</text>			
 		</card>		
 		<card>			
 			<name>Demon of Catastrophes</name>			
@@ -322,6 +369,16 @@ When enchanted creature blocks, destroy it. (The attacking creature remains bloc
 			<tablerow>2</tablerow>			
 			<text>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Ghastbark Twins can block an additional creature each combat.</text>			
+		</card>		
+		<card>			
+			<name>Ghostform</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/58.jpg?1529019488" rarity="Common">M19</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Up to two target creatures can't be blocked this turn.</text>			
 		</card>		
 		<card>			
 			<name>Giant Spider</name>			
@@ -553,6 +610,30 @@ Enchanted creature gets +2/+2.</text>
 			<text>Lightning Strike deals 3 damage to any target.</text>			
 		</card>		
 		<card>			
+			<name>Liliana's Spoils</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/294.jpg?1529072845" rarity="Rare">M19</set>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target opponent discards a card.
+Look at the top five cards of your library. You may reveal a black card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>			
+		</card>		
+		<card>			
+			<name>Liliana, the Necromancer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/291.jpg?1529072379" rarity="Mythic Rare">M19</set>			
+			<manacost>3BB</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Legendary Planeswalker — Liliana</type>			
+			<loyalty>4</loyalty>			
+			<tablerow>1</tablerow>			
+			<text>+1: Target player loses 2 life.
+-1: Return target creature card from your graveyard to your hand.
+-7: Destroy up to two target creatures. Put up to two creature cards from your graveyard onto the battlefield under your control.</text>			
+		</card>		
+		<card>			
 			<name>Llanowar Elves</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/314.jpg?1528742053" rarity="Common">M19</set>			
 			<manacost>G</manacost>			
@@ -586,6 +667,15 @@ Enchanted creature gets +2/+2.</text>
 Enchanted creature can't attack or block.</text>			
 		</card>		
 		<card>			
+			<name>Manalith</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/239.jpg?1529019482" rarity="Common">M19</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{T}: Add one mana of any color.</text>			
+		</card>		
+		<card>			
 			<name>Marauder's Axe</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/240.jpg?1528742163" rarity="Common">M19</set>			
 			<manacost>2</manacost>			
@@ -605,6 +695,16 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever another creature with power 2 or less enters the battlefield under your control, you may pay {1}. If you do, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Meteor Golem</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/241.jpg?1529073934" rarity="Uncommon">M19</set>			
+			<manacost>7</manacost>			
+			<cmc>7</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Meteor Golem enters the battlefield, destroy target nonland permanent an opponent controls.</text>			
 		</card>		
 		<card>			
 			<name>Mighty Leap</name>			
@@ -651,7 +751,7 @@ When Militia Bugler enters the battlefield, look at the top four cards of your l
 		</card>		
 		<card>			
 			<name>Nexus of Fate</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/306.jpg?1528742476" rarity="Mythic Rare">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/306.jpg?1528994847" rarity="Mythic Rare">M19</set>			
 			<manacost>5UU</manacost>			
 			<cmc>7</cmc>			
 			<color>U</color>			
@@ -757,6 +857,28 @@ Whenever Pegasus Courser attacks, another target attacking creature gains flying
 			<text>Radiating Lightning deals 3 damage to target player and 1 damage to each creature that player controls.</text>			
 		</card>		
 		<card>			
+			<name>Reassembling Skeleton</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/116.jpg?1529074462" rarity="Uncommon">M19</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Creature — Skeleton Warrior</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.</text>			
+		</card>		
+		<card>			
+			<name>Reclamation Sage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/196.jpg?1529074181" rarity="Uncommon">M19</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Elf Shaman</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Reclamation Sage enters the battlefield, you may destroy target artifact or enchantment.</text>			
+		</card>		
+		<card>			
 			<name>Recollect</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/197.jpg?1528742103" rarity="Uncommon">M19</set>			
 			<manacost>2G</manacost>			
@@ -832,6 +954,31 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 			<text>When Salvager of Secrets enters the battlefield, return target instant or sorcery card from your graveyard to your hand.</text>			
 		</card>		
 		<card>			
+			<name>Sarkhan, Dragonsoul</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/296.jpg?1529071998" rarity="Mythic Rare">M19</set>			
+			<manacost>4RR</manacost>			
+			<cmc>6</cmc>			
+			<color>R</color>			
+			<type>Legendary Planeswalker — Sarkhan</type>			
+			<loyalty>5</loyalty>			
+			<tablerow>1</tablerow>			
+			<text>+2: Sarkhan, Dragonsoul deals 1 damage to each opponent and each creature your opponents control.
+-3: Sarkhan, Dragonsoul deals 4 damage to target player or planeswalker.
+-9: Search your library for any number of Dragon creature cards, put them onto the battlefield, then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Sarkhan's Whelp</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/299.jpg?1529072186" rarity="Uncommon">M19</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Creature — Dragon</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying (This creature can't be blocked except by creatures with flying or reach.)
+Whenever you activate an ability of a Sarkhan planeswalker, Sarkhan's Whelp deals 1 damage to any target.</text>			
+		</card>		
+		<card>			
 			<name>Scholar of Stars</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/71.jpg?1525569504" rarity="Common">M19</set>			
 			<manacost>3U</manacost>			
@@ -898,6 +1045,17 @@ Other creatures you control have vigilance.</text>
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>When Skeleton Archer enters the battlefield, it deals 1 damage to any target.</text>			
+		</card>		
+		<card>			
+			<name>Skilled Animator</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/73.jpg?1529074604" rarity="Uncommon">M19</set>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Creature — Human Artificer</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Skilled Animator enters the battlefield, target artifact you control becomes an artifact creature with base power and toughness 5/5 for as long as Skilled Animator remains on the battlefield.</text>			
 		</card>		
 		<card>			
 			<name>Skymarch Bloodletter</name>			
@@ -1039,6 +1197,29 @@ When Sparktongue Dragon enters the battlefield, you may pay {2}{R}. When you do,
 			<text>When Tattered Mummy dies, each opponent loses 2 life.</text>			
 		</card>		
 		<card>			
+			<name>Tezzeret, Cruel Machinist</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/286.jpg?1529073055" rarity="Mythic Rare">M19</set>			
+			<manacost>4UU</manacost>			
+			<cmc>6</cmc>			
+			<color>U</color>			
+			<type>Legendary Planeswalker — Tezzeret</type>			
+			<loyalty>4</loyalty>			
+			<tablerow>1</tablerow>			
+			<text>+1: Draw a card.
+0: Until your next turn, target artifact you control becomes a 5/5 creature in addition to its other types.
+-7: Put any number of cards from your hand onto the battlefield face down. They're 5/5 artifact creatures.</text>			
+		</card>		
+		<card>			
+			<name>Tezzeret's Strider</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/290.jpg?1529073273" rarity="Uncommon">M19</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>As long as you control a Tezzeret planeswalker, Tezzeret's Strider has menace. (It can't be blocked except by two or more creatures.)</text>			
+		</card>		
+		<card>			
 			<name>Thornhide Wolves</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/204.jpg?1528741290" rarity="Common">M19</set>			
 			<manacost>4G</manacost>			
@@ -1048,6 +1229,17 @@ When Sparktongue Dragon enters the battlefield, you may pay {2}{R}. When you do,
 			<pt>4/5</pt>			
 			<tablerow>2</tablerow>			
 			<text/>			
+		</card>		
+		<card>			
+			<name>Thud</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/163.jpg?1529074334" rarity="Uncommon">M19</set>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<color>R</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Thud deals damage equal to the sacrificed creature's power to any target.</text>			
 		</card>		
 		<card>			
 			<name>Timber Gorge</name>			
@@ -1124,8 +1316,8 @@ Draw two cards.</text>
 			<text>When Trusty Packbeast enters the battlefield, return target artifact card from your graveyard to your hand.</text>			
 		</card>		
 		<card>			
-			<name>Two-headed Zombie</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/123.jpg?1528933443" rarity="Common">M19</set>			
+			<name>Two-Headed Zombie</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/123.jpg?1528994953" rarity="Common">M19</set>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
 			<color>B</color>			
@@ -1169,6 +1361,19 @@ Draw a card.</text>
 When Vampire Sovereign enters the battlefield, target opponent loses 3 life and you gain 3 life.</text>			
 		</card>		
 		<card>			
+			<name>Vivien of the Arkbow</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/301.jpg?1529073541" rarity="Mythic Rare">M19</set>			
+			<manacost>4GG</manacost>			
+			<cmc>6</cmc>			
+			<color>G</color>			
+			<type>Legendary Planeswalker — Vivien</type>			
+			<loyalty>5</loyalty>			
+			<tablerow>1</tablerow>			
+			<text>+2: Put two +1/+1 counters on up to one target creature.
+-3: Target creature you control deals damage equal to its power to target creature you don't control.
+-9: Creatures you control get +4/+4 and gain trample until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Vivien Reid</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/208.jpg?1528756070" rarity="Mythic Rare">M19</set>			
 			<manacost>3GG</manacost>			
@@ -1190,6 +1395,18 @@ When Vampire Sovereign enters the battlefield, target opponent loses 3 life and 
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order. When a creature is put onto the battlefield this way, it deals damage equals to its power to target creature an opponent controls.</text>			
+		</card>		
+		<card>			
+			<name>Vivien's Jaguar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/305.jpg?1529073732" rarity="Uncommon">M19</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Cat Spirit</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Reach (This creature can block creatures with flying.)
+{2}{G}: Return Vivien's Jaguar from your graveyard to your hand. Activate this ability only if you control a Vivien planeswalker.</text>			
 		</card>		
 		<card>			
 			<name>Volcanic Dragon</name>			
