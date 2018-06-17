@@ -383,6 +383,16 @@ When enchanted creature blocks, destroy it. (The attacking creature remains bloc
 			<text>When Exclusion Mage enters the battlefield, return target creature an opponent controls to its owner's hand.</text>			
 		</card>		
 		<card>			
+			<name>Field Creeper</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/234.jpg?1529173948" rarity="Common">M19</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact Creature — Scarecrow</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
 			<name>Fiery Finish</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/140.jpg?1528740791" rarity="Uncommon">M19</set>			
 			<manacost>4RR</manacost>			
@@ -658,7 +668,7 @@ Enchanted creature gets +2/+2.</text>
 		</card>		
 		<card>			
 			<name>Lathliss, Dragon Queen</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/149.jpg?1529161369" rarity="Rare">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/149.jpg?1529167935" rarity="Rare">M19</set>			
 			<manacost>4RR</manacost>			
 			<cmc>6</cmc>			
 			<color>R</color>			
@@ -666,7 +676,7 @@ Enchanted creature gets +2/+2.</text>
 			<pt>6/6</pt>			
 			<tablerow>2</tablerow>			
 			<text>Flying
-Whenever another nontoken Dragon enters the battlefield under your control, create a 5/5 red Dragon creature token under your control.
+Whenever another nontoken Dragon enters the battlefield under your control, create a 5/5 red Dragon creature token with flying.
 {1}{R}: Dragons you control get +1/+0 until end of turn.</text>			
 		</card>		
 		<card>			
@@ -852,7 +862,7 @@ If Nexus of Fate would be put into a graveyard from anywhere, reveal Nexus of Fa
 		</card>		
 		<card>			
 			<name>Nicol Bolas, the Ravager</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/218a.jpg?1529160809" rarity="Mythic Rare">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/218a.jpg?1529185619" rarity="Mythic Rare">M19</set>			
 			<manacost>1UBR</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -863,14 +873,17 @@ If Nexus of Fate would be put into a graveyard from anywhere, reveal Nexus of Fa
 			<tablerow>2</tablerow>			
 			<text>Flying
 When Nicol Bolas, the Ravager enters the battlefield, each opponent discards a card.
-{4}{U}{B}{R}: Exile Nicol Bolas, the Ravager, then return him to the battlefield transformed under his owner's control. Activate this ability only any time you could cast a sorcerry.</text>			
+{4}{U}{B}{R}: Exile Nicol Bolas, the Ravager, then return him to the battlefield transformed under his owner's control. Activate this ability only any time you could cast a sorcery.</text>			
 			<related>Nicol Bolas, the Arisen</related>			
 		</card>		
 		<card>			
 			<name>Nicol Bolas, the Arisen</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/218b.jpg?1529160809" rarity="Mythic Rare">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/218b.jpg?1529185619" rarity="Mythic Rare">M19</set>			
 			<manacost/>			
 			<cmc>4</cmc>			
+			<color>U</color>			
+			<color>B</color>			
+			<color>R</color>			
 			<type>Legendary Planeswalker — Bolas</type>			
 			<loyalty>7</loyalty>			
 			<tablerow>1</tablerow>			
