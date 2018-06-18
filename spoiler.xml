@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sun, Jun 17 2018, 20:09:30 (UTC)
+        created: Mon, Jun 18 2018, 20:10:36 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -247,6 +247,25 @@ Draw three cards.</text>
 Court Cleric gets +1/+1 as long as you control an Ajani planeswalker.</text>			
 		</card>		
 		<card>			
+			<name>Crucible of Worlds</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/229.jpg?1529320095" rarity="Mythic Rare">M19</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>You may play land cards from your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Dark-Dweller Oracle</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/134.jpg?1529319283" rarity="Rare">M19</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Goblin Shaman</type>			
+			<tablerow>2</tablerow>			
+			<text>{1}, Sacrifice a creature: Exile the top card of your library. You may play that card this turn. (You still pay its costs. You can play a land this way only if you have an available land play remaining.)</text>			
+		</card>		
+		<card>			
 			<name>Daybreak Chaplain</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/10.jpg?1525566643" rarity="Common">M19</set>			
 			<color>W</color>			
@@ -363,6 +382,18 @@ When enchanted creature blocks, destroy it. (The attacking creature remains bloc
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Electrify deals 4 damage to target creature.</text>			
+		</card>		
+		<card>			
+			<name>Elvish Clancaller</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/179.jpg?1529319565" rarity="Rare">M19</set>			
+			<color>G</color>			
+			<manacost>GG</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Elf Druid</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Other Elves you control get +1/+1.
+{4}{G}{G}, {T}: Search your library for a card named Elvish Clancaller, put it onto the battlefield, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Elvish Rejuvenator</name>			
@@ -607,8 +638,8 @@ When Horizon Scholar enters the battlefield, scry 2. (Look at the top two cards 
 			<text>Haste (This creature can attack and {T} as soon as it comes under your control.)</text>			
 		</card>		
 		<card>			
-			<name>Infernal Judgment</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/102.jpg?1528749021" rarity="Rare">M19</set>			
+			<name>Infernal Reckoning</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/102.jpg?1529319072" rarity="Rare">M19</set>			
 			<color>B</color>			
 			<manacost>B</manacost>			
 			<cmc>1</cmc>			
@@ -833,6 +864,17 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 When Militia Bugler enters the battlefield, look at the top four cards of your library. You may reveal a creature card with power 2 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>			
 		</card>		
 		<card>			
+			<name>Mirror Image</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/61.jpg?1529320234" rarity="Uncommon">M19</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Shapeshifter</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>You may have Mirror Image enter the battlefield as a copy of any creature you control.</text>			
+		</card>		
+		<card>			
 			<name>Mist-Cloaked Herald</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/310.jpg?1528741984" rarity="Common">M19</set>			
 			<color>U</color>			
@@ -944,6 +986,20 @@ Enchanted creature gets +3/+3.</text>
 			<pt>3/1</pt>			
 			<tablerow>2</tablerow>			
 			<text/>			
+		</card>		
+		<card>			
+			<name>Palladia-Mors, the Ruiner</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/219.jpg?1529320025" rarity="Mythic Rare">M19</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>3WRG</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Elder Dragon</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, vigilance, trample
+Palladia-Mors, the Ruiner has hexproof if it hasn't dealt damage yet.</text>			
 		</card>		
 		<card>			
 			<name>Patient Rebuilding</name>			
@@ -1118,6 +1174,28 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 			<tablerow>2</tablerow>			
 			<text>Flying (This creature can't be blocked except by creatures with flying or reach.)
 Whenever you activate an ability of a Sarkhan planeswalker, Sarkhan's Whelp deals 1 damage to any target.</text>			
+		</card>		
+		<card>			
+			<name>Satyr Enchanter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/223.jpg?1529325637" rarity="Uncommon">M19</set>			
+			<color>W</color>			
+			<color>G</color>			
+			<manacost>1GW</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Satyr Druid</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast an enchantment spell, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Scapeshift</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/201.jpg?1529336014" rarity="Mythic Rare">M19</set>			
+			<color>G</color>			
+			<manacost>2GG</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Sacrifice any number of lands. Search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Scholar of Stars</name>			
@@ -1585,6 +1663,17 @@ When Vampire Sovereign enters the battlefield, target opponent loses 3 life and 
 			<tablerow>2</tablerow>			
 			<text>Flying
 Haste (This creature can attack and {T} as soon as it comes under your control.)</text>			
+		</card>		
+		<card>			
+			<name>Volley Veteran</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/168.jpg?1529319590" rarity="Uncommon">M19</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Goblin Warrior</type>			
+			<pt>4/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Volley Veteran enters the battlefield, it deals damage to target creature an opponent controls equal to the number of Goblins you control.</text>			
 		</card>		
 		<card>			
 			<name>Walking Corpse</name>			
