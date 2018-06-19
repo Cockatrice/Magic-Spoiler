@@ -9,14 +9,36 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Abnormal Endurance</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/85.jpg?1529357232" rarity="Common">M19</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Until end of turn, target creature gets +2/+0 and gains &quot;When this creature dies, return it to the battlefield tapped under its owner's control.&quot;</text>			
+		</card>		
+		<card>			
 			<name>Act of Treason</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/127.jpg?1525566340" rarity="Common">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/127.jpg?1529345049" rarity="Common">M19</set>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
 			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)</text>			
+		</card>		
+		<card>			
+			<name>Aerial Engineer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/211.jpg?1529342193" rarity="Uncommon">M19</set>			
+			<manacost>2WU</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Creature — Human Artificer</type>			
+			<pt>2/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>As long as you control an artifact, Aerial Engineer gets +2/+0 and has flying.</text>			
 		</card>		
 		<card>			
 			<name>Aggressive Mammoth</name>			
@@ -55,6 +77,17 @@ Other creatures you control have trample.</text>
 -7: You get an emblem with &quot;At the beginning of your end step, create three 1/1 white Cat creature tokens with lifelink.&quot;</text>			
 		</card>		
 		<card>			
+			<name>Ajani's Last Stand</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/4.jpg?1529342622" rarity="Rare">M19</set>			
+			<manacost>2WW</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a creature or planeswalker you control dies, you may sacrifice Ajani's Last Stand. If you do, create a 4/4 white Avatar creature token with flying.
+When a spell or ability an opponent controls causes you to discard this card, if you control a Plains, create a 4/4 white Avatar creature token with flying.</text>			
+		</card>		
+		<card>			
 			<name>Ajani's Pridemate</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/5.jpg?1529080769" rarity="Uncommon">M19</set>			
 			<manacost>1W</manacost>			
@@ -77,6 +110,17 @@ Other creatures you control have trample.</text>
 			<text>+2: You gain 1 life for each creature you control.
 -3: Creatures you control get +2/+2 until end of turn.
 -9: Put X +1/+1 counters on target creature, where X is your life total.</text>			
+		</card>		
+		<card>			
+			<name>Alpine Moon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/128.jpg?1529367568" rarity="Rare">M19</set>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<color>R</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>As Alpine Moon enters the battlefield, choose a nonbasic land card name.
+Lands your opponents control with the chosen name lose all land types and abilities, and they gain &quot;{T}: Add one mana of any color.&quot;</text>			
 		</card>		
 		<card>			
 			<name>Anticipate</name>			
@@ -156,6 +200,31 @@ Draw three cards.</text>
 			<text/>			
 		</card>		
 		<card>			
+			<name>Bone Dragon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/88.jpg?1529408329" rarity="Mythic Rare">M19</set>			
+			<manacost>3BB</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Creature — Dragon Skeleton</type>			
+			<pt>5/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{3}{B}{B}, Exile seven other cards from your graveyard: Return Bone Dragon from your graveyard to the battlefield tapped.</text>			
+		</card>		
+		<card>			
+			<name>Brawl-Bash Ogre</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/213.jpg?1529342250" rarity="Uncommon">M19</set>			
+			<manacost>2BR</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<type>Creature — Ogre Warrior</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Menace (This creature can't be blocked except by two or more creatures.)
+Whenever Brawl-Bash Ogre attacks, you may sacrifice another creature. If you do, Brawl-Bash Ogre gets +2/+2 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Bristling Boar</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/170.jpg?1528741052" rarity="Common">M19</set>			
 			<manacost>3G</manacost>			
@@ -210,6 +279,33 @@ Draw three cards.</text>
 			<text/>			
 		</card>		
 		<card>			
+			<name>Child of Night</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/89.jpg?1529412882" rarity="Common">M19</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Creature — Vampire</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Lifelink (Damage dealt by this creature also causes you to gain that much life.)</text>			
+		</card>		
+		<card>			
+			<name>Chromium, the Mutable</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/214.jpg?1529408818" rarity="Mythic Rare">M19</set>			
+			<manacost>4WUB</manacost>			
+			<cmc>7</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Legendary Creature — Elder Dragon</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+This spell can't be countered.
+Flying
+Discard a card: Until end of turn, Chromium, the Mutable becomes a Human with base power and toughness 1/1, loses all abilities, and gains hexproof. It can't be blocked this turn.</text>			
+		</card>		
+		<card>			
 			<name>Colossal Dreadmaw</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/172.jpg?1528738704" rarity="Common">M19</set>			
 			<manacost>4GG</manacost>			
@@ -229,6 +325,18 @@ Draw three cards.</text>
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>At the beginning of your upkeep, if you control a creature with power 4 or greater, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Contrite Cleric</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/33.jpg?1529411684" rarity="Rare">M19</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Creature — Spirit Cleric</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Sacrifice Contrite Cleric: Exile all cards in target player's graveyard.</text>			
 		</card>		
 		<card>			
 			<name>Court Cleric</name>			
@@ -263,7 +371,7 @@ Court Cleric gets +1/+1 as long as you control an Ajani planeswalker.</text>
 		</card>		
 		<card>			
 			<name>Daybreak Chaplain</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/10.jpg?1525566643" rarity="Common">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/10.jpg?1529412868" rarity="Common">M19</set>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
 			<color>W</color>			
@@ -315,6 +423,17 @@ Flying, trample</text>
 			<text>Whenever one or more creature cards leave your graveyard, create a 1/1 black Bat creature token with flying.</text>			
 		</card>		
 		<card>			
+			<name>Diamond Mare</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/231.jpg?1529408986" rarity="Uncommon">M19</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact Creature — Horse</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>As Diamond Mare enters the battlefield, choose a color.
+Whenever you cast a spell of the chosen color, you gain 1 life.</text>			
+		</card>		
+		<card>			
 			<name>Diregraf Ghoul</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/92.jpg?1528740440" rarity="Uncommon">M19</set>			
 			<manacost>B</manacost>			
@@ -347,6 +466,30 @@ Flying, trample</text>
 			<text>Draw two cards.</text>			
 		</card>		
 		<card>			
+			<name>Draconic Disciple</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/215.jpg?1529342371" rarity="Uncommon">M19</set>			
+			<manacost>1RG</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Creature — Human Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Add one mana of any color.
+{7}, {T}, Sacrifice Draconic Disciple: Create a 5/5 red Dragon creature token with flying.</text>			
+		</card>		
+		<card>			
+			<name>Druid of the Cowl</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/177.jpg?1529349502" rarity="Common">M19</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Elf Druid</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Add {G}.</text>			
+		</card>		
+		<card>			
 			<name>Dwarven Priest</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/11.jpg?1528739697" rarity="Common">M19</set>			
 			<manacost>3W</manacost>			
@@ -359,7 +502,7 @@ Flying, trample</text>
 		</card>		
 		<card>			
 			<name>Dwindle</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/53.jpg?1525566839" rarity="Common">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/53.jpg?1529345041" rarity="Common">M19</set>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
 			<color>U</color>			
@@ -401,6 +544,17 @@ When enchanted creature blocks, destroy it. (The attacking creature remains bloc
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever Elvish Rejuvenator enters the battlefield, look at the top five cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order.</text>			
+		</card>		
+		<card>			
+			<name>Epicure of Blood</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/95.jpg?1529412856" rarity="Common">M19</set>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Creature — Vampire</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you gain life, each opponent loses 1 life.</text>			
 		</card>		
 		<card>			
 			<name>Exclusion Mage</name>			
@@ -464,6 +618,16 @@ When enchanted creature blocks, destroy it. (The attacking creature remains bloc
 			<pt>4/6</pt>			
 			<tablerow>2</tablerow>			
 			<text>{5}{U}{U}: Frilled Sea Serpent can't be blocked this turn.</text>			
+		</card>		
+		<card>			
+			<name>Gearsmith Guardian</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/237.jpg?1529345016" rarity="Common">M19</set>			
+			<manacost>5</manacost>			
+			<cmc>5</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>3/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Gearsmith Guardian gets +2/+0 as long as you control a blue creature.</text>			
 		</card>		
 		<card>			
 			<name>Gearsmith Prodigy</name>			
@@ -541,6 +705,18 @@ Ghastbark Twins can block an additional creature each combat.</text>
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>{T}: Target creature gains haste until end of turn. (It can attack and {T} this turn.)</text>			
+		</card>		
+		<card>			
+			<name>Goreclaw, Terror of Qal Sisma</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/186.jpg?1529421273" rarity="Rare">M19</set>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Legendary Creature — Bear</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Creature spells you cast with power 4 or greater cost {2} less to cast.
+Whenever Goreclaw, Terror of Qal Sisma attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Grasping Scoundrel</name>			
@@ -634,6 +810,19 @@ When Horizon Scholar enters the battlefield, scry 2. (Look at the top two cards 
 			<text>Haste (This creature can attack and {T} as soon as it comes under your control.)</text>			
 		</card>		
 		<card>			
+			<name>Hungering Hydra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/189.jpg?1529375493" rarity="Rare">M19</set>			
+			<manacost>XG</manacost>			
+			<cmc>1</cmc>			
+			<color>G</color>			
+			<type>Creature — Hydra</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Hungering Hydra enters the battlefield with X +1/+1 counters on it.
+Hungering Hydra can't be blocked by more than one creature.
+Whenever damage is dealt to Hungering Hydra, put that many +1/+1 counters on it.</text>			
+		</card>		
+		<card>			
 			<name>Infernal Reckoning</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/102.jpg?1529319072" rarity="Rare">M19</set>			
 			<manacost>B</manacost>			
@@ -663,6 +852,18 @@ Enchanted creature gets +2/+0 and has &quot;When this creature dies, draw a card
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Creatures you control get +2/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Isareth the Awakener</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/104.jpg?1529408184" rarity="Rare">M19</set>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Legendary Creature — Human Wizard</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Deathtouch
+Whenever Isareth the Awakener attacks, you may pay {X}. When you do, return target creature card with converted mana cost X from your graveyard to the battlefield with a corpse counter on it. If that creature would leave the battlefield, exile it instead of putting it anywhere else.</text>			
 		</card>		
 		<card>			
 			<name>Kargan Dragonrider</name>			
@@ -729,6 +930,19 @@ Whenever another nontoken Dragon enters the battlefield under your control, crea
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target creature. You gain 3 life.</text>			
+		</card>		
+		<card>			
+			<name>Lightning Mare</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/151.jpg?1529412322" rarity="Uncommon">M19</set>			
+			<manacost>RR</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Elemental Horse</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>This spell can't be countered.
+Lightning Mare can't be blocked by blue creatures.
+{1}{R}: Lightning Mare gets +1/+0 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Lightning Strike</name>			
@@ -798,8 +1012,18 @@ Look at the top five cards of your library. You may reveal a black card from amo
 Enchanted creature can't attack or block.</text>			
 		</card>		
 		<card>			
+			<name>Magistrate's Scepter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/238.jpg?1529342116" rarity="Rare">M19</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{4}, {T}: Put a charge counter on Magistrate's Scepter.
+{T}, Remove three charge counters from Magistrate's Scepter: Take an extra turn after this one.</text>			
+		</card>		
+		<card>			
 			<name>Manalith</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/239.jpg?1529019482" rarity="Common">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/239.jpg?1529344946" rarity="Common">M19</set>			
 			<manacost>3</manacost>			
 			<cmc>3</cmc>			
 			<type>Artifact</type>			
@@ -826,6 +1050,18 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever another creature with power 2 or less enters the battlefield under your control, you may pay {1}. If you do, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Metamorphic Alteration</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/60.jpg?1529365330" rarity="Rare">M19</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+As Metamorphic Alteration enters the battlefield, choose a creature.
+Enchanted creature is a copy of the chosen creature.</text>			
 		</card>		
 		<card>			
 			<name>Meteor Golem</name>			
@@ -869,6 +1105,17 @@ When Militia Bugler enters the battlefield, look at the top four cards of your l
 			<pt>0/0</pt>			
 			<tablerow>2</tablerow>			
 			<text>You may have Mirror Image enter the battlefield as a copy of any creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Mistcaller</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/62.jpg?1529373581" rarity="Rare">M19</set>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<color>U</color>			
+			<type>Creature — Merfolk Wizard</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Sacrifice Mistcaller: Until end of turn, if a nontoken creature would enter the battlefield and it wasn't cast, exile it instead.</text>			
 		</card>		
 		<card>			
 			<name>Mist-Cloaked Herald</name>			
@@ -936,6 +1183,16 @@ When Nicol Bolas, the Ravager enters the battlefield, each opponent discards a c
 			<related>Nicol Bolas, the Ravager</related>			
 		</card>		
 		<card>			
+			<name>Nightmare's Thirst</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/111.jpg?1529412941" rarity="Uncommon">M19</set>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<color>B</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>You gain 1 life. Target creature gets -X/-X until end of turn, where X is the amount of life you gained this turn.</text>			
+		</card>		
+		<card>			
 			<name>Oakenform</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/191.jpg?1528741239" rarity="Common">M19</set>			
 			<manacost>2G</manacost>			
@@ -958,6 +1215,16 @@ Enchanted creature gets +3/+3.</text>
 			<text>When Omenspeaker enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</text>			
 		</card>		
 		<card>			
+			<name>Omniscience</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/65.jpg?1529408625" rarity="Mythic Rare">M19</set>			
+			<manacost>7UUU</manacost>			
+			<cmc>10</cmc>			
+			<color>U</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>You may cast spells from your hand without paying their mana costs.</text>			
+		</card>		
+		<card>			
 			<name>Onakke Ogre</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/153.jpg?1528740847" rarity="Common">M19</set>			
 			<manacost>2R</manacost>			
@@ -967,6 +1234,16 @@ Enchanted creature gets +3/+3.</text>
 			<pt>4/2</pt>			
 			<tablerow>2</tablerow>			
 			<text/>			
+		</card>		
+		<card>			
+			<name>Open the Graves</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/112.jpg?1529411788" rarity="Rare">M19</set>			
+			<manacost>3BB</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a nontoken creature you control dies, create a 2/2 black Zombie creature token.</text>			
 		</card>		
 		<card>			
 			<name>Oreskos Swiftclaw</name>			
@@ -1016,6 +1293,18 @@ Palladia-Mors, the Ruiner has hexproof if it hasn't dealt damage yet.</text>
 Whenever Pegasus Courser attacks, another target attacking creature gains flying until end of turn.</text>			
 		</card>		
 		<card>			
+			<name>Plague Mare</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/114.jpg?1529412433" rarity="Uncommon">M19</set>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Nightmare Horse</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Plague Mare can't be blocked by white creatures.
+When Plague Mare enters the battlefield, creatures your opponents control get -1/-1 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Plummet</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/193.jpg?1528741264" rarity="Common">M19</set>			
 			<manacost>1G</manacost>			
@@ -1024,6 +1313,30 @@ Whenever Pegasus Courser attacks, another target attacking creature gains flying
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target creature with flying.</text>			
+		</card>		
+		<card>			
+			<name>Prodigious Growth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/194.jpg?1529413044" rarity="Rare">M19</set>			
+			<manacost>4GG</manacost>			
+			<cmc>6</cmc>			
+			<color>G</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +7/+7 and has trample.</text>			
+		</card>		
+		<card>			
+			<name>Psychic Symbiont</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/221.jpg?1529342488" rarity="Uncommon">M19</set>			
+			<manacost>4UB</manacost>			
+			<cmc>6</cmc>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Creature — Nightmare Horror</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Psychic Symbiont enters the battlefield, target opponent discards a card and you draw a card.</text>			
 		</card>		
 		<card>			
 			<name>Rabid Bite</name>			
@@ -1086,6 +1399,19 @@ Whenever Pegasus Courser attacks, another target attacking creature gains flying
 			<tablerow>0</tablerow>			
 			<text>You have no maximum hand size.
 {T}: Add {C}.</text>			
+		</card>		
+		<card>			
+			<name>Resplendent Angel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/34.jpg?1529342703" rarity="Mythic Rare">M19</set>			
+			<manacost>1WW</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Creature — Angel</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+At the beginning of each end step, if you gained 5 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.
+{3}{W}{W}{W}: Until end of turn, Resplendent Angel gets +2/+2 and gains lifelink.</text>			
 		</card>		
 		<card>			
 			<name>Revitalize</name>			
@@ -1156,6 +1482,17 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 -9: Search your library for any number of Dragon creature cards, put them onto the battlefield, then shuffle your library.</text>			
 		</card>		
 		<card>			
+			<name>Sarkhan's Broken Seal</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/155.jpg?1529413104" rarity="Rare">M19</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever you cast a creature spell with power 4, 5, or 6, you may have Sarkhan's Broken Seal deal 4 damage to any target.
+Whenever you cast a creature spell with power 7 or greater, Sarkhan's Broken Seal deals 4 damage to each opponent and each creature and planeswalker they control.</text>			
+		</card>		
+		<card>			
 			<name>Sarkhan's Whelp</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/m19/299.jpg?1529072186" rarity="Uncommon">M19</set>			
 			<manacost>2R</manacost>			
@@ -1181,7 +1518,7 @@ Whenever you activate an ability of a Sarkhan planeswalker, Sarkhan's Whelp deal
 		</card>		
 		<card>			
 			<name>Scapeshift</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/201.jpg?1529336014" rarity="Mythic Rare">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/201.jpg?1529367627" rarity="Mythic Rare">M19</set>			
 			<manacost>2GG</manacost>			
 			<cmc>4</cmc>			
 			<color>G</color>			
@@ -1191,7 +1528,7 @@ Whenever you activate an ability of a Sarkhan planeswalker, Sarkhan's Whelp deal
 		</card>		
 		<card>			
 			<name>Scholar of Stars</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/m19/71.jpg?1525569504" rarity="Common">M19</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/71.jpg?1529345031" rarity="Common">M19</set>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -1212,6 +1549,18 @@ Whenever you activate an ability of a Sarkhan planeswalker, Sarkhan's Whelp deal
 			<text>Flying
 Vigilance (Attacking doesn't cause this creature to tap.)
 Other creatures you control have vigilance.</text>			
+		</card>		
+		<card>			
+			<name>Shield Mare</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/37.jpg?1529412547" rarity="Uncommon">M19</set>			
+			<manacost>1WW</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Creature — Horse</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Shield Mare can't be blocked by red creatures.
+When Shield Mare enters the battlefield or becomes the target of a spell or ability and opponent controls, you gain 3 life.</text>			
 		</card>		
 		<card>			
 			<name>Shivan Dragon</name>			
@@ -1385,6 +1734,19 @@ When Sparktongue Dragon enters the battlefield, you may pay {2}{R}. When you do,
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Target creature gets +3/+0 and gains first strike until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Surge Mare</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/77.jpg?1529413270" rarity="Uncommon">M19</set>			
+			<manacost>UU</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Creature — Horse Fish</type>			
+			<pt>0/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Surge Mare can't be blocked by green creatures.
+Whenever Surge Mare deals damage to an opponent, you may draw a card. If you do, discard a card.
+{1}{U}: Surge Mare gets +2/-2 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Take Vengeance</name>			
@@ -1595,6 +1957,18 @@ When Vampire Sovereign enters the battlefield, target opponent loses 3 life and 
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>When Viashino Pyromancer enters the battlefield, it deals 2 damage to target player or planeswalker.</text>			
+		</card>		
+		<card>			
+			<name>Vine Mare</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/m19/207.jpg?1529413424" rarity="Uncommon">M19</set>			
+			<manacost>2GG</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Creature — Elemental Horse</type>			
+			<pt>5/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Vine Mare can't be blocked by black creatures.</text>			
 		</card>		
 		<card>			
 			<name>Vivien of the Arkbow</name>			
