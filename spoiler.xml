@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Mon, Jul 23 2018, 20:27:09 (UTC)
+        created: Mon, Jul 23 2018, 22:03:39 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -12,6 +12,19 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>Ancient Stone Idol</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/53.jpg?1532365962" rarity="Rare">C18</set>			
+			<manacost>10</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<pt>12/12</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+This spell costs {1} less to cast for each attacking creature.
+Trample
+When Ancient Stone Idol dies, create a colorless 6/12 Construct artifact creature token with trample.</text>			
+		</card>		
 		<card>			
 			<name>Brudiclad, Telchor Engineer</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/c18/39.jpg?1532345478" rarity="Mythic Rare">C18</set>			
@@ -48,7 +61,7 @@ Whenever one or more creatures an opponent controls attack you and aren't blocke
 		</card>		
 		<card>			
 			<name>Echo Storm</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/7.jpg?1532345144" rarity="Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/7.jpg?1532364543" rarity="Rare">C18</set>			
 			<color>U</color>			
 			<manacost>3UU</manacost>			
 			<cmc>5</cmc>			
@@ -90,7 +103,7 @@ Whenever Geode Golem deals combat damage to a player, you may cast your commande
 		</card>		
 		<card>			
 			<name>Loyal Drake</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/10.jpg?1532361113" rarity="Uncommon">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/10.jpg?1532364247" rarity="Uncommon">C18</set>			
 			<color>U</color>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
@@ -125,7 +138,7 @@ Reveal the top X cards of your library. You may put any number of artifact cards
 		</card>		
 		<card>			
 			<name>Saheeli, the Gifted</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/44.jpg?1532343775" rarity="Mythic Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/44.jpg?1532364521" rarity="Mythic Rare">C18</set>			
 			<color>U</color>			
 			<color>R</color>			
 			<manacost>2UR</manacost>			
@@ -134,7 +147,7 @@ Reveal the top X cards of your library. You may put any number of artifact cards
 			<tablerow>1</tablerow>			
 			<text>+1: Create a 1/1 colorless Servo artifact creature token.
 +1: The next spell you cast this turn costs {1} less to cast for each artifact you control as you cast it.
--7: For each artifact you control, creature a token that's a copy of it. Those tokens gain haste. Exile those tokens at the beginning of the next end step.
+-7: For each artifact you control, create a token that's a copy of it. Those tokens gain haste. Exile those tokens at the beginning of the next end step.
 Saheeli, the Gifted can be your commander.</text>			
 			<loyalty>4</loyalty>			
 		</card>		
@@ -188,11 +201,11 @@ When Varchild leaves the battlefield, gain control of all Survivors.</text>
 		</card>		
 		<card>			
 			<name>Vedalken Humiliator</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/13.jpg?1532349538" rarity="Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/13.jpg?1532364297" rarity="Rare">C18</set>			
 			<color>U</color>			
 			<manacost>3U</manacost>			
 			<cmc>4</cmc>			
-			<type>Creature — VEdalken Wizard</type>			
+			<type>Creature — Vedalken Wizard</type>			
 			<pt>3/4</pt>			
 			<tablerow>2</tablerow>			
 			<text>Metalcraft - Whenever Vedalken Humiliator attacks, if you control three or more artifacts, creatures your opponents control lose all abilities and have base power and toughness 1/1 until end of turn.</text>			
