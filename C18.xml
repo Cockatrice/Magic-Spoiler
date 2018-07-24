@@ -10,7 +10,7 @@
 	<cards>		
 		<card>			
 			<name>Ancient Stone Idol</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/53.jpg?1532365962" rarity="Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/53.jpg?1532433723" rarity="Rare">C18</set>			
 			<manacost>10</manacost>			
 			<cmc>1</cmc>			
 			<type>Artifact Creature — Golem</type>			
@@ -19,7 +19,32 @@
 			<text>Flash
 This spell costs {1} less to cast for each attacking creature.
 Trample
-When Ancient Stone Idol dies, create a colorless 6/12 Construct artifact creature token with trample.</text>			
+When Ancient Stone Idol dies, create a 6/12 colorless Construct artifact creature token with trample.</text>			
+		</card>		
+		<card>			
+			<name>Avenger of Zendikar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/129.jpg?1532433005" rarity="Mythic Rare">C18</set>			
+			<manacost>5GG</manacost>			
+			<cmc>7</cmc>			
+			<color>G</color>			
+			<type>Creature — Elemental</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.
+Landfall - Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Bloodtracker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/14.jpg?1532436887" rarity="Rare">C18</set>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Creature — Vampire Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{B}, Pay 2 life: Put a +1/+1 counter on Bloodtracker.
+When Bloodtracker leaves the battlefield, draw a card for each +1/+1 counter on it.</text>			
 		</card>		
 		<card>			
 			<name>Brudiclad, Telchor Engineer</name>			
@@ -33,6 +58,39 @@ When Ancient Stone Idol dies, create a colorless 6/12 Construct artifact creatur
 			<tablerow>2</tablerow>			
 			<text>Creature tokens you control have haste.
 At the beginning of combat on your turn, create a 2/1 blue Myr artifact creature token. Then you may choose a token you control. If you do, each other token you control becomes a copy of that token.</text>			
+		</card>		
+		<card>			
+			<name>Budoka Gardener // Dokai, Weaver of Life</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/134a.jpg?1532430294" rarity="Rare">C18</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Human Monk // Legendary Creature — Human Monk</type>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Centaur Vinecrasher</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/135.jpg?1532443632" rarity="Rare">C18</set>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Creature — Plant Centaur</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+Centaur Vinecrasher enters the battlefield with a number of +1/+1 counters on it equal to the number of land cards in all graveyards.
+Whenever a land card is put into a graveyard from anywhere, you may pay {G}{G}. If you do, return Centaur Vinecrasher from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Chain Reaction</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/121.jpg?1532433039" rarity="Rare">C18</set>			
+			<manacost>2RR</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Chain Reaction deals X damage to each creature, where X is the number of creatures on the battlefield.</text>			
 		</card>		
 		<card>			
 			<name>Chaos Warp</name>			
@@ -57,7 +115,7 @@ Whenever one or more creatures an opponent controls attack you and aren't blocke
 		</card>		
 		<card>			
 			<name>Echo Storm</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/7.jpg?1532364543" rarity="Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/7.jpg?1532433599" rarity="Rare">C18</set>			
 			<manacost>3UU</manacost>			
 			<cmc>5</cmc>			
 			<color>U</color>			
@@ -65,6 +123,30 @@ Whenever one or more creatures an opponent controls attack you and aren't blocke
 			<tablerow>3</tablerow>			
 			<text>When you cast this spell, copy it for each time you've cast your commander from the command zone this game. You may choose new targets for the copies.
 Create a token that's a copy of target artifact.</text>			
+		</card>		
+		<card>			
+			<name>Eidolon of Blossoms</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/140.jpg?1532434124" rarity="Rare">C18</set>			
+			<manacost>2GG</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Enchantment Creature — Spirit</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Constellation - Whenever Eidolon of Blossoms or another enchantment enters the battlefield under your control, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Emissary of Grudges</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/20.jpg?1532447764" rarity="Rare">C18</set>			
+			<manacost>5R</manacost>			
+			<cmc>6</cmc>			
+			<color>R</color>			
+			<type>Creature — Efreet</type>			
+			<pt>6/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, haste
+As Emissary of Grudges enters the battlefield, secretly choose an opponent.
+Reveal the player you chose: Choose new targets for target spell or ability if it's controlled by the chosen player and if it targets you or a permanent you control. Activate this ability only once.</text>			
 		</card>		
 		<card>			
 			<name>Enchanter's Bane</name>			
@@ -77,6 +159,25 @@ Create a token that's a copy of target artifact.</text>
 			<text>At the beginning of your end step, target enchantment deals damage equal to its converted mana cost to its controller unless that player sacrifices it.</text>			
 		</card>		
 		<card>			
+			<name>Endless Atlas</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/55.jpg?1532447776" rarity="Rare">C18</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{2}, {T}: Draw a card. Activate this ability only if you control three or more lands with the same name.</text>			
+		</card>		
+		<card>			
+			<name>Explosive Vegetation</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/144.jpg?1532443609" rarity="Uncommon">C18</set>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.</text>			
+		</card>		
+		<card>			
 			<name>Forge of Heroes</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/c18/58.jpg?1532342882" rarity="Common">C18</set>			
 			<manacost/>			
@@ -85,6 +186,17 @@ Create a token that's a copy of target artifact.</text>
 			<tablerow>0</tablerow>			
 			<text>{T}: Add {C}.
 {T}: Choose target commander that entered the battlefield this turn. Put a +1/+1 counter on it if it's a creature and a loyalty counter on it if it's a planeswalker.</text>			
+		</card>		
+		<card>			
+			<name>Fury Storm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/22.jpg?1532431005" rarity="Rare">C18</set>			
+			<manacost>2RR</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>When you cast this spell, copy it for each time you've cast your commander from the command zone this game. You may choose new targets for the copies.
+Copy target instant or sorcery spell. You may choose new targets for the copy.</text>			
 		</card>		
 		<card>			
 			<name>Geode Golem</name>			
@@ -96,6 +208,36 @@ Create a token that's a copy of target artifact.</text>
 			<tablerow>2</tablerow>			
 			<text>Trample
 Whenever Geode Golem deals combat damage to a player, you may cast your commander from the command zone without paying its mana cost. (You still pay any additional costs.)</text>			
+		</card>		
+		<card>			
+			<name>Gyrus, Waker of Corpses</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/41.jpg?1532446497" rarity="Mythic Rare">C18</set>			
+			<manacost>XBRG</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Legendary Creature — Hydra</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Gyrus, Walker of Corpses enters the battlefield with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
+Whenever Gyrus attacks, you may exile target creature card with lesser power from your graveyard. If you do, create a token that's a copy of that card and that's tapped and attacking. Exile the token at the end of combat.</text>			
+		</card>		
+		<card>			
+			<name>Lord Windgrace</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/43.jpg?1532430121" rarity="Mythic Rare">C18</set>			
+			<manacost>2BRG</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Legendary Planeswalker — Windgrace</type>			
+			<loyalty>5</loyalty>			
+			<tablerow>1</tablerow>			
+			<text>+2: Discard a card, then draw a card. If a land card is discarded this way, draw an additional card.
+-3: Return up to two target land cards from your graveyard to the battlefield.
+-11: Destroy up to six target nonland permanents, then create six 2/2 green Cat Warrior creature tokens with forestwalk.
+Lord Windgrace can be your commander.</text>			
 		</card>		
 		<card>			
 			<name>Loyal Drake</name>			
@@ -110,6 +252,65 @@ Whenever Geode Golem deals combat damage to a player, you may cast your commande
 Lieutenant - At the beginning of combat on your turn, if you control your commander, draw a card.</text>			
 		</card>		
 		<card>			
+			<name>Loyal Guardian</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/31.jpg?1532436791" rarity="Uncommon">C18</set>			
+			<manacost>4G</manacost>			
+			<cmc>5</cmc>			
+			<color>G</color>			
+			<type>Creature — Rhino</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+Lieutenant - At the beginning of combat on your turn, if you control your commander, put a +1/+1 counter on each creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Loyal Subordinate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/16.jpg?1532434185" rarity="Uncommon">C18</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Zombie</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Menace
+Lieutenant - At the beginning of combat on your turn, if you control your commander, each opponent loses 3 life.</text>			
+		</card>		
+		<card>			
+			<name>Nesting Dragon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/24.jpg?1532434668" rarity="Rare">C18</set>			
+			<manacost>3RR</manacost>			
+			<cmc>5</cmc>			
+			<color>R</color>			
+			<type>Creature — Dragon</type>			
+			<pt>5/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Landfall - Whenever a land enters the battlefield under your control, create a 0/2 red Dragon Egg creature token with defender and &quot;When this creature dies, create a 2/2 red Dragon creature token with flying and '{R}: This creature gets +1/+0 until end of turn.'&quot;</text>			
+		</card>		
+		<card>			
+			<name>Rampaging Baloths</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/158.jpg?1532443575" rarity="Rare">C18</set>			
+			<manacost>4GG</manacost>			
+			<cmc>6</cmc>			
+			<color>G</color>			
+			<type>Creature — Beast</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+Landfall - Whenever a land enters the battlefield under your control, you may create a 4/4 green Beast creature token.</text>			
+		</card>		
+		<card>			
+			<name>Reality Scramble</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/25.jpg?1532438819" rarity="Rare">C18</set>			
+			<manacost>2RR</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Put target permanent you own on the bottom of your library. Reveal cards from the top of your library until you reveal a card that shares a card type with that permanent. Put that card onto the battlefield and the rest on the bottom of your library in a random order.
+Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)</text>			
+		</card>		
+		<card>			
 			<name>Retrofitter Foundry</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/c18/57.jpg?1532342606" rarity="Rare">C18</set>			
 			<manacost>1</manacost>			
@@ -120,6 +321,17 @@ Lieutenant - At the beginning of combat on your turn, if you control your comman
 {2}, {T}: Create a 1/1 colorless Servo artifact creature token.
 {1}, {T}, Sacrifice a Servo: Create a 1/1 colorless Thopter artifact creature token with flying.
 {T}, Sacrifice a Thopter: Create a 4/4 colorless Construct artifact creature token.</text>			
+		</card>		
+		<card>			
+			<name>Ruinous Path</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/117.jpg?1532430708" rarity="Rare">C18</set>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target creature or planeswalker.
+Awaken 4-{5}{B}{B} (If you cast this spell for {5}{B}{B}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)</text>			
 		</card>		
 		<card>			
 			<name>Saheeli's Directive</name>			
@@ -148,6 +360,17 @@ Reveal the top X cards of your library. You may put any number of artifact cards
 Saheeli, the Gifted can be your commander.</text>			
 		</card>		
 		<card>			
+			<name>Scute Mob</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/161.jpg?1532443541" rarity="Rare">C18</set>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<color>G</color>			
+			<type>Creature — Insect</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of your upkeep, if you control five or more lands, put four +1/+1 counters on Scute Mob.</text>			
+		</card>		
+		<card>			
 			<name>Tawnos, Urza's Apprentice</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/c18/45.jpg?1532345279" rarity="Mythic Rare">C18</set>			
 			<manacost>UR</manacost>			
@@ -159,6 +382,21 @@ Saheeli, the Gifted can be your commander.</text>
 			<tablerow>2</tablerow>			
 			<text>Haste
 {U}{R}, {T}: Copy target activated or triggered ability you control from an artifact source. You may choose new targets for the copy. (Mana abilities can't be targeted.)</text>			
+		</card>		
+		<card>			
+			<name>Thantis the Warweaver</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/46.jpg?1532430507" rarity="Mythic Rare">C18</set>			
+			<manacost>3BRG</manacost>			
+			<cmc>6</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Legendary Creature — Spider</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance, reach
+All creatures attack each combat if able.
+Whenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Thantis the Warweaver.</text>			
 		</card>		
 		<card>			
 			<name>Thopter Spy Network</name>			
@@ -205,6 +443,43 @@ When Varchild leaves the battlefield, gain control of all Survivors.</text>
 			<pt>3/4</pt>			
 			<tablerow>2</tablerow>			
 			<text>Metalcraft - Whenever Vedalken Humiliator attacks, if you control three or more artifacts, creatures your opponents control lose all abilities and have base power and toughness 1/1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Whiptongue Hydra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/36.jpg?1532443453" rarity="Rare">C18</set>			
+			<manacost>5G</manacost>			
+			<cmc>6</cmc>			
+			<color>G</color>			
+			<type>Creature — Lizard Hydra</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Reach
+When Whiptongue Hydra enters the battlefield, destroy all creatures with flying. Put a +1/+1 counter on Whiptongue Hydra for each creature destroyed this way.</text>			
+		</card>		
+		<card>			
+			<name>Windgrace's Judgment</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/49.jpg?1532430816" rarity="Rare">C18</set>			
+			<manacost>3BG</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>For any number of opponents, destroy target nonland permanent that player controls.</text>			
+		</card>		
+		<card>			
+			<name>Xantcha, Sleeper Agent</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/50.jpg?1532433494" rarity="Rare">C18</set>			
+			<manacost>1BR</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<type>Legendary Creature — Minion</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>As Xantcha, Sleeper Agent enters the battlefield, an opponent of your choice gains control of it.
+Xantcha attacks each combat if able and can't attack its owner or planeswalkers its owner controls.
+{3}: Xantcha's controller loses 2 life and you draw a card. Any player may activate this ability.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
