@@ -9,6 +9,32 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Aminatou's Augury</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/6.jpg?1532622011" rarity="Rare">C18</set>			
+			<manacost>6UU</manacost>			
+			<cmc>8</cmc>			
+			<color>U</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Exile the top eight cards of your library. You may put a land card from among them onto the battlefield. Until end of turn, for each nonland card type, you may cast a card of that type from among the exiled cards without paying its mana cost.</text>			
+		</card>		
+		<card>			
+			<name>Aminatou, the Fateshifter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/37.jpg?1532621150" rarity="Mythic Rare">C18</set>			
+			<manacost>WUB</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Legendary Planeswalker — Aminatou</type>			
+			<loyalty>3</loyalty>			
+			<tablerow>1</tablerow>			
+			<text>+1: Draw a card, then put a card from your hand on top of your library.
+-1: Exile another target permanent you own, then return it to the battlefield under your control.
+-6: Choose left or right. Each player gains control of all nonland permanents other than Aminatou, the Fateshifter controlled by the next player in the chosen direction.
+Aminatou, the Fateshifter can be your commander.</text>			
+		</card>		
+		<card>			
 			<name>Ancient Stone Idol</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/c18/53.jpg?1532433723" rarity="Rare">C18</set>			
 			<manacost>10</manacost>			
@@ -23,8 +49,8 @@ When Ancient Stone Idol dies, create a 6/12 colorless Construct artifact creatur
 		</card>		
 		<card>			
 			<name>Arixmethes, Slumbering Isle</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/38.jpg?1532521109" rarity="Rare">C18</set>			
-			<manacost>2UG</manacost>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/38.jpg?1532537418" rarity="Rare">C18</set>			
+			<manacost>2GU</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
 			<color>G</color>			
@@ -51,7 +77,7 @@ Landfall - Whenever a land enters the battlefield under your control, you may pu
 		</card>		
 		<card>			
 			<name>Bear Umbra</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/131.jpg?1532512977" rarity="Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/131.jpg?1532622306" rarity="Rare">C18</set>			
 			<manacost>2GG</manacost>			
 			<cmc>4</cmc>			
 			<color>G</color>			
@@ -168,7 +194,7 @@ Crash of Rhino Beetles gets +10/+10 as long as you control ten or more lands.</t
 		</card>		
 		<card>			
 			<name>Dictate of Kruphix</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/86.jpg?1532513663" rarity="Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/86.jpg?1532622427" rarity="Rare">C18</set>			
 			<manacost>1UU</manacost>			
 			<cmc>3</cmc>			
 			<color>U</color>			
@@ -190,7 +216,7 @@ Create a token that's a copy of target artifact.</text>
 		</card>		
 		<card>			
 			<name>Eel Umbra</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/89.jpg?1532513068" rarity="Common">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/89.jpg?1532622303" rarity="Common">C18</set>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
 			<color>U</color>			
@@ -248,7 +274,7 @@ Create a 4/4 white Angel creature token with flying.</text>
 		</card>		
 		<card>			
 			<name>Enchantress's Presence</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/141.jpg?1532512384" rarity="Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/141.jpg?1532622413" rarity="Rare">C18</set>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
 			<color>G</color>			
@@ -266,6 +292,17 @@ Create a 4/4 white Angel creature token with flying.</text>
 			<text>{2}, {T}: Draw a card. Activate this ability only if you control three or more lands with the same name.</text>			
 		</card>		
 		<card>			
+			<name>Entreat the Dead</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/15.jpg?1532621034" rarity="Rare">C18</set>			
+			<manacost>XXBBB</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return X target creature cards from your graveyard to the battlefield.
+Miracle {X}{B}{B} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)</text>			
+		</card>		
+		<card>			
 			<name>Estrid's Invocation</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/c18/8.jpg?1532515624" rarity="Rare">C18</set>			
 			<manacost>2U</manacost>			
@@ -277,8 +314,8 @@ Create a 4/4 white Angel creature token with flying.</text>
 		</card>		
 		<card>			
 			<name>Estrid, the Masked</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/40.jpg?1532519288" rarity="Mythic Rare">C18</set>			
-			<manacost>1WUG</manacost>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/40.jpg?1532536468" rarity="Mythic Rare">C18</set>			
+			<manacost>1GWU</manacost>			
 			<cmc>4</cmc>			
 			<color>W</color>			
 			<color>U</color>			
@@ -336,6 +373,17 @@ Whenever a creature you control attacks alone, if it's the first combat phase of
 Copy target instant or sorcery spell. You may choose new targets for the copy.</text>			
 		</card>		
 		<card>			
+			<name>Genesis Storm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/30.jpg?1532560495" rarity="Rare">C18</set>			
+			<manacost>4GG</manacost>			
+			<cmc>6</cmc>			
+			<color>G</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>When you cast this spell, copy it for each time you've cast your commander from the command zone this game.
+Reveal cards from the top of your library until you reveal a nonland permanent card. You may put that card onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield on the bottom of your library in a random order.</text>			
+		</card>		
+		<card>			
 			<name>Geode Golem</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/c18/56.jpg?1532257157" rarity="Uncommon">C18</set>			
 			<manacost>5</manacost>			
@@ -374,8 +422,20 @@ When Heavenly Blademaster enters the battlefield, you may attach any number of A
 Other creatures you control get +1/+1 for each Aura and Equipment attached to Heavenly Blademaster.</text>			
 		</card>		
 		<card>			
+			<name>Herald of the Pantheon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/151.jpg?1532538974" rarity="Rare">C18</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Centaur Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Enchantment spells you cast cost {1} less to cast.
+Whenever you cast an enchantment spell, you gain 1 life.</text>			
+		</card>		
+		<card>			
 			<name>Hydra Omnivore</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/153.jpg?1532487194" rarity="Mythic Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/153.jpg?1532622425" rarity="Mythic Rare">C18</set>			
 			<manacost>4GG</manacost>			
 			<cmc>6</cmc>			
 			<color>G</color>			
@@ -385,9 +445,19 @@ Other creatures you control get +1/+1 for each Aura and Equipment attached to He
 			<text>Whenever Hydra Omnivore deals combat damage to an opponent, it deals that much damage to each other opponent.</text>			
 		</card>		
 		<card>			
+			<name>Isolated Watchtower</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/59.jpg?1532545947" rarity="Rare">C18</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C}.
+{2}, {T}: Scry 1, then you may reveal the top card of your library. If a basic land card is revealed this way, put it onto the battlefield tapped. Activate this ability only if an opponent controls at least two more lands than you.</text>			
+		</card>		
+		<card>			
 			<name>Kestia, the Cultivator</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/42.jpg?1532515690" rarity="Mythic Rare">C18</set>			
-			<manacost>1WUG</manacost>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/42.jpg?1532536473" rarity="Mythic Rare">C18</set>			
+			<manacost>1GWU</manacost>			
 			<cmc>4</cmc>			
 			<color>W</color>			
 			<color>U</color>			
@@ -464,8 +534,31 @@ Lieutenant - At the beginning of combat on your turn, if you control your comman
 Lieutenant - At the beginning of combat on your turn, if you control your commander, each opponent loses 3 life.</text>			
 		</card>		
 		<card>			
+			<name>Loyal Unicorn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/4.jpg?1532621423" rarity="Uncommon">C18</set>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Creature — Unicorn</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance
+Lieutenant - At the beginning of combat on your turn, if you control your commander, prevent all combat damage that would be dealt to creatures you control this turn. Other creatures you control gain vigilance until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Magus of the Balance</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/5.jpg?1532621540" rarity="Rare">C18</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Creature — Human Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{4}{W}, {T}, Sacrifice Magus of the Balance: Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.</text>			
+		</card>		
+		<card>			
 			<name>Myth Unbound</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/32.jpg?1532534688" rarity="Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/32.jpg?1532538679" rarity="Rare">C18</set>			
 			<manacost>2G</manacost>			
 			<cmc>3</cmc>			
 			<color>G</color>			
@@ -487,6 +580,30 @@ Whenever your commander is put into the command zone from anywhere, draw a card.
 Landfall - Whenever a land enters the battlefield under your control, create a 0/2 red Dragon Egg creature token with defender and &quot;When this creature dies, create a 2/2 red Dragon creature token with flying and '{R}: This creature gets +1/+0 until end of turn.'&quot;</text>			
 		</card>		
 		<card>			
+			<name>Night Incarnate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/17.jpg?1532622036" rarity="Rare">C18</set>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Creature — Elemental</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Deathtouch
+When Night Incarnate leaves the battlefield, all creatures get -3/-3 until end of turn.
+Evoke {3}{B} (You may cast this spell for its evoke cost. If you do, it's sacrifices when it enters the battlefield.)</text>			
+		</card>		
+		<card>			
+			<name>Nylea's Colossus</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/33.jpg?1532561190" rarity="Rare">C18</set>			
+			<manacost>6G</manacost>			
+			<cmc>7</cmc>			
+			<color>G</color>			
+			<type>Enchantment Creature — Giant</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Constellation - Whenever Nylea's Colossus or another enchantment enters the battlefield under your control, double target creature's power and toughness until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Octopus Umbra</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/c18/11.jpg?1532480916" rarity="Rare">C18</set>			
 			<manacost>3UU</manacost>			
@@ -499,6 +616,49 @@ Enchanted creature has base power and toughness 8/8 and has &quot;Whenever this 
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</text>			
 		</card>		
 		<card>			
+			<name>Phyrexian Delver</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/115.jpg?1532621455" rarity="Rare">C18</set>			
+			<manacost>3BB</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Creature — Zombie</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Phyrexian Delver enters the battlefield, return target creature card from your graveyard to the battlefield. You lose life equal to that card's converted mana cost.</text>			
+		</card>		
+		<card>			
+			<name>Portent</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/97.jpg?1532620725" rarity="Common">C18</set>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<color>U</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle their library.
+Draw a card at the beginning of the next turn's upkeep.</text>			
+		</card>		
+		<card>			
+			<name>Predict</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/98.jpg?1532620597" rarity="Uncommon">C18</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose a card name, then target player puts the top card of their library into their graveyard. If that card has the chosen name, you draw two cards. Otherwise, you draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Primordial Mist</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/12.jpg?1532622529" rarity="Rare">C18</set>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<color>U</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>At the beginning of your end step, you may manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
+Exile a face-down permanent you control face up: You may play that card this turn. (You still pay its costs. Timing rules still apply.)</text>			
+		</card>		
+		<card>			
 			<name>Rampaging Baloths</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/c18/158.jpg?1532443575" rarity="Rare">C18</set>			
 			<manacost>4GG</manacost>			
@@ -509,6 +669,18 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 			<tablerow>2</tablerow>			
 			<text>Trample
 Landfall - Whenever a land enters the battlefield under your control, you may create a 4/4 green Beast creature token.</text>			
+		</card>		
+		<card>			
+			<name>Ravenous Slime</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/34.jpg?1532538769" rarity="Rare">C18</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Ooze</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Ravenous Slime can't be blocked by creatures with power 2 or less.
+If a creature an opponent controls would die, instead exile it and put a number of +1/+1 counters equal to that creature's power on Ravenous Slime.</text>			
 		</card>		
 		<card>			
 			<name>Reality Scramble</name>			
@@ -582,8 +754,42 @@ Saheeli, the Gifted can be your commander.</text>
 			<text>At the beginning of your upkeep, if you control five or more lands, put four +1/+1 counters on Scute Mob.</text>			
 		</card>		
 		<card>			
+			<name>Sigil of the Empty Throne</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/74.jpg?1532538834" rarity="Rare">C18</set>			
+			<manacost>3WW</manacost>			
+			<cmc>5</cmc>			
+			<color>W</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever you cast an enchantment spell, create a 4/4 white Angel creature token with flying.</text>			
+		</card>		
+		<card>			
+			<name>Skull Storm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/18.jpg?1532620669" rarity="Common">C18</set>			
+			<manacost>7BB</manacost>			
+			<cmc>9</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>When you cast this spell, copy it for each time you've cast your commander from the command zone this game.
+Each opponent sacrifices a creature. Each opponent who can't loses half their life, rounded up.</text>			
+		</card>		
+		<card>			
+			<name>Sower of Discord</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/19.jpg?1532621869" rarity="Rare">C18</set>			
+			<manacost>4BB</manacost>			
+			<cmc>6</cmc>			
+			<color>B</color>			
+			<type>Creature — Demon</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+As Sower of Discord enters the battlefield, choose two players.
+Whenever damage is dealt to one of the chosen players, the other chosen player also loses that much life.</text>			
+		</card>		
+		<card>			
 			<name>Spawning Grounds</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/163.jpg?1532512896" rarity="Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/163.jpg?1532622335" rarity="Rare">C18</set>			
 			<manacost>6GG</manacost>			
 			<cmc>8</cmc>			
 			<color>G</color>			
@@ -604,6 +810,17 @@ Enchanted land has &quot;{T}: Create a 5/5 green Beast creature token with tramp
 			<tablerow>2</tablerow>			
 			<text>Haste
 {U}{R}, {T}: Copy target activated or triggered ability you control from an artifact source. You may choose new targets for the copy. (Mana abilities can't be targeted.)</text>			
+		</card>		
+		<card>			
+			<name>Terminus</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/77.jpg?1532621639" rarity="Rare">C18</set>			
+			<manacost>4WW</manacost>			
+			<cmc>6</cmc>			
+			<color>W</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Put all creatures on the bottom of their owners' libraries.
+Miracle {W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)</text>			
 		</card>		
 		<card>			
 			<name>Thantis the Warweaver</name>			
@@ -656,8 +873,8 @@ Whenever one or more artifact creatures you control deal combat damage to a play
 		</card>		
 		<card>			
 			<name>Tuvasa the Sunlit</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/47.jpg?1532519453" rarity="Mythic Rare">C18</set>			
-			<manacost>WUG</manacost>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/47.jpg?1532536477" rarity="Mythic Rare">C18</set>			
+			<manacost>GWU</manacost>			
 			<cmc>3</cmc>			
 			<color>W</color>			
 			<color>U</color>			
@@ -666,7 +883,7 @@ Whenever one or more artifact creatures you control deal combat damage to a play
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>Tuvasa the Sunlit gets +1/+1 for each enchantment you control.
-Whenever you case your first enchantment spell each turn, draw a card.</text>			
+Whenever you cast your first enchantment spell each turn, draw a card.</text>			
 		</card>		
 		<card>			
 			<name>Varchild, Betrayer of Kjeldor</name>			
@@ -680,6 +897,20 @@ Whenever you case your first enchantment spell each turn, draw a card.</text>
 			<text>Whenever Varchild, Betrayer of Kjeldor deals combat damage to a player, that player creates that many 1/1 red Survivor creature tokens.
 Survivors your opponents control can't block, and they can't attack you or a planeswalker you control.
 When Varchild leaves the battlefield, gain control of all Survivors.</text>			
+		</card>		
+		<card>			
+			<name>Varina, Lich Queen</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/48.jpg?1532622301" rarity="Mythic Rare">C18</set>			
+			<manacost>1WUB</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Legendary Creature — Zombie Wizard</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you attack with one or more Zombies, draw that many cards, then discard that many cards. You gain that much life.
+{2}, Exile two cards from your graveyard: Create a tapped 2/2 black Zombie creature token.</text>			
 		</card>		
 		<card>			
 			<name>Vedalken Humiliator</name>			
@@ -738,6 +969,33 @@ When Whiptongue Hydra enters the battlefield, destroy all creatures with flying.
 			<text>As Xantcha, Sleeper Agent enters the battlefield, an opponent of your choice gains control of it.
 Xantcha attacks each combat if able and can't attack its owner or planeswalkers its owner controls.
 {3}: Xantcha's controller loses 2 life and you draw a card. Any player may activate this ability.</text>			
+		</card>		
+		<card>			
+			<name>Yennet, Crypt Sovereign</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/51.jpg?1532621567" rarity="Mythic Rare">C18</set>			
+			<manacost>2WUB</manacost>			
+			<cmc>5</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Legendary Creature — Sphinx</type>			
+			<pt>3/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, vigilance, menace
+Whenever Yennet, Crypt Sovereign attacks, reveal the top card of your library. If that card's converted mana cost is odd, you may cast it without paying its mana cost. Otherwise, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Yuriko, the Tiger's Shadow</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/52.jpg?1532620918" rarity="Rare">C18</set>			
+			<manacost>1UB</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<color>B</color>			
+			<type>Legendary Creature — Human Ninja</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Commander ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking.)
+Whenever a Ninja you control deals combat damage to a player, reveal the top card of your library and put that card into your hand. Each opponent loses life equal to that card's converted mana cost.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
