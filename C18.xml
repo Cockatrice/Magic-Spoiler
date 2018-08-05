@@ -99,7 +99,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</text>
 		</card>		
 		<card>			
 			<name>Aminatou, the Fateshifter</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/37.jpg?1532621150" rarity="Mythic Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/37.jpg?1533412188" rarity="Mythic Rare">C18</set>			
 			<manacost>WUB</manacost>			
 			<cmc>3</cmc>			
 			<color>W</color>			
@@ -312,7 +312,7 @@ Blasphemous Act deals 13 damage to each creature.</text>
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>{T}: Add {C}.
-{3}{G}, {T}, Sacrifice Blighted Woodland: Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.</text>			
+{3}{G}, {T}, Sacrifice Blighted Woodland: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Blinkmoth Urn</name>			
@@ -1039,11 +1039,11 @@ Enchanted creature gets +5/+5 and has trample.</text>
 			<color>U</color>			
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
-			<text>You may have Estrid's Invocation enter the battlefield as a copy of any enchantment you control, except it gains &quot;At the beginning of your upkeep, you may exile this enchantment. If you do, return it to the battlefield under its owner's control.&quot;</text>			
+			<text>You may have Estrid's Invocation enter the battlefield as a copy of any enchantment you control, except it has &quot;At the beginning of your upkeep, you may exile this enchantment. If you do, return it to the battlefield under its owner's control.&quot;</text>			
 		</card>		
 		<card>			
 			<name>Estrid, the Masked</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/40.jpg?1532536468" rarity="Mythic Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/40.jpg?1533413153" rarity="Mythic Rare">C18</set>			
 			<manacost>1GWU</manacost>			
 			<cmc>4</cmc>			
 			<color>W</color>			
@@ -1106,7 +1106,7 @@ Draw a card.</text>
 			<color>G</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.</text>			
+			<text>Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Farhaven Elf</name>			
@@ -1117,7 +1117,7 @@ Draw a card.</text>
 			<type>Creature — Elf Druid</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>When Farhaven Elf enters the battlefield, you may search your library for a basic land card and put it onto the battlefield tapped. If you do, shuffle your library.</text>			
+			<text>When Farhaven Elf enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Far Wanderings</name>			
@@ -1348,8 +1348,8 @@ When Gruul Turf enters the battlefield, return a land you control to its owner's
 			<type>Legendary Creature — Hydra</type>			
 			<pt>0/0</pt>			
 			<tablerow>2</tablerow>			
-			<text>Gyrus, Walker of Corpses enters the battlefield with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
-Whenever Gyrus attacks, you may exile target creature card with lesser power from your graveyard. If you do, create a token that's a copy of that card and that's tapped and attacking. Exile the token at the end of combat.</text>			
+			<text>Gyrus, Waker of Corpses enters the battlefield with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
+Whenever Gyrus attacks, you may exile target creature card with lesser power from your graveyard. If you do, create a token that's a copy of that card and that's tapped and attacking. Exile the token at end of combat.</text>			
 		</card>		
 		<card>			
 			<name>Halimar Depths</name>			
@@ -1372,7 +1372,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>As an additional cost to cast this spell, sacrifice a land.
-Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.</text>			
+Search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Haunted Fengraf</name>			
@@ -1463,7 +1463,7 @@ Whenever you cast an enchantment spell, you gain 1 life.</text>
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Kicker {3}{G} (You may pay an additional {3}{G} as you cast this spell.)
-Search your library for up to two Forest cards and put them onto the battlefield tapped. Then shuffle your library.
+Search your library for up to two Forest cards, put them onto the battlefield tapped, then shuffle your library.
 If this spell was kicked, untap all Forests put onto the battlefield this way. They become 3/3 green creatures with haste that are still lands.</text>			
 		</card>		
 		<card>			
@@ -1486,8 +1486,8 @@ If this spell was kicked, untap all Forests put onto the battlefield this way. T
 			<type>Artifact Creature — Leviathan</type>			
 			<pt>7/11</pt>			
 			<tablerow>2</tablerow>			
-			<text>Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
-Trample
+			<text>Trample
+Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 Shroud (This creature can't be the target of spells or abilities.)</text>			
 		</card>		
 		<card>			
@@ -1621,7 +1621,7 @@ When Kazandu Refuge enters the battlefield, you gain 1 life.
 			<type>Legendary Enchantment Creature — Nymph</type>			
 			<pt>4/4</pt>			
 			<tablerow>2</tablerow>			
-			<text>Bestow {3}{G}{W}{U}
+			<text>Bestow {3}{G}{W}{U} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
 Enchanted creature gets +4/+4.
 Whenever an enchanted creature or enchantment creature you control attacks, draw a card.</text>			
 		</card>		
@@ -1658,7 +1658,7 @@ Remove three quest counters from Khalni Heart Expedition and sacrifice it: Searc
 			<tablerow>0</tablerow>			
 			<text>Krosan Verge enters the battlefield tapped.
 {T}: Add {C}.
-{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card and put them onto the battlefield tapped. Then shuffle your library.</text>			
+{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Kruphix's Insight</name>			
@@ -1949,7 +1949,7 @@ When Mortuary Mire enters the battlefield, you may put target creature card from
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>Mountain Valley enters the battlefield tapped.
-{T}, Sacrifice Mountain Valley: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.</text>			
+{T}, Sacrifice Mountain Valley: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Mulldrifter</name>			
@@ -2033,7 +2033,7 @@ When New Benalia enters the battlefield, scry 1. (Look at the top card of your l
 			<tablerow>2</tablerow>			
 			<text>Deathtouch
 When Night Incarnate leaves the battlefield, all creatures get -3/-3 until end of turn.
-Evoke {3}{B} (You may cast this spell for its evoke cost. If you do, it's sacrifices when it enters the battlefield.)</text>			
+Evoke {3}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>			
 		</card>		
 		<card>			
 			<name>Ninja of the Deep Hours</name>			
@@ -2364,7 +2364,7 @@ At the beginning of the draw step of enchanted creature's controller, that playe
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>Rocky Tar Pit enters the battlefield tapped.
-{T}, Sacrifice Rocky Tar Pit: Search your library for a Swamp or Mountain card and put it onto the battlefield. Then shuffle your library.</text>			
+{T}, Sacrifice Rocky Tar Pit: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Rubblehulk</name>			
@@ -2427,7 +2427,7 @@ Reveal the top X cards of your library. You may put any number of artifact cards
 		</card>		
 		<card>			
 			<name>Saheeli, the Gifted</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/c18/44.jpg?1532364521" rarity="Mythic Rare">C18</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/c18/44.jpg?1533412528" rarity="Mythic Rare">C18</set>			
 			<manacost>2UR</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -2906,7 +2906,7 @@ Miracle {W} (You may cast this card for its miracle cost when you draw it if it'
 			<cmc>0</cmc>			
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
-			<text>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</text>			
+			<text>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Thantis, the Warweaver</name>			
@@ -2921,7 +2921,7 @@ Miracle {W} (You may cast this card for its miracle cost when you draw it if it'
 			<tablerow>2</tablerow>			
 			<text>Vigilance, reach
 All creatures attack each combat if able.
-Whenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Thantis the Warweaver.</text>			
+Whenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Thantis, the Warweaver.</text>			
 		</card>		
 		<card>			
 			<name>Thirst for Knowledge</name>			
@@ -3081,7 +3081,7 @@ Whenever you cast your first enchantment spell each turn, draw a card.</text>
 			<type>Enchantment — Aura</type>			
 			<tablerow>1</tablerow>			
 			<text>Enchant creature
-Enchanted creature gets +2/+2 and has trample and lifelink.</text>			
+Enchanted creature gets +2/+2 and has trample and lifelink. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)</text>			
 		</card>		
 		<card>			
 			<name>Unquestioned Authority</name>			
@@ -3203,7 +3203,7 @@ Enchanted creature gets +3/+3, has trample, and can't attack you or a planeswalk
 			<type>Land</type>			
 			<tablerow>0</tablerow>			
 			<text>{T}: Add {C}.
-{2}, {T}, Sacrifice Warped Landscape: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</text>			
+{2}, {T}, Sacrifice Warped Landscape: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Whiptongue Hydra</name>			
@@ -3329,7 +3329,7 @@ Xantcha attacks each combat if able and can't attack its owner or planeswalkers 
 			<type>Creature — Human Druid</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>When Yavimaya Elder dies, you may search your library for up to two basic land cards, reveal them, and put them into your hand. If you do, shuffle your library.
+			<text>When Yavimaya Elder dies, you may search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle your library.
 {2}, Sacrifice Yavimaya Elder: Draw a card.</text>			
 		</card>		
 		<card>			
