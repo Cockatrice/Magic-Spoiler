@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sun, Sep 09 2018, 13:05:40 (UTC)
+        created: Mon, Sep 10 2018, 20:58:40 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -14,7 +14,7 @@
 	<cards>		
 		<card>			
 			<name>Arboretum Elemental</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/122.jpg?1536100639" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/122.jpg?1536583495" rarity="Uncommon">GRN</set>			
 			<color>G</color>			
 			<manacost>7GG</manacost>			
 			<cmc>9</cmc>			
@@ -25,8 +25,19 @@
 Hexproof (This creature can't be the target of spells or abilities your opponents control.)</text>			
 		</card>		
 		<card>			
+			<name>Assassin's Trophy</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/152.jpg?1536582098" rarity="Rare">GRN</set>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>BG</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target permanent an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle their library.</text>			
+		</card>		
+		<card>			
 			<name>Attendant of Vraska</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/271.jpg?1536356744" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/271.jpg?1536583521" rarity="Uncommon">GRN</set>			
 			<color>B</color>			
 			<color>G</color>			
 			<manacost>1BG</manacost>			
@@ -73,6 +84,28 @@ Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking 
 {2}{R}{W}: Boros Challenger gets +1/+1 until end of turn.</text>			
 		</card>		
 		<card>			
+			<name>Bounty Agent</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/2.jpg?1536598235" rarity="Rare">GRN</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance
+{T}, Sacrifice Bounty Agent: Destroy target legendary permanent that's an artifact, creature, or enchantment.</text>			
+		</card>		
+		<card>			
+			<name>Chromatic Lantern</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/233.jpg?1536593834" rarity="Rare">GRN</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Lands you control have &quot;{T}: Add one mana of any color.&quot;
+{T}: Add one mana of any color.</text>			
+		</card>		
+		<card>			
 			<name>Conclave Tribunal</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/6.jpg?1536340077" rarity="Uncommon">GRN</set>			
 			<color>W</color>			
@@ -95,6 +128,17 @@ When Conclave Tribunal enters the battlefield, exile target nonland permanent an
 Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>			
 		</card>		
 		<card>			
+			<name>Dimir Informant</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/36.jpg?1536584501" rarity="Common">GRN</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Rogue</type>			
+			<pt>1/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Dimir Informant enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)</text>			
+		</card>		
+		<card>			
 			<name>Direct Current</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/96.jpg?1536100770" rarity="Common">GRN</set>			
 			<color>R</color>			
@@ -104,6 +148,19 @@ Surveil 2. (Look at the top two cards of your library, then put any number of th
 			<tablerow>3</tablerow>			
 			<text>Direct Current deals 2 damage to any target.
 Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>			
+		</card>		
+		<card>			
+			<name>Dream Eater</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/38.jpg?1536577799" rarity="Mythic Rare">GRN</set>			
+			<color>U</color>			
+			<manacost>4UU</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Nightmare Sphinx</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+Flying
+When Dream Eater enters the battlefield, surveil 4. When you do, you may return target nonland permanent an opponent controls to its owner's hand. (To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>			
 		</card>		
 		<card>			
 			<name>Emmara, Soul of the Accord</name>			
@@ -116,6 +173,17 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever Emmara, Soul of the Accord becomes tapped, create a 1/1 white Soldier creature token with lifelink.</text>			
+		</card>		
+		<card>			
+			<name>Find // Finality</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/225a.jpg?1536576127" rarity="Rare">GRN</set>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>B/GB/G // 4BG</manacost>			
+			<cmc>16</cmc>			
+			<type>Sorcery // Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text/>			
 		</card>		
 		<card>			
 			<name>Firemind's Research</name>			
@@ -138,6 +206,30 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 			<type>Basic Land — Forest</type>			
 			<tablerow>0</tablerow>			
 			<text>({T}: Add {G}.)</text>			
+		</card>		
+		<card>			
+			<name>Fresh-Faced Recruit</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/216.jpg?1536591797" rarity="Common">GRN</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<manacost>1R/W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Solider</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>As long as it's your turn, Fresh-Faced Recruit has first strike.</text>			
+		</card>		
+		<card>			
+			<name>Goblin Electromancer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/174.jpg?1536598211" rarity="Common">GRN</set>			
+			<color>U</color>			
+			<color>R</color>			
+			<manacost>UR</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Goblin Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Instant and sorcery spells you cast cost {1} less to cast.</text>			
 		</card>		
 		<card>			
 			<name>Golgari Guildgate</name>			
@@ -172,6 +264,17 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>Flying, lifelink</text>			
+		</card>		
+		<card>			
+			<name>Hypothesizzle</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/178.jpg?1536591906" rarity="Common">GRN</set>			
+			<color>U</color>			
+			<color>R</color>			
+			<manacost>3UR</manacost>			
+			<cmc>5</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw two cards. Then you may discard a nonland card. When you do, Hypothesizzle deals 4 damage to target creature.</text>			
 		</card>		
 		<card>			
 			<name>Impervious Greatwurm</name>			
@@ -260,6 +363,21 @@ When Narcomoeba is put into your graveyard from your library, you may put it ont
 			<text>Undergrowth - Target creature gets -X/-X until end of turn, where X is the number of creature cards in your graveyard. If that creature would die this turn, exile it instead.</text>			
 		</card>		
 		<card>			
+			<name>Niv-Mizzet, Parun</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/192.jpg?1536597796" rarity="Rare">GRN</set>			
+			<color>U</color>			
+			<color>R</color>			
+			<manacost>UUURRR</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Dragon Wizard</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>This spell can't be countered.
+Flying
+Whenever you draw a card, Niv-Mizzet, Parun deals 1 damage to any target.
+Whenever a player casts an instant or sorcery spell, you draw a card.</text>			
+		</card>		
+		<card>			
 			<name>Overgrown Tomb</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/253.jpg?1535854851" rarity="Rare">GRN</set>			
 			<manacost/>			
@@ -331,17 +449,17 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 		</card>		
 		<card>			
 			<name>Ral's Dispersal</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/266.jpg?1536355599" rarity="Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/266.jpg?1536591813" rarity="Rare">GRN</set>			
 			<color>U</color>			
 			<manacost>3UU</manacost>			
 			<cmc>5</cmc>			
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
-			<text>Return target creature to its owner's hand. You may search you library and/or graveyard for a card named Ral, Caller of Storms, reveal it, and put it in to your hand. If you search your library this way, shuffle it.</text>			
+			<text>Return target creature to its owner's hand. You may search you library and/or graveyard for a card named Ral, Caller of Storms, reveal it, and put it into your hand. If you search your library this way, shuffle it.</text>			
 		</card>		
 		<card>			
 			<name>Ral's Staticaster</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/268.jpg?1536355871" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/268.jpg?1536583503" rarity="Uncommon">GRN</set>			
 			<color>U</color>			
 			<color>R</color>			
 			<manacost>2UR</manacost>			
@@ -351,6 +469,17 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 			<tablerow>2</tablerow>			
 			<text>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Whenever Ral's Staticaster attacks, if you control a Ral planeswalker, Ral's Staticaster gets +1/+0 for each card in your hand until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Response // Resurgence</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/229a.jpg?1536576025" rarity="Rare">GRN</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<manacost>R/WR/W // 3RW</manacost>			
+			<cmc>15</cmc>			
+			<type>Instant // Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text/>			
 		</card>		
 		<card>			
 			<name>Rosemane Centaur</name>			
@@ -420,6 +549,30 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 			<text>({T}: Add {U} or {R}.)
 As Steam Vents enters the battlefield, you may pay 2 life. If you don't, Steam Vents enters the battlefield tapped.</text>			
 			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Sumala Woodshaper</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/200.jpg?1536580966" rarity="Common">GRN</set>			
+			<color>W</color>			
+			<color>G</color>			
+			<manacost>2GW</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Elf Druid</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Sumala Woodshaper enters the battlefield, look at the top four cards of your library. You may reveal a creature or enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>			
+		</card>		
+		<card>			
+			<name>Sunhome Stalwart</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/26.jpg?1536583463" rarity="Uncommon">GRN</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>First strike
+Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)</text>			
 		</card>		
 		<card>			
 			<name>Swamp</name>			
@@ -493,14 +646,14 @@ Surveil 1. (Look at the top card of your library. You may put that card into you
 		</card>		
 		<card>			
 			<name>Vraska's Stoneglare</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/272.jpg?1536356924" rarity="Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/272.jpg?1536591843" rarity="Rare">GRN</set>			
 			<color>B</color>			
 			<color>G</color>			
 			<manacost>4BG</manacost>			
 			<cmc>6</cmc>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Destroy target creature. You gain life equal to its toughness. You may search your library and/or graveyard from a card named Vraska, Regal Gordon, reveal it, and put it in to your hand. If you search your library this way, shuffle it.</text>			
+			<text>Destroy target creature. You gain life equal to its toughness. You may search your library and/or graveyard from a card named Vraska, Regal Gorgon, reveal it, and put it into your hand. If you search your library this way, shuffle it.</text>			
 		</card>		
 		<card>			
 			<name>Wary Okapi</name>			
@@ -523,6 +676,19 @@ Surveil 1. (Look at the top card of your library. You may put that card into you
 			<text>({T}: Add {U} or {B}.)
 As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.</text>			
 			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Whisper Agent</name>			
+			<set picURL="https://img.scryfall.com/cards/large/en/grn/220.jpg?1536591935" rarity="Common">GRN</set>			
+			<color>U</color>			
+			<color>B</color>			
+			<manacost>1U/BU/B</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Human Rogue</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+When Whisper Agent enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
