@@ -25,32 +25,6 @@
   "border":"black",
   "cards":[
     {
-      "artist":"Tyler Walpole",
-      "cmc":3,
-      "colorIdentity":[
-        "R"
-      ],
-      "colors":[
-        "Red"
-      ],
-      "manaCost":"2R",
-      "name":"\"AAA Video Game Man\"",
-      "number":"120",
-      "power":"3",
-      "rarity":"Common",
-      "subtypes":[
-        "Human",
-        "Soldier"
-      ],
-      "text":"Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\n\"AAA Video Game Man\" can't attack or block alone.",
-      "toughness":"3",
-      "type":"Creature — Human Soldier",
-      "types":[
-        "Creature"
-      ],
-      "url":"https://img.scryfall.com/cards/large/front/eb/ebff5313-e325-47c3-814b-38fdb4c6c8d2.jpg?1536850930"
-    },
-    {
       "artist":"Steve Prescott",
       "cmc":6,
       "colorIdentity":[
@@ -75,34 +49,6 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/front/b4/b4c8ddc1-d95c-499f-b1d1-f608f8f07b02.jpg?1536857125"
-    },
-    {
-      "artist":"Gabor Szikszai",
-      "cmc":5,
-      "colorIdentity":[
-        "R",
-        "W"
-      ],
-      "colors":[
-        "White",
-        "Red"
-      ],
-      "manaCost":"3RW",
-      "name":"\"Air-traffic Control Lizard\"",
-      "number":"172",
-      "power":"3",
-      "rarity":"Common",
-      "subtypes":[
-        "Viashino",
-        "Soldier"
-      ],
-      "text":"\"Air-traffic Control Lizard\" has double strike as long as you control a Gate.",
-      "toughness":"3",
-      "type":"Creature — Viashino Soldier",
-      "types":[
-        "Creature"
-      ],
-      "url":"https://img.scryfall.com/cards/large/front/2b/2bd957a1-a354-48e9-80ad-66e49aa845fc.jpg?1536856488"
     },
     {
       "artist":"James Paick",
@@ -153,7 +99,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/78/787de9ce-02c5-4a17-a88b-d38e83dbeb0b.jpg?1536762953"
+      "url":"https://img.scryfall.com/cards/large/front/78/787de9ce-02c5-4a17-a88b-d38e83dbeb0b.jpg?1536927780"
     },
     {
       "artist":"Mike Bierek",
@@ -242,8 +188,9 @@
         "Red"
       ],
       "manaCost":"2RW",
-      "name":"\"Aurelia, With the Good Hair\"",
+      "name":"Aurelia, Exemplar of Justice",
       "number":"153",
+      "power":"2",
       "rarity":"Mythic Rare",
       "subtypes":[
         "Angel"
@@ -251,12 +198,13 @@
       "supertypes":[
         "Legendary"
       ],
-      "text":"Flying\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nAt the beginning of combat on your turn, choose up to one creature you control. Until end of turn, that creature gets +2/+0, gains trample if it's red, and gains vigilance if it's white.",
+      "text":"Flying\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nAt the beginning of combat on your turn, choose up to one target creature you control. Until end of turn, that creature gets +2/+0, gains trample if it's red, and gains vigilance if it's white.",
+      "toughness":"5",
       "type":"Legendary Creature — Angel",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/a8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1536850694"
+      "url":"https://img.scryfall.com/cards/large/front/a8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1536860207"
     },
     {
       "artist":"Filip Burburan",
@@ -338,6 +286,32 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/1.jpg?1536093819"
+    },
+    {
+      "artist":"Livia Prima",
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"1BB",
+      "name":"Blood Operative",
+      "number":"63",
+      "power":"3",
+      "rarity":"Rare",
+      "subtypes":[
+        "Vampire",
+        "Assassin"
+      ],
+      "text":"Lifelink\nWhen Blood Operative enters the battlefield, you may exile target card from a graveyard.\nWhenever you surveil, if Blood Operative is in your graveyard, you may pay 3 life. If you do, return Blood Operative to your hand.",
+      "toughness":"1",
+      "type":"Creature — Vampire Assassin",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/00/000ac9e5-3c95-4e87-9424-109e2eea6b45.jpg?1536860843"
     },
     {
       "artist":"Gabor Szikszai",
@@ -436,6 +410,33 @@
       "url":"https://img.scryfall.com/cards/large/en/grn/2.jpg?1536598235"
     },
     {
+      "artist":"Raoul Vitale",
+      "cmc":3,
+      "colorIdentity":[
+        "G",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Green"
+      ],
+      "flavor":"\"Please accept this offering. I sincerely hope to leave my mace at my side.\"",
+      "manaCost":"1GW",
+      "name":"Centaur Peacemaker",
+      "number":"158",
+      "rarity":"Common",
+      "subtypes":[
+        "Centaur",
+        "Cleric"
+      ],
+      "text":"When Centaur Peacemaker enters the battlefield, each player gains 4 life.",
+      "type":"Creature — Centaur Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/0e/0e630e9b-7817-4255-9de1-795b2a788d80.jpg?1536928048"
+    },
+    {
       "artist":"Josh Hass",
       "cmc":4,
       "colorIdentity":[
@@ -517,7 +518,7 @@
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/c4/c4144e98-957e-43ac-b107-8ccf450748df.jpg?1536850994"
+      "url":"https://img.scryfall.com/cards/large/front/c4/c4144e98-957e-43ac-b107-8ccf450748df.jpg?1536927838"
     },
     {
       "artist":"Jason Rainville",
@@ -566,6 +567,78 @@
         "Enchantment"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/6.jpg?1536340077"
+    },
+    {
+      "artist":"Dan Scott",
+      "cmc":17,
+      "colorIdentity":[
+        "B",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "layout":"split",
+      "manaCost":"2U/BU/B // 3UB",
+      "name":"Connive // Concoct",
+      "number":"222",
+      "rarity":"Rare",
+      "text":"",
+      "type":"Sorcery // Sorcery",
+      "types":[
+        "Sorcery",
+        "//",
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/89/890ac54c-6fd7-4e46-8ce4-8926c6975f60.jpg?1536928986"
+    },
+    {
+      "artist":"Victor Adame Minguez",
+      "cmc":4,
+      "colorIdentity":[
+        "R",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Red"
+      ],
+      "manaCost":"UURR",
+      "name":"Crackling Drake",
+      "number":"163",
+      "power":"*",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Drake"
+      ],
+      "text":"Flying\nCrackling Drake's power is equal to the total number of instant and sorcery cards you own in exile and in your graveyard.\nWhen Crackling Drake enters the battlefield, draw a card.",
+      "toughness":"4",
+      "type":"Creature — Drake",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/f0/f00fa3a7-e3e2-4b23-a126-a076e75b5dbd.jpg?1536891181"
+    },
+    {
+      "artist":"Wisnu Tan",
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"3B",
+      "name":"Creeping Chill",
+      "number":"66",
+      "rarity":"Uncommon",
+      "text":"Creeping Chill deals 3 damage to each opponent and you gain 3 life.\nWhen Creeping Chill is put into your graveyard from your library, you may exile it. If you do, Creeping Chill deals 3 damage to each opponent and you gain 3 life.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/f5/f5456173-7a08-4b5c-8450-7123375f4a86.jpg?1536929446"
     },
     {
       "artist":"Joe Slucher",
@@ -640,6 +713,26 @@
       "url":"https://img.scryfall.com/cards/large/en/grn/165.jpg?1536636626"
     },
     {
+      "artist":"Milivoj Ćeran",
+      "cmc":4,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"3G",
+      "name":"Detour",
+      "number":"125",
+      "rarity":"Uncommon",
+      "text":"Search your library for up to two basic lands and/or Gates and put them onto the battlefield tapped.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/5a/5a970429-6369-4422-a343-00b30267f09d.jpg?1536930057"
+    },
+    {
       "artist":"Cliff Childs",
       "cmc":0,
       "colorIdentity":[
@@ -707,6 +800,34 @@
       "url":"https://img.scryfall.com/cards/large/front/df/dfb6810b-9bc9-43c5-8cd9-817b12ee3110.jpg?1536723156"
     },
     {
+      "artist":"James Paick",
+      "cmc":2,
+      "colorIdentity":[
+        "B",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "flavor":"Just assume every conversation is on the record.",
+      "manaCost":"UB",
+      "name":"Dimir Spybug",
+      "number":"166",
+      "power":"1",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Insect"
+      ],
+      "text":"Flying\nMenace\nWhenever you surveil, put a +1/+1 counter on Dimir Spybug.",
+      "toughness":"1",
+      "type":"Creature — Insect",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/7c/7c18c450-0bfb-4ba6-9212-b5833fce63a2.jpg?1536929597"
+    },
+    {
       "artist":"Dan Scott",
       "cmc":3,
       "colorIdentity":[
@@ -735,6 +856,7 @@
       "colors":[
         "Blue"
       ],
+      "flavor":"\"Laws apply only to those who lack the vision to see past them.\"",
       "manaCost":"1U",
       "name":"Disdainful Stroke",
       "number":"37",
@@ -744,7 +866,30 @@
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/grn/37.jpg?1536708412"
+      "url":"https://img.scryfall.com/cards/large/front/01/0193dfa3-8409-44be-b4be-6c3cad42d4a4.jpg?1536928511"
+    },
+    {
+      "artist":"Anthony Palumbo",
+      "cmc":3,
+      "colorIdentity":[
+        "B",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "flavor":"\"People would sooner savor sweet lies than chew plain truths.\"\n—Lazav",
+      "manaCost":"1UB",
+      "name":"Disinformation Campaign",
+      "number":"167",
+      "rarity":"Uncommon",
+      "text":"When Disinformation Campaign enters the battlefield, you draw a card and each opponent discards a card.\nWhenever you surveil, return Disinformation Campaign to its owner's hand.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/69/69a79ff3-58ed-4cc2-9ebc-0edbb86cd6fb.jpg?1536929997"
     },
     {
       "artist":"Tianhua Xu",
@@ -772,34 +917,6 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/128.jpg?1536664676"
-    },
-    {
-      "artist":"Chris Rallis",
-      "cmc":4,
-      "colorIdentity":[
-        "R",
-        "W"
-      ],
-      "colors":[
-        "White",
-        "Red"
-      ],
-      "manaCost":"RRWW",
-      "name":"\"Don't Mess with The Reckoner\"",
-      "number":"209",
-      "power":"4",
-      "rarity":"Uncommon",
-      "subtypes":[
-        "Human",
-        "Knight"
-      ],
-      "text":"Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nWhenever \"Don't Mess with The Reckoner\" is dealt damage, it deals that much damage to target player.",
-      "toughness":"3",
-      "type":"Creature — Human Knight",
-      "types":[
-        "Creature"
-      ],
-      "url":"https://img.scryfall.com/cards/large/front/60/6099a230-9298-4649-b257-243af40d0625.jpg?1536849108"
     },
     {
       "artist":"Vincent Proce",
@@ -855,6 +972,34 @@
       "url":"https://img.scryfall.com/cards/large/en/grn/38.jpg?1536577799"
     },
     {
+      "artist":"Tomasz Jedruszek",
+      "cmc":4,
+      "colorIdentity":[
+        "G",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Green"
+      ],
+      "manaCost":"GGWW",
+      "name":"\"Elfcoil Engine\"",
+      "number":"161",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Centaur",
+        "Knight"
+      ],
+      "text":"Vigilance\nWhen \"Elfcoil Engine\" dies, create two green and white 2/2 Elf Knight creature tokens with vigilance.",
+      "toughness":"4",
+      "type":"Creature — Centaur Knight",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/b6/b658a309-d14c-4e20-8c76-e7b3c5156bf2.jpg?1536889872"
+    },
+    {
       "artist":"Mark Winters",
       "cmc":2,
       "colorIdentity":[
@@ -885,6 +1030,27 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/168.jpg?1535908274"
+    },
+    {
+      "artist":"Grzegorz Rutkowski",
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"Who are the agents of the Dimir? No one and everyone.\"\n—Lazav",
+      "manaCost":"1U",
+      "name":"Enhanced Surveillance",
+      "number":"40",
+      "rarity":"Uncommon",
+      "text":"You may look at an additional two cards each time you surveil.\nExile Enhanced Surveillance: Shuffle your graveyard into your library.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/97/971d254e-da25-494b-a16d-3d7d6bb75c73.jpg?1536929930"
     },
     {
       "artist":"Milivoj Ćeran",
@@ -1037,6 +1203,35 @@
       "url":"https://img.scryfall.com/cards/large/en/grn/216.jpg?1536591797"
     },
     {
+      "artist":"Gabor Szikszai",
+      "cmc":5,
+      "colorIdentity":[
+        "R",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Red"
+      ],
+      "flavor":"In the Legion, no flagpole is merely decorative, and every ceremonial sword bears an edge.",
+      "manaCost":"3RW",
+      "name":"Garrison Sergeant",
+      "number":"172",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Viashino",
+        "Soldier"
+      ],
+      "text":"Garrison Sergeant has double strike as long as you control a Gate.",
+      "toughness":"3",
+      "type":"Creature — Viashino Soldier",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/2b/2bd957a1-a354-48e9-80ad-66e49aa845fc.jpg?1536928122"
+    },
+    {
       "artist":"Jedd Chevrier",
       "cmc":0,
       "colorIdentity":[],
@@ -1053,6 +1248,24 @@
         "Land"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/247.jpg?1536675970"
+    },
+    {
+      "artist":"Volkan Baga",
+      "cmc":2,
+      "colorIdentity":[],
+      "manaCost":"2",
+      "name":"Glaive of the Guildpact",
+      "number":"236",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Equipment"
+      ],
+      "text":"Equipped creature gets +1/+0 for each Gate you control and has vigilance and menace. (A creature with menace can't be blocked except by two or more creatures.)\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+      "type":"Artifact — Equipment",
+      "types":[
+        "Artifact"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/e1/e19723ad-7bd2-49ee-a57a-ece99018f4e8.jpg?1536928455"
     },
     {
       "artist":"Lars Grant-West",
@@ -1262,6 +1475,34 @@
       "url":"https://img.scryfall.com/cards/large/front/37/37284ba8-441c-4cf6-95c6-6a0f52e6d36d.jpg?1536777249"
     },
     {
+      "artist":"Daarken",
+      "cmc":3,
+      "colorIdentity":[
+        "G",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Green"
+      ],
+      "manaCost":"1GW",
+      "name":"\"Good Doggo Rider\"",
+      "number":"186",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Knight"
+      ],
+      "text":"Whenever \"Good Doggo Rider\" attacks, you may tap any number of untapped creatures you control. Until end of turn, \"Good Doggo Rider\" gets +1/+1 for each creature tapped this way.\n{3}{G}{W}: Create a 1/1 white soldier creature token with lifelink.",
+      "toughness":"2",
+      "type":"Creature — Human Knight",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/bc/bc4f508b-a48d-4462-9d89-ee2ead3a0847.jpg?1536890881"
+    },
+    {
       "artist":"Adam Paquette",
       "cmc":0,
       "colorIdentity":[],
@@ -1380,6 +1621,32 @@
       "url":"https://img.scryfall.com/cards/large/front/45/45ee7bc8-d5cf-47b1-93c2-7e1d5f536c85.jpg?1536755809"
     },
     {
+      "artist":"David Palumbo",
+      "cmc":1,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"He ferried weapons, spells, exotic animals—but his most dangerous cargo was the truth.",
+      "manaCost":"W",
+      "name":"Hunted Witness",
+      "number":"15",
+      "power":"1",
+      "rarity":"Common",
+      "subtypes":[
+        "Human"
+      ],
+      "text":"When Hunted Witness dies, create a 1/1 white Soldier creature token with lifelink.",
+      "toughness":"1",
+      "type":"Creature — Human",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/8c/8c31b8e5-2349-4119-9dc2-3e41c5364a78.jpg?1536928872"
+    },
+    {
       "artist":"Chris Seaman",
       "cmc":5,
       "colorIdentity":[
@@ -1447,7 +1714,7 @@
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/46/46651efd-0906-4350-a1b8-52e3f8aff45d.jpg?1536850966"
+      "url":"https://img.scryfall.com/cards/large/front/46/46651efd-0906-4350-a1b8-52e3f8aff45d.jpg?1536927808"
     },
     {
       "artist":"Ben Maier",
@@ -1723,6 +1990,33 @@
       "url":"https://img.scryfall.com/cards/large/front/74/7439118d-4869-486e-8930-6e00db2634b2.jpg?1536849203"
     },
     {
+      "artist":"Kimonas Theodossiou",
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"I've raised her since she was a pup, and she's raised me since I was a recruit.\"",
+      "manaCost":"3W",
+      "name":"Ledev Guardian",
+      "number":"18",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Knight"
+      ],
+      "text":"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)",
+      "toughness":"4",
+      "type":"Creature — Human Knight",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/cb/cbeb4ae3-2a7a-44e1-923b-20c772fd1b8b.jpg?1536931927"
+    },
+    {
       "artist":"Zack Stella",
       "cmc":2,
       "colorIdentity":[
@@ -1748,7 +2042,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/b0/b03423b2-faca-4b2e-8328-8b9b7fdb7ce3.jpg?1536856517"
+      "url":"https://img.scryfall.com/cards/large/front/b0/b03423b2-faca-4b2e-8328-8b9b7fdb7ce3.jpg?1536927865"
     },
     {
       "artist":"Alex Konstad",
@@ -1775,6 +2069,59 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/109.jpg?1535854954"
+    },
+    {
+      "artist":"Alex Konstad",
+      "cmc":7,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"\"I prefer the big and looming to the small and skittering.\"\n—Cevraya, Golgari shaman",
+      "manaCost":"6B",
+      "name":"Lotleth Giant",
+      "number":"74",
+      "power":"6",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Zombie",
+        "Giant"
+      ],
+      "text":"Undergrowth - When Lotleth Giant enters the battlefield, it deals 1 damage to target opponent for each creature card in your graveyard.",
+      "toughness":"5",
+      "type":"Creature — Zombie Giant",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/b1/b1dc38b7-52f7-4394-b095-5442429ab291.jpg?1536939677"
+    },
+    {
+      "artist":"Svetlin Velinov",
+      "cmc":6,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"4WW",
+      "name":"Loxodon Restorer",
+      "number":"20",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Elephant",
+        "Cleric"
+      ],
+      "text":"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nWhen Loxodon Restorer enters the battlefield, you gain 4 life.",
+      "toughness":"4",
+      "type":"Creature — Elephant Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/1e/1ead2166-a7ca-49cb-bf93-2f59c37b4cb9.jpg?1536939434"
     },
     {
       "artist":"Zack Stella",
@@ -1812,12 +2159,12 @@
       "name":"Mausoleum Secrets",
       "number":"75",
       "rarity":"Rare",
-      "text":"Undergrowth - Search your library for a black card with converted mana cost less than or equal to the number of creature cards in your graveyard, reveal it, put it into your hand, then search your library.",
+      "text":"Undergrowth - Search your library for a black card with converted mana cost less than or equal to the number of creature cards in your graveyard, reveal it, put it into your hand, then shuffle your library.",
       "type":"Instant",
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/26/26f7cf38-78cc-4139-9f2a-4dd0be7d9da8.jpg?1536751275"
+      "url":"https://img.scryfall.com/cards/large/front/26/26f7cf38-78cc-4139-9f2a-4dd0be7d9da8.jpg?1536930388"
     },
     {
       "artist":"Mike Bierek",
@@ -1837,7 +2184,27 @@
       "types":[
         "Sorcery"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/3b/3b5a08a0-b002-4bfe-9cac-d2bf96175f8e.jpg?1536763015"
+      "url":"https://img.scryfall.com/cards/large/front/3b/3b5a08a0-b002-4bfe-9cac-d2bf96175f8e.jpg?1536927739"
+    },
+    {
+      "artist":"Svetlin Velinov",
+      "cmc":1,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "manaCost":"R",
+      "name":"Maximize Velocity",
+      "number":"111",
+      "rarity":"Common",
+      "text":"Target creature gets +1/+1 and gains haste until end of turn.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/eb/ebb7a2aa-f002-4f05-b9ec-8adee4c65e46.jpg?1536931725"
     },
     {
       "artist":"Sidharth Chaturvedi",
@@ -2221,6 +2588,61 @@
       "url":"https://img.scryfall.com/cards/large/front/54/541ef933-64f8-4075-9bd3-97149ac84b2b.jpg?1536853084"
     },
     {
+      "artist":"Jason Rainville",
+      "cmc":5,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"She memorized every arcane text in the Ismeri Library by the time she was sixteen. Now she quizzes sphinxes in her spare time.",
+      "manaCost":"4U",
+      "name":"Omnispell Adept",
+      "number":"49",
+      "power":"3",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Wizard"
+      ],
+      "text":"{2}{U}, {T}: You may cast an instant or sorcery card from your hand without paying its mana cost.",
+      "toughness":"4",
+      "type":"Creature — Human Wizard",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/e1/e17664df-e8ba-464d-b338-3e671d2d7f0e.jpg?1536929295"
+    },
+    {
+      "artist":"Aaron Miller",
+      "cmc":6,
+      "colorIdentity":[
+        "R",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Red"
+      ],
+      "manaCost":"4RW",
+      "name":"\"One Beefy Boi\"",
+      "number":"202",
+      "power":"5",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Giant",
+        "Soldier"
+      ],
+      "text":"Vigilance\nWhenever \"One Beefy Boi\" attacks, it deals 1 damage to each creature defending player controls.",
+      "toughness":"5",
+      "type":"Creature — Giant Soldier",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/70/700b38c5-3fd2-4566-8d27-9a09d5ab02b2.jpg?1536889708"
+    },
+    {
       "artist":"Yeong-Hao Han",
       "cmc":0,
       "colorIdentity":[
@@ -2241,6 +2663,33 @@
         "Land"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/253.jpg?1535854851"
+    },
+    {
+      "artist":"Even Amundsen",
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"Too many have disappeared in these dark days. I am the light that will lead them home.\"",
+      "manaCost":"3W",
+      "name":"Parhelion Patrol",
+      "number":"22",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Knight"
+      ],
+      "text":"Flying, vigilance\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
+      "toughness":"3",
+      "type":"Creature — Human Knight",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/ee/eef126f2-7e72-4338-8021-3ad95e4ab982.jpg?1536939277"
     },
     {
       "artist":"John Thacker",
@@ -2268,6 +2717,34 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/front/a8/a8ed28c3-8c66-4883-8774-67ac5ab9e81c.jpg?1536750979"
+    },
+    {
+      "artist":"Wayne Reynolds",
+      "cmc":7,
+      "colorIdentity":[
+        "R",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Red"
+      ],
+      "flavor":"Its hyperpneumatics can punch through a wall and the spy on the other side.",
+      "manaCost":"1U/RU/R",
+      "name":"Piston-Fist Cyclops",
+      "number":"217",
+      "power":"4",
+      "rarity":"Common",
+      "subtypes":[
+        "Cyclops"
+      ],
+      "text":"Defender\nAs long as you've cast an instant or sorcery spell this turn, Piston-Fist Cyclops can attack as though it didn't have defender.",
+      "toughness":"3",
+      "type":"Creature — Cyclops",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/2e/2ec7523a-a9c4-4b76-8f9e-b591a88e2e37.jpg?1536939362"
     },
     {
       "artist":"Richard Wright",
@@ -2485,6 +2962,27 @@
       "url":"https://img.scryfall.com/cards/large/en/grn/229a.jpg?1536691260"
     },
     {
+      "artist":"Dimitar Marinski",
+      "cmc":4,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"Only the patrol's armor was found, so tainted with the acrid smell of sudden death that it could never be worn again.",
+      "manaCost":"2BB",
+      "name":"Ritual of Soot",
+      "number":"84",
+      "rarity":"Rare",
+      "text":"Destroy all creatures with converted mana cost 3 or less.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/26/269af993-4894-4bf1-b55a-af4d736cb3cc.jpg?1536929066"
+    },
+    {
       "artist":"Nils Hamm",
       "cmc":5,
       "colorIdentity":[
@@ -2567,7 +3065,7 @@
         "G",
         "W"
       ],
-      "flavor":"\"Everyone who crosses that threshold is our most cherished friend. Everyone crosses it again is our bitterest enemy.\"\n—Trostani",
+      "flavor":"\"Everyone who crosses that threshold is our most cherished friend. Everyone who crosses it again is our bitterest enemy.\"\n—Trostani",
       "name":"Selesnya Guildgate",
       "number":"255",
       "rarity":"Common",
@@ -2579,7 +3077,7 @@
       "types":[
         "Land"
       ],
-      "url":"https://img.scryfall.com/cards/large/en/grn/255.jpg?1536663505"
+      "url":"https://img.scryfall.com/cards/large/en/grn/255.jpg?1536860235"
     },
     {
       "artist":"Winona Nelson",
@@ -2632,6 +3130,7 @@
         "White",
         "Red"
       ],
+      "flavor":"Squadrons of skyknights are available for deployment around the clock, capable of reaching any district in the city within minutes.",
       "manaCost":"1RW",
       "name":"Skyknight Legionnaire",
       "number":"198",
@@ -2647,7 +3146,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/3c/3c27f2ce-702a-4ec2-a470-982171a9ec73.jpg?1536851060"
+      "url":"https://img.scryfall.com/cards/large/front/3c/3c27f2ce-702a-4ec2-a470-982171a9ec73.jpg?1536927922"
     },
     {
       "artist":"Tyler Walpole",
@@ -2825,6 +3324,35 @@
       "url":"https://img.scryfall.com/cards/large/front/75/7599adc7-72b2-4079-ac0a-1a821f9de925.jpg?1536755201"
     },
     {
+      "artist":"Viktor Titov",
+      "cmc":2,
+      "colorIdentity":[
+        "R",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Red"
+      ],
+      "flavor":"A swiftblade is an artist, each fiery trail of their blades a fleeting masterpiece traced on the air.",
+      "manaCost":"RW",
+      "name":"Swiftblade Vindicator",
+      "number":"203",
+      "power":"1",
+      "rarity":"Rare",
+      "subtypes":[
+        "Human",
+        "Soldier"
+      ],
+      "text":"Double strike, vigilance, trample",
+      "toughness":"1",
+      "type":"Creature — Human Soldier",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/28/285c4d9e-0f22-49a8-b68c-150fd0d4b617.jpg?1536929190"
+    },
+    {
       "artist":"Titus Lunter",
       "cmc":0,
       "colorIdentity":[
@@ -2895,6 +3423,64 @@
       "url":"https://img.scryfall.com/cards/large/en/grn/206.jpg?1535908265"
     },
     {
+      "artist":"Chase Stone",
+      "cmc":5,
+      "colorIdentity":[
+        "G",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Green"
+      ],
+      "manaCost":"3GW",
+      "name":"Trostani Discordant",
+      "number":"208",
+      "power":"1",
+      "rarity":"Mythic Rare",
+      "subtypes":[
+        "Dryad"
+      ],
+      "supertypes":[
+        "Legendary"
+      ],
+      "text":"Other creatures you control get +1/+1.\nWhen Trostani Discordant enters the battlefield, create two 1/1 white Soldier creature tokens with lifelink.\nAt the beginning of your end step, each player gains control of all creatures they own.",
+      "toughness":"4",
+      "type":"Legendary Creature — Dryad",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/fa/fa1190a4-3d7e-4500-991f-e36ec3d1d9dc.jpg?1536928853"
+    },
+    {
+      "artist":"Chris Rallis",
+      "cmc":4,
+      "colorIdentity":[
+        "R",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Red"
+      ],
+      "manaCost":"RRWW",
+      "name":"Truefire Captain",
+      "number":"209",
+      "power":"4",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Human",
+        "Knight"
+      ],
+      "text":"Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nWhenever Truefire Captain is dealt damage, it deals that much damage to target player.",
+      "toughness":"3",
+      "type":"Creature — Human Knight",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/60/6099a230-9298-4649-b257-243af40d0625.jpg?1536929634"
+    },
+    {
       "artist":"Anna Steinbauer",
       "cmc":5,
       "colorIdentity":[
@@ -2944,6 +3530,32 @@
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/56.jpg?1536080771"
+    },
+    {
+      "artist":"Zack Stella",
+      "cmc":5,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "manaCost":"4W",
+      "name":"Venerated Loxodon",
+      "number":"30",
+      "power":"4",
+      "rarity":"Rare",
+      "subtypes":[
+        "Elephant",
+        "Cleric"
+      ],
+      "text":"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)\nWhen Venerated Loxodon enters the battlefield, put a +1/+1 counter on each creature that convoked it.",
+      "toughness":"4",
+      "type":"Creature — Elephant Cleric",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/93/93599fba-7c53-4621-85b5-6434be077bf6.jpg?1536860638"
     },
     {
       "artist":"Yeong-Hao Han",
@@ -3077,6 +3689,31 @@
       "url":"https://img.scryfall.com/cards/large/en/grn/149.jpg?1536318016"
     },
     {
+      "artist":"Ryan Yee",
+      "cmc":5,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "manaCost":"3UU",
+      "name":"Watcher in the Mist",
+      "number":"59",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Spirit"
+      ],
+      "text":"Flying\nWhen Watcher in the Mist enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)",
+      "toughness":"4",
+      "type":"Creature — Spirit",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/fb/fb971f49-8898-444a-a17c-caeb1696c62a.jpg?1536929358"
+    },
+    {
       "artist":"Cliff Childs",
       "cmc":0,
       "colorIdentity":[
@@ -3155,30 +3792,31 @@
       "url":"https://img.scryfall.com/cards/large/front/fa/fa4ca97e-b402-4a73-9c70-79ec4565a39c.jpg?1536751215"
     },
     {
-      "artist":"Raoul Vitale",
+      "artist":"Tyler Walpole",
       "cmc":3,
       "colorIdentity":[
-        "G",
-        "W"
+        "R"
       ],
       "colors":[
-        "White",
-        "Green"
+        "Red"
       ],
-      "manaCost":"1GW",
-      "name":"\"Your Centaur Valentine\"",
-      "number":"158",
+      "flavor":"\"By all means, take another step toward the captain.\"",
+      "manaCost":"2R",
+      "name":"Wojek Bodyguard",
+      "number":"120",
+      "power":"3",
       "rarity":"Common",
       "subtypes":[
-        "Centaur",
-        "Cleric"
+        "Human",
+        "Soldier"
       ],
-      "text":"When \"Your Centaur Valentine\" enters the battlefield, each player gains 4 life.",
-      "type":"Creature — Centaur Cleric",
+      "text":"Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nWojek Bodyguard can't attack or block alone.",
+      "toughness":"3",
+      "type":"Creature — Human Soldier",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/0e/0e630e9b-7817-4255-9de1-795b2a788d80.jpg?1536851880"
+      "url":"https://img.scryfall.com/cards/large/front/eb/ebff5313-e325-47c3-814b-38fdb4c6c8d2.jpg?1536928028"
     }
   ],
   "code":"GRN",
