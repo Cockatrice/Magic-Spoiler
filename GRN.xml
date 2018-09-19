@@ -20,18 +20,6 @@
 			<text>When Affectionate Indrik enters the battlefield, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)</text>			
 		</card>		
 		<card>			
-			<name>&quot;Ancient Trooper&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/3/5/351ee4ba-882d-48c1-837d-e9eccc5bc50d.jpg?1537289152" rarity="Common">GRN</set>			
-			<manacost>1BG</manacost>			
-			<cmc>3</cmc>			
-			<color>B</color>			
-			<color>G</color>			
-			<type>Creature — Zombie Soldier</type>			
-			<pt>2/2</pt>			
-			<tablerow>2</tablerow>			
-			<text>Discard a creature card: &quot;Ancient Trooper&quot; gets +2/+2 and gains trample until end of turn. Activate this ability only once each turn.</text>			
-		</card>		
-		<card>			
 			<name>Arboretum Elemental</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/122.jpg?1536583495" rarity="Uncommon">GRN</set>			
 			<manacost>7GG</manacost>			
@@ -57,7 +45,7 @@ At the beginning of combat on your turn, if you've cast three or more instant an
 		</card>		
 		<card>			
 			<name>Artful Takedown</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/151.jpg?1536675357" rarity="Common">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/c/4c9e8f24-af62-4d13-bfed-a8b3294b64c3.jpg?1537291647" rarity="Common">GRN</set>			
 			<manacost>2UB</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -104,7 +92,7 @@ At the beginning of combat on your turn, if you've cast three or more instant an
 		</card>		
 		<card>			
 			<name>Aurelia, Exemplar of Justice</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1537149603" rarity="Mythic Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1537354418" rarity="Mythic Rare">GRN</set>			
 			<manacost>2RW</manacost>			
 			<cmc>4</cmc>			
 			<color>W</color>			
@@ -129,6 +117,29 @@ At the beginning of combat on your turn, choose up to one target creature you co
 Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)</text>			
 		</card>		
 		<card>			
+			<name>Barrier of Bones</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/8/28129aaf-aaff-47f4-8dd2-8c576c55052c.jpg?1537361259" rarity="Common">GRN</set>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<color>B</color>			
+			<type>Creature — Skeleton Wall</type>			
+			<pt>0/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender
+When Barrier of Bones enters the battlefield, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Bartizan Bats</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/1/210da4ad-d8c5-436b-b1a4-5233e8074a1b.jpg?1537361340" rarity="Common">GRN</set>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Creature — Bat</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying</text>			
+		</card>		
+		<card>			
 			<name>Beacon Bolt</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/3/9/39c9e4b5-364b-4c0b-bb47-266563a6abf2.jpg?1537209068" rarity="Uncommon">GRN</set>			
 			<manacost>1UR</manacost>			
@@ -139,6 +150,18 @@ Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking 
 			<tablerow>3</tablerow>			
 			<text>Beacon Bolt deals damage to target creature equal to the total number of instant and sorcery cards you own in exile and in your graveyard.
 Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>			
+		</card>		
+		<card>			
+			<name>Beamsplitter Mage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/f/8f1801f2-ea6e-4196-858e-2afc456cf6a0.jpg?1537354082" rarity="Uncommon">GRN</set>			
+			<manacost>UR</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<color>R</color>			
+			<type>Creature — Vedalken Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast an instant or sorcery that targets only Beamsplitter Mage, if you control one or more creatures that the spell could target, choose one of them. Copy the spell and it targets the chosen creature.</text>			
 		</card>		
 		<card>			
 			<name>Beast Whisperer</name>			
@@ -174,18 +197,6 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 			<text>Lifelink
 When Blood Operative enters the battlefield, you may exile target card from a graveyard.
 Whenever you surveil, if Blood Operative is in your graveyard, you may pay 3 life. If you do, return Blood Operative to your hand.</text>			
-		</card>		
-		<card>			
-			<name>Boltsplicer Mage</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/8/f/8f1801f2-ea6e-4196-858e-2afc456cf6a0.jpg?1537288596" rarity="Uncommon">GRN</set>			
-			<manacost>UR</manacost>			
-			<cmc>2</cmc>			
-			<color>U</color>			
-			<color>R</color>			
-			<type>Creature — Vedalken Wizard</type>			
-			<pt>2/2</pt>			
-			<tablerow>2</tablerow>			
-			<text>Whenever you cast an instant or sorcery that targets only Boltsplicer Mage, if you control one or more creatures that the spell could target, choose one of them. Copy the spell and it targets the chosen creature.</text>			
 		</card>		
 		<card>			
 			<name>Book Devourer</name>			
@@ -246,6 +257,64 @@ Whenever Book Devourer deals combat damage to a player, you may discard all the 
 {T}, Sacrifice Bounty Agent: Destroy target legendary permanent that's an artifact, creature, or enchantment.</text>			
 		</card>		
 		<card>			
+			<name>Bounty of Might</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/9/e9a950d8-e6e2-42d6-83d7-a60c15d2035d.jpg?1537353702" rarity="Rare">GRN</set>			
+			<manacost>4GG</manacost>			
+			<cmc>6</cmc>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +3/+3 until end of turn.
+Target creature gets +3/+3 until end of turn.
+Target creature gets +3/+3 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Burglar Rat</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/9/e9f7f218-fd2a-4233-8753-065ddc314f2d.jpg?1537361390" rarity="Common">GRN</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Creature — Rat</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Burglar Rat enters the battlefield, each opponent discards a card.</text>			
+		</card>		
+		<card>			
+			<name>Camaraderie</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/9/890a2fa9-1141-4a4c-85af-05723aba5e39.jpg?1537290572" rarity="Rare">GRN</set>			
+			<manacost>4GW</manacost>			
+			<cmc>6</cmc>			
+			<color>W</color>			
+			<color>G</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>You gain X life and draw X cards, where X is the number of creatures you control. Creatures you control get +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Candlelight Vigil</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/9/e920a75f-7dec-4815-a358-e174401da83b.jpg?1537358053" rarity="Common">GRN</set>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +3/+2 and has vigilance.</text>			
+		</card>		
+		<card>			
+			<name>Capture Sphere</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/a/5a799ac8-5798-4a26-81c1-763d6dcfcbe8.jpg?1537359624" rarity="Common">GRN</set>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<color>U</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Flash
+Enchant creature
+When Capture Sphere enters the battlefield, tap enchanted creature.
+Enchanted creature doesn't untap during its controller's untap step.</text>			
+		</card>		
+		<card>			
 			<name>Centaur Peacemaker</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/0/e/0e630e9b-7817-4255-9de1-795b2a788d80.jpg?1537149094" rarity="Common">GRN</set>			
 			<manacost>1GW</manacost>			
@@ -258,8 +327,31 @@ Whenever Book Devourer deals combat damage to a player, you may discard all the 
 			<text>When Centaur Peacemaker enters the battlefield, each player gains 4 life.</text>			
 		</card>		
 		<card>			
+			<name>Chamber Sentry</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/5/15dfd5f2-5298-4cf4-80fe-43db9be24f57.jpg?1537308530" rarity="Rare">GRN</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Chamber Sentry enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.
+{X}, {T}, Remove X +1/+1 counters from Chamber Sentry: It deals X damage to any target.
+{W}{U}{B}{R}{G}: Return Chamber Sentry from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Chance for Glory</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/5/85edf6f9-b863-41e2-bb51-857ea2798090.jpg?1537291715" rarity="Mythic Rare">GRN</set>			
+			<manacost>1RW</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<color>R</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Creatures you control gain indestructible. Take an extra turn after this one. At the beginning of that turn's end step, you lose the game.</text>			
+		</card>		
+		<card>			
 			<name>Charnel Troll</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/7/1/71fec229-e22c-4655-8640-02d0ec472be0.jpg?1537278334" rarity="Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/1/71fec229-e22c-4655-8640-02d0ec472be0.jpg?1537291749" rarity="Rare">GRN</set>			
 			<manacost>1BG</manacost>			
 			<cmc>3</cmc>			
 			<color>B</color>			
@@ -281,6 +373,17 @@ At the beginning of your upkeep, exile a creature card from your graveyard. If y
 			<tablerow>3</tablerow>			
 			<text>Draw two cards.
 Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>			
+		</card>		
+		<card>			
+			<name>Child of Night</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/f/afebf1a5-eb9a-48c6-a26a-55b75408992b.jpg?1537361443" rarity="Common">GRN</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Creature — Vampire</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Lifelink (Damage dealt by this creature also causes you to gain that much life.)</text>			
 		</card>		
 		<card>			
 			<name>Chromatic Lantern</name>			
@@ -323,6 +426,16 @@ When Citywatch Sphinx dies, surveil 2. (Look at the top two cards of your librar
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy all creatures with toughness 4 or greater.</text>			
+		</card>		
+		<card>			
+			<name>Collar the Culprit</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/d/cdf305b7-d1f7-4770-9201-8f3fb6735cd9.jpg?1537358131" rarity="Common">GRN</set>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target creature with toughness 4 or greater.</text>			
 		</card>		
 		<card>			
 			<name>Command the Storm</name>			
@@ -383,6 +496,16 @@ When Conclave Tribunal enters the battlefield, exile target nonland permanent an
 			<text/>			
 		</card>		
 		<card>			
+			<name>Cosmotronic Wave</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/9/69c5bafa-8cd8-4158-98e0-46dc74c027c0.jpg?1537362946" rarity="Common">GRN</set>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Cosmotronic Wave deals 1 damage to each creature your opponents control. Creatures your opponents control can't block this turn.</text>			
+		</card>		
+		<card>			
 			<name>Crackling Drake</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/f/0/f00fa3a7-e3e2-4b23-a126-a076e75b5dbd.jpg?1537149084" rarity="Uncommon">GRN</set>			
 			<manacost>UURR</manacost>			
@@ -408,6 +531,30 @@ When Crackling Drake enters the battlefield, draw a card.</text>
 When Creeping Chill is put into your graveyard from your library, you may exile it. If you do, Creeping Chill deals 3 damage to each opponent and you gain 3 life.</text>			
 		</card>		
 		<card>			
+			<name>Crush Contraband</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/3/13e162b3-2e5a-4235-a2a7-1c8e3e9f2c19.jpg?1537358201" rarity="Uncommon">GRN</set>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one or both -
+• Exile target artifact.
+• Exile target enchantment.</text>			
+		</card>		
+		<card>			
+			<name>Crushing Canopy</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/0/c0c4f213-0ea4-44c0-8429-172a317b77f5.jpg?1537363522" rarity="Common">GRN</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one -
+• Destroy target creature with flying.
+• Destroy target enchantment.</text>			
+		</card>		
+		<card>			
 			<name>Darkblade Agent</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/f/0/f0b610c5-61e5-43df-a87b-3eaaa915402b.jpg?1537149412" rarity="Common">GRN</set>			
 			<manacost>1UB</manacost>			
@@ -418,6 +565,28 @@ When Creeping Chill is put into your graveyard from your library, you may exile 
 			<pt>2/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>As long as you've surveilled this turn, Darkblade Agent has deathtouch and &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Dawn of Hope</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/f/cf2a9e82-8670-4b7f-b5f0-8e10f8aeff1c.jpg?1537353780" rarity="Rare">GRN</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever you gain life, you may pay {2}. If you do, draw a card.
+{3}{W}: Create a 1/1 white Soldier creature token with lifelink.</text>			
+		</card>		
+		<card>			
+			<name>Dazzling Lights</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/9/a9d4639a-b634-469e-a848-35e3a3dfd47e.jpg?1537359670" rarity="Common">GRN</set>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets -3/-0 until end of turn.
+Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)</text>			
 		</card>		
 		<card>			
 			<name>Deadly Visit</name>			
@@ -431,6 +600,17 @@ When Creeping Chill is put into your graveyard from your library, you may exile 
 Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>			
 		</card>		
 		<card>			
+			<name>Dead Weight</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/1/a1a81554-50d4-4fe0-bf0d-5304f215d19e.jpg?1537361479" rarity="Common">GRN</set>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<color>B</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets -2/-2.</text>			
+		</card>		
+		<card>			
 			<name>Deafening Clarion</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/165.jpg?1536636626" rarity="Rare">GRN</set>			
 			<manacost>1RW</manacost>			
@@ -442,6 +622,39 @@ Surveil 2. (Look at the top two cards of your library, then put any number of th
 			<text>Choose one or both -
 • Deafening Clarion deals 3 damage to each creature.
 • Creatures you control gain lifelink until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Demotion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/9/69202217-ef36-4d6c-bbd0-ebbb2ade51f7.jpg?1537358259" rarity="Common">GRN</set>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<color>W</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature can't block and its activated abilities can't be activated.</text>			
+		</card>		
+		<card>			
+			<name>Devious Cover-up</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/1/21ac6b0a-b1a5-439d-b65e-5f04e1826c80.jpg?1537291443" rarity="Common">GRN</set>			
+			<manacost>2UU</manacost>			
+			<cmc>4</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
+You may shuffle up to four target cards from your graveyard into your library.</text>			
+		</card>		
+		<card>			
+			<name>Devkarin Dissident</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/9/490cd287-5f09-442f-9150-4a6ac2cf3e2e.jpg?1537363897" rarity="Common">GRN</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Elf Warrior</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{4}{G}: Devkarin Dissident gets +2/+2 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Dimir Guildgate</name>			
@@ -567,8 +780,19 @@ Whenever you surveil, return Disinformation Campaign to its owner's hand.</text>
 Pay 2 life: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)</text>			
 		</card>		
 		<card>			
+			<name>Douser of Lights</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/c/7c554be7-6fd4-4642-aaa0-2781d9c388e4.jpg?1537361570" rarity="Common">GRN</set>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Creature — Horror</type>			
+			<pt>4/5</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
 			<name>Dream Eater</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/38.jpg?1536577799" rarity="Mythic Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/f/9f3a4677-7683-4f63-af31-b76491ec9f9c.jpg?1537291459" rarity="Mythic Rare">GRN</set>			
 			<manacost>4UU</manacost>			
 			<cmc>6</cmc>			
 			<color>U</color>			
@@ -581,7 +805,7 @@ When Dream Eater enters the battlefield, surveil 4. When you do, you may return 
 		</card>		
 		<card>			
 			<name>Drowned Secrets</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/b/f/bfc98428-7a0f-445f-9d48-eeb76c3e10d6.jpg?1537289462" rarity="Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/f/bfc98428-7a0f-445f-9d48-eeb76c3e10d6.jpg?1537359685" rarity="Rare">GRN</set>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
 			<color>U</color>			
@@ -591,7 +815,7 @@ When Dream Eater enters the battlefield, surveil 4. When you do, you may return 
 		</card>		
 		<card>			
 			<name>Electrostatic Field</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/7/0/7096c9a6-2e73-41f8-b20a-b29a9f0b760c.jpg?1537289023" rarity="Common">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/0/7096c9a6-2e73-41f8-b20a-b29a9f0b760c.jpg?1537354342" rarity="Common">GRN</set>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
 			<color>R</color>			
@@ -615,7 +839,7 @@ When you cast an instant or sorcery spell, Electrostatic Field deals 1 damage to
 		</card>		
 		<card>			
 			<name>Enhanced Surveillance</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/9/7/971d254e-da25-494b-a16d-3d7d6bb75c73.jpg?1537149586" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/7/971d254e-da25-494b-a16d-3d7d6bb75c73.jpg?1537291508" rarity="Uncommon">GRN</set>			
 			<manacost>1U</manacost>			
 			<cmc>2</cmc>			
 			<color>U</color>			
@@ -637,8 +861,20 @@ Exile Enhanced Surveillance: Shuffle your graveyard into your library.</text>
 Whenever you cast an instant or sorcery spell, Erratic Cyclops gets +X/+0 until end of turn, where X is that spell's converted mana cost.</text>			
 		</card>		
 		<card>			
+			<name>Erstwhile Trooper</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/5/351ee4ba-882d-48c1-837d-e9eccc5bc50d.jpg?1537354035" rarity="Common">GRN</set>			
+			<manacost>1BG</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<color>G</color>			
+			<type>Creature — Zombie Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Discard a creature card: Erstwhile Trooper gets +2/+2 and gains trample until end of turn. Activate this ability only once each turn.</text>			
+		</card>		
+		<card>			
 			<name>Etrata, the Silencer</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/f/a/fa36b142-e67e-49da-9080-c5994e275266.jpg?1537207059" rarity="Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/a/fa36b142-e67e-49da-9080-c5994e275266.jpg?1537291778" rarity="Rare">GRN</set>			
 			<manacost>2UB</manacost>			
 			<cmc>4</cmc>			
 			<color>U</color>			
@@ -647,7 +883,7 @@ Whenever you cast an instant or sorcery spell, Erratic Cyclops gets +X/+0 until 
 			<pt>3/5</pt>			
 			<tablerow>2</tablerow>			
 			<text>Etrata, the Silencer can't be blocked.
-Whenever Etrata deals combat damage to a player, exile target creature that player controls and put a hit counter on that card. That player loses the game if they own three or more exiled card with hit counters on them. Etrata's owner shuffles Etrata into their library.</text>			
+Whenever Etrata deals combat damage to a player, exile target creature that player controls and put a hit counter on that card. That player loses the game if they own three or more exiled cards with hit counters on them. Etrata's owner shuffles Etrata into their library.</text>			
 		</card>		
 		<card>			
 			<name>Expansion // Explosion</name>			
@@ -674,15 +910,15 @@ You can't play cards from your hand.
 {3}{R}: Destroy Experimental Frenzy.</text>			
 		</card>		
 		<card>			
-			<name>&quot;Final Bortune&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/8/5/85edf6f9-b863-41e2-bb51-857ea2798090.jpg?1537148796" rarity="Mythic Rare">GRN</set>			
-			<manacost>1RW</manacost>			
+			<name>Fearless Halberdier</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/0/30e04f16-89d0-4e75-a3cd-4dd64414050c.jpg?1537363918" rarity="Common">GRN</set>			
+			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
-			<color>W</color>			
 			<color>R</color>			
-			<type>Instant</type>			
-			<tablerow>3</tablerow>			
-			<text>Creatures you control gain indestructible. Take an extra turn after this one. At the beginning of that turn's end step, you lose the game.</text>			
+			<type>Creature — Human Warrior</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
 		</card>		
 		<card>			
 			<name>Find // Finality</name>			
@@ -709,19 +945,32 @@ You can't play cards from your hand.
 {1}{R}, Remove five charge counters from Firemind's Research: It deals 5 damage to any target.</text>			
 		</card>		
 		<card>			
-			<name>&quot;Fleshbae Marauder&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/8/6/8682fb87-df14-4277-aaa0-0d53d766c406.jpg?1537289259" rarity="Uncommon">GRN</set>			
-			<manacost>2B</manacost>			
-			<cmc>3</cmc>			
-			<color>B</color>			
-			<type>Creature — Human Shaman</type>			
-			<pt>3/2</pt>			
+			<name>Fire Urchin</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/3/b3a843ff-6bd0-42d5-9348-44b774d438b1.jpg?1537364067" rarity="Common">GRN</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Elemental</type>			
+			<pt>1/3</pt>			
 			<tablerow>2</tablerow>			
-			<text>When &quot;Fleshbae Marauder&quot; enters the battlefield, each player sacrifices a creature or planeswalker. Each player who can't discards a card.</text>			
+			<text>Trample
+Whenever you cast an instant or sorcery spell, Fire Urchin gets +1/+0 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Flight of Equenauts</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/c/accfc430-114e-4ce0-93ea-e8900955a71e.jpg?1537354190" rarity="Uncommon">GRN</set>			
+			<manacost>7W</manacost>			
+			<cmc>8</cmc>			
+			<color>W</color>			
+			<type>Creature — Human Knight</type>			
+			<pt>4/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Flying</text>			
 		</card>		
 		<card>			
 			<name>Flower // Flourish</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/f/e/feb4b39f-d309-49ba-b427-240b7fdc1099.jpg?1537289007" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/e/feb4b39f-d309-49ba-b427-240b7fdc1099.jpg?1537291850" rarity="Uncommon">GRN</set>			
 			<manacost>G/W // 4GW</manacost>			
 			<cmc>13</cmc>			
 			<color>W</color>			
@@ -732,7 +981,7 @@ You can't play cards from your hand.
 		</card>		
 		<card>			
 			<name>Forest</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/264.jpg?1535926445" rarity="Basic Land">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/8/d85892ae-dacd-4a55-a557-9db3c16017c7.jpg?1537366654" rarity="Basic Land">GRN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Basic Land — Forest</type>			
@@ -752,17 +1001,6 @@ You can't play cards from your hand.
 			<text>As long as it's your turn, Fresh-Faced Recruit has first strike.</text>			
 		</card>		
 		<card>			
-			<name>Gargoyle Guardian</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/4/b/4bbdd54e-5d7e-4e4b-8d59-4e3f46877d39.jpg?1537289559" rarity="Uncommon">GRN</set>			
-			<manacost>6</manacost>			
-			<cmc>6</cmc>			
-			<type>Artifact Creature — Gargoyle</type>			
-			<pt>3/3</pt>			
-			<tablerow>2</tablerow>			
-			<text>Flying
-Gargoyle Guardian enters the battlefield with a +1/+1 counter on it for each Gate you control.</text>			
-		</card>		
-		<card>			
 			<name>Garrison Sergeant</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/2/b/2bd957a1-a354-48e9-80ad-66e49aa845fc.jpg?1537149076" rarity="Common">GRN</set>			
 			<manacost>3RW</manacost>			
@@ -773,6 +1011,17 @@ Gargoyle Guardian enters the battlefield with a +1/+1 counter on it for each Gat
 			<pt>3/3</pt>			
 			<tablerow>2</tablerow>			
 			<text>Garrison Sergeant has double strike as long as you control a Gate.</text>			
+		</card>		
+		<card>			
+			<name>Gatekeeper Gargoyle</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/b/4bbdd54e-5d7e-4e4b-8d59-4e3f46877d39.jpg?1537358665" rarity="Uncommon">GRN</set>			
+			<manacost>6</manacost>			
+			<cmc>6</cmc>			
+			<type>Artifact Creature — Gargoyle</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Gargoyle Guardian enters the battlefield with a +1/+1 counter on it for each Gate you control.</text>			
 		</card>		
 		<card>			
 			<name>Gateway Plaza</name>			
@@ -787,15 +1036,15 @@ When Gateway Plaza enters the battlefield, sacrifice it unless you pay {1}.
 {T}: Add one mana of any color.</text>			
 		</card>		
 		<card>			
-			<name>&quot;Gentle Knocker&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/c/f/cf2bed0a-990a-499a-af0a-52b77557d7cb.jpg?1537289740" rarity="Common">GRN</set>			
-			<manacost>1R</manacost>			
-			<cmc>2</cmc>			
-			<color>R</color>			
-			<type>Creature — Goblin Rogue</type>			
-			<pt>2/1</pt>			
+			<name>Generous Stray</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/2/3289db66-231f-4370-aca6-644d75bee293.jpg?1537290938" rarity="Common">GRN</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Cat</type>			
+			<pt>1/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>Whenever &quot;Gentle Knocker&quot; attacks, creatures with defender can't block this turn.</text>			
+			<text>When Generous Stray enters the battlefield, draw a card.</text>			
 		</card>		
 		<card>			
 			<name>Gird for Battle</name>			
@@ -867,6 +1116,17 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 			<text>Instant and sorcery spells you cast cost {1} less to cast.</text>			
 		</card>		
 		<card>			
+			<name>Goblin Locksmith</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/f/cf2bed0a-990a-499a-af0a-52b77557d7cb.jpg?1537353845" rarity="Common">GRN</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Goblin Rogue</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Goblin Locksmith attacks, creatures with defender can't block this turn.</text>			
+		</card>		
+		<card>			
 			<name>Golgari Findbroker</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/e/1/e12bd0e5-db96-4340-9b04-6855fd0fd8b9.jpg?1537209257" rarity="Uncommon">GRN</set>			
 			<manacost>BBGG</manacost>			
@@ -912,6 +1172,29 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 Undergrowth - Golgari Raiders enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.</text>			
 		</card>		
 		<card>			
+			<name>Grappling Sundew</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/7/f74d8d76-8091-424d-ad11-e8a1faae584d.jpg?1537366839" rarity="Uncommon">GRN</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Plant</type>			
+			<pt>0/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender, reach
+{4}{G}: Grappling Sundew gains indestructible until end of turn. (Damage and effects that say &quot;destroy&quot; don't destroy this creature.)</text>			
+		</card>		
+		<card>			
+			<name>Gravitic Punch</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/5/05fe0428-6e7d-49d4-9a29-80a3589f565a.jpg?1537364130" rarity="Common">GRN</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature you control deals damage equal to its power to target player.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>			
+		</card>		
+		<card>			
 			<name>Gruesome Menagerie</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/7/3/73c0e4d9-bf0d-4e28-a647-9010701a915e.jpg?1537289817" rarity="Rare">GRN</set>			
 			<manacost>3BB</manacost>			
@@ -933,7 +1216,7 @@ Undergrowth - Golgari Raiders enters the battlefield with a +1/+1 counter on it 
 		</card>		
 		<card>			
 			<name>Guild Summit</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/41.jpg?1536662925" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/9/d952259f-9e0a-49af-9dfb-3cad1a1bb3a8.jpg?1537366759" rarity="Uncommon">GRN</set>			
 			<manacost>2U</manacost>			
 			<cmc>3</cmc>			
 			<color>U</color>			
@@ -944,14 +1227,14 @@ Whenever a Gate enters the battlefield under your control, draw a card.</text>
 		</card>		
 		<card>			
 			<name>Haazda Marshal</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/5/c/5c561d89-b02d-4f1a-b49a-cdf2def3404d.jpg?1537206857" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/c/5c561d89-b02d-4f1a-b49a-cdf2def3404d.jpg?1537364290" rarity="Uncommon">GRN</set>			
 			<manacost>W</manacost>			
 			<cmc>1</cmc>			
 			<color>W</color>			
 			<type>Creature — Human Soldier</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>Whenever Haazda Marshal and at least two other creatures attack, create a 1/1 white Solider creature token with lifelink.</text>			
+			<text>Whenever Haazda Marshal and at least two other creatures attack, create a 1/1 white Soldier creature token with lifelink.</text>			
 		</card>		
 		<card>			
 			<name>Hammer Dropper</name>			
@@ -987,6 +1270,28 @@ Undergrowth - When you cast this spell, reveal the top X cards of your library, 
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
 			<text>Flying, lifelink</text>			
+		</card>		
+		<card>			
+			<name>Hired Poisoner</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/f/bf97e572-90d6-46fc-81c3-956a7ef88983.jpg?1537361657" rarity="Common">GRN</set>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<color>B</color>			
+			<type>Creature — Human Assassin</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Deathtouch</text>			
+		</card>		
+		<card>			
+			<name>Hitchclaw Recluse</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/e/fe349432-8726-49cf-ad07-6f8add8f78c8.jpg?1537365172" rarity="Common">GRN</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Creature — Spider</type>			
+			<pt>1/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Reach (This creature can block creatures with flying.)</text>			
 		</card>		
 		<card>			
 			<name>House Guildmage</name>			
@@ -1047,6 +1352,17 @@ Indestructible</text>
 Inescapable Flame deals 6 damage to any target.</text>			
 		</card>		
 		<card>			
+			<name>Inspiring Unicorn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/e/ce8b745e-1e62-4c54-9e73-e2d0a40568a0.jpg?1537291052" rarity="Common">GRN</set>			
+			<manacost>2WW</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<type>Creature — Unicorn</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Inspiring Unicorn attacks, creatures you control get +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Integrity // Intervention</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/4/a/4a82084e-b178-442b-8007-7b2a70f3fbba.jpg?1537149422" rarity="Uncommon">GRN</set>			
 			<manacost>R/W // 2RW</manacost>			
@@ -1056,6 +1372,18 @@ Inescapable Flame deals 6 damage to any target.</text>
 			<type>Instant // Instant</type>			
 			<tablerow>3</tablerow>			
 			<text/>			
+		</card>		
+		<card>			
+			<name>Intrusive Packbeast</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/9/49266f3c-4b43-4175-8bac-16789ba6f4b9.jpg?1537358336" rarity="Common">GRN</set>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<color>W</color>			
+			<type>Creature — Beast</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance
+When Intrusive Packbeast enters the battlefield, tap up to two target creatures your opponents control.</text>			
 		</card>		
 		<card>			
 			<name>Invert // Invent</name>			
@@ -1080,8 +1408,19 @@ Inescapable Flame deals 6 damage to any target.</text>
 			<text>Counter target spell. Ionize deals 2 damage to that spell's controller.</text>			
 		</card>		
 		<card>			
+			<name>Ironshell Beetle</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/7/57f8b6b0-f858-41d5-9839-fd1247b9477f.jpg?1537365437" rarity="Common">GRN</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Creature — Insect</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Ironshell Beetle enters the battlefield, put a +1/+1 counter on target creature.</text>			
+		</card>		
+		<card>			
 			<name>Island</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/261.jpg?1535926409" rarity="Basic Land">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/9/29bfbf3e-3a6c-40d4-8e1b-255f429de6cc.jpg?1537366718" rarity="Basic Land">GRN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Basic Land — Island</type>			
@@ -1160,8 +1499,19 @@ Inescapable Flame deals 6 damage to any target.</text>
 • You gain 4 life.</text>			
 		</card>		
 		<card>			
-			<name>&quot;Kraul Harpooner&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/f/6/f6d3c086-9ce4-41c3-8402-2818f1b27192.jpg?1537208182" rarity="Uncommon">GRN</set>			
+			<name>Kraul Foragers</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/5/b5ed4b08-8583-4ad4-b0ba-0463d367efc8.jpg?1537365398" rarity="Common">GRN</set>			
+			<manacost>4G</manacost>			
+			<cmc>5</cmc>			
+			<color>G</color>			
+			<type>Creature — Insect Scout</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Undergrowth - When Kraul Foragers enters the battlefield, you gain 1 life for each creature card in your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Kraul Harpooner</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/6/f6d3c086-9ce4-41c3-8402-2818f1b27192.jpg?1537291622" rarity="Uncommon">GRN</set>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
 			<color>G</color>			
@@ -1169,7 +1519,19 @@ Inescapable Flame deals 6 damage to any target.</text>
 			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
 			<text>Reach
-Undergrowth - When &quot;Kraul Harpooner&quot; enters the battlefield, choose target creature you don't control with flying. &quot;Kraul Harpooner&quot; gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard. Then you may have &quot;Kraul Harpooner&quot; fight that creature.</text>			
+Undergrowth - When Kraul Harpooner enters the battlefield, choose up to one target creature with flying you don't control. Kraul Harpooner gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard, then you may have Kraul Harpooner fight that creature.</text>			
+		</card>		
+		<card>			
+			<name>Kraul Swarm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/9/490dc165-b10d-4384-8c13-d7969844b2bb.jpg?1537361719" rarity="Common">GRN</set>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<color>B</color>			
+			<type>Creature — Insect Warrior</type>			
+			<pt>4/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{2}{B}, Discard a creature card: Return Kraul Swarm from your graveyard to your hand.</text>			
 		</card>		
 		<card>			
 			<name>Lava Coil</name>			
@@ -1196,7 +1558,7 @@ Undergrowth - When &quot;Kraul Harpooner&quot; enters the battlefield, choose ta
 		</card>		
 		<card>			
 			<name>League Guildmage</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/7/4/7439118d-4869-486e-8930-6e00db2634b2.jpg?1537149167" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/4/7439118d-4869-486e-8930-6e00db2634b2.jpg?1537366800" rarity="Uncommon">GRN</set>			
 			<manacost>UR</manacost>			
 			<cmc>2</cmc>			
 			<color>U</color>			
@@ -1208,13 +1570,24 @@ Undergrowth - When &quot;Kraul Harpooner&quot; enters the battlefield, choose ta
 {X}{R}, {T}: Copy target instant or sorcery spell you control with converted mana cost X. You may choose new targets for the copy.</text>			
 		</card>		
 		<card>			
+			<name>Leapfrog</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/e/2e415a03-f7f8-4fca-954a-ef21b4a2c60f.jpg?1537359805" rarity="Common">GRN</set>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<type>Creature — Frog</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Leapfrog has flying as long as you've cast and instant or sorcery spell this turn.</text>			
+		</card>		
+		<card>			
 			<name>Ledev Champion</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/b/c/bc4f508b-a48d-4462-9d89-ee2ead3a0847.jpg?1537209488" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/c/bc4f508b-a48d-4462-9d89-ee2ead3a0847.jpg?1537311096" rarity="Uncommon">GRN</set>			
 			<manacost>1GW</manacost>			
 			<cmc>3</cmc>			
 			<color>W</color>			
 			<color>G</color>			
-			<type>Creature — Human Knight</type>			
+			<type>Creature — Elf Knight</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever Ledev Champion attacks, you may tap any number of untapped creatures you control. Ledev Champion gets +1/+1 until end of turn for each creature tapped this way.
@@ -1258,7 +1631,7 @@ At the beginning of combat on your turn, create a 1/1 red Goblin creature token.
 		</card>		
 		<card>			
 			<name>Light of the Legion</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/a/2/a2f1b831-ca55-4575-9dfa-c3163e3d789d.jpg?1537211808" rarity="Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/2/a2f1b831-ca55-4575-9dfa-c3163e3d789d.jpg?1537291402" rarity="Rare">GRN</set>			
 			<manacost>4WW</manacost>			
 			<cmc>6</cmc>			
 			<color>W</color>			
@@ -1291,6 +1664,28 @@ When Light of the Legion dies, put a +1/+1 counter on each white creature you co
 			<tablerow>2</tablerow>			
 			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 When Loxodon Restorer enters the battlefield, you gain 4 life.</text>			
+		</card>		
+		<card>			
+			<name>Luminous Bonds</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/d/5d471de4-a7b2-4e13-9492-3fa94f5867ac.jpg?1537358401" rarity="Common">GRN</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature can't attack or block.</text>			
+		</card>		
+		<card>			
+			<name>Maniacal Rage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/8/882f8dcf-b361-4dc9-8329-e7d1f807acd6.jpg?1537364247" rarity="Common">GRN</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and can't block.</text>			
 		</card>		
 		<card>			
 			<name>March of the Multitudes</name>			
@@ -1337,16 +1732,15 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>			
 		</card>		
 		<card>			
-			<name>&quot;Mesa Charger&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/a/c/accfc430-114e-4ce0-93ea-e8900955a71e.jpg?1537288436" rarity="Uncommon">GRN</set>			
-			<manacost>7W</manacost>			
-			<cmc>8</cmc>			
-			<color>W</color>			
-			<type>Creature — Human Knight</type>			
-			<pt>4/5</pt>			
-			<tablerow>2</tablerow>			
-			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
-Flying</text>			
+			<name>Mephitic Vapors</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/7/675640ba-37e7-4231-8524-87e8b87ea46f.jpg?1537361783" rarity="Common">GRN</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>All creatures get -1/-1 until end of turn.
+Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)</text>			
 		</card>		
 		<card>			
 			<name>Midnight Reaper</name>			
@@ -1361,7 +1755,7 @@ Flying</text>
 		</card>		
 		<card>			
 			<name>Might of the Masses</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/c/f/cf6d9ef7-0b16-4095-9c70-f6776e4cd3cb.jpg?1537289382" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/f/cf6d9ef7-0b16-4095-9c70-f6776e4cd3cb.jpg?1537353931" rarity="Uncommon">GRN</set>			
 			<manacost>G</manacost>			
 			<cmc>1</cmc>			
 			<color>G</color>			
@@ -1417,7 +1811,7 @@ When Molderhulk enters the battlefield, return target land card from your gravey
 		</card>		
 		<card>			
 			<name>Mountain</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/263.jpg?1535926432" rarity="Basic Land">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/f/7f918a49-a046-4115-80b8-13490ed5cd0a.jpg?1537366708" rarity="Basic Land">GRN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Basic Land — Mountain</type>			
@@ -1434,6 +1828,18 @@ When Molderhulk enters the battlefield, return target land card from your gravey
 			<pt>1/5</pt>			
 			<tablerow>2</tablerow>			
 			<text>Whenever you cast an instant or sorcery spell, create a 1/1 blue Bird Illusion creature token with flying.</text>			
+		</card>		
+		<card>			
+			<name>Muse Drake</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/5/c5df7a96-6548-41c0-85a6-e0c4566e0fe6.jpg?1537359863" rarity="Common">GRN</set>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<color>U</color>			
+			<type>Creature — Drake</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Muse Drake enters the battlefield, draw a card.</text>			
 		</card>		
 		<card>			
 			<name>Narcomoeba</name>			
@@ -1557,6 +1963,17 @@ All creatures able to block Ochran Assassin do so.</text>
 			<text>{2}{U}, {T}: You may cast an instant or sorcery card from your hand without paying its mana cost.</text>			
 		</card>		
 		<card>			
+			<name>Ornery Goblin</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/e/be1c1353-b315-4a0e-80b5-0d9a2962e35f.jpg?1537364657" rarity="Common">GRN</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Goblin Warrior</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Ornery Goblin blocks or becomes blocked by a creature, Ornery Goblin deals 1 damage to that creature.</text>			
+		</card>		
+		<card>			
 			<name>Overgrown Tomb</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/253.jpg?1535854851" rarity="Rare">GRN</set>			
 			<manacost/>			
@@ -1566,6 +1983,17 @@ All creatures able to block Ochran Assassin do so.</text>
 			<tablerow>0</tablerow>			
 			<text>({T}: Add {B} or {G}.)
 As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped.</text>			
+		</card>		
+		<card>			
+			<name>Pack's Favor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/f/0f88c3aa-63e1-4617-bf1f-48f44988e7d6.jpg?1537365705" rarity="Common">GRN</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Target creature gets +3/+3 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Parhelion Patrol</name>			
@@ -1591,6 +2019,40 @@ Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking 
 			<text>{2}{U}: Target creature can't be blocked this turn.</text>			
 		</card>		
 		<card>			
+			<name>Pause for Reflection</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/c/3cfcf84c-a30c-4c4f-9f8c-ee807661e499.jpg?1537365783" rarity="Common">GRN</set>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Precent all combat damage that would be dealt this turn.</text>			
+		</card>		
+		<card>			
+			<name>Pelt Collector</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/e/bee125cb-12b9-4f78-8e1d-6018d9c52275.jpg?1537290331" rarity="Rare">GRN</set>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<color>G</color>			
+			<type>Creature — Elf Warrior</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever another creature you control enters the battlefield or dies, if that creature's power is greater than Pelt Collector's, put a +1/+1 counter on Pelt Collector.
+As long as Pelt Collector has three or more +1/+1 counters on it, it has trample.</text>			
+		</card>		
+		<card>			
+			<name>Pilfering Imp</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/4/646dedff-150c-4ed2-8f2e-3b2e6ba5521a.jpg?1537362357" rarity="Common">GRN</set>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<color>B</color>			
+			<type>Creature — Imp</type>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{1}{B}, {T}, Sacrifice Pilfering Imp: Target opponent reveals their hand</text>			
+		</card>		
+		<card>			
 			<name>Piston-Fist Cyclops</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/2/e/2ec7523a-a9c4-4b76-8f9e-b591a88e2e37.jpg?1537209814" rarity="Common">GRN</set>			
 			<manacost>1U/RU/R</manacost>			
@@ -1604,8 +2066,31 @@ Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking 
 As long as you've cast an instant or sorcery spell this turn, Piston-Fist Cyclops can attack as though it didn't have defender.</text>			
 		</card>		
 		<card>			
+			<name>Pitiless Gorgon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/1/c1a925a0-9d26-441b-8b4a-0614a0485fe6.jpg?1537366286" rarity="Common">GRN</set>			
+			<manacost>1B/GB/G</manacost>			
+			<cmc>7</cmc>			
+			<color>B</color>			
+			<color>G</color>			
+			<type>Creature — Gorgon</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Deathtouch</text>			
+		</card>		
+		<card>			
+			<name>Plaguecrafter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/6/8682fb87-df14-4277-aaa0-0d53d766c406.jpg?1537362416" rarity="Uncommon">GRN</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Human Shaman</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Plaguecrafter enters the battlefield, each player sacrifices a creature or planeswalker. Each player who can't discards a card.</text>			
+		</card>		
+		<card>			
 			<name>Plains</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/260.jpg?1535926389" rarity="Basic Land">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/9/b983acda-68b6-468b-b0c1-aad8b53db49c.jpg?1537366714" rarity="Basic Land">GRN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Basic Land — Plains</type>			
@@ -1613,8 +2098,30 @@ As long as you've cast an instant or sorcery spell this turn, Piston-Fist Cyclop
 			<text>({T}: Add {W}.)</text>			
 		</card>		
 		<card>			
+			<name>Portcullis Vine</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/b/5b6dab62-b747-4d76-9fa8-4914582fc212.jpg?1537365916" rarity="Common">GRN</set>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<color>G</color>			
+			<type>Creature — Plant Wall</type>			
+			<pt>0/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender
+{2}, {T}, Sacrifice a creature with defender: Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Prey Upon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/6/16979827-4011-454a-9886-18326cfa3e77.jpg?1537366247" rarity="Common">GRN</set>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<color>G</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)</text>			
+		</card>		
+		<card>			
 			<name>Price of Fame</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/6/1/61b52152-0f7c-4466-9e49-033477028f67.jpg?1537149138" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/1/61b52152-0f7c-4466-9e49-033477028f67.jpg?1537291540" rarity="Uncommon">GRN</set>			
 			<manacost>3B</manacost>			
 			<cmc>4</cmc>			
 			<color>B</color>			
@@ -1698,6 +2205,18 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 Whenever Ral's Staticaster attacks, if you control a Ral planeswalker, Ral's Staticaster gets +1/+0 for each card in your hand until end of turn.</text>			
 		</card>		
 		<card>			
+			<name>Rampaging Monument</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/5/b5fbe445-a788-4624-8ecf-8bc06c3ca8f8.jpg?1537366457" rarity="Uncommon">GRN</set>			
+			<manacost>4</manacost>			
+			<cmc>4</cmc>			
+			<type>Artifact Creature — Cleric</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+Rampaging Monument enters the battlefield with three +1/+1 counters on it.
+Whenever you cast a multicolored spell, put a +1/+1 counter on Rampaging Monument.</text>			
+		</card>		
+		<card>			
 			<name>Response // Resurgence</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/229a.jpg?1536691260" rarity="Rare">GRN</set>			
 			<manacost>R/WR/W // 3RW</manacost>			
@@ -1721,8 +2240,18 @@ Whenever Ral's Staticaster attacks, if you control a Ral planeswalker, Ral's Sta
 			<text>Undergrowth - Rhizome Lurcher enters the battlefield with a number of +1/+1 counters on it equal to the number of creature cards in your graveyard.</text>			
 		</card>		
 		<card>			
+			<name>Righteous Blow</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/4/b4501520-acf4-438f-9e96-4a649875ffdd.jpg?1537358469" rarity="Common">GRN</set>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<color>W</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Righteous Blow deals 2 damage to target attacking or blocking creature.</text>			
+		</card>		
+		<card>			
 			<name>Risk Factor</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/4/e/4eda89d9-9bd1-4a55-ac02-f9a0625d8e5b.jpg?1537208043" rarity="Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/e/4eda89d9-9bd1-4a55-ac02-f9a0625d8e5b.jpg?1537354365" rarity="Rare">GRN</set>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
 			<color>R</color>			
@@ -1767,6 +2296,17 @@ Whenever Roc Charger attacks, target attacking creature without flying gains fly
 Vigilance</text>			
 		</card>		
 		<card>			
+			<name>Rubblebelt Boar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/9/196bf114-e135-43f3-83d5-cb08ca766881.jpg?1537364804" rarity="Common">GRN</set>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<type>Creature — Boar</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Rubblebelt Boar enters the battlefield, target creature gets +2/+0 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Runaway Steam-Kin</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/d/8/d8c9c111-fbc7-44e1-94bd-1ca164370623.jpg?1537208864" rarity="Rare">GRN</set>			
 			<manacost>1R</manacost>			
@@ -1790,6 +2330,16 @@ Remove three +1/+1 counters from Runaway Steam-Kin: Add {R}{R}{R}.</text>
 As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.</text>			
 		</card>		
 		<card>			
+			<name>Selective Snare</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/a/2adfc0ac-08a9-487a-b01c-5de52fae0312.jpg?1537361272" rarity="Uncommon">GRN</set>			
+			<manacost>XU</manacost>			
+			<cmc>1</cmc>			
+			<color>U</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return X target creatures of the creature type of your choice to their owner's hand.</text>			
+		</card>		
+		<card>			
 			<name>Selesnya Guildgate</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/255.jpg?1536860235" rarity="Common">GRN</set>			
 			<manacost/>			
@@ -1811,15 +2361,15 @@ As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacr
 {G/W}{G/W}{G/W}{G/W}, {T}, Sacrifice Selesnya Locket: Draw two cards.</text>			
 		</card>		
 		<card>			
-			<name>&quot;Shroom Maintenance Squad&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/b/5/b5ed4b08-8583-4ad4-b0ba-0463d367efc8.jpg?1537207492" rarity="Common">GRN</set>			
-			<manacost>4G</manacost>			
-			<cmc>5</cmc>			
-			<color>G</color>			
-			<type>Creature — Insect Scout</type>			
-			<pt>4/4</pt>			
-			<tablerow>2</tablerow>			
-			<text>Undergrowth - When &quot;Shroom Maintenance Squad&quot; enters the battlefield, you gain 1 life for each creature card in your graveyard.</text>			
+			<name>Severed Strands</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/c/bce654d6-fcf1-40a8-8bdb-5c37e561f7dc.jpg?1537362484" rarity="Common">GRN</set>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+You gain life equal to that sacrificed creature's toughness. Destroy target creature an opponent controls.</text>			
 		</card>		
 		<card>			
 			<name>Siege Wurm</name>			
@@ -1832,6 +2382,15 @@ As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacr
 			<tablerow>2</tablerow>			
 			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</text>			
+		</card>		
+		<card>			
+			<name>Silent Dart</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/a/3af00fdd-6869-4080-8a75-66c8fceeb7de.jpg?1537366578" rarity="Common">GRN</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{4}, {T}, Sacrifice Silent Dart: It deals 3 damage to target creature.</text>			
 		</card>		
 		<card>			
 			<name>Sinister Sabotage</name>			
@@ -1857,6 +2416,28 @@ Surveil 1. (Look at the top card of your library. You may put that card into you
 			<text>Flying, haste</text>			
 		</card>		
 		<card>			
+			<name>Skyline Scout</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/0/b052b641-fce9-45c1-a15b-1e22f1a64e4d.jpg?1537359086" rarity="Common">GRN</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Creature — Human Scout</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Skyline Scout attacks, you may pay {1}{W}. If you do, it gains flying until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Smelt-War Minotaur</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/8/f851d74e-90ad-417f-8372-8437d2d68b0d.jpg?1537365019" rarity="Uncommon">GRN</set>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<type>Creature — Minotaur Warrior</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast an instant or sorcery spell, target creature an opponent controls can't block this turn.</text>			
+		</card>		
+		<card>			
 			<name>Sonic Assault</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/199.jpg?1536080816" rarity="Common">GRN</set>			
 			<manacost>1UR</manacost>			
@@ -1867,6 +2448,17 @@ Surveil 1. (Look at the top card of your library. You may put that card into you
 			<tablerow>3</tablerow>			
 			<text>Tap target creature. Sonic Assault deals 2 damage to that creature's controller.
 Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>			
+		</card>		
+		<card>			
+			<name>Spinal Centipede</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/4/74d579fb-615a-43a6-a1c1-c535087abf2a.jpg?1537362542" rarity="Common">GRN</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Insect</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Spinal Centipede dies, put a +1/+1 counter on target creature you control.</text>			
 		</card>		
 		<card>			
 			<name>Sprouting Renewal</name>			
@@ -1904,15 +2496,14 @@ Choose one -
 As Steam Vents enters the battlefield, you may pay 2 life. If you don't, Steam Vents enters the battlefield tapped.</text>			
 		</card>		
 		<card>			
-			<name>&quot;Strictly-Better Put Away&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/2/1/21ac6b0a-b1a5-439d-b65e-5f04e1826c80.jpg?1537206909" rarity="Common">GRN</set>			
-			<manacost>2UU</manacost>			
-			<cmc>4</cmc>			
-			<color>U</color>			
-			<type>Instant</type>			
-			<tablerow>3</tablerow>			
-			<text>Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
-You may shuffle up to four target cards from your graveyard into your library.</text>			
+			<name>Street Riot</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/0/80b352d5-4a57-41bc-b4c4-8b81255a9db8.jpg?1537366081" rarity="Uncommon">GRN</set>			
+			<manacost>4R</manacost>			
+			<cmc>5</cmc>			
+			<color>R</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>As long as it's your turn, creatures you control get +1/+0 and have trample.</text>			
 		</card>		
 		<card>			
 			<name>Sumala Woodshaper</name>			
@@ -1939,8 +2530,18 @@ You may shuffle up to four target cards from your graveyard into your library.</
 Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)</text>			
 		</card>		
 		<card>			
+			<name>Sure Strike</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/d/8d01f1ce-9931-4712-a907-72c2c6d5ee76.jpg?1537366118" rarity="Common">GRN</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)</text>			
+		</card>		
+		<card>			
 			<name>Swamp</name>			
-			<set picURL="https://img.scryfall.com/cards/large/en/grn/262.jpg?1535926421" rarity="Basic Land">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/d/bdd5a7f0-5ad3-44e8-a103-07739fd53630.jpg?1537366663" rarity="Basic Land">GRN</set>			
 			<manacost/>			
 			<cmc>0</cmc>			
 			<type>Basic Land — Swamp</type>			
@@ -1949,7 +2550,7 @@ Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking 
 		</card>		
 		<card>			
 			<name>Swarm Guildmage</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/7/5/7599adc7-72b2-4079-ac0a-1a821f9de925.jpg?1537149272" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/5/7599adc7-72b2-4079-ac0a-1a821f9de925.jpg?1537354439" rarity="Uncommon">GRN</set>			
 			<manacost>BG</manacost>			
 			<cmc>2</cmc>			
 			<color>B</color>			
@@ -1986,6 +2587,16 @@ Whenever Swathcutter Giant attacks, it deals 1 damage to each creature defending
 			<text>Double strike, vigilance, trample</text>			
 		</card>		
 		<card>			
+			<name>Sworn Companions</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/c/2ccfa5c1-69f9-4351-aba3-883fe92c9b98.jpg?1537359155" rarity="Common">GRN</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Creature two 1/1 white Soldier creature tokens with lifelink.</text>			
+		</card>		
+		<card>			
 			<name>Tajic, Legion's Edge</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/5/e/5e669a01-84d3-4fcc-8396-9e987bd89b4f.jpg?1537288766" rarity="Rare">GRN</set>			
 			<manacost>1RW</manacost>			
@@ -2001,6 +2612,16 @@ Prevent all noncombat damage that would be dealt to other creatures you control.
 {R}{W}: Tajic, Legion's Edge gains first strike until end of turn.</text>			
 		</card>		
 		<card>			
+			<name>Take Heart</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/2/b26f10d5-b826-45b0-abed-80d86e1335c9.jpg?1537359219" rarity="Common">GRN</set>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<color>W</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +2/+2 until end of turn. You gain 1 life for each attacking creature you control.</text>			
+		</card>		
+		<card>			
 			<name>Temple Garden</name>			
 			<set picURL="https://img.scryfall.com/cards/large/en/grn/258.jpg?1536981791" rarity="Rare">GRN</set>			
 			<manacost/>			
@@ -2010,6 +2631,17 @@ Prevent all noncombat damage that would be dealt to other creatures you control.
 			<tablerow>0</tablerow>			
 			<text>({T}: Add {G} or {W}.)
 As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped.</text>			
+		</card>		
+		<card>			
+			<name>Tenth District Guard</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/2/829f959e-91cd-42ea-8644-ce828a304d01.jpg?1537359276" rarity="Common">GRN</set>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<type>Creature — Human Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Tenth District Guard enters the battlefield, target creature gets +0/+1 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Thief of Sanity</name>			
@@ -2061,6 +2693,18 @@ Surveil 1. (Look at the top card of your library. You may put it into your grave
 			<text>Whenever you cast an instant or sorcery spell, copy it for each other instant and sorcery spell you've cast before it this turn. You may choose new targets for the copies.</text>			
 		</card>		
 		<card>			
+			<name>Torch Courier</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/4/d4c9fc8c-e68f-4636-84b8-877f6ec04b09.jpg?1537366183" rarity="Common">GRN</set>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<color>R</color>			
+			<type>Creature — Goblin</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste
+Sacrifice Torch Courier: Another target creature gains haste until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Trostani Discordant</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/f/a/fa1190a4-3d7e-4500-991f-e36ec3d1d9dc.jpg?1537149368" rarity="Mythic Rare">GRN</set>			
 			<manacost>3GW</manacost>			
@@ -2086,6 +2730,17 @@ At the beginning of your end step, each player gains control of all creatures th
 			<tablerow>2</tablerow>			
 			<text>Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)
 Whenever Truefire Captain is dealt damage, it deals that much damage to target player.</text>			
+		</card>		
+		<card>			
+			<name>Undercity Necrolisk</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/5/2571d168-38d4-46d7-afae-ffbd12bd2313.jpg?1537366613" rarity="Uncommon">GRN</set>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<type>Creature — Zombie Lizard</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}, Sacrifice another creature: Put a +1/+1 counter on Undercity Necrolisk. It gains menace until end of turn. Activate this ability only any time you could cast a sorcery. (It can't be blocked except by two or more creatures.)</text>			
 		</card>		
 		<card>			
 			<name>Undercity Uprising</name>			
@@ -2134,8 +2789,42 @@ Surveil 1. (Look at the top card of your library. You may put that card into you
 			<text>Choose a card name. Search target opponent's graveyard, hand, and library for up to four cards with that name and exile them. That player shuffles their library, then draws a card for each card exiled from their hand this way.</text>			
 		</card>		
 		<card>			
+			<name>Urban Utopia</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/5/45d7ab0e-db37-4051-86dd-3ab09c047a2b.jpg?1537366592" rarity="Common">GRN</set>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<color>G</color>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant Land
+When Urban Utopia enters the battlefield, draw a card.
+Enchanted land has &quot;{T}: Add one mana of any color.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Vedalken Mesmerist</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/b/5b5e0a12-2589-473b-90e4-1ee5acc055a2.jpg?1537360017" rarity="Common">GRN</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Creature — Vedalken Wizard</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Vedalken Mesmerist attacks, target creature an opponent controls gets -2/-0 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Veiled Shade</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/5/35cb18ae-0229-40a1-8838-ffb678ab2ed9.jpg?1537362754" rarity="Common">GRN</set>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<color>B</color>			
+			<type>Creature — Shade</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{B}: Veiled Shade gets +1/+1 until end of turn.</text>			
+		</card>		
+		<card>			
 			<name>Venerated Loxodon</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/9/3/93599fba-7c53-4621-85b5-6434be077bf6.jpg?1537149637" rarity="Rare">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/3/93599fba-7c53-4621-85b5-6434be077bf6.jpg?1537359287" rarity="Rare">GRN</set>			
 			<manacost>4W</manacost>			
 			<cmc>5</cmc>			
 			<color>W</color>			
@@ -2144,6 +2833,40 @@ Surveil 1. (Look at the top card of your library. You may put that card into you
 			<tablerow>2</tablerow>			
 			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)
 When Venerated Loxodon enters the battlefield, put a +1/+1 counter on each creature that convoked it.</text>			
+		</card>		
+		<card>			
+			<name>Vernadi Sheildmate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/f/efddad21-553e-4947-80d2-833b42c45f77.jpg?1537366354" rarity="Common">GRN</set>			
+			<manacost>1G/W</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<color>G</color>			
+			<type>Creature — Human Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Vigilance</text>			
+		</card>		
+		<card>			
+			<name>Vicious Rumors</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/1/b1939952-608e-4786-beeb-a6ff0fa36624.jpg?1537362823" rarity="Common">GRN</set>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<color>B</color>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Vicious Rumors deals 1 damage to each opponent. Each opponent discards a card, the puts the top card of their library into their graveyard. You gain 1 life.</text>			
+		</card>		
+		<card>			
+			<name>Vigorspore Wurm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/6/b62625de-3a2f-43d6-8cf7-ea38f038f3b6.jpg?1537366594" rarity="Common">GRN</set>			
+			<manacost>5G</manacost>			
+			<cmc>6</cmc>			
+			<color>G</color>			
+			<type>Creature — Wurm</type>			
+			<pt>6/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Undergrowth - When Vigorspore Wurm enters the battlefield, target creature gains vigilance and gets +X/+X until end of turn, where X is the number of creature cards in your graveyard.
+Vigorspore Wurm can't be blocked by more than one creature.</text>			
 		</card>		
 		<card>			
 			<name>Vivid Revival</name>			
@@ -2193,6 +2916,17 @@ When Venerated Loxodon enters the battlefield, put a +1/+1 counter on each creat
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target creature. You gain life equal to its toughness. You may search your library and/or graveyard from a card named Vraska, Regal Gorgon, reveal it, and put it into your hand. If you search your library this way, shuffle it.</text>			
+		</card>		
+		<card>			
+			<name>Wall of Mist</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/2/62a37646-8f7c-40fc-851d-e3fdd205b012.jpg?1537360074" rarity="Common">GRN</set>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Creature — Wall</type>			
+			<pt>0/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender (This creature can't attack.)</text>			
 		</card>		
 		<card>			
 			<name>Wand of Vertebrae</name>			
@@ -2276,6 +3010,28 @@ When Whisper Agent enters the battlefield, surveil 1. (Look at the top card of y
 			<text>Whenever you surveil for the first time each turn, Whispering Snitch deals 1 damage to each opponent and you gain 1 life.</text>			
 		</card>		
 		<card>			
+			<name>Wild Ceratok</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/4/4464e11a-c5b9-40ea-8be0-dab29d14e289.jpg?1537366782" rarity="Common">GRN</set>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<color>G</color>			
+			<type>Creature — Rhino</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
+			<name>Wishcoin Crab</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/5/6580d6a2-ee21-4442-9842-18c65a172f49.jpg?1537360134" rarity="Common">GRN</set>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<color>U</color>			
+			<type>Creature — Crab</type>			
+			<pt>2/5</pt>			
+			<tablerow>2</tablerow>			
+			<text/>			
+		</card>		
+		<card>			
 			<name>Wojek Bodyguard</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/e/b/ebff5313-e325-47c3-814b-38fdb4c6c8d2.jpg?1537149614" rarity="Common">GRN</set>			
 			<manacost>2R</manacost>			
@@ -2289,7 +3045,7 @@ Wojek Bodyguard can't attack or block alone.</text>
 		</card>		
 		<card>			
 			<name>Worldsoul Colossus</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/b/5/b5186304-b0fb-44a6-ba61-0265b7f42da4.jpg?1537205214" rarity="Uncommon">GRN</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/5/b5186304-b0fb-44a6-ba61-0265b7f42da4.jpg?1537291822" rarity="Uncommon">GRN</set>			
 			<manacost>XGW</manacost>			
 			<cmc>2</cmc>			
 			<color>W</color>			
