@@ -45,21 +45,36 @@ def convert_scryfall(scryfall):
     for card in scryfall:
         if card == "cards" or card == "" or card == []:
             continue
-        if 'layout' in card and card['layout'] == 'transform':
-            cardNoFaces = {}
-            for key in card:
-                if key != 'card_faces':
-                    cardNoFaces[key] = card[key]
-            cardNoFaces['layout'] = 'double-faced'
-            cardNoFaces['names'] = [card['card_faces'][0]['name'], card['card_faces'][1]['name']]
-            card1 = dict(cardNoFaces.items() + card['card_faces'][0].items())
-            card2 = dict(cardNoFaces.items() + card['card_faces'][1].items())
-            card1['collector_number'] = card1['collector_number'] + 'a'
-            card2['collector_number'] = card2['collector_number'] + 'b'
-            scryfall2.append(card1)
-            scryfall2.append(card2)
+        if 'layout' in card:
+            if card['layout'] == 'transform':
+                cardNoFaces = {}
+                for key in card:
+                    if key != 'card_faces':
+                        cardNoFaces[key] = card[key]
+                cardNoFaces['layout'] = 'double-faced'
+                cardNoFaces['names'] = [card['card_faces'][0]['name'], card['card_faces'][1]['name']]
+                card1 = dict(cardNoFaces.items() + card['card_faces'][0].items())
+                card2 = dict(cardNoFaces.items() + card['card_faces'][1].items())
+                card1['collector_number'] = card1['collector_number'] + 'a'
+                card2['collector_number'] = card2['collector_number'] + 'b'
+                scryfall2.append(card1)
+                scryfall2.append(card2)
+            elif card['layout'] == 'split':
+                cardNoFaces = {}
+                for key in card:
+                    if key != 'card_faces':
+                        cardNoFaces[key] = card[key]
+                cardNoFaces['names'] = [card['card_faces'][0]['name'], card['card_faces'][1]['name']]
+                card1 = dict(cardNoFaces.items() + card['card_faces'][0].items())
+                card2 = dict(cardNoFaces.items() + card['card_faces'][1].items())
+                card1['collector_number'] = str(card['collector_number']) + "a"
+                card2['collector_number'] = str(card['collector_number']) + "b"
+                scryfall2.append(card1)
+                scryfall2.append(card2)
+            else:
+                scryfall2.append(card)
         else:
-            scryfall2.append(card)
+            scryfall2.append(card)    
     scryfall = scryfall2
     for card in scryfall:
         card2 = {}
