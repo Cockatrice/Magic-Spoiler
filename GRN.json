@@ -149,7 +149,7 @@
     },
     {
       "artist":"Jason A. Engle",
-      "cmc":16,
+      "cmc":6,
       "colorIdentity":[
         "G",
         "W"
@@ -159,15 +159,44 @@
         "Green"
       ],
       "layout":"split",
-      "manaCost":"G/WG/W // 4GW",
-      "name":"Assure // Assemble",
-      "number":"221",
+      "manaCost":"G/WG/W",
+      "name":"Assure",
+      "names":[
+        "Assure",
+        "Assemble"
+      ],
+      "number":"221a",
       "rarity":"Rare",
-      "text":"",
-      "type":"Instant // Instant",
+      "text":"Put a +1/+1 counter on target creature. It gains indestructible until end of turn.",
+      "type":"Instant",
       "types":[
-        "Instant",
-        "//",
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/a/d/ad454e7a-06c9-4694-ae68-7b1431e00077.jpg?1537220344"
+    },
+    {
+      "artist":"Jason A. Engle",
+      "cmc":6,
+      "colorIdentity":[
+        "G",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Green"
+      ],
+      "layout":"split",
+      "manaCost":"4GW",
+      "name":"Assemble",
+      "names":[
+        "Assure",
+        "Assemble"
+      ],
+      "number":"221b",
+      "rarity":"Rare",
+      "text":"Create three 2/2 green and white Elf Knight creature tokens with vigilance.",
+      "type":"Instant",
+      "types":[
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/front/a/d/ad454e7a-06c9-4694-ae68-7b1431e00077.jpg?1537220344"
@@ -1038,7 +1067,7 @@
     },
     {
       "artist":"Dan Scott",
-      "cmc":17,
+      "cmc":8,
       "colorIdentity":[
         "B",
         "U"
@@ -1048,15 +1077,44 @@
         "Black"
       ],
       "layout":"split",
-      "manaCost":"2U/BU/B // 3UB",
-      "name":"Connive // Concoct",
-      "number":"222",
+      "manaCost":"2U/BU/B",
+      "name":"Connive",
+      "names":[
+        "Connive",
+        "Concoct"
+      ],
+      "number":"222a",
       "rarity":"Rare",
-      "text":"",
-      "type":"Sorcery // Sorcery",
+      "text":"Gain control of target creature with power 2 or less.",
+      "type":"Sorcery",
       "types":[
-        "Sorcery",
-        "//",
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/8/9/890ac54c-6fd7-4e46-8ce4-8926c6975f60.jpg?1537149556"
+    },
+    {
+      "artist":"Dan Scott",
+      "cmc":5,
+      "colorIdentity":[
+        "B",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "layout":"split",
+      "manaCost":"3UB",
+      "name":"Concoct",
+      "names":[
+        "Connive",
+        "Concoct"
+      ],
+      "number":"222b",
+      "rarity":"Rare",
+      "text":"Surveil 3, then return a creature card from your graveyard to the battlefield.",
+      "type":"Sorcery",
+      "types":[
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/front/8/9/890ac54c-6fd7-4e46-8ce4-8926c6975f60.jpg?1537149556"
@@ -1239,7 +1297,7 @@
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/a/9/a9d4639a-b634-469e-a848-35e3a3dfd47e.jpg?1537359670"
+      "url":"https://img.scryfall.com/cards/large/front/a/9/a9d4639a-b634-469e-a848-35e3a3dfd47e.jpg?1537378781"
     },
     {
       "artist":"Scott Murphy",
@@ -1497,7 +1555,7 @@
     },
     {
       "artist":"Mark Behm",
-      "cmc":13,
+      "cmc":4,
       "colorIdentity":[
         "B",
         "U"
@@ -1507,15 +1565,44 @@
         "Black"
       ],
       "layout":"split",
-      "manaCost":"1U/B // 3UB",
-      "name":"Discovery // Dispersal",
-      "number":"223",
+      "manaCost":"1U/B",
+      "name":"Discovery",
+      "names":[
+        "Discovery",
+        "Dispersal"
+      ],
+      "number":"223a",
       "rarity":"Uncommon",
-      "text":"",
-      "type":"Sorcery // Instant",
+      "text":"Surveil 2, then draw a card. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+      "type":"Sorcery",
       "types":[
-        "Sorcery",
-        "//",
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/a/c/ace631d1-897a-417e-8628-0170713f03d3.jpg?1537210878"
+    },
+    {
+      "artist":"Mark Behm",
+      "cmc":5,
+      "colorIdentity":[
+        "B",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Black"
+      ],
+      "layout":"split",
+      "manaCost":"3UB",
+      "name":"Dispersal",
+      "names":[
+        "Discovery",
+        "Dispersal"
+      ],
+      "number":"223b",
+      "rarity":"Uncommon",
+      "text":"Each opponent returns a nonland permanent they control with the highest converted mana cost among permanents they control to its owner's hand, then discards a card.",
+      "type":"Instant",
+      "types":[
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/front/a/c/ace631d1-897a-417e-8628-0170713f03d3.jpg?1537210878"
@@ -1829,7 +1916,7 @@
         "Black",
         "Green"
       ],
-      "flavor":"\"The Erstwhile—rotten of body and outmoded in dress, by unfailing in loyalty.\"\n—Vraska",
+      "flavor":"\"The Erstwhile—rotten of body and outmoded in dress, but unfailing in loyalty.\"\n—Vraska",
       "manaCost":"1BG",
       "name":"Erstwhile Trooper",
       "number":"169",
@@ -1845,7 +1932,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/3/5/351ee4ba-882d-48c1-837d-e9eccc5bc50d.jpg?1537354035"
+      "url":"https://img.scryfall.com/cards/large/front/3/5/351ee4ba-882d-48c1-837d-e9eccc5bc50d.jpg?1537388815"
     },
     {
       "artist":"Bastien L. Deharme",
@@ -1880,7 +1967,7 @@
     },
     {
       "artist":"Deruchenko Alexander",
-      "cmc":14,
+      "cmc":6,
       "colorIdentity":[
         "R",
         "U"
@@ -1890,15 +1977,44 @@
         "Red"
       ],
       "layout":"split",
-      "manaCost":"U/RU/R // XUURR",
-      "name":"Expansion // Explosion",
-      "number":"224",
+      "manaCost":"U/RU/R",
+      "name":"Expansion",
+      "names":[
+        "Expansion",
+        "Explosion"
+      ],
+      "number":"224a",
       "rarity":"Rare",
-      "text":"",
-      "type":"Instant // Instant",
+      "text":"Copy target instant or sorcery spell with converted mana cost 4 or less. You may choose new targets for the copy.",
+      "type":"Instant",
       "types":[
-        "Instant",
-        "//",
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/e/0/e0644c92-4d67-475e-8c8e-0e2c493682fb.jpg?1537149474"
+    },
+    {
+      "artist":"Deruchenko Alexander",
+      "cmc":4,
+      "colorIdentity":[
+        "R",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Red"
+      ],
+      "layout":"split",
+      "manaCost":"XUURR",
+      "name":"Explosion",
+      "names":[
+        "Expansion",
+        "Explosion"
+      ],
+      "number":"224b",
+      "rarity":"Rare",
+      "text":"Explosion deals X damage to any target. Target player draws X cards.",
+      "type":"Instant",
+      "types":[
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/front/e/0/e0644c92-4d67-475e-8c8e-0e2c493682fb.jpg?1537149474"
@@ -1953,7 +2069,7 @@
     },
     {
       "artist":"Tomasz Jedruszek",
-      "cmc":16,
+      "cmc":6,
       "colorIdentity":[
         "B",
         "G"
@@ -1963,15 +2079,44 @@
         "Green"
       ],
       "layout":"split",
-      "manaCost":"B/GB/G // 4BG",
-      "name":"Find // Finality",
-      "number":"225",
+      "manaCost":"B/GB/G",
+      "name":"Find",
+      "names":[
+        "Find",
+        "Finality"
+      ],
+      "number":"225a",
       "rarity":"Rare",
-      "text":"",
-      "type":"Sorcery // Sorcery",
+      "text":"Return up to two target creature cards from your graveyard to your hand.",
+      "type":"Sorcery",
       "types":[
-        "Sorcery",
-        "//",
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/grn/225a.jpg?1536691253"
+    },
+    {
+      "artist":"Tomasz Jedruszek",
+      "cmc":6,
+      "colorIdentity":[
+        "B",
+        "G"
+      ],
+      "colors":[
+        "Black",
+        "Green"
+      ],
+      "layout":"split",
+      "manaCost":"4BG",
+      "name":"Finality",
+      "names":[
+        "Find",
+        "Finality"
+      ],
+      "number":"225b",
+      "rarity":"Rare",
+      "text":"You may put two +1/+1 counters on a creature you control. Then all creatures get -4/-4 until end of turn.",
+      "type":"Sorcery",
+      "types":[
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/225a.jpg?1536691253"
@@ -2053,7 +2198,7 @@
     },
     {
       "artist":"Dimitar Marinski",
-      "cmc":13,
+      "cmc":3,
       "colorIdentity":[
         "G",
         "W"
@@ -2063,15 +2208,44 @@
         "Green"
       ],
       "layout":"split",
-      "manaCost":"G/W // 4GW",
-      "name":"Flower // Flourish",
-      "number":"226",
+      "manaCost":"G/W",
+      "name":"Flower",
+      "names":[
+        "Flower",
+        "Flourish"
+      ],
+      "number":"226a",
       "rarity":"Uncommon",
-      "text":"",
-      "type":"Sorcery // Sorcery",
+      "text":"Search your library for a basic Forest or Plains card, reveal it, put it into your hand, then shuffle your library.",
+      "type":"Sorcery",
       "types":[
-        "Sorcery",
-        "//",
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/f/e/feb4b39f-d309-49ba-b427-240b7fdc1099.jpg?1537291850"
+    },
+    {
+      "artist":"Dimitar Marinski",
+      "cmc":6,
+      "colorIdentity":[
+        "G",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Green"
+      ],
+      "layout":"split",
+      "manaCost":"4GW",
+      "name":"Flourish",
+      "names":[
+        "Flower",
+        "Flourish"
+      ],
+      "number":"226b",
+      "rarity":"Uncommon",
+      "text":"Creatures you control get +2/+2 until end of turn.",
+      "type":"Sorcery",
+      "types":[
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/front/f/e/feb4b39f-d309-49ba-b427-240b7fdc1099.jpg?1537291850"
@@ -2539,7 +2713,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/0/5/05fe0428-6e7d-49d4-9a29-80a3589f565a.jpg?1537364130"
+      "url":"https://img.scryfall.com/cards/large/front/0/5/05fe0428-6e7d-49d4-9a29-80a3589f565a.jpg?1537379160"
     },
     {
       "artist":"Yeong-Hao Han",
@@ -2723,12 +2897,12 @@
         "Dragon"
       ],
       "text":"Flying\nWhenever Hellkite Whelp attacks, it deals 1 damage to target creature defending player controls.",
-      "toughness":"34",
+      "toughness":"3",
       "type":"Creature — Dragon",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/6/5/65e902e8-bbd5-40fe-a655-45d3d3bc9fde.jpg?1537367565"
+      "url":"https://img.scryfall.com/cards/large/front/6/5/65e902e8-bbd5-40fe-a655-45d3d3bc9fde.jpg?1537402449"
     },
     {
       "artist":"Joe Slucher",
@@ -2935,7 +3109,7 @@
     },
     {
       "artist":"Ben Maier",
-      "cmc":11,
+      "cmc":3,
       "colorIdentity":[
         "R",
         "W"
@@ -2945,15 +3119,44 @@
         "Red"
       ],
       "layout":"split",
-      "manaCost":"R/W // 2RW",
-      "name":"Integrity // Intervention",
-      "number":"227",
+      "manaCost":"R/W",
+      "name":"Integrity",
+      "names":[
+        "Integrity",
+        "Intervention"
+      ],
+      "number":"227a",
       "rarity":"Uncommon",
-      "text":"",
-      "type":"Instant // Instant",
+      "text":"Target creature gets +2/+2 until end of turn.",
+      "type":"Instant",
       "types":[
-        "Instant",
-        "//",
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/4/a/4a82084e-b178-442b-8007-7b2a70f3fbba.jpg?1537149422"
+    },
+    {
+      "artist":"Ben Maier",
+      "cmc":4,
+      "colorIdentity":[
+        "R",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Red"
+      ],
+      "layout":"split",
+      "manaCost":"2RW",
+      "name":"Intervention",
+      "names":[
+        "Integrity",
+        "Intervention"
+      ],
+      "number":"227b",
+      "rarity":"Uncommon",
+      "text":"Intervention deals 3 damage to any target and you gain 3 life.",
+      "type":"Instant",
+      "types":[
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/front/4/a/4a82084e-b178-442b-8007-7b2a70f3fbba.jpg?1537149422"
@@ -2986,7 +3189,7 @@
     },
     {
       "artist":"Mathias Kollros",
-      "cmc":13,
+      "cmc":3,
       "colorIdentity":[
         "R",
         "U"
@@ -2996,15 +3199,44 @@
         "Red"
       ],
       "layout":"split",
-      "manaCost":"U/R // 4UR",
-      "name":"Invert // Invent",
-      "number":"228",
+      "manaCost":"U/R",
+      "name":"Invert",
+      "names":[
+        "Invert",
+        "Invent"
+      ],
+      "number":"228a",
       "rarity":"Uncommon",
-      "text":"",
-      "type":"Instant // Instant",
+      "text":"Switch the power and toughness of each of up to two target creatures until end of turn.",
+      "type":"Instant",
       "types":[
-        "Instant",
-        "//",
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/0/5/054a4e4f-8baa-41cf-b24c-d068e8b9a070.jpg?1537149103"
+    },
+    {
+      "artist":"Mathias Kollros",
+      "cmc":6,
+      "colorIdentity":[
+        "R",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Red"
+      ],
+      "layout":"split",
+      "manaCost":"4UR",
+      "name":"Invent",
+      "names":[
+        "Invert",
+        "Invent"
+      ],
+      "number":"228b",
+      "rarity":"Uncommon",
+      "text":"Search your library for an instant card and/or a sorcery card, reveal them, put them into your hand, then shuffle your library.",
+      "type":"Instant",
+      "types":[
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/front/0/5/054a4e4f-8baa-41cf-b24c-d068e8b9a070.jpg?1537149103"
@@ -3402,13 +3634,13 @@
       "subtypes":[
         "Frog"
       ],
-      "text":"Leapfrog has flying as long as you've cast and instant or sorcery spell this turn.",
+      "text":"Leapfrog has flying as long as you've cast an instant or sorcery spell this turn.",
       "toughness":"1",
       "type":"Creature — Frog",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/2/e/2e415a03-f7f8-4fca-954a-ef21b4a2c60f.jpg?1537359805"
+      "url":"https://img.scryfall.com/cards/large/front/2/e/2e415a03-f7f8-4fca-954a-ef21b4a2c60f.jpg?1537394261"
     },
     {
       "artist":"Daarken",
@@ -3463,7 +3695,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/c/b/cbeb4ae3-2a7a-44e1-923b-20c772fd1b8b.jpg?1537370223"
+      "url":"https://img.scryfall.com/cards/large/front/c/b/cbeb4ae3-2a7a-44e1-923b-20c772fd1b8b.jpg?1537378804"
     },
     {
       "artist":"Zack Stella",
@@ -3595,7 +3827,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/1/e/1ead2166-a7ca-49cb-bf93-2f59c37b4cb9.jpg?1537208614"
+      "url":"https://img.scryfall.com/cards/large/front/1/e/1ead2166-a7ca-49cb-bf93-2f59c37b4cb9.jpg?1537383969"
     },
     {
       "artist":"Mark Behm",
@@ -3747,7 +3979,7 @@
       "types":[
         "Sorcery"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/6/7/675640ba-37e7-4231-8524-87e8b87ea46f.jpg?1537361783"
+      "url":"https://img.scryfall.com/cards/large/front/6/7/675640ba-37e7-4231-8524-87e8b87ea46f.jpg?1537379148"
     },
     {
       "artist":"Sidharth Chaturvedi",
@@ -4294,7 +4526,7 @@
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/0/f/0f88c3aa-63e1-4617-bf1f-48f44988e7d6.jpg?1537365705"
+      "url":"https://img.scryfall.com/cards/large/front/0/f/0f88c3aa-63e1-4617-bf1f-48f44988e7d6.jpg?1537379173"
     },
     {
       "artist":"Even Amundsen",
@@ -4368,7 +4600,7 @@
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/3/c/3cfcf84c-a30c-4c4f-9f8c-ee807661e499.jpg?1537365783"
+      "url":"https://img.scryfall.com/cards/large/front/3/c/3cfcf84c-a30c-4c4f-9f8c-ee807661e499.jpg?1537379177"
     },
     {
       "artist":"Zoltan Boros",
@@ -4408,16 +4640,18 @@
       "manaCost":"B",
       "name":"Pilfering Imp",
       "number":"81",
+      "power":"1",
       "rarity":"Uncommon",
       "subtypes":[
         "Imp"
       ],
-      "text":"Flying\n{1}{B}, {T}, Sacrifice Pilfering Imp: Target opponent reveals their hand",
+      "text":"Flying\n{1}{B}, {T}, Sacrifice Pilfering Imp: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.",
+      "toughness":"1",
       "type":"Creature — Imp",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/6/4/646dedff-150c-4ed2-8f2e-3b2e6ba5521a.jpg?1537367053"
+      "url":"https://img.scryfall.com/cards/large/front/6/4/646dedff-150c-4ed2-8f2e-3b2e6ba5521a.jpg?1537389303"
     },
     {
       "artist":"Wayne Reynolds",
@@ -4473,7 +4707,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/c/1/c1a925a0-9d26-441b-8b4a-0614a0485fe6.jpg?1537366286"
+      "url":"https://img.scryfall.com/cards/large/front/c/1/c1a925a0-9d26-441b-8b4a-0614a0485fe6.jpg?1537379194"
     },
     {
       "artist":"Anna Steinbauer",
@@ -4764,7 +4998,7 @@
     },
     {
       "artist":"Daarken",
-      "cmc":15,
+      "cmc":6,
       "colorIdentity":[
         "R",
         "W"
@@ -4774,15 +5008,44 @@
         "Red"
       ],
       "layout":"split",
-      "manaCost":"R/WR/W // 3RW",
-      "name":"Response // Resurgence",
-      "number":"229",
+      "manaCost":"R/WR/W",
+      "name":"Response",
+      "names":[
+        "Response",
+        "Resurgence"
+      ],
+      "number":"229a",
       "rarity":"Rare",
-      "text":"",
-      "type":"Instant // Sorcery",
+      "text":"Response deals 5 damage to target attacking or blocking creature.",
+      "type":"Instant",
       "types":[
-        "Instant",
-        "//",
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/grn/229a.jpg?1536691260"
+    },
+    {
+      "artist":"Daarken",
+      "cmc":5,
+      "colorIdentity":[
+        "R",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Red"
+      ],
+      "layout":"split",
+      "manaCost":"3RW",
+      "name":"Resurgence",
+      "names":[
+        "Response",
+        "Resurgence"
+      ],
+      "number":"229b",
+      "rarity":"Rare",
+      "text":"Creatures you control gain first strike and vigilance until end of turn. After this main phase, there is an additional combat phase followed by an additional main phase.",
+      "type":"Sorcery",
+      "types":[
         "Sorcery"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/229a.jpg?1536691260"
@@ -5304,7 +5567,7 @@
     },
     {
       "artist":"Ben Wootten",
-      "cmc":11,
+      "cmc":3,
       "colorIdentity":[
         "B",
         "G"
@@ -5314,15 +5577,44 @@
         "Green"
       ],
       "layout":"split",
-      "manaCost":"B/G // 2BG",
-      "name":"Status // Statue",
-      "number":"230",
+      "manaCost":"B/G",
+      "name":"Status",
+      "names":[
+        "Status",
+        "Statue"
+      ],
+      "number":"230a",
       "rarity":"Uncommon",
-      "text":"",
-      "type":"Instant // Instant",
+      "text":"Target creature gets +1/+1 and gains deathtouch until end of turn.",
+      "type":"Instant",
       "types":[
-        "Instant",
-        "//",
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/en/grn/230a.jpg?1536691270"
+    },
+    {
+      "artist":"Ben Wootten",
+      "cmc":4,
+      "colorIdentity":[
+        "B",
+        "G"
+      ],
+      "colors":[
+        "Black",
+        "Green"
+      ],
+      "layout":"split",
+      "manaCost":"2BG",
+      "name":"Statue",
+      "names":[
+        "Status",
+        "Statue"
+      ],
+      "number":"230b",
+      "rarity":"Uncommon",
+      "text":"Destroy target artifact, creature, or enchantment.",
+      "type":"Instant",
+      "types":[
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/en/grn/230a.jpg?1536691270"
@@ -5568,12 +5860,12 @@
       "name":"Sworn Companions",
       "number":"27",
       "rarity":"Common",
-      "text":"Creature two 1/1 white Soldier creature tokens with lifelink.",
+      "text":"Create two 1/1 white Soldier creature tokens with lifelink.",
       "type":"Sorcery",
       "types":[
         "Sorcery"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/2/c/2ccfa5c1-69f9-4351-aba3-883fe92c9b98.jpg?1537359155"
+      "url":"https://img.scryfall.com/cards/large/front/2/c/2ccfa5c1-69f9-4351-aba3-883fe92c9b98.jpg?1537382154"
     },
     {
       "artist":"Anthony Palumbo",
@@ -5999,12 +6291,12 @@
       "subtypes":[
         "Aura"
       ],
-      "text":"Enchant Land\nWhen Urban Utopia enters the battlefield, draw a card.\nEnchanted land has \"{T}: Add one mana of any color.\"",
+      "text":"Enchant land\nWhen Urban Utopia enters the battlefield, draw a card.\nEnchanted land has \"{T}: Add one mana of any color.\"",
       "type":"Enchantment — Aura",
       "types":[
         "Enchantment"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/4/5/45d7ab0e-db37-4051-86dd-3ab09c047a2b.jpg?1537366592"
+      "url":"https://img.scryfall.com/cards/large/front/4/5/45d7ab0e-db37-4051-86dd-3ab09c047a2b.jpg?1537389246"
     },
     {
       "artist":"Zezhou Chen",
@@ -6158,7 +6450,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/b/6/b62625de-3a2f-43d6-8cf7-ea38f038f3b6.jpg?1537366594"
+      "url":"https://img.scryfall.com/cards/large/front/b/6/b62625de-3a2f-43d6-8cf7-ea38f038f3b6.jpg?1537379190"
     },
     {
       "artist":"Yeong-Hao Han",
