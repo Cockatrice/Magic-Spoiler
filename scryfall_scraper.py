@@ -74,7 +74,8 @@ def convert_scryfall(scryfall):
             else:
                 scryfall2.append(card)
         else:
-            scryfall2.append(card)    scryfall = scryfall2
+            scryfall2.append(card)    
+    scryfall = scryfall2
     for card in scryfall:
         card2 = {}
         card2['cmc'] = int(card['cmc'])
