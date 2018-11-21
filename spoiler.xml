@@ -1,10 +1,2878 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Thu, Sep 27 2018, 21:06:19 (UTC)
+        created: Wed, Nov 21 2018, 20:08:50 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
-	<sets>
-</sets>	
-	<cards>
-</cards>	
+	<sets>		
+		<set>			
+			<name>UMA</name>			
+			<longname>Ultimate Masters</longname>			
+			<settype>Masters</settype>			
+			<releasedate>2018-12-07</releasedate>			
+		</set>		
+	</sets>	
+	<cards>		
+		<card>			
+			<name>Aethersnipe</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1542801893" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>5U</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Aethersnipe enters the battlefield, return target nonland permanent to its owner's hand.
+Evoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>			
+		</card>		
+		<card>			
+			<name>Akroan Crusader</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1542803643" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Human Soldier</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Heroic - Whenever you cast a spell that targets Akroan Crusader, create a 1/1 red Soldier creature token with haste.</text>			
+		</card>		
+		<card>			
+			<name>All Is Dust</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1542627540" rarity="Rare">UMA</set>			
+			<manacost>7</manacost>			
+			<cmc>7</cmc>			
+			<type>Tribal Sorcery — Eldrazi</type>			
+			<tablerow>3</tablerow>			
+			<text>Each player sacrifices all colored permanents they control.</text>			
+		</card>		
+		<card>			
+			<name>Ancestor's Chosen</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1542804331" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>5WW</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Human Cleric</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>First strike (This creature deals combat damage before creatures without first strike.)
+When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Ancient Tomb</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1541422561" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C}{C}. Ancient Tomb deals 2 damage to you.</text>			
+		</card>		
+		<card>			
+			<name>Angelic Renewal</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1542804361" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a creature is put into your graveyard from the battlefield, you may sacrifice Angelic Renewal. If you do, return that card to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Angel of Despair</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1542727845" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<color>B</color>			
+			<manacost>3WWBB</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Angel</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Angel of Despair enters the battlefield, destroy target permanent.</text>			
+		</card>		
+		<card>			
+			<name>Anger</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1542803736" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Incarnation</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste
+As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.</text>			
+		</card>		
+		<card>			
+			<name>Appetite for Brains</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1542800030" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target opponent reveals their hand. You choose a card from it with converted mana cost 4 or greater and exile that card.</text>			
+		</card>		
+		<card>			
+			<name>Apprentice Necromancer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1542727349" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Zombie Wizard</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{B}, {T}, Sacrifice Apprentice Necromancer: Return target creature card from your graveyard to the battlefield. That creature gains haste. At the beginning of the next end step, sacrifice it.</text>			
+		</card>		
+		<card>			
+			<name>Archaeomancer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1542801967" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>2UU</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Archaeomancer enters the battlefield, return target instant or sorcery card from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Arena Athlete</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1542803785" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Heroic - Whenever you cast a spell that targets Arena Athlete, target creature an opponent controls can't block this turn.</text>			
+		</card>		
+		<card>			
+			<name>Artisan of Kozilek</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1542806565" rarity="Uncommon">UMA</set>			
+			<manacost>9</manacost>			
+			<cmc>9</cmc>			
+			<type>Creature — Eldrazi</type>			
+			<pt>10/9</pt>			
+			<tablerow>2</tablerow>			
+			<text>When you cast this spell, you may return target creature card from your graveyard to the battlefield.
+Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)</text>			
+		</card>		
+		<card>			
+			<name>Back to Basics</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1542655457" rarity="Rare">UMA</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Nonbasic lands don't untap during their controllers' untap steps.</text>			
+		</card>		
+		<card>			
+			<name>Balefire Dragon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1541422188" rarity="Mythic Rare">UMA</set>			
+			<color>R</color>			
+			<manacost>5RR</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Dragon</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Whenever Balefire Dragon deals combat damage to a player, it deals that much damage to each creature that player controls.</text>			
+		</card>		
+		<card>			
+			<name>Basking Rootwalla</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1542805022" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Lizard</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.
+Madness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Beckon Apparition</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1542805905" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<color>B</color>			
+			<manacost>W/B</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Exile target card from a graveyard. Create a 1/1 white and black Spirit creature token with flying.</text>			
+		</card>		
+		<card>			
+			<name>Become Immense</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1542806176" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>5G</manacost>			
+			<cmc>6</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Target creature gets +6/+6 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Bitterblossom</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1541424514" rarity="Mythic Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Tribal Enchantment — Faerie</type>			
+			<tablerow>1</tablerow>			
+			<text>At the beginning of your upkeep, you lose 1 life and create a 1/1 black Faerie Rogue creature token with flying.</text>			
+		</card>		
+		<card>			
+			<name>Blast of Genius</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1542805339" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<color>R</color>			
+			<manacost>4UR</manacost>			
+			<cmc>6</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose any target. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card's converted mana cost to that permanent or player.</text>			
+		</card>		
+		<card>			
+			<name>Bloodflow Connoisseur</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1542800136" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Vampire</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Sacrifice a creature: Put a +1/+1 counter on Bloodflow Connoisseur.</text>			
+		</card>		
+		<card>			
+			<name>Boar Umbra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1542805051" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +3/+3.
+Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</text>			
+		</card>		
+		<card>			
+			<name>Boneyard Wurm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1542805075" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Wurm</type>			
+			<pt>*/*</pt>			
+			<tablerow>2</tablerow>			
+			<text>Boneyard Wurm's power and toughness are each equal to the number of creature cards in your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Brawn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1542805092" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Incarnation</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+As long as Brawn is in your graveyard and you control a Forest, creatures you control have trample.</text>			
+		</card>		
+		<card>			
+			<name>Brazen Scourge</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1542803843" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Gremlin</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste</text>			
+		</card>		
+		<card>			
+			<name>Bridge from Below</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1542806252" rarity="Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>BBB</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a nontoken creature is put into your graveyard from the battlefield, if Bridge from Below is in your graveyard, create a 2/2 black Zombie creature token.
+When a creature is put into an opponent's graveyard from the battlefield, if Bridge from Below is in your graveyard, exile Bridge from Below.</text>			
+		</card>		
+		<card>			
+			<name>Buried Alive</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1542800199" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Canker Abomination</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1542805953" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>2B/GB/G</manacost>			
+			<cmc>8</cmc>			
+			<type>Creature — Treefolk Horror</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>As Canker Abomination enters the battlefield, choose an opponent. Canker Abomination enters the battlefield with a -1/-1 counter on it for each creature that player controls.</text>			
+		</card>		
+		<card>			
+			<name>Cathodion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1542805751" rarity="Common">UMA</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Cathodion dies, add {C}{C}{C}.</text>			
+		</card>		
+		<card>			
+			<name>Cavern of Souls</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1542806357" rarity="Mythic Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>As Cavern of Souls enters the battlefield, choose a creature type.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.</text>			
+		</card>		
+		<card>			
+			<name>Celestial Colonnade</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1541422417" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Celestial Colonnade enters the battlefield tapped.
+{T}: Add {W} or {U}.
+{3}{W}{U}: Until end of turn, Celestial Colonnade becomes a 4/4 white and blue Elemental creature with flying and vigilance. It's still a land.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Chainer's Edict</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1542671069" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target player sacrifices a creature.
+Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Circular Logic</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1542721136" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target spell unless its controller pays {1} for each card in your graveyard.
+Madness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Conflagrate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1542753875" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>XXR</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Conflagrate deals X damage divided as you choose among any number of targets.
+Flashback-{R}{R}, Discard X cards. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Containment Priest</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1542676739" rarity="Rare">UMA</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Cleric</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+If a nontoken creature would enter the battlefield and it wasn't cast, exile it instead.</text>			
+		</card>		
+		<card>			
+			<name>Conviction</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1542804374" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +1/+3.
+{W}: Return Conviction to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Countersquall</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1542805404" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<color>B</color>			
+			<manacost>UB</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target noncreature spell. Its controller loses 2 life.</text>			
+		</card>		
+		<card>			
+			<name>Creeping Tar Pit</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1541422428" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Creeping Tar Pit enters the battlefield tapped.
+{T}: Add {U} or {B}.
+{1}{U}{B}: Creeping Tar Pit becomes a 3/2 blue and black Elemental creature until end of turn and can't be blocked this turn. It's still a land.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Crow of Dark Tidings</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1542800261" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Zombie Bird</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Crow of Dark Tidings enters the battlefield or dies, put the top two cards of your library into your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Crushing Canopy</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1542805112" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one -
+• Destroy target creature with flying.
+• Destroy target enchantment.</text>			
+		</card>		
+		<card>			
+			<name>Dakmor Salvage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1542759898" rarity="Uncommon">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Dakmor Salvage enters the battlefield tapped.
+{T}: Add {B}.
+Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Dark Dabbling</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1542800312" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Regenerate target creature. Draw a card. (The next time the creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+Spell mastery - If there are two or more instant and/or sorcery cards in your graveyard, also regenerate each other creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Dark Depths</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1541422437" rarity="Mythic Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Snow Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Dark Depths enters the battlefield with ten ice counters on it.
+{3}: Remove an ice counter from Dark Depths.
+When Dark Depths has no ice counters on it, sacrifice it. If you do, create a legendary 20/20 black Avatar creature token with flying and indestructible named Marit Lage.</text>			
+		</card>		
+		<card>			
+			<name>Dawn Charm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1542804532" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one -
+• Prevent all combat damage that would be dealt this turn.
+• Regenerate target creature.
+• Counter target spell that targets you.</text>			
+		</card>		
+		<card>			
+			<name>Daybreak Coronet</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1542722883" rarity="Rare">UMA</set>			
+			<color>W</color>			
+			<manacost>WW</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature with another Aura attached to it
+Enchanted creature gets +3/+3 and has first strike, vigilance, and lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)</text>			
+		</card>		
+		<card>			
+			<name>Death Denied</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1542800377" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>XBB</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant — Arcane</type>			
+			<tablerow>3</tablerow>			
+			<text>Return X target creature cards from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Defy Gravity</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1542802054" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gains flying until end of turn.
+Flashback {U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Demonic Tutor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1541422453" rarity="Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Search your library for a card and put that card into your hand. Then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Deranged Assistant</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1542802115" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}, Put the top card of your library into your graveyard: Add {C}.</text>			
+		</card>		
+		<card>			
+			<name>Desolate Lighthouse</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1542805593" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C}.
+{1}{U}{R}, {T}: Draw a card, then discard a card.</text>			
+		</card>		
+		<card>			
+			<name>Desperate Ritual</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1542803982" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant — Arcane</type>			
+			<tablerow>3</tablerow>			
+			<text>Add {R}{R}{R}.
+Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)</text>			
+		</card>		
+		<card>			
+			<name>Devoted Druid</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1542729510" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Elf Druid</type>			
+			<pt>0/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Add {G}.
+Put a -1/-1 counter on Devoted Druid: Untap Devoted Druid.</text>			
+		</card>		
+		<card>			
+			<name>Dig Through Time</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1542726673" rarity="Rare">UMA</set>			
+			<color>U</color>			
+			<manacost>6UU</manacost>			
+			<cmc>8</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Look at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.</text>			
+		</card>		
+		<card>			
+			<name>Dimir Guildmage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1542722820" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<color>B</color>			
+			<manacost>U/BU/B</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>({U/B} can be paid with either {U} or {B}.)
+{3}{U}: Target player draws a card. Activate this ability only any time you could cast a sorcery.
+{3}{B}: Target player discards a card. Activate this ability only any time you could cast a sorcery.</text>			
+		</card>		
+		<card>			
+			<name>Disrupting Shoal</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1542721840" rarity="Rare">UMA</set>			
+			<color>U</color>			
+			<manacost>XUU</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant — Arcane</type>			
+			<tablerow>3</tablerow>			
+			<text>You may exile a blue card with converted mana cost X from your hand rather than pay this spell's mana cost.
+Counter target spell if its converted mana cost is X.</text>			
+		</card>		
+		<card>			
+			<name>Double Cleave</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1542806033" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<manacost>1R/W</manacost>			
+			<cmc>4</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)</text>			
+		</card>		
+		<card>			
+			<name>Dreamscape Artist</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1542808306" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Spellshaper</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{2}{U}, {T}, Discard a card, Sacrifice a land: Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Eel Umbra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1542802234" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Flash (You may cast this spell any time you could cast an instant.)
+Enchant creature
+Enchanted creature gets +1/+1.
+Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</text>			
+		</card>		
+		<card>			
+			<name>Eldrazi Conscription</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1542806268" rarity="Rare">UMA</set>			
+			<manacost>8</manacost>			
+			<cmc>8</cmc>			
+			<type>Tribal Enchantment — Eldrazi Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +10/+10 and has trample and annihilator 2. (Whenever it attacks, defending player sacrifices two permanents.)</text>			
+		</card>		
+		<card>			
+			<name>Emancipation Angel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1542804508" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>1WW</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Angel</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Emancipation Angel enters the battlefield, return a permanent you control to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Emrakul, the Aeons Torn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1541422506" rarity="Mythic Rare">UMA</set>			
+			<manacost>15</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Eldrazi</type>			
+			<pt>15/15</pt>			
+			<tablerow>2</tablerow>			
+			<text>This spell can't be countered.
+When you cast this spell, take an extra turn after this one.
+Flying, protection from colored spells, annihilator 6
+When Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.</text>			
+		</card>		
+		<card>			
+			<name>Engineered Explosives</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1541422516" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
+{2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Engineered Explosives.</text>			
+		</card>		
+		<card>			
+			<name>Entomb</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1541434581" rarity="Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Search your library for a card and put that card into your graveyard. Then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Eternal Witness</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1542806190" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>1GG</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Shaman</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Eternal Witness enters the battlefield, you may return target card from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Faithless Looting</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1542634460" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw two cards, then discard two cards.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Faith's Fetters</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1542804554" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant permanent
+When Faith's Fetters enters the battlefield, you gain 4 life.
+Enchanted permanent's activated abilities can't be activated unless they're mana abilities. If enchanted permanent is a creature, it can't attack or block.</text>			
+		</card>		
+		<card>			
+			<name>Fauna Shaman</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1542805128" rarity="Rare">UMA</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Elf Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{G}, {T}, Discard a creature card: Search your library for a creature card, reveal it, and put it into your hand. Then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Fecundity</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1542626123" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a creature dies, that creature's controller may draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Fiend Hunter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1542804584" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>1WW</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Cleric</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Fiend Hunter enters the battlefield, you may exile another target creature.
+When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.</text>			
+		</card>		
+		<card>			
+			<name>Fiery Temper</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1542688386" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Fiery Temper deals 3 damage to any target.
+Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Fire // Ice</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1542626339" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<color>R</color>			
+			<manacost>1R // 1U</manacost>			
+			<cmc>2 // 2</cmc>			
+			<type>Instant // Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Fire deals 2 damage divided as you choose among one or two targets.
+---
+Tap target permanent.
+Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Firewing Phoenix</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1542722308" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Phoenix</type>			
+			<pt>4/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{1}{R}{R}{R}: Return Firewing Phoenix from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Flagstones of Trokair</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1542806304" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {W}.
+When Flagstones of Trokair is put into a graveyard from the battlefield, you may search your library for a Plains card and put it onto the battlefield tapped. If you do, shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Flight of Fancy</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1542802283" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+When Flight of Fancy enters the battlefield, draw two cards.
+Enchanted creature has flying.</text>			
+		</card>		
+		<card>			
+			<name>Foil</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1542722117" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>2UU</manacost>			
+			<cmc>4</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>You may discard an Island card and another card rather than pay this spell's mana cost.
+Counter target spell.</text>			
+		</card>		
+		<card>			
+			<name>Forbidden Alchemy</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1542802341" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.
+Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Frantic Search</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1542802432" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw two cards, then discard two cards. Untap up to three lands.</text>			
+		</card>		
+		<card>			
+			<name>Fulminator Mage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1541426655" rarity="Rare">UMA</set>			
+			<color>B</color>			
+			<color>R</color>			
+			<manacost>1B/RB/R</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Elemental Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Sacrifice Fulminator Mage: Destroy target nonbasic land.</text>			
+		</card>		
+		<card>			
+			<name>Fume Spitter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1542800476" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Horror</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Sacrifice Fume Spitter: Put a -1/-1 counter on target creature.</text>			
+		</card>		
+		<card>			
+			<name>Furnace Celebration</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1542804048" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever you sacrifice another permanent, you may pay {2}. If you do, Furnace Celebration deals 2 damage to any target.</text>			
+		</card>		
+		<card>			
+			<name>Gaddock Teeg</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1541422624" rarity="Rare">UMA</set>			
+			<color>W</color>			
+			<color>G</color>			
+			<manacost>GW</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Creature — Kithkin Advisor</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Noncreature spells with converted mana cost 4 or greater can't be cast.
+Noncreature spells with {X} in their mana costs can't be cast.</text>			
+		</card>		
+		<card>			
+			<name>Gamble</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1542625920" rarity="Rare">UMA</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Search your library for a card, put that card into your hand, discard a card at random, then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Garna, the Bloodflame</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1542805458" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<color>R</color>			
+			<manacost>3BR</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Creature — Human Warrior</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+When Garna, the Bloodflame enters the battlefield, return to your hand all creature cards in your graveyard that were put there from anywhere this turn.
+Other creatures you control have haste.</text>			
+		</card>		
+		<card>			
+			<name>Generator Servant</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1542804159" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}, Sacrifice Generator Servant: Add {C}{C}. If that mana is spent on a creature spell, it gains haste until end of turn. (That creature can attack and {T} as soon as it comes under your control.)</text>			
+		</card>		
+		<card>			
+			<name>Ghoulcaller's Accomplice</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1542800566" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Rogue</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{3}{B}, Exile Ghoulcaller's Accomplice from your graveyard: Create a 2/2 black Zombie creature token. Activate this ability only any time you could cast a sorcery.</text>			
+		</card>		
+		<card>			
+			<name>Ghoulsteed</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1542800626" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Zombie Horse</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>{2}{B}, Discard two cards: Return Ghoulsteed from your graveyard to the battlefield tapped.</text>			
+		</card>		
+		<card>			
+			<name>Glen Elendra Archmage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1542729667" rarity="Rare">UMA</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Faerie Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{U}, Sacrifice Glen Elendra Archmage: Counter target noncreature spell.
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</text>			
+		</card>		
+		<card>			
+			<name>Gods Willing</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1542804596" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature you control gains protection from the color of your choice until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</text>			
+		</card>		
+		<card>			
+			<name>Golgari Brownscale</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1542805141" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>1GG</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Lizard</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Golgari Brownscale is put into your hand from your graveyard, you gain 2 life.
+Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</text>			
+		</card>		
+		<card>			
+			<name>Golgari Charm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1542805497" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>BG</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose one -
+• All creatures get -1/-1 until end of turn.
+• Destroy target enchantment.
+• Regenerate each creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Golgari Grave-Troll</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1542806288" rarity="Rare">UMA</set>			
+			<color>G</color>			
+			<manacost>4G</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Troll Skeleton</type>			
+			<pt>0/0</pt>			
+			<tablerow>2</tablerow>			
+			<text>Golgari Grave-Troll enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.
+{1}, Remove a +1/+1 counter from Golgari Grave-Troll: Regenerate Golgari Grave-Troll.
+Dredge 6 (If you would draw a card, instead you may put exactly six cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</text>			
+		</card>		
+		<card>			
+			<name>Golgari Thug</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1542800699" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Warrior</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Golgari Thug dies, put target creature card from your graveyard on top of your library.
+Dredge 4 (If you would draw a card, instead you may put exactly four cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</text>			
+		</card>		
+		<card>			
+			<name>Goryo's Vengeance</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1541422647" rarity="Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant — Arcane</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target legendary creature card from your graveyard to the battlefield. That creature gains haste. Exile it at the beginning of the next end step.
+Splice onto Arcane {2}{B} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)</text>			
+		</card>		
+		<card>			
+			<name>Grave Scrabbler</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1542800757" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Zombie</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+When Grave Scrabbler enters the battlefield, if its madness cost was paid, you may return target creature card from a graveyard to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Grave Strength</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1542800848" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose target creature. Put the top three cards of your library into your graveyard, then put a +1/+1 counter on that creature for each creature card in your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Groundskeeper</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1542805157" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Human Druid</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{G}: Return target basic land card from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Gurmag Angler</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1542629605" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>6B</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Zombie Fish</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)</text>			
+		</card>		
+		<card>			
+			<name>Heap Doll</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1542805764" rarity="Uncommon">UMA</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact Creature — Scarecrow</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Sacrifice Heap Doll: Exile target card from a graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Heliod's Pilgrim</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1542723015" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Cleric</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Heliod's Pilgrim enters the battlefield, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Hero of Iroas</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1542804619" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Aura spells you cast cost {1} less to cast.
+Heroic - Whenever you cast a spell that targets Hero of Iroas, put a +1/+1 counter on Hero of Iroas.</text>			
+		</card>		
+		<card>			
+			<name>Hero of Leina Tower</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1542722465" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Human Warrior</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Heroic - Whenever you cast a spell that targets Hero of Leina Tower, you may pay {X}. If you do, put X +1/+1 counters on Hero of Leina Tower.</text>			
+		</card>		
+		<card>			
+			<name>Hissing Iguanar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1542804252" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Lizard</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player or planeswalker.</text>			
+		</card>		
+		<card>			
+			<name>Hooting Mandrills</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1542805186" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>5G</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Ape</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Trample</text>			
+		</card>		
+		<card>			
+			<name>Hyena Umbra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1542806061" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +1/+1 and has first strike.
+Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</text>			
+		</card>		
+		<card>			
+			<name>Icatian Crier</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1542804631" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Spellshaper</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{W}, {T}, Discard a card: Create two 1/1 white Citizen creature tokens.</text>			
+		</card>		
+		<card>			
+			<name>Ingot Chewer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1542804321" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>4R</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Ingot Chewer enters the battlefield, destroy target artifact.
+Evoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>			
+		</card>		
+		<card>			
+			<name>Iridescent Drake</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1542802491" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Drake</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Iridescent Drake enters the battlefield, put target Aura card from a graveyard onto the battlefield under your control attached to Iridescent Drake.</text>			
+		</card>		
+		<card>			
+			<name>Just the Wind</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1542802539" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target creature to its owner's hand.
+Madness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Karakas</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1541422665" rarity="Mythic Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {W}.
+{T}: Return target legendary creature to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Karn Liberated</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1541509285" rarity="Mythic Rare">UMA</set>			
+			<manacost>7</manacost>			
+			<cmc>7</cmc>			
+			<type>Legendary Planeswalker — Karn</type>			
+			<tablerow>1</tablerow>			
+			<text>+4: Target player exiles a card from their hand.
+-3: Exile target permanent.
+-14: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control.</text>			
+			<loyalty>6</loyalty>			
+		</card>		
+		<card>			
+			<name>Kitchen Finks</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1541422766" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<color>G</color>			
+			<manacost>1G/WG/W</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Ouphe</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Kitchen Finks enters the battlefield, you gain 2 life.
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</text>			
+		</card>		
+		<card>			
+			<name>Kodama's Reach</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1542805246" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery — Arcane</type>			
+			<tablerow>3</tablerow>			
+			<text>Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Kozilek, Butcher of Truth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1541422778" rarity="Mythic Rare">UMA</set>			
+			<manacost>10</manacost>			
+			<cmc>1</cmc>			
+			<type>Legendary Creature — Eldrazi</type>			
+			<pt>12/12</pt>			
+			<tablerow>2</tablerow>			
+			<text>When you cast this spell, draw four cards.
+Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)
+When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.</text>			
+		</card>		
+		<card>			
+			<name>Laboratory Maniac</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1542722185" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>If you would draw a card while your library has no cards in it, you win the game instead.</text>			
+		</card>		
+		<card>			
+			<name>Last Gasp</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1542800920" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets -3/-3 until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Lavaclaw Reaches</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1541422791" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Lavaclaw Reaches enters the battlefield tapped.
+{T}: Add {B} or {R}.
+{1}{B}{R}: Until end of turn, Lavaclaw Reaches becomes a 2/2 black and red Elemental creature with &quot;{X}: This creature gets +X/+0 until end of turn.&quot; It's still a land.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Lava Spike</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1542723374" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery — Arcane</type>			
+			<tablerow>3</tablerow>			
+			<text>Lava Spike deals 3 damage to target player or planeswalker.</text>			
+		</card>		
+		<card>			
+			<name>Leovold, Emissary of Trest</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1541422812" rarity="Mythic Rare">UMA</set>			
+			<color>U</color>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>BGU</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Elf Advisor</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Each opponent can't draw more than one card each turn.
+Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Life from the Loam</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1541422904" rarity="Rare">UMA</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return up to three target land cards from your graveyard to your hand.
+Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</text>			
+		</card>		
+		<card>			
+			<name>Liliana of the Veil</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1541422913" rarity="Mythic Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>1BB</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Planeswalker — Liliana</type>			
+			<tablerow>1</tablerow>			
+			<text>+1: Each player discards a card.
+-2: Target player sacrifices a creature.
+-6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.</text>			
+			<loyalty>3</loyalty>			
+		</card>		
+		<card>			
+			<name>Living Lore</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1542722241" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Avatar</type>			
+			<pt>*/*</pt>			
+			<tablerow>2</tablerow>			
+			<text>As Living Lore enters the battlefield, exile an instant or sorcery card from your graveyard.
+Living Lore's power and toughness are each equal to the exiled card's converted mana cost.
+Whenever Living Lore deals combat damage, you may sacrifice it. If you do, you may cast the exiled card without paying its mana cost.</text>			
+		</card>		
+		<card>			
+			<name>Lord of Extinction</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1541422955" rarity="Mythic Rare">UMA</set>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>3BG</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>*/*</pt>			
+			<tablerow>2</tablerow>			
+			<text>Lord of Extinction's power and toughness are each equal to the number of cards in all graveyards.</text>			
+		</card>		
+		<card>			
+			<name>Lotus-Eye Mystics</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1542804647" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Monk</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When Lotus-Eye Mystics enters the battlefield, return target enchantment card from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Mad Prophet</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1542804393" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste
+{T}, Discard a card: Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Maelstrom Pulse</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1541423027" rarity="Rare">UMA</set>			
+			<color>B</color>			
+			<color>G</color>			
+			<manacost>1BG</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target nonland permanent and all other permanents with the same name as that permanent.</text>			
+		</card>		
+		<card>			
+			<name>Mage-Ring Network</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1542805611" rarity="Uncommon">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C}.
+{1}, {T}: Put a storage counter on Mage-Ring Network.
+{T}, Remove any number of storage counters from Mage-Ring Network: Add {C} for each storage counter removed this way.</text>			
+		</card>		
+		<card>			
+			<name>Magmaw</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1542722390" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>3RR</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}, Sacrifice a nonland permanent: Magmaw deals 1 damage to any target.</text>			
+		</card>		
+		<card>			
+			<name>Magus of the Bazaar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1542721228" rarity="Rare">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>0/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Draw two cards, then discard three cards.</text>			
+		</card>		
+		<card>			
+			<name>Mahamoti Djinn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1542802675" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>4UU</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Djinn</type>			
+			<pt>5/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying (This creature can't be blocked except by creatures with flying or reach.)</text>			
+		</card>		
+		<card>			
+			<name>Malevolent Whispers</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1542804449" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Gain control of target creature until end of turn. Untap that creature. It gets +2/+0 and gains haste until end of turn.
+Madness {3}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Mammoth Umbra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1542804662" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +3/+3 and has vigilance.
+Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</text>			
+		</card>		
+		<card>			
+			<name>Mana Vault</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1541423198" rarity="Mythic Rare">UMA</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Mana Vault doesn't untap during your untap step.
+At the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.
+At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.
+{T}: Add {C}{C}{C}.</text>			
+		</card>		
+		<card>			
+			<name>Marang River Prowler</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1542802735" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Rogue</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Marang River Prowler can't block and can't be blocked.
+You may cast Marang River Prowler from your graveyard as long as you control a black or green permanent.</text>			
+		</card>		
+		<card>			
+			<name>Mark of the Vampire</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1542801003" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and has lifelink.</text>			
+		</card>		
+		<card>			
+			<name>Martyr of Sands</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1542806077" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>W</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Human Cleric</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}, Reveal X white cards from your hand, Sacrifice Martyr of Sands: You gain three times X life.</text>			
+		</card>		
+		<card>			
+			<name>Mikaeus, the Unhallowed</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1541423187" rarity="Mythic Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>3BBB</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Zombie Cleric</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Whenever a Human deals damage to you, destroy it.
+Other non-Human creatures you control get +1/+1 and have undying. (When a creature with undying dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)</text>			
+		</card>		
+		<card>			
+			<name>Miming Slime</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1542722667" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Create an X/X green Ooze creature token, where X is the greatest power among creatures you control.</text>			
+		</card>		
+		<card>			
+			<name>Miraculous Recovery</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1542804677" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target creature card from your graveyard to the battlefield. Put a +1/+1 counter on it.</text>			
+		</card>		
+		<card>			
+			<name>Mistveil Plains</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1542805629" rarity="Uncommon">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land — Plains</type>			
+			<tablerow>0</tablerow>			
+			<text>({T}: Add {W}.)
+Mistveil Plains enters the battlefield tapped.
+{W}, {T}: Put target card from your graveyard on the bottom of your library. Activate this ability only if you control two or more white permanents.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Moan of the Unhallowed</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1542801162" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>2BB</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Create two 2/2 black Zombie creature tokens.
+Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Molten Birth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1542804527" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>1RR</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Create two 1/1 red Elemental creature tokens. Then flip a coin. If you win the flip, return Molten Birth to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Murderous Redcap</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1542806087" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<color>R</color>			
+			<manacost>2B/RB/R</manacost>			
+			<cmc>8</cmc>			
+			<type>Creature — Goblin Assassin</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Murderous Redcap enters the battlefield, it deals damage equal to its power to any target.
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</text>			
+		</card>		
+		<card>			
+			<name>Myr Servitor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1542805776" rarity="Common">UMA</set>			
+			<manacost>1</manacost>			
+			<cmc>1</cmc>			
+			<type>Artifact Creature — Myr</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of your upkeep, if Myr Servitor is on the battlefield, each player returns all cards named Myr Servitor from their graveyard to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Mystic Retrieval</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1542802773" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>3U</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target instant or sorcery card from your graveyard to your hand.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Nightbird's Clutches</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1542804572" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Up to two target creatures can't block this turn.
+Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Noble Hierarch</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1541423177" rarity="Rare">UMA</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Human Druid</type>			
+			<pt>0/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+{T}: Add {G}, {W}, or {U}.</text>			
+		</card>		
+		<card>			
+			<name>Nourishing Shoal</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1542806319" rarity="Rare">UMA</set>			
+			<color>G</color>			
+			<manacost>XGG</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant — Arcane</type>			
+			<tablerow>3</tablerow>			
+			<text>You may exile a green card with converted mana cost X from your hand rather than pay this spell's mana cost.
+You gain X life.</text>			
+		</card>		
+		<card>			
+			<name>Offalsnout</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1542801295" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+When Offalsnout leaves the battlefield, exile target card from a graveyard.
+Evoke {B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>			
+		</card>		
+		<card>			
+			<name>Olivia's Dragoon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1542801348" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>1B</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Vampire Berserker</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Discard a card: Olivia's Dragoon gains flying until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Patchwork Gnomes</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1542805808" rarity="Common">UMA</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact Creature — Gnome</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Discard a card: Regenerate Patchwork Gnomes.</text>			
+		</card>		
+		<card>			
+			<name>Pattern of Rebirth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1542805264" rarity="Rare">UMA</set>			
+			<color>G</color>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+When enchanted creature dies, that creature's controller may search their library for a creature card and put that card onto the battlefield. If that player does, they shuffle their library.</text>			
+		</card>		
+		<card>			
+			<name>Penumbra Wurm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1542805300" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>5GG</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Wurm</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+When Penumbra Wurm dies, create a 6/6 black Wurm creature token with trample.</text>			
+		</card>		
+		<card>			
+			<name>Phalanx Leader</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1542804691" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>WW</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Soldier</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Heroic - Whenever you cast a spell that targets Phalanx Leader, put a +1/+1 counter on each creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Phyrexian Altar</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1542635366" rarity="Rare">UMA</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>Sacrifice a creature: Add one mana of any color.</text>			
+		</card>		
+		<card>			
+			<name>Phyrexian Tower</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1542633494" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C}.
+{T}, Sacrifice a creature: Add {B}{B}.</text>			
+		</card>		
+		<card>			
+			<name>Platinum Emperion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1541423203" rarity="Mythic Rare">UMA</set>			
+			<manacost>8</manacost>			
+			<cmc>8</cmc>			
+			<type>Artifact Creature — Golem</type>			
+			<pt>8/8</pt>			
+			<tablerow>2</tablerow>			
+			<text>Your life total can't change. (You can't gain or lose life. You can't pay any amount of life except 0.)</text>			
+		</card>		
+		<card>			
+			<name>Plumeveil</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1542806134" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>W/UW/UW/U</manacost>			
+			<cmc>9</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+Defender, flying</text>			
+		</card>		
+		<card>			
+			<name>Prey Upon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1542805316" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)</text>			
+		</card>		
+		<card>			
+			<name>Prismatic Lens</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1542805854" rarity="Uncommon">UMA</set>			
+			<manacost>2</manacost>			
+			<cmc>2</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.</text>			
+		</card>		
+		<card>			
+			<name>Pulse of Murasa</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1542805331" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target creature or land card from a graveyard to its owner's hand. You gain 6 life.</text>			
+		</card>		
+		<card>			
+			<name>Raging Ravine</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1541423247" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Raging Ravine enters the battlefield tapped.
+{T}: Add {R} or {G}.
+{2}{R}{G}: Until end of turn, Raging Ravine becomes a 3/3 red and green Elemental creature with &quot;Whenever this creature attacks, put a +1/+1 counter on it.&quot; It's still a land.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Raid Bombardment</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1542804637" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a creature you control with power 2 or less attacks, Raid Bombardment deals 1 damage to the player or planeswalker that creature is attacking.</text>			
+		</card>		
+		<card>			
+			<name>Rakdos Shred-Freak</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1542806178" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<color>R</color>			
+			<manacost>B/RB/R</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Human Berserker</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste</text>			
+		</card>		
+		<card>			
+			<name>Rally the Peasants</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1542804705" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Creatures you control get +2/+0 until end of turn.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Reanimate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1541423265" rarity="Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its converted mana cost.</text>			
+		</card>		
+		<card>			
+			<name>Reckless Charge</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1542804695" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +3/+0 and gains haste until end of turn.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Reckless Wurm</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1542634478" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>3RR</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Wurm</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+Madness {2}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Repel the Darkness</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1542804715" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Tap up to two target creatures.
+Draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Resurrection</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1542659709" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>2WW</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target creature card from your graveyard to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Reveillark</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1542721510" rarity="Rare">UMA</set>			
+			<color>W</color>			
+			<manacost>4W</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Reveillark leaves the battlefield, return up to two target creature cards with power 2 or less from your graveyard to the battlefield.
+Evoke {5}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>			
+		</card>		
+		<card>			
+			<name>Reviving Vapors</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1542805588" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>2WU</manacost>			
+			<cmc>4</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Reveal the top three cards of your library and put one of them into your hand. You gain life equal to that card's converted mana cost. Put all other cards revealed this way into your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Reya Dawnbringer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1542804734" rarity="Rare">UMA</set>			
+			<color>W</color>			
+			<manacost>6WWW</manacost>			
+			<cmc>9</cmc>			
+			<type>Legendary Creature — Angel</type>			
+			<pt>4/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+At the beginning of your upkeep, you may return target creature card from your graveyard to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Rise from the Tides</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1542802837" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>5U</manacost>			
+			<cmc>6</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Create a tapped 2/2 black Zombie creature token for each instant and sorcery card in your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Rogue's Passage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1542805665" rarity="Uncommon">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C}.
+{4}, {T}: Target creature can't be blocked this turn.</text>			
+		</card>		
+		<card>			
+			<name>Rolling Temblor</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1542804754" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Rolling Temblor deals 2 damage to each creature without flying.
+Flashback {4}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Ronom Unicorn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1542804753" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Unicorn</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Sacrifice Ronom Unicorn: Destroy target enchantment.</text>			
+		</card>		
+		<card>			
+			<name>Runed Halo</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1542655322" rarity="Rare">UMA</set>			
+			<color>W</color>			
+			<manacost>WW</manacost>			
+			<cmc>2</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>As Runed Halo enters the battlefield, choose a card name.
+You have protection from the chosen name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)</text>			
+		</card>		
+		<card>			
+			<name>Rune Snag</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1542655352" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target spell unless its controller pays {2} plus an additional {2} for each card named Rune Snag in each graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Safehold Elite</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1542806248" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<color>G</color>			
+			<manacost>1G/W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Elf Scout</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</text>			
+		</card>		
+		<card>			
+			<name>Sanitarium Skeleton</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1542801407" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Skeleton</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{2}{B}: Return Sanitarium Skeleton from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Satyr Wayfinder</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1542805344" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Satyr</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Satyr Wayfinder enters the battlefield, reveal the top four cards of your library. You may put a land card from among them into your hand. Put the rest into your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Scuzzback Marauders</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1542806283" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>4R/G</manacost>			
+			<cmc>7</cmc>			
+			<type>Creature — Goblin Warrior</type>			
+			<pt>5/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</text>			
+		</card>		
+		<card>			
+			<name>Seismic Assault</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1542729686" rarity="Rare">UMA</set>			
+			<color>R</color>			
+			<manacost>RRR</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Discard a land card: Seismic Assault deals 2 damage to any target.</text>			
+		</card>		
+		<card>			
+			<name>Seize the Day</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1542747811" rarity="Rare">UMA</set>			
+			<color>R</color>			
+			<manacost>3R</manacost>			
+			<cmc>4</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Untap target creature. After this main phase, there is an additional combat phase followed by an additional main phase.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Shed Weakness</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1542805396" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +2/+2 until end of turn. You may remove a -1/-1 counter from it.</text>			
+		</card>		
+		<card>			
+			<name>Shielding Plax</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1542806330" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<color>G</color>			
+			<manacost>2G/U</manacost>			
+			<cmc>5</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>({G/U} can be paid with either {G} or {U}.)
+Enchant creature
+When Shielding Plax enters the battlefield, draw a card.
+Enchanted creature can't be the target of spells or abilities your opponents control.</text>			
+		</card>		
+		<card>			
+			<name>Shirei, Shizo's Caretaker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1542655555" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Creature — Spirit</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever a creature with power 1 or less is put into your graveyard from the battlefield, you may return that card to the battlefield at the beginning of the next end step if Shirei, Shizo's Caretaker is still on the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Shriekmaw</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1542801463" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>3/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
+When Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.
+Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>			
+		</card>		
+		<card>			
+			<name>Sigarda, Host of Herons</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1541423282" rarity="Mythic Rare">UMA</set>			
+			<color>W</color>			
+			<color>G</color>			
+			<manacost>2GWW</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Creature — Angel</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, hexproof
+Spells and abilities your opponents control can't cause you to sacrifice permanents.</text>			
+		</card>		
+		<card>			
+			<name>Sigil of the New Dawn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1542665092" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a creature is put into your graveyard from the battlefield, you may pay {1}{W}. If you do, return that card to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Skyspear Cavalry</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1542806212" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>3WW</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Human Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Double strike (This creature deals both first-strike and regular combat damage.)</text>			
+		</card>		
+		<card>			
+			<name>Skywing Aven</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1542806217" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>2U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Bird Soldier</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Discard a card: Return Skywing Aven to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Sleight of Hand</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1542802979" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.</text>			
+		</card>		
+		<card>			
+			<name>Slippery Bogle</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1542721770" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<color>G</color>			
+			<manacost>G/U</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Beast</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Hexproof (This creature can't be the target of spells or abilities your opponents control.)</text>			
+		</card>		
+		<card>			
+			<name>Slum Reaper</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1542722765" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>3B</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Horror</type>			
+			<pt>4/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Slum Reaper enters the battlefield, each player sacrifices a creature.</text>			
+		</card>		
+		<card>			
+			<name>Snake Umbra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1542805414" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +1/+1 and has &quot;Whenever this creature deals damage to an opponent, you may draw a card.&quot;
+Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</text>			
+		</card>		
+		<card>			
+			<name>Snapcaster Mage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1541423292" rarity="Mythic Rare">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Wizard</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flash
+When Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Songs of the Damned</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1542809113" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Add {B} for each creature card in your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Soul's Fire</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1542804826" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature you control deals damage equal to its power to any target.</text>			
+		</card>		
+		<card>			
+			<name>Sovereigns of Lost Alara</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1542681228" rarity="Rare">UMA</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>4WU</manacost>			
+			<cmc>6</cmc>			
+			<type>Creature — Spirit</type>			
+			<pt>4/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+Whenever a creature you control attacks alone, you may search your library for an Aura card that could enchant that creature, put it onto the battlefield attached to that creature, then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Sparkspitter</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1542804875" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Elemental Spellshaper</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>{R}, {T}, Discard a card: Create a 3/1 red Elemental creature token named Spark Elemental. It has trample, haste, and &quot;At the beginning of the end step, sacrifice Spark Elemental.&quot;</text>			
+		</card>		
+		<card>			
+			<name>Spider Spawning</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1542805441" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>4G</manacost>			
+			<cmc>5</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Create a 1/2 green Spider creature token with reach for each creature card in your graveyard.
+Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Spider Umbra</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1542722946" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>G</manacost>			
+			<cmc>1</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +1/+1 and has reach. (It can block creatures with flying.)
+Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</text>			
+		</card>		
+		<card>			
+			<name>Spirit Cairn</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1542804794" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Whenever a player discards a card, you may pay {W}. If you do, create a 1/1 white Spirit creature token with flying.</text>			
+		</card>		
+		<card>			
+			<name>Spoils of the Vault</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1542806337" rarity="Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>B</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Choose a card name. Reveal cards from the top of your library until you reveal a card with that name, then put that card into your hand. Exile all other cards revealed this way, and you lose 1 life for each of the exiled cards.</text>			
+		</card>		
+		<card>			
+			<name>Squee, Goblin Nabob</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1542625977" rarity="Rare">UMA</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Legendary Creature — Goblin</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>At the beginning of your upkeep, you may return Squee, Goblin Nabob from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Staunch-Hearted Warrior</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1542805466" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Human Warrior</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Heroic - Whenever you cast a spell that targets Staunch-Hearted Warrior, put two +1/+1 counters on Staunch-Hearted Warrior.</text>			
+		</card>		
+		<card>			
+			<name>Stingerfling Spider</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1542805482" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>4G</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Spider</type>			
+			<pt>2/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Reach
+When Stingerfling Spider enters the battlefield, you may destroy target creature with flying.</text>			
+		</card>		
+		<card>			
+			<name>Stirring Wildwood</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1541423371" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Stirring Wildwood enters the battlefield tapped.
+{T}: Add {G} or {W}.
+{1}{G}{W}: Until end of turn, Stirring Wildwood becomes a 3/4 green and white Elemental creature with reach. It's still a land.</text>			
+			<cipt>1</cipt>			
+		</card>		
+		<card>			
+			<name>Stitched Drake</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1542803039" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>1UU</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Zombie Drake</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>As an additional cost to cast this spell, exile a creature card from your graveyard.
+Flying</text>			
+		</card>		
+		<card>			
+			<name>Stitcher's Apprentice</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1542803097" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Homunculus</type>			
+			<pt>1/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{1}{U}, {T}: Create a 2/2 blue Homunculus creature token, then sacrifice a creature.</text>			
+		</card>		
+		<card>			
+			<name>Stream of Consciousness</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1542803204" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant — Arcane</type>			
+			<tablerow>3</tablerow>			
+			<text>Target player shuffles up to four target cards from their graveyard into their library.</text>			
+		</card>		
+		<card>			
+			<name>Sublime Archangel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1542721289" rarity="Rare">UMA</set>			
+			<color>W</color>			
+			<manacost>2WW</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Angel</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+Other creatures you control have exalted. (If a creature has multiple instances of exalted, each triggers separately.)</text>			
+		</card>		
+		<card>			
+			<name>Sultai Skullkeeper</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1542803249" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Naga Shaman</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Sultai Skullkeeper enters the battlefield, put the top two cards of your library into your graveyard.</text>			
+		</card>		
+		<card>			
+			<name>Swift Reckoning</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1542804885" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Spell mastery - If there are two or more instant and/or sorcery cards in your graveyard, you may cast Swift Reckoning as though it had flash. (You may cast it any time you could cast an instant.)
+Destroy target tapped creature.</text>			
+		</card>		
+		<card>			
+			<name>Talrand, Sky Summoner</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1542670824" rarity="Rare">UMA</set>			
+			<color>U</color>			
+			<manacost>2UU</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Merfolk Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.</text>			
+		</card>		
+		<card>			
+			<name>Tarmogoyf</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1541423404" rarity="Mythic Rare">UMA</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Lhurgoyf</type>			
+			<pt>*/1+*</pt>			
+			<tablerow>2</tablerow>			
+			<text>Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.</text>			
+		</card>		
+		<card>			
+			<name>Tasigur, the Golden Fang</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1541423414" rarity="Rare">UMA</set>			
+			<color>B</color>			
+			<manacost>5B</manacost>			
+			<cmc>6</cmc>			
+			<type>Legendary Creature — Human Shaman</type>			
+			<pt>4/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+{2}{G/U}{G/U}: Put the top two cards of your library into your graveyard, then return a nonland card of an opponent's choice from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Temporal Manipulation</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1541423434" rarity="Mythic Rare">UMA</set>			
+			<color>U</color>			
+			<manacost>3UU</manacost>			
+			<cmc>5</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Take an extra turn after this one.</text>			
+		</card>		
+		<card>			
+			<name>Terramorphic Expanse</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1542805684" rarity="Common">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</text>			
+		</card>		
+		<card>			
+			<name>Tethmos High Priest</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1542722595" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Cat Cleric</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Heroic - Whenever you cast a spell that targets Tethmos High Priest, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Thermo-Alchemist</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1542804947" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Shaman</type>			
+			<pt>0/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender
+{T}: Thermo-Alchemist deals 1 damage to each opponent.
+Whenever you cast an instant or sorcery spell, untap Thermo-Alchemist.</text>			
+		</card>		
+		<card>			
+			<name>Thespian's Stage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1542805696" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Land</type>			
+			<tablerow>0</tablerow>			
+			<text>{T}: Add {C}.
+{2}, {T}: Thespian's Stage becomes a copy of target land, except it has this ability.</text>			
+		</card>		
+		<card>			
+			<name>Think Twice</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1542803336" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>1U</manacost>			
+			<cmc>2</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw a card.
+Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Through the Breach</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1541423448" rarity="Rare">UMA</set>			
+			<color>R</color>			
+			<manacost>4R</manacost>			
+			<cmc>5</cmc>			
+			<type>Instant — Arcane</type>			
+			<tablerow>3</tablerow>			
+			<text>You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
+Splice onto Arcane {2}{R}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)</text>			
+		</card>		
+		<card>			
+			<name>Travel Preparations</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1542722521" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Put a +1/+1 counter on each of up to two target creatures.
+Flashback {1}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Treasure Cruise</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1542629619" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>7U</manacost>			
+			<cmc>8</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Draw three cards.</text>			
+		</card>		
+		<card>			
+			<name>Turn to Mist</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1542806372" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<color>U</color>			
+			<manacost>1W/U</manacost>			
+			<cmc>4</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Exile target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.</text>			
+		</card>		
+		<card>			
+			<name>Twins of Maurer Estate</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1542801586" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Vampire</type>			
+			<pt>3/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>Madness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>			
+		</card>		
+		<card>			
+			<name>Ulamog's Crusher</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1542808143" rarity="Common">UMA</set>			
+			<manacost>8</manacost>			
+			<cmc>8</cmc>			
+			<type>Creature — Eldrazi</type>			
+			<pt>8/8</pt>			
+			<tablerow>2</tablerow>			
+			<text>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
+Ulamog's Crusher attacks each combat if able.</text>			
+		</card>		
+		<card>			
+			<name>Ulamog, the Infinite Gyre</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1541423460" rarity="Mythic Rare">UMA</set>			
+			<manacost>11</manacost>			
+			<cmc>2</cmc>			
+			<type>Legendary Creature — Eldrazi</type>			
+			<pt>10/10</pt>			
+			<tablerow>2</tablerow>			
+			<text>When you cast this spell, destroy target permanent.
+Indestructible
+Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)
+When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.</text>			
+		</card>		
+		<card>			
+			<name>Unburial Rites</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1542801632" rarity="Uncommon">UMA</set>			
+			<color>B</color>			
+			<manacost>4B</manacost>			
+			<cmc>5</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target creature card from your graveyard to the battlefield.
+Flashback {3}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Undying Rage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1542805003" rarity="Common">UMA</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and can't block.
+When Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner's hand.</text>			
+		</card>		
+		<card>			
+			<name>Unholy Hunger</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1542801756" rarity="Common">UMA</set>			
+			<color>B</color>			
+			<manacost>3BB</manacost>			
+			<cmc>5</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target creature.
+Spell mastery - If there are two or more instant and/or sorcery cards in your graveyard, you gain 2 life.</text>			
+		</card>		
+		<card>			
+			<name>Unstable Mutation</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1542803447" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Enchantment — Aura</type>			
+			<tablerow>1</tablerow>			
+			<text>Enchant creature
+Enchanted creature gets +3/+3.
+At the beginning of the upkeep of enchanted creature's controller, put a -1/-1 counter on that creature.</text>			
+		</card>		
+		<card>			
+			<name>Urban Evolution</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1542805704" rarity="Uncommon">UMA</set>			
+			<color>U</color>			
+			<color>G</color>			
+			<manacost>3GU</manacost>			
+			<cmc>5</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw three cards. You may play an additional land this turn.</text>			
+		</card>		
+		<card>			
+			<name>Urborg, Tomb of Yawgmoth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1541423485" rarity="Rare">UMA</set>			
+			<manacost/>			
+			<cmc>0</cmc>			
+			<type>Legendary Land</type>			
+			<tablerow>0</tablerow>			
+			<text>Each land is a Swamp in addition to its other land types.</text>			
+		</card>		
+		<card>			
+			<name>Vengeful Rebirth</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1542805785" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>4RG</manacost>			
+			<cmc>6</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Return target card from your graveyard to your hand. If you return a nonland card to your hand this way, Vengeful Rebirth deals damage equal to that card's converted mana cost to any target.
+Exile Vengeful Rebirth.</text>			
+		</card>		
+		<card>			
+			<name>Vengevine</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1541423503" rarity="Mythic Rare">UMA</set>			
+			<color>G</color>			
+			<manacost>2GG</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Haste
+Whenever you cast a spell, if it's the second creature spell you cast this turn, you may return Vengevine from your graveyard to the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Verdant Eidolon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1542805513" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Spirit</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{G}, Sacrifice Verdant Eidolon: Add three mana of any one color.
+Whenever you cast a multicolored spell, you may return Verdant Eidolon from your graveyard to your hand.</text>			
+		</card>		
+		<card>			
+			<name>Vessel of Endless Rest</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1542805872" rarity="Common">UMA</set>			
+			<manacost>3</manacost>			
+			<cmc>3</cmc>			
+			<type>Artifact</type>			
+			<tablerow>1</tablerow>			
+			<text>When Vessel of Endless Rest enters the battlefield, put target card from a graveyard on the bottom of its owner's library.
+{T}: Add one mana of any color.</text>			
+		</card>		
+		<card>			
+			<name>Vexing Devil</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1542626166" rarity="Rare">UMA</set>			
+			<color>R</color>			
+			<manacost>R</manacost>			
+			<cmc>1</cmc>			
+			<type>Creature — Devil</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Vexing Devil enters the battlefield, any opponent may have it deal 4 damage to them. If a player does, sacrifice Vexing Devil.</text>			
+		</card>		
+		<card>			
+			<name>Visions of Beyond</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1542627320" rarity="Rare">UMA</set>			
+			<color>U</color>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw a card. If a graveyard has twenty or more cards in it, draw three cards instead.</text>			
+		</card>		
+		<card>			
+			<name>Walker of the Grove</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1542806228" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>6GG</manacost>			
+			<cmc>8</cmc>			
+			<type>Creature — Elemental</type>			
+			<pt>7/7</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Walker of the Grove leaves the battlefield, create a 4/4 green Elemental creature token.
+Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>			
+		</card>		
+		<card>			
+			<name>Wall of Reverence</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1542626271" rarity="Rare">UMA</set>			
+			<color>W</color>			
+			<manacost>3W</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Spirit Wall</type>			
+			<pt>1/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Defender, flying
+At the beginning of your end step, you may gain life equal to the power of target creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Wandering Champion</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1542804905" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>1W</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Monk</type>			
+			<pt>3/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever Wandering Champion deals combat damage to a player, if you control a blue or red permanent, you may discard a card. If you do, draw a card.</text>			
+		</card>		
+		<card>			
+			<name>Warleader's Helix</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1542805865" rarity="Uncommon">UMA</set>			
+			<color>W</color>			
+			<color>R</color>			
+			<manacost>2RW</manacost>			
+			<cmc>4</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Warleader's Helix deals 4 damage to any target and you gain 4 life.</text>			
+		</card>		
+		<card>			
+			<name>Whirlwind Adept</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1542803529" rarity="Common">UMA</set>			
+			<color>U</color>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<type>Creature — Djinn Monk</type>			
+			<pt>4/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>			
+		</card>		
+		<card>			
+			<name>Wickerbough Elder</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1542805541" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>3G</manacost>			
+			<cmc>4</cmc>			
+			<type>Creature — Treefolk Shaman</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Wickerbough Elder enters the battlefield with a -1/-1 counter on it.
+{G}, Remove a -1/-1 counter from Wickerbough Elder: Destroy target artifact or enchantment.</text>			
+		</card>		
+		<card>			
+			<name>Wild Hunger</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1542805553" rarity="Uncommon">UMA</set>			
+			<color>G</color>			
+			<manacost>2G</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +3/+1 and gains trample until end of turn.
+Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>			
+		</card>		
+		<card>			
+			<name>Wild Mongrel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1542634503" rarity="Common">UMA</set>			
+			<color>G</color>			
+			<manacost>1G</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Hound</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Discard a card: Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn.</text>			
+		</card>		
+		<card>			
+			<name>Wingsteed Rider</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1542804920" rarity="Common">UMA</set>			
+			<color>W</color>			
+			<manacost>1WW</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Human Knight</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Heroic - Whenever you cast a spell that targets Wingsteed Rider, put a +1/+1 counter on Wingsteed Rider.</text>			
+		</card>		
+		<card>			
+			<name>Woodfall Primus</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1542721430" rarity="Rare">UMA</set>			
+			<color>G</color>			
+			<manacost>5GGG</manacost>			
+			<cmc>8</cmc>			
+			<type>Creature — Treefolk Shaman</type>			
+			<pt>6/6</pt>			
+			<tablerow>2</tablerow>			
+			<text>Trample
+When Woodfall Primus enters the battlefield, destroy target noncreature permanent.
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</text>			
+		</card>		
+		<card>			
+			<name>Young Pyromancer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1542805054" rarity="Uncommon">UMA</set>			
+			<color>R</color>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<type>Creature — Human Shaman</type>			
+			<pt>2/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.</text>			
+		</card>		
+	</cards>	
 </cockatrice_carddatabase>
