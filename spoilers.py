@@ -782,7 +782,7 @@ def set_has_cards(setinfo, manual_cards, mtgjson):
 
 def get_allsets():
     headers = {'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko / 20071127 Firefox / 2.0.0.11'}
-    json_file = requests.get('http://mtgjson.com/json/AllSets.json', headers=headers)
+    json_file = requests.get('https://mtgjson.com/v4/json/AllSets.json', headers=headers)
     AllSets = json.loads(json_file.text)
     return AllSets
 
