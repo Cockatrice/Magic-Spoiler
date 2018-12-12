@@ -1,9 +1,15 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sat, Dec 08 2018, 21:02:48 (UTC)
+        created: Wed, Dec 12 2018, 21:46:00 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
+		<set>			
+			<name>RNA</name>			
+			<longname>Ravnica Allegiance (Spoiler)</longname>			
+			<settype>Expansion</settype>			
+			<releasedate>2019-01-25</releasedate>			
+		</set>		
 		<set>			
 			<name>UMA</name>			
 			<longname>Ultimate Masters (Spoiler)</longname>			
@@ -18,6 +24,17 @@
 		</set>		
 	</sets>	
 	<cards>		
+		<card>			
+			<name>&quot;Light the Stage&quot;</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/2/9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg?1544571606" rarity="Uncommon">RNA</set>			
+			<color>R</color>			
+			<manacost>2R</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Spectacle {R}.
+Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>			
+		</card>		
 		<card>			
 			<name>Aethersnipe</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1542801893" rarity="Common">UMA</set>			
@@ -313,7 +330,7 @@ When a creature is put into an opponent's graveyard from the battlefield, if Bri
 			<cmc>3</cmc>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.</text>			
+			<text>Search your library for up to three creature cards, put them into your graveyard, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Canker Abomination</name>			
@@ -496,7 +513,7 @@ Spell mastery - If there are two or more instant and/or sorcery cards in your gr
 			<tablerow>0</tablerow>			
 			<text>Dark Depths enters the battlefield with ten ice counters on it.
 {3}: Remove an ice counter from Dark Depths.
-When Dark Depths has no ice counters on it, sacrifice it. If you do, create a legendary 20/20 black Avatar creature token with flying and indestructible named Marit Lage.</text>			
+When Dark Depths has no ice counters on it, sacrifice it. If you do, create Marit Lage, a legendary 20/20 black Avatar creature token with flying and indestructible.</text>			
 		</card>		
 		<card>			
 			<name>Dawn Charm</name>			
@@ -551,7 +568,7 @@ Flashback {U} (You may cast this card from your graveyard for its flashback cost
 			<cmc>2</cmc>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Search your library for a card and put that card into your hand. Then shuffle your library.</text>			
+			<text>Search your library for a card, put that card into your hand, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Deranged Assistant</name>			
@@ -653,7 +670,7 @@ Counter target spell if its converted mana cost is X.</text>
 			<type>Creature — Human Spellshaper</type>			
 			<pt>1/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>{2}{U}, {T}, Discard a card, Sacrifice a land: Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.</text>			
+			<text>{2}{U}, {T}, Discard a card, Sacrifice a land: Search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Eel Umbra</name>			
@@ -747,7 +764,7 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
 		</card>		
 		<card>			
 			<name>Faith's Fetters</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1542804554" rarity="Common">UMA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1544617870" rarity="Common">UMA</set>			
 			<color>W</color>			
 			<manacost>3W</manacost>			
 			<cmc>4</cmc>			
@@ -755,7 +772,7 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
 			<tablerow>1</tablerow>			
 			<text>Enchant permanent
 When Faith's Fetters enters the battlefield, you gain 4 life.
-Enchanted permanent's activated abilities can't be activated unless they're mana abilities. If enchanted permanent is a creature, it can't attack or block.</text>			
+Enchanted permanent can't attack or block, and its activated abilities can't be activated unless they're mana abilities.</text>			
 		</card>		
 		<card>			
 			<name>Fauna Shaman</name>			
@@ -766,7 +783,7 @@ Enchanted permanent's activated abilities can't be activated unless they're mana
 			<type>Creature — Elf Shaman</type>			
 			<pt>2/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>{G}, {T}, Discard a creature card: Search your library for a creature card, reveal it, and put it into your hand. Then shuffle your library.</text>			
+			<text>{G}, {T}, Discard a creature card: Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Fecundity</name>			
@@ -835,7 +852,7 @@ Draw a card.</text>
 			<type>Legendary Land</type>			
 			<tablerow>0</tablerow>			
 			<text>{T}: Add {W}.
-When Flagstones of Trokair is put into a graveyard from the battlefield, you may search your library for a Plains card and put it onto the battlefield tapped. If you do, shuffle your library.</text>			
+When Flagstones of Trokair is put into a graveyard from the battlefield, you may search your library for a Plains card, put it onto the battlefield tapped, then shuffle your library.</text>			
 		</card>		
 		<card>			
 			<name>Flight of Fancy</name>			
@@ -1613,7 +1630,7 @@ Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashbac
 			<cmc>3</cmc>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Create two 1/1 red Elemental creature tokens. Then flip a coin. If you win the flip, return Molten Birth to its owner's hand.</text>			
+			<text>Create two 1/1 red Elemental creature tokens, then flip a coin. If you win the flip, return Molten Birth to its owner's hand.</text>			
 		</card>		
 		<card>			
 			<name>Murderous Redcap</name>			
@@ -1726,7 +1743,7 @@ Evoke {B} (You may cast this spell for its evoke cost. If you do, it's sacrifice
 			<type>Enchantment — Aura</type>			
 			<tablerow>1</tablerow>			
 			<text>Enchant creature
-When enchanted creature dies, that creature's controller may search their library for a creature card and put that card onto the battlefield. If that player does, they shuffle their library.</text>			
+When enchanted creature dies, that creature's controller may search their library for a creature card, put that card onto the battlefield, then shuffle their library.</text>			
 		</card>		
 		<card>			
 			<name>Penumbra Wurm</name>			

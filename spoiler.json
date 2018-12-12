@@ -1534,6 +1534,58 @@
     "releaseDate":"2018-11-16",
     "type":"box"
   },
+  "RNA":{
+    "booster":[
+      [
+        [
+          "rare",
+          "mythic rare"
+        ],
+        "uncommon",
+        "uncommon",
+        "uncommon",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "land",
+        "marketing"
+      ]
+    ],
+    "border":"black",
+    "cards":[
+      {
+        "artist":"Dmitry Burmak",
+        "cmc":3,
+        "colorIdentity":[
+          "R"
+        ],
+        "colors":[
+          "Red"
+        ],
+        "manaCost":"2R",
+        "name":"\"Light the Stage\"",
+        "number":"107",
+        "rarity":"Uncommon",
+        "text":"Spectacle {R}.\nExile the top two cards of your library. Until the end of your next turn, you may play those cards.",
+        "type":"Sorcery",
+        "types":[
+          "Sorcery"
+        ],
+        "url":"https://img.scryfall.com/cards/large/front/9/2/9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg?1544571606"
+      }
+    ],
+    "code":"RNA",
+    "name":"Ravnica Allegiance (Spoiler)",
+    "releaseDate":"2019-01-25",
+    "type":"expansion"
+  },
   "UMA":{
     "booster":[
       [
@@ -2211,7 +2263,7 @@
         "name":"Buried Alive",
         "number":"88",
         "rarity":"Uncommon",
-        "text":"Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.",
+        "text":"Search your library for up to three creature cards, put them into your graveyard, then shuffle your library.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
@@ -2549,7 +2601,7 @@
           "Legendary",
           "Snow"
         ],
-        "text":"Dark Depths enters the battlefield with ten ice counters on it.\n{3}: Remove an ice counter from Dark Depths.\nWhen Dark Depths has no ice counters on it, sacrifice it. If you do, create a legendary 20/20 black Avatar creature token with flying and indestructible named Marit Lage.",
+        "text":"Dark Depths enters the battlefield with ten ice counters on it.\n{3}: Remove an ice counter from Dark Depths.\nWhen Dark Depths has no ice counters on it, sacrifice it. If you do, create Marit Lage, a legendary 20/20 black Avatar creature token with flying and indestructible.",
         "type":"Legendary Snow Land",
         "types":[
           "Land"
@@ -2659,7 +2711,7 @@
         "name":"Demonic Tutor",
         "number":"93",
         "rarity":"Rare",
-        "text":"Search your library for a card and put that card into your hand. Then shuffle your library.",
+        "text":"Search your library for a card, put that card into your hand, then shuffle your library.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
@@ -2874,7 +2926,7 @@
           "Human",
           "Spellshaper"
         ],
-        "text":"{2}{U}, {T}, Discard a card, Sacrifice a land: Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.",
+        "text":"{2}{U}, {T}, Discard a card, Sacrifice a land: Search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library.",
         "toughness":"1",
         "type":"Creature — Human Spellshaper",
         "types":[
@@ -3074,12 +3126,12 @@
         "subtypes":[
           "Aura"
         ],
-        "text":"Enchant permanent\nWhen Faith's Fetters enters the battlefield, you gain 4 life.\nEnchanted permanent's activated abilities can't be activated unless they're mana abilities. If enchanted permanent is a creature, it can't attack or block.",
+        "text":"Enchant permanent\nWhen Faith's Fetters enters the battlefield, you gain 4 life.\nEnchanted permanent can't attack or block, and its activated abilities can't be activated unless they're mana abilities.",
         "type":"Enchantment — Aura",
         "types":[
           "Enchantment"
         ],
-        "url":"https://img.scryfall.com/cards/large/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1542804554"
+        "url":"https://img.scryfall.com/cards/large/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1544617870"
       },
       {
         "artist":"Steve Prescott",
@@ -3100,7 +3152,7 @@
           "Elf",
           "Shaman"
         ],
-        "text":"{G}, {T}, Discard a creature card: Search your library for a creature card, reveal it, and put it into your hand. Then shuffle your library.",
+        "text":"{G}, {T}, Discard a creature card: Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.",
         "toughness":"2",
         "type":"Creature — Elf Shaman",
         "types":[
@@ -3269,7 +3321,7 @@
         "supertypes":[
           "Legendary"
         ],
-        "text":"{T}: Add {W}.\nWhen Flagstones of Trokair is put into a graveyard from the battlefield, you may search your library for a Plains card and put it onto the battlefield tapped. If you do, shuffle your library.",
+        "text":"{T}: Add {W}.\nWhen Flagstones of Trokair is put into a graveyard from the battlefield, you may search your library for a Plains card, put it onto the battlefield tapped, then shuffle your library.",
         "type":"Legendary Land",
         "types":[
           "Land"
@@ -4936,7 +4988,7 @@
         ],
         "number":"140",
         "rarity":"Common",
-        "text":"Create two 1/1 red Elemental creature tokens. Then flip a coin. If you win the flip, return Molten Birth to its owner's hand.",
+        "text":"Create two 1/1 red Elemental creature tokens, then flip a coin. If you win the flip, return Molten Birth to its owner's hand.",
         "type":"Sorcery",
         "types":[
           "Sorcery"
@@ -5177,7 +5229,7 @@
         "subtypes":[
           "Aura"
         ],
-        "text":"Enchant creature\nWhen enchanted creature dies, that creature's controller may search their library for a creature card and put that card onto the battlefield. If that player does, they shuffle their library.",
+        "text":"Enchant creature\nWhen enchanted creature dies, that creature's controller may search their library for a creature card, put that card onto the battlefield, then shuffle their library.",
         "type":"Enchantment — Aura",
         "types":[
           "Enchantment"
