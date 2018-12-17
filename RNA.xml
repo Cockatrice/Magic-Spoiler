@@ -9,15 +9,125 @@
 	</sets>	
 	<cards>		
 		<card>			
-			<name>&quot;Light the Stage&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/9/2/9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg?1544571606" rarity="Uncommon">RNA</set>			
+			<name>Gate Colossus</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/9/99767e2f-a558-4d63-b9b6-923d15b433e1.jpg?1545047369" rarity="Uncommon">RNA</set>			
+			<manacost>8</manacost>			
+			<cmc>8</cmc>			
+			<type>Artifact Creature — Construct</type>			
+			<pt>8/8</pt>			
+			<tablerow>2</tablerow>			
+			<text>This spell costs {1} less to cast for each Gate you control.
+Gate Colossus can't be blocked by creatures with power 2 or less.
+Whenever a Gate enters the battlefield under your control, you may put Gate Colossus from your graveyard on top of your library.</text>			
+		</card>		
+		<card>			
+			<name>Growth Spiral</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/c/7c77a6b1-ef06-4da5-8e86-a5204216cb77.jpg?1545047553" rarity="Common">RNA</set>			
+			<manacost>GU</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<color>G</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw a card. You may put a land card from your hand onto the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Lavinia, Azorius Renegade</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/4/c497d496-1232-4614-93b0-9864fa93c29f.jpg?1545046285" rarity="Rare">RNA</set>			
+			<manacost>WU</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Legendary Creature — Human Soldier</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Each opponent can't cast noncreature spells with converted mana cost greater than the number of lands that player controls.
+Whenever an opponent casts a spell, if no mana was spent to cast it, counter that spell.</text>			
+		</card>		
+		<card>			
+			<name>Light Up the Stage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/2/9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg?1545049765" rarity="Uncommon">RNA</set>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
 			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Spectacle {R}.
+			<text>Spectacle {R}
 Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>			
+		</card>		
+		<card>			
+			<name>Mortify</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/b/ebf6c0dc-5c7b-4170-99bc-2637ea44e716.jpg?1545047957" rarity="Uncommon">RNA</set>			
+			<manacost>1WB</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<color>B</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target creature or enchantment.</text>			
+		</card>		
+		<card>			
+			<name>Rafter Demon</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/f/bf8dad4d-bc4f-46fb-892c-dbf6481cdc46.jpg?1545048188" rarity="Common">RNA</set>			
+			<manacost>2BR</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<type>Creature — Demon</type>			
+			<pt>4/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Spectacle {3}{B}{R} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)
+When Rafter Demon enters the battlefield, if its spectacle cost was paid, each opponent discards a card.</text>			
+		</card>		
+		<card>			
+			<name>Rakdos Firewheeler</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/8/d819a944-0b3e-4e26-87da-2417081928e7.jpg?1545047010" rarity="Uncommon">RNA</set>			
+			<manacost>BBRR</manacost>			
+			<cmc>4</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<type>Creature — Human Rogue</type>			
+			<pt>4/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Rakdos Firewheeler enters the battlefield, it deals 2 damage to target opponent and 2 damage to up to one target creature or planeswalker.</text>			
+		</card>		
+		<card>			
+			<name>Rix Maadi Reveler</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/4/c40396da-18e2-42ca-a78c-4838a38f68b8.jpg?1545048108" rarity="Rare">RNA</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Human Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>Spectacle {2}{B}{R} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)
+When Rix Maadi Reveler enters the battlefield, discard a card, then draw a card. If Rix Maadi Reveler's spectacle cost was paid, instead discard your hand, then draw three cards.</text>			
+		</card>		
+		<card>			
+			<name>Simic Ascendancy</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/f/ff824392-fb5c-496c-be2f-6dfa6e04e3a2.jpg?1545047158" rarity="Rare">RNA</set>			
+			<manacost>GU</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<color>G</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>{1}{G}{U}: Put a +1/+1 counter on target creature you control.
+Whenever one or more +1/+1 counters are put on a creature you control, put that many growth counters on Simic Ascendancy.
+At the beginning of your upkeep, if Simic Ascendancy has twenty or more growth counters on it, you win the game.</text>			
+		</card>		
+		<card>			
+			<name>The Haunt of Hightower</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/1/61a908e8-6952-46c0-94ec-3962b7a4caef.jpg?1545046757" rarity="Mythic Rare">RNA</set>			
+			<manacost>4BB</manacost>			
+			<cmc>6</cmc>			
+			<color>B</color>			
+			<type>Legendary Creature — Vampire</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying, lifelink
+Whenever The Haunt of Hightower attacks, defending player discards a card.
+Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 counter on The Haunt of Hightower.</text>			
 		</card>		
 	</cards>	
 </cockatrice_carddatabase>
