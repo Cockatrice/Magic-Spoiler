@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Tue, Dec 18 2018, 21:48:56 (UTC)
+        created: Wed, Dec 19 2018, 21:49:35 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -25,8 +25,32 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Aeromunculus</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/7/671c94c1-df52-4985-ad78-3e1c9c78df18.jpg?1545218150" rarity="Common">RNA</set>			
+			<color>U</color>			
+			<color>G</color>			
+			<manacost>1GU</manacost>			
+			<cmc>3</cmc>			
+			<type>Creature — Homunculus Mutant</type>			
+			<pt>2/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{2}{G}{U}: Adapt 1. (If this creature has no +1/+1 counters on it, put a +1/+1 counter on it.)</text>			
+		</card>		
+		<card>			
+			<name>Bedevil</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/1/81e2b96b-ecf2-4dd9-bc9d-3c46ee8c59e6.jpg?1545236033" rarity="Rare">RNA</set>			
+			<color>B</color>			
+			<color>R</color>			
+			<manacost>BBR</manacost>			
+			<cmc>3</cmc>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Destroy target artifact, creature, or planeswalker.</text>			
+		</card>		
+		<card>			
 			<name>Gate Colossus</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/9/9/99767e2f-a558-4d63-b9b6-923d15b433e1.jpg?1545116763" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/9/99767e2f-a558-4d63-b9b6-923d15b433e1.jpg?1545218202" rarity="Uncommon">RNA</set>			
 			<manacost>8</manacost>			
 			<cmc>8</cmc>			
 			<type>Artifact Creature — Construct</type>			
@@ -38,7 +62,7 @@ Whenever a Gate enters the battlefield under your control, you may put Gate Colo
 		</card>		
 		<card>			
 			<name>Growth Spiral</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/7/c/7c77a6b1-ef06-4da5-8e86-a5204216cb77.jpg?1545118074" rarity="Common">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/c/7c77a6b1-ef06-4da5-8e86-a5204216cb77.jpg?1545217811" rarity="Common">RNA</set>			
 			<color>U</color>			
 			<color>G</color>			
 			<manacost>GU</manacost>			
@@ -49,7 +73,7 @@ Whenever a Gate enters the battlefield under your control, you may put Gate Colo
 		</card>		
 		<card>			
 			<name>Imperious Oligarch</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/f/d/fd27ba9e-5b9c-468f-9a44-bf2e89138e72.jpg?1545135090" rarity="Common">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/d/fd27ba9e-5b9c-468f-9a44-bf2e89138e72.jpg?1545154019" rarity="Common">RNA</set>			
 			<color>W</color>			
 			<color>B</color>			
 			<manacost>WB</manacost>			
@@ -62,7 +86,7 @@ Afterlife 1 (When this creature dies, create a 1/1 white and black Spirit creatu
 		</card>		
 		<card>			
 			<name>Lavinia, Azorius Renegade</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/c/4/c497d496-1232-4614-93b0-9864fa93c29f.jpg?1545116812" rarity="Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/4/c497d496-1232-4614-93b0-9864fa93c29f.jpg?1545154894" rarity="Rare">RNA</set>			
 			<color>W</color>			
 			<color>U</color>			
 			<manacost>WU</manacost>			
@@ -75,7 +99,7 @@ Whenever an opponent casts a spell, if no mana was spent to cast it, counter tha
 		</card>		
 		<card>			
 			<name>Light Up the Stage</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/9/2/9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg?1545118122" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/2/9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg?1545154843" rarity="Uncommon">RNA</set>			
 			<color>R</color>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
@@ -86,7 +110,7 @@ Exile the top two cards of your library. Until the end of your next turn, you ma
 		</card>		
 		<card>			
 			<name>Mortify</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/e/b/ebf6c0dc-5c7b-4170-99bc-2637ea44e716.jpg?1545118006" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/b/ebf6c0dc-5c7b-4170-99bc-2637ea44e716.jpg?1545154860" rarity="Uncommon">RNA</set>			
 			<color>W</color>			
 			<color>B</color>			
 			<manacost>1WB</manacost>			
@@ -97,7 +121,7 @@ Exile the top two cards of your library. Until the end of your next turn, you ma
 		</card>		
 		<card>			
 			<name>Rafter Demon</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/b/f/bf8dad4d-bc4f-46fb-892c-dbf6481cdc46.jpg?1545118161" rarity="Common">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/f/bf8dad4d-bc4f-46fb-892c-dbf6481cdc46.jpg?1545154124" rarity="Common">RNA</set>			
 			<color>B</color>			
 			<color>R</color>			
 			<manacost>2BR</manacost>			
@@ -110,7 +134,7 @@ When Rafter Demon enters the battlefield, if its spectacle cost was paid, each o
 		</card>		
 		<card>			
 			<name>Rakdos Firewheeler</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/d/8/d819a944-0b3e-4e26-87da-2417081928e7.jpg?1545117779" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/8/d819a944-0b3e-4e26-87da-2417081928e7.jpg?1545154362" rarity="Uncommon">RNA</set>			
 			<color>B</color>			
 			<color>R</color>			
 			<manacost>BBRR</manacost>			
@@ -122,7 +146,7 @@ When Rafter Demon enters the battlefield, if its spectacle cost was paid, each o
 		</card>		
 		<card>			
 			<name>Rix Maadi Reveler</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/c/4/c40396da-18e2-42ca-a78c-4838a38f68b8.jpg?1545048108" rarity="Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/4/c40396da-18e2-42ca-a78c-4838a38f68b8.jpg?1545154116" rarity="Rare">RNA</set>			
 			<color>R</color>			
 			<manacost>1R</manacost>			
 			<cmc>2</cmc>			
@@ -134,7 +158,7 @@ When Rix Maadi Reveler enters the battlefield, discard a card, then draw a card.
 		</card>		
 		<card>			
 			<name>Simic Ascendancy</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/f/f/ff824392-fb5c-496c-be2f-6dfa6e04e3a2.jpg?1545117861" rarity="Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/f/f/ff824392-fb5c-496c-be2f-6dfa6e04e3a2.jpg?1545154332" rarity="Rare">RNA</set>			
 			<color>U</color>			
 			<color>G</color>			
 			<manacost>GU</manacost>			
@@ -147,7 +171,7 @@ At the beginning of your upkeep, if Simic Ascendancy has twenty or more growth c
 		</card>		
 		<card>			
 			<name>The Haunt of Hightower</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/6/1/61a908e8-6952-46c0-94ec-3962b7a4caef.jpg?1545118227" rarity="Mythic Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/1/61a908e8-6952-46c0-94ec-3962b7a4caef.jpg?1545154313" rarity="Mythic Rare">RNA</set>			
 			<color>B</color>			
 			<manacost>4BB</manacost>			
 			<cmc>6</cmc>			
@@ -160,7 +184,7 @@ Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 c
 		</card>		
 		<card>			
 			<name>Tithe Taker</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/b/d/bd26b7b1-992d-4b8c-bc33-51aab5abdf98.jpg?1545079995" rarity="Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/d/bd26b7b1-992d-4b8c-bc33-51aab5abdf98.jpg?1545156052" rarity="Rare">RNA</set>			
 			<color>W</color>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
@@ -169,6 +193,20 @@ Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 c
 			<tablerow>2</tablerow>			
 			<text>During your turn, spells your opponents cast cost {1} more to cast and abilities your opponents activate cost {1} more to activate unless they're mana abilities.
 Afterlife 1 (When this creature dies, create a 1/1 white and black Spirit creature token with flying.)</text>			
+		</card>		
+		<card>			
+			<name>Zegana, Utopian Speaker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/d/dd199a48-5ac8-4ab9-a33c-bbce6f7c9d1b.jpg?1545218146" rarity="Rare">RNA</set>			
+			<color>U</color>			
+			<color>G</color>			
+			<manacost>2GU</manacost>			
+			<cmc>4</cmc>			
+			<type>Legendary Creature — Merfolk Wizard</type>			
+			<pt>4/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>When Zegana, Utopian Speaker enters the battlefield, if you control another creature with a +1/+1 counter on it, draw a card.
+{4}{G}{U}: Adapt 4. (If this creature has no +1/+1 counters on it, put four +1/+1 counters on it.)
+Each creature you control with a +1/+1 counter on it has trample.</text>			
 		</card>		
 		<card>			
 			<name>Aethersnipe</name>			
