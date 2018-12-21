@@ -12,20 +12,20 @@ def get_scryfall(setUrl='https://api.scryfall.com/cards/search?q=++e:xln'):
     while setDone == False:
         setcards = requests.get(setUrl)
         setcards = setcards.json()
-        if setcards.has_key('data'):
+        if 'data' in setcards.keys():
             scryfall.append(setcards['data'])
         else:
             setDone = True
-            print 'No Scryfall data'
+            print ('No Scryfall data')
             scryfall = ['']
         time.sleep(.1)    # 100ms sleep, see "Rate Limits and Good Citizenship" at https://scryfall.com/docs/api
-        if setcards.has_key('has_more'):
+        if 'has_more' in setcards.keys():
             if setcards['has_more']:
                 setUrl = setcards['next_page']
             else:
                 setDone = True
         else:
-            print 'Scryfall does not "has_more"'
+            print ('Scryfall does not "has_more"')
             setDone = True
     if not scryfall[0] == '':
         import json
@@ -38,6 +38,10 @@ def get_scryfall(setUrl='https://api.scryfall.com/cards/search?q=++e:xln'):
     else:
         return {'cards': []}
 
+def merge_two_dicts(x, y):
+    z = x.copy()   # start with x's keys and values
+    z.update(y)    # modifies z with y's keys and values & returns None
+    return z
 
 def convert_scryfall(scryfall):
     cards2 = []
@@ -53,8 +57,8 @@ def convert_scryfall(scryfall):
                         cardNoFaces[key] = card[key]
                 cardNoFaces['layout'] = 'double-faced'
                 cardNoFaces['names'] = [card['card_faces'][0]['name'], card['card_faces'][1]['name']]
-                card1 = dict(cardNoFaces.items() + card['card_faces'][0].items())
-                card2 = dict(cardNoFaces.items() + card['card_faces'][1].items())
+                card1 = merge_two_dicts(cardNoFaces, card['card_faces'][0])
+                card2 = merge_two_dicts(cardNoFaces, card['card_faces'][1])
                 card1['collector_number'] = card1['collector_number'] + 'a'
                 card2['collector_number'] = card2['collector_number'] + 'b'
                 scryfall2.append(card1)
@@ -64,9 +68,14 @@ def convert_scryfall(scryfall):
                 for key in card:
                     if key != 'card_faces':
                         cardNoFaces[key] = card[key]
+
                 cardNoFaces['names'] = [card['card_faces'][0]['name'], card['card_faces'][1]['name']]
-                card1 = dict(cardNoFaces.items() + card['card_faces'][0].items())
-                card2 = dict(cardNoFaces.items() + card['card_faces'][1].items())
+
+                # print("CZZ: {}".format(cardNoFaces))
+                # print("CZZ: {}".format(card))
+
+                card1 = merge_two_dicts(cardNoFaces, card['card_faces'][0])
+                card2 = merge_two_dicts(cardNoFaces, card['card_faces'][1])
                 card1['collector_number'] = str(card['collector_number']) + "a"
                 card2['collector_number'] = str(card['collector_number']) + "b"
                 scryfall2.append(card1)
@@ -81,7 +90,7 @@ def convert_scryfall(scryfall):
         card2['cmc'] = int(card['cmc'])
         if 'names' in card:
             card2['names'] = card['names']
-        if card.has_key('mana_cost'):
+        if 'mana_cost' in card.keys():
             card2['manaCost'] = card['mana_cost'].replace(
                 '{', '').replace('}', '')
         else:
@@ -90,7 +99,7 @@ def convert_scryfall(scryfall):
         card2['number'] = card['collector_number']
         card2['rarity'] = card['rarity'].replace(
             'mythic', 'mythic rare').title()
-        if card.has_key('oracle_text'):
+        if 'oracle_text' in card.keys():
             card2['text'] = card['oracle_text'].replace(
                 u"\u2014", '-').replace(u"\u2212", "-")
         else:
@@ -120,39 +129,39 @@ def convert_scryfall(scryfall):
         if 'Basic Land' in card['type_line']:
             card2['rarity'] = "Basic Land"
         if 'Legendary' in card['type_line']:
-            if card2.has_key('supertypes'):
+            if 'supertypes' in card2.keys():
                 card2['supertypes'].append('Legendary')
             else:
                 card2['supertypes'] = ['Legendary']
         if 'Snow' in card['type_line']:
-            if card2.has_key('supertypes'):
+            if 'supertypes' in card2.keys():
                 card2['supertypes'].append('Snow')
             else:
                 card2['supertypes'] = ['Snow']
         if 'Elite' in card['type_line']:
-            if card2.has_key('supertypes'):
+            if 'supertypes' in card2.keys():
                 card2['supertypes'].append('Elite')
             else:
                 card2['supertypes'] = ['Elite']
         if 'Basic' in card['type_line']:
-            if card2.has_key('supertypes'):
+            if 'supertypes' in card2.keys():
                 card2['supertypes'].append('Basic')
             else:
                 card2['supertypes'] = ['Basic']
         if 'World' in card['type_line']:
-            if card2.has_key('supertypes'):
+            if 'supertypes' in card2.keys():
                 card2['supertypes'].append('World')
             else:
                 card2['supertypes'] = ['World']
         if 'Ongoing' in card['type_line']:
-            if card2.has_key('supertypes'):
+            if 'supertypes' in card2.keys():
                 card2['supertypes'].append('Ongoing')
             else:
                 card2['supertypes'] = ['Ongoing']
         card2['types'] = cardtypes
-        if card.has_key('color_identity'):
+        if 'color_identity' in  card.keys():
             card2['colorIdentity'] = card['color_identity']
-        if card.has_key('colors'):
+        if 'colors' in  card.keys():
             if not card['colors'] == []:
                 card2['colors'] = []
                 if 'W' in card['colors']:
@@ -166,28 +175,28 @@ def convert_scryfall(scryfall):
                 if 'G' in card['colors']:
                     card2['colors'].append("Green")
                 #card2['colors'] = card['colors']
-        if card.has_key('all_parts'):
+        if'all_parts' in  card.keys():
             card2['names'] = []
             for partname in card['all_parts']:
                 card2['names'].append(partname['name'])
-        if card.has_key('power'):
+        if'power' in  card.keys():
             card2['power'] = card['power']
-        if card.has_key('toughness'):
+        if'toughness' in  card.keys():
             card2['toughness'] = card['toughness']
-        if card.has_key('layout'):
+        if'layout' in  card.keys():
             if card['layout'] != 'normal':
                 card2['layout'] = card['layout']
-        if card.has_key('loyalty'):
+        if'loyalty' in  card.keys():
             card2['loyalty'] = card['loyalty']
-        if card.has_key('artist'):
+        if'artist' in  card.keys():
             card2['artist'] = card['artist']
-        # if card.has_key('source'):
+        # if'source' in  card.keys():
         #    card2['source'] = card['source']
-        # if card.has_key('rulings'):
+        # if'rulings' in  card.keys():
         #    card2['rulings'] = card['rulings']
-        if card.has_key('flavor_text'):
+        if'flavor_text' in  card.keys():
             card2['flavor'] = card['flavor_text']
-        if card.has_key('multiverse_id'):
+        if'multiverse_id' in  card.keys():
             card2['multiverseid'] = card['multiverse_id']
 
         cards2.append(card2)
@@ -204,19 +213,19 @@ def smash_mtgs_scryfall(mtgs, scryfall):
                     if key in mtgscard:
                         if not mtgscard[key] == scryfallcard[key]:
                             try:
-                                print "%s's key %s\nMTGS    : %s\nScryfall: %s" % (mtgscard['name'], key, mtgscard[key], scryfallcard[key])
+                                print ("%s's key %s\nMTGS    : %s\nScryfall: %s" % (mtgscard['name'], key, mtgscard[key], scryfallcard[key]))
                             except:
-                                print "Error printing Scryfall vs MTGS debug info for " + mtgscard['name']
+                                print ("Error printing Scryfall vs MTGS debug info for " + mtgscard['name'])
                                 pass
                 cardFound = True
         if not cardFound:
-            print "MTGS has card %s and Scryfall does not." % mtgscard['name']
+            print ("MTGS has card %s and Scryfall does not." % mtgscard['name'])
     for scryfallcard in scryfall['cards']:
         cardFound = False
         for mtgscard in mtgs['cards']:
             if scryfallcard['name'] == mtgscard['name']:
                 cardFound = True
         if not cardFound:
-            print "Scryfall has card %s and MTGS does not." % scryfallcard['name']
+            print ("Scryfall has card %s and MTGS does not." % scryfallcard['name'])
 
     return mtgs
