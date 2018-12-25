@@ -1,4 +1,4 @@
-language: python
+language: python3
 
 cache: pip # enable cache for "$HOME/.cache/pip" directory
 
@@ -10,10 +10,10 @@ env:
 before_install:
   - export CFLAGS=-O0 # considerably speed-up build time for pip packages (especially lxml), optimizations doesn't matter for ci
   - pip install PyYAML
-  - python verify_files.py # make sure input files are OK before wasting time with prereqs
+  - python3 verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
-  - pip install -r requirements.txt
+  - pip3 install -r requirements.txt
 
 script: bash ./.ci/deploy.sh
 
