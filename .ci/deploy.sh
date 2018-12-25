@@ -6,7 +6,6 @@ TARGET_BRANCH="files"
 
 function doCompile {
     echo "Running script..."
-    python3 --version
     python3 main.py dumpXML=True
 }
 
@@ -25,14 +24,13 @@ SHA=`git rev-parse --verify HEAD`
 
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
-git clone $REPO out
+rm -rf out/
+git clone $REPO out --single-branch --branch $TARGET_BRANCH
 cd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
-# Clean out existing contents
 rm -rf out/**/* || exit 0
-
 # Run our compile script and let user know in logs
 doCompile
 
@@ -50,6 +48,7 @@ echo TRAVIS_EVENT_TYPE ${TRAVIS_EVENT_TYPE}
 
 # Now let's go have some fun with the cloned repo
 cd out
+rm -f AllSets*
 ls
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
@@ -63,9 +62,9 @@ git config user.email "$COMMIT_AUTHOR_EMAIL"
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
 # Only commit if more than one line has been changed (datetime in spoiler.xml)
-CHANGED_FILES=`git diff --numstat --minimal | sed '/^[1-]\s\+[1-]\s\+.*/d' | wc -c`
+CHANGED_FILES=`git ls-files -m | wc -l`
 ONLYDATECHANGE=true
-if [[ $CHANGED_FILES -eq 0 ]]; then
+if [[ $CHANGED_FILES -eq 1 ]]; then
   for CHANGED_FILE in `git diff --name-only`; do
     if ! [[ $CHANGED_FILE =~ "spoiler.xml" ]]; then
       ONLYDATECHANGE=false
@@ -74,11 +73,14 @@ if [[ $CHANGED_FILES -eq 0 ]]; then
 else
   ONLYDATECHANGE=false
 fi
+
 if [[ $ONLYDATECHANGE == false ]]; then
+  # We don't want the AllSets... waste of space
   git add -A .
   git commit -m "Travis Deploy: ${SHA}"
 else
   echo "Only date in spoiler.xml changed, not committing"
+  exit 0
 fi
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
