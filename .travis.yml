@@ -9,7 +9,7 @@ env:
 
 before_install:
   - export CFLAGS=-O0 # considerably speed-up build time for pip packages (especially lxml), optimizations doesn't matter for ci
-  - pip install PyYAML
+  - pip3 install pyyaml
   - python3 verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
