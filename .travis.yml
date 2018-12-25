@@ -1,4 +1,6 @@
-language: python3.6
+language: python
+python:
+  - "3.6"
 
 cache: pip # enable cache for "$HOME/.cache/pip" directory
 
@@ -9,11 +11,11 @@ env:
 
 before_install:
   - export CFLAGS=-O0 # considerably speed-up build time for pip packages (especially lxml), optimizations doesn't matter for ci
-  - pip3.6 install pyyaml
-  - python3.6 verify_files.py # make sure input files are OK before wasting time with prereqs
+  - pip install pyyaml
+  - python verify_files.py # make sure input files are OK before wasting time with prereqs
 
 install:
-  - pip3.6 install -r requirements.txt
+  - pip install -r requirements.txt
 
 script: bash ./.ci/deploy.sh
 
