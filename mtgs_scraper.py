@@ -38,7 +38,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], rela
     gallery_list = list_mtgs_gallery(setinfo['mtgsurl'])
     for card in cards:
         if card['name'] not in gallery_list:
-            print "Removing card scraped from MTGS RSS but not in their gallery: " + card['name']
+            print ("Removing card scraped from MTGS RSS but not in their gallery: " + card['name'])
             cards.remove(card)
 
     for card in cards:
@@ -54,7 +54,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], rela
             htmltags = re.compile(r'<.*?>')
             card['rules'] = htmltags.sub('', card['rules'])
         if '//' in card['name'] or 'Aftermath' in card['rules']:
-            print 'Splitting up Aftermath card ' + card['name']
+            print ('Splitting up Aftermath card ' + card['name'])
             card1 = card.copy()
             card2 = dict(cost='', cmc='', img='', pow='', name='', rules='', type='',
                          color='', altname='', colorIdentity='', colorArray=[], colorIdentityArray=[], setnumber='', rarity='')
@@ -177,7 +177,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], rela
         if 'number' in card:
             if 'b' in card['number'] or 'a' in card['number']:
                 if not 'layout' in card:
-                    print card['name'] + " has a a/b number but no 'layout'"
+                    print (card['name'] + " has a a/b number but no 'layout'")
         card['type'] = card['type'].replace('instant', 'Instant').replace(
             'sorcery', 'Sorcery').replace('creature', 'Creature')
         if '-' in card['type']:
@@ -201,7 +201,7 @@ def parse_mtgs(mtgs, manual_cards=[], card_corrections=[], delete_cards=[], rela
         # may force 'special' in the future
         if card['rarity'] not in ['Mythic Rare', 'Rare', 'Uncommon', 'Common', 'Special', 'Basic Land']:
             #errors.append({"name": card['name'], "key": "rarity", "value": card['rarity']})
-            print card['name'] + ' has rarity = ' + card['rarity']
+            print (card['name'] + ' has rarity = ' + card['rarity'])
         if subtypes:
             cardjson['subtypes'] = subtypes
         cardjson["rarity"] = card['rarity']

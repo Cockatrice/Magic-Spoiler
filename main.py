@@ -17,10 +17,10 @@ presets = {
     "isfullspoil": False,  # when full spoil comes around, we only want to use WOTC images
     "includeMasterpieces": True,  # if the set has masterpieces, let's get those too
     "oldRSS": False,  # maybe MTGS hasn't updated their spoiler.rss but new cards have leaked
-    "dumpXML": False,  # let travis print XML for testing
+    "dumpXML": False,  # let travis print (XML for testing)
     # only use Scryfall data (no mtgs for ANY sets)
     "scryfallOnly": False,
-    "dumpErrors": True  # print the error log from out/errors.json
+    "dumpErrors": True  # print (the error log from out/errors.json)
 }
 
 setinfos = verify_files.load_file('set_info.yml','yaml_multi')
@@ -43,27 +43,24 @@ def parseargs():
                 elif argvalue in ['false', 'False', 'F', 'f']:
                     argvalue = False
                 presets[preset] = argvalue
-                print "Setting preset " + preset + " to value " + str(argvalue)
+                print("Setting preset " + preset + " to value " + str(argvalue))
 
 
 def save_allsets(AllSets):
     with io.open('out/AllSets.json', 'w', encoding='utf8') as json_file:
-        data = json.dumps(AllSets, ensure_ascii=False, encoding='utf8',
-                          indent=2, sort_keys=True, separators=(',', ':'))
-        json_file.write(unicode(data))
+        data = json.dumps(AllSets, ensure_ascii=False, indent=2, sort_keys=True, separators=(',', ':'))
+        json_file.write(data)
 
 
 def save_masterpieces(masterpieces, setinfo):
     with open('out/' + setinfo['masterpieces']['code'] + '.json', 'w') as outfile:
-        json.dump(masterpieces, outfile, sort_keys=True,
-                  indent=2, separators=(',', ': '))
+        json.dump(masterpieces, outfile, sort_keys=True, indent=2, separators=(',', ': '))
 
 
 def save_setjson(mtgs, filename):
     with io.open('out/' + filename + '.json', 'w', encoding='utf8') as json_file:
-        data = json.dumps(mtgs, ensure_ascii=False, encoding='utf8',
-                          indent=2, sort_keys=True, separators=(',', ':'))
-        json_file.write(unicode(data))
+        data = json.dumps(mtgs, ensure_ascii=False, indent=2, sort_keys=True, separators=(',', ':'))
+        json_file.write(data)
 
 
 def save_errorlog(errorlog):
@@ -77,31 +74,31 @@ def save_xml(xmlstring, outfile):
     else:
         append_or_write = 'w'
     with open(outfile, append_or_write) as xmlfile:
-        xmlfile.write(xmlstring.encode('utf-8'))
+        xmlfile.write(xmlstring)
 
 
 def verify_xml(file, schema):
     try:
         schema_doc = etree.fromstring(schema)
     except Exception as e:
-        print "XSD for " + file + " is invalid"
-        print schema
-        print e
+        print ("XSD for " + file + " is invalid")
+        print (schema)
+        print (e)
         return False
     xml_schema = etree.XMLSchema(schema_doc)
     try:
         xml_doc = etree.parse(file)
     except Exception as e:
-        print "XML file " + file + " is invalid"
-        print e
+        print ("XML file " + file + " is invalid")
+        print (e)
         return False
     try:
         xml_schema.assert_(xml_doc)
     except:
         xsd_errors = xml_schema.error_log
-        print "Errors validating XML file " + file + " against XSD:"
+        print ("Errors validating XML file " + file + " against XSD:")
         for error in xsd_errors:
-            print error
+            print (error)
         sys.exit("Error: " + file + " does not pass Cockatrice XSD validation.")
         return False
     return True
@@ -112,10 +109,13 @@ if __name__ == '__main__':
     AllSets = spoilers.get_allsets()  # get AllSets from mtgjson
     combinedjson = {}
     noCards = []
+    del AllSets['RNA']
     for setinfo in setinfos:
         if setinfo['code'] in AllSets:
-            print "Found " +setinfo['code']+ " set from set_info.yml in MTGJSON, not adding it"
+            print ("Found " +setinfo['code']+ " set from set_info.yml in MTGJSON, not adding it")
             continue
+
+        print("Handling {}".format(setinfo['code']))
         if presets['oldRSS'] or 'noRSS' in setinfo and setinfo['noRSS']:
             mtgs = {"cards": []}
         else:
@@ -174,22 +174,22 @@ if __name__ == '__main__':
     save_xml(spoilers.pretty_xml('out/spoiler.xml'), 'out/spoiler.xml')
     cockatrice_xsd = requests.get('https://raw.githubusercontent.com/Cockatrice/Cockatrice/master/doc/cards.xsd').text
     if verify_xml('out/spoiler.xml', cockatrice_xsd):  # check if our XML passes Cockatrice's XSD
-        print 'spoiler.xml passes Cockatrice XSD verification'
+        print ('spoiler.xml passes Cockatrice XSD verification')
     else:
-        print 'spoiler.xml fails Cockatrice XSD verification'
+        print ('spoiler.xml fails Cockatrice XSD verification')
     errorlog = spoilers.remove_corrected_errors(errorlog, card_corrections)
     save_errorlog(errorlog)
     save_allsets(AllSets)
     # save_setjson(mtgjson)
     if presets['dumpXML']:
-        print '<!----- DUMPING SPOILER.XML -----!>'
+        print ('<!----- DUMPING SPOILER.XML -----!>')
         with open('out/spoiler.xml', 'r') as xmlfile:
-            print xmlfile.read()
-        print '<!-----    END XML DUMP     -----!>'
+            print (xmlfile.read())
+        print ('<!-----    END XML DUMP     -----!>')
     if presets['dumpErrors']:
         if errorlog != {}:
-            print '//----- DUMPING ERROR LOG -----'
-            print yaml.safe_dump(errorlog, default_flow_style=False)
-            print '//-----   END ERROR LOG   -----'
+            print ('//----- DUMPING ERROR LOG -----')
+            print (yaml.safe_dump(errorlog, default_flow_style=False))
+            print ('//-----   END ERROR LOG   -----')
         else:
-            print "No Detected Errors!"
+            print ("No Detected Errors!")

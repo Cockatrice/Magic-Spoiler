@@ -12,7 +12,7 @@ def load_file(input_file, lib_to_use):
                     output_file.append(doc)
             return output_file
     except Exception as ex:
-        print "Unable to load file: " + input_file + "\nException information:\n" + str(ex.args)
+        print ("Unable to load file: " + input_file + "\nException information:\n" + str(ex.args))
         sys.exit("Unable to load file: " + input_file)
 
 if __name__ == '__main__':
@@ -21,4 +21,4 @@ if __name__ == '__main__':
     card_corrections = load_file('cards_corrections.yml','yaml')
     delete_cards = load_file('cards_delete.yml','yaml')
 
-    print "Pre-flight: All input files loaded successfully."
+    print ("Pre-flight: All input files loaded successfully.")

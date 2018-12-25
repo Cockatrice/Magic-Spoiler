@@ -40,7 +40,7 @@ def scrape_fullspoil(url="http://magic.wizards.com/en/articles/archive/card-imag
             cards.append(card)
             cardcount += 1
     fullspoil = {"cards": cards}
-    print "Spoil Gallery has " + str(cardcount) + " cards."
+    print ("Spoil Gallery has " + str(cardcount) + " cards.")
     download_images(fullspoil['cards'], setinfo['code'])
     fullspoil = get_rarities_by_symbol(fullspoil, setinfo['code'])
     fullspoil = get_mana_symbols(fullspoil, setinfo['code'])
@@ -90,9 +90,9 @@ def get_rarities_by_symbol(fullspoil, setcode):
                 card['rarity'] = color
         if variance > highVariance:
             # if a card isn't close to any of the colors, it's probably a planeswalker? make it mythic.
-            print card['name'], 'has high variance of', variance, ', closest rarity is', card['rarity']
+            print (card['name'], 'has high variance of', variance, ', closest rarity is', card['rarity'])
             card['rarity'] = "Mythic Rare"
-            # print card['name'], '$', reds, greens, blues
+            # print (card['name'], '$', reds, greens, blues)
             if symbolCount < 10:
                 setSymbol.save(
                     'images/' + card['name'].replace(' // ', '') + '.symbol.jpg')
@@ -195,7 +195,7 @@ def get_mana_symbols(fullspoil={}, setcode="HOU"):
                     closestColor = color
             if variance < 10:
                 # if card['name'] in ["Mirage Mirror", "Uncage the Menagerie", "Torment of Hailfire"]:
-                #    print card['name'] + " " + str(reds) + " " + str(greens) + " " + str(blues)
+                #    print (card['name'] + " " + str(reds) + " " + str(greens) + " " + str(blues))
                 if closestColor in ["2", "5"]:
                     twoVSfive = (
                         manaBox[0] + 1, manaBox[1] + 4, manaBox[2] - 5, manaBox[3] - 2)
@@ -248,9 +248,9 @@ def smash_fullspoil(mtgjson, fullspoil):
         if not match:
             WOTC_only.append(fullspoil_card['name'])
     if len(WOTC_only) > 0:
-        print "WOTC only cards: "
-        print WOTC_only
-    print different_keys
+        print ("WOTC only cards: ")
+        print (WOTC_only)
+    print (different_keys)
 
 
 def download_images(mtgjson, setcode):
@@ -264,6 +264,6 @@ def download_images(mtgjson, setcode):
         if card['url']:
             if os.path.isfile('images/' + setcode + '/' + card['name'].replace(' // ', '') + '.jpg'):
                 continue
-            # print 'Downloading ' + card['url'] + ' to images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg'
+            # print ('Downloading ' + card['url'] + ' to images/' + setcode + '/' + card['name'].replace(' // ','') + '.jpg')
             requests.get(card['url'], 'images/' + setcode +
                                '/' + card['name'].replace(' // ', '') + '.jpg')

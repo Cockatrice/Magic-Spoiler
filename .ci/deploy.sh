@@ -6,7 +6,8 @@ TARGET_BRANCH="files"
 
 function doCompile {
     echo "Running script..."
-    python main.py dumpXML=True
+    python3 --version
+    python3 main.py dumpXML=True
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify

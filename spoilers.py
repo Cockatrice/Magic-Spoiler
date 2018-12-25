@@ -3,6 +3,7 @@ import requests
 import re
 import os
 from lxml import html
+import lzma
 import datetime
 import json
 import mtgs_scraper
@@ -89,7 +90,7 @@ def correct_cards(mtgjson, manual_cards=[], card_corrections=[], delete_cards=[]
             mtgjson2.append(manualCard)
             manual_added.append(manualCard['name'])
     if manual_added != []:
-        print "Manual Cards Added: " + str(manual_added).strip('[]')
+        print ("Manual Cards Added: " + str(manual_added).strip('[]'))
 
     mtgjson = {"cards": mtgjson2}
     transforms = {}
@@ -424,7 +425,7 @@ def write_xml(mtgjson, code, name, releaseDate):
                    "</set>\n"
                    "</sets>\n"
                    "<cards>\n")
-    # print mtgjson
+    # print (mtgjson)
     for card in mtgjson["cards"]:
         if 'names' in card:
             if 'layout' in card and card['layout'] != 'double-faced': 
@@ -434,24 +435,24 @@ def write_xml(mtgjson, code, name, releaseDate):
             newest = card["name"]
         count += 1
         name = card["name"]
-        if card.has_key("manaCost"):
+        if "manaCost" in card.keys():
             manacost = card["manaCost"].replace('{', '').replace('}', '')
         else:
             manacost = ""
-        if card.has_key("power") or card.has_key("toughness"):
+        if "power"  in card.keys() or "toughness" in card.keys():
             if card["power"]:
                 pt = str(card["power"]) + "/" + str(card["toughness"])
             else:
                 pt = 0
         else:
             pt = 0
-        if card.has_key("text"):
+        if "text" in card.keys():
             text = card["text"]
         else:
             text = ""
         cardcmc = str(card['cmc'])
         cardtype = card["type"]
-        if card.has_key("names"):
+        if "names" in card.keys():
             if "layout" in card:
                 if card['layout'] == 'split' or card['layout'] == 'aftermath':
                     if 'names' in card:
@@ -470,15 +471,15 @@ def write_xml(mtgjson, code, name, releaseDate):
                                     name += " // " + jsoncard['name']
                 elif card['layout'] == 'double-faced':
                     if not 'names' in card:
-                        print card['name'] + ' is double-faced but no "names" key'
+                        print (card['name'] + ' is double-faced but no "names" key')
                     else:
                         for dfcname in card['names']:
                             if dfcname != card['name']:
                                 related = dfcname
                 else:
-                    print card["name"] + " has names, but layout != split, aftermath, or double-faced"
+                    print (card["name"] + " has names, but layout != split, aftermath, or double-faced")
             else:
-                print card["name"] + " has multiple names and no 'layout' key"
+                print (card["name"] + " has multiple names and no 'layout' key")
 
         tablerow = "1"
         if "Land" in cardtype:
@@ -494,17 +495,17 @@ def write_xml(mtgjson, code, name, releaseDate):
             if 'b' in str(card['number']):
                 if 'layout' in card:
                     if card['layout'] == 'split' or card['layout'] == 'aftermath':
-                        # print "We're skipping " + card['name'] + " because it's the right side of a split card"
+                        # print ("We're skipping " + card['name'] + " because it's the right side of a split card")
                         continue
 
         cardsxml.write("<card>\n")
-        cardsxml.write("<name>" + name.encode('utf-8') + "</name>\n")
+        cardsxml.write("<name>" + name + "</name>\n")
         cardsxml.write(
             '<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + code + '</set>\n')
         cardsxml.write(
-            "<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
+            "<manacost>" + manacost + "</manacost>\n")
         cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
-        if card.has_key('colors'):
+        if 'colors' in card.keys():
             colorTranslate = {
                 "White": "W",
                 "Blue": "U",
@@ -517,17 +518,17 @@ def write_xml(mtgjson, code, name, releaseDate):
                     '<color>' + colorTranslate[color] + '</color>\n')
         if name + ' enters the battlefield tapped' in text:
             cardsxml.write("<cipt>1</cipt>\n")
-        cardsxml.write("<type>" + cardtype.encode('utf-8') + "</type>\n")
+        cardsxml.write("<type>" + cardtype + "</type>\n")
         if pt:
             cardsxml.write("<pt>" + pt + "</pt>\n")
-        if card.has_key('loyalty'):
+        if 'loyalty' in card.keys():
             cardsxml.write("<loyalty>" + str(card['loyalty']) + "</loyalty>\n")
         cardsxml.write("<tablerow>" + tablerow + "</tablerow>\n")
-        cardsxml.write("<text>" + text.encode('utf-8') + "</text>\n")
+        cardsxml.write("<text>" + text + "</text>\n")
         if related:
             #    for relatedname in related:
             cardsxml.write(
-                "<related>" + related.encode('utf-8') + "</related>\n")
+                "<related>" + related + "</related>\n")
             related = ''
 
         cardsxml.write("</card>\n")
@@ -535,13 +536,13 @@ def write_xml(mtgjson, code, name, releaseDate):
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
 
     if count > 0:
-        print 'XML Stats for ' + code
-        print 'Total cards: ' + str(count)
+        print ('XML Stats for ' + code)
+        print ('Total cards: ' + str(count))
         if dfccount > 0:
-            print 'DFC: ' + str(dfccount)
-        print 'Newest: ' + str(newest)
+            print ('DFC: ' + str(dfccount))
+        print ('Newest: ' + str(newest))
     else:
-        print 'Set ' + code + ' has no spoiled cards.'
+        print ('Set ' + code + ' has no spoiled cards.')
 
 
 def write_combined_xml(mtgjson, setinfos):
@@ -587,24 +588,24 @@ def write_combined_xml(mtgjson, setinfos):
                 newest = card["name"]
             count += 1
             name = card["name"]
-            if card.has_key("manaCost"):
+            if "manaCost" in card.keys():
                 manacost = card["manaCost"].replace('{', '').replace('}', '')
             else:
                 manacost = ""
-            if card.has_key("power") or card.has_key("toughness"):
+            if "power" in card.keys() or "toughness" in card.keys():
                 if card["power"]:
                     pt = str(card["power"]) + "/" + str(card["toughness"])
                 else:
                     pt = 0
             else:
                 pt = 0
-            if card.has_key("text"):
+            if "text" in card.keys():
                 text = card["text"]
             else:
                 text = ""
             cardcmc = str(card['cmc'])
             cardtype = card["type"]
-            if card.has_key("names"):
+            if "names" in card.keys():
                 if "layout" in card:
                     if card["layout"] != 'split' and card["layout"] != 'aftermath':
                         if len(card["names"]) > 1:
@@ -628,7 +629,7 @@ def write_combined_xml(mtgjson, setinfos):
                                 text += "\n---\n" + cardb["text"]
                                 name += " // " + cardb['name']
                 else:
-                    print card["name"] + " has multiple names and no 'layout' key"
+                    print (card["name"] + " has multiple names and no 'layout' key")
 
             tablerow = "1"
             if "Land" in cardtype:
@@ -644,14 +645,14 @@ def write_combined_xml(mtgjson, setinfos):
                 if 'b' in card['number']:
                     if 'layout' in card:
                         if card['layout'] == 'split' or card['layout'] == 'aftermath':
-                            # print "We're skipping " + card['name'] + " because it's the right side of a split card"
+                            # print ("We're skipping " + card['name'] + " because it's the right side of a split card")
                             continue
 
             cardsxml.write("<card>\n")
-            cardsxml.write("<name>" + name.encode('utf-8') + "</name>\n")
+            cardsxml.write("<name>" + name + "</name>\n")
             cardsxml.write(
                 '<set rarity="' + card['rarity'] + '" picURL="' + card["url"] + '">' + setcode + '</set>\n')
-            if card.has_key('colors'):
+            if 'colors' in card.keys():
                 colorTranslate = {
                     "White": "W",
                     "Blue": "U",
@@ -665,30 +666,30 @@ def write_combined_xml(mtgjson, setinfos):
             if related:
                 #    for relatedname in related:
                 cardsxml.write(
-                    "<related>" + related.encode('utf-8') + "</related>\n")
+                    "<related>" + related + "</related>\n")
                 related = ''
             cardsxml.write(
-                "<manacost>" + manacost.encode('utf-8') + "</manacost>\n")
+                "<manacost>" + manacost + "</manacost>\n")
             cardsxml.write("<cmc>" + cardcmc + "</cmc>\n")
-            cardsxml.write("<type>" + cardtype.encode('utf-8') + "</type>\n")
+            cardsxml.write("<type>" + cardtype + "</type>\n")
             if pt:
                 cardsxml.write("<pt>" + pt + "</pt>\n")
             cardsxml.write("<tablerow>" + tablerow + "</tablerow>\n")
-            cardsxml.write("<text>" + text.encode('utf-8') + "</text>\n")
+            cardsxml.write("<text>" + text + "</text>\n")
             if name + ' enters the battlefield tapped' in text:
                 cardsxml.write("<cipt>1</cipt>\n")
-            if card.has_key('loyalty'):
+            if 'loyalty' in card.keys():
                 cardsxml.write(
                     "<loyalty>" + str(card['loyalty']) + "</loyalty>\n")
             cardsxml.write("</card>\n")
 
     cardsxml.write("</cards>\n</cockatrice_carddatabase>")
     
-    print 'XML COMBINED STATS'
-    print 'Total cards: ' + str(count)
+    print ('XML COMBINED STATS')
+    print ('Total cards: ' + str(count))
     if dfccount > 0:
-        print 'DFC: ' + str(dfccount)
-    print 'Newest: ' + str(newest)
+        print ('DFC: ' + str(dfccount))
+    print ('Newest: ' + str(newest))
 
 
 def pretty_xml(infile):
@@ -757,7 +758,7 @@ def make_masterpieces(headers, AllSets, spoil):
                     matched = True
                     break
         if not matched:
-            print "We couldn't find a card object to assign the data to for masterpiece " + masterpiece['name']
+            print ("We couldn't find a card object to assign the data to for masterpiece " + masterpiece['name'])
             masterpieces2.append(masterpiece)
     mpsjson = {
         "name": headers['name'],
@@ -779,11 +780,19 @@ def set_has_cards(setinfo, manual_cards, mtgjson):
             if set == setinfo['code']:
                 return True
 
+def download_file(url):
+    local_filename = url.split('/')[-1]
+    headers = {'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko / 20071127 Firefox / 2.0.0.11'}
+    r = requests.get(url, stream=True, headers=headers)
+    with open(local_filename, 'wb') as f:
+        for chunk in r.iter_content(chunk_size=1024): 
+            if chunk: # filter out keep-alive new chunks
+                f.write(chunk)
+    return local_filename
 
 def get_allsets():
-    headers = {'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko / 20071127 Firefox / 2.0.0.11'}
-    json_file = requests.get('http://mtgjson.com/json/AllSets.json', headers=headers)
-    AllSets = json.loads(json_file.text)
+    file_location = download_file('https://mtgjson.com/json/AllSets.json.xz')
+    AllSets = json.loads(lzma.open(file_location).read())
     return AllSets
 
 
