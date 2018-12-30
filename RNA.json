@@ -25,6 +25,29 @@
   "border":"black",
   "cards":[
     {
+      "artist":"Izzy",
+      "cmc":3,
+      "colorIdentity":[
+        "U",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "flavor":"\"In your misguided attempt to subvert the law, you have eloquently explained why the law must exist.\"",
+      "manaCost":"WUU",
+      "name":"Absorb",
+      "number":"151",
+      "rarity":"Rare",
+      "text":"Counter target spell. You gain 3 life.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/1/e/1e8a43c1-42d1-45ef-8a63-4b87775a6e88.jpg?1545821293"
+    },
+    {
       "artist":"Simon Dominic",
       "cmc":3,
       "colorIdentity":[
@@ -74,7 +97,57 @@
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/8/1/81e2b96b-ecf2-4dd9-bc9d-3c46ee8c59e6.jpg?1545236033"
+      "url":"https://img.scryfall.com/cards/large/front/8/1/81e2b96b-ecf2-4dd9-bc9d-3c46ee8c59e6.jpg?1545238386"
+    },
+    {
+      "artist":"Chris Rallis",
+      "cmc":7,
+      "colorIdentity":[
+        "U",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "manaCost":"5WU",
+      "name":"Emergency Powers",
+      "number":"169",
+      "rarity":"Mythic Rare",
+      "text":"Each player shuffles their hand and graveyard into their library, then draws seven cards. Exile Emergency Powers.\nAddendum - If you cast this spell during your main phase, you may put a permanent card with converted mana cost 7 or less from your hand onto the battlefield.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/6/4/6473a93f-879f-4f44-8650-ee05a647c763.jpg?1545390129"
+    },
+    {
+      "artist":"Filip Burburan",
+      "cmc":4,
+      "colorIdentity":[
+        "G",
+        "R"
+      ],
+      "colors":[
+        "Red",
+        "Green"
+      ],
+      "manaCost":"2RG",
+      "name":"Frenzied Arynx",
+      "number":"173",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Cat",
+        "Beast"
+      ],
+      "text":"Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)\nTrample\n{4}{R}{G}: Frenzied Arynx gets +3/+0 until end of turn.",
+      "toughness":"3",
+      "type":"Creature — Cat Beast",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/b/c/bce2eef7-03a4-415f-8bb7-a29d50ce1b0f.jpg?1545303531"
     },
     {
       "artist":"Izzy",
@@ -121,6 +194,35 @@
       "url":"https://img.scryfall.com/cards/large/front/7/c/7c77a6b1-ef06-4da5-8e86-a5204216cb77.jpg?1545217811"
     },
     {
+      "artist":"Zoltan Boros",
+      "cmc":3,
+      "colorIdentity":[
+        "G",
+        "R"
+      ],
+      "colors":[
+        "Red",
+        "Green"
+      ],
+      "flavor":"She displays her scars with pride.",
+      "manaCost":"1RG",
+      "name":"Gruul Spellbreaker",
+      "number":"179",
+      "power":"3",
+      "rarity":"Rare",
+      "subtypes":[
+        "Ogre",
+        "Warrior"
+      ],
+      "text":"Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)\nTrample\nAs long as it's your turn, you and Gruul Spellbreaker have hexproof.",
+      "toughness":"3",
+      "type":"Creature — Ogre Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/3/2/326679a2-782d-45a0-9a06-b147ceff3979.jpg?1545303539"
+    },
+    {
       "artist":"Johannes Voss",
       "cmc":2,
       "colorIdentity":[
@@ -148,6 +250,60 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/front/f/d/fd27ba9e-5b9c-468f-9a44-bf2e89138e72.jpg?1545154019"
+    },
+    {
+      "artist":"Mike Bierek",
+      "cmc":3,
+      "colorIdentity":[
+        "G",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Green"
+      ],
+      "layout":"split",
+      "manaCost":"G/U",
+      "name":"Incubation",
+      "names":[
+        "Incubation",
+        "Incongruity"
+      ],
+      "number":"226a",
+      "rarity":"Uncommon",
+      "text":"Look at the top five cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1545390814"
+    },
+    {
+      "artist":"Mike Bierek",
+      "cmc":3,
+      "colorIdentity":[
+        "G",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Green"
+      ],
+      "layout":"split",
+      "manaCost":"1GU",
+      "name":"Incongruity",
+      "names":[
+        "Incubation",
+        "Incongruity"
+      ],
+      "number":"226b",
+      "rarity":"Uncommon",
+      "text":"Exile target creature. That creature's controller creates a 3/3 green Frog Lizard creature token.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1545390814"
     },
     {
       "artist":"Steven Belledin",
@@ -195,7 +351,7 @@
       "name":"Light Up the Stage",
       "number":"107",
       "rarity":"Uncommon",
-      "text":"Spectacle {R}\nExile the top two cards of your library. Until the end of your next turn, you may play those cards.",
+      "text":"Spectacle {R} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nExile the top two cards of your library. Until the end of your next turn, you may play those cards.",
       "type":"Sorcery",
       "types":[
         "Sorcery"
@@ -223,7 +379,7 @@
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/e/b/ebf6c0dc-5c7b-4170-99bc-2637ea44e716.jpg?1545154860"
+      "url":"https://img.scryfall.com/cards/large/front/e/b/ebf6c0dc-5c7b-4170-99bc-2637ea44e716.jpg?1545303571"
     },
     {
       "artist":"Slawomir Maniak",
@@ -330,6 +486,29 @@
       "url":"https://img.scryfall.com/cards/large/front/f/f/ff824392-fb5c-496c-be2f-6dfa6e04e3a2.jpg?1545154332"
     },
     {
+      "artist":"Scott Murphy",
+      "cmc":4,
+      "colorIdentity":[
+        "U",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "flavor":"\"Do not think me blind to your true mission...or your true master, Grand Arbiter.\"",
+      "manaCost":"2WU",
+      "name":"Sphinx's Insight",
+      "number":"209",
+      "rarity":"Common",
+      "text":"Draw two cards.\nAddendum - If you cast this spell during your main phase, you gain 2 life.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/d/7/d71c2435-0312-4279-a9e1-fab7432756b7.jpg?1545390224"
+    },
+    {
       "artist":"Lius Lasahido",
       "cmc":6,
       "colorIdentity":[
@@ -382,7 +561,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/b/d/bd26b7b1-992d-4b8c-bc33-51aab5abdf98.jpg?1545156052"
+      "url":"https://img.scryfall.com/cards/large/front/b/d/bd26b7b1-992d-4b8c-bc33-51aab5abdf98.jpg?1545303565"
     },
     {
       "artist":"Slawomir Maniak",

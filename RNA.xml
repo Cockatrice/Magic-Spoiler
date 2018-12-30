@@ -9,6 +9,17 @@
 	</sets>	
 	<cards>		
 		<card>			
+			<name>Absorb</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/e/1e8a43c1-42d1-45ef-8a63-4b87775a6e88.jpg?1545821293" rarity="Rare">RNA</set>			
+			<manacost>WUU</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target spell. You gain 3 life.</text>			
+		</card>		
+		<card>			
 			<name>Aeromunculus</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/6/7/671c94c1-df52-4985-ad78-3e1c9c78df18.jpg?1545218150" rarity="Common">RNA</set>			
 			<manacost>1GU</manacost>			
@@ -23,7 +34,7 @@
 		</card>		
 		<card>			
 			<name>Bedevil</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/8/1/81e2b96b-ecf2-4dd9-bc9d-3c46ee8c59e6.jpg?1545236033" rarity="Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/1/81e2b96b-ecf2-4dd9-bc9d-3c46ee8c59e6.jpg?1545238386" rarity="Rare">RNA</set>			
 			<manacost>BBR</manacost>			
 			<cmc>3</cmc>			
 			<color>B</color>			
@@ -31,6 +42,32 @@
 			<type>Instant</type>			
 			<tablerow>3</tablerow>			
 			<text>Destroy target artifact, creature, or planeswalker.</text>			
+		</card>		
+		<card>			
+			<name>Emergency Powers</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/6/4/6473a93f-879f-4f44-8650-ee05a647c763.jpg?1545390129" rarity="Mythic Rare">RNA</set>			
+			<manacost>5WU</manacost>			
+			<cmc>7</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Each player shuffles their hand and graveyard into their library, then draws seven cards. Exile Emergency Powers.
+Addendum - If you cast this spell during your main phase, you may put a permanent card with converted mana cost 7 or less from your hand onto the battlefield.</text>			
+		</card>		
+		<card>			
+			<name>Frenzied Arynx</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/c/bce2eef7-03a4-415f-8bb7-a29d50ce1b0f.jpg?1545303531" rarity="Common">RNA</set>			
+			<manacost>2RG</manacost>			
+			<cmc>4</cmc>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Creature — Cat Beast</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)
+Trample
+{4}{R}{G}: Frenzied Arynx gets +3/+0 until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Gate Colossus</name>			
@@ -56,6 +93,20 @@ Whenever a Gate enters the battlefield under your control, you may put Gate Colo
 			<text>Draw a card. You may put a land card from your hand onto the battlefield.</text>			
 		</card>		
 		<card>			
+			<name>Gruul Spellbreaker</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/3/2/326679a2-782d-45a0-9a06-b147ceff3979.jpg?1545303539" rarity="Rare">RNA</set>			
+			<manacost>1RG</manacost>			
+			<cmc>3</cmc>			
+			<color>R</color>			
+			<color>G</color>			
+			<type>Creature — Ogre Warrior</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)
+Trample
+As long as it's your turn, you and Gruul Spellbreaker have hexproof.</text>			
+		</card>		
+		<card>			
 			<name>Imperious Oligarch</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/f/d/fd27ba9e-5b9c-468f-9a44-bf2e89138e72.jpg?1545154019" rarity="Common">RNA</set>			
 			<manacost>WB</manacost>			
@@ -67,6 +118,19 @@ Whenever a Gate enters the battlefield under your control, you may put Gate Colo
 			<tablerow>2</tablerow>			
 			<text>Vigilance
 Afterlife 1 (When this creature dies, create a 1/1 white and black Spirit creature token with flying.)</text>			
+		</card>		
+		<card>			
+			<name>Incubation // Incongruity</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1545390814" rarity="Uncommon">RNA</set>			
+			<manacost>G/U // 1GU</manacost>			
+			<cmc>3 // 3</cmc>			
+			<color>U</color>			
+			<color>G</color>			
+			<type>Sorcery // Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Look at the top five cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+---
+Exile target creature. That creature's controller creates a 3/3 green Frog Lizard creature token.</text>			
 		</card>		
 		<card>			
 			<name>Lavinia, Azorius Renegade</name>			
@@ -89,12 +153,12 @@ Whenever an opponent casts a spell, if no mana was spent to cast it, counter tha
 			<color>R</color>			
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
-			<text>Spectacle {R}
+			<text>Spectacle {R} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)
 Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>			
 		</card>		
 		<card>			
 			<name>Mortify</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/e/b/ebf6c0dc-5c7b-4170-99bc-2637ea44e716.jpg?1545154860" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/b/ebf6c0dc-5c7b-4170-99bc-2637ea44e716.jpg?1545303571" rarity="Uncommon">RNA</set>			
 			<manacost>1WB</manacost>			
 			<cmc>3</cmc>			
 			<color>W</color>			
@@ -154,6 +218,18 @@ Whenever one or more +1/+1 counters are put on a creature you control, put that 
 At the beginning of your upkeep, if Simic Ascendancy has twenty or more growth counters on it, you win the game.</text>			
 		</card>		
 		<card>			
+			<name>Sphinx's Insight</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/7/d71c2435-0312-4279-a9e1-fab7432756b7.jpg?1545390224" rarity="Common">RNA</set>			
+			<manacost>2WU</manacost>			
+			<cmc>4</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Draw two cards.
+Addendum - If you cast this spell during your main phase, you gain 2 life.</text>			
+		</card>		
+		<card>			
 			<name>The Haunt of Hightower</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/6/1/61a908e8-6952-46c0-94ec-3962b7a4caef.jpg?1545154313" rarity="Mythic Rare">RNA</set>			
 			<manacost>4BB</manacost>			
@@ -168,7 +244,7 @@ Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 c
 		</card>		
 		<card>			
 			<name>Tithe Taker</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/b/d/bd26b7b1-992d-4b8c-bc33-51aab5abdf98.jpg?1545156052" rarity="Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/d/bd26b7b1-992d-4b8c-bc33-51aab5abdf98.jpg?1545303565" rarity="Rare">RNA</set>			
 			<manacost>1W</manacost>			
 			<cmc>2</cmc>			
 			<color>W</color>			
