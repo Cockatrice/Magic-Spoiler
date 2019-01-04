@@ -93,67 +93,34 @@
       "subtypes":[
         "Elemental"
       ],
-      "text":"At the beginning of your upkeep, reveal cards from he top of your library until you reveal a creature card. Until your next turn, Amplifire's base power becomes twice that card's power and its base toughness becomes twice that card's toughness. Put the revealed cards on the bottom of your library in a random order.",
+      "text":"At the beginning of your upkeep, reveal cards from the top of your library until you reveal a creature card. Until your next turn, Amplifire's base power becomes twice that card's power and its base toughness becomes twice that card's toughness. Put the revealed cards on the bottom of your library in a random order.",
       "toughness":"1",
       "type":"Creature — Elemental",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/7/a/7a58c77f-7c15-44f4-8011-6046482a2d08.jpg?1546481527"
+      "url":"https://img.scryfall.com/cards/large/front/7/a/7a58c77f-7c15-44f4-8011-6046482a2d08.jpg?1546551715"
     },
     {
-      "artist":"Zoltan Boros",
-      "cmc":3,
-      "colorIdentity":[
-        "B",
-        "R"
-      ],
-      "colors":[
-        "Black",
-        "Red"
-      ],
-      "layout":"split",
-      "manaCost":"B/R",
-      "name":"\"A Song of Fire\"",
-      "names":[
-        "\"A Song of Fire\"",
-        "\"And Blood\""
-      ],
-      "number":"222a",
-      "rarity":"Uncommon",
-      "text":"\"A Song of Fire\" deals 1 damage to a creature or planeswalker, and 1 damage to its controller.",
-      "type":"Instant",
-      "types":[
-        "Instant"
-      ],
-      "url":"https://img.scryfall.com/cards/large/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1546533102"
-    },
-    {
-      "artist":"Zoltan Boros",
+      "artist":"John Severin Brassell",
       "cmc":4,
       "colorIdentity":[
-        "B",
-        "R"
+        "W"
       ],
       "colors":[
-        "Black",
-        "Red"
+        "White"
       ],
-      "layout":"split",
-      "manaCost":"2BR",
-      "name":"\"And Blood\"",
-      "names":[
-        "\"A Song of Fire\"",
-        "\"And Blood\""
-      ],
-      "number":"222b",
+      "flavor":"\"If we cannot have peace, we will have justice.\"\n—Aurelia",
+      "manaCost":"3W",
+      "name":"Angelic Exaltation",
+      "number":"2",
       "rarity":"Uncommon",
-      "text":"\"And Blood\" deals 3 damage to an opponent. That player discards two cards.",
-      "type":"Sorcery",
+      "text":"Whenever a creature you control attacks alone, it gets +X/+X until end of turn, where X is the number of creatures you control.",
+      "type":"Enchantment",
       "types":[
-        "Sorcery"
+        "Enchantment"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1546533102"
+      "url":"https://img.scryfall.com/cards/large/front/e/e/ee7b5ae5-0f6b-4f45-8597-4e6212d2ad0e.jpg?1546607511"
     },
     {
       "artist":"Titus Lunter",
@@ -197,6 +164,55 @@
     },
     {
       "artist":"Seb McKinnon",
+      "cmc":2,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"\"Your spirits can rest in peace, for your debts have been paid.\"",
+      "manaCost":"1B",
+      "name":"Bankrupt in Blood",
+      "number":"62",
+      "rarity":"Uncommon",
+      "text":"As an additional cost to cast this spell, sacrifice two creatures.\nDraw three cards.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/e/6/e635c433-0398-442a-856e-1869f6bf2cfd.jpg?1546601431"
+    },
+    {
+      "artist":"Yeong-Hao Han",
+      "cmc":4,
+      "colorIdentity":[
+        "B",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Black"
+      ],
+      "flavor":"You can hear their tolling only when your debt is due.",
+      "manaCost":"WWBB",
+      "name":"Basilica Bell-Haunt",
+      "number":"156",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Spirit"
+      ],
+      "text":"When Basilica Bell-Haunt enters the battlefield, each opponent discards a card and you gain 3 life.",
+      "toughness":"4",
+      "type":"Creature — Spirit",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/e/7/e72f4329-db6f-4284-b63e-55f22a0a0f6e.jpg?1546537053"
+    },
+    {
+      "artist":"Seb McKinnon",
       "cmc":3,
       "colorIdentity":[
         "B",
@@ -217,6 +233,26 @@
         "Instant"
       ],
       "url":"https://img.scryfall.com/cards/large/front/8/1/81e2b96b-ecf2-4dd9-bc9d-3c46ee8c59e6.jpg?1545238386"
+    },
+    {
+      "artist":"Tomasz Jedruszek",
+      "cmc":6,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"4GG",
+      "name":"Biogenic Upgrade",
+      "number":"123",
+      "rarity":"Uncommon",
+      "text":"Distribute three +1/+1 counters among one, two, or three target creatures, then double the number of +1/+1 counters on each of those creatures.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/0/d/0dd73fb2-453f-40b9-8beb-dfa99e6a706e.jpg?1546604229"
     },
     {
       "artist":"Izzy",
@@ -244,6 +280,32 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/front/d/3/d38c9891-36d1-4565-9c4a-1cd9dbf8c048.jpg?1546514545"
+    },
+    {
+      "artist":"Dmitry Burmak",
+      "cmc":5,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "manaCost":"4B",
+      "name":"Blade Juggler",
+      "number":"63",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Rogue"
+      ],
+      "text":"Spectacle {2}{B} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nWhen Blade Juggler enters the battlefield, it deals 1 damage to you and you draw a card.",
+      "toughness":"2",
+      "type":"Creature — Human Rogue",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/0/9/099bc474-e656-4167-b105-3a3a36c0b23e.jpg?1546604314"
     },
     {
       "artist":"Adam Paquette",
@@ -319,6 +381,162 @@
       "url":"https://img.scryfall.com/cards/large/front/b/b/bb54233c-0844-4965-9cde-e8a4ef3e11b8.jpg?1546513881"
     },
     {
+      "artist":"Aaron Miller",
+      "cmc":3,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"The ostentatious splendor of the Orzhov church was just asking to be smashed.",
+      "manaCost":"2R",
+      "name":"Burning-Tree Vandal",
+      "number":"94",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Human",
+        "Rogue"
+      ],
+      "text":"Riot (This creature enters the battlefield with your choice of a +1/+ counter or haste.)\nWhenever Burning-Tree Vandal attacks, you may discard a card. If you do, draw a card.",
+      "toughness":"1",
+      "type":"Creature — Human Rogue",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/c/5/c5674753-17e4-4e35-a12c-13e1e077ec70.jpg?1546607520"
+    },
+    {
+      "artist":"Zoltan Boros",
+      "cmc":3,
+      "colorIdentity":[
+        "B",
+        "R"
+      ],
+      "colors":[
+        "Black",
+        "Red"
+      ],
+      "layout":"split",
+      "manaCost":"B/R",
+      "name":"Carnival",
+      "names":[
+        "Carnival",
+        "Carnage"
+      ],
+      "number":"222a",
+      "rarity":"Uncommon",
+      "text":"Carnival deals 1 damage to target creature or planeswalker and 1 damage to that permanent's controller.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1546602109"
+    },
+    {
+      "artist":"Zoltan Boros",
+      "cmc":4,
+      "colorIdentity":[
+        "B",
+        "R"
+      ],
+      "colors":[
+        "Black",
+        "Red"
+      ],
+      "layout":"split",
+      "manaCost":"2BR",
+      "name":"Carnage",
+      "names":[
+        "Carnival",
+        "Carnage"
+      ],
+      "number":"222b",
+      "rarity":"Uncommon",
+      "text":"Carnage deals 3 damage to target opponent. That player discards two cards.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1546602109"
+    },
+    {
+      "artist":"Igor Kieryluk",
+      "cmc":4,
+      "colorIdentity":[
+        "B",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Black"
+      ],
+      "layout":"split",
+      "manaCost":"1W/B",
+      "name":"Consecrate",
+      "names":[
+        "Consecrate",
+        "Consume"
+      ],
+      "number":"224a",
+      "rarity":"Uncommon",
+      "text":"Exile target card from a graveyard.\nDraw a card.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1546602009"
+    },
+    {
+      "artist":"Igor Kieryluk",
+      "cmc":4,
+      "colorIdentity":[
+        "B",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Black"
+      ],
+      "layout":"split",
+      "manaCost":"2WB",
+      "name":"Consume",
+      "names":[
+        "Consecrate",
+        "Consume"
+      ],
+      "number":"224b",
+      "rarity":"Uncommon",
+      "text":"Target player sacrifices a creature with the greatest power among creatures they controls. You gain life equal to its power.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1546602009"
+    },
+    {
+      "artist":"Johann Bodin",
+      "cmc":3,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"If your ears bleed, it's a party. If your eyes bleed, it's a Rakdos party.",
+      "manaCost":"1BB",
+      "name":"Cry of the Carnarium",
+      "number":"70",
+      "rarity":"Uncommon",
+      "text":"All creatures get -2/-2 until end of turn. Exile all creature cards in all graveyards that were put there from the battlefield this turn. If a creature would die this turn, exile it instead.",
+      "type":"Sorcery",
+      "types":[
+        "Sorcery"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/7/1/715a14a3-046e-45ca-b943-dd630e5202b7.jpg?1546601924"
+    },
+    {
       "artist":"Sara Winters",
       "cmc":4,
       "colorIdentity":[
@@ -343,7 +561,7 @@
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1546515204"
+      "url":"https://img.scryfall.com/cards/large/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1546538344"
     },
     {
       "artist":"Sara Winters",
@@ -365,12 +583,12 @@
       ],
       "number":"225b",
       "rarity":"Uncommon",
-      "text":"Creature two 1/1 colorless Thopter artifact creature tokens with flying, then you gain 1 life for each creature you control.",
+      "text":"Create two 1/1 colorless Thopter artifact creature tokens with flying, then you gain 1 life for each creature you control.",
       "type":"Instant",
       "types":[
         "Instant"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1546515204"
+      "url":"https://img.scryfall.com/cards/large/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1546538344"
     },
     {
       "artist":"G-host Lee",
@@ -401,28 +619,6 @@
       "url":"https://img.scryfall.com/cards/large/front/7/e/7e362055-78a1-48fa-a4ef-6cf7e0b21b14.jpg?1546514634"
     },
     {
-      "artist":"Daarken",
-      "cmc":3,
-      "colorIdentity":[
-        "U",
-        "W"
-      ],
-      "colors":[
-        "White",
-        "Blue"
-      ],
-      "manaCost":"1WU",
-      "name":"\"Doran the Explorer\"",
-      "number":"182",
-      "rarity":"Uncommon",
-      "text":"Each creature you control assigns combat damage equal to its toughness rather than its power.\nCreatures you control can attack this turn as though they don't have defender.\n{2}{W}{U}: Untap target creature.",
-      "type":"Enchantment",
-      "types":[
-        "Enchantment"
-      ],
-      "url":"https://img.scryfall.com/cards/large/front/c/e/ce124f6e-ef0c-4d01-a876-e34d3e445108.jpg?1546526427"
-    },
-    {
       "artist":"Kieran Yanner",
       "cmc":3,
       "colorIdentity":[
@@ -450,6 +646,27 @@
         "Planeswalker"
       ],
       "url":"https://img.scryfall.com/cards/large/front/e/6/e6784910-0204-4a39-bb38-50daa03e94c2.jpg?1546514564"
+    },
+    {
+      "artist":"Dmitry Burmak",
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"Basically, we turn a bunch of little lightnings into one big lightning.\"",
+      "manaCost":"XRR",
+      "name":"Electrodominance",
+      "number":"99",
+      "rarity":"Rare",
+      "text":"Electrodominance deals X damage to any target. You may cast a card with converted mana cost X or less from your hand without paying its mana cost.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/5/c/5c63877b-cdab-4ce4-a1c0-c088eb62a57a.jpg?1546601710"
     },
     {
       "artist":"Chris Rallis",
@@ -528,6 +745,36 @@
       "url":"https://img.scryfall.com/cards/large/front/b/c/bce2eef7-03a4-415f-8bb7-a29d50ce1b0f.jpg?1545303531"
     },
     {
+      "artist":"Randy Vargas",
+      "cmc":4,
+      "colorIdentity":[
+        "G",
+        "U"
+      ],
+      "colors":[
+        "Blue",
+        "Green"
+      ],
+      "flavor":"\"Your arrival was expected...and unwelcome.\"",
+      "manaCost":"GGUU",
+      "name":"Frilled Mystic",
+      "number":"174",
+      "power":"3",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Elf",
+        "Lizard",
+        "Wizard"
+      ],
+      "text":"Flash\nWhen Frilled Mystic enters the battlefield, you may counter target spell.",
+      "toughness":"2",
+      "type":"Creature — Elf Lizard Wizard",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/5/0/50595d02-edad-48a6-b10c-6fa859cc88bb.jpg?1546604038"
+    },
+    {
       "artist":"Izzy",
       "cmc":8,
       "colorIdentity":[],
@@ -571,6 +818,34 @@
       "url":"https://img.scryfall.com/cards/large/front/c/e/ced4c824-2dfc-42ae-84e6-09f8e3f51b5b.jpg?1546513817"
     },
     {
+      "artist":"Seb McKinnon",
+      "cmc":5,
+      "colorIdentity":[
+        "B",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Black"
+      ],
+      "flavor":"\"Debt due! Debt due!\" The thrull's screeching makes children flinch and debtors quail. \"Debt due!\"",
+      "manaCost":"3WB",
+      "name":"Grasping Thrull",
+      "number":"177",
+      "power":"3",
+      "rarity":"Common",
+      "subtypes":[
+        "Thrull"
+      ],
+      "text":"Flying\nWhen Grasping Thrull enters the battlefield, it deals 2 damage to each opponent and you gain 2 life.",
+      "toughness":"3",
+      "type":"Creature — Thrull",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/5/6/56f82d97-ce50-490c-ad7f-46d70a73e454.jpg?1546606749"
+    },
+    {
       "artist":"Bram Sels",
       "cmc":2,
       "colorIdentity":[
@@ -595,7 +870,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/0/f/0f97cdf4-231d-4bd0-af5e-bcb64ce1556c.jpg?1546515755"
+      "url":"https://img.scryfall.com/cards/large/front/0/f/0f97cdf4-231d-4bd0-af5e-bcb64ce1556c.jpg?1546602137"
     },
     {
       "artist":"Seb McKinnon",
@@ -690,6 +965,33 @@
       "url":"https://img.scryfall.com/cards/large/front/3/2/326679a2-782d-45a0-9a06-b147ceff3979.jpg?1545303539"
     },
     {
+      "artist":"Grzegorz Rutkowski",
+      "cmc":1,
+      "colorIdentity":[
+        "B"
+      ],
+      "colors":[
+        "Black"
+      ],
+      "flavor":"\"Down here, things don't stay dead.\"\n—Lavinia",
+      "manaCost":"B",
+      "name":"Gutterbones",
+      "number":"76",
+      "power":"2",
+      "rarity":"Rare",
+      "subtypes":[
+        "Skeleton",
+        "Warrior"
+      ],
+      "text":"Gutterbones enters the battlefield tapped.\n{1}{B}: Return Gutterbones from your graveyard to your hand. Activate this ability only during your turn and only if an opponent lost life this turn.",
+      "toughness":"1",
+      "type":"Creature — Skeleton Warrior",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/6/a/6a1c710b-bd67-4174-ab02-6ae98a7575ac.jpg?1546545692"
+    },
+    {
       "artist":"Jedd Chevrier",
       "cmc":0,
       "colorIdentity":[
@@ -710,6 +1012,76 @@
         "Land"
       ],
       "url":"https://img.scryfall.com/cards/large/front/f/9/f97a6d34-03ab-49f1-b02e-405b733f8843.jpg?1546513796"
+    },
+    {
+      "artist":"Tomasz Jedruszek",
+      "cmc":3,
+      "colorIdentity":[
+        "G",
+        "R"
+      ],
+      "colors":[
+        "Red",
+        "Green"
+      ],
+      "manaCost":"1RG",
+      "name":"\"He called me Mister Pig!\"",
+      "number":"201",
+      "rarity":"Uncommon",
+      "text":"Creature spells you control can't be countered.\nNontoken creatures you control have riot. (Creatures with riot enter the battlefield with your choice of a +1/+1 counter or haste.)",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/8/4/84062ce2-fea2-4e06-b83b-7cc597fb2a1b.jpg?1546604207"
+    },
+    {
+      "artist":"Daarken",
+      "cmc":3,
+      "colorIdentity":[
+        "U",
+        "W"
+      ],
+      "colors":[
+        "White",
+        "Blue"
+      ],
+      "manaCost":"1WU",
+      "name":"High Alert",
+      "number":"182",
+      "rarity":"Uncommon",
+      "text":"Each creature you control assigns combat damage equal to its toughness rather than its power.\nCreatures you control can attack as though they didn't have defender.\n{2}{W}{U}: Untap target creature.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/c/e/ce124f6e-ef0c-4d01-a876-e34d3e445108.jpg?1546602051"
+    },
+    {
+      "artist":"Jesper Ejsing",
+      "cmc":5,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"Searching the city for Fblthp felt like sifting the rain for a single drop of blood.",
+      "manaCost":"4U",
+      "name":"Humongulus",
+      "number":"41",
+      "power":"2",
+      "rarity":"Common",
+      "subtypes":[
+        "Homunculus"
+      ],
+      "text":"Hexproof (This creature can't be the target of spells or abilities your opponents control.)",
+      "toughness":"5",
+      "type":"Creature — Homunculus",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/2/1/21982dc7-4f79-4251-8382-95cd1f627e0f.jpg?1546614188"
     },
     {
       "artist":"Jason Felix",
@@ -883,7 +1255,7 @@
       "types":[
         "Planeswalker"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/f/d/fdb4b2ef-5196-4f7f-88ff-64b2cdb36c6b.jpg?1546444973"
+      "url":"https://img.scryfall.com/cards/large/front/f/d/fdb4b2ef-5196-4f7f-88ff-64b2cdb36c6b.jpg?1546602288"
     },
     {
       "artist":"Steven Belledin",
@@ -983,6 +1355,26 @@
       "url":"https://img.scryfall.com/cards/large/front/e/b/ebf6c0dc-5c7b-4170-99bc-2637ea44e716.jpg?1545303571"
     },
     {
+      "artist":"Chris Rallis",
+      "cmc":4,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "manaCost":"3G",
+      "name":"\"Mutant, NM, Pack Fresh\"",
+      "number":"130",
+      "rarity":"Rare",
+      "text":"Whenever a nontoken creature enters the battlefield under your control, if that creature does not have the same name as another creature you control or a creature card in your graveyard, draw a card.",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/c/c/ccad6ce0-ddf0-458d-bdae-3d7805fdc775.jpg?1546557951"
+    },
+    {
       "artist":"Cliff Childs",
       "cmc":0,
       "colorIdentity":[
@@ -1021,26 +1413,6 @@
         "Artifact"
       ],
       "url":"https://img.scryfall.com/cards/large/front/7/6/761e7188-bad1-4775-84a2-15da9a42a57c.jpg?1546513865"
-    },
-    {
-      "artist":"Johann Bodin",
-      "cmc":3,
-      "colorIdentity":[
-        "B"
-      ],
-      "colors":[
-        "Black"
-      ],
-      "manaCost":"1BB",
-      "name":"\"Panic! At The Disco\"",
-      "number":"70",
-      "rarity":"Uncommon",
-      "text":"All creatures get -2/-2 until end of turn. Exile all creature cards in graveyards that died this turn. If a creature would die this turn, exile it instead.",
-      "type":"Sorcery",
-      "types":[
-        "Sorcery"
-      ],
-      "url":"https://img.scryfall.com/cards/large/front/7/1/715a14a3-046e-45ca-b943-dd630e5202b7.jpg?1546527970"
     },
     {
       "artist":"Anastasia Ovchinnikova",
@@ -1083,17 +1455,19 @@
       "manaCost":"WB",
       "name":"Pitiless Pontiff",
       "number":"194",
+      "power":"2",
       "rarity":"Uncommon",
       "subtypes":[
         "Vampire",
         "Cleric"
       ],
       "text":"{1}, Sacrifice another creature: Pitiless Pontiff gains deathtouch and indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+      "toughness":"2",
       "type":"Creature — Vampire Cleric",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/9/8/98f66c03-cf79-4de0-be55-b921cbdc5038.jpg?1546532975"
+      "url":"https://img.scryfall.com/cards/large/front/9/8/98f66c03-cf79-4de0-be55-b921cbdc5038.jpg?1546551698"
     },
     {
       "artist":"Chris Rallis",
@@ -1140,13 +1514,34 @@
       "supertypes":[
         "Legendary"
       ],
-      "text":"{T}, Sacrifice another creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrifices creature's converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
+      "text":"{T}, Sacrifice another creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
       "toughness":"4",
       "type":"Legendary Creature — Elf Ooze Wizard",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/8/4/84abfc59-10a7-4cb5-9cdd-81797116c810.jpg?1546525913"
+      "url":"https://img.scryfall.com/cards/large/front/8/4/84abfc59-10a7-4cb5-9cdd-81797116c810.jpg?1546537147"
+    },
+    {
+      "artist":"Jason Rainville",
+      "cmc":2,
+      "colorIdentity":[
+        "U"
+      ],
+      "colors":[
+        "Blue"
+      ],
+      "flavor":"\"When properly invoked, the plasma globule encloses the offensive spell with a satisfying slurp.",
+      "manaCost":"1U",
+      "name":"Quench",
+      "number":"48",
+      "rarity":"Common",
+      "text":"Counter target spell unless its controller pays {2}.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/e/e/ee0ba01b-de96-4f8f-9405-ff3ad288afac.jpg?1546607528"
     },
     {
       "artist":"Slawomir Maniak",
@@ -1276,6 +1671,27 @@
       "url":"https://img.scryfall.com/cards/large/front/4/e/4e3c30c7-c52e-41a0-b7c2-21d39c05160b.jpg?1546517501"
     },
     {
+      "artist":"Sidharth Chaturvedi",
+      "cmc":4,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"\"Rage! Rage until the whole world burns!.\"",
+      "manaCost":"3G",
+      "name":"Rampage of the Clans",
+      "number":"134",
+      "rarity":"Rare",
+      "text":"Destroy all artifacts and enchantments. For each permanent destroyed this way, its controller creates a 3/3 green Centaur creature token.",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/2/8/28ebab7d-d03d-4473-aa9b-485aebb66433.jpg?1546594567"
+    },
+    {
       "artist":"Svetlin Velinov",
       "cmc":6,
       "colorIdentity":[
@@ -1329,60 +1745,6 @@
       "url":"https://img.scryfall.com/cards/large/front/c/4/c40396da-18e2-42ca-a78c-4838a38f68b8.jpg?1545154116"
     },
     {
-      "artist":"Igor Kieryluk",
-      "cmc":4,
-      "colorIdentity":[
-        "B",
-        "W"
-      ],
-      "colors":[
-        "White",
-        "Black"
-      ],
-      "layout":"split",
-      "manaCost":"1W/B",
-      "name":"\"Scarecrow\"",
-      "names":[
-        "\"Scarecrow\"",
-        "\"Tin Man\""
-      ],
-      "number":"224a",
-      "rarity":"Uncommon",
-      "text":"Exile target card from a graveyard.\nDraw a card.",
-      "type":"Instant",
-      "types":[
-        "Instant"
-      ],
-      "url":"https://img.scryfall.com/cards/large/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1546527293"
-    },
-    {
-      "artist":"Igor Kieryluk",
-      "cmc":4,
-      "colorIdentity":[
-        "B",
-        "W"
-      ],
-      "colors":[
-        "White",
-        "Black"
-      ],
-      "layout":"split",
-      "manaCost":"2WB",
-      "name":"\"Tin Man\"",
-      "names":[
-        "\"Scarecrow\"",
-        "\"Tin Man\""
-      ],
-      "number":"224b",
-      "rarity":"Uncommon",
-      "text":"Target player sacrifices a creature with the greatest power among creatures that player controls. Gain life equal to that creature's power.",
-      "type":"Sorcery",
-      "types":[
-        "Sorcery"
-      ],
-      "url":"https://img.scryfall.com/cards/large/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1546527293"
-    },
-    {
       "artist":"Magali Villeneuve",
       "cmc":4,
       "colorIdentity":[
@@ -1401,13 +1763,13 @@
       "subtypes":[
         "Angel"
       ],
-      "text":"Flying\n{W}: Seraph of the Scales gains vigilance until end of turn.\n{B}: Seraph of the Scales gains deathtouch until end of turn.\nAfterlife 2 (When this creature dies, create 1/1 white and black Spirit creature tokens with flying.)",
+      "text":"Flying\n{W}: Seraph of the Scales gains vigilance until end of turn.\n{B}: Seraph of the Scales gains deathtouch until end of turn.\nAfterlife 2 (When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.)",
       "toughness":"3",
       "type":"Creature — Angel",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/d/6/d602e9e6-31ed-4d17-b39c-457b3b182943.jpg?1546520427"
+      "url":"https://img.scryfall.com/cards/large/front/d/6/d602e9e6-31ed-4d17-b39c-457b3b182943.jpg?1546602159"
     },
     {
       "artist":"Izzy",
@@ -1488,13 +1850,60 @@
       "subtypes":[
         "Dragon"
       ],
-      "text":"Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)\nFlying\n{3}{R}: Sharrgan Hellkite deals 2 damage divided as you choose among one or two targets. Activate this ability only if Sharrgan Hellkite has a +1/+1 counter on it.",
+      "text":"Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)\nFlying\n{3}{R}: Skarrgan Hellkite deals 2 damage divided as you choose among one or two targets. Activate this ability only if Skarrgan Hellkite has a +1/+1 counter on it.",
       "toughness":"4",
       "type":"Creature — Dragon",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/b/e/be941a2e-4eb0-45b3-9da0-834053907a65.jpg?1546532270"
+      "url":"https://img.scryfall.com/cards/large/front/b/e/be941a2e-4eb0-45b3-9da0-834053907a65.jpg?1546538359"
+    },
+    {
+      "artist":"Jehan Choo",
+      "cmc":2,
+      "colorIdentity":[
+        "R"
+      ],
+      "colors":[
+        "Red"
+      ],
+      "flavor":"\"Come in, yes? Is warm!\"",
+      "manaCost":"1R",
+      "name":"Smelt-Ward Ignus",
+      "number":"116",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Elemental"
+      ],
+      "text":"{2}{R}, Sacrifice Smelt-Ward Ignus: Gain control of target creature with power 3 or less until end of turn. Untap that creature. It gains haste until end of turn. Activate this ability only any time you could cast a sorcery.",
+      "toughness":"1",
+      "type":"Creature — Elemental",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/4/f/4f24b2b6-b994-455f-b8e6-aa73e1be81b4.jpg?1546601275"
+    },
+    {
+      "artist":"Mark Behm",
+      "cmc":4,
+      "colorIdentity":[
+        "W"
+      ],
+      "colors":[
+        "White"
+      ],
+      "flavor":"\"I await your donation.\"\n—Dasha, Orzhov priest",
+      "manaCost":"3W",
+      "name":"Smothering Tithe",
+      "number":"22",
+      "rarity":"Rare",
+      "text":"Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+      "type":"Enchantment",
+      "types":[
+        "Enchantment"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/7/a/7af082fa-86a3-4f7b-966d-2be1f1d0c0bc.jpg?1546569709"
     },
     {
       "artist":"Victor Adame Minguez",
@@ -1513,13 +1922,13 @@
       "subtypes":[
         "Demon"
       ],
-      "text":"Spectacle {1}{B}{B} (You may case this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nFlying, trample\nAt the beginning of your upkeep, Spawn of Mayhem deals 1 damage to each player. Then if you have 10 or less life, put a +1/+1 counter on Spawn of Mayhem.",
+      "text":"Spectacle {1}{B}{B} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nFlying, trample\nAt the beginning of your upkeep, Spawn of Mayhem deals 1 damage to each player. Then if you have 10 or less life, put a +1/+1 counter on Spawn of Mayhem.",
       "toughness":"4",
       "type":"Creature — Demon",
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/8/b/8be01b8d-e0ef-44d1-ac97-39bb5a0e76be.jpg?1546516308"
+      "url":"https://img.scryfall.com/cards/large/front/8/b/8be01b8d-e0ef-44d1-ac97-39bb5a0e76be.jpg?1546551601"
     },
     {
       "artist":"Titus Lunter",
@@ -1606,7 +2015,7 @@
       "flavor":"While Kaya is guildmaster, Teysa waits patiently at the center of the Orzhov web of power.",
       "manaCost":"2WB",
       "name":"Teysa Karlov",
-      "number":"213",
+      "number":"212",
       "power":"2",
       "rarity":"Rare",
       "subtypes":[
@@ -1622,7 +2031,7 @@
       "types":[
         "Creature"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/b/c/bcfaa19e-995e-447d-a0a2-46e5d117d5ec.jpg?1546514951"
+      "url":"https://img.scryfall.com/cards/large/front/b/c/bcfaa19e-995e-447d-a0a2-46e5d117d5ec.jpg?1546602283"
     },
     {
       "artist":"Lius Lasahido",
@@ -1652,6 +2061,27 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/front/6/1/61a908e8-6952-46c0-94ec-3962b7a4caef.jpg?1545154313"
+    },
+    {
+      "artist":"Svetlin Velinov",
+      "cmc":2,
+      "colorIdentity":[
+        "G"
+      ],
+      "colors":[
+        "Green"
+      ],
+      "flavor":"Whoever wins, the neighborhood loses.",
+      "manaCost":"1G",
+      "name":"Titanic Brawl",
+      "number":"146",
+      "rarity":"Common",
+      "text":"This spell costs {1} less to cast if it targets a creature you control with a +1/+1 counter on it.\nTarget creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
+      "type":"Instant",
+      "types":[
+        "Instant"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/b/c/bcf9b57a-a759-4488-965a-651070cd2156.jpg?1546608107"
     },
     {
       "artist":"Aaron Miller",
@@ -1691,14 +2121,14 @@
       "flavor":"\"Walls crack. Buildings fall. Always the wilds return.\"\n—Domri Rade",
       "manaCost":"3G",
       "name":"Wilderness Reclamation",
-      "number":"140",
+      "number":"149",
       "rarity":"Uncommon",
       "text":"At the beginning of your end step, untap all lands you control.",
       "type":"Enchantment",
       "types":[
         "Enchantment"
       ],
-      "url":"https://img.scryfall.com/cards/large/front/5/4/54af08f7-9c6c-464e-b2f7-2b5803f36481.jpg?1546517089"
+      "url":"https://img.scryfall.com/cards/large/front/5/4/54af08f7-9c6c-464e-b2f7-2b5803f36481.jpg?1546551630"
     },
     {
       "artist":"Slawomir Maniak",
@@ -1730,6 +2160,35 @@
         "Creature"
       ],
       "url":"https://img.scryfall.com/cards/large/front/d/d/dd199a48-5ac8-4ab9-a33c-bbce6f7c9d1b.jpg?1545218146"
+    },
+    {
+      "artist":"Wayne Reynolds",
+      "cmc":2,
+      "colorIdentity":[
+        "G",
+        "R"
+      ],
+      "colors":[
+        "Red",
+        "Green"
+      ],
+      "flavor":"Among the Zhur-Taa Clan, goblins are the first to enter battlefury. When the battle is over, the survivors are still frothing at the mouth, looking for someone to hit.",
+      "manaCost":"RG",
+      "name":"Zhur-Taa Goblin",
+      "number":"215",
+      "power":"2",
+      "rarity":"Uncommon",
+      "subtypes":[
+        "Goblin",
+        "Berserker"
+      ],
+      "text":"Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)",
+      "toughness":"2",
+      "type":"Creature — Goblin Berserker",
+      "types":[
+        "Creature"
+      ],
+      "url":"https://img.scryfall.com/cards/large/front/1/3/13070db2-cf89-4552-8b6c-76426274321a.jpg?1546567289"
     }
   ],
   "code":"RNA",
