@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><cockatrice_carddatabase version="3">	
 	<!--
-        created: Sat, Jan 05 2019, 21:58:36 (UTC)
+        created: Sun, Jan 06 2019, 21:59:13 (UTC)
         by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
         -->	
 	<sets>		
@@ -269,6 +269,17 @@ Create two 1/1 colorless Thopter artifact creature tokens with flying, then you 
 			<loyalty>3</loyalty>			
 		</card>		
 		<card>			
+			<name>Drill Bit</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/7/3/73f8710c-9c5e-4d11-b45f-0728c54bd631.jpg?1546717229" rarity="Uncommon">RNA</set>			
+			<color>B</color>			
+			<manacost>2B</manacost>			
+			<cmc>3</cmc>			
+			<type>Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Spectacle {B} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)
+Target player reveals their hand. You choose a nonland card from it. That player discards that card.</text>			
+		</card>		
+		<card>			
 			<name>Electrodominance</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/5/c/5c63877b-cdab-4ce4-a1c0-c088eb62a57a.jpg?1546601710" rarity="Rare">RNA</set>			
 			<color>R</color>			
@@ -447,7 +458,7 @@ As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, i
 		</card>		
 		<card>			
 			<name>&quot;He called me Mister Pig!&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/8/4/84062ce2-fea2-4e06-b83b-7cc597fb2a1b.jpg?1546625699" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/4/84062ce2-fea2-4e06-b83b-7cc597fb2a1b.jpg?1546771738" rarity="Uncommon">RNA</set>			
 			<color>R</color>			
 			<color>G</color>			
 			<manacost>1RG</manacost>			
@@ -571,6 +582,19 @@ Whenever an opponent casts a spell, if no mana was spent to cast it, counter tha
 			<tablerow>3</tablerow>			
 			<text>Spectacle {R} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)
 Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>			
+		</card>		
+		<card>			
+			<name>&quot;Mana Mare&quot;</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1546774590" rarity="Rare">RNA</set>			
+			<color>R</color>			
+			<color>G</color>			
+			<manacost>3RG</manacost>			
+			<cmc>5</cmc>			
+			<type>Legendary Creature — Centaur Druid</type>			
+			<pt>5/5</pt>			
+			<tablerow>2</tablerow>			
+			<text>You can't cast noncreature spells.
+Whenever you tap a land for mana, add one mana of any type that land produced.</text>			
 		</card>		
 		<card>			
 			<name>Mass Manipulation</name>			
