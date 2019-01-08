@@ -20,6 +20,18 @@
 			<text>Counter target spell. You gain 3 life.</text>			
 		</card>		
 		<card>			
+			<name>&quot;Actually, it's a Wyvern&quot;</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/2/120aa3b3-d358-4df3-be39-9b7ce926673a.jpg?1546946741" rarity="Uncommon">RNA</set>			
+			<manacost>4U</manacost>			
+			<cmc>5</cmc>			
+			<color>U</color>			
+			<type>Creature — Drake</type>			
+			<pt>3/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+Other creatures you control with flying get +1/+0.</text>			
+		</card>		
+		<card>			
 			<name>Aeromunculus</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/6/7/671c94c1-df52-4985-ad78-3e1c9c78df18.jpg?1545218150" rarity="Common">RNA</set>			
 			<manacost>1GU</manacost>			
@@ -52,6 +64,18 @@
 			<type>Enchantment</type>			
 			<tablerow>1</tablerow>			
 			<text>Whenever a creature you control attacks alone, it gets +X/+X until end of turn, where X is the number of creatures you control.</text>			
+		</card>		
+		<card>			
+			<name>Archway Angel</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/2/b209d219-b946-4226-a8b4-65a5f3837fac.jpg?1546945542" rarity="Uncommon">RNA</set>			
+			<manacost>5W</manacost>			
+			<cmc>6</cmc>			
+			<color>W</color>			
+			<type>Creature — Angel</type>			
+			<pt>3/4</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+When Archway Angel enters the battlefield, you gain 2 life for each Gate you control.</text>			
 		</card>		
 		<card>			
 			<name>Azorius Guildgate</name>			
@@ -187,14 +211,14 @@ As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, it en
 		</card>		
 		<card>			
 			<name>Burning-Tree Vandal</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/c/5/c5674753-17e4-4e35-a12c-13e1e077ec70.jpg?1546607520" rarity="Common">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/5/c5674753-17e4-4e35-a12c-13e1e077ec70.jpg?1546966782" rarity="Common">RNA</set>			
 			<manacost>2R</manacost>			
 			<cmc>3</cmc>			
 			<color>R</color>			
 			<type>Creature — Human Rogue</type>			
 			<pt>2/1</pt>			
 			<tablerow>2</tablerow>			
-			<text>Riot (This creature enters the battlefield with your choice of a +1/+ counter or haste.)
+			<text>Riot (This creature enters the battlefield with your choice of a +1/1+ counter or haste.)
 Whenever Burning-Tree Vandal attacks, you may discard a card. If you do, draw a card.</text>			
 		</card>		
 		<card>			
@@ -248,6 +272,19 @@ Target player sacrifices a creature with the greatest power among creatures they
 			<text>All creatures get -2/-2 until end of turn. Exile all creature cards in all graveyards that were put there from the battlefield this turn. If a creature would die this turn, exile it instead.</text>			
 		</card>		
 		<card>			
+			<name>Cult Guildmage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/5/0536c2fa-7402-49a1-9016-dcf5633ca9ef.jpg?1546907585" rarity="Uncommon">RNA</set>			
+			<manacost>BR</manacost>			
+			<cmc>2</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<type>Creature — Human Shaman</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{3}{B}, {T}: Target player discards a card. Activate this ability only any time you could cast a sorcery.
+{R}, {T}: Cult Guildmage deals 1 damage to target opponent or planeswalker.</text>			
+		</card>		
+		<card>			
 			<name>Depose // Deploy</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1546538344" rarity="Uncommon">RNA</set>			
 			<manacost>1W/U // 2WU</manacost>			
@@ -275,7 +312,7 @@ Create two 1/1 colorless Thopter artifact creature tokens with flying, then you 
 		</card>		
 		<card>			
 			<name>Domri, Chaos Bringer</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/1/f/1f56bbf3-3884-495a-b9cd-6585d86f76f1.jpg?1546876374" rarity="Mythic Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/1/f/1f56bbf3-3884-495a-b9cd-6585d86f76f1.jpg?1546946245" rarity="Mythic Rare">RNA</set>			
 			<manacost>2RG</manacost>			
 			<cmc>4</cmc>			
 			<color>R</color>			
@@ -347,6 +384,29 @@ Addendum - If you cast this spell during your main phase, you may put a permanen
 When End-Raze Forerunners enters the battlefield, other creatures you control get +2/+2 and gain vigilance and trample until end of turn.</text>			
 		</card>		
 		<card>			
+			<name>Essence Capture</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/e/ce137910-0f0e-4f94-9b95-6e0eeeba164e.jpg?1546967456" rarity="Uncommon">RNA</set>			
+			<manacost>UU</manacost>			
+			<cmc>2</cmc>			
+			<color>U</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Counter target creature spell. Put a +1/+1 counter on up to one target creature you control.</text>			
+		</card>		
+		<card>			
+			<name>Ethereal Absolution</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1546967469" rarity="Rare">RNA</set>			
+			<manacost>4WB</manacost>			
+			<cmc>6</cmc>			
+			<color>W</color>			
+			<color>B</color>			
+			<type>Enchantment</type>			
+			<tablerow>1</tablerow>			
+			<text>Creatures you control get +1/+1.
+Creatures your opponents control get -1/-1.
+{2}{W}{B}: Exile target card from an opponent's graveyard. If it was a creature card, you create a 1/1 white and black Spirit creature token with flying.</text>			
+		</card>		
+		<card>			
 			<name>Frenzied Arynx</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/b/c/bce2eef7-03a4-415f-8bb7-a29d50ce1b0f.jpg?1545303531" rarity="Common">RNA</set>			
 			<manacost>2RG</manacost>			
@@ -375,7 +435,7 @@ When Frilled Mystic enters the battlefield, you may counter target spell.</text>
 		</card>		
 		<card>			
 			<name>Galloping Lizrog</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/c/c/cc2b7cfe-4696-4448-93d2-33be596e32d9.jpg?1546876607" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/c/c/cc2b7cfe-4696-4448-93d2-33be596e32d9.jpg?1546880592" rarity="Uncommon">RNA</set>			
 			<manacost>3GU</manacost>			
 			<cmc>5</cmc>			
 			<color>U</color>			
@@ -446,7 +506,7 @@ Whenever one or more +1/+1 counters are put on Growth-Chamber Guardian, you may 
 		</card>		
 		<card>			
 			<name>Gruul Beastmaster</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/2/b/2b0aaded-515f-4ac9-a72f-6948b4d4df51.jpg?1546875612" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/b/2b0aaded-515f-4ac9-a72f-6948b4d4df51.jpg?1546882738" rarity="Uncommon">RNA</set>			
 			<manacost>3G</manacost>			
 			<cmc>4</cmc>			
 			<color>G</color>			
@@ -515,6 +575,18 @@ As long as it's your turn, you and Gruul Spellbreaker have hexproof.</text>
 {1}{B}: Return Gutterbones from your graveyard to your hand. Activate this ability only during your turn and only if an opponent lost life this turn.</text>			
 		</card>		
 		<card>			
+			<name>Gyre Engineer</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/6/26dd6a1d-4dcb-4392-9856-c0e4140efbd7.jpg?1546945924" rarity="Uncommon">RNA</set>			
+			<manacost>1GU</manacost>			
+			<cmc>3</cmc>			
+			<color>U</color>			
+			<color>G</color>			
+			<type>Creature — Vedalken Wizard</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>{T}: Add {G}{U}.</text>			
+		</card>		
+		<card>			
 			<name>Hackrobat</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/a/4/a41335c2-3d11-4f95-8d9f-66b04398c10b.jpg?1546875599" rarity="Uncommon">RNA</set>			
 			<manacost>1BR</manacost>			
@@ -575,6 +647,18 @@ Creatures you control can attack as though they didn't have defender.
 			<text>When you cast this spell, you gain half X life and draw half X cards. Round down each time.
 Flying, trample
 Hydroid Krasis enters the battlefield with X +1/+1 counters on it.</text>			
+		</card>		
+		<card>			
+			<name>Immolation Shaman</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/5/45e668e5-ef50-43eb-852e-b111370459c8.jpg?1546907506" rarity="Rare">RNA</set>			
+			<manacost>1R</manacost>			
+			<cmc>2</cmc>			
+			<color>R</color>			
+			<type>Creature — Viashino Shaman</type>			
+			<pt>1/3</pt>			
+			<tablerow>2</tablerow>			
+			<text>Whenever an opponent activates an ability of an artifact, creature, or land that isn't a mana ability, Immolation Shaman deals 1 damage to that player.
+{3}{R}{R}: Immolation Shaman gets +3/+3 and gains menace until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Imperious Oligarch</name>			
@@ -688,7 +772,7 @@ Mesmerizing Benthid has hexproof as long as you control an Illusion.</text>
 		</card>		
 		<card>			
 			<name>Ministrant of Obligation</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/b/f/bf2a093a-25f0-4247-94dc-550865d86317.jpg?1546875815" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/f/bf2a093a-25f0-4247-94dc-550865d86317.jpg?1546881204" rarity="Uncommon">RNA</set>			
 			<manacost>2W</manacost>			
 			<cmc>3</cmc>			
 			<color>W</color>			
@@ -710,7 +794,7 @@ Mesmerizing Benthid has hexproof as long as you control an Illusion.</text>
 		</card>		
 		<card>			
 			<name>Nikya of the Old Ways</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1546810575" rarity="Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1546946015" rarity="Rare">RNA</set>			
 			<manacost>3RG</manacost>			
 			<cmc>5</cmc>			
 			<color>R</color>			
@@ -720,17 +804,6 @@ Mesmerizing Benthid has hexproof as long as you control an Illusion.</text>
 			<tablerow>2</tablerow>			
 			<text>You can't cast noncreature spells.
 Whenever you tap a land for mana, add one mana of any type that land produced.</text>			
-		</card>		
-		<card>			
-			<name>&quot;Now I'M the Minotaur!&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/c/e/ce137910-0f0e-4f94-9b95-6e0eeeba164e.jpg?1546877183" rarity="Uncommon">RNA</set>			
-			<manacost>UU</manacost>			
-			<cmc>2</cmc>			
-			<color>U</color>			
-			<type>Instant</type>			
-			<tablerow>3</tablerow>			
-			<text>Counter target creature spell.
-Put a +1/+1 counter on up to one target creature.</text>			
 		</card>		
 		<card>			
 			<name>Orzhov Guildgate</name>			
@@ -755,7 +828,7 @@ Put a +1/+1 counter on up to one target creature.</text>
 		</card>		
 		<card>			
 			<name>Orzhov Racketeers</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/2/9/29b89f68-72ba-493d-95c4-eb37751fbd3d.jpg?1546875886" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/9/29b89f68-72ba-493d-95c4-eb37751fbd3d.jpg?1546881198" rarity="Uncommon">RNA</set>			
 			<manacost>4B</manacost>			
 			<cmc>5</cmc>			
 			<color>B</color>			
@@ -764,6 +837,19 @@ Put a +1/+1 counter on up to one target creature.</text>
 			<tablerow>2</tablerow>			
 			<text>Whenever Orzhov Racketeers deals combat damage to a player, that player discards a card.
 Afterlife 2 (When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.)</text>			
+		</card>		
+		<card>			
+			<name>&quot;Party in the Streets&quot; // &quot;Demon in the Sheets&quot;</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1546906647" rarity="Rare">RNA</set>			
+			<manacost>B/RB/R // 4BR</manacost>			
+			<cmc>6 // 6</cmc>			
+			<color>B</color>			
+			<color>R</color>			
+			<type>Instant // Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Target creature gets +3/-3 until end of turn.
+---
+Destroy target nonbasic land. &quot;Demon in the Sheets&quot; deals 2 damage to target opponent or planeswalker.</text>			
 		</card>		
 		<card>			
 			<name>Pestilent Spirit</name>			
@@ -870,7 +956,7 @@ When Rafter Demon enters the battlefield, if its spectacle cost was paid, each o
 		</card>		
 		<card>			
 			<name>Rakdos Roustabout</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/5/e/5ed534af-e16a-4d1d-8884-938fc7e13ca8.jpg?1546875237" rarity="Common">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/5/e/5ed534af-e16a-4d1d-8884-938fc7e13ca8.jpg?1546880406" rarity="Common">RNA</set>			
 			<manacost>1BR</manacost>			
 			<cmc>3</cmc>			
 			<color>B</color>			
@@ -878,7 +964,7 @@ When Rafter Demon enters the battlefield, if its spectacle cost was paid, each o
 			<type>Creature — Ogre Warrior</type>			
 			<pt>3/2</pt>			
 			<tablerow>2</tablerow>			
-			<text>Whenever Rakdos Roustabout becomes blocked, it deals 1 damage to the player or planeswalker its attacking.</text>			
+			<text>Whenever Rakdos Roustabout becomes blocked, it deals 1 damage to the player or planeswalker it's attacking.</text>			
 		</card>		
 		<card>			
 			<name>Rakdos, the Showstopper</name>			
@@ -944,7 +1030,7 @@ When Rix Maadi Reveler enters the battlefield, discard a card, then draw a card.
 		</card>		
 		<card>			
 			<name>Sauroform Hybrid</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/2/f/2f7ecad5-8bb5-416f-b8ef-a04aba4dc4b5.jpg?1546875584" rarity="Common">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/f/2f7ecad5-8bb5-416f-b8ef-a04aba4dc4b5.jpg?1546946236" rarity="Common">RNA</set>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
 			<color>G</color>			
@@ -955,7 +1041,7 @@ When Rix Maadi Reveler enters the battlefield, discard a card, then draw a card.
 		</card>		
 		<card>			
 			<name>Savage Smash</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/4/c/4ca942d7-a3a3-429f-a159-fc2363d9bca6.jpg?1546875306" rarity="Common">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/c/4ca942d7-a3a3-429f-a159-fc2363d9bca6.jpg?1546882751" rarity="Common">RNA</set>			
 			<manacost>1RG</manacost>			
 			<cmc>3</cmc>			
 			<color>R</color>			
@@ -963,6 +1049,31 @@ When Rix Maadi Reveler enters the battlefield, discard a card, then draw a card.
 			<type>Sorcery</type>			
 			<tablerow>3</tablerow>			
 			<text>Target creature you control gets +2/+2 until end of turn. It fights target creature you don't control. (Each deals damage equal to its power to the other.)</text>			
+		</card>		
+		<card>			
+			<name>&quot;Science Has Gone Too Far&quot;</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/2/8/280f2a85-1900-460b-a768-164fc2dea636.jpg?1546909388" rarity="Uncommon">RNA</set>			
+			<manacost>U</manacost>			
+			<cmc>1</cmc>			
+			<color>U</color>			
+			<type>Creature — Salamander Drake</type>			
+			<pt>1/1</pt>			
+			<tablerow>2</tablerow>			
+			<text>Flying
+{7}{U}: Adapt 4. This ability costs {1} less to activate for each instant and sorcery card in your graveyard. (If this creature has no +1/+1 counters on it, put four +1/+1 counters on it.)</text>			
+		</card>		
+		<card>			
+			<name>Senate Guildmage</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/9/1/913b3a2a-e3fd-4095-ab2a-5e356ea179df.jpg?1546910523" rarity="Uncommon">RNA</set>			
+			<manacost>WU</manacost>			
+			<cmc>2</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Creature — Human Wizard</type>			
+			<pt>2/2</pt>			
+			<tablerow>2</tablerow>			
+			<text>{W}, {T}: You gain 2 life.
+{U}, {T}: Draw a card, then discard a card.</text>			
 		</card>		
 		<card>			
 			<name>Seraph of the Scales</name>			
@@ -981,7 +1092,7 @@ Afterlife 2 (When this creature dies, create two 1/1 white and black Spirit crea
 		</card>		
 		<card>			
 			<name>Silhana Wayfinder</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/e/a/ea6cd6a5-da6c-483c-a9f7-49e666ac0b6c.jpg?1546875978" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/a/ea6cd6a5-da6c-483c-a9f7-49e666ac0b6c.jpg?1546945842" rarity="Uncommon">RNA</set>			
 			<manacost>1G</manacost>			
 			<cmc>2</cmc>			
 			<color>G</color>			
@@ -1071,18 +1182,6 @@ Each creature you control with a +1/+1 counter on it has flying.</text>
 			<text>Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a colorless Treasure artifact token with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;</text>			
 		</card>		
 		<card>			
-			<name>&quot;Space Jockey&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/2/6/26dd6a1d-4dcb-4392-9856-c0e4140efbd7.jpg?1546877756" rarity="Uncommon">RNA</set>			
-			<manacost>1GU</manacost>			
-			<cmc>3</cmc>			
-			<color>U</color>			
-			<color>G</color>			
-			<type>Creature — Veldaken Wizard</type>			
-			<pt>1/1</pt>			
-			<tablerow>2</tablerow>			
-			<text>{T}: Add {G}{U}.</text>			
-		</card>		
-		<card>			
 			<name>Spawn of Mayhem</name>			
 			<set picURL="https://img.scryfall.com/cards/large/front/8/b/8be01b8d-e0ef-44d1-ac97-39bb5a0e76be.jpg?1546551601" rarity="Mythic Rare">RNA</set>			
 			<manacost>2BB</manacost>			
@@ -1110,7 +1209,7 @@ At the beginning of your upkeep, scry 1.</text>
 		</card>		
 		<card>			
 			<name>Sphinx of New Prahv</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/d/9/d9aec56e-50a3-491f-89c6-32907ea3161a.jpg?1546818407" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/d/9/d9aec56e-50a3-491f-89c6-32907ea3161a.jpg?1546946052" rarity="Uncommon">RNA</set>			
 			<manacost>WWUU</manacost>			
 			<cmc>4</cmc>			
 			<color>W</color>			
@@ -1144,19 +1243,8 @@ Addendum - If you cast this spell during your main phase, you gain 2 life.</text
 As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>			
 		</card>		
 		<card>			
-			<name>&quot;Strong and Stabby&quot;</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/4/6/46cc8574-7b8c-492c-8a36-75cb0192f853.jpg?1546880232" rarity="Rare">RNA</set>			
-			<manacost>2W</manacost>			
-			<cmc>3</cmc>			
-			<color>W</color>			
-			<type>Instant</type>			
-			<tablerow>3</tablerow>			
-			<text>Creatures you control gain indestructible until end of turn.
-Addendum - If you cast this spell during your main phase, put a +1/+1 counter on each of those creatures, and they also gain vigilance until end of turn.</text>			
-		</card>		
-		<card>			
 			<name>Syndicate Guildmage</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/e/8/e82d3c8d-849a-445b-bc7c-365514d1511f.jpg?1546875959" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/e/8/e82d3c8d-849a-445b-bc7c-365514d1511f.jpg?1546881179" rarity="Uncommon">RNA</set>			
 			<manacost>WB</manacost>			
 			<cmc>2</cmc>			
 			<color>W</color>			
@@ -1182,7 +1270,7 @@ Creature tokens you control have vigilance and lifelink.</text>
 		</card>		
 		<card>			
 			<name>Theater of Horrors</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/a/d/ad42efd5-79c8-44f9-b3d6-d9058e0cb0f6.jpg?1546873720" rarity="Rare">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/a/d/ad42efd5-79c8-44f9-b3d6-d9058e0cb0f6.jpg?1546946077" rarity="Rare">RNA</set>			
 			<manacost>1BR</manacost>			
 			<cmc>3</cmc>			
 			<color>B</color>			
@@ -1231,7 +1319,7 @@ Afterlife 1 (When this creature dies, create a 1/1 white and black Spirit creatu
 		</card>		
 		<card>			
 			<name>Trollbred Guardian</name>			
-			<set picURL="https://img.scryfall.com/cards/large/front/8/e/8e3e51f6-7091-4cf3-86a3-b8c5946f3796.jpg?1546879090" rarity="Uncommon">RNA</set>			
+			<set picURL="https://img.scryfall.com/cards/large/front/8/e/8e3e51f6-7091-4cf3-86a3-b8c5946f3796.jpg?1546904577" rarity="Uncommon">RNA</set>			
 			<manacost>4G</manacost>			
 			<cmc>5</cmc>			
 			<color>G</color>			
@@ -1240,6 +1328,17 @@ Afterlife 1 (When this creature dies, create a 1/1 white and black Spirit creatu
 			<tablerow>2</tablerow>			
 			<text>{2}{G}: Adapt 2. (If this creature has no +1/+1 counters on it, put two +1/+1 counters on it.)
 Each creature you control with a +1/+1 counter on it has trample.</text>			
+		</card>		
+		<card>			
+			<name>Unbreakable Formation</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/4/6/46cc8574-7b8c-492c-8a36-75cb0192f853.jpg?1546945632" rarity="Rare">RNA</set>			
+			<manacost>2W</manacost>			
+			<cmc>3</cmc>			
+			<color>W</color>			
+			<type>Instant</type>			
+			<tablerow>3</tablerow>			
+			<text>Creatures you control gain indestructible until end of turn.
+Addendum - If you cast this spell during your main phase, put a +1/+1 counter on each of those creatures, and they also gain vigilance until end of turn.</text>			
 		</card>		
 		<card>			
 			<name>Verity Circle</name>			
@@ -1251,6 +1350,19 @@ Each creature you control with a +1/+1 counter on it has trample.</text>
 			<tablerow>1</tablerow>			
 			<text>Whenever a creature an opponent controls becomes tapped, if it isn't being declared as an attacker, you may draw a card.
 {4}{U}: Tap target creature without flying.</text>			
+		</card>		
+		<card>			
+			<name>Warrant // Warden</name>			
+			<set picURL="https://img.scryfall.com/cards/large/front/0/0/0070651d-79aa-4ea6-b703-6ecd3528b548.jpg?1546946092" rarity="Rare">RNA</set>			
+			<manacost>W/UW/U // 3WU</manacost>			
+			<cmc>6 // 5</cmc>			
+			<color>W</color>			
+			<color>U</color>			
+			<type>Instant // Sorcery</type>			
+			<tablerow>3</tablerow>			
+			<text>Put target attacking or blocking creature on top of its owner's library.
+---
+Create a 4/4 white and blue Sphinx creature token with flying and vigilance.</text>			
 		</card>		
 		<card>			
 			<name>Wilderness Reclamation</name>			
