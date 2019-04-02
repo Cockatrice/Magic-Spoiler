@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="4">
   <!--
-Created At: Tue, Apr 02 2019, 17:16:28 (UTC)
+Created At: Tue, Apr 02 2019, 22:35:40 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -13,21 +13,21 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
   </sets>
   <cards>
     <card>
-      <name>"No Fire, No Steely Eyes"</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/a/aa3a4cb5-945e-4caf-8a18-1ef977879fe8.jpg?1554121368">WAR</set>
-      <manacost>2B/RB/R</manacost>
-      <cmc>0.0</cmc>
-      <color>B</color>
+      <name>"I'm flying, Jack!"</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/d/fd97b3cf-924e-4f77-bb82-0bf19592389f.jpg?1554223208">WAR</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
       <color>R</color>
-      <type>Legendary Planeswalker - Angrath</type>
-      <loyalty>5</loyalty>
-      <tablerow>1</tablerow>
-      <text>Creatures you control have menace.
--2: Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+      <type>Creature - Zombie Wizard</type>
+      <pt>1/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+Whenever "I'm flying, Jack!" attacks, you may cast target instant or sorcery card with converted mana cost less than or equal to "I'm flying, Jack!"'s power from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.</text>
     </card>
     <card>
-      <name>"Wheat Farmer of Bolas"</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/d/2dea2466-5c7f-40ce-b749-100ae89d2c90.jpg?1554134001">WAR</set>
+      <name>Ahn-Crop Invader</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/d/2dea2466-5c7f-40ce-b749-100ae89d2c90.jpg?1554225022">WAR</set>
       <manacost>2R</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -35,12 +35,12 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <pt>2/2</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>As long as it's your turn, "Wheat Farmer of Bolas" has first strike.
-{1}, Sacrifice another creature: "Wheat Farmer of Bolas" gets +2/+0 until end of turn.</text>
+      <text>As long as it's your turn, Ahn-Crop Invader has first strike.
+{1}, Sacrifice another creature: Ahn-Crop Invader gets +2/+0 until end of turn.</text>
     </card>
     <card>
       <name>Ajani's Pridemate</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/3/b3656310-093d-4724-a399-7f7010843b1f.jpg?1554039929">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/3/b3656310-093d-4724-a399-7f7010843b1f.jpg?1554224322">WAR</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -52,7 +52,7 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     </card>
     <card>
       <name>Ajani, the Greathearted</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/c/6cc78151-8cb0-4521-9674-fb0c67e24a17.jpg?1554039919">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/c/6cc78151-8cb0-4521-9674-fb0c67e24a17.jpg?1554225409">WAR</set>
       <manacost>2GW</manacost>
       <cmc>4.0</cmc>
       <color>G</color>
@@ -65,8 +65,8 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.</text>
     </card>
     <card>
-      <name>Angrath's Wrath</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/5/f5a39379-7313-463a-9a02-e5157b9557f4.jpg?1554144557">WAR</set>
+      <name>Angrath's Rampage</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/5/f5a39379-7313-463a-9a02-e5157b9557f4.jpg?1554226158">WAR</set>
       <manacost>BR</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -74,14 +74,27 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <type>Sorcery</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Choose one:
+      <text>Choose one&#8212;
 &#8226; Target player sacrifices an artifact.
 &#8226; Target player sacrifices a creature.
 &#8226; Target player sacrifices a planeswalker.</text>
     </card>
     <card>
+      <name>Angrath, Captain of Chaos</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/a/aa3a4cb5-945e-4caf-8a18-1ef977879fe8.jpg?1554225522">WAR</set>
+      <manacost>2B/RB/R</manacost>
+      <cmc>0.0</cmc>
+      <color>B</color>
+      <color>R</color>
+      <type>Legendary Planeswalker - Angrath</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>Creatures you control have menace.
+-2: Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
       <name>Arlinn's Wolf</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/4/747223a5-c669-4d0e-a062-265eb47710cd.jpg?1554048320">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/4/747223a5-c669-4d0e-a062-265eb47710cd.jpg?1554225125">WAR</set>
       <manacost>2G</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -93,7 +106,7 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     </card>
     <card>
       <name>Arlinn, Voice of the Pack</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/3/5391d2f1-e8d3-4d39-98cf-367888e10534.jpg?1554048235">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/3/5391d2f1-e8d3-4d39-98cf-367888e10534.jpg?1554225135">WAR</set>
       <manacost>4GG</manacost>
       <cmc>6.0</cmc>
       <color>G</color>
@@ -130,7 +143,7 @@ You may play the top card of your library. If you cast a spell this way, pay lif
     </card>
     <card>
       <name>Burning Prophet</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/1/01c5b095-13c9-4673-bf0c-553de455e521.jpg?1554120363">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/1/01c5b095-13c9-4673-bf0c-553de455e521.jpg?1554225026">WAR</set>
       <manacost>1R</manacost>
       <cmc>2.0</cmc>
       <color>R</color>
@@ -142,7 +155,7 @@ You may play the top card of your library. If you cast a spell this way, pay lif
     </card>
     <card>
       <name>Cruel Celebrant</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/7/87ead6ac-b1c5-4852-8413-7fa43c6cfc57.jpg?1554121847">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/7/87ead6ac-b1c5-4852-8413-7fa43c6cfc57.jpg?1554225429">WAR</set>
       <manacost>WB</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -155,7 +168,7 @@ You may play the top card of your library. If you cast a spell this way, pay lif
     </card>
     <card>
       <name>Crush Dissent</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/4/94c70f23-0ca9-425e-a53a-6c09921c0075.jpg?1554113330">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/4/94c70f23-0ca9-425e-a53a-6c09921c0075.jpg?1554224442">WAR</set>
       <manacost>3U</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -167,7 +180,7 @@ Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control on
     </card>
     <card>
       <name>Davriel's Shadowfugue</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/9/09c8fe63-37a7-478d-b9ba-33a0f6519cf1.jpg?1554157890">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/9/09c8fe63-37a7-478d-b9ba-33a0f6519cf1.jpg?1554224700">WAR</set>
       <manacost>3B</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -178,7 +191,7 @@ Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control on
     </card>
     <card>
       <name>Davriel, Rogue Shadowmage</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/b/5b1a44f0-1db8-406a-b7d9-f883f947f7bd.jpg?1554143302">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/b/5b1a44f0-1db8-406a-b7d9-f883f947f7bd.jpg?1554224696">WAR</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -202,8 +215,23 @@ Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control on
 Counter target noncreature spell.</text>
     </card>
     <card>
+      <name>Dreadhorde Butcher</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/5/457bc402-4c31-465c-95e1-694f686e257e.jpg?1554223469">WAR</set>
+      <manacost>BR</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <color>R</color>
+      <type>Creature - Zombie Warrior</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Haste
+Whenever Dreadhorde Butcher deals combat damage to a player or planeswalker, put a +1/+1 counter on Dreadhorde Butcher.
+When Dreadhorde Butcher dies, it deals damage equal to its power to any target.</text>
+    </card>
+    <card>
       <name>Dreadhorde Invasion</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/4/04c6e42d-991d-4e6b-a900-38480931f79e.jpg?1554039856">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/4/04c6e42d-991d-4e6b-a900-38480931f79e.jpg?1554224704">WAR</set>
       <manacost>1B</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -215,7 +243,7 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
     </card>
     <card>
       <name>Emergence Zone</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/b/ab95f6e7-b806-47fe-a071-6c38b3176d94.jpg?1554088771">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/b/ab95f6e7-b806-47fe-a071-6c38b3176d94.jpg?1554225716">WAR</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Land</type>
@@ -226,7 +254,7 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
     </card>
     <card>
       <name>Erratic Visionary</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/3/03188bc3-0ef1-40cd-9c3c-4bb4d806fb92.jpg?1554120215">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/3/03188bc3-0ef1-40cd-9c3c-4bb4d806fb92.jpg?1554224477">WAR</set>
       <manacost>1U</manacost>
       <cmc>2.0</cmc>
       <color>U</color>
@@ -237,8 +265,35 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
       <text>{1}{U}, {T}: Draw a card, then discard a card.</text>
     </card>
     <card>
+      <name>Eternal Taskmaster</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/7/7789188e-5caa-4500-b3e4-bb95f7657903.jpg?1554222951">WAR</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <cipt>1</cipt>
+      <type>Creature - Zombie</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Eternal Taskmaster enters the battlefield tapped.
+Whenever Eternal Taskmaster attacks, you may pay {2}{B}. If you do, return target creature card from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Fblthp, the Lost</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/2/52558748-6893-4c72-a9e2-e87d31796b59.jpg?1554222856">WAR</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Legendary Creature - Homunculus</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Fblthp, the Lost enters the battlefield, draw a card. If it entered from your library or was cast from your library, draw two cards instead.
+When Fblthp becomes the target of a spell, shuffle Fblthp into its owner's library.</text>
+    </card>
+    <card>
       <name>Flux Channeler</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/6/c6202e82-e159-482f-9224-292cb533171c.jpg?1554039918">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/6/c6202e82-e159-482f-9224-292cb533171c.jpg?1554224434">WAR</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -270,7 +325,7 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
     </card>
     <card>
       <name>Giant Growth</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/6/06ec9e8b-4bd8-4caf-a559-6514b7ab4ca4.jpg?1554153690">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/6/06ec9e8b-4bd8-4caf-a559-6514b7ab4ca4.jpg?1554225121">WAR</set>
       <manacost>G</manacost>
       <cmc>1.0</cmc>
       <color>G</color>
@@ -281,7 +336,7 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
     </card>
     <card>
       <name>Gideon's Triumph</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/6/d6610c6a-717f-406e-a49d-b6e548880946.jpg?1554122307">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/6/d6610c6a-717f-406e-a49d-b6e548880946.jpg?1554224327">WAR</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -291,8 +346,35 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
       <text>Target opponent sacrifices a creature that attacked or blocked this turn. If you control a Gideon planeswalker, that player sacrifices two of those creatures instead.</text>
     </card>
     <card>
+      <name>Gleaming Overseer</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/b/0b4604b4-df53-485c-a604-4d823b33d8ba.jpg?1554223770">WAR</set>
+      <manacost>1UB</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <color>U</color>
+      <type>Creature - Zombie Wizard</type>
+      <pt>1/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Gleaming Overseer enters the battlefield, amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)
+Zombie tokens you control have hexproof and menace.</text>
+    </card>
+    <card>
+      <name>Grim Initiate</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/9/29b6ec9d-3861-48bf-a198-dc7efba5d89c.jpg?1554223800">WAR</set>
+      <manacost>R</manacost>
+      <cmc>1.0</cmc>
+      <color>R</color>
+      <type>Creature - Zombie Warrior</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>First strike
+When Grim Initiate dies, amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
       <name>Herald of the Dreadhorde</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/7/d7ae9cb7-a3af-4224-89a5-a72f4d09dacf.jpg?1554039873">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/7/d7ae9cb7-a3af-4224-89a5-a72f4d09dacf.jpg?1554224712">WAR</set>
       <manacost>3B</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -304,7 +386,7 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
     </card>
     <card>
       <name>Honor the God-Pharaoh</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/5/75844d13-74f5-4008-9bc6-2f6d04f378aa.jpg?1554120444">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/5/75844d13-74f5-4008-9bc6-2f6d04f378aa.jpg?1554225032">WAR</set>
       <manacost>2R</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -316,7 +398,7 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
     </card>
     <card>
       <name>Ignite the Beacon</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/e/4e11d6f9-0b80-4b19-ab96-23f80b66b409.jpg?1554039956">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/e/4e11d6f9-0b80-4b19-ab96-23f80b66b409.jpg?1554224331">WAR</set>
       <manacost>4W</manacost>
       <cmc>5.0</cmc>
       <color>W</color>
@@ -327,7 +409,7 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
     </card>
     <card>
       <name>Interplanar Beacon</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/3/132d8e2a-e1dd-4867-8e8c-e48b9450b350.jpg?1554039949">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/3/132d8e2a-e1dd-4867-8e8c-e48b9450b350.jpg?1554225805">WAR</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Land</type>
@@ -339,7 +421,7 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
     </card>
     <card>
       <name>Invade the City</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/5/a587eb67-c2df-486c-9c48-dfeac540efe8.jpg?1554039869">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/5/a587eb67-c2df-486c-9c48-dfeac540efe8.jpg?1554225434">WAR</set>
       <manacost>1UR</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -371,7 +453,7 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
     </card>
     <card>
       <name>Jace, Wielder of Mysteries</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1554153179">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1554224438">WAR</set>
       <manacost>1UUU</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -384,7 +466,7 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
     </card>
     <card>
       <name>Jiang Yanggu, Wildcrafter</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/0/10e0d47d-b13c-4d48-881f-8aaa347ef209.jpg?1554158750">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/0/10e0d47d-b13c-4d48-881f-8aaa347ef209.jpg?1554225147">WAR</set>
       <manacost>2G</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -396,7 +478,7 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
     </card>
     <card>
       <name>Karn's Bastion</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/9/b9d895af-7e8c-419f-bc5d-5596083fbfb6.jpg?1554118578">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/9/b9d895af-7e8c-419f-bc5d-5596083fbfb6.jpg?1554227704">WAR</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Land</type>
@@ -407,7 +489,7 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
     </card>
     <card>
       <name>Kaya's Ghostform</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/8/98f3be88-24e2-433f-9138-f0cb59d09a0f.jpg?1554121785">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/8/98f3be88-24e2-433f-9138-f0cb59d09a0f.jpg?1554224903">WAR</set>
       <manacost>B</manacost>
       <cmc>1.0</cmc>
       <color>B</color>
@@ -419,7 +501,7 @@ When enchanted permanent dies or is put into exile, return that card to the batt
     </card>
     <card>
       <name>Kaya, Bane of the Dead</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/9/a9b575d3-f3f9-4ff4-8e5c-da7c2ec69882.jpg?1554117407">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/9/a9b575d3-f3f9-4ff4-8e5c-da7c2ec69882.jpg?1554225485">WAR</set>
       <manacost>3W/BW/BW/B</manacost>
       <cmc>6.0</cmc>
       <color>B</color>
@@ -432,7 +514,7 @@ When enchanted permanent dies or is put into exile, return that card to the batt
     </card>
     <card>
       <name>Kiora's Dambreaker</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/c/acd61fb0-a82b-4f46-8043-c6b89764720b.jpg?1554158496">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/c/acd61fb0-a82b-4f46-8043-c6b89764720b.jpg?1554224478">WAR</set>
       <manacost>5U</manacost>
       <cmc>6.0</cmc>
       <color>U</color>
@@ -444,7 +526,7 @@ When enchanted permanent dies or is put into exile, return that card to the batt
     </card>
     <card>
       <name>Kiora, Behemoth Beckoner</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/a/7a61b1a6-a75f-47b0-b215-de9708b6d773.jpg?1554118674">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/a/7a61b1a6-a75f-47b0-b215-de9708b6d773.jpg?1554225601">WAR</set>
       <manacost>2G/U</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -468,7 +550,7 @@ When enchanted permanent dies or is put into exile, return that card to the batt
     </card>
     <card>
       <name>Liliana, Dreadhorde General</name>
-      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/d/7/d75ebba8-34ca-47a0-bf13-8318ad73b343.jpg?1554153201">WAR</set>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/d/7/d75ebba8-34ca-47a0-bf13-8318ad73b343.jpg?1554224908">WAR</set>
       <manacost>4BB</manacost>
       <cmc>6.0</cmc>
       <color>B</color>
@@ -502,7 +584,7 @@ When enchanted permanent dies or is put into exile, return that card to the batt
     </card>
     <card>
       <name>Mowu, Loyal Companion</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/4/f41a191c-c42e-42ec-89bd-cc1bc215ffbc.jpg?1554164261">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/4/f41a191c-c42e-42ec-89bd-cc1bc215ffbc.jpg?1554225203">WAR</set>
       <manacost>3G</manacost>
       <cmc>4.0</cmc>
       <color>G</color>
@@ -510,12 +592,12 @@ When enchanted permanent dies or is put into exile, return that card to the batt
       <pt>3/3</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Vigilance, trample
+      <text>Trample, vigilance
 If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many plus one +1/+1 counters are put on it instead.</text>
     </card>
     <card>
       <name>Naga Eternal</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/f/0f244233-f2e8-48f8-9106-e7cd186efd51.jpg?1554120299">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/f/0f244233-f2e8-48f8-9106-e7cd186efd51.jpg?1554224522">WAR</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -526,8 +608,21 @@ If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many p
       <text/>
     </card>
     <card>
+      <name>Neheb, Dreadhorde Champion</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/0/60c90d5d-7b3b-48d2-85f6-d6a2a452c0e9.jpg?1554222748">WAR</set>
+      <manacost>2RR</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <type>Legendary Creature - Zombie Minotaur Warrior</type>
+      <pt>5/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+Whenever Neheb, Dreadhorde Champion deals combat damage to a player or planeswalker, you may discard any number of cards. If you do, draw that many cards and add that much {R}. Until end of turn, you don't lose this mana as steps and phases end.</text>
+    </card>
+    <card>
       <name>No Escape</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/c/bc9888a1-6f35-4802-b8fb-902017736d4a.jpg?1554039892">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/c/bc9888a1-6f35-4802-b8fb-902017736d4a.jpg?1554224514">WAR</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -539,7 +634,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Ob Nixilis's Cruelty</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/4/94db72a8-57f7-4f17-9f09-cae90ef50304.jpg?1554117951">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/4/94db72a8-57f7-4f17-9f09-cae90ef50304.jpg?1554224933">WAR</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -550,7 +645,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Ob Nixilis, the Hate-Twisted</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/4/14916e2d-73af-4747-a927-d2d4cb3e32db.jpg?1554117958">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/4/14916e2d-73af-4747-a927-d2d4cb3e32db.jpg?1554224915">WAR</set>
       <manacost>3BB</manacost>
       <cmc>5.0</cmc>
       <color>B</color>
@@ -595,7 +690,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Ravnica at War</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/0/e0f83824-43c6-4101-88fd-9109958b23e2.jpg?1554039910">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/0/e0f83824-43c6-4101-88fd-9109958b23e2.jpg?1554224335">WAR</set>
       <manacost>3W</manacost>
       <cmc>4.0</cmc>
       <color>W</color>
@@ -606,7 +701,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Relentless Advance</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/2/4258e242-91c6-4b30-86ec-7759705aa97c.jpg?1554039450">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/2/4258e242-91c6-4b30-86ec-7759705aa97c.jpg?1554224530">WAR</set>
       <manacost>3U</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -617,7 +712,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Rising Populace</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/d/edcacc28-aacf-4d40-b8cc-f8c028380340.jpg?1554121832">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/d/edcacc28-aacf-4d40-b8cc-f8c028380340.jpg?1554224353">WAR</set>
       <manacost>2W</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -629,7 +724,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Samut's Sprint</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/4/94bda699-2b5d-4f5b-bee5-792b99d2b64a.jpg?1554119673">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/4/94bda699-2b5d-4f5b-bee5-792b99d2b64a.jpg?1554225069">WAR</set>
       <manacost>R</manacost>
       <cmc>1.0</cmc>
       <color>R</color>
@@ -640,7 +735,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Samut, Tyrant Smasher</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/0/e0457e3f-56c1-401b-8e08-f04b95c55e2d.jpg?1554119747">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/0/e0457e3f-56c1-401b-8e08-f04b95c55e2d.jpg?1554225697">WAR</set>
       <manacost>2R/GR/G</manacost>
       <cmc>4.0</cmc>
       <color>G</color>
@@ -684,7 +779,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Teferi, Time Raveler</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/c/5cb76266-ae50-4bbc-8f96-d98f309b02d3.jpg?1554118785">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/c/5cb76266-ae50-4bbc-8f96-d98f309b02d3.jpg?1554225533">WAR</set>
       <manacost>1WU</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -698,7 +793,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Teyo's Lightshield</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/f/dfffe235-98b1-43db-9461-1b2da5f0690e.jpg?1554143410">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/f/dfffe235-98b1-43db-9461-1b2da5f0690e.jpg?1554224364">WAR</set>
       <manacost>2W</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -710,7 +805,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Teyo, the Shieldmage</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/9/a974571c-d8d5-4860-9077-2023e5f32a24.jpg?1554143400">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/9/a974571c-d8d5-4860-9077-2023e5f32a24.jpg?1554224358">WAR</set>
       <manacost>2W</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -737,7 +832,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>The Wanderer</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/0/d0f0e463-9eed-4348-af7c-fde5f0d8188c.jpg?1554121924">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/0/d0f0e463-9eed-4348-af7c-fde5f0d8188c.jpg?1554224373">WAR</set>
       <manacost>3W</manacost>
       <cmc>4.0</cmc>
       <color>W</color>
@@ -749,7 +844,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Tibalt's Rager</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/9/2985520d-dfce-414e-a4ac-61695be67406.jpg?1554039763">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/9/2985520d-dfce-414e-a4ac-61695be67406.jpg?1554225050">WAR</set>
       <manacost>1R</manacost>
       <cmc>2.0</cmc>
       <color>R</color>
@@ -762,7 +857,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Tibalt, Rakish Instigator</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/f/7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg?1554039752">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/f/7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg?1554225057">WAR</set>
       <manacost>2R</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -785,8 +880,19 @@ Scry 1.</text>
       <text>Return a creature you control to its owner's hand, then destroy all creatures.</text>
     </card>
     <card>
+      <name>Totally Lost</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/d/adffef78-f776-42d3-ab40-3347c8e5c88b.jpg?1554229433">WAR</set>
+      <manacost>4U</manacost>
+      <cmc>5.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Put target nonland permanent on top of its owner's library.</text>
+    </card>
+    <card>
       <name>Vivien's Arkbow</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/e/eecc846f-5b78-4d54-8d29-642ad7a852bc.jpg?1554152006">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/e/eecc846f-5b78-4d54-8d29-642ad7a852bc.jpg?1554225219">WAR</set>
       <manacost>1G</manacost>
       <cmc>2.0</cmc>
       <color>G</color>
@@ -797,7 +903,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Vivien's Grizzly</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/3/7/37f2571b-6756-462c-9e71-3121fa458160.jpg?1554143366">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/3/7/37f2571b-6756-462c-9e71-3121fa458160.jpg?1554225224">WAR</set>
       <manacost>2G</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -809,7 +915,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Vivien, Champion of the Wilds</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/f/ff3986d7-9b3d-4082-8d72-ce59c9fcd5d5.jpg?1554175214">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/f/ff3986d7-9b3d-4082-8d72-ce59c9fcd5d5.jpg?1554225210">WAR</set>
       <manacost>2G</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -822,7 +928,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Vraska's Finisher</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/8/f89fa379-7fae-4fbf-8e31-0ef3645353c5.jpg?1554039934">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/8/f89fa379-7fae-4fbf-8e31-0ef3645353c5.jpg?1554224927">WAR</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -834,7 +940,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Vraska, Swarm's Eminence</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/9/59ee2974-07e9-4506-903c-457cb7327dd8.jpg?1554039939">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/9/59ee2974-07e9-4506-903c-457cb7327dd8.jpg?1554225559">WAR</set>
       <manacost>2B/GB/G</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -847,7 +953,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Wanderer's Strike</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/5/85e1d63e-9692-4988-bda2-7c2c9b42217b.jpg?1554119970">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/5/85e1d63e-9692-4988-bda2-7c2c9b42217b.jpg?1554224413">WAR</set>
       <manacost>4W</manacost>
       <cmc>5.0</cmc>
       <color>W</color>
@@ -858,7 +964,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Widespread Brutality</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/9/7/97715d22-f432-4f67-b4ea-47b8fe6edca5.jpg?1554039850">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/9/7/97715d22-f432-4f67-b4ea-47b8fe6edca5.jpg?1554225527">WAR</set>
       <manacost>1BRR</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
