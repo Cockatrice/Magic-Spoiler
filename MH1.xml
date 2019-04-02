@@ -1,43 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<cockatrice_carddatabase version='4'>
-<!--
-created: Mon, Apr 01 2019, 22:34:46 (UTC)
-by: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
+<cockatrice_carddatabase version="4">
+  <!--
+Created At: Tue, Apr 02 2019, 17:10:11 (UTC)
+Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
-<sets>
-<set>
-<name>MH1</name>
-<longname>Modern Horizons</longname>
-<settype>Expansion</settype>
-<releasedate>2019-06-14</releasedate>
-</set>
-</sets>
-<cards>
-<card>
-<name>Cabal Therapist</name>
-<set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/a/eaa8f485-0f3d-4a0b-bcdf-6c27d1d2bce0.jpg?1551375060">MH1</set>
-<manacost>B</manacost>
-<cmc>1.0</cmc>
-<color>B</color>
-<type>Creature - Horror</type>
-<pt>1/1</pt>
-<loyalty>None</loyalty>
-<tablerow>2</tablerow>
-<text>Menace
+  <sets>
+    <set>
+      <name>MH1</name>
+      <longname>Modern Horizons</longname>
+      <settype>Expansion</settype>
+      <releasedate>2019-06-14</releasedate>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Cabal Therapist</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/a/eaa8f485-0f3d-4a0b-bcdf-6c27d1d2bce0.jpg?1551375060">MH1</set>
+      <manacost>B</manacost>
+      <cmc>1.0</cmc>
+      <color>B</color>
+      <type>Creature - Horror</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Menace
 At the beginning of your precombat main phase, you may sacrifice a creature. When you do, choose a nonland card name, then target player reveals their hand and discards all cards with that name.</text>
-</card>
-<card>
-<name>Serra the Benevolent</name>
-<set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/8/88bf4af9-4b14-43e7-9d50-0e6a895cece1.jpg?1551375135">MH1</set>
-<manacost>2WW</manacost>
-<cmc>4.0</cmc>
-<color>W</color>
-<type>Legendary Planeswalker - Serra</type>
-<loyalty>4</loyalty>
-<tablerow>1</tablerow>
-<text>+2: Creatures you control with flying get +1/+1 until end of turn.
+    </card>
+    <card>
+      <name>Serra the Benevolent</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/8/88bf4af9-4b14-43e7-9d50-0e6a895cece1.jpg?1551375135">MH1</set>
+      <manacost>2WW</manacost>
+      <cmc>4.0</cmc>
+      <color>W</color>
+      <type>Legendary Planeswalker - Serra</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>+2: Creatures you control with flying get +1/+1 until end of turn.
 -3: Create a 4/4 white Angel creature token with flying and vigilance.
 -6: You get an emblem with "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead."</text>
-</card>
-</cards>
+    </card>
+  </cards>
 </cockatrice_carddatabase>
