@@ -183,8 +183,7 @@ def open_header(card_xml_file: IO[Any]) -> None:
     :param card_xml_file: Card file path
     """
     card_xml_file.write(
-        "<?xml version='1.0' encoding='UTF-8'?>\n"
-        + "<cockatrice_carddatabase version='4'>\n"
+        "<cockatrice_carddatabase version='4'>\n"
         + "<!--\nCreated At: "
         + datetime.datetime.utcnow().strftime("%a, %b %d %Y, %H:%M:%S")
         + " (UTC)"
@@ -197,9 +196,7 @@ def fill_header_sets(card_xml_file: IO[Any], set_obj: Dict[str, str]) -> None:
     """
     Add header data for set files
     :param card_xml_file: Card file path
-    :param set_code: Set code
-    :param set_name: Set name
-    :param release_date: Release Date
+    :param set_obj: Set object
     """
     card_xml_file.write(
         "<set>\n<name>" + set_obj["code"] + "</name>\n"
@@ -393,7 +390,7 @@ def get_spoiler_sets() -> List[Dict[str, str]]:
     Download Sf sets and mark spoiler sets
     :return: Spoiler sets
     """
-    sf_sets = json_download("https://api.scryfall.com/sets/")
+    sf_sets = json_download(SCRYFALL_SET_URL.format(""))
     if sf_sets["object"] == "error":
         print("Unable to download SF correctly: {}".format(sf_sets))
         return []
