@@ -1,0 +1,1 @@
+"""Magic Spoiler Program"""

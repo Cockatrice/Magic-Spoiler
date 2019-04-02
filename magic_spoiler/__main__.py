@@ -1,52 +1,28 @@
+"""
+Handle Scryfall Spoilers
+"""
+import contextvars
 import datetime
 import pathlib
-import sys
-
-import contextvars
-from typing import Dict, Any, List, Union, Tuple
+import time
+from typing import IO, Any, Dict, List, Tuple, Union
 
 import requests
 import requests_cache
-import yaml
+from lxml import etree
 
-# Scryfall API for downloading spoiler sets
 SCRYFALL_SET_URL: str = "https://api.scryfall.com/sets/{}"
-
-# Downloader sessions for header consistency
 SESSION: contextvars.ContextVar = contextvars.ContextVar("SESSION_SCRYFALL")
+SPOILER_SETS: contextvars.ContextVar = contextvars.ContextVar("SPOILER_SETS")
 
 
-def load_yaml_file(
-    input_file: str, lib_to_use: str = "yaml"
-) -> Union[Dict[str, Any], List[Dict[str, Any]]]:
-    """
-    Load a yaml file from system
-    :param input_file: File to open
-    :param lib_to_use: Open format
-    :return: Loaded file
-    """
-    try:
-        with pathlib.Path(input_file).open("r") as f:
-            if lib_to_use == "yaml":
-                return yaml.safe_load(f)
-            else:
-                return [of for of in yaml.safe_load_all(f)]
-    except Exception as ex:
-        print("Unable to load {}: {}".format(input_file, ex.args))
-        sys.exit(2)
-
-
-# File containing all spoiler set details
-SET_INFO_FILE: List[Dict[str, Any]] = load_yaml_file("set_info.yml", "yaml_multi")
-
-
-def __get_session() -> requests.Session:
+def __get_session() -> Union[requests.Session, Any]:
     """
     Get the session for downloading content
     :return: Session
     """
     requests_cache.install_cache(
-        cache_name="scryfall_cache", backend="sqlite", expire_after=604800  # 1 week
+        cache_name="scryfall_cache", backend="sqlite", expire_after=7200  # 2 hours
     )
 
     if not SESSION.get(None):
@@ -54,10 +30,10 @@ def __get_session() -> requests.Session:
     return SESSION.get()
 
 
-def __download(scryfall_url: str) -> Dict[str, Any]:
+def json_download(scryfall_url: str) -> Dict[str, Any]:
     """
     Get the data from Scryfall in JSON format using our secret keys
-    :param scryfall_url: URL to __download JSON data from
+    :param scryfall_url: URL to json_download JSON data from
     :return: JSON object of the Scryfall data
     """
     session = __get_session()
@@ -73,7 +49,7 @@ def download_scryfall_set(set_code: str) -> List[Dict[str, Any]]:
     :param set_code: Set code
     :return: Card list
     """
-    set_content: Dict[str, Any] = __download(SCRYFALL_SET_URL.format(set_code))
+    set_content: Dict[str, Any] = json_download(SCRYFALL_SET_URL.format(set_code))
     if set_content["object"] == "error":
         print("API download failed for {}: {}".format(set_code, set_content))
         return []
@@ -85,9 +61,9 @@ def download_scryfall_set(set_code: str) -> List[Dict[str, Any]]:
     while download_url:
         page_downloaded += 1
 
-        cards = __download(download_url)
+        cards = json_download(download_url)
         if cards["object"] == "error":
-            print("Error downloading {0}: {1}".format(set_code, cards))
+            print("Set {} has no cards, skipping".format(set_code))
             break
 
         for card in cards["data"]:
@@ -101,7 +77,7 @@ def download_scryfall_set(set_code: str) -> List[Dict[str, Any]]:
     return sorted(spoiler_cards, key=lambda c: (c["name"], c["collector_number"]))
 
 
-def build_types(sf_card: Dict[str, Any]) -> Tuple[List[str], List[str], List[str]]:
+def build_types(sf_card: Dict[str, Any]) -> Tuple[List[str], str, List[str]]:
     """
     Build the super, type, and sub-types of a given card
     :param sf_card: Scryfall card
@@ -110,7 +86,8 @@ def build_types(sf_card: Dict[str, Any]) -> Tuple[List[str], List[str], List[str
     all_super_types = ["Legendary", "Snow", "Elite", "Basic", "World", "Ongoing"]
 
     # return values
-    super_types, types, sub_types = [], [], []
+    super_types: List[str] = []
+    sub_types: List[str] = []
 
     type_line = sf_card["type_line"]
 
@@ -122,14 +99,14 @@ def build_types(sf_card: Dict[str, Any]) -> Tuple[List[str], List[str], List[str
         if card_type in type_line:
             super_types.append(card_type)
 
-    types = type_line.split(u"—")[0]
+    types: str = type_line.split(u"—")[0]
     for card_type in all_super_types:
         types = types.replace(card_type, "")
 
     return super_types, types, sub_types
 
 
-def convert_scryfall(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def scryfall2mtgjson(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
     Convert SF cards to MTGJSON format for dispatching
     :param scryfall_cards: List of Scryfall cards
@@ -200,23 +177,23 @@ def convert_scryfall(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any
     return trice_cards
 
 
-def open_header(card_xml_file) -> None:
+def open_header(card_xml_file: IO[Any]) -> None:
     """
     Add the header data to the XML file
     :param card_xml_file: Card file path
     """
     card_xml_file.write(
         "<?xml version='1.0' encoding='UTF-8'?>\n"
-        "<cockatrice_carddatabase version='4'>\n"
-        "<!--\ncreated: "
+        + "<cockatrice_carddatabase version='4'>\n"
+        + "<!--\nCreated At: "
         + datetime.datetime.utcnow().strftime("%a, %b %d %Y, %H:%M:%S")
         + " (UTC)"
-        + "\nby: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler\n-->\n"
-        "<sets>\n"
+        + "\nCreated By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler\n-->\n"
+        + "<sets>\n"
     )
 
 
-def fill_header_sets(card_xml_file, set_code, set_name, release_date) -> None:
+def fill_header_sets(card_xml_file: IO[Any], set_obj: Dict[str, str]) -> None:
     """
     Add header data for set files
     :param card_xml_file: Card file path
@@ -225,15 +202,15 @@ def fill_header_sets(card_xml_file, set_code, set_name, release_date) -> None:
     :param release_date: Release Date
     """
     card_xml_file.write(
-        "<set>\n<name>" + set_code + "</name>\n"
-        "<longname>" + set_name + "</longname>\n"
+        "<set>\n<name>" + set_obj["code"] + "</name>\n"
+        "<longname>" + set_obj["name"] + "</longname>\n"
         "<settype>Expansion</settype>\n"
-        "<releasedate>" + release_date + "</releasedate>\n"
+        "<releasedate>" + set_obj["released_at"] + "</releasedate>\n"
         "</set>\n"
     )
 
 
-def close_header(card_xml_file) -> None:
+def close_header(card_xml_file: IO[Any]) -> None:
     """
     Add closing data to files
     :param card_xml_file: Card file path
@@ -241,12 +218,20 @@ def close_header(card_xml_file) -> None:
     card_xml_file.write("</sets>\n<cards>\n")
 
 
-def close_xml_file(card_xml_file) -> None:
+def close_xml_file(card_xml_file: IO[Any]) -> None:
     """
-    Add final touch to files to validate them
+    Add final touch to files to validate them,
+    then pretty them
     :param card_xml_file: Card file path
     """
     card_xml_file.write("</cards>\n</cockatrice_carddatabase>\n")
+    card_xml_file.close()
+
+    # Make the files pretty
+    parser = etree.XMLParser(remove_blank_text=True)
+    root = etree.parse(card_xml_file.name, parser).getroot()
+    with pathlib.Path(card_xml_file.name).open("wb") as f:
+        f.write(etree.tostring(root, pretty_print=True))
 
 
 def write_cards(
@@ -258,16 +243,12 @@ def write_cards(
     :param trice_dict: List of cards
     :param set_code: Set code
     """
-    count = 0
-    related = 0
-
     for card in trice_dict:
         if "names" in card.keys() and card["names"]:
             if "layout" in card and card["layout"] != "double-faced":
                 if card["name"] == card["names"][1]:
                     continue
 
-        count += 1
         set_name = card["name"]
 
         if "mana_cost" in card.keys():
@@ -277,11 +258,11 @@ def write_cards(
 
         if "power" in card.keys() or "toughness" in card.keys():
             if card["power"]:
-                pt = str(card["power"]) + "/" + str(card["toughness"])
+                pow_tough = str(card["power"]) + "/" + str(card["toughness"])
             else:
-                pt = 0
+                pow_tough = ""
         else:
-            pt = 0
+            pow_tough = ""
 
         if "text" in card.keys():
             text = card["text"]
@@ -311,14 +292,7 @@ def write_cards(
                     if "names" not in card.keys():
                         print(card["name"] + ' is double-faced but no "names" key')
                     else:
-                        for dfc_name in card["names"]:
-                            if dfc_name != card["name"]:
-                                related = dfc_name
-                else:
-                    print(
-                        card["name"]
-                        + " has names, but layout != split, aftermath, or double-faced"
-                    )
+                        pass
             else:
                 print(card["name"] + " has multiple names and no 'layout' key")
 
@@ -361,39 +335,32 @@ def write_cards(
 
         card_xml_file.write("<type>" + card_type + "</type>\n")
 
-        if pt:
-            card_xml_file.write("<pt>" + pt + "</pt>\n")
+        if pow_tough:
+            card_xml_file.write("<pt>" + pow_tough + "</pt>\n")
 
         if "loyalty" in card.keys():
             card_xml_file.write("<loyalty>" + str(card["loyalty"]) + "</loyalty>\n")
         card_xml_file.write("<tablerow>" + table_row + "</tablerow>\n")
         card_xml_file.write("<text>" + text + "</text>\n")
-
-        if related:
-            card_xml_file.write("<related>" + related + "</related>\n")
-            related = ""
-
         card_xml_file.write("</card>\n")
 
 
-def write_spoilers_xml(trice_dicts) -> None:
+def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
     """
     Write the spoiler.xml file
-    :param trice_dicts: Dict of entries
+    :param trice_dicts: Dict of dict entries
     """
-    pathlib.Path("out").mkdir(exist_ok=True)
-    card_xml_file = pathlib.Path("out/spoiler.xml").open("w")
+    pathlib.Path("../out").mkdir(exist_ok=True)
+    card_xml_file = pathlib.Path("../out/spoiler.xml").open("w")
 
     # Fill in set headers
     open_header(card_xml_file)
-    for value in SET_INFO_FILE:
-        fill_header_sets(
-            card_xml_file, value["code"], value["name"], value["releaseDate"]
-        )
+    for value in SPOILER_SETS.get():
+        fill_header_sets(card_xml_file, value)
     close_header(card_xml_file)
 
     # Write in all the cards
-    for value in SET_INFO_FILE:
+    for value in SPOILER_SETS.get():
         try:
             write_cards(card_xml_file, trice_dicts[value["code"]], value["code"])
         except KeyError:
@@ -402,47 +369,61 @@ def write_spoilers_xml(trice_dicts) -> None:
     close_xml_file(card_xml_file)
 
 
-def write_set_xml(
-    trice_dict: List[Dict[str, Any]], set_code: str, set_name: str, release_date: str
-) -> None:
+def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> None:
     """
     Write out a single magic set to XML format
     :param trice_dict: Cards to print
-    :param set_code: Set code
-    :param set_name: Set name
-    :param release_date: Set release date
+    :param set_obj: Set object
     """
     if not trice_dict:
         return
 
-    pathlib.Path("out").mkdir(exist_ok=True)
-    card_xml_file = pathlib.Path("out/{}.xml".format(set_code)).open("w")
+    pathlib.Path("../out").mkdir(exist_ok=True)
+    card_xml_file = pathlib.Path("../out/{}.xml".format(set_obj["code"])).open("w")
 
     open_header(card_xml_file)
-    fill_header_sets(card_xml_file, set_code, set_name, release_date)
+    fill_header_sets(card_xml_file, set_obj)
     close_header(card_xml_file)
-    write_cards(card_xml_file, trice_dict, set_code)
+    write_cards(card_xml_file, trice_dict, set_obj["code"])
     close_xml_file(card_xml_file)
+
+
+def get_spoiler_sets() -> List[Dict[str, str]]:
+    """
+    Download Sf sets and mark spoiler sets
+    :return: Spoiler sets
+    """
+    sf_sets = json_download("https://api.scryfall.com/sets/")
+    if sf_sets["object"] == "error":
+        print("Unable to download SF correctly: {}".format(sf_sets))
+        return []
+
+    spoiler_sets = []
+    for sf_set in sf_sets["data"]:
+        if sf_set["released_at"] >= time.strftime("%Y-%m-%d %H:%M:%S"):
+            if sf_set["set_type"] != "token":
+                sf_set["code"] = sf_set["code"].upper()
+                spoiler_sets.append(sf_set)
+
+    return spoiler_sets
 
 
 def main() -> None:
     """
     Main dispatch thread
     """
+    # Determine what sets have spoiler data
+    SPOILER_SETS.set(get_spoiler_sets())
+
     spoiler_xml = {}
-    for set_info in SET_INFO_FILE:
+    for set_info in SPOILER_SETS.get():
         print("Handling {}".format(set_info["code"]))
 
-        if not set_info["scryfallOnly"]:
-            continue
-
         cards = download_scryfall_set(set_info["code"])
-        trice_dict = convert_scryfall(cards)
+        trice_dict = scryfall2mtgjson(cards)
 
         # Write SET.xml
-        write_set_xml(
-            trice_dict, set_info["code"], set_info["name"], set_info["releaseDate"]
-        )
+        write_set_xml(trice_dict, set_info)
 
         # Save for spoiler.xml
         spoiler_xml[set_info["code"]] = trice_dict

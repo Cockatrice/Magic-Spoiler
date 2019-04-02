@@ -6,7 +6,7 @@ TARGET_BRANCH="files"
 
 function doCompile {
     echo "Running script..."
-    python3 main.py dumpXML=True
+    python3 -m magic_spoiler
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
@@ -48,7 +48,6 @@ echo TRAVIS_EVENT_TYPE ${TRAVIS_EVENT_TYPE}
 
 # Now let's go have some fun with the cloned repo
 cd out
-rm -f AllSets*
 ls
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
