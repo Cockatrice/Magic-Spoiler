@@ -350,8 +350,8 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
     Write the spoiler.xml file
     :param trice_dicts: Dict of dict entries
     """
-    pathlib.Path("../out").mkdir(exist_ok=True)
-    card_xml_file = pathlib.Path("../out/spoiler.xml").open("w")
+    pathlib.Path("out").mkdir(exist_ok=True)
+    card_xml_file = pathlib.Path("out/spoiler.xml").open("w")
 
     # Fill in set headers
     open_header(card_xml_file)
@@ -378,8 +378,8 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
     if not trice_dict:
         return
 
-    pathlib.Path("../out").mkdir(exist_ok=True)
-    card_xml_file = pathlib.Path("../out/{}.xml".format(set_obj["code"])).open("w")
+    pathlib.Path("out").mkdir(exist_ok=True)
+    card_xml_file = pathlib.Path("out/{}.xml".format(set_obj["code"])).open("w")
 
     open_header(card_xml_file)
     fill_header_sets(card_xml_file, set_obj)
