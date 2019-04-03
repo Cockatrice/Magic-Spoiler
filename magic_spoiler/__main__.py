@@ -1,6 +1,9 @@
 """
 Handle Scryfall Spoilers
 """
+import hashlib
+import shutil
+
 import contextvars
 import datetime
 import pathlib
@@ -14,6 +17,9 @@ from lxml import etree
 SCRYFALL_SET_URL: str = "https://api.scryfall.com/sets/{}"
 SESSION: contextvars.ContextVar = contextvars.ContextVar("SESSION_SCRYFALL")
 SPOILER_SETS: contextvars.ContextVar = contextvars.ContextVar("SPOILER_SETS")
+
+OUTPUT_DIR = pathlib.Path("out")
+OUTPUT_TMP_DIR = OUTPUT_DIR.joinpath("tmp")
 
 
 def __get_session() -> Union[requests.Session, Any]:
@@ -347,8 +353,10 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
     Write the spoiler.xml file
     :param trice_dicts: Dict of dict entries
     """
+    output_file_name = "spoiler.xml"
+
     pathlib.Path("out").mkdir(exist_ok=True)
-    card_xml_file = pathlib.Path("out/spoiler.xml").open("w")
+    card_xml_file = OUTPUT_TMP_DIR.joinpath(output_file_name).open("w")
 
     # Fill in set headers
     open_header(card_xml_file)
@@ -365,6 +373,42 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
 
     close_xml_file(card_xml_file)
 
+    old_xml_location = str(OUTPUT_DIR.joinpath(output_file_name))
+    if compare_xml_content(card_xml_file.name, old_xml_location):
+        print("New spoiler.xml same as before, skipping replacement")
+        return
+
+    # Move new version to old location
+    print("Replacing spoiler.xml with newer content")
+    shutil.move(card_xml_file.name, old_xml_location)
+
+
+def compare_xml_content(f1: str, f2: str) -> bool:
+    """
+    Compare the contents of two XML files and report
+    if the contents are the same, minus comments
+    :param f1: File 1
+    :param f2: File 2
+    :return: Is file content, minus comments, the same?
+    """
+    file1 = pathlib.Path(f1)
+    file2 = pathlib.Path(f2)
+
+    if file1.is_file() and file2.is_file():
+        parser = etree.XMLParser(remove_blank_text=True)
+        root = etree.parse(str(file1), parser).getroot()
+        etree.strip_tags(root, etree.Comment)
+        f1_hash = hashlib.sha512(etree.tostring(root)).hexdigest()
+
+        parser = etree.XMLParser(remove_blank_text=True)
+        root = etree.parse(str(file2), parser).getroot()
+        etree.strip_tags(root, etree.Comment)
+        f2_hash = hashlib.sha512(etree.tostring(root)).hexdigest()
+
+        return f1_hash == f2_hash
+
+    return False
+
 
 def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> None:
     """
@@ -375,14 +419,24 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
     if not trice_dict:
         return
 
-    pathlib.Path("out").mkdir(exist_ok=True)
-    card_xml_file = pathlib.Path("out/{}.xml".format(set_obj["code"])).open("w")
+    pathlib.Path("out/tmp").mkdir(exist_ok=True)
+    card_xml_file = OUTPUT_TMP_DIR.joinpath("{}.xml".format(set_obj["code"])).open("w")
 
     open_header(card_xml_file)
     fill_header_sets(card_xml_file, set_obj)
     close_header(card_xml_file)
     write_cards(card_xml_file, trice_dict, set_obj["code"])
     close_xml_file(card_xml_file)
+
+    # If content didn't change, discard newest creation
+    old_xml_location = str(OUTPUT_DIR.joinpath("{}.xml".format(set_obj["code"])))
+    if compare_xml_content(card_xml_file.name, old_xml_location):
+        print("New {}.xml same as before, skipping replacement".format(set_obj["code"]))
+        return
+
+    # Move new version to old location
+    print("Replacing {}.xml with newer content".format(set_obj["code"]))
+    shutil.move(card_xml_file.name, old_xml_location)
 
 
 def get_spoiler_sets() -> List[Dict[str, str]]:
@@ -397,18 +451,38 @@ def get_spoiler_sets() -> List[Dict[str, str]]:
 
     spoiler_sets = []
     for sf_set in sf_sets["data"]:
-        if sf_set["released_at"] >= time.strftime("%Y-%m-%d %H:%M:%S"):
-            if sf_set["set_type"] != "token":
-                sf_set["code"] = sf_set["code"].upper()
-                spoiler_sets.append(sf_set)
+        if (
+            sf_set["released_at"] >= time.strftime("%Y-%m-%d %H:%M:%S")
+            and sf_set["set_type"] != "token"
+            and sf_set["card_count"]
+        ):
+            sf_set["code"] = sf_set["code"].upper()
+            spoiler_sets.append(sf_set)
 
     return spoiler_sets
+
+
+def delete_old_files() -> None:
+    """
+    Delete files that are no longer necessary within the program
+    """
+    valid_files = [x["code"].upper() for x in SPOILER_SETS.get()] + [
+        "spoiler",
+        "SpoilerSeasonEnabled",
+    ]
+
+    for file in OUTPUT_DIR.glob("*.xml"):
+        if file.stem not in valid_files:
+            file.unlink()
+
+    shutil.rmtree(OUTPUT_TMP_DIR)
 
 
 def main() -> None:
     """
     Main dispatch thread
     """
+
     # Determine what sets have spoiler data
     SPOILER_SETS.set(get_spoiler_sets())
 
@@ -427,6 +501,9 @@ def main() -> None:
 
     # Write out the spoiler.xml file
     write_spoilers_xml(spoiler_xml)
+
+    # Cleanup outdated stuff that's not necessary
+    delete_old_files()
 
 
 if __name__ == "__main__":
