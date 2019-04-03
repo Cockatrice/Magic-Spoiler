@@ -550,7 +550,8 @@ def delete_old_files() -> None:
         if file.stem not in valid_files:
             file.unlink()
 
-    shutil.rmtree(OUTPUT_TMP_DIR)
+    if OUTPUT_TMP_DIR.is_dir():
+        shutil.rmtree(OUTPUT_TMP_DIR)
 
 
 def main() -> None:
