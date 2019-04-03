@@ -546,10 +546,10 @@ def delete_old_files() -> None:
         "README",
     ]
 
-    if OUTPUT_DIR.joinpath(".git").is_dir():
-        shutil.rmtree(OUTPUT_DIR.joinpath(".git"))
+    for file in OUTPUT_DIR.glob("*"):
+        if not file.is_file():
+            continue
 
-    for file in OUTPUT_DIR.glob("*.*"):
         if file.stem not in valid_files:
             file.unlink()
 
