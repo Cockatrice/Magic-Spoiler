@@ -543,6 +543,7 @@ def delete_old_files() -> None:
     valid_files = [x["code"].upper() for x in SPOILER_SETS.get()] + [
         "spoiler",
         "SpoilerSeasonEnabled",
+        "README",
     ]
 
     for file in OUTPUT_DIR.glob("*.*"):
