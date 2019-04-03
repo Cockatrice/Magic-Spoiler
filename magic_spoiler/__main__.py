@@ -2,6 +2,7 @@
 Handle Scryfall Spoilers
 """
 import hashlib
+import json
 import shutil
 
 import contextvars
@@ -383,6 +384,51 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
     shutil.move(card_xml_file.name, old_xml_location)
 
 
+def write_spoilers_json(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
+    """
+    Dump the JSON into a spoiler file
+    :param trice_dicts: All spoiled cards
+    """
+    if not trice_dicts:
+        return
+
+    output_file_path = OUTPUT_TMP_DIR.joinpath("spoiler.json")
+
+    OUTPUT_TMP_DIR.mkdir(exist_ok=True)
+    with output_file_path.open("w") as f:
+        json.dump(trice_dicts, f, sort_keys=True, indent=4)
+
+    # If content didn't change, discard newest creation
+    old_xml_location = str(OUTPUT_DIR.joinpath("spoiler.json"))
+    if compare_json_content(str(output_file_path), old_xml_location):
+        print("New spoiler.json same as before, skipping replacement")
+        return
+
+    # Move new version to old location
+    print("Replacing spoiler.json with newer content")
+    shutil.move(str(output_file_path), old_xml_location)
+
+
+def compare_json_content(f1: str, f2: str) -> bool:
+    """
+    Compare the contents of two JSON files and report
+    if the contents are the same, minus comments
+    :param f1: File 1
+    :param f2: File 2
+    :return: Is file content, minus comments, the same?
+    """
+    file1 = pathlib.Path(f1)
+    file2 = pathlib.Path(f2)
+
+    if file1.is_file() and file2.is_file():
+        f1_hash = hashlib.sha512(file1.open("r").read().encode()).hexdigest()
+        f2_hash = hashlib.sha512(file2.open("r").read().encode()).hexdigest()
+
+        return f1_hash == f2_hash
+
+    return False
+
+
 def compare_xml_content(f1: str, f2: str) -> bool:
     """
     Compare the contents of two XML files and report
@@ -419,7 +465,7 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
     if not trice_dict:
         return
 
-    pathlib.Path("out/tmp").mkdir(exist_ok=True)
+    OUTPUT_TMP_DIR.mkdir(exist_ok=True)
     card_xml_file = OUTPUT_TMP_DIR.joinpath("{}.xml".format(set_obj["code"])).open("w")
 
     open_header(card_xml_file)
@@ -437,6 +483,34 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
     # Move new version to old location
     print("Replacing {}.xml with newer content".format(set_obj["code"]))
     shutil.move(card_xml_file.name, old_xml_location)
+
+
+def write_set_json(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> None:
+    """
+    Dump the JSON into a spoiler file
+    :param trice_dict: Cards
+    :param set_obj: Set Information
+    """
+    if not trice_dict:
+        return
+
+    output_file_path = OUTPUT_TMP_DIR.joinpath("{}.json".format(set_obj["code"]))
+
+    OUTPUT_TMP_DIR.mkdir(exist_ok=True)
+    with output_file_path.open("w") as f:
+        json.dump(trice_dict, f, sort_keys=True, indent=4)
+
+    # If content didn't change, discard newest creation
+    old_xml_location = str(OUTPUT_DIR.joinpath("{}.json".format(set_obj["code"])))
+    if compare_json_content(str(output_file_path), old_xml_location):
+        print(
+            "New {}.json same as before, skipping replacement".format(set_obj["code"])
+        )
+        return
+
+    # Move new version to old location
+    print("Replacing {}.json with newer content".format(set_obj["code"]))
+    shutil.move(str(output_file_path), old_xml_location)
 
 
 def get_spoiler_sets() -> List[Dict[str, str]]:
@@ -495,12 +569,14 @@ def main() -> None:
 
         # Write SET.xml
         write_set_xml(trice_dict, set_info)
+        write_set_json(trice_dict, set_info)
 
         # Save for spoiler.xml
         spoiler_xml[set_info["code"]] = trice_dict
 
     # Write out the spoiler.xml file
     write_spoilers_xml(spoiler_xml)
+    write_spoilers_json(spoiler_xml)
 
     # Cleanup outdated stuff that's not necessary
     delete_old_files()
