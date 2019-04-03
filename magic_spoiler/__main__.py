@@ -545,7 +545,7 @@ def delete_old_files() -> None:
         "SpoilerSeasonEnabled",
     ]
 
-    for file in OUTPUT_DIR.glob("*.xml"):
+    for file in OUTPUT_DIR.glob("*.*"):
         if file.stem not in valid_files:
             file.unlink()
 
