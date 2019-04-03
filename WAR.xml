@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="4">
   <!--
-Created At: Wed, Apr 03 2019, 02:18:56 (UTC)
+Created At: Wed, Apr 03 2019, 11:10:33 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -13,6 +13,18 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
   </sets>
   <cards>
     <card>
+      <name>"Celestial Colonnade Wuz Here"</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/4/b4be6f22-e9e8-462a-956b-e1c78bbadacc.jpg?1554257180">WAR</set>
+      <manacost>4B</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Hippo</type>
+      <pt>5/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text/>
+    </card>
+    <card>
       <name>"I'm flying, Jack!"</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/d/fd97b3cf-924e-4f77-bb82-0bf19592389f.jpg?1554223208">WAR</set>
       <manacost>1R</manacost>
@@ -24,6 +36,54 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <tablerow>2</tablerow>
       <text>Trample
 Whenever "I'm flying, Jack!" attacks, you may cast target instant or sorcery card with converted mana cost less than or equal to "I'm flying, Jack!"'s power from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.</text>
+    </card>
+    <card>
+      <name>"Krenko, Fob Bawse"</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/7/37ed04d3-cfa1-4778-aea6-b4c2c29e6e0a.jpg?1554270369">WAR</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Legendary Creature - Goblin</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever "Krenko, Fob Bawse" attacks, put a +1/+1 counter on it, then create X 1/1 red Goblin creature tokens, where X is its power.</text>
+    </card>
+    <card>
+      <name>"LEGO Bites Back"</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/9/594bbe43-a8aa-42aa-bc49-cb4f3bc05cad.jpg?1554257300">WAR</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Beast</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When "LEGO Bites Back" enters the battlefield, amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
+      <name>"Limited Edition Re-Tail Eternal"</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/7/674e408b-f052-451c-9bf9-ac6f98753a9d.jpg?1554257307">WAR</set>
+      <manacost>5R</manacost>
+      <cmc>6.0</cmc>
+      <color>R</color>
+      <type>Creature - Zombie Manticore</type>
+      <pt>4/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When "Limited Edition Re-Tail Eternal" enters the battlefield, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
+      <name>"No Eyes, Exploding Heart, Can't Lose"</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/0/f03b5405-6016-405b-a504-a454731b9276.jpg?1554257273">WAR</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)
+You and permanents you control gain hexproof until end of turn. (They can't be the targets of spells or abilities your opponents control.)</text>
     </card>
     <card>
       <name>Ahn-Crop Invader</name>
@@ -398,14 +458,14 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
     </card>
     <card>
       <name>Ignite the Beacon</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/e/4e11d6f9-0b80-4b19-ab96-23f80b66b409.jpg?1554224331">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/e/4e11d6f9-0b80-4b19-ab96-23f80b66b409.jpg?1554251767">WAR</set>
       <manacost>4W</manacost>
       <cmc>5.0</cmc>
       <color>W</color>
       <type>Instant</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Search your library for up to to two planeswalker cards, reveal them, put them into your hand, then shuffle your library.</text>
+      <text>Search your library for up to two planeswalker cards, reveal them, put them into your hand, then shuffle your library.</text>
     </card>
     <card>
       <name>Interplanar Beacon</name>
@@ -701,14 +761,14 @@ Scry 1.</text>
     </card>
     <card>
       <name>Relentless Advance</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/2/4258e242-91c6-4b30-86ec-7759705aa97c.jpg?1554224530">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/2/4258e242-91c6-4b30-86ec-7759705aa97c.jpg?1554251721">WAR</set>
       <manacost>3U</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
       <type>Sorcery</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Amass 3. (Put three +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.</text>
+      <text>Amass 3. (Put three +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
       <name>Rising Populace</name>
@@ -745,6 +805,20 @@ Scry 1.</text>
       <tablerow>1</tablerow>
       <text>Creatures you control have haste.
 -1: Target creature gets +2/+1 and gains haste until end of turn. Scry 1.</text>
+    </card>
+    <card>
+      <name>Storrev, Devkarin Lich</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/9/59c906bd-f443-4f4b-b40b-9218e71f1196.jpg?1554255648">WAR</set>
+      <manacost>1BBG</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <color>G</color>
+      <type>Legendary Creature - Zombie Elf Wizard</type>
+      <pt>5/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker, return to your hand target creature or planeswalker card in your graveyard that wasn't put there this combat.</text>
     </card>
     <card>
       <name>Swamp</name>
@@ -857,7 +931,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Tibalt, Rakish Instigator</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/f/7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg?1554225057">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/f/7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg?1554251673">WAR</set>
       <manacost>2R</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -865,7 +939,7 @@ Scry 1.</text>
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Your opponents can't gain life.
--2: Create a 1/1 red Devil creature token with "Whenever this creature dies, it deals 1 damage to any target.</text>
+-2: Create a 1/1 red Devil creature token with "Whenever this creature dies, it deals 1 damage to any target."</text>
     </card>
     <card>
       <name>Time Wipe</name>
