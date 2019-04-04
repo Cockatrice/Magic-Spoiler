@@ -11,15 +11,11 @@ env:
 
 before_install:
   - export CFLAGS=-O0 # considerably speed-up build time for pip packages (especially lxml), optimizations doesn't matter for ci
-  - pip install pyyaml
 
 install:
   - pip install -r requirements.txt
 
 script: bash ./.ci/deploy.sh
-
-after_script:
-  - sleep 10 # helps travis finish logging
 
 
 ## Builds for pull requests skip the deployment step altogether
