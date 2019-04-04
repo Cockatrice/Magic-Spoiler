@@ -31,8 +31,8 @@ $> python -m magic_spoiler
 ```
 
 Outputs the following files to `out/` directory:<br>
-`spoiler.xml`, `{SET_CODE}.xml`<br>
-`spoiler.json`, `{SET_CODE}.json`
+`spoiler.xml`, `spoiler.json`<br>
+`{SET_CODE}.xml`, `{SET_CODE}.json`
 > **spoiler** → files contain all currently available spoilers from different sets<br>
 > **{SETCODE}** → files contain just the spoiler available for this single set<br>
 
