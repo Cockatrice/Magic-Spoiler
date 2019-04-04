@@ -556,6 +556,11 @@ def delete_old_files() -> None:
     if OUTPUT_TMP_DIR.is_dir():
         shutil.rmtree(OUTPUT_TMP_DIR)
 
+    if not SPOILER_SETS.get():
+        OUTPUT_DIR.joinpath("SpoilerSeasonEnabled").unlink()
+    else:
+        OUTPUT_DIR.joinpath("SpoilerSeasonEnabled").open("w").write(" ")
+
 
 def main() -> None:
     """
@@ -579,9 +584,10 @@ def main() -> None:
         # Save for spoiler.xml
         spoiler_xml[set_info["code"]] = trice_dict
 
-    # Write out the spoiler.xml file
-    write_spoilers_xml(spoiler_xml)
-    write_spoilers_json(spoiler_xml)
+    if spoiler_xml:
+        # Write out the spoiler.xml file
+        write_spoilers_xml(spoiler_xml)
+        write_spoilers_json(spoiler_xml)
 
     # Cleanup outdated stuff that's not necessary
     delete_old_files()
