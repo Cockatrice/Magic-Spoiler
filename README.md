@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/dynamic/xml.svg?label=Currently%20included%20sets&colorB=4ac41d&url=https%3A%2F%2Fraw.githubusercontent.com%2FCockatrice%2FMagic-Spoiler%2Ffiles%2Fspoiler.xml&query=%2F%2Flongname)](https://github.com/Cockatrice/Magic-Spoiler/blob/files/spoiler.xml)
+[![](https://img.shields.io/badge/dynamic/xml.svg?label=Currently%20included%20sets&colorB=blue&url=https%3A%2F%2Fraw.githubusercontent.com%2FCockatrice%2FMagic-Spoiler%2Ffiles%2Fspoiler.xml&query=%2F%2Flongname)](https://github.com/Cockatrice/Magic-Spoiler/blob/files/spoiler.xml)
 
 
 # Magic-Spoiler [![Gitter Chat](https://img.shields.io/gitter/room/Cockatrice/Magic-Spoiler.svg)](https://gitter.im/Cockatrice/Magic-Spoiler) #
@@ -12,12 +12,12 @@ When run by Travis, the script automatically updates the files and uploads new v
 Travis CI is run daily on a cron job basis.
 
 ## Errors ##
-Noticed an error?  Check out our [Contributing file](https://github.com/Cockatrice/Magic-Spoiler/blob/master/.github/CONTRIBUTING.md) for information on how to help!
+Noticed an error in the card data?  Check out our [Contributing file](https://github.com/Cockatrice/Magic-Spoiler/blob/master/.github/CONTRIBUTING.md) for information on how to help!
 
 ## Running ##
 
 ### Requirements ###
- * Python 2.7
+ * Python 3.6
  * several Python Modules (see [requirements.txt](https://github.com/Cockatrice/Magic-Spoiler/blob/master/requirements.txt))
 
 ```
@@ -27,17 +27,14 @@ pip install -r requirements.txt
 ### Usage ###
  
 ```
-$> python main.py
+$> python -m magic_spoiler
 ```
 
 Outputs the following files to `out/` directory:<br>
-`spoiler.xml`, `{SETCODE}.xml`, `MPS_{SETCODE}.xml`,<br>
-`spoiler.json`, `{SETCODE}.json`, `MPS_{SETCODE}.json`
+`spoiler.xml`, `{SET_CODE}.xml`<br>
+`spoiler.json`, `{SET_CODE}.json`
 > **spoiler** → files contain all currently available spoilers from different sets<br>
 > **{SETCODE}** → files contain just the spoiler available for this single set<br>
-> **MPS_{SETCODE}** → files contain just the spoiler available for this [Masterpiece Series](http://magic.wizards.com/en/articles/archive/making-magic/masterpiece-series-2016-09-12)
-
-Errors are logged there as well (`errors.yml`)
 
 <br>
 
