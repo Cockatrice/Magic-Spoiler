@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Thu, Apr 04 2019, 22:37:07 (UTC)
+Created At: Fri, Apr 05 2019, 08:11:39 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -45,16 +45,16 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
 -6: You get an emblem with "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead."</text>
     </card>
     <card>
-      <name>"Krenko Is Forever"</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/7/37ed04d3-cfa1-4778-aea6-b4c2c29e6e0a.jpg?1554284737">WAR</set>
+      <name>"Dyson Has Gone Too Far"</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/8/88205574-bf2b-46e7-aac7-4b8ea217f94c.jpg?1554412790">WAR</set>
       <manacost>2R</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
-      <type>Legendary Creature - Goblin</type>
-      <pt>1/2</pt>
+      <type>Creature - Hellion</type>
+      <pt>2/2</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Whenever "Krenko Is Forever" attacks, put a +1/+1 counter on it, then create X 1/1 red Goblin creature tokens, where X is its power.</text>
+      <text>When "Dyson Has Gone Too Far" enters the battlefield, you may sacrifice any number of creatures and/or planeswalkers. If you do, put twice that many +1/+1 counters on it.</text>
     </card>
     <card>
       <name>Ahn-Crop Invader</name>
@@ -161,7 +161,7 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
     </card>
     <card>
       <name>Banehound</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/9/b9e03567-c95a-40b8-a75a-971076093f57.jpg?1554376926">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/9/b9e03567-c95a-40b8-a75a-971076093f57.jpg?1554403954">WAR</set>
       <manacost>B</manacost>
       <cmc>1.0</cmc>
       <color>B</color>
@@ -186,7 +186,7 @@ You may play the top card of your library. If you cast a spell this way, pay lif
     </card>
     <card>
       <name>Bulwark Giant</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/1/11510817-edb3-40d4-bd27-6161fedadd11.jpg?1554376672">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/1/11510817-edb3-40d4-bd27-6161fedadd11.jpg?1554403942">WAR</set>
       <manacost>5W</manacost>
       <cmc>6.0</cmc>
       <color>W</color>
@@ -258,7 +258,7 @@ Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control on
     </card>
     <card>
       <name>Deathsprout</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/d/6d615557-aea8-4057-9fbd-d62dd98edc13.jpg?1554295986">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/d/6d615557-aea8-4057-9fbd-d62dd98edc13.jpg?1554403443">WAR</set>
       <manacost>1BBG</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -451,6 +451,19 @@ Zombie tokens you control have hexproof and menace.</text>
 At the beginning of your end step, each opponent loses 1 life.</text>
     </card>
     <card>
+      <name>Grateful Apparition</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/d/7dcb1f9d-105d-48c6-bd66-d7e8839de9e1.jpg?1554427168">WAR</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Creature - Spirit</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever Grateful Apparition deals combat damage to a player or planeswalker, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+    </card>
+    <card>
       <name>Grim Initiate</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/9/29b6ec9d-3861-48bf-a198-dc7efba5d89c.jpg?1554223800">WAR</set>
       <manacost>R</manacost>
@@ -641,6 +654,18 @@ When enchanted permanent dies or is put into exile, return that card to the batt
 -1: Untap target permanent.</text>
     </card>
     <card>
+      <name>Krenko, Tin Street Kingpin</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/7/37ed04d3-cfa1-4778-aea6-b4c2c29e6e0a.jpg?1554403268">WAR</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Legendary Creature - Goblin</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever Krenko, Tin Street Kingpin attacks, put a +1/+1 counter on it, then create a number of 1/1 red Goblin creature tokens equal to Krenko's power.</text>
+    </card>
+    <card>
       <name>Lazotep Behemoth</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/4/b4be6f22-e9e8-462a-956b-e1c78bbadacc.jpg?1554291025">WAR</set>
       <manacost>4B</manacost>
@@ -714,6 +739,32 @@ You and permanents you control gain hexproof until end of turn. (You and they ca
 +1: Create a 2/2 black Zombie creature token.
 -4: Each player sacrifices two creatures.
 -9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.</text>
+    </card>
+    <card>
+      <name>Makeshift Battalion</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/2/82293d58-d3b4-4cf6-8a16-32ae3e509696.jpg?1554426994">WAR</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Creature - Human Soldier</type>
+      <pt>3/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever Makeshift Battalion and at least two other creatures attack, put a +1/+ counter on Makeshift Battalion.</text>
+    </card>
+    <card>
+      <name>Mizzium Tank</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/6/5643253b-0996-45a8-9488-5bcc9192f867.jpg?1554433010">WAR</set>
+      <manacost>1RR</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Artifact - Vehicle</type>
+      <pt>3/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Trample
+Whenever you cast a noncreature spell, Mizzium Tank becomes an artifact creature and gets +1/+1 until end of turn.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
     </card>
     <card>
       <name>Mountain</name>
@@ -912,6 +963,19 @@ Scry 1.</text>
       <text>Amass 3. (Put three +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
+      <name>Rescuer Sphinx</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/0/00ba9fa2-bfd2-4dc7-b96d-d22a8886a6ae.jpg?1554427079">WAR</set>
+      <manacost>2UU</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Creature - Sphinx</type>
+      <pt>3/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+As Rescuer Sphinx enters the battlefield, you may return a nonland permanent you control to its owner's hand. If you do, Rescuer Sphinx enters the battlefield with a +1/+1 counter on it.</text>
+    </card>
+    <card>
       <name>Rising Populace</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/d/edcacc28-aacf-4d40-b8cc-f8c028380340.jpg?1554224353">WAR</set>
       <manacost>2W</manacost>
@@ -961,7 +1025,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Single Combat</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/e/ce0e7c6a-e628-4327-a16f-2062c5a662df.jpg?1554291382">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/e/ce0e7c6a-e628-4327-a16f-2062c5a662df.jpg?1554408027">WAR</set>
       <manacost>3WW</manacost>
       <cmc>5.0</cmc>
       <color>W</color>
@@ -972,7 +1036,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Sorin's Thirst</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/0/50eecfc2-452d-461c-a37c-8aa10183e5a0.jpg?1554288151">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/0/50eecfc2-452d-461c-a37c-8aa10183e5a0.jpg?1554408015">WAR</set>
       <manacost>BB</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -1018,6 +1082,17 @@ Scry 1.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>{2}, {T}, Sacrifice Spellkeeper Weird: Return target instant or sorcery card from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Stealth Mission</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/d/7ddfd4f5-7fe1-4a22-9a85-bd9b75b16380.jpg?1554427233">WAR</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Put two +1/+1 counters on target creature you control. That creature can't be blocked this. turn.</text>
     </card>
     <card>
       <name>Storrev, Devkarin Lich</name>
@@ -1168,7 +1243,7 @@ Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker,
     </card>
     <card>
       <name>Tolsimir, Friend to Wolves</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/7/f7fce047-49f1-40ae-8410-6501cb0f8201.jpg?1554367985">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/7/f7fce047-49f1-40ae-8410-6501cb0f8201.jpg?1554409416">WAR</set>
       <manacost>2GGW</manacost>
       <cmc>5.0</cmc>
       <color>G</color>
@@ -1178,7 +1253,7 @@ Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker,
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>When Tolsimir, Friend to Wolves enters the battlefield, create Voja, Friend to Elves, a legendary 3/3 green and white Wolf creature token.
-Whenever a Wolf enters the battlefield under your control, you gain 3 life and you may have that creature fight up to one target creature an opponent controls.</text>
+Whenever a Wolf enters the battlefield under your control, you gain 3 life and that creature fights up to one target creature an opponent controls.</text>
     </card>
     <card>
       <name>Totally Lost</name>
@@ -1275,6 +1350,18 @@ Whenever a Wolf enters the battlefield under your control, you gain 3 life and y
       <tablerow>2</tablerow>
       <text>Flying
 {5}{W}, {T}: Other creatures you control get +1/+1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Wardscale Crocodile</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/a/aa5341b9-06e4-4360-a75d-f405d468276e.jpg?1554403933">WAR</set>
+      <manacost>4G</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Creature - Crocodile</type>
+      <pt>5/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Hexproof (This creature can't be the target of spells or abilities your opponents control.)</text>
     </card>
     <card>
       <name>Widespread Brutality</name>
