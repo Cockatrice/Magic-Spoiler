@@ -63,33 +63,34 @@
     ],
     "WAR": [
         {
-            "artist": "Bayard Wu",
+            "artist": "Simon Dominic",
             "cmc": 3.0,
             "colorIdentity": [
-                "R"
+                "G"
             ],
             "colors": [
-                "R"
+                "G"
             ],
             "flavor": null,
             "layout": "",
             "loyalty": null,
-            "mana_cost": "{2}{R}",
+            "mana_cost": "{2}{G}",
             "multiverseId": null,
-            "name": "\"Dyson Has Gone Too Far\"",
+            "name": "\"I need a tree here, stat\"",
             "names": null,
-            "number": "124",
-            "power": "2",
+            "number": "159",
+            "power": "3",
             "rarity": "Uncommon",
             "subTypes": [
-                "Hellion"
+                "Elf",
+                "Druid"
             ],
             "superTypes": [],
-            "text": "When \"Dyson Has Gone Too Far\" enters the battlefield, you may sacrifice any number of creatures and/or planeswalkers. If you do, put twice that many +1/+1 counters on it.",
+            "text": "Whenever a land enters the battlefield under your control, proliferate.",
             "toughness": "2",
-            "type": "Creature - Hellion",
+            "type": "Creature - Elf Druid",
             "types": "Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/8/8/88205574-bf2b-46e7-aac7-4b8ea217f94c.jpg?1554412790"
+            "url": "https://img.scryfall.com/cards/normal/front/b/4/b4042db8-6032-49a2-bc96-ad15f55db6c3.jpg?1554487706"
         },
         {
             "artist": "Tomasz Jedruszek",
@@ -121,6 +122,33 @@
             "type": "Creature - Zombie Minotaur Warrior",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/2/d/2dea2466-5c7f-40ce-b749-100ae89d2c90.jpg?1554225022"
+        },
+        {
+            "artist": "Sara Winters",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"I never liked you. Now get up\u2014we have a fight to finish.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Aid the Fallen",
+            "names": null,
+            "number": "76",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose one or both\u2014\n\u2022 Return target creature card from your graveyard to your hand.\n\u2022 Return target planeswalker card from your graveyard to your hand.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/5/f/5f8bc010-f1af-42a2-9009-2039cf3d8f0a.jpg?1554488187"
         },
         {
             "artist": "Sidharth Chaturvedi",
@@ -338,6 +366,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/d/1/d19fbfe6-69bb-452a-be3c-b9c625e23193.jpg?1554290607"
         },
         {
+            "artist": "Josh Hass",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "In times of peril, the vision the ancient paruns had for their city comes into focus.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Band Together",
+            "names": null,
+            "number": "153",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Up to two target creatures you control each deal damage equal to their power to another target creature.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/4/d/4d1d8aa1-d742-477c-819a-0113912d5011.jpg?1554466364"
+        },
+        {
             "artist": "YW Tang",
             "cmc": 1.0,
             "colorIdentity": [
@@ -365,7 +420,64 @@
             "toughness": "1",
             "type": "Creature - Nightmare Hound",
             "types": "Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/b/9/b9e03567-c95a-40b8-a75a-971076093f57.jpg?1554403954"
+            "url": "https://img.scryfall.com/cards/normal/front/b/9/b9e03567-c95a-40b8-a75a-971076093f57.jpg?1554477017"
+        },
+        {
+            "artist": "Sidharth Chaturvedi",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"Peril is in the eye of the beholder. At least, if your aim is good.\"\n\u2014Jaya Ballard",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Blindblast",
+            "names": null,
+            "number": "114",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Blindblast deals 1 damage to target creature. That creature can't block this turn.\nDraw a card.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/1/d/1d49637b-2255-4f16-8f24-140145966bfa.jpg?1554476699"
+        },
+        {
+            "artist": "Even Amundsen",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"Tread upon these flower beds at your own peril.\"\n\u2014Emmara",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{G}",
+            "multiverseId": null,
+            "name": "Bloom Hulk",
+            "names": null,
+            "number": "154",
+            "power": "4",
+            "rarity": "Common",
+            "subTypes": [
+                "Plant",
+                "Elemental"
+            ],
+            "superTypes": [],
+            "text": "When Bloom Hulk enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+            "toughness": "4",
+            "type": "Creature - Plant Elemental",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/f/d/fd1c9129-254d-4d1d-9d95-112292bd6bcc.jpg?1554463694"
         },
         {
             "artist": "Jonas De Ro",
@@ -457,6 +569,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/0/1/01c5b095-13c9-4673-bf0c-553de455e521.jpg?1554225026"
         },
         {
+            "artist": "Micah Epstein",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"Thanks to my father, I know how to fight. He also showed me why I must.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Courage in Crisis",
+            "names": null,
+            "number": "158",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Put a +1/+1 counter on target creature, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/6/7/67a22083-9ef9-4ff7-8502-3a77e69299df.jpg?1554466444"
+        },
+        {
             "artist": "Bastien L. Deharme",
             "cmc": 2.0,
             "colorIdentity": [
@@ -513,6 +652,36 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/9/4/94c70f23-0ca9-425e-a53a-6c09921c0075.jpg?1554224442"
+        },
+        {
+            "artist": "Jason Felix",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "Every storm has an eye.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{R}",
+            "multiverseId": null,
+            "name": "Cyclops Electromancer",
+            "names": null,
+            "number": "122",
+            "power": "4",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Cyclops",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "When Cyclops Electromancer enters the battlefield, it deals X damage to target creature an opponent controls, where X is the number of instant and sorcery cards in your graveyard.",
+            "toughness": "2",
+            "type": "Creature - Cyclops Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/a/da0966a6-f378-4975-88ae-23b600d578bf.jpg?1554476756"
         },
         {
             "artist": "Daarken",
@@ -600,6 +769,62 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/6/d/6d615557-aea8-4057-9fbd-d62dd98edc13.jpg?1554403443"
+        },
+        {
+            "artist": "Gabor Szikszai",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"My family was saved thanks to a single Boros soldier. It's why I joined the Legion. I will be the protector now.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}",
+            "multiverseId": null,
+            "name": "Defiant Strike",
+            "names": null,
+            "number": "9",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target creature gets +1/+0 until end of turn.\nDraw a card.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/d/c/dc183a40-7e15-40b1-9faa-b243401b3d10.jpg?1554466578"
+        },
+        {
+            "artist": "Bayard Wu",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "There's no crisis a hellion can't make worse.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Devouring Hellion",
+            "names": null,
+            "number": "124",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Hellion"
+            ],
+            "superTypes": [],
+            "text": "As Devouring Hellion enters the battlefield, you may sacrifice any number of creatures and/or planeswalkers. If you do, it enters with twice that many +1/+1 counters on it.",
+            "toughness": "2",
+            "type": "Creature - Hellion",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/8/88205574-bf2b-46e7-aac7-4b8ea217f94c.jpg?1554477064"
         },
         {
             "artist": "Izzy",
@@ -1007,6 +1232,66 @@
             "url": "https://img.scryfall.com/cards/normal/front/0/b/0b4604b4-df53-485c-a604-4d823b33d8ba.jpg?1554223770"
         },
         {
+            "artist": "Jesper Ejsing",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "What he lacks in patience, intelligence, empathy, lucidity, hygiene, ability to follow orders, self-regard, and discernible skills, he makes up for in sheer chaotic violence.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Goblin Assailant",
+            "names": null,
+            "number": "128",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Goblin",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "",
+            "toughness": "2",
+            "type": "Creature - Goblin Warrior",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/4/e41acc81-7c22-4b59-97b8-54473623db6f.jpg?1554476601"
+        },
+        {
+            "artist": "Zoltan Boros",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "Under the veneer of the various guilds, each goblin has the same basic need: to run screaming at the enemy and hit a bunch of stuff.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{R}",
+            "multiverseId": null,
+            "name": "Goblin Assault Team",
+            "names": null,
+            "number": "129",
+            "power": "4",
+            "rarity": "Common",
+            "subTypes": [
+                "Goblin",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Haste\nWhen Goblin Assault Team dies, put a +1/+1 counter on target creature you control.",
+            "toughness": "1",
+            "type": "Creature - Goblin Warrior",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/8/880047fd-d258-40fb-bcd5-37cb26678dfe.jpg?1554479301"
+        },
+        {
             "artist": "Igor Kieryluk",
             "cmc": 6.0,
             "colorIdentity": [],
@@ -1089,6 +1374,33 @@
             "type": "Creature - Zombie Warrior",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/2/9/29b6ec9d-3861-48bf-a198-dc7efba5d89c.jpg?1554223800"
+        },
+        {
+            "artist": "Craig J Spearing",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "The mage looked within and realized there was still one piece of fuel to burn.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Heartfire",
+            "names": null,
+            "number": "131",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "As an additional cost to cast this spell, sacrifice a creature or planeswalker.\nHeartfire deals 4 damage to any target.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/7/d/7db219ea-2ed1-4a86-955c-d61ecedbc019.jpg?1554476814"
         },
         {
             "artist": "Heonhwa Choe",
@@ -1255,6 +1567,31 @@
             "type": "Creature - Zombie Manticore",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/6/7/674e408b-f052-451c-9bf9-ac6f98753a9d.jpg?1554290892"
+        },
+        {
+            "artist": "Aaron Miller",
+            "cmc": 3.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": "\"Why would someone have built ... wait, never mind. Send it to the front lines!\"\n\u2014Commander Grozdan",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}",
+            "multiverseId": null,
+            "name": "Iron Bully",
+            "names": null,
+            "number": "240",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Golem"
+            ],
+            "superTypes": [],
+            "text": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen Iron Bully enters the battlefield, put a +1/+1 counter on target creature.",
+            "toughness": "1",
+            "type": "Artifact Creature - Golem",
+            "types": "Artifact Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/e/ded2c66e-402c-4d5c-b987-402679aa914b.jpg?1554467057"
         },
         {
             "artist": "Adam Paquette",
@@ -1732,6 +2069,36 @@
             "url": "https://img.scryfall.com/cards/normal/front/d/7/d75ebba8-34ca-47a0-bf13-8318ad73b343.jpg?1554224908"
         },
         {
+            "artist": "Jesper Ejsing",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "His voice is both war horn and rallying cry, a trumpeting call that stirs even the faintest heart.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}",
+            "multiverseId": null,
+            "name": "Loxodon Sergeant",
+            "names": null,
+            "number": "21",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Elephant",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "Vigilance\nWhen Loxodon Sergeant enters the battlefield, other creatures you control gain vigilance until end of turn.",
+            "toughness": "3",
+            "type": "Creature - Elephant Soldier",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/5/c57f873b-5fb2-4638-b66c-f6d1aec156ba.jpg?1554466995"
+        },
+        {
             "artist": "Zoltan Boros",
             "cmc": 3.0,
             "colorIdentity": [
@@ -1755,11 +2122,106 @@
                 "Soldier"
             ],
             "superTypes": [],
-            "text": "Whenever Makeshift Battalion and at least two other creatures attack, put a +1/+ counter on Makeshift Battalion.",
+            "text": "Whenever Makeshift Battalion and at least two other creatures attack, put a +1/+1 counter on Makeshift Battalion.",
             "toughness": "2",
             "type": "Creature - Human Soldier",
             "types": "Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/8/2/82293d58-d3b4-4cf6-8a16-32ae3e509696.jpg?1554426994"
+            "url": "https://img.scryfall.com/cards/normal/front/8/2/82293d58-d3b4-4cf6-8a16-32ae3e509696.jpg?1554439972"
+        },
+        {
+            "artist": "Chris Rallis",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}{B}",
+            "multiverseId": null,
+            "name": "Massacre Girl",
+            "names": null,
+            "number": "99",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Assassin"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Menace\nWhen Massacre Girl enters the battlefield, each other creature gets -1/-1 until end of turn. Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn.",
+            "toughness": "4",
+            "type": "Legendary Creature - Human Assassin",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/b/e/be8ec9e1-2c8e-496d-9111-4d453b75b578.jpg?1554463425"
+        },
+        {
+            "artist": "Dmitry Burmak",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
+            "colors": [
+                "B",
+                "R"
+            ],
+            "flavor": "Despite their stake in the city's survival, Rakdos cultists are loath to pass up any opportunity to sow chaos.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{R}",
+            "multiverseId": null,
+            "name": "Mayhem Devil",
+            "names": null,
+            "number": "204",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Devil"
+            ],
+            "superTypes": [],
+            "text": "Whenever a player sacrifices a permanent, Mayhem Devil deals 1 damage to any target.",
+            "toughness": "3",
+            "type": "Creature - Devil",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/1/7/17416926-168b-49b3-9231-acbb8f8a1d13.jpg?1554464700"
+        },
+        {
+            "artist": "Sara Winters",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G",
+                "U"
+            ],
+            "colors": [
+                "G",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{U}",
+            "multiverseId": null,
+            "name": "Merfolk Skydiver",
+            "names": null,
+            "number": "205",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Merfolk",
+                "Mutant"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhen Merfolk Skydiver enters the battlefield, put a +1/+1 counter on target creature you control.\n{3}{G}{U}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+            "toughness": "1",
+            "type": "Creature - Merfolk Mutant",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/2/b/2bf211eb-837b-4c02-b02e-8d9e62f1abb1.jpg?1554442587"
         },
         {
             "artist": "Wayne Reynolds",
@@ -1789,6 +2251,29 @@
             "type": "Artifact - Vehicle",
             "types": "Artifact ",
             "url": "https://img.scryfall.com/cards/normal/front/5/6/5643253b-0996-45a8-9488-5bcc9192f867.jpg?1554433010"
+        },
+        {
+            "artist": "Jedd Chevrier",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": "Sometimes the strongest weapon you can hold in your hand is another hand.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Mobilized District",
+            "names": null,
+            "number": "249",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}: Add {C}.\n{4}: Mobilized District becomes a 3/3 Citizen creature with vigilance until end of turn. It's still a land. This ability costs {1} less to activate for each legendary creature and planeswalker you control.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://img.scryfall.com/cards/normal/front/2/1/214792e9-a172-4547-b148-b9b368cb3432.jpg?1554463573"
         },
         {
             "artist": "Adam Paquette",
@@ -2003,6 +2488,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/6/0/60c90d5d-7b3b-48d2-85f6-d6a2a452c0e9.jpg?1554222748"
         },
         {
+            "artist": "Bram Sels",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G",
+                "U"
+            ],
+            "colors": [
+                "G",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{U}",
+            "multiverseId": null,
+            "name": "Neoform",
+            "names": null,
+            "number": "206",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "As an additional cost to cast this spell, sacrifice a creature.\nSearch your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle your library.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/9/2/92d8f67e-4f2f-4a1f-b190-7c3f39e477e4.jpg?1554467042"
+        },
+        {
             "artist": "G-host Lee",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2174,6 +2688,36 @@
             "type": "Basic Land - Plains",
             "types": " Land ",
             "url": "https://img.scryfall.com/cards/normal/front/0/d/0d7ae52e-9ea7-4e9d-a9c9-c819cc768cd6.jpg?1554039974"
+        },
+        {
+            "artist": "Matt Stewart",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Pollenbright Druid",
+            "names": null,
+            "number": "173",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Elf",
+                "Druid"
+            ],
+            "superTypes": [],
+            "text": "When Pollenbright Druid enters the battlefield, choose one \u2014\n\u2022 Put a +1/+1 counter on target creature.\n\u2022 Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+            "toughness": "1",
+            "type": "Creature - Elf Druid",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/b/4b0f478c-54f8-4087-ad52-d089e2049dda.jpg?1554464174"
         },
         {
             "artist": "Sidharth Chaturvedi",
@@ -2372,7 +2916,7 @@
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
-            "url": "https://img.scryfall.com/cards/normal/front/5/9/59b47017-d982-4d4c-94fc-f265a5b7f36a.jpg?1554376508"
+            "url": "https://img.scryfall.com/cards/normal/front/5/9/59b47017-d982-4d4c-94fc-f265a5b7f36a.jpg?1554477005"
         },
         {
             "artist": "Aleksi Briclot",
@@ -2600,11 +3144,11 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Put two +1/+1 counters on target creature you control. That creature can't be blocked this. turn.",
+            "text": "Put two +1/+1 counters on target creature you control. That creature can't be blocked this turn.",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
-            "url": "https://img.scryfall.com/cards/normal/front/7/d/7ddfd4f5-7fe1-4a22-9a85-bd9b75b16380.jpg?1554427233"
+            "url": "https://img.scryfall.com/cards/normal/front/7/d/7ddfd4f5-7fe1-4a22-9a85-bd9b75b16380.jpg?1554439848"
         },
         {
             "artist": "Igor Kieryluk",
@@ -2758,6 +3302,38 @@
             "type": "Legendary Planeswalker - Teferi",
             "types": " Planeswalker ",
             "url": "https://img.scryfall.com/cards/normal/front/5/c/5cb76266-ae50-4bbc-8f96-d98f309b02d3.jpg?1554225533"
+        },
+        {
+            "artist": "Victor Adame Minguez",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R",
+                "W"
+            ],
+            "colors": [
+                "R",
+                "W"
+            ],
+            "flavor": "\"The Tenth is under heavy attack, but it's being handled. I sent Mileva.\"\n\u2014Tajic",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}{W}",
+            "multiverseId": null,
+            "name": "Tenth District Legionnaire",
+            "names": null,
+            "number": "222",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "Haste\nWhenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 counter on Tenth District Legionnaire, then scry 1.",
+            "toughness": "2",
+            "type": "Creature - Human Soldier",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/4/44f3090b-917b-4122-b522-27c30dca8e69.jpg?1554467019"
         },
         {
             "artist": "Igor Kieryluk",
@@ -3003,6 +3579,38 @@
             "type": "Legendary Creature - Elf Scout",
             "types": " Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/f/7/f7fce047-49f1-40ae-8410-6501cb0f8201.jpg?1554409416"
+        },
+        {
+            "artist": "Johannes Voss",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Some bend the law. I tie it into knots.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}{W}",
+            "multiverseId": null,
+            "name": "Tomik, Distinguished Advokist",
+            "names": null,
+            "number": "34",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Advisor"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nLands on the battlefield and land cards in graveyards can't be the targets of spells or abilities your opponents control.\nYour opponents can't play land cards from graveyards.",
+            "toughness": "3",
+            "type": "Legendary Creature - Human Advisor",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/f/3/f346387c-2f13-472b-b5b1-968b490eb38f.jpg?1554463820"
         },
         {
             "artist": "Aaron Miller",

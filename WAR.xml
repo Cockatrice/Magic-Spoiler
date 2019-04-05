@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Fri, Apr 05 2019, 08:11:39 (UTC)
+Created At: Fri, Apr 05 2019, 22:39:13 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -13,16 +13,16 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
   </sets>
   <cards>
     <card>
-      <name>"Dyson Has Gone Too Far"</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/8/88205574-bf2b-46e7-aac7-4b8ea217f94c.jpg?1554412790">WAR</set>
-      <manacost>2R</manacost>
+      <name>"I need a tree here, stat"</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/4/b4042db8-6032-49a2-bc96-ad15f55db6c3.jpg?1554487706">WAR</set>
+      <manacost>2G</manacost>
       <cmc>3.0</cmc>
-      <color>R</color>
-      <type>Creature - Hellion</type>
-      <pt>2/2</pt>
+      <color>G</color>
+      <type>Creature - Elf Druid</type>
+      <pt>3/2</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>When "Dyson Has Gone Too Far" enters the battlefield, you may sacrifice any number of creatures and/or planeswalkers. If you do, put twice that many +1/+1 counters on it.</text>
+      <text>Whenever a land enters the battlefield under your control, proliferate.</text>
     </card>
     <card>
       <name>Ahn-Crop Invader</name>
@@ -36,6 +36,19 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <tablerow>2</tablerow>
       <text>As long as it's your turn, Ahn-Crop Invader has first strike.
 {1}, Sacrifice another creature: Ahn-Crop Invader gets +2/+0 until end of turn.</text>
+    </card>
+    <card>
+      <name>Aid the Fallen</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/f/5f8bc010-f1af-42a2-9009-2039cf3d8f0a.jpg?1554488187">WAR</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one or both&#8212;
+&#8226; Return target creature card from your graveyard to your hand.
+&#8226; Return target planeswalker card from your graveyard to your hand.</text>
     </card>
     <card>
       <name>Ajani's Pridemate</name>
@@ -128,8 +141,19 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <text>When Augur of Bolas enters the battlefield, look at the top three cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</text>
     </card>
     <card>
+      <name>Band Together</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/d/4d1d8aa1-d742-477c-819a-0113912d5011.jpg?1554466364">WAR</set>
+      <manacost>2G</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Up to two target creatures you control each deal damage equal to their power to another target creature.</text>
+    </card>
+    <card>
       <name>Banehound</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/9/b9e03567-c95a-40b8-a75a-971076093f57.jpg?1554403954">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/9/b9e03567-c95a-40b8-a75a-971076093f57.jpg?1554477017">WAR</set>
       <manacost>B</manacost>
       <cmc>1.0</cmc>
       <color>B</color>
@@ -138,6 +162,30 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Lifelink, haste</text>
+    </card>
+    <card>
+      <name>Blindblast</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/d/1d49637b-2255-4f16-8f24-140145966bfa.jpg?1554476699">WAR</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Blindblast deals 1 damage to target creature. That creature can't block this turn.
+Draw a card.</text>
+    </card>
+    <card>
+      <name>Bloom Hulk</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/d/fd1c9129-254d-4d1d-9d95-112292bd6bcc.jpg?1554463694">WAR</set>
+      <manacost>3G</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <type>Creature - Plant Elemental</type>
+      <pt>4/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Bloom Hulk enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
     </card>
     <card>
       <name>Bolas's Citadel</name>
@@ -177,6 +225,17 @@ You may play the top card of your library. If you cast a spell this way, pay lif
       <text>Whenever you cast a noncreature spell, Burning Prophet gets +1/+0 until end of turn, then scry 1.</text>
     </card>
     <card>
+      <name>Courage in Crisis</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/7/67a22083-9ef9-4ff7-8502-3a77e69299df.jpg?1554466444">WAR</set>
+      <manacost>2G</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Put a +1/+1 counter on target creature, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+    </card>
+    <card>
       <name>Cruel Celebrant</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/7/87ead6ac-b1c5-4852-8413-7fa43c6cfc57.jpg?1554225429">WAR</set>
       <manacost>WB</manacost>
@@ -200,6 +259,18 @@ You may play the top card of your library. If you cast a spell this way, pay lif
       <tablerow>3</tablerow>
       <text>Counter target spell unless its controller pays {2}.
 Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
+      <name>Cyclops Electromancer</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/a/da0966a6-f378-4975-88ae-23b600d578bf.jpg?1554476756">WAR</set>
+      <manacost>4R</manacost>
+      <cmc>5.0</cmc>
+      <color>R</color>
+      <type>Creature - Cyclops Wizard</type>
+      <pt>4/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Cyclops Electromancer enters the battlefield, it deals X damage to target creature an opponent controls, where X is the number of instant and sorcery cards in your graveyard.</text>
     </card>
     <card>
       <name>Davriel's Shadowfugue</name>
@@ -235,6 +306,30 @@ Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control on
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Destroy target creature. Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</text>
+    </card>
+    <card>
+      <name>Defiant Strike</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/c/dc183a40-7e15-40b1-9faa-b243401b3d10.jpg?1554466578">WAR</set>
+      <manacost>W</manacost>
+      <cmc>1.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target creature gets +1/+0 until end of turn.
+Draw a card.</text>
+    </card>
+    <card>
+      <name>Devouring Hellion</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/8/88205574-bf2b-46e7-aac7-4b8ea217f94c.jpg?1554477064">WAR</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Hellion</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>As Devouring Hellion enters the battlefield, you may sacrifice any number of creatures and/or planeswalkers. If you do, it enters with twice that many +1/+1 counters on it.</text>
     </card>
     <card>
       <name>Dovin's Veto</name>
@@ -408,6 +503,31 @@ When Fblthp becomes the target of a spell, shuffle Fblthp into its owner's libra
 Zombie tokens you control have hexproof and menace.</text>
     </card>
     <card>
+      <name>Goblin Assailant</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/4/e41acc81-7c22-4b59-97b8-54473623db6f.jpg?1554476601">WAR</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Creature - Goblin Warrior</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text/>
+    </card>
+    <card>
+      <name>Goblin Assault Team</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/8/880047fd-d258-40fb-bcd5-37cb26678dfe.jpg?1554479301">WAR</set>
+      <manacost>3R</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <type>Creature - Goblin Warrior</type>
+      <pt>4/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Haste
+When Goblin Assault Team dies, put a +1/+1 counter on target creature you control.</text>
+    </card>
+    <card>
       <name>God-Pharaoh's Statue</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/d/7dce06ba-c1e1-45ec-82a7-fc10b0fa8870.jpg?1554297019">WAR</set>
       <manacost>6</manacost>
@@ -443,6 +563,18 @@ Whenever Grateful Apparition deals combat damage to a player or planeswalker, pr
       <tablerow>2</tablerow>
       <text>First strike
 When Grim Initiate dies, amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
+      <name>Heartfire</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/d/7db219ea-2ed1-4a86-955c-d61ecedbc019.jpg?1554476814">WAR</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>As an additional cost to cast this spell, sacrifice a creature or planeswalker.
+Heartfire deals 4 damage to any target.</text>
     </card>
     <card>
       <name>Herald of the Dreadhorde</name>
@@ -514,6 +646,18 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>When Invading Manticore enters the battlefield, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
+      <name>Iron Bully</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/e/ded2c66e-402c-4d5c-b987-402679aa914b.jpg?1554467057">WAR</set>
+      <manacost>3</manacost>
+      <cmc>3.0</cmc>
+      <type>Artifact Creature - Golem</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Menace (This creature can't be blocked except by two or more creatures.)
+When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.</text>
     </card>
     <card>
       <name>Island</name>
@@ -709,8 +853,21 @@ You and permanents you control gain hexproof until end of turn. (You and they ca
 -9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.</text>
     </card>
     <card>
+      <name>Loxodon Sergeant</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/5/c57f873b-5fb2-4638-b66c-f6d1aec156ba.jpg?1554466995">WAR</set>
+      <manacost>3W</manacost>
+      <cmc>4.0</cmc>
+      <color>W</color>
+      <type>Creature - Elephant Soldier</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+When Loxodon Sergeant enters the battlefield, other creatures you control gain vigilance until end of turn.</text>
+    </card>
+    <card>
       <name>Makeshift Battalion</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/2/82293d58-d3b4-4cf6-8a16-32ae3e509696.jpg?1554426994">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/2/82293d58-d3b4-4cf6-8a16-32ae3e509696.jpg?1554439972">WAR</set>
       <manacost>2W</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -718,7 +875,48 @@ You and permanents you control gain hexproof until end of turn. (You and they ca
       <pt>3/2</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Whenever Makeshift Battalion and at least two other creatures attack, put a +1/+ counter on Makeshift Battalion.</text>
+      <text>Whenever Makeshift Battalion and at least two other creatures attack, put a +1/+1 counter on Makeshift Battalion.</text>
+    </card>
+    <card>
+      <name>Massacre Girl</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/e/be8ec9e1-2c8e-496d-9111-4d453b75b578.jpg?1554463425">WAR</set>
+      <manacost>3BB</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <type>Legendary Creature - Human Assassin</type>
+      <pt>4/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Menace
+When Massacre Girl enters the battlefield, each other creature gets -1/-1 until end of turn. Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Mayhem Devil</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/7/17416926-168b-49b3-9231-acbb8f8a1d13.jpg?1554464700">WAR</set>
+      <manacost>1BR</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <color>R</color>
+      <type>Creature - Devil</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever a player sacrifices a permanent, Mayhem Devil deals 1 damage to any target.</text>
+    </card>
+    <card>
+      <name>Merfolk Skydiver</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/b/2bf211eb-837b-4c02-b02e-8d9e62f1abb1.jpg?1554442587">WAR</set>
+      <manacost>GU</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <color>U</color>
+      <type>Creature - Merfolk Mutant</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Merfolk Skydiver enters the battlefield, put a +1/+1 counter on target creature you control.
+{3}{G}{U}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
     </card>
     <card>
       <name>Mizzium Tank</name>
@@ -733,6 +931,17 @@ You and permanents you control gain hexproof until end of turn. (You and they ca
       <text>Trample
 Whenever you cast a noncreature spell, Mizzium Tank becomes an artifact creature and gets +1/+1 until end of turn.
 Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+    </card>
+    <card>
+      <name>Mobilized District</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/1/214792e9-a172-4547-b148-b9b368cb3432.jpg?1554463573">WAR</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>{T}: Add {C}.
+{4}: Mobilized District becomes a 3/3 Citizen creature with vigilance until end of turn. It's still a land. This ability costs {1} less to activate for each legendary creature and planeswalker you control.</text>
     </card>
     <card>
       <name>Mountain</name>
@@ -817,6 +1026,19 @@ If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many p
 Whenever Neheb, Dreadhorde Champion deals combat damage to a player or planeswalker, you may discard any number of cards. If you do, draw that many cards and add that much {R}. Until end of turn, you don't lose this mana as steps and phases end.</text>
     </card>
     <card>
+      <name>Neoform</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/2/92d8f67e-4f2f-4a1f-b190-7c3f39e477e4.jpg?1554467042">WAR</set>
+      <manacost>GU</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>As an additional cost to cast this spell, sacrifice a creature.
+Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle your library.</text>
+    </card>
+    <card>
       <name>No Escape</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/c/bc9888a1-6f35-4802-b8fb-902017736d4a.jpg?1554224514">WAR</set>
       <manacost>2U</manacost>
@@ -883,6 +1105,20 @@ Scry 1.</text>
       <loyalty>None</loyalty>
       <tablerow>0</tablerow>
       <text>({T}: Add {W}.)</text>
+    </card>
+    <card>
+      <name>Pollenbright Druid</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/b/4b0f478c-54f8-4087-ad52-d089e2049dda.jpg?1554464174">WAR</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Creature - Elf Druid</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Pollenbright Druid enters the battlefield, choose one &#8212;
+&#8226; Put a +1/+1 counter on target creature.
+&#8226; Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
     </card>
     <card>
       <name>Pouncing Lynx</name>
@@ -957,7 +1193,7 @@ As Rescuer Sphinx enters the battlefield, you may return a nonland permanent you
     </card>
     <card>
       <name>Role Reversal</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/9/59b47017-d982-4d4c-94fc-f265a5b7f36a.jpg?1554376508">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/9/59b47017-d982-4d4c-94fc-f265a5b7f36a.jpg?1554477005">WAR</set>
       <manacost>UUR</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -1053,14 +1289,14 @@ As Rescuer Sphinx enters the battlefield, you may return a nonland permanent you
     </card>
     <card>
       <name>Stealth Mission</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/d/7ddfd4f5-7fe1-4a22-9a85-bd9b75b16380.jpg?1554427233">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/d/7ddfd4f5-7fe1-4a22-9a85-bd9b75b16380.jpg?1554439848">WAR</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
       <type>Sorcery</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Put two +1/+1 counters on target creature you control. That creature can't be blocked this. turn.</text>
+      <text>Put two +1/+1 counters on target creature you control. That creature can't be blocked this turn.</text>
     </card>
     <card>
       <name>Storrev, Devkarin Lich</name>
@@ -1120,6 +1356,20 @@ Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker,
       <text>Each opponent can cast spells only any time they could cast a sorcery.
 +1: Until your next turn, you may cast sorcery spells as though they had flash.
 -3: Return up to one target artifact, creature, or enchantment to its owner's hand. Draw a card.</text>
+    </card>
+    <card>
+      <name>Tenth District Legionnaire</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/4/4/44f3090b-917b-4122-b522-27c30dca8e69.jpg?1554467019">WAR</set>
+      <manacost>RW</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <color>W</color>
+      <type>Creature - Human Soldier</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Haste
+Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 counter on Tenth District Legionnaire, then scry 1.</text>
     </card>
     <card>
       <name>Teyo's Lightshield</name>
@@ -1222,6 +1472,20 @@ Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker,
       <tablerow>2</tablerow>
       <text>When Tolsimir, Friend to Wolves enters the battlefield, create Voja, Friend to Elves, a legendary 3/3 green and white Wolf creature token.
 Whenever a Wolf enters the battlefield under your control, you gain 3 life and that creature fights up to one target creature an opponent controls.</text>
+    </card>
+    <card>
+      <name>Tomik, Distinguished Advokist</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/3/f346387c-2f13-472b-b5b1-968b490eb38f.jpg?1554463820">WAR</set>
+      <manacost>WW</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Legendary Creature - Human Advisor</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Lands on the battlefield and land cards in graveyards can't be the targets of spells or abilities your opponents control.
+Your opponents can't play land cards from graveyards.</text>
     </card>
     <card>
       <name>Totally Lost</name>
