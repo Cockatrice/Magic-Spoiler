@@ -63,63 +63,31 @@
     ],
     "WAR": [
         {
-            "artist": "Simon Dominic",
-            "cmc": 3.0,
+            "artist": "Magali Villeneuve",
+            "cmc": 2.0,
             "colorIdentity": [
-                "G"
+                "W"
             ],
             "colors": [
-                "G"
+                "W"
             ],
             "flavor": null,
             "layout": "",
             "loyalty": null,
-            "mana_cost": "{2}{G}",
+            "mana_cost": "{1}{W}",
             "multiverseId": null,
-            "name": "\"I need a tree here, stat\"",
+            "name": "\"I Thought I'd Just Be Guarding Garrisons, You Know?\"",
             "names": null,
-            "number": "159",
-            "power": "3",
+            "number": "27",
+            "power": null,
             "rarity": "Uncommon",
-            "subTypes": [
-                "Elf",
-                "Druid"
-            ],
+            "subTypes": [],
             "superTypes": [],
-            "text": "Whenever a land enters the battlefield under your control, proliferate.",
-            "toughness": "2",
-            "type": "Creature - Elf Druid",
-            "types": "Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/b/4/b4042db8-6032-49a2-bc96-ad15f55db6c3.jpg?1554487706"
-        },
-        {
-            "artist": "Svetlin Velinov",
-            "cmc": 5.0,
-            "colorIdentity": [
-                "G"
-            ],
-            "colors": [
-                "G"
-            ],
-            "flavor": null,
-            "layout": "",
-            "loyalty": null,
-            "mana_cost": "{4}{G}",
-            "multiverseId": null,
-            "name": "\"Who left this skeleton here?\"",
-            "names": null,
-            "number": "157",
-            "power": "6",
-            "rarity": "Uncommon",
-            "subTypes": [
-                "Troll"
-            ],
-            "superTypes": [],
-            "text": "Each creature you control with power 4 or greater can't be blocked by more than one creature.",
-            "toughness": "5",
-            "type": "Creature - Troll",
-            "types": "Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/3/2/328d778a-ef16-437f-9a9d-204cf061919b.jpg?1554588303"
+            "text": "Untap all creature you control. Creatures you control with flying get +2/+2 until end of turn.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/f/0/f043642d-35fe-4ea9-a1d3-78ddfdddeaf4.jpg?1554743755"
         },
         {
             "artist": "Tomasz Jedruszek",
@@ -222,7 +190,7 @@
             ],
             "flavor": null,
             "layout": "",
-            "loyalty": null,
+            "loyalty": "5",
             "mana_cost": "{2}{G}{W}",
             "multiverseId": null,
             "name": "Ajani, the Greathearted",
@@ -240,7 +208,7 @@
             "toughness": null,
             "type": "Legendary Planeswalker - Ajani",
             "types": " Planeswalker ",
-            "url": "https://img.scryfall.com/cards/normal/front/6/c/6cc78151-8cb0-4521-9674-fb0c67e24a17.jpg?1554225409"
+            "url": "https://img.scryfall.com/cards/normal/front/6/c/6cc78151-8cb0-4521-9674-fb0c67e24a17.jpg?1554727096"
         },
         {
             "artist": "Victor Adame Minguez",
@@ -476,7 +444,7 @@
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
-            "url": "https://img.scryfall.com/cards/normal/front/1/d/1d49637b-2255-4f16-8f24-140145966bfa.jpg?1554476699"
+            "url": "https://img.scryfall.com/cards/normal/front/1/d/1d49637b-2255-4f16-8f24-140145966bfa.jpg?1554726058"
         },
         {
             "artist": "Even Amundsen",
@@ -538,6 +506,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/d/2/d2124603-d20e-40eb-97f0-a66323397ac2.jpg?1554039757"
         },
         {
+            "artist": "Svetlin Velinov",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"Give them everything you've got . . . and some things you don't.\n\u2014Ral Zarek",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{R}",
+            "multiverseId": null,
+            "name": "Bolt Bend",
+            "names": null,
+            "number": "115",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "This spell costs {3} less to cast if you control a creature with power 4 or greater.\nChange the target of target spell or ability with a single target.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/3/9/39b35408-3728-4e1b-9f58-b0775df914d6.jpg?1554748664"
+        },
+        {
             "artist": "Victor Adame Minguez",
             "cmc": 6.0,
             "colorIdentity": [
@@ -596,6 +591,35 @@
             "type": "Creature - Human Wizard",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/0/1/01c5b095-13c9-4673-bf0c-553de455e521.jpg?1554225026"
+        },
+        {
+            "artist": "Svetlin Velinov",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "For most, war is a calamity. For some, an opportunity. And for the very few, a pleasure.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{G}",
+            "multiverseId": null,
+            "name": "Challenger Troll",
+            "names": null,
+            "number": "157",
+            "power": "6",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Troll"
+            ],
+            "superTypes": [],
+            "text": "Each creature you control with power 4 or greater can't be blocked by more than one creature.",
+            "toughness": "5",
+            "type": "Creature - Troll",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/2/328d778a-ef16-437f-9a9d-204cf061919b.jpg?1554726012"
         },
         {
             "artist": "Micah Epstein",
@@ -827,6 +851,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/d/c/dc183a40-7e15-40b1-9faa-b243401b3d10.jpg?1554466578"
         },
         {
+            "artist": "Adam Paquette",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"For every inch of land they take from us, we take it back or we burn it. Give them nothing.\"\n\u2014Aurelia",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{R}",
+            "multiverseId": null,
+            "name": "Demolish",
+            "names": null,
+            "number": "123",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Destroy target artifact or land.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/b/0/b00211dd-6dd7-40d9-80f3-f909f6d112db.jpg?1554725266"
+        },
+        {
             "artist": "Bayard Wu",
             "cmc": 3.0,
             "colorIdentity": [
@@ -1027,6 +1078,36 @@
             "url": "https://img.scryfall.com/cards/normal/front/0/3/03188bc3-0ef1-40cd-9c3c-4bb4d806fb92.jpg?1554224477"
         },
         {
+            "artist": "Johan Grenier",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{U}",
+            "multiverseId": null,
+            "name": "Eternal Skylord",
+            "names": null,
+            "number": "49",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Zombie",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "When Eternal Skylord enters the batttlefield, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)\nZombie tokens you control have flying.",
+            "toughness": "3",
+            "type": "Creature - Zombie Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/f/5/f5aacfc9-1d45-4250-9abc-698d8941699f.jpg?1554725076"
+        },
+        {
             "artist": "Tomasz Jedruszek",
             "cmc": 2.0,
             "colorIdentity": [
@@ -1054,6 +1135,36 @@
             "type": "Creature - Zombie",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/7/7/7789188e-5caa-4500-b3e4-bb95f7657903.jpg?1554222951"
+        },
+        {
+            "artist": "Simon Dominic",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"To care for yourself, cultivate the world. To care for the world, cultivate yourself.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Evolution Sage",
+            "names": null,
+            "number": "159",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Elf",
+                "Druid"
+            ],
+            "superTypes": [],
+            "text": "Whenever a land enters the battlefield under your control, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+            "toughness": "2",
+            "type": "Creature - Elf Druid",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/b/4/b4042db8-6032-49a2-bc96-ad15f55db6c3.jpg?1554725982"
         },
         {
             "artist": "Jesper Ejsing",
@@ -1087,6 +1198,39 @@
             "url": "https://img.scryfall.com/cards/normal/front/5/2/52558748-6893-4c72-a9e2-e87d31796b59.jpg?1554222856"
         },
         {
+            "artist": "Wayne Reynolds",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R",
+                "W"
+            ],
+            "colors": [
+                "R",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}{W}{W}",
+            "multiverseId": null,
+            "name": "Feather, the Redeemed",
+            "names": null,
+            "number": "197",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Angel"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nWhenever you cast an instant or sorcery spell that targets a creature you control, exile that card instead of putting it into your graveyard as it resolves. If you do, return it to your hand at the beginning of the next end step.",
+            "toughness": "4",
+            "type": "Legendary Creature - Angel",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/4/e4a2d2c6-8eaa-4760-b620-921b807baa2e.jpg?1554734209"
+        },
+        {
             "artist": "Heonhwa Choe",
             "cmc": 3.0,
             "colorIdentity": [
@@ -1117,6 +1261,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/c/6/c6202e82-e159-482f-9224-292cb533171c.jpg?1554224434"
         },
         {
+            "artist": "Svetlin Velinov",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "The druid knew only one spell, a charm to encourage rapid plant growth. When airborne Eternals invaded her arboretum, she had to get creative.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Forced Landing",
+            "names": null,
+            "number": "161",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Put target creature with flying on the bottom of its owner's library.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/5/c/5cb319a7-564c-4748-82cf-c26ab110c32c.jpg?1554725374"
+        },
+        {
             "artist": "Jonas De Ro",
             "cmc": 0.0,
             "colorIdentity": [
@@ -1144,6 +1315,35 @@
             "type": "Basic Land - Forest",
             "types": " Land ",
             "url": "https://img.scryfall.com/cards/normal/front/a/9/a9d61651-349e-40d0-a7c4-c9561e190405.jpg?1554143719"
+        },
+        {
+            "artist": "Titus Lunter",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Forest",
+            "names": null,
+            "number": "263",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Forest"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {G}.)",
+            "toughness": null,
+            "type": "Basic Land - Forest",
+            "types": " Land ",
+            "url": "https://img.scryfall.com/cards/normal/front/7/4/74ef8358-9812-4d40-9532-d667513d7701.jpg?1554725884"
         },
         {
             "artist": "Richard Wright",
@@ -1681,6 +1881,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/4/0/40eb7b85-8c0f-4311-85f3-11bcb45ba0b6.jpg?1554039994"
         },
         {
+            "artist": "Kirsten Zirngibl",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Island",
+            "names": null,
+            "number": "255",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Island"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {U}.)",
+            "toughness": null,
+            "type": "Basic Land - Island",
+            "types": " Land ",
+            "url": "https://img.scryfall.com/cards/normal/front/a/2/a24e28a0-a10f-4324-b008-09564e85573e.jpg?1554725791"
+        },
+        {
             "artist": "Anna Steinbauer",
             "cmc": 4.0,
             "colorIdentity": [
@@ -1764,6 +1993,66 @@
             "type": "Land",
             "types": "Land",
             "url": "https://img.scryfall.com/cards/normal/front/b/9/b9d895af-7e8c-419f-bc5d-5596083fbfb6.jpg?1554227704"
+        },
+        {
+            "artist": "Uriah Voth",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "\"Hop away now, little Eternal. Go eat some flies.\"\n\u2014Kasmina",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Kasmina's Transmutation",
+            "names": null,
+            "number": "57",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Aura"
+            ],
+            "superTypes": [],
+            "text": "Enchant creature\nEnchanted creature loses all abilities and has base power and toughness 1/1.",
+            "toughness": null,
+            "type": "Enchantment - Aura",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/a/9/a9771412-695a-4e89-b146-0e3a7336d319.jpg?1554744126"
+        },
+        {
+            "artist": "Magali Villeneuve",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": "5",
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Kasmina, Enigmatic Mentor",
+            "names": null,
+            "number": "56",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Kasmina"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Spells your opponents cast that target a creature or planeswalker you control cost {2} more to cast.\n-2: Create a 2/2 blue Wizard creature token. Draw a card, then discard a card.",
+            "toughness": null,
+            "type": "Legendary Planeswalker - Kasmina",
+            "types": " Planeswalker ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/7/c77d9454-a78c-4063-ad66-46b2f5a030aa.jpg?1554743905"
         },
         {
             "artist": "Johan Grenier",
@@ -2279,7 +2568,7 @@
             "toughness": "2",
             "type": "Artifact - Vehicle",
             "types": "Artifact ",
-            "url": "https://img.scryfall.com/cards/normal/front/5/6/5643253b-0996-45a8-9488-5bcc9192f867.jpg?1554433010"
+            "url": "https://img.scryfall.com/cards/normal/front/5/6/5643253b-0996-45a8-9488-5bcc9192f867.jpg?1554726126"
         },
         {
             "artist": "Jedd Chevrier",
@@ -2302,7 +2591,36 @@
             "toughness": null,
             "type": "Land",
             "types": "Land",
-            "url": "https://img.scryfall.com/cards/normal/front/2/1/214792e9-a172-4547-b148-b9b368cb3432.jpg?1554463573"
+            "url": "https://img.scryfall.com/cards/normal/front/2/1/214792e9-a172-4547-b148-b9b368cb3432.jpg?1554726082"
+        },
+        {
+            "artist": "Titus Lunter",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Mountain",
+            "names": null,
+            "number": "259",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Mountain"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {R}.)",
+            "toughness": null,
+            "type": "Basic Land - Mountain",
+            "types": " Land ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/8/489fdba7-5c25-4cf3-a1e0-3e0fda6c6ee6.jpg?1554725858"
         },
         {
             "artist": "Adam Paquette",
@@ -2661,6 +2979,37 @@
             "url": "https://img.scryfall.com/cards/normal/front/6/e/6ed8d9e7-cdad-450d-8329-fa653d387a63.jpg?1554290554"
         },
         {
+            "artist": "Adam Paquette",
+            "cmc": 8.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{6}{W}{W}",
+            "multiverseId": null,
+            "name": "Parhelion II",
+            "names": null,
+            "number": "24",
+            "power": "5",
+            "rarity": "Rare",
+            "subTypes": [
+                "Vehicle"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying, first strike, vigilance\nWhenever Parhelion II attacks, create two 4/4 white Angel creature tokens with flying and vigilance that are attacking.\nCrew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)",
+            "toughness": "5",
+            "type": "Legendary Artifact - Vehicle",
+            "types": " Artifact ",
+            "url": "https://img.scryfall.com/cards/normal/front/2/6/261ba80e-3aca-423e-a0b7-19c2d4b44dbf.jpg?1554744992"
+        },
+        {
             "artist": "Jonas De Ro",
             "cmc": 0.0,
             "colorIdentity": [
@@ -2688,6 +3037,35 @@
             "type": "Basic Land - Plains",
             "types": " Land ",
             "url": "https://img.scryfall.com/cards/normal/front/d/9/d92ef517-2417-43a2-8b1a-0673d1531c65.jpg?1554143744"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Plains",
+            "names": null,
+            "number": "251",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Plains"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {W}.)",
+            "toughness": null,
+            "type": "Basic Land - Plains",
+            "types": " Land ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/4/84144d57-f0b6-4011-aee8-c626c21998c4.jpg?1554725760"
         },
         {
             "artist": "Richard Wright",
@@ -2807,6 +3185,68 @@
             "url": "https://img.scryfall.com/cards/normal/front/f/c/fc0e8298-adac-4922-8824-a1fafa089f72.jpg?1554402987"
         },
         {
+            "artist": "Joseph Meehan",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R",
+                "U"
+            ],
+            "colors": [
+                "R",
+                "U"
+            ],
+            "flavor": "\"Time to find the melting point of lazotep.\"\n\u2014Ral Zarek",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}{R}",
+            "multiverseId": null,
+            "name": "Ral's Outburst",
+            "names": null,
+            "number": "212",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Ral's Outburst deals 3 damage to any target. Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/6/b/6be3dd3e-50d2-4729-9caa-b2cd984f4c97.jpg?1554744373"
+        },
+        {
+            "artist": "Wesley Burt",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R",
+                "U"
+            ],
+            "colors": [
+                "R",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": "4",
+            "mana_cost": "{2}{U}{R}",
+            "multiverseId": null,
+            "name": "Ral, Storm Conduit",
+            "names": null,
+            "number": "211",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "Ral"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Whenever you cast or copy an instant or sorcery spell, Ral, Storm Conduit deals 1 damage to target opponent or planeswalker.\n+2: Scry 1.\n-2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.",
+            "toughness": null,
+            "type": "Legendary Planeswalker - Ral",
+            "types": " Planeswalker ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/7/678ce3bf-152d-45ca-87ae-ad46c921328b.jpg?1554744439"
+        },
+        {
             "artist": "Adam Paquette",
             "cmc": 4.0,
             "colorIdentity": [
@@ -2919,6 +3359,40 @@
             "url": "https://img.scryfall.com/cards/normal/front/e/d/edcacc28-aacf-4d40-b8cc-f8c028380340.jpg?1554224353"
         },
         {
+            "artist": "Svetlin Velinov",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "G",
+                "U"
+            ],
+            "colors": [
+                "G",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}{G}{U}",
+            "multiverseId": null,
+            "name": "Roalesk, Apex Hybrid",
+            "names": null,
+            "number": "213",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Human",
+                "Mutant"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying, trample\nWhen Roalesk, Apex Hybrid enters the battlefield, put two +1/+1 counters on another target creature you control.\nWhen Roalsk dies, proliferate, then proliferate again. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)",
+            "toughness": "5",
+            "type": "Legendary Creature - Human Mutant",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/e/de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg?1554748683"
+        },
+        {
             "artist": "Mathias Kollros",
             "cmc": 3.0,
             "colorIdentity": [
@@ -3008,6 +3482,37 @@
             "url": "https://img.scryfall.com/cards/normal/front/e/0/e0457e3f-56c1-401b-8e08-f04b95c55e2d.jpg?1554225697"
         },
         {
+            "artist": "Piotr Dura",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"It's faster than we are. Draw its attention while the Ledev take aim!\"\n\u2014Shauntal, Boros legionnaire",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Shriekdiver",
+            "names": null,
+            "number": "103",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Zombie",
+                "Bird",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Flying\n{1}: Shriekdiver gains haste until end of turn.",
+            "toughness": "1",
+            "type": "Creature - Zombie Bird Warrior",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/a/0a1c3148-7a6f-4963-af0b-18d9a156bf22.jpg?1554725483"
+        },
+        {
             "artist": "Livia Prima",
             "cmc": 5.0,
             "colorIdentity": [
@@ -3033,6 +3538,35 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://img.scryfall.com/cards/normal/front/c/e/ce0e7c6a-e628-4327-a16f-2062c5a662df.jpg?1554408027"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R",
+                "W"
+            ],
+            "colors": [
+                "R",
+                "W"
+            ],
+            "flavor": "\"The primary weapon is nothing more than light. It shows them what they are, and they burn of their own accord.\"\n\u2014Aurelia",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}{W}",
+            "multiverseId": null,
+            "name": "Solar Blaze",
+            "names": null,
+            "number": "216",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Each creature deals damage to itself equal to its power.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/e/b/eb72ba0f-ab3a-41e6-906d-a84039efa0af.jpg?1554729007"
         },
         {
             "artist": "Daarken",
@@ -3153,6 +3687,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/7/4/74e42dad-5958-443f-a196-12b3f3e44213.jpg?1554374896"
         },
         {
+            "artist": "Ralph Horsley",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "The archer's heart broke seeing her compatriots die far below, but she held position until the enemy was in range.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Steady Aim",
+            "names": null,
+            "number": "177",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Untap target creature. It gets +1/+4 and gains reach until end of turn.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/4/a/4af6a1b5-a561-4d92-b429-de13b2ccaf81.jpg?1554725554"
+        },
+        {
             "artist": "Heonhwa Choe",
             "cmc": 3.0,
             "colorIdentity": [
@@ -3215,6 +3776,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/5/9/59c906bd-f443-4f4b-b40b-9218e71f1196.jpg?1554255648"
         },
         {
+            "artist": "Johannes Voss",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "At Feather's command, squadrons of battle angels swarmed out of the Parhelion II, unsheathing blades made of molten dawn.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{W}",
+            "multiverseId": null,
+            "name": "Sunblade Angel",
+            "names": null,
+            "number": "31",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Angel"
+            ],
+            "superTypes": [],
+            "text": "Flying, first strike, vigilance, lifelink",
+            "toughness": "3",
+            "type": "Creature - Angel",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/2/9211c0e1-b314-495f-9c43-9a0e95c9efb9.jpg?1554724982"
+        },
+        {
             "artist": "Titus Lunter",
             "cmc": 0.0,
             "colorIdentity": [
@@ -3242,6 +3832,35 @@
             "type": "Basic Land - Swamp",
             "types": " Land ",
             "url": "https://img.scryfall.com/cards/normal/front/2/4/24eeb424-235d-4346-9355-57914e740ec6.jpg?1554143736"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Swamp",
+            "names": null,
+            "number": "257",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Swamp"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {B}.)",
+            "toughness": null,
+            "type": "Basic Land - Swamp",
+            "types": " Land ",
+            "url": "https://img.scryfall.com/cards/normal/front/2/1/211b98e5-8ec2-4108-bacd-97e854a85b6f.jpg?1554725828"
         },
         {
             "artist": "Richard Wright",
@@ -3667,6 +4286,36 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/a/d/adffef78-f776-42d3-ab40-3347c8e5c88b.jpg?1554236547"
+        },
+        {
+            "artist": "Johann Bodin",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "Common Gruul career aspirations: berserker, shaman, catapault.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{R}",
+            "multiverseId": null,
+            "name": "Turret Ogre",
+            "names": null,
+            "number": "148",
+            "power": "4",
+            "rarity": "Common",
+            "subTypes": [
+                "Ogre",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Reach\nWhen Turret Ogre enters the battlefield, if you control another creature with power 4 or greater, Turret Ogre deals 2 damage to each opponent.",
+            "toughness": "3",
+            "type": "Creature - Ogre Warrior",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/b/8b5f624f-c5eb-4150-b36e-6147b440ff56.jpg?1554725628"
         },
         {
             "artist": "Zack Stella",
