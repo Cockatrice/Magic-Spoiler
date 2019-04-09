@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Mon, Apr 08 2019, 22:38:54 (UTC)
+Created At: Tue, Apr 09 2019, 22:40:33 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -12,17 +12,6 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     </set>
   </sets>
   <cards>
-    <card>
-      <name>"I Thought I'd Just Be Guarding Garrisons, You Know?"</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/0/f043642d-35fe-4ea9-a1d3-78ddfdddeaf4.jpg?1554743755">WAR</set>
-      <manacost>1W</manacost>
-      <cmc>2.0</cmc>
-      <color>W</color>
-      <type>Instant</type>
-      <loyalty>None</loyalty>
-      <tablerow>3</tablerow>
-      <text>Untap all creature you control. Creatures you control with flying get +2/+2 until end of turn.</text>
-    </card>
     <card>
       <name>Ahn-Crop Invader</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/d/2dea2466-5c7f-40ce-b749-100ae89d2c90.jpg?1554225022">WAR</set>
@@ -248,6 +237,41 @@ Change the target of target spell or ability with a single target.</text>
       <text>Each creature you control with power 4 or greater can't be blocked by more than one creature.</text>
     </card>
     <card>
+      <name>Chandra's Pyrohelix</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/c/1c482f51-9222-4e9e-a9fd-bb14a0afe156.jpg?1554813125">WAR</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Chandra's Pyrohelix deals 2 damage divided as you choose among one or two targets.</text>
+    </card>
+    <card>
+      <name>Chandra's Triumph</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/0/70f43c17-7022-4052-86b8-90b74382b7bf.jpg?1554835174">WAR</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Chandra's Triumph deals 3 damage to target creature or planeswalker an opponent controls. Chandra's Triumph deals 5 damage to that permanent instead if you control a Chandra planeswalker.</text>
+    </card>
+    <card>
+      <name>Chandra, Fire Artisan</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/d/2/d21a7b23-8827-49f2-ade4-75a602d17743.jpg?1554813235">WAR</set>
+      <manacost>2RR</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <type>Legendary Planeswalker - Chandra</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever one or more loyalty counters are removed from Chandra, Fire Artisan, she deals that much damage to target opponent or planeswalker.
++1: Exile the top card of your library. You may play it this turn.
+-7: Exile the top seven cards of your library. You may play them this turn.</text>
+    </card>
+    <card>
       <name>Courage in Crisis</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/7/67a22083-9ef9-4ff7-8502-3a77e69299df.jpg?1554466444">WAR</set>
       <manacost>2G</manacost>
@@ -377,6 +401,19 @@ Draw a card.</text>
       <tablerow>3</tablerow>
       <text>This spell can't be countered.
 Counter target noncreature spell.</text>
+    </card>
+    <card>
+      <name>Dovin, Hand of Control</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/d/bd6ff745-919b-4688-9e9e-ab7835b3b891.jpg?1554813619">WAR</set>
+      <manacost>2W/U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <color>W</color>
+      <type>Legendary Planeswalker - Dovin</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>Artifact, instant, and sorcery spells your opponents cast cost {1} more to cast.
+-1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.</text>
     </card>
     <card>
       <name>Dreadhorde Arcanist</name>
@@ -797,6 +834,29 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
 -8: Draw seven cards. Then if your library has no cards in it, you win the game.</text>
     </card>
     <card>
+      <name>Jaya's Greeting</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/c/ec66f169-5cf9-4d7c-a5ab-c64fc4801358.jpg?1554816046">WAR</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Jaya's Greeting deals 3 damage to target creature. Scry 1.</text>
+    </card>
+    <card>
+      <name>Jaya, Venerated Firemage</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/2/129dc8a8-9fbc-4300-b559-243395dc6ed5.jpg?1554816178">WAR</set>
+      <manacost>4R</manacost>
+      <cmc>5.0</cmc>
+      <color>R</color>
+      <type>Legendary Planeswalker - Jaya</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>If another red source you control would deal damage to a permanent or player, it deals that much damage plus 1 to that permanent or player instead.
+-2: Jaya, Venerated Firemage deals 2 damage to any target.</text>
+    </card>
+    <card>
       <name>Jiang Yanggu, Wildcrafter</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/0/10e0d47d-b13c-4d48-881f-8aaa347ef209.jpg?1554225147">WAR</set>
       <manacost>2G</manacost>
@@ -820,8 +880,20 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
 {4}, {T}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
     </card>
     <card>
+      <name>Karn, the Great Creator</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/e/3ec0c0fb-1a4f-45f4-85b7-346a6d3ce2c5.jpg?1554832574">WAR</set>
+      <manacost>4</manacost>
+      <cmc>4.0</cmc>
+      <type>Legendary Planeswalker - Karn</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>Activated abilities of artifacts your opponents control can't be activated.
++1: Until your next turn, up to one target noncreature artifact becomes an artifact creature with power and toughness equal to its converted mana cost.
+-2: You may choose an artifact card you own from outside the game or in exile, reveal that card, and put it into your hand.</text>
+    </card>
+    <card>
       <name>Kasmina's Transmutation</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/9/a9771412-695a-4e89-b146-0e3a7336d319.jpg?1554744126">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/9/a9771412-695a-4e89-b146-0e3a7336d319.jpg?1554814664">WAR</set>
       <manacost>1U</manacost>
       <cmc>2.0</cmc>
       <color>U</color>
@@ -833,7 +905,7 @@ Enchanted creature loses all abilities and has base power and toughness 1/1.</te
     </card>
     <card>
       <name>Kasmina, Enigmatic Mentor</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/7/c77d9454-a78c-4063-ad66-46b2f5a030aa.jpg?1554743905">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/7/c77d9454-a78c-4063-ad66-46b2f5a030aa.jpg?1554814668">WAR</set>
       <manacost>3U</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -904,6 +976,18 @@ When enchanted permanent dies or is put into exile, return that card to the batt
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Whenever Krenko, Tin Street Kingpin attacks, put a +1/+1 counter on it, then create a number of 1/1 red Goblin creature tokens equal to Krenko's power.</text>
+    </card>
+    <card>
+      <name>Law-Rune Enforcer</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/3/a3d39238-e21d-4345-84c8-648ef3a66703.jpg?1554813747">WAR</set>
+      <manacost>W</manacost>
+      <cmc>1.0</cmc>
+      <color>W</color>
+      <type>Creature - Human Soldier</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{1}, {T}: Tap target creature with converted mana cost 2 or greater.</text>
     </card>
     <card>
       <name>Lazotep Behemoth</name>
@@ -1139,7 +1223,7 @@ If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many p
     </card>
     <card>
       <name>Nahiri, Storm of Stone</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/8/8806605c-0cb7-4360-96e4-afb424ccad90.jpg?1554297056">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/8/8806605c-0cb7-4360-96e4-afb424ccad90.jpg?1554780694">WAR</set>
       <manacost>2R/WR/W</manacost>
       <cmc>4.0</cmc>
       <color>R</color>
@@ -1226,7 +1310,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Parhelion II</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/6/261ba80e-3aca-423e-a0b7-19c2d4b44dbf.jpg?1554744992">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/6/261ba80e-3aca-423e-a0b7-19c2d4b44dbf.jpg?1554762137">WAR</set>
       <manacost>6WW</manacost>
       <cmc>8.0</cmc>
       <color>W</color>
@@ -1333,6 +1417,17 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
 -2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.</text>
     </card>
     <card>
+      <name>Rally of Wings</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/0/f043642d-35fe-4ea9-a1d3-78ddfdddeaf4.jpg?1554817325">WAR</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Untap all creatures you control. Creatures you control with flying get +2/+2 until end of turn.</text>
+    </card>
+    <card>
       <name>Ravnica at War</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/0/e0f83824-43c6-4101-88fd-9109958b23e2.jpg?1554224335">WAR</set>
       <manacost>3W</manacost>
@@ -1405,6 +1500,31 @@ When Roalsk dies, proliferate, then proliferate again. (Choose any number of per
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Exchange control of two target permanents that share a permanent type.</text>
+    </card>
+    <card>
+      <name>Saheeli's Silverwing</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/b/dba77c07-5d23-4a1a-90a0-b8293848d637.jpg?1554813432">WAR</set>
+      <manacost>4</manacost>
+      <cmc>4.0</cmc>
+      <type>Artifact Creature - Drake</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Saheeli's Silverwing enters the battlefield, look at the top card of target opponent's library.</text>
+    </card>
+    <card>
+      <name>Saheeli, Sublime Artificer</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/a/5a10b543-d5d4-42a8-9ee8-dada59a2ad7e.jpg?1554813351">WAR</set>
+      <manacost>1U/RU/R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <color>U</color>
+      <type>Legendary Planeswalker - Saheeli</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token.
+-2: Target artifact you control becomes a copy of another target artifact or creature you control until end of turn, except it's an artifact in addition to its other types.</text>
     </card>
     <card>
       <name>Samut's Sprint</name>
@@ -1658,7 +1778,7 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
     </card>
     <card>
       <name>Tezzeret, Master of the Bridge</name>
-      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/9/e/9ee1eea2-961f-445d-b035-6baed454f289.jpg?1554153236">WAR</set>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/9/e/9ee1eea2-961f-445d-b035-6baed454f289.jpg?1554786819">WAR</set>
       <manacost>4UB</manacost>
       <cmc>6.0</cmc>
       <color>B</color>
@@ -1807,6 +1927,19 @@ When Turret Ogre enters the battlefield, if you control another creature with po
       <text>You may cast creature spells as though they had flash.
 +1: Until your next turn, up to one target creature gains vigilance and reach.
 -2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may look at that card and you may cast it if it's a creature card.</text>
+    </card>
+    <card>
+      <name>Vizier of the Scorpion</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/4/2444c7dc-7aa1-4476-8660-19d26607306d.jpg?1554826375">WAR</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Wizard</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Vizier of the Scorpion enters the battlefield, amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)
+Zombie tokens you control have deathtouch.</text>
     </card>
     <card>
       <name>Vraska's Finisher</name>
