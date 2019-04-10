@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Tue, Apr 09 2019, 22:40:33 (UTC)
+Created At: Wed, Apr 10 2019, 22:39:14 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -129,6 +129,17 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <text>When Augur of Bolas enters the battlefield, look at the top three cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</text>
     </card>
     <card>
+      <name>Awakening of Vitu-Ghazi</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/4/b42b2fb4-8016-462c-8764-2639adec931f.jpg?1554919348">WAR</set>
+      <manacost>3GG</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Put nine +1/+1 counters on target land you control. It becomes a legendary 0/0 Elemental creature with haste named Vitu-Ghazi. It's still a land.</text>
+    </card>
+    <card>
       <name>Band Together</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/d/4d1d8aa1-d742-477c-819a-0113912d5011.jpg?1554466364">WAR</set>
       <manacost>2G</manacost>
@@ -223,6 +234,18 @@ Change the target of target spell or ability with a single target.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Whenever you cast a noncreature spell, Burning Prophet gets +1/+0 until end of turn, then scry 1.</text>
+    </card>
+    <card>
+      <name>Chainwhip Cyclops</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/2/d2f18df2-5910-4c5d-8b04-6fe5d04e8150.jpg?1554900115">WAR</set>
+      <manacost>4R</manacost>
+      <cmc>5.0</cmc>
+      <color>R</color>
+      <type>Creature - Cyclops Warrior</type>
+      <pt>4/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{3}{R}: Target creature can't block this turn.</text>
     </card>
     <card>
       <name>Challenger Troll</name>
@@ -390,6 +413,32 @@ Draw a card.</text>
       <text>As Devouring Hellion enters the battlefield, you may sacrifice any number of creatures and/or planeswalkers. If you do, it enters with twice that many +1/+1 counters on it.</text>
     </card>
     <card>
+      <name>Domri's Ambush</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/0/b0dcae59-e9be-45a8-8ed8-5b47309bb716.jpg?1554895584">WAR</set>
+      <manacost>RG</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Put a +1/+1 counter on target creature you control. Then that creature deals damage equal to its power to target creature or planeswalker you don't control.</text>
+    </card>
+    <card>
+      <name>Domri, Anarch of Bolas</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/1/c1af9881-e35b-4be2-8716-ea7c6664e22c.jpg?1554900707">WAR</set>
+      <manacost>1RG</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <color>R</color>
+      <type>Legendary Planeswalker - Domri</type>
+      <loyalty>3</loyalty>
+      <tablerow>1</tablerow>
+      <text>Creatures you control get +1/+0.
++1: Add {R} or {G}. Creature spells you cast this turn can't be countered.
+-2: Target creature you control fights target creature you don't control.</text>
+    </card>
+    <card>
       <name>Dovin's Veto</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/d/5d6b5054-2224-4f68-9d82-3ed17c5dacc4.jpg?1554290680">WAR</set>
       <manacost>WU</manacost>
@@ -480,7 +529,7 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
     </card>
     <card>
       <name>Eternal Skylord</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/5/f5aacfc9-1d45-4250-9abc-698d8941699f.jpg?1554725076">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/5/f5aacfc9-1d45-4250-9abc-698d8941699f.jpg?1554868625">WAR</set>
       <manacost>4U</manacost>
       <cmc>5.0</cmc>
       <color>U</color>
@@ -488,7 +537,7 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
       <pt>3/3</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>When Eternal Skylord enters the batttlefield, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)
+      <text>When Eternal Skylord enters the battlefield, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)
 Zombie tokens you control have flying.</text>
     </card>
     <card>
@@ -743,6 +792,20 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
       <text>Search your library for up to two planeswalker cards, reveal them, put them into your hand, then shuffle your library.</text>
     </card>
     <card>
+      <name>Ilharg, the Raze-Boar</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/c/0/c0109b60-09aa-4a03-92e7-0c651d976d51.jpg?1554913554">WAR</set>
+      <manacost>3RR</manacost>
+      <cmc>5.0</cmc>
+      <color>R</color>
+      <type>Legendary Creature - Boar God</type>
+      <pt>6/6</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+Whenever Ilharg, the Raze-Boar attacks, you may put a creature card from your hand onto the battlefield tapped and attacking. Return that creature to your hand at the beginning of the next end step.
+When Ilharg, the Raze-Boar dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
+    </card>
+    <card>
       <name>Interplanar Beacon</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/3/132d8e2a-e1dd-4867-8e8c-e48b9450b350.jpg?1554225805">WAR</set>
       <manacost/>
@@ -978,6 +1041,19 @@ When enchanted permanent dies or is put into exile, return that card to the batt
       <text>Whenever Krenko, Tin Street Kingpin attacks, put a +1/+1 counter on it, then create a number of 1/1 red Goblin creature tokens equal to Krenko's power.</text>
     </card>
     <card>
+      <name>Kronch Wrangler</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/f/8f41d22a-ee37-4d69-a9ca-98c91315b9e6.jpg?1554900285">WAR</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Creature - Human Warrior</type>
+      <pt>2/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+Whenever a creature with power 4 or greater enters the battlefield under your control, put a +1/+1 counter on Kronch Wrangler.</text>
+    </card>
+    <card>
       <name>Law-Rune Enforcer</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/3/a3d39238-e21d-4345-84c8-648ef3a66703.jpg?1554813747">WAR</set>
       <manacost>W</manacost>
@@ -1065,6 +1141,20 @@ You and permanents you control gain hexproof until end of turn. (You and they ca
 -9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.</text>
     </card>
     <card>
+      <name>Living Twister</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/8/c8d92676-a994-4031-834c-6cf7c43bd170.jpg?1554919425">WAR</set>
+      <manacost>RRG</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <color>R</color>
+      <type>Creature - Elemental</type>
+      <pt>2/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{1}{R}, Discard a land card: Living Twister deals 2 damage to any target.
+{G}: Return a tapped land you control to its owner's hand.</text>
+    </card>
+    <card>
       <name>Loxodon Sergeant</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/5/c57f873b-5fb2-4638-b66c-f6d1aec156ba.jpg?1554466995">WAR</set>
       <manacost>3W</manacost>
@@ -1088,6 +1178,18 @@ When Loxodon Sergeant enters the battlefield, other creatures you control gain v
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Whenever Makeshift Battalion and at least two other creatures attack, put a +1/+1 counter on Makeshift Battalion.</text>
+    </card>
+    <card>
+      <name>Martyr for the Cause</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/c/acfbc8ca-a574-461e-92ea-c6010daa8230.jpg?1554895657">WAR</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Creature - Human Soldier</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Martyr for the Cause dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
     </card>
     <card>
       <name>Massacre Girl</name>
@@ -1261,6 +1363,30 @@ Whenever Neheb, Dreadhorde Champion deals combat damage to a player or planeswal
 Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle your library.</text>
     </card>
     <card>
+      <name>Nissa's Triumph</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/9/7946b256-ae79-4b99-8bf4-0d627baf9044.jpg?1554919391">WAR</set>
+      <manacost>GG</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Search your library for up to two basic Forest cards. If you control a Nissa planeswalker, instead search your library for up to three land cards. Reveal those cards, put them into your hand, then shuffle your library.</text>
+    </card>
+    <card>
+      <name>Nissa, Who Shakes the World</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/8/f857bbe4-5619-4733-a0c7-69700f2ef4f3.jpg?1554912916">WAR</set>
+      <manacost>3GG</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Legendary Planeswalker - Nissa</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever you tap a Forest for mana, add an additional {G}.
++1: Put three +1/+1 counters on up to one target noncreature land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance and haste that's still a land.
+-8: You get an emblem with "Lands you control have indestructible." Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle your library.</text>
+    </card>
+    <card>
       <name>No Escape</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/c/bc9888a1-6f35-4802-b8fb-902017736d4a.jpg?1554224514">WAR</set>
       <manacost>2U</manacost>
@@ -1391,6 +1517,18 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
       <text/>
     </card>
     <card>
+      <name>Raging Kronch</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/e/ae38aa2d-6c0e-409a-bfc7-ed4281457670.jpg?1554900188">WAR</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Beast</type>
+      <pt>4/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Raging Kronch can't attack alone.</text>
+    </card>
+    <card>
       <name>Ral's Outburst</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/b/6be3dd3e-50d2-4729-9caa-b2cd984f4c97.jpg?1554744373">WAR</set>
       <manacost>2UR</manacost>
@@ -1476,7 +1614,7 @@ As Rescuer Sphinx enters the battlefield, you may return a nonland permanent you
     </card>
     <card>
       <name>Roalesk, Apex Hybrid</name>
-      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/d/e/de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg?1554748683">WAR</set>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/d/e/de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg?1554870248">WAR</set>
       <manacost>2GGU</manacost>
       <cmc>5.0</cmc>
       <color>G</color>
@@ -1487,7 +1625,7 @@ As Rescuer Sphinx enters the battlefield, you may return a nonland permanent you
       <tablerow>2</tablerow>
       <text>Flying, trample
 When Roalesk, Apex Hybrid enters the battlefield, put two +1/+1 counters on another target creature you control.
-When Roalsk dies, proliferate, then proliferate again. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)</text>
+When Roalesk dies, proliferate, then proliferate again. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)</text>
     </card>
     <card>
       <name>Role Reversal</name>
@@ -1804,6 +1942,19 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
 -2: Exile target creature with power 4 or greater.</text>
     </card>
     <card>
+      <name>Thundering Ceratok</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/8/9888d9a4-ad72-43f6-8031-1031877171a9.jpg?1554899996">WAR</set>
+      <manacost>4G</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Creature - Rhino</type>
+      <pt>4/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+When Thundering Ceratok enters the battlefield, other creatures you control gain trample until end of turn.</text>
+    </card>
+    <card>
       <name>Tibalt's Rager</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/9/2985520d-dfce-414e-a4ac-61695be67406.jpg?1554225050">WAR</set>
       <manacost>1R</manacost>
@@ -1867,6 +2018,18 @@ Whenever a Wolf enters the battlefield under your control, you gain 3 life and t
       <text>Flying
 Lands on the battlefield and land cards in graveyards can't be the targets of spells or abilities your opponents control.
 Your opponents can't play land cards from graveyards.</text>
+    </card>
+    <card>
+      <name>Topple the Statue</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/8/2829fa40-92e4-4017-aacd-9d9feae04aa2.jpg?1554895744">WAR</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Tap target permanent. If it's an artifact, destroy it.
+Draw a card.</text>
     </card>
     <card>
       <name>Totally Lost</name>
