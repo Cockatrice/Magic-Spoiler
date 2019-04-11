@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Wed, Apr 10 2019, 22:39:14 (UTC)
+Created At: Thu, Apr 11 2019, 22:39:59 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -401,6 +401,17 @@ Draw a card.</text>
       <text>Destroy target artifact or land.</text>
     </card>
     <card>
+      <name>Desperate Lunge</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/9/69ce134a-25ef-4f8d-a385-7c29fc5707dc.jpg?1555006861">WAR</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target creature gets +2/+2 and gains flying until end of turn. You gain 2 life.</text>
+    </card>
+    <card>
       <name>Devouring Hellion</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/8/88205574-bf2b-46e7-aac7-4b8ea217f94c.jpg?1554477064">WAR</set>
       <manacost>2R</manacost>
@@ -505,6 +516,19 @@ When Dreadhorde Butcher dies, it deals damage equal to its power to any target.<
 Whenever a Zombie token you control with power 6 or greater attacks, it gains lifelink until end of turn.</text>
     </card>
     <card>
+      <name>Dreadhorde Twins</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/2/82017bf6-352f-4e81-8fd5-c1b0daf05b01.jpg?1554929317">WAR</set>
+      <manacost>3R</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <type>Creature - Zombie Jackal Warrior</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Dreadhorde Twins enters the battlefield, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)
+Zombie tokens you control have trample.</text>
+    </card>
+    <card>
       <name>Emergence Zone</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/b/ab95f6e7-b806-47fe-a071-6c38b3176d94.jpg?1554225716">WAR</set>
       <manacost/>
@@ -514,6 +538,18 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
 {1}, {T}, Sacrifice Emergence Zone: You may cast spells this turn as though they had flash.</text>
+    </card>
+    <card>
+      <name>Enter the God-Eternals</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/6/f67e7070-2266-4c93-8c89-084e12ba7a4e.jpg?1554979609">WAR</set>
+      <manacost>2UUB</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Enter the God-Eternals deals 4 damage to target creature and you gain life equal to the damage dealt this way. Target player puts the top four cards of their library into their graveyard. Amass 4. (Put four +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
       <name>Erratic Visionary</name>
@@ -658,6 +694,17 @@ Whenever you cast an instant or sorcery spell that targets a creature you contro
       <text>Target creature gets +3/+3 until end of turn.</text>
     </card>
     <card>
+      <name>Gideon's Battle Cry</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/2/52de8fc6-6d9b-402e-a6c8-4c39b0c92f07.jpg?1555006950">WAR</set>
+      <manacost>2WW</manacost>
+      <cmc>4.0</cmc>
+      <color>W</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Put a +1/+1 counter on each creature you control. You may search your library and/or graveyard for a card named Gideon, the Oathsworn, reveal it, and put it into your hand. If you search your library this way, shuffle it.</text>
+    </card>
+    <card>
       <name>Gideon's Triumph</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/6/d6610c6a-717f-406e-a49d-b6e548880946.jpg?1554224327">WAR</set>
       <manacost>1W</manacost>
@@ -667,6 +714,19 @@ Whenever you cast an instant or sorcery spell that targets a creature you contro
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Target opponent sacrifices a creature that attacked or blocked this turn. If you control a Gideon planeswalker, that player sacrifices two of those creatures instead.</text>
+    </card>
+    <card>
+      <name>Gideon, the Oathsworn</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/4/3/43e7331d-98b8-420f-a346-3f3521c3b258.jpg?1555006790">WAR</set>
+      <manacost>4WW</manacost>
+      <cmc>6.0</cmc>
+      <color>W</color>
+      <type>Legendary Planeswalker - Gideon</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever you attack with two or more non-Gideon creatures, put a +1/+1 counter on each of those creatures.
++2: Until end of turn, Gideon, the Oathsworn becomes a 5/5 white Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn. (He can't attack if he was cast this turn.)
+-9: Exile Gideon, the Oathsworn and each creature your opponents control.</text>
     </card>
     <card>
       <name>Gleaming Overseer</name>
@@ -706,6 +766,34 @@ Zombie tokens you control have hexproof and menace.</text>
       <tablerow>2</tablerow>
       <text>Haste
 When Goblin Assault Team dies, put a +1/+1 counter on target creature you control.</text>
+    </card>
+    <card>
+      <name>God-Eternal Bontu</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/3/7/3714a135-e2b9-43a7-a2a2-fa5a2e0ac61a.jpg?1554980629">WAR</set>
+      <manacost>3BB</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <type>Legendary Creature - Zombie God</type>
+      <pt>5/6</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Menace
+When God-Eternal Bontu enters the battlefield, sacrifice any number of other permanents, then draw that many cards.
+When God-Eternal Bontu dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
+    </card>
+    <card>
+      <name>God-Eternal Rhonas</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/0/e/0eb444f0-69cc-47c8-8cd6-1f9edad5d903.jpg?1555007053">WAR</set>
+      <manacost>3GG</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Legendary Creature - Zombie God</type>
+      <pt>5/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Deathtouch
+When God-Eternal Rhonas enters the battlefield, double the power of each other creature you control until end of turn. Those creatures gain vigilance until end of turn.
+When God-Eternal Rhonas dies or is put into exile from the battlefield, you pay put it into its owner's library third from the top.</text>
     </card>
     <card>
       <name>God-Pharaoh's Statue</name>
@@ -1702,6 +1790,19 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
 {1}: Shriekdiver gains haste until end of turn.</text>
     </card>
     <card>
+      <name>Silent Submarine</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/e/ae2f3dee-1768-4562-9333-a50b9ee7570f.jpg?1554951852">WAR</set>
+      <manacost>UU</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Artifact - Vehicle</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever Silent Submarine deals combat damage to a player or planeswalker, draw a card.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+    </card>
+    <card>
       <name>Single Combat</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/e/ce0e7c6a-e628-4327-a16f-2062c5a662df.jpg?1554408027">WAR</set>
       <manacost>3WW</manacost>
@@ -1748,6 +1849,18 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
       <text>As long as it's your turn, creatures and planeswalkers you control have lifelink.
 +2: Sorin, Vengeful Bloodlord deals 1 damage to target player or planeswalker.
 -X: Return target creature card with converted mana cost X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.</text>
+    </card>
+    <card>
+      <name>Spark Double</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/b/bb8a103c-b776-4501-9441-a45b90391045.jpg?1554986030">WAR</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Creature - Illusion</type>
+      <pt>0/0</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>You may have Spark Double enter the battlefield as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary if that permanent is legendary.</text>
     </card>
     <card>
       <name>Spellgorger Weird</name>
@@ -1850,6 +1963,31 @@ Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker,
       <loyalty>None</loyalty>
       <tablerow>0</tablerow>
       <text>({T}: Add {B}.)</text>
+    </card>
+    <card>
+      <name>Tamiyo's Epiphany</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/e/ce338cf3-46dc-4c87-8df5-af27097c7dd4.jpg?1554991969">WAR</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Scry 4, then draw two cards.</text>
+    </card>
+    <card>
+      <name>Tamiyo, Collector of Tales</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/6/76776b24-a2e1-4590-88e7-8a421baf2fc4.jpg?1554991900">WAR</set>
+      <manacost>2GU</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <color>U</color>
+      <type>Legendary Planeswalker - Tamiyo</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>Spells and abilities your opponents control can't cause you to discard cards or sacrifice permanents.
++1: Choose a nonland card name, then reveal the top four cards of your library. Put all cards with the chosen name from among them into your hand and the rest into your graveyard.
+-3: Return target card from your graveyard to your hand.</text>
     </card>
     <card>
       <name>Teferi's Time Twist</name>
