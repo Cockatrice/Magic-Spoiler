@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Thu, Apr 11 2019, 22:39:59 (UTC)
+Created At: Fri, Apr 12 2019, 22:40:22 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -434,7 +434,7 @@ Draw a card.</text>
     </card>
     <card>
       <name>Desperate Lunge</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/9/69ce134a-25ef-4f8d-a385-7c29fc5707dc.jpg?1555006861">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/9/69ce134a-25ef-4f8d-a385-7c29fc5707dc.jpg?1555021038">WAR</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -662,6 +662,29 @@ When Fblthp becomes the target of a spell, shuffle Fblthp into its owner's libra
 Whenever you cast an instant or sorcery spell that targets a creature you control, exile that card instead of putting it into your graveyard as it resolves. If you do, return it to your hand at the beginning of the next end step.</text>
     </card>
     <card>
+      <name>Finale of Promise</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/1/811b2dda-e1b7-4a46-83cc-5cdc17554836.jpg?1555084033">WAR</set>
+      <manacost>XRR</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>You may cast up to one target instant card and/or sorcery card from your graveyard each with converted mana cost X or less without paying their mana costs. If a card cast this way would be put into your graveyard this turn, exile it instead. If X is 10 or more, copy each of those spells twice. You may choose new targets for the copies.</text>
+    </card>
+    <card>
+      <name>Firemind Vessel</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/c/ec0ebb6b-d35a-47db-8071-7fef2a46c17b.jpg?1555065946">WAR</set>
+      <manacost>4</manacost>
+      <cmc>4.0</cmc>
+      <cipt>1</cipt>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Firemind Vessel enters the battlefield tapped.
+{T}: Add two mana of different colors.</text>
+    </card>
+    <card>
       <name>Flux Channeler</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/6/c6202e82-e159-482f-9224-292cb533171c.jpg?1554224434">WAR</set>
       <manacost>2U</manacost>
@@ -737,6 +760,19 @@ Whenever you cast an instant or sorcery spell that targets a creature you contro
       <text>Put a +1/+1 counter on each creature you control. You may search your library and/or graveyard for a card named Gideon, the Oathsworn, reveal it, and put it into your hand. If you search your library this way, shuffle it.</text>
     </card>
     <card>
+      <name>Gideon's Company</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/0/a0a64d2e-8b89-4642-84c2-b01dfe11312e.jpg?1555010306">WAR</set>
+      <manacost>3W</manacost>
+      <cmc>4.0</cmc>
+      <color>W</color>
+      <type>Creature - Human Soldier</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever you gain life, put two +1/+1 counters on Gideon's Company.
+{3}{W}: Put a loyalty counter on target Gideon planeswalker.</text>
+    </card>
+    <card>
       <name>Gideon's Triumph</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/6/d6610c6a-717f-406e-a49d-b6e548880946.jpg?1554224327">WAR</set>
       <manacost>1W</manacost>
@@ -749,7 +785,7 @@ Whenever you cast an instant or sorcery spell that targets a creature you contro
     </card>
     <card>
       <name>Gideon, the Oathsworn</name>
-      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/4/3/43e7331d-98b8-420f-a346-3f3521c3b258.jpg?1555006790">WAR</set>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/4/3/43e7331d-98b8-420f-a346-3f3521c3b258.jpg?1555010284">WAR</set>
       <manacost>4WW</manacost>
       <cmc>6.0</cmc>
       <color>W</color>
@@ -814,8 +850,22 @@ When God-Eternal Bontu enters the battlefield, sacrifice any number of other per
 When God-Eternal Bontu dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
     </card>
     <card>
+      <name>God-Eternal Kefnet</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/5/e/5e14060f-9167-4e28-a053-77689e066e30.jpg?1555024407">WAR</set>
+      <manacost>2UU</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Legendary Creature - Zombie God</type>
+      <pt>4/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+You may reveal the first card you draw each turn as you draw it. Whenever you reveal an instant or sorcery card this way, copy that card and you may cast the copy. That copy costs {2} less to cast.
+When God-Eternal Kefnet dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
+    </card>
+    <card>
       <name>God-Eternal Rhonas</name>
-      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/0/e/0eb444f0-69cc-47c8-8cd6-1f9edad5d903.jpg?1555007053">WAR</set>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/0/e/0eb444f0-69cc-47c8-8cd6-1f9edad5d903.jpg?1555008040">WAR</set>
       <manacost>3GG</manacost>
       <cmc>5.0</cmc>
       <color>G</color>
@@ -825,7 +875,7 @@ When God-Eternal Bontu dies or is put into exile from the battlefield, you may p
       <tablerow>2</tablerow>
       <text>Deathtouch
 When God-Eternal Rhonas enters the battlefield, double the power of each other creature you control until end of turn. Those creatures gain vigilance until end of turn.
-When God-Eternal Rhonas dies or is put into exile from the battlefield, you pay put it into its owner's library third from the top.</text>
+When God-Eternal Rhonas dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
     </card>
     <card>
       <name>God-Pharaoh's Statue</name>
@@ -1004,6 +1054,17 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <text>({T}: Add {U}.)</text>
     </card>
     <card>
+      <name>Jace's Triumph</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/4/9/4924f177-5ee2-4d3f-9603-4b9aef4dac09.jpg?1555065864">WAR</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Draw two cards. If you control a Jace planeswalker, draw three cards instead.</text>
+    </card>
+    <card>
       <name>Jace, Wielder of Mysteries</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1554224438">WAR</set>
       <manacost>1UUU</manacost>
@@ -1064,14 +1125,14 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
     </card>
     <card>
       <name>Karn, the Great Creator</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/e/3ec0c0fb-1a4f-45f4-85b7-346a6d3ce2c5.jpg?1554832574">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/e/3ec0c0fb-1a4f-45f4-85b7-346a6d3ce2c5.jpg?1555058780">WAR</set>
       <manacost>4</manacost>
       <cmc>4.0</cmc>
       <type>Legendary Planeswalker - Karn</type>
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Activated abilities of artifacts your opponents control can't be activated.
-+1: Until your next turn, up to one target noncreature artifact becomes an artifact creature with power and toughness equal to its converted mana cost.
++1: Until your next turn, up to one target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.
 -2: You may choose an artifact card you own from outside the game or in exile, reveal that card, and put it into your hand.</text>
     </card>
     <card>
@@ -1507,6 +1568,23 @@ Search your library for a creature card with converted mana cost equal to 1 plus
 -8: You get an emblem with "Lands you control have indestructible." Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle your library.</text>
     </card>
     <card>
+      <name>Niv-Mizzet Reborn</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/5/6/56a2609d-b535-400b-81d9-72989a33c70f.jpg?1555083196">WAR</set>
+      <manacost>WUBRG</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <color>G</color>
+      <color>R</color>
+      <color>U</color>
+      <color>W</color>
+      <type>Legendary Creature - Dragon Avatar</type>
+      <pt>6/6</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Niv-Mizzet Reborn enters the battlefield, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order.</text>
+    </card>
+    <card>
       <name>No Escape</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/c/bc9888a1-6f35-4802-b8fb-902017736d4a.jpg?1554224514">WAR</set>
       <manacost>2U</manacost>
@@ -1540,6 +1618,18 @@ Scry 1.</text>
       <tablerow>1</tablerow>
       <text>Whenever an opponent draws a card, Ob Nixilis, the Hate-Twisted deals 1 damage to that player.
 -2: Destroy target creature. Its controller draws two cards.</text>
+    </card>
+    <card>
+      <name>Orzhov Guildgate</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/b/cbadf8cf-02bf-45f6-b3c1-a684d9bc5228.jpg?1555010167">WAR</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land - Gate</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Orzhov Guildgate enters the battlefield tapped.
+{T}: Add {W} or {B}.</text>
     </card>
     <card>
       <name>Paradise Druid</name>
@@ -1597,6 +1687,18 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
       <loyalty>None</loyalty>
       <tablerow>0</tablerow>
       <text>({T}: Add {W}.)</text>
+    </card>
+    <card>
+      <name>Pledge of Unity</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/a/ca9b3518-7fcd-49e2-a4c4-e5daa8be6c21.jpg?1555057182">WAR</set>
+      <manacost>1GW</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Put a +1/+1 counter on each creature you control. You gain 1 life for each creature you control.</text>
     </card>
     <card>
       <name>Pollenbright Druid</name>
@@ -2160,6 +2262,18 @@ When Thundering Ceratok enters the battlefield, other creatures you control gain
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Return a creature you control to its owner's hand, then destroy all creatures.</text>
+    </card>
+    <card>
+      <name>Toll of the Invasion</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/4/4471c2a5-aa2c-47e2-8238-1eb366c8adc9.jpg?1555039608">WAR</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
       <name>Tolsimir, Friend to Wolves</name>
