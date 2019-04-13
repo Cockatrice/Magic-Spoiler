@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Fri, Apr 12 2019, 22:40:22 (UTC)
+Created At: Sat, Apr 13 2019, 09:12:28 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -212,6 +212,61 @@ You may play the top card of your library. If you cast a spell this way, pay lif
 Change the target of target spell or ability with a single target.</text>
     </card>
     <card>
+      <name>Bond of Discipline</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/b/bb7c78bb-9f2a-47a4-adc4-b497bb38f46f.jpg?1555101954">WAR</set>
+      <manacost>4W</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Tap all creatures your opponents control. Creatures you control gain lifeline until end of turn.</text>
+    </card>
+    <card>
+      <name>Bond of Flourishing</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/f/df901fdc-8672-44f5-ade5-7c4e0b5c5d81.jpg?1555102456">WAR</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Look at the top three card of your library. You may reveal a permanent card from among them and put it into your hand. Put the rest on the bottom of your library in any order. You gain 3 life.</text>
+    </card>
+    <card>
+      <name>Bond of Insight</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/4/648629af-e911-49e1-b564-c98f339b84a1.jpg?1555102502">WAR</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Each player puts the top four cards of their library into their graveyard. Return up to two instant and/or sorcery cards from your graveyard to your hand. Exile Bond of Insight.</text>
+    </card>
+    <card>
+      <name>Bond of Passion</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/e/ae644e9d-9bc4-4ccd-aef4-3d0559948aa6.jpg?1555108644">WAR</set>
+      <manacost>4RR</manacost>
+      <cmc>6.0</cmc>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Bond of Passion deals 2 damage to any other target.</text>
+    </card>
+    <card>
+      <name>Bond of Revival</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/6/c6482fb9-f874-4e33-aa74-7a0da4c9760c.jpg?1555102629">WAR</set>
+      <manacost>4B</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Return target creature card from your graveyard to the battlefield. It gains haste until your next turn.</text>
+    </card>
+    <card>
       <name>Bulwark Giant</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/1/11510817-edb3-40d4-bd27-6161fedadd11.jpg?1554403942">WAR</set>
       <manacost>5W</manacost>
@@ -234,6 +289,19 @@ Change the target of target spell or ability with a single target.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Whenever you cast a noncreature spell, Burning Prophet gets +1/+0 until end of turn, then scry 1.</text>
+    </card>
+    <card>
+      <name>Centaur Nurturer</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/f/bf020acb-e0c6-43b4-8324-0f2ec68b73d6.jpg?1555101824">WAR</set>
+      <manacost>3G</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <type>Creature - Centaur Druid</type>
+      <pt>2/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Centaur Nurturer enters the battlefield, you gain 3 life.
+{T}: Add one mana of any color.</text>
     </card>
     <card>
       <name>Chainwhip Cyclops</name>
@@ -293,6 +361,18 @@ Change the target of target spell or ability with a single target.</text>
       <text>Whenever one or more loyalty counters are removed from Chandra, Fire Artisan, she deals that much damage to target opponent or planeswalker.
 +1: Exile the top card of your library. You may play it this turn.
 -7: Exile the top seven cards of your library. You may play them this turn.</text>
+    </card>
+    <card>
+      <name>Contentious Plan</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/e/8e30deb6-9e1f-4545-ae30-c30ba6c7b3a0.jpg?1555102558">WAR</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Draw a card.</text>
     </card>
     <card>
       <name>Courage in Crisis</name>
@@ -642,7 +722,7 @@ Whenever you cast an instant or sorcery spell that targets a creature you contro
     </card>
     <card>
       <name>Firemind Vessel</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/c/ec0ebb6b-d35a-47db-8071-7fef2a46c17b.jpg?1555065946">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/c/ec0ebb6b-d35a-47db-8071-7fef2a46c17b.jpg?1555098557">WAR</set>
       <manacost>4</manacost>
       <cmc>4.0</cmc>
       <cipt>1</cipt>
@@ -1893,7 +1973,7 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
     </card>
     <card>
       <name>Silent Submarine</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/e/ae2f3dee-1768-4562-9333-a50b9ee7570f.jpg?1554951852">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/e/ae2f3dee-1768-4562-9333-a50b9ee7570f.jpg?1555100031">WAR</set>
       <manacost>UU</manacost>
       <cmc>2.0</cmc>
       <color>U</color>
