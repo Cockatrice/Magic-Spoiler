@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Sun, Apr 14 2019, 22:41:23 (UTC)
+Created At: Mon, Apr 15 2019, 22:41:40 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -117,6 +117,31 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -2: Create a 2/2 green Wolf creature token.</text>
     </card>
     <card>
+      <name>Ashiok's Skulker</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/d/7dd5b0a1-104d-4e0f-82de-65487fbf01ff.jpg?1555325756">WAR</set>
+      <manacost>4U</manacost>
+      <cmc>5.0</cmc>
+      <color>U</color>
+      <type>Creature - Nightmare</type>
+      <pt>3/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{3}{U}: Ashiok's Skulker can't be blocked this turn.</text>
+    </card>
+    <card>
+      <name>Ashiok, Dream Render</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/2/f2df3258-c053-48a8-974f-d80899b2cd93.jpg?1555323640">WAR</set>
+      <manacost>1U/BU/B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <color>U</color>
+      <type>Legendary Planeswalker - Ashiok</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>Spells and abilities your opponents control can't cause their controller to search their library.
+-1: Target player puts the top four cards of their library into their graveyard. Then exile each opponent's graveyard.</text>
+    </card>
+    <card>
       <name>Augur of Bolas</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/1/d19fbfe6-69bb-452a-be3c-b9c625e23193.jpg?1554290607">WAR</set>
       <manacost>1U</manacost>
@@ -213,7 +238,7 @@ Change the target of target spell or ability with a single target.</text>
     </card>
     <card>
       <name>Bond of Discipline</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/b/bb7c78bb-9f2a-47a4-adc4-b497bb38f46f.jpg?1555151364">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/b/bb7c78bb-9f2a-47a4-adc4-b497bb38f46f.jpg?1555334698">WAR</set>
       <manacost>4W</manacost>
       <cmc>5.0</cmc>
       <color>W</color>
@@ -363,6 +388,18 @@ Change the target of target spell or ability with a single target.</text>
 -7: Exile the top seven cards of your library. You may play them this turn.</text>
     </card>
     <card>
+      <name>Commence the Endgame</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/0/209d70a2-c8c1-4072-ab1f-57804b55a09a.jpg?1555325769">WAR</set>
+      <manacost>4UU</manacost>
+      <cmc>6.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>This spell can't be countered.
+Draw two cards, then amass X, where X is the number of cards in your hand.</text>
+    </card>
+    <card>
       <name>Contentious Plan</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/e/8e30deb6-9e1f-4545-ae30-c30ba6c7b3a0.jpg?1555102558">WAR</set>
       <manacost>1U</manacost>
@@ -468,6 +505,18 @@ Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control on
       <tablerow>3</tablerow>
       <text>Target creature gets +1/+0 until end of turn.
 Draw a card.</text>
+    </card>
+    <card>
+      <name>Deliver Unto Evil</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/7/67aa7104-7acc-4827-b763-ac053c99baab.jpg?1555330550">WAR</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose up to four target cards in your graveyard. If you control a Bolas planeswalker, return those cards to your hand. Otherwise, an opponent chooses two of them. Leave the chosen cards in your graveyard and put the rest into your hand.
+Exile Deliver Unto Evil.</text>
     </card>
     <card>
       <name>Demolish</name>
@@ -997,6 +1046,33 @@ Heartfire deals 4 damage to any target.</text>
       <tablerow>3</tablerow>
       <text>As an additional cost to cast this spell, discard a card.
 Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
+      <name>Huatli's Raptor</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/a/ba680ad0-6134-46e0-8fcb-532b2052eca7.jpg?1555337383">WAR</set>
+      <manacost>GW</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <color>W</color>
+      <type>Creature - Dinosaur</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+When Huatli's Raptor enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+    </card>
+    <card>
+      <name>Huatli, Heart of the Sun</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/7/d709742c-82a2-457e-9991-85e98d78029d.jpg?1555353131">WAR</set>
+      <manacost>2G/W</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <color>W</color>
+      <type>Legendary Planeswalker - Huatli</type>
+      <loyalty>7</loyalty>
+      <tablerow>1</tablerow>
+      <text>Your creatures assign combat damage equal to their toughness rather than their power.
+-3: You gain life equal to the greatest toughness among creatures you control.</text>
     </card>
     <card>
       <name>Ignite the Beacon</name>
@@ -1592,6 +1668,22 @@ Whenever Neheb, Dreadhorde Champion deals combat damage to a player or planeswal
 Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle your library.</text>
     </card>
     <card>
+      <name>Nicol Bolas, Dragon-God</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/9/8/98b68dea-a7be-4f99-8a50-4c8cf0e0f7a9.jpg?1555330357">WAR</set>
+      <manacost>UBBBR</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <color>R</color>
+      <color>U</color>
+      <type>Legendary Planeswalker - Bolas</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>Nicol Bolas, Dragon-God has all loyalty abilities of all other planeswalkers on the battlefield.
++1: You draw a card. Each opponent exiles a card from their hand or a permanent they control.
+-3: Destroy target creature or planeswalker.
+-8: Each opponent who doesn't control a legendary creature or planeswalker loses the game.</text>
+    </card>
+    <card>
       <name>Nissa's Triumph</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/9/7946b256-ae79-4b99-8bf4-0d627baf9044.jpg?1554919391">WAR</set>
       <manacost>GG</manacost>
@@ -1738,7 +1830,7 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
     </card>
     <card>
       <name>Pledge of Unity</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/a/ca9b3518-7fcd-49e2-a4c4-e5daa8be6c21.jpg?1555057182">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/a/ca9b3518-7fcd-49e2-a4c4-e5daa8be6c21.jpg?1555347036">WAR</set>
       <manacost>1GW</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -2045,6 +2137,30 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
       <text>You may have Spark Double enter the battlefield as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary if that permanent is legendary.</text>
     </card>
     <card>
+      <name>Spark Harvest</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/0/2013a138-f8e2-4a67-91e8-759288d985a7.jpg?1555325808">WAR</set>
+      <manacost>B</manacost>
+      <cmc>1.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>As an additional cost to cast this spell, sacrifice a creature or pay {3}{B}.
+Destroy target creature or planeswalker.</text>
+    </card>
+    <card>
+      <name>Spark Reaper</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/2/922537f0-4caf-481c-b431-826f0c44e5c5.jpg?1555334983">WAR</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{3}, Sacrifice a creature or planeswalker: You gain 1 life and draw a card.</text>
+    </card>
+    <card>
       <name>Spellgorger Weird</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/1/91551f85-4630-43a0-af72-8332d2ff0752.jpg?1554376277">WAR</set>
       <manacost>2R</manacost>
@@ -2248,6 +2364,17 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
 +2: Tezzeret, Master of the Bridge deals X damage to each opponent, where X is the number of artifacts you control. You gain X life.
 -3: Return target artifact card from your graveyard to your hand.
 -8: Exile the top ten cards of your library. Put all artifact cards from among them onto the battlefield.</text>
+    </card>
+    <card>
+      <name>The Elderspell</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/3/a3b16625-7faf-4de6-abf7-d397988e32fb.jpg?1555330799">WAR</set>
+      <manacost>BB</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Destroy any number of target planeswalkers. Choose a planeswalker you control. Put two loyalty counters on it for each planeswalker destroyed this way.</text>
     </card>
     <card>
       <name>The Wanderer</name>
