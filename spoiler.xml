@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Mon, Apr 15 2019, 22:41:40 (UTC)
+Created At: Tue, Apr 16 2019, 22:41:53 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -220,6 +220,34 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <text>Lifelink, haste</text>
     </card>
     <card>
+      <name>Bioessence Hydra</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/b/fb01a161-49a1-407c-8410-6933bc8f7b6a.jpg?1555420152">WAR</set>
+      <manacost>3GU</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <color>U</color>
+      <type>Creature - Hyra Mutant</type>
+      <pt>4/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+Bioessence Hydra enters the battlefield with a +1/+1 counter on it for each loyalty counter on planeswalkers you control.
+Whenever one or more loyalty counters are put on planeswalkers you control, put that many +1/+1 counters on Bioessence Hydra.</text>
+    </card>
+    <card>
+      <name>Blast Zone</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/a/ea6bc7d5-e8f6-4103-920c-9f7ec5cd6c28.jpg?1555413406">WAR</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Blast Zone enters the battlefield with a charge counter on it.
+{T}: Add {C}.
+{X}{X}, {T}: Put X charge counters on Blast Zone.
+{3}, {T}, Sacrifice Blast Zone: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Blast Zone.</text>
+    </card>
+    <card>
       <name>Blindblast</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/d/1d49637b-2255-4f16-8f24-140145966bfa.jpg?1554726058">WAR</set>
       <manacost>2R</manacost>
@@ -348,6 +376,23 @@ Change the target of target spell or ability with a single target.</text>
       <text>Whenever you cast a noncreature spell, Burning Prophet gets +1/+0 until end of turn, then scry 1.</text>
     </card>
     <card>
+      <name>Casualties of War</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/8/08fc5e50-c6f7-41ec-815a-5667eefded78.jpg?1555413927">WAR</set>
+      <manacost>2BBGG</manacost>
+      <cmc>6.0</cmc>
+      <color>B</color>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one or more &#8212;
+&#8226; Destroy target artifact.
+&#8226; Destroy target creature.
+&#8226; Destroy target enchantment.
+&#8226; Destroy target land.
+&#8226; Destroy target planeswalker.</text>
+    </card>
+    <card>
       <name>Centaur Nurturer</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/f/bf020acb-e0c6-43b4-8324-0f2ec68b73d6.jpg?1555101824">WAR</set>
       <manacost>3G</manacost>
@@ -421,7 +466,7 @@ Change the target of target spell or ability with a single target.</text>
     </card>
     <card>
       <name>Commence the Endgame</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/0/209d70a2-c8c1-4072-ab1f-57804b55a09a.jpg?1555325769">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/0/209d70a2-c8c1-4072-ab1f-57804b55a09a.jpg?1555410666">WAR</set>
       <manacost>4UU</manacost>
       <cmc>6.0</cmc>
       <color>U</color>
@@ -429,7 +474,7 @@ Change the target of target spell or ability with a single target.</text>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>This spell can't be countered.
-Draw two cards, then amass X, where X is the number of cards in your hand.</text>
+Draw two cards, then amass X, where X is the number of cards in your hand. (Put X +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
       <name>Contentious Plan</name>
@@ -802,6 +847,18 @@ Whenever you cast an instant or sorcery spell that targets a creature you contro
       <text>You may cast up to one target instant card and/or sorcery card from your graveyard each with converted mana cost X or less without paying their mana costs. If a card cast this way would be put into your graveyard this turn, exile it instead. If X is 10 or more, copy each of those spells twice. You may choose new targets for the copies.</text>
     </card>
     <card>
+      <name>Finale of Revelation</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/6/6/6630c34a-1a97-4e31-9d2c-1150b0aa903e.jpg?1555412499">WAR</set>
+      <manacost>XUU</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Draw X cards. If X is 10 or more, instead shuffle your graveyard into your library, draw X cards, untap up to five lands, and you have no maximum hand size for the rest of the game.
+Exile Finale of Revelation.</text>
+    </card>
+    <card>
       <name>Firemind Vessel</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/c/ec0ebb6b-d35a-47db-8071-7fef2a46c17b.jpg?1555098557">WAR</set>
       <manacost>4</manacost>
@@ -1044,6 +1101,19 @@ Whenever Grateful Apparition deals combat damage to a player or planeswalker, pr
 When Grim Initiate dies, amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
+      <name>Guildpact Informant</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/3/a304200f-86d5-4eed-a775-cc24e72872ac.jpg?1555362290">WAR</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Creature - Faerie Rogue</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever Guildpact Informant deals combat damage to a player or planeswalker, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+    </card>
+    <card>
       <name>Heartfire</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/d/7db219ea-2ed1-4a86-955c-d61ecedbc019.jpg?1554476814">WAR</set>
       <manacost>1R</manacost>
@@ -1081,7 +1151,7 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
     </card>
     <card>
       <name>Huatli's Raptor</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/a/ba680ad0-6134-46e0-8fcb-532b2052eca7.jpg?1555337383">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/a/ba680ad0-6134-46e0-8fcb-532b2052eca7.jpg?1555421724">WAR</set>
       <manacost>GW</manacost>
       <cmc>2.0</cmc>
       <color>G</color>
@@ -1094,8 +1164,8 @@ Draw two cards. Amass 1. (Put a +1/+1 counter on an Army you control. If you don
 When Huatli's Raptor enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
     </card>
     <card>
-      <name>Huatli, Heart of the Sun</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/7/d709742c-82a2-457e-9991-85e98d78029d.jpg?1555353131">WAR</set>
+      <name>Huatli, the Sun's Heart</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/7/d709742c-82a2-457e-9991-85e98d78029d.jpg?1555420392">WAR</set>
       <manacost>2G/W</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -1103,7 +1173,7 @@ When Huatli's Raptor enters the battlefield, proliferate. (Choose any number of 
       <type>Legendary Planeswalker - Huatli</type>
       <loyalty>7</loyalty>
       <tablerow>1</tablerow>
-      <text>Your creatures assign combat damage equal to their toughness rather than their power.
+      <text>Each creature you control assigns combat damage equal to its toughness rather than its power.
 -3: You gain life equal to the greatest toughness among creatures you control.</text>
     </card>
     <card>
@@ -1210,6 +1280,30 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <text>({T}: Add {U}.)</text>
     </card>
     <card>
+      <name>Jace's Projection</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/4/c4d35a34-01b7-41e1-8491-a6589175d027.jpg?1555362572">WAR</set>
+      <manacost>2UU</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Creature - Wizard Illusion</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever you draw a card, put a +1/+1 counter on Jace's Projection.
+{3}{U}: Put a loyalty counter on target Jace planeswalker.</text>
+    </card>
+    <card>
+      <name>Jace's Ruse</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/3/03e8d2c7-cd6e-48bf-9d54-73f3d6cff0aa.jpg?1555362479">WAR</set>
+      <manacost>3UU</manacost>
+      <cmc>5.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Return up to two target creatures to their owner's hand. You may search your library and/or graveyard for a card named Jace, Arcane Strategist, reveal it, and put it into your hand. If you search your library this way, shuffle it.</text>
+    </card>
+    <card>
       <name>Jace's Triumph</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/4/9/4924f177-5ee2-4d3f-9603-4b9aef4dac09.jpg?1555065864">WAR</set>
       <manacost>2U</manacost>
@@ -1219,6 +1313,19 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Draw two cards. If you control a Jace planeswalker, draw three cards instead.</text>
+    </card>
+    <card>
+      <name>Jace, Arcane Strategist</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/b/6/b6a857fb-159f-40c4-8988-da91d8521a60.jpg?1555362143">WAR</set>
+      <manacost>4UU</manacost>
+      <cmc>6.0</cmc>
+      <color>U</color>
+      <type>Legendary Planeswalker - Jace</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever you draw your second card each turn, put a +1/+1 counter on target creature you control.
++1: Draw a card.
+-7: Creatures you control can't be blocked this turn.</text>
     </card>
     <card>
       <name>Jace, Wielder of Mysteries</name>
@@ -1769,6 +1876,19 @@ When Niv-Mizzet Reborn enters the battlefield, reveal the top ten cards of your 
 Scry 1.</text>
     </card>
     <card>
+      <name>Oath of Kaya</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/a/faba010d-5b1b-4562-91d6-ec55303c4dcd.jpg?1555420285">WAR</set>
+      <manacost>1WB</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <color>W</color>
+      <type>Legendary Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>When Oath of Kaya enters the battlefield, it deals 3 damage to any target and you gain 3 life.
+Whenever an opponent attacks a planeswalker you control with one or more creatures, Oath of Kaya deals 2 damage to that player and you gain 2 life.</text>
+    </card>
+    <card>
       <name>Ob Nixilis's Cruelty</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/4/94db72a8-57f7-4f17-9f09-cae90ef50304.jpg?1554224933">WAR</set>
       <manacost>2B</manacost>
@@ -2157,6 +2277,19 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 -X: Return target creature card with converted mana cost X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.</text>
     </card>
     <card>
+      <name>Soul Diviner</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/f/7fb66ccd-a930-4757-832c-c4b0259741e2.jpg?1555362690">WAR</set>
+      <manacost>UB</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <color>U</color>
+      <type>Creature - Zombie Wizard</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{T}, Remove a counter from an artifact, creature, land, or planeswalker you control: Draw a card.</text>
+    </card>
+    <card>
       <name>Spark Double</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/b/bb8a103c-b776-4501-9441-a45b90391045.jpg?1554986030">WAR</set>
       <manacost>3U</manacost>
@@ -2170,7 +2303,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
     </card>
     <card>
       <name>Spark Harvest</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/0/2013a138-f8e2-4a67-91e8-759288d985a7.jpg?1555325808">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/0/2013a138-f8e2-4a67-91e8-759288d985a7.jpg?1555420424">WAR</set>
       <manacost>B</manacost>
       <cmc>1.0</cmc>
       <color>B</color>
@@ -2237,6 +2370,17 @@ Destroy target creature or planeswalker.</text>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Put two +1/+1 counters on target creature you control. That creature can't be blocked this turn.</text>
+    </card>
+    <card>
+      <name>Storm the Citadel</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/4/04b3b12e-bef7-409e-86b3-9e90640e598c.jpg?1555420167">WAR</set>
+      <manacost>4G</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Until end of turn, creatures you control get +2/+2 and gain "Whenever this creature deals combat damage to a creature or planeswalker, destroy target artifact or enchantment defending player controls.</text>
     </card>
     <card>
       <name>Storrev, Devkarin Lich</name>
