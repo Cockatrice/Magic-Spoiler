@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Tue, Apr 16 2019, 22:41:53 (UTC)
+Created At: Wed, Apr 17 2019, 22:42:57 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -221,12 +221,12 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
     </card>
     <card>
       <name>Bioessence Hydra</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/b/fb01a161-49a1-407c-8410-6933bc8f7b6a.jpg?1555420152">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/b/fb01a161-49a1-407c-8410-6933bc8f7b6a.jpg?1555457444">WAR</set>
       <manacost>3GU</manacost>
       <cmc>5.0</cmc>
       <color>G</color>
       <color>U</color>
-      <type>Creature - Hyra Mutant</type>
+      <type>Creature - Hydra Mutant</type>
       <pt>4/4</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
@@ -463,6 +463,17 @@ Change the target of target spell or ability with a single target.</text>
       <text>Whenever one or more loyalty counters are removed from Chandra, Fire Artisan, she deals that much damage to target opponent or planeswalker.
 +1: Exile the top card of your library. You may play it this turn.
 -7: Exile the top seven cards of your library. You may play them this turn.</text>
+    </card>
+    <card>
+      <name>Command the Dreadhorde</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/d/e/de7ec307-45e0-4853-85fe-9ce859b188c2.jpg?1555518297">WAR</set>
+      <manacost>4BB</manacost>
+      <cmc>6.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose any number of target creature and/or planeswalker cards in graveyards. Command the Dreadhorde deals damage to you equal to the total converted mana cost of those cards. Put them onto the battlefield under your control.</text>
     </card>
     <card>
       <name>Commence the Endgame</name>
@@ -836,6 +847,39 @@ When Fblthp becomes the target of a spell, shuffle Fblthp into its owner's libra
 Whenever you cast an instant or sorcery spell that targets a creature you control, exile that card instead of putting it into your graveyard as it resolves. If you do, return it to your hand at the beginning of the next end step.</text>
     </card>
     <card>
+      <name>Finale of Devastation</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/9/8/985453e7-997e-4d77-a338-cc0290791ebe.jpg?1555507564">WAR</set>
+      <manacost>XGG</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Search your library and/or graveyard for a creature card with converted mana cost X or less and put it onto the battlefield. If you search your library this way, shuffle it. If X is 10 or more, creatures you control get +X/+X and gain haste until end of turn.</text>
+    </card>
+    <card>
+      <name>Finale of Eternity</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/5/85c60177-8b71-4e24-87e7-395d5e4f93ff.jpg?1555456688">WAR</set>
+      <manacost>XBB</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Destroy up to three target creatures with toughness X or less. If X is 10 or more, return all creature cards from your graveyard to the battlefield.</text>
+    </card>
+    <card>
+      <name>Finale of Glory</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/4/c/4ccacb84-2b8e-40b8-8d53-d1b97bb2971f.jpg?1555504433">WAR</set>
+      <manacost>XWW</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Create X 2/2 white Soldier creature tokens with vigilance. If X is 10 or more, also create X 4/4 white Angel creature tokens with flying and vigilance.</text>
+    </card>
+    <card>
       <name>Finale of Promise</name>
       <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/1/811b2dda-e1b7-4a46-83cc-5cdc17554836.jpg?1555084033">WAR</set>
       <manacost>XRR</manacost>
@@ -933,6 +977,20 @@ Exile Finale of Revelation.</text>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Target creature gets +3/+3 until end of turn.</text>
+    </card>
+    <card>
+      <name>Gideon Blackblade</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/3/9/39d51c5e-26cb-4276-a676-fabfef866248.jpg?1555504609">WAR</set>
+      <manacost>1WW</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Legendary Planeswalker - Gideon</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.
+Prevent all damage that would be dealt to Gideon Blackblade during your turn.
++1: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.
+-6: Exile target nonland permanent.</text>
     </card>
     <card>
       <name>Gideon's Battle Cry</name>
@@ -1781,6 +1839,29 @@ If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many p
 -X: Nahiri, Storm of Stone deals X damage to target tapped creature.</text>
     </card>
     <card>
+      <name>Narset's Reversal</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/3/63754036-d51e-47bb-925b-564d9dc922ff.jpg?1555504173">WAR</set>
+      <manacost>UU</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Copy target instant or sorcery spell, then return it to its owner's hand. You may choose new targets for the copy.</text>
+    </card>
+    <card>
+      <name>Narset, Parter of Veils</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/c/8c39f9b4-02b9-4d44-b8d6-4fd02ebbb0c5.jpg?1555504082">WAR</set>
+      <manacost>1UU</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Legendary Planeswalker - Narset</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>Each opponent can't draw more than one card each turn.
+-2: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+    </card>
+    <card>
       <name>Neheb, Dreadhorde Champion</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/0/60c90d5d-7b3b-48d2-85f6-d6a2a452c0e9.jpg?1554222748">WAR</set>
       <manacost>2RR</manacost>
@@ -1877,7 +1958,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Oath of Kaya</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/a/faba010d-5b1b-4562-91d6-ec55303c4dcd.jpg?1555420285">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/a/faba010d-5b1b-4562-91d6-ec55303c4dcd.jpg?1555506918">WAR</set>
       <manacost>1WB</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -2155,7 +2236,7 @@ When Roalesk dies, proliferate, then proliferate again. (Choose any number of pe
     </card>
     <card>
       <name>Saheeli's Silverwing</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/b/dba77c07-5d23-4a1a-90a0-b8293848d637.jpg?1554813432">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/b/dba77c07-5d23-4a1a-90a0-b8293848d637.jpg?1555506981">WAR</set>
       <manacost>4</manacost>
       <cmc>4.0</cmc>
       <type>Artifact Creature - Drake</type>
@@ -2201,6 +2282,30 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
       <tablerow>1</tablerow>
       <text>Creatures you control have haste.
 -1: Target creature gets +2/+1 and gains haste until end of turn. Scry 1.</text>
+    </card>
+    <card>
+      <name>Sarkhan the Masterless</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/b/2bb96971-5bf1-4ae3-98f4-7cd7a614bf97.jpg?1555504286">WAR</set>
+      <manacost>3RR</manacost>
+      <cmc>5.0</cmc>
+      <color>R</color>
+      <type>Legendary Planeswalker - Sarkhan</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature attacks you or a planeswalker you control, each Dragon you control deals 1 damage to that creature.
++1: Until end of turn, each planeswalker you control becomes a 4/4 red Dragon creature and gains flying.
+-3: Create a 4/4 red Dragon creature token with flying.</text>
+    </card>
+    <card>
+      <name>Sarkhan's Catharsis</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/f/2f4b6f26-c66b-4048-9503-af0a886ef14f.jpg?1555507545">WAR</set>
+      <manacost>4R</manacost>
+      <cmc>5.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Sarkhan's Catharsis deals 5 damage to target player or planeswalker.</text>
     </card>
     <card>
       <name>Shriekdiver</name>
@@ -2373,14 +2478,14 @@ Destroy target creature or planeswalker.</text>
     </card>
     <card>
       <name>Storm the Citadel</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/4/04b3b12e-bef7-409e-86b3-9e90640e598c.jpg?1555420167">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/4/04b3b12e-bef7-409e-86b3-9e90640e598c.jpg?1555506932">WAR</set>
       <manacost>4G</manacost>
       <cmc>5.0</cmc>
       <color>G</color>
       <type>Sorcery</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Until end of turn, creatures you control get +2/+2 and gain "Whenever this creature deals combat damage to a creature or planeswalker, destroy target artifact or enchantment defending player controls.</text>
+      <text>Until end of turn, creatures you control get +2/+2 and gain "Whenever this creature deals combat damage to a player or planeswalker, destroy target artifact or enchantment defending player controls."</text>
     </card>
     <card>
       <name>Storrev, Devkarin Lich</name>
