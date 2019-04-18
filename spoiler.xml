@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Wed, Apr 17 2019, 22:42:57 (UTC)
+Created At: Thu, Apr 18 2019, 22:42:57 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -15,6 +15,12 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <longname>War of the Spark</longname>
       <settype>Expansion</settype>
       <releasedate>2019-05-03</releasedate>
+    </set>
+    <set>
+      <name>SS2</name>
+      <longname>Signature Spellbook: Gideon</longname>
+      <settype>Expansion</settype>
+      <releasedate>2019-04-27</releasedate>
     </set>
   </sets>
   <cards>
@@ -125,6 +131,19 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
 -2: Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
+      <name>Arboreal Grazer</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/4/c4a5f86f-44a8-4735-909a-770586d33a15.jpg?1555601354">WAR</set>
+      <manacost>G</manacost>
+      <cmc>1.0</cmc>
+      <color>G</color>
+      <type>Creature - Beast</type>
+      <pt>0/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Reach
+When Arboreal Grazer enters the battlefield, you may put a land card from your hand onto the battlefield tapped.</text>
+    </card>
+    <card>
       <name>Arlinn's Wolf</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/4/747223a5-c669-4d0e-a062-265eb47710cd.jpg?1554225125">WAR</set>
       <manacost>2G</manacost>
@@ -186,6 +205,19 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <text>When Augur of Bolas enters the battlefield, look at the top three cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</text>
     </card>
     <card>
+      <name>Aven Eternal</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/e/fe479484-a827-4d3c-8e35-e905e4f6664a.jpg?1555612046">WAR</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Creature - Zombie Bird Warrior</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Aven Eternal enters the battlefield, amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
       <name>Awakening of Vitu-Ghazi</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/4/b42b2fb4-8016-462c-8764-2639adec931f.jpg?1554919348">WAR</set>
       <manacost>3GG</manacost>
@@ -220,6 +252,17 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <text>Lifelink, haste</text>
     </card>
     <card>
+      <name>Battlefield Promotion</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/9/89f8e970-b90c-4829-8970-0a3364027bbb.jpg?1555586905">WAR</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Put a +1/+1 counter on target creature. That creature gains first strike until end of turn. You gain 2 life.</text>
+    </card>
+    <card>
       <name>Bioessence Hydra</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/b/fb01a161-49a1-407c-8410-6933bc8f7b6a.jpg?1555457444">WAR</set>
       <manacost>3GU</manacost>
@@ -246,6 +289,17 @@ Whenever one or more loyalty counters are put on planeswalkers you control, put 
 {T}: Add {C}.
 {X}{X}, {T}: Put X charge counters on Blast Zone.
 {3}, {T}, Sacrifice Blast Zone: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Blast Zone.</text>
+    </card>
+    <card>
+      <name>Bleeding Edge</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/c/ac82422c-8ac8-4fbb-b9b9-d0aa23dded61.jpg?1555601054">WAR</set>
+      <manacost>1BB</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Up to one target creature gets -2/-2 until end of turn. Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
       <name>Blindblast</name>
@@ -376,6 +430,18 @@ Change the target of target spell or ability with a single target.</text>
       <text>Whenever you cast a noncreature spell, Burning Prophet gets +1/+0 until end of turn, then scry 1.</text>
     </card>
     <card>
+      <name>Callous Dismissal</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/6/66cef326-339c-49e5-9905-21a1603a46ae.jpg?1555612109">WAR</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Return target nonland permanent to its owner's hand.
+Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie army creature token first.)</text>
+    </card>
+    <card>
       <name>Casualties of War</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/8/08fc5e50-c6f7-41ec-815a-5667eefded78.jpg?1555413927">WAR</set>
       <manacost>2BBGG</manacost>
@@ -465,8 +531,33 @@ Change the target of target spell or ability with a single target.</text>
 -7: Exile the top seven cards of your library. You may play them this turn.</text>
     </card>
     <card>
+      <name>Charity Extractor</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/3/5/3594f726-cdbb-4b7d-bcfe-17d5f8cd5228.jpg?1555578726">WAR</set>
+      <manacost>3B</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <type>Creature - Human Knight</type>
+      <pt>1/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Lifelink</text>
+    </card>
+    <card>
+      <name>Charmed Stray</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/3/5/357513b9-0505-4b67-9a29-36a705a175b1.jpg?1555586855">WAR</set>
+      <manacost>W</manacost>
+      <cmc>1.0</cmc>
+      <color>W</color>
+      <type>Creature - Cat</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Lifelink
+Whenever Charmed Stray enters the battlefield, put a +1/+1 counter on each other creature you control named Charmed Stray.</text>
+    </card>
+    <card>
       <name>Command the Dreadhorde</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/d/e/de7ec307-45e0-4853-85fe-9ce859b188c2.jpg?1555518297">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/d/e/de7ec307-45e0-4853-85fe-9ce859b188c2.jpg?1555612069">WAR</set>
       <manacost>4BB</manacost>
       <cmc>6.0</cmc>
       <color>B</color>
@@ -596,7 +687,7 @@ Draw a card.</text>
     </card>
     <card>
       <name>Deliver Unto Evil</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/7/67aa7104-7acc-4827-b763-ac053c99baab.jpg?1555330550">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/7/67aa7104-7acc-4827-b763-ac053c99baab.jpg?1555612074">WAR</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -618,8 +709,20 @@ Exile Deliver Unto Evil.</text>
       <text>Destroy target artifact or land.</text>
     </card>
     <card>
+      <name>Despark</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/3/2/32b17dfc-b916-4134-ba77-501cff435e7e.jpg?1555611871">WAR</set>
+      <manacost>WB</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Exile target permanent with converted mana cost 4 or greater.</text>
+    </card>
+    <card>
       <name>Desperate Lunge</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/9/69ce134a-25ef-4f8d-a385-7c29fc5707dc.jpg?1555021038">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/9/69ce134a-25ef-4f8d-a385-7c29fc5707dc.jpg?1555584585">WAR</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -639,6 +742,17 @@ Exile Deliver Unto Evil.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>As Devouring Hellion enters the battlefield, you may sacrifice any number of creatures and/or planeswalkers. If you do, it enters with twice that many +1/+1 counters on it.</text>
+    </card>
+    <card>
+      <name>Divine Arrow</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/3/73cbb58a-1b00-4883-9b45-da7ded7317e3.jpg?1555612039">WAR</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Divine Arrow deals 4 damage to target attacking or blocking creature.</text>
     </card>
     <card>
       <name>Domri's Ambush</name>
@@ -746,6 +860,32 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
 Zombie tokens you control have trample.</text>
     </card>
     <card>
+      <name>Duskmantle Operative</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/6/16eb5a6b-5e69-497c-a0c9-4165ad0f5d0b.jpg?1555580378">WAR</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Creature - Human Rogue</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Duskmantle Operative can't be blocked by creatures with power 4 or greater.</text>
+    </card>
+    <card>
+      <name>Elite Guardmage</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/2/d2e40b14-48a2-4b9e-b767-e914cab04b30.jpg?1555611912">WAR</set>
+      <manacost>2WU</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <color>W</color>
+      <type>Creature - Human Wizard</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Elite Guardmage enters the battlefield, you gain 3 life and draw a card.</text>
+    </card>
+    <card>
       <name>Emergence Zone</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/b/ab95f6e7-b806-47fe-a071-6c38b3176d94.jpg?1554225716">WAR</set>
       <manacost/>
@@ -755,6 +895,18 @@ Zombie tokens you control have trample.</text>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
 {1}, {T}, Sacrifice Emergence Zone: You may cast spells this turn as though they had flash.</text>
+    </card>
+    <card>
+      <name>Enforcer Griffin</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/4/e4d6d488-01df-4d61-92ff-9881838b4018.jpg?1555586480">WAR</set>
+      <manacost>4W</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Creature - Griffin</type>
+      <pt>3/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying</text>
     </card>
     <card>
       <name>Enter the God-Eternals</name>
@@ -968,6 +1120,19 @@ Exile Finale of Revelation.</text>
       <text>({T}: Add {G}.)</text>
     </card>
     <card>
+      <name>Gateway Plaza</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/1/81d69cf2-8643-4926-857e-febbd54d870f.jpg?1555604498">WAR</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land - Gate</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Gateway Plaza enters the battlefield tapped.
+When Gateway Plaza enters the battlefield, sacrifice it unless you pay {1}.
+{T}: Add one mana of any color.</text>
+    </card>
+    <card>
       <name>Giant Growth</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/6/06ec9e8b-4bd8-4caf-a559-6514b7ab4ca4.jpg?1554225121">WAR</set>
       <manacost>G</manacost>
@@ -994,7 +1159,7 @@ Prevent all damage that would be dealt to Gideon Blackblade during your turn.
     </card>
     <card>
       <name>Gideon's Battle Cry</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/2/52de8fc6-6d9b-402e-a6c8-4c39b0c92f07.jpg?1555006950">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/2/52de8fc6-6d9b-402e-a6c8-4c39b0c92f07.jpg?1555584595">WAR</set>
       <manacost>2WW</manacost>
       <cmc>4.0</cmc>
       <color>W</color>
@@ -1005,7 +1170,7 @@ Prevent all damage that would be dealt to Gideon Blackblade during your turn.
     </card>
     <card>
       <name>Gideon's Company</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/0/a0a64d2e-8b89-4642-84c2-b01dfe11312e.jpg?1555010306">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/0/a0a64d2e-8b89-4642-84c2-b01dfe11312e.jpg?1555584590">WAR</set>
       <manacost>3W</manacost>
       <cmc>4.0</cmc>
       <color>W</color>
@@ -1015,6 +1180,17 @@ Prevent all damage that would be dealt to Gideon Blackblade during your turn.
       <tablerow>2</tablerow>
       <text>Whenever you gain life, put two +1/+1 counters on Gideon's Company.
 {3}{W}: Put a loyalty counter on target Gideon planeswalker.</text>
+    </card>
+    <card>
+      <name>Gideon's Sacrifice</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/4/849c79ad-8bfc-4512-ab41-f213b6b285ab.jpg?1555612042">WAR</set>
+      <manacost>W</manacost>
+      <cmc>1.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose a creature or planeswalker you control. All damage that would be dealt this turn to you and permanents you control is dealt to the chosen permanent instead (if it's still on the battlefield).</text>
     </card>
     <card>
       <name>Gideon's Triumph</name>
@@ -1029,7 +1205,7 @@ Prevent all damage that would be dealt to Gideon Blackblade during your turn.
     </card>
     <card>
       <name>Gideon, the Oathsworn</name>
-      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/4/3/43e7331d-98b8-420f-a346-3f3521c3b258.jpg?1555210231">WAR</set>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/4/3/43e7331d-98b8-420f-a346-3f3521c3b258.jpg?1555584601">WAR</set>
       <manacost>4WW</manacost>
       <cmc>6.0</cmc>
       <color>W</color>
@@ -1108,6 +1284,20 @@ You may reveal the first card you draw each turn as you draw it. Whenever you re
 When God-Eternal Kefnet dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
     </card>
     <card>
+      <name>God-Eternal Oketra</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/d/f/df70f155-2336-421c-8a9d-69772d2b51a8.jpg?1555572620">WAR</set>
+      <manacost>3WW</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Legendary Creature - Zombie God</type>
+      <pt>3/6</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Double strike
+Whenever you cast a creature spell, create a 4/4 black Zombie Warrior creature token with vigilance.
+When God-Eternal Oketra dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
+    </card>
+    <card>
       <name>God-Eternal Rhonas</name>
       <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/0/e/0eb444f0-69cc-47c8-8cd6-1f9edad5d903.jpg?1555008040">WAR</set>
       <manacost>3GG</manacost>
@@ -1159,8 +1349,19 @@ Whenever Grateful Apparition deals combat damage to a player or planeswalker, pr
 When Grim Initiate dies, amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
+      <name>Guild Globe</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/7/a7faf99e-f61f-46cb-a275-2e12c41f1e31.jpg?1555612195">WAR</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>When Guild Globe enters the battlefield, draw a card.
+{2}, {T}, Sacrifice Guild Globe: Add two mana of different colors.</text>
+    </card>
+    <card>
       <name>Guildpact Informant</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/3/a304200f-86d5-4eed-a775-cc24e72872ac.jpg?1555362290">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/3/a304200f-86d5-4eed-a775-cc24e72872ac.jpg?1555584627">WAR</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -1182,6 +1383,18 @@ Whenever Guildpact Informant deals combat damage to a player or planeswalker, pr
       <tablerow>3</tablerow>
       <text>As an additional cost to cast this spell, sacrifice a creature or planeswalker.
 Heartfire deals 4 damage to any target.</text>
+    </card>
+    <card>
+      <name>Heartwarming Redemption</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/f/af569235-f5cb-4e3e-ba77-c1c429ed0a60.jpg?1555611937">WAR</set>
+      <manacost>2RW</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Discard all the cards in your hand, then draw that many cards plus one. You gain life equal to the number of cards in your hand.</text>
     </card>
     <card>
       <name>Herald of the Dreadhorde</name>
@@ -1308,6 +1521,18 @@ When Ilharg, the Raze-Boar dies or is put into exile from the battlefield, you m
 When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.</text>
     </card>
     <card>
+      <name>Ironclad Krovod</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/f/afb16895-6542-405e-9793-154ffc439f23.jpg?1555586224">WAR</set>
+      <manacost>3W</manacost>
+      <cmc>4.0</cmc>
+      <color>W</color>
+      <type>Creature - Beast</type>
+      <pt>2/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text/>
+    </card>
+    <card>
       <name>Island</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/0/7014b9fc-a906-4ffd-a482-22ba8dbe3b4a.jpg?1554143753">WAR</set>
       <manacost/>
@@ -1339,7 +1564,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
     </card>
     <card>
       <name>Jace's Projection</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/4/c4d35a34-01b7-41e1-8491-a6589175d027.jpg?1555362572">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/4/c4d35a34-01b7-41e1-8491-a6589175d027.jpg?1555584635">WAR</set>
       <manacost>2UU</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -1352,7 +1577,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
     </card>
     <card>
       <name>Jace's Ruse</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/3/03e8d2c7-cd6e-48bf-9d54-73f3d6cff0aa.jpg?1555362479">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/3/03e8d2c7-cd6e-48bf-9d54-73f3d6cff0aa.jpg?1555584641">WAR</set>
       <manacost>3UU</manacost>
       <cmc>5.0</cmc>
       <color>U</color>
@@ -1374,7 +1599,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
     </card>
     <card>
       <name>Jace, Arcane Strategist</name>
-      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/b/6/b6a857fb-159f-40c4-8988-da91d8521a60.jpg?1555362143">WAR</set>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/b/6/b6a857fb-159f-40c4-8988-da91d8521a60.jpg?1555584631">WAR</set>
       <manacost>4UU</manacost>
       <cmc>6.0</cmc>
       <color>U</color>
@@ -1531,6 +1756,18 @@ When enchanted permanent dies or is put into exile, return that card to the batt
 -1: Untap target permanent.</text>
     </card>
     <card>
+      <name>Kraul Stinger</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/6/46b88fe9-2450-47ee-ac1e-bbbccbf5684f.jpg?1555586628">WAR</set>
+      <manacost>2G</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Creature - Insect Assassin</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Deathtouch</text>
+    </card>
+    <card>
       <name>Krenko, Tin Street Kingpin</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/7/37ed04d3-cfa1-4778-aea6-b4c2c29e6e0a.jpg?1554403268">WAR</set>
       <manacost>2R</manacost>
@@ -1619,7 +1856,7 @@ You and permanents you control gain hexproof until end of turn. (You and they ca
     </card>
     <card>
       <name>Liliana's Triumph</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/4/84803db8-fdb0-462b-92f6-33d591593d2d.jpg?1554117852">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/4/84803db8-fdb0-462b-92f6-33d591593d2d.jpg?1555601748">WAR</set>
       <manacost>1B</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -1680,6 +1917,17 @@ When Loxodon Sergeant enters the battlefield, other creatures you control gain v
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Whenever Makeshift Battalion and at least two other creatures attack, put a +1/+1 counter on Makeshift Battalion.</text>
+    </card>
+    <card>
+      <name>Mana Geode</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/7/17315a12-a7f8-45ba-ac3b-a62c789e75d0.jpg?1555611969">WAR</set>
+      <manacost>3</manacost>
+      <cmc>3.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>When Mana Geode enters the battlefield, scry 1.
+{T}: Add one mana of any color.</text>
     </card>
     <card>
       <name>Martyr for the Cause</name>
@@ -1888,6 +2136,19 @@ Whenever Neheb, Dreadhorde Champion deals combat damage to a player or planeswal
 Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle your library.</text>
     </card>
     <card>
+      <name>New Horizons</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/2/02c521da-677e-43b9-b5fe-c84dc64e66ec.jpg?1555601200">WAR</set>
+      <manacost>2G</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant land
+When New Horizons enters the battlefield, put a +1/+1 counter on target creature you control.
+Enchanted land has "{T}: Add two mana of any one color."</text>
+    </card>
+    <card>
       <name>Nicol Bolas, Dragon-God</name>
       <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/9/8/98b68dea-a7be-4f99-8a50-4c8cf0e0f7a9.jpg?1555330357">WAR</set>
       <manacost>UBBBR</manacost>
@@ -1958,7 +2219,7 @@ Scry 1.</text>
     </card>
     <card>
       <name>Oath of Kaya</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/a/faba010d-5b1b-4562-91d6-ec55303c4dcd.jpg?1555506918">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/a/faba010d-5b1b-4562-91d6-ec55303c4dcd.jpg?1555612153">WAR</set>
       <manacost>1WB</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -1971,7 +2232,7 @@ Whenever an opponent attacks a planeswalker you control with one or more creatur
     </card>
     <card>
       <name>Ob Nixilis's Cruelty</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/4/94db72a8-57f7-4f17-9f09-cae90ef50304.jpg?1554224933">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/4/94db72a8-57f7-4f17-9f09-cae90ef50304.jpg?1555531217">WAR</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -2100,6 +2361,17 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
       <text>As long as it's your turn, Pouncing Lynx has first strike.</text>
     </card>
     <card>
+      <name>Price of Betrayal</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/d/fd68e918-5089-46c9-8836-b05a3da3c7a3.jpg?1555612083">WAR</set>
+      <manacost>B</manacost>
+      <cmc>1.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Remove up to five counters from target artifact, creature, planeswalker, or opponent.</text>
+    </card>
+    <card>
       <name>Primordial Wurm</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/c/fc0e8298-adac-4922-8824-a1fafa089f72.jpg?1554402987">WAR</set>
       <manacost>4GG</manacost>
@@ -2110,6 +2382,29 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text/>
+    </card>
+    <card>
+      <name>Prismite</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/0/40475e96-0283-445f-97fb-1da008707399.jpg?1555604603">WAR</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Artifact Creature - Golem</type>
+      <pt>2/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{2}: Add one mana of any color.</text>
+    </card>
+    <card>
+      <name>Prison Realm</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/4/d476e8e5-2377-464b-b2d5-a3cd66ee2e45.jpg?1555611891">WAR</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>When Prison Realm enters the battlefield, exile target creature or planeswalker an opponent controls until Prison Realm leaves the battlefield.
+When Prison Realm enters the battlefield, scry 1.</text>
     </card>
     <card>
       <name>Raging Kronch</name>
@@ -2196,6 +2491,20 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
 As Rescuer Sphinx enters the battlefield, you may return a nonland permanent you control to its owner's hand. If you do, Rescuer Sphinx enters the battlefield with a +1/+1 counter on it.</text>
     </card>
     <card>
+      <name>Return to Nature</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/8/085e3129-591b-46ec-ac8b-cff428927c01.jpg?1555612143">WAR</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one &#8212;
+&#8226; Destroy target artifact.
+&#8226; Destroy target enchantment.
+&#8226; Exile target card from a graveyard.</text>
+    </card>
+    <card>
       <name>Rising Populace</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/d/edcacc28-aacf-4d40-b8cc-f8c028380340.jpg?1554224353">WAR</set>
       <manacost>2W</manacost>
@@ -2233,6 +2542,20 @@ When Roalesk dies, proliferate, then proliferate again. (Choose any number of pe
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Exchange control of two target permanents that share a permanent type.</text>
+    </card>
+    <card>
+      <name>Rubblebelt Rioters</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/b/9bf8df62-eca1-4a45-84af-fd7c88245a42.jpg?1555577553">WAR</set>
+      <manacost>1RG</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <color>R</color>
+      <type>Creature - Human Berserker</type>
+      <pt>0/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Haste
+Whenever Rubblebelt Rioters attacks, it gets +X/+0 until end of turn, where X is the greatest power among creatures you control.</text>
     </card>
     <card>
       <name>Saheeli's Silverwing</name>
@@ -2345,6 +2668,32 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
       <text>Each player chooses a creature or planeswalker they control, then sacrifices the rest. Players can't cast creature or planeswalker spells until the end of your next turn.</text>
     </card>
     <card>
+      <name>Sky Theater Strix</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/8/98902dd9-f21c-4419-8205-4b9d6592bf28.jpg?1555612654">WAR</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Creature - Bird</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever you cast a noncreature spell, Sky Theater Strix gets +1/+0 until end of turn.</text>
+    </card>
+    <card>
+      <name>Snarespinner</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/8/48a0fcc5-57d3-43ab-9e3d-0e015792239a.jpg?1555586637">WAR</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Creature - Spider</type>
+      <pt>1/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Reach
+Whenever Snarespinner blocks a creature with flying, Snarespinner gets +2/+0 until end of turn.</text>
+    </card>
+    <card>
       <name>Solar Blaze</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/b/eb72ba0f-ab3a-41e6-906d-a84039efa0af.jpg?1554729007">WAR</set>
       <manacost>2RW</manacost>
@@ -2408,7 +2757,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
     </card>
     <card>
       <name>Spark Harvest</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/0/2013a138-f8e2-4a67-91e8-759288d985a7.jpg?1555420424">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/0/2013a138-f8e2-4a67-91e8-759288d985a7.jpg?1555612090">WAR</set>
       <manacost>B</manacost>
       <cmc>1.0</cmc>
       <color>B</color>
@@ -2478,7 +2827,7 @@ Destroy target creature or planeswalker.</text>
     </card>
     <card>
       <name>Storm the Citadel</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/4/04b3b12e-bef7-409e-86b3-9e90640e598c.jpg?1555506932">WAR</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/4/04b3b12e-bef7-409e-86b3-9e90640e598c.jpg?1555612149">WAR</set>
       <manacost>4G</manacost>
       <cmc>5.0</cmc>
       <color>G</color>
@@ -2648,7 +2997,7 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
     </card>
     <card>
       <name>The Elderspell</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/3/a3b16625-7faf-4de6-abf7-d397988e32fb.jpg?1555330799">WAR</set>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/3/a3b16625-7faf-4de6-abf7-d397988e32fb.jpg?1555612078">WAR</set>
       <manacost>BB</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -2668,6 +3017,19 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
       <tablerow>1</tablerow>
       <text>Prevent all noncombat damage that would be dealt to you and other permanents you control.
 -2: Exile target creature with power 4 or greater.</text>
+    </card>
+    <card>
+      <name>Thunder Drake</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/8/f88a9bc4-1b15-4a91-9376-730d2f5b3336.jpg?1555612060">WAR</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Creature - Elemental Drake</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever you cast you cast your second spell each turn, put a +1/+1 counter on Thunder Drake.</text>
     </card>
     <card>
       <name>Thundering Ceratok</name>
@@ -2718,6 +3080,18 @@ When Thundering Ceratok enters the battlefield, other creatures you control gain
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Return a creature you control to its owner's hand, then destroy all creatures.</text>
+    </card>
+    <card>
+      <name>Tithebearer Giant</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/3/c/3c305ccb-62f5-496a-a205-e818e34ead82.jpg?1555578889">WAR</set>
+      <manacost>5B</manacost>
+      <cmc>6.0</cmc>
+      <color>B</color>
+      <type>Creature - Giant Warrior</type>
+      <pt>4/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Tithebearer Giant enters the battlefield, you draw a card and you lose 1 life.</text>
     </card>
     <card>
       <name>Toll of the Invasion</name>
@@ -2783,6 +3157,19 @@ Draw a card.</text>
       <text>Put target nonland permanent on top of its owner's library.</text>
     </card>
     <card>
+      <name>Trusted Pegasus</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/9/89bbcaf5-80e9-43f2-b470-de6cbed6a95a.jpg?1555572617">WAR</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Creature - Pegasus</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever Trusted Pegasus attacks, target attacking creature without flying gains flying until end of turn.</text>
+    </card>
+    <card>
       <name>Turret Ogre</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/b/8b5f624f-c5eb-4150-b36e-6147b440ff56.jpg?1554725628">WAR</set>
       <manacost>3R</manacost>
@@ -2794,6 +3181,67 @@ Draw a card.</text>
       <tablerow>2</tablerow>
       <text>Reach
 When Turret Ogre enters the battlefield, if you control another creature with power 4 or greater, Turret Ogre deals 2 damage to each opponent.</text>
+    </card>
+    <card>
+      <name>Tyrant's Scorn</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/7/b7e2708c-2824-4925-b529-d625deb77924.jpg?1555612131">WAR</set>
+      <manacost>UB</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one &#8212;
+&#8226; Destroy target creature with converted mana cost 3 or less.
+&#8226; Return target creature to its owner's hand.</text>
+    </card>
+    <card>
+      <name>Ugin's Conjurant</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/9/9957ecca-5ea0-446f-bfd3-46c2aaa42f08.jpg?1555530087">WAR</set>
+      <manacost>X</manacost>
+      <cmc>0.0</cmc>
+      <type>Creature - Spirit Monk</type>
+      <pt>0/0</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Ugin's Conjurant enters the battlefield with X +1/+1 counters on it.
+If damage would be dealt to Ugin's Conjurant while it has a +1/+1 counter on it, prevent that damage and remove that many +1/+1 counters from Ugin's Conjurant.</text>
+    </card>
+    <card>
+      <name>Ugin, the Ineffable</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/b/7b003521-3da3-41bf-9765-36630653f902.jpg?1555530163">WAR</set>
+      <manacost>6</manacost>
+      <cmc>6.0</cmc>
+      <type>Legendary Planeswalker - Ugin</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>Colorless spells you cast cost {2} less to cast.
++1: Exile the top card of your library face down and look at it. Create a 2/2 colorless Spirit creature token. When that token leaves the battlefield, put the exiled card into your hand.
+-3: Destroy target permanent that's one or more colors.</text>
+    </card>
+    <card>
+      <name>Unlikely Aid</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/c/9c260c5c-e796-4f81-9e15-0c5be75106b9.jpg?1555612137">WAR</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target creature gets +2/+0 and gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)</text>
+    </card>
+    <card>
+      <name>Vampire Opportunist</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/8/a8cf21a4-616d-48a5-a104-180c24491761.jpg?1555578678">WAR</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Creature - Vampire</type>
+      <pt>2/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{6}{B}: Each opponent loses 2 life and you gain 2 life.</text>
     </card>
     <card>
       <name>Vivien's Arkbow</name>
@@ -2870,6 +3318,19 @@ Zombie tokens you control have deathtouch.</text>
 -2: Create a 1/1 black Assassin creature token with deathtouch and "Whenever this creature deals damage to a planeswalker, destroy that planeswalker."</text>
     </card>
     <card>
+      <name>Wall of Runes</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/6/96613089-3508-429a-9f90-23168d56bbe7.jpg?1555612064">WAR</set>
+      <manacost>U</manacost>
+      <cmc>1.0</cmc>
+      <color>U</color>
+      <type>Creature - Wall</type>
+      <pt>0/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Defender
+When Wall of Runes enters the battlefield, scry 1.</text>
+    </card>
+    <card>
       <name>Wanderer's Strike</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/5/85e1d63e-9692-4988-bda2-7c2c9b42217b.jpg?1554224413">WAR</set>
       <manacost>4W</manacost>
@@ -2916,6 +3377,100 @@ Zombie tokens you control have deathtouch.</text>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Amass 2, then the Army you amassed deals damage equal to its power to each non-Army creature. (To amass 2, put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+    </card>
+    <card>
+      <name>Blackblade Reforged</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/9/d/9dccac19-a915-4189-beb8-5d279a15a54e.jpg?1555602155">SS2</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Legendary Artifact - Equipment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +1/+1 for each land you control.
+Equip legendary creature {3}
+Equip {7}</text>
+    </card>
+    <card>
+      <name>Gideon Jura</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/5/8532d72a-b2d2-49e1-85ea-35f4c91c6c8d.jpg?1555601898">SS2</set>
+      <manacost>3WW</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Legendary Planeswalker - Gideon</type>
+      <loyalty>6</loyalty>
+      <tablerow>1</tablerow>
+      <text>+2: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.
+&#8722;2: Destroy target tapped creature.
+0: Until end of turn, Gideon Jura becomes a 6/6 Human Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn.</text>
+    </card>
+    <card>
+      <name>Martyr's Bond</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/e/6eb1c64f-be2c-4033-913d-d8482a169509.jpg?1555601942">SS2</set>
+      <manacost>4WW</manacost>
+      <cmc>6.0</cmc>
+      <color>W</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever Martyr's Bond or another nonland permanent you control is put into a graveyard from the battlefield, each opponent sacrifices a permanent that shares a card type with it.</text>
+    </card>
+    <card>
+      <name>Path to Exile</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/0/206fd18a-f263-42cd-a77a-e40ae31a468a.jpg?1555601966">SS2</set>
+      <manacost>W</manacost>
+      <cmc>1.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.</text>
+    </card>
+    <card>
+      <name>Rest in Peace</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/d/bd29035d-819f-43c4-a8fb-d056b1ccfe16.jpg?1555601999">SS2</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>When Rest in Peace enters the battlefield, exile all cards from all graveyards.
+If a card or token would be put into a graveyard from anywhere, exile it instead.</text>
+    </card>
+    <card>
+      <name>Shielded by Faith</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/7/27946cc0-8278-4b45-8239-c22b5a57c40f.jpg?1555602022">SS2</set>
+      <manacost>1WW</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Enchanted creature has indestructible.
+Whenever a creature enters the battlefield, you may attach Shielded by Faith to that creature.</text>
+    </card>
+    <card>
+      <name>True Conviction</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/8/f8f4c56b-76d1-4c1c-a9d6-383278de272d.jpg?1555602060">SS2</set>
+      <manacost>3WWW</manacost>
+      <cmc>6.0</cmc>
+      <color>W</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Creatures you control have double strike and lifelink.</text>
+    </card>
+    <card>
+      <name>Worship</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/9/a/9aef2a48-07bb-44e4-943f-f62fdc384a81.jpg?1555602113">SS2</set>
+      <manacost>3W</manacost>
+      <cmc>4.0</cmc>
+      <color>W</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.</text>
     </card>
   </cards>
 </cockatrice_carddatabase>
