@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Thu, Apr 18 2019, 22:42:57 (UTC)
+Created At: Fri, Apr 19 2019, 05:06:52 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -820,6 +820,19 @@ Whenever a Zombie token you control with power 6 or greater attacks, it gains li
       <tablerow>2</tablerow>
       <text>When Dreadhorde Twins enters the battlefield, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)
 Zombie tokens you control have trample.</text>
+    </card>
+    <card>
+      <name>Dreadmalkin</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/3/7327cfac-a4a4-445e-9d04-51c1ca142140.jpg?1555625532">WAR</set>
+      <manacost>B</manacost>
+      <cmc>1.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Cat</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Menace (This creature can't be blocked except by two or more creatures.)
+{2}{B}, Sacrifice another creature or planeswalker: Put two +1/+1 counters on Dreadmalkin.</text>
     </card>
     <card>
       <name>Duskmantle Operative</name>
@@ -2285,6 +2298,21 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
       <text>({T}: Add {W}.)</text>
     </card>
     <card>
+      <name>Planewide Celebration</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/1/1/11016840-56b6-4759-bde6-3dc0e339e87e.jpg?1555625377">WAR</set>
+      <manacost>5GG</manacost>
+      <cmc>7.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose four. You may choose the same mode more than once.
+&#8226; Create a 2/2 Citizen creature token that's all colors.
+&#8226; Return target permanent card from your graveyard to your hand.
+&#8226; Proliferate.
+&#8226; You gain 4 life.</text>
+    </card>
+    <card>
       <name>Pledge of Unity</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/a/ca9b3518-7fcd-49e2-a4c4-e5daa8be6c21.jpg?1555347036">WAR</set>
       <manacost>1GW</manacost>
@@ -2619,6 +2647,18 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
 Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
     </card>
     <card>
+      <name>Simic Guildgate</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/8/989d6851-2a5d-4d8f-a7b8-724818236c47.jpg?1555629287">WAR</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land - Gate</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Simic Guildgate enters the battlefield tapped.
+{T}: Add {G} or {U}.</text>
+    </card>
+    <card>
       <name>Single Combat</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/e/ce0e7c6a-e628-4327-a16f-2062c5a662df.jpg?1554408027">WAR</set>
       <manacost>3WW</manacost>
@@ -2631,7 +2671,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
     </card>
     <card>
       <name>Sky Theater Strix</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/8/98902dd9-f21c-4419-8205-4b9d6592bf28.jpg?1555612654">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/8/98902dd9-f21c-4419-8205-4b9d6592bf28.jpg?1555618911">WAR</set>
       <manacost>1U</manacost>
       <cmc>2.0</cmc>
       <color>U</color>
@@ -2982,7 +3022,7 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
     </card>
     <card>
       <name>Thunder Drake</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/8/f88a9bc4-1b15-4a91-9376-730d2f5b3336.jpg?1555612060">WAR</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/8/f88a9bc4-1b15-4a91-9376-730d2f5b3336.jpg?1555618927">WAR</set>
       <manacost>3U</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
