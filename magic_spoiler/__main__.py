@@ -164,7 +164,7 @@ def scryfall2mtgjson(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any
             "number": sf_card["collector_number"],
             "rarity": sf_card["rarity"].replace("mythic", "mythic rare").title(),
             "text": sf_card.get("oracle_text", ""),
-            "url": sf_card["image_uris"].get("normal", None).rsplit("?", 1)[0],
+            "url": sf_card["image_uris"].get("normal", "").rsplit("?", 1)[0],
             "type": sf_card.get("type_line", "Unknown").replace(u"—", "-"),
             "colorIdentity": sf_card.get("color_identity", None),
             "colors": sf_card["colors"],
