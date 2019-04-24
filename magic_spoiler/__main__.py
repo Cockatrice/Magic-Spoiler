@@ -376,11 +376,11 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
 
     old_xml_location = str(OUTPUT_DIR.joinpath(output_file_name))
     if compare_xml_content(card_xml_file.name, old_xml_location):
-        print("New spoiler.xml same as before, skipping replacement")
+        print("No new data in spoiler.xml, skipping replacement")
         return
 
     # Move new version to old location
-    print("Replacing spoiler.xml with newer content")
+    print("Changes detected, replacing spoiler.xml with updated version")
     shutil.move(card_xml_file.name, old_xml_location)
 
 
@@ -401,11 +401,11 @@ def write_spoilers_json(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
     # If content didn't change, discard newest creation
     old_xml_location = str(OUTPUT_DIR.joinpath("spoiler.json"))
     if compare_json_content(str(output_file_path), old_xml_location):
-        print("New spoiler.json same as before, skipping replacement")
+        print("No new data in spoiler.json, skipping replacement")
         return
 
     # Move new version to old location
-    print("Replacing spoiler.json with newer content")
+    print("Changes detected, replacing spoiler.json with updated version")
     shutil.move(str(output_file_path), old_xml_location)
 
 
@@ -477,11 +477,11 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
     # If content didn't change, discard newest creation
     old_xml_location = str(OUTPUT_DIR.joinpath("{}.xml".format(set_obj["code"])))
     if compare_xml_content(card_xml_file.name, old_xml_location):
-        print("New {}.xml same as before, skipping replacement".format(set_obj["code"]))
+        print("No new data in {}.xml, skipping replacement".format(set_obj["code"]))
         return
 
     # Move new version to old location
-    print("Replacing {}.xml with newer content".format(set_obj["code"]))
+    print("Changes detected, replacing {}.xml with updated version".format(set_obj["code"]))
     shutil.move(card_xml_file.name, old_xml_location)
 
 
@@ -504,12 +504,12 @@ def write_set_json(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) ->
     old_xml_location = str(OUTPUT_DIR.joinpath("{}.json".format(set_obj["code"])))
     if compare_json_content(str(output_file_path), old_xml_location):
         print(
-            "New {}.json same as before, skipping replacement".format(set_obj["code"])
+            "No new data in {}.json, skipping replacement".format(set_obj["code"])
         )
         return
 
     # Move new version to old location
-    print("Replacing {}.json with newer content".format(set_obj["code"]))
+    print("Changes detected, replacing {}.json with updated version".format(set_obj["code"]))
     shutil.move(str(output_file_path), old_xml_location)
 
 
