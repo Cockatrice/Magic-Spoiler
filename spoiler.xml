@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Tue, Apr 23 2019, 22:46:27 (UTC)
+Created At: Fri, Apr 26 2019, 22:47:27 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -166,7 +166,7 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <type>Sorcery</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Choose one or both&#8212;
+      <text>Choose one or both &#8212;
 &#8226; Return target creature card from your graveyard to your hand.
 &#8226; Return target planeswalker card from your graveyard to your hand.</text>
     </card>
@@ -194,7 +194,7 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <tablerow>1</tablerow>
       <text>Creatures you control have vigilance.
 +1: You gain 3 life.
--2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.</text>
+&#8722;2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.</text>
     </card>
     <card>
       <name>Ajani, the Greathearted</name>
@@ -208,7 +208,7 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <tablerow>1</tablerow>
       <text>Creatures you control have vigilance.
 +1: You gain 3 life.
--2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.</text>
+&#8722;2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.</text>
     </card>
     <card>
       <name>Angrath's Rampage</name>
@@ -236,7 +236,7 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Creatures you control have menace.
--2: Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+&#8722;2: Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
       <name>Angrath, Captain of Chaos</name>
@@ -249,7 +249,7 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Creatures you control have menace.
--2: Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
+&#8722;2: Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
       <name>Arboreal Grazer</name>
@@ -285,8 +285,8 @@ When Arboreal Grazer enters the battlefield, you may put a land card from your h
       <type>Legendary Planeswalker - Arlinn</type>
       <loyalty>7</loyalty>
       <tablerow>1</tablerow>
-      <text>Each creature you control that's a Wolf or Werewolf enters the battlefield with an additional +1/+1 counter on it.
--2: Create a 2/2 green Wolf creature token.</text>
+      <text>Each creature you control that's a Wolf or a Werewolf enters the battlefield with an additional +1/+1 counter on it.
+&#8722;2: Create a 2/2 green Wolf creature token.</text>
     </card>
     <card>
       <name>Arlinn, Voice of the Pack</name>
@@ -297,8 +297,8 @@ When Arboreal Grazer enters the battlefield, you may put a land card from your h
       <type>Legendary Planeswalker - Arlinn</type>
       <loyalty>7</loyalty>
       <tablerow>1</tablerow>
-      <text>Each creature you control that's a Wolf or Werewolf enters the battlefield with an additional +1/+1 counter on it.
--2: Create a 2/2 green Wolf creature token.</text>
+      <text>Each creature you control that's a Wolf or a Werewolf enters the battlefield with an additional +1/+1 counter on it.
+&#8722;2: Create a 2/2 green Wolf creature token.</text>
     </card>
     <card>
       <name>Ashiok's Skulker</name>
@@ -323,7 +323,7 @@ When Arboreal Grazer enters the battlefield, you may put a land card from your h
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Spells and abilities your opponents control can't cause their controller to search their library.
--1: Target player puts the top four cards of their library into their graveyard. Then exile each opponent's graveyard.</text>
+&#8722;1: Target player puts the top four cards of their library into their graveyard. Then exile each opponent's graveyard.</text>
     </card>
     <card>
       <name>Ashiok, Dream Render</name>
@@ -336,7 +336,7 @@ When Arboreal Grazer enters the battlefield, you may put a land card from your h
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Spells and abilities your opponents control can't cause their controller to search their library.
--1: Target player puts the top four cards of their library into their graveyard. Then exile each opponent's graveyard.</text>
+&#8722;1: Target player puts the top four cards of their library into their graveyard. Then exile each opponent's graveyard.</text>
     </card>
     <card>
       <name>Augur of Bolas</name>
@@ -516,7 +516,7 @@ Change the target of target spell or ability with a single target.</text>
       <type>Sorcery</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Look at the top three card of your library. You may reveal a permanent card from among them and put it into your hand. Put the rest on the bottom of your library in any order. You gain 3 life.</text>
+      <text>Look at the top three cards of your library. You may reveal a permanent card from among them and put it into your hand. Put the rest on the bottom of your library in any order. You gain 3 life.</text>
     </card>
     <card>
       <name>Bond of Insight</name>
@@ -585,7 +585,7 @@ Change the target of target spell or ability with a single target.</text>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Return target nonland permanent to its owner's hand.
-Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie army creature token first.)</text>
+Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)</text>
     </card>
     <card>
       <name>Casualties of War</name>
@@ -674,7 +674,7 @@ Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, 
       <tablerow>1</tablerow>
       <text>Whenever one or more loyalty counters are removed from Chandra, Fire Artisan, she deals that much damage to target opponent or planeswalker.
 +1: Exile the top card of your library. You may play it this turn.
--7: Exile the top seven cards of your library. You may play them this turn.</text>
+&#8722;7: Exile the top seven cards of your library. You may play them this turn.</text>
     </card>
     <card>
       <name>Chandra, Fire Artisan</name>
@@ -687,7 +687,7 @@ Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, 
       <tablerow>1</tablerow>
       <text>Whenever one or more loyalty counters are removed from Chandra, Fire Artisan, she deals that much damage to target opponent or planeswalker.
 +1: Exile the top card of your library. You may play it this turn.
--7: Exile the top seven cards of your library. You may play them this turn.</text>
+&#8722;7: Exile the top seven cards of your library. You may play them this turn.</text>
     </card>
     <card>
       <name>Charity Extractor</name>
@@ -712,7 +712,7 @@ Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, 
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Lifelink
-Whenever Charmed Stray enters the battlefield, put a +1/+1 counter on each other creature you control named Charmed Stray.</text>
+When Charmed Stray enters the battlefield, put a +1/+1 counter on each other creature you control named Charmed Stray.</text>
     </card>
     <card>
       <name>Command the Dreadhorde</name>
@@ -818,7 +818,7 @@ Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control on
       <loyalty>3</loyalty>
       <tablerow>1</tablerow>
       <text>At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, Davriel, Rogue Shadowmage deals 2 damage to them.
--1: Target player discards a card.</text>
+&#8722;1: Target player discards a card.</text>
     </card>
     <card>
       <name>Davriel, Rogue Shadowmage</name>
@@ -830,7 +830,7 @@ Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control on
       <loyalty>3</loyalty>
       <tablerow>1</tablerow>
       <text>At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, Davriel, Rogue Shadowmage deals 2 damage to them.
--1: Target player discards a card.</text>
+&#8722;1: Target player discards a card.</text>
     </card>
     <card>
       <name>Deathsprout</name>
@@ -949,7 +949,7 @@ Exile Deliver Unto Evil.</text>
       <tablerow>1</tablerow>
       <text>Creatures you control get +1/+0.
 +1: Add {R} or {G}. Creature spells you cast this turn can't be countered.
--2: Target creature you control fights target creature you don't control.</text>
+&#8722;2: Target creature you control fights target creature you don't control.</text>
     </card>
     <card>
       <name>Domri, Anarch of Bolas</name>
@@ -963,7 +963,7 @@ Exile Deliver Unto Evil.</text>
       <tablerow>1</tablerow>
       <text>Creatures you control get +1/+0.
 +1: Add {R} or {G}. Creature spells you cast this turn can't be countered.
--2: Target creature you control fights target creature you don't control.</text>
+&#8722;2: Target creature you control fights target creature you don't control.</text>
     </card>
     <card>
       <name>Dovin's Veto</name>
@@ -989,7 +989,7 @@ Counter target noncreature spell.</text>
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Artifact, instant, and sorcery spells your opponents cast cost {1} more to cast.
--1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.</text>
+&#8722;1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.</text>
     </card>
     <card>
       <name>Dovin, Hand of Control</name>
@@ -1002,7 +1002,7 @@ Counter target noncreature spell.</text>
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Artifact, instant, and sorcery spells your opponents cast cost {1} more to cast.
--1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.</text>
+&#8722;1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.</text>
     </card>
     <card>
       <name>Dreadhorde Arcanist</name>
@@ -1251,7 +1251,7 @@ Whenever you cast an instant or sorcery spell that targets a creature you contro
       <type>Sorcery</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>You may cast up to one target instant card and/or sorcery card from your graveyard each with converted mana cost X or less without paying their mana costs. If a card cast this way would be put into your graveyard this turn, exile it instead. If X is 10 or more, copy each of those spells twice. You may choose new targets for the copies.</text>
+      <text>You may cast up to one target instant card and/or up to one target sorcery card from your graveyard each with converted mana cost X or less without paying their mana costs. If a card cast this way would be put into your graveyard this turn, exile it instead. If X is 10 or more, copy each of those spells twice. You may choose new targets for the copies.</text>
     </card>
     <card>
       <name>Finale of Revelation</name>
@@ -1366,7 +1366,7 @@ When Gateway Plaza enters the battlefield, sacrifice it unless you pay {1}.
       <text>As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.
 Prevent all damage that would be dealt to Gideon Blackblade during your turn.
 +1: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.
--6: Exile target nonland permanent.</text>
+&#8722;6: Exile target nonland permanent.</text>
     </card>
     <card>
       <name>Gideon Blackblade</name>
@@ -1380,7 +1380,7 @@ Prevent all damage that would be dealt to Gideon Blackblade during your turn.
       <text>As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.
 Prevent all damage that would be dealt to Gideon Blackblade during your turn.
 +1: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.
--6: Exile target nonland permanent.</text>
+&#8722;6: Exile target nonland permanent.</text>
     </card>
     <card>
       <name>Gideon's Battle Cry</name>
@@ -1439,7 +1439,7 @@ Prevent all damage that would be dealt to Gideon Blackblade during your turn.
       <tablerow>1</tablerow>
       <text>Whenever you attack with two or more non-Gideon creatures, put a +1/+1 counter on each of those creatures.
 +2: Until end of turn, Gideon, the Oathsworn becomes a 5/5 white Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn. (He can't attack if he was cast this turn.)
--9: Exile Gideon, the Oathsworn and each creature your opponents control.</text>
+&#8722;9: Exile Gideon, the Oathsworn and each creature your opponents control.</text>
     </card>
     <card>
       <name>Gleaming Overseer</name>
@@ -1670,7 +1670,7 @@ When Huatli's Raptor enters the battlefield, proliferate. (Choose any number of 
       <loyalty>7</loyalty>
       <tablerow>1</tablerow>
       <text>Each creature you control assigns combat damage equal to its toughness rather than its power.
--3: You gain life equal to the greatest toughness among creatures you control.</text>
+&#8722;3: You gain life equal to the greatest toughness among creatures you control.</text>
     </card>
     <card>
       <name>Huatli, the Sun's Heart</name>
@@ -1683,7 +1683,7 @@ When Huatli's Raptor enters the battlefield, proliferate. (Choose any number of 
       <loyalty>7</loyalty>
       <tablerow>1</tablerow>
       <text>Each creature you control assigns combat damage equal to its toughness rather than its power.
--3: You gain life equal to the greatest toughness among creatures you control.</text>
+&#8722;3: You gain life equal to the greatest toughness among creatures you control.</text>
     </card>
     <card>
       <name>Ignite the Beacon</name>
@@ -1846,7 +1846,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <tablerow>1</tablerow>
       <text>Whenever you draw your second card each turn, put a +1/+1 counter on target creature you control.
 +1: Draw a card.
--7: Creatures you control can't be blocked this turn.</text>
+&#8722;7: Creatures you control can't be blocked this turn.</text>
     </card>
     <card>
       <name>Jace, Wielder of Mysteries</name>
@@ -1859,7 +1859,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <tablerow>1</tablerow>
       <text>If you would draw a card while your library has no cards in it, you win the game instead.
 +1: Target player puts the top two cards of their library into their graveyard. Draw a card.
--8: Draw seven cards. Then if your library has no cards in it, you win the game.</text>
+&#8722;8: Draw seven cards. Then if your library has no cards in it, you win the game.</text>
     </card>
     <card>
       <name>Jace, Wielder of Mysteries</name>
@@ -1872,7 +1872,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <tablerow>1</tablerow>
       <text>If you would draw a card while your library has no cards in it, you win the game instead.
 +1: Target player puts the top two cards of their library into their graveyard. Draw a card.
--8: Draw seven cards. Then if your library has no cards in it, you win the game.</text>
+&#8722;8: Draw seven cards. Then if your library has no cards in it, you win the game.</text>
     </card>
     <card>
       <name>Jaya's Greeting</name>
@@ -1895,7 +1895,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>If another red source you control would deal damage to a permanent or player, it deals that much damage plus 1 to that permanent or player instead.
--2: Jaya, Venerated Firemage deals 2 damage to any target.</text>
+&#8722;2: Jaya, Venerated Firemage deals 2 damage to any target.</text>
     </card>
     <card>
       <name>Jaya, Venerated Firemage</name>
@@ -1907,7 +1907,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>If another red source you control would deal damage to a permanent or player, it deals that much damage plus 1 to that permanent or player instead.
--2: Jaya, Venerated Firemage deals 2 damage to any target.</text>
+&#8722;2: Jaya, Venerated Firemage deals 2 damage to any target.</text>
     </card>
     <card>
       <name>Jiang Yanggu, Wildcrafter</name>
@@ -1919,7 +1919,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <loyalty>3</loyalty>
       <tablerow>1</tablerow>
       <text>Each creature you control with a +1/+1 counter on it has "{T}: Add one mana of any color."
--1: Put a +1/+1 counter on target creature.</text>
+&#8722;1: Put a +1/+1 counter on target creature.</text>
     </card>
     <card>
       <name>Jiang Yanggu, Wildcrafter</name>
@@ -1931,7 +1931,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <loyalty>3</loyalty>
       <tablerow>1</tablerow>
       <text>Each creature you control with a +1/+1 counter on it has "{T}: Add one mana of any color."
--1: Put a +1/+1 counter on target creature.</text>
+&#8722;1: Put a +1/+1 counter on target creature.</text>
     </card>
     <card>
       <name>Karn's Bastion</name>
@@ -1954,7 +1954,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <tablerow>1</tablerow>
       <text>Activated abilities of artifacts your opponents control can't be activated.
 +1: Until your next turn, up to one target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.
--2: You may choose an artifact card you own from outside the game or in exile, reveal that card, and put it into your hand.</text>
+&#8722;2: You may choose an artifact card you own from outside the game or in exile, reveal that card, and put it into your hand.</text>
     </card>
     <card>
       <name>Karn, the Great Creator</name>
@@ -1966,7 +1966,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
       <tablerow>1</tablerow>
       <text>Activated abilities of artifacts your opponents control can't be activated.
 +1: Until your next turn, up to one target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.
--2: You may choose an artifact card you own from outside the game or in exile, reveal that card, and put it into your hand.</text>
+&#8722;2: You may choose an artifact card you own from outside the game or in exile, reveal that card, and put it into your hand.</text>
     </card>
     <card>
       <name>Kasmina's Transmutation</name>
@@ -1990,7 +1990,7 @@ Enchanted creature loses all abilities and has base power and toughness 1/1.</te
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Spells your opponents cast that target a creature or planeswalker you control cost {2} more to cast.
--2: Create a 2/2 blue Wizard creature token. Draw a card, then discard a card.</text>
+&#8722;2: Create a 2/2 blue Wizard creature token. Draw a card, then discard a card.</text>
     </card>
     <card>
       <name>Kasmina, Enigmatic Mentor</name>
@@ -2002,7 +2002,7 @@ Enchanted creature loses all abilities and has base power and toughness 1/1.</te
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Spells your opponents cast that target a creature or planeswalker you control cost {2} more to cast.
--2: Create a 2/2 blue Wizard creature token. Draw a card, then discard a card.</text>
+&#8722;2: Create a 2/2 blue Wizard creature token. Draw a card, then discard a card.</text>
     </card>
     <card>
       <name>Kaya's Ghostform</name>
@@ -2026,8 +2026,8 @@ When enchanted permanent dies or is put into exile, return that card to the batt
       <type>Legendary Planeswalker - Kaya</type>
       <loyalty>7</loyalty>
       <tablerow>1</tablerow>
-      <text>Your opponents and permanents your opponents control with hexproof can be the target of spells and abilities you control as though they didn't have hexproof.
--3: Exile target creature.</text>
+      <text>Your opponents and permanents your opponents control with hexproof can be the targets of spells and abilities you control as though they didn't have hexproof.
+&#8722;3: Exile target creature.</text>
     </card>
     <card>
       <name>Kaya, Bane of the Dead</name>
@@ -2039,8 +2039,8 @@ When enchanted permanent dies or is put into exile, return that card to the batt
       <type>Legendary Planeswalker - Kaya</type>
       <loyalty>7</loyalty>
       <tablerow>1</tablerow>
-      <text>Your opponents and permanents your opponents control with hexproof can be the target of spells and abilities you control as though they didn't have hexproof.
--3: Exile target creature.</text>
+      <text>Your opponents and permanents your opponents control with hexproof can be the targets of spells and abilities you control as though they didn't have hexproof.
+&#8722;3: Exile target creature.</text>
     </card>
     <card>
       <name>Kiora's Dambreaker</name>
@@ -2052,7 +2052,7 @@ When enchanted permanent dies or is put into exile, return that card to the batt
       <pt>5/6</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>When Kiora's Dambreaker enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each a counter of each kind already there.)</text>
+      <text>When Kiora's Dambreaker enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
     </card>
     <card>
       <name>Kiora, Behemoth Beckoner</name>
@@ -2065,7 +2065,7 @@ When enchanted permanent dies or is put into exile, return that card to the batt
       <loyalty>7</loyalty>
       <tablerow>1</tablerow>
       <text>Whenever a creature with power 4 or greater enters the battlefield under your control, draw a card.
--1: Untap target permanent.</text>
+&#8722;1: Untap target permanent.</text>
     </card>
     <card>
       <name>Kiora, Behemoth Beckoner</name>
@@ -2078,7 +2078,7 @@ When enchanted permanent dies or is put into exile, return that card to the batt
       <loyalty>7</loyalty>
       <tablerow>1</tablerow>
       <text>Whenever a creature with power 4 or greater enters the battlefield under your control, draw a card.
--1: Untap target permanent.</text>
+&#8722;1: Untap target permanent.</text>
     </card>
     <card>
       <name>Kraul Stinger</name>
@@ -2201,8 +2201,8 @@ You and permanents you control gain hexproof until end of turn. (You and they ca
       <tablerow>1</tablerow>
       <text>Whenever a creature you control dies, draw a card.
 +1: Create a 2/2 black Zombie creature token.
--4: Each player sacrifices two creatures.
--9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.</text>
+&#8722;4: Each player sacrifices two creatures.
+&#8722;9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.</text>
     </card>
     <card>
       <name>Liliana, Dreadhorde General</name>
@@ -2215,8 +2215,8 @@ You and permanents you control gain hexproof until end of turn. (You and they ca
       <tablerow>1</tablerow>
       <text>Whenever a creature you control dies, draw a card.
 +1: Create a 2/2 black Zombie creature token.
--4: Each player sacrifices two creatures.
--9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.</text>
+&#8722;4: Each player sacrifices two creatures.
+&#8722;9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.</text>
     </card>
     <card>
       <name>Living Twister</name>
@@ -2423,7 +2423,7 @@ If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many p
       <loyalty>6</loyalty>
       <tablerow>1</tablerow>
       <text>As long as it's your turn, creatures you control have first strike and equip abilities you activate cost {1} less to activate.
--X: Nahiri, Storm of Stone deals X damage to target tapped creature.</text>
+&#8722;X: Nahiri, Storm of Stone deals X damage to target tapped creature.</text>
     </card>
     <card>
       <name>Nahiri, Storm of Stone</name>
@@ -2436,7 +2436,7 @@ If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many p
       <loyalty>6</loyalty>
       <tablerow>1</tablerow>
       <text>As long as it's your turn, creatures you control have first strike and equip abilities you activate cost {1} less to activate.
--X: Nahiri, Storm of Stone deals X damage to target tapped creature.</text>
+&#8722;X: Nahiri, Storm of Stone deals X damage to target tapped creature.</text>
     </card>
     <card>
       <name>Narset's Reversal</name>
@@ -2459,7 +2459,7 @@ If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many p
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Each opponent can't draw more than one card each turn.
--2: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+&#8722;2: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
     </card>
     <card>
       <name>Narset, Parter of Veils</name>
@@ -2471,7 +2471,7 @@ If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many p
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Each opponent can't draw more than one card each turn.
--2: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+&#8722;2: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
     </card>
     <card>
       <name>Neheb, Dreadhorde Champion</name>
@@ -2525,8 +2525,8 @@ Enchanted land has "{T}: Add two mana of any one color."</text>
       <tablerow>1</tablerow>
       <text>Nicol Bolas, Dragon-God has all loyalty abilities of all other planeswalkers on the battlefield.
 +1: You draw a card. Each opponent exiles a card from their hand or a permanent they control.
--3: Destroy target creature or planeswalker.
--8: Each opponent who doesn't control a legendary creature or planeswalker loses the game.</text>
+&#8722;3: Destroy target creature or planeswalker.
+&#8722;8: Each opponent who doesn't control a legendary creature or planeswalker loses the game.</text>
     </card>
     <card>
       <name>Nicol Bolas, Dragon-God</name>
@@ -2541,8 +2541,8 @@ Enchanted land has "{T}: Add two mana of any one color."</text>
       <tablerow>1</tablerow>
       <text>Nicol Bolas, Dragon-God has all loyalty abilities of all other planeswalkers on the battlefield.
 +1: You draw a card. Each opponent exiles a card from their hand or a permanent they control.
--3: Destroy target creature or planeswalker.
--8: Each opponent who doesn't control a legendary creature or planeswalker loses the game.</text>
+&#8722;3: Destroy target creature or planeswalker.
+&#8722;8: Each opponent who doesn't control a legendary creature or planeswalker loses the game.</text>
     </card>
     <card>
       <name>Nissa's Triumph</name>
@@ -2566,7 +2566,7 @@ Enchanted land has "{T}: Add two mana of any one color."</text>
       <tablerow>1</tablerow>
       <text>Whenever you tap a Forest for mana, add an additional {G}.
 +1: Put three +1/+1 counters on up to one target noncreature land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance and haste that's still a land.
--8: You get an emblem with "Lands you control have indestructible." Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle your library.</text>
+&#8722;8: You get an emblem with "Lands you control have indestructible." Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle your library.</text>
     </card>
     <card>
       <name>Nissa, Who Shakes the World</name>
@@ -2579,7 +2579,7 @@ Enchanted land has "{T}: Add two mana of any one color."</text>
       <tablerow>1</tablerow>
       <text>Whenever you tap a Forest for mana, add an additional {G}.
 +1: Put three +1/+1 counters on up to one target noncreature land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance and haste that's still a land.
--8: You get an emblem with "Lands you control have indestructible." Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle your library.</text>
+&#8722;8: You get an emblem with "Lands you control have indestructible." Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle your library.</text>
     </card>
     <card>
       <name>Niv-Mizzet Reborn</name>
@@ -2644,7 +2644,7 @@ Whenever an opponent attacks a planeswalker you control with one or more creatur
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Whenever an opponent draws a card, Ob Nixilis, the Hate-Twisted deals 1 damage to that player.
--2: Destroy target creature. Its controller draws two cards.</text>
+&#8722;2: Destroy target creature. Its controller draws two cards.</text>
     </card>
     <card>
       <name>Ob Nixilis, the Hate-Twisted</name>
@@ -2656,7 +2656,7 @@ Whenever an opponent attacks a planeswalker you control with one or more creatur
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Whenever an opponent draws a card, Ob Nixilis, the Hate-Twisted deals 1 damage to that player.
--2: Destroy target creature. Its controller draws two cards.</text>
+&#8722;2: Destroy target creature. Its controller draws two cards.</text>
     </card>
     <card>
       <name>Orzhov Guildgate</name>
@@ -2680,7 +2680,7 @@ Whenever an opponent attacks a planeswalker you control with one or more creatur
       <pt>2/1</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Paradise Druid has hexproof as long as it's untapped.
+      <text>Paradise Druid has hexproof as long as it's untapped.(It can't be the target of spells or abilities your opponents control.)
 {T}: Add one mana of any color.</text>
     </card>
     <card>
@@ -2862,7 +2862,7 @@ When Prison Realm enters the battlefield, scry 1.</text>
       <tablerow>1</tablerow>
       <text>Whenever you cast or copy an instant or sorcery spell, Ral, Storm Conduit deals 1 damage to target opponent or planeswalker.
 +2: Scry 1.
--2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.</text>
+&#8722;2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.</text>
     </card>
     <card>
       <name>Ral, Storm Conduit</name>
@@ -2876,7 +2876,7 @@ When Prison Realm enters the battlefield, scry 1.</text>
       <tablerow>1</tablerow>
       <text>Whenever you cast or copy an instant or sorcery spell, Ral, Storm Conduit deals 1 damage to target opponent or planeswalker.
 +2: Scry 1.
--2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.</text>
+&#8722;2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.</text>
     </card>
     <card>
       <name>Rally of Wings</name>
@@ -3014,7 +3014,7 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token.
--2: Target artifact you control becomes a copy of another target artifact or creature you control until end of turn, except it's an artifact in addition to its other types.</text>
+&#8722;2: Target artifact you control becomes a copy of another target artifact or creature you control until end of turn, except it's an artifact in addition to its other types.</text>
     </card>
     <card>
       <name>Saheeli, Sublime Artificer</name>
@@ -3027,7 +3027,7 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token.
--2: Target artifact you control becomes a copy of another target artifact or creature you control until end of turn, except it's an artifact in addition to its other types.</text>
+&#8722;2: Target artifact you control becomes a copy of another target artifact or creature you control until end of turn, except it's an artifact in addition to its other types.</text>
     </card>
     <card>
       <name>Samut's Sprint</name>
@@ -3051,7 +3051,7 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Creatures you control have haste.
--1: Target creature gets +2/+1 and gains haste until end of turn. Scry 1.</text>
+&#8722;1: Target creature gets +2/+1 and gains haste until end of turn. Scry 1.</text>
     </card>
     <card>
       <name>Samut, Tyrant Smasher</name>
@@ -3064,7 +3064,7 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Creatures you control have haste.
--1: Target creature gets +2/+1 and gains haste until end of turn. Scry 1.</text>
+&#8722;1: Target creature gets +2/+1 and gains haste until end of turn. Scry 1.</text>
     </card>
     <card>
       <name>Sarkhan the Masterless</name>
@@ -3077,7 +3077,7 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
       <tablerow>1</tablerow>
       <text>Whenever a creature attacks you or a planeswalker you control, each Dragon you control deals 1 damage to that creature.
 +1: Until end of turn, each planeswalker you control becomes a 4/4 red Dragon creature and gains flying.
--3: Create a 4/4 red Dragon creature token with flying.</text>
+&#8722;3: Create a 4/4 red Dragon creature token with flying.</text>
     </card>
     <card>
       <name>Sarkhan the Masterless</name>
@@ -3090,7 +3090,7 @@ When Saheeli's Silverwing enters the battlefield, look at the top card of target
       <tablerow>1</tablerow>
       <text>Whenever a creature attacks you or a planeswalker you control, each Dragon you control deals 1 damage to that creature.
 +1: Until end of turn, each planeswalker you control becomes a 4/4 red Dragon creature and gains flying.
--3: Create a 4/4 red Dragon creature token with flying.</text>
+&#8722;3: Create a 4/4 red Dragon creature token with flying.</text>
     </card>
     <card>
       <name>Sarkhan's Catharsis</name>
@@ -3213,7 +3213,7 @@ Whenever Snarespinner blocks a creature with flying, Snarespinner gets +2/+0 unt
       <tablerow>1</tablerow>
       <text>As long as it's your turn, creatures and planeswalkers you control have lifelink.
 +2: Sorin, Vengeful Bloodlord deals 1 damage to target player or planeswalker.
--X: Return target creature card with converted mana cost X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.</text>
+&#8722;X: Return target creature card with converted mana cost X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.</text>
     </card>
     <card>
       <name>Sorin, Vengeful Bloodlord</name>
@@ -3227,7 +3227,7 @@ Whenever Snarespinner blocks a creature with flying, Snarespinner gets +2/+0 unt
       <tablerow>1</tablerow>
       <text>As long as it's your turn, creatures and planeswalkers you control have lifelink.
 +2: Sorin, Vengeful Bloodlord deals 1 damage to target player or planeswalker.
--X: Return target creature card with converted mana cost X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.</text>
+&#8722;X: Return target creature card with converted mana cost X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.</text>
     </card>
     <card>
       <name>Soul Diviner</name>
@@ -3414,7 +3414,7 @@ Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker,
       <tablerow>1</tablerow>
       <text>Spells and abilities your opponents control can't cause you to discard cards or sacrifice permanents.
 +1: Choose a nonland card name, then reveal the top four cards of your library. Put all cards with the chosen name from among them into your hand and the rest into your graveyard.
--3: Return target card from your graveyard to your hand.</text>
+&#8722;3: Return target card from your graveyard to your hand.</text>
     </card>
     <card>
       <name>Tamiyo, Collector of Tales</name>
@@ -3428,7 +3428,7 @@ Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker,
       <tablerow>1</tablerow>
       <text>Spells and abilities your opponents control can't cause you to discard cards or sacrifice permanents.
 +1: Choose a nonland card name, then reveal the top four cards of your library. Put all cards with the chosen name from among them into your hand and the rest into your graveyard.
--3: Return target card from your graveyard to your hand.</text>
+&#8722;3: Return target card from your graveyard to your hand.</text>
     </card>
     <card>
       <name>Teferi's Time Twist</name>
@@ -3453,7 +3453,7 @@ Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker,
       <tablerow>1</tablerow>
       <text>Each opponent can cast spells only any time they could cast a sorcery.
 +1: Until your next turn, you may cast sorcery spells as though they had flash.
--3: Return up to one target artifact, creature, or enchantment to its owner's hand. Draw a card.</text>
+&#8722;3: Return up to one target artifact, creature, or enchantment to its owner's hand. Draw a card.</text>
     </card>
     <card>
       <name>Teferi, Time Raveler</name>
@@ -3467,7 +3467,7 @@ Whenever Storrev, Devkarin Lich deals combat damage to a player or planeswalker,
       <tablerow>1</tablerow>
       <text>Each opponent can cast spells only any time they could cast a sorcery.
 +1: Until your next turn, you may cast sorcery spells as though they had flash.
--3: Return up to one target artifact, creature, or enchantment to its owner's hand. Draw a card.</text>
+&#8722;3: Return up to one target artifact, creature, or enchantment to its owner's hand. Draw a card.</text>
     </card>
     <card>
       <name>Tenth District Legionnaire</name>
@@ -3505,7 +3505,7 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>You have hexproof. (You can't be the target of spells or abilities your opponents control.)
--2: Create a 0/3 white Wall creature token with defender.</text>
+&#8722;2: Create a 0/3 white Wall creature token with defender.</text>
     </card>
     <card>
       <name>Teyo, the Shieldmage</name>
@@ -3517,7 +3517,7 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>You have hexproof. (You can't be the target of spells or abilities your opponents control.)
--2: Create a 0/3 white Wall creature token with defender.</text>
+&#8722;2: Create a 0/3 white Wall creature token with defender.</text>
     </card>
     <card>
       <name>Tezzeret, Master of the Bridge</name>
@@ -3529,10 +3529,10 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
       <type>Legendary Planeswalker - Tezzeret</type>
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
-      <text>Creature and planeswalker spells you cast have affinity for artifacts.
+      <text>Creature and planeswalker spells you cast have affinity for artifacts. (They cost {1} less to cast for each artifact you control.)
 +2: Tezzeret, Master of the Bridge deals X damage to each opponent, where X is the number of artifacts you control. You gain X life.
--3: Return target artifact card from your graveyard to your hand.
--8: Exile the top ten cards of your library. Put all artifact cards from among them onto the battlefield.</text>
+&#8722;3: Return target artifact card from your graveyard to your hand.
+&#8722;8: Exile the top ten cards of your library. Put all artifact cards from among them onto the battlefield.</text>
     </card>
     <card>
       <name>The Elderspell</name>
@@ -3555,7 +3555,7 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Prevent all noncombat damage that would be dealt to you and other permanents you control.
--2: Exile target creature with power 4 or greater.</text>
+&#8722;2: Exile target creature with power 4 or greater.</text>
     </card>
     <card>
       <name>The Wanderer</name>
@@ -3567,7 +3567,7 @@ Whenever you cast a spell that targets Tenth District Legionnaire, put a +1/+1 c
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Prevent all noncombat damage that would be dealt to you and other permanents you control.
--2: Exile target creature with power 4 or greater.</text>
+&#8722;2: Exile target creature with power 4 or greater.</text>
     </card>
     <card>
       <name>Thunder Drake</name>
@@ -3618,7 +3618,7 @@ When Thundering Ceratok enters the battlefield, other creatures you control gain
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Your opponents can't gain life.
--2: Create a 1/1 red Devil creature token with "Whenever this creature dies, it deals 1 damage to any target."</text>
+&#8722;2: Create a 1/1 red Devil creature token with "When this creature dies, it deals 1 damage to any target."</text>
     </card>
     <card>
       <name>Tibalt, Rakish Instigator</name>
@@ -3630,7 +3630,7 @@ When Thundering Ceratok enters the battlefield, other creatures you control gain
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Your opponents can't gain life.
--2: Create a 1/1 red Devil creature token with "Whenever this creature dies, it deals 1 damage to any target."</text>
+&#8722;2: Create a 1/1 red Devil creature token with "When this creature dies, it deals 1 damage to any target."</text>
     </card>
     <card>
       <name>Time Wipe</name>
@@ -3680,7 +3680,7 @@ Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, 
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>When Tolsimir, Friend to Wolves enters the battlefield, create Voja, Friend to Elves, a legendary 3/3 green and white Wolf creature token.
-Whenever a Wolf enters the battlefield under your control, you gain 3 life and that creature fights up to one target creature an opponent controls.</text>
+Whenever a Wolf enters the battlefield under your control, you gain 3 life and that creature fights up to one target creature you don't control.</text>
     </card>
     <card>
       <name>Tomik, Distinguished Advokist</name>
@@ -3781,7 +3781,7 @@ If damage would be dealt to Ugin's Conjurant while it has a +1/+1 counter on it,
       <tablerow>1</tablerow>
       <text>Colorless spells you cast cost {2} less to cast.
 +1: Exile the top card of your library face down and look at it. Create a 2/2 colorless Spirit creature token. When that token leaves the battlefield, put the exiled card into your hand.
--3: Destroy target permanent that's one or more colors.</text>
+&#8722;3: Destroy target permanent that's one or more colors.</text>
     </card>
     <card>
       <name>Ugin, the Ineffable</name>
@@ -3793,7 +3793,7 @@ If damage would be dealt to Ugin's Conjurant while it has a +1/+1 counter on it,
       <tablerow>1</tablerow>
       <text>Colorless spells you cast cost {2} less to cast.
 +1: Exile the top card of your library face down and look at it. Create a 2/2 colorless Spirit creature token. When that token leaves the battlefield, put the exiled card into your hand.
--3: Destroy target permanent that's one or more colors.</text>
+&#8722;3: Destroy target permanent that's one or more colors.</text>
     </card>
     <card>
       <name>Unlikely Aid</name>
@@ -3852,7 +3852,7 @@ If damage would be dealt to Ugin's Conjurant while it has a +1/+1 counter on it,
       <tablerow>1</tablerow>
       <text>You may cast creature spells as though they had flash.
 +1: Until your next turn, up to one target creature gains vigilance and reach.
--2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may look at that card and you may cast it if it's a creature card.</text>
+&#8722;2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may look at that card and you may cast it if it's a creature card.</text>
     </card>
     <card>
       <name>Vivien, Champion of the Wilds</name>
@@ -3865,7 +3865,7 @@ If damage would be dealt to Ugin's Conjurant while it has a +1/+1 counter on it,
       <tablerow>1</tablerow>
       <text>You may cast creature spells as though they had flash.
 +1: Until your next turn, up to one target creature gains vigilance and reach.
--2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may look at that card and you may cast it if it's a creature card.</text>
+&#8722;2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may look at that card and you may cast it if it's a creature card.</text>
     </card>
     <card>
       <name>Vizier of the Scorpion</name>
@@ -3903,7 +3903,7 @@ Zombie tokens you control have deathtouch.</text>
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Whenever a creature you control with deathtouch deals damage to a player or planeswalker, put a +1/+1 counter on that creature.
--2: Create a 1/1 black Assassin creature token with deathtouch and "Whenever this creature deals damage to a planeswalker, destroy that planeswalker."</text>
+&#8722;2: Create a 1/1 black Assassin creature token with deathtouch and "Whenever this creature deals damage to a planeswalker, destroy that planeswalker."</text>
     </card>
     <card>
       <name>Vraska, Swarm's Eminence</name>
@@ -3916,7 +3916,7 @@ Zombie tokens you control have deathtouch.</text>
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>Whenever a creature you control with deathtouch deals damage to a player or planeswalker, put a +1/+1 counter on that creature.
--2: Create a 1/1 black Assassin creature token with deathtouch and "Whenever this creature deals damage to a planeswalker, destroy that planeswalker."</text>
+&#8722;2: Create a 1/1 black Assassin creature token with deathtouch and "Whenever this creature deals damage to a planeswalker, destroy that planeswalker."</text>
     </card>
     <card>
       <name>Wall of Runes</name>
