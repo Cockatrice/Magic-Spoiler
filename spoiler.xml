@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Fri, May 03 2019, 07:11:47 (UTC)
+Created At: Sun, May 19 2019, 23:01:05 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -126,6 +126,167 @@ Whenever a creature enters the battlefield, you may attach Shielded by Faith to 
 At the beginning of your precombat main phase, you may sacrifice a creature. When you do, choose a nonland card name, then target player reveals their hand and discards all cards with that name.</text>
     </card>
     <card>
+      <name>Choking Tethers</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/b/eb0d0c81-8698-41db-a687-47af028e910e.jpg">MH1</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Tap up to four target creatures.
+Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
+When you cycle Choking Tethers, you may tap target creature.</text>
+    </card>
+    <card>
+      <name>Deep Forest Hermit</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/2/3287775f-7bec-4e8f-bb8d-daf5ce92e4a8.jpg">MH1</set>
+      <manacost>3GG</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Creature - Elf Druid</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
+When Deep Forest Hermit enters the battlefield, create four 1/1 green Squirrel creature tokens.
+Squirrels you control get +1/+1.</text>
+    </card>
+    <card>
+      <name>Elvish Fury</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/5/e5a24943-0121-4c64-9624-2e4cff37e6ca.jpg">MH1</set>
+      <manacost>G</manacost>
+      <cmc>1.0</cmc>
+      <color>G</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Buyback {4} (You may pay an additional {4} as you cast this spell. If you do, put this card into your hand as it resolves.)
+Target creature gets +2/+2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Firebolt</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/8/882b8f98-ee51-4c94-a3eb-c79eb2b50d78.jpg">MH1</set>
+      <manacost>R</manacost>
+      <cmc>1.0</cmc>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Firebolt deals 2 damage to any target.
+Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+    </card>
+    <card>
+      <name>Force of Negation</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/9/e9be371c-c688-44ad-ab71-bd4c9f242d58.jpg">MH1</set>
+      <manacost>1UU</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>If it's not your turn, you may exile a blue card from your hand rather than pay this spell's mana cost.
+Counter target noncreature spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.</text>
+    </card>
+    <card>
+      <name>Goblin Matron</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/0/2092e6db-1196-43bf-b7c9-07498fa7ca90.jpg">MH1</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Goblin</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, and put it into your hand. If you do, shuffle your library.</text>
+    </card>
+    <card>
+      <name>Goblin War Party</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/b/2b4155d1-0a87-4d2c-a1a0-06b2553eaae4.jpg">MH1</set>
+      <manacost>3R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one &#8212;
+&#8226; Create three 1/1 red Goblin creature tokens.
+&#8226; Creatures you control get +1/+1 and gain haste until end of turn.</text>
+    </card>
+    <card>
+      <name>Headless Specter</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/8/888b4b76-6af9-4479-8cfd-cde3b8694fe5.jpg">MH1</set>
+      <manacost>1BB</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Specter</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Hellbent &#8212; Whenever Hellbent Specter deals combat damage to a player, if you have no cards in hand, that player discards a card at random.</text>
+    </card>
+    <card>
+      <name>Impostor of the Sixth Pride</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/3/83298c8a-02c4-4ada-9a41-4b973bb58ac6.jpg">MH1</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Creature - Shapeshifter</type>
+      <pt>3/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Changeling (This card is every creature type.)</text>
+    </card>
+    <card>
+      <name>Lava Dart</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/1/b16dd041-451d-4914-8c46-aa315a90d802.jpg">MH1</set>
+      <manacost>R</manacost>
+      <cmc>1.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Lava Dart deals 1 damage to any target.
+Flashback&#8212;Sacrifice a Mountain. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+    </card>
+    <card>
+      <name>Martyr's Soul</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/c/7c17428c-e31d-42f3-8811-6734abd96b0b.jpg">MH1</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Creature - Spirit Soldier</type>
+      <pt>3/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)
+When Martyr's Soul enters the battlefield, if you control no tapped lands, put two +1/+1 counters on it.</text>
+    </card>
+    <card>
+      <name>Prohibit</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/a/0ae544bf-7229-4b82-99ad-32c3af36e30f.jpg">MH1</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Counter target spell if its converted mana cost is 2 or less. If this spell was kicked, counter that spell if its converted mana cost is 4 or less instead.</text>
+    </card>
+    <card>
+      <name>Savage Swipe</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/e/eea7e77c-ede5-41bd-b766-9a76ce691607.jpg">MH1</set>
+      <manacost>G</manacost>
+      <cmc>1.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target creature you control gets +2/+2 until end of turn if its power is 2. Then it fights target creature you don't control. (Each deals damage equal to its power to the other.)</text>
+    </card>
+    <card>
       <name>Serra the Benevolent</name>
       <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/8/88bf4af9-4b14-43e7-9d50-0e6a895cece1.jpg">MH1</set>
       <manacost>2WW</manacost>
@@ -137,6 +298,106 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <text>+2: Creatures you control with flying get +1/+1 until end of turn.
 -3: Create a 4/4 white Angel creature token with flying and vigilance.
 -6: You get an emblem with "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead."</text>
+    </card>
+    <card>
+      <name>Snow-Covered Forest</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/c/1c59fc48-704b-4187-b9d3-2a2cff6dd54b.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Snow Land - Forest</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {G}.)</text>
+    </card>
+    <card>
+      <name>Snow-Covered Island</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/a/8ac1fceb-8427-409c-98a4-9a5c1ff980b4.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Snow Land - Island</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {U}.)</text>
+    </card>
+    <card>
+      <name>Snow-Covered Mountain</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/2/d2209e6f-1d9d-43bb-a314-a8fefc509e78.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Snow Land - Mountain</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {R}.)</text>
+    </card>
+    <card>
+      <name>Snow-Covered Plains</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/a/7a961768-6166-4852-b518-23eb4cced47d.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Snow Land - Plains</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {W}.)</text>
+    </card>
+    <card>
+      <name>Snow-Covered Swamp</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/8/c835f235-4196-4281-9788-13e5d54a92d0.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Snow Land - Swamp</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {B}.)</text>
+    </card>
+    <card>
+      <name>Stream of Thought</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/b/8b75bef5-a039-4edf-8e43-56b8d089605e.jpg">MH1</set>
+      <manacost>U</manacost>
+      <cmc>1.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target player puts the top four cards of their library into their graveyard. You shuffle up to four cards from your graveyard into your library.
+Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid the replicate cost. You may choose new targets for the copies.)</text>
+    </card>
+    <card>
+      <name>Venomous Changeling</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/c/4c5a1d73-d102-469b-82ca-ec18f616375e.jpg">MH1</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Shapeshifter</type>
+      <pt>1/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Changeling (This card is every creature type.)
+Deathtouch</text>
+    </card>
+    <card>
+      <name>Wall of One Thousand Cuts</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/4/f4e5388a-1c1e-4809-99d0-bbdd93436c5e.jpg">MH1</set>
+      <manacost>3WW</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Creature - Wall</type>
+      <pt>3/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Defender, flying
+{W}: Wall of One Thousand Cuts can attack this turn as though it didn't have defender.</text>
+    </card>
+    <card>
+      <name>Wing Shards</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/8/f8326bd2-83a8-4600-b12a-0bda47168f7b.jpg">MH1</set>
+      <manacost>1WW</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target player sacrifices an attacking creature.
+Storm (When you cast this spell, copy it for each spell cast before it this turn.)</text>
     </card>
   </cards>
 </cockatrice_carddatabase>
