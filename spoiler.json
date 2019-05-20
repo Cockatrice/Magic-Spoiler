@@ -114,6 +114,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/e/5/e5a24943-0121-4c64-9624-2e4cff37e6ca.jpg"
         },
         {
+            "artist": "Matt Cavotta",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "\"Every choice is a joy.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Fact or Fiction",
+            "names": null,
+            "number": "50",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/5/5/55d51a2b-450c-4e6d-a660-67d58d1dd4ba.jpg"
+        },
+        {
             "artist": "Chris Rallis",
             "cmc": 1.0,
             "colorIdentity": [
@@ -141,6 +168,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/8/8/882b8f98-ee51-4c94-a3eb-c79eb2b50d78.jpg"
         },
         {
+            "artist": "Chris Rallis",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}",
+            "multiverseId": null,
+            "name": "Flusterstorm",
+            "names": null,
+            "number": "255",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target instant or sorcery spell unless its controller pays {1}.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/4/6/46a00405-13ad-4531-9bfb-fea0ca57f196.jpg"
+        },
+        {
             "artist": "Paul Scott Canavan",
             "cmc": 3.0,
             "colorIdentity": [
@@ -166,6 +220,33 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/e/9/e9be371c-c688-44ad-ab71-bd4c9f242d58.jpg"
+        },
+        {
+            "artist": "Randy Vargas",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "The vines overgrew the construct, snapping gears and soaking up aether.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}{G}",
+            "multiverseId": null,
+            "name": "Force of Vigor",
+            "names": null,
+            "number": "164",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "If it's not your turn, you may exile a green card from your hand rather than pay this spell's mana cost.\nDestroy up to two target artifacts and/or enchantments.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/0/1/017c415b-d635-43c6-92b8-8c95d1c4ff8d.jpg"
         },
         {
             "artist": "Jesper Ejsing",
@@ -217,7 +298,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Choose one \u2014\n\u2022 Create three 1/1 red Goblin creature tokens.\n\u2022 Creatures you control get +1/+1 and gain haste until end of turn.",
+            "text": "Choose one \u2014\n\u2022 Create three 1/1 red Goblin creature tokens.\n\u2022 Creatures you control get +1/+1 and gain haste until end of turn.\nEntwine {2}{R} (Choose both if you pay the entwine cost.)",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -246,11 +327,44 @@
                 "Specter"
             ],
             "superTypes": [],
-            "text": "Flying\nHellbent \u2014 Whenever Hellbent Specter deals combat damage to a player, if you have no cards in hand, that player discards a card at random.",
+            "text": "Flying\nHellbent \u2014 Whenever Headless Specter deals combat damage to a player, if you have no cards in hand, that player discards a card at random.",
             "toughness": "2",
             "type": "Creature - Specter",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/8/8/888b4b76-6af9-4479-8cfd-cde3b8694fe5.jpg"
+        },
+        {
+            "artist": "Filip Burburan",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G",
+                "U"
+            ],
+            "colors": [
+                "G",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{U}",
+            "multiverseId": null,
+            "name": "Ice-Fang Coatl",
+            "names": null,
+            "number": "203",
+            "power": "1",
+            "rarity": "Rare",
+            "subTypes": [
+                "Snake"
+            ],
+            "superTypes": [
+                "Snow"
+            ],
+            "text": "Flash\nFlying\nWhen Ice-Fang Coatl enters the battlefield, draw a card.\nIce-Fang Coatl has deathtouch as long as you control at least three other snow permanents.",
+            "toughness": "1",
+            "type": "Snow Creature - Snake",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/a/6a55cfed-e76c-4ade-ac78-a546e05fe8da.jpg"
         },
         {
             "artist": "Chris Seaman",
@@ -282,7 +396,7 @@
             "url": "https://img.scryfall.com/cards/normal/front/8/3/83298c8a-02c4-4ada-9a41-4b973bb58ac6.jpg"
         },
         {
-            "artist": "",
+            "artist": "Tyler Walpole",
             "cmc": 1.0,
             "colorIdentity": [
                 "R"
@@ -339,6 +453,56 @@
             "url": "https://img.scryfall.com/cards/normal/front/7/c/7c17428c-e31d-42f3-8811-6734abd96b0b.jpg"
         },
         {
+            "artist": "Victor Adame Minguez",
+            "cmc": 7.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{7}",
+            "multiverseId": null,
+            "name": "Morophon, the Boundless",
+            "names": null,
+            "number": "1",
+            "power": "6",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Shapeshifter"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Changeling (This card is every creature type.)\nAs Morophon, the Boundless enters the battlefield, choose a creature type.\nSpells you cast of the chosen type cost {W}{U}{B}{R}{G} less to cast. This effect reduces only the amount of colored mana you pay.\nOther creatures you control of the chosen type get +1/+1.",
+            "toughness": "6",
+            "type": "Legendary Creature - Shapeshifter",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/6/9693e59b-032d-4ddc-a7d1-88a0f52dcc6c.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Prismatic View",
+            "names": null,
+            "number": "244",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Prismatic View: Search your library for a basic land card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://img.scryfall.com/cards/normal/front/e/3/e37da81e-be12-45a2-9128-376f1ad7b3e8.jpg"
+        },
+        {
             "artist": "Adam Rex",
             "cmc": 2.0,
             "colorIdentity": [
@@ -391,6 +555,36 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://img.scryfall.com/cards/normal/front/e/e/eea7e77c-ede5-41bd-b766-9a76ce691607.jpg"
+        },
+        {
+            "artist": "Cynthia Sheppard",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}{R}",
+            "multiverseId": null,
+            "name": "Seasoned Pyromancer",
+            "names": null,
+            "number": "145",
+            "power": "2",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Human",
+                "Shaman"
+            ],
+            "superTypes": [],
+            "text": "When Seasoned Pyromancer enters the battlefield, discard two cards, then draw two cards. For each nonland card discarded this way, create a 1/1 red Elemental creature token.\n{3}{R}{R}, Exile Seasoned Pyromancer from your graveyard: Create two 1/1 red Elemental creature tokens.",
+            "toughness": "2",
+            "type": "Creature - Human Shaman",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/2/e/2e139ad1-1079-49e9-babd-6399c44ad333.jpg"
         },
         {
             "artist": "Magali Villeneuve",
@@ -599,6 +793,36 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://img.scryfall.com/cards/normal/front/8/b/8b75bef5-a039-4edf-8e43-56b8d089605e.jpg"
+        },
+        {
+            "artist": "Sara Winters",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"To see past the veil of death, cross it.\"\n-*The Red Book of Mezdrithalik",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}{B}",
+            "multiverseId": null,
+            "name": "Undead Augur",
+            "names": null,
+            "number": "112",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Zombie",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Whenever Undead Augur or another Zombie you control dies, you draw a card and you lose 1 life.",
+            "toughness": "2",
+            "type": "Creature - Zombie Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/6/c6e3049e-9397-4bef-914b-e9664661419c.jpg"
         },
         {
             "artist": "Aaron Miller",

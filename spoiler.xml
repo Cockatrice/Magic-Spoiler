@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Sun, May 19 2019, 23:01:05 (UTC)
+Created At: Mon, May 20 2019, 23:01:52 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -165,6 +165,17 @@ Squirrels you control get +1/+1.</text>
 Target creature gets +2/+2 until end of turn.</text>
     </card>
     <card>
+      <name>Fact or Fiction</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/5/55d51a2b-450c-4e6d-a660-67d58d1dd4ba.jpg">MH1</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.</text>
+    </card>
+    <card>
       <name>Firebolt</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/8/882b8f98-ee51-4c94-a3eb-c79eb2b50d78.jpg">MH1</set>
       <manacost>R</manacost>
@@ -177,6 +188,18 @@ Target creature gets +2/+2 until end of turn.</text>
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
     </card>
     <card>
+      <name>Flusterstorm</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/6/46a00405-13ad-4531-9bfb-fea0ca57f196.jpg">MH1</set>
+      <manacost>U</manacost>
+      <cmc>1.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Counter target instant or sorcery spell unless its controller pays {1}.
+Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</text>
+    </card>
+    <card>
       <name>Force of Negation</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/9/e9be371c-c688-44ad-ab71-bd4c9f242d58.jpg">MH1</set>
       <manacost>1UU</manacost>
@@ -187,6 +210,18 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
       <tablerow>3</tablerow>
       <text>If it's not your turn, you may exile a blue card from your hand rather than pay this spell's mana cost.
 Counter target noncreature spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.</text>
+    </card>
+    <card>
+      <name>Force of Vigor</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/1/017c415b-d635-43c6-92b8-8c95d1c4ff8d.jpg">MH1</set>
+      <manacost>2GG</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>If it's not your turn, you may exile a green card from your hand rather than pay this spell's mana cost.
+Destroy up to two target artifacts and/or enchantments.</text>
     </card>
     <card>
       <name>Goblin Matron</name>
@@ -211,7 +246,8 @@ Counter target noncreature spell. If that spell is countered this way, exile it 
       <tablerow>3</tablerow>
       <text>Choose one &#8212;
 &#8226; Create three 1/1 red Goblin creature tokens.
-&#8226; Creatures you control get +1/+1 and gain haste until end of turn.</text>
+&#8226; Creatures you control get +1/+1 and gain haste until end of turn.
+Entwine {2}{R} (Choose both if you pay the entwine cost.)</text>
     </card>
     <card>
       <name>Headless Specter</name>
@@ -224,7 +260,23 @@ Counter target noncreature spell. If that spell is countered this way, exile it 
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Flying
-Hellbent &#8212; Whenever Hellbent Specter deals combat damage to a player, if you have no cards in hand, that player discards a card at random.</text>
+Hellbent &#8212; Whenever Headless Specter deals combat damage to a player, if you have no cards in hand, that player discards a card at random.</text>
+    </card>
+    <card>
+      <name>Ice-Fang Coatl</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/a/6a55cfed-e76c-4ade-ac78-a546e05fe8da.jpg">MH1</set>
+      <manacost>GU</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <color>U</color>
+      <type>Snow Creature - Snake</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flash
+Flying
+When Ice-Fang Coatl enters the battlefield, draw a card.
+Ice-Fang Coatl has deathtouch as long as you control at least three other snow permanents.</text>
     </card>
     <card>
       <name>Impostor of the Sixth Pride</name>
@@ -264,6 +316,30 @@ Flashback&#8212;Sacrifice a Mountain. (You may cast this card from your graveyar
 When Martyr's Soul enters the battlefield, if you control no tapped lands, put two +1/+1 counters on it.</text>
     </card>
     <card>
+      <name>Morophon, the Boundless</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/9/6/9693e59b-032d-4ddc-a7d1-88a0f52dcc6c.jpg">MH1</set>
+      <manacost>7</manacost>
+      <cmc>7.0</cmc>
+      <type>Legendary Creature - Shapeshifter</type>
+      <pt>6/6</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Changeling (This card is every creature type.)
+As Morophon, the Boundless enters the battlefield, choose a creature type.
+Spells you cast of the chosen type cost {W}{U}{B}{R}{G} less to cast. This effect reduces only the amount of colored mana you pay.
+Other creatures you control of the chosen type get +1/+1.</text>
+    </card>
+    <card>
+      <name>Prismatic View</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/3/e37da81e-be12-45a2-9128-376f1ad7b3e8.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>{T}, Pay 1 life, Sacrifice Prismatic View: Search your library for a basic land card, put it onto the battlefield, then shuffle your library.</text>
+    </card>
+    <card>
       <name>Prohibit</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/a/0ae544bf-7229-4b82-99ad-32c3af36e30f.jpg">MH1</set>
       <manacost>1U</manacost>
@@ -285,6 +361,19 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Target creature you control gets +2/+2 until end of turn if its power is 2. Then it fights target creature you don't control. (Each deals damage equal to its power to the other.)</text>
+    </card>
+    <card>
+      <name>Seasoned Pyromancer</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/2/e/2e139ad1-1079-49e9-babd-6399c44ad333.jpg">MH1</set>
+      <manacost>1RR</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Human Shaman</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Seasoned Pyromancer enters the battlefield, discard two cards, then draw two cards. For each nonland card discarded this way, create a 1/1 red Elemental creature token.
+{3}{R}{R}, Exile Seasoned Pyromancer from your graveyard: Create two 1/1 red Elemental creature tokens.</text>
     </card>
     <card>
       <name>Serra the Benevolent</name>
@@ -360,6 +449,18 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
       <tablerow>3</tablerow>
       <text>Target player puts the top four cards of their library into their graveyard. You shuffle up to four cards from your graveyard into your library.
 Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid the replicate cost. You may choose new targets for the copies.)</text>
+    </card>
+    <card>
+      <name>Undead Augur</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/6/c6e3049e-9397-4bef-914b-e9664661419c.jpg">MH1</set>
+      <manacost>BB</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Wizard</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever Undead Augur or another Zombie you control dies, you draw a card and you lose 1 life.</text>
     </card>
     <card>
       <name>Venomous Changeling</name>
