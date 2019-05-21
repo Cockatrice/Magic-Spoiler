@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Tue, May 21 2019, 16:32:38 (UTC)
+Created At: Tue, May 21 2019, 23:04:18 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -12,21 +12,6 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     </set>
   </sets>
   <cards>
-    <card>
-      <name>"Ball Blightning"</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/7/5734012b-31db-4125-8fea-c88666969cd6.jpg">MH1</set>
-      <manacost>BRR</manacost>
-      <cmc>3.0</cmc>
-      <color>B</color>
-      <color>R</color>
-      <type>Creature - Elemental Skeleton</type>
-      <pt>6/1</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>Trample, haste
-Whenever "Ball Blightning" deals combat damage to a player, that player discards two cards.
-At the beginning of the end step, sacrifice "Ball Blightning".</text>
-    </card>
     <card>
       <name>Abominable Treefolk</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/e/1eddb834-ea01-44e2-afca-bd9a4ebbdb94.jpg">MH1</set>
@@ -68,6 +53,19 @@ Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)</text>
 At the beginning of your precombat main phase, you may sacrifice a creature. When you do, choose a nonland card name, then target player reveals their hand and discards all cards with that name.</text>
     </card>
     <card>
+      <name>Chillerpillar</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/f/7f57005c-414d-4c83-9b4f-cd26e547d54d.jpg">MH1</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Snow Creature - Insect</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{4}{S}{S}: Monstrosity 2. (If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous.)
+As long as Chillerpillar is monstrous, it has flying.</text>
+    </card>
+    <card>
       <name>Choking Tethers</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/b/eb0d0c81-8698-41db-a687-47af028e910e.jpg">MH1</set>
       <manacost>3U</manacost>
@@ -79,6 +77,18 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <text>Tap up to four target creatures.
 Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
 When you cycle Choking Tethers, you may tap target creature.</text>
+    </card>
+    <card>
+      <name>Collected Conjuring</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/a/ba1d0ac1-e805-4213-a46e-cf124680d082.jpg">MH1</set>
+      <manacost>2UR</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana cost 3 or less from among them without paying their mana cost. Put the exiled cards not cast this way on the bottom of your library in a random order.</text>
     </card>
     <card>
       <name>Deep Forest Hermit</name>
@@ -314,6 +324,21 @@ Ice-Fang Coatl has deathtouch as long as you control at least three other snow p
 Flashback&#8212;Sacrifice a Mountain. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
     </card>
     <card>
+      <name>Lightning Skelemental</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/7/5734012b-31db-4125-8fea-c88666969cd6.jpg">MH1</set>
+      <manacost>BRR</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <color>R</color>
+      <type>Creature - Elemental Skeleton</type>
+      <pt>6/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample, haste
+Whenever Lightning Skelemental deals combat damage to a player, that player discards two cards.
+At the beginning of the end step, sacrifice Lightning Skelemental.</text>
+    </card>
+    <card>
       <name>Martyr's Soul</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/c/7c17428c-e31d-42f3-8811-6734abd96b0b.jpg">MH1</set>
       <manacost>2W</manacost>
@@ -391,7 +416,7 @@ Threshold &#8212; Nimble Mongoose gets +2/+2 as long as seven or more cards are 
       <text>When Pondering Mage enters the battlefield, look at the top three cards of your library, then put them back in any order. You may shuffle your library. Draw a card.</text>
     </card>
     <card>
-      <name>Prismatic View</name>
+      <name>Prismatic Vista</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/3/e37da81e-be12-45a2-9128-376f1ad7b3e8.jpg">MH1</set>
       <manacost/>
       <cmc>0.0</cmc>
@@ -422,6 +447,18 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Target creature you control gets +2/+2 until end of turn if its power is 2. Then it fights target creature you don't control. (Each deals damage equal to its power to the other.)</text>
+    </card>
+    <card>
+      <name>Scour All Possibilities</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/c/7c6466cb-d1d0-4461-b48d-7497bdc9c474.jpg">MH1</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Scry 2, then draw a card.
+Flashback {4}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
     </card>
     <card>
       <name>Seasoned Pyromancer</name>
@@ -511,6 +548,18 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
       <text>({T}: Add {B}.)</text>
     </card>
     <card>
+      <name>Spore Frog</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/d/6d42fd52-34ea-4d1b-80dc-58fb0593bb5b.jpg">MH1</set>
+      <manacost>G</manacost>
+      <cmc>1.0</cmc>
+      <color>G</color>
+      <type>Creature - Frog</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sacrifice Spore Frog: Prevent all combat damage that would be dealt this turn.</text>
+    </card>
+    <card>
       <name>Stream of Thought</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/b/8b75bef5-a039-4edf-8e43-56b8d089605e.jpg">MH1</set>
       <manacost>U</manacost>
@@ -544,6 +593,20 @@ Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid th
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Whenever Undead Augur or another Zombie you control dies, you draw a card and you lose 1 life.</text>
+    </card>
+    <card>
+      <name>Urza, Lord High Artificer</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/9/e/9e7fb3c0-5159-4d1f-8490-ce4c9a60f567.jpg">MH1</set>
+      <manacost>2UU</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Legendary Creature - Human Artificer</type>
+      <pt>1/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Urza, Lord High Artificer enters the battlefield, create a 0/0 colorless Construct artifact creature token with "This creature gets +1/+1 for each artifact you control."
+Tap an untapped artifact you control: Add {U}.
+{5}: Shuffle your library, then exile the top card. Until end of turn, you may play that card without paying its mana cost.</text>
     </card>
     <card>
       <name>Venomous Changeling</name>
