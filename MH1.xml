@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Mon, May 20 2019, 23:01:52 (UTC)
+Created At: Tue, May 21 2019, 16:32:38 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -12,6 +12,48 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     </set>
   </sets>
   <cards>
+    <card>
+      <name>"Ball Blightning"</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/7/5734012b-31db-4125-8fea-c88666969cd6.jpg">MH1</set>
+      <manacost>BRR</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <color>R</color>
+      <type>Creature - Elemental Skeleton</type>
+      <pt>6/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample, haste
+Whenever "Ball Blightning" deals combat damage to a player, that player discards two cards.
+At the beginning of the end step, sacrifice "Ball Blightning".</text>
+    </card>
+    <card>
+      <name>Abominable Treefolk</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/e/1eddb834-ea01-44e2-afca-bd9a4ebbdb94.jpg">MH1</set>
+      <manacost>2GU</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <color>U</color>
+      <type>Snow Creature - Treefolk</type>
+      <pt>*/*</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+Abominable Treefolk's power and toughness are each equal to the number of snow permanents you control.
+When Abominable Treefolk enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.</text>
+    </card>
+    <card>
+      <name>Astral Drift</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/b/5be49ed9-a078-4a57-a84a-03cfaf184fef.jpg">MH1</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever you cycle Astral Drift or cycle another card while Astral Drift is on the battlefield, you may exile target creature. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.
+Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)</text>
+    </card>
     <card>
       <name>Cabal Therapist</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/a/eaa8f485-0f3d-4a0b-bcdf-6c27d1d2bce0.jpg">MH1</set>
@@ -53,6 +95,29 @@ When Deep Forest Hermit enters the battlefield, create four 1/1 green Squirrel c
 Squirrels you control get +1/+1.</text>
     </card>
     <card>
+      <name>Diabolic Edict</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/e/4eabbed2-1399-4cf1-9eba-b53c56caced4.jpg">MH1</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target player sacrifices a creature.</text>
+    </card>
+    <card>
+      <name>Dismantling Blow</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/0/70edc5da-4477-49f6-bbcc-f208fdaae0d3.jpg">MH1</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Kicker {2}{U} (You may pay an additional {2}{U} as you cast this spell.)
+Destroy target artifact or enchantment. If this spell was kicked, draw two cards.</text>
+    </card>
+    <card>
       <name>Elvish Fury</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/5/e5a24943-0121-4c64-9624-2e4cff37e6ca.jpg">MH1</set>
       <manacost>G</manacost>
@@ -65,6 +130,18 @@ Squirrels you control get +1/+1.</text>
 Target creature gets +2/+2 until end of turn.</text>
     </card>
     <card>
+      <name>Exclude</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/7/077ffa65-542f-4b83-9fcb-d3384b74633c.jpg">MH1</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Counter target creature spell.
+Draw a card.</text>
+    </card>
+    <card>
       <name>Fact or Fiction</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/5/55d51a2b-450c-4e6d-a660-67d58d1dd4ba.jpg">MH1</set>
       <manacost>3U</manacost>
@@ -74,6 +151,17 @@ Target creature gets +2/+2 until end of turn.</text>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.</text>
+    </card>
+    <card>
+      <name>Fiery Islet</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/3/a3aab13c-9d9d-4507-ae5d-da979990ae1b.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>{T}, Pay 1 life: Add {U} or {R}.
+{1}, {T}, Sacrifice Fiery Islet: Draw a card.</text>
     </card>
     <card>
       <name>Firebolt</name>
@@ -88,6 +176,17 @@ Target creature gets +2/+2 until end of turn.</text>
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
     </card>
     <card>
+      <name>Fists of Flame</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/f/4fa3c0d8-0a3e-43b0-b81e-a3d22ce6a4b2.jpg">MH1</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Draw a card. Until end of turn, target creature gains trample and gets +1/+0 for each card you've drawn this turn.</text>
+    </card>
+    <card>
       <name>Flusterstorm</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/6/46a00405-13ad-4531-9bfb-fea0ca57f196.jpg">MH1</set>
       <manacost>U</manacost>
@@ -98,6 +197,18 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
       <tablerow>3</tablerow>
       <text>Counter target instant or sorcery spell unless its controller pays {1}.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</text>
+    </card>
+    <card>
+      <name>Force of Despair</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/8/f/8f497b0d-4448-4201-bd55-c147da1a216d.jpg">MH1</set>
+      <manacost>1BB</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>If it's not your turn, you may exile a black card from your hand rather than pay this spell's mana cost.
+Destroy all creatures that entered the battlefield this turn.</text>
     </card>
     <card>
       <name>Force of Negation</name>
@@ -230,6 +341,56 @@ Spells you cast of the chosen type cost {W}{U}{B}{R}{G} less to cast. This effec
 Other creatures you control of the chosen type get +1/+1.</text>
     </card>
     <card>
+      <name>Munitions Expert</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/8/a8572dfd-9da1-4727-b549-47f9b119f6ac.jpg">MH1</set>
+      <manacost>BR</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <color>R</color>
+      <type>Creature - Goblin</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flash
+When Munitions Expert enters the battlefield, you may have it deal damage to target creature or planeswalker equal to the number of Goblins you control.</text>
+    </card>
+    <card>
+      <name>Nimble Mongoose</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/a/8a6374ad-71be-422e-bd76-4f08fbf43048.jpg">MH1</set>
+      <manacost>G</manacost>
+      <cmc>1.0</cmc>
+      <color>G</color>
+      <type>Creature - Mongoose</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Shroud (This creature can't be the target of spells or abilities.)
+Threshold &#8212; Nimble Mongoose gets +2/+2 as long as seven or more cards are in your graveyard.</text>
+    </card>
+    <card>
+      <name>Nurturing Peatland</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/7/2744ac83-a79f-4042-8720-688b5adda382.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>{T}, Pay 1 life: Add {B} or {G}.
+{1}, {T}, Sacrifice Nurturing Peatland: Draw a card.</text>
+    </card>
+    <card>
+      <name>Pondering Mage</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/0/c08c5ac8-5c0b-4c89-8f06-e5aadfccee01.jpg">MH1</set>
+      <manacost>3UU</manacost>
+      <cmc>5.0</cmc>
+      <color>U</color>
+      <type>Creature - Human Wizard</type>
+      <pt>3/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Pondering Mage enters the battlefield, look at the top three cards of your library, then put them back in any order. You may shuffle your library. Draw a card.</text>
+    </card>
+    <card>
       <name>Prismatic View</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/3/e37da81e-be12-45a2-9128-376f1ad7b3e8.jpg">MH1</set>
       <manacost/>
@@ -287,6 +448,17 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
       <text>+2: Creatures you control with flying get +1/+1 until end of turn.
 -3: Create a 4/4 white Angel creature token with flying and vigilance.
 -6: You get an emblem with "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead."</text>
+    </card>
+    <card>
+      <name>Silent Clearing</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/c/ac07e230-0297-4e1d-bdfe-119010e0ad8e.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>{T}, Pay 1 life: Add {W} or {B}.
+{1}, {T}, Sacrifice Silent Clearing: Draw a card.</text>
     </card>
     <card>
       <name>Snow-Covered Forest</name>
@@ -351,6 +523,17 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
 Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid the replicate cost. You may choose new targets for the copies.)</text>
     </card>
     <card>
+      <name>Sunbaked Canyon</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/3/c36820fa-ee86-4206-9a0d-737a67cf5208.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>{T}, Pay 1 life: Add {R} or {W}.
+{1}, {T}, Sacrifice Sunbaked Canyon: Draw a card.</text>
+    </card>
+    <card>
       <name>Undead Augur</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/6/c6e3049e-9397-4bef-914b-e9664661419c.jpg">MH1</set>
       <manacost>BB</manacost>
@@ -387,6 +570,17 @@ Deathtouch</text>
       <tablerow>2</tablerow>
       <text>Defender, flying
 {W}: Wall of One Thousand Cuts can attack this turn as though it didn't have defender.</text>
+    </card>
+    <card>
+      <name>Waterlogged Grove</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/a/0ab6bfbd-d2e1-4c4c-9f91-6f69c5b8e3bb.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>{T}, Pay 1 life: Add {G} or {U}.
+{1}, {T}, Sacrifice Waterlogged Grove: Draw a card.</text>
     </card>
     <card>
       <name>Wing Shards</name>
