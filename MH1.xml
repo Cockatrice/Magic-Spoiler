@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Wed, May 22 2019, 09:20:25 (UTC)
+Created At: Wed, May 22 2019, 23:03:26 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -23,6 +23,18 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <tablerow>1</tablerow>
       <text>When "A Song of Just Fire" enters the battlefield, each opponent gains 10 life.
 Whenever you cast an instant or sorcery spell, put a verse counter on "A Song of Just Fire", then it deals damage equal to the number of verse counters on it to target player or planeswalker.</text>
+    </card>
+    <card>
+      <name>"It's Clobberin' Time!"</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/3/f/3f2d9bae-2753-486c-be79-2438208ac353.jpg">MH1</set>
+      <manacost>G</manacost>
+      <cmc>1.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target creature you control becomes a green Wurm with power and toughness 6/4 until end of turn.
+Overload {4}{G}{G}</text>
     </card>
     <card>
       <name>Abominable Treefolk</name>
@@ -103,6 +115,18 @@ When you cycle Choking Tethers, you may tap target creature.</text>
       <text>Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana cost 3 or less from among them without paying their mana cost. Put the exiled cards not cast this way on the bottom of your library in a random order.</text>
     </card>
     <card>
+      <name>Crypt Rats</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/6/96916db2-5121-4ff1-880c-369744f11ecf.jpg">MH1</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Rat</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{X}: Crypt Rats deals X damage to each creature and each player. Spend only black mana on X.</text>
+    </card>
+    <card>
       <name>Deep Forest Hermit</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/2/3287775f-7bec-4e8f-bb8d-daf5ce92e4a8.jpg">MH1</set>
       <manacost>3GG</manacost>
@@ -138,6 +162,19 @@ Squirrels you control get +1/+1.</text>
       <tablerow>3</tablerow>
       <text>Kicker {2}{U} (You may pay an additional {2}{U} as you cast this spell.)
 Destroy target artifact or enchantment. If this spell was kicked, draw two cards.</text>
+    </card>
+    <card>
+      <name>Dregscape Sliver</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/4/a/4a835b7e-cd63-486d-8b58-2f443f686e32.jpg">MH1</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Creature - Sliver</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Each Sliver creature card in your graveyard has unearth {2}.
+Unearth {2} ({2}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
     </card>
     <card>
       <name>Elvish Fury</name>
@@ -257,6 +294,19 @@ Counter target noncreature spell. If that spell is countered this way, exile it 
 Destroy up to two target artifacts and/or enchantments.</text>
     </card>
     <card>
+      <name>Force of Virtue</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/9/7/9736d6f4-5ff6-4006-b45d-8e630382d160.jpg">MH1</set>
+      <manacost>2WW</manacost>
+      <cmc>4.0</cmc>
+      <color>W</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>If it's not your turn, you may exile a white card from your hand rather than pay this spell's mana cost.
+Flash
+Creatures you control get +1/+1.</text>
+    </card>
+    <card>
       <name>Giver of Runes</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/e/4e117771-5a8b-4812-b487-32ba34b7f724.jpg">MH1</set>
       <manacost>W</manacost>
@@ -267,6 +317,19 @@ Destroy up to two target artifacts and/or enchantments.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>{T}: Another target creature you control gains protection from colorless or from the color of your choice until end of turn.</text>
+    </card>
+    <card>
+      <name>Goblin Engineer</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/5/a55c4d47-5252-40af-961d-c08bc688028a.jpg">MH1</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Creature - Goblin Artificer</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Goblin Engineer enters the battlefield, you may search your library for an artifact card, put it into your graveyard, then shuffle your library.
+{R}, {T}, Sacrifice an artifact: Return target artifact card with converted mana cost 3 or less from your graveyard to the battlefield.</text>
     </card>
     <card>
       <name>Goblin Matron</name>
@@ -346,6 +409,19 @@ Ice-Fang Coatl has deathtouch as long as you control at least three other snow p
       <tablerow>3</tablerow>
       <text>Lava Dart deals 1 damage to any target.
 Flashback&#8212;Sacrifice a Mountain. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+    </card>
+    <card>
+      <name>Lavabelly Sliver</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/6/f6f0c9d6-cffc-4d8c-b455-e9feb8748aa7.jpg">MH1</set>
+      <manacost>1RW</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <color>W</color>
+      <type>Creature - Sliver</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sliver creatures you control have "When this creature enters the battlefield, it deals 1 damage to target player or planeswalker and you gain 1 life."</text>
     </card>
     <card>
       <name>Lightning Skelemental</name>
@@ -440,6 +516,18 @@ Threshold &#8212; Nimble Mongoose gets +2/+2 as long as seven or more cards are 
 {1}, {T}, Sacrifice Nurturing Peatland: Draw a card.</text>
     </card>
     <card>
+      <name>Planebound Accomplice</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/8/5/85fb9418-a22b-4f92-b494-f68c29bcb92a.jpg">MH1</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Human Wizard</type>
+      <pt>1/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{R}: You may put a planeswalker card from your hand onto the battlefield. Sacrifice it at the beginning of the next end step.</text>
+    </card>
+    <card>
       <name>Pondering Mage</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/0/c08c5ac8-5c0b-4c89-8f06-e5aadfccee01.jpg">MH1</set>
       <manacost>3UU</manacost>
@@ -474,6 +562,30 @@ Threshold &#8212; Nimble Mongoose gets +2/+2 as long as seven or more cards are 
 Counter target spell if its converted mana cost is 2 or less. If this spell was kicked, counter that spell if its converted mana cost is 4 or less instead.</text>
     </card>
     <card>
+      <name>Ranger-Captain of Eos</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/a/f/af3928b4-813a-4120-8799-de34235d60ac.jpg">MH1</set>
+      <manacost>1WW</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Creature - Human Soldier</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Ranger-Captain of Eos enters the battlefield, you may search your library for a creature card with converted mana cost 1 or less, reveal it, put it into your hand, then shuffle your library.
+Sacrifice Ranger-Captain of Eos: Your opponents can't cast noncreature spells this turn.</text>
+    </card>
+    <card>
+      <name>Regrowth</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/7/d771fc5d-b9a1-4637-8241-3f54616b64af.jpg">MH1</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Return target card from your graveyard to your hand.</text>
+    </card>
+    <card>
       <name>Savage Swipe</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/e/eea7e77c-ede5-41bd-b766-9a76ce691607.jpg">MH1</set>
       <manacost>G</manacost>
@@ -495,6 +607,18 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
       <tablerow>3</tablerow>
       <text>Scry 2, then draw a card.
 Flashback {4}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+    </card>
+    <card>
+      <name>Scrapyard Recombiner</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/8/9/8945f5e0-c143-47ca-910e-32ad9ac34487.jpg">MH1</set>
+      <manacost>3</manacost>
+      <cmc>3.0</cmc>
+      <type>Artifact Creature - Construct</type>
+      <pt>0/0</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Modular 2 (This creature enters the battlefield with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
+{T}, Sacrifice an artifact: Search your library for a Construct card, reveal it, put it into your hand, then shuffle your library.</text>
     </card>
     <card>
       <name>Seasoned Pyromancer</name>
@@ -617,6 +741,35 @@ Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid th
       <tablerow>0</tablerow>
       <text>{T}, Pay 1 life: Add {R} or {W}.
 {1}, {T}, Sacrifice Sunbaked Canyon: Draw a card.</text>
+    </card>
+    <card>
+      <name>Tempered Sliver</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/9/69026075-adfa-48b0-b30e-04b0a76904c3.jpg">MH1</set>
+      <manacost>2G</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Creature - Sliver</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sliver creatures you control have "Whenever this creature deals combat damage to a player, put a +1/+1 counter on it."</text>
+    </card>
+    <card>
+      <name>The First Sliver</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/0/6/06d4fbe1-8a2f-4958-bb85-1a1e5f1e8d87.jpg">MH1</set>
+      <manacost>WUBRG</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <color>G</color>
+      <color>R</color>
+      <color>U</color>
+      <color>W</color>
+      <type>Legendary Creature - Sliver</type>
+      <pt>7/7</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
+Sliver spells you cast have cascade.</text>
     </card>
     <card>
       <name>Undead Augur</name>
