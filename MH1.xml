@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Tue, May 21 2019, 23:04:18 (UTC)
+Created At: Wed, May 22 2019, 09:20:25 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -12,6 +12,18 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     </set>
   </sets>
   <cards>
+    <card>
+      <name>"A Song of Just Fire"</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/9/5/95a96eb1-f87c-4b1d-82c7-f239bcbc62b8.jpg">MH1</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>When "A Song of Just Fire" enters the battlefield, each opponent gains 10 life.
+Whenever you cast an instant or sorcery spell, put a verse counter on "A Song of Just Fire", then it deals damage equal to the number of verse counters on it to target player or planeswalker.</text>
+    </card>
     <card>
       <name>Abominable Treefolk</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/e/1eddb834-ea01-44e2-afca-bd9a4ebbdb94.jpg">MH1</set>
@@ -245,6 +257,18 @@ Counter target noncreature spell. If that spell is countered this way, exile it 
 Destroy up to two target artifacts and/or enchantments.</text>
     </card>
     <card>
+      <name>Giver of Runes</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/e/4e117771-5a8b-4812-b487-32ba34b7f724.jpg">MH1</set>
+      <manacost>W</manacost>
+      <cmc>1.0</cmc>
+      <color>W</color>
+      <type>Creature - Kor Cleric</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{T}: Another target creature you control gains protection from colorless or from the color of your choice until end of turn.</text>
+    </card>
+    <card>
       <name>Goblin Matron</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/0/2092e6db-1196-43bf-b7c9-07498fa7ca90.jpg">MH1</set>
       <manacost>2R</manacost>
@@ -337,6 +361,18 @@ Flashback&#8212;Sacrifice a Mountain. (You may cast this card from your graveyar
       <text>Trample, haste
 Whenever Lightning Skelemental deals combat damage to a player, that player discards two cards.
 At the beginning of the end step, sacrifice Lightning Skelemental.</text>
+    </card>
+    <card>
+      <name>Man-o'-War</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/e/5eaa4199-df9b-494a-af7a-2491e8b0ef70.jpg">MH1</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Creature - Jellyfish</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Man-o'-War enters the battlefield, return target creature to its owner's hand.</text>
     </card>
     <card>
       <name>Martyr's Soul</name>
