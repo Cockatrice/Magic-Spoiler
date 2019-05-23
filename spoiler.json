@@ -1,58 +1,34 @@
 {
     "MH1": [
         {
-            "artist": "Greg Staples",
-            "cmc": 3.0,
+            "artist": "Paul Scott Canavan",
+            "cmc": 2.0,
             "colorIdentity": [
-                "R"
+                "W"
             ],
             "colors": [
-                "R"
+                "W"
             ],
             "flavor": null,
             "layout": "",
             "loyalty": null,
-            "mana_cost": "{2}{R}",
+            "mana_cost": "{1}{W}",
             "multiverseId": null,
-            "name": "\"A Song of Just Fire\"",
+            "name": "\"NooOHH, Charlie!\"",
             "names": null,
-            "number": "118",
-            "power": null,
-            "rarity": "Rare",
-            "subTypes": [],
-            "superTypes": [],
-            "text": "When \"A Song of Just Fire\" enters the battlefield, each opponent gains 10 life.\nWhenever you cast an instant or sorcery spell, put a verse counter on \"A Song of Just Fire\", then it deals damage equal to the number of verse counters on it to target player or planeswalker.",
-            "toughness": null,
-            "type": "Enchantment",
-            "types": "Enchantment",
-            "url": "https://img.scryfall.com/cards/normal/front/9/5/95a96eb1-f87c-4b1d-82c7-f239bcbc62b8.jpg"
-        },
-        {
-            "artist": "Suzanne Helmigh",
-            "cmc": 1.0,
-            "colorIdentity": [
-                "G"
-            ],
-            "colors": [
-                "G"
-            ],
-            "flavor": null,
-            "layout": "",
-            "loyalty": null,
-            "mana_cost": "{G}",
-            "multiverseId": null,
-            "name": "\"It's Clobberin' Time!\"",
-            "names": null,
-            "number": "179",
-            "power": null,
+            "number": "39",
+            "power": "1",
             "rarity": "Uncommon",
-            "subTypes": [],
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
             "superTypes": [],
-            "text": "Target creature you control becomes a green Wurm with power and toughness 6/4 until end of turn.\nOverload {4}{G}{G}",
-            "toughness": null,
-            "type": "Sorcery",
-            "types": "Sorcery",
-            "url": "https://img.scryfall.com/cards/normal/front/3/f/3f2d9bae-2753-486c-be79-2438208ac353.jpg"
+            "text": "{T}: Tap target creature. Activate this ability only if a creature entered the battlefield under your control this turn.",
+            "toughness": "3",
+            "type": "Creature - Human Soldier",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/b/9/b93b824c-414d-4dd5-848f-bff678a289ba.jpg"
         },
         {
             "artist": "Jonas De Ro",
@@ -88,6 +64,56 @@
             "url": "https://img.scryfall.com/cards/normal/front/1/e/1eddb834-ea01-44e2-afca-bd9a4ebbdb94.jpg"
         },
         {
+            "artist": "Brom",
+            "cmc": 2.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": "\"It is not that you will go mad. It is that you will beg for madness.\"\n\u2014Volrath",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}",
+            "multiverseId": null,
+            "name": "Altar of Dementia",
+            "names": null,
+            "number": "218",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Sacrifice a creature: Target player puts a number of cards equal to the sacrificed creature's power from the top of their library into their graveyard.",
+            "toughness": null,
+            "type": "Artifact",
+            "types": "Artifact",
+            "url": "https://img.scryfall.com/cards/normal/front/1/6/169356e0-46dc-4096-8e66-36726454f104.jpg"
+        },
+        {
+            "artist": "Greg Staples",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Aria of Flame",
+            "names": null,
+            "number": "118",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "When Aria of Flame enters the battlefield, each opponent gains 10 life.\nWhenever you cast an instant or sorcery spell, put a verse counter on Aria of Flame, then it deals damage equal to the number of verse counters on it to target player or planeswalker.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/9/5/95a96eb1-f87c-4b1d-82c7-f239bcbc62b8.jpg"
+        },
+        {
             "artist": "Anna Steinbauer",
             "cmc": 3.0,
             "colorIdentity": [
@@ -113,6 +139,94 @@
             "type": "Enchantment",
             "types": "Enchantment",
             "url": "https://img.scryfall.com/cards/normal/front/5/b/5be49ed9-a078-4a57-a84a-03cfaf184fef.jpg"
+        },
+        {
+            "artist": "Kari Christensen",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "Ayula's runic clawmarks ensure her territories are never left defenseless.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{G}{G}",
+            "multiverseId": null,
+            "name": "Ayula's Influence",
+            "names": null,
+            "number": "156",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Discard a land card: Create a 2/2 green Bear creature token.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/1/b/1b9296ca-39a8-4aad-be92-0a56c704e950.jpg"
+        },
+        {
+            "artist": "Jesper Ejsing",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "Born from the oldest red cedar, nursed on the sap of the tallest spruce, coronated under the mightiest pine.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Ayula, Queen Among Bears",
+            "names": null,
+            "number": "155",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Bear"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Whenever another Bear enters the battlefield under your control, choose one \u2014\n\u2022 Put two +1/+1 counters on target Bear.\n\u2022 Target Bear you control fights target creature you don't control.",
+            "toughness": "2",
+            "type": "Legendary Creature - Bear",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/0/c046dfb0-9ca3-4219-a6b0-d7503bc2fbd0.jpg"
+        },
+        {
+            "artist": "Christopher Moeller",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "He traded a lamp for a scepter, a scepter for a ruby, and the ruby for a simple rug.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Bazaar Trademage",
+            "names": null,
+            "number": "41",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhen Bazaar Trademage enters the battlefield, draw two cards, then discard three cards.",
+            "toughness": "4",
+            "type": "Creature - Human Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/d/9d75faf7-fc27-4fc2-9e80-e35232c42542.jpg"
         },
         {
             "artist": "Mitchell Malloy",
@@ -144,6 +258,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/e/a/eaa8f485-0f3d-4a0b-bcdf-6c27d1d2bce0.jpg"
         },
         {
+            "artist": "Micah Epstein",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "A mercurial face sows mistrust. Distrust reaps a lonely life.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Changeling Outcast",
+            "names": null,
+            "number": "82",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Shapeshifter"
+            ],
+            "superTypes": [],
+            "text": "Changeling (This card is every creature type.)\nChangeling Outcast can't block and can't be blocked.",
+            "toughness": "1",
+            "type": "Creature - Shapeshifter",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/8/08151d00-513a-4957-aa16-01c0f0245112.jpg"
+        },
+        {
             "artist": "Suzanne Helmigh",
             "cmc": 4.0,
             "colorIdentity": [
@@ -168,7 +311,7 @@
             "superTypes": [
                 "Snow"
             ],
-            "text": "{4}{S}{S}: Monstrosity 2. (If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous.)\nAs long as Chillerpillar is monstrous, it has flying.",
+            "text": "{4}{S}{S}: Monstrosity 2. (If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous. {S} can be paid with one mana from a snow permanent.)\nAs long as Chillerpillar is monstrous, it has flying.",
             "toughness": "3",
             "type": "Snow Creature - Insect",
             "types": " Creature ",
@@ -224,7 +367,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana cost 3 or less from among them without paying their mana cost. Put the exiled cards not cast this way on the bottom of your library in a random order.",
+            "text": "Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana costs 3 or less from among them without paying their mana cost. Put the exiled cards not cast this way on the bottom of your library in a random order.",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -401,6 +544,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/e/5/e5a24943-0121-4c64-9624-2e4cff37e6ca.jpg"
         },
         {
+            "artist": "Chuck Lukacs",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [
+                "B",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{B}",
+            "multiverseId": null,
+            "name": "Etchings of the Chosen",
+            "names": null,
+            "number": "198",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "As Etchings of the Chosen enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\n{1}, Sacrifice a creature of the chosen type: Target creature you control gains indestructible until end of turn.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/7/0/7036ab83-94a3-4634-9f0a-dde7af3be450.jpg"
+        },
+        {
             "artist": "Jehan Choo",
             "cmc": 3.0,
             "colorIdentity": [
@@ -459,7 +631,7 @@
             "cmc": 0.0,
             "colorIdentity": [],
             "colors": [],
-            "flavor": null,
+            "flavor": "Where water is the canvas and lava the paint.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "",
@@ -648,7 +820,7 @@
             "colors": [
                 "W"
             ],
-            "flavor": null,
+            "flavor": "\"Where divinity leads, victory follows.\"\n\u2014Silverblade motto",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{2}{W}{W}",
@@ -665,6 +837,58 @@
             "type": "Enchantment",
             "types": "Enchantment",
             "url": "https://img.scryfall.com/cards/normal/front/9/7/9736d6f4-5ff6-4006-b45d-8e630382d160.jpg"
+        },
+        {
+            "artist": "Jedd Chevrier",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Frostwalk Bastion",
+            "names": null,
+            "number": "240",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [
+                "Snow"
+            ],
+            "text": "{T}: Add {C}.\n{1}{S}: Until end of turn, Frostwalk Bastion becomes a 2/3 Construct artifact creature. It's still a land. ({S} can be paid with one mana from a snow permanent.)\nWhenever Frostwalk Bastion deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step.",
+            "toughness": null,
+            "type": "Snow Land",
+            "types": " Land",
+            "url": "https://img.scryfall.com/cards/normal/front/b/f/bfb5d83f-2b7c-4c22-ac37-938e7cd1654a.jpg"
+        },
+        {
+            "artist": "Kev Walker",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "The best presents are impossible to regift.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Generous Gift",
+            "names": null,
+            "number": "11",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Destroy target permanent. Its controller creates a 3/3 green Elephant creature token.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/9/8/983f4711-20a8-4023-8201-9a74deab10be.jpg"
         },
         {
             "artist": "Seb McKinnon",
@@ -697,7 +921,34 @@
             "url": "https://img.scryfall.com/cards/normal/front/4/e/4e117771-5a8b-4812-b487-32ba34b7f724.jpg"
         },
         {
-            "artist": "Jason Chan",
+            "artist": "Magali Villeneuve",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "The harshest environments offer the greatest opportunities for exploration.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Glacial Revelation",
+            "names": null,
+            "number": "167",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Reveal the top six cards of your library. You may put any number of snow permanent cards from among them into your hand. Put the rest into your graveyard.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/f/6/f615a5e9-deec-46cc-9444-de81cb0da9c0.jpg"
+        },
+        {
+            "artist": "Jehan Choo",
             "cmc": 2.0,
             "colorIdentity": [
                 "R"
@@ -781,6 +1032,37 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://img.scryfall.com/cards/normal/front/2/b/2b4155d1-0a87-4d2c-a1a0-06b2553eaae4.jpg"
+        },
+        {
+            "artist": "Kee Lo",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [
+                "G",
+                "W"
+            ],
+            "flavor": "Catching even a glimpse of one is the start of eight years of good luck.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}{W}",
+            "multiverseId": null,
+            "name": "Good-Fortune Unicorn",
+            "names": null,
+            "number": "201",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Unicorn"
+            ],
+            "superTypes": [],
+            "text": "Whenever another creature enters the battlefield under your control, put a +1/+1 counter on that creature.",
+            "toughness": "2",
+            "type": "Creature - Unicorn",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/9/49d68905-e13e-4751-b028-90c795c11cd5.jpg"
         },
         {
             "artist": "Anastasia Ovchinnikova",
@@ -1049,11 +1331,40 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Changeling (This card is every creature type.)\nAs Morophon, the Boundless enters the battlefield, choose a creature type.\nSpells you cast of the chosen type cost {W}{U}{B}{R}{G} less to cast. This effect reduces only the amount of colored mana you pay.\nOther creatures you control of the chosen type get +1/+1.",
+            "text": "Changeling (This card is every creature type.)\nAs Morophon, the Boundless enters the battlefield, choose a creature type.\nSpells of the chosen type you cast cost {W}{U}{B}{R}{G} less to cast. This effect reduces only the amount of colored mana you pay.\nOther creatures you control of the chosen type get +1/+1.",
             "toughness": "6",
             "type": "Legendary Creature - Shapeshifter",
             "types": " Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/9/6/9693e59b-032d-4ddc-a7d1-88a0f52dcc6c.jpg"
+        },
+        {
+            "artist": "Winona Nelson",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "Even without her, the cubs will always know their mother's love.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Mother Bear",
+            "names": null,
+            "number": "171",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Bear"
+            ],
+            "superTypes": [],
+            "text": "{3}{G}{G}, Exile Mother Bear from your graveyard: Create two 2/2 green Bear creature tokens. Activate this ability only any time you could cast a sorcery.",
+            "toughness": "2",
+            "type": "Creature - Bear",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/f/efae4d84-8134-461a-a352-a5bdff7259a7.jpg"
         },
         {
             "artist": "Jesper Ejsing",
@@ -1095,7 +1406,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": "One thread connected all the travellers' stories: the ferocity of the mongoose.",
+            "flavor": "One thread connected all the travelers' stories: the ferocity of the mongoose.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{G}",
@@ -1215,7 +1526,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "{T}, Pay 1 life, Sacrifice Prismatic View: Search your library for a basic land card, put it onto the battlefield, then shuffle your library.",
+            "text": "{T}, Pay 1 life, Sacrifice Prismatic Vista: Search your library for a basic land card, put it onto the battlefield, then shuffle your library.",
             "toughness": null,
             "type": "Land",
             "types": "Land",
@@ -1249,6 +1560,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/0/a/0ae544bf-7229-4b82-99ad-32c3af36e30f.jpg"
         },
         {
+            "artist": "Izzy",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"I hate this! I hate fire! I hate you for taking me on this route!\"\n\u2014Norin the Wary",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Pyrophobia",
+            "names": null,
+            "number": "141",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Pyrophobia deals 3 damage to target creature. Cowards can't block this turn.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/f/f/ff02b3f1-d70f-4e44-bc1c-7fc90ec611dc.jpg"
+        },
+        {
             "artist": "Ryan Pancoast",
             "cmc": 3.0,
             "colorIdentity": [
@@ -1279,6 +1617,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/a/f/af3928b4-813a-4120-8799-de34235d60ac.jpg"
         },
         {
+            "artist": "Milivoj \u0106eran",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "The might of an army with the restraint of a child.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}{R}",
+            "multiverseId": null,
+            "name": "Ravenous Giant",
+            "names": null,
+            "number": "143",
+            "power": "5",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Giant"
+            ],
+            "superTypes": [],
+            "text": "At the beginning of your upkeep, Ravenous Giant deals 1 damage to you.",
+            "toughness": "5",
+            "type": "Creature - Giant",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/5/2/52337d8d-e0ee-4229-848d-9bbd989e15b7.jpg"
+        },
+        {
             "artist": "Dan Scott",
             "cmc": 2.0,
             "colorIdentity": [
@@ -1287,7 +1654,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": null,
+            "flavor": "While the root remains, the tree yet lives.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{G}",
@@ -1331,6 +1698,33 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://img.scryfall.com/cards/normal/front/e/e/eea7e77c-ede5-41bd-b766-9a76ce691607.jpg"
+        },
+        {
+            "artist": "Suzanne Helmigh",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}",
+            "multiverseId": null,
+            "name": "Scale Up",
+            "names": null,
+            "number": "179",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Until end of turn, target creature you control becomes a green Wurm with base power and toughness 6/4.\nOverload {4}{G}{G}",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/3/f/3f2d9bae-2753-486c-be79-2438208ac353.jpg"
         },
         {
             "artist": "Mitchell Malloy",
@@ -1467,6 +1861,42 @@
             "type": "Land",
             "types": "Land",
             "url": "https://img.scryfall.com/cards/normal/front/a/c/ac07e230-0297-4e1d-bdfe-119010e0ad8e.jpg"
+        },
+        {
+            "artist": "Anna Steinbauer",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B",
+                "G",
+                "R",
+                "U",
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Sisay, Weatherlight Captain",
+            "names": null,
+            "number": "29",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Sisay, Weatherlight Captain gets +1/+1 for each color among other legendary permanents you control.\n{W}{U}{B}{R}{G}: Search your library for a legendary permanent card with converted mana cost less than Sisay's power, put that card onto the battlefield, then shuffle your library.",
+            "toughness": "2",
+            "type": "Legendary Creature - Human Soldier",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/5/a/5a293c45-1e73-4527-be2f-2dcd5c47b610.jpg"
         },
         {
             "artist": "Titus Lunter",
@@ -1619,6 +2049,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/c/8/c835f235-4196-4281-9788-13e5d54a92d0.jpg"
         },
         {
+            "artist": "Jason Felix",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Splicer's Skill",
+            "names": null,
+            "number": "31",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Create a 3/3 colorless Golem artifact creature token.\nSplice onto instant or sorcery {3}{W} (As you cast an instant or sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/c/5/c59dfb0f-45c7-431f-b5a3-d9b429fc6dde.jpg"
+        },
+        {
             "artist": "Donato Giancola",
             "cmc": 1.0,
             "colorIdentity": [
@@ -1646,6 +2103,35 @@
             "type": "Creature - Frog",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/6/d/6d42fd52-34ea-4d1b-80dc-58fb0593bb5b.jpg"
+        },
+        {
+            "artist": "Daniel Ljunggren",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "In the treetops, unseen by many, lurks chittering, skittering death.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}{G}",
+            "multiverseId": null,
+            "name": "Squirrel Nest",
+            "names": null,
+            "number": "182",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Aura"
+            ],
+            "superTypes": [],
+            "text": "Enchant land\nEnchanted land has \"{T}: Create a 1/1 green Squirrel creature token.\"",
+            "toughness": null,
+            "type": "Enchantment - Aura",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/9/6914d43c-bc5a-47c5-a01c-59ddb1ee8eca.jpg"
         },
         {
             "artist": "Seb McKinnon",
@@ -1679,7 +2165,7 @@
             "cmc": 0.0,
             "colorIdentity": [],
             "colors": [],
-            "flavor": "Since the river ran dry, travels wander where fish once swam.",
+            "flavor": "Since the river ran dry, travelers wander where fish once swam.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "",
@@ -1766,6 +2252,64 @@
             "url": "https://img.scryfall.com/cards/normal/front/0/6/06d4fbe1-8a2f-4958-bb85-1a1e5f1e8d87.jpg"
         },
         {
+            "artist": "Anastasia Ovchinnikova",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "R",
+                "U"
+            ],
+            "colors": [
+                "R",
+                "U"
+            ],
+            "flavor": "It strikes like a bolt from a brainstorm.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}{R}",
+            "multiverseId": null,
+            "name": "Thundering Djinn",
+            "names": null,
+            "number": "215",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Djinn"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever Thundering Djinn attacks, it deals damage to any target equal to the number of cards you've drawn this turn.",
+            "toughness": "4",
+            "type": "Creature - Djinn",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/2/8/28642fbe-90c8-4beb-9950-91af28d93326.jpg"
+        },
+        {
+            "artist": "Eric Deschamps",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"Be ever loyal to your own best interests.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Umezawa's Charm",
+            "names": null,
+            "number": "111",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose one\u2014\n\u2022 Target creature gets +2/+2 until end of turn.\n\u2022 Target creature gets -1/-1 until end of turn.\n\u2022 You gain 2 life.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/a/f/afbbb742-0317-4266-bcf5-cfea8d21f108.jpg"
+        },
+        {
             "artist": "Sara Winters",
             "cmc": 2.0,
             "colorIdentity": [
@@ -1774,7 +2318,7 @@
             "colors": [
                 "B"
             ],
-            "flavor": "\"To see past the veil of death, cross it.\"\n-*The Red Book of Mezdrithalik",
+            "flavor": "\"To see past the veil of death, cross it.\"\n-*The Red Book of Mezdrithalik*",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{B}{B}",
