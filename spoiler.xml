@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Fri, May 24 2019, 23:04:28 (UTC)
+Created At: Sat, May 25 2019, 23:05:24 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -148,8 +148,8 @@ When Abominable Treefolk enters the battlefield, tap target creature an opponent
       <tablerow>3</tablerow>
       <text>Choose one &#8212;
 &#8226; Counter target spell.
-&#8226; Target player draws two card.
-&#8226; Gain control of target non land permanent with converted mana cost 1 or less.</text>
+&#8226; Target player draws two cards.
+&#8226; Gain control of target nonland permanent with converted mana cost 1 or less.</text>
     </card>
     <card>
       <name>Aria of Flame</name>
@@ -414,6 +414,20 @@ Draw a card.</text>
       <text>Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.</text>
     </card>
     <card>
+      <name>Fallen Shinobi</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/9/0/900c9dfd-ece1-4b09-a801-0fa05e1994b9.jpg">MH1</set>
+      <manacost>3UB</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <color>U</color>
+      <type>Creature - Zombie Ninja</type>
+      <pt>5/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Fallen Shinobi deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana cost.</text>
+    </card>
+    <card>
       <name>Farmstead Gleaner</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/d/edafd52f-2dda-4981-baee-404f47ee8969.jpg">MH1</set>
       <manacost>3</manacost>
@@ -613,7 +627,7 @@ Whenever Frostwalk Bastion deals combat damage to a creature, tap that creature 
       <type>Sorcery</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If that creature is a goat, it also gets +3/+0 until end of turn.</text>
+      <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If that creature is a Goat, it also gets +3/+0 until end of turn.</text>
     </card>
     <card>
       <name>Goblin Engineer</name>
@@ -776,6 +790,19 @@ Flashback&#8212;Sacrifice a Mountain. (You may cast this card from your graveyar
       <text>Sliver creatures you control have "When this creature enters the battlefield, it deals 1 damage to target player or planeswalker and you gain 1 life."</text>
     </card>
     <card>
+      <name>Lesser Masticore</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/4/c4c7cba5-6111-40ce-828a-e811301bb283.jpg">MH1</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Artifact Creature - Masticore</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>As an additional cost to cast this spell, discard a card.
+{4}: Lesser Masticore deals 1 damage to target creature.
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</text>
+    </card>
+    <card>
       <name>Lightning Skelemental</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/5/7/5734012b-31db-4125-8fea-c88666969cd6.jpg">MH1</set>
       <manacost>BRR</manacost>
@@ -914,6 +941,17 @@ Threshold &#8212; Nimble Mongoose gets +2/+2 as long as seven or more cards are 
       <tablerow>2</tablerow>
       <text>Echo {R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Orcish Hellraiser dies, it deals 2 damage to target player or planeswalker.</text>
+    </card>
+    <card>
+      <name>Pillage</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/d/bdd06d55-a40f-4b0e-905b-3cd0ce12eb82.jpg">MH1</set>
+      <manacost>1RR</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Destroy target artifact or land. It can't be regenerated.</text>
     </card>
     <card>
       <name>Plague Engineer</name>
@@ -1070,6 +1108,18 @@ Flashback {4}{U} (You may cast this card from your graveyard for its flashback c
 {T}, Sacrifice an artifact: Search your library for a Construct card, reveal it, put it into your hand, then shuffle your library.</text>
     </card>
     <card>
+      <name>Scuttling Sliver</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/0/e0e63efe-b5ec-426e-8860-a881c495c39e.jpg">MH1</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Creature - Sliver Trilobite</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sliver creatures you control have "{2}: Untap this creature."</text>
+    </card>
+    <card>
       <name>Seasoned Pyromancer</name>
       <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/2/e/2e139ad1-1079-49e9-babd-6399c44ad333.jpg">MH1</set>
       <manacost>1RR</manacost>
@@ -1118,6 +1168,18 @@ Flashback {4}{U} (You may cast this card from your graveyard for its flashback c
       <tablerow>2</tablerow>
       <text>Sisay, Weatherlight Captain gets +1/+1 for each color among other legendary permanents you control.
 {W}{U}{B}{R}{G}: Search your library for a legendary permanent card with converted mana cost less than Sisay's power, put that card onto the battlefield, then shuffle your library.</text>
+    </card>
+    <card>
+      <name>Sling-Gang Lieutenant</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/8/f82aec21-441b-4fcd-b666-61723bd79531.jpg">MH1</set>
+      <manacost>3B</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <type>Creature - Goblin</type>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Sling-Gang Lieutenant enters the battlefield, create two 1/1 red Goblin creature tokens.
+Sacrifice a Goblin: Target player loses 1 life and you gain 1 life.</text>
     </card>
     <card>
       <name>Snow-Covered Forest</name>
@@ -1192,6 +1254,18 @@ Splice onto instant or sorcery {3}{W} (As you cast an instant or sorcery spell, 
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Sacrifice Spore Frog: Prevent all combat damage that would be dealt this turn.</text>
+    </card>
+    <card>
+      <name>Springbloom Druid</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/1/6161d2ed-7cff-4c90-9e74-1d179a6c1498.jpg">MH1</set>
+      <manacost>2G</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Creature - Elf Druid</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Springbloom Druid enters the battlefield, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.</text>
     </card>
     <card>
       <name>Squirrel Nest</name>
@@ -1403,12 +1477,12 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
       <cmc>2.0</cmc>
       <color>G</color>
       <color>R</color>
-      <type>Legendary Planeswalker - Wrenn and Six</type>
+      <type>Legendary Planeswalker - Wrenn</type>
       <loyalty>3</loyalty>
       <tablerow>1</tablerow>
       <text>+1: Return up to one target land card from your graveyard to your hand.
 -1: Wrenn and Six deals 1 damage to any target.
--7: You get an emblem with "Instant and sorcery cards in your graveyards have retrace."</text>
+-7: You get an emblem with "Instant and sorcery cards in your graveyard have retrace."</text>
     </card>
     <card>
       <name>Zhalfirin Decoy</name>

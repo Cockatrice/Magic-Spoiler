@@ -77,7 +77,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Choose one \u2014\n\u2022 Counter target spell.\n\u2022 Target player draws two card.\n\u2022 Gain control of target non land permanent with converted mana cost 1 or less.",
+            "text": "Choose one \u2014\n\u2022 Counter target spell.\n\u2022 Target player draws two cards.\n\u2022 Gain control of target nonland permanent with converted mana cost 1 or less.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -168,7 +168,7 @@
             "artist": "Jesper Ejsing",
             "cmc": 2.0,
             "colorIdentity": [
-                "B"
+                "G"
             ],
             "colors": [
                 "G"
@@ -682,6 +682,38 @@
             "url": "https://img.scryfall.com/cards/normal/front/5/5/55d51a2b-450c-4e6d-a660-67d58d1dd4ba.jpg"
         },
         {
+            "artist": "Tomasz Jedruszek",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [
+                "B",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}{B}",
+            "multiverseId": null,
+            "name": "Fallen Shinobi",
+            "names": null,
+            "number": "199",
+            "power": "5",
+            "rarity": "Rare",
+            "subTypes": [
+                "Zombie",
+                "Ninja"
+            ],
+            "superTypes": [],
+            "text": "Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Fallen Shinobi deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana cost.",
+            "toughness": "4",
+            "type": "Creature - Zombie Ninja",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/0/900c9dfd-ece1-4b09-a801-0fa05e1994b9.jpg"
+        },
+        {
             "artist": "Josh Hass",
             "cmc": 3.0,
             "colorIdentity": [],
@@ -1133,7 +1165,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If that creature is a goat, it also gets +3/+0 until end of turn.",
+            "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If that creature is a Goat, it also gets +3/+0 until end of turn.",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -1493,6 +1525,31 @@
             "url": "https://img.scryfall.com/cards/normal/front/f/6/f6f0c9d6-cffc-4d8c-b455-e9feb8748aa7.jpg"
         },
         {
+            "artist": "Wisnu Tan",
+            "cmc": 2.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}",
+            "multiverseId": null,
+            "name": "Lesser Masticore",
+            "names": null,
+            "number": "225",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Masticore"
+            ],
+            "superTypes": [],
+            "text": "As an additional cost to cast this spell, discard a card.\n{4}: Lesser Masticore deals 1 damage to target creature.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+            "toughness": "2",
+            "type": "Artifact Creature - Masticore",
+            "types": "Artifact Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/4/c4c7cba5-6111-40ce-828a-e811301bb283.jpg"
+        },
+        {
             "artist": "Nicholas Gregory",
             "cmc": 3.0,
             "colorIdentity": [
@@ -1809,6 +1866,33 @@
             "type": "Creature - Orc Warrior",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/5/6/56ea32e5-b164-4a8d-9312-c35ae5cd8b2a.jpg"
+        },
+        {
+            "artist": "Jesper Ejsing",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"The embers of our homes still smolder, and already the villages of Kjeldor burn in retaliation. What they have started, we will finish.\"\n\u2014Lovisa Coldeyes",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}{R}",
+            "multiverseId": null,
+            "name": "Pillage",
+            "names": null,
+            "number": "139",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Destroy target artifact or land. It can't be regenerated.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/b/d/bdd06d55-a40f-4b0e-905b-3cd0ce12eb82.jpg"
         },
         {
             "artist": "Nicholas Gregory",
@@ -2169,6 +2253,36 @@
             "url": "https://img.scryfall.com/cards/normal/front/8/9/8945f5e0-c143-47ca-910e-32ad9ac34487.jpg"
         },
         {
+            "artist": "Mike Bierek",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "A living fossil active after eons of dormancy.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Scuttling Sliver",
+            "names": null,
+            "number": "68",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Sliver",
+                "Trilobite"
+            ],
+            "superTypes": [],
+            "text": "Sliver creatures you control have \"{2}: Untap this creature.\"",
+            "toughness": "2",
+            "type": "Creature - Sliver Trilobite",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/0/e0e63efe-b5ec-426e-8860-a881c495c39e.jpg"
+        },
+        {
             "artist": "Cynthia Sheppard",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2287,6 +2401,35 @@
             "type": "Legendary Creature - Human Soldier",
             "types": " Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/5/a/5a293c45-1e73-4527-be2f-2dcd5c47b610.jpg"
+        },
+        {
+            "artist": "Craig J Spearing",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "Freshly promoted to \"first rock\", Zaz was eager to make an impact.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Sling-Gang Lieutenant",
+            "names": null,
+            "number": "108",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Goblin"
+            ],
+            "superTypes": [],
+            "text": "When Sling-Gang Lieutenant enters the battlefield, create two 1/1 red Goblin creature tokens.\nSacrifice a Goblin: Target player loses 1 life and you gain 1 life.",
+            "toughness": null,
+            "type": "Creature - Goblin",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/f/8/f82aec21-441b-4fcd-b666-61723bd79531.jpg"
         },
         {
             "artist": "Titus Lunter",
@@ -2493,6 +2636,36 @@
             "type": "Creature - Frog",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/6/d/6d42fd52-34ea-4d1b-80dc-58fb0593bb5b.jpg"
+        },
+        {
+            "artist": "Randy Gallegos",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"New growth applies a healing poultice to wounds long scabbed over.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Springbloom Druid",
+            "names": null,
+            "number": "181",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Elf",
+                "Druid"
+            ],
+            "superTypes": [],
+            "text": "When Springbloom Druid enters the battlefield, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.",
+            "toughness": "1",
+            "type": "Creature - Elf Druid",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/1/6161d2ed-7cff-4c90-9e74-1d179a6c1498.jpg"
         },
         {
             "artist": "Daniel Ljunggren",
@@ -2970,16 +3143,14 @@
             "power": null,
             "rarity": "Mythic Rare",
             "subTypes": [
-                "Wrenn",
-                "and",
-                "Six"
+                "Wrenn"
             ],
             "superTypes": [
                 "Legendary"
             ],
-            "text": "+1: Return up to one target land card from your graveyard to your hand.\n-1: Wrenn and Six deals 1 damage to any target.\n-7: You get an emblem with \"Instant and sorcery cards in your graveyards have retrace.\"",
+            "text": "+1: Return up to one target land card from your graveyard to your hand.\n-1: Wrenn and Six deals 1 damage to any target.\n-7: You get an emblem with \"Instant and sorcery cards in your graveyard have retrace.\"",
             "toughness": null,
-            "type": "Legendary Planeswalker - Wrenn and Six",
+            "type": "Legendary Planeswalker - Wrenn",
             "types": " Planeswalker ",
             "url": "https://img.scryfall.com/cards/normal/front/4/a/4a706ecf-3277-40e3-871c-4ba4ead16e20.jpg"
         },
