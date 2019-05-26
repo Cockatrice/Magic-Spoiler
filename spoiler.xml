@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Sat, May 25 2019, 23:05:24 (UTC)
+Created At: Sun, May 26 2019, 23:05:25 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -1301,6 +1301,18 @@ Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid th
       <tablerow>0</tablerow>
       <text>{T}, Pay 1 life: Add {R} or {W}.
 {1}, {T}, Sacrifice Sunbaked Canyon: Draw a card.</text>
+    </card>
+    <card>
+      <name>Sword of Sinew and Steel</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/c/0/c081e5cf-81e2-4afb-a912-8267de29e88d.jpg">MH1</set>
+      <manacost>3</manacost>
+      <cmc>3.0</cmc>
+      <type>Artifact - Equipment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +2/+2 and has protection from black and from red.
+Whenever equipped creature deals combat damage to a player, destroy up to one target planeswalker and up to one target artifact.
+Equip {2}</text>
     </card>
     <card>
       <name>Sword of Truth and Justice</name>
