@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Sun, May 26 2019, 23:05:25 (UTC)
+Created At: Mon, May 27 2019, 23:06:59 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -12,6 +12,18 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     </set>
   </sets>
   <cards>
+    <card>
+      <name>"Spitemare Sliver"</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/5/6506d58f-9825-4384-9012-1d037543fb59.jpg">MH1</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Sliver</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sliver creatures you control have "Whenever this creature is dealt damage, it deals that much damage to target player or planeswalker."</text>
+    </card>
     <card>
       <name>Abominable Treefolk</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/e/1eddb834-ea01-44e2-afca-bd9a4ebbdb94.jpg">MH1</set>
@@ -203,6 +215,18 @@ When you cycle Choking Tethers, you may tap target creature.</text>
       <text>Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana costs 3 or less from among them without paying their mana cost. Put the exiled cards not cast this way on the bottom of your library in a random order.</text>
     </card>
     <card>
+      <name>Collector Ouphe</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/8/085107a2-c1ec-473c-81d8-23e5a7197776.jpg">MH1</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Creature - Ouphe</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Activated abilities of artifacts can't be activated.</text>
+    </card>
+    <card>
       <name>Crypt Rats</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/6/96916db2-5121-4ff1-880c-369744f11ecf.jpg">MH1</set>
       <manacost>2B</manacost>
@@ -263,6 +287,18 @@ Destroy target artifact or enchantment. If this spell was kicked, draw two cards
       <tablerow>2</tablerow>
       <text>Each Sliver creature card in your graveyard has unearth {2}.
 Unearth {2} ({2}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+    </card>
+    <card>
+      <name>Eladamri's Call</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/e/a/ea751fe2-b64a-4265-8885-a9016b29b5b3.jpg">MH1</set>
+      <manacost>GW</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Search your library for a creature card, reveal that card, put it into your hand, then shuffle your library.</text>
     </card>
     <card>
       <name>Elvish Fury</name>
@@ -530,6 +566,19 @@ Whenever Frostwalk Bastion deals combat damage to a creature, tap that creature 
       <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If that creature is a Goat, it also gets +3/+0 until end of turn.</text>
     </card>
     <card>
+      <name>Goblin Champion</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/5/9543660a-6797-4719-bbe7-ff6e40709599.jpg">MH1</set>
+      <manacost>R</manacost>
+      <cmc>1.0</cmc>
+      <color>R</color>
+      <type>Creature - Goblin Warrior</type>
+      <pt>0/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Haste
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</text>
+    </card>
+    <card>
       <name>Goblin Engineer</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/5/a55c4d47-5252-40af-961d-c08bc688028a.jpg">MH1</set>
       <manacost>1R</manacost>
@@ -553,6 +602,17 @@ Whenever Frostwalk Bastion deals combat damage to a creature, tap that creature 
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, and put it into your hand. If you do, shuffle your library.</text>
+    </card>
+    <card>
+      <name>Goblin Oriflamme</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/3/3/33ec7cbe-16a0-4dbb-91fe-7e445a5268c8.jpg">MH1</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Attacking creatures you control get +1/+0.</text>
     </card>
     <card>
       <name>Goblin War Party</name>
@@ -651,6 +711,35 @@ Ice-Fang Coatl has deathtouch as long as you control at least three other snow p
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Changeling (This card is every creature type.)</text>
+    </card>
+    <card>
+      <name>Ingenious Infiltrator</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/1/919cd266-b796-4a1c-937f-76b565c82495.jpg">MH1</set>
+      <manacost>2UB</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <color>U</color>
+      <type>Creature - Vedalken Ninja</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever a Ninja you control deals combat damage to a player, draw a card.</text>
+    </card>
+    <card>
+      <name>Kess, Dissident Mage</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/3/6/3651483f-6077-4b4e-b2c7-9d57f22c65dc.jpg">MH1</set>
+      <manacost>1UBR</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <color>R</color>
+      <color>U</color>
+      <type>Legendary Creature - Human Wizard</type>
+      <pt>3/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+During each of your turns, you may cast an instant or sorcery card from your graveyard. If a card cast this way would be put into your graveyard, exile it instead.</text>
     </card>
     <card>
       <name>King of the Pride</name>
@@ -792,6 +881,18 @@ Other creatures you control of the chosen type get +1/+1.</text>
       <tablerow>2</tablerow>
       <text>Flash
 When Munitions Expert enters the battlefield, you may have it deal damage to target creature or planeswalker equal to the number of Goblins you control.</text>
+    </card>
+    <card>
+      <name>Nantuko Cultivator</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/3/3/33a7e43a-4028-41e5-b5dd-be8ef6a1b510.jpg">MH1</set>
+      <manacost>3G</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <type>Creature - Insect Druid</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Nantuko Cultivator enters the battlefield, you may discard any number of land cards. Put that many +1/+1 counters on Nantuko Cultivator and draw that many cards.</text>
     </card>
     <card>
       <name>Nature's Chant</name>
@@ -1033,6 +1134,18 @@ Flashback {4}{U} (You may cast this card from your graveyard for its flashback c
 {3}{R}{R}, Exile Seasoned Pyromancer from your graveyard: Create two 1/1 red Elemental creature tokens.</text>
     </card>
     <card>
+      <name>Segovian Angel</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/5/b5dbaec5-502d-48c2-9e71-c12cd0bccc6a.jpg">MH1</set>
+      <manacost>W</manacost>
+      <cmc>1.0</cmc>
+      <color>W</color>
+      <type>Creature - Angel</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying, vigilance</text>
+    </card>
+    <card>
       <name>Serra the Benevolent</name>
       <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/8/88bf4af9-4b14-43e7-9d50-0e6a895cece1.jpg">MH1</set>
       <manacost>2WW</manacost>
@@ -1076,6 +1189,7 @@ Flashback {4}{U} (You may cast this card from your graveyard for its flashback c
       <cmc>4.0</cmc>
       <color>B</color>
       <type>Creature - Goblin</type>
+      <pt>1/1</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>When Sling-Gang Lieutenant enters the battlefield, create two 1/1 red Goblin creature tokens.
@@ -1130,6 +1244,18 @@ Sacrifice a Goblin: Target player loses 1 life and you gain 1 life.</text>
       <loyalty>None</loyalty>
       <tablerow>0</tablerow>
       <text>({T}: Add {B}.)</text>
+    </card>
+    <card>
+      <name>Spell Snuff</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/f/efadce19-07f4-47af-abc0-a436bafcdd65.jpg">MH1</set>
+      <manacost>1UU</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Counter target spell.
+Fateful hour &#8212; If you have 5 or less life, draw a card.</text>
     </card>
     <card>
       <name>Splicer's Skill</name>
@@ -1192,6 +1318,17 @@ Enchanted land has "{T}: Create a 1/1 green Squirrel creature token."</text>
 Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid the replicate cost. You may choose new targets for the copies.)</text>
     </card>
     <card>
+      <name>String of Disappearances</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/9/99ef4f41-211c-4302-b112-1d85ab33952f.jpg">MH1</set>
+      <manacost>U</manacost>
+      <cmc>1.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Return target creature to its owner's hand. Then that creature's controller may pay {U}{U}. If the player does, they may copy this spell and may choose a new target for that copy.</text>
+    </card>
+    <card>
       <name>Sunbaked Canyon</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/3/c36820fa-ee86-4206-9a0d-737a67cf5208.jpg">MH1</set>
       <manacost/>
@@ -1225,6 +1362,61 @@ Equip {2}</text>
       <text>Equipped creature gets +2/+2 and has protection from white and from blue.
 Whenever equipped creature deals combat damage to a player, put a +1/+1 counter on a creature you control, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 Equip {2}</text>
+    </card>
+    <card>
+      <name>Talisman of Conviction</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/1/71148fd3-0c2c-459e-b8f5-735a0a8dd87f.jpg">MH1</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {C}.
+{T}: Add {R} or {W}. Talisman of Conviction deals 1 damage to you.</text>
+    </card>
+    <card>
+      <name>Talisman of Creativity</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/4/d/4d9dbadd-c1b6-44fe-92ac-6f69d7178342.jpg">MH1</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {C}.
+{T}: Add {U} or {R}. Talisman of Creativity deals 1 damage to you.</text>
+    </card>
+    <card>
+      <name>Talisman of Curiosity</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/d/fd52688a-39fd-430f-b950-cb56e0004396.jpg">MH1</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {C}.
+{T}: Add {G} or {U}. Talisman of Curiosity deals 1 damage to you.</text>
+    </card>
+    <card>
+      <name>Talisman of Hierarchy</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/2/826f99c7-f534-4183-8f0d-efe1609808ac.jpg">MH1</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {C}.
+{T}: Add {W} or {B}. Talisman of Hierarchy deals 1 damage to you.</text>
+    </card>
+    <card>
+      <name>Talisman of Resilience</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/c/cc25a254-edd2-4817-ab80-7373239da7d2.jpg">MH1</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {C}.
+{T}: Add {B} or {G}. Talisman of Resilience deals 1 damage to you.</text>
     </card>
     <card>
       <name>Tempered Sliver</name>
@@ -1359,6 +1551,18 @@ Deathtouch</text>
 {1}, {T}, Sacrifice Waterlogged Grove: Draw a card.</text>
     </card>
     <card>
+      <name>Weather the Storm</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/6/f6a9fa51-78c3-42e6-8c2e-39658f59ed87.jpg">MH1</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>You gain 3 life.
+Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</text>
+    </card>
+    <card>
       <name>Winds of Abandon</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/b/3bb17913-fe4d-4acd-9b75-71f5a90f898b.jpg">MH1</set>
       <manacost>1W</manacost>
@@ -1395,6 +1599,20 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
       <text>+1: Return up to one target land card from your graveyard to your hand.
 -1: Wrenn and Six deals 1 damage to any target.
 -7: You get an emblem with "Instant and sorcery cards in your graveyard have retrace."</text>
+    </card>
+    <card>
+      <name>Yawgmoth, Thran Physician</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/6/8690cbcc-f8fd-41f7-9e28-e61c12b04014.jpg">MH1</set>
+      <manacost>2BB</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <type>Legendary Creature - Human Cleric</type>
+      <pt>2/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Protection from Humans
+Pay 1 life, Sacrifice another creature: Put a -1/-1 counter on up to one target creature and draw a card.
+{B}{B}, Discard a card: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
     </card>
     <card>
       <name>Zhalfirin Decoy</name>
