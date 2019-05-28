@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Mon, May 27 2019, 23:06:59 (UTC)
+Created At: Tue, May 28 2019, 23:07:29 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -13,16 +13,17 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
   </sets>
   <cards>
     <card>
-      <name>"Spitemare Sliver"</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/5/6506d58f-9825-4384-9012-1d037543fb59.jpg">MH1</set>
-      <manacost>2R</manacost>
+      <name>"I have HAD IT with these Samuel L. Jackson quotes"</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/5/65c8f074-e260-4f8e-85d1-1904ca928b51.jpg">MH1</set>
+      <manacost>2U</manacost>
       <cmc>3.0</cmc>
-      <color>R</color>
-      <type>Creature - Sliver</type>
-      <pt>2/2</pt>
+      <color>U</color>
+      <type>Creature - Naga Ninja</type>
+      <pt>3/1</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Sliver creatures you control have "Whenever this creature is dealt damage, it deals that much damage to target player or planeswalker."</text>
+      <text>Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever "I have HAD IT with these Samuel L. Jackson quotes" deals combat damage to a player, create a token that's a copy of "I have HAD IT with these Samuel L. Jackson quotes".</text>
     </card>
     <card>
       <name>Abominable Treefolk</name>
@@ -62,6 +63,18 @@ When Abominable Treefolk enters the battlefield, tap target creature an opponent
 &#8226; Counter target spell.
 &#8226; Target player draws two cards.
 &#8226; Gain control of target nonland permanent with converted mana cost 1 or less.</text>
+    </card>
+    <card>
+      <name>Arcum's Astrolabe</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/2/c2462fdf-a594-47d0-8e10-b55901e350d9.jpg">MH1</set>
+      <manacost>S</manacost>
+      <cmc>1.0</cmc>
+      <type>Snow Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>({S} can be paid with one mana from a snow permanent.)
+When Arcum's Astrolabe enters the battlefield, draw a card.
+{1}, {T}: Add one mana of any color.</text>
     </card>
     <card>
       <name>Aria of Flame</name>
@@ -136,6 +149,18 @@ Flashback&#8212;Tap three untapped white creatures you control. (You may cast th
       <tablerow>2</tablerow>
       <text>Flying
 When Bazaar Trademage enters the battlefield, draw two cards, then discard three cards.</text>
+    </card>
+    <card>
+      <name>Bladeback Sliver</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/0/7066c9ab-9420-46f9-a6c7-ce4d5273e2fa.jpg">MH1</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Creature - Sliver</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Hellbent &#8212; As long as you have no cards in hand, Sliver creatures you control have "{T}: This creature deals 1 damage to target player or planeswalker."</text>
     </card>
     <card>
       <name>Cabal Therapist</name>
@@ -227,6 +252,18 @@ When you cycle Choking Tethers, you may tap target creature.</text>
       <text>Activated abilities of artifacts can't be activated.</text>
     </card>
     <card>
+      <name>Crashing Footfalls</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/8/a8cca2a2-69e3-4136-936c-7a2774c19351.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Suspend 4&#8212;{G} (Rather than cast this card from your hand, pay {G} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
+Create two 4/4 green Rhino creature tokens with trample.</text>
+    </card>
+    <card>
       <name>Crypt Rats</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/6/96916db2-5121-4ff1-880c-369744f11ecf.jpg">MH1</set>
       <manacost>2B</manacost>
@@ -237,6 +274,17 @@ When you cycle Choking Tethers, you may tap target creature.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>{X}: Crypt Rats deals X damage to each creature and each player. Spend only black mana on X.</text>
+    </card>
+    <card>
+      <name>Dead of Winter</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/f/4/f480df6d-e227-4ccb-ad6d-a4ad48a360ad.jpg">MH1</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>All nonsnow creatures get -X/-X until end of turn, where X is the number of snow permanents you control.</text>
     </card>
     <card>
       <name>Deep Forest Hermit</name>
@@ -311,6 +359,34 @@ Unearth {2} ({2}: Return this card from your graveyard to the battlefield. It ga
       <tablerow>3</tablerow>
       <text>Buyback {4} (You may pay an additional {4} as you cast this spell. If you do, put this card into your hand as it resolves.)
 Target creature gets +2/+2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Endling</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/3/337b6047-3f8d-4530-9e45-b5ce397a2829.jpg">MH1</set>
+      <manacost>2BB</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Shapeshifter</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{B}: Endling gains menace until end of turn.
+{B}: Endling gains deathtouch until end of turn.
+{B}: Endling gains undying until end of turn. (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+{1}: Endling gets +1/-1 or -1/+1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Enduring Sliver</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/e/6ed0f6a5-ed40-44fc-a5e1-3f8bb968d1d9.jpg">MH1</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Creature - Sliver</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Outlast {2} ({2}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+Other sliver creatures you control have outlast {2}.</text>
     </card>
     <card>
       <name>Etchings of the Chosen</name>
@@ -509,6 +585,18 @@ Creatures you control get +1/+1.</text>
 Whenever Frostwalk Bastion deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step.</text>
     </card>
     <card>
+      <name>Future Sight</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/3/639cb483-ffe2-4abc-a050-5cdc8aebd5a2.jpg">MH1</set>
+      <manacost>2UUU</manacost>
+      <cmc>5.0</cmc>
+      <color>U</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Play with the top card of your library revealed.
+You may play the top card of your library.</text>
+    </card>
+    <card>
       <name>Generous Gift</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/8/983f4711-20a8-4023-8201-9a74deab10be.jpg">MH1</set>
       <manacost>2W</manacost>
@@ -701,6 +789,17 @@ When Ice-Fang Coatl enters the battlefield, draw a card.
 Ice-Fang Coatl has deathtouch as long as you control at least three other snow permanents.</text>
     </card>
     <card>
+      <name>Ice-Skin Golem</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/2/b2671c36-96fa-49e3-90dc-52820b2c8a62.jpg">MH1</set>
+      <manacost>S</manacost>
+      <cmc>1.0</cmc>
+      <type>Snow Artifact Creature - Golem</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>({S} can be paid with one mana from a snow permanent.)</text>
+    </card>
+    <card>
       <name>Impostor of the Sixth Pride</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/3/83298c8a-02c4-4ada-9a41-4b973bb58ac6.jpg">MH1</set>
       <manacost>1W</manacost>
@@ -725,6 +824,23 @@ Ice-Fang Coatl has deathtouch as long as you control at least three other snow p
       <tablerow>2</tablerow>
       <text>Ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever a Ninja you control deals combat damage to a player, draw a card.</text>
+    </card>
+    <card>
+      <name>Kaya's Guile</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/1/7/179bd74b-c458-49d6-90ac-6075454e43dd.jpg">MH1</set>
+      <manacost>1WB</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose two &#8212;
+&#8226; Each opponent sacrifices a creature.
+&#8226; Exile all cards from each opponent's graveyard.
+&#8226; Create a 1/1 white and black Spirit creature token with flying.
+&#8226; You gain 4 life.
+Entwine {3} (Choose all if you pay the entwine cost.)</text>
     </card>
     <card>
       <name>Kess, Dissident Mage</name>
@@ -805,6 +921,18 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
       <text>Trample, haste
 Whenever Lightning Skelemental deals combat damage to a player, that player discards two cards.
 At the beginning of the end step, sacrifice Lightning Skelemental.</text>
+    </card>
+    <card>
+      <name>Llanowar Tribe</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/2/723d3d8d-e78b-40b8-aed5-888a2d0baa60.jpg">MH1</set>
+      <manacost>GGG</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Creature - Elf Druid</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{T}: Add {G}{G}{G}.</text>
     </card>
     <card>
       <name>Man-o'-War</name>
@@ -907,6 +1035,18 @@ When Munitions Expert enters the battlefield, you may have it deal damage to tar
       <text>Destroy target artifact or enchantment.</text>
     </card>
     <card>
+      <name>Nether Spirit</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/8/2/82f1f3e1-d986-4c0b-850e-5e8f2eaa0642.jpg">MH1</set>
+      <manacost>1BB</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Spirit</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>At the beginning of your upkeep, if Nether Spirit is the only creature card in your graveyard, you may return Nether Spirit to the battlefield.</text>
+    </card>
+    <card>
       <name>Nimble Mongoose</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/a/8a6374ad-71be-422e-bd76-4f08fbf43048.jpg">MH1</set>
       <manacost>G</manacost>
@@ -931,6 +1071,18 @@ Threshold &#8212; Nimble Mongoose gets +2/+2 as long as seven or more cards are 
 {1}, {T}, Sacrifice Nurturing Peatland: Draw a card.</text>
     </card>
     <card>
+      <name>On Thin Ice</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/7/b7d4f6b0-ea17-4374-a80c-ba4dd207e9d6.jpg">MH1</set>
+      <manacost>W</manacost>
+      <cmc>1.0</cmc>
+      <color>W</color>
+      <type>Snow Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant snow land you control
+When On Thin Ice enters the battlefield, exile target creature an opponent controls until On Thin Ice leaves the battlefield.</text>
+    </card>
+    <card>
       <name>Orcish Hellraiser</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/6/56ea32e5-b164-4a8d-9312-c35ae5cd8b2a.jpg">MH1</set>
       <manacost>1R</manacost>
@@ -942,6 +1094,32 @@ Threshold &#8212; Nimble Mongoose gets +2/+2 as long as seven or more cards are 
       <tablerow>2</tablerow>
       <text>Echo {R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Orcish Hellraiser dies, it deals 2 damage to target player or planeswalker.</text>
+    </card>
+    <card>
+      <name>Ore-Scale Guardian</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/7/e789333b-21ee-4613-8eba-52a719b0f1e5.jpg">MH1</set>
+      <manacost>5RR</manacost>
+      <cmc>7.0</cmc>
+      <color>R</color>
+      <type>Creature - Dragon</type>
+      <pt>4/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>This spell costs {1} less to cast for each land card in your graveyard.
+Flying, haste</text>
+    </card>
+    <card>
+      <name>Pashalik Mons</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/1/1/11616853-34b1-4bb1-9590-461e12970ec3.jpg">MH1</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Legendary Creature - Goblin Warrior</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever Pashalik Mons or another Goblin you control dies, Pashalik Mons deals 1 damage to any target.
+{3}{R}, Sacrifice a Goblin: Create two 1/1 red Goblin creature tokens.</text>
     </card>
     <card>
       <name>Pillage</name>
@@ -1060,6 +1238,19 @@ Sacrifice Ranger-Captain of Eos: Your opponents can't cast noncreature spells th
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Return target card from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Ruination Rioter</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/a/5a00ac82-a884-40c4-9d09-3190a1099726.jpg">MH1</set>
+      <manacost>RG</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <color>R</color>
+      <type>Creature - Human Berserker</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Ruination Rioter dies, you may have it deal damage to any target equal to the number of land cards in your graveyard.</text>
     </card>
     <card>
       <name>Savage Swipe</name>
@@ -1258,6 +1449,18 @@ Sacrifice a Goblin: Target player loses 1 life and you gain 1 life.</text>
 Fateful hour &#8212; If you have 5 or less life, draw a card.</text>
     </card>
     <card>
+      <name>Spiteful Sliver</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/5/6506d58f-9825-4384-9012-1d037543fb59.jpg">MH1</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Sliver</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sliver creatures you control have "Whenever this creature is dealt damage, it deals that much damage to target player or planeswalker."</text>
+    </card>
+    <card>
       <name>Splicer's Skill</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/5/c59dfb0f-45c7-431f-b5a3-d9b429fc6dde.jpg">MH1</set>
       <manacost>2W</manacost>
@@ -1387,7 +1590,7 @@ Equip {2}</text>
     </card>
     <card>
       <name>Talisman of Curiosity</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/d/fd52688a-39fd-430f-b950-cb56e0004396.jpg">MH1</set>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/d/fd52688a-39fd-430f-b950-cb56e0004396.jpg">MH1</set>
       <manacost>2</manacost>
       <cmc>2.0</cmc>
       <type>Artifact</type>
@@ -1448,6 +1651,18 @@ Equip {2}</text>
 Sliver spells you cast have cascade.</text>
     </card>
     <card>
+      <name>Throes of Chaos</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/c/6c02cc57-f589-4c5d-b306-cceb0ab3ce8b.jpg">MH1</set>
+      <manacost>3R</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Cascade (When you cast a spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
+Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)</text>
+    </card>
+    <card>
       <name>Thundering Djinn</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/8/28642fbe-90c8-4beb-9950-91af28d93326.jpg">MH1</set>
       <manacost>3UR</manacost>
@@ -1500,6 +1715,18 @@ Whenever you cast an instant or sorcery spell or activate an ability, if that sp
       <text>Whenever Undead Augur or another Zombie you control dies, you draw a card and you lose 1 life.</text>
     </card>
     <card>
+      <name>Unearth</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/6/b62abd0c-ec3e-45d7-989d-da269812aeef.jpg">MH1</set>
+      <manacost>B</manacost>
+      <cmc>1.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.
+Cycling {2} ({2}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
       <name>Urza, Lord High Artificer</name>
       <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/9/e/9e7fb3c0-5159-4d1f-8490-ce4c9a60f567.jpg">MH1</set>
       <manacost>2UU</manacost>
@@ -1512,6 +1739,20 @@ Whenever you cast an instant or sorcery spell or activate an ability, if that sp
       <text>When Urza, Lord High Artificer enters the battlefield, create a 0/0 colorless Construct artifact creature token with "This creature gets +1/+1 for each artifact you control."
 Tap an untapped artifact you control: Add {U}.
 {5}: Shuffle your library, then exile the top card. Until end of turn, you may play that card without paying its mana cost.</text>
+    </card>
+    <card>
+      <name>Valiant Changeling</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/d/ad9fadff-a506-4546-b994-71e9e971b44e.jpg">MH1</set>
+      <manacost>5WW</manacost>
+      <cmc>7.0</cmc>
+      <color>W</color>
+      <type>Creature - Shapeshifter</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>This spell costs {1} less to cast for each creature type among creatures you control. This effect can't reduce the amount of mana this spell costs by more than {5}.
+Changeling (This card is every creature type.)
+Double strike</text>
     </card>
     <card>
       <name>Venomous Changeling</name>
@@ -1561,6 +1802,20 @@ Deathtouch</text>
       <tablerow>3</tablerow>
       <text>You gain 3 life.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</text>
+    </card>
+    <card>
+      <name>Webweaver Changeling</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/1/91571765-8da8-49f9-a776-7778d86cfb99.jpg">MH1</set>
+      <manacost>3GG</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Creature - Shapeshifter</type>
+      <pt>3/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Changeling (This card is every creature type.)
+Reach
+When Webweaver Changeling enters the battlefield, if there are three or more creature cards in your graveyard, you gain 5 life.</text>
     </card>
     <card>
       <name>Winds of Abandon</name>
