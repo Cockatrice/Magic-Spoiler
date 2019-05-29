@@ -1,34 +1,33 @@
 {
     "MH1": [
         {
-            "artist": "Randy Vargas",
-            "cmc": 3.0,
+            "artist": "Winona Nelson",
+            "cmc": 2.0,
             "colorIdentity": [
-                "U"
+                "B"
             ],
             "colors": [
-                "U"
+                "B"
             ],
             "flavor": null,
             "layout": "",
             "loyalty": null,
-            "mana_cost": "{2}{U}",
+            "mana_cost": "{B}{B}",
             "multiverseId": null,
-            "name": "\"I have HAD IT with these Samuel L. Jackson quotes\"",
+            "name": "\"Markov Manners\"",
             "names": null,
-            "number": "58",
-            "power": "3",
+            "number": "83",
+            "power": "1",
             "rarity": "Rare",
             "subTypes": [
-                "Naga",
-                "Ninja"
+                "Vampire"
             ],
             "superTypes": [],
-            "text": "Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever \"I have HAD IT with these Samuel L. Jackson quotes\" deals combat damage to a player, create a token that's a copy of \"I have HAD IT with these Samuel L. Jackson quotes\".",
+            "text": "Whenever \"Markov Manners\" or another creature dies, put a +1/+1 counter on each vampire creature you control.",
             "toughness": "1",
-            "type": "Creature - Naga Ninja",
+            "type": "Creature - Vampire",
             "types": "Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/6/5/65c8f074-e260-4f8e-85d1-1904ca928b51.jpg"
+            "url": "https://img.scryfall.com/cards/normal/front/a/9/a90a1c44-ee0f-4c12-bfaf-6f371bcce167.jpg"
         },
         {
             "artist": "Jonas De Ro",
@@ -87,6 +86,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/1/6/169356e0-46dc-4096-8e66-36726454f104.jpg"
         },
         {
+            "artist": "Seb McKinnon",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Angels cannot ignore pious pleas.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{W}",
+            "multiverseId": null,
+            "name": "Answered Prayers",
+            "names": null,
+            "number": "2",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Whenever a creature enters the battlefield under your control, you gain 1 life. If Answered Prayers isn't a creature, it becomes a 3/3 Angel creature with flying in addition to its other types until end of turn.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/1/7/175b6e34-9cb3-4c8d-9cc0-960082a9ee71.jpg"
+        },
+        {
             "artist": "Alayna Danner",
             "cmc": 3.0,
             "colorIdentity": [
@@ -118,7 +144,7 @@
             "cmc": 1.0,
             "colorIdentity": [],
             "colors": [],
-            "flavor": null,
+            "flavor": "Though the Time of Ice has ended, its relics still slumber in New Argive.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{S}",
@@ -251,6 +277,31 @@
             "url": "https://img.scryfall.com/cards/normal/front/c/0/c046dfb0-9ca3-4219-a6b0-d7503bc2fbd0.jpg"
         },
         {
+            "artist": "Noah Bradley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Barren Moor",
+            "names": null,
+            "number": "236",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Barren Moor enters the battlefield tapped.\n{T}: Add {B}.\nCycling {B} ({B}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://img.scryfall.com/cards/normal/front/d/e/de4d8706-1b2f-41e9-8329-d0186b401227.jpg"
+        },
+        {
             "artist": "Anastasia Ovchinnikova",
             "cmc": 4.0,
             "colorIdentity": [
@@ -364,6 +415,35 @@
             "type": "Creature - Horror",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/e/a/eaa8f485-0f3d-4a0b-bcdf-6c27d1d2bce0.jpg"
+        },
+        {
+            "artist": "Svetlin Velinov",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Carrion Feeder",
+            "names": null,
+            "number": "81",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Zombie"
+            ],
+            "superTypes": [],
+            "text": "Carrion Feeder can't block.\nSacrifice a creature: Put a +1/+1 counter on Carrion Feeder.",
+            "toughness": "1",
+            "type": "Creature - Zombie",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/a/0a19da90-880e-4eca-8cf7-6d7baf090d53.jpg"
         },
         {
             "artist": "Micah Epstein",
@@ -737,6 +817,33 @@
             "type": "Creature - Sliver",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/4/a/4a835b7e-cd63-486d-8b58-2f443f686e32.jpg"
+        },
+        {
+            "artist": "Terese Nielsen",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "The present is a matter of perspective.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{U}{U}",
+            "multiverseId": null,
+            "name": "Echo of Eons",
+            "names": null,
+            "number": "46",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Each player shuffles their hand and graveyard into their library, then draws seven cards.\nFlashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/f/f/ff590af2-2d6c-4f16-a9b8-1a6dab6e9ad5.jpg"
         },
         {
             "artist": "Kev Walker",
@@ -1265,6 +1372,31 @@
             "url": "https://img.scryfall.com/cards/normal/front/9/7/9736d6f4-5ff6-4006-b45d-8e630382d160.jpg"
         },
         {
+            "artist": "Noah Bradley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Forgotten Cave",
+            "names": null,
+            "number": "239",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Forgotten Cave enters the battlefield tapped.\n{T}: Add {R}.\nCycling {R} ({R}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://img.scryfall.com/cards/normal/front/9/d/9d41b5e4-6b9a-419a-ba49-611c4699eda2.jpg"
+        },
+        {
             "artist": "Jedd Chevrier",
             "cmc": 0.0,
             "colorIdentity": [],
@@ -1465,7 +1597,7 @@
             "colors": [
                 "R"
             ],
-            "flavor": null,
+            "flavor": "The stories of his heroics are inspiring, though none of them are remotely true.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{R}",
@@ -1554,7 +1686,7 @@
             "colors": [
                 "R"
             ],
-            "flavor": null,
+            "flavor": "\"It was difficult to tell whether the piles of gore within their warrens were mere trash heaps, sacred altars, or warnings.\"\n\u2014Sarpadian Empires, vol. IV",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{R}",
@@ -1631,6 +1763,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/4/9/49d68905-e13e-4751-b028-90c795c11cd5.jpg"
         },
         {
+            "artist": "Daniel Ljunggren",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": "The stronghold of Theros's light.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Hall of Heliod's Generosity",
+            "names": null,
+            "number": "241",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "{T}: Add {C}.\n{1}{W}, {T}: Put target enchantment card from your graveyard on top of your library.",
+            "toughness": null,
+            "type": "Legendary Land",
+            "types": " Land",
+            "url": "https://img.scryfall.com/cards/normal/front/b/5/b5cbd10a-b9a6-4c00-8280-72bb4add4390.jpg"
+        },
+        {
             "artist": "Anastasia Ovchinnikova",
             "cmc": 3.0,
             "colorIdentity": [
@@ -1687,6 +1846,39 @@
             "type": "Creature - Snake",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/8/9/89f5cc05-5d9d-4709-b3c5-a6249c294acc.jpg"
+        },
+        {
+            "artist": "Vincent Proce",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "B",
+                "G"
+            ],
+            "colors": [
+                "B",
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{B/G}{B/G}",
+            "multiverseId": null,
+            "name": "Hogaak, Arisen Necropolis",
+            "names": null,
+            "number": "202",
+            "power": "8",
+            "rarity": "Rare",
+            "subTypes": [
+                "Avatar"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "You can't spend mana to cast this spell.\nConvoke, delve (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color. Each card you exile from your graveyard pays for {1}.)\nYou may cast Hogaak, Arisen Necropolis from your graveyard.\nTrample",
+            "toughness": "8",
+            "type": "Legendary Creature - Avatar",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/0/0049e68d-0caf-474f-9523-dad343f1250a.jpg"
         },
         {
             "artist": "Johan Grenier",
@@ -1755,12 +1947,12 @@
             "cmc": 1.0,
             "colorIdentity": [],
             "colors": [],
-            "flavor": null,
+            "flavor": "In colder climates, ice is more obedient than stone.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{S}",
             "multiverseId": null,
-            "name": "Ice-Skin Golem",
+            "name": "Icehide Golem",
             "names": null,
             "number": "224",
             "power": "2",
@@ -2078,6 +2270,31 @@
             "url": "https://img.scryfall.com/cards/normal/front/7/2/723d3d8d-e78b-40b8-aed5-888a2d0baa60.jpg"
         },
         {
+            "artist": "Noah Bradley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Lonely Sandbar",
+            "names": null,
+            "number": "242",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Lonely Sandbar enters the battlefield tapped.\n{T}: Add {U}.\nCycling {U} ({U}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://img.scryfall.com/cards/normal/front/5/4/54e0fcc2-2409-4e00-95d5-418ffa161c20.jpg"
+        },
+        {
             "artist": "Jon J Muth",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2135,6 +2352,36 @@
             "type": "Creature - Spirit Soldier",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/7/c/7c17428c-e31d-42f3-8811-6734abd96b0b.jpg"
+        },
+        {
+            "artist": "Randy Vargas",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Mist-Syndicate Naga",
+            "names": null,
+            "number": "58",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Naga",
+                "Ninja"
+            ],
+            "superTypes": [],
+            "text": "Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Mist-Syndicate Naga deals combat damage to a player, create a token that's a copy of Mist-Syndicate Naga.",
+            "toughness": "1",
+            "type": "Creature - Naga Ninja",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/5/65c8f074-e260-4f8e-85d1-1904ca928b51.jpg"
         },
         {
             "artist": "Victor Adame Minguez",
@@ -2320,7 +2567,7 @@
             "colors": [
                 "B"
             ],
-            "flavor": null,
+            "flavor": "Four walls and a roof won't provide safety from that which is buried.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{B}{B}",
@@ -2770,6 +3017,60 @@
             "url": "https://img.scryfall.com/cards/normal/front/5/2/52337d8d-e0ee-4229-848d-9bbd989e15b7.jpg"
         },
         {
+            "artist": "Lindsey Look",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "The first step in any artificer's scheme is to take inventory.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Rebuild",
+            "names": null,
+            "number": "66",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Return all artifacts to their owners' hands.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/f/d/fd683b0b-1ac1-4fa7-9657-d3b29db2ae51.jpg"
+        },
+        {
+            "artist": "Steve Argyle",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}",
+            "multiverseId": null,
+            "name": "Reckless Charge",
+            "names": null,
+            "number": "144",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target creature gets +3/+0 and gains haste until end of turn.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/1/7/1754a8db-060e-470f-94c0-37f12d82978a.jpg"
+        },
+        {
             "artist": "Dan Scott",
             "cmc": 2.0,
             "colorIdentity": [
@@ -2995,6 +3296,31 @@
             "url": "https://img.scryfall.com/cards/normal/front/2/e/2e139ad1-1079-49e9-babd-6399c44ad333.jpg"
         },
         {
+            "artist": "Noah Bradley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Secluded Steppe",
+            "names": null,
+            "number": "245",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Secluded Steppe enters the battlefield tapped.\n{T}: Add {W}.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://img.scryfall.com/cards/normal/front/c/b/cb40724c-62ca-43ab-b4cd-b5fd8e454bfe.jpg"
+        },
+        {
             "artist": "Simon Dominic",
             "cmc": 1.0,
             "colorIdentity": [
@@ -3053,6 +3379,33 @@
             "type": "Legendary Planeswalker - Serra",
             "types": " Planeswalker ",
             "url": "https://img.scryfall.com/cards/normal/front/8/8/88bf4af9-4b14-43e7-9d50-0e6a895cece1.jpg"
+        },
+        {
+            "artist": "Lindsey Look",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "Pricy baubles are no match for cheap tricks.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Shenanigans",
+            "names": null,
+            "number": "146",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Destroy target artifact.\nDredge 1 (If you would draw a card, instead you may put exactly one card from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/5/8/580c6fe2-ab43-491e-a1b2-d076a5c2a74e.jpg"
         },
         {
             "artist": "Seb McKinnon",
@@ -3331,7 +3684,7 @@
             "colors": [
                 "R"
             ],
-            "flavor": null,
+            "flavor": "Victories against the hive are tragedies.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{2}{R}",
@@ -3712,6 +4065,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/c/c/cc25a254-edd2-4817-ab80-7373239da7d2.jpg"
         },
         {
+            "artist": "James Paick",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "Alone in the charred desolation of her kingdom, she regretted many things\u2014most of all not acting sooner.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Tectonic Reformation",
+            "names": null,
+            "number": "149",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Each land card in your hand has cycling {R}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/3/6/36223e7e-bfa7-4393-b2a4-047f1dd30b93.jpg"
+        },
+        {
             "artist": "Mitchell Malloy",
             "cmc": 3.0,
             "colorIdentity": [
@@ -3836,6 +4216,88 @@
             "type": "Creature - Djinn",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/2/8/28642fbe-90c8-4beb-9950-91af28d93326.jpg"
+        },
+        {
+            "artist": "Noah Bradley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Tranquil Thicket",
+            "names": null,
+            "number": "248",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Tranquil Thicket enters the battlefield tapped.\n{T}: Add {G}.\nCycling {G} ({G}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://img.scryfall.com/cards/normal/front/b/7/b73571bd-b6e5-4338-a9b1-d847a8ad43d1.jpg"
+        },
+        {
+            "artist": "Scott Murphy",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Tribute Mage",
+            "names": null,
+            "number": "73",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "When Tribute Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 2, reveal that card, put it into your hand, then shuffle your library.",
+            "toughness": "2",
+            "type": "Creature - Human Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/c/6c180888-6acd-401b-815a-6ed434482681.jpg"
+        },
+        {
+            "artist": "Jason Felix",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Twisted Reflection",
+            "names": null,
+            "number": "74",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose one\u2014\n\u2022 Target creature gets -6/-0 until end of turn.\n\u2022 Switch target creature's power and toughness until end of turn.\nEntwine {B} (Choose both if you pay the entwine cost.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/f/1/f1d4d408-df74-45f7-925b-3cbff9a0304c.jpg"
         },
         {
             "artist": "Eric Deschamps",
@@ -4039,6 +4501,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/4/c/4c5a1d73-d102-469b-82ca-ec18f616375e.jpg"
         },
         {
+            "artist": "Raoul Vitale",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Vesperlark",
+            "names": null,
+            "number": "35",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhen Vesperlark leaves the battlefield, return target creature card with power 1 or less from your graveyard to the battlefield.\nEvoke {1}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+            "toughness": "1",
+            "type": "Creature - Elemental",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/2/32776159-3fb6-4a70-be84-837ccd1d54a7.jpg"
+        },
+        {
             "artist": "Greg Staples",
             "cmc": 5.0,
             "colorIdentity": [
@@ -4102,7 +4593,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": null,
+            "flavor": "\"Quell your ego and anywhere can be as calm as a hurricane's eye.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{G}",
@@ -4114,7 +4605,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "You gain 3 life.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+            "text": "You gain 3 life.\nStorm (When you cast this spell, copy it for each spell cast before it this turn.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",

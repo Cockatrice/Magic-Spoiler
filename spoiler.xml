@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Tue, May 28 2019, 23:07:29 (UTC)
+Created At: Wed, May 29 2019, 23:08:18 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -113,17 +113,16 @@ Whenever a creature enters the battlefield, you may attach Shielded by Faith to 
       <text>If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.</text>
     </card>
     <card>
-      <name>"I have HAD IT with these Samuel L. Jackson quotes"</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/5/65c8f074-e260-4f8e-85d1-1904ca928b51.jpg">MH1</set>
-      <manacost>2U</manacost>
-      <cmc>3.0</cmc>
-      <color>U</color>
-      <type>Creature - Naga Ninja</type>
-      <pt>3/1</pt>
+      <name>"Markov Manners"</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/9/a90a1c44-ee0f-4c12-bfaf-6f371bcce167.jpg">MH1</set>
+      <manacost>BB</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Creature - Vampire</type>
+      <pt>1/1</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
-Whenever "I have HAD IT with these Samuel L. Jackson quotes" deals combat damage to a player, create a token that's a copy of "I have HAD IT with these Samuel L. Jackson quotes".</text>
+      <text>Whenever "Markov Manners" or another creature dies, put a +1/+1 counter on each vampire creature you control.</text>
     </card>
     <card>
       <name>Abominable Treefolk</name>
@@ -149,6 +148,17 @@ When Abominable Treefolk enters the battlefield, tap target creature an opponent
       <loyalty>None</loyalty>
       <tablerow>1</tablerow>
       <text>Sacrifice a creature: Target player puts a number of cards equal to the sacrificed creature's power from the top of their library into their graveyard.</text>
+    </card>
+    <card>
+      <name>Answered Prayers</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/7/175b6e34-9cb3-4c8d-9cc0-960082a9ee71.jpg">MH1</set>
+      <manacost>1WW</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature enters the battlefield under your control, you gain 1 life. If Answered Prayers isn't a creature, it becomes a 3/3 Angel creature with flying in addition to its other types until end of turn.</text>
     </card>
     <card>
       <name>Archmage's Charm</name>
@@ -226,6 +236,19 @@ Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)</text>
 &#8226; Target Bear you control fights target creature you don't control.</text>
     </card>
     <card>
+      <name>Barren Moor</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/e/de4d8706-1b2f-41e9-8329-d0186b401227.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Barren Moor enters the battlefield tapped.
+{T}: Add {B}.
+Cycling {B} ({B}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
       <name>Battle Screech</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/a/eacf7dd0-5855-4e7b-b75c-8119cc3d1460.jpg">MH1</set>
       <manacost>2WW</manacost>
@@ -274,6 +297,19 @@ When Bazaar Trademage enters the battlefield, draw two cards, then discard three
       <tablerow>2</tablerow>
       <text>Menace
 At the beginning of your precombat main phase, you may sacrifice a creature. When you do, choose a nonland card name, then target player reveals their hand and discards all cards with that name.</text>
+    </card>
+    <card>
+      <name>Carrion Feeder</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/a/0a19da90-880e-4eca-8cf7-6d7baf090d53.jpg">MH1</set>
+      <manacost>B</manacost>
+      <cmc>1.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Carrion Feeder can't block.
+Sacrifice a creature: Put a +1/+1 counter on Carrion Feeder.</text>
     </card>
     <card>
       <name>Changeling Outcast</name>
@@ -435,6 +471,18 @@ Destroy target artifact or enchantment. If this spell was kicked, draw two cards
       <tablerow>2</tablerow>
       <text>Each Sliver creature card in your graveyard has unearth {2}.
 Unearth {2} ({2}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+    </card>
+    <card>
+      <name>Echo of Eons</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/f/f/ff590af2-2d6c-4f16-a9b8-1a6dab6e9ad5.jpg">MH1</set>
+      <manacost>4UU</manacost>
+      <cmc>6.0</cmc>
+      <color>U</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Each player shuffles their hand and graveyard into their library, then draws seven cards.
+Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
     </card>
     <card>
       <name>Eladamri's Call</name>
@@ -673,6 +721,19 @@ Flash
 Creatures you control get +1/+1.</text>
     </card>
     <card>
+      <name>Forgotten Cave</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/d/9d41b5e4-6b9a-419a-ba49-611c4699eda2.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Forgotten Cave enters the battlefield tapped.
+{T}: Add {R}.
+Cycling {R} ({R}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
       <name>Frostwalk Bastion</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/f/bfb5d83f-2b7c-4c22-ac37-938e7cd1654a.jpg">MH1</set>
       <manacost/>
@@ -830,6 +891,17 @@ Entwine {2}{R} (Choose both if you pay the entwine cost.)</text>
       <text>Whenever another creature enters the battlefield under your control, put a +1/+1 counter on that creature.</text>
     </card>
     <card>
+      <name>Hall of Heliod's Generosity</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/5/b5cbd10a-b9a6-4c00-8280-72bb4add4390.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Legendary Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>{T}: Add {C}.
+{1}{W}, {T}: Put target enchantment card from your graveyard on top of your library.</text>
+    </card>
+    <card>
       <name>Headless Specter</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/8/888b4b76-6af9-4479-8cfd-cde3b8694fe5.jpg">MH1</set>
       <manacost>1BB</manacost>
@@ -861,6 +933,22 @@ LEVEL 8+
 Protection from everything</text>
     </card>
     <card>
+      <name>Hogaak, Arisen Necropolis</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/0/0049e68d-0caf-474f-9523-dad343f1250a.jpg">MH1</set>
+      <manacost>5B/GB/G</manacost>
+      <cmc>7.0</cmc>
+      <color>B</color>
+      <color>G</color>
+      <type>Legendary Creature - Avatar</type>
+      <pt>8/8</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>You can't spend mana to cast this spell.
+Convoke, delve (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color. Each card you exile from your graveyard pays for {1}.)
+You may cast Hogaak, Arisen Necropolis from your graveyard.
+Trample</text>
+    </card>
+    <card>
       <name>Hollowhead Sliver</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/f/7f05b162-90aa-4c95-903f-775a17d20359.jpg">MH1</set>
       <manacost>2R</manacost>
@@ -889,7 +977,7 @@ When Ice-Fang Coatl enters the battlefield, draw a card.
 Ice-Fang Coatl has deathtouch as long as you control at least three other snow permanents.</text>
     </card>
     <card>
-      <name>Ice-Skin Golem</name>
+      <name>Icehide Golem</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/2/b2671c36-96fa-49e3-90dc-52820b2c8a62.jpg">MH1</set>
       <manacost>S</manacost>
       <cmc>1.0</cmc>
@@ -1035,6 +1123,19 @@ At the beginning of the end step, sacrifice Lightning Skelemental.</text>
       <text>{T}: Add {G}{G}{G}.</text>
     </card>
     <card>
+      <name>Lonely Sandbar</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/4/54e0fcc2-2409-4e00-95d5-418ffa161c20.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Lonely Sandbar enters the battlefield tapped.
+{T}: Add {U}.
+Cycling {U} ({U}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
       <name>Man-o'-War</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/e/5eaa4199-df9b-494a-af7a-2491e8b0ef70.jpg">MH1</set>
       <manacost>2U</manacost>
@@ -1058,6 +1159,19 @@ At the beginning of the end step, sacrifice Lightning Skelemental.</text>
       <tablerow>2</tablerow>
       <text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)
 When Martyr's Soul enters the battlefield, if you control no tapped lands, put two +1/+1 counters on it.</text>
+    </card>
+    <card>
+      <name>Mist-Syndicate Naga</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/5/65c8f074-e260-4f8e-85d1-1904ca928b51.jpg">MH1</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Creature - Naga Ninja</type>
+      <pt>3/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Mist-Syndicate Naga deals combat damage to a player, create a token that's a copy of Mist-Syndicate Naga.</text>
     </card>
     <card>
       <name>Morophon, the Boundless</name>
@@ -1329,6 +1443,30 @@ Sacrifice Ranger-Captain of Eos: Your opponents can't cast noncreature spells th
       <text>At the beginning of your upkeep, Ravenous Giant deals 1 damage to you.</text>
     </card>
     <card>
+      <name>Rebuild</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/d/fd683b0b-1ac1-4fa7-9657-d3b29db2ae51.jpg">MH1</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Return all artifacts to their owners' hands.
+Cycling {2} ({2}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
+      <name>Reckless Charge</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/7/1754a8db-060e-470f-94c0-37f12d82978a.jpg">MH1</set>
+      <manacost>R</manacost>
+      <cmc>1.0</cmc>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target creature gets +3/+0 and gains haste until end of turn.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+    </card>
+    <card>
       <name>Regrowth</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/7/d771fc5d-b9a1-4637-8241-3f54616b64af.jpg">MH1</set>
       <manacost>1G</manacost>
@@ -1425,6 +1563,19 @@ Flashback {4}{U} (You may cast this card from your graveyard for its flashback c
 {3}{R}{R}, Exile Seasoned Pyromancer from your graveyard: Create two 1/1 red Elemental creature tokens.</text>
     </card>
     <card>
+      <name>Secluded Steppe</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/b/cb40724c-62ca-43ab-b4cd-b5fd8e454bfe.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Secluded Steppe enters the battlefield tapped.
+{T}: Add {W}.
+Cycling {W} ({W}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
       <name>Segovian Angel</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/5/b5dbaec5-502d-48c2-9e71-c12cd0bccc6a.jpg">MH1</set>
       <manacost>W</manacost>
@@ -1448,6 +1599,18 @@ Flashback {4}{U} (You may cast this card from your graveyard for its flashback c
       <text>+2: Creatures you control with flying get +1/+1 until end of turn.
 -3: Create a 4/4 white Angel creature token with flying and vigilance.
 -6: You get an emblem with "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead."</text>
+    </card>
+    <card>
+      <name>Shenanigans</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/8/580c6fe2-ab43-491e-a1b2-d076a5c2a74e.jpg">MH1</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Destroy target artifact.
+Dredge 1 (If you would draw a card, instead you may put exactly one card from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</text>
     </card>
     <card>
       <name>Silent Clearing</name>
@@ -1722,6 +1885,18 @@ Equip {2}</text>
 {T}: Add {B} or {G}. Talisman of Resilience deals 1 damage to you.</text>
     </card>
     <card>
+      <name>Tectonic Reformation</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/6/36223e7e-bfa7-4393-b2a4-047f1dd30b93.jpg">MH1</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Each land card in your hand has cycling {R}.
+Cycling {2} ({2}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
       <name>Tempered Sliver</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/9/69026075-adfa-48b0-b30e-04b0a76904c3.jpg">MH1</set>
       <manacost>2G</manacost>
@@ -1775,6 +1950,45 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
       <tablerow>2</tablerow>
       <text>Flying
 Whenever Thundering Djinn attacks, it deals damage to any target equal to the number of cards you've drawn this turn.</text>
+    </card>
+    <card>
+      <name>Tranquil Thicket</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/7/b73571bd-b6e5-4338-a9b1-d847a8ad43d1.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Tranquil Thicket enters the battlefield tapped.
+{T}: Add {G}.
+Cycling {G} ({G}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
+      <name>Tribute Mage</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/c/6c180888-6acd-401b-815a-6ed434482681.jpg">MH1</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Creature - Human Wizard</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Tribute Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 2, reveal that card, put it into your hand, then shuffle your library.</text>
+    </card>
+    <card>
+      <name>Twisted Reflection</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/1/f1d4d408-df74-45f7-925b-3cbff9a0304c.jpg">MH1</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one&#8212;
+&#8226; Target creature gets -6/-0 until end of turn.
+&#8226; Switch target creature's power and toughness until end of turn.
+Entwine {B} (Choose both if you pay the entwine cost.)</text>
     </card>
     <card>
       <name>Umezawa's Charm</name>
@@ -1868,6 +2082,20 @@ Double strike</text>
 Deathtouch</text>
     </card>
     <card>
+      <name>Vesperlark</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/3/2/32776159-3fb6-4a70-be84-837ccd1d54a7.jpg">MH1</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Creature - Elemental</type>
+      <pt>2/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Vesperlark leaves the battlefield, return target creature card with power 1 or less from your graveyard to the battlefield.
+Evoke {1}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>
+    </card>
+    <card>
       <name>Wall of One Thousand Cuts</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/4/f4e5388a-1c1e-4809-99d0-bbdd93436c5e.jpg">MH1</set>
       <manacost>3WW</manacost>
@@ -1901,7 +2129,7 @@ Deathtouch</text>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>You gain 3 life.
-Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</text>
+Storm (When you cast this spell, copy it for each spell cast before it this turn.)</text>
     </card>
     <card>
       <name>Webweaver Changeling</name>
