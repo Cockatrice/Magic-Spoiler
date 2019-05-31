@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Thu, May 30 2019, 23:08:29 (UTC)
+Created At: Fri, May 31 2019, 12:28:33 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -1724,6 +1724,18 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</text>
 -6: You get an emblem with "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead."</text>
     </card>
     <card>
+      <name>Shelter</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/a/1a50984b-5bf5-4432-a149-96492d1683de.jpg">MH1</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target creature you control gains protection from the color of your choice until end of turn.
+Draw a card.</text>
+    </card>
+    <card>
       <name>Shenanigans</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/8/580c6fe2-ab43-491e-a1b2-d076a5c2a74e.jpg">MH1</set>
       <manacost>1R</manacost>
@@ -2305,6 +2317,19 @@ Deathtouch</text>
       <text>Flying
 When Vesperlark leaves the battlefield, return target creature card with power 1 or less from your graveyard to the battlefield.
 Evoke {1}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>
+    </card>
+    <card>
+      <name>Wall of Blossoms</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/5/05ef5786-7786-4418-b245-038b58fd7123.jpg">MH1</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Creature - Plant Wall</type>
+      <pt>0/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Defender
+When Wall of Blossoms enters the battlefield, draw a card.</text>
     </card>
     <card>
       <name>Wall of One Thousand Cuts</name>
