@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Fri, May 31 2019, 12:28:33 (UTC)
+Created At: Fri, May 31 2019, 23:07:54 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -170,6 +170,17 @@ When Alpine Guide leaves the battlefield, sacrifice a Mountain.</text>
       <text>Sacrifice a creature: Target player puts a number of cards equal to the sacrificed creature's power from the top of their library into their graveyard.</text>
     </card>
     <card>
+      <name>Amorphous Axe</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/d/8d149ede-3201-451a-a640-d0c10b024dbc.jpg">MH1</set>
+      <manacost>2</manacost>
+      <cmc>2.0</cmc>
+      <type>Artifact - Equipment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +3/+0 and is every creature type.
+Equip {3}</text>
+    </card>
+    <card>
       <name>Answered Prayers</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/7/175b6e34-9cb3-4c8d-9cc0-960082a9ee71.jpg">MH1</set>
       <manacost>1WW</manacost>
@@ -256,6 +267,19 @@ Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)</text>
 &#8226; Target Bear you control fights target creature you don't control.</text>
     </card>
     <card>
+      <name>Azra Smokeshaper</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/6/f627e521-2b8f-4d0f-a9d3-cc4e331ce57d.jpg">MH1</set>
+      <manacost>3B</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <type>Creature - Azra Ninja</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to your hand: Put this card onto the battlefield tapped and attacking)
+When Azra Smokeshaper enters the battlefield, target creature you control gains indestructible until end of turn.</text>
+    </card>
+    <card>
       <name>Barren Moor</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/e/de4d8706-1b2f-41e9-8329-d0186b401227.jpg">MH1</set>
       <manacost/>
@@ -294,6 +318,28 @@ Flashback&#8212;Tap three untapped white creatures you control. (You may cast th
 When Bazaar Trademage enters the battlefield, draw two cards, then discard three cards.</text>
     </card>
     <card>
+      <name>Bellowing Elk</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/e/cec6cf54-79ff-44e8-af83-786fd72867dd.jpg">MH1</set>
+      <manacost>3G</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <type>Creature - Elk</type>
+      <pt>4/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>As long as you had another creature enter the battlefield under your control this turn, Bellowing Elk has trample and indestructible.</text>
+    </card>
+    <card>
+      <name>Birthing Boughs</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/3/1345ee24-ffa3-44d1-a983-f25f54cda3f3.jpg">MH1</set>
+      <manacost>3</manacost>
+      <cmc>3.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>{4}, {T}: Create a 2/2 colorless Shapeshifter creature token with changeling. (It has every creature type.)</text>
+    </card>
+    <card>
       <name>Bladeback Sliver</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/0/7066c9ab-9420-46f9-a6c7-ce4d5273e2fa.jpg">MH1</set>
       <manacost>1R</manacost>
@@ -304,6 +350,32 @@ When Bazaar Trademage enters the battlefield, draw two cards, then discard three
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Hellbent &#8212; As long as you have no cards in hand, Sliver creatures you control have "{T}: This creature deals 1 damage to target player or planeswalker."</text>
+    </card>
+    <card>
+      <name>Blizzard Strix</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/1/217dfa26-d3ad-4fe8-9db4-ddd753a4b679.jpg">MH1</set>
+      <manacost>4U</manacost>
+      <cmc>5.0</cmc>
+      <color>U</color>
+      <type>Snow Creature - Bird</type>
+      <pt>3/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flash
+Flying
+When Blizzard Strix enters the battlefield, if you control another snow permanent, exile target permanent other than Blizzard Strix. Return that card to the battlefield under its owner's control at the beginning of the next end step.</text>
+    </card>
+    <card>
+      <name>Bogardan Dragonheart</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/e/feb81f44-8f22-4d28-a452-a50bef69a3e3.jpg">MH1</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Human Shaman</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sacrifice another creature: Until end of turn, Bogardan Dragonheart becomes a Dragon with base power and toughness 4/4, flying, and haste.</text>
     </card>
     <card>
       <name>Cabal Therapist</name>
@@ -330,6 +402,18 @@ At the beginning of your precombat main phase, you may sacrifice a creature. Whe
       <tablerow>2</tablerow>
       <text>Carrion Feeder can't block.
 Sacrifice a creature: Put a +1/+1 counter on Carrion Feeder.</text>
+    </card>
+    <card>
+      <name>Cave of Temptation</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/8/d86e9149-6fd9-44fc-b765-3e646c7d83d6.jpg">MH1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{4}, {T}, Sacrifice Cave of Temptation: Put two +1/+1 counters on target creature. Activate this ability only any time you could cast a sorcery.</text>
     </card>
     <card>
       <name>Changeling Outcast</name>
@@ -371,6 +455,18 @@ Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
 When you cycle Choking Tethers, you may tap target creature.</text>
     </card>
     <card>
+      <name>Cleaving Sliver</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/1/51b657f0-6636-4d8a-9176-81027816e0ec.jpg">MH1</set>
+      <manacost>3R</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <type>Creature - Sliver</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sliver creatures you control get +2/+0.</text>
+    </card>
+    <card>
       <name>Cloudshredder Sliver</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/7/27933191-dad6-43d5-b02e-a94ad8033f2f.jpg">MH1</set>
       <manacost>RW</manacost>
@@ -408,6 +504,19 @@ When you cycle Choking Tethers, you may tap target creature.</text>
       <text>Activated abilities of artifacts can't be activated.</text>
     </card>
     <card>
+      <name>Conifer Wurm</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/4/84f99d23-5d3e-4f36-b1c7-3a893e4b4c32.jpg">MH1</set>
+      <manacost>4G</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Snow Creature - Wurm</type>
+      <pt>4/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+{3}{G}: Conifer Wurm gets +X/+X until end of turn, where X is the number of snow permanents you control.</text>
+    </card>
+    <card>
       <name>Cordial Vampire</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/9/a90a1c44-ee0f-4c12-bfaf-6f371bcce167.jpg">MH1</set>
       <manacost>BB</manacost>
@@ -442,6 +551,17 @@ Create two 4/4 green Rhino creature tokens with trample.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>{X}: Crypt Rats deals X damage to each creature and each player. Spend only black mana on X.</text>
+    </card>
+    <card>
+      <name>Cunning Evasion</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/3/0/300a431c-48a9-4d63-8256-cb6bdaa67b4c.jpg">MH1</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature you control becomes blocked, you may return it to its owner's hand.</text>
     </card>
     <card>
       <name>Dead of Winter</name>
@@ -618,6 +738,19 @@ Creatures you control of the chosen type get +1/+1.
 Splice onto instant or sorcery {2}{U} (As you cast an instant or sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)</text>
     </card>
     <card>
+      <name>Excavating Anurid</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/3/d353d315-5790-417d-adf5-270df1ff34b0.jpg">MH1</set>
+      <manacost>4G</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Creature - Frog Beast</type>
+      <pt>4/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Excavating Anurid enters the battlefield, you may sacrifice a land. If you do, draw a card.
+Threshold &#8212; As long as seven or more cards are in your graveyard, Excavating Anurid gets +1/+1 and has vigilance.</text>
+    </card>
+    <card>
       <name>Exclude</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/7/077ffa65-542f-4b83-9fcb-d3384b74633c.jpg">MH1</set>
       <manacost>2U</manacost>
@@ -628,6 +761,32 @@ Splice onto instant or sorcery {2}{U} (As you cast an instant or sorcery spell, 
       <tablerow>3</tablerow>
       <text>Counter target creature spell.
 Draw a card.</text>
+    </card>
+    <card>
+      <name>Eyekite</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/9/49f7bda8-949a-42aa-9254-f39b791cb9a8.jpg">MH1</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Creature - Drake</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Eyekite gets +2/+0 as long as you've drawn two or more cards this turn.</text>
+    </card>
+    <card>
+      <name>Face of Divinity</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/4/14167f33-00e2-41f9-b545-b476562881c6.jpg">MH1</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Enchanted creature gets +2/+2.
+As long as another Aura is attached to enchanted creature, it has first strike and lifelink.</text>
     </card>
     <card>
       <name>Fact or Fiction</name>
@@ -715,6 +874,31 @@ Devour 2 (As this enters the battlefield, you may sacrifice any number of creatu
       <tablerow>3</tablerow>
       <text>Firebolt deals 2 damage to any target.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+    </card>
+    <card>
+      <name>First Sliver's Chosen</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/f/7f5c4368-4f2e-4f5f-8944-8b0d49ab3e38.jpg">MH1</set>
+      <manacost>4W</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Creature - Sliver</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sliver creatures you control have exalted. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)</text>
+    </card>
+    <card>
+      <name>First-Sphere Gargantua</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/a/5/a59f4e5c-fdc7-485f-aadb-2a71b3701dcc.jpg">MH1</set>
+      <manacost>4BB</manacost>
+      <cmc>6.0</cmc>
+      <color>B</color>
+      <type>Creature - Horror</type>
+      <pt>5/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When First-Sphere Gargantua enters the battlefield, you draw a card and you lose 1 life.
+Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery)</text>
     </card>
     <card>
       <name>Fists of Flame</name>
@@ -812,6 +996,17 @@ Creatures you control get +1/+1.</text>
       <text>Forgotten Cave enters the battlefield tapped.
 {T}: Add {R}.
 Cycling {R} ({R}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
+      <name>Fountain of Ichor</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/0/b022a628-4883-427a-8477-0e87d1a71028.jpg">MH1</set>
+      <manacost>3</manacost>
+      <cmc>3.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>{T}: Add one mana of any color.
+{3}: Fountain of Ichor becomes a 3/3 Dinosaur artifact creature until end of turn.</text>
     </card>
     <card>
       <name>Frostwalk Bastion</name>
@@ -920,6 +1115,19 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</text>
       <text>Reveal the top six cards of your library. You may put any number of snow permanent cards from among them into your hand. Put the rest into your graveyard.</text>
     </card>
     <card>
+      <name>Gluttonous Slug</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/5/9514ce0d-8d61-4cce-b2ad-8f417869d04e.jpg">MH1</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Creature - Slug Horror</type>
+      <pt>0/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Menace
+Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature)</text>
+    </card>
+    <card>
       <name>Goatnap</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/0/709d4928-e976-4c7c-ba09-cce95d1797b2.jpg">MH1</set>
       <manacost>2R</manacost>
@@ -1005,6 +1213,19 @@ Entwine {2}{R} (Choose both if you pay the entwine cost.)</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Whenever another creature enters the battlefield under your control, put a +1/+1 counter on that creature.</text>
+    </card>
+    <card>
+      <name>Graveshifter</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/2/128c516b-7eb1-4f81-8b54-428bd0649d92.jpg">MH1</set>
+      <manacost>3B</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <type>Creature - Shapeshifter</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Changeling (This card is every creature type)
+When Graveshifter enters the battlefield, you may return target creature card from your graveyard to your hand.</text>
     </card>
     <card>
       <name>Hall of Heliod's Generosity</name>
@@ -1093,6 +1314,18 @@ When Ice-Fang Coatl enters the battlefield, draw a card.
 Ice-Fang Coatl has deathtouch as long as you control at least three other snow permanents.</text>
     </card>
     <card>
+      <name>Iceberg Cancrix</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/8/d84b1444-a609-4c23-935d-fa25aef16179.jpg">MH1</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Snow Creature - Crab</type>
+      <pt>0/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever another snow permanent enters the battlefield under your control, you may have target player put the top two cards of their library into their graveyard.</text>
+    </card>
+    <card>
       <name>Icehide Golem</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/2/b2671c36-96fa-49e3-90dc-52820b2c8a62.jpg">MH1</set>
       <manacost>S</manacost>
@@ -1102,6 +1335,19 @@ Ice-Fang Coatl has deathtouch as long as you control at least three other snow p
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>({S} can be paid with one mana from a snow permanent.)</text>
+    </card>
+    <card>
+      <name>Igneous Elemental</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/7/974bf524-5322-4287-ac49-face12655874.jpg">MH1</set>
+      <manacost>4RR</manacost>
+      <cmc>6.0</cmc>
+      <color>R</color>
+      <type>Creature - Elemental</type>
+      <pt>4/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>This spell costs {2} less to cast if there is a land card in your graveyard.
+When Igneous Elemental enters the battlefield, you may have it deal 2 damage to target creature.</text>
     </card>
     <card>
       <name>Impostor of the Sixth Pride</name>
@@ -1128,6 +1374,19 @@ Ice-Fang Coatl has deathtouch as long as you control at least three other snow p
       <tablerow>2</tablerow>
       <text>Ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever a Ninja you control deals combat damage to a player, draw a card.</text>
+    </card>
+    <card>
+      <name>Irregular Cohort</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/2/92c46961-cf1a-4f20-83aa-3d256db2388f.jpg">MH1</set>
+      <manacost>2WW</manacost>
+      <cmc>4.0</cmc>
+      <color>W</color>
+      <type>Creature - Shapeshifter</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Changeling (This card is every creature type.)
+When Irregular Cohort enters the battlefield, create a 2/2 colorless Shapeshifter creature token with changeling.</text>
     </card>
     <card>
       <name>Kaya's Guile</name>
@@ -1174,6 +1433,19 @@ During each of your turns, you may cast an instant or sorcery card from your gra
       <text>Other Cats you control get +2/+1.</text>
     </card>
     <card>
+      <name>Knight of Old Benalia</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/d/6d919fc0-0117-4dad-a368-e76b216cdd2a.jpg">MH1</set>
+      <manacost>3WW</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Creature - Human Knight</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Suspend 5&#8212;{W} (Rather than cast this card from your hand, you may pay {W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
+When Knight of Old Benalia enters the battlefield, other creatures you control get +1/+1 until end of turn.</text>
+    </card>
+    <card>
       <name>Krosan Tusker</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/3/6391ba8b-7d9a-4077-8eeb-1b2ced14d973.jpg">MH1</set>
       <manacost>5GG</manacost>
@@ -1185,6 +1457,18 @@ During each of your turns, you may cast an instant or sorcery card from your gra
       <tablerow>2</tablerow>
       <text>Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)
 When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library. (Do this before you draw.)</text>
+    </card>
+    <card>
+      <name>Lancer Sliver</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/a/9a4f8d9a-3760-449e-b8a6-72b2a641ff23.jpg">MH1</set>
+      <manacost>2W</manacost>
+      <cmc>3.0</cmc>
+      <color>W</color>
+      <type>Creature - Sliver</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Sliver creatures you control have first strike.</text>
     </card>
     <card>
       <name>Lava Dart</name>
@@ -1352,6 +1636,18 @@ Overload {1}{B} (You may cast this spell for its overload cost. If you do, chang
 Whenever Mist-Syndicate Naga deals combat damage to a player, create a token that's a copy of Mist-Syndicate Naga.</text>
     </card>
     <card>
+      <name>Mob</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/3/c/3c216e13-3779-4734-b481-9aad7aba9925.jpg">MH1</set>
+      <manacost>4B</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Destroy target creature.</text>
+    </card>
+    <card>
       <name>Moonblade Shinobi</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/4/f4ab7f30-ca75-4656-9738-1d965f18a22d.jpg">MH1</set>
       <manacost>3U</manacost>
@@ -1414,6 +1710,19 @@ Other creatures you control of the chosen type get +1/+1.</text>
       <tablerow>2</tablerow>
       <text>Flash
 When Munitions Expert enters the battlefield, you may have it deal damage to target creature or planeswalker equal to the number of Goblins you control.</text>
+    </card>
+    <card>
+      <name>Murasa Behemoth</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/8/480ddde1-81d3-4939-b232-cb1ced6cfc4d.jpg">MH1</set>
+      <manacost>4GG</manacost>
+      <cmc>6.0</cmc>
+      <color>G</color>
+      <type>Creature - Beast</type>
+      <pt>5/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+Murasa Behemoth gets +3/+3 as long as there is a land card in your graveyard.</text>
     </card>
     <card>
       <name>Nantuko Cultivator</name>
@@ -1500,6 +1809,19 @@ Threshold &#8212; Nimble Mongoose gets +2/+2 as long as seven or more cards are 
 When On Thin Ice enters the battlefield, exile target creature an opponent controls until On Thin Ice leaves the battlefield.</text>
     </card>
     <card>
+      <name>Oneirophage</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/a/caefbac6-b2a0-4a70-a912-25173eafd7b3.jpg">MH1</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Creature - Squid Illusion</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever you draw a card, put a +1/+1 counter on Oneirophage.</text>
+    </card>
+    <card>
       <name>Orcish Hellraiser</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/6/56ea32e5-b164-4a8d-9312-c35ae5cd8b2a.jpg">MH1</set>
       <manacost>1R</manacost>
@@ -1537,6 +1859,18 @@ Flying, haste</text>
       <tablerow>2</tablerow>
       <text>Whenever Pashalik Mons or another Goblin you control dies, Pashalik Mons deals 1 damage to any target.
 {3}{R}, Sacrifice a Goblin: Create two 1/1 red Goblin creature tokens.</text>
+    </card>
+    <card>
+      <name>Phantasmal Form</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/1/f106e515-511a-48c7-b7a7-3ca820950122.jpg">MH1</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Until end of turn, up to two target creatures each have base power and toughness 3/3, gain flying, and become blue Illusions in addition to their other colors and types.
+Draw a card.</text>
     </card>
     <card>
       <name>Phantom Ninja</name>
@@ -1622,6 +1956,18 @@ Creatures of the chosen type your opponents control get -1/-1.</text>
 Counter target spell if its converted mana cost is 2 or less. If this spell was kicked, counter that spell if its converted mana cost is 4 or less instead.</text>
     </card>
     <card>
+      <name>Putrid Goblin</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/3/3/333406d5-abcc-4629-a33b-395d0662ba1b.jpg">MH1</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Goblin</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</text>
+    </card>
+    <card>
       <name>Pyrophobia</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/f/ff02b3f1-d70f-4e44-bc1c-7fc90ec611dc.jpg">MH1</set>
       <manacost>1R</manacost>
@@ -1631,6 +1977,31 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Pyrophobia deals 3 damage to target creature. Cowards can't block this turn.</text>
+    </card>
+    <card>
+      <name>Quakefoot Cyclops</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/7/27573ee0-156a-4bf3-95eb-5e7b63c638e7.jpg">MH1</set>
+      <manacost>4R</manacost>
+      <cmc>5.0</cmc>
+      <color>R</color>
+      <type>Creature - Cyclops</type>
+      <pt>4/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Quakefoot Cyclops enters the battlefield, up to two target creatures can't block this turn.
+Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)
+When you cycle Quakefoot Cyclops, target creature can't block this turn.</text>
+    </card>
+    <card>
+      <name>Rain of Revelation</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/2/42230b38-c81a-4d76-ad17-1166f5f62312.jpg">MH1</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Draw three cards, then discard a card.</text>
     </card>
     <card>
       <name>Ranger-Captain of Eos</name>
@@ -1644,6 +2015,30 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
       <tablerow>2</tablerow>
       <text>When Ranger-Captain of Eos enters the battlefield, you may search your library for a creature card with converted mana cost 1 or less, reveal it, put it into your hand, then shuffle your library.
 Sacrifice Ranger-Captain of Eos: Your opponents can't cast noncreature spells this turn.</text>
+    </card>
+    <card>
+      <name>Rank Officer</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/a/7a05edf6-ade4-4052-924d-6057faa51693.jpg">MH1</set>
+      <manacost>3B</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Soldier</type>
+      <pt>3/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Rank Officer enters the battlefield, you may discard a card. If you do, create a 2/2 black Zombie creature token.
+{1}{B}, {T}, Exile a creature card from your graveyard: Each opponent loses 2 life.</text>
+    </card>
+    <card>
+      <name>Ransack the Lab</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/5/b547513d-8b69-41cd-84c9-4b08b6426f1d.jpg">MH1</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.</text>
     </card>
     <card>
       <name>Ravenous Giant</name>
@@ -1694,6 +2089,18 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</text>
 Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
     </card>
     <card>
+      <name>Recruit the Worthy</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/b/fb025c0c-7fdf-4f71-afd5-ef11cd2804eb.jpg">MH1</set>
+      <manacost>W</manacost>
+      <cmc>1.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
+Create a 1/1 white Soldier creature token.</text>
+    </card>
+    <card>
       <name>Regrowth</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/7/d771fc5d-b9a1-4637-8241-3f54616b64af.jpg">MH1</set>
       <manacost>1G</manacost>
@@ -1703,6 +2110,56 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Return target card from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Reprobation</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/1/b1349c3d-39ad-40ba-897e-59e5b76de853.jpg">MH1</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Enchanted creature loses all abilities and is a Coward creature with base power and toughness 0/1. (It keeps all supertypes but loses all other types and creature types.)</text>
+    </card>
+    <card>
+      <name>Return from Extinction</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/c/6/c6db664e-f0c4-4e60-add7-89b9f210cbc7.jpg">MH1</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one &#8212;
+&#8226; Return target creature card from your graveyard to your hand.
+&#8226; Return two target creature cards that share a creature type from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Rhox Veteran</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/3/6384e266-d0dc-4af1-b3ab-ecaf9be2553c.jpg">MH1</set>
+      <manacost>3W</manacost>
+      <cmc>4.0</cmc>
+      <color>W</color>
+      <type>Creature - Rhino Soldier</type>
+      <pt>2/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+Whenever Rhox Veteran attacks, tap target creature an opponent controls.</text>
+    </card>
+    <card>
+      <name>Rime Tender</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/c/8ce0ab73-4df6-479f-8710-61ef87cce3b4.jpg">MH1</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Snow Creature - Human Druid</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{T}: Untap another target snow permanent.</text>
     </card>
     <card>
       <name>Rotwidow Pack</name>
@@ -1730,6 +2187,30 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>When Ruination Rioter dies, you may have it deal damage to any target equal to the number of land cards in your graveyard.</text>
+    </card>
+    <card>
+      <name>Saddled Rimestag</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/0/a0e8491f-9c51-41c0-994e-d3f0f5f6a411.jpg">MH1</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Snow Creature - Elk</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Saddled Rimestag gets +2/+2 as long as you had another creature enter the battlefield under your control this turn.</text>
+    </card>
+    <card>
+      <name>Sadistic Obsession</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/4/64080d0d-163b-450d-8919-79a0465f3645.jpg">MH1</set>
+      <manacost>3B</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <type>Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Enchanted creature has "{B}, {T}: Put a -1/-1 counter on target creature."</text>
     </card>
     <card>
       <name>Savage Swipe</name>
@@ -1842,6 +2323,32 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</text>
 -6: You get an emblem with "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead."</text>
     </card>
     <card>
+      <name>Settle Beyond Reality</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/2/72ed8e57-61bb-4e89-9484-ff2be800a449.jpg">MH1</set>
+      <manacost>4W</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one or both &#8212;
+&#8226; Exile target creature you don't control.
+&#8226; Exile target creature you control, then return it to the battlefield under its owner's control.</text>
+    </card>
+    <card>
+      <name>Shatter Assumptions</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/f/7f224f64-513f-4c01-9b1b-bb89e366f1c4.jpg">MH1</set>
+      <manacost>1BB</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one &#8212;
+&#8226; Target opponent reveals their hand and discards all colorless nonland cards.
+&#8226; Target opponent reveals their hand and discards all multicolored cards.</text>
+    </card>
+    <card>
       <name>Shelter</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/a/1a50984b-5bf5-4432-a149-96492d1683de.jpg">MH1</set>
       <manacost>1W</manacost>
@@ -1875,6 +2382,20 @@ Dredge 1 (If you would draw a card, instead you may put exactly one card from th
       <tablerow>0</tablerow>
       <text>{T}, Pay 1 life: Add {W} or {B}.
 {1}, {T}, Sacrifice Silent Clearing: Draw a card.</text>
+    </card>
+    <card>
+      <name>Silumgar Scavenger</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/9/49c37d70-799d-464a-972c-11a78ae31272.jpg">MH1</set>
+      <manacost>4B</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Bird</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Exploit (When this creature enters the battlefield, you may sacrifice a creature.)
+Whenever another creature you control dies, put a +1/+1 counter on Silumgar Scavenger. It gains haste until end of turn if it exploited that creature.</text>
     </card>
     <card>
       <name>Sisay, Weatherlight Captain</name>
@@ -1913,6 +2434,19 @@ Sacrifice a Goblin: Target player loses 1 life and you gain 1 life.</text>
       <tablerow>3</tablerow>
       <text>Smiting Helix deals 3 damage to any target and you gain 3 life.
 Flashback {R}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+    </card>
+    <card>
+      <name>Smoke Shroud</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/0/e07c876e-ae1c-4b54-8d8a-9f3fd76ca64c.jpg">MH1</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Enchanted creature gets +1/+1 and has flying.
+When a Ninja enters the battlefield under your control, you may return Smoke Shroud from your graveyard to the battlefield attached to that creature.</text>
     </card>
     <card>
       <name>Snow-Covered Forest</name>
@@ -1965,6 +2499,19 @@ Flashback {R}{W} (You may cast this card from your graveyard for its flashback c
       <text>({T}: Add {B}.)</text>
     </card>
     <card>
+      <name>Soul-Strike Technique</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/6/b6ab5f70-8f69-467f-9fa5-f69181edcb80.jpg">MH1</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Enchanted creature gets +1/+1 and has vigilance.
+When enchanted creature dies, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up at any time for its mana cost if it's a creature card.)</text>
+    </card>
+    <card>
       <name>Soulherder</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/a/ea23111b-ccc1-4d5c-a9d2-9db14c728820.jpg">MH1</set>
       <manacost>1WU</manacost>
@@ -1989,6 +2536,18 @@ At the beginning of your end step, you may exile another target creature you con
       <tablerow>3</tablerow>
       <text>Counter target spell.
 Fateful hour &#8212; If you have 5 or less life, draw a card.</text>
+    </card>
+    <card>
+      <name>Spinehorn Minotaur</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/6/86b9479d-7b6a-40c8-94ea-fdf0ec980b42.jpg">MH1</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Minotaur Berserker</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>As long as you've drawn two or more cards this turn, Spinehorn Minotaur has double strike.</text>
     </card>
     <card>
       <name>Spiteful Sliver</name>
@@ -2049,6 +2608,18 @@ Splice onto instant or sorcery {3}{W} (As you cast an instant or sorcery spell, 
       <tablerow>1</tablerow>
       <text>Enchant land
 Enchanted land has "{T}: Create a 1/1 green Squirrel creature token."</text>
+    </card>
+    <card>
+      <name>Stirring Address</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/d/2de3e3b0-6ecf-4bf6-9595-0e5e59ef1d6a.jpg">MH1</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target creature you control gets +2/+2 until end of turn.
+Overload {5}{W} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")</text>
     </card>
     <card>
       <name>Stream of Thought</name>
@@ -2268,6 +2839,32 @@ Whenever Thundering Djinn attacks, it deals damage to any target equal to the nu
 Cycling {G} ({G}, Discard this card: Draw a card.)</text>
     </card>
     <card>
+      <name>Treefolk Umbra</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/7/677166cf-4e1e-43ac-a67b-afaf33c0d14e.jpg">MH1</set>
+      <manacost>2G</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Enchanted creature gets +0/+2 and assigns combat damage equal to its toughness rather than its power.
+Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</text>
+    </card>
+    <card>
+      <name>Treetop Ambusher</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/1/e1722a55-850c-4924-be98-45539f4676a2.jpg">MH1</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Creature - Elf Berserker</type>
+      <pt>2/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Dash {1}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
+Whenever Treetop Ambusher attacks, target creature you control gets +1/+1 until end of turn.</text>
+    </card>
+    <card>
       <name>Tribute Mage</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/c/6c180888-6acd-401b-815a-6ed434482681.jpg">MH1</set>
       <manacost>2U</manacost>
@@ -2278,6 +2875,43 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>When Tribute Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 2, reveal that card, put it into your hand, then shuffle your library.</text>
+    </card>
+    <card>
+      <name>Trumpeting Herd</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/b/0/b0f3b68e-f616-4687-bc2d-075165162cd1.jpg">MH1</set>
+      <manacost>2GG</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Create a 3/3 green Elephant creature token.
+Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</text>
+    </card>
+    <card>
+      <name>Trustworthy Scout</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/a/8a65f118-3812-4698-8f43-669ceb6b7982.jpg">MH1</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Creature - Human Scout</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{1}{W}, Exile Trustworthy Scout from your graveyard: Search your library for a card named Trustworthy Scout, reveal it, put it into your hand, then shuffle your library.</text>
+    </card>
+    <card>
+      <name>Twin-Silk Spider</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/7/c/7cf3188c-879b-4b18-88b4-6237d7162271.jpg">MH1</set>
+      <manacost>2G</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Creature - Spider</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Reach
+When Twin-Silk Spider enters the battlefield, create a 1/2 green Spider creature token with reach.</text>
     </card>
     <card>
       <name>Twisted Reflection</name>
@@ -2410,6 +3044,19 @@ Changeling (This card is every creature type.)
 Double strike</text>
     </card>
     <card>
+      <name>Vengeful Devil</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/2/1265d65e-3f26-46d9-8b8b-e75048a02e95.jpg">MH1</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Creature - Devil</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Haste
+Morbid &#8212; {T}: Vengeful Devil deals 1 damage to any target. Activate this ability only if a creature died this turn.</text>
+    </card>
+    <card>
       <name>Venomous Changeling</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/c/4c5a1d73-d102-469b-82ca-ec18f616375e.jpg">MH1</set>
       <manacost>2B</manacost>
@@ -2437,6 +3084,31 @@ When Vesperlark leaves the battlefield, return target creature card with power 1
 Evoke {1}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>
     </card>
     <card>
+      <name>Viashino Sandsprinter</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/f/7/f7d1def0-1450-44ec-b7c4-0fa50fe12c15.jpg">MH1</set>
+      <manacost>1RR</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Viashino Warrior</type>
+      <pt>4/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample, haste
+At the beginning of the end step, return Viashino Sandsprinter to its owner's hand. (Return it only if it's on the battlefield.)
+Cycling {R} ({R}, Discard this card: Draw a card.)</text>
+    </card>
+    <card>
+      <name>Volatile Claws</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/3/6/36cb119b-dd15-40d2-8f75-c92f5d41d1e1.jpg">MH1</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Until end of turn, creatures you control get +2/+0 and gain all creature types.</text>
+    </card>
+    <card>
       <name>Wall of Blossoms</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/5/05ef5786-7786-4418-b245-038b58fd7123.jpg">MH1</set>
       <manacost>1G</manacost>
@@ -2461,6 +3133,18 @@ When Wall of Blossoms enters the battlefield, draw a card.</text>
       <tablerow>2</tablerow>
       <text>Defender, flying
 {W}: Wall of One Thousand Cuts can attack this turn as though it didn't have defender.</text>
+    </card>
+    <card>
+      <name>Warteye Witch</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/0/e0d4dd61-cc7e-4fc5-afce-73a4b326cfdb.jpg">MH1</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Goblin Shaman</type>
+      <pt>3/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever Warteye Witch or another creature you control dies, scry 1.</text>
     </card>
     <card>
       <name>Watcher for Tomorrow</name>
@@ -2513,6 +3197,31 @@ Reach
 When Webweaver Changeling enters the battlefield, if there are three or more creature cards in your graveyard, you gain 5 life.</text>
     </card>
     <card>
+      <name>Windcaller Aven</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/8/8/88d26568-be8f-4a04-82b6-4c37b55d4cfd.jpg">MH1</set>
+      <manacost>4UU</manacost>
+      <cmc>6.0</cmc>
+      <color>U</color>
+      <type>Creature - Bird Wizard</type>
+      <pt>4/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Cycling {U} ({U}, Discard this card: Draw a card.)
+When you cycle Windcaller Aven, target creature gains flying until end of turn.</text>
+    </card>
+    <card>
+      <name>Winding Way</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/e/4e5d9776-b6ce-4ad6-8acc-69115ba5de76.jpg">MH1</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose creature or land. Reveal the top four cards of your library. Put all cards of the chosen type revealed this way into your hand and the rest into your graveyard.</text>
+    </card>
+    <card>
       <name>Winds of Abandon</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/b/3bb17913-fe4d-4acd-9b75-71f5a90f898b.jpg">MH1</set>
       <manacost>1W</manacost>
@@ -2535,6 +3244,19 @@ Overload {4}{W}{W} (You may cast this spell for its overload cost. If you do, ch
       <tablerow>3</tablerow>
       <text>Target player sacrifices an attacking creature.
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)</text>
+    </card>
+    <card>
+      <name>Winter's Rest</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/f/1fdaf6b6-aca7-49e5-a4da-bf8c08b4a055.jpg">MH1</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Snow Enchantment - Aura</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+When Winter's Rest enters the battlefield, tap enchanted creature.
+As long as you control another snow permanent, enchanted creature doesn't untap during its controller's untap step.</text>
     </card>
     <card>
       <name>Wrenn and Six</name>
