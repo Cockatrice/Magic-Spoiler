@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Mon, Jun 03 2019, 23:10:02 (UTC)
+Created At: Thu, Jun 06 2019, 23:11:07 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -213,7 +213,7 @@ Equip {3}</text>
       <type>Snow Artifact</type>
       <loyalty>None</loyalty>
       <tablerow>1</tablerow>
-      <text>({S} can be paid with one mana from a snow permanent.)
+      <text>&lt;i&gt;({S} can be paid with one mana from a snow permanent.)&lt;/i&gt;
 When Arcum's Astrolabe enters the battlefield, draw a card.
 {1}, {T}: Add one mana of any color.</text>
     </card>
@@ -276,7 +276,7 @@ Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)</text>
       <pt>3/3</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to your hand: Put this card onto the battlefield tapped and attacking)
+      <text>Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 When Azra Smokeshaper enters the battlefield, target creature you control gains indestructible until end of turn.</text>
     </card>
     <card>
@@ -489,7 +489,7 @@ When you cycle Choking Tethers, you may tap target creature.</text>
       <type>Sorcery</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana costs 3 or less from among them without paying their mana cost. Put the exiled cards not cast this way on the bottom of your library in a random order.</text>
+      <text>Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana cost 3 or less from among them without paying their mana costs. Put the exiled cards not cast this way on the bottom of your library in a random order.</text>
     </card>
     <card>
       <name>Collector Ouphe</name>
@@ -526,7 +526,7 @@ When you cycle Choking Tethers, you may tap target creature.</text>
       <pt>1/1</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Whenever Cordial Vampire or another creature dies, put a +1/+1 counter on each vampire creature you control.</text>
+      <text>Whenever Cordial Vampire or another creature dies, put a +1/+1 counter on each Vampire you control.</text>
     </card>
     <card>
       <name>Crashing Footfalls</name>
@@ -697,7 +697,7 @@ Target creature gets +2/+2 until end of turn.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Outlast {2} ({2}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
-Other sliver creatures you control have outlast {2}.</text>
+Other Sliver creatures you control have outlast {2}.</text>
     </card>
     <card>
       <name>Ephemerate</name>
@@ -709,7 +709,7 @@ Other sliver creatures you control have outlast {2}.</text>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Exile target creature you control, then return it to the battlefield under its owner's control.
-Rebound (If you cast this spell from your hand, exile it as it resolves. at the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</text>
+Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</text>
     </card>
     <card>
       <name>Etchings of the Chosen</name>
@@ -824,7 +824,7 @@ When Faerie Seer enters the battlefield, scry 2.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
-Whenever Fallen Shinobi deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana cost.</text>
+Whenever Fallen Shinobi deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana costs.</text>
     </card>
     <card>
       <name>Farmstead Gleaner</name>
@@ -848,7 +848,7 @@ Whenever Fallen Shinobi deals combat damage to a player, that player exiles the 
       <pt>3/3</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)
+      <text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Flying
 Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)</text>
     </card>
@@ -898,7 +898,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>When First-Sphere Gargantua enters the battlefield, you draw a card and you lose 1 life.
-Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery)</text>
+Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
     </card>
     <card>
       <name>Fists of Flame</name>
@@ -1125,7 +1125,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Menace
-Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature)</text>
+Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</text>
     </card>
     <card>
       <name>Goatnap</name>
@@ -1174,7 +1174,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
       <pt>1/1</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, and put it into your hand. If you do, shuffle your library.</text>
+      <text>When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle your library.</text>
     </card>
     <card>
       <name>Goblin Oriflamme</name>
@@ -1224,7 +1224,7 @@ Entwine {2}{R} (Choose both if you pay the entwine cost.)</text>
       <pt>2/2</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Changeling (This card is every creature type)
+      <text>Changeling (This card is every creature type.)
 When Graveshifter enters the battlefield, you may return target creature card from your graveyard to your hand.</text>
     </card>
     <card>
@@ -1334,7 +1334,7 @@ Ice-Fang Coatl has deathtouch as long as you control at least three other snow p
       <pt>2/2</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>({S} can be paid with one mana from a snow permanent.)</text>
+      <text>&lt;i&gt;({S} can be paid with one mana from a snow permanent.)&lt;/i&gt;</text>
     </card>
     <card>
       <name>Igneous Elemental</name>
@@ -1557,7 +1557,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</text>
       <type>Instant</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Delve (Each spell you exile from your graveyard while casting this spell pays for {1})
+      <text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 Magmatic Sinkhole deals 5 damage to target creature or planeswalker.</text>
     </card>
     <card>
@@ -1594,7 +1594,7 @@ At the beginning of your upkeep, if you control ten or more snow permanents, sac
       <pt>3/2</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)
+      <text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 When Martyr's Soul enters the battlefield, if you control no tapped lands, put two +1/+1 counters on it.</text>
     </card>
     <card>
@@ -1607,7 +1607,7 @@ When Martyr's Soul enters the battlefield, if you control no tapped lands, put t
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Target player discards two cards.
-Overload {1}{B} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each".)</text>
+Overload {1}{B} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")</text>
     </card>
     <card>
       <name>Mirrodin Besieged</name>
@@ -2319,8 +2319,8 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</text>
       <loyalty>4</loyalty>
       <tablerow>1</tablerow>
       <text>+2: Creatures you control with flying get +1/+1 until end of turn.
--3: Create a 4/4 white Angel creature token with flying and vigilance.
--6: You get an emblem with "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead."</text>
+&#8722;3: Create a 4/4 white Angel creature token with flying and vigilance.
+&#8722;6: You get an emblem with "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead."</text>
     </card>
     <card>
       <name>Settle Beyond Reality</name>
@@ -2509,7 +2509,7 @@ When a Ninja enters the battlefield under your control, you may return Smoke Shr
       <tablerow>1</tablerow>
       <text>Enchant creature
 Enchanted creature gets +1/+1 and has vigilance.
-When enchanted creature dies, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up at any time for its mana cost if it's a creature card.)</text>
+When enchanted creature dies, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</text>
     </card>
     <card>
       <name>Soulherder</name>
@@ -2631,7 +2631,7 @@ Overload {5}{W} (You may cast this spell for its overload cost. If you do, chang
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Target player puts the top four cards of their library into their graveyard. You shuffle up to four cards from your graveyard into your library.
-Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid the replicate cost. You may choose new targets for the copies.)</text>
+Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)</text>
     </card>
     <card>
       <name>String of Disappearances</name>
@@ -2922,7 +2922,7 @@ When Twin-Silk Spider enters the battlefield, create a 1/2 green Spider creature
       <type>Instant</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Choose one&#8212;
+      <text>Choose one &#8212;
 &#8226; Target creature gets -6/-0 until end of turn.
 &#8226; Switch target creature's power and toughness until end of turn.
 Entwine {B} (Choose both if you pay the entwine cost.)</text>
@@ -2936,7 +2936,7 @@ Entwine {B} (Choose both if you pay the entwine cost.)</text>
       <type>Instant</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Choose one&#8212;
+      <text>Choose one &#8212;
 &#8226; Target creature gets +2/+2 until end of turn.
 &#8226; Target creature gets -1/-1 until end of turn.
 &#8226; You gain 2 life.</text>
@@ -3243,7 +3243,7 @@ Overload {4}{W}{W} (You may cast this spell for its overload cost. If you do, ch
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Target player sacrifices an attacking creature.
-Storm (When you cast this spell, copy it for each spell cast before it this turn.)</text>
+Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</text>
     </card>
     <card>
       <name>Winter's Rest</name>
@@ -3269,8 +3269,8 @@ As long as you control another snow permanent, enchanted creature doesn't untap 
       <loyalty>3</loyalty>
       <tablerow>1</tablerow>
       <text>+1: Return up to one target land card from your graveyard to your hand.
--1: Wrenn and Six deals 1 damage to any target.
--7: You get an emblem with "Instant and sorcery cards in your graveyard have retrace."</text>
+&#8722;1: Wrenn and Six deals 1 damage to any target.
+&#8722;7: You get an emblem with "Instant and sorcery cards in your graveyard have retrace." (You may cast instant and sorcery cards from your graveyard by discarding a land card in addition to paying their other costs.)</text>
     </card>
     <card>
       <name>Yawgmoth, Thran Physician</name>

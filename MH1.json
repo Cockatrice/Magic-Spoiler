@@ -185,7 +185,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "({S} can be paid with one mana from a snow permanent.)\nWhen Arcum's Astrolabe enters the battlefield, draw a card.\n{1}, {T}: Add one mana of any color.",
+        "text": "&lt;i&gt;({S} can be paid with one mana from a snow permanent.)&lt;/i&gt;\nWhen Arcum's Astrolabe enters the battlefield, draw a card.\n{1}, {T}: Add one mana of any color.",
         "toughness": null,
         "type": "Snow Artifact",
         "types": " Artifact",
@@ -327,7 +327,7 @@
             "Ninja"
         ],
         "superTypes": [],
-        "text": "Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to your hand: Put this card onto the battlefield tapped and attacking)\nWhen Azra Smokeshaper enters the battlefield, target creature you control gains indestructible until end of turn.",
+        "text": "Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhen Azra Smokeshaper enters the battlefield, target creature you control gains indestructible until end of turn.",
         "toughness": "3",
         "type": "Creature - Azra Ninja",
         "types": "Creature ",
@@ -808,7 +808,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana costs 3 or less from among them without paying their mana cost. Put the exiled cards not cast this way on the bottom of your library in a random order.",
+        "text": "Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana cost 3 or less from among them without paying their mana costs. Put the exiled cards not cast this way on the bottom of your library in a random order.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -897,7 +897,7 @@
             "Vampire"
         ],
         "superTypes": [],
-        "text": "Whenever Cordial Vampire or another creature dies, put a +1/+1 counter on each vampire creature you control.",
+        "text": "Whenever Cordial Vampire or another creature dies, put a +1/+1 counter on each Vampire you control.",
         "toughness": "1",
         "type": "Creature - Vampire",
         "types": "Creature ",
@@ -1290,7 +1290,7 @@
             "Sliver"
         ],
         "superTypes": [],
-        "text": "Outlast {2} ({2}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nOther sliver creatures you control have outlast {2}.",
+        "text": "Outlast {2} ({2}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nOther Sliver creatures you control have outlast {2}.",
         "toughness": "2",
         "type": "Creature - Sliver",
         "types": "Creature ",
@@ -1317,7 +1317,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Exile target creature you control, then return it to the battlefield under its owner's control.\nRebound (If you cast this spell from your hand, exile it as it resolves. at the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+        "text": "Exile target creature you control, then return it to the battlefield under its owner's control.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -1577,7 +1577,7 @@
             "Ninja"
         ],
         "superTypes": [],
-        "text": "Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Fallen Shinobi deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana cost.",
+        "text": "Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Fallen Shinobi deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana costs.",
         "toughness": "4",
         "type": "Creature - Zombie Ninja",
         "types": "Creature ",
@@ -1631,7 +1631,7 @@
             "Demon"
         ],
         "superTypes": [],
-        "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)\nFlying\nDevour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)",
+        "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nFlying\nDevour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)",
         "toughness": "3",
         "type": "Creature - Demon",
         "types": "Creature ",
@@ -1742,7 +1742,7 @@
             "Horror"
         ],
         "superTypes": [],
-        "text": "When First-Sphere Gargantua enters the battlefield, you draw a card and you lose 1 life.\nUnearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery)",
+        "text": "When First-Sphere Gargantua enters the battlefield, you draw a card and you lose 1 life.\nUnearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
         "toughness": "4",
         "type": "Creature - Horror",
         "types": "Creature ",
@@ -2259,7 +2259,7 @@
             "Horror"
         ],
         "superTypes": [],
-        "text": "Menace\nEvolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature)",
+        "text": "Menace\nEvolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
         "toughness": "3",
         "type": "Creature - Slug Horror",
         "types": "Creature ",
@@ -2375,7 +2375,7 @@
             "Goblin"
         ],
         "superTypes": [],
-        "text": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, and put it into your hand. If you do, shuffle your library.",
+        "text": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle your library.",
         "toughness": "1",
         "type": "Creature - Goblin",
         "types": "Creature ",
@@ -2489,7 +2489,7 @@
             "Shapeshifter"
         ],
         "superTypes": [],
-        "text": "Changeling (This card is every creature type)\nWhen Graveshifter enters the battlefield, you may return target creature card from your graveyard to your hand.",
+        "text": "Changeling (This card is every creature type.)\nWhen Graveshifter enters the battlefield, you may return target creature card from your graveyard to your hand.",
         "toughness": "2",
         "type": "Creature - Shapeshifter",
         "types": "Creature ",
@@ -2727,7 +2727,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "({S} can be paid with one mana from a snow permanent.)",
+        "text": "&lt;i&gt;({S} can be paid with one mana from a snow permanent.)&lt;/i&gt;",
         "toughness": "2",
         "type": "Snow Artifact Creature - Golem",
         "types": " Artifact Creature ",
@@ -3226,7 +3226,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Delve (Each spell you exile from your graveyard while casting this spell pays for {1})\nMagmatic Sinkhole deals 5 damage to target creature or planeswalker.",
+        "text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nMagmatic Sinkhole deals 5 damage to target creature or planeswalker.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -3315,7 +3315,7 @@
             "Soldier"
         ],
         "superTypes": [],
-        "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)\nWhen Martyr's Soul enters the battlefield, if you control no tapped lands, put two +1/+1 counters on it.",
+        "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nWhen Martyr's Soul enters the battlefield, if you control no tapped lands, put two +1/+1 counters on it.",
         "toughness": "2",
         "type": "Creature - Spirit Soldier",
         "types": "Creature ",
@@ -3342,7 +3342,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Target player discards two cards.\nOverload {1}{B} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each\".)",
+        "text": "Target player discards two cards.\nOverload {1}{B} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -5007,7 +5007,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "+2: Creatures you control with flying get +1/+1 until end of turn.\n-3: Create a 4/4 white Angel creature token with flying and vigilance.\n-6: You get an emblem with \"If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.\"",
+        "text": "+2: Creatures you control with flying get +1/+1 until end of turn.\n\u22123: Create a 4/4 white Angel creature token with flying and vigilance.\n\u22126: You get an emblem with \"If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.\"",
         "toughness": null,
         "type": "Legendary Planeswalker - Serra",
         "types": " Planeswalker ",
@@ -5473,7 +5473,7 @@
             "Aura"
         ],
         "superTypes": [],
-        "text": "Enchant creature\nEnchanted creature gets +1/+1 and has vigilance.\nWhen enchanted creature dies, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up at any time for its mana cost if it's a creature card.)",
+        "text": "Enchant creature\nEnchanted creature gets +1/+1 and has vigilance.\nWhen enchanted creature dies, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
         "toughness": null,
         "type": "Enchantment - Aura",
         "types": "Enchantment ",
@@ -5759,7 +5759,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Target player puts the top four cards of their library into their graveyard. You shuffle up to four cards from your graveyard into your library.\nReplicate {2}{U}{U} (When you cast this spell, copy it for each time you paid the replicate cost. You may choose new targets for the copies.)",
+        "text": "Target player puts the top four cards of their library into their graveyard. You shuffle up to four cards from your graveyard into your library.\nReplicate {2}{U}{U} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -6430,7 +6430,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "Choose one\u2014\n\u2022 Target creature gets -6/-0 until end of turn.\n\u2022 Switch target creature's power and toughness until end of turn.\nEntwine {B} (Choose both if you pay the entwine cost.)",
+        "text": "Choose one \u2014\n\u2022 Target creature gets -6/-0 until end of turn.\n\u2022 Switch target creature's power and toughness until end of turn.\nEntwine {B} (Choose both if you pay the entwine cost.)",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -6457,7 +6457,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Choose one\u2014\n\u2022 Target creature gets +2/+2 until end of turn.\n\u2022 Target creature gets -1/-1 until end of turn.\n\u2022 You gain 2 life.",
+        "text": "Choose one \u2014\n\u2022 Target creature gets +2/+2 until end of turn.\n\u2022 Target creature gets -1/-1 until end of turn.\n\u2022 You gain 2 life.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -7141,7 +7141,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "Target player sacrifices an attacking creature.\nStorm (When you cast this spell, copy it for each spell cast before it this turn.)",
+        "text": "Target player sacrifices an attacking creature.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -7205,7 +7205,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "+1: Return up to one target land card from your graveyard to your hand.\n-1: Wrenn and Six deals 1 damage to any target.\n-7: You get an emblem with \"Instant and sorcery cards in your graveyard have retrace.\"",
+        "text": "+1: Return up to one target land card from your graveyard to your hand.\n\u22121: Wrenn and Six deals 1 damage to any target.\n\u22127: You get an emblem with \"Instant and sorcery cards in your graveyard have retrace.\" (You may cast instant and sorcery cards from your graveyard by discarding a land card in addition to paying their other costs.)",
         "toughness": null,
         "type": "Legendary Planeswalker - Wrenn",
         "types": " Planeswalker ",
