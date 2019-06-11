@@ -1,9 +1,15 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Thu, Jun 06 2019, 23:11:07 (UTC)
+Created At: Tue, Jun 11 2019, 23:13:25 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
+    <set>
+      <name>M20</name>
+      <longname>Core Set 2020</longname>
+      <settype>Expansion</settype>
+      <releasedate>2019-07-12</releasedate>
+    </set>
     <set>
       <name>SS2</name>
       <longname>Signature Spellbook: Gideon</longname>
@@ -24,6 +30,46 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     </set>
   </sets>
   <cards>
+    <card>
+      <name>Chandra, Acolyte of Flame</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/c/2cabfcfe-012e-4cab-bba2-24052eac0946.jpg">M20</set>
+      <manacost>1RR</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Legendary Planeswalker - Chandra</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>0: Put a loyalty counter on each red planeswalker you control.
+0: Create two 1/1 red Elemental creature tokens. They gain haste. Sacrifice them at the beginning of the next end step.
+-2: You may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard. If that card would be put into your graveyard this turn, exile it instead.</text>
+    </card>
+    <card>
+      <name>Chandra, Awakened Inferno</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/4/9/49d2a680-4f3b-4bfa-b77b-d2dfaced9f23.jpg">M20</set>
+      <manacost>4RR</manacost>
+      <cmc>6.0</cmc>
+      <color>R</color>
+      <type>Legendary Planeswalker - Chandra</type>
+      <loyalty>6</loyalty>
+      <tablerow>1</tablerow>
+      <text>This spell can't be countered.
++2: Each opponent gets an emblem with "At the beginning of your upkeep, this emblem deals 1 damage to you."
+-3: Chandra, Awakened Inferno deals 3 damage to each non-Elemental creature.
+-X: Chandra, Awakened Inferno deals X damage to target creature or planeswalker. If a permanent dealt damage this way would die this turn, exile it instead.</text>
+    </card>
+    <card>
+      <name>Chandra, Novice Pyromancer</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/6/d678cf4c-60e3-40a1-a9cc-b0bd157bcf36.jpg">M20</set>
+      <manacost>3R</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <type>Legendary Planeswalker - Chandra</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>+1: Elementals you control get +2/+0 until end of turn.
+-1: Add {R}{R}.
+-2: Chandra, Novice Pyromancer deals 2 damage to any target.</text>
+    </card>
     <card>
       <name>Blackblade Reforged</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/9/d/9dccac19-a915-4189-beb8-5d279a15a54e.jpg">SS2</set>
