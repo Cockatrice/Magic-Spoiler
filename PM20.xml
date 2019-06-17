@@ -1,0 +1,86 @@
+<cockatrice_carddatabase version="3">
+  <!--
+Created At: Mon, Jun 17 2019, 23:16:18 (UTC)
+Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
+-->
+  <sets>
+    <set>
+      <name>PM20</name>
+      <longname>Core Set 2020 Promos</longname>
+      <settype>Expansion</settype>
+      <releasedate>2019-07-12</releasedate>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Chandra's Regulator</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/4/b4448017-850e-4613-8d55-4f633c67c7e9.jpg">PM20</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Legendary Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever you activate a loyalty ability of a Chandra planeswalker, you may pay {1}. If you do, copy that ability. You may choose new targets for the copy.
+{1}, {T}, Discard a Mountain card or a red card: Draw a card.</text>
+    </card>
+    <card>
+      <name>Corpse Knight</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/4/2/42e1033b-383e-49b4-875f-ccdc94e08c9d.jpg">PM20</set>
+      <manacost>WB</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <color>W</color>
+      <type>Creature - Zombie Knight</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever another creature enters the battlefield under your control, each opponent loses 1 life.</text>
+    </card>
+    <card>
+      <name>Disfigure</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/1/6/16d1f9cb-bc2d-41c5-91ba-664ddf0e74db.jpg">PM20</set>
+      <manacost>B</manacost>
+      <cmc>1.0</cmc>
+      <color>B</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Target creature gets -2/-2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Flame Sweep</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/e/8e489d6c-2eb2-4914-ae71-c9da55b51d0b.jpg">PM20</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Flame sweep deals 2 damage to each creature except for creatures you control with flying.</text>
+    </card>
+    <card>
+      <name>Negate</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/0/b/0b735522-60cf-41fc-b80e-8e27c7f2112e.jpg">PM20</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Counter target noncreature spell.</text>
+    </card>
+    <card>
+      <name>Thrashing Brontodon</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/4/94f967f0-7de1-4c1d-8502-232861591176.jpg">PM20</set>
+      <manacost>1GG</manacost>
+      <cmc>3.0</cmc>
+      <color>G</color>
+      <type>Creature - Dinosaur</type>
+      <pt>3/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{1}, Sacrifice Thrashing Brontodon: Destroy target artifact or enchantment.</text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

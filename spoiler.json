@@ -1,6 +1,242 @@
 {
     "M20": [
         {
+            "artist": "Tomasz Jedruszek",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "The chill wind extinguishes flame, and frosts the leaf on the branch.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Aether Gust",
+            "names": null,
+            "number": "42",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose target spell or permanent that's red or green. Its owner puts it on the top or bottom of their library.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/7/8/783da808-6698-4e55-9fac-430a6effe2b1.jpg"
+        },
+        {
+            "artist": "Chris Rallis",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": "5",
+            "mana_cost": "{2}{W}{W}",
+            "multiverseId": null,
+            "name": "Ajani, Strength of the Pride",
+            "names": null,
+            "number": "2",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Ajani"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "+1: You gain life equal to the number of creatures you control plus the number of planeswalkers you control.\n\u22122: Create a 2/2 white Cat Soldier creature token named Ajani's Pridemate with \"Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate.\"\n0: If you have at least 15 life more than your starting life total, exile Ajani, Strength of the Pride and each artifact and creature your opponents control.",
+            "toughness": null,
+            "type": "Legendary Planeswalker - Ajani",
+            "types": " Planeswalker ",
+            "url": "https://img.scryfall.com/cards/normal/front/7/9/79883468-a37c-4894-8d05-6a4d150b7d59.jpg"
+        },
+        {
+            "artist": "Johannes Voss",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Angel of Vitality",
+            "names": null,
+            "number": "4",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Angel"
+            ],
+            "superTypes": [],
+            "text": "Flying\nIf you would gain life, you gain that much life plus 1 instead.\nAngel of Vitality gets +2/+2 as long as you have 25 or more life.",
+            "toughness": "2",
+            "type": "Creature - Angel",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/2/e2f39777-b80a-4618-9310-a9e5b91bb2a2.jpg"
+        },
+        {
+            "artist": "Ryan Pancoast",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}{U}{U}",
+            "multiverseId": null,
+            "name": "Atemsis, All-Seeing",
+            "names": null,
+            "number": "046",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Sphinx"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\n{2}{U}, {T}: Draw two cards, then discard a card.\nWhenever Atemsis, All-Seeing deals damage to an opponent, you may reveal your hand. If cards with at least six different converted mana costs are revealed this way, that player loses the game.",
+            "toughness": "5",
+            "type": "Legendary Creature - Sphinx",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/b/8/b8f527d1-25c0-49b9-83d5-1278ca72d009.jpg"
+        },
+        {
+            "artist": "Wesley Burt",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}{R}{R}",
+            "multiverseId": null,
+            "name": "Cavalier of Flame",
+            "names": null,
+            "number": "125",
+            "power": "6",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Elemental",
+                "Knight"
+            ],
+            "superTypes": [],
+            "text": "{1}{R}: Creatures you control get +1/+0 and gain haste until end of turn.\nWhen Cavalier of Flame enters the battlefield, discard any number of cards, then draw that many cards.\nWhen Cavalier of Flame dies, it deals X damage to each opponent and each planeswalker they control, where X is the number of land cards in your graveyard.",
+            "toughness": "5",
+            "type": "Creature - Elemental Knight",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/c/0c18c541-758b-4237-9961-9637e996e8a5.jpg"
+        },
+        {
+            "artist": "Johan Grenier",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"Furballs? Try dealing with Fireballs.\"\u2014Chandra Nalaar",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Chandra's Embercat",
+            "names": null,
+            "number": "129",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Elemental",
+                "Cat"
+            ],
+            "superTypes": [],
+            "text": "{T}: Add {R}. Spend this mana only to cast an Elemental spell or a Chandra planeswalker spell.",
+            "toughness": "2",
+            "type": "Creature - Elemental Cat",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/0/30f9c266-f32e-4483-9709-f83675331688.jpg"
+        },
+        {
+            "artist": "Eric Deschamps",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Chandra's Regulator",
+            "names": null,
+            "number": "131",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Whenever you activate a loyalty ability of a Chandra planeswalker, you may pay {1}. If you do, copy that ability. You may choose new targets for the copy.\n{1}, {T}, Discard a Mountain card or a red card: Draw a card.",
+            "toughness": null,
+            "type": "Legendary Artifact",
+            "types": " Artifact",
+            "url": "https://img.scryfall.com/cards/normal/front/8/f/8f1b1d5c-f71e-4c68-8baf-c134e42ed6f2.jpg"
+        },
+        {
+            "artist": "Chris Rallis",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"I've lit most everything on fire\u2014trees, rocks, even the water. Now it's time to burn the clouds.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Chandra's Spitfire",
+            "names": null,
+            "number": "132",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 until end of turn.",
+            "toughness": "3",
+            "type": "Creature - Elemental",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/a/8a857da7-5438-465b-821a-bd5bfd780c69.jpg"
+        },
+        {
             "artist": "Anna Steinbauer",
             "cmc": 3.0,
             "colorIdentity": [
@@ -92,6 +328,903 @@
             "type": "Legendary Planeswalker - Chandra",
             "types": " Planeswalker ",
             "url": "https://img.scryfall.com/cards/normal/front/d/6/d678cf4c-60e3-40a1-a9cc-b0bd157bcf36.jpg"
+        },
+        {
+            "artist": "",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [
+                "B",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}{B}",
+            "multiverseId": null,
+            "name": "Corpse Knight",
+            "names": null,
+            "number": "206",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Zombie",
+                "Knight"
+            ],
+            "superTypes": [],
+            "text": "Whenever another creature enters the battlefield under your control, each opponent loses 1 life.",
+            "toughness": "2",
+            "type": "Creature - Zombie Knight",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/b/8b45117b-8369-48fc-8e5d-8986e662d123.jpg"
+        },
+        {
+            "artist": "Johan Grenier",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G",
+                "R"
+            ],
+            "colors": [
+                "G",
+                "R"
+            ],
+            "flavor": "The destruction of a wildfire with the tenacity of a jungle vine.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}{G}",
+            "multiverseId": null,
+            "name": "Creeping Trailblazer",
+            "names": null,
+            "number": "207",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [],
+            "text": "Other Elementals you control get +1/+0.\n{2}{R}{G}: Creeping Trailblazer gets +1/+1 until end of turn for each Elemental you control.",
+            "toughness": "2",
+            "type": "Creature - Elemental",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/f/0/f0b96e41-caae-4e22-82f9-df5a054ea3b7.jpg"
+        },
+        {
+            "artist": "Sung Choi",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": "Only when you've given up the search will the caves yield their secrets.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Cryptic Caves",
+            "names": null,
+            "number": "244",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}: Add {C}.\n{1}, {T}, Sacrifice Cryptic Caves: Draw a card. Activate this ability only if you control five or more lands.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://img.scryfall.com/cards/normal/front/f/d/fde9e9cb-68ab-4856-8ad6-30f66666dd93.jpg"
+        },
+        {
+            "artist": "",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"It is not punishment. I am simply making things as they should be.\" \u2014Sephara, Sky's Blade",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}",
+            "multiverseId": null,
+            "name": "Devout Decree",
+            "names": null,
+            "number": "013",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Exile target creature or planeswalker that's black or red. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/2/d/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4.jpg"
+        },
+        {
+            "artist": "Victor Adame Minguez",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Where the holy light of the angels has shone, only purity remains.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}",
+            "multiverseId": null,
+            "name": "Disenchant",
+            "names": null,
+            "number": "14",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Destroy target artifact or enchantment.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/1/b/1b6a2b01-da95-46fa-8673-30ffdfdee0a5.jpg"
+        },
+        {
+            "artist": "",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Disfigure",
+            "names": null,
+            "number": "95",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target creature gets -2/-2 until end of turn.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/1/8/18069340-a698-4f75-82cc-cc94fcf82184.jpg"
+        },
+        {
+            "artist": "Matthew D. Wilson",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"Yes, it's huge and strong and breathes fire. But we're smart!\"\n\u2014Tadith the Wise, last words",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{R}{R}",
+            "multiverseId": null,
+            "name": "Dragon Mage",
+            "names": null,
+            "number": "135",
+            "power": "5",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Dragon",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever Dragon Mage deals combat damage to a player, each player discards their hand, then draws seven cards.",
+            "toughness": "5",
+            "type": "Creature - Dragon Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/5/1/5195abc4-cfa7-45dd-aa96-2e56f818a17b.jpg"
+        },
+        {
+            "artist": "Anthony Palumbo",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "It beckons silently, waiting in the darkness.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Dread Presence",
+            "names": null,
+            "number": "96",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Nightmare"
+            ],
+            "superTypes": [],
+            "text": "Whenever a Swamp enters the battlefield under your control, choose one \u2014\n\u2022 You draw a card and you lose 1 life.\n\u2022 Dread Presence deals 2 damage to any target and you gain 2 life.",
+            "toughness": "3",
+            "type": "Creature - Nightmare",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/4/0430db1a-5cad-4444-ba93-57fb32e65606.jpg"
+        },
+        {
+            "artist": "Jason A. Engle",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [
+                "U",
+                "W"
+            ],
+            "flavor": "All the birds of the skies are the spirit's brood, gathered for safety under its wings.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{U}",
+            "multiverseId": null,
+            "name": "Empyrean Eagle",
+            "names": null,
+            "number": "208",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Bird",
+                "Spirit"
+            ],
+            "superTypes": [],
+            "text": "Flying\nOther creatures you control with flying get +1/+1.",
+            "toughness": "3",
+            "type": "Creature - Bird Spirit",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/a/c/ac555709-c7cc-4c64-8a6f-8fe2bc149fcd.jpg"
+        },
+        {
+            "artist": "",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Flame Sweep",
+            "names": null,
+            "number": "139",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Flame sweep deals 2 damage to each creature except for creatures you control with flying.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/4/7/4702a838-8577-49b6-8b7a-f9b6d2929481.jpg"
+        },
+        {
+            "artist": "Caio Monteiro",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"No shirt, no shoes, no service.\"\n\u2014Marketplace sign",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}",
+            "multiverseId": null,
+            "name": "Infuriate",
+            "names": null,
+            "number": "145",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target creature gets +3/+2 until end of turn.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/7/a/7ac778f6-8997-47ee-a676-3eb9f8d1592f.jpg"
+        },
+        {
+            "artist": "Filip Burburan",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [
+                "G",
+                "W"
+            ],
+            "flavor": "\"Alone, it's a fortification. At the head of its troops, it's a battering ram.\" \u2014Skerk Hobnett, wilderness guide",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}{W}",
+            "multiverseId": null,
+            "name": "Ironroot Warlord",
+            "names": null,
+            "number": "209",
+            "power": "*",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Treefolk",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "Ironroot Warlord's power is equal to the number of creatures you control.\n{3}{G}{W}: Create a 1/1 white Soldier creature token.",
+            "toughness": "5",
+            "type": "Creature - Treefolk Soldier",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/d/edec85ce-7daa-48c2-b25d-b22941e01e73.jpg"
+        },
+        {
+            "artist": "G-host Lee",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R",
+                "U",
+                "W"
+            ],
+            "colors": [
+                "R",
+                "U",
+                "W"
+            ],
+            "flavor": "\"The raging gale fans the flames of righteous wrath.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}{R}{W}",
+            "multiverseId": null,
+            "name": "Kykar, Wind's Fury",
+            "names": null,
+            "number": "212",
+            "power": "3",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Bird",
+                "Wizard"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nWhenever you cast a noncreature spell, create a 1/1 white Spirit creature token with flying.\nSacrifice a Spirit: Add {R}.",
+            "toughness": "3",
+            "type": "Legendary Creature - Bird Wizard",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/5/9/594cb7dc-ea88-4909-ab40-1d40fecc9817.jpg"
+        },
+        {
+            "artist": "Noah Bradley",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}{R}",
+            "multiverseId": null,
+            "name": "Leyline of Combustion",
+            "names": null,
+            "number": "148",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "If Leyline of Combustion is in your opening hand, you may begin the game with it on the battlefield.\nWhenenever you and/or at least one permanent you control becomes the target of a spell or ability an opponent controls, Leyline of Combustion deals 2 damage to that player.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/3/a/3a93c8e2-fb27-43af-83a7-2bd4d40e0eff.jpg"
+        },
+        {
+            "artist": "Noah Bradley",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{W}",
+            "multiverseId": null,
+            "name": "Leyline of Sanctity",
+            "names": null,
+            "number": "26",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "If Leyline of Sanctity is in your opening hand, you may begin the game with it on the battlefield.\nYou have hexproof. (You can't be the target of spells or abilities your opponents control.)",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/b/e/be8b1acf-dd87-42ca-ad19-c27d21066030.jpg"
+        },
+        {
+            "artist": "",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Negate",
+            "names": null,
+            "number": "69",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target noncreature spell.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/3/3/33b83158-78b4-425e-8379-be3ef038295c.jpg"
+        },
+        {
+            "artist": "Grzegorz Rutkowski",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "In every swirl of the tide, it sees the awakening of things yet to come.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Octoprophet",
+            "names": null,
+            "number": "70",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Octopus"
+            ],
+            "superTypes": [],
+            "text": "When Octoprophet enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+            "toughness": "3",
+            "type": "Creature - Octopus",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/1/3/13becea1-e745-4c96-bfc2-6a277fb60ee1.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "G",
+                "R",
+                "W"
+            ],
+            "colors": [
+                "G",
+                "R",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}{G}{W}",
+            "multiverseId": null,
+            "name": "Rienne, Angel of Rebirth",
+            "names": null,
+            "number": "281",
+            "power": "5",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Angel"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nOther multicolored creatures you control get +1/+0.\nWhenever another multicolored creature you control dies, return it to its owner's hand at the beginning of the next end step.",
+            "toughness": "4",
+            "type": "Legendary Creature - Angel",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/1/f/1fd040a8-b818-465b-a78b-d68402982abc.jpg"
+        },
+        {
+            "artist": "Johan Grenier",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G",
+                "U"
+            ],
+            "colors": [
+                "G",
+                "U"
+            ],
+            "flavor": "\"No, not 'washed' ashore. It *walked* ashore.\"\n\u2014Shafring Hulm, beachcomber",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}{U}",
+            "multiverseId": null,
+            "name": "Risen Reef",
+            "names": null,
+            "number": "217",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [],
+            "text": "Whenever Risen Reef or another Elemental enters the battlefield under your control, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you don't put the card onto the battlefield, put it into your hand.",
+            "toughness": "1",
+            "type": "Creature - Elemental",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/2/82389aaa-9f32-4169-a71c-1aea5af9e935.jpg"
+        },
+        {
+            "artist": "Seb McKinnon",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"One for you, one for me. What could be more fair?\"\u2014Kethis, the Hidden Hand",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Scheming Symmetry",
+            "names": null,
+            "number": "113",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose two target players. Each of them searches their library for a card, then shuffles their library and puts that card on top of it.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/0/1/01acc50b-856d-442d-9880-1a892b40643b.jpg"
+        },
+        {
+            "artist": "David Palumbo",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"The skull is rigid, but the mind is so deliciously supple.\"\n\u2014Eromena the Mind Render",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}{B}",
+            "multiverseId": null,
+            "name": "Thought Distortion",
+            "names": null,
+            "number": "117",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "This spell can't be countered.\nTarget opponent reveals their hand. Exile all noncreature, nonland cards from that player's hand and graveyard.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/f/4/f4a9d636-6720-4d7e-8b81-12c20bce6495.jpg"
+        },
+        {
+            "artist": "",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}{G}",
+            "multiverseId": null,
+            "name": "Thrashing Brontodon",
+            "names": null,
+            "number": "197",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Dinosaur"
+            ],
+            "superTypes": [],
+            "text": "{1}, Sacrifice Thrashing Brontodon: Destroy target artifact or enchantment.",
+            "toughness": "4",
+            "type": "Creature - Dinosaur",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/b/7/b7367813-8be3-44a2-9a75-5f4e48cf34b1.jpg"
+        },
+        {
+            "artist": "Izzy",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "\"Don't you have somewhere else to be?\" \u2014Sharuum the Hegemon",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}",
+            "multiverseId": null,
+            "name": "Unsummon",
+            "names": null,
+            "number": "78",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Return target creature to its owner's hand.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/7/a/7a960516-3864-4a7a-8117-d25dec0dd665.jpg"
+        },
+        {
+            "artist": "Filip Burburan",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{G}{G}",
+            "multiverseId": null,
+            "name": "Wakeroot Elemental",
+            "names": null,
+            "number": "202",
+            "power": "5",
+            "rarity": "Rare",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [],
+            "text": "{G}{G}{G}{G}{G}: Untap target land you control. It becomes a 5/5 Elemental creature with haste. It's still a land.",
+            "toughness": "5",
+            "type": "Creature - Elemental",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/2/02c9396d-28f2-40b7-908e-51db51da57a7.jpg"
+        },
+        {
+            "artist": "Daarken",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"Yarok's nightmares lurk and wait\nWhere dark despair is near at hand.\"\n\u2014Lament for Bala Ged, stanza 3",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}{B}",
+            "multiverseId": null,
+            "name": "Yarok's Fenlurker",
+            "names": null,
+            "number": "123",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Horror"
+            ],
+            "superTypes": [],
+            "text": "When Yarok's Fenlurker enters the battlefield, each opponent exiles a card from their hand.\n{2}{B}: Yarok's Fenlurker gets +1/+1 until end of turn.",
+            "toughness": "1",
+            "type": "Creature - Horror",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/1/6/16b122f8-fcd9-4b2a-92f6-f0ed7307ff58.jpg"
+        }
+    ],
+    "PM20": [
+        {
+            "artist": "Mathias Kollros",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Chandra's Regulator",
+            "names": null,
+            "number": "131",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Whenever you activate a loyalty ability of a Chandra planeswalker, you may pay {1}. If you do, copy that ability. You may choose new targets for the copy.\n{1}, {T}, Discard a Mountain card or a red card: Draw a card.",
+            "toughness": null,
+            "type": "Legendary Artifact",
+            "types": " Artifact",
+            "url": "https://img.scryfall.com/cards/normal/front/b/4/b4448017-850e-4613-8d55-4f633c67c7e9.jpg"
+        },
+        {
+            "artist": "Karl Kopinski",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [
+                "B",
+                "W"
+            ],
+            "flavor": "\"With each knight that rode out from the bone-white keep, the queen's soldiers felt their courage failing.\"\n\u2014Krinmea, *Siege of the Bone Spire*",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}{B}",
+            "multiverseId": null,
+            "name": "Corpse Knight",
+            "names": null,
+            "number": "206",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Zombie",
+                "Knight"
+            ],
+            "superTypes": [],
+            "text": "Whenever another creature enters the battlefield under your control, each opponent loses 1 life.",
+            "toughness": "2",
+            "type": "Creature - Zombie Knight",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/2/42e1033b-383e-49b4-875f-ccdc94e08c9d.jpg"
+        },
+        {
+            "artist": "Justin Sweet",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"Let this serve as a reminder of your failure.\"\n\u2014Exdratha, bog witch",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Disfigure",
+            "names": null,
+            "number": "95",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target creature gets -2/-2 until end of turn.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/1/6/16d1f9cb-bc2d-41c5-91ba-664ddf0e74db.jpg"
+        },
+        {
+            "artist": "Viktor Titov",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"I have calculated that a dragon in flight, in a single strafing run, can cover an area of\u2014\"\n\u2014Thaedus the Clever, last words",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Flame Sweep",
+            "names": null,
+            "number": "139",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Flame sweep deals 2 damage to each creature except for creatures you control with flying.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/8/e/8e489d6c-2eb2-4914-ae71-c9da55b51d0b.jpg"
+        },
+        {
+            "artist": "Magali Villeneuve",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "\"As one, nature lifts its voice to tell you this: 'No.'\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Negate",
+            "names": null,
+            "number": "69",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target noncreature spell.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/0/b/0b735522-60cf-41fc-b80e-8e27c7f2112e.jpg"
+        },
+        {
+            "artist": "Jakub Kasper",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "It cares more about preserving the herd's territory than about preserving itself.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}{G}",
+            "multiverseId": null,
+            "name": "Thrashing Brontodon",
+            "names": null,
+            "number": "197",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Dinosaur"
+            ],
+            "superTypes": [],
+            "text": "{1}, Sacrifice Thrashing Brontodon: Destroy target artifact or enchantment.",
+            "toughness": "4",
+            "type": "Creature - Dinosaur",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/4/94f967f0-7de1-4c1d-8502-232861591176.jpg"
         }
     ],
     "SS2": [
