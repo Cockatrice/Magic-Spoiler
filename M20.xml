@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Tue, Jun 18 2019, 23:16:29 (UTC)
+Created At: Wed, Jun 19 2019, 23:16:49 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -13,32 +13,18 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
   </sets>
   <cards>
     <card>
-      <name>"Fight Night-dra"</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/4/74bbe44f-864a-446c-bfc9-5f5188e663b8.jpg">M20</set>
-      <manacost>XGG</manacost>
-      <cmc>2.0</cmc>
-      <color>G</color>
-      <type>Creature - Hydra</type>
-      <pt>0/1</pt>
+      <name>"Brillantemental"</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/f/7/f7b1919e-c0c1-4ac7-9061-a337b6fe7273.jpg">M20</set>
+      <manacost>2WWW</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Creature - Elemental Knight</type>
+      <pt>4/6</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Trample
-"Fight Night-dra" enters the battlefield with X +1/+1 counters on it.
-When "Fight Night-dra" enters the battlefield, choose one &#8212;
-&#8226; Double the number of +1/+1 counters on "Fight Night-dra".
-&#8226; "Fight Night-dra" fights target creature you don't control.</text>
-    </card>
-    <card>
-      <name>"Goblin Hitchhiker"</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/4/54fbbf39-cd52-474a-908e-b7a78cb5eb5b.jpg">M20</set>
-      <manacost>1R</manacost>
-      <cmc>2.0</cmc>
-      <color>R</color>
-      <type>Creature - Goblin</type>
-      <pt>2/1</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>{R}: "Goblin Hitchhiker" gains flying until end of turn. Activate this ability only if you control a creature with flying.</text>
+      <text>Vigilance
+When "Brillantemental" enters the battlefield, destroy up to one target nonland permanent. Its controller creates a 3/3 colorless Golem artifact creature token.
+When "Brillantemental" dies, return target artifact or enchantment card from your graveyard to your hand.</text>
     </card>
     <card>
       <name>"Good Wand, Lightly Used, No Refunds"</name>
@@ -52,55 +38,30 @@ When "Fight Night-dra" enters the battlefield, choose one &#8212;
 When "Good Wand, Lightly Used, No Refunds" is put into a graveyard from the battlefield, it deals 5 damage to any target.</text>
     </card>
     <card>
-      <name>"He Can Dig It!"</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/9/d981b310-5e75-4f30-baf6-37f069f00aa3.jpg">M20</set>
-      <manacost>2R</manacost>
-      <cmc>3.0</cmc>
-      <color>R</color>
-      <type>Creature - Goblin</type>
-      <pt>3/2</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>{3}, {T}, Sacrifice an artifact or land: Draw a card.</text>
-    </card>
-    <card>
-      <name>"Lifesong Loxodon"</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/1/9/19610e6d-61bf-4c79-bfb2-e855eb944d11.jpg">M20</set>
-      <manacost>5W</manacost>
+      <name>"Inspiring Angel"</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/c/9c62f724-7fb4-4498-b5c1-cf65d86d8e95.jpg">M20</set>
+      <manacost>4WW</manacost>
       <cmc>6.0</cmc>
       <color>W</color>
-      <type>Creature - Elephant Cleric</type>
-      <pt>4/6</pt>
+      <type>Creature - Angel</type>
+      <pt>4/4</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>When "Lifesong Loxodon" enters the battlefield, you may have your life total become equal to the total toughness among creatures you control.
-{5}{W}: "Lifesong Loxodon" gets +X/+X until end of turn, where X is your life total.</text>
+      <text>Flying
+{3}{W}: Put a +1/+1 counter on another target creature with flying.</text>
     </card>
     <card>
-      <name>"Reckless Airstrike"</name>
-      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/8/68391b41-4a17-4450-a8ac-0ce8406fe8c1.jpg">M20</set>
-      <manacost>R</manacost>
+      <name>"We Ran Out Of Punch"</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/9/29425426-7bf2-4872-aa35-c12c22801edd.jpg">M20</set>
+      <manacost>B</manacost>
       <cmc>1.0</cmc>
-      <color>R</color>
-      <type>Sorcery</type>
-      <loyalty>None</loyalty>
-      <tablerow>3</tablerow>
-      <text>Choose one &#8212;
-&#8226; "Reckless Airstrike" deals 3 damage to target creature with flying.
-&#8226; Destroy target artifact.</text>
-    </card>
-    <card>
-      <name>"Roma Downey"</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.jpg">M20</set>
-      <manacost>WW</manacost>
-      <cmc>2.0</cmc>
-      <color>W</color>
-      <type>Creature - Human Cleric</type>
-      <pt>1/4</pt>
+      <color>B</color>
+      <type>Creature - Vampire Knight</type>
+      <pt>1/2</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>Whenever an Angel enters the battlefield under your control, you gain 4 life.
-Whenever an Angel you control dies, create a 1/1 white Spirit creature token with flying.</text>
+      <text>{2}{B}: "We Ran Out Of Punch" gets +3/+3 and gains deathtouch until end of turn.
+At the beginning of your end step, if a player lost 4 or more life this turn, put a +1/+1 counter on "We Ran Out Of Punch". (Damage causes loss of life.)</text>
     </card>
     <card>
       <name>Aether Gust</name>
@@ -166,6 +127,19 @@ Whenever Atemsis, All-Seeing deals damage to an opponent, you may reveal your ha
       <tablerow>2</tablerow>
       <text>Barkhide Troll enters the battlefield with a +1/+1 counter on it.
 {1}, Remove a +1/+1 counter from Barkhide Troll: Barkhide Troll gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)</text>
+    </card>
+    <card>
+      <name>Bishop of Wings</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.jpg">M20</set>
+      <manacost>WW</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Creature - Human Cleric</type>
+      <pt>1/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Whenever an Angel enters the battlefield under your control, you gain 4 life.
+Whenever an Angel you control dies, create a 1/1 white Spirit creature token with flying.</text>
     </card>
     <card>
       <name>Blightbeetle</name>
@@ -265,7 +239,7 @@ Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 un
       <tablerow>1</tablerow>
       <text>0: Put a loyalty counter on each red planeswalker you control.
 0: Create two 1/1 red Elemental creature tokens. They gain haste. Sacrifice them at the beginning of the next end step.
--2: You may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard. If that card would be put into your graveyard this turn, exile it instead.</text>
+&#8722;2: You may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard. If that card would be put into your graveyard this turn, exile it instead.</text>
     </card>
     <card>
       <name>Chandra, Awakened Inferno</name>
@@ -278,8 +252,8 @@ Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 un
       <tablerow>1</tablerow>
       <text>This spell can't be countered.
 +2: Each opponent gets an emblem with "At the beginning of your upkeep, this emblem deals 1 damage to you."
--3: Chandra, Awakened Inferno deals 3 damage to each non-Elemental creature.
--X: Chandra, Awakened Inferno deals X damage to target creature or planeswalker. If a permanent dealt damage this way would die this turn, exile it instead.</text>
+&#8722;3: Chandra, Awakened Inferno deals 3 damage to each non-Elemental creature.
+&#8722;X: Chandra, Awakened Inferno deals X damage to target creature or planeswalker. If a permanent dealt damage this way would die this turn, exile it instead.</text>
     </card>
     <card>
       <name>Chandra, Novice Pyromancer</name>
@@ -291,8 +265,8 @@ Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 un
       <loyalty>5</loyalty>
       <tablerow>1</tablerow>
       <text>+1: Elementals you control get +2/+0 until end of turn.
--1: Add {R}{R}.
--2: Chandra, Novice Pyromancer deals 2 damage to any target.</text>
+&#8722;1: Add {R}{R}.
+&#8722;2: Chandra, Novice Pyromancer deals 2 damage to any target.</text>
     </card>
     <card>
       <name>Convolute</name>
@@ -342,6 +316,18 @@ Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 un
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
 {1}, {T}, Sacrifice Cryptic Caves: Draw a card. Activate this ability only if you control five or more lands.</text>
+    </card>
+    <card>
+      <name>Destructive Digger</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/9/d981b310-5e75-4f30-baf6-37f069f00aa3.jpg">M20</set>
+      <manacost>2R</manacost>
+      <cmc>3.0</cmc>
+      <color>R</color>
+      <type>Creature - Goblin</type>
+      <pt>3/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{3}, {T}, Sacrifice an artifact or land: Draw a card.</text>
     </card>
     <card>
       <name>Devout Decree</name>
@@ -464,7 +450,7 @@ Whenever Field of the Dead or another land enters the battlefield under your con
       <type>Instant</type>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
-      <text>Flame sweep deals 2 damage to each creature except for creatures you control with flying.</text>
+      <text>Flame Sweep deals 2 damage to each creature except for creatures you control with flying.</text>
     </card>
     <card>
       <name>Flood of Tears</name>
@@ -476,6 +462,30 @@ Whenever Field of the Dead or another land enters the battlefield under your con
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Return all nonland permanents to their owners' hands. If you return four or more nontoken permanents you control this way, you may put a permanent card from your hand onto the battlefield.</text>
+    </card>
+    <card>
+      <name>Fry</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/7/070d7766-a662-443c-93c5-811dbdac2480.jpg">M20</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>This spell can't be countered.
+Fry deals 5 damage to target creature or planeswalker that's white or blue.</text>
+    </card>
+    <card>
+      <name>Goblin Bird-Grabber</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/4/54fbbf39-cd52-474a-908e-b7a78cb5eb5b.jpg">M20</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Creature - Goblin</type>
+      <pt>2/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{R}: Goblin Bird-Grabber gains flying until end of turn. Activate this ability only if you control a creature with flying.</text>
     </card>
     <card>
       <name>Goblin Ringleader</name>
@@ -595,6 +605,19 @@ Sacrifice a Spirit: Add {R}.</text>
       <text>Exile target creature an opponent controls with converted mana cost 2 or less and all other creatures that player controls with the same name as that creature. Then that player reveals their hand and exiles all cards with that name from their hand and graveyard.</text>
     </card>
     <card>
+      <name>Leyline of Abundance</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/6/c68e8342-78d2-4826-a287-64c371b97d19.jpg">M20</set>
+      <manacost>2GG</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>If Leyline of Abundance is in your opening hand, you may begin the game with it on the battlefield.
+When you tap a creature for mana, add an additional {G}.
+{6}{G}{G}: Put a +1/+1 counter on each creature you control.</text>
+    </card>
+    <card>
       <name>Leyline of Anticipation</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/9/29b70152-1d7b-45c4-8c85-011d2338e0a8.jpg">M20</set>
       <manacost>2UU</manacost>
@@ -616,7 +639,7 @@ You may cast spells as though they had flash. (You may cast them any time you co
       <loyalty>None</loyalty>
       <tablerow>1</tablerow>
       <text>If Leyline of Combustion is in your opening hand, you may begin the game with it on the battlefield.
-Whenenever you and/or at least one permanent you control becomes the target of a spell or ability an opponent controls, Leyline of Combustion deals 2 damage to that player.</text>
+Whenever you and/or at least one permanent you control becomes the target of a spell or ability an opponent controls, Leyline of Combustion deals 2 damage to that player.</text>
     </card>
     <card>
       <name>Leyline of Sanctity</name>
@@ -655,6 +678,19 @@ If a card would be put into an opponent's graveyard from anywhere, exile it inst
       <text>When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from their graveyard into their library.</text>
     </card>
     <card>
+      <name>Loxodon Lifechanter</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/1/9/19610e6d-61bf-4c79-bfb2-e855eb944d11.jpg">M20</set>
+      <manacost>5W</manacost>
+      <cmc>6.0</cmc>
+      <color>W</color>
+      <type>Creature - Elephant Cleric</type>
+      <pt>4/6</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Loxodon Lifechanter enters the battlefield, you may have your life total become the total toughness of creatures you control.
+{5}{W}: Loxodon Lifechanter gets +X/+X until end of turn, where X is your life total.</text>
+    </card>
+    <card>
       <name>Loyal Pegasus</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/c/7cae7971-953b-454a-84dd-ae2974946da9.jpg">M20</set>
       <manacost>W</manacost>
@@ -666,6 +702,57 @@ If a card would be put into an opponent's graveyard from anywhere, exile it inst
       <tablerow>2</tablerow>
       <text>Flying
 Loyal Pegasus can't attack or block alone.</text>
+    </card>
+    <card>
+      <name>Marauding Raptor</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/4/64e4d2ee-e5e5-48e6-a7b8-9045dc8b10a7.jpg">M20</set>
+      <manacost>1R</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <type>Creature - Dinosaur</type>
+      <pt>2/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Creature spells you cast cost {1} less to cast.
+Whenever another creature enters the battlefield under your control, Marauding Raptor deals 2 damage to it. If a Dinosaur is dealt damage this way, Marauding Raptor gets +2/+0 until end of turn.</text>
+    </card>
+    <card>
+      <name>Masterful Replication</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/3/63832647-bb4d-4380-8acb-cf11e8727672.jpg">M20</set>
+      <manacost>5U</manacost>
+      <cmc>6.0</cmc>
+      <color>U</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one &#8212;
+&#8226; Create two 3/3 colorless Golem artifact creature tokens.
+&#8226; Choose target artifact you control. Each other artifact you control becomes a copy of that artifact until end of turn.</text>
+    </card>
+    <card>
+      <name>Moldervine Reclamation</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/1/618d21fe-8e3d-4887-b2e4-b92194ba1902.jpg">M20</set>
+      <manacost>3BG</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <color>G</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature you control dies, you gain 1 life and draw a card.</text>
+    </card>
+    <card>
+      <name>Mu Yanling, Sky Dancer</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/0/2/0240f9eb-e1b2-4b41-94b0-b00ad2850825.jpg">M20</set>
+      <manacost>1UU</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Legendary Planeswalker - Yanling</type>
+      <loyalty>2</loyalty>
+      <tablerow>1</tablerow>
+      <text>+2: Until your next turn, up to one target creature gets -2/-0 and loses flying.
+&#8722;3: Create a 4/4 blue Elemental Bird creature token with flying.
+&#8722;8: You get an emblem with "Islands you control have '{T}: Draw a card'."</text>
     </card>
     <card>
       <name>Negate</name>
@@ -727,6 +814,17 @@ Enchanted creature can't attack or block.</text>
       <text>Destroy all nonland permanents.</text>
     </card>
     <card>
+      <name>Portal of Sanctuary</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/3/7/37c66692-2880-4ea2-abaf-8926c6950826.jpg">M20</set>
+      <manacost>2U</manacost>
+      <cmc>3.0</cmc>
+      <color>U</color>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>{1}, {T}: Return target creature you control and each Aura attached to it to their owners' hands. Activate this ability only during your turn.</text>
+    </card>
+    <card>
       <name>Pulse of Murasa</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/9/9/99851c1b-8878-4c1e-906b-f6b70e53d714.jpg">M20</set>
       <manacost>2G</manacost>
@@ -736,6 +834,30 @@ Enchanted creature can't attack or block.</text>
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Return target creature or land card from a graveyard to its owner's hand. You gain 6 life.</text>
+    </card>
+    <card>
+      <name>Reckless Air Strike</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/6/8/68391b41-4a17-4450-a8ac-0ce8406fe8c1.jpg">M20</set>
+      <manacost>R</manacost>
+      <cmc>1.0</cmc>
+      <color>R</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose one &#8212;
+&#8226; Reckless Air Strike deals 3 damage to target creature with flying.
+&#8226; Destroy target artifact.</text>
+    </card>
+    <card>
+      <name>Repeated Reverberation</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/1/e/1e94c783-e474-4cbc-a38a-27ad8dd15a7b.jpg">M20</set>
+      <manacost>2RR</manacost>
+      <cmc>4.0</cmc>
+      <color>R</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>When you next cast an instant spell, cast a sorcery spell, or activate a loyalty ability this turn, copy that spell or ability twice. You may choose new targets for the copies.</text>
     </card>
     <card>
       <name>Rienne, Angel of Rebirth</name>
@@ -767,6 +889,18 @@ Whenever another multicolored creature you control dies, return it to its owner'
       <text>Whenever Risen Reef or another Elemental enters the battlefield under your control, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you don't put the card onto the battlefield, put it into your hand.</text>
     </card>
     <card>
+      <name>Rotting Regisaur</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/d/8/d88c61cb-dbf9-46c3-8795-8896ba1208d5.jpg">M20</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Zombie Dinosaur</type>
+      <pt>7/6</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>At the beginning of your upkeep, discard a card.</text>
+    </card>
+    <card>
       <name>Rule of Law</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/1/a1f4e79b-b103-4380-afa0-61a2b1773c9e.jpg">M20</set>
       <manacost>2W</manacost>
@@ -789,6 +923,42 @@ Whenever another multicolored creature you control dies, return it to its owner'
       <text>Choose two target players. Each of them searches their library for a card, then shuffles their library and puts that card on top of it.</text>
     </card>
     <card>
+      <name>Scholar of the Ages</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/0/80137c9a-ea56-4dc7-a503-43fe192c8fce.jpg">M20</set>
+      <manacost>5UU</manacost>
+      <cmc>7.0</cmc>
+      <color>U</color>
+      <type>Creature - Human Wizard</type>
+      <pt>3/3</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Scholar of the Ages enters the battlefield, return up to two target instant and/or sorcery cards from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Scuttlemutt</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/3/9/39f2d2e8-a9ed-42cc-9a8a-fc697a7251e5.jpg">M20</set>
+      <manacost>3</manacost>
+      <cmc>3.0</cmc>
+      <type>Artifact Creature - Scarecrow</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{T}: Add one mana of any color.
+{T}: Target creature becomes the color or colors of your choice until end of turn.</text>
+    </card>
+    <card>
+      <name>Season of Growth</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/5/65b9a718-01b9-46b2-85eb-55f6206ee5e4.jpg">M20</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Enchantment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature enters the battlefield under your control, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Whenever you cast a spell that targets a creature you control, draw a card.</text>
+    </card>
+    <card>
       <name>Silverback Shaman</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/4/e/4e97e62e-4a77-4512-b5fa-400e01517e23.jpg">M20</set>
       <manacost>3GG</manacost>
@@ -802,6 +972,19 @@ Whenever another multicolored creature you control dies, return it to its owner'
 When Silverback Shaman dies, draw a card.</text>
     </card>
     <card>
+      <name>Sorin, Imperious Bloodlord</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/9/f/9f764be3-dd3f-44b1-a4a6-807d1387590b.jpg">M20</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Legendary Planeswalker - Sorin</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>+1: Target creature you control gains deathtouch and lifelink until end of turn. If it's a Vampire, put a +1/+1 counter on it.
++1: You may sacrifice a Vampire. When you do, Sorin, Imperious Bloodlord deals 3 damage to any target and you gain 3 life.
+-3: You may put a vampire creature card from your hand onto the battlefield.</text>
+    </card>
+    <card>
       <name>Starfield Mystic</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/8/0/80382963-a9d7-4c2d-8671-8dd3fdd4dbdc.jpg">M20</set>
       <manacost>1W</manacost>
@@ -813,6 +996,71 @@ When Silverback Shaman dies, draw a card.</text>
       <tablerow>2</tablerow>
       <text>Enchantment spells you cast cost {1} less to cast.
 Whenever an enchantment you control is put into a graveyard from the battlefield, put a +1/+1 counter on Starfield Mystic.</text>
+    </card>
+    <card>
+      <name>Temple of Epiphany</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/0/00f8ec3c-d2cb-477c-a7e8-ff497df646d6.jpg">M20</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Temple of Epiphany enters the battlefield tapped.
+When Temple of Epiphany enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {U} or {R}.</text>
+    </card>
+    <card>
+      <name>Temple of Malady</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/e/6e327d94-5540-49f0-b1a2-a3fb614c9651.jpg">M20</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Temple of Malady enters the battlefield tapped.
+When Temple of Malady enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {B} or {G}.</text>
+    </card>
+    <card>
+      <name>Temple of Mystery</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/c/0c284acd-4407-42ad-9f4c-359041223609.jpg">M20</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Temple of Mystery enters the battlefield tapped.
+When Temple of Mystery enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {G} or {U}.</text>
+    </card>
+    <card>
+      <name>Temple of Silence</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/6/4/64cbb241-7268-42ac-a3ae-d326c9b6247f.jpg">M20</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Temple of Silence enters the battlefield tapped.
+When Temple of Silence enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {W} or {B}.</text>
+    </card>
+    <card>
+      <name>Temple of Triumph</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/8/a874dfe1-eb4d-4817-877f-8a4cd75107e1.jpg">M20</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <cipt>1</cipt>
+      <type>Land</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>Temple of Triumph enters the battlefield tapped.
+When Temple of Triumph enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {R} or {W}.</text>
     </card>
     <card>
       <name>Thought Distortion</name>
@@ -885,6 +1133,22 @@ Unchained Berserker gets +2/+0 as long as it's attacking.</text>
       <text>Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn. You and permanents you control gain hexproof from blue and from black until end of turn. (You and they can't be the targets of blue or black spells or abilities your opponents control.)</text>
     </card>
     <card>
+      <name>Voracious Hydra</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/4/74bbe44f-864a-446c-bfc9-5f5188e663b8.jpg">M20</set>
+      <manacost>XGG</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Creature - Hydra</type>
+      <pt>0/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Trample
+Voracious Hydra enters the battlefield with X +1/+1 counters on it.
+When Voracious Hydra enters the battlefield, choose one &#8212;
+&#8226; Double the number of +1/+1 counters on Voracious Hydra.
+&#8226; Voracious Hydra fights target creature you don't control.</text>
+    </card>
+    <card>
       <name>Wakeroot Elemental</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/0/2/02c9396d-28f2-40b7-908e-51db51da57a7.jpg">M20</set>
       <manacost>4GG</manacost>
@@ -894,7 +1158,20 @@ Unchained Berserker gets +2/+0 as long as it's attacking.</text>
       <pt>5/5</pt>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
-      <text>{G}{G}{G}{G}{G}: Untap target land you control. It becomes a 5/5 Elemental creature with haste. It's still a land.</text>
+      <text>{G}{G}{G}{G}{G}: Untap target land you control. It becomes a 5/5 Elemental creature with haste. It's still a land. (This effect lasts as long as that land remains on the battlefield.)</text>
+    </card>
+    <card>
+      <name>Wolfrider's Saddle</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/a/ba18cc9a-411d-45c6-bcc3-9e02ef5e2d92.jpg">M20</set>
+      <manacost>3G</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <type>Artifact - Equipment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>When Wolfrider's Saddle enters the battlefield, create a 2/2 green Wolf creature token, then attach Wolfrider's Saddle to it.
+Equipped creature gets +1/+1 and can't be blocked by more than one creature.
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery)</text>
     </card>
     <card>
       <name>Yarok's Fenlurker</name>
@@ -908,6 +1185,21 @@ Unchained Berserker gets +2/+0 as long as it's attacking.</text>
       <tablerow>2</tablerow>
       <text>When Yarok's Fenlurker enters the battlefield, each opponent exiles a card from their hand.
 {2}{B}: Yarok's Fenlurker gets +1/+1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Yarok, the Desecrated</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/a/1/a1001d43-e11b-4e5e-acd4-4a50ef89977f.jpg">M20</set>
+      <manacost>2BGU</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <color>G</color>
+      <color>U</color>
+      <type>Legendary Creature - Elemental Horror</type>
+      <pt>3/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Deathtouch, lifelink
+If a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
     </card>
   </cards>
 </cockatrice_carddatabase>
