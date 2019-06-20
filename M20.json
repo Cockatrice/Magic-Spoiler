@@ -1,36 +1,29 @@
 [
     {
-        "artist": "Daarken",
-        "cmc": 5.0,
-        "colorIdentity": [
-            "W"
-        ],
-        "colors": [
-            "W"
-        ],
+        "artist": "Lake Hurwitz",
+        "cmc": 4.0,
+        "colorIdentity": [],
+        "colors": [],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{2}{W}{W}{W}",
+        "mana_cost": "{4}",
         "multiverseId": null,
-        "name": "\"Brillantemental\"",
+        "name": "\"Ark of the Coffer-nant\"",
         "names": null,
-        "number": "10",
-        "power": "4",
-        "rarity": "Mythic Rare",
-        "subTypes": [
-            "Elemental",
-            "Knight"
-        ],
+        "number": "225",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
         "superTypes": [],
-        "text": "Vigilance\nWhen \"Brillantemental\" enters the battlefield, destroy up to one target nonland permanent. Its controller creates a 3/3 colorless Golem artifact creature token.\nWhen \"Brillantemental\" dies, return target artifact or enchantment card from your graveyard to your hand.",
-        "toughness": "6",
-        "type": "Creature - Elemental Knight",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/f/7/f7b1919e-c0c1-4ac7-9061-a337b6fe7273.jpg"
+        "text": "{1}, {T}: Choose a card name, then reveal the top card of your library. If this card has the chosen name, sacrifice \"Ark of the Coffer-nant\" and draw three cards. Activate this ability only when you could play a sorcery.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/d/a/da55c6a1-1f26-4254-ac62-fdbe94278de5.jpg"
     },
     {
-        "artist": "Zezhou Chen",
+        "artist": "Alayna Danner",
         "cmc": 3.0,
         "colorIdentity": [],
         "colors": [],
@@ -39,77 +32,130 @@
         "loyalty": null,
         "mana_cost": "{3}",
         "multiverseId": null,
-        "name": "\"Good Wand, Lightly Used, No Refunds\"",
+        "name": "\"Metal Mario\"",
         "names": null,
-        "number": "236",
-        "power": null,
-        "rarity": "Uncommon",
-        "subTypes": [],
-        "superTypes": [],
-        "text": "{3}, {T}: \"Good Wand, Lightly Used, No Refunds\" deals 1 damage to any target.\nWhen \"Good Wand, Lightly Used, No Refunds\" is put into a graveyard from the battlefield, it deals 5 damage to any target.",
-        "toughness": null,
-        "type": "Artifact",
-        "types": "Artifact",
-        "url": "https://img.scryfall.com/cards/normal/front/5/5/5521cb92-03b0-44ab-a141-40dc0eb5a79f.jpg"
-    },
-    {
-        "artist": "Micah Epstein",
-        "cmc": 6.0,
-        "colorIdentity": [
-            "W"
-        ],
-        "colors": [
-            "W"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{4}{W}{W}",
-        "multiverseId": null,
-        "name": "\"Inspiring Angel\"",
-        "names": null,
-        "number": "23",
-        "power": "4",
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Angel"
-        ],
-        "superTypes": [],
-        "text": "Flying\n{3}{W}: Put a +1/+1 counter on another target creature with flying.",
-        "toughness": "4",
-        "type": "Creature - Angel",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/9/c/9c62f724-7fb4-4498-b5c1-cf65d86d8e95.jpg"
-    },
-    {
-        "artist": "Alex Konstad",
-        "cmc": 1.0,
-        "colorIdentity": [
-            "B"
-        ],
-        "colors": [
-            "B"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{B}",
-        "multiverseId": null,
-        "name": "\"We Ran Out Of Punch\"",
-        "names": null,
-        "number": "105",
+        "number": "224",
         "power": "1",
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "subTypes": [
-            "Vampire",
             "Knight"
         ],
         "superTypes": [],
-        "text": "{2}{B}: \"We Ran Out Of Punch\" gets +3/+3 and gains deathtouch until end of turn.\nAt the beginning of your end step, if a player lost 4 or more life this turn, put a +1/+1 counter on \"We Ran Out Of Punch\". (Damage causes loss of life.)",
-        "toughness": "2",
-        "type": "Creature - Vampire Knight",
+        "text": "Vigilance\nAs \"Metal Mario\" enters the battlefield, choose a color.\nWhenever you cast a spell of the chosen color, put a +1/+1 counter on \"Metal Mario\".",
+        "toughness": "1",
+        "type": "Artifact Creature - Knight",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/e/eeab4819-dd26-4f5c-8538-50f2caca292d.jpg"
+    },
+    {
+        "artist": "Chris Seaman",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "\"Picture of Dorian Slay\"",
+        "names": null,
+        "number": "229",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "As \"Picture of Dorian Slay\" enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\n{3}, {T}: Look at the top three cards of your library. You may reveal a creature card of the chosen type from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/9/b/9b78e53c-1aec-4c49-bf58-165dd7b59d64.jpg"
+    },
+    {
+        "artist": "Igor Kieryluk",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "\"Smoldering Mask\"",
+        "names": null,
+        "number": "151",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Equipment"
+        ],
+        "superTypes": [],
+        "text": "When \"Smoldering Mask\" enters the battlefield, create a 1/1 red Elemental creature token, then attach \"Smoldering Mask\" to it.\nEquipped creature has \"Sacrifice this creature: It deals 1 damage to any target.\"\nEquip {2}",
+        "toughness": null,
+        "type": "Artifact - Equipment",
+        "types": "Artifact ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/e/be2f4165-f87f-454b-b955-e4477c864e95.jpg"
+    },
+    {
+        "artist": "Pindurski",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U}",
+        "multiverseId": null,
+        "name": "\"The Paper\"",
+        "names": null,
+        "number": "63",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nEnchanted creature gets +0/+2 and has \"{T}: Draw a card, then discard a card.\"",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/1/e16c9f3a-534b-42d4-9765-8d1cb15375aa.jpg"
+    },
+    {
+        "artist": "Johan Grenier",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}",
+        "multiverseId": null,
+        "name": "\"Treasure-Pile Dragon\"",
+        "names": null,
+        "number": "153",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Dragon"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen \"Treasure-Pile Dragon\" enters the battlefield, create two Treasure tokens. (They're colorless artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "toughness": "3",
+        "type": "Creature - Dragon",
         "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/2/9/29425426-7bf2-4872-aa35-c12c22801edd.jpg"
+        "url": "https://img.scryfall.com/cards/normal/front/2/c/2c9bf6d8-ebf6-40ff-858a-3483d19bb584.jpg"
     },
     {
         "artist": "Tomasz Jedruszek",
@@ -137,6 +183,36 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/7/8/783da808-6698-4e55-9fac-430a6effe2b1.jpg"
+    },
+    {
+        "artist": "Igor Kieryluk",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"The more secrets you have, the more easily you become my pawn.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{U}{U}",
+        "multiverseId": null,
+        "name": "Agent of Treachery",
+        "names": null,
+        "number": "43",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "When Agent of Treachery enters the battlefield, gain control of target permanent.\nAt the beginning of your end step, if you control three or more permanents you don't own, draw three cards.",
+        "toughness": "3",
+        "type": "Creature - Human Rogue",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/c/cc6686e6-4535-49be-b0b3-e76464656cd2.jpg"
     },
     {
         "artist": "Chris Rallis",
@@ -318,6 +394,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/b/d/bd43d44b-de27-4139-9cb8-b1f4c04fb87e.jpg"
     },
     {
+        "artist": "Igor Kieryluk",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "A circus acrobat in life, she kills with such fluid grace that even her victims are awed by her performance.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B}",
+        "multiverseId": null,
+        "name": "Bloodthirsty Aerialist",
+        "names": null,
+        "number": "91",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Vampire",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhenever you gain life, put a +1/+1 counter on Bloodthirsty Aerialist.",
+        "toughness": "3",
+        "type": "Creature - Vampire Rogue",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/9/29156f28-38d8-4f65-b416-089f3fd97109.jpg"
+    },
+    {
         "artist": "Cole Eastburn",
         "cmc": 1.0,
         "colorIdentity": [
@@ -372,6 +478,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/a/2/a2bd5c34-fa7e-4fa8-a5b1-c3aa928cc834.jpg"
     },
     {
+        "artist": "Daarken",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}{W}{W}",
+        "multiverseId": null,
+        "name": "Cavalier of Dawn",
+        "names": null,
+        "number": "10",
+        "power": "4",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Elemental",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Vigilance\nWhen Cavalier of Dawn enters the battlefield, destroy up to one target nonland permanent. Its controller creates a 3/3 colorless Golem artifact creature token.\nWhen Cavalier of Dawn dies, return target artifact or enchantment card from your graveyard to your hand.",
+        "toughness": "6",
+        "type": "Creature - Elemental Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/7/f7b1919e-c0c1-4ac7-9061-a337b6fe7273.jpg"
+    },
+    {
         "artist": "Wesley Burt",
         "cmc": 5.0,
         "colorIdentity": [
@@ -400,6 +536,65 @@
         "type": "Creature - Elemental Knight",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/c/0c18c541-758b-4237-9961-9637e996e8a5.jpg"
+    },
+    {
+        "artist": "Viktor Titov",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}{B}",
+        "multiverseId": null,
+        "name": "Cavalier of Night",
+        "names": null,
+        "number": "94",
+        "power": "4",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Elemental",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Lifelink\nWhen Cavalier of Night enters the battlefield, you may sacrifice another creature. When you do, destroy target creature an opponent controls.\nWhen Cavalier of Night dies, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.",
+        "toughness": "5",
+        "type": "Creature - Elemental Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/0/f03109b9-54a8-4d68-97c2-e42c7d5c2d41.jpg"
+    },
+    {
+        "artist": "Daniel Ljunggren",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "Dragons avoid the bright colors of its wings.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Cerulean Drake",
+        "names": null,
+        "number": "53",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Drake"
+        ],
+        "superTypes": [],
+        "text": "Flying\nProtection from red (This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything red.)\nSacrifice Cerulean Drake: Counter target spell that targets you.",
+        "toughness": "1",
+        "type": "Creature - Drake",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/1/b11f9e7d-3f56-4e28-9908-157735f6dfa9.jpg"
     },
     {
         "artist": "Johan Grenier",
@@ -836,6 +1031,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/5/1/5195abc4-cfa7-45dd-aa96-2e56f818a17b.jpg"
     },
     {
+        "artist": "Chris Seaman",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"From a sea of infinite possibilities, our choices create the future.\"\n\u2014Mu Yanling",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}{U}",
+        "multiverseId": null,
+        "name": "Drawn from Dreams",
+        "names": null,
+        "number": "56",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Look at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in a random order.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/5/6/5677cd48-de9f-4827-94d7-8a2301945742.jpg"
+    },
+    {
         "artist": "Anthony Palumbo",
         "cmc": 4.0,
         "colorIdentity": [
@@ -892,6 +1114,36 @@
         "type": "Creature - Spirit",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/d/3/d3c81fda-c23d-437c-85f0-62d7b492ea32.jpg"
+    },
+    {
+        "artist": "Victor Adame Minguez",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}",
+        "multiverseId": null,
+        "name": "Elvish Reclaimer",
+        "names": null,
+        "number": "169",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Elf",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "Elvish Reclaimer gets +2/+2 as long as there are three or more land cards in your graveyard.\n{2}, {T}, Sacrifice a land: Search your library for a land card, put it onto the battlefield tapped, then shuffle your library.",
+        "toughness": "2",
+        "type": "Creature - Elf Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/9/39c431d7-d94b-46c4-bb89-f3db56214ab4.jpg"
     },
     {
         "artist": "Steve Prescott",
@@ -953,6 +1205,35 @@
         "type": "Creature - Bird Spirit",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/a/c/ac555709-c7cc-4c64-8a6f-8fe2bc149fcd.jpg"
+    },
+    {
+        "artist": "Rudy Siswanto",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "The strongest pack has the fiercest pups.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Ferocious Pup",
+        "names": null,
+        "number": "171",
+        "power": "0",
+        "rarity": "Common",
+        "subTypes": [
+            "Wolf"
+        ],
+        "superTypes": [],
+        "text": "When Ferocious Pup enters the battlefield, create a 2/2 green Wolf creature token.",
+        "toughness": "1",
+        "type": "Creature - Wolf",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/3/2354cb24-5c70-4aaa-8636-46866f0950c1.jpg"
     },
     {
         "artist": "Kev Walker",
@@ -1103,7 +1384,7 @@
         "multiverseId": null,
         "name": "Goblin Ringleader",
         "names": null,
-        "number": "141",
+        "number": "143",
         "power": "2",
         "rarity": "Uncommon",
         "subTypes": [
@@ -1206,6 +1487,60 @@
         "url": "https://img.scryfall.com/cards/normal/front/e/0/e0d6cea1-83d1-4045-b4da-40560af86df9.jpg"
     },
     {
+        "artist": "Franz Vohwinkel",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Heart-Piercer Bow",
+        "names": null,
+        "number": "228",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Equipment"
+        ],
+        "superTypes": [],
+        "text": "Whenever equipped creature attacks, Heart-Piercer Bow deals 1 damage to target creature defending player controls.\nEquip {1}",
+        "toughness": null,
+        "type": "Artifact - Equipment",
+        "types": "Artifact ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/2/e262f723-0e0b-44a4-bfc6-f48f17a805d9.jpg"
+    },
+    {
+        "artist": "Micah Epstein",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"Fear neither clouds nor darkness. The light shall overcome them all.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{W}{W}",
+        "multiverseId": null,
+        "name": "Herald of the Sun",
+        "names": null,
+        "number": "23",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Angel"
+        ],
+        "superTypes": [],
+        "text": "Flying\n{3}{W}: Put a +1/+1 counter on another target creature with flying.",
+        "toughness": "4",
+        "type": "Creature - Angel",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/c/9c62f724-7fb4-4498-b5c1-cf65d86d8e95.jpg"
+    },
+    {
         "artist": "Caio Monteiro",
         "cmc": 1.0,
         "colorIdentity": [
@@ -1301,6 +1636,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/1/f/1f400655-f495-4b21-ab9e-57fe4d845d45.jpg"
     },
     {
+        "artist": "Alex Konstad",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}",
+        "multiverseId": null,
+        "name": "Knight of the Ebon Legion",
+        "names": null,
+        "number": "105",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Vampire",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "{2}{B}: Knight of the Ebon Legion gets +3/+3 and gains deathtouch until end of turn.\nAt the beginning of your end step, if a player lost 4 or more life this turn, put a +1/+1 counter on Knight of the Ebon Legion. (Damage causes loss of life.)",
+        "toughness": "2",
+        "type": "Creature - Vampire Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/9/29425426-7bf2-4872-aa35-c12c22801edd.jpg"
+    },
+    {
         "artist": "G-host Lee",
         "cmc": 4.0,
         "colorIdentity": [
@@ -1384,7 +1749,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "If Leyline of Abundance is in your opening hand, you may begin the game with it on the battlefield.\nWhen you tap a creature for mana, add an additional {G}.\n{6}{G}{G}: Put a +1/+1 counter on each creature you control.",
+        "text": "If Leyline of Abundance is in your opening hand, you may begin the game with it on the battlefield.\nWhenever you tap a creature for mana, add an additional {G}.\n{6}{G}{G}: Put a +1/+1 counter on each creature you control.",
         "toughness": null,
         "type": "Enchantment",
         "types": "Enchantment",
@@ -1529,6 +1894,29 @@
         "url": "https://img.scryfall.com/cards/normal/front/e/2/e2638252-f329-4d83-a705-6e369462d83a.jpg"
     },
     {
+        "artist": "John Avon",
+        "cmc": 0.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Lotus Field",
+        "names": null,
+        "number": "249",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Hexproof\nLotus Field enters the battlefield tapped.\nWhen Lotus Field enters the battlefield, sacrifice two lands.\n{T}: Add three mana of any color.",
+        "toughness": null,
+        "type": "Land",
+        "types": "Land",
+        "url": "https://img.scryfall.com/cards/normal/front/0/e/0e013033-3995-4ba8-b0c3-0614c79aaaab.jpg"
+    },
+    {
         "artist": "Nicholas Gregory",
         "cmc": 6.0,
         "colorIdentity": [
@@ -1586,6 +1974,29 @@
         "type": "Creature - Pegasus",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/7/c/7cae7971-953b-454a-84dd-ae2974946da9.jpg"
+    },
+    {
+        "artist": "Lake Hurwitz",
+        "cmc": 1.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"Locks want to be opened, and treasure wants to be free.\"\n\u2014Nayrex Slipfinger, master thief",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}",
+        "multiverseId": null,
+        "name": "Manifold Key",
+        "names": null,
+        "number": "230",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{1}, {T}: Untap another target artifact.\n{3}, {T}: Target creature can't be blocked this turn.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/7/1/715e637a-dfd8-45a0-b1ea-53e4abd29307.jpg"
     },
     {
         "artist": "Bayard Wu",
@@ -1731,6 +2142,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/3/3/33b83158-78b4-425e-8379-be3ef038295c.jpg"
     },
     {
+        "artist": "Dan Scott",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "A strong leader means a growing pack.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}{G}",
+        "multiverseId": null,
+        "name": "Nightpack Ambusher",
+        "names": null,
+        "number": "185",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Wolf"
+        ],
+        "superTypes": [],
+        "text": "Flash\nOther Wolves and Werewolves you control get +1/+1.\nAt the beginning of your end step, if you didn't cast a spell this turn, create a 2/2 green Wolf creature token.",
+        "toughness": "4",
+        "type": "Creature - Wolf",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/c/2c9b1f70-9861-4c66-a52f-c40002679e75.jpg"
+    },
+    {
         "artist": "Grzegorz Rutkowski",
         "cmc": 4.0,
         "colorIdentity": [
@@ -1758,6 +2198,73 @@
         "type": "Creature - Octopus",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/1/3/13becea1-e745-4c96-bfc2-6a277fb60ee1.jpg"
+    },
+    {
+        "artist": "Zoltan Boros",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "B",
+            "R"
+        ],
+        "colors": [
+            "B",
+            "R"
+        ],
+        "flavor": "\"What he doesn't burn, he smashes.\" \u2014Captain Wellis, ogre wrangler",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{R}",
+        "multiverseId": null,
+        "name": "Ogre Siegebreaker",
+        "names": null,
+        "number": "215",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Ogre",
+            "Berserker"
+        ],
+        "superTypes": [],
+        "text": "{2}{B}{R}: Destroy target creature that was dealt damage this turn.",
+        "toughness": "3",
+        "type": "Creature - Ogre Berserker",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/a/0aba1c64-c552-4aeb-b669-da885c8c75b2.jpg"
+    },
+    {
+        "artist": "Lius Lasahido",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G",
+            "R",
+            "U"
+        ],
+        "colors": [
+            "G",
+            "R",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}{U}{R}",
+        "multiverseId": null,
+        "name": "Omnath, Locus of the Roil",
+        "names": null,
+        "number": "216",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "When Omnath, Locus of the Roil enters the battlefield, it deals damage to any target equal to the number of Elementals you control.\nWhenever a land enters the battlefield under your control, put a +1/+1 counter on target Elemental you control. If you control eight or more lands, draw a card.",
+        "toughness": "3",
+        "type": "Legendary Creature - Elemental",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/b/cb53a29d-2de2-4874-a6f3-0fecbfa14cf2.jpg"
     },
     {
         "artist": "Mathias Kollros",
@@ -1899,6 +2406,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/9/9/99851c1b-8878-4c1e-906b-f6b70e53d714.jpg"
     },
     {
+        "artist": "Zoltan Boros",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Like blinking or breathing, responding to an alarm is an involuntary reflex.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Raise the Alarm",
+        "names": null,
+        "number": "34",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Create two 1/1 white Soldier creature tokens.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/7/6/764a7a53-314e-4b1f-aa33-0f312d06df71.jpg"
+    },
+    {
         "artist": "Jakub Kasper",
         "cmc": 1.0,
         "colorIdentity": [
@@ -1926,6 +2460,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/6/8/68391b41-4a17-4450-a8ac-0ce8406fe8c1.jpg"
     },
     {
+        "artist": "Eric Deschamps",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Renowned Weaponsmith",
+        "names": null,
+        "number": "72",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Artificer"
+        ],
+        "superTypes": [],
+        "text": "{T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.\n{U}, {T}: Search your library for a card named Heart-Piercer Bow or Vial of Dragonfire, reveal it, put it into your hand, then shuffle your library.",
+        "toughness": "3",
+        "type": "Creature - Human Artificer",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg"
+    },
+    {
         "artist": "Izzy",
         "cmc": 4.0,
         "colorIdentity": [
@@ -1951,6 +2515,29 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/1/e/1e94c783-e474-4cbc-a38a-27ad8dd15a7b.jpg"
+    },
+    {
+        "artist": "Zezhou Chen",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"The last blast is the biggest.\" \u2014Sargis Haz, artificer",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "Retributive Wand",
+        "names": null,
+        "number": "236",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{3}, {T}: Retributive Wand deals 1 damage to any target.\nWhen Retributive Wand is put into a graveyard from the battlefield, it deals 5 damage to any target.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/5/5/5521cb92-03b0-44ab-a141-40dc0eb5a79f.jpg"
     },
     {
         "artist": "Kieran Yanner",
@@ -2027,7 +2614,7 @@
         "colors": [
             "B"
         ],
-        "flavor": "\"Now, that's a zombie!\"\n\u2014Modriss of Zargoth Fen",
+        "flavor": "\"Now, *that's* a zombie!\"\n\u2014Modriss of Zargoth Fen",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{B}",
@@ -2137,7 +2724,7 @@
         "cmc": 3.0,
         "colorIdentity": [],
         "colors": [],
-        "flavor": null,
+        "flavor": "With five lenses on its \"head\", it sees the world in a range of colors beyond ordinary perception.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{3}",
@@ -2183,6 +2770,35 @@
         "type": "Enchantment",
         "types": "Enchantment",
         "url": "https://img.scryfall.com/cards/normal/front/6/5/65b9a718-01b9-46b2-85eb-55f6206ee5e4.jpg"
+    },
+    {
+        "artist": "Izzy",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}{G}",
+        "multiverseId": null,
+        "name": "Shifting Ceratops",
+        "names": null,
+        "number": "194",
+        "power": "5",
+        "rarity": "Rare",
+        "subTypes": [
+            "Dinosaur"
+        ],
+        "superTypes": [],
+        "text": "This spell can't be countered.\nProtection from blue (This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything blue.)\n{G}: Shifting Ceratops gains your choice of reach, trample, or haste until end of turn.",
+        "toughness": "4",
+        "type": "Creature - Dinosaur",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/e/8e318600-21af-4003-bcfa-be926cd24c5c.jpg"
     },
     {
         "artist": "Mathias Kollros",
@@ -2239,11 +2855,41 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "+1: Target creature you control gains deathtouch and lifelink until end of turn. If it's a Vampire, put a +1/+1 counter on it.\n+1: You may sacrifice a Vampire. When you do, Sorin, Imperious Bloodlord deals 3 damage to any target and you gain 3 life.\n-3: You may put a vampire creature card from your hand onto the battlefield.",
+        "text": "+1: Target creature you control gains deathtouch and lifelink until end of turn. If it's a Vampire, put a +1/+1 counter on it.\n+1: You may sacrifice a Vampire. When you do, Sorin, Imperious Bloodlord deals 3 damage to any target and you gain 3 life.\n\u22123: You may put a Vampire creature card from your hand onto the battlefield.",
         "toughness": null,
         "type": "Legendary Planeswalker - Sorin",
         "types": " Planeswalker ",
         "url": "https://img.scryfall.com/cards/normal/front/9/f/9f764be3-dd3f-44b1-a4a6-807d1387590b.jpg"
+    },
+    {
+        "artist": "Cristi Balanescu",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"Any ship that sails on these mean seas for long is bound to pick up a ghost or two.\" \u2014Admiral Beckett Brass",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U}",
+        "multiverseId": null,
+        "name": "Spectral Sailor",
+        "names": null,
+        "number": "76",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Spirit",
+            "Pirate"
+        ],
+        "superTypes": [],
+        "text": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\n{3}{U}: Draw a card.",
+        "toughness": "1",
+        "type": "Creature - Spirit Pirate",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/7/67483891-36d1-46f2-8b4f-b8b7bd54bdcc.jpg"
     },
     {
         "artist": "Eric Deschamps",
@@ -2274,6 +2920,31 @@
         "type": "Creature - Human Cleric",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/8/0/80382963-a9d7-4c2d-8671-8dd3fdd4dbdc.jpg"
+    },
+    {
+        "artist": "Chris Rahn",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"The world is already run by all manner of machines. One day, they'll remind us of that fact.\"\n\u2014Sargis Haz, artificer",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Steel Overseer",
+        "names": null,
+        "number": "239",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Construct"
+        ],
+        "superTypes": [],
+        "text": "{T}: Put a +1/+1 counter on each artifact creature you control.",
+        "toughness": "1",
+        "type": "Artifact Creature - Construct",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/e/6ed61426-e652-4b48-b936-8be9b6b57731.jpg"
     },
     {
         "artist": "Adam Paquette",
@@ -2546,6 +3217,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/a/7a960516-3864-4a7a-8117-d25dec0dd665.jpg"
     },
     {
+        "artist": "Anna Podedworna",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"This place suits me: craven authorities and plentiful prey.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}",
+        "multiverseId": null,
+        "name": "Vampire of the Dire Moon",
+        "names": null,
+        "number": "120",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [],
+        "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nLifelink (Damage dealt by this creature also causes you to gain that much life.)",
+        "toughness": "1",
+        "type": "Creature - Vampire",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/3/b3c185b9-5d97-4a5a-af0b-8b9c44dcd235.jpg"
+    },
+    {
         "artist": "Lake Hurwitz",
         "cmc": 1.0,
         "colorIdentity": [
@@ -2571,6 +3271,29 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/a/a/aa686c34-1c11-469f-93c2-f9891aea521f.jpg"
+    },
+    {
+        "artist": "Franz Vohwinkel",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"The artificer assured me that the vial is strong enough to contain the dragon's breath. I just need to make sure to throw it far enough.\"\n\u2014Kunh Mei, last words",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Vial of Dragonfire",
+        "names": null,
+        "number": "241",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{2}, {T}, Sacrifice Vial of Dragonfire: It deals 2 damage to target creature.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/5/7/57db6ba8-f6c1-41be-8bee-93e573d052d7.jpg"
     },
     {
         "artist": "Wayne Reynolds",
@@ -2631,6 +3354,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/0/2/02c9396d-28f2-40b7-908e-51db51da57a7.jpg"
     },
     {
+        "artist": "Lindsey Look",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{G}",
+        "multiverseId": null,
+        "name": "Wolfkin Bond",
+        "names": null,
+        "number": "203",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nWhen Wolfkin Bond enters the battlefield, create a 2/2 green Wolf creature token.\nEnchanted creature gets +2/+2.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/c/2c419a2b-4389-49bc-91f1-a613ffcbfa0b.jpg"
+    },
+    {
         "artist": "Raoul Vitale",
         "cmc": 4.0,
         "colorIdentity": [
@@ -2658,6 +3410,36 @@
         "type": "Artifact - Equipment",
         "types": "Artifact ",
         "url": "https://img.scryfall.com/cards/normal/front/b/a/ba18cc9a-411d-45c6-bcc3-9e02ef5e2d92.jpg"
+    },
+    {
+        "artist": "Randy Vargas",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Every footfall on the forest floor is a heartbeat sending strength into my veins.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Woodland Champion",
+        "names": null,
+        "number": "205",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Elf",
+            "Scout"
+        ],
+        "superTypes": [],
+        "text": "Whenever one or more tokens enter the battlefield under your control, put that many +1/+1 counters on Woodland Champion.",
+        "toughness": "2",
+        "type": "Creature - Elf Scout",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/5/250f5303-428a-478c-9bd5-2410f7fcc4dd.jpg"
     },
     {
         "artist": "Daarken",
