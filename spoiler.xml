@@ -1,18 +1,18 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Fri, Jun 21 2019, 23:17:35 (UTC)
+Created At: Sat, Jun 22 2019, 23:17:41 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
     <set>
-      <name>PM20</name>
-      <longname>Core Set 2020 Promos</longname>
+      <name>PPP1</name>
+      <longname>M20 Promo Packs</longname>
       <settype>Expansion</settype>
       <releasedate>2019-07-12</releasedate>
     </set>
     <set>
-      <name>PPP1</name>
-      <longname>M20 Promo Packs</longname>
+      <name>PM20</name>
+      <longname>Core Set 2020 Promos</longname>
       <settype>Expansion</settype>
       <releasedate>2019-07-12</releasedate>
     </set>
@@ -30,6 +30,56 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
     </set>
   </sets>
   <cards>
+    <card>
+      <name>Forest</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/8/9/893b309d-5e8f-47fa-9f54-eaf16a5f96e3.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Forest</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {G}.)</text>
+    </card>
+    <card>
+      <name>Island</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/c/cc101b90-3e17-4beb-a606-3e76088e362c.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Island</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {U}.)</text>
+    </card>
+    <card>
+      <name>Mountain</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/7/27d30285-7729-4130-a768-71867aefe9b3.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Mountain</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {R}.)</text>
+    </card>
+    <card>
+      <name>Plains</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/6/36da00e3-3ef6-4ad5-a53d-e71cfdafc1e6.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Plains</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {W}.)</text>
+    </card>
+    <card>
+      <name>Swamp</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/8/783616d6-e3ea-43fd-97eb-6e4c5a2c711f.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Swamp</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {B}.)</text>
+    </card>
     <card>
       <name>Chandra's Regulator</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/b/4/b4448017-850e-4613-8d55-4f633c67c7e9.jpg">PM20</set>
@@ -101,56 +151,6 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <text>{1}, Sacrifice Thrashing Brontodon: Destroy target artifact or enchantment.</text>
     </card>
     <card>
-      <name>Forest</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/8/9/893b309d-5e8f-47fa-9f54-eaf16a5f96e3.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Forest</type>
-      <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {G}.)</text>
-    </card>
-    <card>
-      <name>Island</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/c/cc101b90-3e17-4beb-a606-3e76088e362c.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Island</type>
-      <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {U}.)</text>
-    </card>
-    <card>
-      <name>Mountain</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/7/27d30285-7729-4130-a768-71867aefe9b3.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Mountain</type>
-      <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {R}.)</text>
-    </card>
-    <card>
-      <name>Plains</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/6/36da00e3-3ef6-4ad5-a53d-e71cfdafc1e6.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Plains</type>
-      <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {W}.)</text>
-    </card>
-    <card>
-      <name>Swamp</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/8/783616d6-e3ea-43fd-97eb-6e4c5a2c711f.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Swamp</type>
-      <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {B}.)</text>
-    </card>
-    <card>
       <name>"Kill Stealer"</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/e/1/e1ff5e66-4718-43c3-8a58-1a0a8e788f83.jpg">M20</set>
       <manacost>2B</manacost>
@@ -196,6 +196,19 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <tablerow>2</tablerow>
       <text>When Agent of Treachery enters the battlefield, gain control of target permanent.
 At the beginning of your end step, if you control three or more permanents you don't own, draw three cards.</text>
+    </card>
+    <card>
+      <name>Ajani, Inspiring Leader</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/d/b/dba41e5f-66b8-4459-8a07-bbe893216f1e.jpg">M20</set>
+      <manacost>4WW</manacost>
+      <cmc>6.0</cmc>
+      <color>W</color>
+      <type>Legendary Planeswalker - Ajani</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>+2: You gain 2 life. Put two +1/+1 counters on up to one target creature.
+&#8722;3: Exile target creature. Its controller gains 2 life.
+&#8722;10: Creatures you control gain flying and double strike until end of turn.</text>
     </card>
     <card>
       <name>Ajani, Strength of the Pride</name>
@@ -290,6 +303,18 @@ Creatures your opponents control can't have +1/+1 counters put on them.</text>
       <text>As long as it's your turn, Blood Burglar has lifelink. (Damage dealt by this creature also causes you to gain that much life.)</text>
     </card>
     <card>
+      <name>Blood for Bones</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/7/8/7892b516-0dce-491f-8b42-031d64397e26.jpg">M20</set>
+      <manacost>3B</manacost>
+      <cmc>4.0</cmc>
+      <color>B</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>As an additional cost to cast this spell, sacrifice a creature.
+Return a creature card from your graveyard to the battlefield, then return another creature card from your graveyard to your hand.</text>
+    </card>
+    <card>
       <name>Bloodfell Caves</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/9/b/9b7ec5a3-3c40-4090-b9e3-11fb5b06fb8f.jpg">M20</set>
       <manacost/>
@@ -301,6 +326,17 @@ Creatures your opponents control can't have +1/+1 counters put on them.</text>
       <text>Bloodfell Caves enters the battlefield tapped.
 When Bloodfell Caves enters the battlefield, you gain 1 life.
 {T}: Add {B} or {R}.</text>
+    </card>
+    <card>
+      <name>Bloodsoaked Altar</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/b/9/b9169431-a5b1-42ea-bcf4-6c750d2a2dbb.jpg">M20</set>
+      <manacost>4BB</manacost>
+      <cmc>6.0</cmc>
+      <color>B</color>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>{T}, Pay 2 life, Discard a card, Sacrifice a creature: Create a 5/5 black Demon creature token with flying. Activate this ability only any time you could play a sorcery.</text>
     </card>
     <card>
       <name>Bloodthirsty Aerialist</name>
@@ -496,6 +532,19 @@ Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 un
 +2: Each opponent gets an emblem with "At the beginning of your upkeep, this emblem deals 1 damage to you."
 &#8722;3: Chandra, Awakened Inferno deals 3 damage to each non-Elemental creature.
 &#8722;X: Chandra, Awakened Inferno deals X damage to target creature or planeswalker. If a permanent dealt damage this way would die this turn, exile it instead.</text>
+    </card>
+    <card>
+      <name>Chandra, Flame's Fury</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/5/d/5d1c6c4b-62ab-4d44-a2d7-64b44d163606.jpg">M20</set>
+      <manacost>4RR</manacost>
+      <cmc>6.0</cmc>
+      <color>R</color>
+      <type>Legendary Planeswalker - Chandra</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>+1: Chandra, Flame's Fury deals 2 damage to any target.
+&#8722;2: Chandra, Flame's Fury deals 4 damage to target creature and 2 damage to that creature's controller.
+&#8722;8: Chandra, Flame's Fury deals 10 damage to target player and each creature that player controls.</text>
     </card>
     <card>
       <name>Chandra, Novice Pyromancer</name>
@@ -742,6 +791,17 @@ When Dungeon Geists enters the battlefield, tap target creature an opponent cont
       <tablerow>2</tablerow>
       <text>Flying
 Other creatures you control with flying get +1/+1.</text>
+    </card>
+    <card>
+      <name>Eternal Isolation</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/2/021963bf-87fc-432f-b9a1-4f627885a7a9.jpg">M20</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Sorcery</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Put target creature with power 4 or greater on the bottom of its owner's library.</text>
     </card>
     <card>
       <name>Evolving Wilds</name>
@@ -1001,6 +1061,21 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 When Kaalia, Zenith Seeker enters the battlefield, look at the top six cards of your library. You may reveal an Angel card, a Demon card, and/or a Dragon card from among them and put them into your hand. Put the rest on the bottom of your library in a random order.</text>
     </card>
     <card>
+      <name>Kethis, the Hidden Hand</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/f/e/fe28de73-76f3-4a9e-a020-dbe5921b9be5.jpg">M20</set>
+      <manacost>WBG</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <color>G</color>
+      <color>W</color>
+      <type>Legendary Creature - Elf Advisor</type>
+      <pt>3/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Legendary spells you cast cost {1} less to cast.
+Exile two legendary cards from your graveyard: Until end of turn, each legendary card in your graveyard gains "You may play this card from your graveyard."</text>
+    </card>
+    <card>
       <name>Knight of the Ebon Legion</name>
       <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/9/29425426-7bf2-4872-aa35-c12c22801edd.jpg">M20</set>
       <manacost>B</manacost>
@@ -1252,6 +1327,19 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
       <text>Whenever a creature you control dies, you gain 1 life and draw a card.</text>
     </card>
     <card>
+      <name>Mu Yanling, Celestial Wind</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/8/4/84ae9595-8e76-4d8c-a08c-00434be75672.jpg">M20</set>
+      <manacost>4UU</manacost>
+      <cmc>6.0</cmc>
+      <color>U</color>
+      <type>Legendary Planeswalker - Yanling</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>+1: Until your next turn, up to one target creature gets -5/-0.
+&#8722;3: Return up to two target creatures to their owners' hands.
+&#8722;7: Creatures you control with flying get +5/+5 until end of turn.</text>
+    </card>
+    <card>
       <name>Mu Yanling, Sky Dancer</name>
       <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/0/2/0240f9eb-e1b2-4b41-94b0-b00ad2850825.jpg">M20</set>
       <manacost>1UU</manacost>
@@ -1301,6 +1389,17 @@ Other Wolves and Werewolves you control get +1/+1.
 At the beginning of your end step, if you didn't cast a spell this turn, create a 2/2 green Wolf creature token.</text>
     </card>
     <card>
+      <name>Noxious Grasp</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/8/e/8e5758cc-1f84-455d-a983-8ec471727eaf.jpg">M20</set>
+      <manacost>1B</manacost>
+      <cmc>2.0</cmc>
+      <color>B</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Destroy target creature or planeswalker that's green or white. You gain 1 life.</text>
+    </card>
+    <card>
       <name>Octoprophet</name>
       <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/1/3/13becea1-e745-4c96-bfc2-6a277fb60ee1.jpg">M20</set>
       <manacost>3U</manacost>
@@ -1316,7 +1415,7 @@ At the beginning of your end step, if you didn't cast a spell this turn, create 
       <name>Ogre Siegebreaker</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/a/0aba1c64-c552-4aeb-b669-da885c8c75b2.jpg">M20</set>
       <manacost>2BR</manacost>
-      <cmc>0.0</cmc>
+      <cmc>4.0</cmc>
       <color>B</color>
       <color>R</color>
       <type>Creature - Ogre Berserker</type>
@@ -1661,6 +1760,19 @@ When Silverback Shaman dies, draw a card.</text>
 &#8722;3: You may put a Vampire creature card from your hand onto the battlefield.</text>
     </card>
     <card>
+      <name>Sorin, Vampire Lord</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/b/f/bf20ea7b-e480-4b0e-b080-888f24d3c08d.jpg">M20</set>
+      <manacost>4BB</manacost>
+      <cmc>6.0</cmc>
+      <color>B</color>
+      <type>Legendary Planeswalker - Sorin</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>+1: Up to one target creature gets +2/+0 until end of turn.
+&#8722;2: Sorin, Vampire Lord deals 4 damage to any target. You gain 4 life.
+&#8722;8: Until end of turn, each Vampire you control gains "{T}: Gain control of target creature."</text>
+    </card>
+    <card>
       <name>Spectral Sailor</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/6/7/67483891-36d1-46f2-8b4f-b8b7bd54bdcc.jpg">M20</set>
       <manacost>U</manacost>
@@ -1949,6 +2061,32 @@ Lifelink (Damage dealt by this creature also causes you to gain that much life.)
       <text>Flying
 {B}, Pay 2 life: Target creature gets -1/-1 until end of turn.
 Whenever you lose life, draw that many cards. (Damage causes loss of life.)</text>
+    </card>
+    <card>
+      <name>Vivien, Arkbow Ranger</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/5/9/592c5e27-c538-425e-b41f-1d6708428853.jpg">M20</set>
+      <manacost>1GGG</manacost>
+      <cmc>4.0</cmc>
+      <color>G</color>
+      <type>Legendary Planeswalker - Vivien</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>+1: Distribute two +1/+1 counters among up to two target creatures. They gain trample until end of turn.
+&#8722;3: Target creature you control deals damage equal to its power to target creature or planeswalker.
+&#8722;5: You may choose a creature card you own from outside the game, reveal it, and put it into your hand.</text>
+    </card>
+    <card>
+      <name>Vivien, Nature's Avenger</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/f/7/f7ead409-3bce-47c8-ace7-498c38522369.jpg">M20</set>
+      <manacost>4GG</manacost>
+      <cmc>6.0</cmc>
+      <color>G</color>
+      <type>Legendary Planeswalker - Vivien</type>
+      <loyalty>3</loyalty>
+      <tablerow>1</tablerow>
+      <text>+1: Put three +1/+1 counters on up to one target creature.
+&#8722;1: Reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order.
+&#8722;6: Target creature gets +10/+10 and gains trample until end of turn.</text>
     </card>
     <card>
       <name>Voracious Hydra</name>
