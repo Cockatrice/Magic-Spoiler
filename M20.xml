@@ -1,6 +1,6 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Sun, Jun 23 2019, 23:17:58 (UTC)
+Created At: Mon, Jun 24 2019, 23:18:55 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
@@ -23,6 +23,48 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Whenever "Kill Stealer" attacks, you draw a card and you lose 1 life.</text>
+    </card>
+    <card>
+      <name>"Legendary Hydration"</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/4/e/4e446e90-6e31-43ed-bcb1-a01422b503c0.jpg">M20</set>
+      <manacost>3GGG</manacost>
+      <cmc>6.0</cmc>
+      <color>G</color>
+      <type>Legendary Creature - Hydra</type>
+      <pt>8/7</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+Hydra spells you cast cost {4} less to cast.
+Whenever a creature you control becomes the target of a spell, "Legendary Hydration" fights up to one target creature you don't control.</text>
+    </card>
+    <card>
+      <name>"Rainy Knight"</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/a/5/a5356b11-e505-4838-aecb-327689eeead1.jpg">M20</set>
+      <manacost>2UUU</manacost>
+      <cmc>5.0</cmc>
+      <color>U</color>
+      <type>Creature - Elemental Knight</type>
+      <pt>5/5</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+When "Rainy Knight" enters the battlefield, draw three cards, then put two cards from your hand on top of your library in any order.
+When "Rainy Knight" dies, shuffle it into its owner's library, then scry 2.</text>
+    </card>
+    <card>
+      <name>"Sir, are you aware there are men on the side of your hippogriff?"</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/5/4/549634d8-1c33-401b-841d-a79ef4374dd1.jpg">M20</set>
+      <manacost>RW</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <color>W</color>
+      <type>Creature - Human Knight</type>
+      <pt>1/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever "Sir, are you aware there are men on the side of your hippogriff?" attacks, create a 1/1 white Soldier creature token that's tapped and attacking.</text>
     </card>
     <card>
       <name>Aerial Assault</name>
@@ -84,6 +126,19 @@ At the beginning of your end step, if you control three or more permanents you d
       <text>+1: You gain life equal to the number of creatures you control plus the number of planeswalkers you control.
 &#8722;2: Create a 2/2 white Cat Soldier creature token named Ajani's Pridemate with "Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate."
 0: If you have at least 15 life more than your starting life total, exile Ajani, Strength of the Pride and each artifact and creature your opponents control.</text>
+    </card>
+    <card>
+      <name>Ancestral Blade</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/b/2ba18114-af6c-48cd-82c9-eb6541d566bf.jpg">M20</set>
+      <manacost>1W</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Artifact - Equipment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>When Ancestral Blade enters the battlefield, create a 1/1 white Soldier creature token, then attach Ancestral Blade to it.
+Equipped creature gets +1/+1.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</text>
     </card>
     <card>
       <name>Angel of Vitality</name>
@@ -249,6 +304,30 @@ Destroy target creature.</text>
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>When Boneclad Necromancer enters the battlefield, you may exile target creature card from a graveyard. If you do, create a 2/2 black Zombie creature token.</text>
+    </card>
+    <card>
+      <name>Brineborn Cutthroat</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/0/8/0857765f-afd7-418a-a93b-c0bd1b1f037e.jpg">M20</set>
+      <manacost>1U</manacost>
+      <cmc>2.0</cmc>
+      <color>U</color>
+      <type>Creature - Merfolk Pirate</type>
+      <pt>2/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flash (You may cast this spell any time you could cast an instant.)
+Whenever you cast a spell during an opponent's turn, put a +1/+1 counter on Brineborn Cutthroat.</text>
+    </card>
+    <card>
+      <name>Brought Back</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/a/e/aecdc315-95e5-450c-bedc-998eea46cf8c.jpg">M20</set>
+      <manacost>WW</manacost>
+      <cmc>2.0</cmc>
+      <color>W</color>
+      <type>Instant</type>
+      <loyalty>None</loyalty>
+      <tablerow>3</tablerow>
+      <text>Choose up to two target permanent cards in your graveyard that were put there from the battlefield this turn. Return them to the battlefield tapped.</text>
     </card>
     <card>
       <name>Captivating Gyre</name>
@@ -433,6 +512,17 @@ Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 un
       <tablerow>2</tablerow>
       <text>Flying
 When Cloudkin Seer enters the battlefield, draw a card.</text>
+    </card>
+    <card>
+      <name>Colossus Hammer</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg">M20</set>
+      <manacost>1</manacost>
+      <cmc>1.0</cmc>
+      <type>Artifact - Equipment</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +10/+10 and loses flying.
+Equip {8} ({8}: Attach to target creature you control. Equip only as a sorcery.)</text>
     </card>
     <card>
       <name>Convolute</name>
@@ -641,6 +731,19 @@ When Dungeon Geists enters the battlefield, tap target creature an opponent cont
       <text>{1}, Sacrifice Ember Hauler: It deals 2 damage to any target.</text>
     </card>
     <card>
+      <name>Embodiment of Agonies</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/7/77972745-8689-4733-9a9d-39ae9d6273a2.jpg">M20</set>
+      <manacost>1BB</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Demon</type>
+      <pt>0/0</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying, deathtouch
+Embodiment of Agonies enters the battlefield with a +1/+1 counter on it for each different mana cost among nonland cards in your graveyard. (For example, {2}{B} and {1}{B}{B} are different mana costs.)</text>
+    </card>
+    <card>
       <name>Empyrean Eagle</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/a/c/ac555709-c7cc-4c64-8a6f-8fe2bc149fcd.jpg">M20</set>
       <manacost>1WU</manacost>
@@ -795,6 +898,19 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
       <tablerow>2</tablerow>
       <text>When Golos, Tireless Pilgrim enters the battlefield, you may search your library for a land card, put that card onto the battlefield tapped, then shuffle your library.
 {2}{W}{U}{B}{R}{G}: Exile the top three cards of your library. You may play them this turn without paying their mana costs.</text>
+    </card>
+    <card>
+      <name>Gorging Vulture</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/3/7/37cbe5f2-5b6b-41de-9586-c7cc83464cf2.jpg">M20</set>
+      <manacost>2B</manacost>
+      <cmc>3.0</cmc>
+      <color>B</color>
+      <type>Creature - Bird</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Gorging Vulture enters the battlefield, put the top four cards of your library into your graveyard. You gain 1 life for each creature card put into your graveyard this way.</text>
     </card>
     <card>
       <name>Growth Cycle</name>
@@ -1063,6 +1179,20 @@ You have hexproof. (You can't be the target of spells or abilities your opponent
 If a card would be put into an opponent's graveyard from anywhere, exile it instead.</text>
     </card>
     <card>
+      <name>Lightning Stormkin</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/4/3/43c6db4e-cc37-4473-b0f5-48d8a0b82f33.jpg">M20</set>
+      <manacost>UR</manacost>
+      <cmc>2.0</cmc>
+      <color>R</color>
+      <color>U</color>
+      <type>Creature - Elemental Wizard</type>
+      <pt>2/2</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>Flying
+Haste (This creature can attack and {T} as soon as it comes under your control.)</text>
+    </card>
+    <card>
       <name>Loaming Shaman</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/e/2/e2638252-f329-4d83-a705-6e369462d83a.jpg">M20</set>
       <manacost>2G</manacost>
@@ -1224,6 +1354,18 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
       <loyalty>None</loyalty>
       <tablerow>3</tablerow>
       <text>Destroy target creature.</text>
+    </card>
+    <card>
+      <name>Mystic Forge</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/9/2/924a24e7-91b8-4ceb-a136-7a765d98c994.jpg">M20</set>
+      <manacost>4</manacost>
+      <cmc>4.0</cmc>
+      <type>Artifact</type>
+      <loyalty>None</loyalty>
+      <tablerow>1</tablerow>
+      <text>You may look at the top card of your library any time.
+You may cast the top card of your library if it's an artifact card or a colorless nonland card.
+{T}, Pay 1 life: Exile the top card of your library.</text>
     </card>
     <card>
       <name>Negate</name>
@@ -2053,6 +2195,18 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery)<
       <tablerow>2</tablerow>
       <text>When Yarok's Fenlurker enters the battlefield, each opponent exiles a card from their hand.
 {2}{B}: Yarok's Fenlurker gets +1/+1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Yarok's Wavecrasher</name>
+      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/c/8/c86a8974-df86-43ee-b07f-fd2837c08a6a.jpg">M20</set>
+      <manacost>3U</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Creature - Elemental</type>
+      <pt>4/4</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>When Yarok's Wavecrasher enters the battlefield, return another creature you control to its owner's hand.</text>
     </card>
     <card>
       <name>Yarok, the Desecrated</name>
