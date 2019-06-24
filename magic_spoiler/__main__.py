@@ -206,9 +206,10 @@ def fill_header_sets(card_xml_file: IO[Any], set_obj: Dict[str, str]) -> None:
     :param set_obj: Set object
     """
     card_xml_file.write(
-        "<set>\n<name>" + set_obj["code"] + "</name>\n"
+        "<set>\n"
+        "<name>" + set_obj["code"] + "</name>\n"
         "<longname>" + set_obj["name"] + "</longname>\n"
-        "<settype>" + set_obj["set_type"].capitalize() + "</settype>\n"
+        "<settype>" + set_obj["set_type"] + "</settype>\n"
         "<releasedate>" + set_obj["released_at"] + "</releasedate>\n"
         "</set>\n"
     )
