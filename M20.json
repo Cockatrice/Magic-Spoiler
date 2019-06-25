@@ -1,126 +1,30 @@
 [
     {
-        "artist": "Dmitry Burmak",
+        "artist": "Eric Deschamps",
         "cmc": 3.0,
         "colorIdentity": [
-            "B"
+            "R"
         ],
         "colors": [
-            "B"
+            "R"
         ],
-        "flavor": null,
+        "flavor": "She learned a tragic lesson that day: even the purest can be corrupted when the heart's emotions are twisted.",
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{2}{B}",
+        "mana_cost": "{2}{R}",
         "multiverseId": null,
-        "name": "\"Kill Stealer\"",
+        "name": "Act of Treason",
         "names": null,
-        "number": "84",
-        "power": "2",
+        "number": "124",
+        "power": null,
         "rarity": "Common",
-        "subTypes": [
-            "Human",
-            "Rogue"
-        ],
+        "subTypes": [],
         "superTypes": [],
-        "text": "Whenever \"Kill Stealer\" attacks, you draw a card and you lose 1 life.",
-        "toughness": "2",
-        "type": "Creature - Human Rogue",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/e/1/e1ff5e66-4718-43c3-8a58-1a0a8e788f83.jpg"
-    },
-    {
-        "artist": "Mathias Kollros",
-        "cmc": 6.0,
-        "colorIdentity": [
-            "G"
-        ],
-        "colors": [
-            "G"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{3}{G}{G}{G}",
-        "multiverseId": null,
-        "name": "\"Legendary Hydration\"",
-        "names": null,
-        "number": "172",
-        "power": "8",
-        "rarity": "Rare",
-        "subTypes": [
-            "Hydra"
-        ],
-        "superTypes": [
-            "Legendary"
-        ],
-        "text": "Vigilance\nHydra spells you cast cost {4} less to cast.\nWhenever a creature you control becomes the target of a spell, \"Legendary Hydration\" fights up to one target creature you don't control.",
-        "toughness": "7",
-        "type": "Legendary Creature - Hydra",
-        "types": " Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/4/e/4e446e90-6e31-43ed-bcb1-a01422b503c0.jpg"
-    },
-    {
-        "artist": "Viktor Titov",
-        "cmc": 5.0,
-        "colorIdentity": [
-            "U"
-        ],
-        "colors": [
-            "U"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{2}{U}{U}{U}",
-        "multiverseId": null,
-        "name": "\"Rainy Knight\"",
-        "names": null,
-        "number": "52",
-        "power": "5",
-        "rarity": "Mythic Rare",
-        "subTypes": [
-            "Elemental",
-            "Knight"
-        ],
-        "superTypes": [],
-        "text": "Flying\nWhen \"Rainy Knight\" enters the battlefield, draw three cards, then put two cards from your hand on top of your library in any order.\nWhen \"Rainy Knight\" dies, shuffle it into its owner's library, then scry 2.",
-        "toughness": "5",
-        "type": "Creature - Elemental Knight",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/a/5/a5356b11-e505-4838-aecb-327689eeead1.jpg"
-    },
-    {
-        "artist": "Bayard Wu",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "R",
-            "W"
-        ],
-        "colors": [
-            "R",
-            "W"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{R}{W}",
-        "multiverseId": null,
-        "name": "\"Sir, are you aware there are men on the side of your hippogriff?\"",
-        "names": null,
-        "number": "218",
-        "power": "1",
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Human",
-            "Knight"
-        ],
-        "superTypes": [],
-        "text": "Flying\nWhenever \"Sir, are you aware there are men on the side of your hippogriff?\" attacks, create a 1/1 white Soldier creature token that's tapped and attacking.",
-        "toughness": "2",
-        "type": "Creature - Human Knight",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/5/4/549634d8-1c33-401b-841d-a79ef4374dd1.jpg"
+        "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/2/0/20234668-53ce-4cc8-892f-30ee3ecfc34c.jpg"
     },
     {
         "artist": "Dan Scott",
@@ -205,6 +109,62 @@
         "type": "Creature - Human Rogue",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/c/c/cc6686e6-4535-49be-b0b3-e76464656cd2.jpg"
+    },
+    {
+        "artist": "Seb McKinnon",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Your death will take a mere moment, but it will feel like an eternity.\"\n\u2014Vilis, Broker of Blood",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "Agonizing Syphon",
+        "names": null,
+        "number": "83",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Agonizing Syphon deals 3 damage to any target and you gain 3 life.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/0/d/0d8efd95-1c2f-4dd1-b70b-3cfb10ff3a28.jpg"
+    },
+    {
+        "artist": "Tomasz Jedruszek",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "As the ship approached, the jade totem rose high overhead. Power rippled. Eyes of stone glowed and crackled. Out hissed a breath of the world, and a windstorm came alive.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}{U}",
+        "multiverseId": null,
+        "name": "Air Elemental",
+        "names": null,
+        "number": "44",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [],
+        "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)",
+        "toughness": "4",
+        "type": "Creature - Elemental",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/2/a27efec0-40c4-48bc-a21a-3af28a6529b5.jpg"
     },
     {
         "artist": "Yongjae Choi",
@@ -327,6 +287,117 @@
         "url": "https://img.scryfall.com/cards/normal/front/e/2/e2f39777-b80a-4618-9310-a9e5b91bb2a2.jpg"
     },
     {
+        "artist": "Josu Hernaiz",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Angelic Gift",
+        "names": null,
+        "number": "5",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nWhen Angelic Gift enters the battlefield, draw a card.\nEnchanted creature has flying.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/5/35100197-7914-450e-9205-57cb4fc345d6.jpg"
+    },
+    {
+        "artist": "Tyler Jacobson",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "Divining the future is easy when you hold the power to sway it.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Anticipate",
+        "names": null,
+        "number": "45",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/2/0/2080556a-6c76-4819-9eb2-c4dd4c9dbd67.jpg"
+    },
+    {
+        "artist": "James Zapata",
+        "cmc": 4.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"I know its lightness, for I have seen it fly. I know its weight, for I have seen it strike.\"\n\u2014Brigone, soldier of Meletis",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}",
+        "multiverseId": null,
+        "name": "Anvilwrought Raptor",
+        "names": null,
+        "number": "221",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Bird"
+        ],
+        "superTypes": [],
+        "text": "Flying, first strike",
+        "toughness": "1",
+        "type": "Artifact Creature - Bird",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/a/aa6d7bbe-0418-4a58-a97b-13b50eb0b642.jpg"
+    },
+    {
+        "artist": "Bastien L. Deharme",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Waves of gloom crash in vain against his unyielding light.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Apostle of Purifying Light",
+        "names": null,
+        "number": "6",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "Protection from black (This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything black.)\n{2}: Exile target card from a graveyard.",
+        "toughness": "1",
+        "type": "Creature - Human Cleric",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/2/62f69602-b5fd-46d6-8dae-d77df35e378c.jpg"
+    },
+    {
         "artist": "Ryan Pancoast",
         "cmc": 6.0,
         "colorIdentity": [
@@ -358,6 +429,59 @@
         "url": "https://img.scryfall.com/cards/normal/front/b/8/b8f527d1-25c0-49b9-83d5-1278ca72d009.jpg"
     },
     {
+        "artist": "Dmitry Burmak",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Skill, imagination, smarts: none of it matters, unless you have the nerve to use it.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Audacious Thief",
+        "names": null,
+        "number": "84",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "Whenever Audacious Thief attacks, you draw a card and you lose 1 life.",
+        "toughness": "2",
+        "type": "Creature - Human Rogue",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/1/e1ff5e66-4718-43c3-8a58-1a0a8e788f83.jpg"
+    },
+    {
+        "artist": "Dimitar Marinski",
+        "cmc": 1.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "There's no prepared like overprepared.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}",
+        "multiverseId": null,
+        "name": "Bag of Holding",
+        "names": null,
+        "number": "222",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Whenever you discard a card, exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{4}, {T}, Sacrifice Bag of Holding: Return all cards exiled with Bag of Holding to their owner's hand.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/4/9/49283832-54f2-4619-b4a9-750493c93292.jpg"
+    },
+    {
         "artist": "Grzegorz Rutkowski",
         "cmc": 2.0,
         "colorIdentity": [
@@ -385,6 +509,92 @@
         "type": "Creature - Troll",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/c/0cfd2e76-ad64-42ff-a6a2-c4cf1bec5932.jpg"
+    },
+    {
+        "artist": "Daarken",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Poor little sun-dweller out past curfew. And to think, you might have survived if it wasn't so close to suppertime.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Barony Vampire",
+        "names": null,
+        "number": "85",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "2",
+        "type": "Creature - Vampire",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/0/b0130d04-05f2-44f5-bd6c-8b11f798b69e.jpg"
+    },
+    {
+        "artist": "Cristi Balanescu",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"With me! Break this line and the rest will fall!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Battalion Foot Soldier",
+        "names": null,
+        "number": "7",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Soldier"
+        ],
+        "superTypes": [],
+        "text": "When Battalion Foot Soldier enters the battlefield, you may search your library for any number of cards named Battalion Foot Soldier, reveal them, put them into your hand, then shuffle your library.",
+        "toughness": "2",
+        "type": "Creature - Human Soldier",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/d/1db6393a-88b0-4973-9832-1482f69917ff.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"The trick to talking sense into Keldons is getting them to hold still.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Befuddle",
+        "names": null,
+        "number": "47",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target creature gets -4/-0 until end of turn.\nDraw a card.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/1/4/1414939c-7f15-4eb3-abeb-6e75c52d2b52.jpg"
     },
     {
         "artist": "Matt Stewart",
@@ -415,6 +625,33 @@
         "type": "Creature - Human Cleric",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.jpg"
+    },
+    {
+        "artist": "Winona Nelson",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"One knife, two knives, three knives, four\u2014which will drop you to the floor?\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Bladebrand",
+        "names": null,
+        "number": "86",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target creature gains deathtouch until end of turn.\nDraw a card.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/a/f/af78f76e-30cd-4939-9577-5a4bd1f93e63.jpg"
     },
     {
         "artist": "Jason Kang",
@@ -639,6 +876,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/e/7e75a7e9-902a-4733-8cd4-767247174a4c.jpg"
     },
     {
+        "artist": "Clint Cearley",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"I can think of worse ways to go. On second thought, maybe not.\"\n\u2014Ludevic, necro-alchemist",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}{U}",
+        "multiverseId": null,
+        "name": "Bone to Ash",
+        "names": null,
+        "number": "48",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Counter target creature spell.\nDraw a card.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/d/f/df5dd873-af44-45eb-9b82-a3622cc58b35.jpg"
+    },
+    {
         "artist": "Robbie Trevino",
         "cmc": 5.0,
         "colorIdentity": [
@@ -667,6 +931,65 @@
         "type": "Creature - Human Wizard",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/a/b/ab9ed2b9-5fb9-4633-8c9a-0594ae7c49c7.jpg"
+    },
+    {
+        "artist": "Victor Adame Minguez",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "Winter's breath given form.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{U}",
+        "multiverseId": null,
+        "name": "Boreal Elemental",
+        "names": null,
+        "number": "49",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [],
+        "text": "Flying\nSpells your opponents cast that target Boreal Elemental cost {2} more to cast.",
+        "toughness": "4",
+        "type": "Creature - Elemental",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/7/47996512-d547-491f-b481-a9c83dff04db.jpg"
+    },
+    {
+        "artist": "Johannes Voss",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Many have walked here, but there is only one trail I seek.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}",
+        "multiverseId": null,
+        "name": "Brightwood Tracker",
+        "names": null,
+        "number": "166",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Elf",
+            "Scout"
+        ],
+        "superTypes": [],
+        "text": "{5}{G}, {T}: Look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+        "toughness": "4",
+        "type": "Creature - Elf Scout",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/1/e1fb9767-29bf-4a69-b37c-0925d41f6b46.jpg"
     },
     {
         "artist": "Caio Monteiro",
@@ -816,6 +1139,36 @@
         "artist": "Viktor Titov",
         "cmc": 5.0,
         "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}{U}{U}",
+        "multiverseId": null,
+        "name": "Cavalier of Gales",
+        "names": null,
+        "number": "52",
+        "power": "5",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Elemental",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Cavalier of Gales enters the battlefield, draw three cards, then put two cards from your hand on top of your library in any order.\nWhen Cavalier of Gales dies, shuffle it into its owner's library, then scry 2.",
+        "toughness": "5",
+        "type": "Creature - Elemental Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/5/a5356b11-e505-4838-aecb-327689eeead1.jpg"
+    },
+    {
+        "artist": "Viktor Titov",
+        "cmc": 5.0,
+        "colorIdentity": [
             "B"
         ],
         "colors": [
@@ -866,11 +1219,71 @@
             "Knight"
         ],
         "superTypes": [],
-        "text": "Reach\nWhen Cavalier of Thorns enters the battlefield, reveal the top five cards of your library. You may put a land card from among them onto the battlefield. Put the rest into your graveyard.\nWhen Cavalier of Thorns dies, you may exile it. If you do, put another target card from your graveyard on top of your library.",
+        "text": "Reach\nWhen Cavalier of Thorns enters the battlefield, reveal the top five cards of your library. Put a land card from among them onto the battlefield and the rest into your graveyard.\nWhen Cavalier of Thorns dies, you may exile it. If you do, put another target card from your graveyard on top of your library.",
         "toughness": "6",
         "type": "Creature - Elemental Knight",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/e/4/e4662a9c-3cbd-41f7-8c15-d048a3826a42.jpg"
+    },
+    {
+        "artist": "Daniel Ljunggren",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"It soars on the winds of dreams.\"\n\u2014Mu Yanling",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}{U}",
+        "multiverseId": null,
+        "name": "Celestial Messenger",
+        "names": null,
+        "number": "287",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Bird",
+            "Spirit"
+        ],
+        "superTypes": [],
+        "text": "Flash (You may cast this card any time you could cast an instant.)\nFlying\nCelestial Messenger gets +1/+1 as long as you control a Yanling planeswalker.",
+        "toughness": "2",
+        "type": "Creature - Bird Spirit",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/9/89e92e98-202f-4790-8411-17aebffe19fe.jpg"
+    },
+    {
+        "artist": "Vance Kovacs",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"The centaurs are truly free. Never will they be tamed by temptation or controlled by fear. They live in total harmony, a feat not yet achieved by our kind.\"\n\u2014Ramal, sage of Westgate",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Centaur Courser",
+        "names": null,
+        "number": "168",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Centaur",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "3",
+        "type": "Creature - Centaur Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/8/e8b67ee8-3189-4426-8b1a-b540267768fd.jpg"
     },
     {
         "artist": "Daniel Ljunggren",
@@ -930,6 +1343,60 @@
         "type": "Creature - Elemental Cat",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/3/0/30f9c266-f32e-4483-9709-f83675331688.jpg"
+    },
+    {
+        "artist": "Paul Scott Canavan",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"It's high tide.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}{R}",
+        "multiverseId": null,
+        "name": "Chandra's Flame Wave",
+        "names": null,
+        "number": "295",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Chandra's Flame Wave deals 2 damage to target player and each creature that player controls. Search your library and/or graveyard for a card named Chandra, Flame's Fury, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/5/f/5f13b6a7-fa62-4d94-a56c-f2e64c8c1666.jpg"
+    },
+    {
+        "artist": "Christopher Moeller",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"There's plenty of fire to go around.\" \u2014Chandra Nalaar",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}{R}",
+        "multiverseId": null,
+        "name": "Chandra's Outrage",
+        "names": null,
+        "number": "130",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/e/d/edbfe793-6644-43ed-bbe1-e122c01c5e53.jpg"
     },
     {
         "artist": "Eric Deschamps",
@@ -1283,6 +1750,121 @@
     },
     {
         "artist": "Zoltan Boros",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Coming down is the best part!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "Daggersail Aeronaut",
+        "names": null,
+        "number": "133",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Goblin"
+        ],
+        "superTypes": [],
+        "text": "As long as it's your turn, Daggersail Aeronaut has flying.",
+        "toughness": "2",
+        "type": "Creature - Goblin",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/a/5a46b090-8b03-4498-840e-cf130510892c.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Writhing tendrils of darkness stitched him back together. Though his will and body both were broken, the necromancer's magic would not let him rest.\"\n\u2014Krinnea, Siege of the Bone Spire",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Dark Remedy",
+        "names": null,
+        "number": "321",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target creature gets +1/+3 until end of turn.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/5/c/5c926d38-a741-47a9-8961-f5bcf2909939.jpg"
+    },
+    {
+        "artist": "Yongjae Choi",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"As the sun rose behind the Bone Spire, an angel appeared over the charnel fields, bringing a surge of new hope.\"\n\u2014Krinnea, Siege of the Bone Spire",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{W}",
+        "multiverseId": null,
+        "name": "Dawning Angel",
+        "names": null,
+        "number": "11",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Angel"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Dawning Angel enters the battlefield, you gain 4 life.",
+        "toughness": "2",
+        "type": "Creature - Angel",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/f/4f3d90ef-6f70-4897-85c1-4e1beeb33363.jpg"
+    },
+    {
+        "artist": "Volkan Ba\u01f5a",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"May the light shine through me to guide the lost.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Daybreak Chaplain",
+        "names": null,
+        "number": "12",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
+        "toughness": "3",
+        "type": "Creature - Human Cleric",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/c/0ce89a0b-d0e4-4c71-b131-0d3b0b76bc3b.jpg"
+    },
+    {
+        "artist": "Zoltan Boros",
         "cmc": 3.0,
         "colorIdentity": [
             "R"
@@ -1496,6 +2078,37 @@
         "url": "https://img.scryfall.com/cards/normal/front/5/1/5195abc4-cfa7-45dd-aa96-2e56f818a17b.jpg"
     },
     {
+        "artist": "Grzegorz Rutkowski",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Spread out your idiots! Spread out!\"\n\u2014Marsden, party leader, last words",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}{R}{R}",
+        "multiverseId": null,
+        "name": "Drakuseth, Maw of Flames",
+        "names": null,
+        "number": "136",
+        "power": "7",
+        "rarity": "Rare",
+        "subTypes": [
+            "Dragon"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying\nWhenever Drakuseth, Maw of Flames attacks, it deals 4 damage to any target and 3 damage to each of up to two other targets.",
+        "toughness": "7",
+        "type": "Legendary Creature - Dragon",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/0/d09af78f-efde-4107-8406-cb12fd11c686.jpg"
+    },
+    {
         "artist": "Chris Seaman",
         "cmc": 4.0,
         "colorIdentity": [
@@ -1579,6 +2192,33 @@
         "type": "Creature - Spirit",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/d/3/d3c81fda-c23d-437c-85f0-62d7b492ea32.jpg"
+    },
+    {
+        "artist": "Steven Belledin",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "Resistance is unthinkable.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}",
+        "multiverseId": null,
+        "name": "Duress",
+        "names": null,
+        "number": "97",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/b/b/bb41ff5c-9617-4033-a4fa-99323640b9c3.jpg"
     },
     {
         "artist": "Victor Adame Minguez",
@@ -1701,6 +2341,62 @@
         "url": "https://img.scryfall.com/cards/normal/front/a/c/ac555709-c7cc-4c64-8a6f-8fe2bc149fcd.jpg"
     },
     {
+        "artist": "Sidharth Chaturvedi",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Compared to the hunger of the fires within the earth, the appetite of a mere wurm is nothing.\"\n\u2014Phelgis Ojin, Keral Keep acolyte",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}{R}",
+        "multiverseId": null,
+        "name": "Engulfing Eruption",
+        "names": null,
+        "number": "328",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Engulfing Eruption deals 5 damage to target creature.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/f/1/f198c7e3-8a85-48f3-a7c2-93320fd4fb81.jpg"
+    },
+    {
+        "artist": "Anna Steinbauer",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Fleshy, with just a hint of leather. A fine vintage.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{B}",
+        "multiverseId": null,
+        "name": "Epicure of Blood",
+        "names": null,
+        "number": "99",
+        "power": "4",
+        "rarity": "Common",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [],
+        "text": "Whenever you gain life, each opponent loses 1 life.",
+        "toughness": "4",
+        "type": "Creature - Vampire",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/b/4b060bc4-2d0c-46f4-b2b4-21583c2428f2.jpg"
+    },
+    {
         "artist": "Johan Grenier",
         "cmc": 2.0,
         "colorIdentity": [
@@ -1709,7 +2405,7 @@
         "colors": [
             "W"
         ],
-        "flavor": null,
+        "flavor": "\"Well, at least it's a lovely view.\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{1}{W}",
@@ -1726,6 +2422,36 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://img.scryfall.com/cards/normal/front/0/2/021963bf-87fc-432f-b9a1-4f627885a7a9.jpg"
+    },
+    {
+        "artist": "Jason Felix",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}",
+        "multiverseId": null,
+        "name": "Ethereal Elk",
+        "names": null,
+        "number": "299",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Elk",
+            "Spirit"
+        ],
+        "superTypes": [],
+        "text": "Trample\nWhen Ethereal Elk enters the battlefield, you may search your library and/or graveyard for a card named Vivien, Nature's Avenger, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+        "toughness": "3",
+        "type": "Creature - Elk Spirit",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/f/3f4d0ed2-3fc5-4cb0-b886-e30b21e76872.jpg"
     },
     {
         "artist": "Steven Belledin",
@@ -1749,6 +2475,154 @@
         "type": "Land",
         "types": "Land",
         "url": "https://img.scryfall.com/cards/normal/front/a/d/ad0fa2fb-6770-4a81-b830-4acfa957655a.jpg"
+    },
+    {
+        "artist": "Steven Belledin",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "One faerie distracts the judge while a second steals the law.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U}",
+        "multiverseId": null,
+        "name": "Faerie Miscreant",
+        "names": null,
+        "number": "58",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Faerie",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Faerie Miscreant enters the battlefield, if you control another creature named Faerie Miscreant, draw a card.",
+        "toughness": "1",
+        "type": "Creature - Faerie Rogue",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/8/28aa0337-94bd-4274-b2ee-6f43747c77b3.jpg"
+    },
+    {
+        "artist": "Josu Hernaiz",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"It was a bad evening for you, mate. Now it's chow time for the sharks.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "Fathom Fleet Cutthroat",
+        "names": null,
+        "number": "100",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Pirate"
+        ],
+        "superTypes": [],
+        "text": "When Fathom Fleet Cutthroat enters the battlefield, destroy target creature an opponent controls that was dealt damage this turn.",
+        "toughness": "3",
+        "type": "Creature - Human Pirate",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/5/65a7004c-1952-41df-b645-b34bcbc3e401.jpg"
+    },
+    {
+        "artist": "David Rapoza",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"Go find yourself a couple of friends, and bring me a blindfold. Then we might have a fair fight.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Fencing Ace",
+        "names": null,
+        "number": "16",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Soldier"
+        ],
+        "superTypes": [],
+        "text": "Double strike (This creature deals both first-strike and regular combat damage.)",
+        "toughness": "1",
+        "type": "Creature - Human Soldier",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/3/53f54b57-9516-424a-86a3-54843efadb0c.jpg"
+    },
+    {
+        "artist": "Darek Zabrocki",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"If you manage to get to the heart of the bog, you'll find things there that make zombies seem downright lovable.\"\n\u2014Byaras, backwoods guide",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{B}",
+        "multiverseId": null,
+        "name": "Feral Abomination",
+        "names": null,
+        "number": "101",
+        "power": "5",
+        "rarity": "Common",
+        "subTypes": [
+            "Thrull"
+        ],
+        "superTypes": [],
+        "text": "Deathtouch",
+        "toughness": "5",
+        "type": "Creature - Thrull",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/2/b2890cb5-7899-42f4-9686-a8b5ac796c23.jpg"
+    },
+    {
+        "artist": "Mathias Kollros",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "Nylea's sacred lynx guards those who honor the Nessian Wood and hunts those who don't.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Feral Invocation",
+        "names": null,
+        "number": "170",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Flash (You may cast this spell any time you could cast an instant.)\nEnchant creature\nEnchanted creature gets +2/+2.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/2/c2d08b7a-4ed9-4e4c-a52e-9bf2a16420a9.jpg"
     },
     {
         "artist": "Rudy Siswanto",
@@ -1803,6 +2677,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/4/7/470ca3f4-29aa-4c4c-8ff2-8cdd70c69943.jpg"
     },
     {
+        "artist": "Joe Slucher",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"The best way to learn from a book on pyromancy is to burn it.\" \u2014Jaya Ballard",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}{R}",
+        "multiverseId": null,
+        "name": "Fire Elemental",
+        "names": null,
+        "number": "138",
+        "power": "5",
+        "rarity": "Common",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "4",
+        "type": "Creature - Elemental",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/d/4df16df8-3270-4a09-8167-5b6a2068edb9.jpg"
+    },
+    {
         "artist": "Viktor Titov",
         "cmc": 3.0,
         "colorIdentity": [
@@ -1855,6 +2758,180 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://img.scryfall.com/cards/normal/front/c/3/c3621820-4ab5-42bf-8a02-d5c066db4653.jpg"
+    },
+    {
+        "artist": "Volkan Ba\u01f5a",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Forest",
+        "names": null,
+        "number": "277",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Forest"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {G}.)",
+        "toughness": null,
+        "type": "Basic Land - Forest",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/2/42352899-f2f2-4dea-863b-8d685e63b454.jpg"
+    },
+    {
+        "artist": "Steven Belledin",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Forest",
+        "names": null,
+        "number": "278",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Forest"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {G}.)",
+        "toughness": null,
+        "type": "Basic Land - Forest",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/0/00feb2af-b363-4377-98b1-6a07df7f1acd.jpg"
+    },
+    {
+        "artist": "Jim Nelson",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Forest",
+        "names": null,
+        "number": "279",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Forest"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {G}.)",
+        "toughness": null,
+        "type": "Basic Land - Forest",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/6/56caba21-b773-4245-b3f8-3ae62725c14f.jpg"
+    },
+    {
+        "artist": "Adam Paquette",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Forest",
+        "names": null,
+        "number": "280",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Forest"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {G}.)",
+        "toughness": null,
+        "type": "Basic Land - Forest",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/3/43e7e6ec-9bfe-4062-a538-2a748d2eed1f.jpg"
+    },
+    {
+        "artist": "Vincent Proce",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "Unbreakable and unappetizing, the crab grows uninterrupted, sometimes to the size of a cottage and beyond.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}",
+        "multiverseId": null,
+        "name": "Fortress Crab",
+        "names": null,
+        "number": "60",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Crab"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "6",
+        "type": "Creature - Crab",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/2/324681da-a28e-47ec-9810-5678de53e494.jpg"
+    },
+    {
+        "artist": "Steven Belledin",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"Reel it in. No, wait! Throw it back!\"\n\u2014Gertrude, deep-sea angler",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{U}{U}",
+        "multiverseId": null,
+        "name": "Frilled Sea Serpent",
+        "names": null,
+        "number": "61",
+        "power": "4",
+        "rarity": "Common",
+        "subTypes": [
+            "Serpent"
+        ],
+        "superTypes": [],
+        "text": "{5}{U}{U}: Frilled Sea Serpent can't be blocked this turn.",
+        "toughness": "6",
+        "type": "Creature - Serpent",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/5/b59698a5-be76-4ce2-a337-9052821f239f.jpg"
     },
     {
         "artist": "Izzy",
@@ -1912,6 +2989,183 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/0/7/070d7766-a662-443c-93c5-811dbdac2480.jpg"
+    },
+    {
+        "artist": "Mathias Kollros",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}{G}",
+        "multiverseId": null,
+        "name": "Gargos, Vicious Watcher",
+        "names": null,
+        "number": "172",
+        "power": "8",
+        "rarity": "Rare",
+        "subTypes": [
+            "Hydra"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Vigilance\nHydra spells you cast cost {4} less to cast.\nWhenever a creature you control becomes the target of a spell, Gargos, Vicious Watcher fights up to one target creature you don't control.",
+        "toughness": "7",
+        "type": "Legendary Creature - Hydra",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/e/4e446e90-6e31-43ed-bcb1-a01422b503c0.jpg"
+    },
+    {
+        "artist": "Ekaterina Burmak",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Gauntlets of Light",
+        "names": null,
+        "number": "17",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nEnchanted creature gets +0/+2 and assigns combat damage equal to its toughness rather than its power.\nEnchanted creature has \"{2}{W}: Untap this creature.\"",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/a/da0d5436-b881-45ac-b8ec-248d88714021.jpg"
+    },
+    {
+        "artist": "Ryan Pancoast",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Gift of Paradise",
+        "names": null,
+        "number": "173",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant land\nWhen Gift of Paradise enters the battlefield, you gain 3 life.\nEnchanted land has \"{T}: Add two mana of any one color.\"",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/6/d6b4e2b7-2687-4ad1-99e4-0f8411b5f50d.jpg"
+    },
+    {
+        "artist": "Anthony Palumbo",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}",
+        "multiverseId": null,
+        "name": "Glaring Aegis",
+        "names": null,
+        "number": "18",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nWhen Glaring Aegis enters the battlefield, tap target creature an opponent controls.\nEnchanted creature gets +1/+3.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/a/daa83dc2-4ec0-4e4f-8bfd-4f6d6df06a2d.jpg"
+    },
+    {
+        "artist": "Zack Stella",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}{R}",
+        "multiverseId": null,
+        "name": "Glint-Horn Buccaneer",
+        "names": null,
+        "number": "141",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Minotaur",
+            "Pirate"
+        ],
+        "superTypes": [],
+        "text": "Haste\nWhenever you discard a card, Glint-Horn Buccaneer deals 1 damage to each opponent.\n{1}{R}, Discard a card: Draw a card. Activate this ability only if Glint-Horn Buccaneer is attacking.",
+        "toughness": "4",
+        "type": "Creature - Minotaur Pirate",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/f/df2df9cb-14f5-470f-b438-20f4ae8d0d59.jpg"
+    },
+    {
+        "artist": "YW Tang",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"I think it's trying to tell us that the forest is angry.\"\n\u2014Vivien Reid",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}{G}",
+        "multiverseId": null,
+        "name": "Gnarlback Rhino",
+        "names": null,
+        "number": "300",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Rhino"
+        ],
+        "superTypes": [],
+        "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nWhenever you cast a spell that targets Gnarlback Rhino, draw a card.",
+        "toughness": "4",
+        "type": "Creature - Rhino",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/8/68a69558-aca0-413d-9762-2fa115b44abd.jpg"
     },
     {
         "artist": "Anna Podedworna",
@@ -2002,6 +3256,62 @@
         "url": "https://img.scryfall.com/cards/normal/front/9/5/95dc1a65-271c-455a-ae0c-f652444a53ac.jpg"
     },
     {
+        "artist": "Mark Winters",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}",
+        "multiverseId": null,
+        "name": "Gods Willing",
+        "names": null,
+        "number": "19",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target creature you control gains protection from the color of your choice until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/9/0/90883bac-bcd8-4fa9-a17c-c2402fb0714e.jpg"
+    },
+    {
+        "artist": "Paul Scott Canavan",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}{W}",
+        "multiverseId": null,
+        "name": "Goldmane Griffin",
+        "names": null,
+        "number": "283",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Griffin"
+        ],
+        "superTypes": [],
+        "text": "Flying, vigilance\nWhen Goldmane Griffin enters the battlefield, you may search your library and/or graveyard for a card named Ajani, Inspiring Leader, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+        "toughness": "2",
+        "type": "Creature - Griffin",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/7/67edcb9b-f56b-4a34-b4bd-d22ee929041a.jpg"
+    },
+    {
         "artist": "Joseph Meehan",
         "cmc": 5.0,
         "colorIdentity": [
@@ -2064,6 +3374,146 @@
         "url": "https://img.scryfall.com/cards/normal/front/3/7/37cbe5f2-5b6b-41de-9586-c7cc83464cf2.jpg"
     },
     {
+        "artist": "Daniel Ljunggren",
+        "cmc": 1.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"Best bury them right. We don't want any gruesome encores.\"\n\u2014Constable Trosk",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}",
+        "multiverseId": null,
+        "name": "Grafdigger's Cage",
+        "names": null,
+        "number": "227",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Creature cards in graveyards and libraries can't enter the battlefield.\nPlayers can't cast spells from graveyards or libraries.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/0/a/0a135e09-b534-4836-9a10-3a9a4a9f8c53.jpg"
+    },
+    {
+        "artist": "Tony Foti",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "In Amonkhet's ever-shifting sands, nothing stays buried for long.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "Gravedigger",
+        "names": null,
+        "number": "103",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Zombie"
+        ],
+        "superTypes": [],
+        "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
+        "toughness": "2",
+        "type": "Creature - Zombie",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/f/0fb714a0-e61b-4ccf-8de6-3a6bf87c8315.jpg"
+    },
+    {
+        "artist": "Johann Bodin",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "Within a mile of the woodland, you will feel her eyes upon you. Within its borders, you will feel her blade.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Greenwood Sentinel",
+        "names": null,
+        "number": "174",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Elf",
+            "Scout"
+        ],
+        "superTypes": [],
+        "text": "Vigilance (Attacking doesn't cause this creature to tap.)",
+        "toughness": "2",
+        "type": "Creature - Elf Scout",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/9/e9a1a70d-c146-453e-84c4-71cae4e0afaa.jpg"
+    },
+    {
+        "artist": "Christopher Moeller",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"Here is a companion who will never falter, no matter how desperate the battle!\"\n\u2014Ajani Goldmane",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}",
+        "multiverseId": null,
+        "name": "Griffin Protector",
+        "names": null,
+        "number": "20",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Griffin"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhenever another creature enters the battlefield under your control, Griffin Protector gets +1/+1 until end of turn.",
+        "toughness": "3",
+        "type": "Creature - Griffin",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/c/5c32c4f2-4fa5-4874-8413-eac822121a0b.jpg"
+    },
+    {
+        "artist": "Warren Mahy",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Once a griffin sentinel adopts a territory as its own, only death can force it to betray its post.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Griffin Sentinel",
+        "names": null,
+        "number": "21",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Griffin"
+        ],
+        "superTypes": [],
+        "text": "Flying\nVigilance (Attacking doesn't cause this creature to tap.)",
+        "toughness": "3",
+        "type": "Creature - Griffin",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/b/cb13aaa4-d40a-4fb2-9fd6-62bf76db6a13.jpg"
+    },
+    {
         "artist": "Svetlin Velinov",
         "cmc": 2.0,
         "colorIdentity": [
@@ -2089,6 +3539,36 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/1/e/1e619121-f2e8-4da5-8652-a2b5dae2e55c.jpg"
+    },
+    {
+        "artist": "Karl Kopinski",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "His whips twist and tremble like living things, moved by the fury of the horde he commands.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}{B}",
+        "multiverseId": null,
+        "name": "Gruesome Scourger",
+        "names": null,
+        "number": "104",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Orc",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "When Gruesome Scourger enters the battlefield, it deals damage to target opponent or planeswalker equal to the number of creatures you control.",
+        "toughness": "3",
+        "type": "Creature - Orc Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/f/0ffbb50e-76ca-4bfd-b6d1-95ab8cf3bbf8.jpg"
     },
     {
         "artist": "Johann Bodin",
@@ -2149,6 +3629,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/e/1/e16c9f3a-534b-42d4-9765-8d1cb15375aa.jpg"
     },
     {
+        "artist": "Daarken",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Grief and rage and nightmares fade\nWhere hope and comfort make their stand.\"\n\u2014*Lament for Bala Ged*, stanza 4",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}",
+        "multiverseId": null,
+        "name": "Healer of the Glade",
+        "names": null,
+        "number": "176",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [],
+        "text": "When Healer of the Glade enters the battlefield, you gain 3 life.",
+        "toughness": "2",
+        "type": "Creature - Elemental",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/b/cbe262f2-e35b-4c85-938d-3e9e9c764c1b.jpg"
+    },
+    {
         "artist": "Franz Vohwinkel",
         "cmc": 2.0,
         "colorIdentity": [],
@@ -2203,6 +3712,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/9/c/9c62f724-7fb4-4498-b5c1-cf65d86d8e95.jpg"
     },
     {
+        "artist": "Grzegorz Rutkowski",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "He and his pack sing the same mournful song to the moon.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{G}{G}",
+        "multiverseId": null,
+        "name": "Howling Giant",
+        "names": null,
+        "number": "177",
+        "power": "5",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Giant",
+            "Druid"
+        ],
+        "superTypes": [],
+        "text": "Reach (This creature can block creatures with flying.)\nWhen Howling Giant enters the battlefield, create two 2/2 green Wolf creature tokens.",
+        "toughness": "5",
+        "type": "Creature - Giant Druid",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/b/eb8434fd-5ee5-4be9-a28d-9e04b1b94327.jpg"
+    },
+    {
         "artist": "Chris Seaman",
         "cmc": 3.0,
         "colorIdentity": [],
@@ -2224,6 +3763,36 @@
         "type": "Artifact",
         "types": "Artifact",
         "url": "https://img.scryfall.com/cards/normal/front/9/b/9b78e53c-1aec-4c49-bf58-165dd7b59d64.jpg"
+    },
+    {
+        "artist": "Scott Murphy",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Her mount's hollow crest can produce a trumpeting warning that carries for miles, summoning more knights to her aid.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}",
+        "multiverseId": null,
+        "name": "Imperial Outrider",
+        "names": null,
+        "number": "307",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "5",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/d/0dd3aca5-516f-4500-9d7f-95630401d3ae.jpg"
     },
     {
         "artist": "Caio Monteiro",
@@ -2251,6 +3820,63 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/7/a/7ac778f6-8997-47ee-a676-3eb9f8d1592f.jpg"
+    },
+    {
+        "artist": "Wayne Reynolds",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"We are armed with light and steel! Who can stand against us?\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}{W}",
+        "multiverseId": null,
+        "name": "Inspired Charge",
+        "names": null,
+        "number": "24",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Creatures you control get +2/+1 until end of turn.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/4/3/43479f67-57b2-4a99-8928-10fc9dde33b9.jpg"
+    },
+    {
+        "artist": "Ben Maier",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"Time to show the foe our true mettle.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}",
+        "multiverseId": null,
+        "name": "Inspiring Captain",
+        "names": null,
+        "number": "25",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "When Inspiring Captain enters the battlefield, creatures you control get +1/+1 until end of turn.",
+        "toughness": "3",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/8/98d14836-0ab4-4df3-a996-76b0dda23ff6.jpg"
     },
     {
         "artist": "Filip Burburan",
@@ -2283,6 +3909,122 @@
         "type": "Creature - Treefolk Soldier",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/e/d/edec85ce-7daa-48c2-b25d-b22941e01e73.jpg"
+    },
+    {
+        "artist": "John Avon",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Island",
+        "names": null,
+        "number": "265",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Island"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "toughness": null,
+        "type": "Basic Land - Island",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/e/fe7f4393-38f9-43b5-873b-58246183b874.jpg"
+    },
+    {
+        "artist": "Babyson Chen & Uzhen Lin",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Island",
+        "names": null,
+        "number": "266",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Island"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "toughness": null,
+        "type": "Basic Land - Island",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/8/c8a516f8-861b-4c3b-9d9b-0adc04ec689f.jpg"
+    },
+    {
+        "artist": "Cliff Childs",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Island",
+        "names": null,
+        "number": "267",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Island"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "toughness": null,
+        "type": "Basic Land - Island",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/d/9db3bac6-81c9-4bb5-aca6-371cec8efa0d.jpg"
+    },
+    {
+        "artist": "Andreas Rocha",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Island",
+        "names": null,
+        "number": "268",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Island"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "toughness": null,
+        "type": "Basic Land - Island",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/3/f3448b8b-8baf-492a-a1d6-4bb676c43cab.jpg"
     },
     {
         "artist": "Eytan Zana",
@@ -2345,6 +4087,36 @@
         "type": "Legendary Creature - Human Cleric",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/1/f/1f400655-f495-4b21-ab9e-57fe4d845d45.jpg"
+    },
+    {
+        "artist": "Chris Seaman",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Keldon raiders' spoils are limited to what their colos can carry. No matter the value, the rest goes up in smoke.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}{R}",
+        "multiverseId": null,
+        "name": "Keldon Raider",
+        "names": null,
+        "number": "146",
+        "power": "4",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "When Keldon Raider enters the battlefield, you may discard a card. If you do, draw a card.",
+        "toughness": "3",
+        "type": "Creature - Human Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/8/884c47fa-7060-48da-995c-e4037640a208.jpg"
     },
     {
         "artist": "Yongjae Choi",
@@ -2681,7 +4453,7 @@
             "R",
             "U"
         ],
-        "flavor": null,
+        "flavor": "\"I strike in the same place as many times as necessary.\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{U}{R}",
@@ -2815,6 +4587,64 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/c/7cae7971-953b-454a-84dd-ae2974946da9.jpg"
     },
     {
+        "artist": "Lars Grant-West",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"If a careless elf ends up caught in a spider's web, we must expect nature to take its course. Do not blame the spider for being a spider.\" \u2014Dellin Berting, Tolarian entomologist",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{G}",
+        "multiverseId": null,
+        "name": "Mammoth Spider",
+        "names": null,
+        "number": "181",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Spider"
+        ],
+        "superTypes": [],
+        "text": "Reach",
+        "toughness": "5",
+        "type": "Creature - Spider",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/e/1ee9bca2-1195-4bd0-aa5c-16b3726a8ff2.jpg"
+    },
+    {
+        "artist": "Heonhwa Choe",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Rage is the culmination of an accelerating cycle of anger and violence that feeds itself in battle, spreading like a flame from one warrior to another.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Maniacal Rage",
+        "names": null,
+        "number": "149",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nEnchanted creature gets +2/+2 and can't block.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/9/29a51b9b-881f-4f02-b49e-68fcca234161.jpg"
+    },
+    {
         "artist": "Lake Hurwitz",
         "cmc": 1.0,
         "colorIdentity": [],
@@ -2836,6 +4666,31 @@
         "type": "Artifact",
         "types": "Artifact",
         "url": "https://img.scryfall.com/cards/normal/front/7/1/715e637a-dfd8-45a0-b1ea-53e4abd29307.jpg"
+    },
+    {
+        "artist": "Mitchell Malloy",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "A sharp axe solves most problems.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Marauder's Axe",
+        "names": null,
+        "number": "231",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Equipment"
+        ],
+        "superTypes": [],
+        "text": "Equipped creature gets +2/+0.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+        "toughness": null,
+        "type": "Artifact - Equipment",
+        "types": "Artifact ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/3/73ac5204-69ef-491d-9ca8-f522b99f1412.jpg"
     },
     {
         "artist": "Bayard Wu",
@@ -2896,6 +4751,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/b/e/be2f4165-f87f-454b-b955-e4477c864e95.jpg"
     },
     {
+        "artist": "Chippy",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Phyrexian artificers remove the flesh they no longer need and use it to bring their creations to a greater semblance of life.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}",
+        "multiverseId": null,
+        "name": "Master Splicer",
+        "names": null,
+        "number": "29",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Artificer"
+        ],
+        "superTypes": [],
+        "text": "When Master Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.\nGolem creatures you control get +1/+1.",
+        "toughness": "1",
+        "type": "Creature - Human Artificer",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/e/0e463146-40a7-4274-a5a6-adf71df05c4f.jpg"
+    },
+    {
         "artist": "Victor Adame Minguez",
         "cmc": 6.0,
         "colorIdentity": [
@@ -2921,6 +4806,115 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/6/3/63832647-bb4d-4380-8acb-cf11e8727672.jpg"
+    },
+    {
+        "artist": "Lake Hurwitz",
+        "cmc": 7.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "The impact sent the soldiers scattering\u2014then something came out of the crater.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{7}",
+        "multiverseId": null,
+        "name": "Meteor Golem",
+        "names": null,
+        "number": "232",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Golem"
+        ],
+        "superTypes": [],
+        "text": "When Meteor Golem enters the battlefield, destroy target nonland permanent an opponent controls.",
+        "toughness": "3",
+        "type": "Artifact Creature - Golem",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/7/b748341f-557c-4b6a-a36c-c08c9cc05b90.jpg"
+    },
+    {
+        "artist": "Scott Chou",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"Well, if that goblin didn't want his tongue pierced, he shouldn't have stuck it out at me.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Metropolis Sprite",
+        "names": null,
+        "number": "66",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Faerie",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "Flying\n{U}: Metropolis Sprite gets +1/-1 until end of turn.",
+        "toughness": "2",
+        "type": "Creature - Faerie Rogue",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/c/fce74849-2e08-4d08-b387-4693f1b9f653.jpg"
+    },
+    {
+        "artist": "Johann Bodin",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "The Joraga elves never need ask a troll to leave their territory. They merely grant it their combined strength, and it can't resist embarking on a merry rampage.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}",
+        "multiverseId": null,
+        "name": "Might of the Masses",
+        "names": null,
+        "number": "182",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target creature gets +1/+1 until end of turn for each creature you control.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/f/7/f7776d0a-e068-4cac-8848-060a2ce15b95.jpg"
+    },
+    {
+        "artist": "Seb McKinnon",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "Many an inventor has collapsed under the pressure to create a flawless design.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Mind Rot",
+        "names": null,
+        "number": "108",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target player discards two cards.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/b/9/b9de3feb-5f92-43eb-b5cf-00d2b511fe68.jpg"
     },
     {
         "artist": "Rudy Siswanto",
@@ -2979,6 +4973,179 @@
         "type": "Enchantment",
         "types": "Enchantment",
         "url": "https://img.scryfall.com/cards/normal/front/6/1/618d21fe-8e3d-4887-b2e4-b92194ba1902.jpg"
+    },
+    {
+        "artist": "Christopher Moeller",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"My faith is stronger than fang, claw, or mindless hunger.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Moment of Heroism",
+        "names": null,
+        "number": "30",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target creature gets +2/+2 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/7/b/7bbc462b-3736-4441-96ee-8dc5615b4529.jpg"
+    },
+    {
+        "artist": "David Palumbo",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Inquisitors are taught scripture, philosophy, and the fine art of sharpening an axe.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Moorland Inquisitor",
+        "names": null,
+        "number": "31",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Soldier"
+        ],
+        "superTypes": [],
+        "text": "{2}{W}: Moorland Inquisitor gains first strike until end of turn.",
+        "toughness": "2",
+        "type": "Creature - Human Soldier",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/d/9d7b1446-7c9f-4b62-9877-e3d1060948aa.jpg"
+    },
+    {
+        "artist": "Sam Burley",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Mountain",
+        "names": null,
+        "number": "273",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Mountain"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {R}.)",
+        "toughness": null,
+        "type": "Basic Land - Mountain",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/9/399f7531-e137-463b-bec3-e86756b6ed71.jpg"
+    },
+    {
+        "artist": "Karl Kopinski",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Mountain",
+        "names": null,
+        "number": "274",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Mountain"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {R}.)",
+        "toughness": null,
+        "type": "Basic Land - Mountain",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/b/cbe67eb3-f10d-4f34-b4b0-fd00ee8cc325.jpg"
+    },
+    {
+        "artist": "Adam Paquette",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Mountain",
+        "names": null,
+        "number": "275",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Mountain"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {R}.)",
+        "toughness": null,
+        "type": "Basic Land - Mountain",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/c/4cf7d0ad-8fe2-4065-89e3-c2ee04062695.jpg"
+    },
+    {
+        "artist": "Andreas Rocha",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Mountain",
+        "names": null,
+        "number": "276",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Mountain"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {R}.)",
+        "toughness": null,
+        "type": "Basic Land - Mountain",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/1/514f8188-3d9e-4937-bfcb-b73acd80878d.jpg"
     },
     {
         "artist": "Yongjae Choi",
@@ -3093,6 +5260,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/9/2/924a24e7-91b8-4ceb-a136-7a765d98c994.jpg"
     },
     {
+        "artist": "Scott Chou",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "The haunted blade shattered, and the geist drifted gratefully to the Blessed Sleep.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Natural End",
+        "names": null,
+        "number": "183",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Destroy target artifact or enchantment. You gain 3 life.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/8/4/84dcd314-f4d2-461e-a66e-7b1d8f141879.jpg"
+    },
+    {
         "artist": "Magali Villeneuve",
         "cmc": 2.0,
         "colorIdentity": [
@@ -3118,6 +5312,35 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/3/3/33b83158-78b4-425e-8379-be3ef038295c.jpg"
+    },
+    {
+        "artist": "Yohann Schepacz",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "It is an expert at culling individuals who stray too far from the herd.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Netcaster Spider",
+        "names": null,
+        "number": "184",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Spider"
+        ],
+        "superTypes": [],
+        "text": "Reach (This creature can block creatures with flying.)\nWhenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +2/+0 until end of turn.",
+        "toughness": "3",
+        "type": "Creature - Spider",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/7/07c95074-32c8-426e-b615-8ad5427c6c1c.jpg"
     },
     {
         "artist": "Dan Scott",
@@ -3147,6 +5370,35 @@
         "type": "Creature - Wolf",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/2/c/2c9b1f70-9861-4c66-a52f-c40002679e75.jpg"
+    },
+    {
+        "artist": "Anna Podedworna",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"What goes up must get stuck.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Nimble Birdsticker",
+        "names": null,
+        "number": "333",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Goblin"
+        ],
+        "superTypes": [],
+        "text": "Reach (This creature can block creatures with flying.)",
+        "toughness": "3",
+        "type": "Creature - Goblin",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/f/4ff9bcbd-48fe-4a74-aae5-a447c99aa64b.jpg"
     },
     {
         "artist": "Tomasz Jedruszek",
@@ -3272,6 +5524,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/c/b/cb53a29d-2de2-4874-a6f3-0fecbfa14cf2.jpg"
     },
     {
+        "artist": "Craig J Spearing",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Forward! Until the horizon is ours!\" \u2014Khemses, charioteer",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}",
+        "multiverseId": null,
+        "name": "Overcome",
+        "names": null,
+        "number": "186",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Creatures you control get +2/+2 and gain trample until end of turn.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/7/1/718352b9-1a68-44a1-947b-34f525f21223.jpg"
+    },
+    {
         "artist": "Mathias Kollros",
         "cmc": 3.0,
         "colorIdentity": [
@@ -3330,6 +5609,176 @@
         "url": "https://img.scryfall.com/cards/normal/front/3/1/31279d7c-5246-40b2-a8c7-0be4a5f24a29.jpg"
     },
     {
+        "artist": "Svetlin Velinov",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Their loyalty is not to any master, but to the pack.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Pack Mastiff",
+        "names": null,
+        "number": "152",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Hound"
+        ],
+        "superTypes": [],
+        "text": "{1}{R}: Each creature you control named Pack Mastiff gets +1/+0 until end of turn.",
+        "toughness": "2",
+        "type": "Creature - Hound",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/9/39934090-36a6-4183-9176-97ea932d2685.jpg"
+    },
+    {
+        "artist": "Jesper Ejsing",
+        "cmc": 4.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"Good! Now put it with the other widdle bunnies.\"\n\u2014Sargis Haz, artificer",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}",
+        "multiverseId": null,
+        "name": "Pattern Matcher",
+        "names": null,
+        "number": "234",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Golem"
+        ],
+        "superTypes": [],
+        "text": "When Pattern Matcher enters the battlefield, you may search your library for a creature card with the same name as another creature you control, reveal it, put it into your hand, then shuffle your library.",
+        "toughness": "3",
+        "type": "Artifact Creature - Golem",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/d/ad608eb3-d387-4414-b194-703f38863896.jpg"
+    },
+    {
+        "artist": "John Avon",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Plains",
+        "names": null,
+        "number": "261",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Plains"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {W}.)",
+        "toughness": null,
+        "type": "Basic Land - Plains",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/3/73fb4a34-c11e-45e9-a986-43c0a0ae5424.jpg"
+    },
+    {
+        "artist": "Zoltan Boros & Gabor Szikszai",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Plains",
+        "names": null,
+        "number": "262",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Plains"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {W}.)",
+        "toughness": null,
+        "type": "Basic Land - Plains",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/9/e9495172-6fde-4aae-b47e-fc887440120e.jpg"
+    },
+    {
+        "artist": "Nils Hamm",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Plains",
+        "names": null,
+        "number": "263",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Plains"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {W}.)",
+        "toughness": null,
+        "type": "Basic Land - Plains",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/f/8fd675c7-7dac-4ad1-9243-6d1eda0fa30c.jpg"
+    },
+    {
+        "artist": "Andreas Rocha",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Plains",
+        "names": null,
+        "number": "264",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Plains"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {W}.)",
+        "toughness": null,
+        "type": "Basic Land - Plains",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/f/dfa01578-faf9-4694-86a0-c81f5b2a0dd8.jpg"
+    },
+    {
         "artist": "Michael Komarck",
         "cmc": 6.0,
         "colorIdentity": [
@@ -3355,6 +5804,33 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://img.scryfall.com/cards/normal/front/5/e/5eddac86-947e-48c1-9f02-4634a7918c98.jpg"
+    },
+    {
+        "artist": "Filip Burburan",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Even the pterodon, who chases the clouds from its skies, must bow to the great forest below.\"\n\u2014Mahuiz, Sun Empire archer",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Plummet",
+        "names": null,
+        "number": "188",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Destroy target creature with flying.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/4/a/4a1a0c7b-ce1c-4284-9362-04b21861f69d.jpg"
     },
     {
         "artist": "Randy Vargas",
@@ -3384,6 +5860,31 @@
         "url": "https://img.scryfall.com/cards/normal/front/3/7/37c66692-2880-4ea2-abaf-8926c6950826.jpg"
     },
     {
+        "artist": "Alayna Danner",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "Even its shadow is a dazzling rainbow.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Prismite",
+        "names": null,
+        "number": "235",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Golem"
+        ],
+        "superTypes": [],
+        "text": "{2}: Add one mana of any color.",
+        "toughness": "1",
+        "type": "Artifact Creature - Golem",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/c/5c9fdb01-ba52-4510-897e-0d69558fdaee.jpg"
+    },
+    {
         "artist": "Matt Stewart",
         "cmc": 3.0,
         "colorIdentity": [
@@ -3409,6 +5910,62 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/9/9/99851c1b-8878-4c1e-906b-f6b70e53d714.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Whoever thought of making mobile volcanoes was a genius.\"\n\u2014Chandra Nalaar",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}{R}",
+        "multiverseId": null,
+        "name": "Pyroclastic Elemental",
+        "names": null,
+        "number": "296",
+        "power": "5",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [],
+        "text": "{1}{R}{R}: Pyroclastic Elemental deals 1 damage to target player.",
+        "toughness": "4",
+        "type": "Creature - Elemental",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/d/2d57f8b5-fde9-498d-82bf-34bfb2370703.jpg"
+    },
+    {
+        "artist": "Karl Kopinski",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"You should have seen the look on both their faces.\"\n\u2014Morkamp, Lambholt innkeeper",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Rabid Bite",
+        "names": null,
+        "number": "190",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target creature you control deals damage equal to its power to target creature you don't control.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/f/0/f0d8ff93-6f62-4695-85ad-d70a0b928e92.jpg"
     },
     {
         "artist": "Zoltan Boros",
@@ -3475,7 +6032,7 @@
         "colors": [
             "R"
         ],
-        "flavor": "\"I have a great idea!\"",
+        "flavor": "\"I have a *great* idea!\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{R}",
@@ -3492,6 +6049,33 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://img.scryfall.com/cards/normal/front/6/8/68391b41-4a17-4450-a8ac-0ce8406fe8c1.jpg"
+    },
+    {
+        "artist": "Jason A. Engle",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Before they can go to their final rest, the wicked must be purified by fire.\" \u2014Harra the Adjudicator",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}",
+        "multiverseId": null,
+        "name": "Reduce to Ashes",
+        "names": null,
+        "number": "155",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Reduce to Ashes deals 5 damage to target creature. If that creature would die this turn, exile it instead.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/f/e/fe580883-cdb1-4783-9feb-1e3bea83d209.jpg"
     },
     {
         "artist": "Eric Deschamps",
@@ -3609,6 +6193,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/1/f/1fd040a8-b818-465b-a78b-d68402982abc.jpg"
     },
     {
+        "artist": "Volkan Ba\u01f5a",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Dinosaurs rarely understand the idea of boundaries between the wild and the urban landscape.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}{R}",
+        "multiverseId": null,
+        "name": "Ripscale Predator",
+        "names": null,
+        "number": "157",
+        "power": "6",
+        "rarity": "Common",
+        "subTypes": [
+            "Dinosaur"
+        ],
+        "superTypes": [],
+        "text": "Menace (This creature can't be blocked except by two or more creatures.)",
+        "toughness": "5",
+        "type": "Creature - Dinosaur",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/9/c9141d96-ad3a-4e30-b356-44e136e1f62f.jpg"
+    },
+    {
         "artist": "Johan Grenier",
         "cmc": 3.0,
         "colorIdentity": [
@@ -3723,6 +6336,178 @@
         "url": "https://img.scryfall.com/cards/normal/front/a/1/a1f4e79b-b103-4380-afa0-61a2b1773c9e.jpg"
     },
     {
+        "artist": "Svetlin Velinov",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"Forget what you have learned from other teachers. I bring you the truth.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Sage's Row Denizen",
+        "names": null,
+        "number": "73",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Vedalken",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "Whenever another blue creature enters the battlefield under your control, target player puts the top two cards of their library into their graveyard.",
+        "toughness": "3",
+        "type": "Creature - Vedalken Wizard",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/6/06ad3e3e-176b-48f0-af2f-fa4fc4759775.jpg"
+    },
+    {
+        "artist": "James Paick",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"The next model should be able to achieve a rescue without self-destruction.\"\n\u2014Sargis Haz, artificer",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "Salvager of Ruin",
+        "names": null,
+        "number": "237",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Construct"
+        ],
+        "superTypes": [],
+        "text": "Sacrifice Salvager of Ruin: Choose target permanent card in your graveyard that was put there from the battlefield this turn. Return it to your hand.",
+        "toughness": "1",
+        "type": "Artifact Creature - Construct",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/d/8dd2ebbe-71c6-405b-bad0-5680f0ff575c.jpg"
+    },
+    {
+        "artist": "Kev Walker",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "His mind was lost long before his flesh.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}",
+        "multiverseId": null,
+        "name": "Sanitarium Skeleton",
+        "names": null,
+        "number": "112",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Skeleton"
+        ],
+        "superTypes": [],
+        "text": "{2}{B}: Return Sanitarium Skeleton from your graveyard to your hand.",
+        "toughness": "2",
+        "type": "Creature - Skeleton",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/f/ef6efdaf-bf1a-4776-8e4b-2970aa2ccd5a.jpg"
+    },
+    {
+        "artist": "Antonio Jos\u00e9 Manzanedo",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"I haven no patience for sipping blood from crystal goblets. I want to bite and tear.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B}",
+        "multiverseId": null,
+        "name": "Savage Gorger",
+        "names": null,
+        "number": "291",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [],
+        "text": "Flying\nAt the beginning of your upkeep, if an opponent lost life this turn, put a +1/+1 counter on Savage Gorger. (Damage causes loss of life.)",
+        "toughness": "1",
+        "type": "Creature - Vampire",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/2/a25ea81f-9786-4622-978d-b082fb72622c.jpg"
+    },
+    {
+        "artist": "Bayard Wu",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"Now is not the time for your light to fade.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Savannah Sage",
+        "names": null,
+        "number": "284",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Cat",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "When Savannah Sage enters the battlefield, you gain 2 life.",
+        "toughness": "2",
+        "type": "Creature - Cat Cleric",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/b/5b5fa4bb-e061-456f-808e-8d98b2c8abf5.jpg"
+    },
+    {
+        "artist": "Zoltan Boros",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Keep your flammables out of reach.\"\n\u2014Kerin, watch sergeant",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "Scampering Scorcher",
+        "names": null,
+        "number": "158",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [],
+        "text": "When Scampering Scorcher enters the battlefield, create two 1/1 red Elemental creature tokens. Elementals you control gain haste until end of turn. (They can attack and {T} this turn.)",
+        "toughness": "1",
+        "type": "Creature - Elemental",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/c/dccbe031-1547-4fa5-ba9a-caa1b1f5eb5d.jpg"
+    },
+    {
         "artist": "Seb McKinnon",
         "cmc": 1.0,
         "colorIdentity": [
@@ -3778,6 +6563,36 @@
         "type": "Creature - Human Wizard",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/8/0/80137c9a-ea56-4dc7-a503-43fe192c8fce.jpg"
+    },
+    {
+        "artist": "Johan Grenier",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Yes, she can be a nuisance. But at least my tea never gets cold.\" \u2014Marlan Farthwald, innkeeper",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}",
+        "multiverseId": null,
+        "name": "Scorch Spitter",
+        "names": null,
+        "number": "159",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Elemental",
+            "Lizard"
+        ],
+        "superTypes": [],
+        "text": "Whenever Scorch Spitter attacks, it deals 1 damage to the player or planeswalker it's attacking.",
+        "toughness": "1",
+        "type": "Creature - Elemental Lizard",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/b/bb701a84-24bd-41ed-9f06-25c8338902a5.jpg"
     },
     {
         "artist": "Eytan Zana",
@@ -3858,6 +6673,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/6/5/65b9a718-01b9-46b2-85eb-55f6206ee5e4.jpg"
     },
     {
+        "artist": "John Stanko",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "Thakolides the Mighty\nSlayer of minotaurs\nVanquisher of giants\nKilled by a scorpion\n\u2014Inscription on an Akroan grave",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}",
+        "multiverseId": null,
+        "name": "Sedge Scorpion",
+        "names": null,
+        "number": "192",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Scorpion"
+        ],
+        "superTypes": [],
+        "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+        "toughness": "1",
+        "type": "Creature - Scorpion",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/8/9864f811-db2e-4d6d-ad59-a491a790bdd4.jpg"
+    },
+    {
         "artist": "Livia Prima",
         "cmc": 7.0,
         "colorIdentity": [
@@ -3897,7 +6741,7 @@
         "colors": [
             "G"
         ],
-        "flavor": null,
+        "flavor": "\"In times of need, the forest creates its own protectors.\"\n\u2014Vivien Reid",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{3}{G}{G}",
@@ -3945,6 +6789,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/8/e/8e318600-21af-4003-bcfa-be926cd24c5c.jpg"
     },
     {
+        "artist": "Jason Rainville",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"I love this thing! It's my best invention since the boulderfist gauntlet!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}",
+        "multiverseId": null,
+        "name": "Shock",
+        "names": null,
+        "number": "160",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Shock deals 2 damage to any target.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/3/c/3c866bdb-ff94-4f3f-8429-e72c2cbb94ef.jpg"
+    },
+    {
         "artist": "Mathias Kollros",
         "cmc": 5.0,
         "colorIdentity": [
@@ -3973,6 +6844,126 @@
         "type": "Creature - Ape Shaman",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/4/e/4e97e62e-4a77-4512-b5fa-400e01517e23.jpg"
+    },
+    {
+        "artist": "Bayard Wu",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R",
+            "W"
+        ],
+        "colors": [
+            "R",
+            "W"
+        ],
+        "flavor": "\"Jump! NOW!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}{W}",
+        "multiverseId": null,
+        "name": "Skyknight Vanguard",
+        "names": null,
+        "number": "218",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhenever Skyknight Vanguard attacks, create a 1/1 white Soldier creature token that's tapped and attacking.",
+        "toughness": "2",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/4/549634d8-1c33-401b-841d-a79ef4374dd1.jpg"
+    },
+    {
+        "artist": "Josu Hernaiz",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "Sleep doesn't always mean rest.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}",
+        "multiverseId": null,
+        "name": "Sleep Paralysis",
+        "names": null,
+        "number": "75",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nWhen Sleep Paralysis enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/b/2babef35-27ab-45aa-88cd-f21dccae5125.jpg"
+    },
+    {
+        "artist": "Caio Monteiro",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"The Great Serpent slumbers now, but all warmbloods will grovel in the dirt at its awakening!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Sorcerer of the Fang",
+        "names": null,
+        "number": "114",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "{5}{B}, {T}: Sorcerer of the Fang deals 2 damage to target opponent or planeswalker.",
+        "toughness": "3",
+        "type": "Creature - Human Wizard",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/f/2fe9e325-fbe4-4f43-8d68-8525c4d5ce8b.jpg"
+    },
+    {
+        "artist": "Jason Rainville",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"My people serve the dragon Kolaghan, but I give my blood for a greater lord.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}{B}",
+        "multiverseId": null,
+        "name": "Sorin's Guide",
+        "names": null,
+        "number": "292",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [],
+        "text": "When Sorin's Guide enters the battlefield, you may search your library and/or graveyard for a card named Sorin, Vampire Lord, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+        "toughness": "2",
+        "type": "Creature - Vampire",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/1/416b000d-77d0-4c83-bbbd-d1107f746dde.jpg"
     },
     {
         "artist": "Chase Stone",
@@ -4035,6 +7026,63 @@
         "type": "Legendary Planeswalker - Sorin",
         "types": " Planeswalker ",
         "url": "https://img.scryfall.com/cards/normal/front/b/f/bf20ea7b-e480-4b0e-b080-888f24d3c08d.jpg"
+    },
+    {
+        "artist": "Daarken",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "The first mistake the Grimnant knights made was bullying the owner of an Urborg corpse shop. Their second mistake was dying.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Soul Salvage",
+        "names": null,
+        "number": "116",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Return up to two target creature cards from your graveyard to your hand.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/5/d/5d9250f8-9085-4664-ada7-a2ef44deeac8.jpg"
+    },
+    {
+        "artist": "James Ryman",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"Healing is more art than magic. Well, there is still quite a bit of magic.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}",
+        "multiverseId": null,
+        "name": "Soulmender",
+        "names": null,
+        "number": "37",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "{T}: You gain 1 life.",
+        "toughness": "1",
+        "type": "Creature - Human Cleric",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/1/31b83ffd-bd08-48c6-98a3-811abc203f60.jpg"
     },
     {
         "artist": "Cristi Balanescu",
@@ -4127,6 +7175,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/8/0/80382963-a9d7-4c2d-8671-8dd3fdd4dbdc.jpg"
     },
     {
+        "artist": "Bram Sels",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"Get up, slugabeds! We've got company, and they're not dressed for a party!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Steadfast Sentry",
+        "names": null,
+        "number": "40",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Soldier"
+        ],
+        "superTypes": [],
+        "text": "Vigilance (Attacking doesn't cause this creature to tap.)\nWhen Steadfast Sentry dies, put a +1/+1 counter on target creature you control.",
+        "toughness": "2",
+        "type": "Creature - Human Soldier",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/d/8d92614e-05da-4b5c-a98b-addf8ab2de7b.jpg"
+    },
+    {
         "artist": "Chris Rahn",
         "cmc": 2.0,
         "colorIdentity": [],
@@ -4150,6 +7228,147 @@
         "type": "Artifact Creature - Construct",
         "types": "Artifact Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/6/e/6ed61426-e652-4b48-b936-8be9b6b57731.jpg"
+    },
+    {
+        "artist": "Martina Pilcerova",
+        "cmc": 5.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "The sculptor, like most artists, put his heart and soul into his work. But the newly awakened golem decided it wanted its creator's other, more tangible parts.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}",
+        "multiverseId": null,
+        "name": "Stone Golem",
+        "names": null,
+        "number": "240",
+        "power": "4",
+        "rarity": "Common",
+        "subTypes": [
+            "Golem"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "4",
+        "type": "Artifact Creature - Golem",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/b/1b4de70a-729b-4566-b6f3-c76f551405a5.jpg"
+    },
+    {
+        "artist": "Mike Bierek",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Swamp",
+        "names": null,
+        "number": "269",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Swamp"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {B}.)",
+        "toughness": null,
+        "type": "Basic Land - Swamp",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/8/184a196e-8604-49d2-a66a-6f7c0eafd5de.jpg"
+    },
+    {
+        "artist": "Cliff Childs",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Swamp",
+        "names": null,
+        "number": "270",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Swamp"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {B}.)",
+        "toughness": null,
+        "type": "Basic Land - Swamp",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/f/4f3a387a-4bc1-4338-9d1e-0fbcb6f03b82.jpg"
+    },
+    {
+        "artist": "Jonas De Ro",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Swamp",
+        "names": null,
+        "number": "271",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Swamp"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {B}.)",
+        "toughness": null,
+        "type": "Basic Land - Swamp",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/9/a9023215-035f-4f12-9f75-04b995b5d24a.jpg"
+    },
+    {
+        "artist": "Jonas De Ro",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Swamp",
+        "names": null,
+        "number": "272",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Swamp"
+        ],
+        "superTypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {B}.)",
+        "toughness": null,
+        "type": "Basic Land - Swamp",
+        "types": " Land ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/b/6ba77dad-f157-4e31-9654-921967ea98c0.jpg"
     },
     {
         "artist": "Eytan Zana",
@@ -4176,6 +7395,60 @@
         "type": "Land",
         "types": "Land",
         "url": "https://img.scryfall.com/cards/normal/front/8/0/804db4ef-712f-4a39-a00f-51e99b05274c.jpg"
+    },
+    {
+        "artist": "Randy Vargas",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"When you are gone, will anyone remember your story?\"\n\u2014Unknown",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Tale's End",
+        "names": null,
+        "number": "77",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Counter target activated ability, triggered ability, or legendary spell.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/1/4/1421115b-9a98-4ab2-bcb2-7d8899ce12db.jpg"
+    },
+    {
+        "artist": "John Avon",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"You will kneel before me, even if I have to split the earth under your feet!\"\n\u2014Ash Kronor, Keldon warlord",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "Tectonic Rift",
+        "names": null,
+        "number": "161",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Destroy target land. Creatures without flying can't block this turn.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/a/b/abf90bd1-fa00-4af6-aa76-bd6fca7b0ac4.jpg"
     },
     {
         "artist": "Adam Paquette",
@@ -4338,6 +7611,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/5/3/534eb449-3f1c-46ec-a965-0f5812e2c93e.jpg"
     },
     {
+        "artist": "Joseph Meehan",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"A whole life, full of memories and experience, love and sorrow, drained drop by drop into this bottle. Could any feast be more glorious?\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}",
+        "multiverseId": null,
+        "name": "Thirsting Bloodlord",
+        "names": null,
+        "number": "293",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [],
+        "text": "Other Vampires you control get +1/+1.",
+        "toughness": "3",
+        "type": "Creature - Vampire",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/9/599e8ed3-4341-4373-8871-2768a90d98c1.jpg"
+    },
+    {
         "artist": "Eytan Zana",
         "cmc": 0.0,
         "colorIdentity": [
@@ -4420,6 +7722,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/b/7/b7367813-8be3-44a2-9a75-5f4e48cf34b1.jpg"
     },
     {
+        "artist": "Yongjae Choi",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Thunderkin Awakener",
+        "names": null,
+        "number": "162",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Elemental",
+            "Shaman"
+        ],
+        "superTypes": [],
+        "text": "Haste\nWhenever Thunderkin Awakener attacks, choose target Elemental creature card in your graveyard with toughness less than Thunderkin Awakener's toughness. Return that card to the battlefield tapped and attacking. Sacrifice it at the beginning of the next end step.",
+        "toughness": "2",
+        "type": "Creature - Elemental Shaman",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/8/289b649b-c93a-44ad-bdd6-866f8b2f1bc2.jpg"
+    },
+    {
         "artist": "Cristi Balanescu",
         "cmc": 3.0,
         "colorIdentity": [
@@ -4478,6 +7810,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/5/75fa37aa-ef2e-49ff-9496-86b0e69128a7.jpg"
     },
     {
+        "artist": "Jana Schirmer",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}",
+        "multiverseId": null,
+        "name": "Twinblade Paladin",
+        "names": null,
+        "number": "285",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Whenever you gain life, put a +1/+1 counter on Twinblade Paladin.\nAs long as you have 25 or more life, Twinblade Paladin has double strike. (It deals both first-strike and regular combat damage.)",
+        "toughness": "3",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/3/6397d426-00e0-44da-b23c-44ccea65f5aa.jpg"
+    },
+    {
         "artist": "Jason Kang",
         "cmc": 3.0,
         "colorIdentity": [
@@ -4533,6 +7895,64 @@
         "type": "Creature - Human Berserker",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/d/b/db5879c5-4b0a-42fa-a44f-580e0221a32b.jpg"
+    },
+    {
+        "artist": "James Zapata",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"There are always more like you.\"\n\u2014Modriss of the Zargoth Fen",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "Undead Servant",
+        "names": null,
+        "number": "118",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Zombie"
+        ],
+        "superTypes": [],
+        "text": "When Undead Servant enters the battlefield, create a 2/2 black Zombie creature token for each card named Undead Servant in your graveyard.",
+        "toughness": "2",
+        "type": "Creature - Zombie",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/f/bfbc0f7c-546f-4525-bb58-c99ab9b017d5.jpg"
+    },
+    {
+        "artist": "Seb McKinnon",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Don't think of it as selling your soul. It's more like you're bequeathing it to me.\"\n\u2014Vilis, Broker of Blood",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Unholy Indenture",
+        "names": null,
+        "number": "119",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nWhen enchanted creature dies, return that card to the battlefield under your control with a +1/+1 counter on it.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/1/31e22edb-a815-413d-b62d-f32f8932b6e6.jpg"
     },
     {
         "artist": "Izzy",
@@ -4618,6 +8038,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/a/a/aa686c34-1c11-469f-93c2-f9891aea521f.jpg"
     },
     {
+        "artist": "Karl Kopinski",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Try to steal from me and I'll add your skull to my collection.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{B}",
+        "multiverseId": null,
+        "name": "Vengeful Warchief",
+        "names": null,
+        "number": "121",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Orc",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "Whenever you lose life for the first time each turn, put a +1/+1 counter on Vengeful Warchief. (Damage causes loss of life.)",
+        "toughness": "4",
+        "type": "Creature - Orc Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/4/d405e1bc-bf58-4cce-8abe-57fb40ef0996.jpg"
+    },
+    {
         "artist": "Franz Vohwinkel",
         "cmc": 2.0,
         "colorIdentity": [],
@@ -4670,6 +8120,36 @@
         "type": "Legendary Creature - Demon",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/e/c/ecdf2bd9-87b9-470a-ad2e-0ebf98560f87.jpg"
+    },
+    {
+        "artist": "Bayard Wu",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Regardless of where they come from, crocs are usually able to find their way home. For this one, home is me.\"\n\u2014Vivien Reid",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Vivien's Crocodile",
+        "names": null,
+        "number": "301",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Crocodile",
+            "Spirit"
+        ],
+        "superTypes": [],
+        "text": "Vivien's Crocodile gets +1/+1 as long as you control a Vivien planeswalker.",
+        "toughness": "3",
+        "type": "Creature - Crocodile Spirit",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/c/7c51c6bd-2ecc-4d92-a406-fcb31e889b45.jpg"
     },
     {
         "artist": "Yongjae Choi",
@@ -4763,6 +8243,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/4/74bbe44f-864a-446c-bfc9-5f5188e663b8.jpg"
     },
     {
+        "artist": "Lucas Graciano",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "Roots reach deep, and sometimes they tap into things better left undisturbed.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{G}{G}",
+        "multiverseId": null,
+        "name": "Vorstclaw",
+        "names": null,
+        "number": "201",
+        "power": "7",
+        "rarity": "Common",
+        "subTypes": [
+            "Elemental",
+            "Horror"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "7",
+        "type": "Creature - Elemental Horror",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/9/79719ed0-468d-4946-8dfc-fb7e2b2e305e.jpg"
+    },
+    {
         "artist": "Filip Burburan",
         "cmc": 6.0,
         "colorIdentity": [
@@ -4790,6 +8300,95 @@
         "type": "Creature - Elemental",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/2/02c9396d-28f2-40b7-908e-51db51da57a7.jpg"
+    },
+    {
+        "artist": "Nils Hamm",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "On Evos Isle, the swift and formidable aven enforce the will of the ruling sphinxes.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Warden of Evos Isle",
+        "names": null,
+        "number": "79",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Bird",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "Flying\nCreature spells with flying you cast cost {1} less to cast.",
+        "toughness": "2",
+        "type": "Creature - Bird Wizard",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/a/ba0ec2d2-c004-4f6b-ba1c-29d81ad77fd1.jpg"
+    },
+    {
+        "artist": "Yeong-Hao Han",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"They come to drink, to bathe, and\u2014I believe\u2014to play.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Waterkin Shaman",
+        "names": null,
+        "number": "288",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Elemental",
+            "Shaman"
+        ],
+        "superTypes": [],
+        "text": "Whenever a creature with flying enters the battlefield under your control, Waterkin Shaman gets +1/+1 until end of turn.",
+        "toughness": "1",
+        "type": "Creature - Elemental Shaman",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/8/184bfbc4-1c9b-44f7-b4a7-068290db3bac.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Fire is always dancing, leaping and whirling, seeking more fuel. It never rests, so why should I?\"\n\u2014Chandra Nalaar",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}{R}",
+        "multiverseId": null,
+        "name": "Wildfire Elemental",
+        "names": null,
+        "number": "297",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [],
+        "text": "Whenever an opponent is dealt noncombat damage, creatures you control get +1/+0 until end of turn.",
+        "toughness": "3",
+        "type": "Creature - Elemental",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/7/272e317c-55c4-43b2-91aa-3e0009cfd7d5.jpg"
     },
     {
         "artist": "Eytan Zana",
@@ -4933,6 +8532,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/2/5/250f5303-428a-478c-9bd5-2410f7fcc4dd.jpg"
     },
     {
+        "artist": "Zezhou Chen",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}{U}",
+        "multiverseId": null,
+        "name": "Yanling's Harbinger",
+        "names": null,
+        "number": "289",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Bird"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Yanling's Harbinger enters the battlefield, you may search your library and/or graveyard for a card named Mu Yanling, Celestial Wind, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+        "toughness": "4",
+        "type": "Creature - Bird",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/3/93aca389-6830-4297-97bc-e3a2a1a1d41a.jpg"
+    },
+    {
         "artist": "Daarken",
         "cmc": 2.0,
         "colorIdentity": [
@@ -5003,7 +8631,7 @@
             "G",
             "U"
         ],
-        "flavor": "\"Yarok grieves within the waste\nof Bala Ged's corrupted land.\"\n\u2014Lament for Bala Ged, stanza 1",
+        "flavor": "\"Yarok grieves within the waste\nof Bala Ged's corrupted land.\"\n\u2014*Lament for Bala Ged*, stanza 1",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{B}{G}{U}",
@@ -5025,5 +8653,61 @@
         "type": "Legendary Creature - Elemental Horror",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/a/1/a1001d43-e11b-4e5e-acd4-4a50ef89977f.jpg"
+    },
+    {
+        "artist": "Ryan Yee",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "The courage of those who work the land is born of long days of labor in the hot summer sun and the cold winter wind. It is the courage of the earth itself.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}",
+        "multiverseId": null,
+        "name": "Yoked Ox",
+        "names": null,
+        "number": "41",
+        "power": "0",
+        "rarity": "Common",
+        "subTypes": [
+            "Ox"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "4",
+        "type": "Creature - Ox",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/7/a73f186b-c897-4a98-bc25-8e4aa348d8c9.jpg"
+    },
+    {
+        "artist": "Steve Prescott",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"The knights charged forward on wings of wind, and the necromancer's horde roared in helpless rage.\"\n\u2014Krinnea, Siege of the Bone Spire",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Zephyr Charge",
+        "names": null,
+        "number": "82",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{1}{U}: Target creature gains flying until end of turn.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://img.scryfall.com/cards/normal/front/d/a/da749962-25f2-4ddc-9e55-bf74d216284e.jpg"
     }
 ]
