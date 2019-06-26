@@ -191,7 +191,7 @@ def open_header(card_xml_file: IO[Any]) -> None:
     """
     card_xml_file.write(
         "<cockatrice_carddatabase version='3'>\n"
-        + "<!--\n"
+        + "  <!--\n"
         + "  Created At: " + datetime.datetime.utcnow().strftime("%a, %b %d %Y, %H:%M:%S") + " (UTC)\n"
         + "  Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler\n"
         + "  -->\n"
