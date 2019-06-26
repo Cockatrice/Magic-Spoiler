@@ -1,84 +1,112 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Tue, Jun 25 2019, 23:19:25 (UTC)
+Created At: Wed, Jun 26 2019, 21:34:31 (UTC)
 Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
 -->
   <sets>
     <set>
-      <name>PPP1</name>
-      <longname>M20 Promo Packs</longname>
-      <settype>Expansion</settype>
-      <releasedate>2019-07-12</releasedate>
+      <name>PS19</name>
+      <longname>San Diego Comic-Con 2019</longname>
+      <settype>Promo</settype>
+      <releasedate>2019-07-18</releasedate>
     </set>
     <set>
       <name>PM20</name>
       <longname>Core Set 2020 Promos</longname>
-      <settype>Expansion</settype>
+      <settype>Promo</settype>
+      <releasedate>2019-07-12</releasedate>
+    </set>
+    <set>
+      <name>PPP1</name>
+      <longname>M20 Promo Packs</longname>
+      <settype>Promo</settype>
       <releasedate>2019-07-12</releasedate>
     </set>
     <set>
       <name>M20</name>
       <longname>Core Set 2020</longname>
-      <settype>Expansion</settype>
+      <settype>Core</settype>
       <releasedate>2019-07-12</releasedate>
     </set>
     <set>
       <name>SS2</name>
       <longname>Signature Spellbook: Gideon</longname>
-      <settype>Expansion</settype>
+      <settype>Spellbook</settype>
       <releasedate>2019-06-28</releasedate>
     </set>
   </sets>
   <cards>
     <card>
-      <name>Forest</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/8/9/893b309d-5e8f-47fa-9f54-eaf16a5f96e3.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Forest</type>
+      <name>God-Eternal Bontu</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/2/a/2ae1bb79-a931-4d2e-9cc9-a06862dc5cde.jpg">PS19</set>
+      <manacost>3BB</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <type>Legendary Creature - Zombie God</type>
+      <pt>5/6</pt>
       <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {G}.)</text>
+      <tablerow>2</tablerow>
+      <text>Menace
+When God-Eternal Bontu enters the battlefield, sacrifice any number of other permanents, then draw that many cards.
+When God-Eternal Bontu dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
     </card>
     <card>
-      <name>Island</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/c/cc101b90-3e17-4beb-a606-3e76088e362c.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Island</type>
+      <name>God-Eternal Kefnet</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/4/8/4889a668-0f01-4447-ad2e-91b329258f22.jpg">PS19</set>
+      <manacost>2UU</manacost>
+      <cmc>4.0</cmc>
+      <color>U</color>
+      <type>Legendary Creature - Zombie God</type>
+      <pt>4/5</pt>
       <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {U}.)</text>
+      <tablerow>2</tablerow>
+      <text>Flying
+You may reveal the first card you draw each turn as you draw it. Whenever you reveal an instant or sorcery card this way, copy that card and you may cast the copy. That copy costs {2} less to cast.
+When God-Eternal Kefnet dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
     </card>
     <card>
-      <name>Mountain</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/7/27d30285-7729-4130-a768-71867aefe9b3.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Mountain</type>
+      <name>God-Eternal Oketra</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/5/b/5b13ba5a-f4b0-420a-9e4f-a65e57721fa4.jpg">PS19</set>
+      <manacost>3WW</manacost>
+      <cmc>5.0</cmc>
+      <color>W</color>
+      <type>Legendary Creature - Zombie God</type>
+      <pt>3/6</pt>
       <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {R}.)</text>
+      <tablerow>2</tablerow>
+      <text>Double strike
+Whenever you cast a creature spell, create a 4/4 black Zombie Warrior creature token with vigilance.
+When God-Eternal Oketra dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
     </card>
     <card>
-      <name>Plains</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/6/36da00e3-3ef6-4ad5-a53d-e71cfdafc1e6.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Plains</type>
+      <name>God-Eternal Rhonas</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/3/7/37bc0128-a8d0-477c-abcf-2bdc9e38b872.jpg">PS19</set>
+      <manacost>3GG</manacost>
+      <cmc>5.0</cmc>
+      <color>G</color>
+      <type>Legendary Creature - Zombie God</type>
+      <pt>5/5</pt>
       <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {W}.)</text>
+      <tablerow>2</tablerow>
+      <text>Deathtouch
+When God-Eternal Rhonas enters the battlefield, double the power of each other creature you control until end of turn. Those creatures gain vigilance until end of turn.
+When God-Eternal Rhonas dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</text>
     </card>
     <card>
-      <name>Swamp</name>
-      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/8/783616d6-e3ea-43fd-97eb-6e4c5a2c711f.jpg">PPP1</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Basic Land - Swamp</type>
-      <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>({T}: Add {B}.)</text>
+      <name>Nicol Bolas, Dragon-God</name>
+      <set rarity="Mythic Rare" picURL="https://img.scryfall.com/cards/normal/front/2/c/2c23b39b-a4d6-4f10-8ced-fa4b1ed2cf74.jpg">PS19</set>
+      <manacost>UBBBR</manacost>
+      <cmc>5.0</cmc>
+      <color>B</color>
+      <color>R</color>
+      <color>U</color>
+      <type>Legendary Planeswalker - Bolas</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>Nicol Bolas, Dragon-God has all loyalty abilities of all other planeswalkers on the battlefield.
++1: You draw a card. Each opponent exiles a card from their hand or a permanent they control.
+&#8722;3: Destroy target creature or planeswalker.
+&#8722;8: Each opponent who doesn't control a legendary creature or planeswalker loses the game.</text>
     </card>
     <card>
       <name>Chandra's Regulator</name>
@@ -149,6 +177,56 @@ Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>{1}, Sacrifice Thrashing Brontodon: Destroy target artifact or enchantment.</text>
+    </card>
+    <card>
+      <name>Forest</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/8/9/893b309d-5e8f-47fa-9f54-eaf16a5f96e3.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Forest</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {G}.)</text>
+    </card>
+    <card>
+      <name>Island</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/c/c/cc101b90-3e17-4beb-a606-3e76088e362c.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Island</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {U}.)</text>
+    </card>
+    <card>
+      <name>Mountain</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/2/7/27d30285-7729-4130-a768-71867aefe9b3.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Mountain</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {R}.)</text>
+    </card>
+    <card>
+      <name>Plains</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/3/6/36da00e3-3ef6-4ad5-a53d-e71cfdafc1e6.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Plains</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {W}.)</text>
+    </card>
+    <card>
+      <name>Swamp</name>
+      <set rarity="Rare" picURL="https://img.scryfall.com/cards/normal/front/7/8/783616d6-e3ea-43fd-97eb-6e4c5a2c711f.jpg">PPP1</set>
+      <manacost/>
+      <cmc>0.0</cmc>
+      <type>Basic Land - Swamp</type>
+      <loyalty>None</loyalty>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {B}.)</text>
     </card>
     <card>
       <name>Act of Treason</name>
@@ -533,7 +611,7 @@ Destroy target creature.</text>
     </card>
     <card>
       <name>Bone to Ash</name>
-      <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/d/f/df5dd873-af44-45eb-9b82-a3622cc58b35.jpg">M20</set>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/d/f/df5dd873-af44-45eb-9b82-a3622cc58b35.jpg">M20</set>
       <manacost>2UU</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -2700,7 +2778,7 @@ Enchanted creature can't attack or block.</text>
       <name>Rapacious Dragon</name>
       <set rarity="Uncommon" picURL="https://img.scryfall.com/cards/normal/front/2/c/2c9bf6d8-ebf6-40ff-858a-3483d19bb584.jpg">M20</set>
       <manacost>4R</manacost>
-      <cmc>4.0</cmc>
+      <cmc>5.0</cmc>
       <color>R</color>
       <type>Creature - Dragon</type>
       <pt>3/3</pt>
