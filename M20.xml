@@ -1,8 +1,8 @@
 <cockatrice_carddatabase version="3">
   <!--
-Created At: Wed, Jun 26 2019, 23:20:18 (UTC)
-Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
--->
+  Created At: Fri, Jun 28 2019, 16:22:47 (UTC)
+  Created By: Magic-Spoiler project @ https://github.com/Cockatrice/Magic-Spoiler
+  -->
   <sets>
     <set>
       <name>M20</name>
@@ -3653,6 +3653,18 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery)<
       <loyalty>None</loyalty>
       <tablerow>2</tablerow>
       <text>Whenever one or more tokens enter the battlefield under your control, put that many +1/+1 counters on Woodland Champion.</text>
+    </card>
+    <card>
+      <name>Woodland Mystic</name>
+      <set rarity="Common" picURL="https://img.scryfall.com/cards/normal/front/2/d/2d6117cf-5cb3-41f3-8756-c01b5e9c760e.jpg">M20</set>
+      <manacost>1G</manacost>
+      <cmc>2.0</cmc>
+      <color>G</color>
+      <type>Creature - Elf Druid</type>
+      <pt>1/1</pt>
+      <loyalty>None</loyalty>
+      <tablerow>2</tablerow>
+      <text>{T}: Add {G}.</text>
     </card>
     <card>
       <name>Yanling's Harbinger</name>
