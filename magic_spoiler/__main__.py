@@ -210,6 +210,7 @@ def fill_header_sets(card_xml_file: IO[Any], set_obj: Dict[str, str]) -> None:
         "<longname>" + set_obj["name"] + "</longname>\n"
         "<settype>" + set_obj["set_type"].replace("_"," ").title() + "</settype>\n"
         "<releasedate>" + set_obj["released_at"] + "</releasedate>\n"
+        "<cardcount>" + set_obj["card_count"].__str__() + "</cardcount>\n"
         "</set>\n"
     )
 
