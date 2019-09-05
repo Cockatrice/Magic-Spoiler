@@ -1,5 +1,67 @@
 [
     {
+        "artist": "Chris Seaman",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "A true puppet master has no need for strings.",
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{2}{U} // {2}{U}",
+        "multiverseId": null,
+        "name": "Animating Faerie // Bring to Life",
+        "names": null,
+        "number": "280",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Faerie",
+            "//",
+            "Sorcery"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "2",
+        "type": "Creature - Faerie // Sorcery - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/8/a8924faa-d5f5-4119-9fa1-be0789a5655d.jpg"
+    },
+    {
+        "artist": "Nick Southam",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{6}{G} // {2}{G}",
+        "multiverseId": null,
+        "name": "Beanstalk Giant // Fertile Footsteps",
+        "names": null,
+        "number": "295",
+        "power": "*",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Giant",
+            "//",
+            "Sorcery"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "*",
+        "type": "Creature - Giant // Sorcery - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/9/49875f7a-31b9-4276-b971-8ead1e18fc81.jpg"
+    },
+    {
         "artist": "Jeremy Wilson",
         "cmc": 2.0,
         "colorIdentity": [
@@ -9,23 +71,25 @@
             "R"
         ],
         "flavor": "\"Courage is the only shield I need.\"",
-        "layout": "",
+        "layout": "adventure",
         "loyalty": null,
-        "mana_cost": "{1}{R}",
+        "mana_cost": "{1}{R} // {R}",
         "multiverseId": null,
-        "name": "Embereth Shieldbreaker",
+        "name": "Embereth Shieldbreaker // Battle Display",
         "names": null,
         "number": "292",
         "power": "2",
         "rarity": "Uncommon",
         "subTypes": [
             "Human",
-            "Knight"
+            "Knight",
+            "//",
+            "Sorcery"
         ],
         "superTypes": [],
-        "text": "Battle Display {R}\nSorcery \u2014 Adventure\nDestroy target artifact. (Then exile this card. You may cast the creature later from exile.)",
+        "text": "",
         "toughness": "1",
-        "type": "Creature - Human Knight",
+        "type": "Creature - Human Knight // Sorcery - Adventure",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/1/3/13b553f1-8107-42a8-841a-91adf71cff72.jpg"
     },
@@ -39,23 +103,25 @@
             "G"
         ],
         "flavor": null,
-        "layout": "",
+        "layout": "adventure",
         "loyalty": null,
-        "mana_cost": "{G}",
+        "mana_cost": "{G} // {5}{G}{G}",
         "multiverseId": null,
-        "name": "Flaxen Intruder",
+        "name": "Flaxen Intruder // Welcome Home",
         "names": null,
         "number": "297",
         "power": "1",
         "rarity": "Uncommon",
         "subTypes": [
             "Human",
-            "Berserker"
+            "Berserker",
+            "//",
+            "Sorcery"
         ],
         "superTypes": [],
-        "text": "Whenever Flaxen Intruder deals combat damage to a player, you may sacrifice it. When you do, destroy target artifact or enchantment.\nWelcome Home {5}{G}{G}\nSorcery \u2014 Adventure\nCreate three 2/2 green Bear creature tokens. (Then exile this card. You may cast the creature later from exile.)",
+        "text": "",
         "toughness": "2",
-        "type": "Creature - Human Berserker",
+        "type": "Creature - Human Berserker // Sorcery - Adventure",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/4/8/489ae8ac-8329-49f0-a301-875f7ba37c97.jpg"
     },
@@ -69,23 +135,25 @@
             "B"
         ],
         "flavor": null,
-        "layout": "",
+        "layout": "adventure",
         "loyalty": null,
-        "mana_cost": "{B}",
+        "mana_cost": "{B} // {2}{B}",
         "multiverseId": null,
-        "name": "Foulmire Knight",
+        "name": "Foulmire Knight // Profane Insight",
         "names": null,
         "number": "286",
         "power": "1",
         "rarity": "Uncommon",
         "subTypes": [
             "Zombie",
-            "Knight"
+            "Knight",
+            "//",
+            "Instant"
         ],
         "superTypes": [],
-        "text": "Deathtouch\nProfane Insight {2}{B}\nInstant \u2014 Adventure\nYou draw a card and you lose 1 life. (Then exile this card. You may cast the creature later from exile.)",
+        "text": "",
         "toughness": "1",
-        "type": "Creature - Zombie Knight",
+        "type": "Creature - Zombie Knight // Instant - Adventure",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/6/a/6a16f907-93df-419e-8a65-ee96938e4143.jpg"
     },
@@ -161,23 +229,25 @@
             "G"
         ],
         "flavor": "His mind chose solitude, but his heart disagreed.",
-        "layout": "",
+        "layout": "adventure",
         "loyalty": null,
-        "mana_cost": "{2}{G}",
+        "mana_cost": "{2}{G} // {G}",
         "multiverseId": null,
-        "name": "Lovestruck Beast",
+        "name": "Lovestruck Beast // Heart's Desire",
         "names": null,
         "number": "299",
         "power": "5",
         "rarity": "Rare",
         "subTypes": [
             "Beast",
-            "Noble"
+            "Noble",
+            "//",
+            "Sorcery"
         ],
         "superTypes": [],
-        "text": "Lovestruck Beast can't attack unless you control a 1/1 creature.\nHeart's Desire {G}\nSorcery \u2014 Adventure\nCreate a 1/1 white Human creature token. (Then exile this card. You may cast the creature later from exile.)",
+        "text": "",
         "toughness": "5",
-        "type": "Creature - Beast Noble",
+        "type": "Creature - Beast Noble // Sorcery - Adventure",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/3/4/341110e5-577d-45ee-bf62-53373a331c87.jpg"
     },
@@ -251,23 +321,25 @@
             "B"
         ],
         "flavor": null,
-        "layout": "",
+        "layout": "adventure",
         "loyalty": null,
-        "mana_cost": "{1}{B}",
+        "mana_cost": "{1}{B} // {1}{B}",
         "multiverseId": null,
-        "name": "Order of Midnight",
+        "name": "Order of Midnight // Alter Fate",
         "names": null,
         "number": "288",
         "power": "2",
         "rarity": "Uncommon",
         "subTypes": [
             "Human",
-            "Knight"
+            "Knight",
+            "//",
+            "Sorcery"
         ],
         "superTypes": [],
-        "text": "Flying\nOrder of Midnight can't block.\nAlter Fate {1}{B}\nSorcery \u2014 Adventure\nReturn target creature card from your graveyard to your hand. (Then exile this card. You may cast the creature later from exile.)",
+        "text": "",
         "toughness": "2",
-        "type": "Creature - Human Knight",
+        "type": "Creature - Human Knight // Sorcery - Adventure",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/6/d/6d747619-3057-4973-aec7-a0e4674e94f7.jpg"
     },
@@ -334,6 +406,38 @@
         "url": "https://img.scryfall.com/cards/normal/front/e/e/ee4d196e-7ce4-4dc1-9d58-102a89aca2a4.jpg"
     },
     {
+        "artist": "Wylie Beckert",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Old battlefields make great gardens. So rich from the blood of the fallen.\"",
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{2}{G} // {G}",
+        "multiverseId": null,
+        "name": "Rosethorn Acolyte // Seasonal Ritual",
+        "names": null,
+        "number": "300",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Elf",
+            "Druid",
+            "//",
+            "Sorcery"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "3",
+        "type": "Creature - Elf Druid // Sorcery - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/7/472bed9a-10f3-4811-b562-5a746a712cd8.jpg"
+    },
+    {
         "artist": "Shawn Wood",
         "cmc": 2.0,
         "colorIdentity": [
@@ -343,23 +447,25 @@
             "B"
         ],
         "flavor": "\"My quest? Why, to marry Ayara. Or die trying.\"",
-        "layout": "",
+        "layout": "adventure",
         "loyalty": null,
-        "mana_cost": "{1}{B}",
+        "mana_cost": "{1}{B} // {B}",
         "multiverseId": null,
-        "name": "Smitten Swordmaster",
+        "name": "Smitten Swordmaster // Curry Favor",
         "names": null,
         "number": "290",
         "power": "2",
         "rarity": "Common",
         "subTypes": [
             "Human",
-            "Knight"
+            "Knight",
+            "//",
+            "Sorcery"
         ],
         "superTypes": [],
-        "text": "Lifelink\nCurry Favor {B}\nSorcery \u2014 Adventure\nYou gain X life and each opponent loses X life, where X is the number of Knights you control. (Then exile this card. You may cast the creature later from exile.)",
+        "text": "",
         "toughness": "1",
-        "type": "Creature - Human Knight",
+        "type": "Creature - Human Knight // Sorcery - Adventure",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/e/a/ea2a7e55-be1c-4552-92f0-c68f085f3a27.jpg"
     },
