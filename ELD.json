@@ -1,5 +1,245 @@
 [
     {
+        "artist": "Zezhou Chen",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "\"Flying With Scissors\"",
+        "names": null,
+        "number": "310",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Faerie"
+        ],
+        "superTypes": [],
+        "text": "Flying",
+        "toughness": "3",
+        "type": "Creature - Faerie",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/1/71c52b50-35aa-4858-8c8e-c81dcb29a7fc.jpg"
+    },
+    {
+        "artist": "Jason Kang",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "\"Griffin Wants Zoomies\"",
+        "names": null,
+        "number": "305",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Griffin"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhenever \"Griffin Wants Zoomies\" attacks, target Knight you control gains flying until end of turn.",
+        "toughness": "2",
+        "type": "Creature - Griffin",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/4/94a04717-5cd7-4982-bf36-00cea30b9ef1.jpg"
+    },
+    {
+        "artist": "Deruchenko Alexander",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G",
+            "U"
+        ],
+        "colors": [
+            "G",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{U}",
+        "multiverseId": null,
+        "name": "\"Oko's Hospitality\"",
+        "names": null,
+        "number": "312",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Creatures you control have base power and toughness 3/3 until end of turn. You may search your library and/or graveyard for a card named \"Oko's JoJo Reference\", reveal it, and put it into your hand. If you searched your library this way, shuffle it.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/8/1/81fb103d-f07c-4113-9da7-843cc7dab340.jpg"
+    },
+    {
+        "artist": "Chris Rallis",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "G",
+            "U"
+        ],
+        "colors": [
+            "G",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "4",
+        "mana_cost": "{4}{G}{U}",
+        "multiverseId": null,
+        "name": "\"Oko's JoJo Reference\"",
+        "names": null,
+        "number": "309",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Oko"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+1: Put two +1/+1 counters on up to one target creature you control.\n0: Until end of turn, \"Oko's JoJo Reference\" becomes a copy of a creature you control. Prevent all damage that would be dealt to him this turn.\n\u22127: Until end of turn, each creature you control has base power and toughness 10/10 and gains trample.",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Oko",
+        "types": " Planeswalker ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/3/83e61813-c4c8-4e80-8808-ac5107966ee3.jpg"
+    },
+    {
+        "artist": "",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "\"Rowan's Badass Sidekick\"",
+        "names": null,
+        "number": "306",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "First strike\nAs long as you control a Rowan planeswalker, \"Rowan's Badass Sidekick\" gets +3/+0.",
+        "toughness": null,
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/c/9c8a3119-ce9b-4fe5-aea3-871a7eee216e.jpg"
+    },
+    {
+        "artist": "Zack Stella",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "5",
+        "mana_cost": "{3}{R}{R}",
+        "multiverseId": null,
+        "name": "\"Rowan's Not Messing Around Anymore\"",
+        "names": null,
+        "number": "304",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Rowan"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+1: Up to one target creature gets +3/+0 and gains first strike until end of turn.\n\u22122: Choose two target creatures. \"Rowan's Not Messing Around Anymore\" deals 1 damage to each of them. Those creatures can't block this turn.\n\u22129: Gain control of all creatures until end of turn. Untap them. They gain haste until end of turn.",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Rowan",
+        "types": " Planeswalker ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/3/030f4058-54e5-4333-bd6c-2789c334bf12.jpg"
+    },
+    {
+        "artist": "Deruchenko Alexander",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}",
+        "multiverseId": null,
+        "name": "\"Rowan's Red Riding Hoods\"",
+        "names": null,
+        "number": "307",
+        "power": "5",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "When \"Rowan's Red Riding Hoods\" enters the battlefield, you may search your library and/or graveyard for a card named \"Rowan's Not Messing Around Anymore\", reveal it, and put it into your hand. If you searched your library this way, shuffle it.",
+        "toughness": "2",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/5/b537c4e3-88d1-430d-b4c8-16e0716d1927.jpg"
+    },
+    {
+        "artist": "Uriah Voth",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "\"Thorn Ouphe\"",
+        "names": null,
+        "number": "311",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Ouphe"
+        ],
+        "superTypes": [],
+        "text": "{8}: \"Thorn Ouphe\" has base power and toughness 10/10 until end of turn. Activate this ability only if you control an Oko planeswalker.",
+        "toughness": "2",
+        "type": "Creature - Ouphe",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/c/fc83a142-9d0f-4a39-baeb-4e2f62009204.jpg"
+    },
+    {
         "artist": "Grzegorz Rutkowski",
         "cmc": 4.0,
         "colorIdentity": [
@@ -337,7 +577,7 @@
         "cmc": 0.0,
         "colorIdentity": [],
         "colors": [],
-        "flavor": null,
+        "flavor": "\"Approach my tower on bended knee or depart from it as ash upon the wind.\"\n\u2014Gadwick, the Wizened",
         "layout": "",
         "loyalty": null,
         "mana_cost": "",
@@ -1781,7 +2021,7 @@
         "multiverseId": null,
         "name": "Thornwood Falls",
         "names": null,
-        "number": "999TWF",
+        "number": "313",
         "power": null,
         "rarity": "Common",
         "subTypes": [],
@@ -1790,7 +2030,7 @@
         "toughness": null,
         "type": "Land",
         "types": "Land",
-        "url": "https://img.scryfall.com/cards/normal/front/b/3/b3722068-ff55-475c-a1cd-b3bf409b0d35.jpg"
+        "url": "https://img.scryfall.com/cards/normal/front/f/5/f5159db6-a87f-40eb-8c5c-821dfb67ff6d.jpg"
     },
     {
         "artist": "Randy Vargas",
@@ -1916,7 +2156,7 @@
         "multiverseId": null,
         "name": "Wind-Scarred Crag",
         "names": null,
-        "number": "999WSG",
+        "number": "308",
         "power": null,
         "rarity": "Common",
         "subTypes": [],
@@ -1925,7 +2165,7 @@
         "toughness": null,
         "type": "Land",
         "types": "Land",
-        "url": "https://img.scryfall.com/cards/normal/front/0/4/04f84f9e-d7c3-4e89-bfe4-a38738bde670.jpg"
+        "url": "https://img.scryfall.com/cards/normal/front/7/5/75f5875e-487f-4586-95f3-3627050a6744.jpg"
     },
     {
         "artist": "Tyler Jacobson",
