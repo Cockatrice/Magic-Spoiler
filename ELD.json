@@ -1,61 +1,37 @@
 [
     {
-        "artist": "Zezhou Chen",
-        "cmc": 3.0,
+        "artist": "Mitchell Malloy & Maddie Julyk",
+        "cmc": 4.0,
         "colorIdentity": [
-            "U"
-        ],
-        "colors": [
-            "U"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{2}{U}",
-        "multiverseId": null,
-        "name": "\"Flying With Scissors\"",
-        "names": null,
-        "number": "310",
-        "power": "2",
-        "rarity": "Common",
-        "subTypes": [
-            "Faerie"
-        ],
-        "superTypes": [],
-        "text": "Flying",
-        "toughness": "3",
-        "type": "Creature - Faerie",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/7/1/71c52b50-35aa-4858-8c8e-c81dcb29a7fc.jpg"
-    },
-    {
-        "artist": "Jason Kang",
-        "cmc": 3.0,
-        "colorIdentity": [
+            "G",
             "W"
         ],
         "colors": [
+            "G",
             "W"
         ],
         "flavor": null,
-        "layout": "",
+        "layout": "adventure",
         "loyalty": null,
-        "mana_cost": "{2}{W}",
+        "mana_cost": "{G/W}{G/W}{G/W}{G/W} // {G/W}{G/W}{G/W}{G/W}",
         "multiverseId": null,
-        "name": "\"Griffin Wants Zoomies\"",
+        "name": "\"Mozilla, Firefox Rider\" // \"Double Download\"",
         "names": null,
-        "number": "305",
+        "number": "212",
         "power": "2",
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "subTypes": [
-            "Griffin"
+            "Elf",
+            "Knight",
+            "//",
+            "Sorcery"
         ],
         "superTypes": [],
-        "text": "Flying\nWhenever \"Griffin Wants Zoomies\" attacks, target Knight you control gains flying until end of turn.",
+        "text": "",
         "toughness": "2",
-        "type": "Creature - Griffin",
+        "type": "Creature - Elf Knight // Sorcery - Adventure",
         "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/9/4/94a04717-5cd7-4982-bf36-00cea30b9ef1.jpg"
+        "url": "https://img.scryfall.com/cards/normal/front/8/a/8a665794-513f-4f78-92c9-1844ec27c79c.jpg"
     },
     {
         "artist": "Deruchenko Alexander",
@@ -68,7 +44,7 @@
             "G",
             "U"
         ],
-        "flavor": null,
+        "flavor": "\"My advisors recommend I let them eat you.\" \u2014Oko",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{3}{G}{U}",
@@ -80,164 +56,11 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Creatures you control have base power and toughness 3/3 until end of turn. You may search your library and/or graveyard for a card named \"Oko's JoJo Reference\", reveal it, and put it into your hand. If you searched your library this way, shuffle it.",
+        "text": "Creatures you control have base power and toughness 3/3 until end of turn. You may search your library and/or graveyard for a card named Oko, the Trickster, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/8/1/81fb103d-f07c-4113-9da7-843cc7dab340.jpg"
-    },
-    {
-        "artist": "Chris Rallis",
-        "cmc": 6.0,
-        "colorIdentity": [
-            "G",
-            "U"
-        ],
-        "colors": [
-            "G",
-            "U"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": "4",
-        "mana_cost": "{4}{G}{U}",
-        "multiverseId": null,
-        "name": "\"Oko's JoJo Reference\"",
-        "names": null,
-        "number": "309",
-        "power": null,
-        "rarity": "Mythic Rare",
-        "subTypes": [
-            "Oko"
-        ],
-        "superTypes": [
-            "Legendary"
-        ],
-        "text": "+1: Put two +1/+1 counters on up to one target creature you control.\n0: Until end of turn, \"Oko's JoJo Reference\" becomes a copy of a creature you control. Prevent all damage that would be dealt to him this turn.\n\u22127: Until end of turn, each creature you control has base power and toughness 10/10 and gains trample.",
-        "toughness": null,
-        "type": "Legendary Planeswalker - Oko",
-        "types": " Planeswalker ",
-        "url": "https://img.scryfall.com/cards/normal/front/8/3/83e61813-c4c8-4e80-8808-ac5107966ee3.jpg"
-    },
-    {
-        "artist": "Sara Winters",
-        "cmc": 4.0,
-        "colorIdentity": [
-            "R"
-        ],
-        "colors": [
-            "R"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{3}{R}",
-        "multiverseId": null,
-        "name": "\"Rowan's Badass Sidekick\"",
-        "names": null,
-        "number": "306",
-        "power": null,
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Human",
-            "Knight"
-        ],
-        "superTypes": [],
-        "text": "First strike\nAs long as you control a Rowan planeswalker, \"Rowan's Badass Sidekick\" gets +3/+0.",
-        "toughness": null,
-        "type": "Creature - Human Knight",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/9/c/9c8a3119-ce9b-4fe5-aea3-871a7eee216e.jpg"
-    },
-    {
-        "artist": "Zack Stella",
-        "cmc": 5.0,
-        "colorIdentity": [
-            "R"
-        ],
-        "colors": [
-            "R"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": "5",
-        "mana_cost": "{3}{R}{R}",
-        "multiverseId": null,
-        "name": "\"Rowan's Not Messing Around Anymore\"",
-        "names": null,
-        "number": "304",
-        "power": null,
-        "rarity": "Mythic Rare",
-        "subTypes": [
-            "Rowan"
-        ],
-        "superTypes": [
-            "Legendary"
-        ],
-        "text": "+1: Up to one target creature gets +3/+0 and gains first strike until end of turn.\n\u22122: Choose two target creatures. \"Rowan's Not Messing Around Anymore\" deals 1 damage to each of them. Those creatures can't block this turn.\n\u22129: Gain control of all creatures until end of turn. Untap them. They gain haste until end of turn.",
-        "toughness": null,
-        "type": "Legendary Planeswalker - Rowan",
-        "types": " Planeswalker ",
-        "url": "https://img.scryfall.com/cards/normal/front/0/3/030f4058-54e5-4333-bd6c-2789c334bf12.jpg"
-    },
-    {
-        "artist": "Deruchenko Alexander",
-        "cmc": 5.0,
-        "colorIdentity": [
-            "R"
-        ],
-        "colors": [
-            "R"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{4}{R}",
-        "multiverseId": null,
-        "name": "\"Rowan's Red Riding Hoods\"",
-        "names": null,
-        "number": "307",
-        "power": "5",
-        "rarity": "Rare",
-        "subTypes": [
-            "Human",
-            "Knight"
-        ],
-        "superTypes": [],
-        "text": "When \"Rowan's Red Riding Hoods\" enters the battlefield, you may search your library and/or graveyard for a card named \"Rowan's Not Messing Around Anymore\", reveal it, and put it into your hand. If you searched your library this way, shuffle it.",
-        "toughness": "2",
-        "type": "Creature - Human Knight",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/b/5/b537c4e3-88d1-430d-b4c8-16e0716d1927.jpg"
-    },
-    {
-        "artist": "Uriah Voth",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "G"
-        ],
-        "colors": [
-            "G"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{1}{G}",
-        "multiverseId": null,
-        "name": "\"Thorn Ouphe\"",
-        "names": null,
-        "number": "311",
-        "power": "2",
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Ouphe"
-        ],
-        "superTypes": [],
-        "text": "{8}: \"Thorn Ouphe\" has base power and toughness 10/10 until end of turn. Activate this ability only if you control an Oko planeswalker.",
-        "toughness": "2",
-        "type": "Creature - Ouphe",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/f/c/fc83a142-9d0f-4a39-baeb-4e2f62009204.jpg"
     },
     {
         "artist": "Grzegorz Rutkowski",
@@ -507,6 +330,121 @@
         "url": "https://img.scryfall.com/cards/normal/front/2/c/2c3c992a-70b5-4d3c-9a96-93c3365691ac.jpg"
     },
     {
+        "artist": "Jenn Ravenna",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"You think these walls will protect you?\nMy, you have a dim view of the power of the wilds\"\n\u2014Marawen, barrow witch",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Blow Your House Down",
+        "names": null,
+        "number": "114",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Up to three target creatures can't block this turn. Destroy any of them that are Walls.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/c/0/c04b85e7-a401-42d5-9629-8d4b8c8a46b0.jpg"
+    },
+    {
+        "artist": "Uriah Voth",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "No matter the cruelty of Oko's jokes, he's always guaranteed the sycophant's laughter.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Bramblefort Fink",
+        "names": null,
+        "number": "311",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Ouphe"
+        ],
+        "superTypes": [],
+        "text": "{8}: Bramblefort Fink has base power and toughness 10/10 until end of turn. Activate this ability only if you control an Oko planeswalker.",
+        "toughness": "2",
+        "type": "Creature - Ouphe",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/c/fc83a142-9d0f-4a39-baeb-4e2f62009204.jpg"
+    },
+    {
+        "artist": "Yeong-Hao Han",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Brimstone Trebuchet",
+        "names": null,
+        "number": "116",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Wall"
+        ],
+        "superTypes": [],
+        "text": "Defender, reach\n{T}: Brimstone Trebuchet deals 1 damage to each opponent.\nWhenever a Knight enters the battlefield under your control, untap Brimstone Trebuchet.",
+        "toughness": "3",
+        "type": "Artifact Creature - Wall",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/7/77c49e0e-4375-4e45-a57b-8df667e45ce6.jpg"
+    },
+    {
+        "artist": "Yongjae Choi",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"For every scar I've received, I've given ten back.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}",
+        "multiverseId": null,
+        "name": "Burning-Yard Trainer",
+        "names": null,
+        "number": "117",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Trample, haste\nWhen Burning-Yard Trainer enters the battlefield, another target Knight you control gets +2/+2 and gains trample and haste until end of turn.",
+        "toughness": "3",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/7/17755d1b-3a56-4362-a534-85b35ceb1802.jpg"
+    },
+    {
         "artist": "Winona Nelson",
         "cmc": 4.0,
         "colorIdentity": [
@@ -654,6 +592,66 @@
         "url": "https://img.scryfall.com/cards/normal/front/9/f/9f738ca6-5254-4dbc-9f59-854e81c8dac2.jpg"
     },
     {
+        "artist": "Daniel Ljunggren",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}{B}",
+        "multiverseId": null,
+        "name": "Doom Foretold",
+        "names": null,
+        "number": "999DF",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "At the beginning of each player's upkeep, that player sacrifices a nonland, nontoken permanent. If that player can't, they discard a card, they lose 2 life, you draw a card, you gain 2 life, you create a 2/2 white Knight creature token with vigilance, then you sacrifice Doom Foretold.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://img.scryfall.com/cards/normal/front/e/7/e76c0c83-3e87-474d-bc72-1677eed32cfa.jpg"
+    },
+    {
+        "artist": "Joe Slucher",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}{R}",
+        "multiverseId": null,
+        "name": "Embercleave",
+        "names": null,
+        "number": "120",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Equipment"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flash\nThis spell costs {1} less for each attacking creature you control.\nWhen Embercleave enters the battlefield, attach it to target creature you control.\nEquipped creature gets +1/+1 and has double strike and trample.\nEquip {3}",
+        "toughness": null,
+        "type": "Legendary Artifact - Equipment",
+        "types": " Artifact ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg"
+    },
+    {
         "artist": "Randy Vargas",
         "cmc": 4.0,
         "colorIdentity": [
@@ -746,6 +744,31 @@
         "url": "https://img.scryfall.com/cards/normal/front/1/6/166ee7fc-a0f7-49af-85bf-d5b36bb2bff4.jpg"
     },
     {
+        "artist": "Zoltan Boros",
+        "cmc": 5.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}",
+        "multiverseId": null,
+        "name": "Enchanted Carriage",
+        "names": null,
+        "number": "218",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Vehicle"
+        ],
+        "superTypes": [],
+        "text": "When Enchanted Carriage enters the battlefield, create two 1/1 white Mouse creature tokens.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",
+        "toughness": "4",
+        "type": "Artifact - Vehicle",
+        "types": "Artifact ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/0/0057c2ae-ea4f-404a-ab95-f3979efd1b3b.jpg"
+    },
+    {
         "artist": "Uriah Voth",
         "cmc": 1.0,
         "colorIdentity": [
@@ -802,6 +825,37 @@
         "type": "Creature - Faerie",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/1/5/15709316-7382-46b9-9b70-53a5147e7051.jpg"
+    },
+    {
+        "artist": "Mila Pesic",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "No one is so lost that a faerie can't find them.",
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{W} // {1}{W}",
+        "multiverseId": null,
+        "name": "Faerie Guidemother // Gift of the Fae",
+        "names": null,
+        "number": "11",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Faerie",
+            "//",
+            "Sorcery"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "1",
+        "type": "Creature - Faerie // Sorcery - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/8/e8bbece8-9620-44d9-b991-350fe952538a.jpg"
     },
     {
         "artist": "Paul Scott Canavan",
@@ -959,6 +1013,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/b/6/b69cbb20-3c4e-480b-a330-9c6d6b39d12f.jpg"
     },
     {
+        "artist": "Jason Kang",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "The keen-eyed guardians of Ardenvale are ever on alert.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Garrison Griffin",
+        "names": null,
+        "number": "305",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Griffin"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhenever Garrison Griffin attacks, target Knight you control gains flying until end of turn.",
+        "toughness": "2",
+        "type": "Creature - Griffin",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/4/94a04717-5cd7-4982-bf36-00cea30b9ef1.jpg"
+    },
+    {
         "artist": "Eric Deschamps",
         "cmc": 6.0,
         "colorIdentity": [
@@ -990,6 +1073,38 @@
         "type": "Legendary Planeswalker - Garruk",
         "types": " Planeswalker ",
         "url": "https://img.scryfall.com/cards/normal/front/a/b/abef512f-8f1d-4257-b16f-c0eed58670ec.jpg"
+    },
+    {
+        "artist": "Jesper Ejsing",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"What size advantage? They never even see me coming.\"",
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{W} // {2}{W}",
+        "multiverseId": null,
+        "name": "Giant Killer // Chop Down",
+        "names": null,
+        "number": "14",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Peasant",
+            "//",
+            "Instant"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "2",
+        "type": "Creature - Human Peasant // Instant - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/5/75754468-2850-42e6-ab22-61ff7b9d1214.jpg"
     },
     {
         "artist": "Lindsey Look",
@@ -1130,6 +1245,59 @@
         "type": "Creature - Human Knight",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/c/0c3f372d-259d-4a31-9491-2d369b3f3f8b.jpg"
+    },
+    {
+        "artist": "Bram Sels",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Life is a tournament that rewards the bold.\"\n\u2014Syr Layne, knight of Embereth",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Joust",
+        "names": null,
+        "number": "129",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Choose target creature you control and target creature you don't control. The creature you control gets +2/+1 until end of turn if it's a Knight. Then those creatures fight each other. (Each deals damage equal to its power to the other.)",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/5/e/5e725f04-5530-47f1-9f04-4cc13ed9348b.jpg"
+    },
+    {
+        "artist": "Milivoj \u0106eran",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Jousting Dummy",
+        "names": null,
+        "number": "224",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Scarecrow",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "{3}: Jousting Dummy gets +1/+0 until end of turn.",
+        "toughness": "1",
+        "type": "Artifact Creature - Scarecrow Knight",
+        "types": "Artifact Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/6/f6601056-af08-4239-97d5-5e11597fce18.jpg"
     },
     {
         "artist": "Alex Konstad",
@@ -1345,6 +1513,94 @@
         "url": "https://img.scryfall.com/cards/normal/front/0/f/0f7f1148-7b1b-4969-a2f8-428de1e2e8ff.jpg"
     },
     {
+        "artist": "Josh Hass",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B} // {1}{B}{B}",
+        "multiverseId": null,
+        "name": "Murderous Rider // Swift End",
+        "names": null,
+        "number": "97",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Zombie",
+            "Knight",
+            "//",
+            "Instant"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "3",
+        "type": "Creature - Zombie Knight // Instant - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/7/e73d8a84-2c0d-423c-89c7-71de0af9e1ac.jpg"
+    },
+    {
+        "artist": "Ekaterina Burmak",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"Poor, lost mage. Your feet are on land, yet you're in over your head, aren't you?\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Mystical Dispute",
+        "names": null,
+        "number": "58",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "This spell costs {2} less to cast if it targets a blue spell.\nCounter target spell unless its controller pays {3}.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/f/b/fbe04cb8-a8b9-4241-baae-b398a2509a3a.jpg"
+    },
+    {
+        "artist": "Zezhou Chen",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "They function as everything from assassins to jesters in the name of their fae king.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Oko's Accomplices",
+        "names": null,
+        "number": "310",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Faerie"
+        ],
+        "superTypes": [],
+        "text": "Flying",
+        "toughness": "3",
+        "type": "Creature - Faerie",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/1/71c52b50-35aa-4858-8c8e-c81dcb29a7fc.jpg"
+    },
+    {
         "artist": "Yongjae Choi",
         "cmc": 3.0,
         "colorIdentity": [
@@ -1376,6 +1632,66 @@
         "type": "Legendary Planeswalker - Oko",
         "types": " Planeswalker ",
         "url": "https://img.scryfall.com/cards/normal/front/3/4/3462a3d0-5552-49fa-9eb7-100960c55891.jpg"
+    },
+    {
+        "artist": "Chris Rallis",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "G",
+            "U"
+        ],
+        "colors": [
+            "G",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "4",
+        "mana_cost": "{4}{G}{U}",
+        "multiverseId": null,
+        "name": "Oko, the Trickster",
+        "names": null,
+        "number": "309",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Oko"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+1: Put two +1/+1 counters on up to one target creature you control.\n0: Until end of turn, Oko, the Trickster becomes a copy of target creature you control. Prevent all damage that would be dealt to him this turn.\n\u22127: Until end of turn, each creature you control has base power and toughness 10/10 and gains trample.",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Oko",
+        "types": " Planeswalker ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/3/83e61813-c4c8-4e80-8808-ac5107966ee3.jpg"
+    },
+    {
+        "artist": "Matt Stewart",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Once Upon a Time",
+        "names": null,
+        "number": "169",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "If this spell is the first spell you've cast this game, you may cast it without paying its mana cost.\nLook at the top five cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/4/0/4034e5ba-9974-43e3-bde7-8d9b4586c3a4.jpg"
     },
     {
         "artist": "Victor Adame Minguez",
@@ -1440,6 +1756,37 @@
         "url": "https://img.scryfall.com/cards/normal/front/0/a/0a7962fe-b715-4981-86c3-223bad9b1899.jpg"
     },
     {
+        "artist": "Igor Kieryluk",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}{G}",
+        "multiverseId": null,
+        "name": "Questing Beast",
+        "names": null,
+        "number": "171",
+        "power": "4",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Beast"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Vigilance, deathtouch, haste\nQuesting Beast can't be blocked by creatures with power 2 or less.\nCombat damage that would be dealt by creatures you control can't be prevented.\nWhenever Questing Beast deals combat damage to an opponent, it deals that much damage to target planeswalker that player controls.",
+        "toughness": "4",
+        "type": "Legendary Creature - Beast",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/4/e41cf82d-3213-47ce-a015-6e51a8b07e4f.jpg"
+    },
+    {
         "artist": "Dmitry Burmak",
         "cmc": 4.0,
         "colorIdentity": [
@@ -1472,6 +1819,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/9/3/93c2c11d-dfc3-4ba9-8c0f-a98114090396.jpg"
     },
     {
+        "artist": "Mark Poole",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Long after the magic wore off, the mice still dreamed of glorious galloping.\"\n\u2014Tales of the Fae",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Return to Nature",
+        "names": null,
+        "number": "173",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Choose one \u2014\n\u2022 Destroy target artifact.\n\u2022 Destroy target enchantment.\n\u2022 Exile target card from a graveyard.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/c/3/c3d5088e-21d0-4255-a14c-ad950133a90e.jpg"
+    },
+    {
         "artist": "Johannes Voss",
         "cmc": 3.0,
         "colorIdentity": [
@@ -1502,6 +1876,97 @@
         "type": "Creature - Elf Druid // Sorcery - Adventure",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/2/a/2a0d430f-da84-4752-940c-8457c525aac9.jpg"
+    },
+    {
+        "artist": "Sara Winters",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"This sword is Sunrise. The other is Dawn. They mark the beginning of my days but the end of yours.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "Rowan's Battleguard",
+        "names": null,
+        "number": "306",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "First strike\nAs long as you control a Rowan planeswalker, Rowan's Battleguard gets +3/+0.",
+        "toughness": "3",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/c/9c8a3119-ce9b-4fe5-aea3-871a7eee216e.jpg"
+    },
+    {
+        "artist": "Deruchenko Alexander",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}",
+        "multiverseId": null,
+        "name": "Rowan's Stalwarts",
+        "names": null,
+        "number": "307",
+        "power": "5",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "When Rowan's Stalwarts enters the battlefield, you may search your library and/or graveyard for a card named Rowan, Fearless Sparkmage, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+        "toughness": "2",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/5/b537c4e3-88d1-430d-b4c8-16e0716d1927.jpg"
+    },
+    {
+        "artist": "Zack Stella",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "5",
+        "mana_cost": "{3}{R}{R}",
+        "multiverseId": null,
+        "name": "Rowan, Fearless Sparkmage",
+        "names": null,
+        "number": "304",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Rowan"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+1: Up to one target creature gets +3/+0 and gains first strike until end of turn.\n\u22122: Rowan, Fearless Sparkmage deals 1 damage to each of up to two target creatures. Those creatures can't block this turn.\n\u22129: Gain control of all creatures until end of turn. Untap them. They gain haste until end of turn.",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Rowan",
+        "types": " Planeswalker ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/3/030f4058-54e5-4333-bd6c-2789c334bf12.jpg"
     },
     {
         "artist": "Filip Burburan",
@@ -1978,6 +2443,40 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/9/79093d00-362d-4d07-8a0a-cf5e1ccf9c0f.jpg"
     },
     {
+        "artist": "Paul Scott Canavan",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R",
+            "U"
+        ],
+        "colors": [
+            "R",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "5",
+        "mana_cost": "{1}{U}{R}",
+        "multiverseId": null,
+        "name": "The Royal Scions",
+        "names": null,
+        "number": "199",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Will",
+            "Rowan"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+1: Draw a card, then discard a card.\n+1: Target creature gets +2/+0 and gains first strike until end of turn.\n\u22128: Draw four cards. When you do, The Royal Scions deals damage to any target equal to the number of cards in your hand.",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Will Rowan",
+        "types": " Planeswalker ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/a/6a7111f3-01a6-4311-bc08-036a1fba60f5.jpg"
+    },
+    {
         "artist": "Svetlin Velinov",
         "cmc": 7.0,
         "colorIdentity": [
@@ -2112,6 +2611,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/c/d/cd438d51-a778-4b38-8b4b-a6a9cd9b4b22.jpg"
     },
     {
+        "artist": "Vincent Proce",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}",
+        "multiverseId": null,
+        "name": "Turn into a Pumpkin",
+        "names": null,
+        "number": "69",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Return target nonland permanent to its owner's hand. Draw a card.\nAdamant \u2014 If at least three blue mana was spent to cast this spell, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/f/2/f2a37dcb-4a18-4f03-b28c-27188a1a5ec1.jpg"
+    },
+    {
         "artist": "Colin Boyer",
         "cmc": 1.0,
         "colorIdentity": [
@@ -2140,6 +2666,95 @@
         "type": "Creature - Human Knight",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/0/0001f1ef-b957-4a55-b47f-14839cdbab6f.jpg"
+    },
+    {
+        "artist": "Matt Stewart",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Some are born to greatness. You were born to scrub greatness's floors.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "Wicked Guardian",
+        "names": null,
+        "number": "109",
+        "power": "4",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Noble"
+        ],
+        "superTypes": [],
+        "text": "When Wicked Guardian enters the battlefield, you may have it deal 2 damage to another creature you control. If you do, draw a card.",
+        "toughness": "2",
+        "type": "Creature - Human Noble",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/1/71cd91b2-0f9b-4582-ad90-32fa3ee1fde7.jpg"
+    },
+    {
+        "artist": "Tomasz Jedruszek",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}{G}",
+        "multiverseId": null,
+        "name": "Wicked Wolf",
+        "names": null,
+        "number": "181",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Wolf"
+        ],
+        "superTypes": [],
+        "text": "When Wicked Wolf enters the battlefield, it fights up to one target creature you don't control.\nSacrifice a Food: Put a +1/+1 counter on Wicked Wolf. It gains indestructible until end of turn. Tap it.",
+        "toughness": "3",
+        "type": "Creature - Wolf",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/9/09476eac-55d2-4955-8951-ae4ce117c98b.jpg"
+    },
+    {
+        "artist": "Titus Lunter",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"This one was wearing shoes made of glass. She'll be no ordinary prey.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}",
+        "multiverseId": null,
+        "name": "Wildwood Tracker",
+        "names": null,
+        "number": "183",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Elf",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "Whenever Wildwood Tracker attacks or blocks, if you control another non-Human creature, Wildwood Tracker gets +1/+1 until end of turn.",
+        "toughness": "1",
+        "type": "Creature - Elf Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/5/3538eba1-475a-4388-8a72-55ab7cd1027e.jpg"
     },
     {
         "artist": "Jonas De Ro",
@@ -2198,6 +2813,33 @@
         "type": "Creature - Human Knight",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/6/06e8d715-025f-4578-b427-e401318a9c58.jpg"
+    },
+    {
+        "artist": "Daarken",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Wishclaw Talisman",
+        "names": null,
+        "number": "110",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Wishclaw Talisman enters the battlefield with three wish counters on it.\n{1}, {T}, Remove a wish counter from Wishclaw Talisman: Search your library for a card, put it into your hand, then shuffle your library. An opponent gains control of Wishclaw Talisman. Activate this ability only during your turn.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/0/7/07c17b01-ee5d-491a-8403-b3f819b778c4.jpg"
     },
     {
         "artist": "Livia Prima",
@@ -2275,6 +2917,33 @@
         "type": "Artifact",
         "types": "Artifact",
         "url": "https://img.scryfall.com/cards/normal/front/0/4/04ef8493-d986-45f8-a718-617b028f7ad4.jpg"
+    },
+    {
+        "artist": "Titus Lunter",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "The hex swept through the village, its citizens falling one by one.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B}",
+        "multiverseId": null,
+        "name": "Witch's Vengeance",
+        "names": null,
+        "number": "111",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Creatures of the creature type of your choice get -3/-3 until end of turn.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/d/b/dbf16457-3444-4130-b220-834b69d9faa3.jpg"
     },
     {
         "artist": "John Avon",
