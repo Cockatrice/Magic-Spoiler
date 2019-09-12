@@ -1,30 +1,87 @@
 [
     {
-        "artist": "Ryan Alexander Lee",
-        "cmc": 2.0,
+        "artist": "Nicholas Gregory",
+        "cmc": 4.0,
         "colorIdentity": [
-            "U"
+            "G"
         ],
         "colors": [
-            "U"
+            "G"
         ],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{X}{U}{U}",
+        "mana_cost": "{3}{G}",
         "multiverseId": null,
-        "name": "\"Ugh, Not This Dream Again\"",
+        "name": "\"Am I Standing on a Giant Caterpillar?\"",
         "names": null,
-        "number": "66",
+        "number": "167",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Elf",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "This spell costs {2} less to cast if an opponent controls a green permanent.\nDeathtouch\nWhenever \"Am I Standing on a Giant Caterpillar?\" deals combat damage to a player, draw a card.",
+        "toughness": "3",
+        "type": "Creature - Elf Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/f/9fb4e77f-e189-4ad3-9fca-8da04289e396.jpg"
+    },
+    {
+        "artist": "Chris Rallis",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}",
+        "multiverseId": null,
+        "name": "\"Apply Torch to Face for Best Results\"",
+        "names": null,
+        "number": "135",
         "power": null,
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "Return target creature with converted mana cost X to its owner's hand. Create X 1/1 blue Faerie creature tokens with flying.",
+        "text": "\"Apply torch to face for best results\" deals 4 damage to target creature or planeswalker. If this deals damage to a non-red permanent, you sacrifice a land.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/6/b/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}",
+        "multiverseId": null,
+        "name": "\"Hey Macarena!\"",
+        "names": null,
+        "number": "106",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target opponent reveals their hand. You may choose a nonland card from the opponent's hand. If you do, opponent exiles that card. If a nonblack card was exiled in this way, exile a card from your hand.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
-        "url": "https://img.scryfall.com/cards/normal/front/a/9/a98a7698-57fb-41f6-86d4-251c7d444c6a.jpg"
+        "url": "https://img.scryfall.com/cards/normal/front/e/d/edae2c29-1418-477c-9efe-e53fa6c7fe93.jpg"
     },
     {
         "artist": "Grzegorz Rutkowski",
@@ -175,6 +232,38 @@
         "type": "Artifact Creature - Bird",
         "types": "Artifact Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/b/4/b42e1359-c79d-4848-a0f1-3f274e0bf0d9.jpg"
+    },
+    {
+        "artist": "Jason Rainville",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "In a castle that prizes loyalty above all, the bond between knight and griffin is unmatched.",
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{1}{W}{W} // {1}{W}",
+        "multiverseId": null,
+        "name": "Ardenvale Tactician // Dizzying Swoop",
+        "names": null,
+        "number": "5",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Knight",
+            "//",
+            "Instant"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "3",
+        "type": "Creature - Human Knight // Instant - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/7/c7d5e394-8e41-442e-ae97-a478a61e1b9d.jpg"
     },
     {
         "artist": "Ryan Pancoast",
@@ -399,14 +488,14 @@
         "name": "Bog Naughty",
         "names": null,
         "number": "80",
-        "power": null,
+        "power": "3",
         "rarity": "Uncommon",
         "subTypes": [
             "Faerie"
         ],
         "superTypes": [],
         "text": "Flying\n{2}{B}, Sacrifice a Food: Target creature gets -3/-3 until end of turn.",
-        "toughness": null,
+        "toughness": "3",
         "type": "Creature - Faerie",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/c/0cf282fe-83fd-4208-b46f-dae76e3a7f62.jpg"
@@ -517,7 +606,7 @@
         "names": null,
         "number": "81",
         "power": "1",
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "subTypes": [
             "Cat"
         ],
@@ -544,7 +633,7 @@
         "multiverseId": null,
         "name": "Charming Prince",
         "names": null,
-        "number": "335",
+        "number": "8",
         "power": "2",
         "rarity": "Rare",
         "subTypes": [
@@ -823,6 +912,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/f/7f78a570-d776-42f2-a609-6da0156c8de7.jpg"
     },
     {
+        "artist": "Igor Kieryluk",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"They have forsaken their vows. The edict of the Circle demands their voices be silenced.\"\n\u2014Syr Tasdale, knight of Ardenvale",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}",
+        "multiverseId": null,
+        "name": "Deafening Silence",
+        "names": null,
+        "number": "10",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Each player can't cast more than one noncreature spell each turn.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://img.scryfall.com/cards/normal/front/6/0/6072d9b0-d3c7-46f4-bd24-095bb13c4dea.jpg"
+    },
+    {
         "artist": "Daniel Ljunggren",
         "cmc": 4.0,
         "colorIdentity": [
@@ -850,6 +966,68 @@
         "type": "Enchantment",
         "types": "Enchantment",
         "url": "https://img.scryfall.com/cards/normal/front/e/7/e76c0c83-3e87-474d-bc72-1677eed32cfa.jpg"
+    },
+    {
+        "artist": "Matt Stewart",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Warmth. Safety. A fully-stocked larder. You'll find nothing like Edgewall Keep in the wilds, I promise you that!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}",
+        "multiverseId": null,
+        "name": "Edgewall Innkeeper",
+        "names": null,
+        "number": "151",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Peasant"
+        ],
+        "superTypes": [],
+        "text": "Whenever you cast a creature spell that has an Adventure, draw a card. (It doesn't need to have gone on the adventure first.)",
+        "toughness": "1",
+        "type": "Creature - Human Peasant",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/c/7c5d0560-f9e6-4c70-8cce-cae61e4e74bc.jpg"
+    },
+    {
+        "artist": "Daarken",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B",
+            "R"
+        ],
+        "colors": [
+            "B",
+            "R"
+        ],
+        "flavor": "Nothing remains of his foes but the gripping story of their downfall.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
+        "multiverseId": null,
+        "name": "Elite Headhunter",
+        "names": null,
+        "number": "209",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Menace (This creature can't be blocked except by two or more creatures.)\n{B/R}{B/R}{B/R}, Sacrifice another creature or an artifact: Elite Headhunter deals 2 damage to target creature or planeswalker.",
+        "toughness": "3",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/a/aa9d0279-4fe0-4228-a82f-bc3cd91500df.jpg"
     },
     {
         "artist": "Joe Slucher",
@@ -1206,6 +1384,33 @@
         "type": "Creature - Troll Noble",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/9/a/9a6bb435-1205-416a-a5a0-ca6d37b4dcb2.jpg"
+    },
+    {
+        "artist": "Randy Gallegos",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"A keen eye and steady hand are essential for defeating most foes, including hunger.\"\n\u2014Syr Grenphire, knight of Garenbrig",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Fell the Pheasant",
+        "names": null,
+        "number": "153",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Fell the Pheasant deals 5 damage to target creature with flying. Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/3/3/33d3cc84-7cb6-4de2-9018-4695a3b1e099.jpg"
     },
     {
         "artist": "Steve Argyle",
@@ -1574,6 +1779,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/f/5/f55fe038-c903-4d92-b689-72dd6d041a91.jpg"
     },
     {
+        "artist": "Anastasia Ovchinnikova",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Fate will decide whether it's a bed or a tomb.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Glass Casket",
+        "names": null,
+        "number": "15",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "When Glass Casket enters the battlefield, exile target creature an opponent controls with converted mana cost 3 or less until Glass Casket leaves the battlefield.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/5/6/562f1c51-d245-4771-bf61-415297e4f9d5.jpg"
+    },
+    {
         "artist": "Joe Slucher",
         "cmc": 4.0,
         "colorIdentity": [
@@ -1638,7 +1870,7 @@
         "colors": [
             "W"
         ],
-        "flavor": null,
+        "flavor": "First among equals.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{4}{W}{W}",
@@ -1797,6 +2029,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/0/c/0c3f372d-259d-4a31-9491-2d369b3f3f8b.jpg"
     },
     {
+        "artist": "Jason Rainville",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "The boundary between real and imaginary is as thin as the page, and just as easily torn.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{U}{U}",
+        "multiverseId": null,
+        "name": "Into the Story",
+        "names": null,
+        "number": "50",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "This spell costs {3} less to cast if an opponent has seven or more cards in their graveyard.\nDraw four cards.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/c/8/c838f08e-7fb6-46e7-83bb-dce8877d6c87.jpg"
+    },
+    {
         "artist": "Bram Sels",
         "cmc": 2.0,
         "colorIdentity": [
@@ -1915,6 +2174,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/5/6/56c1227e-bea7-47cb-bbec-389a3d585af5.jpg"
     },
     {
+        "artist": "Bram Sels",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"What good is loyalty to the crown if we are not also in service to those less fortunate? I fight for all of us.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Knight of the Keep",
+        "names": null,
+        "number": "19",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "2",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/d/0d49653d-cd4e-40a7-99de-fc531b5d8594.jpg"
+    },
+    {
         "artist": "Paul Scott Canavan",
         "cmc": 3.0,
         "colorIdentity": [
@@ -2009,6 +2298,36 @@
         "type": "Creature - Serpent",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/3/2/3287beea-747c-4cb6-aea5-051e85c5de8d.jpg"
+    },
+    {
+        "artist": "Anastasia Ovchinnikova",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "Even death cannot diminish the persistence of the knights of Locthwain.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B}",
+        "multiverseId": null,
+        "name": "Lost Legion",
+        "names": null,
+        "number": "94",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Spirit",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "When Lost Legion enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+        "toughness": "3",
+        "type": "Creature - Spirit Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/d/2d6139d3-5397-4403-9c1e-312c11a7542b.jpg"
     },
     {
         "artist": "Kev Walker",
@@ -2119,7 +2438,7 @@
         "name": "Maraleaf Rider",
         "names": null,
         "number": "166",
-        "power": null,
+        "power": "3",
         "rarity": "Common",
         "subTypes": [
             "Elf",
@@ -2127,10 +2446,42 @@
         ],
         "superTypes": [],
         "text": "Sacrifice a Food: Target creature blocks Maraleaf Rider this turn if able.",
-        "toughness": null,
+        "toughness": "1",
         "type": "Creature - Elf Knight",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/1/b/1b2b198d-493c-4d6c-bfb6-e842728522f6.jpg"
+    },
+    {
+        "artist": "David Gaillet",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Buying old, worn-out junk. Selling marvels of real value.\"",
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{2}{R} // {R}",
+        "multiverseId": null,
+        "name": "Merchant of the Vale // Haggle",
+        "names": null,
+        "number": "131",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Peasant",
+            "//",
+            "Instant"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "3",
+        "type": "Creature - Human Peasant // Instant - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/b/0b4399b6-e67f-40d8-8676-f5db7e04a6c9.jpg"
     },
     {
         "artist": "Alexander Forssberg",
@@ -2251,6 +2602,66 @@
         "type": "Creature - Elf Knight // Sorcery - Adventure",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/8/a/8a665794-513f-4f78-92c9-1844ec27c79c.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B}",
+        "multiverseId": null,
+        "name": "Oathsworn Knight",
+        "names": null,
+        "number": "354",
+        "power": "0",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Oathsworn Knight enters the battlefield with four +1/+1 counters on it.\nOathsworn Knight attacks each combat if able.\nIf damage would be dealt to Oathsworn Knight while it has a +1/+1 counter on it, prevent that damage and remove a +1/+1 counter from it.",
+        "toughness": "0",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/1/9173ffda-1d3b-4dab-8dcb-de44717de464.jpg"
+    },
+    {
+        "artist": "Mitchell Malloy",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Knights kept returning from Ogre's Pass wearing nothing but bruises, so they decided to just pretend it was on their side.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "Ogre Errant",
+        "names": null,
+        "number": "132",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Ogre",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Whenever Ogre Errant attacks, another target attacking Knight gains menace until end of turn. (It can't be blocked except by two or more creatures.)",
+        "toughness": "4",
+        "type": "Creature - Ogre Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/e/0e96f3dc-dc58-4034-8d3d-3ae74fa64562.jpg"
     },
     {
         "artist": "Zezhou Chen",
@@ -2575,7 +2986,7 @@
         "url": "https://img.scryfall.com/cards/normal/front/4/0/40d0ddcc-e6df-4fe1-9ac9-f895885ccc84.jpg"
     },
     {
-        "artist": "",
+        "artist": "Irina Nordsol",
         "cmc": 2.0,
         "colorIdentity": [
             "B"
@@ -2636,6 +3047,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/e/4/e41cf82d-3213-47ce-a015-6e51a8b07e4f.jpg"
     },
     {
+        "artist": "Dan Scott",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Many tales of redcap terror begin with two simple things: bloodlust and stolen steel.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Raging Redcap",
+        "names": null,
+        "number": "134",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Goblin",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Double strike",
+        "toughness": "2",
+        "type": "Creature - Goblin Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/9/d9325398-41c3-4177-a64d-ea38cb7a8737.jpg"
+    },
+    {
         "artist": "Dmitry Burmak",
         "cmc": 4.0,
         "colorIdentity": [
@@ -2666,6 +3107,33 @@
         "type": "Legendary Creature - Faerie Rogue",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/9/3/93c2c11d-dfc3-4ba9-8c0f-a98114090396.jpg"
+    },
+    {
+        "artist": "Naomi Baker",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Into amethyst, I pour\nEnvy's shadow, sorrow's gleam.\nLure the one whose scorn I bore\nThat I may hear one final scream.\"\n\u2014Barrow witch incantation",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Reave Soul",
+        "names": null,
+        "number": "103",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Destroy target creature with power 3 or less.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/c/e/ce7ff657-aa44-4336-895a-87518159cef6.jpg"
     },
     {
         "artist": "Mark Poole",
@@ -2703,7 +3171,7 @@
         "colors": [
             "W"
         ],
-        "flavor": null,
+        "flavor": "Syr Damon looked at the dragon and saw the faces of every innocent it had devoured. Suddenly, his sword blazed like the sun.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{W}",
@@ -3303,6 +3771,29 @@
     },
     {
         "artist": "Aaron Miller",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Sorcerous Spyglass",
+        "names": null,
+        "number": "233",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "As Sorcerous Spyglass enters the battlefield, look at an opponent's hand, then choose any card name.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/e/4/e47e85d1-8c4a-43a9-92b3-7cb2a5b89219.jpg"
+    },
+    {
+        "artist": "Aaron Miller",
         "cmc": 3.0,
         "colorIdentity": [],
         "colors": [],
@@ -3386,6 +3877,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/c/a/cafcf909-d726-4bc2-adf6-c12ca242f0c1.jpg"
     },
     {
+        "artist": "Ryan Alexander Lee",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "Denizens of the wilds don't always seek to harm intruders. Sometimes they simply misplace them.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{X}{U}{U}",
+        "multiverseId": null,
+        "name": "Stolen by the Fae",
+        "names": null,
+        "number": "66",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Return target creature with converted mana cost X to its owner's hand. You create X 1/1 blue Faerie creature tokens with flying.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/a/9/a98a7698-57fb-41f6-86d4-251c7d444c6a.jpg"
+    },
+    {
         "artist": "Wisnu Tan",
         "cmc": 5.0,
         "colorIdentity": [
@@ -3431,7 +3949,7 @@
         "loyalty": null,
         "mana_cost": "{3}{U}{U}",
         "multiverseId": null,
-        "name": "Syr Elenora the Discerning",
+        "name": "Syr Elenora, the Discerning",
         "names": null,
         "number": "67",
         "power": "*",
@@ -3443,7 +3961,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Syr Elenora the Discerning's power is equal to the number of cards in your hand.\nWhen Syr Elenora enters the battlefield, draw a card.\nSpells your opponents cast that target Syr Elenora cost {2} more to cast.",
+        "text": "Syr Elenora, the Discerning's power is equal to the number of cards in your hand.\nWhen Syr Elenora enters the battlefield, draw a card.\nSpells your opponents cast that target Syr Elenora cost {2} more to cast.",
         "toughness": "4",
         "type": "Legendary Creature - Human Knight",
         "types": " Creature ",
@@ -3663,6 +4181,38 @@
         "url": "https://img.scryfall.com/cards/normal/front/f/5/f5159db6-a87f-40eb-8c5c-821dfb67ff6d.jpg"
     },
     {
+        "artist": "Johann Bodin",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G",
+            "U"
+        ],
+        "colors": [
+            "G",
+            "U"
+        ],
+        "flavor": "While humans hear only a deafening roar, the fae hear music of breathtaking beauty.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G/U}{G/U}{G/U}{G/U}",
+        "multiverseId": null,
+        "name": "Thunderous Snapper",
+        "names": null,
+        "number": "215",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Turtle",
+            "Hydra"
+        ],
+        "superTypes": [],
+        "text": "Whenever you cast a spell with converted mana cost 5 or greater, draw a card.",
+        "toughness": "4",
+        "type": "Creature - Turtle Hydra",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/5/9576d4f1-47bb-45e0-803c-93fa2cdacbe5.jpg"
+    },
+    {
         "artist": "Randy Vargas",
         "cmc": 3.0,
         "colorIdentity": [
@@ -3769,6 +4319,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/2/6/2688ac16-4ed6-4e79-815a-be173deb4603.jpg"
     },
     {
+        "artist": "Howard Lyon",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"At least up here I have some peace and quiet.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Trapped in the Tower",
+        "names": null,
+        "number": "33",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature without flying\nEnchanted creature can't attack or block, and its activated abilities can't be activated.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/7/974e84ce-5b51-4bd7-9a4d-b64d8f8f62d4.jpg"
+    },
+    {
         "artist": "Donato Giancola",
         "cmc": 4.0,
         "colorIdentity": [
@@ -3851,6 +4430,37 @@
         "type": "Creature - Human Knight",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/0/0001f1ef-b957-4a55-b47f-14839cdbab6f.jpg"
+    },
+    {
+        "artist": "Kari Christensen",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G",
+            "W"
+        ],
+        "colors": [
+            "G",
+            "W"
+        ],
+        "flavor": "\"A good steed will carry you home. A great steed will carry you to glory.\"\n\u2014 Syr Alin, the Lion's Claw",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}{W}",
+        "multiverseId": null,
+        "name": "Wandermare",
+        "names": null,
+        "number": "204",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Horse"
+        ],
+        "superTypes": [],
+        "text": "Whenever you cast a creature spell that has an Adventure, put a +1/+1 counter on Wandermare. (It doesn't need to have gone on the adventure first.)",
+        "toughness": "3",
+        "type": "Creature - Horse",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/a/9a72fb5b-5c55-4ce9-b9d0-98f924d6f338.jpg"
     },
     {
         "artist": "Grzegorz Rutkowski",
