@@ -1,5 +1,35 @@
 [
     {
+        "artist": "David Gaillet",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Acclaimed Contender",
+        "names": null,
+        "number": "334",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "When Acclaimed Contender enters the battlefield, if you control another Knight, look at the top five cards of your library. You may reveal a Knight, Aura, Equipment, or legendary artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+        "toughness": "3",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/d/0dbf3260-b956-40da-abc7-764781c9f26f.jpg"
+    },
+    {
         "artist": "Chris Seaman",
         "cmc": 3.0,
         "colorIdentity": [
@@ -126,6 +156,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/4/9/49875f7a-31b9-4276-b971-8ead1e18fc81.jpg"
     },
     {
+        "artist": "Victor Adame Minguez",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Blacklance Paragon",
+        "names": null,
+        "number": "351",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Flash\nWhen Blacklance Paragon enters the battlefield, target Knight gains deathtouch and lifelink until end of turn.",
+        "toughness": "1",
+        "type": "Creature - Human Knight",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/0/b0b03278-9ce8-4698-a8ca-135668384718.jpg"
+    },
+    {
         "artist": "John Severin Brassell",
         "cmc": 3.0,
         "colorIdentity": [
@@ -157,6 +217,88 @@
         "url": "https://img.scryfall.com/cards/normal/front/f/f/ff984a4c-1818-4f8f-a9d7-fce57e77937d.jpg"
     },
     {
+        "artist": "Iris Compiet",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{1}{U}{U} // {1}{U}",
+        "multiverseId": null,
+        "name": "Brazen Borrower // Petty Theft",
+        "names": null,
+        "number": "281",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Faerie",
+            "Rogue",
+            "//",
+            "Instant"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "1",
+        "type": "Creature - Faerie Rogue // Instant - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/4/d42a57b2-fbe9-4024-a593-f6dc711a2e9d.jpg"
+    },
+    {
+        "artist": "Volkan Ba\u01f5a",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Castle Ardenvale",
+        "names": null,
+        "number": "386",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Castle Ardenvale enters the battlefield tapped unless you control a Plains.\n{T}: Add {W}.\n{2}{W}{W}, {T}: Create a 1/1 white Human creature token.",
+        "toughness": null,
+        "type": "Land",
+        "types": "Land",
+        "url": "https://img.scryfall.com/cards/normal/front/6/f/6f1383eb-aa7d-4d3b-bee4-8cffba9ae846.jpg"
+    },
+    {
+        "artist": "Jaime Jones",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Castle Embereth",
+        "names": null,
+        "number": "387",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Castle Embereth enters the battlefield tapped unless you control a Mountain.\n{T}: Add {R}.\n{1}{R}{R}, {T}: Creatures you control get +1/+0 until end of turn.",
+        "toughness": null,
+        "type": "Land",
+        "types": "Land",
+        "url": "https://img.scryfall.com/cards/normal/front/9/9/9954b9bb-21e7-40af-aaa7-b2001b8d1d45.jpg"
+    },
+    {
         "artist": "Adam Paquette",
         "cmc": 0.0,
         "colorIdentity": [
@@ -175,11 +317,36 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Castle Garenbrig enters the battlefield tapped unelss you control a Forest.\n{T}: Add {G}.\n{2}{G}{G}, {T}: Add six {G}. Spend this mana only to cast creature spells or activate abilities of creatures.",
+        "text": "Castle Garenbrig enters the battlefield tapped unless you control a Forest.\n{T}: Add {G}.\n{2}{G}{G}, {T}: Add six {G}. Spend this mana only to cast creature spells or activate abilities of creatures.",
         "toughness": null,
         "type": "Land",
         "types": "Land",
         "url": "https://img.scryfall.com/cards/normal/front/a/c/aca10c34-010a-4a9f-a747-2592c4d58c5d.jpg"
+    },
+    {
+        "artist": "Titus Lunter",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Castle Locthwain",
+        "names": null,
+        "number": "389",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Castle Locthwain enters the battlefield tapped unless you control a Swamp.\n{T}: Add {B}.\n{1}{B}{B}, {T}: Draw a card, then you lose life equal to the number of cards in your hand.",
+        "toughness": null,
+        "type": "Land",
+        "types": "Land",
+        "url": "https://img.scryfall.com/cards/normal/front/1/2/12b8c2e6-5256-4e7e-8d7d-4b386419780a.jpg"
     },
     {
         "artist": "John Avon",
@@ -753,6 +920,38 @@
         "url": "https://img.scryfall.com/cards/normal/front/e/7/e73b89ce-fdb2-4730-b87c-e23aa131be24.jpg"
     },
     {
+        "artist": "Craig J Spearing",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "Countless knights of Garenbrig owe their lives to his peerless craftsmanship.",
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{3}{G} // {1}{G}",
+        "multiverseId": null,
+        "name": "Garenbrig Carver // Shield's Might",
+        "names": null,
+        "number": "298",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Warrior",
+            "//",
+            "Instant"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "2",
+        "type": "Creature - Human Warrior // Instant - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/b/bb6b2759-c315-42cb-8842-dc4f0f42c01d.jpg"
+    },
+    {
         "artist": "Dmitry Burmak",
         "cmc": 6.0,
         "colorIdentity": [
@@ -932,6 +1131,38 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://img.scryfall.com/cards/normal/front/2/5/257a84d3-bc4e-4bb3-a435-6d243929bd8c.jpg"
+    },
+    {
+        "artist": "Ryan Pancoast",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}{W}{W}",
+        "multiverseId": null,
+        "name": "Linden, the Steadfast Queen",
+        "names": null,
+        "number": "340",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Noble"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Vigilance\nWhenever a white creature you control attacks, you gain 1 life.",
+        "toughness": "3",
+        "type": "Legendary Creature - Human Noble",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/5/052ab231-6575-4682-9208-13ac6b9d7910.jpg"
     },
     {
         "artist": "Sam Burley",
@@ -1547,6 +1778,38 @@
         "url": "https://img.scryfall.com/cards/normal/front/4/7/472bed9a-10f3-4811-b562-5a746a712cd8.jpg"
     },
     {
+        "artist": "Craig J Spearing",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Not all heroes carry swords.",
+        "layout": "adventure",
+        "loyalty": null,
+        "mana_cost": "{1}{W} // {W}",
+        "multiverseId": null,
+        "name": "Shepherd of the Flock // Usher to Safety",
+        "names": null,
+        "number": "278",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Peasant",
+            "//",
+            "Instant"
+        ],
+        "superTypes": [],
+        "text": "",
+        "toughness": "1",
+        "type": "Creature - Human Peasant // Instant - Adventure",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/2/a2a86ee7-f953-4fa2-8f28-a0c28afd733b.jpg"
+    },
+    {
         "artist": "Josu Hernaiz",
         "cmc": 2.0,
         "colorIdentity": [
@@ -2068,5 +2331,37 @@
         "type": "Creature - Human Knight",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/3/2/323ed08b-36a2-46ba-953b-59085e5db4e3.jpg"
+    },
+    {
+        "artist": "Zack Stella",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}{G}{G}",
+        "multiverseId": null,
+        "name": "Yorvo, Lord of Garenbrig",
+        "names": null,
+        "number": "376",
+        "power": "0",
+        "rarity": "Rare",
+        "subTypes": [
+            "Giant",
+            "Noble"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Yorvo, Lord of Garenbrig enters the battlefield with four +1/+1 counters on it.\nWhenever another green creature enters the battlefield under your control, put a +1/+1 counter on Yorvo. Then if that creature's power is greater than Yorvo's power, put another +1/+1 counter on Yorvo.",
+        "toughness": "0",
+        "type": "Legendary Creature - Giant Noble",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/5/85311717-07f7-4be5-902c-0df1307bf5b5.jpg"
     }
 ]
