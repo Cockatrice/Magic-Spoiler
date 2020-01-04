@@ -1,5 +1,34 @@
 [
     {
+        "artist": "Noah Bradley",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "saga",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "\"Harder, Better, Faster, Stronger\"",
+        "names": null,
+        "number": "170",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [
+            "Saga"
+        ],
+        "superTypes": [],
+        "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI \u2014 Create a 1/1 white Human Soldier token.\nII \u2014 Put three +1/+1 counters on target creature you control.\nIII \u2014 If you control a creature with power 4 or greater, draw two cards.\nIV \u2014 Create a Gold token.",
+        "toughness": null,
+        "type": "Enchantment - Saga",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/b/4b05ada5-8e5f-4158-bd28-e6c24e4a2299.jpg"
+    },
+    {
         "artist": "Sam Rowan",
         "cmc": 4.0,
         "colorIdentity": [
@@ -51,12 +80,12 @@
         "rarity": "Uncommon",
         "subTypes": [
             "Satyr",
-            "Beserker"
+            "Berserker"
         ],
         "superTypes": [],
         "text": "Whenever you sacrifice a permanent, put a +1/+1 counter on \"Number One Bolas Fan\".\n{1}{R}, {T}, Sacrifice a creature or enchantment: \"Number One Bolas Fan\" deals 1 damage to target creature. That creature can't block this turn.",
         "toughness": "1",
-        "type": "Creature - Satyr Beserker",
+        "type": "Creature - Satyr Berserker",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/8/d/8d4f3fa3-ba1f-48dc-a56b-738936f1bf86.jpg"
     },
@@ -88,6 +117,95 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://img.scryfall.com/cards/normal/front/c/f/cf6c11c8-64a1-46a4-979c-56a6d5b873d3.jpg"
+    },
+    {
+        "artist": "Jason A. Engle",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}{U}",
+        "multiverseId": null,
+        "name": "\"Pull My Finger\"",
+        "names": null,
+        "number": "260",
+        "power": "*",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Demigod"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "\"Pull My Finger\"'s power is equal to your to devotion to blue.\nCreatures and enchantments you control have \"Spells your opponents cast that target this permanent cost {1} more to cast\".",
+        "toughness": "3",
+        "type": "Legendary Enchantment Creature - Demigod",
+        "types": " Enchantment Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/9/69641e64-d4f5-4654-8da8-9eb9a71e51c8.jpg"
+    },
+    {
+        "artist": "Daniel Ljunggren",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "\"Scrabbling Harpy\"",
+        "names": null,
+        "number": "114",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Harpy"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen \"Scrabbling Harpy\" enters the battlefield, exile target card from an opponent's graveyard.",
+        "toughness": "1",
+        "type": "Creature - Harpy",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/0/b0e237c5-45b4-49df-adb9-62b9f3b62986.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}{R}",
+        "multiverseId": null,
+        "name": "\"Screaming Firehawk\"",
+        "names": null,
+        "number": "148",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Phoenix"
+        ],
+        "superTypes": [],
+        "text": "Flying, haste\n{2}{R}: \"Screaming Firehawk\" gets +2/+0 until end of turn.\nEscape \u2014 {2}{R}{R}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\n\"Screaming Firehawk\" escapes with a +1/+1 counter on it.",
+        "toughness": "2",
+        "type": "Creature - Phoenix",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/0/7010ce26-16de-44cb-ba7e-3d904175b429.jpg"
     },
     {
         "artist": "Seb McKinnon",
@@ -208,6 +326,35 @@
         "type": "Legendary Enchantment Creature - Harpy",
         "types": " Enchantment Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/5/b/5b359607-d699-4ba9-a438-48f0dd8f1bf5.jpg"
+    },
+    {
+        "artist": "Victor Adame Minguez",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"The archon fell like a star from the sky, meeting the rising sun at the horizon's edge.\"\n\u2014*The Cosmogony*",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{W}{W}",
+        "multiverseId": null,
+        "name": "Archon of Falling Stars",
+        "names": null,
+        "number": "2",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Archon"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Archon of Falling Stars dies, you may return target enchantment card from your graveyard to the battlefield.",
+        "toughness": "4",
+        "type": "Creature - Archon",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/0/d0dd1e40-a514-42df-8cc1-364998c7700c.jpg"
     },
     {
         "artist": "Zezhou Chen",
@@ -673,6 +820,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/d/7dadfb33-7082-47b8-a498-f3bb963a8d78.jpg"
     },
     {
+        "artist": "Livia Prima",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Is there a greater promise than the glory of the sunrise?",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Dawn Evangel",
+        "names": null,
+        "number": "8",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "Whenever a creature dies, if an Aura you control was attached to it, return target creature card with converted mana cost 2 or less from your graveyard to your hand.",
+        "toughness": "3",
+        "type": "Enchantment Creature - Human Cleric",
+        "types": "Enchantment Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/7/f7e152ae-43ec-4b9d-a43f-786c2f6c7366.jpg"
+    },
+    {
         "artist": "Jason A. Engle",
         "cmc": 2.0,
         "colorIdentity": [
@@ -820,6 +997,33 @@
         "type": "Creature - Nightmare",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/5/1/514a6206-c2e5-4a0f-8a20-7efd6628dd0a.jpg"
+    },
+    {
+        "artist": "Victor Adame Minguez",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "The more you struggle against death, the tighter its grip becomes.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}",
+        "multiverseId": null,
+        "name": "Drag to the Underworld",
+        "names": null,
+        "number": "89",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "This spell costs {X} less to cast, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\nDestroy target creature.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/9/1/91852444-9361-4588-a44f-fb90ba1b30e5.jpg"
     },
     {
         "artist": "Adam Paquette",
@@ -1321,6 +1525,40 @@
         "type": "Creature - Zombie",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/7/c/7c1a7dd8-8034-4f59-a351-33666b26ff5a.jpg"
+    },
+    {
+        "artist": "Ryan Pancoast",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R",
+            "W"
+        ],
+        "colors": [
+            "R",
+            "W"
+        ],
+        "flavor": "\"Many have sought my weakness. All have failed.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}{R}{W}{W}",
+        "multiverseId": null,
+        "name": "Haktos the Unscarred",
+        "names": null,
+        "number": "218",
+        "power": "6",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Warrior"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Haktos the Unscarred attacks each combat if able.\nAs Haktos enters the battlefield, choose 2, 3, or 4 at random.\nHaktos has protection from each converted mana cost other than the chosen number.",
+        "toughness": "1",
+        "type": "Legendary Creature - Human Warrior",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/f/6fe5cbef-0f4e-4d05-9a94-4739e09d7a9c.jpg"
     },
     {
         "artist": "Lius Lasahido",
@@ -2245,7 +2483,7 @@
         "colors": [
             "G"
         ],
-        "flavor": "\"A piercing call, bright as the stars, rang out across the valley, calling the Pheres band to war, to blood and savagery.\"\n\u2014Luphea of Setessa, Histories",
+        "flavor": "\"A piercing call, bright as the stars, rang out across the valley, calling the Pheres band to war, to blood and savagery.\"\n\u2014Luphea of Setessa, *Histories*",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{G}",
@@ -2379,6 +2617,33 @@
         "artist": "Piotr Dura",
         "cmc": 2.0,
         "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"My time will come, when all of the world will be reforged in the fires of my invention.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Omen of the Forge",
+        "names": null,
+        "number": "145",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Flash\nWhen Omen of the Forge enters the battlefield, it deals 2 damage to any target.\n{2}{R}, Sacrifice Omen of the Forge: Scry 2.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://img.scryfall.com/cards/normal/front/7/0/70388773-709b-4cd8-a8b7-56093fd77a1d.jpg"
+    },
+    {
+        "artist": "Piotr Dura",
+        "cmc": 2.0,
+        "colorIdentity": [
             "U"
         ],
         "colors": [
@@ -2401,6 +2666,33 @@
         "type": "Enchantment",
         "types": "Enchantment",
         "url": "https://img.scryfall.com/cards/normal/front/a/5/a5f30ecd-d009-4d44-aef4-c926ed55a521.jpg"
+    },
+    {
+        "artist": "Piotr Dura",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"My time will come, when every soul will bask in my glory and obey my law.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Omen of the Sun",
+        "names": null,
+        "number": "30",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Flash\nWhen Omen of the Sun enters the battlefield, create two 1/1 white Human Soldier creature tokens and you gain 2 life.\n{2}{W}, Sacrifice Omen of the Sun: Scry 2.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://img.scryfall.com/cards/normal/front/8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff.jpg"
     },
     {
         "artist": "Caio Monteiro",
@@ -2878,6 +3170,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/3/8/384495c2-238b-4f8d-89c2-e05b64f9dde0.jpg"
     },
     {
+        "artist": "Christopher Burdett",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "It swims upon the winds and soars through the waves.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}",
+        "multiverseId": null,
+        "name": "Shimmerwing Chimera",
+        "names": null,
+        "number": "64",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Chimera"
+        ],
+        "superTypes": [],
+        "text": "Flying\nAt the beginning of your upkeep, return up to one other target enchantment you control to its owner's hand.",
+        "toughness": "2",
+        "type": "Enchantment Creature - Chimera",
+        "types": "Enchantment Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/3/f3b54bea-f2c5-4000-9cbd-04c03a1d2ea2.jpg"
+    },
+    {
         "artist": "Pindurski",
         "cmc": 7.0,
         "colorIdentity": [
@@ -2936,6 +3257,35 @@
         "type": "Enchantment - Aura",
         "types": "Enchantment ",
         "url": "https://img.scryfall.com/cards/normal/front/1/2/125b8be1-76b9-434e-a505-5099d950767c.jpg"
+    },
+    {
+        "artist": "Christopher Burdett",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "Starfish are its favorite prey.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Stinging Lionfish",
+        "names": null,
+        "number": "69",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Fish"
+        ],
+        "superTypes": [],
+        "text": "Whenever you cast your first spell during each opponent's turn, you may tap or untap target nonland permanent.",
+        "toughness": "1",
+        "type": "Enchantment Creature - Fish",
+        "types": "Enchantment Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/1/0162a0b8-a2d1-4664-a445-331aee6d5175.jpg"
     },
     {
         "artist": "Aleksi Briclot",
@@ -3485,6 +3835,68 @@
         "url": "https://img.scryfall.com/cards/normal/front/3/3/332dc6c3-7802-4bde-aa4e-0feab70c216f.jpg"
     },
     {
+        "artist": "Jason A. Engle",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}",
+        "multiverseId": null,
+        "name": "Thassa, Deep-Dwelling",
+        "names": null,
+        "number": "261",
+        "power": "6",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "God"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Indestructible\nAs long as your devotion to blue is less than five, Thassa isn't a creature.\nAt the beginning of your end step, exile up to one other target creature you control, then return that card to the battlefield under your control.\n{3}{U}: Tap another target creature.",
+        "toughness": "5",
+        "type": "Legendary Enchantment Creature - God",
+        "types": " Enchantment Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/7/27b52628-de05-4ec1-9978-e998cf17bb26.jpg"
+    },
+    {
+        "artist": "Zack Stella",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}",
+        "multiverseId": null,
+        "name": "Thassa, Deep-Dwelling",
+        "names": null,
+        "number": "71",
+        "power": "6",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "God"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Indestructible\nAs long as your devotion to blue is less than five, Thassa isn't a creature.\nAt the beginning of your end step, exile up to one other target creature you control, then return that card to the battlefield under your control.\n{3}{U}: Tap another target creature.",
+        "toughness": "5",
+        "type": "Legendary Enchantment Creature - God",
+        "types": " Enchantment Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/8/c83ed3e0-82d0-4410-a6ca-b0f923eadf83.jpg"
+    },
+    {
         "artist": "Steven Belledin",
         "cmc": 4.0,
         "colorIdentity": [
@@ -3570,6 +3982,35 @@
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
         "url": "https://img.scryfall.com/cards/normal/front/d/8/d824f8bd-58f8-4796-80b5-5cd3033d35e8.jpg"
+    },
+    {
+        "artist": "Chris Seaman",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "saga",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "The Triumph of Anax",
+        "names": null,
+        "number": "160",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Saga"
+        ],
+        "superTypes": [],
+        "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI, II, III \u2014 Until end of turn, target creature gains trample and gets +X/+0, where X is the number of lore counters on The Triumph of Anax.\nIV \u2014 Target creature you control fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)",
+        "toughness": null,
+        "type": "Enchantment - Saga",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/9/49b5b348-1415-4062-a2a7-017694424c05.jpg"
     },
     {
         "artist": "Brian Valeza",
@@ -3712,6 +4153,68 @@
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
         "url": "https://img.scryfall.com/cards/normal/front/6/8/68c0d087-540a-4249-9265-f13cc8e776ea.jpg"
+    },
+    {
+        "artist": "Chase Stone",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{B}",
+        "multiverseId": null,
+        "name": "Tymaret, Chosen from Death",
+        "names": null,
+        "number": "119",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Demigod"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Tymaret's toughness is equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\n{1}{B}: Exile up to two target cards from graveyards. You gain up to 1 life for each creature card exiled this way.",
+        "toughness": "*",
+        "type": "Legendary Enchantment Creature - Demigod",
+        "types": " Enchantment Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/4/14b28eae-e8ed-4b99-b6ec-86d0716ec473.jpg"
+    },
+    {
+        "artist": "Jason A. Engle",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{B}",
+        "multiverseId": null,
+        "name": "Tymaret, Chosen from Death",
+        "names": null,
+        "number": "263",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Demigod"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Tymaret's toughness is equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\n{1}{B}: Exile up to two target cards from graveyards. You gain up to 1 life for each creature card exiled this way.",
+        "toughness": "*",
+        "type": "Legendary Enchantment Creature - Demigod",
+        "types": " Enchantment Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/b/1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0.jpg"
     },
     {
         "artist": "Lie Setiawan",
