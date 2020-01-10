@@ -1,96 +1,125 @@
 {
     "THB": [
         {
-            "artist": "Jason Rainville",
+            "artist": "Chase Stone",
             "cmc": 4.0,
             "colorIdentity": [
-                "R"
-            ],
-            "colors": [
-                "R"
-            ],
-            "flavor": null,
-            "layout": "",
-            "loyalty": null,
-            "mana_cost": "{3}{R}",
-            "multiverseId": null,
-            "name": "\"Big Moo Maze Boss\"",
-            "names": null,
-            "number": "153",
-            "power": "3",
-            "rarity": "Uncommon",
-            "subTypes": [
-                "Minotaur",
-                "Warrior"
-            ],
-            "superTypes": [],
-            "text": "{1}: \"Big Moo Maze Boss\" gets +1/-1 until the end of turn.\nWhenever another creature becomes the target of a land you control called Labyrinth of Skophos, you may have \"Big Moo Maze Boss\" fight that creature.",
-            "toughness": "4",
-            "type": "Creature - Minotaur Warrior",
-            "types": "Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/0/f/0f470a7b-63ef-4efa-855e-f8a3ce1ab534.jpg"
-        },
-        {
-            "artist": "Chris Seaman",
-            "cmc": 4.0,
-            "colorIdentity": [
-                "W"
-            ],
-            "colors": [
-                "W"
-            ],
-            "flavor": null,
-            "layout": "",
-            "loyalty": null,
-            "mana_cost": "{3}{W}",
-            "multiverseId": null,
-            "name": "\"Centaur Student Advisor\"",
-            "names": null,
-            "number": "27",
-            "power": "3",
-            "rarity": "Uncommon",
-            "subTypes": [
-                "Centaur",
-                "Advisor"
-            ],
-            "superTypes": [],
-            "text": "When \"Centaur Student Advisor\" enters the battlefield, you may put an enchantment card from your graveyard on top of your library. If you do, you gain life equal to that card's converted mana cost.",
-            "toughness": "4",
-            "type": "Creature - Centaur Advisor",
-            "types": "Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/c/3/c3a87498-2c2c-411a-aa71-d594b2c6cb26.jpg"
-        },
-        {
-            "artist": "Livia Prima",
-            "cmc": 2.0,
-            "colorIdentity": [
+                "B",
                 "G"
             ],
             "colors": [
+                "B",
                 "G"
             ],
             "flavor": null,
             "layout": "",
             "loyalty": null,
-            "mana_cost": "{1}{G}",
+            "mana_cost": "{2}{B}{G}",
             "multiverseId": null,
-            "name": "\"Encarta\u00ae Enchantress\"",
+            "name": "\"Acolyte of Affliction\"",
             "names": null,
-            "number": "168",
+            "number": "206",
             "power": "2",
             "rarity": "Uncommon",
             "subTypes": [
-                "Human"
+                "Human",
+                "Cleric"
             ],
             "superTypes": [],
-            "text": "Creature and enchantment spells you control can't be countered.\n{3}{G}: Target land you control becomes an X/X Elemental creature with haste and trample until end of turn, where X is the number of enchantments you control. It's still a land.",
+            "text": "When \"Acolyte of Affliction\" enters the battlefield, put the top two cards of your library into your graveyard. Then choose a permanent card in your graveyard and put that card into your hand.",
             "toughness": "3",
-            "type": "Enchantment Creature - Human",
-            "types": "Enchantment Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/b/a/ba264166-948b-47d4-b302-64476acc1a55.jpg"
+            "type": "Creature - Human Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/a/1/a14afed6-ca42-442d-ba86-621179e6957c.jpg"
         },
         {
-            "artist": "Bayard Wu",
+            "artist": "Tyler Walpole",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}",
+            "multiverseId": null,
+            "name": "\"Briar Tuck\"",
+            "names": null,
+            "number": "180",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Put target enchantment on the bottom of its owner's library.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/6/7/6797195a-508f-45b1-964d-da842dc46ca8.jpg"
+        },
+        {
+            "artist": "Josh Hass",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "\"Hero of the Games\"",
+            "names": null,
+            "number": "137",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "Whenever you cast a spell that targets \"Hero of the Games\", creatures you control get +1/+0 until end of turn.",
+            "toughness": "2",
+            "type": "Creature - Human Soldier",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/d/cdb7c7a6-4e9b-4300-a776-b7e7916950c8.jpg"
+        },
+        {
+            "artist": "Tyler Jacobson",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}{B}",
+            "multiverseId": null,
+            "name": "\"Low-Five Demon\"",
+            "names": null,
+            "number": "108",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Demon"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that creature, except it has base power and toughness 1/1 and it's a Nightmare in addition to its other types.",
+            "toughness": "4",
+            "type": "Enchantment Creature - Demon",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/a/4a46eec7-bb79-441c-959f-eea599e5c341.jpg"
+        },
+        {
+            "artist": "Paul Scott Canavan",
             "cmc": 3.0,
             "colorIdentity": [
                 "G"
@@ -103,82 +132,55 @@
             "loyalty": null,
             "mana_cost": "{2}{G}",
             "multiverseId": null,
-            "name": "\"Hydra's Halitosis\"",
+            "name": "\"Ol' Skullhead Jones\"",
             "names": null,
-            "number": "172",
-            "power": null,
-            "rarity": "Uncommon",
+            "number": "177",
+            "power": "4",
+            "rarity": "Common",
             "subTypes": [
-                "Aura"
+                "Chimera"
             ],
             "superTypes": [],
-            "text": "Enchant creature\nWhen \"Hydra's Halitosis\" enters the battlefield, put a +1/+1 counter on enchanted creature.\nAt the beginning of your upkeep, double the number of +1/+1 counters on enchanted creature.",
-            "toughness": null,
-            "type": "Enchantment - Aura",
-            "types": "Enchantment ",
-            "url": "https://img.scryfall.com/cards/normal/front/5/1/5112ee2a-a6f3-4280-a915-000a97a9cdef.jpg"
-        },
-        {
-            "artist": "Magali Villeneuve",
-            "cmc": 1.0,
-            "colorIdentity": [
-                "W"
-            ],
-            "colors": [
-                "W"
-            ],
-            "flavor": null,
-            "layout": "",
-            "loyalty": null,
-            "mana_cost": "{W}",
-            "multiverseId": null,
-            "name": "\"Iowadolon\"",
-            "names": null,
-            "number": "1",
-            "power": "1",
-            "rarity": "Uncommon",
-            "subTypes": [
-                "Nymph"
-            ],
-            "superTypes": [],
-            "text": "Lifelink\n{1}, Sacrifice \"Iowadolon\": Target creature or enchantment you control gain protection from the color of your choice until end of turn.",
+            "text": "Escape-{4}{G}, exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\n\"Ol' Skullhead Jones\" escapes with a +1/+1 counter on it.",
             "toughness": "1",
-            "type": "Enchantment Creature - Nymph",
-            "types": "Enchantment Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/3/6/36c8c075-9597-412e-9fc4-9d73b4405d12.jpg"
+            "type": "Creature - Chimera",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/a/3afe6283-3642-4883-ac6e-83ae3280af9c.jpg"
         },
         {
-            "artist": "Lius Lasahido",
-            "cmc": 5.0,
+            "artist": "Steve Prescott",
+            "cmc": 2.0,
             "colorIdentity": [
-                "B"
+                "B",
+                "R"
             ],
             "colors": [
-                "B"
+                "B",
+                "R"
             ],
             "flavor": null,
             "layout": "",
             "loyalty": null,
-            "mana_cost": "{4}{B}",
+            "mana_cost": "{B}{R}",
             "multiverseId": null,
-            "name": "\"Lamia? I Hardly Know Ya\"",
+            "name": "\"PHENOMENAL COSMIC POWER, itty-bitty head\"",
             "names": null,
-            "number": "98",
-            "power": null,
-            "rarity": "Rare",
+            "number": "227",
+            "power": "2",
+            "rarity": "Uncommon",
             "subTypes": [
-                "Snake",
-                "Lamia"
+                "Minotaur",
+                "Shaman"
             ],
             "superTypes": [],
-            "text": "Lifelink\nWhen \"Lamia? I Hardly Know Ya\" enters the battlefield, search your library for a card and put it into your graveyard.\nSpells you cast from your graveyard cost {1} less to cast.",
-            "toughness": null,
-            "type": "Enchantment Creature - Snake Lamia",
-            "types": "Enchantment Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/4/0/408a2073-d068-44bc-b596-5a3a3a446ee1.jpg"
+            "text": "Whenever you sacrifice a permanent, \"PHENOMANL COSMIC POWER, itty-bitty head\" gets +2/+0 until end of turn.\n{2}, Sacrifice a creature or enchantment: \"PHENOMANL COSMIC POWER, itty-bitty head\" gets first strike until end of turn.",
+            "toughness": "2",
+            "type": "Creature - Minotaur Shaman",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/a/2/a2b441c0-261e-4094-b694-5e11ea3c14ab.jpg"
         },
         {
-            "artist": "John Stanko",
+            "artist": "Wisnu Tan",
             "cmc": 2.0,
             "colorIdentity": [
                 "B"
@@ -186,26 +188,23 @@
             "colors": [
                 "B"
             ],
-            "flavor": null,
+            "flavor": "The sharp memory of Daxos's death stabbed into Elspeth's soul.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{B}",
             "multiverseId": null,
-            "name": "\"Vuvuzela Zombie\"",
+            "name": "Agonizing Remorse",
             "names": null,
-            "number": "88",
-            "power": "2",
-            "rarity": "Common",
-            "subTypes": [
-                "Zombie",
-                "Satyr"
-            ],
+            "number": "83",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
             "superTypes": [],
-            "text": "When \"Vuvuzela Zombie\" dies, create a 0/1 white Goat creature token.",
-            "toughness": "1",
-            "type": "Creature - Zombie Satyr",
-            "types": "Creature ",
-            "url": "https://img.scryfall.com/cards/normal/front/a/8/a8cce294-f6ee-4b18-8b65-7d01d0317b00.jpg"
+            "text": "Target opponent reveals their hand. You choose a nonland card from it or a card from their graveyard. Exile that card. You lose 1 life.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/0/9/09270c65-546e-4737-a6b7-402cbb87917a.jpg"
         },
         {
             "artist": "Seb McKinnon",
@@ -264,6 +263,35 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://img.scryfall.com/cards/normal/front/c/5/c543e785-2c6b-4347-a9c3-25940bbadcff.jpg"
+        },
+        {
+            "artist": "Magali Villeneuve",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Dawn-kissed, he nourishes the golden grain.\" Psemilla, Meletian poet",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}",
+            "multiverseId": null,
+            "name": "Alseid of Life's Bounty",
+            "names": null,
+            "number": "1",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Nymph"
+            ],
+            "superTypes": [],
+            "text": "Lifelink\n{1}, Sacrifice Alseid of Life's Bounty: Target creature or enchantment you control gain protection from the color of your choice until end of turn.",
+            "toughness": "1",
+            "type": "Enchantment Creature - Nymph",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/6/36c8c075-9597-412e-9fc4-9d73b4405d12.jpg"
         },
         {
             "artist": "Jonas De Ro",
@@ -488,6 +516,35 @@
             "multiverseId": null,
             "name": "Archon of Sun's Grace",
             "names": null,
+            "number": "298",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Archon"
+            ],
+            "superTypes": [],
+            "text": "Flying, lifelink\nPegasus creatures you control have lifelink.\nConstellation\u2014Whenever an enchantment enters the battlefield under your control, create a 2/2 white Pegasus creature token with flying.",
+            "toughness": "4",
+            "type": "Creature - Archon",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/1/e146a721-8655-496c-97c0-d6691fa2043e.jpg"
+        },
+        {
+            "artist": "Matt Stewart",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{W}",
+            "multiverseId": null,
+            "name": "Archon of Sun's Grace",
+            "names": null,
             "number": "3",
             "power": "3",
             "rarity": "Rare",
@@ -584,6 +641,38 @@
             "type": "Enchantment",
             "types": "Enchantment",
             "url": "https://img.scryfall.com/cards/normal/front/d/5/d568c679-8421-4184-a73c-b18c4164fea5.jpg"
+        },
+        {
+            "artist": "Johannes Voss",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [
+                "B",
+                "U"
+            ],
+            "flavor": "\"Every dream is a doorway.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}{B}",
+            "multiverseId": null,
+            "name": "Ashiok's Forerunner",
+            "names": null,
+            "number": "277",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Flash\nWhen Ashiok's Forerunner enters the battlefield, you may search your library and/or graveyard for a card named Ashiok, Sculptor of Fears, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+            "toughness": "3",
+            "type": "Creature - Human Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/7/8/781bfbae-acd9-4583-88d2-d31978eef565.jpg"
         },
         {
             "artist": "Raymond Swanland",
@@ -870,6 +959,37 @@
             "type": "Creature - Giant",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/6/8/6811a9dc-e521-4c9e-accb-1efb8346c1db.jpg"
+        },
+        {
+            "artist": "Alayna Danner",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [
+                "G",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{W}",
+            "multiverseId": null,
+            "name": "Bronzehide Lion",
+            "names": null,
+            "number": "210",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Cat"
+            ],
+            "superTypes": [],
+            "text": "{G}{W}: Bronzehide Lion gains indestructible until end of turn.\nWhen Bronzehide Lion dies, return it to the battlefield. It's an Aura enchantment with enchant creature you control and \"{G}{W}: Enchanted creature gains indestructible until end of turn,\" and it loses all other abilities.",
+            "toughness": "3",
+            "type": "Creature - Cat",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/f/8fdafadb-fa04-4282-b576-b85e79c242c9.jpg"
         },
         {
             "artist": "Magali Villeneuve",
@@ -1331,6 +1451,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/5/7/57564f6f-7c99-4325-8a0e-22342e73767b.jpg"
         },
         {
+            "artist": "Livia Prima",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Destiny Spinner",
+            "names": null,
+            "number": "168",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human"
+            ],
+            "superTypes": [],
+            "text": "Creature and enchantment spells you control can't be countered.\n{3}{G}: Target land you control becomes an X/X Elemental creature with trample and haste until end of turn, where X is the number of enchantments you control. It's still a land.",
+            "toughness": "3",
+            "type": "Enchantment Creature - Human",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/b/a/ba264166-948b-47d4-b302-64476acc1a55.jpg"
+        },
+        {
             "artist": "Daarken",
             "cmc": 2.0,
             "colorIdentity": [
@@ -1362,6 +1511,36 @@
             "url": "https://img.scryfall.com/cards/normal/front/5/1/514a6206-c2e5-4a0f-8a20-7efd6628dd0a.jpg"
         },
         {
+            "artist": "John Stanko",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "The death of the party.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Discordant Piper",
+            "names": null,
+            "number": "88",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Zombie",
+                "Satyr"
+            ],
+            "superTypes": [],
+            "text": "When Discordant Piper dies, create a 0/1 white Goat creature token.",
+            "toughness": "1",
+            "type": "Creature - Zombie Satyr",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/a/8/a8cce294-f6ee-4b18-8b65-7d01d0317b00.jpg"
+        },
+        {
             "artist": "Victor Adame Minguez",
             "cmc": 4.0,
             "colorIdentity": [
@@ -1387,6 +1566,37 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/9/1/91852444-9361-4588-a44f-fb90ba1b30e5.jpg"
+        },
+        {
+            "artist": "Jesper Ejsing",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [
+                "U",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{W}{U}{U}",
+            "multiverseId": null,
+            "name": "Dream Trawler",
+            "names": null,
+            "number": "214",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Sphinx"
+            ],
+            "superTypes": [],
+            "text": "Flying, lifelink\nWhenever you draw a card, Dream Trawler gets +1/+0 until end of turn.\nWhenever Dream Trawler attacks, draw a card.\nDiscard a card: Dream Trawler gains hexproof until end of turn. Tap it.",
+            "toughness": "5",
+            "type": "Creature - Sphinx",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/7/d/7d3e97d8-92c7-43c4-bdaf-7b0a6ce7cb5f.jpg"
         },
         {
             "artist": "Steve Prescott",
@@ -1432,7 +1642,7 @@
             "loyalty": null,
             "mana_cost": "{2}{G}",
             "multiverseId": null,
-            "name": "Dryad of Ilysian Grove",
+            "name": "Dryad of the Ilysian Grove",
             "names": null,
             "number": "169",
             "power": "2",
@@ -1446,6 +1656,62 @@
             "type": "Enchantment Creature - Nymph",
             "types": "Enchantment Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/6/d/6d964876-194b-49f1-8e74-cfe9269f2c62.jpg"
+        },
+        {
+            "artist": "Scott Murphy",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Dryad of the Ilysian Grove",
+            "names": null,
+            "number": "326",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Nymph"
+            ],
+            "superTypes": [],
+            "text": "You may play an additional land on each of your turns.\nLands you control are every basic land type in addition to their other types.",
+            "toughness": "4",
+            "type": "Enchantment Creature - Nymph",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/6/36adefc7-44a8-40d0-8bdf-ad12d010b0bd.jpg"
+        },
+        {
+            "artist": "Vincent Proce",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"Kroxa devours what he may\u2014not for sustenance or pleasure, but because it is his nature. He is unending hunger given form.\"\n\u2014Klothys, god of destiny",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Eat to Extinction",
+            "names": null,
+            "number": "312",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Exile target creature or planeswalker. Look at the top card of your library. You may put that card into your graveyard.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/2/4/24c06877-a78b-470d-82ab-9d93d5c5e189.jpg"
         },
         {
             "artist": "Vincent Proce",
@@ -1475,6 +1741,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/a/0/a0fae55a-6edd-42ea-b909-ccc39a64a0ed.jpg"
         },
         {
+            "artist": "Bram Sels",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Agios was felled by a minotaur's blade, but I swear I have seen him since\u2014in the midst of battle, wherever help is needed most.\"\n\u2014Phrokos, soldier of Akros",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{W}",
+            "multiverseId": null,
+            "name": "Eidolon of Inspiration",
+            "names": null,
+            "number": "271",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Spirit"
+            ],
+            "superTypes": [],
+            "text": "At the beginning of combat on your turn, target creature you control gets +2/+0 until end of turn.",
+            "toughness": "2",
+            "type": "Enchantment Creature - Spirit",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/5/3/53343a0c-d97c-4d6f-b696-5343a962e3dd.jpg"
+        },
+        {
             "artist": "Jason Rainville",
             "cmc": 2.0,
             "colorIdentity": [
@@ -1497,11 +1792,40 @@
                 "Spirit"
             ],
             "superTypes": [],
-            "text": "First strike\nLoyalty abilities of planeswalkers your opponents control costs {1} more to activate.",
+            "text": "First strike\nLoyalty abilities of planeswalkers your opponents control cost {1} more to activate.",
             "toughness": "1",
             "type": "Enchantment Creature - Spirit",
             "types": "Enchantment Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/2/f/2f48f802-df9d-45b2-afea-98699bcdf0d6.jpg"
+        },
+        {
+            "artist": "Jason Rainville",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}",
+            "multiverseId": null,
+            "name": "Eidolon of Obstruction",
+            "names": null,
+            "number": "299",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Spirit"
+            ],
+            "superTypes": [],
+            "text": "First strike\nLoyalty abilities of planeswalkers your opponents control cost {1} more to activate.",
+            "toughness": "1",
+            "type": "Enchantment Creature - Spirit",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/2/02694fb6-7695-4296-b5d6-cfe60829f1e7.jpg"
         },
         {
             "artist": "Adam Paquette",
@@ -1531,6 +1855,94 @@
             "type": "Enchantment Creature - Spirit",
             "types": "Enchantment Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/d/2/d2897635-b387-485d-932f-5655244a381f.jpg"
+        },
+        {
+            "artist": "Ryan Yee",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "saga",
+            "loyalty": null,
+            "mana_cost": "{3}{W}{W}",
+            "multiverseId": null,
+            "name": "Elspeth Conquers Death",
+            "names": null,
+            "number": "13",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "Saga"
+            ],
+            "superTypes": [],
+            "text": "I - Exile target permanent an opponent controls with converted mana cost 3 or greater.\nII - Noncreature spells your opponents cast cost {2} more to cast until your next turn.\nIII - Return target creature or planeswalker card from your graveyard to the battlefield. Put a +1/+1 counter or a loyalty counter on it.",
+            "toughness": null,
+            "type": "Enchantment - Saga",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/a/ea20208b-1939-4c69-8cfd-c0a42f9dc427.jpg"
+        },
+        {
+            "artist": "Caroline Gariba",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"For her, I would gladly die again.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{W}",
+            "multiverseId": null,
+            "name": "Elspeth's Devotee",
+            "names": null,
+            "number": "272",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "When Elspeth's Devotee enters the battlefield, you may search your library and/or graveyard for a card named Elspeth, Undaunted Hero, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+            "toughness": "3",
+            "type": "Creature - Human Soldier",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/f/0f82064c-b335-454c-9be6-9fbcb21aa8e5.jpg"
+        },
+        {
+            "artist": "Jason Rainville",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "saga",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Elspeth's Nightmare",
+            "names": null,
+            "number": "91",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Saga"
+            ],
+            "superTypes": [],
+            "text": "I - Destroy target creature an opponent controls with power 2 or less.\nII - Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.\nIII - Exile target opponent's graveyard.",
+            "toughness": null,
+            "type": "Enchantment - Saga",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/7/37ccd974-d2bc-4fcf-94a7-0a868a04cb98.jpg"
         },
         {
             "artist": "Livia Prima",
@@ -1653,6 +2065,35 @@
             "type": "Enchantment",
             "types": "Enchantment",
             "url": "https://img.scryfall.com/cards/normal/front/d/d/dd116c0b-0404-42ba-978f-7044b1a03d90.jpg"
+        },
+        {
+            "artist": "Pindurski",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G",
+                "U"
+            ],
+            "colors": [
+                "G",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}{U}",
+            "multiverseId": null,
+            "name": "Enigmatic Incarnation",
+            "names": null,
+            "number": "337",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "At the beginning of your end step, you may sacrifice another enchantment. If you do, search your library for a creature card with converted mana cost equal to 1 plus the sacrificed enchantment's converted mana cost, put that card onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/1/0/1059102b-d094-47ea-b39c-8627a50f5bbf.jpg"
         },
         {
             "artist": "Mathias Kollros",
@@ -1859,6 +2300,36 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/5/6/56455067-92c0-45b5-ac2e-525c35b41215.jpg"
+        },
+        {
+            "artist": "John Severin Brassell",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"The promise of victory fills my heart. There is no room for fear.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Favored of Iroas",
+            "names": null,
+            "number": "15",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "Constellation - Whenever an enchantment enters the battlefield under your control, Favored of Iroas gains double strike until end of turn.",
+            "toughness": "2",
+            "type": "Creature - Human Soldier",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/f/0/f09e7aff-d873-4420-b0d5-1c63d686dd73.jpg"
         },
         {
             "artist": "Jung Park",
@@ -2147,6 +2618,66 @@
             "url": "https://img.scryfall.com/cards/normal/front/a/2/a238aa9c-661e-449a-8f05-70b7954e544f.jpg"
         },
         {
+            "artist": "Lius Lasahido",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}",
+            "multiverseId": null,
+            "name": "Gravebreaker Lamia",
+            "names": null,
+            "number": "314",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "Snake",
+                "Lamia"
+            ],
+            "superTypes": [],
+            "text": "Lifelink\nWhen Gravebreaker Lamia enters the battlefield, search your library for a card, put it into your graveyard, then shuffle your library.\nSpells you cast from your graveyard cost {1} less to cast.",
+            "toughness": null,
+            "type": "Enchantment Creature - Snake Lamia",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/a/1/a1f75fdb-1559-4f4e-b14b-0dfb7305f55b.jpg"
+        },
+        {
+            "artist": "Lius Lasahido",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}",
+            "multiverseId": null,
+            "name": "Gravebreaker Lamia",
+            "names": null,
+            "number": "98",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "Snake",
+                "Lamia"
+            ],
+            "superTypes": [],
+            "text": "Lifelink\nWhen Gravebreaker Lamia enters the battlefield, search your library for a card, put it into your graveyard, then shuffle your library.\nSpells you cast from your graveyard cost {1} less to cast.",
+            "toughness": null,
+            "type": "Enchantment Creature - Snake Lamia",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/0/408a2073-d068-44bc-b596-5a3a3a446ee1.jpg"
+        },
+        {
             "artist": "Scott Murphy",
             "cmc": 5.0,
             "colorIdentity": [
@@ -2242,6 +2773,36 @@
             "type": "Legendary Creature - Human Warrior",
             "types": " Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/4/2/426919af-93d1-4825-ac38-98c0d6b5f62e.jpg"
+        },
+        {
+            "artist": "Micah Epstein",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Heliod's Pilgrim",
+            "names": null,
+            "number": "20",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "When Heliod's Pilgrim enters the battlefield, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle your library.",
+            "toughness": "2",
+            "type": "Creature - Human Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/a/cafce2f5-f4f4-465b-96dc-bcdd29d4e4bb.jpg"
         },
         {
             "artist": "Lius Lasahido",
@@ -2364,6 +2925,65 @@
             "type": "Creature - Human Soldier",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/7/d/7da95097-dbe7-416a-8571-6ab6d88a531a.jpg"
+        },
+        {
+            "artist": "Zoltan Boros",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "Brashness is close enough to bravery.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{R}",
+            "multiverseId": null,
+            "name": "Heroes of the Revel",
+            "names": null,
+            "number": "138",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Satyr",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "When Heroes of the Revel enters the battlefield, create a 1/1 red Satyr creature token with \"This creature can't block.\"\nWhenever you cast a spell that targets Heroes of the Revel, creatures you control get +1/+0 until end of turn.",
+            "toughness": null,
+            "type": "Creature - Satyr Soldier",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/f/dfdfb481-3446-42f4-a1c3-a88b69f2189a.jpg"
+        },
+        {
+            "artist": "Bayard Wu",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Hydra's Growth",
+            "names": null,
+            "number": "172",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Aura"
+            ],
+            "superTypes": [],
+            "text": "Enchant creature\nWhen Hydra's Growth enters the battlefield, put a +1/+1 counter on enchanted creature.\nAt the beginning of your upkeep, double the number of +1/+1 counters on enchanted creature.",
+            "toughness": null,
+            "type": "Enchantment - Aura",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/5/1/5112ee2a-a6f3-4280-a915-000a97a9cdef.jpg"
         },
         {
             "artist": "Campbell White",
@@ -2806,6 +3426,40 @@
             "url": "https://img.scryfall.com/cards/normal/front/c/e/cee0459b-9aac-4d2f-abe4-4d5fedde7eb8.jpg"
         },
         {
+            "artist": "Vincent Proce",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
+            "colors": [
+                "B",
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}{R}",
+            "multiverseId": null,
+            "name": "Kroxa, Titan of Death's Hunger",
+            "names": null,
+            "number": "340",
+            "power": "6",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Elder",
+                "Giant"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "When Kroxa enters the battlefield, sacrifice it unless it escaped.\nWhenever Kroxa enters the battlefield or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape\u2014{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+            "toughness": "6",
+            "type": "Legendary Creature - Elder Giant",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/5/050ff430-2ad8-46d0-bfdc-cc7323b87101.jpg"
+        },
+        {
             "artist": "Zezhou Chen",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2870,6 +3524,36 @@
             "type": "Legendary Creature - Hound",
             "types": " Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/a/6/a6ee5698-1a40-434c-937b-9462825a752b.jpg"
+        },
+        {
+            "artist": "Chris Seaman",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Our stories are full of ancient wisdom; they tell us who we are.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}",
+            "multiverseId": null,
+            "name": "Lagonna-Band Storyteller",
+            "names": null,
+            "number": "27",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Centaur",
+                "Advisor"
+            ],
+            "superTypes": [],
+            "text": "When Lagonna-Band Storyteller enters the battlefield, you may put target enchantment card from your graveyard on top of your library. If you do, you gain life equal to its converted mana cost.",
+            "toughness": "4",
+            "type": "Creature - Centaur Advisor",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/3/c3a87498-2c2c-411a-aa71-d594b2c6cb26.jpg"
         },
         {
             "artist": "Aaron Miller",
@@ -2985,6 +3669,35 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/a/a/aadc1809-d6bb-455c-b6ce-dd11521808b6.jpg"
+        },
+        {
+            "artist": "Deruchenko Alexander",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "Harpies are among the most detested creatures in all of Theros... and they thoroughly deserve it.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Mindwrack Harpy",
+            "names": null,
+            "number": "276",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Harpy"
+            ],
+            "superTypes": [],
+            "text": "Flying\nAt the beginning of combat on your turn, each player puts the top three cards of their library into their graveyard.",
+            "toughness": "2",
+            "type": "Enchantment Creature - Harpy",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/c/6c5ce79a-fcbd-46ab-8911-480f967ca57f.jpg"
         },
         {
             "artist": "Seb McKinnon",
@@ -3474,6 +4187,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/f/3/f3e73185-afdf-4fae-82c3-b5ea355c1572.jpg"
         },
         {
+            "artist": "Filip Burburan",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "Ancient yet ever-young, it is wise and subtle\u2014and cruel and reckless as the spring itself.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{G}{G}{G}",
+            "multiverseId": null,
+            "name": "Nyxbloom Ancient",
+            "names": null,
+            "number": "190",
+            "power": "5",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [],
+            "text": "Trample\nIf you tap a permanent for mana, it produces three times as much of that mana instead.",
+            "toughness": "5",
+            "type": "Enchantment Creature - Elemental",
+            "types": "Enchantment Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/a/3/a391da36-0b40-46ea-b771-50d2b920207e.jpg"
+        },
+        {
             "artist": "Mathias Kollros",
             "cmc": 6.0,
             "colorIdentity": [
@@ -3531,6 +4273,33 @@
             "type": "Enchantment Creature - Centaur Scout",
             "types": "Enchantment Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/0/f/0fd32240-c003-4e18-adf1-e2e992c702b1.jpg"
+        },
+        {
+            "artist": "Piotr Dura",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"My time will come, when life's frantic striving will fade into the boundless quiet of death.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Omen of the Dead",
+            "names": null,
+            "number": "110",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Flash\nWhen Omen of the Dead enters the battlefield, return target creature card from your graveyard to your hand.\n{2}{B}, Sacrifice Omen of the Dead: Scry 2.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/8/0/8023fc44-fb8e-420d-a68c-b45912c4e5bd.jpg"
         },
         {
             "artist": "Piotr Dura",
@@ -4441,6 +5210,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/3/8/384495c2-238b-4f8d-89c2-e05b64f9dde0.jpg"
         },
         {
+            "artist": "Yeong-Hao Han",
+            "cmc": 1.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": "A weapon of darkness for a warrior of light.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}",
+            "multiverseId": null,
+            "name": "Shadowspear",
+            "names": null,
+            "number": "236",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "Equipment"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Equipped creature gets +1/+1 and has trample and lifelink.\n{1}: Permanents your opponents control lose hexproof and indestructible until end of turn.\nEquip {2}",
+            "toughness": null,
+            "type": "Legendary Artifact - Equipment",
+            "types": " Artifact ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg"
+        },
+        {
             "artist": "Christopher Burdett",
             "cmc": 4.0,
             "colorIdentity": [
@@ -4531,6 +5327,36 @@
             "type": "Legendary Creature - Human Soldier",
             "types": " Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/2/b/2b1d890f-7ef8-47b9-9ec8-f3884a1d09db.jpg"
+        },
+        {
+            "artist": "Jason Rainville",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{R}",
+            "multiverseId": null,
+            "name": "Skophos Maze-Warden",
+            "names": null,
+            "number": "153",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Minotaur",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "{1}: Skophos Maze-Warden gets +1/-1 until the end of turn.\nWhenever another creature becomes the target of an ability of a land you control named Labyrinth of Skophos, you may have Skophos Maze-Warden fight that creature. (Each deals damage equal to its power to the other.)",
+            "toughness": "4",
+            "type": "Creature - Minotaur Warrior",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/f/0f470a7b-63ef-4efa-855e-f8a3ce1ab534.jpg"
         },
         {
             "artist": "Cliff Childs",
@@ -4759,6 +5585,36 @@
             "url": "https://img.scryfall.com/cards/normal/front/6/f/6f774b26-7b8b-4d06-bec8-764429445e93.jpg"
         },
         {
+            "artist": "Tomasz Jedruszek",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Even in her absence, the light Elspeth kindled in our hearts never faltered.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}",
+            "multiverseId": null,
+            "name": "Sunlit Hoplite",
+            "names": null,
+            "number": "273",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "As long as it's your turn, Sunlit Hoplite has first strike.\nSunlit Hoplite gets +1/+0 as long as you control an Elspeth planeswalker.",
+            "toughness": "1",
+            "type": "Creature - Human Soldier",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/2/f/2f89cf0f-f682-44f8-879c-ed1e22f849b0.jpg"
+        },
+        {
             "artist": "Sam Burley",
             "cmc": 0.0,
             "colorIdentity": [
@@ -4871,6 +5727,68 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://img.scryfall.com/cards/normal/front/5/1/51ac77d4-f918-4bbc-b023-8117a8c401ee.jpg"
+        },
+        {
+            "artist": "Lucas Graciano",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "Ashiok's minions plumb the depths of the ocean and the psyche.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Swimmer in Nightmares",
+            "names": null,
+            "number": "275",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Nightmare",
+                "Merfolk"
+            ],
+            "superTypes": [],
+            "text": "Swimmer in Nightmares gets +3/+0 as long as there are ten or more cards in a single graveyard.\nSwimmer in Nightmares can't be blocked as long as you control an Ashiok planeswalker.",
+            "toughness": "4",
+            "type": "Creature - Nightmare Merfolk",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/b/ebc6b5ee-e764-444e-8b27-26e00f4b2074.jpg"
+        },
+        {
+            "artist": "Eric Deschamps",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{W}",
+            "multiverseId": null,
+            "name": "Taranika, Akroan Veteran",
+            "names": null,
+            "number": "303",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Vigilance\nWhenever Taranika, Akroan Veteran attacks, untap another target creature you control. Until end of turn, that creature has base power and toughness 4/4 and gains indestructible.",
+            "toughness": "3",
+            "type": "Legendary Creature - Human Soldier",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/f/ef670df9-0dda-4542-b1c1-3e8963e5f5a8.jpg"
         },
         {
             "artist": "Eric Deschamps",
@@ -5254,6 +6172,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/3/3/332dc6c3-7802-4bde-aa4e-0feab70c216f.jpg"
         },
         {
+            "artist": "Zack Stella",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "\"I bring a flood that nothing can withstand.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{X}{U}{U}",
+            "multiverseId": null,
+            "name": "Thassa's Intervention",
+            "names": null,
+            "number": "72",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose one-\n\u2022 Look at the top X cards of your library. Put up to two of them into your hand and the rest on the bottom of your library in a random order.\n\u2022 Counter target spell unless its controller pays twice {X}.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/2/c/2c1241d0-20d4-4eab-970d-74e476f023b4.jpg"
+        },
+        {
             "artist": "Jesper Ejsing",
             "cmc": 2.0,
             "colorIdentity": [
@@ -5277,7 +6222,7 @@
                 "Wizard"
             ],
             "superTypes": [],
-            "text": "When Thassa's Oracle enters the battlefield, look at the top X cards of your library, where X is your devotion to blue. Put one of them on top of your library and the rest on the bottom of your library in a random order. If X is greater than or equal to the number of cards in your library, you win the game. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+            "text": "When Thassa's Oracle enters the battlefield, look at the top X cards of your library, where X is your devotion to blue. Put up to one of them on top of your library and the rest on the bottom of your library in a random order. If X is greater than or equal to the number of cards in your library, you win the game. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
             "toughness": "3",
             "type": "Creature - Merfolk Wizard",
             "types": "Creature ",
@@ -5307,7 +6252,7 @@
                 "Wizard"
             ],
             "superTypes": [],
-            "text": "When Thassa's Oracle enters the battlefield, look at the top X cards of your library, where X is your devotion to blue. Put one of them on top of your library and the rest on the bottom of your library in a random order. If X is greater than or equal to the number of cards in your library, you win the game. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+            "text": "When Thassa's Oracle enters the battlefield, look at the top X cards of your library, where X is your devotion to blue. Put up to one of them on top of your library and the rest on the bottom of your library in a random order. If X is greater than or equal to the number of cards in your library, you win the game. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
             "toughness": "3",
             "type": "Creature - Merfolk Wizard",
             "types": "Creature ",
@@ -5723,6 +6668,33 @@
             "type": "Creature - Chimera",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/4/5/456627ec-81a4-40db-91dc-d25a59cd2837.jpg"
+        },
+        {
+            "artist": "Daarken",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Not even death can quench a hero's inner fire.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}",
+            "multiverseId": null,
+            "name": "Triumphant Surge",
+            "names": null,
+            "number": "41",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Destroy target creature with power 4 or greater. You gain 3 life.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/7/5/75d6eb18-a49d-4fa5-a333-78aafbc4abcb.jpg"
         },
         {
             "artist": "Vincent Proce",
