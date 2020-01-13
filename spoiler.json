@@ -26,7 +26,7 @@
                 "Cleric"
             ],
             "superTypes": [],
-            "text": "When \"Acolyte of Affliction\" enters the battlefield, put the top two cards of your library into your graveyard, then you may return a permanent card from your graveyard to your hand.",
+            "text": "When Acolyte of Affliction enters the battlefield, put the top two cards of your library into your graveyard, then you may return a permanent card from your graveyard to your hand.",
             "toughness": "3",
             "type": "Creature - Human Cleric",
             "types": "Creature ",
@@ -3229,7 +3229,7 @@
             "name": "Gravebreaker Lamia",
             "names": null,
             "number": "314",
-            "power": null,
+            "power": "4",
             "rarity": "Rare",
             "subTypes": [
                 "Snake",
@@ -3237,7 +3237,7 @@
             ],
             "superTypes": [],
             "text": "Lifelink\nWhen Gravebreaker Lamia enters the battlefield, search your library for a card, put it into your graveyard, then shuffle your library.\nSpells you cast from your graveyard cost {1} less to cast.",
-            "toughness": null,
+            "toughness": "4",
             "type": "Enchantment Creature - Snake Lamia",
             "types": "Enchantment Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/a/1/a1f75fdb-1559-4f4e-b14b-0dfb7305f55b.jpg"
@@ -3259,7 +3259,7 @@
             "name": "Gravebreaker Lamia",
             "names": null,
             "number": "98",
-            "power": null,
+            "power": "4",
             "rarity": "Rare",
             "subTypes": [
                 "Snake",
@@ -3267,7 +3267,7 @@
             ],
             "superTypes": [],
             "text": "Lifelink\nWhen Gravebreaker Lamia enters the battlefield, search your library for a card, put it into your graveyard, then shuffle your library.\nSpells you cast from your graveyard cost {1} less to cast.",
-            "toughness": null,
+            "toughness": "4",
             "type": "Enchantment Creature - Snake Lamia",
             "types": "Enchantment Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/4/0/408a2073-d068-44bc-b596-5a3a3a446ee1.jpg"
@@ -4982,7 +4982,7 @@
             "cmc": 2.0,
             "colorIdentity": [],
             "colors": [],
-            "flavor": "Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+            "flavor": null,
             "layout": "",
             "loyalty": null,
             "mana_cost": "{2}",
@@ -4996,7 +4996,7 @@
                 "Equipment"
             ],
             "superTypes": [],
-            "text": "Equipped creature gets +0/+2 and has hexproof and \"Whenever a creature with deathtouch blocks or becomes blocked by this creature, destroy that creature.\"",
+            "text": "Equipped creature gets +0/+2 and has hexproof and \"Whenever a creature with deathtouch blocks or becomes blocked by this creature, destroy that creature.\"\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
             "toughness": null,
             "type": "Artifact - Equipment",
             "types": "Artifact ",
@@ -6815,12 +6815,12 @@
             "rarity": "Common",
             "subTypes": [
                 "Minotaur",
-                "Beserker"
+                "Berserker"
             ],
             "superTypes": [],
-            "text": "When Rage-Scarred Berserker enters the battlefield, target creature you control gets +1/+0 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.",
+            "text": "When Rage-Scarred Berserker enters the battlefield, target creature you control gets +1/+0 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
             "toughness": "4",
-            "type": "Creature - Minotaur Beserker",
+            "type": "Creature - Minotaur Berserker",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/1/f/1f76d7c4-a5d6-4144-b5f3-e43b96b695b7.jpg"
         },
