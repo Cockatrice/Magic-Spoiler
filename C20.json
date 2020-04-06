@@ -1,5 +1,34 @@
 [
     {
+        "artist": "Aaron Miller",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{G}{G}",
+        "multiverseId": null,
+        "name": "\"Beast Without\"",
+        "names": null,
+        "number": "64",
+        "power": "6",
+        "rarity": "Rare",
+        "subTypes": [
+            "Beast"
+        ],
+        "superTypes": [],
+        "text": "Mutate {3}{G} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nTrample\nWhenever this creature mutates, destroy target noncreature permanent. Its controller creates a 3/3 green Beast creature token.",
+        "toughness": "6",
+        "type": "Creature - Beast",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/7/574d1a02-a403-4b6e-8ce0-a472325c9c2c.jpg"
+    },
+    {
         "artist": "Lindsey Look",
         "cmc": 3.0,
         "colorIdentity": [],
@@ -21,6 +50,65 @@
         "type": "Artifact",
         "types": "Artifact",
         "url": "https://img.scryfall.com/cards/normal/front/5/a/5afe425c-50a7-4d29-ac14-0edb094fc770.jpg"
+    },
+    {
+        "artist": "Nicholas Gregory",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{X}{G}",
+        "multiverseId": null,
+        "name": "\"Capthreecorn\"",
+        "names": null,
+        "number": "58",
+        "power": "0",
+        "rarity": "Rare",
+        "subTypes": [
+            "Goat",
+            "Hydra"
+        ],
+        "superTypes": [],
+        "text": "\"Capthreecorn\" enters the battlefield with X +1/+1 counters on it.\n{2}: Put a +1/+1 counter on \"Capthreecorn\". You may reselect which player \"Capthreecorn\" is attacking. Only a player being attacked by \"Capthreecorn\" may activate this ability, and only during the declare attackers step. (It can't attack its controller.)",
+        "toughness": "0",
+        "type": "Creature - Goat Hydra",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/b/0b81f82a-f004-44f3-9dad-1675941fe57b.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}{R}",
+        "multiverseId": null,
+        "name": "\"Cycla-bird\"",
+        "names": null,
+        "number": "56",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Phoenix"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen \"Cycla-bird\" enters the battlefield, return target instant or sorcery card with cycling from your graveyard to your hand.\nAt the beginning of each end step, if you cycled two or more cards this turn, return \"Cycla-bird\" from your graveyard to your hand.",
+        "toughness": "2",
+        "type": "Creature - Phoenix",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/4/f492c4f5-27b7-4f09-a3af-2fb1aeac50d5.jpg"
     },
     {
         "artist": "Nicholas Gregory",
@@ -76,11 +164,96 @@
             "Warrior"
         ],
         "superTypes": [],
-        "text": "Whenever one or more creatures attack an opponent or a Planeswalker an opponent controls, those creatures gain menace until end of turn.",
+        "text": "Whenever one or more creatures attack an opponent or a planeswalker an opponent controls, those creatures gain menace until end of turn.",
         "toughness": "4",
         "type": "Creature - Human Warrior",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/2/3/233e1a27-c8d6-46de-a128-89791e7f2e9b.jpg"
+    },
+    {
+        "artist": "Izzy",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "\"No Capes!\"",
+        "names": null,
+        "number": "42",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "If you control a commander, you may cast this card without paying its mana cost\nExile target creature.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/c/6/c61fa2c0-63c0-4dc2-9f17-5a00530e3348.jpg"
+    },
+    {
+        "artist": "Uriah Voth",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}",
+        "multiverseId": null,
+        "name": "\"Tidal Barracuda\"",
+        "names": null,
+        "number": "39",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Fish"
+        ],
+        "superTypes": [],
+        "text": "Any player may cast spells as though they had flash.\nYour opponents can't cast spells during your turn.",
+        "toughness": "4",
+        "type": "Creature - Fish",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/a/aacdf4c2-9bc8-400a-8ffc-d6597d8d7da9.jpg"
+    },
+    {
+        "artist": "Igor Kieryluk",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Agitator Ant",
+        "names": null,
+        "number": "49",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Insect"
+        ],
+        "superTypes": [],
+        "text": "At the beginning of your end step, each player may put two +1/+1 counters on a creature they control. Goad each creature that had counters put on it this way. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)",
+        "toughness": "2",
+        "type": "Creature - Insect",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/9/29d1122e-ac2d-4d95-829b-7b3b54159a4a.jpg"
     },
     {
         "artist": "Kieran Yanner",
@@ -114,6 +287,42 @@
         "type": "Legendary Planeswalker - Ajani",
         "types": " Planeswalker ",
         "url": "https://img.scryfall.com/cards/normal/front/9/6/9675ba74-3e3c-4570-bdc0-44b90de7953b.jpg"
+    },
+    {
+        "artist": "Filip Burburan",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R",
+            "U",
+            "W"
+        ],
+        "colors": [
+            "R",
+            "U",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}{R}{W}",
+        "multiverseId": null,
+        "name": "Akim, the Soaring Wind",
+        "names": null,
+        "number": "6",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Bird",
+            "Dinosaur"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying\nWhenever you create one or more creature tokens for the first time each turn, create a 1/1 white Bird creature token with flying.\n{3}{U}{R}{W}: Creature tokens you control gain double strike until end of turn.",
+        "toughness": "4",
+        "type": "Legendary Creature - Bird Dinosaur",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/3/23736c5f-bd1c-4505-8639-5fb92cd74b21.jpg"
     },
     {
         "artist": "Anastasia Ovchinnikova",
@@ -150,6 +359,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/0/0/0088e145-d402-42bb-98b5-af33901de44a.jpg"
     },
     {
+        "artist": "Chris Rahn",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{X}{G}",
+        "multiverseId": null,
+        "name": "Animist's Awakening",
+        "names": null,
+        "number": "166",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Reveal the top X cards of your library. Put all land cards from among them onto the battlefield tapped and the rest on the bottom of your library in a random order.\nSpell mastery \u2014 If there are two or more instant and/or sorcery cards in your graveyard, untap those lands.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/f/f/ff681dc2-bc62-4934-b936-49af1da4af6c.jpg"
+    },
+    {
         "artist": "Dan Scott",
         "cmc": 2.0,
         "colorIdentity": [],
@@ -171,6 +407,33 @@
         "type": "Artifact",
         "types": "Artifact",
         "url": "https://img.scryfall.com/cards/normal/front/1/4/1486170d-4ad3-4318-bf72-f948617d567f.jpg"
+    },
+    {
+        "artist": "Anna Steinbauer",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Astral Drift",
+        "names": null,
+        "number": "76",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Whenever you cycle Astral Drift or cycle another card while Astral Drift is on the battlefield, you may exile target creature. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.\nCycling {2}{W} ({2}{W}, Discard this card: Draw a card.)",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://img.scryfall.com/cards/normal/front/0/7/07a2c7fa-7aea-4da4-b7d5-9c24f5024c74.jpg"
     },
     {
         "artist": "Yeong-Hao Han",
@@ -234,6 +497,62 @@
         "url": "https://img.scryfall.com/cards/normal/front/9/b/9b4fdcd5-5346-46a8-b1a4-84ddb74089e0.jpg"
     },
     {
+        "artist": "Cristi Balanescu",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Call the Coppercoats",
+        "names": null,
+        "number": "23",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Strive \u2014 This spell costs {1}{W} more to cast for each target beyond the first.\nChoose any number of target opponents. Create X 1/1 white Human soldier creature tokens, where X is the number of creatures those opponents control.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/e/1/e11cb353-d864-4b22-bdaf-1d42c25f0918.jpg"
+    },
+    {
+        "artist": "Donato Giancola",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Cartographer's Hawk",
+        "names": null,
+        "number": "24",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Bird"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Cartographer's Hawk deals combat damage to a player who controls more lands than you, return it to its owner's hand. If you do, you may search your library for a Plains card, put it onto the battlefield tapped, then shuffle your library.",
+        "toughness": "1",
+        "type": "Creature - Bird",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/b/1b1d26c3-ce06-4d46-87fc-7623edae85b2.jpg"
+    },
+    {
         "artist": "Daarken",
         "cmc": 4.0,
         "colorIdentity": [
@@ -266,6 +585,52 @@
         "url": "https://img.scryfall.com/cards/normal/front/d/5/d5e857aa-06b7-4bce-b56d-6f6be5cfc77b.jpg"
     },
     {
+        "artist": "Ryan Yee",
+        "cmc": 0.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "When defeat is near and guidance is scarce, all eyes look in one direction.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Command Tower",
+        "names": null,
+        "number": "264",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{T}: Add one mana of any color in your commander's color identity.",
+        "toughness": null,
+        "type": "Land",
+        "types": "Land",
+        "url": "https://img.scryfall.com/cards/normal/front/3/7/37691c08-7763-42bd-b882-3cb0624a2098.jpg"
+    },
+    {
+        "artist": "Ryan Alexander Lee",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "It harmonizes with the essence of its master.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "Commander's Sphere",
+        "names": null,
+        "number": "240",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{T}: Add one mana of any color in your commander's color identity.\nSacrifice Commander's Sphere: Draw a card.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/8/9/89c29c9c-9d4b-4809-9a95-796adfbce22a.jpg"
+    },
+    {
         "artist": "Daniel Ljunggren",
         "cmc": 1.0,
         "colorIdentity": [
@@ -293,6 +658,33 @@
         "url": "https://img.scryfall.com/cards/normal/front/4/a/4a61749d-a2e5-4da4-96db-e49cbac05d73.jpg"
     },
     {
+        "artist": "Joe Slucher",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"As a boulder diverts a stream, the crystals bend life around them.\"\n\u2014Rielle, the Everwise",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Crystalline Resonance",
+        "names": null,
+        "number": "31",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Whenever you cycle a card, you may have Crystalline Resonance become a copy of another target permanent until your next turn, except it has this ability.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://img.scryfall.com/cards/normal/front/9/3/93f20664-c3d0-4dbd-93dc-4f69a0cbff46.jpg"
+    },
+    {
         "artist": "Zoltan Boros",
         "cmc": 4.0,
         "colorIdentity": [
@@ -318,6 +710,36 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/5/a/5a20acbc-6ca8-4b0c-ab7e-4bb8d429336b.jpg"
+    },
+    {
+        "artist": "Yongjae Choi",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "Daring Fiendbonder",
+        "names": null,
+        "number": "41",
+        "power": "5",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Warlock"
+        ],
+        "superTypes": [],
+        "text": "Haste\nDaring Fiendbonder attacks each combat if able.\n{1}{B}, Exile Daring Fiendbonder from your graveyard: Put an indestructible counter on target creature. Activate this ability only any time you could cast a sorcery.",
+        "toughness": "1",
+        "type": "Creature - Human Warlock",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/7/27dd910a-a3ca-46ac-9350-f2a22496f4e6.jpg"
     },
     {
         "artist": "Cliff Childs",
@@ -374,6 +796,87 @@
         "url": "https://img.scryfall.com/cards/normal/front/3/9/39671ac5-c730-4ba2-a2d9-23d5ac13f12b.jpg"
     },
     {
+        "artist": "Izzy",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Archmage attacks are little more than annoyances to Kalamax.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Deflecting Swat",
+        "names": null,
+        "number": "50",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may chose new targets for target spell or ability.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/8/4/84f035e1-6c89-457b-b05f-85680a50ed91.jpg"
+    },
+    {
+        "artist": "Raoul Vitale",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Dismantling Wave",
+        "names": null,
+        "number": "25",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "For each opponent, destroy up to one target artifact or enchantment that player controls.\nCycling {6}{W}{W} ({6}{W}{W}, Discard this card: Draw a card.)\nWhen you cycle Dismantling Wave, destroy all artifacts and enchantments.",
+        "toughness": null,
+        "type": "Sorceryq",
+        "types": "Sorceryq",
+        "url": "https://img.scryfall.com/cards/normal/front/9/d/9db4c1ec-ddd6-4443-8d93-8628e67aa6bb.jpg"
+    },
+    {
+        "artist": "Lie Setiawan",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "Fortunately, the reanimation spell just missed the long-dead colony of dung scorpions.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "Dredge the Mire",
+        "names": null,
+        "number": "43",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Each opponent chooses a creature card in their graveyard. Put those cards onto the battlefield under your control.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/f/5/f57b4b40-bd46-4859-89f0-fa0bd04cc6e9.jpg"
+    },
+    {
         "artist": "Brian Valeza",
         "cmc": 4.0,
         "colorIdentity": [
@@ -404,6 +907,66 @@
         "url": "https://img.scryfall.com/cards/normal/front/a/c/acaec4bf-69c8-43c1-960f-cb5b5bff660a.jpg"
     },
     {
+        "artist": "Justin Sweet",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{W}{W}",
+        "multiverseId": null,
+        "name": "Eternal Dragon",
+        "names": null,
+        "number": "88",
+        "power": "5",
+        "rarity": "Rare",
+        "subTypes": [
+            "Dragon",
+            "Spirit"
+        ],
+        "superTypes": [],
+        "text": "Flying\n{3}{W}{W}: Return Eternal Dragon from your graveyard to your hand. Activate this ability only during your upkeep.\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle your library.)",
+        "toughness": "5",
+        "type": "Creature - Dragon Spirit",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/6/e659b6ea-8522-4644-9f73-5c9312e28c81.jpg"
+    },
+    {
+        "artist": "Kieran Yanner",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "Fireflux Squad",
+        "names": null,
+        "number": "51",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Soldier"
+        ],
+        "superTypes": [],
+        "text": "Haste\nWhenever Fireflux Squad attacks, you may exile another target attacking creature you control. If you do, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield tapped and atacking and the rest on the bottom of your library in a random order.",
+        "toughness": "3",
+        "type": "Creature - Human Soldier",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/b/4bcff20b-06f7-4228-a99c-6ff46e73e353.jpg"
+    },
+    {
         "artist": "Zoltan Boros",
         "cmc": 3.0,
         "colorIdentity": [
@@ -429,6 +992,29 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/c/9/c972abe6-c732-4745-bde4-8b51698f05be.jpg"
+    },
+    {
+        "artist": "Yeong-Hao Han",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"It geenrates power by harnessing the nature of possibility itself.\"\n\"But will it work?\"\n\". . . Possibly.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Fluctuator",
+        "names": null,
+        "number": "241",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Cycling abilities you activate cost up to {2} less to activate.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/c/0/c06a2fb3-d933-461f-bcf8-5c614bb75d0b.jpg"
     },
     {
         "artist": "Randy Vargas",
@@ -465,6 +1051,97 @@
         "type": "Legendary Creature - Human Shaman",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/8/0/80bc07d5-bdbb-4a6d-8958-0c172ea80245.jpg"
+    },
+    {
+        "artist": "Ilse Gort",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Rage can be heard throughout the world, but wisdom comes at a whisper.\" \u2014Rielle, the Everwise",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Glademuse",
+        "names": null,
+        "number": "60",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Beast"
+        ],
+        "superTypes": [],
+        "text": "Whenever a player casts a spell, if it's not their turn, that player draws a card.",
+        "toughness": "4",
+        "type": "Creature - Beast",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/9/89a40dc1-3bd8-4c7e-9446-5abc8c1f6995.jpg"
+    },
+    {
+        "artist": "Manuel Casta\u00f1\u00f3n",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Haldan, Avid Arcanist",
+        "names": null,
+        "number": "2",
+        "power": "1",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Human",
+            "Wizard"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Partner with Pako, Arcane Retriever (When this creature enters the battlefield, target player may put Pako into their hand from their library, then shfufle.)\nYou may play noncreature cards from exile with fetch counters on them if you exiled them, and you may spend mana as though it were mana of any color to cast those spells.",
+        "toughness": "4",
+        "type": "Legendary Creature - Human Wizard",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/6/16a86a35-f7e5-434d-bf44-61ae7cb0f98b.jpg"
+    },
+    {
+        "artist": "Antonio Jos\u00e9 Manzanedo",
+        "cmc": 8.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{6}{W}{W}",
+        "multiverseId": null,
+        "name": "Herald of the Forgotten",
+        "names": null,
+        "number": "27",
+        "power": "6",
+        "rarity": "Rare",
+        "subTypes": [
+            "Cat",
+            "Beast"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Herald of the Forgotten enters the battlefield, if you cast it, return any number of target permanent cards with cycling abilities from your graveyard to the battlefield.",
+        "toughness": "6",
+        "type": "Creature - Cat Beast",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/3/c3dba1c4-ee9a-4ea6-bf66-f639d38711cd.jpg"
     },
     {
         "artist": "Jaime Jones",
@@ -618,7 +1295,7 @@
             "R",
             "W"
         ],
-        "flavor": null,
+        "flavor": "\"Aim for an eye. Better they never see you.\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{R}{W}{B}",
@@ -640,6 +1317,33 @@
         "type": "Legendary Creature - Human Assassin",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/3/039d25d4-ce26-4ecf-bbf5-42187cf0230a.jpg"
+    },
+    {
+        "artist": "Anastasia Ovchinnikova",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "Lavabrink Floodgates",
+        "names": null,
+        "number": "53",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{T}: Add {R}{R}.\nAt the beginning of each player's upkeep, that player may put a doom counter on Lavabrink Floodgates or remove a doom counter from it. Then if it has three or more doom counters on it, sacrifice it. When you do, it deals 6 damage to each creature.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/d/2/d2f9a9bf-edd2-4448-bace-8bfba3ba529a.jpg"
     },
     {
         "artist": "Izzy",
@@ -665,6 +1369,58 @@
         "type": "Artifact",
         "types": "Artifact",
         "url": "https://img.scryfall.com/cards/normal/front/5/2/52b7e5ee-da53-4d60-9348-072ad218c369.jpg"
+    },
+    {
+        "artist": "Yeong-Hao Han",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "Manascape Refractor",
+        "names": null,
+        "number": "68",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Manascape Refractor enters the battlefield tapped.\nManascape Refractor has all activated abilities of all lands on the battlefield.\nYou may spend mana of though it were mana of any color to pay the activation costs of Manascape Refractor's abilities.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/7/f/7f164226-99e4-474e-a67d-b3fbff015a64.jpg"
+    },
+    {
+        "artist": "Aaron Miller",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Martial Impetus",
+        "names": null,
+        "number": "28",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nEnchanted creature gets +1/+1 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, each other creature that's attacking one of your opponents gets +1/+1 until end of turn.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/5/25656d3d-dc5a-4085-8461-cab11b96e70a.jpg"
     },
     {
         "artist": "Eric Fortune",
@@ -753,6 +1509,39 @@
         "url": "https://img.scryfall.com/cards/normal/front/8/c/8ca1dbc4-2177-477e-88e2-d07cefb542e4.jpg"
     },
     {
+        "artist": "Aleksi Briclot",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R",
+            "W"
+        ],
+        "colors": [
+            "R",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "4",
+        "mana_cost": "{2}{R}{W}",
+        "multiverseId": null,
+        "name": "Nahiri, the Harbinger",
+        "names": null,
+        "number": "223",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Nahiri"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+2: You may discard a card. If you do, draw a card.\n\u22122: Exile target enchantment, tapped artifact, or tapped creature.\n\u22128: Search your library for an artifact or creature card, put it onto the battlefield, then shuffle your library. It gains haste. Return it to your hand at the beginning of the next end step.",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Nahiri",
+        "types": " Planeswalker ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/d/ddbecd25-250e-4a49-b007-698b36551254.jpg"
+    },
+    {
         "artist": "Brian Valeza",
         "cmc": 2.0,
         "colorIdentity": [
@@ -775,7 +1564,7 @@
             "Shapeshifter"
         ],
         "superTypes": [],
-        "text": "Whenever Nascent Metamorph attacks or blocks, target oppoennt reveals cards from the top of their library until they reveal a creature card. Nascent Metamorph becomes a copy of that card until end of turn. Then that player puts all cards revealed this way on the bottom of their library in a random order.",
+        "text": "Whenever Nascent Metamorph attacks or blocks, target opponent reveals cards from the top of their library until they reveal a creature card. Nascent Metamorph becomes a copy of that card until end of turn. Then that player puts all cards revealed this way on the bottom of their library in a random order.",
         "toughness": "1",
         "type": "Creature - Shapeshifter",
         "types": "Creature ",
@@ -830,6 +1619,71 @@
         "type": "Artifact",
         "types": "Artifact",
         "url": "https://img.scryfall.com/cards/normal/front/5/4/541151af-f1a3-494f-858e-2c3fe447e036.jpg"
+    },
+    {
+        "artist": "Grzegorz Rutkowski",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Nikara, Lair Scavenger",
+        "names": null,
+        "number": "3",
+        "power": "2",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Partner with Yannik, Scavenging Sentinel (When this creature enters the battlefield, target player may put Yannik into their hand from their library, then shuffle.)\nMenace\nWhenever another creature you control leaves the battlefield, if it had one or more counters on it, you draw a card and lose 1 life.",
+        "toughness": "2",
+        "type": "Legendary Creature - Human Cleric",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/0/00b9ac91-51e4-4653-ac2a-da166a894f2a.jpg"
+    },
+    {
+        "artist": "Howard Lyon",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G",
+            "U"
+        ],
+        "colors": [
+            "G",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "X",
+        "mana_cost": "{X}{G}{U}",
+        "multiverseId": null,
+        "name": "Nissa, Steward of Elements",
+        "names": null,
+        "number": "224",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Nissa"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+2: Scry 2.\n0: Look at the top card of your library. If it's a land card or a creature card with converted mana cost less than or equal to the number of loyalty counters on Nissa, Steward of Elements, you may put that card onto the battlefield.\n\u22126: Untap up to two target lands you control. They become 5/5 Elemental creatures with flying and haste until end of turn. They're still lands.",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Nissa",
+        "types": " Planeswalker ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/d/8d64871b-6ee5-426b-9828-125cb9c7746d.jpg"
     },
     {
         "artist": "Campbell White",
@@ -895,6 +1749,69 @@
         "url": "https://img.scryfall.com/cards/normal/front/6/3/639df7bc-b87d-4bf5-8005-8eabc54e955b.jpg"
     },
     {
+        "artist": "Manuel Casta\u00f1\u00f3n",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G",
+            "R"
+        ],
+        "colors": [
+            "G",
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}{G}",
+        "multiverseId": null,
+        "name": "Pako, Arcane Retriever",
+        "names": null,
+        "number": "13",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Elemental",
+            "Hound"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Partner with Haldan, Avid Arcanist\nHaste\nWhenever Pako, Arcane Retriever attacks, exile the top card of each player's library and put a fetch counter on each of them. Put a +1/+1 counter on Pako for each noncreature card exiled this way.",
+        "toughness": "3",
+        "type": "Legendary Creature - Elemental Hound",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/6/066c8f63-52e6-475e-8d27-6ee37e92fc05.jpg"
+    },
+    {
+        "artist": "Mila Pesic",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Parasitic Impetus",
+        "names": null,
+        "number": "46",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, its controller loses 2 life and you gain 2 life.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/5/b51e0d11-e970-4535-87ac-49ae8ad594df.jpg"
+    },
+    {
         "artist": "Alayna Danner",
         "cmc": 0.0,
         "colorIdentity": [],
@@ -916,6 +1833,64 @@
         "type": "Land",
         "types": "Land",
         "url": "https://img.scryfall.com/cards/normal/front/d/2/d2731103-47ef-41d3-bf5f-5773b60c7948.jpg"
+    },
+    {
+        "artist": "Randy Vargas",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{G}",
+        "multiverseId": null,
+        "name": "Predatory Impetus",
+        "names": null,
+        "number": "62",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nEnchanted creature gets +3/+3, must be blocked if able, and is goaded. (It attacks each combat if able and attacks a player other than you if able.)",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/3/13c29179-99f4-4e02-bc04-2ffe6ca4a7c3.jpg"
+    },
+    {
+        "artist": "Lindsey Look",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Psychic Impetus",
+        "names": null,
+        "number": "37",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you scry 2.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/4/9440d3f3-f4f4-450b-ab88-0acbaeec972b.jpg"
     },
     {
         "artist": "Magali Villeneuve",
@@ -1004,6 +1979,33 @@
         "type": "Artifact - Equipment",
         "types": "Artifact ",
         "url": "https://img.scryfall.com/cards/normal/front/c/9/c9cf2480-10cd-4200-a47e-cc7f49182692.jpg"
+    },
+    {
+        "artist": "Tomasz Jedruszek",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{G}{G}",
+        "multiverseId": null,
+        "name": "Selective Adaptation",
+        "names": null,
+        "number": "65",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Reveal the top seven cards of your library. Choose from among them acard with flying, a card with first strike, and so on for double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance. Put one of the chosen cards onto the battlefield, the other chosen cards into your hand, and the rest into your graveyard.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/a/d/adbd8ffa-c7d3-4ef6-b3a7-8a967b50ce49.jpg"
     },
     {
         "artist": "Paul Scott Canavan",
@@ -1121,6 +2123,122 @@
         "url": "https://img.scryfall.com/cards/normal/front/9/8/986a7ea8-a015-4dd8-9938-36b38ccd3980.jpg"
     },
     {
+        "artist": "Jesper Ejsing",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "R"
+        ],
+        "colors": [
+            "B",
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}{R}",
+        "multiverseId": null,
+        "name": "Silvar, Devourer of the Free",
+        "names": null,
+        "number": "15",
+        "power": "4",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Cat",
+            "Nightmare"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Partner with Trynn, Champion of Freedom (When this creature enters the battlefield, target player may put Trynn into their hand from their library, then shuffle.)\nMenace\nSacrifice a Human: Put a +1/+1 counter on Silvar, Devourer of the Free. It gains indestructible until end of turn.",
+        "toughness": "2",
+        "type": "Legendary Creature - Cat Nightmare",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/c/fc9cbc83-b9e3-4a22-948b-5a71112154c1.jpg"
+    },
+    {
+        "artist": "Mike Bierek",
+        "cmc": 1.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "Lost to time is the artificer's art of trapping light from a distant star in a ring of purest gold.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}",
+        "multiverseId": null,
+        "name": "Sol Ring",
+        "names": null,
+        "number": "252",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{T}: Add {C}{C}.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://img.scryfall.com/cards/normal/front/2/8/286bea73-8ad8-4423-8a7c-8497420fdb54.jpg"
+    },
+    {
+        "artist": "Kev Walker",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{U}",
+        "multiverseId": null,
+        "name": "Souvenir Snatcher",
+        "names": null,
+        "number": "38",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Bird"
+        ],
+        "superTypes": [],
+        "text": "Mutate {5}{U} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nFlying\nWhenever this creature mutates, gain control of target noncreature artifact.",
+        "toughness": "4",
+        "type": "Creature - Bird",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/7/f7845c68-ab08-4fb3-a1af-167ba6c8b82a.jpg"
+    },
+    {
+        "artist": "Paul Scott Canavan",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"I don't have anything against Snapdax. I'm just more of a dog person.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}",
+        "multiverseId": null,
+        "name": "Species Specialist",
+        "names": null,
+        "number": "47",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "As Species Specialist enters the battlefield, choose a creature type.\nWhenever a creature of the chosen type dies, you may draw a card.",
+        "toughness": "3",
+        "type": "Creature - Human Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/b/bb2cbf12-7f35-4162-b1a0-89a1632728c7.jpg"
+    },
+    {
         "artist": "Sam Burley",
         "cmc": 4.0,
         "colorIdentity": [
@@ -1157,6 +2275,101 @@
         "url": "https://img.scryfall.com/cards/normal/front/0/5/05b837a2-5773-4340-87f9-b4d6a43deb27.jpg"
     },
     {
+        "artist": "Lius Lasahido",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "R",
+            "U"
+        ],
+        "colors": [
+            "R",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{U}{R}",
+        "multiverseId": null,
+        "name": "The Locust God",
+        "names": null,
+        "number": "219",
+        "power": "4",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "God"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying\nWhenever you draw a card, create a 1/1 blue and red Insect creature token with flying and haste.\n{2}{U}{R}: Draw a card, then discard a card.\nWhen The Locust God dies, return it to its owner's hand at the beginning of the next end step.",
+        "toughness": "4",
+        "type": "Legendary Creature - God",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/8/7/87f6aaba-ad2d-41ea-8d07-21c67d384aa0.jpg"
+    },
+    {
+        "artist": "Matt Stewart",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{B}",
+        "multiverseId": null,
+        "name": "Titan Hunter",
+        "names": null,
+        "number": "48",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "At the beginning of each player's end step, if no creatures died this turn, Beast Hunter deals 4 damage to that player.\n{1}{B}, Sacrifice a creature: You gain 4 life.",
+        "toughness": "5",
+        "type": "Creature - Human Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/e/b/eb564473-7416-4cf7-971a-e6dc5eb10445.jpg"
+    },
+    {
+        "artist": "Jesper Ejsing",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}",
+        "multiverseId": null,
+        "name": "Trynn, Champion of Freedom",
+        "names": null,
+        "number": "1",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Human",
+            "Soldier"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Partner with Silvar, Devourer of the Free (When this creature enters the battlefield, target player may put Silvar into their hand from their library, then shuffle.)\nAt the beginning of your end step, if you attacked this turn, create a 1/1 white Human Soldier creature token.",
+        "toughness": "3",
+        "type": "Legendary Creature - Human Soldier",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/6/168d7532-c925-4a96-a756-2ce4dd0fec33.jpg"
+    },
+    {
         "artist": "Daarken",
         "cmc": 3.0,
         "colorIdentity": [
@@ -1189,6 +2402,137 @@
         "type": "Legendary Creature - Whale Wolf",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/c/4/c44cfa67-6276-4d23-9f25-a0576bfe1d25.jpg"
+    },
+    {
+        "artist": "Livia Prima",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Verge Rangers",
+        "names": null,
+        "number": "29",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Scout"
+        ],
+        "superTypes": [],
+        "text": "First strike\nYou may look at the top card of your library any time.\nAs long as an opponent controls more lands than you, you may play lands from the top of your library. (You can play a land this way only if you have an available land play remaining.)",
+        "toughness": "3",
+        "type": "Creature - Human Scout",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/0/7/071bee6a-21ed-4776-ad78-2cc8ef5ab959.jpg"
+    },
+    {
+        "artist": "Erica Yang",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "G",
+            "U"
+        ],
+        "colors": [
+            "B",
+            "G",
+            "U"
+        ],
+        "flavor": "Gold buys death. Death earns gold.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{X}{B}{G}{U}",
+        "multiverseId": null,
+        "name": "Villainous Wealth",
+        "names": null,
+        "number": "233",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target opponent exiles the top X cards of their library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/5/9/59836c11-142b-4a19-bcbd-21b3464da71a.jpg"
+    },
+    {
+        "artist": "Filip Burburan",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G",
+            "R",
+            "U"
+        ],
+        "colors": [
+            "G",
+            "R",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}{U}{R}",
+        "multiverseId": null,
+        "name": "Xyris, the Writhing Storm",
+        "names": null,
+        "number": "18",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Snake",
+            "Leviathan"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying\nWhenever an opponent draws a card except the first one they draw in each of their draw steps, create a 1/1 green Snake creature token.\nWhenever Xyris, the Writhing Storm deals combat damage to a player, you and that player each draw that many cards.",
+        "toughness": "5",
+        "type": "Legendary Creature - Snake Leviathan",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/4/447db519-7825-4330-99e7-a2429e1f6b2e.jpg"
+    },
+    {
+        "artist": "Grzegorz Rutkowski",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G",
+            "W"
+        ],
+        "colors": [
+            "G",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}{W}",
+        "multiverseId": null,
+        "name": "Yannik, Scavenging Sentinel",
+        "names": null,
+        "number": "19",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Hyena",
+            "Beast"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Partner with Nikara, Lair Scavenger\nVigilance\nWhen Yannik, Scavenging Sentinel enters the battlefield, exile another creature you control until Yannik leaves the battlefield. When you do, distribute X +1/+1 counters among any number of target creatures, where X is the exiled creature's power.",
+        "toughness": "3",
+        "type": "Legendary Creature - Hyena Beast",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/1/11c0e89b-ab29-4739-a88e-1e7966d87d25.jpg"
     },
     {
         "artist": "Simon Dominic",
