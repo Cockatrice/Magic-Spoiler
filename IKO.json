@@ -30,38 +30,6 @@
         "url": "https://img.scryfall.com/cards/normal/front/4/a/4a0e12f5-7b15-4a8c-b045-35bcbf1fbb90.jpg"
     },
     {
-        "artist": "Ekaterina Burmak",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "B",
-            "U"
-        ],
-        "colors": [
-            "B",
-            "U"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{U/B}{U/B}",
-        "multiverseId": null,
-        "name": "\"Flashy Rogue\"",
-        "names": null,
-        "number": "219",
-        "power": "2",
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Human",
-            "Rogue"
-        ],
-        "superTypes": [],
-        "text": "Flash\nSpells you cast with flash cost {1} less to cast and can't be countered.",
-        "toughness": "2",
-        "type": "Creature - Human Rogue",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/a/d/adb202e7-f9a4-4785-840d-18aa6aa663b4.jpg"
-    },
-    {
         "artist": "Jesper Ejsing",
         "cmc": 3.0,
         "colorIdentity": [
@@ -94,157 +62,91 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/f/7f8f2d69-fba9-40e5-8ef7-75e14ef4070a.jpg"
     },
     {
-        "artist": "Svetlin Velinov",
-        "cmc": 2.0,
+        "artist": "Jason A. Engle",
+        "cmc": 3.0,
         "colorIdentity": [
-            "R",
-            "W"
+            "R"
         ],
         "colors": [
-            "R",
-            "W"
+            "R"
         ],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{R}{W}",
+        "mana_cost": "{2}{R}",
         "multiverseId": null,
-        "name": "\"Lightning Felix\"",
+        "name": "\"Frillneck Fashionista\"",
         "names": null,
-        "number": "205",
-        "power": "3",
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Elemental",
-            "Cat"
-        ],
-        "superTypes": [],
-        "text": "Whenever you cycle a card, you may pay {2}. If you \"Lightning Felix\" deals 2 damage to target creature and you gain 2 life.",
-        "toughness": "2",
-        "type": "Creature - Elemental Cat",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/7/3/73d3925c-cf7d-4546-bc70-33f04d4b7566.jpg"
-    },
-    {
-        "artist": "Svetlin Velinov",
-        "cmc": 1.0,
-        "colorIdentity": [
-            "W"
-        ],
-        "colors": [
-            "W"
-        ],
-        "flavor": "\"Aaaaah! He's adorable! Aaaaaaah!\" \u2014Not the real flavor text",
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{W}",
-        "multiverseId": null,
-        "name": "\"Nom nom nom\"",
-        "names": null,
-        "number": "35",
+        "number": "121",
         "power": null,
         "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "When \"Frillneck Fashionista\" enters the battlefield, put a menace counter on target non-Human creature you control. (It can't be blocked except by two or more creatures)\n{2}{R}, {T}: Put a +1/+1 counter on each creature you control with menace.",
+        "toughness": null,
+        "type": "Creature - Human Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/4/24c7d034-6403-41e2-9e44-4d58ef54cf10.jpg"
+    },
+    {
+        "artist": "Matt Stewart",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "\"Great Minds\"",
+        "names": null,
+        "number": "60",
+        "power": null,
+        "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "As an additional cost to cast this spell, tap an untapped creature you control.\nExile target tapped creature. Put a +1/+1 counter on the creature tapped to cast this spell.",
+        "text": "This spell costs {2} less to cast if you control a Human creature and a non-Human creature.\nDraw two cards.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
-        "url": "https://img.scryfall.com/cards/normal/front/c/3/c3b9140b-848f-4886-8c28-eccd3829a607.jpg"
+        "url": "https://img.scryfall.com/cards/normal/front/c/9/c95fb136-f21d-4f3a-82b7-bcf490b7e90c.jpg"
     },
     {
-        "artist": "Daarken",
-        "cmc": 5.0,
-        "colorIdentity": [
-            "B",
-            "R"
-        ],
-        "colors": [
-            "B",
-            "R"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{3}{B/R}{B/R}",
-        "multiverseId": null,
-        "name": "\"Obosh, With The Leggies\"",
-        "names": null,
-        "number": "228",
-        "power": "3",
-        "rarity": "Rare",
-        "subTypes": [
-            "Hellion",
-            "Horror"
-        ],
-        "superTypes": [
-            "Legendary"
-        ],
-        "text": "Companion \u2014 Each nonland card in your deck has an odd converted mana cost. (If this card is your chosen companion, you may cast it once from outside the game.)\nIf a source you control with an odd converted mana cost would deal damage, it deals double that damage instead.",
-        "toughness": "5",
-        "type": "Legendary Creature - Hellion Horror",
-        "types": " Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/4/5/451507de-9c42-43ee-b9ba-1f69e9aa29d2.jpg"
-    },
-    {
-        "artist": "Zoltan Boros",
+        "artist": "Livia Prima",
         "cmc": 3.0,
         "colorIdentity": [
-            "W"
+            "B"
         ],
         "colors": [
-            "W"
+            "B"
         ],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{2}{W}",
+        "mana_cost": "{2}{B}",
         "multiverseId": null,
-        "name": "\"Professional Stunt Performer\"",
+        "name": "\"Punk Mentor\"",
         "names": null,
-        "number": "19",
-        "power": "3",
-        "rarity": "Rare",
+        "number": "86",
+        "power": "1",
+        "rarity": "Uncommon",
         "subTypes": [
             "Human",
-            "Soldier"
+            "Cleric"
         ],
         "superTypes": [],
-        "text": "As \"Professional Stunt Performer\" enters the battlefield, choose odd or even.\n\"Professional Stunt Performer\" has protection from the chosen converted mana cost.",
+        "text": "When \"Punk Mentor\" enters the battlefield, put a lifelink counter on target non-Human creature you control.\n{1}{B}, {T}: Put a + 1 / + 1 counter on each creature you control with lifelink.",
         "toughness": "3",
-        "type": "Creature - Human Soldier",
+        "type": "Creature - Human Cleric",
         "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/3/8/38c0d9d6-c9c7-4169-8106-400445643a1a.jpg"
-    },
-    {
-        "artist": "Zoltan Boros",
-        "cmc": 3.0,
-        "colorIdentity": [
-            "W"
-        ],
-        "colors": [
-            "W"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{2}{W}",
-        "multiverseId": null,
-        "name": "\"Professional Stunt Performer\"",
-        "names": null,
-        "number": "315",
-        "power": "3",
-        "rarity": "Rare",
-        "subTypes": [
-            "Human",
-            "Soldier"
-        ],
-        "superTypes": [],
-        "text": "As \"Professional Stunt Performer\" enters the battlefield, choose odd or even.\n\"Professional Stunt Performer\" has protection from the chosen converted mana cost.",
-        "toughness": "3",
-        "type": "Creature - Human Soldier",
-        "types": "Creature ",
-        "url": "https://img.scryfall.com/cards/normal/front/f/2/f2ab4e55-7c55-4480-83df-c9d9fd4df65a.jpg"
+        "url": "https://img.scryfall.com/cards/normal/front/f/c/fc38fe5d-6c35-4fff-8f1b-726a0685c6f8.jpg"
     },
     {
         "artist": "Antonio Jos\u00e9 Manzanedo",
@@ -325,11 +227,41 @@
             "Dinosaur"
         ],
         "superTypes": [],
-        "text": "Whenever \"Supercharger\" attacks, if it doesn't have first strike, put a first strike counter on it.\nWhenever \"Supercharger\" attacks, if it has first strike, it gains doublestrike until end of turn.",
+        "text": "Whenever \"Supercharger\" attacks, if it doesn't have first strike, put a first strike counter on it.\nWhenever \"Supercharger\" attacks, if it has first strike, it gains double strike until end of turn.",
         "toughness": "3",
         "type": "Creature - Dinosaur",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/3/5/3587f450-c1ba-4074-84bb-47978a2b6116.jpg"
+    },
+    {
+        "artist": "",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "\"TRON Guard\"",
+        "names": null,
+        "number": "10",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "Whenever you cycle another card, you gain 1 life.\nCycling {1} ({1}, Discard a card: Draw a card.)",
+        "toughness": "2",
+        "type": "Creature - Human Cleric",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/f/ff5a821c-eaec-4f69-97c7-8299cdebc2f4.jpg"
     },
     {
         "artist": "Randy Vargas",
@@ -347,7 +279,7 @@
         "loyalty": null,
         "mana_cost": "{1}{G/W}{G/W}",
         "multiverseId": null,
-        "name": "Alert Heelbonder",
+        "name": "Alert Heedbonder",
         "names": null,
         "number": "218",
         "power": "2",
@@ -362,6 +294,35 @@
         "type": "Creature - Human Scout",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/1/5/15a2ccae-c322-4e99-a094-a68fc5d52ea3.jpg"
+    },
+    {
+        "artist": "Dmitry Burmak",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "Laughed at the brushwagg\n\u2014Hunters' expression meaning \"died unexpectedly\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}",
+        "multiverseId": null,
+        "name": "Almighty Brushwagg",
+        "names": null,
+        "number": "143",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Brushwagg"
+        ],
+        "superTypes": [],
+        "text": "Trample\n{3}{G}: Almighty Brushwagg gets +3/+3 until end of turn.",
+        "toughness": "1",
+        "type": "Creature - Brushwagg",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/1/71f2b7ac-8742-468d-b6a3-87881cb522ff.jpg"
     },
     {
         "artist": "Kev Walker",
@@ -850,6 +811,36 @@
         "url": "https://img.scryfall.com/cards/normal/front/4/c/4cf6ca85-0ef5-4104-b0e6-1137c4975579.jpg"
     },
     {
+        "artist": "Randy Vargas",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"If you've never feasted on Zagoth terror-pig, I got the best price you'll find.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "Bushmeat Poacher",
+        "names": null,
+        "number": "77",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Soldier"
+        ],
+        "superTypes": [],
+        "text": "{1}, {T}: Sacrifice another creature: You gain life equal to that creature's toughness. Draw a card.",
+        "toughness": "4",
+        "type": "Creature - Human Soldier",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/c/cc01faf4-fabb-40c9-a1d6-359280535f91.jpg"
+    },
+    {
         "artist": "Vincent Proce",
         "cmc": 3.0,
         "colorIdentity": [
@@ -1065,7 +1056,7 @@
         "name": "Chevill, Bane of Monsters",
         "names": null,
         "number": "181",
-        "power": null,
+        "power": "1",
         "rarity": "Mythic Rare",
         "subTypes": [
             "Human",
@@ -1074,8 +1065,8 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Deathtouch\nAt the beginning of your upkeep, if your opponents control no permanents with bounty counters on them, put a bounty counter on target creature or planeswalker an opponent controls.\nWhenever permanent an opponent controls with a bounty counter on it dies, you gain 3 life and draw card.",
-        "toughness": null,
+        "text": "Deathtouch\nAt the beginning of your upkeep, if your opponents control no permanents with bounty counters on them, put a bounty counter on target creature or planeswalker an opponent controls.\nWhenever a permanent an opponent controls with a bounty counter on it dies, you gain 3 life and draw card.",
+        "toughness": "3",
         "type": "Legendary Creature - Human Rogue",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/f/e/fecbf0a3-ebe1-43b6-a720-462ba19002eb.jpg"
@@ -1099,7 +1090,7 @@
         "name": "Chevill, Bane of Monsters",
         "names": null,
         "number": "330",
-        "power": null,
+        "power": "1",
         "rarity": "Mythic Rare",
         "subTypes": [
             "Human",
@@ -1108,8 +1099,8 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Deathtouch\nAt the beginning of your upkeep, if your opponents control no permanents with bounty counters on them, put a bounty counter on target creature or planeswalker an opponent controls.\nWhenever permanent an opponent controls with a bounty counter on it dies, you gain 3 life and draw card.",
-        "toughness": null,
+        "text": "Deathtouch\nAt the beginning of your upkeep, if your opponents control no permanents with bounty counters on them, put a bounty counter on target creature or planeswalker an opponent controls.\nWhenever a permanent an opponent controls with a bounty counter on it dies, you gain 3 life and draw card.",
+        "toughness": "3",
         "type": "Legendary Creature - Human Rogue",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/1/f/1f90d92a-2297-4a52-80cb-10b56943b828.jpg"
@@ -1478,6 +1469,38 @@
         "url": "https://img.scryfall.com/cards/normal/front/c/c/cc322744-5d8f-448d-b868-381bb86b68f9.jpg"
     },
     {
+        "artist": "Ekaterina Burmak",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B",
+            "U"
+        ],
+        "colors": [
+            "B",
+            "U"
+        ],
+        "flavor": "\"We are each other's shadow, fleeing yet always present.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U/B}{U/B}",
+        "multiverseId": null,
+        "name": "Cunning Nightbonder",
+        "names": null,
+        "number": "219",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "Flash\nSpells you cast with flash cost {1} less to cast and can't be countered.",
+        "toughness": "2",
+        "type": "Creature - Human Rogue",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/d/adb202e7-f9a4-4785-840d-18aa6aa663b4.jpg"
+    },
+    {
         "artist": "Grzegorz Rutkowski",
         "cmc": 3.0,
         "colorIdentity": [
@@ -1806,6 +1829,99 @@
         "url": "https://img.scryfall.com/cards/normal/front/c/a/ca777d40-736a-4cd6-85c4-5afd52f2fadd.jpg"
     },
     {
+        "artist": "Jason A. Engle",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "B",
+            "G",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "G",
+            "W"
+        ],
+        "flavor": "\"The ground under our feet is a record of every slight against the world, to be avenged at a time of its choosing.\"\n\u2014Gavi, nest warden",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}{W}{B}{B}{B}{G}{G}",
+        "multiverseId": null,
+        "name": "Eerie Ultimatum",
+        "names": null,
+        "number": "184",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Return any number of permanent cards with different names from your graveyard to the battlefield",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/3/a/3a9fb2db-228f-4d48-acdf-6330baf356c7.jpg"
+    },
+    {
+        "artist": "Zack Stella",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "B",
+            "G",
+            "U"
+        ],
+        "colors": [
+            "B",
+            "G",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{B}{G}{G}{G}{U}{U}",
+        "multiverseId": null,
+        "name": "Emergent Ultimatum",
+        "names": null,
+        "number": "185",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Search your library for up to three different monocolored cards with different names and exile them. An opponent chooses one of those cards. Shuffle that card into your library. You may cast the other cards without paying their mana costs. Exile Emergent Ultimatum.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/3/a/3a6a52ab-6d38-4429-9969-90064e615152.jpg"
+    },
+    {
+        "artist": "Zack Stella",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "B",
+            "G",
+            "U"
+        ],
+        "colors": [
+            "B",
+            "G",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{B}{G}{G}{G}{U}{U}",
+        "multiverseId": null,
+        "name": "Emergent Ultimatum",
+        "names": null,
+        "number": "333",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Search your library for up to three different monocolored cards with different names and exile them. An opponent chooses one of those cards. Shuffle that card into your library. You may cast the other cards without paying their mana costs. Exile Emergent Ultimatum.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/4/0/400d79b0-102a-406c-8369-8d024b18c4e9.jpg"
+    },
+    {
         "artist": "Deruchenko Alexander",
         "cmc": 2.0,
         "colorIdentity": [
@@ -2031,6 +2147,31 @@
         "url": "https://img.scryfall.com/cards/normal/front/8/c/8c8ff0da-fbe3-4c95-bc39-c975c55b6aea.jpg"
     },
     {
+        "artist": "Leesha Hannigan",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"Take us home,\" she whispered,a nd the fox's eyes began to glow.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "Farfinder",
+        "names": null,
+        "number": "2",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Fox"
+        ],
+        "superTypes": [],
+        "text": "Vigilance\nWhen Farfinder etners the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
+        "toughness": "1",
+        "type": "Creature - Fox",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/3/53f63f40-46f1-4b9e-b447-ff9274f2b926.jpg"
+    },
+    {
         "artist": "Nicholas Gregory",
         "cmc": 3.0,
         "colorIdentity": [
@@ -2149,6 +2290,60 @@
         "url": "https://img.scryfall.com/cards/normal/front/5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c.jpg"
     },
     {
+        "artist": "Kieran Yanner",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Water and bone tell many tales, but fire is fickle. It would rather consume than reveal.\"\n\u2014Rielle, the Everwise",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Fire Prophecy",
+        "names": null,
+        "number": "116",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Fire Prophecy deals 3 damage to target creature. You may put a card from your hand on the bottom of your library. If you do, draw a card.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/4/c/4c2029e5-cf7d-461f-b7b9-bf96399d8f49.jpg"
+    },
+    {
+        "artist": "Zoltan Boros",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Fragile, floating Skysail suddenly seemed like an appealingly safe place to live.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Flame Spill",
+        "names": null,
+        "number": "117",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Flame Spill deals 4 damage to target creature. Excess damage is dealt to that creature's controller instead.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/b/3/b3090004-d7dd-47bc-92e5-977be4fd9ae5.jpg"
+    },
+    {
         "artist": "Ilse Gort",
         "cmc": 1.0,
         "colorIdentity": [
@@ -2261,6 +2456,33 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://img.scryfall.com/cards/normal/front/e/6/e634baa3-2cdd-412a-9407-c347fe46f9b8.jpg"
+    },
+    {
+        "artist": "Jakub Kasper",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "The two looked at each other, and neither fled. \"I see,\" the soldier murmured. \"We're both just fighting for survival out here, aren't we?\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Forbidden Friendship",
+        "names": null,
+        "number": "367",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Create a 1/1 red Dinosaur creature token with haste and a 1/1 white Human Soldier creature token.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/a/e/ae39803e-e67a-4d1b-a3fe-2e255d502656.jpg"
     },
     {
         "artist": "Steve Prescott",
@@ -3186,6 +3408,131 @@
         "url": "https://img.scryfall.com/cards/normal/front/7/0/70419590-2e0d-4232-b596-a5359b284647.jpg"
     },
     {
+        "artist": "Chris Rahn",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G",
+            "R"
+        ],
+        "colors": [
+            "G",
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R/G}",
+        "multiverseId": null,
+        "name": "Jegantha, the Wellspring",
+        "names": null,
+        "number": "222",
+        "power": "5",
+        "rarity": "Rare",
+        "subTypes": [
+            "Elemental",
+            "Elk"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Companion \u2014 No card in your starting deck has more than one of the same mana symbol in its mana cost. (If this card is your chosen companion, you may cast it once from outside the game.)\n{T}: Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs.",
+        "toughness": "5",
+        "type": "Legendary Creature - Elemental Elk",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/d/1d52e527-3835-4350-8c01-0f2d5d623b9c.jpg"
+    },
+    {
+        "artist": "Ryan Pancoast",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G",
+            "W"
+        ],
+        "colors": [
+            "G",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G/W}{G/W}",
+        "multiverseId": null,
+        "name": "Kaheera, the Orphanguard",
+        "names": null,
+        "number": "224",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Cat",
+            "Beast"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Companion \u2014 Each creature card in your starting deck is a Cat, Elemental, Nightmare, Dinosaur, or Beast card. (If this card is your chosen companion, you may case it once from outside the game.)\nVigilance\nEach other creature you control that's a Cat, Elemental, Nightmare, Dinosaur, or Beast gets +1/+1 and has vigilance.",
+        "toughness": "2",
+        "type": "Legendary Creature - Cat Beast",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/d/4/d4ebed0b-8060-4a7b-a060-5cfcd2172b16.jpg"
+    },
+    {
+        "artist": "Christine Choi",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Through the *eludha*, bonders share the powerful abilities of their chosen companions.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Keensight Mentor",
+        "names": null,
+        "number": "18",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "When Keensight Mentor enters the battlefield, put a vigilance counter on target non-Human creature you control.\n{1}{W}, {T}: Put a +1/+1 counter on each creature you control with vigilance.",
+        "toughness": "4",
+        "type": "Creature - Human Cleric",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/0/a0583065-9a6c-4ea4-b6dd-2edfbaed1181.jpg"
+    },
+    {
+        "artist": "Ekaterina Burmak",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"Coppercoats think they understand duty and loyalty, but they can't begin to fathom the depths of my bond.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Keep Safe",
+        "names": null,
+        "number": "56",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Counter target spell that targets a permanent you control.\nDraw a card.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/f/e/febfa682-76ae-4979-a40c-c1eae1121f3c.jpg"
+    },
+    {
         "artist": "Dan Scott",
         "cmc": 5.0,
         "colorIdentity": [
@@ -3405,6 +3752,66 @@
         "type": "Creature - Nightmare Dinosaur",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/e/6/e6b4a7b3-9eb3-4f96-b151-8b1c4c85118b.jpg"
+    },
+    {
+        "artist": "Zoltan Boros",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"Take one wrong step out of here and you're dead. I take only right steps.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Lavabrink Venturer",
+        "names": null,
+        "number": "19",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Soldier"
+        ],
+        "superTypes": [],
+        "text": "As Lavabrink Venturer enters the battlefield, choose odd or even. (Zero is even.)\nLavabrink Venturer has protection from each converted mana cost of the chosen value.",
+        "toughness": "3",
+        "type": "Creature - Human Soldier",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/8/38c0d9d6-c9c7-4169-8106-400445643a1a.jpg"
+    },
+    {
+        "artist": "Zoltan Boros",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Lavabrink Venturer",
+        "names": null,
+        "number": "315",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Soldier"
+        ],
+        "superTypes": [],
+        "text": "As Lavabrink Venturer enters the battlefield, choose odd or even. (Zero is even.)\nLavabrink Venturer has protection from each converted mana cost of the chosen value.",
+        "toughness": "3",
+        "type": "Creature - Human Soldier",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/2/f2ab4e55-7c55-4480-83df-c9d9fd4df65a.jpg"
     },
     {
         "artist": "Lucas Graciano",
@@ -4235,6 +4642,140 @@
         "url": "https://img.scryfall.com/cards/normal/front/c/e/ce59b5b6-97d8-4678-9381-2800667fdb41.jpg"
     },
     {
+        "artist": "Yongjae Choi",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R",
+            "U",
+            "W"
+        ],
+        "colors": [
+            "R",
+            "U",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "4",
+        "mana_cost": "{1}{U}{R}{W}",
+        "multiverseId": null,
+        "name": "Narset of the Ancient Way",
+        "names": null,
+        "number": "195",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Narset"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+1: You gain 2 life. Add {U}, {R}, or {W}. Spend this mana only to cast a noncreature spell.\n\u22122: Draw a card, then you may discard a card. When you discard a nonland card this way, Narset of the Ancient Way deals damage equal to that card's converted mana cost to target creature or planeswalker.\n\u22126: You get an emblem with \"Whenever you cast a noncreature spell, this emblem deals 2 damage to any target.\"",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Narset",
+        "types": " Planeswalker ",
+        "url": "https://img.scryfall.com/cards/normal/front/f/a/fa7b28d8-b835-44a0-978d-cadfd392fff5.jpg"
+    },
+    {
+        "artist": "Kev Walker",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R",
+            "U",
+            "W"
+        ],
+        "colors": [
+            "R",
+            "U",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "4",
+        "mana_cost": "{1}{U}{R}{W}",
+        "multiverseId": null,
+        "name": "Narset of the Ancient Way",
+        "names": null,
+        "number": "278",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Narset"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+1: You gain 2 life. Add {U}, {R}, or {W}. Spend this mana only to cast a noncreature spell.\n\u22122: Draw a card, then you may discard a card. When you discard a nonland card this way, Narset of the Ancient Way deals damage equal to that card's converted mana cost to target creature or planeswalker.\n\u22126: You get an emblem with \"Whenever you cast a noncreature spell, this emblem deals 2 damage to any target.\"",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Narset",
+        "types": " Planeswalker ",
+        "url": "https://img.scryfall.com/cards/normal/front/9/1/91ac6589-75ee-4fbf-8056-1860c1482592.jpg"
+    },
+    {
+        "artist": "Jason A. Engle",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}{B}",
+        "multiverseId": null,
+        "name": "Necropanther",
+        "names": null,
+        "number": "196",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Cat",
+            "Nightmare"
+        ],
+        "superTypes": [],
+        "text": "Mutate {2}{W/B}{W/B} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.",
+        "toughness": "3",
+        "type": "Creature - Cat Nightmare",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/2/e/2e1ed055-8988-4625-9d57-8ce8a4e04aea.jpg"
+    },
+    {
+        "artist": "Jason A. Engle",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}{B}",
+        "multiverseId": null,
+        "name": "Necropanther",
+        "names": null,
+        "number": "302",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Cat",
+            "Nightmare"
+        ],
+        "superTypes": [],
+        "text": "Mutate {2}{W/B}{W/B} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.",
+        "toughness": "3",
+        "type": "Creature - Cat Nightmare",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/a/7/a776f88b-65f5-4cac-8207-c7e6b976d206.jpg"
+    },
+    {
         "artist": "Slawomir Maniak",
         "cmc": 5.0,
         "colorIdentity": [
@@ -4371,6 +4912,71 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://img.scryfall.com/cards/normal/front/0/4/0430da3c-9460-4b62-ae28-2e7e6f4d06a4.jpg"
+    },
+    {
+        "artist": "Daarken",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "R"
+        ],
+        "colors": [
+            "B",
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B/R}{B/R}",
+        "multiverseId": null,
+        "name": "Obosh, the Preypiercer",
+        "names": null,
+        "number": "228",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Hellion",
+            "Horror"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Companion \u2014 Your starting deck contains only cards with odd converted mana costs and land cards. (If this card is your chosen companion, you may cast it once from outside the game.)\nIf a source you control with an odd converted mana cost would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.",
+        "toughness": "5",
+        "type": "Legendary Creature - Hellion Horror",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/4/5/451507de-9c42-43ee-b9ba-1f69e9aa29d2.jpg"
+    },
+    {
+        "artist": "Daarken",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "R",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "R",
+            "W"
+        ],
+        "flavor": "All they found in the hutner's camp were tiny paw prints and a lot of blood.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}{W}{B}",
+        "multiverseId": null,
+        "name": "Offspring's Revenge",
+        "names": null,
+        "number": "198",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "At the beginning of combat on your turn, exile target red, white, or black creature card from your graveyard. Create a token that's a copy of that card, except it's 1/1. It gains haste until your next turn.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://img.scryfall.com/cards/normal/front/7/8/78619ffb-f514-4f9f-9d77-3ab49e045f7c.jpg"
     },
     {
         "artist": "Vincent Proce",
@@ -4946,6 +5552,37 @@
         "url": "https://img.scryfall.com/cards/normal/front/c/c/cc2fd581-5cf8-4154-90dd-922afddcd556.jpg"
     },
     {
+        "artist": "",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "B",
+            "R",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "R",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}{R}{W}{W}{W}{B}{B}",
+        "multiverseId": null,
+        "name": "Ruinous Ultimatum",
+        "names": null,
+        "number": "204",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Destroy all nonland permanents your opponents control",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/5/0/50c1d6ca-7789-46b5-bc89-85cc3915cb85.jpg"
+    },
+    {
         "artist": "Lius Lasahido",
         "cmc": 3.0,
         "colorIdentity": [
@@ -4971,6 +5608,36 @@
         "type": "Enchantment",
         "types": "Enchantment",
         "url": "https://img.scryfall.com/cards/normal/front/1/3/1387b7be-f69e-4919-9070-a89654c656f3.jpg"
+    },
+    {
+        "artist": "Mathias Kollros",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}{R}",
+        "multiverseId": null,
+        "name": "Sanctuary Smasher",
+        "names": null,
+        "number": "135",
+        "power": "6",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Rhino",
+            "Beast"
+        ],
+        "superTypes": [],
+        "text": "First strike\nCycling {2}{R} ({2}{R}, Discard this card: Draw a card.)\nWhen you cycle Sanctuary Smasher, put a first strike counter on target creature you control.",
+        "toughness": "4",
+        "type": "Creature - Rhino Beast",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/c/c/cc634c10-42c5-4bdc-bc22-f862ae285492.jpg"
     },
     {
         "artist": "Daniel Ljunggren",
@@ -5027,6 +5694,67 @@
         "type": "Creature - Cat",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/d/4/d46702b0-7e10-462a-9aac-7564efe91804.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R",
+            "W"
+        ],
+        "colors": [
+            "R",
+            "W"
+        ],
+        "flavor": "A crackling roar is the last sound many hunters hear.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}{W}",
+        "multiverseId": null,
+        "name": "Savai Thundermane",
+        "names": null,
+        "number": "205",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Elemental",
+            "Cat"
+        ],
+        "superTypes": [],
+        "text": "Whenever you cycle a card, you may pay {2}. If you Savai Thundermane deals 2 damage to target creature and you gain 2 life.",
+        "toughness": "2",
+        "type": "Creature - Elemental Cat",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/7/3/73d3925c-cf7d-4546-bc70-33f04d4b7566.jpg"
+    },
+    {
+        "artist": "Antonio Bravo",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}{U}",
+        "multiverseId": null,
+        "name": "Sea-Dasher Octopus",
+        "names": null,
+        "number": "286",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Octopus"
+        ],
+        "superTypes": [],
+        "text": "Mutate {1}{U} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nFlash\nWhenever this creature deals combat damage to a player, draw a card.",
+        "toughness": "2",
+        "type": "Creature - Octopus",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/b/d/bd6986a8-e258-46f0-88a9-8f84732f359e.jpg"
     },
     {
         "artist": "Chris Seaman",
@@ -5171,6 +5899,70 @@
         "url": "https://img.scryfall.com/cards/normal/front/2/f/2f5ec787-79f6-4922-a0f7-debde8f7a4be.jpg"
     },
     {
+        "artist": "Slawomir Maniak",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U",
+            "W"
+        ],
+        "colors": [
+            "U",
+            "W"
+        ],
+        "flavor": "The bounty on its head is as old as Skysail, but no one has ever tried to collect.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}{U}",
+        "multiverseId": null,
+        "name": "Skycat Sovereign",
+        "names": null,
+        "number": "207",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Elemental",
+            "Cat"
+        ],
+        "superTypes": [],
+        "text": "Flying\nSkycat Sovereign gets +1/+1 for each other creature you control with flying.\n{2}{W}{U}: Create a 1/1 white Cat Bird creature token with flying.",
+        "toughness": "1",
+        "type": "Creature - Elemental Cat",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/6/2/6209dbfd-b765-44c5-b3ad-94f6e0705926.jpg"
+    },
+    {
+        "artist": "Slawomir Maniak",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U",
+            "W"
+        ],
+        "colors": [
+            "U",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}{U}",
+        "multiverseId": null,
+        "name": "Skycat Sovereign",
+        "names": null,
+        "number": "344",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Elemental",
+            "Cat"
+        ],
+        "superTypes": [],
+        "text": "Flying\nSkycat Sovereign gets +1/+1 for each other creature you control with flying.\n{2}{W}{U}: Create a 1/1 white Cat Bird creature token with flying.",
+        "toughness": "1",
+        "type": "Creature - Elemental Cat",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/3/2/32b08d66-4168-433d-9655-08f64b72e2cc.jpg"
+    },
+    {
         "artist": "Viktor Titov",
         "cmc": 4.0,
         "colorIdentity": [
@@ -5282,6 +6074,69 @@
         "url": "https://img.scryfall.com/cards/normal/front/6/7/673d14b1-e93a-4594-b2c9-792696adb991.jpg"
     },
     {
+        "artist": "Noah Bradley",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G",
+            "R",
+            "U"
+        ],
+        "colors": [
+            "G",
+            "R",
+            "U"
+        ],
+        "flavor": "She wept, not from perfect understanding, but from serene gratitude.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}{U}{R}",
+        "multiverseId": null,
+        "name": "Song of Creation",
+        "names": null,
+        "number": "210",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "You may play an additional land on each of your turns.\nWhenever you cast a spell, draw two cards.\nAt the beginning of your end step, discard your hand.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://img.scryfall.com/cards/normal/front/b/7/b7320233-1c83-4f61-8c08-cc8361867256.jpg"
+    },
+    {
+        "artist": "Kimonas Theodossiou",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "R"
+        ],
+        "colors": [
+            "B",
+            "R"
+        ],
+        "flavor": "The call of the wild is rarely a solo.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B/R}{B/R}",
+        "multiverseId": null,
+        "name": "Sonorous Howlbonder",
+        "names": null,
+        "number": "230",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "Menace\nEach creature you control with menace can't be blocked except by three or more creatures.",
+        "toughness": "2",
+        "type": "Creature - Human Warrior",
+        "types": "Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/5/9/595f0b25-6e6e-43c4-a4a0-903920067df1.jpg"
+    },
+    {
         "artist": "Lucas Graciano",
         "cmc": 3.0,
         "colorIdentity": [
@@ -5320,7 +6175,7 @@
         "colors": [
             "W"
         ],
-        "flavor": null,
+        "flavor": "\"Amazing! I was only trying to teach her to sit!\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{W}",
@@ -5463,6 +6318,33 @@
         "type": "Creature - Bird Goat",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/2/a/2afded81-2fc1-4285-bf48-d25f72e72138.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"World's better with one fewer poacher in it.\"\n\u2014Winota, heartbonder",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}",
+        "multiverseId": null,
+        "name": "Swallow Whole",
+        "names": null,
+        "number": "35",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "As an additional cost to cast this spell, tap an untapped creature you control.\nExile target tapped creature. Put a +1/+1 counter on the creature tapped to cast this spell.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://img.scryfall.com/cards/normal/front/c/3/c3b9140b-848f-4886-8c28-eccd3829a607.jpg"
     },
     {
         "artist": "Kieran Yanner",
@@ -6397,6 +7279,35 @@
         "url": "https://img.scryfall.com/cards/normal/front/c/e/ce945f7e-ded9-4819-9313-d50d3aad40fa.jpg"
     },
     {
+        "artist": "Jonas De Ro",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R",
+            "W"
+        ],
+        "colors": [
+            "R",
+            "W"
+        ],
+        "flavor": "\"I defy this world to try out defenses now. Send pterons and skycats. Send Vadrok!\"\n\u2014Janae, Coppercoat architect",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}{W}",
+        "multiverseId": null,
+        "name": "Zenith Flare",
+        "names": null,
+        "number": "217",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Zenith Flare deals X damage to any target and you gain X life, where X is the number of cards with a cycling ability in your graveyard.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://img.scryfall.com/cards/normal/front/0/e/0efac1ed-3f01-487c-86be-8239568b4425.jpg"
+    },
+    {
         "artist": "Antonio Jos\u00e9 Manzanedo",
         "cmc": 5.0,
         "colorIdentity": [
@@ -6428,5 +7339,39 @@
         "type": "Legendary Creature - Dinosaur",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/9/a/9a0639a0-c898-4a07-975c-a02bdd53175b.jpg"
+    },
+    {
+        "artist": "Jesper Ejsing",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R",
+            "W"
+        ],
+        "colors": [
+            "R",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R/W}{R/W}",
+        "multiverseId": null,
+        "name": "Zirda, the Dawnwaker",
+        "names": null,
+        "number": "233",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Elemental",
+            "Fox"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Companion \u2014 Each permanent card in your starting deck has an activated ability. (If this card is your chosen companion, you may cast it once from outside the game.)\nAbilities you activate that aren't mana abilities cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana.\n{1}, {T}: Target creature can't block this turn.",
+        "toughness": "3",
+        "type": "Legendary Creature - Elemental Fox",
+        "types": " Creature ",
+        "url": "https://img.scryfall.com/cards/normal/front/1/b/1bd8e61c-2ee8-4243-a848-7008810db8a0.jpg"
     }
 ]
