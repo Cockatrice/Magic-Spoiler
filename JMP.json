@@ -154,12 +154,12 @@
         "power": "2",
         "rarity": "Uncommon",
         "subTypes": [
-            "Hound"
+            "Dog"
         ],
         "superTypes": [],
         "text": "Flash (You may cast this spell any time you could cast an instant.)\nWhen Affa Guard Hound enters the battlefield, target creature gets +0/+3 until end of turn.",
         "toughness": "2",
-        "type": "Creature - Hound",
+        "type": "Creature - Dog",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/f/7/f762546c-f5eb-420d-a8f7-c3566cd8f506.jpg"
     },
@@ -749,12 +749,12 @@
         "rarity": "Common",
         "subTypes": [
             "Elemental",
-            "Hound"
+            "Dog"
         ],
         "superTypes": [],
         "text": "Whenever Ashmouth Hound blocks or becomes blocked by a creature, Ashmouth Hound deals 1 damage to that creature.",
         "toughness": "1",
-        "type": "Creature - Elemental Hound",
+        "type": "Creature - Elemental Dog",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/a/2/a2b4cbb7-c9ad-4320-9322-a6a3afbc4a50.jpg"
     },
@@ -1144,7 +1144,7 @@
             "Sphinx"
         ],
         "superTypes": [],
-        "text": "Flying\nWhenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of their library into their graveyard.",
+        "text": "Flying\nWhenever a source deals damage to Belltower Sphinx, that source's controller mills that many cards.",
         "toughness": "5",
         "type": "Creature - Sphinx",
         "types": "Creature ",
@@ -1870,7 +1870,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "If an opponent would mill one or more cards, they mill twice that many cards insted. (To mill a card, a player puts the top card of their library into their graveyard.)",
+        "text": "If an opponent would mill one or more cards, they mill twice that many cards instead. (To mill a card, a player puts the top card of their library into their graveyard.)",
         "toughness": "4",
         "type": "Legendary Creature - Human Advisor",
         "types": " Creature ",
@@ -2059,12 +2059,12 @@
         "power": "3",
         "rarity": "Common",
         "subTypes": [
-            "Hound"
+            "Dog"
         ],
         "superTypes": [],
         "text": "Whenever you cast a noncreature spell, Cathar's Companion gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
         "toughness": "1",
-        "type": "Creature - Hound",
+        "type": "Creature - Dog",
         "types": "Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/0/2/0291a964-1117-4fbd-9193-9719b273c348.jpg"
     },
@@ -2771,7 +2771,7 @@
             "Bird"
         ],
         "superTypes": [],
-        "text": "Flying\nWhen Crow of Dark Tidings enters the battlefield or dies, put the top two cards of your library into your graveyard.",
+        "text": "Flying\nWhen Crow of Dark Tidings enters the battlefield or dies, mill two cards.",
         "toughness": "1",
         "type": "Creature - Zombie Bird",
         "types": "Creature ",
@@ -4800,7 +4800,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "You draw two cards, lose 2 life, and put the top two cards of your library into your graveyard.",
+        "text": "You draw two cards, lose 2 life, then mill two cards.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -4824,7 +4824,7 @@
         "names": null,
         "number": "323",
         "power": "2",
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "subTypes": [
             "Dragon"
         ],
@@ -6203,14 +6203,14 @@
         "power": "2",
         "rarity": "Rare",
         "subTypes": [
-            "Hound"
+            "Dog"
         ],
         "superTypes": [
             "Legendary"
         ],
         "text": "",
         "toughness": "2",
-        "type": "Legendary Creature - Hound",
+        "type": "Legendary Creature - Dog",
         "types": " Creature ",
         "url": "https://img.scryfall.com/cards/normal/front/6/a/6afead32-3542-44c4-82d6-b6a81beb9f90.jpg"
     },
@@ -7577,7 +7577,7 @@
             "Angel"
         ],
         "superTypes": [],
-        "text": "Flying\nWhenever Maelstrom Archangel deals combat damage to a player, you may cast a nonland card from your hand without paying its mana cost.",
+        "text": "Flying\nWhenever Maelstrom Archangel deals combat damage to a player, you may cast a spell from your hand without paying its mana cost.",
         "toughness": "5",
         "type": "Creature - Angel",
         "types": "Creature ",
@@ -8030,7 +8030,7 @@
             "Merfolk"
         ],
         "superTypes": [],
-        "text": "Deathtouch\nWhen Mire Triton enters the battlefield, put the top two cards of your library into your graveyard and you gain 2 life.",
+        "text": "Deathtouch\nWhen Mire Triton enters the battlefield, mill two cards and you gain 2 life.",
         "toughness": "1",
         "type": "Creature - Zombie Merfolk",
         "types": "Creature ",
@@ -11151,7 +11151,7 @@
             "Rogue"
         ],
         "superTypes": [],
-        "text": "Whenever Selhoff Occultist or another creature dies, target player puts the top card of their library into their graveyard.",
+        "text": "Whenever Selhoff Occultist or another creature dies, target player mills a card.",
         "toughness": "3",
         "type": "Creature - Human Rogue",
         "types": "Creature ",
@@ -12610,7 +12610,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Counter target spell. Its controller puts the top three cards of their library into their graveyard.",
+        "text": "Counter target spell. Its controller mills three cards.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -12637,7 +12637,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Target player puts the top two cards of their library into their graveyard.\nDraw a card.",
+        "text": "Target player mills two cards.\nDraw a card.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -13026,7 +13026,7 @@
             "Wizard"
         ],
         "superTypes": [],
-        "text": "Whenever Towering-Wave Mystic deals damage, target player puts that many cards from the top of their library into their graveyard.",
+        "text": "Whenever Towering-Wave Mystic deals damage, target player mills that many cards.",
         "toughness": "1",
         "type": "Creature - Merfolk Wizard",
         "types": "Creature ",
@@ -13252,7 +13252,7 @@
             "Wizard"
         ],
         "superTypes": [],
-        "text": "{U}, {T}: Target player puts the top two cards of their library into their graveyard.",
+        "text": "{U}, {T}: Target player mills two cards.",
         "toughness": "4",
         "type": "Creature - Vedalken Wizard",
         "types": "Creature ",
@@ -13423,7 +13423,7 @@
             "Zombie"
         ],
         "superTypes": [],
-        "text": "When Wailing Ghoul enters the battlefield, put the top two cards of your library into your graveyard.",
+        "text": "When Wailing Ghoul enters the battlefield, mill two cards.",
         "toughness": "3",
         "type": "Creature - Zombie",
         "types": "Creature ",
@@ -13482,7 +13482,7 @@
             "Wall"
         ],
         "superTypes": [],
-        "text": "Defender\nWhen Wall of Lost Thoughts enters the battlefield, target player puts the top four cards of their library into their graveyard.",
+        "text": "Defender\nWhen Wall of Lost Thoughts enters the battlefield, target player mills four cards.",
         "toughness": "4",
         "type": "Creature - Wall",
         "types": "Creature ",

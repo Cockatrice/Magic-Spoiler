@@ -455,12 +455,12 @@
             "power": "2",
             "rarity": "Uncommon",
             "subTypes": [
-                "Hound"
+                "Dog"
             ],
             "superTypes": [],
             "text": "Flash (You may cast this spell any time you could cast an instant.)\nWhen Affa Guard Hound enters the battlefield, target creature gets +0/+3 until end of turn.",
             "toughness": "2",
-            "type": "Creature - Hound",
+            "type": "Creature - Dog",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/f/7/f762546c-f5eb-420d-a8f7-c3566cd8f506.jpg"
         },
@@ -1050,12 +1050,12 @@
             "rarity": "Common",
             "subTypes": [
                 "Elemental",
-                "Hound"
+                "Dog"
             ],
             "superTypes": [],
             "text": "Whenever Ashmouth Hound blocks or becomes blocked by a creature, Ashmouth Hound deals 1 damage to that creature.",
             "toughness": "1",
-            "type": "Creature - Elemental Hound",
+            "type": "Creature - Elemental Dog",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/a/2/a2b4cbb7-c9ad-4320-9322-a6a3afbc4a50.jpg"
         },
@@ -1445,7 +1445,7 @@
                 "Sphinx"
             ],
             "superTypes": [],
-            "text": "Flying\nWhenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of their library into their graveyard.",
+            "text": "Flying\nWhenever a source deals damage to Belltower Sphinx, that source's controller mills that many cards.",
             "toughness": "5",
             "type": "Creature - Sphinx",
             "types": "Creature ",
@@ -2171,7 +2171,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "If an opponent would mill one or more cards, they mill twice that many cards insted. (To mill a card, a player puts the top card of their library into their graveyard.)",
+            "text": "If an opponent would mill one or more cards, they mill twice that many cards instead. (To mill a card, a player puts the top card of their library into their graveyard.)",
             "toughness": "4",
             "type": "Legendary Creature - Human Advisor",
             "types": " Creature ",
@@ -2360,12 +2360,12 @@
             "power": "3",
             "rarity": "Common",
             "subTypes": [
-                "Hound"
+                "Dog"
             ],
             "superTypes": [],
             "text": "Whenever you cast a noncreature spell, Cathar's Companion gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
             "toughness": "1",
-            "type": "Creature - Hound",
+            "type": "Creature - Dog",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/0/2/0291a964-1117-4fbd-9193-9719b273c348.jpg"
         },
@@ -3072,7 +3072,7 @@
                 "Bird"
             ],
             "superTypes": [],
-            "text": "Flying\nWhen Crow of Dark Tidings enters the battlefield or dies, put the top two cards of your library into your graveyard.",
+            "text": "Flying\nWhen Crow of Dark Tidings enters the battlefield or dies, mill two cards.",
             "toughness": "1",
             "type": "Creature - Zombie Bird",
             "types": "Creature ",
@@ -5101,7 +5101,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "You draw two cards, lose 2 life, and put the top two cards of your library into your graveyard.",
+            "text": "You draw two cards, lose 2 life, then mill two cards.",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -5125,7 +5125,7 @@
             "names": null,
             "number": "323",
             "power": "2",
-            "rarity": "Common",
+            "rarity": "Uncommon",
             "subTypes": [
                 "Dragon"
             ],
@@ -6504,14 +6504,14 @@
             "power": "2",
             "rarity": "Rare",
             "subTypes": [
-                "Hound"
+                "Dog"
             ],
             "superTypes": [
                 "Legendary"
             ],
             "text": "",
             "toughness": "2",
-            "type": "Legendary Creature - Hound",
+            "type": "Legendary Creature - Dog",
             "types": " Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/6/a/6afead32-3542-44c4-82d6-b6a81beb9f90.jpg"
         },
@@ -7878,7 +7878,7 @@
                 "Angel"
             ],
             "superTypes": [],
-            "text": "Flying\nWhenever Maelstrom Archangel deals combat damage to a player, you may cast a nonland card from your hand without paying its mana cost.",
+            "text": "Flying\nWhenever Maelstrom Archangel deals combat damage to a player, you may cast a spell from your hand without paying its mana cost.",
             "toughness": "5",
             "type": "Creature - Angel",
             "types": "Creature ",
@@ -8331,7 +8331,7 @@
                 "Merfolk"
             ],
             "superTypes": [],
-            "text": "Deathtouch\nWhen Mire Triton enters the battlefield, put the top two cards of your library into your graveyard and you gain 2 life.",
+            "text": "Deathtouch\nWhen Mire Triton enters the battlefield, mill two cards and you gain 2 life.",
             "toughness": "1",
             "type": "Creature - Zombie Merfolk",
             "types": "Creature ",
@@ -11452,7 +11452,7 @@
                 "Rogue"
             ],
             "superTypes": [],
-            "text": "Whenever Selhoff Occultist or another creature dies, target player puts the top card of their library into their graveyard.",
+            "text": "Whenever Selhoff Occultist or another creature dies, target player mills a card.",
             "toughness": "3",
             "type": "Creature - Human Rogue",
             "types": "Creature ",
@@ -12911,7 +12911,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Counter target spell. Its controller puts the top three cards of their library into their graveyard.",
+            "text": "Counter target spell. Its controller mills three cards.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -12938,7 +12938,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Target player puts the top two cards of their library into their graveyard.\nDraw a card.",
+            "text": "Target player mills two cards.\nDraw a card.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -13327,7 +13327,7 @@
                 "Wizard"
             ],
             "superTypes": [],
-            "text": "Whenever Towering-Wave Mystic deals damage, target player puts that many cards from the top of their library into their graveyard.",
+            "text": "Whenever Towering-Wave Mystic deals damage, target player mills that many cards.",
             "toughness": "1",
             "type": "Creature - Merfolk Wizard",
             "types": "Creature ",
@@ -13553,7 +13553,7 @@
                 "Wizard"
             ],
             "superTypes": [],
-            "text": "{U}, {T}: Target player puts the top two cards of their library into their graveyard.",
+            "text": "{U}, {T}: Target player mills two cards.",
             "toughness": "4",
             "type": "Creature - Vedalken Wizard",
             "types": "Creature ",
@@ -13724,7 +13724,7 @@
                 "Zombie"
             ],
             "superTypes": [],
-            "text": "When Wailing Ghoul enters the battlefield, put the top two cards of your library into your graveyard.",
+            "text": "When Wailing Ghoul enters the battlefield, mill two cards.",
             "toughness": "3",
             "type": "Creature - Zombie",
             "types": "Creature ",
@@ -13783,7 +13783,7 @@
                 "Wall"
             ],
             "superTypes": [],
-            "text": "Defender\nWhen Wall of Lost Thoughts enters the battlefield, target player puts the top four cards of their library into their graveyard.",
+            "text": "Defender\nWhen Wall of Lost Thoughts enters the battlefield, target player mills four cards.",
             "toughness": "4",
             "type": "Creature - Wall",
             "types": "Creature ",
@@ -15634,7 +15634,7 @@
                 "Aura"
             ],
             "superTypes": [],
-            "text": "Flash\nEnchant creature\nWhen Capture Sphere enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+            "text": "Flash (You may cast this spell any time you could cast an instant.)\nEnchant creature\nWhen Capture Sphere enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
             "toughness": null,
             "type": "Enchantment - Aura",
             "types": "Enchantment ",
@@ -16189,7 +16189,7 @@
                 "Pegasus"
             ],
             "superTypes": [],
-            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)",
+            "text": "Flying",
             "toughness": "3",
             "type": "Creature - Pegasus",
             "types": "Creature ",
@@ -16813,7 +16813,7 @@
                 "Aura"
             ],
             "superTypes": [],
-            "text": "Enchant creature\nEnchanted creature gets +2/+2, has first strike, and is a Knight in addition to its other types.",
+            "text": "Enchant creature\nEnchanted creature gets +2/+2, has first strike, and is a Knight in addition to its other types. (It deals combat damage before creatures without first strike.)",
             "toughness": null,
             "type": "Enchantment - Aura",
             "types": "Enchantment ",
@@ -17167,7 +17167,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Put a +1/+1 counter on target creature you control. It gains protection from the color of your choice until end of turn.",
+            "text": "Put a +1/+1 counter on target creature you control. It gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -17254,7 +17254,7 @@
                 "Imp"
             ],
             "superTypes": [],
-            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{B}: Fetid Imp gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
+            "text": "Flying\n{B}: Fetid Imp gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
             "toughness": "2",
             "type": "Creature - Imp",
             "types": "Creature ",
@@ -18423,7 +18423,7 @@
             "rarity": "Mythic Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Search your library for a card and put that card into your hand, then shuffle your library. You lose 3 life.",
+            "text": "Search your library for a card, put that card into your hand, then shuffle your library. You lose 3 life.",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -18450,7 +18450,7 @@
             "rarity": "Mythic Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Search your library for a card and put that card into your hand, then shuffle your library. You lose 3 life.",
+            "text": "Search your library for a card, put that card into your hand, then shuffle your library. You lose 3 life.",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -19980,7 +19980,7 @@
                 "Snake"
             ],
             "superTypes": [],
-            "text": "Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl.",
+            "text": "Whenever you draw a card, put a +1/+1 counter on Lorescale Coatl.",
             "toughness": "2",
             "type": "Creature - Snake",
             "types": "Creature ",
@@ -21150,7 +21150,7 @@
                 "Wall"
             ],
             "superTypes": [],
-            "text": "Defender\n{2}, {T}, Sacrifice a creature with defender: Draw a card.",
+            "text": "Defender (This creature can't attack.)\n{2}, {T}, Sacrifice a creature with defender: Draw a card.",
             "toughness": "3",
             "type": "Creature - Plant Wall",
             "types": "Creature ",
@@ -21374,7 +21374,7 @@
                 "Dryad"
             ],
             "superTypes": [],
-            "text": "Whenever you cast a white, blue, black, or red spell, put a +1/+1 counter on Quirion Dryad.",
+            "text": "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on Quirion Dryad.",
             "toughness": "1",
             "type": "Creature - Dryad",
             "types": "Creature ",
@@ -21683,7 +21683,7 @@
             "rarity": "Uncommon",
             "subTypes": [],
             "superTypes": [],
-            "text": "Whenever you cast a noncreature spell, you may have Riddleform become a 3/3 Sphinx creature with flying in addition to its other types until end of turn.\n{2}{U}: Scry 1.",
+            "text": "Whenever you cast a noncreature spell, you may have Riddleform become a 3/3 Sphinx creature with flying in addition to its other types until end of turn.\n{2}{U}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
             "toughness": null,
             "type": "Enchantment",
             "types": "Enchantment",
@@ -21911,7 +21911,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "As Runed Halo enters the battlefield, choose a card name.\nYou have protection from the chosen name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)",
+            "text": "As Runed Halo enters the battlefield, choose a card name.\nYou have protection from the chosen card name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)",
             "toughness": null,
             "type": "Enchantment",
             "types": "Enchantment",
@@ -21938,7 +21938,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "As Runed Halo enters the battlefield, choose a card name.\nYou have protection from the chosen name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)",
+            "text": "As Runed Halo enters the battlefield, choose a card name.\nYou have protection from the chosen card name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)",
             "toughness": null,
             "type": "Enchantment",
             "types": "Enchantment",
@@ -22536,7 +22536,7 @@
                 "Aura"
             ],
             "superTypes": [],
-            "text": "Enchant creature you control\nWhen Setessan Training enters the battlefield, draw a card.\nEnchanted creature gets +1/+0 and has trample.",
+            "text": "Enchant creature you control\nWhen Setessan Training enters the battlefield, draw a card.\nEnchanted creature gets +1/+0 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
             "toughness": null,
             "type": "Enchantment - Aura",
             "types": "Enchantment ",
@@ -22903,7 +22903,7 @@
                 "Spider"
             ],
             "superTypes": [],
-            "text": "Reach\nWhenever Snarespinner blocks a creature with flying, Snarespinner gets +2/+0 until end of turn.",
+            "text": "Reach (This creature can block creatures with flying.)\nWhenever Snarespinner blocks a creature with flying, Snarespinner gets +2/+0 until end of turn.",
             "toughness": "3",
             "type": "Creature - Spider",
             "types": "Creature ",
@@ -23498,7 +23498,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Target creature gets +3/+0 and gains first strike until end of turn.",
+            "text": "Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -25056,7 +25056,7 @@
                 "Warrior"
             ],
             "superTypes": [],
-            "text": "Reach\nWhen Turret Ogre enters the battlefield, if you control another creature with power 4 or greater, Turret Ogre deals 2 damage to each opponent.",
+            "text": "Reach (This creature can block creatures with flying.)\nWhen Turret Ogre enters the battlefield, if you control another creature with power 4 or greater, Turret Ogre deals 2 damage to each opponent.",
             "toughness": "3",
             "type": "Creature - Ogre Warrior",
             "types": "Creature ",
@@ -25570,7 +25570,7 @@
                 "Wall"
             ],
             "superTypes": [],
-            "text": "Defender\nWhen Wall of Runes enters the battlefield, scry 1.",
+            "text": "Defender (This creature can't attack.)\nWhen Wall of Runes enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
             "toughness": "4",
             "type": "Creature - Wall",
             "types": "Creature ",
