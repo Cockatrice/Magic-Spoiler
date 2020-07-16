@@ -197,8 +197,7 @@ def open_header(card_xml_file: IO[Any]) -> None:
         + "  -->\n"
         + "<info>\n"
         + "<author>Cockatrice/Magic-Spoiler</author>\n"
-        #TODO, correct date format
-        + "<createdAt>" + datetime.datetime.utcnow().strftime("%a, %b %d %Y, %H:%M:%S") + "</createdAt>\n"
+        + "<createdAt>" + datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S") + "(UTC)" + "</createdAt>\n"
         + "<sourceUrl>https://github.com/Cockatrice/Magic-Spoiler/blob/files/spoiler.xml</sourceUrl>\n"
         #TODO, version schema
         + "<sourceVersion>???</sourceVersion>\n"
