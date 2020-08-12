@@ -1,6 +1,64 @@
 {
     "AKR": [
         {
+            "artist": "Sidharth Chaturvedi",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Aerial Guide",
+            "names": null,
+            "number": "U-AG",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Drake"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever Aerial Guide attacks, another target attacking creature gains flying until end of turn.",
+            "toughness": "2",
+            "type": "Creature - Drake",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/7/9/79c594bf-ca60-49d6-8c87-ed9d9f138334.jpg"
+        },
+        {
+            "artist": "James Paick",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}{U}",
+            "multiverseId": null,
+            "name": "Ancient Crab",
+            "names": null,
+            "number": "U-AC",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Crab"
+            ],
+            "superTypes": [],
+            "text": "",
+            "toughness": "5",
+            "type": "Creature - Crab",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/a/da0e5f4d-ab0a-4eae-948c-4c7c2898a463.jpg"
+        },
+        {
             "artist": "Min Yum",
             "cmc": 5.0,
             "colorIdentity": [
@@ -114,6 +172,92 @@
             "url": "https://img.scryfall.com/cards/normal/front/2/8/2827614d-97b8-45b3-a820-1971a67a6e29.jpg"
         },
         {
+            "artist": "Seb McKinnon",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}{B}",
+            "multiverseId": null,
+            "name": "Archfiend of Ifnir",
+            "names": null,
+            "number": "B-AOF",
+            "power": "5",
+            "rarity": "Rare",
+            "subTypes": [
+                "Demon"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever you cycle or discard another card, put a -1/-1 counter on each creature your opponents control.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": "4",
+            "type": "Creature - Demon",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/f/cfd64d08-76d6-4253-93b0-2c3dd0e60f5a.jpg"
+        },
+        {
+            "artist": "Tommy Arnold",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "As Foretold",
+            "names": null,
+            "number": "U-AF",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "At the beginning of your upkeep, put a time counter on As Foretold.\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with converted mana cost X or less, where X is the number of time counters on As Foretold.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/b/7/b74222e1-f3a1-4d40-b532-e4f722ec02f0.jpg"
+        },
+        {
+            "artist": "Jakub Kasper",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Aven Initiate",
+            "names": null,
+            "number": "U-AI",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Bird",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Flying\nEmbalm {6}{U} ({6}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Bird Warrior with no mana cost. Embalm only as a sorcery.)",
+            "toughness": "2",
+            "type": "Creature - Bird Warrior",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/b/eba15599-ba74-4506-847a-4472214d8d33.jpg"
+        },
+        {
             "artist": "Eric Deschamps",
             "cmc": 3.0,
             "colorIdentity": [
@@ -172,6 +316,36 @@
             "type": "Creature - Bird Cleric",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/a/5/a521c421-4051-4cd7-80ce-48204f358e2b.jpg"
+        },
+        {
+            "artist": "Seb McKinnon",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Baleful Ammit",
+            "names": null,
+            "number": "B-BA",
+            "power": "4",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Crocodile",
+                "Demon"
+            ],
+            "superTypes": [],
+            "text": "Lifelink\nWhen Baleful Ammit enters the battlefield, put a -1/-1 counter on target creature you control.",
+            "toughness": "3",
+            "type": "Creature - Crocodile Demon",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/1/9/19a3b84b-1da5-4047-8b12-75fbec065b70.jpg"
         },
         {
             "artist": "Magali Villeneuve",
@@ -258,6 +432,183 @@
             "type": "Creature - Jackal Archer",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/5/a/5a140de7-f51d-4d2c-a3ec-21cf18c63f00.jpg"
+        },
+        {
+            "artist": "Nils Hamm",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Blighted Bat",
+            "names": null,
+            "number": "B-BB",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Zombie",
+                "Bat"
+            ],
+            "superTypes": [],
+            "text": "Flying\n{1}: Blighted Bat gains haste until end of turn.",
+            "toughness": "1",
+            "type": "Creature - Zombie Bat",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/a/da5488a5-d890-48fa-9fc9-4814cb28c48e.jpg"
+        },
+        {
+            "artist": "Yeong-Hao Han",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Bone Picker",
+            "names": null,
+            "number": "B-BP",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Bird"
+            ],
+            "superTypes": [],
+            "text": "This spell costs {3} less to cast if a creature died this turn.\nFlying, deathtouch",
+            "toughness": "2",
+            "type": "Creature - Bird",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/0/00850712-704b-46af-93e6-51d7d79832f9.jpg"
+        },
+        {
+            "artist": "Chase Stone",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Bontu the Glorified",
+            "names": null,
+            "number": "B-BTG",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "God"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Menace, indestructible\nBontu the Glorified can't attack or block unless a creature died under your control this turn.\n{1}{B}, Sacrifice another creature: Scry 1. Each opponent loses 1 life and you gain 1 life.",
+            "toughness": "6",
+            "type": "Legendary Creature - God",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/4/34fab289-9ef7-49ca-b5c8-0ade254bda28.jpg"
+        },
+        {
+            "artist": "Victor Adame Minguez",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{B}",
+            "multiverseId": null,
+            "name": "Bontu's Last Reckoning",
+            "names": null,
+            "number": "B-BLR",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Destroy all creatures. Lands you control don't untap during your next untap step.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/a/e/aeb03249-62d3-4bfe-9575-69ba8ca56f61.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Cartouche of Ambition",
+            "names": null,
+            "number": "B-COA",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Aura",
+                "Cartouche"
+            ],
+            "superTypes": [],
+            "text": "Enchant creature you control\nWhen Cartouche of Ambition enters the battlefield, you may put a -1/-1 counter on target creature.\nEnchanted creature gets +1/+1 and has lifelink.",
+            "toughness": null,
+            "type": "Enchantment - Aura Cartouche",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/2/c2d9b3f2-2eb5-43f9-8bba-c039b650baf9.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Cartouche of Knowledge",
+            "names": null,
+            "number": "U-COK",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Aura",
+                "Cartouche"
+            ],
+            "superTypes": [],
+            "text": "Enchant creature you control\nWhen Cartouche of Knowledge enters the battlefield, draw a card.\nEnchanted creature gets +1/+1 and has flying.",
+            "toughness": null,
+            "type": "Enchantment - Aura Cartouche",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/2/0/20c806dc-a1f5-463d-93c9-58f37002bb2e.jpg"
         },
         {
             "artist": "Kieran Yanner",
@@ -347,6 +698,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/e/c/ec265d99-808f-4024-91b2-6575b46fd6f8.jpg"
         },
         {
+            "artist": "John Stanko",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Censor",
+            "names": null,
+            "number": "B-CEN",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target spell unless its controller pays {1}.\nCycling {U} ({U}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/f/3/f3ecc497-80c5-4916-96a5-16e51c8d255e.jpg"
+        },
+        {
             "artist": "Winona Nelson",
             "cmc": 4.0,
             "colorIdentity": [
@@ -377,6 +755,36 @@
             "url": "https://img.scryfall.com/cards/normal/front/b/e/be86bd0a-46df-4e53-8fe3-7575d0670eef.jpg"
         },
         {
+            "artist": "Even Amundsen",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Champion of Wits",
+            "names": null,
+            "number": "U-WITS",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Naga",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "When Champion of Wits enters the battlefield, you may draw cards equal to its power. If you do, discard two cards.\nEternalize {5}{U}{U} ({5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Naga Wizard with no mana cost. Eternalize only as a sorcery.)",
+            "toughness": "1",
+            "type": "Creature - Naga Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/b/6/b685b930-3201-4eb1-ac29-9c926651d118.jpg"
+        },
+        {
             "artist": "Lake Hurwitz",
             "cmc": 4.0,
             "colorIdentity": [
@@ -402,6 +810,93 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/a/6/a6a13554-22d3-40e3-bf70-63ff939bc434.jpg"
+        },
+        {
+            "artist": "Ryan Alexander Lee",
+            "cmc": 10.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Commit",
+            "names": [
+                "Commit",
+                "Memory"
+            ],
+            "number": "U-C2Ma",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Put target spell or nonland permanent into its owner's library second from the top.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/d/8/d8a99b6b-0ff6-4921-8ce4-eafe6c3493d0.jpg"
+        },
+        {
+            "artist": "Ryan Alexander Lee",
+            "cmc": 10.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "{4}{U}{U}",
+            "multiverseId": null,
+            "name": "Memory",
+            "names": [
+                "Commit",
+                "Memory"
+            ],
+            "number": "U-C2Mb",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)\nEach player shuffles their hand and graveyard into their library, then draws seven cards.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/d/8/d8a99b6b-0ff6-4921-8ce4-eafe6c3493d0.jpg"
+        },
+        {
+            "artist": "Lucas Graciano",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Compelling Argument",
+            "names": null,
+            "number": "U-CAG",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target player mills five cards.\nCycling {U} ({U}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/8/f/8fc2a3b7-ea29-4d04-aaeb-1d79850ae821.jpg"
         },
         {
             "artist": "Eric Deschamps",
@@ -431,6 +926,33 @@
             "type": "Enchantment - Aura",
             "types": "Enchantment ",
             "url": "https://img.scryfall.com/cards/normal/front/3/7/377ddb92-3abe-4d5c-a140-7b69fefd0e96.jpg"
+        },
+        {
+            "artist": "Tyler Jacobson",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Countervailing Winds",
+            "names": null,
+            "number": "U-CW",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target spell unless its controller pays {1} for each card in your graveyard.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/0/e/0e127810-a9e8-44ff-a0a4-bf0bffeb9d1d.jpg"
         },
         {
             "artist": "Lucas Graciano",
@@ -489,6 +1011,94 @@
             "type": "Creature - Crocodile",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/0/f/0f0e7de5-1191-4076-8f73-82e5ce65e0f3.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{B}{B}",
+            "multiverseId": null,
+            "name": "Cruel Reality",
+            "names": null,
+            "number": "B-CR",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Aura",
+                "Curse"
+            ],
+            "superTypes": [],
+            "text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker. If the player can't, they lose 5 life.",
+            "toughness": null,
+            "type": "Enchantment - Aura Curse",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/e/ee5ba8e9-869e-4f68-b668-8ef03929ff3f.jpg"
+        },
+        {
+            "artist": "Lius Lasahido",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{U}{U}",
+            "multiverseId": null,
+            "name": "Cryptic Serpent",
+            "names": null,
+            "number": "U-CSE",
+            "power": "6",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Serpent"
+            ],
+            "superTypes": [],
+            "text": "This spell costs {1} less to cast for each instant and sorcery card in your graveyard.",
+            "toughness": "5",
+            "type": "Creature - Serpent",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/0/90220964-5f7d-4f37-955d-ba906bc55d25.jpg"
+        },
+        {
+            "artist": "Christine Choi",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}{U}",
+            "multiverseId": null,
+            "name": "Curator of Mysteries",
+            "names": null,
+            "number": "U-COM",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Sphinx"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever you cycle or discard another card, scry 1.\nCycling {U} ({U}, Discard this card: Draw a card.)",
+            "toughness": "4",
+            "type": "Creature - Sphinx",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/2/4/24385303-cb45-4ee3-a6a8-642b3cec7b75.jpg"
         },
         {
             "artist": "Zack Stella",
@@ -550,6 +1160,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/0/c/0cac5e50-b847-4f6e-9941-453c7a3cfc0e.jpg"
         },
         {
+            "artist": "Manuel Casta\u00f1\u00f3n",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}{B}",
+            "multiverseId": null,
+            "name": "Demonic Pact",
+            "names": null,
+            "number": "B-DP",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "At the beginning of your upkeep, choose one that hasn't been chosen \u2014\n\u2022 Demonic Pact deals 4 damage to any target and you gain 4 life.\n\u2022 Target opponent discards two cards.\n\u2022 Draw two cards.\n\u2022 You lose the game.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/b/0/b0122db7-6a3a-4dda-9357-fcac5376f1b2.jpg"
+        },
+        {
             "artist": "Sara Winters",
             "cmc": 3.0,
             "colorIdentity": [
@@ -609,6 +1246,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/b/4/b446e445-5305-4c3d-a146-caeafb26beca.jpg"
         },
         {
+            "artist": "Mark Behm",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Dispossess",
+            "names": null,
+            "number": "B-DIS",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose an artifact card name. Search target opponent's graveyard, hand, and library for any number of cards with the chosen name and exile them. Then that player shuffles their library.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/8/1/8196a9ba-b973-44dc-b616-436d6c24364c.jpg"
+        },
+        {
             "artist": "Bastien L. Deharme",
             "cmc": 2.0,
             "colorIdentity": [
@@ -663,7 +1327,149 @@
             "url": "https://img.scryfall.com/cards/normal/front/3/a/3a649fc4-234d-4768-a768-1146e10f3a51.jpg"
         },
         {
-            "artist": "Noah Bradley",
+            "artist": "Tony Foti",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Doomed Dissenter",
+            "names": null,
+            "number": "B-DDIS",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Human"
+            ],
+            "superTypes": [],
+            "text": "When Doomed Dissenter dies, create a 2/2 black Zombie creature token.",
+            "toughness": "1",
+            "type": "Creature - Human",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/1/318e58cf-31f0-460d-b456-86c0bd2220e2.jpg"
+        },
+        {
+            "artist": "Darek Zabrocki",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Doomfall",
+            "names": null,
+            "number": "B-DF",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose one \u2014\n\u2022 Target opponent exiles a creature they control.\n\u2022 Target opponent reveals their hand. You choose a nonland card from it. Exile that card.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/4/7/47d9bed8-6657-472c-9553-8def06ce9f23.jpg"
+        },
+        {
+            "artist": "John Severin Brassell",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Drake Haven",
+            "names": null,
+            "number": "U-DH",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Whenever you cycle or discard a card, you may pay {1}. If you do, create a 2/2 blue Drake creature token with flying.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/4/c/4cfe0645-79ec-4e94-a6eb-b38b920d2dab.jpg"
+        },
+        {
+            "artist": "Josh Hass",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Dread Wanderer",
+            "names": null,
+            "number": "B-DW",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Zombie",
+                "Jackal"
+            ],
+            "superTypes": [],
+            "text": "Dread Wanderer enters the battlefield tapped.\n{2}{B}: Return Dread Wanderer from your graveyard to the battlefield. Activate this ability only any time you could cast a sorcery and only if you have one or fewer cards in hand.",
+            "toughness": "1",
+            "type": "Creature - Zombie Jackal",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/5/e5d02e15-2020-466e-9857-b8741eaa9ff6.jpg"
+        },
+        {
+            "artist": "Grzegorz Rutkowski",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Dune Beetle",
+            "names": null,
+            "number": "B-DB",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Insect"
+            ],
+            "superTypes": [],
+            "text": "",
+            "toughness": "4",
+            "type": "Creature - Insect",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/5/c/5c67c324-1acb-411c-9637-aa488a47e7d6.jpg"
+        },
+        {
+            "artist": "Kasia 'Kafis' Zieli\u0144ska",
             "cmc": 9.0,
             "colorIdentity": [
                 "W"
@@ -693,7 +1499,7 @@
             "url": "https://img.scryfall.com/cards/normal/front/7/f/7f6ebc44-b141-4119-be29-0285a56f644c.jpg"
         },
         {
-            "artist": "Noah Bradley",
+            "artist": "Kasia 'Kafis' Zieli\u0144ska",
             "cmc": 9.0,
             "colorIdentity": [
                 "W"
@@ -721,6 +1527,63 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://img.scryfall.com/cards/normal/front/7/f/7f6ebc44-b141-4119-be29-0285a56f644c.jpg"
+        },
+        {
+            "artist": "Josh Hass",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Essence Scatter",
+            "names": null,
+            "number": "U-ES",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target creature spell.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/3/c/3c102e4d-fa22-4e05-a2af-9014de929e64.jpg"
+        },
+        {
+            "artist": "Izzy",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Eternal of Harsh Truths",
+            "names": null,
+            "number": "U-EOHT",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Zombie",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)\nWhenever Eternal of Harsh Truths attacks and isn't blocked, draw a card.",
+            "toughness": "3",
+            "type": "Creature - Zombie Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/d/9d0f951b-a062-431b-81c6-cacf7bd5e95d.jpg"
         },
         {
             "artist": "Sara Winters",
@@ -809,6 +1672,89 @@
             "type": "Creature - Cat",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/8/a/8ad968cb-d348-45b2-977d-7c6a63646e2b.jpg"
+        },
+        {
+            "artist": "Christopher Burdett",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Festering Mummy",
+            "names": null,
+            "number": "B-FM",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Zombie"
+            ],
+            "superTypes": [],
+            "text": "When Festering Mummy dies, you may put a -1/-1 counter on target creature.",
+            "toughness": "1",
+            "type": "Creature - Zombie",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/9/0972790b-8d2b-46d8-866f-02c0c99d5dcf.jpg"
+        },
+        {
+            "artist": "Sidharth Chaturvedi",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}",
+            "multiverseId": null,
+            "name": "Final Reward",
+            "names": null,
+            "number": "B-FW",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Exile target creature.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/4/8/48e35bc5-d96f-4991-8e1b-56274d0d680e.jpg"
+        },
+        {
+            "artist": "Jung Park",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{U}{U}",
+            "multiverseId": null,
+            "name": "Floodwaters",
+            "names": null,
+            "number": "U-FW",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Return up to two target creatures to their owners' hands.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/4/3/43dff9b1-9a46-4737-80b1-7eec70f799b2.jpg"
         },
         {
             "artist": "Steve Argyle",
@@ -926,6 +1872,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/7/5/756a4d03-d452-4b86-bd70-eb10739a8888.jpg"
         },
         {
+            "artist": "Tony Foti",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Gravedigger",
+            "names": null,
+            "number": "B-GD",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Zombie"
+            ],
+            "superTypes": [],
+            "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
+            "toughness": "2",
+            "type": "Creature - Zombie",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/9/c97617e2-04cc-4230-a2ee-a2d636a0655a.jpg"
+        },
+        {
             "artist": "Steven Belledin",
             "cmc": 7.0,
             "colorIdentity": [
@@ -1010,6 +1985,63 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/0/e/0edab1ed-4c53-4f46-b1a4-e2aa2effbed7.jpg"
+        },
+        {
+            "artist": "James Ryman",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Hekma Sentinels",
+            "names": null,
+            "number": "U-HS",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Whenever you cycle or discard a card, Hekma Sentinels gets +1/+1 until end of turn.",
+            "toughness": "3",
+            "type": "Creature - Human Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/a/0/a0490cec-28db-459a-964e-e3a90878cbc6.jpg"
+        },
+        {
+            "artist": "Raoul Vitale",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Hieroglyphic Illumination",
+            "names": null,
+            "number": "U-HI",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Draw two cards.\nCycling {U} ({U}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/9/a/9aa207fd-fa97-40ab-bcef-6d45a2459687.jpg"
         },
         {
             "artist": "Daarken",
@@ -1099,6 +2131,35 @@
             "type": "Creature - Insect",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/4/0/4068158e-39ea-4acc-889c-e9fad93d482f.jpg"
+        },
+        {
+            "artist": "Daarken",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}",
+            "multiverseId": null,
+            "name": "Horror of the Broken Lands",
+            "names": null,
+            "number": "B-HOTBL",
+            "power": "4",
+            "rarity": "Common",
+            "subTypes": [
+                "Horror"
+            ],
+            "superTypes": [],
+            "text": "Whenever you cycle or discard another card, Horror of the Broken Lands gets +2/+1 until end of turn.\nCycling {B} ({B}, Discard this card: Draw a card.)",
+            "toughness": "4",
+            "type": "Creature - Horror",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/8/48343f8b-db94-4e68-9a17-0abc9571377d.jpg"
         },
         {
             "artist": "Jonas De Ro",
@@ -1238,6 +2299,185 @@
             "url": "https://img.scryfall.com/cards/normal/front/6/6/66e92112-5a0b-4e3f-9280-8a89e2a775d3.jpg"
         },
         {
+            "artist": "Kieran Yanner",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": "5",
+            "mana_cost": "{3}{U}{U}",
+            "multiverseId": null,
+            "name": "Jace, Unraveler of Secrets",
+            "names": null,
+            "number": "U-JUOS",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Jace"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "+1: Scry 1, then draw a card.\n\u22122: Return target creature to its owner's hand.\n\u22128: You get an emblem with \"Whenever an opponent casts their first spell each turn, counter that spell.\"",
+            "toughness": null,
+            "type": "Legendary Planeswalker - Jace",
+            "types": " Planeswalker ",
+            "url": "https://img.scryfall.com/cards/normal/front/7/d/7dfcc215-dfd6-4c7b-8a9f-911276114725.jpg"
+        },
+        {
+            "artist": "Chase Stone",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Kefnet the Mindful",
+            "names": null,
+            "number": "U-KTM",
+            "power": "5",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "God"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying, indestructible\nKefnet the Mindful can't attack or block unless you have seven or more cards in hand.\n{3}{U}: Draw a card, then you may return a land you control to its owner's hand.",
+            "toughness": "5",
+            "type": "Legendary Creature - God",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/c/6c5235a8-578a-48be-9967-79b42bcc8388.jpg"
+        },
+        {
+            "artist": "Tomasz Jedruszek",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Khenra Eternal",
+            "names": null,
+            "number": "B-KET",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Zombie",
+                "Jackal",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Afflict 1 (Whenever this creature becomes blocked, defending player loses 1 life.)",
+            "toughness": "2",
+            "type": "Creature - Zombie Jackal Warrior",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/1/8/1892e24d-57c1-4a56-968a-77f8a8b508fc.jpg"
+        },
+        {
+            "artist": "Yeong-Hao Han",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Labyrinth Guardian",
+            "names": null,
+            "number": "U-LG",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Illusion",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "When Labyrinth Guardian becomes the target of a spell, sacrifice it.\nEmbalm {3}{U} ({3}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Illusion Warrior with no mana cost. Embalm only as a sorcery.)",
+            "toughness": "3",
+            "type": "Creature - Illusion Warrior",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/8/38013d49-a9cd-4398-bb6f-f985ec81301d.jpg"
+        },
+        {
+            "artist": "Chris Rallis",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{U}{U}",
+            "multiverseId": null,
+            "name": "Lay Claim",
+            "names": null,
+            "number": "U-LYC",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Aura"
+            ],
+            "superTypes": [],
+            "text": "Enchant permanent\nYou control enchanted permanent.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Enchantment - Aura",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/7/1/713bc732-1d06-4c0a-925e-be5fe9503a5d.jpg"
+        },
+        {
+            "artist": "Randy Vargas",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Lethal Sting",
+            "names": null,
+            "number": "B-LS",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "As an additional cost to cast this spell, put a -1/-1 counter on a creature you control.\nDestroy target creature.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/4/0/404ff173-5121-46dd-a1c1-dc7afcd7b63f.jpg"
+        },
+        {
             "artist": "Daarken",
             "cmc": 1.0,
             "colorIdentity": [
@@ -1263,6 +2503,120 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://img.scryfall.com/cards/normal/front/e/8/e87e6db1-528b-4d3a-8c13-155760345089.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Liliana's Defeat",
+            "names": null,
+            "number": "B-LD",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Destroy target black creature or black planeswalker. If that permanent was a Liliana planeswalker, her controller loses 3 life.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/2/e/2edf6d59-6c04-49d0-9960-f7b6a33304da.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}{B}",
+            "multiverseId": null,
+            "name": "Liliana's Mastery",
+            "names": null,
+            "number": "B-LM",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Zombies you control get +1/+1.\nWhen Liliana's Mastery enters the battlefield, create two 2/2 black Zombie creature tokens.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/6/e/6ec0e486-c726-4e5d-807f-6d7474f2f061.jpg"
+        },
+        {
+            "artist": "Chris Rallis",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": "5",
+            "mana_cost": "{3}{B}{B}",
+            "multiverseId": null,
+            "name": "Liliana, Death's Majesty",
+            "names": null,
+            "number": "B-LDM",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Liliana"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "+1: Create a 2/2 black Zombie creature token. Mill two cards.\n\u22123: Return target creature card from your graveyard to the battlefield. That creature is a black Zombie in addition to its other colors and types.\n\u22127: Destroy all non-Zombie creatures.",
+            "toughness": null,
+            "type": "Legendary Planeswalker - Liliana",
+            "types": " Planeswalker ",
+            "url": "https://img.scryfall.com/cards/normal/front/1/9/193b9060-3b1b-4f62-86db-b1a9e37d654b.jpg"
+        },
+        {
+            "artist": "Grzegorz Rutkowski",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Lord of the Accursed",
+            "names": null,
+            "number": "B-LOTA",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Zombie"
+            ],
+            "superTypes": [],
+            "text": "Other Zombies you control get +1/+1.\n{1}{B}, {T}: All Zombies gain menace until end of turn.",
+            "toughness": "3",
+            "type": "Creature - Zombie",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/4/94fba85b-0147-4693-aa07-3a3310465ac4.jpg"
         },
         {
             "artist": "Randy Vargas",
@@ -1321,6 +2675,66 @@
             "type": "Creature - Beast",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/9/6/96c06ea2-d494-4eb0-b248-2a1125801bf7.jpg"
+        },
+        {
+            "artist": "Victor Adame Minguez",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Marauding Boneslasher",
+            "names": null,
+            "number": "B-MBL",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Zombie",
+                "Minotaur"
+            ],
+            "superTypes": [],
+            "text": "Marauding Boneslasher can't block unless you control another Zombie.",
+            "toughness": "3",
+            "type": "Creature - Zombie Minotaur",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/e/8eb8922f-84b4-4973-9d5c-7fd1e65fd0c4.jpg"
+        },
+        {
+            "artist": "E. M. Gist",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Miasmic Mummy",
+            "names": null,
+            "number": "B-MM",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Zombie",
+                "Jackal"
+            ],
+            "superTypes": [],
+            "text": "When Miasmic Mummy enters the battlefield, each player discards a card.",
+            "toughness": "2",
+            "type": "Creature - Zombie Jackal",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/b/d/bd5b84b2-ddc3-453b-b820-b23579a375ad.jpg"
         },
         {
             "artist": "Sidharth Chaturvedi",
@@ -1410,6 +2824,36 @@
             "url": "https://img.scryfall.com/cards/normal/front/f/5/f5e94e39-4104-4b88-ae2b-a2dd5d2589cb.jpg"
         },
         {
+            "artist": "Deruchenko Alexander",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Naga Oracle",
+            "names": null,
+            "number": "U-NO",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Naga",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "When Naga Oracle enters the battlefield, look at the top three cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.",
+            "toughness": "4",
+            "type": "Creature - Naga Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/4/8420d2b8-ada3-44de-9a97-f54dcc95b981.jpg"
+        },
+        {
             "artist": "James Ryman",
             "cmc": 2.0,
             "colorIdentity": [
@@ -1438,6 +2882,150 @@
             "type": "Creature - Naga Druid",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/5/7/578349f0-44be-455f-9a75-010d4f5d0d27.jpg"
+        },
+        {
+            "artist": "Jason A. Engle",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Nest of Scarabs",
+            "names": null,
+            "number": "B-NOS",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Whenever you put one or more -1/-1 counters on a creature, create that many 1/1 black Insect creature tokens.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/d/8/d849dc0a-4122-497c-a2a7-e5a21dc809f5.jpg"
+        },
+        {
+            "artist": "Daarken",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{B}",
+            "multiverseId": null,
+            "name": "Never",
+            "names": [
+                "Never",
+                "Return"
+            ],
+            "number": "B-N2Ra",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Destroy target creature or planeswalker.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/4/f/4f4fa62a-8297-4565-9ff5-68ba4c5b91e4.jpg"
+        },
+        {
+            "artist": "Daarken",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Return",
+            "names": [
+                "Never",
+                "Return"
+            ],
+            "number": "B-N2Rb",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)\nExile target card from a graveyard. Create a 2/2 black Zombie creature token.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/4/f/4f4fa62a-8297-4565-9ff5-68ba4c5b91e4.jpg"
+        },
+        {
+            "artist": "Darek Zabrocki",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{U}",
+            "multiverseId": null,
+            "name": "New Perspectives",
+            "names": null,
+            "number": "U-NP",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "When New Perspectives enters the battlefield, draw three cards.\nAs long as you have seven or more cards in hand, you may pay {0} rather than pay cycling costs.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/8/c/8ceb56f3-759c-4130-86ed-00eb75208a35.jpg"
+        },
+        {
+            "artist": "Shreya Shetty",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Nimble Obstructionist",
+            "names": null,
+            "number": "U-NIO",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Bird",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Flash\nFlying\nCycling {2}{U} ({2}{U}, Discard this card: Draw a card.)\nWhen you cycle Nimble Obstructionist, counter target activated or triggered ability you don't control.",
+            "toughness": "1",
+            "type": "Creature - Bird Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/5/657fb5d1-5251-4200-a2ad-620ac2790363.jpg"
         },
         {
             "artist": "Sara Winters",
@@ -1591,6 +3179,35 @@
             "url": "https://img.scryfall.com/cards/normal/front/9/1/9138ce93-8fba-4ce5-8892-0a263e614ead.jpg"
         },
         {
+            "artist": "Lars Grant-West",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}{U}",
+            "multiverseId": null,
+            "name": "Ominous Sphinx",
+            "names": null,
+            "number": "U-OS",
+            "power": "4",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Sphinx"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever you cycle or discard a card, target creature an opponent controls gets -2/-0 until end of turn.",
+            "toughness": "4",
+            "type": "Creature - Sphinx",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/c/dc366370-4f73-4e8e-8e4b-a827d5639322.jpg"
+        },
+        {
             "artist": "Deruchenko Alexander",
             "cmc": 3.0,
             "colorIdentity": [
@@ -1648,6 +3265,63 @@
             "type": "Enchantment - Aura Curse",
             "types": "Enchantment ",
             "url": "https://img.scryfall.com/cards/normal/front/6/a/6a4bcbde-6fef-4a01-8896-8cc223894cf8.jpg"
+        },
+        {
+            "artist": "Titus Lunter",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{0}",
+            "multiverseId": null,
+            "name": "Pact of Negation",
+            "names": null,
+            "number": "U-PON",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target spell.\nAt the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/1/0/101af164-2b8e-4904-8edd-2433210d3c54.jpg"
+        },
+        {
+            "artist": "Volkan Ba\u01f5a",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Pitiless Vizier",
+            "names": null,
+            "number": "B-PV",
+            "power": "4",
+            "rarity": "Common",
+            "subTypes": [
+                "Minotaur",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Whenever you cycle or discard a card, Pitiless Vizier gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)",
+            "toughness": "2",
+            "type": "Creature - Minotaur Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/c/5/c5cdbca9-edb5-46dc-8ae3-30d211b8e344.jpg"
         },
         {
             "artist": "Matt Stewart",
@@ -1766,6 +3440,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/0/6/06c1b234-d12f-408b-985d-db63f264f881.jpg"
         },
         {
+            "artist": "Sara Winters",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{X}{U}{U}",
+            "multiverseId": null,
+            "name": "Pull from Tomorrow",
+            "names": null,
+            "number": "U-PFT",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Draw X cards, then discard a card.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/4/2/428edb41-faf4-4619-ad91-0df8b5a87865.jpg"
+        },
+        {
             "artist": "David Gaillet",
             "cmc": 4.0,
             "colorIdentity": [
@@ -1823,6 +3524,37 @@
             "type": "Creature - Naga Cleric",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/f/d/fdf52db1-7a5e-42ae-9bc2-ee4f3a460aa1.jpg"
+        },
+        {
+            "artist": "Chris Rallis",
+            "cmc": 8.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{B}{B}{B}",
+            "multiverseId": null,
+            "name": "Razaketh, the Foulblooded",
+            "names": null,
+            "number": "B-RTF",
+            "power": "8",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Demon"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying, trample\nPay 2 life, Sacrifice another creature: Search your library for a card and put that card into your hand. Then shuffle your library.",
+            "toughness": "8",
+            "type": "Legendary Creature - Demon",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/1/f/1fae3264-ff83-423e-915b-2f48d775b306.jpg"
         },
         {
             "artist": "Wesley Burt",
@@ -1970,6 +3702,63 @@
             "url": "https://img.scryfall.com/cards/normal/front/1/f/1fff6268-03b1-409f-a0b1-8886a751ac18.jpg"
         },
         {
+            "artist": "Steve Argyle",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Riddleform",
+            "names": null,
+            "number": "U-RF",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Whenever you cast a noncreature spell, you may have Riddleform become a 3/3 Sphinx creature with flying in addition to its other types until end of turn.\n{2}{U}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/4/7/4702b589-28cd-4fb7-add8-773f472b0df3.jpg"
+        },
+        {
+            "artist": "Sara Winters",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Ruthless Sniper",
+            "names": null,
+            "number": "B-RS",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Archer"
+            ],
+            "superTypes": [],
+            "text": "Whenever you cycle or discard a card, you may pay {1}. If you do, put a -1/-1 counter on target creature.",
+            "toughness": "2",
+            "type": "Creature - Human Archer",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/c/6c85da54-e21a-4548-b85a-f4c2e9084c03.jpg"
+        },
+        {
             "artist": "Zezhou Chen",
             "cmc": 1.0,
             "colorIdentity": [
@@ -2026,6 +3815,120 @@
             "url": "https://img.scryfall.com/cards/normal/front/3/b/3b579409-0129-4f44-b594-d7611ef12472.jpg"
         },
         {
+            "artist": "Tony Foti",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Scarab Feast",
+            "names": null,
+            "number": "B-SF",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Exile up to three target cards from a single graveyard.\nCycling {B} ({B}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/3/b/3b88be55-ad39-4db3-8eaa-f83069126a2b.jpg"
+        },
+        {
+            "artist": "Magali Villeneuve",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Seeker of Insight",
+            "names": null,
+            "number": "U-SOI",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "{T}: Draw a card, then discard a card. Activate this ability only if you've cast a noncreature spell this turn.",
+            "toughness": "3",
+            "type": "Creature - Human Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/1/d187686c-08ca-40d4-aaac-e0ba5b11a0ad.jpg"
+        },
+        {
+            "artist": "Sara Winters",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Seer of the Last Tomorrow",
+            "names": null,
+            "number": "U-SOTLT",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Naga",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "{U}, {T}, Discard a card: Target player mills three cards.",
+            "toughness": "4",
+            "type": "Creature - Naga Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/9/5/95828631-66fe-4e08-8b24-a7e6327188ea.jpg"
+        },
+        {
+            "artist": "Darek Zabrocki",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Shadow of the Grave",
+            "names": null,
+            "number": "B-SOTG",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Return to your hand all cards in your graveyard that you cycled or discarded this turn.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/8/0/806830e3-7296-4982-b366-fa443bda3989.jpg"
+        },
+        {
             "artist": "Christine Choi",
             "cmc": 1.0,
             "colorIdentity": [
@@ -2080,6 +3983,35 @@
             "type": "Creature - Lizard",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/5/3/53341739-264d-42cf-b964-04b5c76ed232.jpg"
+        },
+        {
+            "artist": "Tony Foti",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{U}",
+            "multiverseId": null,
+            "name": "Shimmerscale Drake",
+            "names": null,
+            "number": "U-SSD",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Drake"
+            ],
+            "superTypes": [],
+            "text": "Flying\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": "4",
+            "type": "Creature - Drake",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/3/d3a9f334-866b-4c58-a262-5c3168f762ea.jpg"
         },
         {
             "artist": "Victor Adame Minguez",
@@ -2170,6 +4102,36 @@
             "url": "https://img.scryfall.com/cards/normal/front/c/1/c142986f-8489-497a-8e83-2bd344f65d24.jpg"
         },
         {
+            "artist": "Zezhou Chen",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}",
+            "multiverseId": null,
+            "name": "Slither Blade",
+            "names": null,
+            "number": "U-SLB",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Naga",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "Slither Blade can't be blocked.",
+            "toughness": "2",
+            "type": "Creature - Naga Rogue",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/f/4f68522c-060f-49ed-835d-e4fbf9202af2.jpg"
+        },
+        {
             "artist": "Greg Opalinski",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2224,6 +4186,94 @@
             "type": "Creature - Camel",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/f/9/f9052ef2-1edb-46a6-9156-2d8ac37f3014.jpg"
+        },
+        {
+            "artist": "Mike Burns",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Soulstinger",
+            "names": null,
+            "number": "B-SS",
+            "power": "4",
+            "rarity": "Common",
+            "subTypes": [
+                "Scorpion",
+                "Demon"
+            ],
+            "superTypes": [],
+            "text": "When Soulstinger enters the battlefield, put two -1/-1 counters on target creature you control.\nWhen Soulstinger dies, you may put a -1/-1 counter on target creature for each -1/-1 counter on Soulstinger.",
+            "toughness": "5",
+            "type": "Creature - Scorpion Demon",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/8/7/876a4141-6412-45d3-9e00-e86003b367ce.jpg"
+        },
+        {
+            "artist": "Jason Felix",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Spellweaver Eternal",
+            "names": null,
+            "number": "U-SWE",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Zombie",
+                "Naga",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nAfflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)",
+            "toughness": "1",
+            "type": "Creature - Zombie Naga Wizard",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/1/0/10466618-a867-4ec2-8e8c-e7217e06ea62.jpg"
+        },
+        {
+            "artist": "Clint Cearley",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Splendid Agony",
+            "names": null,
+            "number": "B-SA",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Distribute two -1/-1 counters among one or two target creatures.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/5/6/568b0f30-9e78-4f05-b562-77cd8b048c9e.jpg"
         },
         {
             "artist": "Sara Winters",
@@ -2283,6 +4333,62 @@
             "url": "https://img.scryfall.com/cards/normal/front/4/4/4459d961-c305-439b-ba22-22cc27b99b3f.jpg"
         },
         {
+            "artist": "Matt Stewart",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Strategic Planning",
+            "names": null,
+            "number": "U-SPL",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/6/d/6d234ff0-b18f-4b97-a8da-e329e9f7049d.jpg"
+        },
+        {
+            "artist": "Craig J Spearing",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{6}{U}",
+            "multiverseId": null,
+            "name": "Striped Riverwinder",
+            "names": null,
+            "number": "U-SRW",
+            "power": "5",
+            "rarity": "Common",
+            "subTypes": [
+                "Serpent"
+            ],
+            "superTypes": [],
+            "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nCycling {U} ({U}, Discard this card: Draw a card.)",
+            "toughness": "5",
+            "type": "Creature - Serpent",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/4/4/4466da89-7380-4fad-9304-7b580c577975.jpg"
+        },
+        {
             "artist": "Josu Hernaiz",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2313,6 +4419,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/2/8/281bd31f-a4ae-4554-8944-fbc14db21dfd.jpg"
         },
         {
+            "artist": "Christopher Moeller",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Supernatural Stamina",
+            "names": null,
+            "number": "B-STAM",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/4/1/41276e5d-41b8-4dab-9880-c30e7e2dee13.jpg"
+        },
+        {
             "artist": "Nils Hamm",
             "cmc": 5.0,
             "colorIdentity": [
@@ -2340,6 +4473,33 @@
             "type": "Creature - Camel",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/7/1/71899431-c397-4031-b01a-d8bd960bbe2d.jpg"
+        },
+        {
+            "artist": "Alayna Danner",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Supreme Will",
+            "names": null,
+            "number": "U-SUW",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose one \u2014\n\u2022 Counter target spell unless its controller pays {3}.\n\u2022 Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/9/8/9859e709-2f70-4aec-9909-a073c93062a2.jpg"
         },
         {
             "artist": "David Palumbo",
@@ -2428,6 +4588,144 @@
             "url": "https://img.scryfall.com/cards/normal/front/4/8/482da3bd-c461-4de4-a2ef-4f2424be8456.jpg"
         },
         {
+            "artist": "James Ryman",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Thoughtseize",
+            "names": null,
+            "number": "B-TS",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/6/f/6fff168c-6a0f-473f-86db-8cc8f619fd58.jpg"
+        },
+        {
+            "artist": "Grzegorz Rutkowski",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{X}{B}{B}",
+            "multiverseId": null,
+            "name": "Torment of Hailfire",
+            "names": null,
+            "number": "B-TOH",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Repeat the following process X times. Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/b/5/b5d4399f-8a9f-4fd3-8f42-9c1b3ec4ea43.jpg"
+        },
+        {
+            "artist": "David Palumbo",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Trespasser's Curse",
+            "names": null,
+            "number": "B-TC",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Aura",
+                "Curse"
+            ],
+            "superTypes": [],
+            "text": "Enchant player\nWhenever a creature enters the battlefield under enchanted player's control, that player loses 1 life and you gain 1 life.",
+            "toughness": null,
+            "type": "Enchantment - Aura Curse",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/e/0e467a14-00b5-4dfb-9c3a-4e064de1b5fc.jpg"
+        },
+        {
+            "artist": "Johann Bodin",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Trial of Ambition",
+            "names": null,
+            "number": "B-TOA",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "When Trial of Ambition enters the battlefield, target opponent sacrifices a creature.\nWhen a Cartouche enters the battlefield under your control, return Trial of Ambition to its owner's hand.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/3/c/3c170f2f-5092-411b-a4e7-849536e87577.jpg"
+        },
+        {
+            "artist": "Viktor Titov",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Trial of Knowledge",
+            "names": null,
+            "number": "U-TOK",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "When Trial of Knowledge enters the battlefield, draw three cards, then discard a card.\nWhen a Cartouche enters the battlefield under your control, return Trial of Knowledge to its owner's hand.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://img.scryfall.com/cards/normal/front/6/d/6d78a159-e9fe-446e-a0b1-a339e653b102.jpg"
+        },
+        {
             "artist": "Daniel Ljunggren",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2482,6 +4780,33 @@
             "url": "https://img.scryfall.com/cards/normal/front/f/b/fb8484a4-3ee1-4104-b22a-8a2f1401fbdc.jpg"
         },
         {
+            "artist": "Svetlin Velinov",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{B}",
+            "multiverseId": null,
+            "name": "Unburden",
+            "names": null,
+            "number": "B-UN",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target player discards two cards.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/0/e/0e2cc39e-f417-4e7b-82a5-2ad9f9a107a6.jpg"
+        },
+        {
             "artist": "Jason Felix",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2507,6 +4832,95 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://img.scryfall.com/cards/normal/front/6/8/68aad019-9730-4e8d-9d40-56b6376020d8.jpg"
+        },
+        {
+            "artist": "Adrian Majkrzak",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{U}{U}",
+            "multiverseId": null,
+            "name": "Unesh, Criosphinx Sovereign",
+            "names": null,
+            "number": "U-UCS",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Sphinx"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nSphinx spells you cast cost {2} less to cast.\nWhenever Unesh, Criosphinx Sovereign or another Sphinx enters the battlefield under your control, reveal the top four cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
+            "toughness": "4",
+            "type": "Legendary Creature - Sphinx",
+            "types": " Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/5/3/53d56953-cac5-4bd4-bec9-d442d70d7e96.jpg"
+        },
+        {
+            "artist": "Jeremy Wilson",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Unquenchable Thirst",
+            "names": null,
+            "number": "U-UT",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Aura"
+            ],
+            "superTypes": [],
+            "text": "Enchant creature\nWhen Unquenchable Thirst enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+            "toughness": null,
+            "type": "Enchantment - Aura",
+            "types": "Enchantment ",
+            "url": "https://img.scryfall.com/cards/normal/front/3/f/3f4859bc-f461-48f1-97bf-6e5286afed70.jpg"
+        },
+        {
+            "artist": "Jason Felix",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Vile Manifestation",
+            "names": null,
+            "number": "B-VM",
+            "power": "0",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Horror"
+            ],
+            "superTypes": [],
+            "text": "Vile Manifestation gets +1/+0 for each card with cycling in your graveyard.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": "4",
+            "type": "Creature - Horror",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/6/e/6e75e057-5cc0-4dd7-bcd0-079717b44812.jpg"
         },
         {
             "artist": "Deruchenko Alexander",
@@ -2539,6 +4953,36 @@
             "url": "https://img.scryfall.com/cards/normal/front/a/2/a26afe04-aa80-4a7e-8c61-ce2fda091957.jpg"
         },
         {
+            "artist": "Ryan Yee",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}{U}",
+            "multiverseId": null,
+            "name": "Vizier of Many Faces",
+            "names": null,
+            "number": "U-VOMF",
+            "power": "0",
+            "rarity": "Rare",
+            "subTypes": [
+                "Shapeshifter",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "You may have Vizier of Many Faces enter the battlefield as a copy of any creature on the battlefield, except if Vizier of Many Faces was embalmed, the token has no mana cost, it's white, and it's a Zombie in addition to its other types.\nEmbalm {3}{U}{U}",
+            "toughness": "0",
+            "type": "Creature - Shapeshifter Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/e/2/e28ebe21-5447-45f5-97e4-c9bf1905b4bc.jpg"
+        },
+        {
             "artist": "Randy Gallegos",
             "cmc": 2.0,
             "colorIdentity": [
@@ -2567,6 +5011,66 @@
             "type": "Creature - Human Cleric",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/3/0/3082a2e4-03a8-4b26-a48d-e299a8b5cc56.jpg"
+        },
+        {
+            "artist": "Josu Hernaiz",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Vizier of Tumbling Sands",
+            "names": null,
+            "number": "U-VOTS",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "{T}: Untap another target permanent.\nCycling {1}{U} ({1}{U}, Discard this card: Draw a card.)\nWhen you cycle Vizier of Tumbling Sands, untap target permanent.",
+            "toughness": "3",
+            "type": "Creature - Human Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/d/8/d88dd364-8c39-4064-95d4-a26e0784550d.jpg"
+        },
+        {
+            "artist": "Jakub Kasper",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Vizier of the Anointed",
+            "names": null,
+            "number": "U-VOTA",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "When Vizier of the Anointed enters the battlefield, you may search your library for a creature card with eternalize or embalm, put that card into your graveyard, then shuffle your library.\nWhenever you activate an eternalize or embalm ability, draw a card.",
+            "toughness": "4",
+            "type": "Creature - Human Cleric",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/7/8/78462416-8951-45be-8390-8f0dc4084642.jpg"
         },
         {
             "artist": "Victor Adame Minguez",
@@ -2599,6 +5103,92 @@
             "url": "https://img.scryfall.com/cards/normal/front/e/2/e27d4f0e-508c-4bd4-bb47-c75802ca85f8.jpg"
         },
         {
+            "artist": "Seb McKinnon",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Wander in Death",
+            "names": null,
+            "number": "B-WID",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Return up to two target creature cards from your graveyard to your hand.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://img.scryfall.com/cards/normal/front/1/d/1d08fdeb-3123-4099-b3f0-40da017dc34a.jpg"
+        },
+        {
+            "artist": "Tomasz Jedruszek",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Wasp of the Bitter End",
+            "names": null,
+            "number": "B-WOTBE",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Insect",
+                "Horror"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever you cast a Bolas planeswalker spell, you may sacrifice Wasp of the Bitter End. If you do, destroy target creature.",
+            "toughness": "1",
+            "type": "Creature - Insect Horror",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/5/0/50ff5c44-80cb-4cf1-b573-53f74fe7b556.jpg"
+        },
+        {
+            "artist": "Yeong-Hao Han",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Wasteland Scorpion",
+            "names": null,
+            "number": "B-WSC",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Scorpion"
+            ],
+            "superTypes": [],
+            "text": "Deathtouch\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "toughness": "2",
+            "type": "Creature - Scorpion",
+            "types": "Creature ",
+            "url": "https://img.scryfall.com/cards/normal/front/0/1/01cfca19-129e-4480-95c2-50e242f28d07.jpg"
+        },
+        {
             "artist": "Anastasia Ovchinnikova",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2627,6 +5217,33 @@
             "type": "Creature - Naga Wizard",
             "types": "Creature ",
             "url": "https://img.scryfall.com/cards/normal/front/8/1/81a5652b-bf5a-4672-abb6-074af48a9693.jpg"
+        },
+        {
+            "artist": "Mathias Kollros",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Winds of Rebuke",
+            "names": null,
+            "number": "U-WOB",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Return target nonland permanent to its owner's hand. Each player mills two cards.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://img.scryfall.com/cards/normal/front/4/8/4813fc68-3fae-43ed-9d09-9bf15c553063.jpg"
         },
         {
             "artist": "Titus Lunter",
