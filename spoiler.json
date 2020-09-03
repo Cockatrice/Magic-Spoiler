@@ -971,7 +971,2571 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/7695a48e-391a-4ac1-93d6-35373e13718f.jpg"
         }
     ],
+    "PLIST": [
+        {
+            "artist": "Adam Rex",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}{W}",
+            "multiverseId": null,
+            "name": "Cloudgoat Ranger",
+            "names": null,
+            "number": "CLOU",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Giant",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "When Cloudgoat Ranger enters the battlefield, create three 1/1 white Kithkin Soldier creature tokens.\nTap three untapped Kithkin you control: Cloudgoat Ranger gets +2/+0 and gains flying until end of turn.",
+            "toughness": "3",
+            "type": "Creature - Giant Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/f/3fa25fc1-0ad5-4c0f-9e16-e86001d8d1af.jpg"
+        },
+        {
+            "artist": "Val Mayerik",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Food Chain",
+            "names": null,
+            "number": "FOOD",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Exile a creature you control: Add X mana of any one color, where X is 1 plus the exiled creature's converted mana cost. Spend this mana only to cast creature spells.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/2445a388-e686-4d7b-9289-b53bca8f8e08.jpg"
+        },
+        {
+            "artist": "Richard Kane Ferguson",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "The air was filled with the cracks and snaps of flesh hardening as the new sliver joined the battle.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Muscle Sliver",
+            "names": null,
+            "number": "MUSC",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Sliver"
+            ],
+            "superTypes": [],
+            "text": "All Sliver creatures get +1/+1.",
+            "toughness": "1",
+            "type": "Creature - Sliver",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/50c01d6c-40f8-4405-a816-6fa551e071d3.jpg"
+        },
+        {
+            "artist": "Jason Chan",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "Those who expect betrayal at every turn are seldom disappointed.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{0}",
+            "multiverseId": null,
+            "name": "Pact of Negation",
+            "names": null,
+            "number": "PNEG",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target spell.\nAt the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/0/90694ded-b790-4b96-a72c-57795474711f.jpg"
+        },
+        {
+            "artist": "Dave DeVries",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"All my spells smell like burnt hair lately.\"\n\u2014Jaya Ballard, task mage",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Simian Spirit Guide",
+            "names": null,
+            "number": "SSGU",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Ape",
+                "Spirit"
+            ],
+            "superTypes": [],
+            "text": "Exile Simian Spirit Guide from your hand: Add {R}.",
+            "toughness": "2",
+            "type": "Creature - Ape Spirit",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fb277ca4-6671-46ac-943c-7c648bb8f6a5.jpg"
+        },
+        {
+            "artist": "Alex Konstad",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B",
+                "G"
+            ],
+            "colors": [
+                "B",
+                "G"
+            ],
+            "flavor": "As Jhoira restored the *Weatherlight*, a mushroom growing in its hold unexpectedly became her first crew member.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{G}",
+            "multiverseId": null,
+            "name": "Slimefoot, the Stowaway",
+            "names": null,
+            "number": "SLIM",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Fungus"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Whenever a Saproling you control dies, Slimefoot, the Stowaway deals 1 damage to each opponent and you gain 1 life.\n{4}: Create a 1/1 green Saproling creature token.",
+            "toughness": "3",
+            "type": "Legendary Creature - Fungus",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/5/b5bc58cb-95cf-4d2f-99a7-6c33bf2ed3bc.jpg"
+        }
+    ],
+    "TSR": [
+        {
+            "artist": "Mark Zug",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{X}{X}",
+            "multiverseId": null,
+            "name": "Chalice of the Void",
+            "names": null,
+            "number": "390",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Chalice of the Void enters the battlefield with X charge counters on it.\nWhenever a player casts a spell with converted mana cost equal to the number of charge counters on Chalice of the Void, counter that spell.",
+            "toughness": null,
+            "type": "Artifact",
+            "types": "Artifact",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/5/25674e46-e15b-4fc0-9813-39b4e1c23de4.jpg"
+        },
+        {
+            "artist": "Todd Lockwood",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}",
+            "multiverseId": null,
+            "name": "Path to Exile",
+            "names": null,
+            "number": "299",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/e/2ee3e42e-120c-468a-988d-4441b6025bbe.jpg"
+        },
+        {
+            "artist": "Thomas M. Baxa",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{B}",
+            "multiverseId": null,
+            "name": "Relentless Rats",
+            "names": null,
+            "number": "329",
+            "power": "2",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Rat"
+            ],
+            "superTypes": [],
+            "text": "Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats.\nA deck can have any number of cards named Relentless Rats.",
+            "toughness": "2",
+            "type": "Creature - Rat",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/8/28de0281-0370-44df-9ee0-6e1bb9925a92.jpg"
+        }
+    ],
+    "ZNE": [
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Ancient Tomb",
+            "names": null,
+            "number": "21",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}: Add {C}{C}. Ancient Tomb deals 2 damage to you.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/8/880ffa23-ed71-4f39-aa66-0953a1f20fe9.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Arid Mesa",
+            "names": null,
+            "number": "9",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Arid Mesa: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/245e16ae-4514-42fa-b409-2c3ae084436c.jpg"
+        },
+        {
+            "artist": "Richard Wright",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Blackcleave Cliffs",
+            "names": null,
+            "number": "13",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Blackcleave Cliffs enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/4/f4b8308e-53c5-4c60-b692-1d096e475268.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Bloodstained Mire",
+            "names": null,
+            "number": "3",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/ed7bcbf1-9045-4810-93fa-9918c45856ca.jpg"
+        },
+        {
+            "artist": "Piotr Dura",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Bountiful Promenade",
+            "names": null,
+            "number": "20",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Bountiful Promenade enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {G} or {W}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d6ae82b-5764-4a8a-a60e-a781837414dd.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Cavern of Souls",
+            "names": null,
+            "number": "22",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "As Cavern of Souls enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/2/5261e0f6-55bf-4d45-92ea-7acbab41162c.jpg"
+        },
+        {
+            "artist": "Piotr Dura",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Celestial Colonnade",
+            "names": null,
+            "number": "23",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Celestial Colonnade enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{3}{W}{U}: Until end of turn, Celestial Colonnade becomes a 4/4 white and blue Elemental creature with flying and vigilance. It's still a land.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24a76568-a2d4-41a6-88b8-fa5ed4093930.jpg"
+        },
+        {
+            "artist": "Chris Ostrowski",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G",
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Copperline Gorge",
+            "names": null,
+            "number": "14",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Copperline Gorge enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {R} or {G}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/7/671486a5-4050-430c-8af4-58def77562ec.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Creeping Tar Pit",
+            "names": null,
+            "number": "24",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Creeping Tar Pit enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{1}{U}{B}: Creeping Tar Pit becomes a 3/2 blue and black Elemental creature until end of turn and can't be blocked this turn. It's still a land.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/2/3272a554-8509-40b2-ac39-c906b1366275.jpg"
+        },
+        {
+            "artist": "Jonas De Ro",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Darkslick Shores",
+            "names": null,
+            "number": "12",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Darkslick Shores enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {U} or {B}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e703a4f0-6aaf-418a-8ef7-f4a0317b7a26.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Flooded Strand",
+            "names": null,
+            "number": "1",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/acc4115b-4bbb-4bb7-81c6-466130982a9c.jpg"
+        },
+        {
+            "artist": "Donato Giancola",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G",
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Grove of the Burnwillows",
+            "names": null,
+            "number": "25",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}: Add {C}.\n{T}: Add {R} or {G}. Each opponent gains 1 life.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/82fb5274-c11a-465b-b14f-8f35495482e4.jpg"
+        },
+        {
+            "artist": "Alayna Danner",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Horizon Canopy",
+            "names": null,
+            "number": "26",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life: Add {G} or {W}.\n{1}, {T}, Sacrifice Horizon Canopy: Draw a card.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69c53264-1cf7-4147-b553-4863f0dda08f.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Luxury Suite",
+            "names": null,
+            "number": "18",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Luxury Suite enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/0/00e40c64-58fa-421e-9d01-93b0642f7d8b.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Marsh Flats",
+            "names": null,
+            "number": "6",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/e/9e1e76a2-ec37-4fd8-8185-f98f675ff0cb.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Misty Rainforest",
+            "names": null,
+            "number": "10",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Misty Rainforest: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6d14bd1a-068e-4338-8014-d5271cb2fe4d.jpg"
+        },
+        {
+            "artist": "Steven Belledin",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Morphic Pool",
+            "names": null,
+            "number": "17",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Morphic Pool enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be6604df-0888-420d-957e-93cf3d770a9e.jpg"
+        },
+        {
+            "artist": "Titus Lunter",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Polluted Delta",
+            "names": null,
+            "number": "2",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d052d99b-b1ca-44da-8460-c022d041d665.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Prismatic Vista",
+            "names": null,
+            "number": "27",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Prismatic Vista: Search your library for a basic land card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1ac01fff-4de6-4783-9489-4127e25bc641.jpg"
+        },
+        {
+            "artist": "Alayna Danner",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Razorverge Thicket",
+            "names": null,
+            "number": "15",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Razorverge Thicket enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {G} or {W}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/5/d578981f-cda3-4ba4-bdc0-275a37386b84.jpg"
+        },
+        {
+            "artist": "Jonas De Ro",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Scalding Tarn",
+            "names": null,
+            "number": "7",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/8/48f0a970-452a-405f-bd4d-ac4d2e89ab40.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Sea of Clouds",
+            "names": null,
+            "number": "16",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Sea of Clouds enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {W} or {U}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b2471873-45e1-4a54-805c-84e65a00e29a.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Seachrome Coast",
+            "names": null,
+            "number": "11",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {W} or {U}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/d/fd8a9bf6-07c7-4dde-8c37-4bae64ca10ef.jpg"
+        },
+        {
+            "artist": "Titus Lunter",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G",
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Spire Garden",
+            "names": null,
+            "number": "19",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Spire Garden enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {R} or {G}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/58d8b7ee-4618-4ba9-b43f-2aa2bc9b1f82.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Strip Mine",
+            "names": null,
+            "number": "28",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}: Add {C}.\n{T}, Sacrifice Strip Mine: Destroy target land.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e8f7a850-e049-48a0-95ac-afdac6e204e5.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Valakut, the Molten Pinnacle",
+            "names": null,
+            "number": "29",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Valakut, the Molten Pinnacle enters the battlefield tapped.\nWhenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to any target.\n{T}: Add {R}.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c2d07eea-b165-4976-9088-d283ab7cfe72.jpg"
+        },
+        {
+            "artist": "Alayna Danner",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Verdant Catacombs",
+            "names": null,
+            "number": "8",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Verdant Catacombs: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/f/efd97080-c5c7-47db-b605-8bdd06c2dd5a.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Wasteland",
+            "names": null,
+            "number": "30",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}: Add {C}.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a81a49a0-995a-4311-894d-5cbfba59db14.jpg"
+        },
+        {
+            "artist": "Johannes Voss",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Windswept Heath",
+            "names": null,
+            "number": "5",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/3/63c59228-c742-4abd-b4d7-9f7880190e95.jpg"
+        },
+        {
+            "artist": "Daarken",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Wooded Foothills",
+            "names": null,
+            "number": "4",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/0/1066a94a-8e4f-4d77-820b-7a77a18116f0.jpg"
+        }
+    ],
     "ZNR": [
+        {
+            "artist": "Johannes Voss",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "\"Best Rider, Sky Temple\" // \"Sky Temple\"",
+            "names": null,
+            "number": "40",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Kor",
+                "Cleric",
+                "//",
+                "Land"
+            ],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Creature - Kor Cleric // Land",
+            "types": "Creature ",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/1/014027c4-7f9d-4096-b308-ea4be574c0d4.jpg"
+            ]
+        },
+        {
+            "artist": "Svetlin Velinov",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{R}",
+            "multiverseId": null,
+            "name": "\"Cooperative Pyrotechnics\"",
+            "names": null,
+            "number": "168",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "\"Cooperative Pyrotechnics\" deals 4 damage to target creature and X damage to that creature's controller, where X is equal to the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d87f4637-1ad3-4d61-98ff-98c0b0be46a1.jpg"
+        },
+        {
+            "artist": "Zezhou Chen",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{X}{U}{U}{U}",
+            "multiverseId": null,
+            "name": "\"Seize the Turtle-Raven\"",
+            "names": null,
+            "number": "66",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "This spell costs {3} less to cast if an opponent has eight or more cards in their graveyard.\nGain control of target creature with converted mana cost X.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c9944393-348f-4f0e-a0c7-9adcc5a30749.jpg"
+        },
+        {
+            "artist": "Izzy",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "\"Slurp Slurp Gulp\" // \"Cainhurst Swamp\"",
+            "names": null,
+            "number": "132",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Sorcery // Land",
+            "types": "Sorcery // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/98496d5b-1519-4f0c-8b46-0a43be643dfb.jpg"
+            ]
+        },
+        {
+            "artist": "Tomasz Jedruszek",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "\"Strike the Gaming Wrist\" // \"Obsidian Forest\"",
+            "names": null,
+            "number": "166",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Instant // Land",
+            "types": "Instant // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a69541db-3f4e-412f-aa8e-dec1e74f74dc.jpg"
+            ]
+        },
+        {
+            "artist": "Alex Konstad",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}",
+            "multiverseId": null,
+            "name": "\"The Power of Friendship!\"",
+            "names": null,
+            "number": "32",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Choose target attacking or blocking creature. \"The Power of Friendship!\" deals damage to that creature equal to twice the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/1/91b448f4-aa0c-42c7-a771-e8dd20e0520c.jpg"
+        },
+        {
+            "artist": "Anna Steinbauer",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Acquisitions Expert",
+            "names": null,
+            "number": "89",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "When Acquisitions Expert enters the battlefield, target opponent reveals a number of cards from their hand equal to the number of creatures in your party. You choose one of those cards. That player discards that card. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+            "toughness": "2",
+            "type": "Creature - Human Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.jpg"
+        },
+        {
+            "artist": "Jason Kang",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "Hellhound packs roam the Spikefields, basking in the harsh sunlight and lighting the night with their flames.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}",
+            "multiverseId": null,
+            "name": "Akoum Hellhound",
+            "names": null,
+            "number": "133",
+            "power": "0",
+            "rarity": "Common",
+            "subTypes": [
+                "Elemental",
+                "Dog"
+            ],
+            "superTypes": [],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, Akoum Hellhound gets +2/+2 until end of turn.",
+            "toughness": "1",
+            "type": "Creature - Elemental Dog",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a5ad1c8-3d70-43ed-9539-2aa6289c5c4a.jpg"
+        },
+        {
+            "artist": "Pascal Blanch\u00e9",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}",
+            "multiverseId": null,
+            "name": "Akoum Hellhound",
+            "names": null,
+            "number": "299",
+            "power": "0",
+            "rarity": "Common",
+            "subTypes": [
+                "Elemental",
+                "Dog"
+            ],
+            "superTypes": [],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, Akoum Hellhound gets +2/+2 until end of turn.",
+            "toughness": "1",
+            "type": "Creature - Elemental Dog",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/5/b5757230-08b8-4808-af61-d343f9748fb1.jpg"
+        },
+        {
+            "artist": "Karl Kopinski & Karl Kopinski",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Akoum Warrior // Akoum Teeth",
+            "names": null,
+            "number": "134",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Minotaur",
+                "Warrior",
+                "//",
+                "Land"
+            ],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Creature - Minotaur Warrior // Land",
+            "types": "Creature ",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8ed0335-daa6-4dbe-a94d-4d56c8cfd093.jpg"
+            ]
+        },
+        {
+            "artist": "Igor Kieryluk",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "\"I think not.\"\n\u2014Flekon the Mindcensor",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Anticognition",
+            "names": null,
+            "number": "45",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target creature or planeswalker spell unless its controller pays {2}. If an opponent has eight or more cards in their graveyard, instead counter that spell, then scry 2.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/b/db99b872-77c7-4471-9c44-a36d4ff5d33f.jpg"
+        },
+        {
+            "artist": "Denman Rooke",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}",
+            "multiverseId": null,
+            "name": "Archpriest of Iona",
+            "names": null,
+            "number": "316",
+            "power": "*",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Archpriest of Iona's power is equal to the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)\nAt the beginning of combat on your turn, if you have a full party, target creature gets +1/+1 and gains flying until end of turn.",
+            "toughness": "2",
+            "type": "Creature - Human Cleric",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a23d588e-f7d8-4a11-9bf5-77b9f6faffd4.jpg"
+        },
+        {
+            "artist": "Denman Rooke",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}",
+            "multiverseId": null,
+            "name": "Archpriest of Iona",
+            "names": null,
+            "number": "5",
+            "power": "*",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Archpriest of Iona's power is equal to the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)\nAt the beginning of combat on your turn, if you have a full party, target creature gets +1/+1 and gains flying until end of turn.",
+            "toughness": "2",
+            "type": "Creature - Human Cleric",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f7dc61e4-46e3-473b-90f8-27e71e1088e8.jpg"
+        },
+        {
+            "artist": "Lie Setiawan",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"Trust me, we won't need torches.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Ardent Electromancer",
+            "names": null,
+            "number": "135",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "When Ardent Electromancer enters the battlefield, add {R} for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+            "toughness": "2",
+            "type": "Creature - Human Wizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e8685c8e-935f-49f2-acf2-8e3c41c5b330.jpg"
+        },
+        {
+            "artist": "Chase Stone",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{G}{G}",
+            "multiverseId": null,
+            "name": "Ashaya, Soul of the Wild",
+            "names": null,
+            "number": "179",
+            "power": "*",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Ashaya, Soul of the Wild's power and toughness are each equal to the number of lands you control.\nNontoken creatures you control are Forest lands in addition to their other types. (They're still affected by summoning sickness.)",
+            "toughness": "*",
+            "type": "Legendary Creature - Elemental",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74943390-d25f-47cb-90bb-cbf70c87f4a2.jpg"
+        },
+        {
+            "artist": "Lucas Staniec & Lucas Staniec",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Bala Ged Recovery // Bala Ged Sanctuary",
+            "names": null,
+            "number": "180",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Sorcery // Land",
+            "types": "Sorcery // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/5/c5cb3052-358d-44a7-8cfd-cd31b236494a.jpg"
+            ]
+        },
+        {
+            "artist": "Jason Rainville",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"We are free. It is our duty to live well.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Bloodchief's Thirst",
+            "names": null,
+            "number": "388",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)\nDestroy target creature or planeswalker with converted mana cost 2 or less. If this spell was kicked, instead destroy target creature or planeswalker.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f7be5c0a-b538-4bc5-89c7-f5a81de7ccc3.jpg"
+        },
+        {
+            "artist": "Jason Rainville",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"We are free. It is our duty to live well.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Bloodchief's Thirst",
+            "names": null,
+            "number": "94",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)\nDestroy target creature or planeswalker with converted mana cost 2 or less. If this spell was kicked, instead destroy target creature or planeswalker.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/5/059e8447-6b1c-4651-a734-a8fea2cbf7b2.jpg"
+        },
+        {
+            "artist": "Titus Lunter & Titus Lunter",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Branchloft Pathway // Boulderloft Pathway",
+            "names": null,
+            "number": "258",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/5/0511e232-2a72-40f5-a400-4f7ebc442d17.jpg"
+            ]
+        },
+        {
+            "artist": "Grady Frederick & Grady Frederick",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Branchloft Pathway // Boulderloft Pathway",
+            "names": null,
+            "number": "284",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/738ebafa-04be-4ba9-ae65-5f85e00c645a.jpg"
+            ]
+        },
+        {
+            "artist": "Johannes Voss & Johannes Voss",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Brightclimb Pathway // Grimclimb Pathway",
+            "names": null,
+            "number": "259",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/2/d24c3d51-795d-4c01-a34a-3280fccd2d78.jpg"
+            ]
+        },
+        {
+            "artist": "Donato Giancola & Donato Giancola",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Brightclimb Pathway // Grimclimb Pathway",
+            "names": null,
+            "number": "285",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb55e544-ab9d-403d-93ee-19e792a256c5.jpg"
+            ]
+        },
+        {
+            "artist": "Daarken & Daarken",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Clearwater Pathway // Murkwater Pathway",
+            "names": null,
+            "number": "260",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/4/b4b99ebb-0d54-4fe5-a495-979aaa564aa8.jpg"
+            ]
+        },
+        {
+            "artist": "Johannes Voss & Johannes Voss",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Clearwater Pathway // Murkwater Pathway",
+            "names": null,
+            "number": "286",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b0fe4b53-18f6-42eb-b03f-cab3e5a7fba6.jpg"
+            ]
+        },
+        {
+            "artist": "Andrey Kuzinskiy",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [
+                "B",
+                "W"
+            ],
+            "flavor": "\"No gods. Only each other.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}{B}",
+            "multiverseId": null,
+            "name": "Cleric of Life's Bond",
+            "names": null,
+            "number": "222",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Vampire",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Whenever another Cleric enters the battlefield under your control, you gain 1 life.\nWhenever you gain life for the first time each turn, put a +1/+1 counter on Cleric of Life's Bond.",
+            "toughness": "2",
+            "type": "Creature - Vampire Cleric",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/953db280-6999-4b91-bc40-c6e7f7dd13ef.jpg"
+        },
+        {
+            "artist": "Jason Rainville",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"I swing a sword. It's a simple life. A lot of adventurers just see me as some cheap muscle, but if my steel lets them return home with their lives and limbs intact, then I've done my job.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}",
+            "multiverseId": null,
+            "name": "Cliffhaven Sell-Sword",
+            "names": null,
+            "number": "8",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Kor",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "",
+            "toughness": "1",
+            "type": "Creature - Kor Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f334767-4353-4379-a934-fa67075db439.jpg"
+        },
+        {
+            "artist": "Bryan Sola",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Confounding Conundrum",
+            "names": null,
+            "number": "326",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "When Confounding Conundrum enters the battlefield, draw a card.\nWhenever a land enters the battlefield under an opponent's control, if that player had another land enter the battlefield under their control this turn, they return a land they control to its owner's hand.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b7c18e39-5173-48f1-8690-5a261b872758.jpg"
+        },
+        {
+            "artist": "Bryan Sola",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Confounding Conundrum",
+            "names": null,
+            "number": "53",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "When Confounding Conundrum enters the battlefield, draw a card.\nWhenever a land enters the battlefield under an opponent's control, if that player had another land enter the battlefield under their control this turn, they return a land they control to its owner's hand.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/95e37936-913e-4b16-a5a8-8aed733d702d.jpg"
+        },
+        {
+            "artist": "Lie Setiawan",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Coralhelm Chronicler",
+            "names": null,
+            "number": "327",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Merfolk",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Whenever you cast a kicked spell, draw a card, then discard a card.\nWhen Coralhelm Chronicler enters the battlefield, look at the top five cards of your library. You may reveal a card with a kicker ability from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+            "toughness": "2",
+            "type": "Creature - Merfolk Wizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/3/937f3ea1-7966-4fd1-8ec7-bdca6edabdd0.jpg"
+        },
+        {
+            "artist": "Lie Setiawan",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Coralhelm Chronicler",
+            "names": null,
+            "number": "54",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Merfolk",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Whenever you cast a kicked spell, draw a card, then discard a card.\nWhen Coralhelm Chronicler enters the battlefield, look at the top five cards of your library. You may reveal a card with a kicker ability from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+            "toughness": "2",
+            "type": "Creature - Merfolk Wizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/50b54524-8345-4b47-913f-d883a1cbe3a1.jpg"
+        },
+        {
+            "artist": "Lie Setiawan",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}",
+            "multiverseId": null,
+            "name": "Coveted Prize",
+            "names": null,
+            "number": "337",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)\nSearch your library for a card, put it into your hand, then shuffle your library. If you have a full party, you may cast a spell with converted mana cost 4 or less from your hand without paying its mana cost.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/95c86ad5-5384-4a62-971c-05abc995da91.jpg"
+        },
+        {
+            "artist": "Lie Setiawan",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}",
+            "multiverseId": null,
+            "name": "Coveted Prize",
+            "names": null,
+            "number": "95",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)\nSearch your library for a card, put it into your hand, then shuffle your library. If you have a full party, you may cast a spell with converted mana cost 4 or less from your hand without paying its mana cost.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5afbc5d3-318f-4545-88d6-fc81e5466238.jpg"
+        },
+        {
+            "artist": "Andreas Rocha & Andreas Rocha",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Cragcrown Pathway // Timbercrown Pathway",
+            "names": null,
+            "number": "261",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/a/da57eb54-5199-4a56-95f7-f6ac432876b1.jpg"
+            ]
+        },
+        {
+            "artist": "Sam Burley & Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Cragcrown Pathway // Timbercrown Pathway",
+            "names": null,
+            "number": "287",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/5/050602c0-b5b7-4076-af33-0f7a58d0b260.jpg"
+            ]
+        },
+        {
+            "artist": "David Rapoza",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"I've got a little surprise for you, beasties! Come and get it!\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Dauntless Survivor",
+            "names": null,
+            "number": "184",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "When Dauntless Survivor enters the battlefield, put a +1/+1 counter on target creature.",
+            "toughness": "1",
+            "type": "Creature - Human Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/2/52b1b4a2-52a7-4fcd-aa96-f7d9e459657b.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"He could handle any one of us, but he's no match for all of us!\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}",
+            "multiverseId": null,
+            "name": "Deadly Alliance",
+            "names": null,
+            "number": "96",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)\nDestroy target creature or planeswalker.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/0/007a5c8c-ed0b-4844-9393-a3d25d4ffa1d.jpg"
+        },
+        {
+            "artist": "Kieran Yanner",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "Taborax's cultists are the latest in a long line of history of beings who have desired to see Zendikar torn to pieces.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Demon's Disciple",
+            "names": null,
+            "number": "97",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "When Demon's Disciple enters the battlefield, each player sacrifices a creature or planeswalker.",
+            "toughness": "1",
+            "type": "Creature - Human Cleric",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/3/836f5197-e42b-45e0-8170-1b0a8a5beebd.jpg"
+        },
+        {
+            "artist": "Tyler Jacobson",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}{B}",
+            "multiverseId": null,
+            "name": "Drana, the Last Bloodchief",
+            "names": null,
+            "number": "338",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Vampire",
+                "Cleric"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nWhenever Drana, the Last Bloodchief attacks, defending player chooses a nonlegendary creature card in your graveyard. You return that card to the battlefield with a +1/+1 counter on it. The creature is a Vampire in addition to its other types.",
+            "toughness": "4",
+            "type": "Legendary Creature - Vampire Cleric",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/927297f6-5480-441f-ae05-a4064f493eed.jpg"
+        },
+        {
+            "artist": "Tyler Jacobson",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}{B}",
+            "multiverseId": null,
+            "name": "Drana, the Last Bloodchief",
+            "names": null,
+            "number": "98",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Vampire",
+                "Cleric"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nWhenever Drana, the Last Bloodchief attacks, defending player chooses a nonlegendary creature card in your graveyard. You return that card to the battlefield with a +1/+1 counter on it. The creature is a Vampire in addition to its other types.",
+            "toughness": "4",
+            "type": "Legendary Creature - Vampire Cleric",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5cd4154e-7681-444b-a0f2-33e887791ba7.jpg"
+        },
+        {
+            "artist": "Matt Stewart",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"The gifts of the past must find their way into deserving hands.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}",
+            "multiverseId": null,
+            "name": "Emeria Captain",
+            "names": null,
+            "number": "11",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Angel",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Flying, vigilance\nWhen Emeria Captain enters the battlefield, put a +1/+1 counter on it for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+            "toughness": "1",
+            "type": "Creature - Angel Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/4/6490370e-fff5-4f17-b715-74ff8df5bc7c.jpg"
+        },
+        {
+            "artist": "Matt Stewart",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Emeria's Call // Emeria, Shattered Skyclave",
+            "names": null,
+            "number": "12",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Sorcery // Land",
+            "types": "Sorcery // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/4/c470539a-9cc7-4175-8f7c-c982b6072b6d.jpg"
+            ]
+        },
+        {
+            "artist": "Matt Stewart",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Emeria's Call // Emeria, Shattered Skyclave",
+            "names": null,
+            "number": "317",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Sorcery // Land",
+            "types": "Sorcery // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/ca50edb2-e50e-4601-ae18-1a313e041105.jpg"
+            ]
+        },
+        {
+            "artist": "Heonhwa Choe",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "Wizards' spells twist the fabric of reality to channel elemental energies, peer into the future, and even calm the Roil.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Expedition Diviner",
+            "names": null,
+            "number": "57",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Merfolk",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Flying\nAs long as you control another Wizard, Expedition Diviner has \"When this creature dies, draw a card.\"",
+            "toughness": "2",
+            "type": "Creature - Merfolk Wizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/9/090f6e94-fb5f-4861-a465-f11766303676.jpg"
+        },
+        {
+            "artist": "Mathias Kollros",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "Rogues bring an array of useful skills to the work of an adventuring party: stealth, agility, the ability to locate and disarm traps, and a subtle, deadly fighting style.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Expedition Skulker",
+            "names": null,
+            "number": "101",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Vampire",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "Expedition Skulker has deathtouch as long as you control another Rogue.",
+            "toughness": "2",
+            "type": "Creature - Vampire Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/2966b1f0-3d30-4d92-87e5-f39ceacefbd2.jpg"
+        },
+        {
+            "artist": "Cristi Balanescu",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"I've walked every one of the Teetering Peaks and never set a foot wrong. I can get you to safety.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Farsight Adept",
+            "names": null,
+            "number": "14",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Kor",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "When Farsight Adept enters the battlefield, you and target opponent each draw a card.",
+            "toughness": "3",
+            "type": "Creature - Kor Wizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/9/5949bb9a-b4e8-4992-a12d-8e31953aff0d.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Forest",
+            "names": null,
+            "number": "278",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Forest"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {G}.)",
+            "toughness": null,
+            "type": "Basic Land - Forest",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d949485e-5188-49f4-9d30-5e135532d445.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Forest",
+            "names": null,
+            "number": "279",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Forest"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {G}.)",
+            "toughness": null,
+            "type": "Basic Land - Forest",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/8/184a9654-ce17-4378-b52b-fb6efbbf042f.jpg"
+        },
+        {
+            "artist": "Tianhua X",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Forest",
+            "names": null,
+            "number": "280",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Forest"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {G}.)",
+            "toughness": null,
+            "type": "Basic Land - Forest",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/2/e2ef9b74-481b-424b-8e33-f0b910f66370.jpg"
+        },
+        {
+            "artist": "Izzy",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "Where mana flows, the gnarlids follow.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Gnarlid Colony",
+            "names": null,
+            "number": "185",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Beast"
+            ],
+            "superTypes": [],
+            "text": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)\nIf Gnarlid Colony was kicked, it enters the battlefield with two +1/+1 counters on it.\nEach creature you control with a +1/+1 counter on it has trample.",
+            "toughness": "2",
+            "type": "Creature - Beast",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/7327289d-eed8-44b1-8495-7172e2b49d5f.jpg"
+        },
+        {
+            "artist": "Jakub Kasper",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"Everybody grab a leg!\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Grotag Bug-Catcher",
+            "names": null,
+            "number": "142",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Goblin",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Trample\nWhenever Grotag Bug-Catcher attacks, it gets +1/+0 until end of turn for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+            "toughness": "2",
+            "type": "Creature - Goblin Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/b/5b310b01-f9cb-48ce-8af3-5957d3abf098.jpg"
+        },
+        {
+            "artist": "Caroline Gariba",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "Naturally inquisitive and adaptable, goblins can turn their small stature to their advantage as rogues.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Grotag Night-Runner",
+            "names": null,
+            "number": "143",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Goblin",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "Whenever Grotag Night-Runner deals combat damage to a player, exile the top card of your library. You may play that card this turn.",
+            "toughness": "3",
+            "type": "Creature - Goblin Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/5/0568341b-f972-407f-92ce-1b7c9ef742f6.jpg"
+        },
+        {
+            "artist": "Campbell White",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Into the Roil",
+            "names": null,
+            "number": "62",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)\nReturn target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/899540b0-c17a-4a73-912c-9b8925203de1.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Island",
+            "names": null,
+            "number": "269",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Island"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {U}.)",
+            "toughness": null,
+            "type": "Basic Land - Island",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/7/77ea783b-adaa-47be-9918-ca2f161c5d9e.jpg"
+        },
+        {
+            "artist": "Anna Steinbauer",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Island",
+            "names": null,
+            "number": "270",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Island"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {U}.)",
+            "toughness": null,
+            "type": "Basic Land - Island",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/b/bb695ab9-72dc-4b07-b42d-e2109a5254b6.jpg"
+        },
+        {
+            "artist": "Tianhua X",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Island",
+            "names": null,
+            "number": "271",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Island"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {U}.)",
+            "toughness": null,
+            "type": "Basic Land - Island",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1ba4b3ad-1aef-44d3-889a-aedd9e070975.jpg"
+        },
         {
             "artist": "David Rapoza",
             "cmc": 3.0,
@@ -1033,6 +3597,576 @@
             "type": "Legendary Planeswalker - Jace",
             "types": " Planeswalker ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/e/fe0ed348-e4ed-4b6a-b9d9-03539a6fb42a.jpg"
+        },
+        {
+            "artist": "Izzy",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Ondu moas make wildly uncomfortable mounts, but for determined warriors, their speed is enough to make up for it.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}",
+            "multiverseId": null,
+            "name": "Kabira Outrider",
+            "names": null,
+            "number": "18",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "When Kabria Outrider enters the battlefield, target creature gets +1/+1 until end of turn for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+            "toughness": "3",
+            "type": "Creature - Human Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/53c81719-f820-4674-9cfb-cd5eaf0c1f0d.jpg"
+        },
+        {
+            "artist": "Ekaterina Burmak",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R",
+                "U"
+            ],
+            "colors": [
+                "R",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}{R}",
+            "multiverseId": null,
+            "name": "Kaza, Roil Chaser",
+            "names": null,
+            "number": "367",
+            "power": "1",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Wizard"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying, haste\n{T}: The next instant or sorcery spell you cast this turn costs {X} less to cast, where X is the number of Wizards you control as this ability resolves.",
+            "toughness": "2",
+            "type": "Legendary Creature - Human Wizard",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6b9f9c0a-1ea6-44ac-b0af-6a6a32359494.jpg"
+        },
+        {
+            "artist": "Grzegorz Rutkowski & Grzegorz Rutkowski",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Khalni Ambush // Khalni Territory",
+            "names": null,
+            "number": "192",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Instant // Land",
+            "types": "Instant // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/99535539-aa73-41ed-86ab-21c97b92620d.jpg"
+            ]
+        },
+        {
+            "artist": "Pindurski",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Too flashy to ignore. Too fast to catch.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}",
+            "multiverseId": null,
+            "name": "Kitesail Cleric",
+            "names": null,
+            "number": "20",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Kor",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Kicker {2}{W} (You may pay an additional {2}{W} as you cast this spell.)\nFlying\nWhen Kitesail Cleric enters the battlefield, if it was kicked, tap up to two target creatures.",
+            "toughness": "1",
+            "type": "Creature - Kor Cleric",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/16626f84-00d3-4ec9-b62c-19fff380cd3a.jpg"
+        },
+        {
+            "artist": "Darren Tan",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Every kor blade is imbued with the skill of a thousand generations.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}",
+            "multiverseId": null,
+            "name": "Kor Blademaster",
+            "names": null,
+            "number": "21",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Kor",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Double strike\nEquipped Warriors you control have double strike.",
+            "toughness": "1",
+            "type": "Creature - Kor Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/c/fc6d6049-5599-47eb-ae58-a8eb96927ece.jpg"
+        },
+        {
+            "artist": "Pindurski",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"We are many, and righteous.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{W}",
+            "multiverseId": null,
+            "name": "Legion Angel",
+            "names": null,
+            "number": "23",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Angel",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhen Legion Angel enters the battlefield, you may reveal a card you own named Legion Angel from outside the game and put it into your hand.",
+            "toughness": "3",
+            "type": "Creature - Angel Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bda5609a-ab22-4f03-988b-8056c97fdc9e.jpg"
+        },
+        {
+            "artist": "Pindurski",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{W}",
+            "multiverseId": null,
+            "name": "Legion Angel",
+            "names": null,
+            "number": "318",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Angel",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhen Legion Angel enters the battlefield, you may reveal a card you own named Legion Angel from outside the game and put it into your hand.",
+            "toughness": "3",
+            "type": "Creature - Angel Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bcc4014f-f9aa-4a46-b772-474e56ed72c3.jpg"
+        },
+        {
+            "artist": "Wayne Reynolds",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [
+                "U",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{U}",
+            "multiverseId": null,
+            "name": "Linvala, Shield of Sea Gate",
+            "names": null,
+            "number": "226",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Angel",
+                "Wizard"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nAt the beginning of combat on your turn, if you have a full party, choose target nonland permanent an opponent controls. Until your next turn, it can't attack or block, and its activated abilities can't be activated.\nSacrifice Linvala: Choose hexproof or indestructible. Creatures you control gain that ability until end of turn.",
+            "toughness": "3",
+            "type": "Legendary Creature - Angel Wizard",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/9/49b66956-82e1-402f-9088-2201bdc0d4b8.jpg"
+        },
+        {
+            "artist": "Wayne Reynolds",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [
+                "U",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{U}",
+            "multiverseId": null,
+            "name": "Linvala, Shield of Sea Gate",
+            "names": null,
+            "number": "368",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Angel",
+                "Wizard"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nAt the beginning of combat on your turn, if you have a full party, choose target nonland permanent an opponent controls. Until your next turn, it can't attack or block, and its activated abilities can't be activated.\nSacrifice Linvala: Choose hexproof or indestructible. Creatures you control gain that ability until end of turn.",
+            "toughness": "3",
+            "type": "Legendary Creature - Angel Wizard",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/15500025-e5ba-4f02-b875-bfa1b1a76875.jpg"
+        },
+        {
+            "artist": "Sam Rowan",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "Its hood blossoms as a warning: receive your gift, but stray no closer.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Lotus Cobra",
+            "names": null,
+            "number": "193",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Snake"
+            ],
+            "superTypes": [],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, you may add one mana of any color.",
+            "toughness": "1",
+            "type": "Creature - Snake",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg"
+        },
+        {
+            "artist": "Bastien Grivet",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Lotus Cobra",
+            "names": null,
+            "number": "307",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Snake"
+            ],
+            "superTypes": [],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, you may add one mana of any color.",
+            "toughness": "1",
+            "type": "Creature - Snake",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/151bdf3a-4445-43b1-8cea-2737c13d9dee.jpg"
+        },
+        {
+            "artist": "Joseph Meehan",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Maul of the Skyclaves",
+            "names": null,
+            "number": "27",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "Equipment"
+            ],
+            "superTypes": [],
+            "text": "When Maul of the Skyclaves enters the battlefield, attach it to target creature you control.\nEquipped creature gets +2/+2 and has flying and first strike.\nEquip {2}{W}{W}",
+            "toughness": null,
+            "type": "Artifact - Equipment",
+            "types": "Artifact ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/1/f18f2608-0d44-442c-97a1-12ac94b7abac.jpg"
+        },
+        {
+            "artist": "Joseph Meehan",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Maul of the Skyclaves",
+            "names": null,
+            "number": "320",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "Equipment"
+            ],
+            "superTypes": [],
+            "text": "When Maul of the Skyclaves enters the battlefield, attach it to target creature you control.\nEquipped creature gets +2/+2 and has flying and first strike.\nEquip {2}{W}{W}",
+            "toughness": null,
+            "type": "Artifact - Equipment",
+            "types": "Artifact ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fb9da1e4-4554-42eb-aed5-9d068c39e727.jpg"
+        },
+        {
+            "artist": "Colin Boyer",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}",
+            "multiverseId": null,
+            "name": "Merfolk Windrobber",
+            "names": null,
+            "number": "70",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Merfolk",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever Merfolk Windrobber deals combat damage to a player, that player mills a card. (They put the top card of their library into their graveyard.)\nSacrifice Merfolk Windrobber: Draw a card. Activate this ability only if an opponent has eight or more cards in their graveyard.",
+            "toughness": "1",
+            "type": "Creature - Merfolk Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/1/112077b8-1514-4320-a70f-b23f3c7ce18a.jpg"
+        },
+        {
+            "artist": "Lie Setiawan",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "The continent of Murasa is defined by irrepressible growth, both natural and otherwise.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Might of Murasa",
+            "names": null,
+            "number": "194",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)\nTarget creature gets +3/+3 until end of turn. If this spell was kicked, that creature gets +5/+5 until end of turn instead.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/42914fd9-e56e-4c3e-a445-fdfa45a45178.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Mountain",
+            "names": null,
+            "number": "275",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Mountain"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {R}.)",
+            "toughness": null,
+            "type": "Basic Land - Mountain",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/96297bcc-8480-4b14-8612-1c395d481bce.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Mountain",
+            "names": null,
+            "number": "276",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Mountain"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {R}.)",
+            "toughness": null,
+            "type": "Basic Land - Mountain",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/0/701aefd4-074a-47b8-88a3-32fb90b09dee.jpg"
+        },
+        {
+            "artist": "Chase Stone",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Mountain",
+            "names": null,
+            "number": "277",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Mountain"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {R}.)",
+            "toughness": null,
+            "type": "Basic Land - Mountain",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c89b3c3a-3dba-47b3-9620-d4dd754a59e6.jpg"
+        },
+        {
+            "artist": "Mathias Kollros",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [
+                "G",
+                "W"
+            ],
+            "flavor": "Few other creatures so closely embody Murasa's rapid cycles of growth.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{W}",
+            "multiverseId": null,
+            "name": "Murasa Rootgrazer",
+            "names": null,
+            "number": "229",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Beast"
+            ],
+            "superTypes": [],
+            "text": "Vigilance\n{T}: You may put a basic land card from your hand onto the battlefield.\n{T}: Return target basic land you control to its owner's hand.",
+            "toughness": "3",
+            "type": "Creature - Beast",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e70b3b78-9bdc-449b-82a9-c2fc3dd7f120.jpg"
         },
         {
             "artist": "Anna Steinbauer",
@@ -1099,6 +4233,1743 @@
             "type": "Legendary Planeswalker - Nahiri",
             "types": " Planeswalker ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6d90ad3d-8d88-470b-897e-2f64376f7f43.jpg"
+        },
+        {
+            "artist": "Piotr Dura & Piotr Dura",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Needleverge Pathway // Pillarverge Pathway",
+            "names": null,
+            "number": "263",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/6559047e-6ede-4815-a3a0-389062094f9d.jpg"
+            ]
+        },
+        {
+            "artist": "Noah Bradley & Noah Bradley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Needleverge Pathway // Pillarverge Pathway",
+            "names": null,
+            "number": "288",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/ae420b3f-2f5b-4a4a-8d3a-8e6a3288c35a.jpg"
+            ]
+        },
+        {
+            "artist": "Heonhwa Choe",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{B}",
+            "multiverseId": null,
+            "name": "Nighthawk Scavenger",
+            "names": null,
+            "number": "115",
+            "power": "1+*",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Vampire",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "Flying, deathtouch, lifelink\nNighthawk Scavenger's power is equal to 1 plus the number of card types among cards in your opponents' graveyards.",
+            "toughness": "3",
+            "type": "Creature - Vampire Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb348f07-1d48-4877-8a56-60655d64a3f7.jpg"
+        },
+        {
+            "artist": "Heonhwa Choe",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{B}",
+            "multiverseId": null,
+            "name": "Nighthawk Scavenger",
+            "names": null,
+            "number": "341",
+            "power": "1+*",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Vampire",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "Flying, deathtouch, lifelink\nNighthawk Scavenger's power is equal to 1 plus the number of card types among cards in your opponents' graveyards.",
+            "toughness": "3",
+            "type": "Creature - Vampire Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/9/b9522009-4fc9-439a-95ea-5800842c5ee2.jpg"
+        },
+        {
+            "artist": "Yongjae Choi",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B",
+                "G"
+            ],
+            "colors": [
+                "B",
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": "4",
+            "mana_cost": "{2}{B}{G}",
+            "multiverseId": null,
+            "name": "Nissa of Shadowed Boughs",
+            "names": null,
+            "number": "231",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Nissa"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, put a loyalty counter on Nissa of Shadowed Boughs.\n+1: Untap target land you control. You may have it become a 3/3 Elemental creature with haste and menace until end of turn. It's still a land.\n\u22125: You may put a creature card with converted mana cost less than or equal to the number of lands you control onto the battlefield from your hand or graveyard with two +1/+1 counters on it.",
+            "toughness": null,
+            "type": "Legendary Planeswalker - Nissa",
+            "types": " Planeswalker ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6d69f943-d474-47c0-bc6b-1b247a5dd6f3.jpg"
+        },
+        {
+            "artist": "David Rapoza",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B",
+                "G"
+            ],
+            "colors": [
+                "B",
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": "4",
+            "mana_cost": "{2}{B}{G}",
+            "multiverseId": null,
+            "name": "Nissa of Shadowed Boughs",
+            "names": null,
+            "number": "283",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Nissa"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, put a loyalty counter on Nissa of Shadowed Boughs.\n+1: Untap target land you control. You may have it become a 3/3 Elemental creature with haste and menace until end of turn. It's still a land.\n\u22125: You may put a creature card with converted mana cost less than or equal to the number of lands you control onto the battlefield from your hand or graveyard with two +1/+1 counters on it.",
+            "toughness": null,
+            "type": "Legendary Planeswalker - Nissa",
+            "types": " Planeswalker ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/a/dabac59d-8319-417e-9cd5-e4ee59b2e5f2.jpg"
+        },
+        {
+            "artist": "Chris Rahn",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G",
+                "R",
+                "U",
+                "W"
+            ],
+            "colors": [
+                "G",
+                "R",
+                "U",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}{G}{W}{U}",
+            "multiverseId": null,
+            "name": "Omnath, Locus of Creation",
+            "names": null,
+            "number": "232",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "When Omnath, Locus of Creation enters the battlefield, draw a card.\nLandfall \u2014 Whenever a land enters the battlefield under your control, you gain 4 life if this is the first time this ability has resolved this turn. If it's the second time, add {R}{G}{W}{U}. If it's the third time, Omnath deals 4 damage to each opponent and each planeswalker you don't control.",
+            "toughness": "4",
+            "type": "Legendary Creature - Elemental",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4e4fb50c-a81f-44d3-93c5-fa9a0b37f617.jpg"
+        },
+        {
+            "artist": "Bastien Grivet",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G",
+                "R",
+                "U",
+                "W"
+            ],
+            "colors": [
+                "G",
+                "R",
+                "U",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}{G}{W}{U}",
+            "multiverseId": null,
+            "name": "Omnath, Locus of Creation",
+            "names": null,
+            "number": "312",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "When Omnath, Locus of Creation enters the battlefield, draw a card.\nLandfall \u2014 Whenever a land enters the battlefield under your control, you gain 4 life if this is the first time this ability has resolved this turn. If it's the second time, add {R}{G}{W}{U}. If it's the third time, Omnath deals 4 damage to each opponent and each planeswalker you don't control.",
+            "toughness": "4",
+            "type": "Legendary Creature - Elemental",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9b5bc5d7-c0f8-4632-adb7-dd3b75a3d87d.jpg"
+        },
+        {
+            "artist": "Heonhwa Choe",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [
+                "B",
+                "W"
+            ],
+            "flavor": "\"The Skyclaves are our inheritance.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{B}",
+            "multiverseId": null,
+            "name": "Orah, Skyclave Hierophant",
+            "names": null,
+            "number": "233",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Kor",
+                "Cleric"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Lifelink\nWhenever Orah, Skyclave Hierophant or another Cleric you control dies, return target Cleric card with lesser converted mana cost from your graveyard to the battlefield.",
+            "toughness": "3",
+            "type": "Legendary Creature - Kor Cleric",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/2336c8bf-fcad-41f9-9041-80b8aa3cd79a.jpg"
+        },
+        {
+            "artist": "Heonhwa Choe",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [
+                "B",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{B}",
+            "multiverseId": null,
+            "name": "Orah, Skyclave Hierophant",
+            "names": null,
+            "number": "369",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Kor",
+                "Cleric"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Lifelink\nWhenever Orah, Skyclave Hierophant or another Cleric you control dies, return target Cleric card with lesser converted mana cost from your graveyard to the battlefield.",
+            "toughness": "3",
+            "type": "Legendary Creature - Kor Cleric",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a323ac2-b7c0-4eae-8c12-253ec1f81317.jpg"
+        },
+        {
+            "artist": "Anna Steinbauer",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [
+                "B",
+                "W"
+            ],
+            "flavor": "\"The Skyclaves are our inheritance.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{B}",
+            "multiverseId": null,
+            "name": "Orah, Skyclave Hierophant",
+            "names": null,
+            "number": "385",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Kor",
+                "Cleric"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Lifelink\nWhenever Orah, Skyclave Hierophant or another Cleric you control dies, return target Cleric card with lesser converted mana cost from your graveyard to the battlefield.",
+            "toughness": "3",
+            "type": "Legendary Creature - Kor Cleric",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0dc715da-970a-4525-a752-a3b7a0f1e87b.jpg"
+        },
+        {
+            "artist": "",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Pelakka Predation // Pelakka Caverns",
+            "names": null,
+            "number": "120",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Sorcery // Land",
+            "types": "Sorcery // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e63f8b20-f45b-4293-9aac-cdc021939be6.jpg"
+            ]
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Plains",
+            "names": null,
+            "number": "266",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Plains"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {W}.)",
+            "toughness": null,
+            "type": "Basic Land - Plains",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/9591fd15-78d9-4089-a075-031ab2affd2d.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Plains",
+            "names": null,
+            "number": "267",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Plains"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {W}.)",
+            "toughness": null,
+            "type": "Basic Land - Plains",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/6/5665190e-ea2a-498e-9c4f-f0bc514bd80c.jpg"
+        },
+        {
+            "artist": "Chris Rahn",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Plains",
+            "names": null,
+            "number": "268",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Plains"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {W}.)",
+            "toughness": null,
+            "type": "Basic Land - Plains",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/d/5d918248-85ff-4fea-ac91-aa5466dd2829.jpg"
+        },
+        {
+            "artist": "Tyler Smith",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}",
+            "multiverseId": null,
+            "name": "Prowling Felidar",
+            "names": null,
+            "number": "294",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Cat",
+                "Beast"
+            ],
+            "superTypes": [],
+            "text": "Vigilance\nLandfall \u2014 Whenever a land enters the battlefield under your control, put a +1/+1 counter on Prowling Felidar.",
+            "toughness": "3",
+            "type": "Creature - Cat Beast",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e8df0aed-dd2b-4f1e-8dfe-aec07462b1e1.jpg"
+        },
+        {
+            "artist": "Ilse Gort",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "On occasion, felidars leave meaty \"gifts\" outside the tents of explorers they consider worthy.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}",
+            "multiverseId": null,
+            "name": "Prowling Felidar",
+            "names": null,
+            "number": "34",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Cat",
+                "Beast"
+            ],
+            "superTypes": [],
+            "text": "Vigilance\nLandfall \u2014 Whenever a land enters the battlefield under your control, put a +1/+1 counter on Prowling Felidar.",
+            "toughness": "3",
+            "type": "Creature - Cat Beast",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/9/b9d1c11a-a32c-449c-95c6-450dce6c26d2.jpg"
+        },
+        {
+            "artist": "Antonio Jos\u00e9 Manzanedo",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
+            "colors": [
+                "B",
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{R}",
+            "multiverseId": null,
+            "name": "Ravager's Mace",
+            "names": null,
+            "number": "235",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Equipment"
+            ],
+            "superTypes": [],
+            "text": "When Ravager's Mace enters the battlefield, attach it to target creature you control.\nEquipped creature gets +1/+0 for each creature in your party and has menace. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)\nEquip {2}{B}{R}",
+            "toughness": null,
+            "type": "Artifact - Equipment",
+            "types": "Artifact ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/af484140-57d6-4505-9960-5e7b0306cc9b.jpg"
+        },
+        {
+            "artist": "Kieran Yanner & Kieran Yanner",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R",
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Riverglide Pathway // Lavaglide Pathway",
+            "names": null,
+            "number": "264",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/2668ac91-6cda-4f81-a08d-4fc5f9cb35b2.jpg"
+            ]
+        },
+        {
+            "artist": "Johan Grenier & Johan Grenier",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R",
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Riverglide Pathway // Lavaglide Pathway",
+            "names": null,
+            "number": "289",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Land // Land",
+            "types": "Land // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/8/78792607-0872-4de4-a9d8-92f1d58f4a71.jpg"
+            ]
+        },
+        {
+            "artist": "Campbell White",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Roiling Vortex",
+            "names": null,
+            "number": "156",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "At the beginning of each player's upkeep, Roiling Vortex deals 1 damage to them.\nWhenever a player casts a spell, if no mana was spent to cast that spell, Roiling Vortex deals 5 damage to that player.\n{R}: Your opponents can't gain life this turn.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0b057eb7-8439-4d26-89df-c345ab2773e1.jpg"
+        },
+        {
+            "artist": "Campbell White",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{R}",
+            "multiverseId": null,
+            "name": "Roiling Vortex",
+            "names": null,
+            "number": "352",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "At the beginning of each player's upkeep, Roiling Vortex deals 1 damage to them.\nWhenever a player casts a spell, if no mana was spent to cast that spell, Roiling Vortex deals 5 damage to that player.\n{R}: Your opponents can't gain life this turn.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b64940bb-c92f-4c2f-aef6-927cdc070b13.jpg"
+        },
+        {
+            "artist": "Matteo Bassini",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}",
+            "multiverseId": null,
+            "name": "Ruin Crab",
+            "names": null,
+            "number": "295",
+            "power": "0",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Crab"
+            ],
+            "superTypes": [],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, each opponent mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
+            "toughness": "3",
+            "type": "Creature - Crab",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/f/efc72e9f-2cda-47b9-84fd-4eed88312404.jpg"
+        },
+        {
+            "artist": "Simon Dominic",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "To an explorer, a priceless treasure. To the crab, a rock to call home.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}",
+            "multiverseId": null,
+            "name": "Ruin Crab",
+            "names": null,
+            "number": "75",
+            "power": "0",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Crab"
+            ],
+            "superTypes": [],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, each opponent mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
+            "toughness": "3",
+            "type": "Creature - Crab",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/738ce273-c938-42d2-83b2-c4f5f4000b0b.jpg"
+        },
+        {
+            "artist": "Cristi Balanescu",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Seafloor Stalker",
+            "names": null,
+            "number": "78",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Merfolk",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "{4}{U}: Seafloor Stalker gets +1/+0 until end of turn and can't be blocked this turn. This ability costs {1} less to activate for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+            "toughness": "3",
+            "type": "Creature - Merfolk Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/985e9696-6c76-4241-97fc-f166fe2420ce.jpg"
+        },
+        {
+            "artist": "Darek Zabrocki & Darek Zabrocki",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Sejiri Shelter // Sejiri Glacier",
+            "names": null,
+            "number": "37",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Instant // Land",
+            "types": "Instant // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg"
+            ]
+        },
+        {
+            "artist": "Wisnu Tan",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}",
+            "multiverseId": null,
+            "name": "Shell Shield",
+            "names": null,
+            "number": "79",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Kicker {1} (You may pay an additional {1} as you cast this spell.)\nTarget creature you control gets +0/+3 until end of turn. If this spell was kicked, that creature also gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3daede39-8eef-4272-a483-312dbd2dd30f.jpg"
+        },
+        {
+            "artist": "Livia Prima",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Rest, friends. I will protect you.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{W}",
+            "multiverseId": null,
+            "name": "Shepherd of Heroes",
+            "names": null,
+            "number": "38",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Angel",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhen Shepherd of Heroes enters the battlefield, you gain 2 life for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+            "toughness": "4",
+            "type": "Creature - Angel Cleric",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/f/1f70baa3-5232-4e10-80b4-a9ead6ed6ec3.jpg"
+        },
+        {
+            "artist": "Donato Giancola",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{W}",
+            "multiverseId": null,
+            "name": "Skyclave Apparition",
+            "names": null,
+            "number": "322",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Kor",
+                "Spirit"
+            ],
+            "superTypes": [],
+            "text": "When Skyclave Apparition enters the battlefield, exile up to one target nonland, nontoken permanent you don't control with converted mana cost 4 or less.\nWhen Skyclave Apparition leaves the battlefield, the exiled card's owner creates an X/X blue Illusion creature token, where X is the converted mana cost of the exiled card.",
+            "toughness": "2",
+            "type": "Creature - Kor Spirit",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bc4b938f-a600-4d10-8030-ed60cf6ade56.jpg"
+        },
+        {
+            "artist": "Donato Giancola",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{W}",
+            "multiverseId": null,
+            "name": "Skyclave Apparition",
+            "names": null,
+            "number": "39",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Kor",
+                "Spirit"
+            ],
+            "superTypes": [],
+            "text": "When Skyclave Apparition enters the battlefield, exile up to one target nonland, nontoken permanent you don't control with converted mana cost 4 or less.\nWhen Skyclave Apparition leaves the battlefield, the exiled card's owner creates an X/X blue Illusion creature token, where X is the converted mana cost of the exiled card.",
+            "toughness": "2",
+            "type": "Creature - Kor Spirit",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b83cfbaa-7890-4f6f-878b-4edb45677371.jpg"
+        },
+        {
+            "artist": "Dan Scott",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"I swear, it's a shortcut.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}",
+            "multiverseId": null,
+            "name": "Sneaking Guide",
+            "names": null,
+            "number": "164",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Goblin",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "{2}, {T}: Target creature with power 2 or less can't be blocked this turn.",
+            "toughness": "1",
+            "type": "Creature - Goblin Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/6/569c9e8c-7808-49d0-82c1-72d5b835f51c.jpg"
+        },
+        {
+            "artist": "Wylie Beckert",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "The Kargan tribes share legends of the victory their ancestors won over the Akoum Skyclave, and its horrendous cost.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Soul Shatter",
+            "names": null,
+            "number": "127",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Each opponent sacrifices a creature or planeswalker with the highest converted mana cost among creatures and planeswalkers they control.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c2fb07b-0f70-403b-be8b-b5217f12e671.jpg"
+        },
+        {
+            "artist": "Wylie Beckert",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Soul Shatter",
+            "names": null,
+            "number": "345",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Each opponent sacrifices a creature or planeswalker with the highest converted mana cost among creatures and planeswalkers they control.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1e40b3f9-8eed-41b1-afe1-eaf61a618407.jpg"
+        },
+        {
+            "artist": "Antonio Jos\u00e9 Manzanedo",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"If you hear a choking sort of cough, it's about to get really hot.\"\n\u2014Raff Slugeater, goblin shortcutter",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{R}",
+            "multiverseId": null,
+            "name": "Spitfire Lagac",
+            "names": null,
+            "number": "167",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Lizard"
+            ],
+            "superTypes": [],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, Spitfire Lagac deals 1 damage to each opponent.",
+            "toughness": "4",
+            "type": "Creature - Lizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/47f26493-812f-4c14-91c4-d2ab549a7b8a.jpg"
+        },
+        {
+            "artist": "Dominik Mayer",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{R}",
+            "multiverseId": null,
+            "name": "Spitfire Lagac",
+            "names": null,
+            "number": "302",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Lizard"
+            ],
+            "superTypes": [],
+            "text": "Landfall \u2014 Whenever a land enters the battlefield under your control, Spitfire Lagac deals 1 damage to each opponent.",
+            "toughness": "4",
+            "type": "Creature - Lizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b6008794-a7ca-4a3e-b88b-e5dbb9e0f39b.jpg"
+        },
+        {
+            "artist": "Zezhou Chen",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [
+                "U",
+                "W"
+            ],
+            "flavor": "Survival itself is no small reward.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{W}{U}",
+            "multiverseId": null,
+            "name": "Spoils of Adventure",
+            "names": null,
+            "number": "237",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)\nYou gain 3 life and draw three cards.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9b3b1ef0-a653-4adb-8112-82d4822446b4.jpg"
+        },
+        {
+            "artist": "Sam Burley",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Swamp",
+            "names": null,
+            "number": "272",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Swamp"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {B}.)",
+            "toughness": null,
+            "type": "Basic Land - Swamp",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/95a58ce4-e07f-4c9c-98ae-3173d6d63cc5.jpg"
+        },
+        {
+            "artist": "Slawomir Maniak",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Swamp",
+            "names": null,
+            "number": "273",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Swamp"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {B}.)",
+            "toughness": null,
+            "type": "Basic Land - Swamp",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/26142ae3-5aa1-4b9b-989a-21c0e4e5089d.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Swamp",
+            "names": null,
+            "number": "274",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Swamp"
+            ],
+            "superTypes": [
+                "Basic"
+            ],
+            "text": "({T}: Add {B}.)",
+            "toughness": null,
+            "type": "Basic Land - Swamp",
+            "types": " Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/1/418335b2-398f-499e-92ad-8d21a5a5b69f.jpg"
+        },
+        {
+            "artist": "Nicholas Gregory",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}",
+            "multiverseId": null,
+            "name": "Swarm Shambler",
+            "names": null,
+            "number": "207",
+            "power": "0",
+            "rarity": "Rare",
+            "subTypes": [
+                "Fungus",
+                "Beast"
+            ],
+            "superTypes": [],
+            "text": "Swarm Shambler enters the battlefield with a +1/+1 counter on it.\nWhenever a creature you control with a +1/+1 counter on it becomes the target of a spell an opponent controls, create a 1/1 green Insect creature token.\n{1}, {T}: Put a +1/+1 counter on Swarm Shambler.",
+            "toughness": "0",
+            "type": "Creature - Fungus Beast",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7a7e4f99-ece4-473e-b712-40e4c53558e8.jpg"
+        },
+        {
+            "artist": "Nicholas Gregory",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}",
+            "multiverseId": null,
+            "name": "Swarm Shambler",
+            "names": null,
+            "number": "362",
+            "power": "0",
+            "rarity": "Rare",
+            "subTypes": [
+                "Fungus",
+                "Beast"
+            ],
+            "superTypes": [],
+            "text": "Swarm Shambler enters the battlefield with a +1/+1 counter on it.\nWhenever a creature you control with a +1/+1 counter on it becomes the target of a spell an opponent controls, create a 1/1 green Insect creature token.\n{1}, {T}: Put a +1/+1 counter on Swarm Shambler.",
+            "toughness": "0",
+            "type": "Creature - Fungus Beast",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/3/63e0cde7-ec96-4428-b368-572154c97f1c.jpg"
+        },
+        {
+            "artist": "G-host Lee",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Taborax, Hope's Demise",
+            "names": null,
+            "number": "129",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Demon",
+                "Cleric"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying\nTaborax, Hope's Demise has lifelink as long as it has five or more +1/+1 counters on it.\nWhenever another nontoken creature you control dies, put a +1/+1 counter on Taborax. If that creature was a Cleric, you may draw a card. If you do, you lose 1 life.",
+            "toughness": "2",
+            "type": "Legendary Creature - Demon Cleric",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/3/331bf97d-f447-4c68-bfc7-2bb593106d66.jpg"
+        },
+        {
+            "artist": "Dmitry Burmak",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "Ora Ondar, the Khalni Garden, is a lush tangle of growth in the harsh lands of Akoum. Its plant growth is marvelously diverse: a brilliant spectrum of vibrant life . . . and speedy death.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}",
+            "multiverseId": null,
+            "name": "Tajuru Blightblade",
+            "names": null,
+            "number": "208",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Elf",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "Deathtouch",
+            "toughness": "1",
+            "type": "Creature - Elf Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f3d6020-6767-406c-bf28-6b3e9ae72f50.jpg"
+        },
+        {
+            "artist": "Cristi Balanescu",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Tajuru Paragon",
+            "names": null,
+            "number": "209",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Elf"
+            ],
+            "superTypes": [],
+            "text": "Tajuru Paragon is also a Cleric, Rogue, Warrior, and Wizard.\nKicker {3}\nWhen Tajuru Paragon enters the battlefield, if it was kicked, reveal the top six cards of your library. You may put a card that shares a creature type with it from among them into your hand. Put the rest on the bottom of your library in a random order.",
+            "toughness": "2",
+            "type": "Creature - Elf",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/0/a045dd0f-953a-4022-8f29-0758f2b6ccaa.jpg"
+        },
+        {
+            "artist": "Cristi Balanescu",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Tajuru Paragon",
+            "names": null,
+            "number": "363",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Elf"
+            ],
+            "superTypes": [],
+            "text": "Tajuru Paragon is also a Cleric, Rogue, Warrior, and Wizard.\nKicker {3}\nWhen Tajuru Paragon enters the battlefield, if it was kicked, reveal the top six cards of your library. You may put a card that shares a creature type with it from among them into your hand. Put the rest on the bottom of your library in a random order.",
+            "toughness": "2",
+            "type": "Creature - Elf",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0d1a2ec1-23c1-4826-94b8-3df24172d764.jpg"
+        },
+        {
+            "artist": "Rudy Siswanto",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "Elves of the Tajuru Nation spend their lives in the ancient jaddi trees' expansive canopy, some living and dying without ever touching the ground.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Tajuru Snarecaster",
+            "names": null,
+            "number": "210",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Elf",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "Reach",
+            "toughness": "4",
+            "type": "Creature - Elf Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e1894cf9-7d53-4b7e-aaae-8db42bdd8e49.jpg"
+        },
+        {
+            "artist": "Randy Vargas",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Tangled Florahedron // Tangled Vale",
+            "names": null,
+            "number": "211",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Elemental",
+                "//",
+                "Land"
+            ],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Creature - Elemental // Land",
+            "types": "Creature ",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/235d1ffc-72aa-40a2-95dc-3f6a8d495061.jpg"
+            ]
+        },
+        {
+            "artist": "Cristi Balanescu",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"Eyes on me!\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Taunting Arbormage",
+            "names": null,
+            "number": "212",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Elf",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Kicker {3} (You may pay an additional {3} as you cast this spell.)\nWhen Taunting Arbormage enters the battlefield, if it was kicked, all creatures able to block target creature this turn do so.",
+            "toughness": "3",
+            "type": "Creature - Elf Wizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/ca6f8996-bf72-4e55-944f-5b8202b6068c.jpg"
+        },
+        {
+            "artist": "Chris Rahn",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{W}",
+            "multiverseId": null,
+            "name": "Tazri, Beacon of Unity",
+            "names": null,
+            "number": "324",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Human",
+                "Warrior"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "This spell costs {1} less to cast for each creature in your party.\n{2/U}{2/B}{2/R}{2/G}: Look at the top six cards of your library. You may reveal up to two Cleric, Rogue, Warrior, Wizard, and/or Ally cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.",
+            "toughness": "6",
+            "type": "Legendary Creature - Human Warrior",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/e/8e4c1ab6-a67e-4258-8156-de21ccb2277d.jpg"
+        },
+        {
+            "artist": "Chris Rahn",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{W}",
+            "multiverseId": null,
+            "name": "Tazri, Beacon of Unity",
+            "names": null,
+            "number": "44",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Human",
+                "Warrior"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "This spell costs {1} less to cast for each creature in your party.\n{2/U}{2/B}{2/R}{2/G}: Look at the top six cards of your library. You may reveal up to two Cleric, Rogue, Warrior, Wizard, and/or Ally cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.",
+            "toughness": "6",
+            "type": "Legendary Creature - Human Warrior",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/4/d4b79138-5728-4541-9ea5-dce1a5ae7e6a.jpg"
+        },
+        {
+            "artist": "Wylie Beckert",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}{B}",
+            "multiverseId": null,
+            "name": "Thwart the Grave",
+            "names": null,
+            "number": "130",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)\nReturn target creature card and up to one target Cleric, Rogue, Warrior, or Wizard creature card from your graveyard to the battlefield.",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bd037e51-9088-4145-8289-00a86fb72ca1.jpg"
+        },
+        {
+            "artist": "Bryan Sola",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R",
+                "U"
+            ],
+            "colors": [
+                "R",
+                "U"
+            ],
+            "flavor": "\"We tolerate the North Hada thieves' den, but cutthroats who wander downriver earn a skymanta ride out to sea.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}{R}",
+            "multiverseId": null,
+            "name": "Umara Mystic",
+            "names": null,
+            "number": "238",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Merfolk",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever you cast an instant, sorcery, or Wizard spell, Umara Mystic gets +2/+0 until end of turn.",
+            "toughness": "3",
+            "type": "Creature - Merfolk Wizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fb979cfc-3e5b-42c9-b78d-584c274ed912.jpg"
+        },
+        {
+            "artist": "Jesper Ejsing",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Umara Wizard // Umara Skyfalls",
+            "names": null,
+            "number": "86",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Merfolk",
+                "Wizard",
+                "//",
+                "Land"
+            ],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Creature - Merfolk Wizard // Land",
+            "types": "Creature ",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/890eee8d-a339-4143-adfa-1b17ec10c099.jpg"
+            ]
+        },
+        {
+            "artist": "Campbell White & Campbell White",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Valakut Awakening // Valakut Stoneforge",
+            "names": null,
+            "number": "174",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Instant // Land",
+            "types": "Instant // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/228e551e-023a-4c9a-8f32-58dae6ffdf7f.jpg"
+            ]
+        },
+        {
+            "artist": "Campbell White & Campbell White",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Valakut Awakening // Valakut Stoneforge",
+            "names": null,
+            "number": "355",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "",
+            "toughness": null,
+            "type": "Instant // Land",
+            "types": "Instant // Land",
+            "url": [
+                "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a156b510-8879-4a7b-b15b-71374cb1e6f7.jpg"
+            ]
+        },
+        {
+            "artist": "Slawomir Maniak",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "\"It's and ideal method for exploring sky ruins. The drakes sniff me briefly but then lose interest.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Windrider Wizard",
+            "names": null,
+            "number": "87",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Wizard"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhenever you cast an instant, sorcery, or Wizard spell, you may draw a card. If you do, discard a card.",
+            "toughness": "2",
+            "type": "Creature - Human Wizard",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/7/c790a86d-db91-4a87-aa3a-3f9fc4d4b662.jpg"
+        },
+        {
+            "artist": "Zack Stella",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [
+                "B",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}{B}",
+            "multiverseId": null,
+            "name": "Zareth San, the Trickster",
+            "names": null,
+            "number": "242",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Merfolk",
+                "Rogue"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flash\n{2}{U}{B}, Return an unblocked attacking Rogue you control to its owner's hand: Put Zareth San, the Trickster from your hand onto the battlefield tapped and attacking.\nWhenever Zareth San deals combat damage to a player, you may put target permanent card from that player's graveyard onto the battlefield under your control.",
+            "toughness": "4",
+            "type": "Legendary Creature - Merfolk Rogue",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9cfe4fbe-277f-410c-9eee-f7617f4cb850.jpg"
+        },
+        {
+            "artist": "Bryan Sola",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}",
+            "multiverseId": null,
+            "name": "Zulaport Duelist",
+            "names": null,
+            "number": "88",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Rogue"
+            ],
+            "superTypes": [],
+            "text": "Flash\nWhen Zulaport Duelist enters the battlefield, up to one target creature gets -2/-0 until end of turn. Its controller mills two cards. (They put the top two cards of their library into their graveyard.)",
+            "toughness": "1",
+            "type": "Creature - Human Rogue",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0b4c7268-60c6-4038-8ce9-d9d51bed4577.jpg"
         }
     ]
 }
