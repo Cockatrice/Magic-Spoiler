@@ -347,8 +347,33 @@ def write_cards(
             xml_escape,
             [set_name, mana_cost, card_cmc, card_type, pow_tough, table_row, text],
         )
+
         card_xml_file.write("<card>\n")
+
         card_xml_file.write("<name>" + set_name + "</name>\n")
+
+        card_xml_file.write("<text>" + text + "</text>\n")
+
+        card_xml_file.write("<prop>\n")
+
+        if "colors" in card.keys():
+            for color in card["colors"]:
+                card_xml_file.write("<color>" + str(color) + "</color>\n")
+
+        card_xml_file.write("<type>" + card_type + "</type>\n")
+
+        card_xml_file.write("<cmc>" + card_cmc + "</cmc>\n")
+
+        if pow_tough:
+            card_xml_file.write("<pt>" + pow_tough + "</pt>\n")
+
+        card_xml_file.write("<manacost>" + mana_cost + "</manacost>\n")
+
+        if "loyalty" in card.keys():
+            card_xml_file.write("<loyalty>" + str(card["loyalty"]) + "</loyalty>\n")
+
+        card_xml_file.write("</prop>\n")
+        
         card_xml_file.write(
             '<set rarity="'
             + str(card["rarity"])
@@ -358,25 +383,12 @@ def write_cards(
             + str(set_code)
             + "</set>\n"
         )
-        card_xml_file.write("<manacost>" + mana_cost + "</manacost>\n")
-        card_xml_file.write("<cmc>" + card_cmc + "</cmc>\n")
-
-        if "colors" in card.keys():
-            for color in card["colors"]:
-                card_xml_file.write("<color>" + str(color) + "</color>\n")
 
         if set_name + " enters the battlefield tapped" in text:
             card_xml_file.write("<cipt>1</cipt>\n")
 
-        card_xml_file.write("<type>" + card_type + "</type>\n")
-
-        if pow_tough:
-            card_xml_file.write("<pt>" + pow_tough + "</pt>\n")
-
-        if "loyalty" in card.keys():
-            card_xml_file.write("<loyalty>" + str(card["loyalty"]) + "</loyalty>\n")
         card_xml_file.write("<tablerow>" + table_row + "</tablerow>\n")
-        card_xml_file.write("<text>" + text + "</text>\n")
+
         card_xml_file.write("</card>\n")
 
 
