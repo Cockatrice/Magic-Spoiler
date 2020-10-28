@@ -208,7 +208,7 @@ def open_header(card_xml_file: IO[Any]) -> None:
     :param card_xml_file: Card file path
     """
     card_xml_file.write(
-        "<cockatrice_carddatabase version='3'>\n"
+        "<cockatrice_carddatabase version='4'>\n"
         + "  <!--\n"
         + "  Created At: "
         + datetime.datetime.utcnow().strftime("%a, %b %d %Y, %H:%M:%S")
