@@ -17,7 +17,7 @@ fi
 
 # Run our compile script and exit gracefully if there are no updates
 if ! doCompile; then
-  echo "::warning::No changes!"
+  echo "::warning::No updates found... skipping file upload!"
   exit 0
 fi
 
