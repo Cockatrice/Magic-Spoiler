@@ -7,6 +7,7 @@ import hashlib
 import json
 import pathlib
 import shutil
+import sys
 import time
 from typing import IO, Any, Dict, List, Tuple, Union
 
@@ -368,10 +369,11 @@ def write_cards(
         card_xml_file.write("</card>\n")
 
 
-def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
+def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
     """
     Write the spoiler.xml file
     :param trice_dicts: Dict of dict entries
+    :return: Written successfully
     """
     output_file_name = "spoiler.xml"
 
@@ -396,20 +398,22 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
     old_xml_location = str(OUTPUT_DIR.joinpath(output_file_name))
     if compare_xml_content(card_xml_file.name, old_xml_location):
         print("No new data in spoiler.xml, skipping replacement")
-        return
+        return False
 
     # Move new version to old location
     print("Changes detected, replacing spoiler.xml with updated version")
     shutil.move(card_xml_file.name, old_xml_location)
+    return True
 
 
-def write_spoilers_json(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
+def write_spoilers_json(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
     """
     Dump the JSON into a spoiler file
     :param trice_dicts: All spoiled cards
+    :return: Written successfully
     """
     if not trice_dicts:
-        return
+        return False
 
     output_file_path = OUTPUT_TMP_DIR.joinpath("spoiler.json")
 
@@ -421,11 +425,12 @@ def write_spoilers_json(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> None:
     old_xml_location = str(OUTPUT_DIR.joinpath("spoiler.json"))
     if compare_json_content(str(output_file_path), old_xml_location):
         print("No new data in spoiler.json, skipping replacement")
-        return
+        return False
 
     # Move new version to old location
     print("Changes detected, replacing spoiler.json with updated version")
     shutil.move(str(output_file_path), old_xml_location)
+    return True
 
 
 def compare_json_content(f1: str, f2: str) -> bool:
@@ -475,14 +480,15 @@ def compare_xml_content(f1: str, f2: str) -> bool:
     return False
 
 
-def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> None:
+def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> bool:
     """
     Write out a single magic set to XML format
     :param trice_dict: Cards to print
     :param set_obj: Set object
+    :return: Written successfully
     """
     if not trice_dict:
-        return
+        return False
 
     OUTPUT_TMP_DIR.mkdir(exist_ok=True)
     card_xml_file = OUTPUT_TMP_DIR.joinpath("{}.xml".format(set_obj["code"])).open("w")
@@ -497,7 +503,7 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
     old_xml_location = str(OUTPUT_DIR.joinpath("{}.xml".format(set_obj["code"])))
     if compare_xml_content(card_xml_file.name, old_xml_location):
         print("No new data in {}.xml, skipping replacement".format(set_obj["code"]))
-        return
+        return False
 
     # Move new version to old location
     print(
@@ -506,16 +512,18 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
         )
     )
     shutil.move(card_xml_file.name, old_xml_location)
+    return True
 
 
-def write_set_json(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> None:
+def write_set_json(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> bool:
     """
     Dump the JSON into a spoiler file
     :param trice_dict: Cards
     :param set_obj: Set Information
+    :return: Written successfully
     """
     if not trice_dict:
-        return
+        return False
 
     output_file_path = OUTPUT_TMP_DIR.joinpath("{}.json".format(set_obj["code"]))
 
@@ -527,7 +535,7 @@ def write_set_json(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) ->
     old_xml_location = str(OUTPUT_DIR.joinpath("{}.json".format(set_obj["code"])))
     if compare_json_content(str(output_file_path), old_xml_location):
         print("No new data in {}.json, skipping replacement".format(set_obj["code"]))
-        return
+        return False
 
     # Move new version to old location
     print(
@@ -536,6 +544,7 @@ def write_set_json(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) ->
         )
     )
     shutil.move(str(output_file_path), old_xml_location)
+    return True
 
 
 def get_spoiler_sets() -> List[Dict[str, str]]:
@@ -561,9 +570,10 @@ def get_spoiler_sets() -> List[Dict[str, str]]:
     return spoiler_sets
 
 
-def delete_old_files() -> None:
+def delete_old_files() -> bool:
     """
     Delete files that are no longer necessary within the program
+    :return: Files were deleted
     """
     valid_files = [x["code"].upper() for x in SPOILER_SETS.get()] + [
         "spoiler",
@@ -571,12 +581,14 @@ def delete_old_files() -> None:
         "README",
     ]
 
-    for file in OUTPUT_DIR.glob("*"):
-        if not file.is_file():
+    deleted = False
+    for output_file in OUTPUT_DIR.glob("*"):
+        if not output_file.is_file():
             continue
 
-        if file.stem not in valid_files:
-            file.unlink()
+        if output_file.stem not in valid_files:
+            output_file.unlink()
+            deleted = True
 
     if OUTPUT_TMP_DIR.is_dir():
         shutil.rmtree(OUTPUT_TMP_DIR)
@@ -585,6 +597,8 @@ def delete_old_files() -> None:
         OUTPUT_DIR.joinpath("SpoilerSeasonEnabled").unlink()
     else:
         OUTPUT_DIR.joinpath("SpoilerSeasonEnabled").open("w").write(" ")
+
+    return deleted
 
 
 def main() -> None:
@@ -596,6 +610,7 @@ def main() -> None:
     SPOILER_SETS.set(get_spoiler_sets())
 
     spoiler_xml = {}
+    changed = False
     for set_info in SPOILER_SETS.get():
         print("Handling {}".format(set_info["code"]))
 
@@ -603,19 +618,23 @@ def main() -> None:
         trice_dict = scryfall2mtgjson(cards)
 
         # Write SET.xml
-        write_set_xml(trice_dict, set_info)
-        write_set_json(trice_dict, set_info)
+        changed |= write_set_xml(trice_dict, set_info)
+        changed |= write_set_json(trice_dict, set_info)
 
         # Save for spoiler.xml
         spoiler_xml[set_info["code"]] = trice_dict
 
     if spoiler_xml:
         # Write out the spoiler.xml file
-        write_spoilers_xml(spoiler_xml)
-        write_spoilers_json(spoiler_xml)
+        changed |= write_spoilers_xml(spoiler_xml)
+        changed |= write_spoilers_json(spoiler_xml)
 
     # Cleanup outdated stuff that's not necessary
-    delete_old_files()
+    changed |= delete_old_files()
+
+    # Set nonzero exit code if files haven't changed
+    if not changed:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
