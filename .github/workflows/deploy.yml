@@ -1,0 +1,47 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - '**.md'
+  pull_request:
+    branches:
+      - master
+    paths-ignore:
+      - '**.md'
+  schedule:
+    # every 6 hours = 4 times a day
+    - cron: '0 */6 * * *'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      OUTPUT_PATH: out
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Checkout output branch
+        if: github.ref == 'refs/heads/master'
+        uses: actions/checkout@v2
+        with:
+          ref: files
+          fetch-depth: 0
+          path: ${{env.OUTPUT_PATH}}
+
+      - name: Install requirements using pip
+        shell: bash
+        env:
+          CFLAGS: '-O0'
+        run: |
+          python3 -m pip install --upgrade pip setuptools
+          python3 -m pip install --requirement requirements.txt
+
+      - name: Deploy
+        shell: bash
+        run: ./.ci/deploy.sh
