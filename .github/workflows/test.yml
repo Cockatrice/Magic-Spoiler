@@ -23,8 +23,6 @@ jobs:
 
       - name: Setup Python
         uses: actions/setup-python@v2
-        with:
-          python-version: 3.7
 
       - name: Install requirements using pip
         shell: bash
@@ -35,6 +33,6 @@ jobs:
           python3 -m pip install --requirement requirements.txt
           python3 -m pip install --upgrade tox
 
-      - name: Run Tox
+      - name: Run tests using Tox
         # Run tox using the version of Python in `PATH`
         run: tox -e py
