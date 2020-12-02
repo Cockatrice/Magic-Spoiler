@@ -33,7 +33,7 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip setuptools
           python3 -m pip install --requirement requirements.txt
-          python3 -m pip install --upgrade pip tox
+          python3 -m pip install --upgrade tox
 
       - name: Run Tox
         # Run tox using the version of Python in `PATH`
