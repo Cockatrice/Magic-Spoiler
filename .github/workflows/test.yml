@@ -22,7 +22,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Python
+        # Use the same version as defined for the testing environment: https://github.com/Cockatrice/Magic-Spoiler/blob/master/tox.ini#L5
         uses: actions/setup-python@v2
+          with:
+            python-version: 3.7
 
       - name: Install requirements using pip
         shell: bash
