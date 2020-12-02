@@ -24,7 +24,9 @@ fi
 cd "$OUTPUT_PATH"
 git config user.name github-actions
 git config user.email github-actions@github.com
- 
+
+# We don't want the AllSets... waste of space
+git add -A .
 git commit -m "Deploy: ${GITHUB_SHA}"
 
 # push using built-in token
