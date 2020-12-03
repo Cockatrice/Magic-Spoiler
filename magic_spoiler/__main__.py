@@ -7,7 +7,6 @@ import hashlib
 import json
 import pathlib
 import shutil
-import sys
 import time
 from typing import IO, Any, Dict, List, Tuple, Union
 
@@ -525,7 +524,7 @@ def write_set_json(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) ->
 
     output_file_path = OUTPUT_TMP_DIR.joinpath("{}.json".format(set_obj["code"]))
 
-    OUTPUT_TMP_DIR.mkdir(exist_ok=True)
+    OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
     with output_file_path.open("w") as f:
         json.dump(trice_dict, f, sort_keys=True, indent=4)
 
@@ -630,9 +629,9 @@ def main() -> None:
     # Cleanup outdated stuff that's not necessary
     changed |= delete_old_files()
 
-    # Set nonzero exit code if files haven't changed
-    if not changed:
-        sys.exit(1)
+    # Set output to deploy
+    if changed:
+        print("::set-output name=deploy::true")
 
 
 if __name__ == "__main__":
