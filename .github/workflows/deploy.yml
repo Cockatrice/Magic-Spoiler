@@ -18,6 +18,9 @@ on:
 
 jobs:
   deploy:
+    # do not run the sheduled run on forks
+    if: github.event != 'schedule' || github.repository_owner == 'Cockatrice'
+
     runs-on: ubuntu-latest
 
     env:
