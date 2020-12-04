@@ -53,7 +53,7 @@ jobs:
         run: python3 -m magic_spoiler
 
       - name: Deploy
-        if: env.DEPLOY && steps.run.outputs.deploy == true
+        if: env.DEPLOY && steps.run.outputs.deploy != null
         shell: bash
         working-directory: ${{env.OUTPUT_PATH}}
         run: |
