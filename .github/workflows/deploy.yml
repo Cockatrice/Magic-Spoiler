@@ -47,12 +47,12 @@ jobs:
           python3 -m pip install --upgrade pip setuptools
           python3 -m pip install --requirement requirements.txt
 
-      - name: Run
+      - name: Run script
         id: run
         shell: bash
         run: python3 -m magic_spoiler
 
-      - name: Deploy
+      - name: Deploy changes
         if: env.DEPLOY && steps.run.outputs.deploy != null
         shell: bash
         working-directory: ${{env.OUTPUT_PATH}}
