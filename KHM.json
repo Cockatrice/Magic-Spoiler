@@ -1,5 +1,59 @@
 [
     {
+        "artist": "Matt Stewart",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Absorb Identity",
+        "names": null,
+        "number": "383",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Return target creature to its owner's hand. You may have Shapeshifters you control become copies of that creature until end of turn.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aa1c6bcc-2d43-4ea9-a93f-019793616869.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "The dwarves of Axgard seldom have reason to leave their impregnable underground kingdom\u2014but when they do, they go in force.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Armed and Armored",
+        "names": null,
+        "number": "379",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Vehicles you control become artifact creatures until end of turn. Choose a Dwarf you control. Attach any number of Equipment you control to it.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/f/4f4c1253-7eba-454b-9269-3695ba746a7a.jpg"
+    },
+    {
         "artist": "Daniel Ljunggren",
         "cmc": 0.0,
         "colorIdentity": [
@@ -50,6 +104,35 @@
         "type": "Land // Land",
         "types": "Land // Land",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87c33c94-4b56-4a96-9c4c-a376f8d54943.jpg"
+    },
+    {
+        "artist": "Ovidio Cartagena",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Every dwarven artisan spends the first hundred years of their life forging a single weapon and infusing it with runic magic.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Bearded Axe",
+        "names": null,
+        "number": "388",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Equipment"
+        ],
+        "superTypes": [],
+        "text": "Equipped creature gets +1/+1 for each Dwarf, Equipment, and/or Vehicle you control.\nEquip {2}",
+        "toughness": null,
+        "type": "Artifact - Equipment",
+        "types": "Artifact ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/2381dbab-e968-4bbc-b3a7-a1e55b066039.jpg"
     },
     {
         "artist": "Jenn Ravenna Tran",
@@ -104,6 +187,66 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/9/3933326a-2014-4ac0-bfd3-8ff26e178920.jpg"
     },
     {
+        "artist": "Ekaterina Burmak",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Death and life are two ends of the same spear.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}",
+        "multiverseId": null,
+        "name": "Canopy Tactician",
+        "names": null,
+        "number": "378",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Elf",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "Other elves you control get +1/+1.\n{T}: Add {G}{G}{G}.",
+        "toughness": "3",
+        "type": "Creature - Elf Warrior",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3eaf48c9-09bc-4d81-a3a5-432219a71754.jpg"
+    },
+    {
+        "artist": "Victor Adame Minguez",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"I won't pollute my blade with your blood, demon. You'll die by your own axe!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}{B}",
+        "multiverseId": null,
+        "name": "Cleaving Reaper",
+        "names": null,
+        "number": "376",
+        "power": "5",
+        "rarity": "Rare",
+        "subTypes": [
+            "Angel",
+            "Berserker"
+        ],
+        "superTypes": [],
+        "text": "Flying, trample\nPay 3 life: Return Cleaving Reaper from your graveyard to your hand. Activate this ability only if you had an Angel or Berserker enter the battlefield under your control this turn.",
+        "toughness": "3",
+        "type": "Creature - Angel Berserker",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/5/b59dadef-74e5-47c7-a3e0-51075ddb82b1.jpg"
+    },
+    {
         "artist": "Johannes Voss",
         "cmc": 0.0,
         "colorIdentity": [
@@ -154,6 +297,177 @@
         "type": "Land // Land",
         "types": "Land // Land",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/501ceec3-c196-4db4-980d-31edf6232acf.jpg"
+    },
+    {
+        "artist": "Wisnu Tan",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "Her fingers stiffened as the shrouded corpse stirred. Her final, ragged breathe was one of triumph. \"Return, my chosen, grant our people victory!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Elderfang Ritualist",
+        "names": null,
+        "number": "385",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Elf",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "When Elderfang Ritualist dies, return another target Elf card from your graveyard to your hand.",
+        "toughness": "1",
+        "type": "Creature - Elf Cleric",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/57348f93-8764-4b1a-b02e-4e7881337fa2.jpg"
+    },
+    {
+        "artist": "Chris Seaman",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"No elf can match a Tuskeri in combat. Why not charge?\"\n\u2014Knorjolvin, Tuskeri raider",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}",
+        "multiverseId": null,
+        "name": "Elven Ambush",
+        "names": null,
+        "number": "391",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Create a 1/1 green Elf Warrior creature token for each Elf you control.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/0/70479c44-da7c-48c7-8c6a-47210dc03277.jpg"
+    },
+    {
+        "artist": "Andrew Mar",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "So ended the feast, hall, and the clan.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Fire Giant's Fury",
+        "names": null,
+        "number": "389",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target Giant you control gets +2/+2 and gains trample until end of turn. Whenever it deals combat damage to a player this turn, exile that many cards from the top of your library. Until the end of your next turn, you may play those cards.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/7/c7f05d49-dfc1-4dad-89e0-07174330d98e.jpg"
+    },
+    {
+        "artist": "Ilse Gort",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"Behave, and you'll be a fine pet. Bite me, and you're ammunition.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}{U}",
+        "multiverseId": null,
+        "name": "Giant's Grasp",
+        "names": null,
+        "number": "384",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Aura"
+        ],
+        "superTypes": [],
+        "text": "Enchant Giant you control\nWhen Giant's Grasp enters the battlefield, gain control of target nonland permanent for as long as Giant's Grasp remains on the battlefield.",
+        "toughness": null,
+        "type": "Enchantment - Aura",
+        "types": "Enchantment ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74c92d48-504a-4320-b9f4-c1d2d06fa223.jpg"
+    },
+    {
+        "artist": "Joseph Meehan",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}{R}",
+        "multiverseId": null,
+        "name": "Gilded Assault Cart",
+        "names": null,
+        "number": "390",
+        "power": "5",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Vehicle"
+        ],
+        "superTypes": [],
+        "text": "Trample\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)\nSacrifice two Treasures: Return Gilded Assault Cart from your graveyard to your hand.",
+        "toughness": "1",
+        "type": "Artifact - Vehicle",
+        "types": "Artifact ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/2/5274c2fa-eb0e-438b-8a48-d0b58829083a.jpg"
+    },
+    {
+        "artist": "Irina Nordsol",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"We are all.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Gladewalker Ritualist",
+        "names": null,
+        "number": "392",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Shapeshifter"
+        ],
+        "superTypes": [],
+        "text": "Changeling (This card is every creature type.)\nWhenever another creature named Gladewalker Ritualist enters the battlefield under your control, draw a card.",
+        "toughness": "3",
+        "type": "Creature - Shapeshifter",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/0/8053b888-a680-4318-88c3-0924e596e780.jpg"
     },
     {
         "artist": "Yeong-Hao Han",
@@ -208,6 +522,136 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b851c41b-ed73-4ee4-9063-544f97f35f67.jpg"
     },
     {
+        "artist": "Tyler Jacobson",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "5",
+        "mana_cost": "{3}{W}{B}",
+        "multiverseId": null,
+        "name": "Kaya the Inexorable",
+        "names": null,
+        "number": "218",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Kaya"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+1: Put a ghostform counter on up to one target nontoken creature. It gains \"When this creature dies or is put into exile, return it to its owner's hand and create a 1/1 white Spirit creature token with flying.\"\n\u22123: Exile target nonland permanent.\n\u22127: You get an emblem with \"At the beginning of your upkeep, you may cast a legendary spell from your hand, from your graveyard, or from among cards you own in exile without paying its mana cost.\"",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Kaya",
+        "types": " Planeswalker ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/166c0bd1-b59d-4644-832f-888a4ca3a0aa.jpg"
+    },
+    {
+        "artist": "Livia Prima",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": "5",
+        "mana_cost": "{3}{W}{B}",
+        "multiverseId": null,
+        "name": "Kaya the Inexorable",
+        "names": null,
+        "number": "288",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Kaya"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "+1: Put a ghostform counter on up to one target nontoken creature. It gains \"When this creature dies or is put into exile, return it to its owner's hand and create a 1/1 white Spirit creature token with flying.\"\n\u22123: Exile target nonland permanent.\n\u22127: You get an emblem with \"At the beginning of your upkeep, you may cast a legendary spell from your hand, from your graveyard, or from among cards you own in exile without paying its mana cost.\"",
+        "toughness": null,
+        "type": "Legendary Planeswalker - Kaya",
+        "types": " Planeswalker ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35e3a516-2989-4cac-892f-deb3d754ba7d.jpg"
+    },
+    {
+        "artist": "Slawomir Maniak",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Magda, Brazen Outlaw",
+        "names": null,
+        "number": "142",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Dwarf",
+            "Berserker"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Other Dwarves you control get +1/+0.\nWhenever a Dwarf you control becomes tapped, create a Treasure token.\nSacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle your library.",
+        "toughness": "1",
+        "type": "Legendary Creature - Dwarf Berserker",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/079e6263-e54c-4899-a336-5315909b9322.jpg"
+    },
+    {
+        "artist": "DZO",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Magda, Brazen Outlaw",
+        "names": null,
+        "number": "312",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Dwarf",
+            "Berserker"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Other Dwarves you control get +1/+0.\nWhenever a Dwarf you control becomes tapped, create a Treasure token.\nSacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle your library.",
+        "toughness": "1",
+        "type": "Legendary Creature - Dwarf Berserker",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/ab551f0e-7a9c-4c99-b199-042ab018dd9a.jpg"
+    },
+    {
         "artist": "Piotr Dura",
         "cmc": 2.0,
         "colorIdentity": [],
@@ -254,6 +698,123 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/ba697b79-e3e4-4574-87bd-b7f8c4ce6c52.jpg"
     },
     {
+        "artist": "Billy Christian",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "W"
+        ],
+        "flavor": "\"This is a foul place. Cleanse it.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}{B}",
+        "multiverseId": null,
+        "name": "Rampage of the Valkyries",
+        "names": null,
+        "number": "393",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "When Rampage of the Valkyries enters the battlefield, create a 4/4 white Angel token with flying and vigilance.\nWhenever an Angel you control dies, each other player sacrifices a creature.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1e928b7c-ca30-4e2d-adf7-965f111c8bf1.jpg"
+    },
+    {
+        "artist": "Zack Stella",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Realmwalker",
+        "names": null,
+        "number": "188",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Shapeshifter"
+        ],
+        "superTypes": [],
+        "text": "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chose type from the top of your library.",
+        "toughness": "3",
+        "type": "Creature - Shapeshifter",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c8212667-7e18-42a5-9f36-4f8a6ad12f83.jpg"
+    },
+    {
+        "artist": "Igor Kieryluk",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Realmwalker",
+        "names": null,
+        "number": "399",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Shapeshifter"
+        ],
+        "superTypes": [],
+        "text": "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chose type from the top of your library.",
+        "toughness": "3",
+        "type": "Creature - Shapeshifter",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e8a0877c-5217-422d-89b8-92f951068693.jpg"
+    },
+    {
+        "artist": "Cynthia Sheppard",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Renegade Reaper",
+        "names": null,
+        "number": "386",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Angel",
+            "Berserker"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Renegade Reaper enters the battlefield, mill four cards. If at least one Angel is milled this way, you gain 4 life. (To mill a card, put the top card of your library into your graveyard.)",
+        "toughness": "3",
+        "type": "Creature - Angel Berserker",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a5675655-dc9f-45ad-9cd0-ce28fba1f972.jpg"
+    },
+    {
         "artist": "Steven Belledin",
         "cmc": 4.0,
         "colorIdentity": [
@@ -283,5 +844,214 @@
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3d9d840e-1f13-44e3-a4de-903cfa58a346.jpg"
+    },
+    {
+        "artist": "Kieran Yanner",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"I do not fear death. I know my soul will rise to Starnheim, where I will forever walk among valkyries and heroes. Can you say the same?\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Starnhiem Aspirant",
+        "names": null,
+        "number": "380",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "Angel spells you cast cost {2} less to cast.",
+        "toughness": "2",
+        "type": "Creature - Human Cleric",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea007a18-b31a-4881-92c4-86120dc5729b.jpg"
+    },
+    {
+        "artist": "Nicholas Gregory",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{U}{U}",
+        "multiverseId": null,
+        "name": "Surtland Elementalist",
+        "names": null,
+        "number": "375",
+        "power": "8",
+        "rarity": "Rare",
+        "subTypes": [
+            "Giant",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "As an additional cost to cast this spell, reveal Giant card from your hand or pay {2}.\nWhenever Surtland Elementalist attacks, you may cast an instant or sorcery spell from your hand without paying its mana cost.",
+        "toughness": "8",
+        "type": "Creature - Giant Wizard",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/c/1c9e7fdc-676f-4901-83ff-bfea3a96d937.jpg"
+    },
+    {
+        "artist": "Dmitry Burmak",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Victory before camaraderie.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}{R}",
+        "multiverseId": null,
+        "name": "Surtland Flinger",
+        "names": null,
+        "number": "377",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [
+            "Giant",
+            "Berserker"
+        ],
+        "superTypes": [],
+        "text": "Whenever Surtland Flinger attacks, you may sacrifice another creature. When you do, Surtland Flinger deals damage equal to the sacrificed creature's power to any target. If the sacrificed creature was a Giant, Surtland Flinger deals twice that much damage instead.",
+        "toughness": null,
+        "type": "Creature - Giant Berserker",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4a628052-8175-495f-bfab-eeb3a0388e4e.jpg"
+    },
+    {
+        "artist": "Magali Villeneuve",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{B}",
+        "multiverseId": null,
+        "name": "Thornmantle Striker",
+        "names": null,
+        "number": "387",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Elf",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "When Thornmantle Striker enters the battlefield, choose one \u2014\n\u2022 Remove X counters from target permanent, where X is the number of Elves you control.\n\u2022 Target creature an opponent controls gets -X/-X until end of turn, where X is the number of Elves you control.",
+        "toughness": "3",
+        "type": "Creature - Elf Rogue",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/544b6477-cefa-40e2-a96a-72794c7eb815.jpg"
+    },
+    {
+        "artist": "Tran Nguyen",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Where she flies, the Light of Starnheim shines.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{W}{W}",
+        "multiverseId": null,
+        "name": "Valkyrie Harbinger",
+        "names": null,
+        "number": "374",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Angel",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "Flying, lifelink\nAt the beginning of each end step, if you gain 4 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.",
+        "toughness": "5",
+        "type": "Creature - Angel Cleric",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/edab83a9-35b5-4312-b8ee-1c042c02aa31.jpg"
+    },
+    {
+        "artist": "Daniel Zrom",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"Who will be the hero of my tale?\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Warchanter Skald",
+        "names": null,
+        "number": "381",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Dwarf",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "Whenever Warchanter Skald becomes tapped, if it's enchanted or equipped, create a 2/1 red Dwarf Berserker creature token.",
+        "toughness": "3",
+        "type": "Creature - Dwarf Cleric",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f79c5e95-f6c6-4e2f-9c6c-d99addb757ac.jpg"
+    },
+    {
+        "artist": "Anna Steinbauer",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Before she is admitted to the host of Starnheim, a young valkyrie must learn a thousand tales of her ancestors.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Youthful Valyrie",
+        "names": null,
+        "number": "382",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Angel"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhenever another Angel enters the battlefield under your control, put a +1/+1 counter on Youthful Valyrie.",
+        "toughness": "3",
+        "type": "Creature - Angel",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ffe93b27-f8ae-4abf-8ade-90f503f132c2.jpg"
     }
 ]
