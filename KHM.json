@@ -307,7 +307,7 @@
         "colors": [
             "B"
         ],
-        "flavor": "Her fingers stiffened as the shrouded corpse stirred. Her final, ragged breathe was one of triumph. \"Return, my chosen, grant our people victory!\"",
+        "flavor": "Her fingers stiffened as the shrouded corpse stirred. Her final, ragged breath was one of triumph. \"Return, my chosen, and grant our people victory!\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{B}",
@@ -364,7 +364,7 @@
         "colors": [
             "R"
         ],
-        "flavor": "So ended the feast, hall, and the clan.",
+        "flavor": "So ended the feast, the hall, and the clan.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{1}{R}",
@@ -391,7 +391,7 @@
         "colors": [
             "U"
         ],
-        "flavor": "\"Behave, and you'll be a fine pet. Bite me, and you're ammunition.\"",
+        "flavor": "\"Behave and you'll be a fine pet. Bite me and you're ammunition.\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{U}{U}",
@@ -732,7 +732,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "{2}, {T}, Sacrifice a creature: Search your library for a creature card that shares a creature type with the sacrificed creature and has converted mana cost equal to one 1 plus that creature's converted mana cost. Put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
+        "text": "{2}, {T}, Sacrifice a creature: Search your library for a creature card that shares a creature type with the sacrificed creature and has converted mana cost equal to 1 plus that creature's converted mana cost. Put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
         "toughness": null,
         "type": "Artifact",
         "types": "Artifact",
@@ -755,7 +755,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "{2}, {T}, Sacrifice a creature: Search your library for a creature card that shares a creature type with the sacrificed creature and has converted mana cost equal to one 1 plus that creature's converted mana cost. Put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
+        "text": "{2}, {T}, Sacrifice a creature: Search your library for a creature card that shares a creature type with the sacrificed creature and has converted mana cost equal to 1 plus that creature's converted mana cost. Put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
         "toughness": null,
         "type": "Artifact",
         "types": "Artifact",
@@ -813,7 +813,7 @@
             "Shapeshifter"
         ],
         "superTypes": [],
-        "text": "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chose type from the top of your library.",
+        "text": "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chosen type from the top of your library.",
         "toughness": "3",
         "type": "Creature - Shapeshifter",
         "types": "Creature ",
@@ -842,7 +842,7 @@
             "Shapeshifter"
         ],
         "superTypes": [],
-        "text": "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chose type from the top of your library.",
+        "text": "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chosen type from the top of your library.",
         "toughness": "3",
         "type": "Creature - Shapeshifter",
         "types": "Creature ",
@@ -872,11 +872,77 @@
             "Berserker"
         ],
         "superTypes": [],
-        "text": "Flying\nWhen Renegade Reaper enters the battlefield, mill four cards. If at least one Angel is milled this way, you gain 4 life. (To mill a card, put the top card of your library into your graveyard.)",
+        "text": "Flying\nWhen Renegade Reaper enters the battlefield, mill four cards. If at least one Angel card is milled this way, you gain 4 life. (To mill a card, put the top card of your library into your graveyard.)",
         "toughness": "3",
         "type": "Creature - Angel Berserker",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a5675655-dc9f-45ad-9cd0-ce28fba1f972.jpg"
+    },
+    {
+        "artist": "Chris Rahn",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "G"
+        ],
+        "colors": [
+            "B",
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{G}",
+        "multiverseId": null,
+        "name": "Sarulf, Realm Eater",
+        "names": null,
+        "number": "228",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Wolf"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Whenever a permanent an opponent controls is put into a graveyard from the battlefield, put a +1/+1 counter on Sarulf, Realm Eater.\nAt the beginning of your upkeep, if Sarulf has one or more +1/+1 counters on it, you may remove all of them. If you do, exile each other nonland permanent with converted mana cost less than or equal to the number of counters removed this way.",
+        "toughness": "3",
+        "type": "Legendary Creature - Wolf",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bcecf9ba-36da-490a-9460-99ff87d99fbd.jpg"
+    },
+    {
+        "artist": "Dibujante Nocturno",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "G"
+        ],
+        "colors": [
+            "B",
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{G}",
+        "multiverseId": null,
+        "name": "Sarulf, Realm Eater",
+        "names": null,
+        "number": "330",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Wolf"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Whenever a permanent an opponent controls is put into a graveyard from the battlefield, put a +1/+1 counter on Sarulf, Realm Eater.\nAt the beginning of your upkeep, if Sarulf has one or more +1/+1 counters on it, you may remove all of them. If you do, exile each other nonland permanent with converted mana cost less than or equal to the number of counters removed this way.",
+        "toughness": "3",
+        "type": "Legendary Creature - Wolf",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/45b31046-d84d-4afa-a207-bb6cccac4339.jpg"
     },
     {
         "artist": "Steven Belledin",
@@ -1053,7 +1119,7 @@
             "Cleric"
         ],
         "superTypes": [],
-        "text": "Flying, lifelink\nAt the beginning of each end step, if you gain 4 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.",
+        "text": "Flying, lifelink\nAt the beginning of each end step, if you gained 4 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.",
         "toughness": "5",
         "type": "Creature - Angel Cleric",
         "types": "Creature ",
