@@ -25,7 +25,7 @@
             "superTypes": [
                 "Snow"
             ],
-            "text": "Enchant land\nEnchanted land is Snow.\nWhenever enchanted land is tapped for mana, its controller adds an additional mana of any color.",
+            "text": "Enchant land\nEnchanted land is snow.\nWhenever enchanted land is tapped for mana, its controller adds an additional mana of any color.",
             "toughness": null,
             "type": "Snow Enchantment - Aura",
             "types": " Enchantment ",
@@ -144,6 +144,38 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c94fcb53-a7bd-4a80-a536-9fb0eb24261a.jpg"
         },
         {
+            "artist": "Richard Luong",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Alrund, God of the Cosmos // Hakka, Whispering Raven",
+            "names": null,
+            "number": "302",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "God",
+                "//",
+                "Legendary",
+                "Creature"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "",
+            "toughness": null,
+            "type": "Legendary Creature - God // Legendary Creature - Bird",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b751cf69-0a02-4cd2-abd4-cdb65ca620a8.jpg"
+        },
+        {
             "artist": "Kieran Yanner",
             "cmc": 5.0,
             "colorIdentity": [
@@ -178,7 +210,10 @@
         {
             "artist": "Alayna Danner",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
             "colors": [],
             "flavor": "\"When the light of Starnheim shines here, every frost-edged needle glitters with the reflected glory of the Cosmos.\"\n\u2014Iskene, Kannah storyteller",
             "layout": "",
@@ -451,6 +486,32 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/9/3933326a-2014-4ac0-bfd3-8ff26e178920.jpg"
         },
         {
+            "artist": "Jung Park",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Bretagard Stronghold",
+            "names": null,
+            "number": "253",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Bretagard Stronghold enters the battlefield tapped.\n{T}: Add {G}.\n{G}{W}{W}, {T}, Sacrifice Bretagard Stronghold: Put a +1/+1 counter on each of up to two target creatures you control. They gain vigilance and lifelink until end of turn. Activate this ability only any time you cast a sorcery.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24a0f2e2-cfd7-4374-a172-4357d5de47bb.jpg"
+        },
+        {
             "artist": "Simon Dominic",
             "cmc": 4.0,
             "colorIdentity": [
@@ -541,6 +602,36 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/5/b59dadef-74e5-47c7-a3e0-51075ddb82b1.jpg"
         },
         {
+            "artist": "Nils Hamm",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Cosmos Charger",
+            "names": null,
+            "number": "51",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Horse",
+                "Spirit"
+            ],
+            "superTypes": [],
+            "text": "Flash\nFlying\nForetelling cards from your hand costs {1} less and can be done on any player's turn.\nForetell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "toughness": "3",
+            "type": "Creature - Horse Spirit",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4ec318c6-b718-436f-b9e8-e0c6154e5010.jpg"
+        },
+        {
             "artist": "Johannes Voss",
             "cmc": 0.0,
             "colorIdentity": [
@@ -591,6 +682,36 @@
             "type": "Land // Land",
             "types": "Land // Land",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/501ceec3-c196-4db4-980d-31edf6232acf.jpg"
+        },
+        {
+            "artist": "Taylor Ingvarsson",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Giants and monsters loom on the horizon, and the elves plan to murder our gods!\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Doomskar Oracle",
+            "names": null,
+            "number": "10",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Whenever you cast your second spell each turn, you gain 2 life.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "toughness": "2",
+            "type": "Creature - Human Cleric",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6dae01c8-15bb-44ad-a2c6-9bcf7a9e8c17.jpg"
         },
         {
             "artist": "Wisnu Tan",
@@ -710,6 +831,38 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e59380e-2c82-46a9-9749-4dcb978d5419.jpg"
         },
         {
+            "artist": "Johannes Voss",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Esika, God of the Tree // The Prismatic Bridge",
+            "names": null,
+            "number": "168",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "God",
+                "//",
+                "Legendary",
+                "Enchantment"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "",
+            "toughness": null,
+            "type": "Legendary Creature - God // Legendary Enchantment",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg"
+        },
+        {
             "artist": "Andrew Mar",
             "cmc": 2.0,
             "colorIdentity": [
@@ -735,6 +888,40 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/7/c7f05d49-dfc1-4dad-89e0-07174330d98e.jpg"
+        },
+        {
+            "artist": "Livia Prima",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "colors": [
+                "B",
+                "W"
+            ],
+            "flavor": "She is both shepherd and reaper, and her judgement is final.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{B}{B}",
+            "multiverseId": null,
+            "name": "Firja, Judge of Valor",
+            "names": null,
+            "number": "209",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Angel",
+                "Cleric"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Flying, lifelink\nWhenever you cast your second spell each turn, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
+            "toughness": "4",
+            "type": "Legendary Creature - Angel Cleric",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/df87077c-85d8-499e-bce0-27697caada5a.jpg"
         },
         {
             "artist": "Kieran Yanner",
@@ -915,7 +1102,10 @@
         {
             "artist": "Sarah Finnigan",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
             "colors": [],
             "flavor": "\"A cliff once rose from the surf here\u2014until Bjora Dawn-Greeter declared that it was blocking her view and pulled it down bare-handed.\"\n\u2014Iskene, Kannah storyteller",
             "layout": "",
@@ -1055,6 +1245,38 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a7cec498-e2ac-4ca0-9aa2-ef98ba634c32.jpg"
         },
         {
+            "artist": "Bram Sels",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "When the path to Starnheim was opened, vengeance rained down upon the enemies of Bretagard.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Hailstorm Valkyrie",
+            "names": null,
+            "number": "97",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Angel",
+                "Wizard"
+            ],
+            "superTypes": [
+                "Snow"
+            ],
+            "text": "Flying, trample\n{S}{S}: Hailstorm Valkyrie gets +2/+2 until end of turn. ({S} can be paid with one mana from a snow source.)",
+            "toughness": "2",
+            "type": "Snow Creature - Angel Wizard",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a5a272b3-aaab-4c98-86a8-85c67a5f3d4d.jpg"
+        },
+        {
             "artist": "Lie Setiawan",
             "cmc": 4.0,
             "colorIdentity": [
@@ -1173,7 +1395,10 @@
         {
             "artist": "Alayna Danner",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "G",
+                "R"
+            ],
             "colors": [],
             "flavor": "\"Tread carefully! The last time I walked this path, half the snowdrifts were, in fact, sleeping trolls. I've never run so fast in my life!\"\n\u2014Iskene, Kannah storyteller",
             "layout": "",
@@ -1201,7 +1426,10 @@
         {
             "artist": "Johannes Voss",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
             "colors": [],
             "flavor": "\"The ice cracked underfoot; strange shapes swam beneath the surface. Who else has walked this blighted path?\"\n\u2014Iskene, Kannah storyteller",
             "layout": "",
@@ -1456,6 +1684,101 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/7/37533179-8e58-40bc-af16-0d2c58b773ba.jpg"
         },
         {
+            "artist": "Grzegorz Rutkowski",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Kolvori, God of Kinship // The Ringheart Crest",
+            "names": null,
+            "number": "181",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "God",
+                "//",
+                "Legendary",
+                "Artifact"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "",
+            "toughness": null,
+            "type": "Legendary Creature - God // Legendary Artifact",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b76bed98-30b1-4572-b36c-684ada06826c.jpg"
+        },
+        {
+            "artist": "Caroline Gariba",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "\"Great Serpent, hear my song! We wait, our faith unshaken, for your glorious return.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}",
+            "multiverseId": null,
+            "name": "Koma's Faithful",
+            "names": null,
+            "number": "102",
+            "power": "3",
+            "rarity": "Common",
+            "subTypes": [
+                "Elf",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "Lifelink\nWhen Koma's Faithful dies, each player mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
+            "toughness": "1",
+            "type": "Creature - Elf Cleric",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/af0f1a90-af64-4122-9c1a-954edf8fa240.jpg"
+        },
+        {
+            "artist": "Jesper Ejsing",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "G",
+                "U"
+            ],
+            "colors": [
+                "G",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{G}{G}{U}{U}",
+            "multiverseId": null,
+            "name": "Koma, Cosmos Serpent",
+            "names": null,
+            "number": "221",
+            "power": "6",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Serpent"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "This spell can't be countered.\nAt the beginning of your upkeep, create a 3/3 blue Serpent creature token named Koma's Coil.\nSacrifice another Serpent: Choose one \u2014\n\u2022 Tap target permanent. Its activated abilities can't be activated this turn.\n\u2022 Koma, Cosmos Serpent gains indestructible until end of turn.",
+            "toughness": "6",
+            "type": "Legendary Creature - Serpent",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/d/2de25ea4-284a-4c16-b823-048ff00c6a03.jpg"
+        },
+        {
             "artist": "Slawomir Maniak",
             "cmc": 2.0,
             "colorIdentity": [
@@ -1547,6 +1870,35 @@
             "type": "Creature - Shapeshifter",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f0a9c72a-e450-41e3-80e5-06f2f1171245.jpg"
+        },
+        {
+            "artist": "Jason A. Engle",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Masked Vandal",
+            "names": null,
+            "number": "403",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Shapeshifter"
+            ],
+            "superTypes": [],
+            "text": "Changeling (This card is every creature type.)\nWhen Masked Vandal enters the battlefield, you may exile a creature card from your graveyard. If you do, exile target artifact or enchantment an opponent controls.",
+            "toughness": "3",
+            "type": "Creature - Shapeshifter",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2ace8e69-7550-4c40-bf63-59cb95603391.jpg"
         },
         {
             "artist": "Winona Nelson",
@@ -1675,6 +2027,33 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/2/125915dd-0499-4690-8897-4c8906e9817c.jpg"
         },
         {
+            "artist": "Daniel Ljunggren",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Path to the World Tree",
+            "names": null,
+            "number": "186",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "When Path to the World Tree enters the battlefield, search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\n{2}{W}{U}{B}{R}{G}, Sacrifice Path to the World Tree: You gain 2 life and draw two cards. Target opponent loses 2 life. Path to the World Tree deals 2 damage to up to one target creature. You create a 2/2 green Bear creature token.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/606da75d-382a-47a8-9739-644438594700.jpg"
+        },
+        {
             "artist": "Piotr Dura",
             "cmc": 2.0,
             "colorIdentity": [],
@@ -1750,6 +2129,33 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1e928b7c-ca30-4e2d-adf7-965f111c8bf1.jpg"
         },
         {
+            "artist": "Anna Steinbauer",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}",
+            "multiverseId": null,
+            "name": "Ravenform",
+            "names": null,
+            "number": "72",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Exile target artifact or creature. Its controller creates a 1/1 blue Bird creature token with flying.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c2cfcd7-b43a-4dad-a033-e661f55ceecd.jpg"
+        },
+        {
             "artist": "Zack Stella",
             "cmc": 3.0,
             "colorIdentity": [
@@ -1777,6 +2183,35 @@
             "type": "Creature - Shapeshifter",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c8212667-7e18-42a5-9f36-4f8a6ad12f83.jpg"
+        },
+        {
+            "artist": "Zack Stella",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Realmwalker",
+            "names": null,
+            "number": "366",
+            "power": "2",
+            "rarity": "Rare",
+            "subTypes": [
+                "Shapeshifter"
+            ],
+            "superTypes": [],
+            "text": "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chosen type from the top of your library.",
+            "toughness": "3",
+            "type": "Creature - Shapeshifter",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/3/3367b007-5985-448d-9203-67c22195d708.jpg"
         },
         {
             "artist": "Igor Kieryluk",
@@ -1816,7 +2251,34 @@
             "colors": [
                 "U"
             ],
-            "flavor": "The masks float downstream towards the Mirrorlake, where faces arise to wear them.",
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{U}",
+            "multiverseId": null,
+            "name": "Reflections of Littjara",
+            "names": null,
+            "number": "347",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "As Reflections of Littjara enters the battlefield, choose a creature type.\nWhenever you cast a spell of the chosen type, copy that spell. (A copy of a permanent spell becomes a token.)",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/694973a3-cf8b-4e5f-a0cd-40b7396c2550.jpg"
+        },
+        {
+            "artist": "Aaron Miller",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "The masks float downstream toward the Mirrorlake, where faces arise to wear them.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{4}{U}",
@@ -1867,7 +2329,10 @@
         {
             "artist": "Piotr Dura",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "G",
+                "U"
+            ],
             "colors": [],
             "flavor": "\"For a fortnight, our warband lay still beneath the icy waters, breathing through reeds as we waited for the great bear to appear.\"\n\u2014Iskene, Kannah storyteller",
             "layout": "",
@@ -1886,7 +2351,7 @@
             "superTypes": [
                 "Snow"
             ],
-            "text": "",
+            "text": "({T}: Add {G} or {U})\nRimewood Falls enters the battlefield tapped.",
             "toughness": null,
             "type": "Snow Land - Forest Island",
             "types": " Land ",
@@ -1988,6 +2453,92 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/45b31046-d84d-4afa-a207-bb6cccac4339.jpg"
         },
         {
+            "artist": "Randy Vargas",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "\"How predictable.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}{U}",
+            "multiverseId": null,
+            "name": "Saw It Coming",
+            "names": null,
+            "number": "76",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target spell.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg"
+        },
+        {
+            "artist": "PINDURSKI",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"I and my kin remember the old ways. The frost whispers to me in a language too ancient for the Skoti usurpers to comprehend.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Sculptor of Winter",
+            "names": null,
+            "number": "193",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Elf",
+                "Rogue"
+            ],
+            "superTypes": [
+                "Snow"
+            ],
+            "text": "{T}: Untap target snow land.",
+            "toughness": "2",
+            "type": "Snow Creature - Elf Rogue",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg"
+        },
+        {
+            "artist": "Jesper Ejsing",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"Grab what you want and burn the rest. Leave nothing behind.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Seize the Spoils",
+            "names": null,
+            "number": "149",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "As an additional cost to cast this spell, discard a card.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b3b7a69c-75d2-49a6-ab56-ef608d0b0208.jpg"
+        },
+        {
             "artist": "Steven Belledin",
             "cmc": 4.0,
             "colorIdentity": [
@@ -2083,6 +2634,36 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/4654f703-db16-4221-8ec2-bc6832b4ef83.jpg"
         },
         {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Snow-Covered Forest",
+            "names": null,
+            "number": "284",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Forest"
+            ],
+            "superTypes": [
+                "Snow",
+                "Basic"
+            ],
+            "text": "({T}: Add {G}.)",
+            "toughness": null,
+            "type": "Basic Snow Land - Forest",
+            "types": "  Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg"
+        },
+        {
             "artist": "Omar Rayyan",
             "cmc": 0.0,
             "colorIdentity": [
@@ -2173,6 +2754,36 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0dcf8c0a-cf91-42a0-a54e-da5e7c697ee3.jpg"
         },
         {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Snow-Covered Mountain",
+            "names": null,
+            "number": "282",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Mountain"
+            ],
+            "superTypes": [
+                "Snow",
+                "Basic"
+            ],
+            "text": "({T}: Add {R}.)",
+            "toughness": null,
+            "type": "Basic Snow Land - Mountain",
+            "types": "  Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/5474e67c-628f-41b0-aa31-3d85a267265a.jpg"
+        },
+        {
             "artist": "Jung Park",
             "cmc": 0.0,
             "colorIdentity": [
@@ -2203,6 +2814,36 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f54aa46b-4b7c-4846-bf19-a289ed36c172.jpg"
         },
         {
+            "artist": "Sarah Finnigan",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Snow-Covered Plains",
+            "names": null,
+            "number": "276",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Plains"
+            ],
+            "superTypes": [
+                "Snow",
+                "Basic"
+            ],
+            "text": "({T}: Add {W}.)",
+            "toughness": null,
+            "type": "Basic Snow Land - Plains",
+            "types": "  Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/afd2730f-878e-47ee-ad2a-73f8fa4e0794.jpg"
+        },
+        {
             "artist": "Adam Paquette",
             "cmc": 0.0,
             "colorIdentity": [
@@ -2231,6 +2872,36 @@
             "type": "Basic Snow Land - Plains",
             "types": "  Land ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/f/6fb78693-354a-49d0-a493-430a89c6e6f6.jpg"
+        },
+        {
+            "artist": "Adam Paquette",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Snow-Covered Swamp",
+            "names": null,
+            "number": "280",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [
+                "Swamp"
+            ],
+            "superTypes": [
+                "Snow",
+                "Basic"
+            ],
+            "text": "({T}: Add {B}.)",
+            "toughness": null,
+            "type": "Basic Snow Land - Swamp",
+            "types": "  Land ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6aa85af8-15f5-4620-8aea-0b45c28372ed.jpg"
         },
         {
             "artist": "Jung Park",
@@ -2265,9 +2936,12 @@
         {
             "artist": "Marta Nael",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
             "colors": [],
-            "flavor": "\"Young Vitima bellowed to the Cosmos, daring the gods to punish her hubris!! Well, she got their attention, as you can see.\"\n\u2014Iskene, Kannah storyteller",
+            "flavor": "\"Young Vitima bellowed to the Cosmos, daring the gods to punish her hubris! Well, she got their attention, as you can see.\"\n\u2014Iskene, Kannah storyteller",
             "layout": "",
             "loyalty": null,
             "mana_cost": "",
@@ -2323,7 +2997,10 @@
         {
             "artist": "Titus Lunter",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
             "colors": [],
             "flavor": "\"In my youth, we used to best each other at hopping rabbit-fast between the lava spouts, the burning tar spattering our legs.\"\n\u2014Iskene, Kannah storyteller",
             "layout": "",
@@ -2407,6 +3084,66 @@
             "type": "Creature - Giant Berserker",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4a628052-8175-495f-bfab-eeb3a0388e4e.jpg"
+        },
+        {
+            "artist": "Randy Vargas",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [
+                "B",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "saga",
+            "loyalty": null,
+            "mana_cost": "{2}{U}{B}",
+            "multiverseId": null,
+            "name": "The Trickster-God's Heist",
+            "names": null,
+            "number": "232",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Saga"
+            ],
+            "superTypes": [],
+            "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 You may exchange control of two target creatures.\nII \u2014 You may exchange control of two target nonbasic, noncreature permanents that share a card type.\nIII \u2014 Target player loses 3 life and you gain 3 life.",
+            "toughness": null,
+            "type": "Enchantment - Saga",
+            "types": "Enchantment ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4aa19a68-0d71-4123-a64d-8cb76f93cd74.jpg"
+        },
+        {
+            "artist": "Anastasia Ovchinnikova",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "G",
+                "R",
+                "U",
+                "W"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "The World Tree",
+            "names": null,
+            "number": "275",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "The World Tree enters the battlefield tapped.\n{T}: Add {G}.\nAs long as you control six or more lands, lands you control have \"{T}: Add one mana of any color.\"\n{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice The World Tree: Search your library for any number of God cards, put them into the battlefield tapped, then shuffle your library.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a70cb6d9-3955-4064-917b-11dec26440c5.jpg"
         },
         {
             "artist": "Magali Villeneuve",
@@ -2499,6 +3236,37 @@
             "type": "Legendary Creature - Squirrel",
             "types": " Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/8/08eb31f3-7686-4d6b-a0e4-5d6ece6fba82.jpg"
+        },
+        {
+            "artist": "Johannes Voss",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": "3",
+            "mana_cost": "{2}{G}{G}",
+            "multiverseId": null,
+            "name": "Tyvar Kell",
+            "names": null,
+            "number": "287",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Tyvar"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Elves you control have \"{T}: Add {B}.\"\n+1: Put a +1/+1 counter on up to one target Elf. Untap it. It gains deathtouch until end of turn.\n0: Create a 1/1 green Elf Warrior creature token.\n\u22126: You get an emblem with \"Whenever you cast an Elf spell, it gains haste until end of turn and you draw two cards.\"",
+            "toughness": null,
+            "type": "Legendary Planeswalker - Tyvar",
+            "types": " Planeswalker ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a19b35ee-03ba-43f0-8c57-29718c899719.jpg"
         },
         {
             "artist": "Yongjae Choi",
@@ -2694,9 +3462,39 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/6656a371-639f-4e4b-889f-4ee0bc085030.jpg"
         },
         {
+            "artist": "Igor Kieryluk",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "The Skelle raise scorn poles in conquered villages\u2014cursed totems of wood and bone that sap survivors of physical strength and the will to fight back.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Village Rites",
+            "names": null,
+            "number": "117",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "As an additional cost to cast this spell, sacrifice a creature.\nDraw two cards.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0fab9ee8-776a-48e5-b309-bcd381e67bf7.jpg"
+        },
+        {
             "artist": "Randy Vargas",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "R",
+                "U"
+            ],
             "colors": [],
             "flavor": "\"I watched with my own eyes as Jari Eagle-Caller fell from these cliffs, only to be snatched from the air by a giant bird!\"\n\u2014Iskene, Kannah storyteller",
             "layout": "",
@@ -2850,7 +3648,10 @@
         {
             "artist": "Titus Lunter",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "B",
+                "G"
+            ],
             "colors": [],
             "flavor": "\"Is this the grave of a god? A tunnel carved by the Cosmos Serpent? It matters not. It is no place for us.\"\n\u2014Iskene, Kannah storyteller",
             "layout": "",
