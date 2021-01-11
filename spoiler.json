@@ -26,8 +26,8 @@
             "superTypes": [],
             "text": "First strike\nBoast abilities you activate cost {1} less to activate for each Dragon you control.\nBoast \u2014 {4}{R}: Create a 5/5 red Dragon creature token with flying. (Activate this ability only if this creature attacked this turn and only once each turn.)",
             "toughness": null,
-            "type": "Creatue - Human Berserker",
-            "types": "Creatue ",
+            "type": "Creature - Human Berserker",
+            "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7f22fe4-2390-4c3d-8b5e-0cf398d97f6a.jpg"
         },
         {
@@ -61,6 +61,36 @@
             "type": "Snow Creature - Zombie Berserker",
             "types": " Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54340c59-03a9-4d9d-bd27-9aed337ce75a.jpg"
+        },
+        {
+            "artist": "Matt Stewart",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "\"Forsworn Cleric\"",
+            "names": null,
+            "number": "110",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Elf",
+                "Cleric"
+            ],
+            "superTypes": [],
+            "text": "When \"Forsworn Cleric\" enters the battlefield, choose one \u2014\n\u2022 Each opponent loses X life, where X is the greatest number of creatures you control that share a creature type.\n\u2022 You gain X life, where X is the greatest number of creatures you control that share a creature type.",
+            "toughness": "5",
+            "type": "Creature - Elf Cleric",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c204130f-0483-49ed-8512-03a74894702e.jpg"
         },
         {
             "artist": "Lucas Graciano",
@@ -114,7 +144,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Create X 2/2 black Zombie Berserker creature tokens, where X is the number of nontoken creatures that died this turn.\nForetell {B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Create X 2/2 black Zombie Berserker creature tokens, where X is the number of nontoken creatures that died this turn.\nForetell {B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -138,7 +168,7 @@
             "names": null,
             "number": "340",
             "power": null,
-            "rarity": "Common",
+            "rarity": "Rare",
             "subTypes": [],
             "superTypes": [
                 "Snow"
@@ -228,7 +258,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "\"The Man Who Passes the Sentence Should Swing the Axe\" deals 5 damage to target tapped creature.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "\"The Man Who Passes the Sentence Should Swing the Axe\" deals 5 damage to target tapped creature.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -371,7 +401,7 @@
             "rarity": "Mythic Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn after this one. Exile Alrund's Epiphany.\nForetell {4}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn after this one. Exile Alrund's Epiphany.\nForetell {4}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -398,7 +428,7 @@
             "rarity": "Mythic Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn after this one. Exile Alrund's Epiphany.\nForetell {4}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn after this one. Exile Alrund's Epiphany.\nForetell {4}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -467,6 +497,33 @@
             "type": "Legendary Creature - God // Legendary Creature - Bird",
             "types": " Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/d/5d131784-c1a3-463e-a37b-b720af67ab62.jpg"
+        },
+        {
+            "artist": "Caio Monteiro",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "\"Many giants have tried to crush me with their hammers. You'll never stop me with that little toy.\"\n\u2014Stigur of the Omenseekers",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{U}",
+            "multiverseId": null,
+            "name": "Annul",
+            "names": null,
+            "number": "42",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Counter target artifact or enchantment spell.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b1d4a59-11a0-4a55-8ac0-07377a9e6dc8.jpg"
         },
         {
             "artist": "Alayna Danner",
@@ -549,7 +606,7 @@
                 "Bird"
             ],
             "superTypes": [],
-            "text": "Flying\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Flying\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": "3",
             "type": "Creature - Bird",
             "types": "Creature ",
@@ -657,7 +714,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Scry 2, then draw two cards.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Scry 2, then draw two cards.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -745,6 +802,31 @@
             "type": "Land // Land",
             "types": "Land // Land",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/9/3933326a-2014-4ac0-bfd3-8ff26e178920.jpg"
+        },
+        {
+            "artist": "Slawomir Maniak",
+            "cmc": 3.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}",
+            "multiverseId": null,
+            "name": "Bloodline Pretender",
+            "names": null,
+            "number": "235",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Shapeshifter"
+            ],
+            "superTypes": [],
+            "text": "Changeling (This card is every creature type.)\nAs Bloodline Pretender enters the battlefield, choose a creature type.\nWhenever another creature of the chosen type enters the battlefield under your control, put a +1/+1 counter on Bloodline Pretender.",
+            "toughness": "2",
+            "type": "Artifact Creature - Shapeshifter",
+            "types": "Artifact Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb8a16f6-55c1-40eb-998f-592bf31916b1.jpg"
         },
         {
             "artist": "Jung Park",
@@ -913,7 +995,7 @@
                 "Spirit"
             ],
             "superTypes": [],
-            "text": "Flash\nFlying\nForetelling cards from your hand costs {1} less and can be done on any player's turn.\nForetell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Flash\nFlying\nForetelling cards from your hand costs {1} less and can be done on any player's turn.\nForetell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": "3",
             "type": "Creature - Horse Spirit",
             "types": "Creature ",
@@ -995,11 +1077,43 @@
                 "Cleric"
             ],
             "superTypes": [],
-            "text": "Whenever you cast your second spell each turn, you gain 2 life.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Whenever you cast your second spell each turn, you gain 2 life.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": "2",
             "type": "Creature - Human Cleric",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6dae01c8-15bb-44ad-a2c6-9bcf7a9e8c17.jpg"
+        },
+        {
+            "artist": "David Rapoza",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Draugr Necromancer",
+            "names": null,
+            "number": "86",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Zombie",
+                "Cleric"
+            ],
+            "superTypes": [
+                "Snow"
+            ],
+            "text": "If a nontoken creature an opponent controls would die, exile that card with an ice counter on it instead.\nYou may cast spells from among cards in exile your opponents own with ice counters on them, and you may spend mana from snow sources as though it were mana of any color to cast those spells.",
+            "toughness": "4",
+            "type": "Snow Creature - Zombie Cleric",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76d8e0ff-e720-41ca-af69-35585a2d7ae2.jpg"
         },
         {
             "artist": "Wisnu Tan",
@@ -1119,6 +1233,36 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e59380e-2c82-46a9-9749-4dcb978d5419.jpg"
         },
         {
+            "artist": "Tyler Jacobson",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}{B}",
+            "multiverseId": null,
+            "name": "Eradicator Valkyrie",
+            "names": null,
+            "number": "94",
+            "power": "4",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Angel",
+                "Berserker"
+            ],
+            "superTypes": [],
+            "text": "Flying, lifelink, hexproof from planeswalkers\nBoast \u2014 {1}{B}, Sacrifice a creature: Each opponent sacrifices a creature or planeswalker. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+            "toughness": "3",
+            "type": "Creature - Angel Berserker",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d00edda3-ddbc-44ee-a14b-47a701445bb0.jpg"
+        },
+        {
             "artist": "Raoul Vitale",
             "cmc": 4.0,
             "colorIdentity": [
@@ -1184,6 +1328,31 @@
             "type": "Legendary Creature - God // Legendary Enchantment",
             "types": " Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg"
+        },
+        {
+            "artist": "Titus Lunter",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": "It is everywhere and nowhere, a place unbound by logic, just beyond the real.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Faceless Haven",
+            "names": null,
+            "number": "255",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [
+                "Snow"
+            ],
+            "text": "{T}: Add {C}.\n{S}{S}{S}: Faceless Haven becomes a 4/3 creature with vigilance and all creature types until end of turn. It's still a land. ({S} can be paid with one mana from a snow source.)",
+            "toughness": null,
+            "type": "Snow Land",
+            "types": " Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg"
         },
         {
             "artist": "Andrew Mar",
@@ -1532,7 +1701,7 @@
                 "Cat"
             ],
             "superTypes": [],
-            "text": "Vigilance\nForetell {3}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Vigilance\nForetell {3}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": "6",
             "type": "Creature - Cat",
             "types": "Creature ",
@@ -1595,6 +1764,65 @@
             "type": "Creature - Dragon",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a7cec498-e2ac-4ca0-9aa2-ef98ba634c32.jpg"
+        },
+        {
+            "artist": "Mila Pesic",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "The raiders' only warning was a whisper floating through the mist: \"Trespassers.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{G}",
+            "multiverseId": null,
+            "name": "Guardian Gladewalker",
+            "names": null,
+            "number": "174",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Shapeshifter"
+            ],
+            "superTypes": [],
+            "text": "Changeling (This card is every creature type.)\nWhen Guardian Gladewalker enters the battlefield, put a +1/+1 counter on target creature.",
+            "toughness": "1",
+            "type": "Creature - Shapeshifter",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/587eed42-5111-4161-9af5-bf76556c542a.jpg"
+        },
+        {
+            "artist": "Steve Prescott",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"Graarg!\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{R}",
+            "multiverseId": null,
+            "name": "Hagi Mob",
+            "names": null,
+            "number": "140",
+            "power": "5",
+            "rarity": "Common",
+            "subTypes": [
+                "Troll",
+                "Berserker"
+            ],
+            "superTypes": [],
+            "text": "Boast \u2014 {1}{R}: Hagi Mob deals 1 damage to any target. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+            "toughness": "4",
+            "type": "Creature - Troll Berserker",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d3b18cdb-bc17-42ae-bfb7-4eafce01cd39.jpg"
         },
         {
             "artist": "Bram Sels",
@@ -1968,6 +2196,33 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35e3a516-2989-4cac-892f-deb3d754ba7d.jpg"
         },
         {
+            "artist": "Daarken",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Your trail ends here.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Kaya's Onslaught",
+            "names": null,
+            "number": "18",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target creature gets +1/+1 and gains double strike until end of turn.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f28e151f-b61b-486f-b7f8-7abde207c442.jpg"
+        },
+        {
             "artist": "Bram Sels",
             "cmc": 2.0,
             "colorIdentity": [
@@ -2131,6 +2386,35 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/d/2de25ea4-284a-4c16-b823-048ff00c6a03.jpg"
         },
         {
+            "artist": "Tyler Walpole",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "Like calls to like, and none are forgotten.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Littjara Kinseekers",
+            "names": null,
+            "number": "66",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Shapeshifter"
+            ],
+            "superTypes": [],
+            "text": "Changeling (This card is every creature type.\nWhen Littjara Kinseekers enters the battlefield, if you control three or more creatures that share a creature type, put a +1/+1 counter on Littjara Kinseekers, then scry 1.",
+            "toughness": "4",
+            "type": "Creature - Shapeshifter",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/1/c119f836-0707-49e2-b6d4-25f849d054a4.jpg"
+        },
+        {
             "artist": "Slawomir Maniak",
             "cmc": 2.0,
             "colorIdentity": [
@@ -2251,6 +2535,29 @@
             "type": "Creature - Shapeshifter",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2ace8e69-7550-4c40-bf63-59cb95603391.jpg"
+        },
+        {
+            "artist": "Jason A. Engle",
+            "cmc": 4.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}",
+            "multiverseId": null,
+            "name": "Maskwood Nexus",
+            "names": null,
+            "number": "240",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Creatures you control are every creature type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.\n{3}, {T}: Create a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)",
+            "toughness": null,
+            "type": "Artifact",
+            "types": "Artifact",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/471d2aef-cfd4-4131-bbc7-62eeed9f3343.jpg"
         },
         {
             "artist": "Winona Nelson",
@@ -2531,7 +2838,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Exile target artifact or creature. Its controller creates a 1/1 blue Bird creature token with flying.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Exile target artifact or creature. Its controller creates a 1/1 blue Bird creature token with flying.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -2814,7 +3121,7 @@
                 "Wolf"
             ],
             "superTypes": [],
-            "text": "When Sarulf's Packmate enters the battlefield, draw a card.\nForetell {1}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "When Sarulf's Packmate enters the battlefield, draw a card.\nForetell {1}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": "3",
             "type": "Creature - Wolf",
             "types": "Creature ",
@@ -2907,7 +3214,7 @@
             "rarity": "Uncommon",
             "subTypes": [],
             "superTypes": [],
-            "text": "Counter target spell.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its fortell cost.)",
+            "text": "Counter target spell.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -3066,6 +3373,33 @@
             "type": "Legendary Creature - Human Warrior",
             "types": " Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/4654f703-db16-4221-8ec2-bc6832b4ef83.jpg"
+        },
+        {
+            "artist": "Matt Stewart",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"Does a serpent roar and chase its prey? No. A serpent waits silently for oblivious prey to draw near.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}",
+            "multiverseId": null,
+            "name": "Snakeskin Veil",
+            "names": null,
+            "number": "194",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg"
         },
         {
             "artist": "Adam Paquette",
