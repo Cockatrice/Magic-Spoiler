@@ -6,13 +6,13 @@
 
 # Magic-Spoiler [![Discord](https://img.shields.io/discord/314987288398659595?label=Discord&logo=discord&logoColor=white)](https://discord.gg/3Z9yzmA) [![Gitter Chat](https://img.shields.io/gitter/room/Cockatrice/Magic-Spoiler)](https://gitter.im/Cockatrice/Magic-Spoiler) #
 
-Magic-Spoiler is a Python script to scrape <i>[Scryfall](https://scryfall.com)</i> to compile XML files (Cockatrice formatted) and application-ready json files (mtgjson formatted) with information about spoiled cards from upcoming sets.
+Magic-Spoiler is a Python script to scrape <i>[Scryfall](https://scryfall.com)</i> to compile XML files (Cockatrice formatted) and application-ready JSON files (MTGJSON formatted) with information about spoiled cards from upcoming sets.
 
-## Output [![Build Status](https://travis-ci.org/Cockatrice/Magic-Spoiler.svg?branch=master)](https://travis-ci.org/Cockatrice/Magic-Spoiler) ##
+## Output [![Build Status](https://github.com/Cockatrice/Magic-Spoiler/workflows/Deploy/badge.svg?branch=master&event=schedule)](https://github.com/Cockatrice/Magic-Spoiler/actions?query=workflow%3ADeploy+event%3Aschedule+branch%3Amaster) ##
 Just looking for XML or JSON files?  [They are in our `files` branch!](https://github.com/Cockatrice/Magic-Spoiler/tree/files) 
 
-When run by Travis, the script automatically updates the files and uploads new versions there. ([History of changes](https://github.com/Cockatrice/Magic-Spoiler/commits/files))<br>
-Travis CI is run daily on a cron job basis.
+When run by our CI, the script automatically updates the files and uploads new versions to this branch. ([History of changes](https://github.com/Cockatrice/Magic-Spoiler/commits/files))<br>
+GitHub Actions are scheduled to autoamtically run on a daily basis.
 
 ## Errors ##
 Noticed an error in the card data?  Check out our [Contributing file](https://github.com/Cockatrice/Magic-Spoiler/blob/master/.github/CONTRIBUTING.md) for information on how to help!
