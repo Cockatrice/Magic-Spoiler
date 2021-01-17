@@ -1693,7 +1693,7 @@
             "superTypes": [
                 "Snow"
             ],
-            "text": "Whenever you cast a creature spell, if {S} of any of any of that spell's color was spent to cast it, that creature enters the battlefield with an additional +1/+1 counter on it. ({S} is mana from a snow source.)",
+            "text": "Whenever you cast a creature spell, if {S} of any of that spell's color was spent to cast it, that creature enters the battlefield with an additional +1/+1 counter on it. ({S} is mana from a snow source.)",
             "toughness": "2",
             "type": "Snow Creature - Elf Warrior",
             "types": " Creature ",
@@ -2053,7 +2053,9 @@
         {
             "artist": "Joe Slucher",
             "cmc": 2.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "W"
+            ],
             "colors": [],
             "flavor": null,
             "layout": "",
@@ -3871,7 +3873,7 @@
                 "Ox"
             ],
             "superTypes": [],
-            "text": "You may use Giant Ox's toughness to crew rather than its power.",
+            "text": "Giant Ox crews Vehicles using its toughness rather than its power.",
             "toughness": "6",
             "type": "Creature - Ox",
             "types": "Creature ",
@@ -4764,7 +4766,7 @@
             "superTypes": [
                 "Snow"
             ],
-            "text": "{S}{S}: Icehide Troll gets +2/+0 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it. {S} can be paid with one mana from a snow source.)",
+            "text": "{S}{S}: Icehide Troll gets +2/+0 and gains indestructible until end of turn. Tap it. (Damage and effects that say \"destroy\" don't destroy it. {S} can be paid with one mana from a snow source.)",
             "toughness": "3",
             "type": "Snow Creature - Troll Warrior",
             "types": " Creature ",
