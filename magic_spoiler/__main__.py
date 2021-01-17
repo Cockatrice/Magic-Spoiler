@@ -385,7 +385,7 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
     """
     output_file_name = "spoiler.xml"
 
-    pathlib.Path("out").mkdir(exist_ok=True)
+    pathlib.Path("out").mkdir(parents=True, exist_ok=True)
     card_xml_file = OUTPUT_TMP_DIR.joinpath(output_file_name).open("w")
 
     # Fill in set headers
@@ -425,7 +425,7 @@ def write_spoilers_json(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
 
     output_file_path = OUTPUT_TMP_DIR.joinpath("spoiler.json")
 
-    OUTPUT_TMP_DIR.mkdir(exist_ok=True)
+    OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
     with output_file_path.open("w") as f:
         json.dump(trice_dicts, f, sort_keys=True, indent=4)
 
@@ -498,7 +498,7 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
     if not trice_dict:
         return False
 
-    OUTPUT_TMP_DIR.mkdir(exist_ok=True)
+    OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
     card_xml_file = OUTPUT_TMP_DIR.joinpath("{}.xml".format(set_obj["code"])).open("w")
 
     open_header(card_xml_file)
