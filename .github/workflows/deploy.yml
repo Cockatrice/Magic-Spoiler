@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Checkout output branch
-        if: env.DEPLOY
+        if: env.DEPLOY == 'true'
         uses: actions/checkout@v2
         with:
           ref: files
@@ -53,7 +53,7 @@ jobs:
         run: python3 -m magic_spoiler
 
       - name: Deploy changes
-        if: env.DEPLOY && steps.run.outputs.deploy != null
+        if: env.DEPLOY == 'true' && steps.run.outputs.deploy != null
         shell: bash
         working-directory: ${{env.OUTPUT_PATH}}
         run: |
