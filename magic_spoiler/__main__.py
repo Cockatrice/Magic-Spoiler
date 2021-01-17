@@ -20,6 +20,9 @@ SPOILER_SETS: contextvars.ContextVar = contextvars.ContextVar("SPOILER_SETS")
 
 OUTPUT_DIR = pathlib.Path("out")
 OUTPUT_TMP_DIR = OUTPUT_DIR.joinpath("tmp")
+XML_ESCAPE_TRANSLATE_MAP = str.maketrans(
+    {"&": "&amp;", '"': "&quot;", "<": "&lt;", ">": "&gt;"}
+)
 
 
 def __get_session() -> Union[requests.Session, Any]:
@@ -255,6 +258,10 @@ def close_xml_file(card_xml_file: IO[Any]) -> None:
         f.write(etree.tostring(root, pretty_print=True))
 
 
+def xml_escape(text):
+    return text.translate(XML_ESCAPE_TRANSLATE_MAP)
+
+
 def write_cards(
     card_xml_file: Any, trice_dict: List[Dict[str, Any]], set_code: str
 ) -> None:
@@ -333,6 +340,10 @@ def write_cards(
                     if card["layout"] == "split" or card["layout"] == "aftermath":
                         continue
 
+        set_name, mana_cost, card_cmc, card_type, pow_tough, table_row, text = map(
+            xml_escape,
+            [set_name, mana_cost, card_cmc, card_type, pow_tough, table_row, text],
+        )
         card_xml_file.write("<card>\n")
         card_xml_file.write("<name>" + set_name + "</name>\n")
         card_xml_file.write(
@@ -374,7 +385,7 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
     """
     output_file_name = "spoiler.xml"
 
-    pathlib.Path("out").mkdir(exist_ok=True)
+    pathlib.Path("out").mkdir(parents=True, exist_ok=True)
     card_xml_file = OUTPUT_TMP_DIR.joinpath(output_file_name).open("w")
 
     # Fill in set headers
@@ -414,7 +425,7 @@ def write_spoilers_json(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
 
     output_file_path = OUTPUT_TMP_DIR.joinpath("spoiler.json")
 
-    OUTPUT_TMP_DIR.mkdir(exist_ok=True)
+    OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
     with output_file_path.open("w") as f:
         json.dump(trice_dicts, f, sort_keys=True, indent=4)
 
@@ -487,7 +498,7 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
     if not trice_dict:
         return False
 
-    OUTPUT_TMP_DIR.mkdir(exist_ok=True)
+    OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
     card_xml_file = OUTPUT_TMP_DIR.joinpath("{}.xml".format(set_obj["code"])).open("w")
 
     open_header(card_xml_file)
