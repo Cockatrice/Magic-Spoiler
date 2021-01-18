@@ -59,6 +59,70 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1b87cd73-9149-4e48-acff-dcfce4bd1b11.jpg"
         },
         {
+            "artist": "Eric Deschamps",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "\"Birgi, God of... Something\" // \"Harnfel, Horn of Abundance\"",
+            "names": null,
+            "number": "123",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "God",
+                "//",
+                "Legendary",
+                "Artifact"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "",
+            "toughness": null,
+            "type": "Legendary Creature - God // Legendary Artifact",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/44657ab1-0a6a-4a5f-9688-86f239083821.jpg"
+        },
+        {
+            "artist": "Richard Luong",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "modal_dfc",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "\"Birgi, God of... Something\" // \"Harnfel, Horn of Abundance\"",
+            "names": null,
+            "number": "311",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "God",
+                "//",
+                "Legendary",
+                "Artifact"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "",
+            "toughness": null,
+            "type": "Legendary Creature - God // Legendary Artifact",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54dccbc0-528c-4e99-a6db-f2373978fe5f.jpg"
+        },
+        {
             "artist": "Lie Setiawan",
             "cmc": 2.0,
             "colorIdentity": [
@@ -426,11 +490,13 @@
             "power": null,
             "rarity": "Common",
             "subTypes": [],
-            "superTypes": [],
+            "superTypes": [
+                "Snow"
+            ],
             "text": "\"Valley of Lights\" enters the battlefield tapped.\nAs \"Valley of Lights\" enters the battlefield, choose a color.\n{T}: Add one mana of the chosen color.",
             "toughness": null,
-            "type": "Land",
-            "types": "Land",
+            "type": "Snow Land",
+            "types": " Land",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f09d98db-0176-41a7-b99b-ead29876cdab.jpg"
         },
         {
@@ -844,7 +910,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Haste\nBoast \u2014 {1}: You may change Arni Brokenbrow's base power to 1 plus the greatest power among creatures you control until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+            "text": "Haste\nBoast \u2014 {1}: You may change Arni Brokenbrow's base power to 1 plus the greatest power among other creatures you control until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
             "toughness": "3",
             "type": "Legendary Creature - Human Berserker",
             "types": " Creature ",
@@ -1406,7 +1472,7 @@
             "superTypes": [
                 "Snow"
             ],
-            "text": "When Berg Strider enters the battlefield, tap target artifact or creature an opponent controls. If {S} was spent to cast this spell, that permanent doesn't untap during its controller's next untap step. ({S} is one mana from a snow source.)",
+            "text": "When Berg Strider enters the battlefield, tap target artifact or creature an opponent controls. If {S} was spent to cast this spell, that permanent doesn't untap during its controller's next untap step. ({S} is mana from a snow source.)",
             "toughness": "4",
             "type": "Snow Creature - Giant Wizard",
             "types": " Creature ",
@@ -1778,7 +1844,7 @@
             "rarity": "Uncommon",
             "subTypes": [],
             "superTypes": [],
-            "text": "Bretagard Stronghold enters the battlefield tapped.\n{T}: Add {G}.\n{G}{W}{W}, {T}, Sacrifice Bretagard Stronghold: Put a +1/+1 counter on each of up to two target creatures you control. They gain vigilance and lifelink until end of turn. Activate this ability only any time you cast a sorcery.",
+            "text": "Bretagard Stronghold enters the battlefield tapped.\n{T}: Add {G}.\n{G}{W}{W}, {T}, Sacrifice Bretagard Stronghold: Put a +1/+1 counter on each of up to two target creatures you control. They gain vigilance and lifelink until end of turn. Activate this ability only any time you could cast a sorcery.",
             "toughness": null,
             "type": "Land",
             "types": "Land",
@@ -2407,18 +2473,45 @@
             "loyalty": null,
             "mana_cost": "{2}{R}",
             "multiverseId": null,
-            "name": "Demom Bolt",
+            "name": "Demon Bolt",
             "names": null,
             "number": "129",
             "power": null,
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Demom Bolt deals 4 damage to target creature or planeswalker.\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+            "text": "Demon Bolt deals 4 damage to target creature or planeswalker.\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f856b0e-b413-49b0-9aa7-d935ad40ae53.jpg"
+        },
+        {
+            "artist": "Kekai Kotaki",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "It began as a flavor on the tongue, like a body morsel of roast boar\u2014but soon the power was a conflagration in her veins.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{B}",
+            "multiverseId": null,
+            "name": "Demonic Gifts",
+            "names": null,
+            "number": "84",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield under its owner's control.\"",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/f/3f23c487-ac4a-475b-ad5e-ec6f8678e668.jpg"
         },
         {
             "artist": "Campbell White",
@@ -2693,7 +2786,7 @@
             "colors": [
                 "B"
             ],
-            "flavor": "\"What kind of monstrous grave robber leaves his treasures, but takes the bodies?\"\n\u2014Fjall, Beskir elder",
+            "flavor": "\"What kind of monstrous grave robber leaves the treasures, but takes the bodies?\"\n\u2014Fjall, Beskir elder",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{5}{B}",
@@ -3452,7 +3545,7 @@
                 "Saga"
             ],
             "superTypes": [],
-            "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Create a 4/4 white Angel Warrior creature token with flying and vigilance.\nII \u2014 Until end of turn, Angels you control gain \"{T}: Destroy target creature with less power than this creature.\"\nIII \u2014 Angels you control gain double strike until end of turn.",
+            "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Create a 4/4 white Angel Warrior creature token with flying and vigilance.\nII \u2014 Until end of turn, Angels you control gain \"{T}: Destroy target creature with power less than this creature's power.\"\nIII \u2014 Angels you control gain double strike until end of turn.",
             "toughness": null,
             "type": "Enchantment - Saga",
             "types": "Enchantment ",
@@ -4835,6 +4928,32 @@
             "type": "Creature - Vampire Dragon",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3d222d66-137b-4707-b28a-a23549b1ee35.jpg"
+        },
+        {
+            "artist": "Cliff Childs",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Immersturm Skullcairn",
+            "names": null,
+            "number": "263",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Immersturm Skullcairn enters the battlefield tapped.\n{T}: Add {B}.\n{1}{B}{R}{R}, {T}, Sacrifice Immersturm Skullcairn: It deals 3 damage to target player. That player discards a card. Activate this ability only any time you could cast a sorcery.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/2/12ed97de-736d-43d8-977b-308ac54f88f4.jpg"
         },
         {
             "artist": "Ilse Gort",
@@ -6482,6 +6601,32 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a397f533-204b-4187-b4fe-4e7f067ea3f4.jpg"
         },
         {
+            "artist": "Mauricio Calle",
+            "cmc": 0.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Port of Karfell",
+            "names": null,
+            "number": "265",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Port of Karfell enters the battlefield tapped.\n{T}: Add {U}.\n{3}{U}{B}{B}, {T}, Sacrifice Port of Karfell: Mill four cards, then return a creature card from your graveyard to the battlefield. (To mill a card, a player puts the top card of their library into their graveyard.)",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/b/bb9465a6-d009-4ecd-9fd1-d046547de902.jpg"
+        },
+        {
             "artist": "Deruchenko Alexander",
             "cmc": 4.0,
             "colorIdentity": [
@@ -6499,7 +6644,7 @@
             "names": null,
             "number": "144",
             "power": null,
-            "rarity": "Common",
+            "rarity": "Uncommon",
             "subTypes": [],
             "superTypes": [],
             "text": "Provoke the Trolls deals 3 damage to any target. If a creature is dealt damage this way, it gets +5/+0 until end of turn.",
@@ -7952,6 +8097,33 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c204130f-0483-49ed-8512-03a74894702e.jpg"
         },
         {
+            "artist": "",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{B}",
+            "multiverseId": null,
+            "name": "Skull Raid",
+            "names": null,
+            "number": "111",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target opponent discards two cards. If fewer than two cards were discarded this way, you draw cards equal to the difference.\nForetell {1}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+            "toughness": null,
+            "type": "Sorcery",
+            "types": "Sorcery",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/4589c520-4db3-47bf-bfb2-5d7e02ede4bf.jpg"
+        },
+        {
             "artist": "Slawomir Maniak",
             "cmc": 4.0,
             "colorIdentity": [
@@ -8863,11 +9035,42 @@
                 "Saga"
             ],
             "superTypes": [],
-            "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Create a 2/2 blue Shapeshifter creature token with changeling.\nII \u2014 Any number of target Shapeshifter creatures you control have base power and toughness 4/4.\nIII \u2014 Choose up to one target creature or planeswalker. Each creature you control with power 4 or greater deals damage equal to its power to that permanent.",
+            "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Create a 2/2 blue Shapeshifter creature token with changeling.\nII \u2014 Any number of target Shapeshifter creatures you control have base power and toughness 4/4.\nIII \u2014 Choose up to one target creature or planeswalker. Each creature with power 4 or greater you control deals damage equal to its power to that permanent.",
             "toughness": null,
             "type": "Enchantment - Saga",
             "types": "Enchantment ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be43a643-6cb7-4bb6-a28d-8ad30b7fbb6d.jpg"
+        },
+        {
+            "artist": "Livia Prima",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
+            "colors": [
+                "B",
+                "R"
+            ],
+            "flavor": null,
+            "layout": "saga",
+            "loyalty": null,
+            "mana_cost": "{1}{B}{R}",
+            "multiverseId": null,
+            "name": "The Bloodsky Massacre",
+            "names": null,
+            "number": "207",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [
+                "Saga"
+            ],
+            "superTypes": [],
+            "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Create a 2/3 red Demon Berserker creature token with menace.\nII \u2014 Whenever a Berserker attacks this turn, you draw a card and you lose 1 life.\nIII \u2014 Add {R} for each Berserker you control. Until end of turn, you don't lose this mana as steps or phases end.",
+            "toughness": null,
+            "type": "Enchantment - Saga",
+            "types": "Enchantment ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/669975ed-0501-4b48-988d-29c1215179a4.jpg"
         },
         {
             "artist": "Lie Setiawan",
@@ -9648,7 +9851,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Deathtouch\nBoast \u2014 {1}{B}: Target player search their library for a card, then shuffles their library and puts that card on top of it. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+            "text": "Deathtouch\nBoast \u2014 {1}{B}: Target player searches their library for a card, then shuffles their library and puts that card on top of it. (Activate this ability only if this creature attacked this turn and only once each turn.)",
             "toughness": "3",
             "type": "Legendary Creature - Demon Rogue",
             "types": " Creature ",
@@ -9680,7 +9883,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Deathtouch\nBoast \u2014 {1}{B}: Target player search their library for a card, then shuffles their library and puts that card on top of it. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+            "text": "Deathtouch\nBoast \u2014 {1}{B}: Target player searches their library for a card, then shuffles their library and puts that card on top of it. (Activate this ability only if this creature attacked this turn and only once each turn.)",
             "toughness": "3",
             "type": "Legendary Creature - Demon Rogue",
             "types": " Creature ",
