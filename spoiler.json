@@ -1608,7 +1608,7 @@
             "multiverseId": null,
             "name": "Burning-Rune Demon",
             "names": null,
-            "number": "81",
+            "number": "349",
             "power": "6",
             "rarity": "Mythic Rare",
             "subTypes": [
@@ -1621,6 +1621,36 @@
             "type": "Creature - Demon Berserker",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4d3b0c3b-896e-4d1e-b7fb-670718ba97d4.jpg"
+        },
+        {
+            "artist": "Andrew Mar",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}{B}",
+            "multiverseId": null,
+            "name": "Burning-Rune Demon",
+            "names": null,
+            "number": "81",
+            "power": "6",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Demon",
+                "Berserker"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhen Burning-Rune Demon enters the battlefield, you may search your library for exactly two cards not named Burning-Rune Demon that have different names. If you do, reveal those cards. An opponent chooses one of them. Put the chosen card into your hand and the other into your graveyard, then shuffle your library.",
+            "toughness": "6",
+            "type": "Creature - Demon Berserker",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f358a52b-8044-404e-8d04-2ec5903386cc.jpg"
         },
         {
             "artist": "Simon Dominic",
@@ -5009,6 +5039,33 @@
             "multiverseId": null,
             "name": "In Search of Greatness",
             "names": null,
+            "number": "177",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "At the beginning of your upkeep, you may cast a permanent spell from your hand with converted mana cost equal to 1 plus the highest converted mana cost among other permanents you control without paying its mana cost. If you don't, scry 1.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/ac0e50fa-5114-4f96-89f4-000906da7c76.jpg"
+        },
+        {
+            "artist": "Ilse Gort",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{G}",
+            "multiverseId": null,
+            "name": "In Search of Greatness",
+            "names": null,
             "number": "364",
             "power": null,
             "rarity": "Rare",
@@ -7553,7 +7610,7 @@
             "names": null,
             "number": "22",
             "power": "3",
-            "rarity": "Rare",
+            "rarity": "Mythic Rare",
             "subTypes": [
                 "Angel",
                 "Warrior"
@@ -9015,6 +9072,35 @@
             "type": "Creature - Human Cleric",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea007a18-b31a-4881-92c4-86120dc5729b.jpg"
+        },
+        {
+            "artist": "Andrew Mar",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Every worthy warrior who arrives in Starheim is gifted a mount befitting their heroism, a mighty pegasus raised and trained by the valkyries.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Starnheim Courser",
+            "names": null,
+            "number": "32",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Pegasus"
+            ],
+            "superTypes": [],
+            "text": "Flying\nArtifact and enchantment spells you cast cost {1} less to cast.",
+            "toughness": "2",
+            "type": "Creature - Pegasus",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c5373dd-4aec-4e93-97fb-a639aa096764.jpg"
         },
         {
             "artist": "",
@@ -10810,6 +10896,41 @@
             "type": "Creature - Angel",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ffe93b27-f8ae-4abf-8ade-90f503f132c2.jpg"
+        }
+    ],
+    "PL21": [
+        {
+            "artist": "Fiona Hsieh",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{R}{R}",
+            "multiverseId": null,
+            "name": "Sethron, Hurloon General",
+            "names": null,
+            "number": "1",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Minotaur",
+                "Warrior"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Whenever Sethron, Hurloon General or another nontoken Minotaur enters the battlefield under your control, create a 2/3 red Minotaur creature token.\n{2}{B/R}: Minotaurs you control get +1/+0 and gain menace and haste until end of turn. ({B/R} can be paid with either {B} or {R}.)",
+            "toughness": "4",
+            "type": "Legendary Creature - Minotaur Warrior",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/7/97893c28-d3cd-4dc9-a238-70f23b7132b5.jpg"
         }
     ],
     "TSR": [
