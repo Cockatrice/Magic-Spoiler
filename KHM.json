@@ -600,7 +600,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "{2}: Target snow land you control becomes a 4/4 Elemental creature with haste and hexproof until end of turn. It's still a land. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",
+        "text": "{2}: Target snow land you control becomes a 4/4 Elemental creature with hexproof and haste until end of turn. It's still a land. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",
         "toughness": "3",
         "type": "Snow Creature - Human Wizard",
         "types": " Creature ",
@@ -626,7 +626,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "Axgard Armory enters the battlefield tapped.\n{T}: Add {W}.\n{1}{R}{R}{W}, {T}, Sacrifice Axgard Armory: Search your library for an Aura card and/or Equipment card, reveal them, put them into your hand, then shuffle your library.",
+        "text": "Axgard Armory enters the battlefield tapped.\n{T}: Add {W}.\n{1}{R}{R}{W}, {T}, Sacrifice Axgard Armory: Search your library for an Aura card and/or an Equipment card, reveal them, put them into your hand, then shuffle your library.",
         "toughness": null,
         "type": "Land",
         "types": "Land",
@@ -887,7 +887,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Create a 1/1 white Human Warrior creature token.\nII \u2014 Create a 1/1 green Elf Warrior creature token.\nIII \u2014 Choose any number of artifact tokens and/or creature tokens you control with different names. For each of them, create a token thats a copy of it.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Create a 1/1 white Human Warrior creature token.\nII \u2014 Create a 1/1 green Elf Warrior creature token.\nIII \u2014 Choose any number of artifact tokens and/or creature tokens you control with different names. For each of them, create a token that's a copy of it.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -1218,7 +1218,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "Distribute X +1/+1 counters among any number of creatures you control, where X is the amount of {S} spent to cast this spell. Then draw a card for each creature you control with power 4 or greater. ({S} is mana from a snow source.)",
+        "text": "Distribute X +1/+1 counters among any number of creatures you control, where X is the amount of {S} spent to cast this spell. Then draw a card for each creature you control with power 4 or greater.",
         "toughness": null,
         "type": "Snow Sorcery",
         "types": " Sorcery",
@@ -1247,7 +1247,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "Distribute X +1/+1 counters among any number of creatures you control, where X is the amount of {S} spent to cast this spell. Then draw a card for each creature you control with power 4 or greater. ({S} is mana from a snow source.)",
+        "text": "Distribute X +1/+1 counters among any number of creatures you control, where X is the amount of {S} spent to cast this spell. Then draw a card for each creature you control with power 4 or greater.",
         "toughness": null,
         "type": "Snow Sorcery",
         "types": " Sorcery",
@@ -1473,7 +1473,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "Whenever you cast a creature spell, if {S} of any of that spell's color was spent to cast it, that creature enters the battlefield with an additional +1/+1 counter on it. ({S} is mana from a snow source.)",
+        "text": "Whenever you cast a creature spell, if {S} of any of that spell's colors was spent to cast it, that creature enters the battlefield with an additional +1/+1 counter on it. ({S} is mana from a snow source.)",
         "toughness": "2",
         "type": "Snow Creature - Elf Warrior",
         "types": " Creature ",
@@ -3266,7 +3266,7 @@
             "Warrior"
         ],
         "superTypes": [],
-        "text": "Whenever one or more other Elves enters the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.\n{5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn.",
+        "text": "Whenever one or more other Elves enter the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.\n{5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn.",
         "toughness": "2",
         "type": "Creature - Elf Warrior",
         "types": "Creature ",
@@ -3296,7 +3296,7 @@
             "Warrior"
         ],
         "superTypes": [],
-        "text": "Whenever one or more other Elves enters the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.\n{5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn.",
+        "text": "Whenever one or more other Elves enter the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.\n{5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn.",
         "toughness": "2",
         "type": "Creature - Elf Warrior",
         "types": "Creature ",
@@ -4659,7 +4659,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "Scry X, where is the amount of {S} spent to cast this spell, then draw three cards. ({S} is mana from a snow source.)",
+        "text": "Scry X, where X is the amount of {S} spent to cast this spell, then draw three cards. ({S} is mana from a snow source.)",
         "toughness": null,
         "type": "Snow Instant",
         "types": " Instant",
@@ -4688,7 +4688,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "Scry X, where is the amount of {S} spent to cast this spell, then draw three cards. ({S} is mana from a snow source.)",
+        "text": "Scry X, where X is the amount of {S} spent to cast this spell, then draw three cards. ({S} is mana from a snow source.)",
         "toughness": null,
         "type": "Snow Instant",
         "types": " Instant",
@@ -4746,7 +4746,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "{1}{S}: Grim Draugr gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)",
+        "text": "{1}{S}: Grim Draugr gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures. {S} can be paid with one mana from a snow source.)",
         "toughness": "2",
         "type": "Snow Creature - Zombie Berserker",
         "types": " Creature ",
@@ -5057,7 +5057,7 @@
         "rarity": "Mythic Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Choose a creature type. Return up to two creature cards of the chosen type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of the chosen type from your graveyard to the battlefield instead.\nForetell {5}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+        "text": "Choose a creature type. Return up to two creature cards of that type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of that type from your graveyard to the battlefield instead.\nForetell {5}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -5084,7 +5084,7 @@
         "rarity": "Mythic Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Choose a creature type. Return up to two creature cards of the chosen type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of the chosen type from your graveyard to the battlefield instead.\nForetell {5}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+        "text": "Choose a creature type. Return up to two creature cards of that type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of that type from your graveyard to the battlefield instead.\nForetell {5}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -5762,7 +5762,7 @@
             "Cleric"
         ],
         "superTypes": [],
-        "text": "Flash\nWhen Jarl of the Forsaken enters the battlefield, destroy target creature or planeswalker an opponent controls that was dealt damage this turn.\nForetell {1}{B} (During your turn, you may pay and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+        "text": "Flash\nWhen Jarl of the Forsaken enters the battlefield, destroy target creature or planeswalker an opponent controls that was dealt damage this turn.\nForetell {1}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
         "toughness": "2",
         "type": "Creature - Zombie Cleric",
         "types": "Creature ",
@@ -6023,7 +6023,7 @@
             "Berserker"
         ],
         "superTypes": [],
-        "text": "When Karfell Kennel-Master enters the battlefield, up to two target creatures each get +1/+0 and gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+        "text": "When Karfell Kennel-Master enters the battlefield, up to two target creatures each get +1/+0 and gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy them.)",
         "toughness": "4",
         "type": "Creature - Zombie Berserker",
         "types": "Creature ",
@@ -6143,7 +6143,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Until end of tun, target creature gets +1/+1 for each creature you control and gains trample. It must be blocked this turn if able.",
+        "text": "Until end of turn, target creature gets +1/+1 for each creature you control and gains trample. It must be blocked this turn if able.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -6174,7 +6174,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Each player mills four cards. You may exile up to one creature or planeswalker card from each graveyard.\nII, III \u2014 Until end of turn, you may cast spells from among cards exiled with King Narfi's Betrayal, and you may spend mana as though it were mana of any color to cast those spells.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Each player mills four cards. Then you may exile a creature or planeswalker card from each graveyard.\nII, III \u2014 Until end of turn, you may cast spells from among cards exiled with King Narfi's Betrayal, and you may spend mana as though it were mana of any color to cast those spells.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -6961,7 +6961,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Choose target nonlegendary creature. The next time one or more creatures or planeswalkers enter the battlefield this turn, they enter as copies of the chosen creature instead.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+        "text": "Choose target nonlegendary creature. The next time one or more creatures or planeswalkers enter the battlefield this turn, they enter as copies of the chosen creature.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -6988,7 +6988,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Choose target nonlegendary creature. The next time one or more creatures or planeswalkers enter the battlefield this turn, they enter as copies of the chosen creature instead.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+        "text": "Choose target nonlegendary creature. The next time one or more creatures or planeswalkers enter the battlefield this turn, they enter as copies of the chosen creature.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -7185,7 +7185,7 @@
             "Warrior"
         ],
         "superTypes": [],
-        "text": "Trample\nWhen Old-Growth Troll dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant Forest you control and \"Enchanted Forest has '{T}: Add {G}{G}' and '{1}, {T}, Sacrifice this land: Create a 4/4 green Troll Warrior creature token with trample.'\"",
+        "text": "Trample\nWhen Old-Growth Troll dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant Forest you control and \"Enchanted Forest has '{T}: Add {G}{G}' and '{1}, {T}, Sacrifice this land: Create a tapped 4/4 green Troll Warrior creature token with trample.'\"",
         "toughness": "4",
         "type": "Creature - Troll Warrior",
         "types": "Creature ",
@@ -7215,7 +7215,7 @@
             "Warrior"
         ],
         "superTypes": [],
-        "text": "Trample\nWhen Old-Growth Troll dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant Forest you control and \"Enchanted Forest has '{T}: Add {G}{G}' and '{1}, {T}, Sacrifice this land: Create a 4/4 green Troll Warrior creature token with trample.'\"",
+        "text": "Trample\nWhen Old-Growth Troll dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant Forest you control and \"Enchanted Forest has '{T}: Add {G}{G}' and '{1}, {T}, Sacrifice this land: Create a tapped 4/4 green Troll Warrior creature token with trample.'\"",
         "toughness": "4",
         "type": "Creature - Troll Warrior",
         "types": "Creature ",
@@ -7475,7 +7475,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "Port of Karfell enters the battlefield tapped.\n{T}: Add {U}.\n{3}{U}{B}{B}, {T}, Sacrifice Port of Karfell: Mill four cards, then return a creature card from your graveyard to the battlefield tapped. (To mill a card,put the top card of your library into your graveyard.)",
+        "text": "Port of Karfell enters the battlefield tapped.\n{T}: Add {U}.\n{3}{U}{B}{B}, {T}, Sacrifice Port of Karfell: Mill four cards, then return a creature card from your graveyard to the battlefield tapped. (To mill a card, put the top card of your library into your graveyard.)",
         "toughness": null,
         "type": "Land",
         "types": "Land",
@@ -7775,7 +7775,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "When Rampage of the Valkyries enters the battlefield, create a 4/4 white Angel token with flying and vigilance.\nWhenever an Angel you control dies, each other player sacrifices a creature.",
+        "text": "When Rampage of the Valkyries enters the battlefield, create a 4/4 white Angel creature token with flying and vigilance.\nWhenever an Angel you control dies, each other player sacrifices a creature.",
         "toughness": null,
         "type": "Enchantment",
         "types": "Enchantment",
@@ -7970,7 +7970,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Create X 2/1 red Dwarf creature tokens, where X is the number of Vehicles you control plus the number of Equipment you control. For each of those tokens, you may attach an Equipment you control to it.",
+        "text": "Create X 2/1 red Dwarf Berserker creature tokens, where X is the number of Vehicles you control plus the number of Equipment you control. For each of those tokens, you may attach an Equipment you control to it.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -7997,7 +7997,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Create X 2/1 red Dwarf creature tokens, where X is the number of Vehicles you control plus the number of Equipment you control. For each of those tokens, you may attach an Equipment you control to it.",
+        "text": "Create X 2/1 red Dwarf Berserker creature tokens, where X is the number of Vehicles you control plus the number of Equipment you control. For each of those tokens, you may attach an Equipment you control to it.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -8402,7 +8402,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "({T}: Add {G} or {U})\nRimewood Falls enters the battlefield tapped.",
+        "text": "({T}: Add {G} or {U}.)\nRimewood Falls enters the battlefield tapped.",
         "toughness": null,
         "type": "Snow Land - Forest Island",
         "types": " Land ",
@@ -8741,7 +8741,7 @@
             "Equipment"
         ],
         "superTypes": [],
-        "text": "When Runed Crown enters the battlefield, you may search your library, hand, and/or graveyard for a Rune card and put it onto the battlefield attached to Runed Crown. If you search your library this way, shuffle it.\nEquipped Creature gets +1/+1.\nEquip {2}",
+        "text": "When Runed Crown enters the battlefield, you may search your library, hand, and/or graveyard for a Rune card and put it onto the battlefield attached to Runed Crown. If you search your library this way, shuffle it.\nEquipped creature gets +1/+1.\nEquip {2}",
         "toughness": null,
         "type": "Artifact - Equipment",
         "types": "Artifact ",
@@ -10481,7 +10481,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Create a 2/3 red Demon Berserker creature token with menace.\nII \u2014 Whenever a Berserker attacks this turn, you draw a card and you lose 1 life.\nIII \u2014 Add {R} for each Berserker you control. Until end of turn, you don't lose this mana as steps or phases end.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Create a 2/3 red Demon Berserker creature token with menace.\nII \u2014 Whenever a Berserker attacks this turn, you draw a card and you lose 1 life.\nIII \u2014 Add {R} for each Berserker you control. Until end of turn, you don't lose this mana as steps and phases end.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -10900,7 +10900,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "Tundra Fumarole deals 4 damage to target creature or planeswalker. Add {C} for each {S} spent to cast this spell. Until end of turn, you don't lose this mana as steps and phases end. ({S} is one mana from a snow source.)",
+        "text": "Tundra Fumarole deals 4 damage to target creature or planeswalker. Add {C} for each {S} spent to cast this spell. Until end of turn, you don't lose this mana as steps and phases end. ({S} is mana from a snow source.)",
         "toughness": null,
         "type": "Snow Sorcery",
         "types": " Sorcery",
@@ -10929,7 +10929,7 @@
         "superTypes": [
             "Snow"
         ],
-        "text": "Tundra Fumarole deals 4 damage to target creature or planeswalker. Add {C} for each {S} spent to cast this spell. Until end of turn, you don't lose this mana as steps and phases end. ({S} is one mana from a snow source.)",
+        "text": "Tundra Fumarole deals 4 damage to target creature or planeswalker. Add {C} for each {S} spent to cast this spell. Until end of turn, you don't lose this mana as steps and phases end. ({S} is mana from a snow source.)",
         "toughness": null,
         "type": "Snow Sorcery",
         "types": " Sorcery",
@@ -11946,7 +11946,7 @@
             "Angel"
         ],
         "superTypes": [],
-        "text": "Flying\nWhenever another Angel enters the battlefield under your control, put a +1/+1 counter on Youthful Valyrie.",
+        "text": "Flying\nWhenever another Angel enters the battlefield under your control, put a +1/+1 counter on Youthful Valkyrie.",
         "toughness": "3",
         "type": "Creature - Angel",
         "types": "Creature ",
