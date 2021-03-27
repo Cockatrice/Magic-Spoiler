@@ -112,7 +112,7 @@
             "Lesson"
         ],
         "superTypes": [],
-        "text": "Choose one \u2014\n\u2022 Return target planeswalker card with mana value X from your graveyard to the battlefield.\n\u2022 Remove twice X loyalty counters from target planeswalker an opponent controls.",
+        "text": "Choose one \u2014\n\u2022 Return target planeswalker card with mana value X or less from your graveyard to the battlefield.\n\u2022 Remove twice X loyalty counters from target planeswalker an opponent controls.",
         "toughness": null,
         "type": "Sorcery - Lesson",
         "types": "Sorcery ",
@@ -141,7 +141,7 @@
             "Lesson"
         ],
         "superTypes": [],
-        "text": "Choose one \u2014\n\u2022 Return target planeswalker card with mana value X from your graveyard to the battlefield.\n\u2022 Remove twice X loyalty counters from target planeswalker an opponent controls.",
+        "text": "Choose one \u2014\n\u2022 Return target planeswalker card with mana value X or less from your graveyard to the battlefield.\n\u2022 Remove twice X loyalty counters from target planeswalker an opponent controls.",
         "toughness": null,
         "type": "Sorcery - Lesson",
         "types": "Sorcery ",
@@ -261,7 +261,7 @@
             "Wizard"
         ],
         "superTypes": [],
-        "text": "Magecraft - Whenever you cast or copy an instant or sorcery spell, Eager First-Year gets +1/+0 until end of turn.",
+        "text": "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, Eager First-Year gets +1/+0 until end of turn.",
         "toughness": "2",
         "type": "Creature - Human Wizard",
         "types": "Creature ",
@@ -365,7 +365,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Search your library for a basic Forest card, put that card onto the battlefield, then shuffle.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+        "text": "Search your library for a basic Forest card, put that card onto the battlefield tapped, then shuffle.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -705,7 +705,8 @@
         "artist": "Ryan Pancoast",
         "cmc": 3.0,
         "colorIdentity": [
-            "G"
+            "G",
+            "U"
         ],
         "colors": [],
         "flavor": null,
@@ -713,7 +714,7 @@
         "loyalty": null,
         "mana_cost": "",
         "multiverseId": null,
-        "name": "Kianne, Dean fo Substance // Imbraham, Dean of Theory",
+        "name": "Kianne, Dean of Substance // Imbraham, Dean of Theory",
         "names": null,
         "number": "152",
         "power": null,
@@ -738,7 +739,8 @@
         "artist": "Ryan Pancoast",
         "cmc": 3.0,
         "colorIdentity": [
-            "G"
+            "G",
+            "U"
         ],
         "colors": [],
         "flavor": null,
@@ -746,7 +748,7 @@
         "loyalty": null,
         "mana_cost": "",
         "multiverseId": null,
-        "name": "Kianne, Dean fo Substance // Imbraham, Dean of Theory",
+        "name": "Kianne, Dean of Substance // Imbraham, Dean of Theory",
         "names": null,
         "number": "326",
         "power": null,
@@ -1060,7 +1062,8 @@
         "artist": "Bryan Sola",
         "cmc": 2.0,
         "colorIdentity": [
-            "R"
+            "R",
+            "W"
         ],
         "colors": [],
         "flavor": null,
@@ -1093,7 +1096,8 @@
         "artist": "Bryan Sola",
         "cmc": 2.0,
         "colorIdentity": [
-            "R"
+            "R",
+            "W"
         ],
         "colors": [],
         "flavor": null,
@@ -1131,7 +1135,7 @@
         "colors": [
             "U"
         ],
-        "flavor": null,
+        "flavor": "\"Today is hydromancy? I thought it was amplimancy! I studied for amplimancy!\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{U}",
@@ -1175,7 +1179,7 @@
             "Shaman"
         ],
         "superTypes": [],
-        "text": "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, Prismari Apprentice can't be blocked this. turn. If that spell has mana value 5 or greater, put a +1/+1 counter on Prismari Apprentice.",
+        "text": "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, Prismari Apprentice can't be blocked this turn. If that spell has mana value 5 or greater, put a +1/+1 counter on Prismari Apprentice.",
         "toughness": "2",
         "type": "Creature - Human Shaman",
         "types": "Creature ",
@@ -1454,7 +1458,8 @@
         "artist": "Magali Villeneuve",
         "cmc": 3.0,
         "colorIdentity": [
-            "R"
+            "R",
+            "U"
         ],
         "colors": [],
         "flavor": null,
@@ -1486,7 +1491,8 @@
         "artist": "Anna Steinbauer",
         "cmc": 3.0,
         "colorIdentity": [
-            "R"
+            "R",
+            "U"
         ],
         "colors": [],
         "flavor": null,
@@ -1586,6 +1592,7 @@
         "artist": "Yongjae Choi",
         "cmc": 2.0,
         "colorIdentity": [
+            "B",
             "W"
         ],
         "colors": [],
@@ -1619,6 +1626,7 @@
         "artist": "Yongjae Choi",
         "cmc": 2.0,
         "colorIdentity": [
+            "B",
             "W"
         ],
         "colors": [],
@@ -1711,7 +1719,7 @@
             "B",
             "W"
         ],
-        "flavor": "She had spoken the words a hundred times, but under the spotlight, in front of everyone, something new emerged. And the crowd went wild.\"",
+        "flavor": "She had spoken the words a hundred times, but under the spotlight, in front of everyone, something new emerged. And the crowd went wild.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{W}{B}",
@@ -1726,7 +1734,7 @@
             "Warlock"
         ],
         "superTypes": [],
-        "text": "Magecraft \u2014 Whenever you cast or copy and instant or sorcery spell, target creature gets +1/+0 until end of turn.",
+        "text": "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, target creature gets +1/+0 until end of turn.",
         "toughness": "2",
         "type": "Creature - Human Warlock",
         "types": "Creature ",
@@ -1970,6 +1978,7 @@
         "artist": "Jason Rainville",
         "cmc": 3.0,
         "colorIdentity": [
+            "R",
             "U"
         ],
         "colors": [],
@@ -1982,7 +1991,7 @@
         "names": null,
         "number": "160",
         "power": null,
-        "rarity": "Mythic Rare",
+        "rarity": "Rare",
         "subTypes": [
             "Djinn",
             "Wizard",
@@ -2003,6 +2012,7 @@
         "artist": "Jason Rainville",
         "cmc": 3.0,
         "colorIdentity": [
+            "R",
             "U"
         ],
         "colors": [],
@@ -2015,7 +2025,7 @@
         "names": null,
         "number": "332",
         "power": null,
-        "rarity": "Mythic Rare",
+        "rarity": "Rare",
         "subTypes": [
             "Djinn",
             "Wizard",
@@ -2036,7 +2046,8 @@
         "artist": "Jesper Ejsing",
         "cmc": 1.0,
         "colorIdentity": [
-            "B"
+            "B",
+            "G"
         ],
         "colors": [],
         "flavor": null,
@@ -2069,7 +2080,8 @@
         "artist": "Jesper Ejsing",
         "cmc": 1.0,
         "colorIdentity": [
-            "B"
+            "B",
+            "G"
         ],
         "colors": [],
         "flavor": null,
@@ -2191,7 +2203,7 @@
             "B",
             "G"
         ],
-        "flavor": "\"All we are\u2014every feeling, every action\u2014powered by a single, delicate little organ. Life is terrifyingly, beautiful fragile.\"",
+        "flavor": "\"All we are\u2014every feeling, every action\u2014powered by a single, delicate little organ. Life is so terrifyingly, beautifully fragile.\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{B}{G}",
