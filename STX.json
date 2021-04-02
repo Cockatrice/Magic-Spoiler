@@ -439,6 +439,33 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74729320-f6ee-4176-9463-397d6e477d7a.jpg"
     },
     {
+        "artist": "Andrey Kuzinskiy",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "\"Into the Unknown Chatroom\"",
+        "names": null,
+        "number": "81",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "As an additional cost to cast this spell, you may sacrifice one or more creatures. If you do, copy this spell for each creature sacrificed this way.\nYou draw a card and lose 1 life.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/5034227f-3b8a-45bf-917c-c2cbd98f2192.jpg"
+    },
+    {
         "artist": "Tang Xiaogu",
         "cmc": 3.0,
         "colorIdentity": [
@@ -670,7 +697,7 @@
             "Lesson"
         ],
         "superTypes": [],
-        "text": "Until end of turn, target nonland permanent loses all abilities and becomes your choice of a Frog creature with base power and toughness 1/1 or an Octopus creature with base power and toughness 4/4.",
+        "text": "Until end of turn, target nonland permanent loses all abilities and becomes your choice of a blue Frog creature with base power and toughness 1/1 or a blue Octopus creature with base power and toughness 4/4.",
         "toughness": null,
         "type": "Sorcery - Lesson",
         "types": "Sorcery ",
@@ -726,7 +753,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Target creature gets -4/-0 until end of turn.\nLearn.",
+        "text": "Target creature gets -4/-0 until end of turn.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -1519,7 +1546,7 @@
             "B",
             "W"
         ],
-        "flavor": "\"In Conclusion...\"",
+        "flavor": "\"In conclusion . . .\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{3}{W}{B}",
@@ -1737,7 +1764,7 @@
         "rarity": "Mythic Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Crackle with Power deals five times X damage to up to X targets.",
+        "text": "Crackle with Power deals five times X damage to each of up to X targets.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -1764,7 +1791,7 @@
         "rarity": "Mythic Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "Crackle with Power deals five times X damage to up to X targets.",
+        "text": "Crackle with Power deals five times X damage to each of up to X targets.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -2596,7 +2623,7 @@
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
-        "url": "https://c2.scryfall.com/file/scryfall-errors/soon.jpg"
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71a48d0c-1e5b-43f2-8974-e2e5bb06310d.jpg"
     },
     {
         "artist": "Anna Steinbauer",
@@ -2690,7 +2717,7 @@
         "colors": [
             "W"
         ],
-        "flavor": "Quintorius was a daydreamer, far happier digging through history books than practicing battle tactics. He agreed with the military academy on only one thing: he not belong in their ranks.",
+        "flavor": "Quintorius was a daydreamer, far happier digging through history books than practicing battle tactics. He agreed with the military academy on only one thing: he did not belong in their ranks.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{W}",
@@ -2747,7 +2774,7 @@
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{X}{G}{G}",
+        "mana_cost": "{X}{X}{G}{G}",
         "multiverseId": null,
         "name": "Exponential Growth",
         "names": null,
@@ -2774,7 +2801,7 @@
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{X}{G}{G}",
+        "mana_cost": "{X}{X}{G}{G}",
         "multiverseId": null,
         "name": "Exponential Growth",
         "names": null,
@@ -3748,7 +3775,7 @@
             "B",
             "W"
         ],
-        "flavor": "\"Think of an insult so vicious, so vulgar, that you hesitate to speak it aloud. The strongest, most aggressive inklinks are born from such scorn.\"\n\u2014Embrose, Silverquill dean",
+        "flavor": "\"Think of an insult so vicious, so vulgar, that you hesitate to speak it aloud. The strongest, most aggressive inklings are born from such scorn.\"\n\u2014Embrose, Silverquill dean",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{1}{W/B}{W/B}",
@@ -4950,7 +4977,7 @@
         "colors": [
             "B"
         ],
-        "flavor": "When live speciments aren't readily available, Witherbloom mages make use of ragged spirits clinging to long-dead bodies.",
+        "flavor": "When live specimens aren't readily available, Witherbloom mages make creative use of ragged spirits clinging to long-dead bodies.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{1}{B}{B}",
@@ -5058,7 +5085,7 @@
             "Warlock"
         ],
         "superTypes": [],
-        "text": "Flying\nWard\u2014Pay 3 life (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)",
+        "text": "Flying\nWard\u2014Pay 3 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)",
         "toughness": "3",
         "type": "Creature - Bird Warlock",
         "types": "Creature ",
@@ -5700,7 +5727,7 @@
             "G",
             "U"
         ],
-        "flavor": "In the gardens spread across Quandrix campus, fern turns to forest before class is even over.",
+        "flavor": "In the gardens spread across the Quandrix campus, fern turns to forest before class is even over.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{1}{G}{G/U}{U}",
@@ -5934,6 +5961,35 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1bfb1fcb-a411-4c1c-b8fc-496242ae3a9b.jpg"
+    },
+    {
+        "artist": "Karl Kopinski",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "Retriever Phoenix",
+        "names": null,
+        "number": "113",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Phoenix"
+        ],
+        "superTypes": [],
+        "text": "Flying, haste\nWhen Retriever Phoenix enters the battlefield, if you cast it, learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)\nAs long as Retriever Phoenix is in your graveyard, if you would learn, you may instead return Retriever Phoenix to the battlefield.",
+        "toughness": "2",
+        "type": "Creature - Phoenix",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4dd6cb53-3c82-4ac3-be1e-311322729198.jpg"
     },
     {
         "artist": "Grzegorz Rutkowski",
@@ -7526,7 +7582,7 @@
         "names": null,
         "number": "89",
         "power": null,
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
         "text": "Choose one: \u2014\n\u2022 Target player sacrifices a creature or planeswalker.\n\u2022 Create a 2/1 white and black Inkling creature token with flying.",
