@@ -8440,7 +8440,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Flying\n{O}: You may cast target instant or sorcery card from your graveyard this turn. If that spell doesn't target a creature you control, it costs {8} more to cast this way. If that spell would be put into your graveyard, exile it instead. (You still pay the spell's costs. Timing rules for the spell still apply.)",
+            "text": "Flying\n{0}: You may cast target instant or sorcery card from your graveyard this turn. If that spell doesn't target a creature you control, it costs {8} more to cast this way. If that spell would be put into your graveyard, exile it instead. Activate only once each turn. (You still pay the spell's costs. Timing rules for the spell still apply.)",
             "toughness": "3",
             "type": "Legendary Creature - Bird Advisor",
             "types": " Creature ",
@@ -10071,10 +10071,10 @@
                 "B",
                 "W"
             ],
-            "flavor": "\"Would you prefer I destroy you with prose or verse?\"",
+            "flavor": "\"Would you prefer I destroy you using prose or verse?\"",
             "layout": "",
             "loyalty": null,
-            "mana_cost": "{W/B}{W}{B}",
+            "mana_cost": "{W}{W/B}{B}",
             "multiverseId": null,
             "name": "Shadewing Laureate",
             "names": null,
