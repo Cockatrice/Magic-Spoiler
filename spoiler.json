@@ -3775,19 +3775,19 @@
             "colors": [
                 "R"
             ],
-            "flavor": null,
+            "flavor": "\"I'll show you original research, you hack!\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{R}",
             "multiverseId": null,
-            "name": "Academic Debate",
+            "name": "Academic Dispute",
             "names": null,
             "number": "91",
             "power": null,
             "rarity": "Uncommon",
             "subTypes": [],
             "superTypes": [],
-            "text": "Target creature blocks this turn if able. You may have that creature gain reach until end of turn.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+            "text": "Target creature blocks this turn if able. You may have it gain reach until end of turn.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -4142,7 +4142,7 @@
             "colors": [
                 "B"
             ],
-            "flavor": null,
+            "flavor": "\"I would be kinder to my peers, Professor, but I simply don't have any.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{B}",
@@ -7481,7 +7481,7 @@
                 "B",
                 "W"
             ],
-            "flavor": null,
+            "flavor": "\"Your defiance is amusing, little mage. It's time you learn how fragile you really are.\"\n\u2014Extus Narr",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{W}{B}",
@@ -8382,7 +8382,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "You may pay {2}{U} rather tahn pay this spell's mana cost.\nIf {2}{U} was paid, you draw three cards, then an opponent creates two Treasure tokens and they scry 2. If that cost wasn't paid, you draw X cards.",
+            "text": "You may pay {2}{U} rather than pay this spell's mana cost.\nIf the {2}{U} cost was paid, you draw three cards, then an opponent creates two Treasure tokens and they scry 2. If that cost wasn't paid, you draw X cards.",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -10501,7 +10501,7 @@
             "loyalty": null,
             "mana_cost": "{1}{B}",
             "multiverseId": null,
-            "name": "Plumb the Forgotten",
+            "name": "Plumb the Forbidden",
             "names": null,
             "number": "81",
             "power": null,
@@ -10663,7 +10663,10 @@
         {
             "artist": "Adam Paquette",
             "cmc": 0.0,
-            "colorIdentity": [],
+            "colorIdentity": [
+                "R",
+                "U"
+            ],
             "colors": [],
             "flavor": "Mage-students who see spellcraft as the highest form of expression choose Prismari, the college of elemental arts.",
             "layout": "",
@@ -12715,7 +12718,7 @@
                 "B",
                 "W"
             ],
-            "flavor": null,
+            "flavor": "\"Don't you know first-years pay a toll to walk through here?\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{2}{W}{B}",
