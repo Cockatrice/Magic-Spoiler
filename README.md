@@ -32,6 +32,10 @@ pip install -r requirements.txt
 ```
 $> python -m magic_spoiler
 ```
+>If you run into `UnicodeEncodeError` issues on Windows, [check the Python docs](https://docs.python.org/3/using/windows.html#utf-8-mode) and force UTF-8 encoding:<br>
+>```
+>$> python -X utf8 -m magic_spoiler
+>```
 
 Outputs the following files to `out/` directory:<br>
 `spoiler.xml`, `spoiler.json`<br>
