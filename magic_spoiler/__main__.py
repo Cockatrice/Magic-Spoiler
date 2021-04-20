@@ -370,7 +370,7 @@ def write_cards(
         if pow_tough:
             card_xml_file.write("<pt>" + pow_tough + "</pt>\n")
 
-        if "loyalty" in card.keys():
+        if str(card.get("loyalty")) != "None":
             card_xml_file.write("<loyalty>" + str(card["loyalty"]) + "</loyalty>\n")
         card_xml_file.write("<tablerow>" + table_row + "</tablerow>\n")
         card_xml_file.write("<text>" + text + "</text>\n")
