@@ -602,7 +602,7 @@ def delete_old_files() -> bool:
         shutil.rmtree(OUTPUT_TMP_DIR)
 
     if not SPOILER_SETS.get():
-        OUTPUT_DIR.joinpath("SpoilerSeasonEnabled").unlink()
+        OUTPUT_DIR.joinpath("SpoilerSeasonEnabled").unlink(missing_ok=True)
     else:
         OUTPUT_DIR.joinpath("SpoilerSeasonEnabled").open("w").write(" ")
 
@@ -643,6 +643,8 @@ def main() -> None:
     # Set output to deploy
     if changed:
         print("::set-output name=deploy::true")
+    else:
+        print("::set-output name=deploy::false")
 
 
 if __name__ == "__main__":
