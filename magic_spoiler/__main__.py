@@ -17,11 +17,14 @@ from lxml import etree
 SCRYFALL_SET_URL: str = "https://api.scryfall.com/sets/{}"
 SESSION: contextvars.ContextVar = contextvars.ContextVar("SESSION_SCRYFALL")
 SPOILER_SETS: contextvars.ContextVar = contextvars.ContextVar("SPOILER_SETS")
+SPOILER_MARK = "*"
 
 OUTPUT_DIR = pathlib.Path("out")
 OUTPUT_TMP_DIR = OUTPUT_DIR.joinpath("tmp")
 XML_ESCAPE_TRANSLATE_MAP = str.maketrans(
-    {"&": "&amp;", '"': "&quot;", "<": "&lt;", ">": "&gt;"}
+    {"&": "&amp;", '"': "&quot;", "<": "&lt;", ">": "&gt;",
+    # remove any control characters outright
+    **{chr(i): "" for i in range(ord(" "))}}
 )
 
 
@@ -391,13 +394,13 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
     # Fill in set headers
     open_header(card_xml_file)
     for value in SPOILER_SETS.get():
-        fill_header_sets(card_xml_file, value)
+        fill_header_sets(card_xml_file, {key: (value_ + SPOILER_MARK if key == "code" else value_) for key, value_ in value.items()})
     close_header(card_xml_file)
 
     # Write in all the cards
     for value in SPOILER_SETS.get():
         try:
-            write_cards(card_xml_file, trice_dicts[value["code"]], value["code"])
+            write_cards(card_xml_file, trice_dicts[value["code"]], value["code"] + SPOILER_MARK)
         except KeyError:
             print("Skipping " + value["code"])
 
