@@ -17,7 +17,7 @@ from lxml import etree
 SCRYFALL_SET_URL: str = "https://api.scryfall.com/sets/{}"
 SESSION: contextvars.ContextVar = contextvars.ContextVar("SESSION_SCRYFALL")
 SPOILER_SETS: contextvars.ContextVar = contextvars.ContextVar("SPOILER_SETS")
-SPOILER_MARK = "*"
+SPOILER_MARK = "~"
 
 OUTPUT_DIR = pathlib.Path("out")
 OUTPUT_TMP_DIR = OUTPUT_DIR.joinpath("tmp")
