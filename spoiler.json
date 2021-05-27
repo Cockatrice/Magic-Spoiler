@@ -684,7 +684,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "\"Draw \u25b9 GF Siren\" has indestructable as long as you control two other Merfolk.\nWhenever \"Draw \u25b9 GF Siren\" attacks, draw a card.\nOther Merfolk you control have ward {1} (Whenever they become the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)",
+            "text": "\"Draw \u25b9 GF Siren\" has indestructible as long as you control two other Merfolk.\nWhenever \"Draw \u25b9 GF Siren\" attacks, draw a card.\nOther Merfolk you control have ward {1} (Whenever they become the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)",
             "toughness": "4",
             "type": "Legendary Creature - Merfolk God",
             "types": " Creature ",
@@ -1535,7 +1535,7 @@
             "colors": [
                 "U"
             ],
-            "flavor": "Some clouds need no wind.",
+            "flavor": "Some clouds heed no wind.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{3}{U}",
@@ -1550,7 +1550,7 @@
                 "Beast"
             ],
             "superTypes": [],
-            "text": "Flying\nDiscard a card: Switch Aeromoeba power and toughness until end of turn.",
+            "text": "Flying\nDiscard a card: Switch Aeromoeba's power and toughness until end of turn.",
             "toughness": "4",
             "type": "Creature - Elemental Beast",
             "types": "Creature ",
@@ -1565,7 +1565,7 @@
             "colors": [
                 "U"
             ],
-            "flavor": "Some clouds need no wind.",
+            "flavor": "Some clouds heed no wind.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{3}{U}",
@@ -1580,7 +1580,7 @@
                 "Beast"
             ],
             "superTypes": [],
-            "text": "Flying\nDiscard a card: Switch Aeromoeba power and toughness until end of turn.",
+            "text": "Flying\nDiscard a card: Switch Aeromoeba's power and toughness until end of turn.",
             "toughness": "4",
             "type": "Creature - Elemental Beast",
             "types": "Creature ",
@@ -1824,7 +1824,7 @@
                 "Demon"
             ],
             "superTypes": [],
-            "text": "Flying\nWhen Archfiend of Sorrows enters the battlefield, creaturee your opponents control get -2/-2 until end of turn.\nUnearth {3}{B}{B} ({3}{B}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+            "text": "Flying\nWhen Archfiend of Sorrows enters the battlefield, creatures your opponents control get -2/-2 until end of turn.\nUnearth {3}{B}{B} ({3}{B}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
             "toughness": null,
             "type": "Creature - Demon",
             "types": "Creature ",
@@ -2174,7 +2174,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Choose one \u2014\n\u2022 Destroy target artifact.\n\u2022 Destroy target enchantment.\n\u2022 Exile target card from a graveyard.\nReinforce 1\u001f\u2014{W} ({W}, Discard this card: Put a +1/+1 counter on target creature.)",
+            "text": "Choose one \u2014\n\u2022 Destroy target artifact.\n\u2022 Destroy target enchantment.\n\u2022 Exile target card from a graveyard.\nReinforce 1\u2014{W} ({W}, Discard this card: Put a +1/+1 counter on target creature.)",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -3100,6 +3100,93 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/b/5b46b8d8-723a-4752-b97d-29ef83bd294c.jpg"
         },
         {
+            "artist": "Rebecca Guay",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"The wise learn from successes as well as mistakes.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}",
+            "multiverseId": null,
+            "name": "Enchantress's Presence",
+            "names": null,
+            "number": "283",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Whenever you cast an enchantment spell, draw a card.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d18d62bc-5f3c-4b3b-88f2-693249635349.jpg"
+        },
+        {
+            "artist": "Eric Deschamps",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "The more Esper changes, the more he refuses to.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}",
+            "multiverseId": null,
+            "name": "Esper Sentinel",
+            "names": null,
+            "number": "12",
+            "power": "1",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power.",
+            "toughness": "1",
+            "type": "Artifact Creature - Human Soldier",
+            "types": "Artifact Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f3537373-ef54-4578-9d05-6216420ee349.jpg"
+        },
+        {
+            "artist": "Eric Deschamps",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Action: Using the reference as inspiration, we'd like you to design a soldier who is a similar mix of flesh and etherium (a magical metal found only on Esper).",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{W}",
+            "multiverseId": null,
+            "name": "Esper Sentinel",
+            "names": null,
+            "number": "328",
+            "power": "1",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power.",
+            "toughness": "1",
+            "type": "Artifact Creature - Human Soldier",
+            "types": "Artifact Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/7/676758ee-dac8-4c97-8a62-fff25bcbb6df.jpg"
+        },
+        {
             "artist": "Mark Tedin",
             "cmc": 4.0,
             "colorIdentity": [],
@@ -3459,7 +3546,7 @@
                 "U",
                 "W"
             ],
-            "flavor": null,
+            "flavor": "Mood: A powerful, quicky, curious man.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{W}{U}{B}{R}{G}",
@@ -3924,7 +4011,7 @@
                 "Wizard"
             ],
             "superTypes": [],
-            "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf an ability of a Shamam or another Wizard you control triggers, that ability triggers an additional time.",
+            "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf an ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time.",
             "toughness": "3",
             "type": "Creature - Human Wizard",
             "types": "Creature ",
@@ -3954,7 +4041,7 @@
                 "Wizard"
             ],
             "superTypes": [],
-            "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf an ability of a Shamam or another Wizard you control triggers, that ability triggers an additional time.",
+            "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf an ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time.",
             "toughness": "3",
             "type": "Creature - Human Wizard",
             "types": "Creature ",
@@ -3969,7 +4056,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": "Baloth social structure is simple: The biggest one is the leader.",
+            "flavor": "Baloth social structure is simple: The biggest one's the leader.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{3}{G}{G}",
@@ -4177,7 +4264,7 @@
             "colors": [
                 "B"
             ],
-            "flavor": "Action: Show an imp that's a kitchen helper for Armor, the Underworld Cook.",
+            "flavor": "Action: Show an imp that's a kitchen helper for Asmor, the Underworld Cook.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{3}{B}",
@@ -4341,36 +4428,6 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d0ac1b48-dcfd-48a1-b999-ccc642596d28.jpg"
         },
         {
-            "artist": "Scott Murphy",
-            "cmc": 3.0,
-            "colorIdentity": [
-                "G"
-            ],
-            "colors": [
-                "G"
-            ],
-            "flavor": "\"Llanowar remembers the Ice Age, the Phyrexian Invasion, and the Rift Era. So long as we draw breath, we will ensure such disasters never threaten our world again.\"",
-            "layout": "",
-            "loyalty": null,
-            "mana_cost": "{G}{G}{G}",
-            "multiverseId": null,
-            "name": "Llanowar Tribe",
-            "names": null,
-            "number": "22",
-            "power": "3",
-            "rarity": "Uncommon",
-            "subTypes": [
-                "Elf",
-                "Druid"
-            ],
-            "superTypes": [],
-            "text": "{T}: Add {G}{G}{G}.",
-            "toughness": "3",
-            "type": "Creature - Elf Druid",
-            "types": "Creature ",
-            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/3/6311f606-eed9-46b7-80b1-1f823a1183d0.jpg"
-        },
-        {
             "artist": "Andrew Mar",
             "cmc": 2.0,
             "colorIdentity": [
@@ -4510,7 +4567,7 @@
             "colors": [
                 "U"
             ],
-            "flavor": null,
+            "flavor": "\"My wandering mind has always been an asset.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{4}{U}{U}",
@@ -4918,6 +4975,29 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4dfb84f-582a-4fe2-9710-8b480a268571.jpg"
         },
         {
+            "artist": "Steve Argyle",
+            "cmc": 4.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": "Nevinyrral's final act of spite was to make sure all of his magic was destroyed along with him.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}",
+            "multiverseId": null,
+            "name": "Nevinyrral's Disk",
+            "names": null,
+            "number": "298",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Nevinyrral's Disk enters the battlefield tapped.\n{1}, {T}: Destroy all artifacts, creatures, and enchantments.",
+            "toughness": null,
+            "type": "Artifact",
+            "types": "Artifact",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c9e6af4-522c-4dfa-895a-6946fe983e3c.jpg"
+        },
+        {
             "artist": "Lucas Graciano",
             "cmc": 5.0,
             "colorIdentity": [
@@ -4996,7 +5076,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "When Out of Time enters the battlefield, untap all creatures, then phase them out until Out of Time leaves the battlefield. Put a time counter on Out of Time for each creature phased out this way.\nVanishing",
+            "text": "When Out of Time enters the battlefield, untap all creatures, then phase them out until Out of Time leaves the battlefield. Put a time counter on Out of Time for each creature phased out this way.\nVanishing (At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.)",
             "toughness": null,
             "type": "Enchantment",
             "types": "Enchantment",
@@ -5023,7 +5103,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "When Out of Time enters the battlefield, untap all creatures, then phase them out until Out of Time leaves the battlefield. Put a time counter on Out of Time for each creature phased out this way.\nVanishing",
+            "text": "When Out of Time enters the battlefield, untap all creatures, then phase them out until Out of Time leaves the battlefield. Put a time counter on Out of Time for each creature phased out this way.\nVanishing (At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.)",
             "toughness": null,
             "type": "Enchantment",
             "types": "Enchantment",
@@ -5050,7 +5130,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "When Out of Time enters the battlefield, untap all creatures, then phase them out until Out of Time leaves the battlefield. Put a time counter on Out of Time for each creature phased out this way.\nVanishing",
+            "text": "When Out of Time enters the battlefield, untap all creatures, then phase them out until Out of Time leaves the battlefield. Put a time counter on Out of Time for each creature phased out this way.\nVanishing (At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.)",
             "toughness": null,
             "type": "Enchantment",
             "types": "Enchantment",
@@ -6285,6 +6365,93 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/135db79f-6f07-486c-ae3a-d4244aaf6dc8.jpg"
         },
         {
+            "artist": "Scott M. Fischer",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Solitary Confinement",
+            "names": null,
+            "number": "265",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "At the beginning of your upkeep, sacrifice Solitary Confinement unless you discard a card.\nSkip your draw step.\nYou have shroud. (You can't be the target of spells or abilities.)\nPrevent all damage that would be dealt to you.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/9/b9031a7f-8821-443c-9c9d-552fb25b2101.jpg"
+        },
+        {
+            "artist": "Svetlin Velinov",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}{W}",
+            "multiverseId": null,
+            "name": "Solitude",
+            "names": null,
+            "number": "307",
+            "power": "3",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Elemental",
+                "Incarnation"
+            ],
+            "superTypes": [],
+            "text": "Flash\nLifelink\nWhen Solitude enters the battlefield, exile up to one other target creature. That creature's controller gains life equal to its power.\nEvoke\u2014Exile a white card from your hand.",
+            "toughness": "2",
+            "type": "Creature - Elemental Incarnation",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/e/febad44a-eaf0-4122-87c5-a12d17f28392.jpg"
+        },
+        {
+            "artist": "Evan Shipard",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}{W}",
+            "multiverseId": null,
+            "name": "Solitude",
+            "names": null,
+            "number": "32",
+            "power": "3",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Elemental",
+                "Incarnation"
+            ],
+            "superTypes": [],
+            "text": "Flash\nLifelink\nWhen Solitude enters the battlefield, exile up to one other target creature. That creature's controller gains life equal to its power.\nEvoke\u2014Exile a white card from your hand.",
+            "toughness": "2",
+            "type": "Creature - Elemental Incarnation",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/47a6234f-309f-4e03-9263-66da48b57153.jpg"
+        },
+        {
             "artist": "Evyn Fong",
             "cmc": 1.0,
             "colorIdentity": [
@@ -6534,6 +6701,35 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/716534cb-aa89-4de7-9aa5-8d8aa4422a6a.jpg"
+        },
+        {
+            "artist": "Seb McKinnon",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [
+                "G",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{W}",
+            "multiverseId": null,
+            "name": "Sterling Grove",
+            "names": null,
+            "number": "293",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Other enchantments you control have shroud. (They can't be the targets of spells or abilities.)\n{1}, Sacrifice Sterling Grove: Search your library for an enchantment card, reveal it, then shuffle and put the card on top.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/ba03e105-a76c-4769-a35a-d780448890ec.jpg"
         },
         {
             "artist": "",
@@ -8193,6 +8389,66 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/55c67d56-62d5-417a-b1a6-51c91ba3abb1.jpg"
         },
         {
+            "artist": "Scott Murphy",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": "\"Llanowar remembers the Ice Age, the Phyrexian Invasion, and the Rift Era. So long as we draw breath, we will ensure such disasters never threaten our world again.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{G}{G}",
+            "multiverseId": null,
+            "name": "Llanowar Tribe",
+            "names": null,
+            "number": "22",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Elf",
+                "Druid"
+            ],
+            "superTypes": [],
+            "text": "{T}: Add {G}{G}{G}.",
+            "toughness": "3",
+            "type": "Creature - Elf Druid",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/3/6311f606-eed9-46b7-80b1-1f823a1183d0.jpg"
+        },
+        {
+            "artist": "Ryan Pancoast",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{W}",
+            "multiverseId": null,
+            "name": "Ranger-Captain of Eos",
+            "names": null,
+            "number": "5",
+            "power": "3",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Human",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "When Ranger-Captain of Eos enters the battlefield, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.\nSacrifice Ranger-Captain of Eos: Your opponents can't cast noncreature spells this turn.",
+            "toughness": "3",
+            "type": "Creature - Human Soldier",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/ab9eef1c-8e8e-45e6-aaef-98ff569a1845.jpg"
+        },
+        {
             "artist": "Suzanne Helmigh",
             "cmc": 1.0,
             "colorIdentity": [
@@ -8425,6 +8681,38 @@
             "type": "Artifact Creature - Shapeshifter",
             "types": "Artifact Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/1/b1211495-12ba-4f57-90f9-8befec5fc03d.jpg"
+        },
+        {
+            "artist": "Grzegorz Rutkowski",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{U}{U}",
+            "multiverseId": null,
+            "name": "Urza, Lord High Artificer",
+            "names": null,
+            "number": "11",
+            "power": "1",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Human",
+                "Artificer"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "When Urza, Lord High Artificer enters the battlefield, create a 0/0 colorless Construct artifact creature token with \"This creature gets +1/+1 for each artifact you control.\"\nTap an untapped artifact you control: Add {U}.\n{5}: Shuffle your library, then exile the top card. Until end of turn, you may play that card without paying its mana cost.",
+            "toughness": "4",
+            "type": "Legendary Creature - Human Artificer",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/86d744cd-225c-4279-898a-858dc316cf7f.jpg"
         }
     ]
 }
