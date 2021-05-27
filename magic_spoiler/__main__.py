@@ -21,7 +21,9 @@ SPOILER_SETS: contextvars.ContextVar = contextvars.ContextVar("SPOILER_SETS")
 OUTPUT_DIR = pathlib.Path("out")
 OUTPUT_TMP_DIR = OUTPUT_DIR.joinpath("tmp")
 XML_ESCAPE_TRANSLATE_MAP = str.maketrans(
-    {"&": "&amp;", '"': "&quot;", "<": "&lt;", ">": "&gt;"}
+    {"&": "&amp;", '"': "&quot;", "<": "&lt;", ">": "&gt;",
+    # remove any control characters outright
+    **{chr(i): "" for i in range(ord(" "))}}
 )
 
 
