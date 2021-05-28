@@ -55,7 +55,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "\"Draw \u25b9 GF Siren\" has indestructable as long as you control two other Merfolk.\nWhenever \"Draw \u25b9 GF Siren\" attacks, draw a card.\nOther Merfolk you control have ward {1} (Whenever they become the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)",
+        "text": "\"Draw \u25b9 GF Siren\" has indestructible as long as you control two other Merfolk.\nWhenever \"Draw \u25b9 GF Siren\" attacks, draw a card.\nOther Merfolk you control have ward {1} (Whenever they become the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)",
         "toughness": "4",
         "type": "Legendary Creature - Merfolk God",
         "types": " Creature ",
@@ -119,7 +119,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "\"Draw \u25b9 GF Siren\" has indestructable as long as you control two other Merfolk.\nWhenever \"Draw \u25b9 GF Siren\" attacks, draw a card.\nOther Merfolk you control have ward {1} (Whenever they become the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)",
+        "text": "\"Draw \u25b9 GF Siren\" has indestructible as long as you control two other Merfolk.\nWhenever \"Draw \u25b9 GF Siren\" attacks, draw a card.\nOther Merfolk you control have ward {1} (Whenever they become the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)",
         "toughness": "4",
         "type": "Legendary Creature - Merfolk God",
         "types": " Creature ",
@@ -1083,35 +1083,6 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/2009ab97-1d0f-4c59-9357-3ff4952ce3be.jpg"
     },
     {
-        "artist": "Craig J Spearing",
-        "cmc": 4.0,
-        "colorIdentity": [
-            "R"
-        ],
-        "colors": [
-            "R"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{3}{R}",
-        "multiverseId": null,
-        "name": "Arcboud Whelp",
-        "names": null,
-        "number": "113",
-        "power": "0",
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Dragon"
-        ],
-        "superTypes": [],
-        "text": "Flying\n{R}: Arcboud Whelp gets +1/+0 until end of turn.\nModular 1 (This creature enters the battlefield with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)",
-        "toughness": "0",
-        "type": "Artifact Creature - Dragon",
-        "types": "Artifact Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/154ed1d3-e24a-48ba-8f7b-be254c08d1cc.jpg"
-    },
-    {
         "artist": "Campbell White",
         "cmc": 1.0,
         "colorIdentity": [
@@ -1205,6 +1176,35 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/896eceec-7dcc-48fb-acc2-1ca5ee28ea3b.jpg"
     },
     {
+        "artist": "Craig J Spearing",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}",
+        "multiverseId": null,
+        "name": "Arcbound Whelp",
+        "names": null,
+        "number": "113",
+        "power": "0",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Dragon"
+        ],
+        "superTypes": [],
+        "text": "Flying\n{R}: Arcbound Whelp gets +1/+0 until end of turn.\nModular 2 (This creature enters the battlefield with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)",
+        "toughness": "0",
+        "type": "Artifact Creature - Dragon",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/154ed1d3-e24a-48ba-8f7b-be254c08d1cc.jpg"
+    },
+    {
         "artist": "David Rapoza",
         "cmc": 7.0,
         "colorIdentity": [
@@ -1221,14 +1221,14 @@
         "name": "Archfiend of Sorrows",
         "names": null,
         "number": "74",
-        "power": null,
+        "power": "4",
         "rarity": "Uncommon",
         "subTypes": [
             "Demon"
         ],
         "superTypes": [],
         "text": "Flying\nWhen Archfiend of Sorrows enters the battlefield, creatures your opponents control get -2/-2 until end of turn.\nUnearth {3}{B}{B} ({3}{B}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
-        "toughness": null,
+        "toughness": "5",
         "type": "Creature - Demon",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/4/f4d089f1-718e-4853-a634-64114735fba5.jpg"
@@ -4371,7 +4371,7 @@
             "Spirit"
         ],
         "superTypes": [],
-        "text": "Flying\nHellbent \u2014 Necromancer's Familiar has lifelink as long as you have no cards in hand.\n{B}, Discard a card: Necromancer's Familiar gains indestructable until end of turn. Tap it.",
+        "text": "Flying\nHellbent \u2014 Necromancer's Familiar has lifelink as long as you have no cards in hand.\n{B}, Discard a card: Necromancer's Familiar gains indestructible until end of turn. Tap it.",
         "toughness": "1",
         "type": "Creature - Bird Spirit",
         "types": "Creature ",
@@ -4423,7 +4423,7 @@
             "Dragon"
         ],
         "superTypes": [],
-        "text": "This spell costs {1} less to cast for each land your opponents control that could produce {C}.\nFlying\nWHen Obsidian Charmaw enters the battlefield, destroy target nonbasic land an opponent control.s",
+        "text": "This spell costs {1} less to cast for each land your opponents control that could produce {C}.\nFlying\nWhen Obsidian Charmaw enters the battlefield, destroy target nonbasic land an opponent controls.",
         "toughness": "4",
         "type": "Creature - Dragon",
         "types": "Creature ",
@@ -6212,7 +6212,7 @@
         "names": null,
         "number": "68",
         "power": null,
-        "rarity": "Common",
+        "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
         "text": "Exile target creature and put two time counters on it. If it doesn't have suspend, it gains suspend. (At the beginning of its owner's upkeep, remove a time counter from that card. When the last is removed, the player plays it without paying its mana cost. If it's a creature, it has haste.)",
@@ -6929,7 +6929,7 @@
             "Dinosaur"
         ],
         "superTypes": [],
-        "text": "Vigilance\nEnlarge \u2014 Whenever Urban Daggertooth is dealt damage, proliferate. Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+        "text": "Vigilance\nEnrage \u2014 Whenever Urban Daggertooth is dealt damage, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
         "toughness": "3",
         "type": "Creature - Dinosaur",
         "types": "Creature ",
