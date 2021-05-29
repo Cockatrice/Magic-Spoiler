@@ -3074,7 +3074,8 @@
             "artist": "Lucas Graciano",
             "cmc": 2.0,
             "colorIdentity": [
-                "B"
+                "B",
+                "W"
             ],
             "colors": [
                 "B"
@@ -3101,7 +3102,8 @@
             "artist": "Lucas Graciano",
             "cmc": 2.0,
             "colorIdentity": [
-                "B"
+                "B",
+                "W"
             ],
             "colors": [
                 "B"
@@ -3128,7 +3130,8 @@
             "artist": "Lucas Graciano",
             "cmc": 2.0,
             "colorIdentity": [
-                "B"
+                "B",
+                "W"
             ],
             "colors": [
                 "B"
@@ -3627,14 +3630,14 @@
             "loyalty": null,
             "mana_cost": "{3}{B}",
             "multiverseId": null,
-            "name": "Fast of Sanity",
+            "name": "Feast of Sanity",
             "names": null,
             "number": "84",
             "power": null,
             "rarity": "Uncommon",
             "subTypes": [],
             "superTypes": [],
-            "text": "Whenever you discard a card, Fast of Sanity deals 1 damage to any target and you gain 1 life.",
+            "text": "Whenever you discard a card, Feast of Sanity deals 1 damage to any target and you gain 1 life.",
             "toughness": null,
             "type": "Enchantment",
             "types": "Enchantment",
@@ -8386,6 +8389,35 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9d483643-6a11-47f7-a0aa-190e0179525f.jpg"
         },
         {
+            "artist": "Bastien L. Deharme",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Fear not the angels' constant eyes,\nE'er on watch from lightless skies;\nEternal vigil we will keep,\nProtectors of the Blessed Sleep.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{W}",
+            "multiverseId": null,
+            "name": "Thraben Watcher",
+            "names": null,
+            "number": "34",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Angel"
+            ],
+            "superTypes": [],
+            "text": "Flying, vigilance\nOther nontoken creatures you control get +1/1 have vigilance.",
+            "toughness": "2",
+            "type": "Creature - Angel",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/b/5b4e0e11-2f16-42ad-b835-c9410c4bd7e3.jpg"
+        },
+        {
             "artist": "Andrew Mar",
             "cmc": 12.0,
             "colorIdentity": [
@@ -8558,7 +8590,7 @@
                 "Shaman"
             ],
             "superTypes": [],
-            "text": "When Timeless Witness enters the battlefield, you may return target card from your graveyard to your hand.\nEternalize {5}{G}{G} ({5}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Shaman with no mana cost. Eternalize only as a sorcery.)",
+            "text": "When Timeless Witness enters the battlefield, return target card from your graveyard to your hand.\nEternalize {5}{G}{G} ({5}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Shaman with no mana cost. Eternalize only as a sorcery.)",
             "toughness": "1",
             "type": "Creature - Human Shaman",
             "types": "Creature ",
@@ -8588,11 +8620,42 @@
                 "Shaman"
             ],
             "superTypes": [],
-            "text": "When Timeless Witness enters the battlefield, you may return target card from your graveyard to your hand.\nEternalize {5}{G}{G} ({5}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Shaman with no mana cost. Eternalize only as a sorcery.)",
+            "text": "When Timeless Witness enters the battlefield, return target card from your graveyard to your hand.\nEternalize {5}{G}{G} ({5}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Shaman with no mana cost. Eternalize only as a sorcery.)",
             "toughness": "1",
             "type": "Creature - Human Shaman",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/a/8a0f47b0-2254-4df2-b3dc-74c1d3811d2f.jpg"
+        },
+        {
+            "artist": "Magali Villeneuve",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{G}{G}",
+            "multiverseId": null,
+            "name": "Titania, Protector of Argoth",
+            "names": null,
+            "number": "287",
+            "power": "5",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Elemental"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "When Titania, Protector of Argoth enters the battlefield, return target land card from your graveyard to the battlefield.\nWhenever a land you control is put into a graveyard from the battlefield, create a 5/3 green Elemental creature token.",
+            "toughness": "3",
+            "type": "Legendary Creature - Elemental",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/21f6d49f-1577-4d17-a633-0c282769728a.jpg"
         },
         {
             "artist": "Greg Staples",
