@@ -300,7 +300,7 @@
             "Wizard"
         ],
         "superTypes": [],
-        "text": "Whenever you discard a card, you may pay {1}. if you do, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
+        "text": "Whenever you discard a card, you may pay {1}. If you do, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
         "toughness": "3",
         "type": "Creature - Zombie Wizard",
         "types": "Creature ",
@@ -332,7 +332,7 @@
             "Wizard"
         ],
         "superTypes": [],
-        "text": "Whenever you discard a card, you may pay {1}. if you do, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
+        "text": "Whenever you discard a card, you may pay {1}. If you do, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
         "toughness": "3",
         "type": "Creature - Zombie Wizard",
         "types": "Creature ",
@@ -632,87 +632,6 @@
         "type": "Creature - Angel",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/d/8de657fb-e68e-4400-9a12-60aaaa075fc4.jpg"
-    },
-    {
-        "artist": "Milivoj \u0106eran",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "B"
-        ],
-        "colors": [
-            "B"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{1}{B}",
-        "multiverseId": null,
-        "name": "\"Slightly Worse for Wear\"",
-        "names": null,
-        "number": "345",
-        "power": null,
-        "rarity": "Rare",
-        "subTypes": [],
-        "superTypes": [],
-        "text": "Return target non-legendary creature card from your graveyard to the battlefield with a -1/-1 counter on it.",
-        "toughness": null,
-        "type": "Sorcery",
-        "types": "Sorcery",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9beb3062-b3a2-4af5-867c-e6389554c1f5.jpg"
-    },
-    {
-        "artist": "Milivoj \u0106eran",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "B"
-        ],
-        "colors": [
-            "B"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{1}{B}",
-        "multiverseId": null,
-        "name": "\"Slightly Worse for Wear\"",
-        "names": null,
-        "number": "400",
-        "power": null,
-        "rarity": "Rare",
-        "subTypes": [],
-        "superTypes": [],
-        "text": "Return target non-legendary creature card from your graveyard to the battlefield with a -1/-1 counter on it.",
-        "toughness": null,
-        "type": "Sorcery",
-        "types": "Sorcery",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/9/b92a8dbf-d5b1-4337-8c3e-bc0c8308e426.jpg"
-    },
-    {
-        "artist": "Milivoj \u0106eran",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "B"
-        ],
-        "colors": [
-            "B"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{1}{B}",
-        "multiverseId": null,
-        "name": "\"Slightly Worse for Wear\"",
-        "names": null,
-        "number": "96",
-        "power": null,
-        "rarity": "Rare",
-        "subTypes": [],
-        "superTypes": [],
-        "text": "Return target non-legendary creature card from your graveyard to the battlefield with a -1/-1 counter on it.",
-        "toughness": null,
-        "type": "Sorcery",
-        "types": "Sorcery",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/0/90f390c3-af1c-424f-9721-e26e9321e5a3.jpg"
     },
     {
         "artist": "Greg Staples",
@@ -1547,6 +1466,31 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/8/2879f780-e17f-4e68-931e-6e45f9df28e1.jpg"
     },
     {
+        "artist": "Nicholas Gregory",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Batterbone",
+        "names": null,
+        "number": "221",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Equipment"
+        ],
+        "superTypes": [],
+        "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +1/+1 and has vigilance and lifelink.\nEquip {5}",
+        "toughness": null,
+        "type": "Artifact - Equipment",
+        "types": "Artifact ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/4/94266c32-774f-42fa-84d7-7b646c950587.jpg"
+    },
+    {
         "artist": "Paul Scott Canavan",
         "cmc": 4.0,
         "colorIdentity": [
@@ -1596,7 +1540,7 @@
             "Lizard"
         ],
         "superTypes": [],
-        "text": "{R}: Gets +2/+0 until end of turn. Activate only once each turn.\nMadness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+        "text": "{R}: Blazing Rootwalla gets +2/+0 until end of turn. Activate only once each turn.\nMadness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
         "toughness": "1",
         "type": "Creature - Lizard",
         "types": "Creature ",
@@ -1625,7 +1569,7 @@
             "Lizard"
         ],
         "superTypes": [],
-        "text": "{R}: Gets +2/+0 until end of turn. Activate only once each turn.\nMadness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+        "text": "{R}: Blazing Rootwalla gets +2/+0 until end of turn. Activate only once each turn.\nMadness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
         "toughness": "1",
         "type": "Creature - Lizard",
         "types": "Creature ",
@@ -3020,6 +2964,66 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/9/e94e53f0-cfca-4b40-9867-94ea771463cd.jpg"
     },
     {
+        "artist": "Deruchenko Alexander",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Fast",
+        "names": [
+            "Fast",
+            "Furious"
+        ],
+        "number": "123a",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Discard a card, then draw two cards.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/b/5b209759-6215-49e8-a6a0-a6c94040adb2.jpg"
+    },
+    {
+        "artist": "Deruchenko Alexander",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "{3}{R}{R}",
+        "multiverseId": null,
+        "name": "Furious",
+        "names": [
+            "Fast",
+            "Furious"
+        ],
+        "number": "123b",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Furious deals 3 damage to each creature without flying.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/b/5b209759-6215-49e8-a6a0-a6c94040adb2.jpg"
+    },
+    {
         "artist": "Jim Pavelec",
         "cmc": 4.0,
         "colorIdentity": [
@@ -3119,7 +3123,7 @@
         "colors": [
             "R"
         ],
-        "flavor": "\"Bast it, not again!\"",
+        "flavor": "\"Blast it, not again!\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{R}",
@@ -3564,7 +3568,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Protection from permanents with corruption counters on them.\n+1: Each opponent loses 2 life and you gain 2 life. Put a corruption counter on up to one other target creature or planeswalker.\n\u22123: Gain control of target creature or planeswalker until end of tun. Untap it and put a corruption counter on it. It gains haste until end of turn.\n\u22127: Gain control of each permanent with a corruption counter on it.",
+        "text": "Protection from permanents with corruption counters on them\n+1: Each opponent loses 2 life and you gain 2 life. Put a corruption counter on up to one other target creature or planeswalker.\n\u22123: Gain control of target creature or planeswalker until end of tun. Untap it and put a corruption counter on it. It gains haste until end of turn.\n\u22127: Gain control of each permanent with a corruption counter on it.",
         "toughness": null,
         "type": "Legendary Planeswalker - Dihada",
         "types": " Planeswalker ",
@@ -3599,7 +3603,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Protection from permanents with corruption counters on them.\n+1: Each opponent loses 2 life and you gain 2 life. Put a corruption counter on up to one other target creature or planeswalker.\n\u22123: Gain control of target creature or planeswalker until end of tun. Untap it and put a corruption counter on it. It gains haste until end of turn.\n\u22127: Gain control of each permanent with a corruption counter on it.",
+        "text": "Protection from permanents with corruption counters on them\n+1: Each opponent loses 2 life and you gain 2 life. Put a corruption counter on up to one other target creature or planeswalker.\n\u22123: Gain control of target creature or planeswalker until end of tun. Untap it and put a corruption counter on it. It gains haste until end of turn.\n\u22127: Gain control of each permanent with a corruption counter on it.",
         "toughness": null,
         "type": "Legendary Planeswalker - Dihada",
         "types": " Planeswalker ",
@@ -3634,7 +3638,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Protection from permanents with corruption counters on them.\n+1: Each opponent loses 2 life and you gain 2 life. Put a corruption counter on up to one other target creature or planeswalker.\n\u22123: Gain control of target creature or planeswalker until end of tun. Untap it and put a corruption counter on it. It gains haste until end of turn.\n\u22127: Gain control of each permanent with a corruption counter on it.",
+        "text": "Protection from permanents with corruption counters on them\n+1: Each opponent loses 2 life and you gain 2 life. Put a corruption counter on up to one other target creature or planeswalker.\n\u22123: Gain control of target creature or planeswalker until end of tun. Untap it and put a corruption counter on it. It gains haste until end of turn.\n\u22127: Gain control of each permanent with a corruption counter on it.",
         "toughness": null,
         "type": "Legendary Planeswalker - Dihada",
         "types": " Planeswalker ",
@@ -4616,7 +4620,7 @@
         "colors": [
             "U"
         ],
-        "flavor": "The spell wavered, caught on the top of his tongue and at the edge of his awareness.",
+        "flavor": "The spell wavered, caught on the tip of his tongue and at the edge of his awareness.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{1}{U}",
@@ -5017,6 +5021,35 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/23d8e67a-5150-4782-98d1-da2ca79607ad.jpg"
     },
     {
+        "artist": "Randy Vargas",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U",
+            "W"
+        ],
+        "colors": [
+            "U",
+            "W"
+        ],
+        "flavor": "\"Good things come to those who are judicious in their appetites.\"\n\u2014*The Book of Bruna*",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}{U}",
+        "multiverseId": null,
+        "name": "Moderation",
+        "names": null,
+        "number": "206",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "You can't cast more than one spell each turn.\nWhenever you cast a spell, draw a card.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/4/c41b3d7a-f8e1-46b8-a689-6125dcd9cb17.jpg"
+    },
+    {
         "artist": "Paolo Parente",
         "cmc": 3.0,
         "colorIdentity": [
@@ -5236,6 +5269,31 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4dfb84f-582a-4fe2-9710-8b480a268571.jpg"
     },
     {
+        "artist": "Vincent Proce",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "Nettlecyst",
+        "names": null,
+        "number": "231",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [
+            "Equipment"
+        ],
+        "superTypes": [],
+        "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +1/+1 for each artifact and/or enchantment you control.\nEquip {2}",
+        "toughness": null,
+        "type": "Artifact - Equipment",
+        "types": "Artifact ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4a0bb5dc-75a6-4bd6-81f8-611197fb0fba.jpg"
+    },
+    {
         "artist": "Steve Argyle",
         "cmc": 4.0,
         "colorIdentity": [],
@@ -5440,7 +5498,7 @@
         "multiverseId": null,
         "name": "Persist",
         "names": null,
-        "number": "430",
+        "number": "345",
         "power": null,
         "rarity": "Rare",
         "subTypes": [],
@@ -5449,7 +5507,61 @@
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/b/7bffdfd7-5ed7-49c7-bd3a-1100de18f303.jpg"
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9beb3062-b3a2-4af5-867c-e6389554c1f5.jpg"
+    },
+    {
+        "artist": "Milivoj \u0106eran",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "In the tight-knit doun of Mistmeadow, death is less important than duty.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Persist",
+        "names": null,
+        "number": "400",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Return target nonlegendary creature card from your graveyard to the battlefield with a -1/-1 counter on it.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/9/b92a8dbf-d5b1-4337-8c3e-bc0c8308e426.jpg"
+    },
+    {
+        "artist": "Milivoj \u0106eran",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "In the tight-knit doun of Mistmeadow, death is less important than duty.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Persist",
+        "names": null,
+        "number": "96",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Return target nonlegendary creature card from your graveyard to the battlefield with a -1/-1 counter on it.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/0/90f390c3-af1c-424f-9721-e26e9321e5a3.jpg"
     },
     {
         "artist": "Jesper Ejsing",
@@ -5560,7 +5672,7 @@
             "R",
             "W"
         ],
-        "flavor": null,
+        "flavor": "Chasms of dueling energies course within her.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{R}{R}{W}{W}{B}{B}",
@@ -5902,7 +6014,7 @@
             "Wizard"
         ],
         "superTypes": [],
-        "text": "Delirium \u2014 When Prophetic Titan enters the battlefield, choose one. If there are four or more card types among cards in your graveyard, choose both.\n\u2022 Prophetic Titan deals 4 damage to any target.\n\u2022 Look at the top four cards of your library. Put one in your hand and the rest on the bottom of your library in a random order.",
+        "text": "Delirium \u2014 When Prophetic Titan enters the battlefield, choose one. If there are four or more card types among cards in your graveyard, choose both.\n\u2022 Prophetic Titan deals 4 damage to any target.\n\u2022 Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in a random order.",
         "toughness": "4",
         "type": "Creature - Giant Wizard",
         "types": "Creature ",
@@ -5934,7 +6046,7 @@
             "Wizard"
         ],
         "superTypes": [],
-        "text": "Delirium \u2014 When Prophetic Titan enters the battlefield, choose one. If there are four or more card types among cards in your graveyard, choose both.\n\u2022 Prophetic Titan deals 4 damage to any target.\n\u2022 Look at the top four cards of your library. Put one in your hand and the rest on the bottom of your library in a random order.",
+        "text": "Delirium \u2014 When Prophetic Titan enters the battlefield, choose one. If there are four or more card types among cards in your graveyard, choose both.\n\u2022 Prophetic Titan deals 4 damage to any target.\n\u2022 Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in a random order.",
         "toughness": "4",
         "type": "Creature - Giant Wizard",
         "types": "Creature ",
@@ -6683,6 +6795,35 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/8/38e4ce27-aba2-4a3f-8de7-d442323d8be2.jpg"
     },
     {
+        "artist": "Rebecca Guay",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "Highly territorial, they often attack boats whose colors too closely resemble those of other drakes.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Sea Drake",
+        "names": null,
+        "number": "268",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Drake"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Sea Drake enters the battlefield, return two target lands you control to their owner's hand.",
+        "toughness": "3",
+        "type": "Creature - Drake",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5a8b69ff-22ef-451f-8322-b54eec79bacf.jpg"
+    },
+    {
         "artist": "Christopher Moeller",
         "cmc": 2.0,
         "colorIdentity": [
@@ -7273,6 +7414,33 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/ba03e105-a76c-4769-a35a-d780448890ec.jpg"
     },
     {
+        "artist": "Volkan Ba\u01f5a",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "A few coins soon grow into an obsession.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}",
+        "multiverseId": null,
+        "name": "Strike It Rich",
+        "names": null,
+        "number": "141",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/c/1c7c2814-a617-4123-acdf-1b01b2768210.jpg"
+    },
+    {
         "artist": "",
         "cmc": 4.0,
         "colorIdentity": [
@@ -7341,7 +7509,7 @@
         "colors": [
             "B"
         ],
-        "flavor": "\"In one future, I see glory. In the other . . . well, that's another story.\"\n\u2014Whsiper, blood liturgist",
+        "flavor": "\"In one future, I see glory. In the other . . . well, that's another story.\"\n\u2014Whisper, blood liturgist",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{1}{B}",
@@ -7814,7 +7982,7 @@
             "Angel"
         ],
         "superTypes": [],
-        "text": "Flying, vigilance\nOther nontoken creatures you control get +1/1 have vigilance.",
+        "text": "Flying, vigilance\nOther nontoken creatures you control get +1/+1 and have vigilance.",
         "toughness": "2",
         "type": "Creature - Angel",
         "types": "Creature ",
