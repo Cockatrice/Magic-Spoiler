@@ -1,71 +1,5 @@
 [
     {
-        "artist": "Volkan Ba\u01f5a",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "G",
-            "W"
-        ],
-        "colors": [
-            "G",
-            "W"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{G}{W}",
-        "multiverseId": null,
-        "name": "\"Acolyte of the Arch\"",
-        "names": null,
-        "number": "185",
-        "power": "2",
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Human",
-            "Cleric",
-            "Archer"
-        ],
-        "superTypes": [],
-        "text": "Reach, lifelink\nOutlast {G/W} ({G/W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach other creature you control without a +1/+1 counter on it has outlast {G/W}.",
-        "toughness": "2",
-        "type": "Creature - Human Cleric Archer",
-        "types": "Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8546eaa-1e64-4e70-b6a5-85892bab8c47.jpg"
-    },
-    {
-        "artist": "Volkan Ba\u01f5a",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "G",
-            "W"
-        ],
-        "colors": [
-            "G",
-            "W"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{G}{W}",
-        "multiverseId": null,
-        "name": "\"Acolyte of the Arch\"",
-        "names": null,
-        "number": "361",
-        "power": "2",
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Human",
-            "Cleric",
-            "Archer"
-        ],
-        "superTypes": [],
-        "text": "Reach, lifelink\nOutlast {G/W} ({G/W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach other creature you control without a +1/+1 counter on it has outlast {G/W}.",
-        "toughness": "2",
-        "type": "Creature - Human Cleric Archer",
-        "types": "Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b33ee002-fbd4-4bbe-a17c-876972750646.jpg"
-    },
-    {
         "artist": "James Paick",
         "cmc": 2.0,
         "colorIdentity": [
@@ -95,68 +29,91 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/7/c75c8631-e630-402b-a559-f1b1aa49763c.jpg"
     },
     {
-        "artist": "Josu Hernaiz",
-        "cmc": 2.0,
+        "artist": "Craig J Spearing",
+        "cmc": 4.0,
         "colorIdentity": [
-            "B",
-            "U"
+            "R"
         ],
         "colors": [
-            "B",
-            "U"
+            "R"
         ],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{U}{B}",
+        "mana_cost": "{3}{R}",
         "multiverseId": null,
-        "name": "\"Lazotep Commander\"",
+        "name": "\"Goblin Trap-Runner\"",
         "names": null,
-        "number": "203",
-        "power": "1",
+        "number": "130",
+        "power": "4",
         "rarity": "Uncommon",
         "subTypes": [
-            "Zombie",
-            "Wizard"
+            "Goblin"
         ],
         "superTypes": [],
-        "text": "Whenever you discard a card, you may pay {1}. If you do, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
-        "toughness": "3",
-        "type": "Creature - Zombie Wizard",
+        "text": "Whenever \"Goblin Trap-Runner\" attacks, flip three coins. For each flip you win, create a 1/1 red Goblin creature token tapped and attacking.",
+        "toughness": "2",
+        "type": "Creature - Goblin",
         "types": "Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/82e68f3d-ef94-4651-a256-c72017f64b21.jpg"
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/36f0fd37-eb34-418d-b136-03d816c93034.jpg"
     },
     {
-        "artist": "Josu Hernaiz",
-        "cmc": 2.0,
+        "artist": "Chris Seaman",
+        "cmc": 7.0,
         "colorIdentity": [
-            "B",
-            "U"
+            "R"
         ],
         "colors": [
-            "B",
-            "U"
+            "R"
         ],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{U}{B}",
+        "mana_cost": "{5}{R}{R}",
         "multiverseId": null,
-        "name": "\"Lazotep Commander\"",
+        "name": "\"Just-Right Gargadon\"",
         "names": null,
-        "number": "369",
-        "power": "1",
-        "rarity": "Uncommon",
+        "number": "128",
+        "power": "7",
+        "rarity": "Common",
         "subTypes": [
-            "Zombie",
-            "Wizard"
+            "Beast"
         ],
         "superTypes": [],
-        "text": "Whenever you discard a card, you may pay {1}. If you do, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
-        "toughness": "3",
-        "type": "Creature - Zombie Wizard",
+        "text": "Trample\nSuspend 4\u2014{1}{R} (Rather than cast this card from your hand, you may pay {1}{R} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)",
+        "toughness": "5",
+        "type": "Creature - Beast",
         "types": "Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8b3e2d11-0f87-43f2-a961-99a47486f8fa.jpg"
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b672c59-7376-455d-961e-ce94d47a5ca4.jpg"
+    },
+    {
+        "artist": "Chris Seaman",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{R}{R}",
+        "multiverseId": null,
+        "name": "\"Just-Right Gargadon\"",
+        "names": null,
+        "number": "351",
+        "power": "7",
+        "rarity": "Common",
+        "subTypes": [
+            "Beast"
+        ],
+        "superTypes": [],
+        "text": "Trample\nSuspend 4\u2014{1}{R} (Rather than cast this card from your hand, you may pay {1}{R} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)",
+        "toughness": "5",
+        "type": "Creature - Beast",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/8/88167b74-c25f-4a9b-a4f5-33a51e01d498.jpg"
     },
     {
         "artist": "Drew Tucker",
@@ -238,6 +195,35 @@
         "type": "Creature - Lhurgoyf",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a3af4da8-07fe-4781-ad36-375b75012939.jpg"
+    },
+    {
+        "artist": "Nicholas Gregory",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}{B}",
+        "multiverseId": null,
+        "name": "\"Necrogoyf\"",
+        "names": null,
+        "number": "451",
+        "power": "*",
+        "rarity": "Rare",
+        "subTypes": [
+            "Lhurgoyf"
+        ],
+        "superTypes": [],
+        "text": "\"Necrogoyf\"'s power is equal to the number of creature cards in all graveyards.\nAt the beginning of each player's upkeep, that player discards a card.\nMadness {1}{B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+        "toughness": "4",
+        "type": "Creature - Lhurgoyf",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/1/11a2d158-d69e-4854-b84f-9f271e36101c.jpg"
     },
     {
         "artist": "Tyler Walpole",
@@ -325,156 +311,6 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/43ab3ed2-2b50-4488-a21f-60965222970a.jpg"
-    },
-    {
-        "artist": "Matt Stewart",
-        "cmc": 4.0,
-        "colorIdentity": [
-            "W"
-        ],
-        "colors": [
-            "W"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{3}{W}",
-        "multiverseId": null,
-        "name": "\"Search the Premises\"",
-        "names": null,
-        "number": "29",
-        "power": null,
-        "rarity": "Rare",
-        "subTypes": [],
-        "superTypes": [],
-        "text": "Whenever a creature attacks you or a planeswalker you control, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
-        "toughness": null,
-        "type": "Enchantment",
-        "types": "Enchantment",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d0345668-0cc1-41d2-8e4f-de7726fd0365.jpg"
-    },
-    {
-        "artist": "Matt Stewart",
-        "cmc": 4.0,
-        "colorIdentity": [
-            "W"
-        ],
-        "colors": [
-            "W"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{3}{W}",
-        "multiverseId": null,
-        "name": "\"Search the Premises\"",
-        "names": null,
-        "number": "332",
-        "power": null,
-        "rarity": "Rare",
-        "subTypes": [],
-        "superTypes": [],
-        "text": "Whenever a creature attacks you or a planeswalker you control, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
-        "toughness": null,
-        "type": "Enchantment",
-        "types": "Enchantment",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cdbd1cb1-799e-45aa-acd8-36ef924b0cdf.jpg"
-    },
-    {
-        "artist": "Chris Cold",
-        "cmc": 4.0,
-        "colorIdentity": [
-            "B"
-        ],
-        "colors": [
-            "B"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{2}{B}{B}",
-        "multiverseId": null,
-        "name": "\"Specialist Entomber, Junior Grade\"",
-        "names": null,
-        "number": "403",
-        "power": "2",
-        "rarity": "Uncommon",
-        "subTypes": [
-            "Zombie",
-            "Warlock"
-        ],
-        "superTypes": [],
-        "text": "Deathtouch\nWhen \"Specialist Entomber, Junior Grade\" enters the battlefield, search your library for a card, put that card into your graveyard, then shuffle.",
-        "toughness": "2",
-        "type": "Creature - Zombie Warlock",
-        "types": "Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/36590526-2f1b-4959-ba9e-55f3ebcffd1e.jpg"
-    },
-    {
-        "artist": "Ryan Yee",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "G",
-            "W"
-        ],
-        "colors": [
-            "G",
-            "W"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{G}{W}",
-        "multiverseId": null,
-        "name": "\"Sythis, Hand of the Harvest\"",
-        "names": null,
-        "number": "214",
-        "power": "1",
-        "rarity": "Rare",
-        "subTypes": [
-            "Nymph"
-        ],
-        "superTypes": [
-            "Legendary"
-        ],
-        "text": "Whenever you cast an enchantment spell, you gain 1 life and draw a card.",
-        "toughness": "2",
-        "type": "Legendary Enchantment Creature - Nymph",
-        "types": " Enchantment Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0babfe00-9bad-48fc-b3b1-df8280242fd2.jpg"
-    },
-    {
-        "artist": "Ryan Yee",
-        "cmc": 2.0,
-        "colorIdentity": [
-            "G",
-            "W"
-        ],
-        "colors": [
-            "G",
-            "W"
-        ],
-        "flavor": null,
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{G}{W}",
-        "multiverseId": null,
-        "name": "\"Sythis, Hand of the Harvest\"",
-        "names": null,
-        "number": "377",
-        "power": "1",
-        "rarity": "Rare",
-        "subTypes": [
-            "Nymph"
-        ],
-        "superTypes": [
-            "Legendary"
-        ],
-        "text": "Whenever you cast an enchantment spell, you gain 1 life and draw a card.",
-        "toughness": "2",
-        "type": "Legendary Enchantment Creature - Nymph",
-        "types": " Enchantment Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76ebe313-3452-415c-a93f-52c7467531a3.jpg"
     },
     {
         "artist": "Jenn Ravenna Tran",
@@ -908,6 +744,35 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/896eceec-7dcc-48fb-acc2-1ca5ee28ea3b.jpg"
     },
     {
+        "artist": "Campbell White",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}",
+        "multiverseId": null,
+        "name": "Arcbound Slasher",
+        "names": null,
+        "number": "111",
+        "power": "0",
+        "rarity": "Common",
+        "subTypes": [
+            "Cat"
+        ],
+        "superTypes": [],
+        "text": "Modular 4 (This creature enters the battlefield with four +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)\nRiot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)",
+        "toughness": "0",
+        "type": "Artifact Creature - Cat",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dcafff1a-e220-40ff-8c00-de6037219bc6.jpg"
+    },
+    {
         "artist": "Craig J Spearing",
         "cmc": 4.0,
         "colorIdentity": [
@@ -1022,6 +887,72 @@
         "type": "Creature - Archon",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1be9d9a4-d7ee-4854-abc2-85cabf993ec9.jpg"
+    },
+    {
+        "artist": "Volkan Ba\u01f5a",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G",
+            "W"
+        ],
+        "colors": [
+            "G",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}{W}",
+        "multiverseId": null,
+        "name": "Arcus Acolyte",
+        "names": null,
+        "number": "185",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Cleric",
+            "Archer"
+        ],
+        "superTypes": [],
+        "text": "Reach, lifelink\nOutlast {G/W} ({G/W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach other creature you control without a +1/+1 counter on it has outlast {G/W}.",
+        "toughness": "2",
+        "type": "Creature - Human Cleric Archer",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8546eaa-1e64-4e70-b6a5-85892bab8c47.jpg"
+    },
+    {
+        "artist": "Volkan Ba\u01f5a",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G",
+            "W"
+        ],
+        "colors": [
+            "G",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}{W}",
+        "multiverseId": null,
+        "name": "Arcus Acolyte",
+        "names": null,
+        "number": "361",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Cleric",
+            "Archer"
+        ],
+        "superTypes": [],
+        "text": "Reach, lifelink\nOutlast {G/W} ({G/W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach other creature you control without a +1/+1 counter on it has outlast {G/W}.",
+        "toughness": "2",
+        "type": "Creature - Human Cleric Archer",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b33ee002-fbd4-4bbe-a17c-876972750646.jpg"
     },
     {
         "artist": "Raymond Swanland",
@@ -1247,6 +1178,33 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/b/2bc1e907-0e77-42ee-9eca-eae632020204.jpg"
     },
     {
+        "artist": "Jason A. Engle",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Before he was subjugated by demonic forces, Dakkon was a master smith of unrivaled artistry.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}",
+        "multiverseId": null,
+        "name": "Blacksmith's Skill",
+        "names": null,
+        "number": "6",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target permanent gains hexproof and indestructible until end of turn. If it's an artifact creature, it gets +2/+2 until end of turn.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31506792-d0ab-4c13-9ab8-6fa433220dbf.jpg"
+    },
+    {
         "artist": "Jokubas Uogintas",
         "cmc": 1.0,
         "colorIdentity": [
@@ -1363,6 +1321,33 @@
         "type": "Creature - Human Berserker",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7e3af226-9f55-481a-87ec-da2861ac60e0.jpg"
+    },
+    {
+        "artist": "Michael C. Hayes",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}",
+        "multiverseId": null,
+        "name": "Blossoming Calm",
+        "names": null,
+        "number": "7",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "You gain hexproof until your next turn. You gain 2 life.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/9/792610fd-736d-43b0-8899-dbb5accddca0.jpg"
     },
     {
         "artist": "Tommy Arnold",
@@ -1576,6 +1561,65 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/2/723ec2ef-aa82-449d-88b0-405d06454fc2.jpg"
+    },
+    {
+        "artist": "Nicholas Gregory",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{B}",
+        "multiverseId": null,
+        "name": "Break the Ice",
+        "names": null,
+        "number": "77",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Destroy target land that is snow or could produce {C}.\nOverload {4}{B}{B} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/1/01ca9568-06b6-4c57-b1f6-8a74ec2a2b91.jpg"
+    },
+    {
+        "artist": "Yeong-Hao Han",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "W"
+        ],
+        "flavor": "A deadly charge in eerie silence.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}{B}",
+        "multiverseId": null,
+        "name": "Breathless Knight",
+        "names": null,
+        "number": "187",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Spirit",
+            "Knight"
+        ],
+        "superTypes": [],
+        "text": "Flying, lifelink\nWhenever Breathless Knight or another creature enters the battlefield under your control, if that creature entered from a graveyard or you cast it from a graveyard, put a +1/+1 counter on Breathless Knight.",
+        "toughness": "2",
+        "type": "Creature - Spirit Knight",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/4/c4785739-821d-49b0-a298-3c2b95e16972.jpg"
     },
     {
         "artist": "Aleksi Briclot",
@@ -1935,6 +1979,40 @@
         "type": "Legendary Creature - Human Minion",
         "types": " Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8089e7f-7619-43fe-8e0b-31ce5d988a1b.jpg"
+    },
+    {
+        "artist": "Steve Prescott",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B",
+            "R"
+        ],
+        "colors": [
+            "B",
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{R}",
+        "multiverseId": null,
+        "name": "Chainer, Nightmare Adept",
+        "names": null,
+        "number": "419",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Minion"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Discard a card: You may cast a creature spell from your graveyard this turn. Activate only once each turn.\nWhenever a nontoken creature enters the battlefield under your control, if you didn't cast it from your hand, it gains haste until your next turn.",
+        "toughness": "2",
+        "type": "Legendary Creature - Human Minion",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/875244ac-d129-407a-bd9b-9fb59958bef9.jpg"
     },
     {
         "artist": "Steven Belledin",
@@ -2315,6 +2393,35 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f7d54ec2-a458-4e13-97b8-be99b7338548.jpg"
     },
     {
+        "artist": "Hector Ortiz",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G",
+            "U"
+        ],
+        "colors": [
+            "G",
+            "U"
+        ],
+        "flavor": "Action: Please design a Simic device that turns smaller creatures into big flying beasts.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}{U}",
+        "multiverseId": null,
+        "name": "Combine Chrysalis",
+        "names": null,
+        "number": "362",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Creature tokens you control have flying.\n{2}{G}{U}, {T}, Sacrifice a token: Create a 4/4 green Beast creature token. Activate only as a sorcery.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d7ac6ff5-4caa-48ee-a9a4-de7c1300e326.jpg"
+    },
+    {
         "artist": "Alexander Mokhov",
         "cmc": 5.0,
         "colorIdentity": [
@@ -2652,6 +2759,66 @@
         "multiverseId": null,
         "name": "Dauthi Voidwalker",
         "names": null,
+        "number": "397",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Dauthi",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nIf a card would be put into an opponent's graveyard from anywhere, instead exile it with a void counter on it.\n{T}, Sacrifice Dauthi Voidwalker: Choose an exiled card an opponent owns with a void counter on it. You may play it this turn without paying its mana cost.",
+        "toughness": "2",
+        "type": "Creature - Dauthi Rogue",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d54f0dd-5d27-483b-8af9-92a1c5a785f2.jpg"
+    },
+    {
+        "artist": "Sidharth Chaturvedi",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{B}",
+        "multiverseId": null,
+        "name": "Dauthi Voidwalker",
+        "names": null,
+        "number": "450",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Dauthi",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nIf a card would be put into an opponent's graveyard from anywhere, instead exile it with a void counter on it.\n{T}, Sacrifice Dauthi Voidwalker: Choose an exiled card an opponent owns with a void counter on it. You may play it this turn without paying its mana cost.",
+        "toughness": "2",
+        "type": "Creature - Dauthi Rogue",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/29632951-3c3d-478c-8c5a-9a34f30a5c28.jpg"
+    },
+    {
+        "artist": "Sidharth Chaturvedi",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{B}",
+        "multiverseId": null,
+        "name": "Dauthi Voidwalker",
+        "names": null,
         "number": "81",
         "power": "3",
         "rarity": "Rare",
@@ -2961,6 +3128,33 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/b/5b46b8d8-723a-4752-b97d-29ef83bd294c.jpg"
     },
     {
+        "artist": "Matt Stewart",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "A single ambition unleashes a legion of horrors.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}",
+        "multiverseId": null,
+        "name": "Echoing Return",
+        "names": null,
+        "number": "83",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Return target creature card and all other cards with the same name as that card from your graveyard to your hand.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/9/39eb0e67-f989-4430-b2d6-b8b647f0b7ca.jpg"
+    },
+    {
         "artist": "Rebecca Guay",
         "cmc": 3.0,
         "colorIdentity": [
@@ -3016,6 +3210,36 @@
         "type": "Creature - Elemental Incarnation",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb0e0404-4846-4891-acfa-bd0951ecf9c6.jpg"
+    },
+    {
+        "artist": "Svetlin Velinov",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}{G}",
+        "multiverseId": null,
+        "name": "Endurance",
+        "names": null,
+        "number": "317",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Elemental",
+            "Incarnation"
+        ],
+        "superTypes": [],
+        "text": "Flash\nReach\nWhen Endurance enters the battlefield, up to one target player puts all the cards from their graveyard on the bottom of their library in a random order.\nEvoke\u2014Exile a green card from your hand.",
+        "toughness": "4",
+        "type": "Creature - Elemental Incarnation",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/f/1fc6d14a-1328-4032-ad9e-cd85cd365bd3.jpg"
     },
     {
         "artist": "Eric Deschamps",
@@ -3190,6 +3414,60 @@
         "type": "Enchantment",
         "types": "Enchantment",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9de8307a-7da3-4a4c-98dc-d6624b1f869d.jpg"
+    },
+    {
+        "artist": "Bud Cook",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "All that's left are broken beliefs.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Faithless Salvaging",
+        "names": null,
+        "number": "122",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Discard a card, then draw a card.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c6ed4077-4ed5-48fb-91c9-a9195d652978.jpg"
+    },
+    {
+        "artist": "Bud Cook",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Mood: A bit regretful but still looking for loot.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Faithless Salvaging",
+        "names": null,
+        "number": "349",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Discard a card, then draw a card.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/2958aa5c-176d-4f6e-be52-ef2afbe8d452.jpg"
     },
     {
         "artist": "Deruchenko Alexander",
@@ -3511,6 +3789,66 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/297eaa16-890b-41dc-a470-fa8c313e6e1b.jpg"
     },
     {
+        "artist": "Lius Lasahido",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "Action: This creature is BLOODHOUND formed entirely of WATER.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U}",
+        "multiverseId": null,
+        "name": "Floodhound",
+        "names": null,
+        "number": "335",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Elemental",
+            "Dog"
+        ],
+        "superTypes": [],
+        "text": "{3}, {T}: Investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
+        "toughness": "2",
+        "type": "Creature - Elemental Dog",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/5/b56d6402-a941-46cc-b1d6-352d5aa5cc3f.jpg"
+    },
+    {
+        "artist": "Lius Lasahido",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "The thief doubled back twice, doused herself with perfume, crossed the ocean, and still woke up with her pursuer close on her heels.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U}",
+        "multiverseId": null,
+        "name": "Floodhound",
+        "names": null,
+        "number": "42",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Elemental",
+            "Dog"
+        ],
+        "superTypes": [],
+        "text": "{3}, {T}: Investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
+        "toughness": "2",
+        "type": "Creature - Elemental Dog",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a5b1ac05-bd87-4605-8443-0469276e1e3a.jpg"
+    },
+    {
         "artist": "Rob Alexander",
         "cmc": 0.0,
         "colorIdentity": [
@@ -3650,6 +3988,65 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/1/413ac8fb-5156-4f90-81f5-1879e273c9e2.jpg"
+    },
+    {
+        "artist": "Milivoj \u0106eran",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "It thrives on a steady diet of hastily disposed-of evidence.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{G}",
+        "multiverseId": null,
+        "name": "Funnel-Web Recluse",
+        "names": null,
+        "number": "161",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Spider"
+        ],
+        "superTypes": [],
+        "text": "Reach\nMorbid \u2014 When Funnel-Web Recluse enters the battlefield, if a creature died this turn, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
+        "toughness": "5",
+        "type": "Creature - Spider",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/4/b486c9cf-b0a6-44a4-b4c1-b3f5eed6c294.jpg"
+    },
+    {
+        "artist": "Raoul Vitale",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{R}{R}",
+        "multiverseId": null,
+        "name": "Fury",
+        "names": null,
+        "number": "126",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Elemental",
+            "Incarnation"
+        ],
+        "superTypes": [],
+        "text": "Double strike\nWhen Fury enters the battlefield, it deals 4 damage divided as you choose among any number of target creatures and/or planeswalkers.\nEvoke\u2014Exile a red card from your hand.",
+        "toughness": "3",
+        "type": "Creature - Elemental Incarnation",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bd281158-8180-40b9-a5b7-03cfc712d81a.jpg"
     },
     {
         "artist": "Lucas Graciano",
@@ -4109,6 +4506,35 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5a8cd89e-d849-4107-a629-98eae4c91489.jpg"
     },
     {
+        "artist": "Nils Hamm",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Tricks and treats, souls and sweets! On wooded path, whom shall we meet?\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}",
+        "multiverseId": null,
+        "name": "Glimmer Bairn",
+        "names": null,
+        "number": "413",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Ouphe"
+        ],
+        "superTypes": [],
+        "text": "Sacrifice a token: Glimmer Bairn gets +2/+2 until end of turn.",
+        "toughness": "2",
+        "type": "Creature - Ouphe",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/03250752-bd85-485a-b19a-fa344c4ffd50.jpg"
+    },
+    {
         "artist": "Jokubas Uogintas",
         "cmc": 0.0,
         "colorIdentity": [
@@ -4546,6 +4972,33 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6c627c68-c4a9-4579-85f1-6a1a5e6f6fce.jpg"
     },
     {
+        "artist": "Yeong-Hao Han",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "The investigator felt a pinch on his ankle. When he looked down, something glittered in the sand.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U}",
+        "multiverseId": null,
+        "name": "Hard Evidence",
+        "names": null,
+        "number": "46",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Create a 0/3 blue Crab creature token.\nInvestigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/501599d6-1072-4124-b05d-01f96de153f3.jpg"
+    },
+    {
         "artist": "Paul Scott Canavan",
         "cmc": 2.0,
         "colorIdentity": [
@@ -4816,6 +5269,87 @@
         "type": "Creature - Human Advisor",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ce0dbf20-bb76-4f4b-960f-68bbb99bde33.jpg"
+    },
+    {
+        "artist": "Franz Vohwinkel",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Inevitable Betrayal",
+        "names": null,
+        "number": "390",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Suspend 3\u2014{1}{U}{U} (Rather than cast this card from your hand, you may pay {1}{U}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)\nSearch target opponent's library for a creature card and put that card onto the battlefield under your control. Then that player shuffles.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/8/28c015a6-dc4c-49f6-8d39-4c7b598e5a61.jpg"
+    },
+    {
+        "artist": "Franz Vohwinkel",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Inevitable Betrayal",
+        "names": null,
+        "number": "446",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Suspend 3\u2014{1}{U}{U} (Rather than cast this card from your hand, you may pay {1}{U}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)\nSearch target opponent's library for a creature card and put that card onto the battlefield under your control. Then that player shuffles.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/d/adb9a0f9-0af6-42ac-9e42-f315f4882939.jpg"
+    },
+    {
+        "artist": "Franz Vohwinkel",
+        "cmc": 0.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Inevitable Betrayal",
+        "names": null,
+        "number": "47",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Suspend 3\u2014{1}{U}{U} (Rather than cast this card from your hand, you may pay {1}{U}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)\nSearch target opponent's library for a creature card and put that card onto the battlefield under your control. Then that player shuffles.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71725895-38cd-4017-bbf0-0b7dc9b5db60.jpg"
     },
     {
         "artist": "Donato Giancola",
@@ -5191,6 +5725,70 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/4613fc96-a98d-4ea8-b1e2-0a776dfd4d5a.jpg"
     },
     {
+        "artist": "Josu Hernaiz",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B",
+            "U"
+        ],
+        "colors": [
+            "B",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U}{B}",
+        "multiverseId": null,
+        "name": "Lazotep Chancellor",
+        "names": null,
+        "number": "203",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Zombie",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "Whenever you discard a card, you may pay {1}. If you do, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
+        "toughness": "3",
+        "type": "Creature - Zombie Wizard",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/82e68f3d-ef94-4651-a256-c72017f64b21.jpg"
+    },
+    {
+        "artist": "Josu Hernaiz",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B",
+            "U"
+        ],
+        "colors": [
+            "B",
+            "U"
+        ],
+        "flavor": "Mood: We will conquer you.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U}{B}",
+        "multiverseId": null,
+        "name": "Lazotep Chancellor",
+        "names": null,
+        "number": "369",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Zombie",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "Whenever you discard a card, you may pay {1}. If you do, amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
+        "toughness": "3",
+        "type": "Creature - Zombie Wizard",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8b3e2d11-0f87-43f2-a961-99a47486f8fa.jpg"
+    },
+    {
         "artist": "John Stanko",
         "cmc": 2.0,
         "colorIdentity": [
@@ -5389,6 +5987,66 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/98aeda3d-3741-4b80-bfef-63bcc599d75b.jpg"
+    },
+    {
+        "artist": "Bryan Sola",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{B}{B}",
+        "multiverseId": null,
+        "name": "Magus of the Bridge",
+        "names": null,
+        "number": "344",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "Whenever a nontoken creature is put into your graveyard from the battlefield, create a 2/2 black Zombie creature token.\nWhen a creature is put into an opponent's graveyard from the battlefield, exile Magus of the Bridge.",
+        "toughness": "4",
+        "type": "Creature - Human Wizard",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/e/fec0c309-5e11-40b2-a38f-66503b357f5d.jpg"
+    },
+    {
+        "artist": "Bryan Sola",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"The dead know their place.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{B}{B}",
+        "multiverseId": null,
+        "name": "Magus of the Bridge",
+        "names": null,
+        "number": "92",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "Whenever a nontoken creature is put into your graveyard from the battlefield, create a 2/2 black Zombie creature token.\nWhen a creature is put into an opponent's graveyard from the battlefield, exile Magus of the Bridge.",
+        "toughness": "4",
+        "type": "Creature - Human Wizard",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/e/8ec4b7d1-16ed-4cc3-8db3-12fb8f25658c.jpg"
     },
     {
         "artist": "Izzy",
@@ -5968,6 +6626,64 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0f5a0d49-71ae-42c4-a896-6828dc4f1e85.jpg"
     },
     {
+        "artist": "Lucas Graciano",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{U}{U}",
+        "multiverseId": null,
+        "name": "Murktide Regent",
+        "names": null,
+        "number": "337",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Dragon"
+        ],
+        "superTypes": [],
+        "text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nFlying\nMurktide Regent enters the battlefield with a +1/+1 counter on it for each instant or sorcery card exiled with it.\nWhenever an instant or sorcery card leaves your graveyard, put a +1/+1 counter on Murktide Regent.",
+        "toughness": "3",
+        "type": "Creature - Dragon",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/d/ad586c86-6d5b-49ac-8908-098eddae26e6.jpg"
+    },
+    {
+        "artist": "Lucas Graciano",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{U}{U}",
+        "multiverseId": null,
+        "name": "Murktide Regent",
+        "names": null,
+        "number": "52",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Dragon"
+        ],
+        "superTypes": [],
+        "text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nFlying\nMurktide Regent enters the battlefield with a +1/+1 counter on it for each instant or sorcery card exiled with it.\nWhenever an instant or sorcery card leaves your graveyard, put a +1/+1 counter on Murktide Regent.",
+        "toughness": "3",
+        "type": "Creature - Dragon",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/20c4aae1-7665-4df7-bd51-a1d95bf8a17d.jpg"
+    },
+    {
         "artist": "Donato Giancola",
         "cmc": 3.0,
         "colorIdentity": [
@@ -6075,6 +6791,31 @@
         "type": "Artifact - Equipment",
         "types": "Artifact ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4a0bb5dc-75a6-4bd6-81f8-611197fb0fba.jpg"
+    },
+    {
+        "artist": "Vincent Proce",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "Nettlecyst",
+        "names": null,
+        "number": "471",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [
+            "Equipment"
+        ],
+        "superTypes": [],
+        "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +1/+1 for each artifact and/or enchantment you control.\nEquip {2}",
+        "toughness": null,
+        "type": "Artifact - Equipment",
+        "types": "Artifact ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c3f3852d-e99a-418e-a235-da47ed38aabe.jpg"
     },
     {
         "artist": "Steve Argyle",
@@ -6185,6 +6926,31 @@
         "type": "Creature - Treefolk",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/8/386da156-59cd-4b96-9276-a7cb2ddd0421.jpg"
+    },
+    {
+        "artist": "Raoul Vitale",
+        "cmc": 2.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "\"Through even our darkest days, we must never cease creating. Each new invention brings value to the world, be it beauty, utility, or both.\"\n\u2014Rashmi, aether-seer",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}",
+        "multiverseId": null,
+        "name": "Ornithopter of Paradise",
+        "names": null,
+        "number": "232",
+        "power": "0",
+        "rarity": "Common",
+        "subTypes": [
+            "Thopter"
+        ],
+        "superTypes": [],
+        "text": "Flying\n{T}: Add one mana of any color.",
+        "toughness": "2",
+        "type": "Artifact Creature - Thopter",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/025b0f0f-daf6-4071-82e7-39c015447ce4.jpg"
     },
     {
         "artist": "Tobias Kwan",
@@ -7019,6 +7785,37 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aad6576b-605c-4007-a2a7-0d7550520d6d.jpg"
     },
     {
+        "artist": "Ekaterina Burmak",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B",
+            "R"
+        ],
+        "colors": [
+            "B",
+            "R"
+        ],
+        "flavor": "Mood: Unrestrained violence in a festival atmosphere.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{B}{R}",
+        "multiverseId": null,
+        "name": "Rakdos Headliner",
+        "names": null,
+        "number": "374",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Devil"
+        ],
+        "superTypes": [],
+        "text": "Haste\nEcho\u2014Discard a card. (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",
+        "toughness": "3",
+        "type": "Creature - Devil",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2caad15a-b567-47b5-b055-e52bfed5b889.jpg"
+    },
+    {
         "artist": "Dan Scott",
         "cmc": 1.0,
         "colorIdentity": [
@@ -7517,6 +8314,66 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f8c3cca4-23c0-4c14-ab56-51ba011f5974.jpg"
     },
     {
+        "artist": "Michael C. Hayes",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}{W}",
+        "multiverseId": null,
+        "name": "Sanctifier en-Vec",
+        "names": null,
+        "number": "386",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "Protection from black and from red\nWhen Sanctifier en-Vec enters the battlefield, exile all cards that are black and red from all graveyards.\nIf a black or red permanent, spell, or card not on the battlefield would be put into a graveyard, exile it instead.",
+        "toughness": "2",
+        "type": "Creature - Human Cleric",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a8d4ef76-4d57-40df-93f6-c67c017798ce.jpg"
+    },
+    {
+        "artist": "Michael C. Hayes",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}{W}",
+        "multiverseId": null,
+        "name": "Sanctifier en-Vec",
+        "names": null,
+        "number": "444",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Cleric"
+        ],
+        "superTypes": [],
+        "text": "Protection from black and from red\nWhen Sanctifier en-Vec enters the battlefield, exile all cards that are black and red from all graveyards.\nIf a black or red permanent, spell, or card not on the battlefield would be put into a graveyard, exile it instead.",
+        "toughness": "2",
+        "type": "Creature - Human Cleric",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c6ed75e0-f016-4c62-b96e-de97f7fdb6d8.jpg"
+    },
+    {
         "artist": "Drew Baker",
         "cmc": 3.0,
         "colorIdentity": [],
@@ -7913,6 +8770,60 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6dfc7060-e374-486f-8029-d3fdfe4b61e7.jpg"
     },
     {
+        "artist": "Matt Stewart",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}",
+        "multiverseId": null,
+        "name": "Search the Premises",
+        "names": null,
+        "number": "29",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Whenever a creature attacks you or a planeswalker you control, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d0345668-0cc1-41d2-8e4f-de7726fd0365.jpg"
+    },
+    {
+        "artist": "Matt Stewart",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Mood: Determined to find evidence of wrongdoing.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}",
+        "multiverseId": null,
+        "name": "Search the Premises",
+        "names": null,
+        "number": "332",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Whenever a creature attacks you or a planeswalker you control, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cdbd1cb1-799e-45aa-acd8-36ef924b0cdf.jpg"
+    },
+    {
         "artist": "Nils Hamm",
         "cmc": 7.0,
         "colorIdentity": [
@@ -8122,6 +9033,35 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d80dc025-c2c4-48c2-8354-7d9ddb430eb9.jpg"
     },
     {
+        "artist": "Nils Hamm",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Throw that one back. I don't like how it's looking at me.\"\n\u2014Netos, Meletian fisherman",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Sinister Starfish",
+        "names": null,
+        "number": "99",
+        "power": "0",
+        "rarity": "Common",
+        "subTypes": [
+            "Starfish"
+        ],
+        "superTypes": [],
+        "text": "{T}: Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+        "toughness": "3",
+        "type": "Creature - Starfish",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/b/db209732-c290-4999-a1aa-2369dfa8790c.jpg"
+    },
+    {
         "artist": "Uriah Voth",
         "cmc": 5.0,
         "colorIdentity": [
@@ -8298,7 +9238,30 @@
         "cmc": 0.0,
         "colorIdentity": [],
         "colors": [],
-        "flavor": "It contains the energy of a promo image where the cards overlap and no one can read what they say.",
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Sol Talisman",
+        "names": null,
+        "number": "236",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Suspend 3\u2014{1} (Rather than cast this card from your hand, you may pay {1} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)\n{T}: Add {C}{C}.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a51fb64d-cc0c-400d-971f-78c28d42043b.jpg"
+    },
+    {
+        "artist": "Volkan Ba\u01f5a",
+        "cmc": 0.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "It contains the energy of a dying star, caught at the moment of its explosion.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "",
@@ -8679,6 +9642,35 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8dcff03-0ef9-4485-80db-5447e9ca4ef9.jpg"
     },
     {
+        "artist": "Milivoj \u0106eran",
+        "cmc": 6.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "It feeds on metal filings suspended in the water, sieving flecks of precious ore through magnetic baleen.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{5}{U}",
+        "multiverseId": null,
+        "name": "Steelfin Whale",
+        "names": null,
+        "number": "65",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Whale"
+        ],
+        "superTypes": [],
+        "text": "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nWhenever an artifact enters the battlefield under your control, untap Steelfin Whale.",
+        "toughness": "4",
+        "type": "Creature - Whale",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7e7ca8b6-d7e0-4af2-a578-bf45a8731c19.jpg"
+    },
+    {
         "artist": "Randy Gallegos",
         "cmc": 5.0,
         "colorIdentity": [
@@ -8874,6 +9866,33 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/57cc8aeb-221d-46a1-b03f-df8499bba26d.jpg"
+    },
+    {
+        "artist": "Ryan Yee",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "Intent: This illustration uses an existing visual gag that shows the moments before and after a spell was cast. We'd like you to use this visual gag for a spell that destroys a creature.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Sudden Edict",
+        "names": null,
+        "number": "346",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nTarget player sacrifices a creature.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/1/91d1d680-9a27-4850-9175-cc71220ea33d.jpg"
     },
     {
         "artist": "Lake Hurwitz",
@@ -9240,6 +10259,72 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6afd2ecd-c2e5-49f2-bf35-dcec2addcebb.jpg"
     },
     {
+        "artist": "Ryan Yee",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G",
+            "W"
+        ],
+        "colors": [
+            "G",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}{W}",
+        "multiverseId": null,
+        "name": "Sythis, Harvest's Hand",
+        "names": null,
+        "number": "214",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Nymph"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Whenever you cast an enchantment spell, you gain 1 life and draw a card.",
+        "toughness": "2",
+        "type": "Legendary Enchantment Creature - Nymph",
+        "types": " Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0babfe00-9bad-48fc-b3b1-df8280242fd2.jpg"
+    },
+    {
+        "artist": "Ryan Yee",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G",
+            "W"
+        ],
+        "colors": [
+            "G",
+            "W"
+        ],
+        "flavor": "Action: We'd like you to design Sythis, a legendary green- and white-aligned female dryad who's closely tied to Karametra the god of the harvest (p.26)",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{G}{W}",
+        "multiverseId": null,
+        "name": "Sythis, Harvest's Hand",
+        "names": null,
+        "number": "377",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Nymph"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Whenever you cast an enchantment spell, you gain 1 life and draw a card.",
+        "toughness": "2",
+        "type": "Legendary Enchantment Creature - Nymph",
+        "types": " Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76ebe313-3452-415c-a93f-52c7467531a3.jpg"
+    },
+    {
         "artist": "Randy Gallegos",
         "cmc": 0.0,
         "colorIdentity": [
@@ -9466,6 +10551,35 @@
         "colors": [
             "U"
         ],
+        "flavor": "Mood: An efficient, well-designed machine.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{6}{U}",
+        "multiverseId": null,
+        "name": "Thought Monitor",
+        "names": null,
+        "number": "341",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Construct"
+        ],
+        "superTypes": [],
+        "text": "Affinity for artifacts\nFlying\nWhen Thought Monitor enters the battlefield, draw two cards.",
+        "toughness": "2",
+        "type": "Artifact Creature - Construct",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/55c98ef7-be05-4bcf-be4b-62a437297330.jpg"
+    },
+    {
+        "artist": "Martina Pilcerova",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
         "flavor": "It roams the skies over the Quicksilver Sea, alert for any hint of aberrant thought.",
         "layout": "",
         "loyalty": null,
@@ -9576,6 +10690,36 @@
         "type": "Legendary Creature - Dinosaur",
         "types": " Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/a/9abf3165-6260-4dcf-8f06-6e808bff0289.jpg"
+    },
+    {
+        "artist": "Lie Setiawan",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{U}",
+        "multiverseId": null,
+        "name": "Tide Shaper",
+        "names": null,
+        "number": "394",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Merfolk",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "Kicker {1} (You may pay an additional {1} as you cast this spell.)\nWhen Tide Shaper enters the battlefield, if it was kicked, target land becomes an Island for as long as Tide Shaper remains on the battlefield.\nTide Shaper gets +1/+1 as long as an opponent controls an Island.",
+        "toughness": "1",
+        "type": "Creature - Merfolk Wizard",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff1fb951-89c2-49c9-9ee9-3c8d0d6c4c86.jpg"
     },
     {
         "artist": "Lie Setiawan",
@@ -9816,6 +10960,68 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/21f6d49f-1577-4d17-a633-0c282769728a.jpg"
     },
     {
+        "artist": "Iris Compiet",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}",
+        "multiverseId": null,
+        "name": "Titania, Protector of Argoth",
+        "names": null,
+        "number": "319",
+        "power": "5",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "When Titania, Protector of Argoth enters the battlefield, return target land card from your graveyard to the battlefield.\nWhenever a land you control is put into a graveyard from the battlefield, create a 5/3 green Elemental creature token.",
+        "toughness": "3",
+        "type": "Legendary Creature - Elemental",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/58fb9fd5-359e-4da2-8d91-80ef50a8e390.jpg"
+    },
+    {
+        "artist": "Magali Villeneuve",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}",
+        "multiverseId": null,
+        "name": "Titania, Protector of Argoth",
+        "names": null,
+        "number": "416",
+        "power": "5",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Elemental"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "When Titania, Protector of Argoth enters the battlefield, return target land card from your graveyard to the battlefield.\nWhenever a land you control is put into a graveyard from the battlefield, create a 5/3 green Elemental creature token.",
+        "toughness": "3",
+        "type": "Legendary Creature - Elemental",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/bab161d9-45d7-48b7-af47-21e3dbae4d85.jpg"
+    },
+    {
         "artist": "Greg Staples",
         "cmc": 3.0,
         "colorIdentity": [],
@@ -9962,6 +11168,33 @@
         "type": "Legendary Creature - Human Cleric",
         "types": " Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/e/2e7caf6c-9f5b-45c4-99ab-2968c3d574e9.jpg"
+    },
+    {
+        "artist": "Iain McCaig",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Unbounded Potential",
+        "names": null,
+        "number": "36",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Choose one \u2014\n\u2022 Put a +1/+1 counter on each of up to two target creatures.\n\u2022 Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)\nEntwine {3}{W} (Choose both if you pay the entwine cost.)",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/9955a344-dcd8-404d-9757-f62ed158ba22.jpg"
     },
     {
         "artist": "Jason A. Engle",
@@ -10362,6 +11595,36 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/070a3f30-0839-4678-a37c-475ee189811e.jpg"
+    },
+    {
+        "artist": "Chris Cold",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}",
+        "multiverseId": null,
+        "name": "Vile Entomber",
+        "names": null,
+        "number": "403",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Zombie",
+            "Warlock"
+        ],
+        "superTypes": [],
+        "text": "Deathtouch\nWhen Vile Entomber enters the battlefield, search your library for a card, put that card into your graveyard, then shuffle.",
+        "toughness": "2",
+        "type": "Creature - Zombie Warlock",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/36590526-2f1b-4959-ba9e-55f3ebcffd1e.jpg"
     },
     {
         "artist": "Brian Sn\u00f5ddy",
