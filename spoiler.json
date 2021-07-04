@@ -596,14 +596,14 @@
             "name": "\"Moody Lord of the Night\"",
             "names": null,
             "number": "126",
-            "power": null,
+            "power": "4",
             "rarity": "Rare",
             "subTypes": [
                 "Vampire"
             ],
             "superTypes": [],
             "text": "Flying\nWard \u2014 Discard a card. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card.)\nWhenever \"Moody Lord of the Night\" deals combat damage to a player, put that many +1/+1 counters on it.",
-            "toughness": null,
+            "toughness": "4",
             "type": "Creature - Vampire",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e757cc7d-b9cc-4ef1-80c9-a22755a6d271.jpg"
@@ -625,14 +625,14 @@
             "name": "\"Moody Lord of the Night\"",
             "names": null,
             "number": "315",
-            "power": null,
+            "power": "4",
             "rarity": "Rare",
             "subTypes": [
                 "Vampire"
             ],
             "superTypes": [],
             "text": "Flying\nWard \u2014 Discard a card. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card.)\nWhenever \"Moody Lord of the Night\" deals combat damage to a player, put that many +1/+1 counters on it.",
-            "toughness": null,
+            "toughness": "4",
             "type": "Creature - Vampire",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a8b32f97-327c-403c-8fdf-f614bf8fe198.jpg"
@@ -1130,7 +1130,7 @@
                 "Class"
             ],
             "superTypes": [],
-            "text": "(Gain the next level as a sorcery to add its ability.)\nIf you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.\n{1}{R}: Level 2\nWhenever you roll one or more dice, target creature you control gets +2/+0 and gains menance until end of turn.\n{2}{R}: Level 3\nCreatures you control have haste.",
+            "text": "(Gain the next level as a sorcery to add its ability.)\nIf you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.\n{1}{R}: Level 2\nWhenever you roll one or more dice, target creature you control gets +2/+0 and gains menace until end of turn.\n{2}{R}: Level 3\nCreatures you control have haste.",
             "toughness": null,
             "type": "Enchantment - Class",
             "types": "Enchantment ",
@@ -1840,7 +1840,7 @@
                 "Class"
             ],
             "superTypes": [],
-            "text": "(Gain the next level as a sorcery to add its ability.)\nIf you would gain life, you gain that much plus 1 life instead.\n{3}{W}: Level 2\nWhenever you gain life, put a +1/+1 counter on target creature you control.\n{4}{W}: Level 3\nWhen this Class becomes level 3, return target creature card from your graveyard to the battlefield. You gain life equal to its toughness.",
+            "text": "(Gain the next level as a sorcery to add its ability.)\nIf you would gain life, you gain that much life plus 1 instead.\n{3}{W}: Level 2\nWhenever you gain life, put a +1/+1 counter on target creature you control.\n{4}{W}: Level 3\nWhen this Class becomes level 3, return target creature card from your graveyard to the battlefield. You gain life equal to its toughness.",
             "toughness": null,
             "type": "Enchantment - Class",
             "types": "Enchantment ",
@@ -2380,14 +2380,14 @@
             "name": "Dire Wolf Prowler",
             "names": null,
             "number": "179",
-            "power": null,
+            "power": "2",
             "rarity": "Common",
             "subTypes": [
                 "Wolf"
             ],
             "superTypes": [],
             "text": "{1}{G}: Dire Wolf Prowler gets +2/+2 and gains haste until end of turn. Activate only once each turn.",
-            "toughness": null,
+            "toughness": "2",
             "type": "Creature - Wolf",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4ab4769d-31ba-40d3-9375-494b93f01183.jpg"
@@ -2409,14 +2409,14 @@
             "name": "Dire Wolf Prowler",
             "names": null,
             "number": "325",
-            "power": null,
+            "power": "2",
             "rarity": "Common",
             "subTypes": [
                 "Wolf"
             ],
             "superTypes": [],
             "text": "{1}{G}: Dire Wolf Prowler gets +2/+2 and gains haste until end of turn. Activate only once each turn.",
-            "toughness": null,
+            "toughness": "2",
             "type": "Creature - Wolf",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/7669e373-0173-43db-8b86-abc319c9e8fc.jpg"
@@ -2750,7 +2750,7 @@
                 "Class"
             ],
             "superTypes": [],
-            "text": "(Gain the next level as a sorcery to add its ability.)\nWhenever a land enters the battlefield under your control, you gain 1 life.\n{2}{G}: Level 2\nYou may play an additional land on each of your turns.\n{4}{G}: Level 3\nWhen this class becomes level 3, target land you control becomes a creature with haste and \"This creature's power and toughness are each equal to the number of lands you control.\" It's still a land.",
+            "text": "(Gain the next level as a sorcery to add its ability.)\nWhenever a land enters the battlefield under your control, you gain 1 life.\n{2}{G}: Level 2\nYou may play an additional land on each of your turns.\n{4}{G}: Level 3\nWhen this Class becomes level 3, target land you control becomes a creature with haste and \"This creature's power and toughness are each equal to the number of lands you control.\" It's still a land.",
             "toughness": null,
             "type": "Enchantment - Class",
             "types": "Enchantment ",
@@ -4359,7 +4359,7 @@
                 "Warlock"
             ],
             "superTypes": [],
-            "text": "{5}{B}: Roll a d20.\n1-9 | Each opponent loses 2 life.\n10-19 | Each opponent loses 2 life and you gain 2 life.\n20 | Each opponent loses 2 life and you gain 2 life. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+            "text": "Circle of Death \u2014 {5}{B}: Roll a d20.\n1-9 | Each opponent loses 2 life.\n10-19 | Each opponent loses 2 life and you gain 2 life.\n20 | Each opponent loses 2 life and you gain 2 life. Create two Treasure tokens. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
             "toughness": "4",
             "type": "Creature - Human Warlock",
             "types": "Creature ",
@@ -4724,7 +4724,7 @@
             "name": "Ingenious Smith",
             "names": null,
             "number": "21",
-            "power": null,
+            "power": "1",
             "rarity": "Uncommon",
             "subTypes": [
                 "Human",
@@ -4732,7 +4732,7 @@
             ],
             "superTypes": [],
             "text": "When Ingenious Smith enters the battlefield, look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nWhenever one or more artifacts enter the battlefield under your control, put a +1/+1 counter on Ingenious Smith. This ability triggers only once each turn.",
-            "toughness": null,
+            "toughness": "1",
             "type": "Creature - Human Artificer",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2ad29773-7c1b-410d-9f69-7aa751f6ebca.jpg"
@@ -5584,14 +5584,14 @@
             "rarity": "Mythic Rare",
             "subTypes": [
                 "Human",
-                "Warrior"
+                "Ranger"
             ],
             "superTypes": [
                 "Legendary"
             ],
             "text": "When Minsc, Beloved Ranger enters the battlefield, create Boo, a legendary 1/1 red Hamster creature token with trample and haste.\n{X}: Until end of turn, target creature you control has base power and toughness X/X and becomes a Giant in addition to its other types. Activate only a sorcery.",
             "toughness": "3",
-            "type": "Legendary Creature - Human Warrior",
+            "type": "Legendary Creature - Human Ranger",
             "types": " Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/2/72405607-a60e-42af-b523-64008d3f89b9.jpg"
         },
@@ -5620,14 +5620,14 @@
             "rarity": "Mythic Rare",
             "subTypes": [
                 "Human",
-                "Warrior"
+                "Ranger"
             ],
             "superTypes": [
                 "Legendary"
             ],
             "text": "When Minsc, Beloved Ranger enters the battlefield, create Boo, a legendary 1/1 red Hamster creature token with trample and haste.\n{X}: Until end of turn, target creature you control has base power and toughness X/X and becomes a Giant in addition to its other types. Activate only a sorcery.",
             "toughness": "3",
-            "type": "Legendary Creature - Human Warrior",
+            "type": "Legendary Creature - Human Ranger",
             "types": " Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/034f75c7-bb57-426a-8e3f-4b7f0110f02b.jpg"
         },
@@ -5967,7 +5967,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": "The ancient green dragon Claugiyliamatar is often seen with a manned corpse dangling from her mouth.",
+            "flavor": "The ancient green dragon Claugiyliamatar is often seen with a mangled corpse dangling from her mouth.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{5}{G}{G}",
@@ -6691,7 +6691,7 @@
             "colors": [
                 "R"
             ],
-            "flavor": "\"Most folks got mayhem in their hearts. Jost gotta know their price.\"",
+            "flavor": "\"Most folks got mayhem in their hearts. Just gotta know their price.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{2}{R}",
@@ -7099,7 +7099,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": "\"I could help you, or I could eat you for lunch,. I haven't decided yet.\"",
+            "flavor": "\"I could help you, or I could eat you for lunch. I haven't decided yet.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{G}",
@@ -7404,7 +7404,7 @@
             "colors": [
                 "U"
             ],
-            "flavor": "My psychic blade cuts the mind and severs thoughts. Even if you survive, you'll never remember I was here.",
+            "flavor": "\"My psychic blade cuts the mind and severs thoughts. Even if you survive, you'll never remember I was here.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{2}{U}",
@@ -8745,7 +8745,7 @@
                 "Class"
             ],
             "superTypes": [],
-            "text": "(Gain the next level as a sorcery to add its ability.)\nAt the beginning of your end step, if a creature died this turn, each opponent loses 1 life.\n{1}{B}: Level 2\nWhen this class becomes level 2, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.\n{6}{B}: Level 3\nAt the beginning of your end step, each opponent loses life equal to the life they lost this turn. (Damage causes loss of life.)",
+            "text": "(Gain the next level as a sorcery to add its ability.)\nAt the beginning of your end step, if a creature died this turn, each opponent loses 1 life.\n{1}{B}: Level 2\nWhen this Class becomes level 2, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.\n{6}{B}: Level 3\nAt the beginning of your end step, each opponent loses life equal to the life they lost this turn. (Damage causes loss of life.)",
             "toughness": null,
             "type": "Enchantment - Class",
             "types": "Enchantment ",
@@ -8948,7 +8948,7 @@
                 "Class"
             ],
             "superTypes": [],
-            "text": "(Gain the next level as a sorcery to add its ability.)\n{2}{U}: Level 2\nWhen this Class becomes level 2, draw two cards.\n{4}{U}: Level 3\nWhenever you draw a card, put a +1/+1 counter on target creature you control.",
+            "text": "(Gain the next level as a sorcery to add its ability.)\nYou have no maximum hand size.\n{2}{U}: Level 2\nWhen this Class becomes level 2, draw two cards.\n{4}{U}: Level 3\nWhenever you draw a card, put a +1/+1 counter on target creature you control.",
             "toughness": null,
             "type": "Enchantment - Class",
             "types": "Enchantment ",
