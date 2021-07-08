@@ -702,6 +702,38 @@
             "multiverseId": null,
             "name": "Asmodeus the Archfiend",
             "names": null,
+            "number": "373",
+            "power": "6",
+            "rarity": "Rare",
+            "subTypes": [
+                "Devil",
+                "God"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "Binding Contract \u2014 If you would draw a card, exile the top card of your library face down instead.\n{B}{B}{B}: Draw seven cards.\n{B}: Return all cards exiled with Asmodeus the Archfiend to their owner's hand and you lose that much life.",
+            "toughness": "6",
+            "type": "Legendary Creature - Devil God",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a0bbab6-b9ad-456d-ab4a-485dd8d89b35.jpg"
+        },
+        {
+            "artist": "Aleksi Briclot",
+            "cmc": 6.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{B}{B}",
+            "multiverseId": null,
+            "name": "Asmodeus the Archfiend",
+            "names": null,
             "number": "88",
             "power": "6",
             "rarity": "Rare",
@@ -1069,6 +1101,35 @@
             "type": "Creature - Dog",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/cc040492-7fb7-4fdb-aafe-8179e5f2b28c.jpg"
+        },
+        {
+            "artist": "Pedro Potier",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}",
+            "multiverseId": null,
+            "name": "Blink Dog",
+            "names": null,
+            "number": "300",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Dog"
+            ],
+            "superTypes": [],
+            "text": "Double strike\nTeleport \u2014 {3}{W}: Blink Dog phases out. (Treat it and anything attached to it as though they don't exist until your next turn.)",
+            "toughness": "1",
+            "type": "Creature - Dog",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/f/4fcf1082-25ac-4537-9fd9-631f834097ad.jpg"
         },
         {
             "artist": "Steve Prescott",
@@ -2032,7 +2093,7 @@
             "colors": [
                 "B"
             ],
-            "flavor": "\"That's a pretty ring! Trade you my knife for it!\"",
+            "flavor": "\"That's a pretty ring! Trade you my knife for it.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{B}",
@@ -2681,7 +2742,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "As an additional cost to cast this spell, you may reveal a Dragon card from your hand or choose a Dragon you control.\nDragon's Fire deals 3 damage to target creature or planeswalker. If you revealed a Dragon card or choose a Dragon as you cast this spell, Dragon's Fire deals damage equal to the power of that card or creature instead.",
+            "text": "As an additional cost to cast this spell, you may reveal a Dragon card from your hand or choose a Dragon you control.\nDragon's Fire deals 3 damage to target creature or planeswalker. If you revealed a Dragon card or chose a Dragon as you cast this spell, Dragon's Fire deals damage equal to the power of that card or creature instead.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -2889,7 +2950,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Dungeon Descent enters the battlefield tapped.\n{T}: Add {C}.\n{4}, {T}, Tap an untapped legendary creature you control: Venture into the dungeon. Activate only as a sorcery.(Enter the first room or advance to the next room.)",
+            "text": "Dungeon Descent enters the battlefield tapped.\n{T}: Add {C}.\n{4}, {T}, Tap an untapped legendary creature you control: Venture into the dungeon. Activate only as a sorcery. (Enter the first room or advance to the next room.)",
             "toughness": null,
             "type": "Land",
             "types": "Land",
@@ -2912,7 +2973,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Dungeon Descent enters the battlefield tapped.\n{T}: Add {C}.\n{4}, {T}, Tap an untapped legendary creature you control: Venture into the dungeon. Activate only as a sorcery.(Enter the first room or advance to the next room.)",
+            "text": "Dungeon Descent enters the battlefield tapped.\n{T}: Add {C}.\n{4}, {T}, Tap an untapped legendary creature you control: Venture into the dungeon. Activate only as a sorcery. (Enter the first room or advance to the next room.)",
             "toughness": null,
             "type": "Land",
             "types": "Land",
@@ -3453,7 +3514,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Until end of turn, target creature gains \"When this creature dies, return it to the battlefield tapped under it owner's control with a +1/+1 counter on it.\"",
+            "text": "Until end of turn, target creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it.\"",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -3857,7 +3918,7 @@
                 "Knight"
             ],
             "superTypes": [],
-            "text": "Menace\n{1}{B}, {T}, Pay 1 life: Create a Treasure token.\n{2}{B}: Target creature get +2/+0 until end of turn. If mana from a Treasure was spent to activate this ability, that creature also gains deathtouch until end of turn.",
+            "text": "Menace\n{1}{B}, {T}, Pay 1 life: Create a Treasure token.\n{2}{B}: Target creature gets +2/+0 until end of turn. If mana from a Treasure was spent to activate this ability, that creature also gains deathtouch until end of turn.",
             "toughness": "1",
             "type": "Creature - Human Knight",
             "types": "Creature ",
@@ -3887,7 +3948,7 @@
                 "Knight"
             ],
             "superTypes": [],
-            "text": "Menace\n{1}{B}, {T}, Pay 1 life: Create a Treasure token.\n{2}{B}: Target creature get +2/+0 until end of turn. If mana from a Treasure was spent to activate this ability, that creature also gains deathtouch until end of turn.",
+            "text": "Menace\n{1}{B}, {T}, Pay 1 life: Create a Treasure token.\n{2}{B}: Target creature gets +2/+0 until end of turn. If mana from a Treasure was spent to activate this ability, that creature also gains deathtouch until end of turn.",
             "toughness": "1",
             "type": "Creature - Human Knight",
             "types": "Creature ",
@@ -4961,7 +5022,7 @@
             "colors": [
                 "B"
             ],
-            "flavor": "\"And to think, a year go I was picking pockets in Waterdeep.\"",
+            "flavor": "\"And to think, a year ago I was picking pockets in Waterdeep.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{B}",
@@ -5420,7 +5481,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "At the beginning of your upkeep, you may put a harmony counter on Instrument of Bards.\n{3}{G}, {T}: Search your library for a creature card with mana value equal to the number of harmony counters on Instrument of Bards, reveal it, and put it into your hand. If that card is legendary, create a Treasure token. Then shuffle.",
+            "text": "At the beginning of your upkeep, you may put a harmony counter on Instrument of the Bards.\n{3}{G}, {T}: Search your library for a creature card with mana value equal to the number of harmony counters on Instrument of the Bards, reveal it, and put it into your hand. If that card is legendary, create a Treasure token. Then shuffle.",
             "toughness": null,
             "type": "Legendary Artifact",
             "types": " Artifact",
@@ -5449,7 +5510,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "At the beginning of your upkeep, you may put a harmony counter on Instrument of Bards.\n{3}{G}, {T}: Search your library for a creature card with mana value equal to the number of harmony counters on Instrument of Bards, reveal it, and put it into your hand. If that card is legendary, create a Treasure token. Then shuffle.",
+            "text": "At the beginning of your upkeep, you may put a harmony counter on Instrument of the Bards.\n{3}{G}, {T}: Search your library for a creature card with mana value equal to the number of harmony counters on Instrument of the Bards, reveal it, and put it into your hand. If that card is legendary, create a Treasure token. Then shuffle.",
             "toughness": null,
             "type": "Legendary Artifact",
             "types": " Artifact",
@@ -5501,14 +5562,13 @@
             "power": "5",
             "rarity": "Uncommon",
             "subTypes": [
-                "Creature",
                 "Golem"
             ],
             "superTypes": [],
             "text": "Vigilance\nIron Golem attacks or blocks each combat if able.",
             "toughness": "3",
-            "type": "Artifact - Creature Golem",
-            "types": "Artifact ",
+            "type": "Artifact Creature - Golem",
+            "types": "Artifact Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5ae24ef5-b12c-48ee-935a-00e048fb8d0f.jpg"
         },
         {
@@ -5527,14 +5587,13 @@
             "power": "5",
             "rarity": "Uncommon",
             "subTypes": [
-                "Creature",
                 "Golem"
             ],
             "superTypes": [],
             "text": "Vigilance\nIron Golem attacks or blocks each combat if able.",
             "toughness": "3",
-            "type": "Artifact - Creature Golem",
-            "types": "Artifact ",
+            "type": "Artifact Creature - Golem",
+            "types": "Artifact Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/47852cc6-a6de-4aed-9650-0c7ce346c3b9.jpg"
         },
         {
@@ -5997,7 +6056,7 @@
             "cmc": 1.0,
             "colorIdentity": [],
             "colors": [],
-            "flavor": "Lightweight, flexible, protective.",
+            "flavor": "Lightweight, flexible, and protective.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}",
@@ -6249,6 +6308,35 @@
             "type": "Creature - Dog",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/4/f408c5e4-e18d-4e4d-959a-f41df4c3019c.jpg"
+        },
+        {
+            "artist": "Dmitry Burmak",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{W}",
+            "multiverseId": null,
+            "name": "Loyal Warhound",
+            "names": null,
+            "number": "363",
+            "power": "3",
+            "rarity": "Rare",
+            "subTypes": [
+                "Dog"
+            ],
+            "superTypes": [],
+            "text": "Vigilance\nWhen Loyal Warhound enters the battlefield, if an opponent controls more lands than you, search your library for a basic Plains card, put it onto the battlefield tapped, then shuffle.",
+            "toughness": "1",
+            "type": "Creature - Dog",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bce58575-7607-49a4-a7c9-b23b715c3bf5.jpg"
         },
         {
             "artist": "Andrew Mar",
@@ -6634,7 +6722,7 @@
                 "Kobold"
             ],
             "superTypes": [],
-            "text": "Menace\nPack tactics \u2014 Whenever Minion of the Mighty attacks, if you attacked with creatures wih total power 6 or greater this combat, you may put a Dragon creature card from your hand onto the battlefield tapped and attacking.",
+            "text": "Menace\nPack tactics \u2014 Whenever Minion of the Mighty attacks, if you attacked with creatures with total power 6 or greater this combat, you may put a Dragon creature card from your hand onto the battlefield tapped and attacking.",
             "toughness": "1",
             "type": "Creature - Kobold",
             "types": "Creature ",
@@ -6663,7 +6751,7 @@
                 "Kobold"
             ],
             "superTypes": [],
-            "text": "Menace\nPack tactics \u2014 Whenever Minion of the Mighty attacks, if you attacked with creatures wih total power 6 or greater this combat, you may put a Dragon creature card from your hand onto the battlefield tapped and attacking.",
+            "text": "Menace\nPack tactics \u2014 Whenever Minion of the Mighty attacks, if you attacked with creatures with total power 6 or greater this combat, you may put a Dragon creature card from your hand onto the battlefield tapped and attacking.",
             "toughness": "1",
             "type": "Creature - Kobold",
             "types": "Creature ",
@@ -7132,6 +7220,35 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e64d7cc7-bbdd-4db3-906e-a2f7672e0f67.jpg"
         },
         {
+            "artist": "Jeff Dee",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}",
+            "multiverseId": null,
+            "name": "Neverwinter Dryad",
+            "names": null,
+            "number": "329",
+            "power": "1",
+            "rarity": "Common",
+            "subTypes": [
+                "Dryad"
+            ],
+            "superTypes": [],
+            "text": "{2}, Sacrifice Neverwinter Dryad: Search your library for a basic Forest card, put it onto the battlefield tapped, then shuffle.",
+            "toughness": "1",
+            "type": "Creature - Dryad",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/1/01234d4c-ff3d-40a8-8404-9790d3ee3620.jpg"
+        },
+        {
             "artist": "Daarken",
             "cmc": 1.0,
             "colorIdentity": [
@@ -7459,7 +7576,7 @@
                 "Bear"
             ],
             "superTypes": [],
-            "text": "Trample\nKeen senses \u2014 When Owlbear enters the battlefield, draw a card.",
+            "text": "Trample\nKeen Senses \u2014 When Owlbear enters the battlefield, draw a card.",
             "toughness": "4",
             "type": "Creature - Bird Bear",
             "types": "Creature ",
@@ -7489,7 +7606,7 @@
                 "Bear"
             ],
             "superTypes": [],
-            "text": "Trample\nKeen senses \u2014 When Owlbear enters the battlefield, draw a card.",
+            "text": "Trample\nKeen Senses \u2014 When Owlbear enters the battlefield, draw a card.",
             "toughness": "4",
             "type": "Creature - Bird Bear",
             "types": "Creature ",
@@ -7836,7 +7953,7 @@
                 "Barbarian"
             ],
             "superTypes": [],
-            "text": "When Plundering Barbarian enters the battlefield, choose one \u2014\n\u2022 Smash the Chest \u2014 Destroy target artifact.\n\u2022 Pry It Open \u2014 Creature a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+            "text": "When Plundering Barbarian enters the battlefield, choose one \u2014\n\u2022 Smash the Chest \u2014 Destroy target artifact.\n\u2022 Pry It Open \u2014 Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
             "toughness": "2",
             "type": "Creature - Dwarf Barbarian",
             "types": "Creature ",
@@ -8755,7 +8872,7 @@
                 "Zombie"
             ],
             "superTypes": [],
-            "text": "When Shambling Ghast dies, choose one \u2014\n\u2022 Brave the Stench \u2014 Target creature an opponent controls -1/-1 until end of turn.\n\u2022 Search the Body \u2014 Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+            "text": "When Shambling Ghast dies, choose one \u2014\n\u2022 Brave the Stench \u2014 Target creature an opponent controls gets -1/-1 until end of turn.\n\u2022 Search the Body \u2014 Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
             "toughness": "1",
             "type": "Creature - Zombie",
             "types": "Creature ",
@@ -8908,14 +9025,13 @@
             "power": "1",
             "rarity": "Common",
             "subTypes": [
-                "Creature",
                 "Bird"
             ],
             "superTypes": [],
             "text": "Flying\nWhen Silver Raven enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
             "toughness": "1",
-            "type": "Artifact - Creature Bird",
-            "types": "Artifact ",
+            "type": "Artifact Creature - Bird",
+            "types": "Artifact Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a671ec19-32f4-4fde-8ee0-1224471e79db.jpg"
         },
         {
@@ -9620,6 +9736,29 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/c/0c79b3c6-ccbe-48ae-a1f7-ddfd37ecdbf5.jpg"
         },
         {
+            "artist": "Adam Rex",
+            "cmc": 0.0,
+            "colorIdentity": [],
+            "colors": [],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Temple of the Dragon Queen",
+            "names": null,
+            "number": "357",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "As Temple of the Dragon Queen enters the battlefield, you may reveal a Dragon card from your hand. Temple of the Dragon Queen enters the battlefield tapped unless you revealed a Dragon card this way or you control a Dragon.\nAs Temple of the Dragon Queen enters the battlefield, choose a color.\n{T}: Add one mana of the chosen color.",
+            "toughness": null,
+            "type": "Land",
+            "types": "Land",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/1/01054cee-3105-4e80-9ded-0ae57db5c159.jpg"
+        },
+        {
             "artist": "Anna Steinbauer",
             "cmc": 1.0,
             "colorIdentity": [
@@ -9642,7 +9781,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "You many choose not to untap The Blackstaff of Waterdeep during your untap step.\nAnimate Walking Statue \u2014 {1}{U}, {T}: Another target artifact you control becomes a 4/4 artifact creature for as long as The Blackstaff of Waterdeep remains tapped. Activate only as a sorcery.",
+            "text": "You many choose not to untap The Blackstaff of Waterdeep during your untap step.\nAnimate Walking Statue \u2014 {1}{U}, {T}: Another target nontoken artifact you control becomes a 4/4 artifact creature for as long as The Blackstaff of Waterdeep remains tapped. Activate only as a sorcery.",
             "toughness": null,
             "type": "Legendary Artifact",
             "types": " Artifact",
@@ -9671,7 +9810,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "You many choose not to untap The Blackstaff of Waterdeep during your untap step.\nAnimate Walking Statue \u2014 {1}{U}, {T}: Another target artifact you control becomes a 4/4 artifact creature for as long as The Blackstaff of Waterdeep remains tapped. Activate only as a sorcery.",
+            "text": "You many choose not to untap The Blackstaff of Waterdeep during your untap step.\nAnimate Walking Statue \u2014 {1}{U}, {T}: Another target nontoken artifact you control becomes a 4/4 artifact creature for as long as The Blackstaff of Waterdeep remains tapped. Activate only as a sorcery.",
             "toughness": null,
             "type": "Legendary Artifact",
             "types": " Artifact",
@@ -10227,7 +10366,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Whenever you gain life, put a +1/+1 counter on Trelasarra Moon Dancer and scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+            "text": "Whenever you gain life, put a +1/+1 counter on Trelasarra, Moon Dancer and scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
             "toughness": "2",
             "type": "Legendary Creature - Elf Cleric",
             "types": " Creature ",
@@ -10261,7 +10400,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Whenever you gain life, put a +1/+1 counter on Trelasarra Moon Dancer and scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+            "text": "Whenever you gain life, put a +1/+1 counter on Trelasarra, Moon Dancer and scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
             "toughness": "2",
             "type": "Legendary Creature - Elf Cleric",
             "types": " Creature ",
@@ -10423,7 +10562,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": "\"See how statues all have chunks bitten out of them? We're dealing with a Basilisk, or I'm a froghemoth.\"\n\u2014Larissa Kyriln, learned warlock",
+            "flavor": "\"See how the statues all have chunks bitten out of them? We're dealing with a Basilisk, or I'm a froghemoth.\"\n\u2014Larissa Kyriln, learned warlock",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{G}",
@@ -10833,7 +10972,7 @@
                 "Bard"
             ],
             "superTypes": [],
-            "text": "At the begining of your end step, if you had a land enter the battlefield under your control this turn, venture into the dungeon. (Enter the first room or advance to the next room.)",
+            "text": "At the beginning of your end step, if you had a land enter the battlefield under your control this turn, venture into the dungeon. (Enter the first room or advance to the next room.)",
             "toughness": "2",
             "type": "Creature - Dragon Bard",
             "types": "Creature ",
@@ -11413,7 +11552,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Choose one \u2014\n\u2022 Fight the Current \u2014 Return target nonland permanent top its owner's hand.\n\u2022 Find a Crossing \u2014 Target creature gets +1/+0 until end of turn and can't be blocked this turn.",
+            "text": "Choose one \u2014\n\u2022 Fight the Current \u2014 Return target nonland permanent to its owner's hand.\n\u2022 Find a Crossing \u2014 Target creature gets +1/+0 until end of turn and can't be blocked this turn.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -11494,7 +11633,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Choose one \u2014\n\u2022 Smash It \u2014 Destroy target artifact.\n\u2022 Lift the Curse \u2014 Destroy target enchantment.\n\u2022 Steal Its Eyes \u2014 Create an Treasure token and venture into the dungeon. (Enter the first room or advance to the next room.)",
+            "text": "Choose one \u2014\n\u2022 Smash It \u2014 Destroy target artifact.\n\u2022 Lift the Curse \u2014 Destroy target enchantment.\n\u2022 Steal Its Eyes \u2014 Create a Treasure token and venture into the dungeon. (Enter the first room or advance to the next room.)",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
