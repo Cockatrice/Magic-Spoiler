@@ -72,6 +72,33 @@
     ],
     "AFC": [
         {
+            "artist": "Sean Murray",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{B}",
+            "multiverseId": null,
+            "name": "Bag of Devouring",
+            "names": null,
+            "number": "21",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Whenever you sacrifice another nontoken artifact or creature, exile it.\n{2}, {T}, Sacrifice another artifact or creature: Draw a card.\n{3}, {T}, Sacrifice Bag of Devouring: Roll a d10. Return up to X cards from among cards exiled with Bag of Devouring to their owners' hands, where X is the result.",
+            "toughness": null,
+            "type": "Artifact",
+            "types": "Artifact",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d183e52b-432d-4b4d-803c-33f7a5f178f1.jpg"
+        },
+        {
             "artist": "Viko Menezes",
             "cmc": 2.0,
             "colorIdentity": [
@@ -85,7 +112,7 @@
             "loyalty": null,
             "mana_cost": "{1}{G}",
             "multiverseId": null,
-            "name": "Belt of Giant's Strength",
+            "name": "Belt of Giant Strength",
             "names": null,
             "number": "38",
             "power": null,
@@ -183,7 +210,7 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a949c88-07bb-4526-9460-9324574cc466.jpg"
         },
         {
-            "artist": "Sean Murray",
+            "artist": "Randy Vargas",
             "cmc": 5.0,
             "colorIdentity": [
                 "B"
@@ -198,12 +225,12 @@
             "multiverseId": null,
             "name": "Danse Macabre",
             "names": null,
-            "number": "21",
+            "number": "22",
             "power": null,
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Whenever you sacrifice another nontoken artifact or creature, exile it.\n{2}, {T}, Sacrifice another artifact or creature: Draw a card.\n{3}, {T}, Sacrifice Danse Macabre: Roll a d10. Return up to X cards from among cards exiled with Danse Macabre to their owners' hands, where X is the result.",
+            "text": "Each player sacrifices a nontoken creature. Roll a d20 and add the toughness of the creature you sacrificed this way.\n1-14 | Return a creature card put into a graveyard this way to the battlefield under your control.\n15+ | Return up to two creature cards put into a graveyard this way to the battlefield under your control",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -317,6 +344,35 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/82c35cce-5b13-4870-8710-1b05af2c5c40.jpg"
+        },
+        {
+            "artist": "Jonathan Kuo",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Ride into legend.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{W}{W}",
+            "multiverseId": null,
+            "name": "Fey Steed",
+            "names": null,
+            "number": "5",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Elk"
+            ],
+            "superTypes": [],
+            "text": "Whenever Fey Steed attacks, another target attacking creature you control gains indestructible until end of turn.\nWhenever a creature or planeswalker you control becomes the target of a spell or ability an opponent controls, you may draw a card.",
+            "toughness": "4",
+            "type": "Creature - Elk",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ce2bfc76-04b4-46ed-b495-33221256afbb.jpg"
         },
         {
             "artist": "Antonio Jos\u00e9 Manzanedo",
@@ -504,33 +560,33 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/5/c5e72882-dbf8-42d2-9a98-31f2f71e2ed9.jpg"
         },
         {
-            "artist": "Jonathan Kuo",
-            "cmc": 4.0,
+            "artist": "Milivoj \u0106eran",
+            "cmc": 3.0,
             "colorIdentity": [
                 "W"
             ],
             "colors": [
                 "W"
             ],
-            "flavor": "Ride into legend.",
+            "flavor": "Divine light forged in steel.",
             "layout": "",
             "loyalty": null,
-            "mana_cost": "{2}{W}{W}",
+            "mana_cost": "{2}{W}",
             "multiverseId": null,
             "name": "Holy Avenger",
             "names": null,
-            "number": "5",
-            "power": "4",
+            "number": "6",
+            "power": null,
             "rarity": "Rare",
             "subTypes": [
-                "Elk"
+                "Equipment"
             ],
             "superTypes": [],
-            "text": "Whenever Holy Avenger attacks, another target attacking creature you control gains indestructible until end of turn.\nWhenever a creature or planeswalker you control becomes the target of a spell or ability an opponent controls, you may draw a card.",
-            "toughness": "4",
-            "type": "Creature - Elk",
-            "types": "Creature ",
-            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ce2bfc76-04b4-46ed-b495-33221256afbb.jpg"
+            "text": "Equipped creature has double strike.\nWhenever equipped creature deals combat damage, you may put an Aura card from your hand onto the battlefield attached to it.\nEquip {2}{W}",
+            "toughness": null,
+            "type": "Artifact - Equipment",
+            "types": "Artifact ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4d64d158-3477-4530-9596-2d4e4eceb11a.jpg"
         },
         {
             "artist": "Olena Richards",
@@ -639,7 +695,7 @@
             "loyalty": null,
             "mana_cost": "{3}{W}{W}",
             "multiverseId": null,
-            "name": "Mantle of the Avenger",
+            "name": "Mantle of the Ancients",
             "names": null,
             "number": "8",
             "power": null,
@@ -648,7 +704,7 @@
                 "Aura"
             ],
             "superTypes": [],
-            "text": "Enchant creature you control\nWhen Mantle of the Avenger enters the battlefield, return any number of target Aura and/or Equipment cards from your graveyard to the battlefield attached to enchanted creature.\nEnchanted creature gets +1/+1 for each Aura and Equipment attached to it.",
+            "text": "Enchant creature you control\nWhen Mantle of the Ancients enters the battlefield, return any number of target Aura and/or Equipment cards from your graveyard to the battlefield attached to enchanted creature.\nEnchanted creature gets +1/+1 for each Aura and Equipment attached to it.",
             "toughness": null,
             "type": "Enchantment - Aura",
             "types": "Enchantment ",
