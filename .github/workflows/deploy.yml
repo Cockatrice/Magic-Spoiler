@@ -13,12 +13,12 @@ on:
     paths-ignore:
       - '**.md'
   schedule:
-    # every 6 hours = 4 times a day
+    # Every 6 hours = 4 times a day
     - cron: '0 */6 * * *'
 
 jobs:
   deploy:
-    # do not run the sheduled run on forks
+    # Do not run the scheduled workflow on forks
     if: github.event != 'schedule' || github.repository_owner == 'Cockatrice'
 
     runs-on: ubuntu-latest
@@ -59,7 +59,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           # name: 
-          path: ${{github.workspace}}/env.OUTPUT_PATH
+          path: ${{github.workspace}}/{{env.OUTPUT_PATH}}
           if-no-files-found: error
 
       - name: Deploy changes
