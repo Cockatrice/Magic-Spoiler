@@ -52,7 +52,18 @@ jobs:
         shell: bash
         run: python3 -m magic_spoiler
 
+      - name: Upload artifacts
+        # Run only when not triggered from master (=PR's)
+        # if: env.DEPLOY == 'false'
+        if: ${{github.event == 'pull_request'}}
+        uses: actions/upload-artifact@v2
+        with:
+          # name: 
+          path: .${{env.OUTPUT_PATH}}
+          if-no-files-found: error
+
       - name: Deploy changes
+        # Run only when triggered from master and changes are available
         if: env.DEPLOY == 'true' && steps.run.outputs.deploy == 'true'
         shell: bash
         working-directory: ${{env.OUTPUT_PATH}}
