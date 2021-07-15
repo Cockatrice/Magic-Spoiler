@@ -208,6 +208,7 @@ def open_header(card_xml_file: IO[Any]) -> None:
     :param card_xml_file: Card file path
     """
     card_xml_file.write(
+        "<?xml version='1.0' encoding='UTF-8'?>\n"
         "<cockatrice_carddatabase version='3'>\n"
         + "  <!--\n"
         + "  Created At: "
