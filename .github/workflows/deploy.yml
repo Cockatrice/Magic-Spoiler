@@ -54,11 +54,12 @@ jobs:
 
       - name: Upload artifacts
         # Run only when not triggered from master (=PR's)
-        if: env.DEPLOY == 'false'
+        # if: env.DEPLOY == 'false'
+        if: ${{github.event}} == 'pull_request'
         uses: actions/upload-artifact@v2
         with:
           # name: 
-          path: .${{env.OUTPUT_PATH}}
+          path: ${{github.workspace}}/env.OUTPUT_PATH
           if-no-files-found: error
 
       - name: Deploy changes
