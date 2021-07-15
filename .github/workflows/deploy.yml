@@ -62,7 +62,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           # name: 
-          path: ${{github.workspace}}/${{env.OUTPUT_PATH}}
+          path: ${{github.workspace}}/${{env.OUTPUT_PATH}}/spoiler.xml
           if-no-files-found: error
 
       - name: Deploy changes
