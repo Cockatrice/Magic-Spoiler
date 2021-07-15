@@ -25,7 +25,6 @@ jobs:
 
     env:
       DEPLOY: ${{github.ref == 'refs/heads/master'}}
-      # ARTIFACTS: ${{github.event == 'pull_request'}}
       OUTPUT_PATH: out
 
     steps:
@@ -56,13 +55,11 @@ jobs:
 
       - name: Upload artifacts
         # Run only when triggered from a PR
-        # if: env.DEPLOY == 'false'
-        # if: env.ARTIFACTS == 'true'
         if: ${{github.event}} == 'pull_request'
         uses: actions/upload-artifact@v2
         with:
-          # name: 
-          path: ${{github.workspace}}/${{env.OUTPUT_PATH}}/spoiler.xml
+          name: spoiler-output
+          path: ${{github.workspace}}/${{env.OUTPUT_PATH}}
           if-no-files-found: error
 
       - name: Deploy changes
