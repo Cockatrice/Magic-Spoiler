@@ -73,3 +73,4 @@ jobs:
           git add -A .
           git commit -m "Deploy: $GITHUB_SHA"
           git push
+          echo "See deployment: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$GITHUB_SHA"
