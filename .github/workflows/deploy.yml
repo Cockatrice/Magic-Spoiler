@@ -13,12 +13,12 @@ on:
     paths-ignore:
       - '**.md'
   schedule:
-    # every 6 hours = 4 times a day
-    - cron: '0 */6 * * *'
+    # Every 8 hours = 3 times a day
+    - cron: '0 */8 * * *'
 
 jobs:
   deploy:
-    # do not run the sheduled run on forks
+    # Do not run the scheduled workflow on forks
     if: github.event != 'schedule' || github.repository_owner == 'Cockatrice'
 
     runs-on: ubuntu-latest
@@ -32,6 +32,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Checkout output branch
+        # Run only when triggered from master
         if: env.DEPLOY == 'true'
         uses: actions/checkout@v2
         with:
@@ -52,7 +53,17 @@ jobs:
         shell: bash
         run: python3 -m magic_spoiler
 
+      - name: Upload artifacts
+        # Run only when triggered from a PR
+        if: ${{github.event}} == 'pull_request'
+        uses: actions/upload-artifact@v2
+        with:
+          name: spoiler-output
+          path: ${{github.workspace}}/${{env.OUTPUT_PATH}}
+          if-no-files-found: error
+
       - name: Deploy changes
+        # Run only when triggered from master and changes are available
         if: env.DEPLOY == 'true' && steps.run.outputs.deploy == 'true'
         shell: bash
         working-directory: ${{env.OUTPUT_PATH}}
