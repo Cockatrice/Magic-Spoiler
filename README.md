@@ -6,7 +6,7 @@
 
 # Magic-Spoiler [![Discord](https://img.shields.io/discord/314987288398659595?label=Discord&logo=discord&logoColor=white)](https://discord.gg/3Z9yzmA) [![Gitter Chat](https://img.shields.io/gitter/room/Cockatrice/Magic-Spoiler)](https://gitter.im/Cockatrice/Magic-Spoiler) #
 
-Magic-Spoiler is a Python script to querry the <i>[Scryfall](https://scryfall.com)</i> API to compile XML files (Cockatrice formatted) and application-ready JSON files (MTGJSON formatted) with information about spoiled cards from upcoming sets.
+Magic-Spoiler is a Python script to query the <i>[Scryfall](https://scryfall.com)</i> API to compile XML files (Cockatrice formatted) and application-ready JSON files (MTGJSON formatted) with information about spoiled cards from upcoming sets.
 
 ## Output [![Build Status](https://github.com/Cockatrice/Magic-Spoiler/workflows/Deploy/badge.svg?branch=master)](https://github.com/Cockatrice/Magic-Spoiler/actions?query=workflow%3ADeploy+event%3Aworkflow_dispatch+event%3Aschedule+branch%3Amaster) ##
 >**Enable "Download Spoilers Automatically" in `Cockatrice → Settings → Card Sources → Spoilers` to get updates automatically pushed to your client!**<br>
