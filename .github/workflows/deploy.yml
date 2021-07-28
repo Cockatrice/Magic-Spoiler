@@ -31,16 +31,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Checkout output branch
-        # Run only when triggered from master
-        if: env.DEPLOY == 'true'
-        uses: actions/checkout@v2
-        with:
-          ref: files
-          fetch-depth: 0
-          path: ${{env.OUTPUT_PATH}}
-
-      - name: Install requirements using pip
+      - name: Install requirements
         shell: bash
         env:
           CFLAGS: '-O0'
@@ -53,7 +44,7 @@ jobs:
         shell: bash
         run: python3 -m magic_spoiler
 
-      - name: Upload artifacts
+      - name: Upload script output
         # Run only when triggered from a PR
         if: github.event_name == 'pull_request'
         uses: actions/upload-artifact@v2
@@ -74,4 +65,31 @@ jobs:
           git commit -m "Deploy: $GITHUB_SHA"
           git push
           deploy_commit=`git rev-parse HEAD`
+          echo
           echo "See deployment: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$deploy_commit"
+
+      - name: Create release
+        # Run only
+        if: steps.configure.outputs.tag != null
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{github.token}}
+        with:
+          tag_name: ${{github.ref}}
+          release_name: Current Spoiler Season
+          body_path: link changelog (compare)
+          draft: false
+          prerelease: true
+          #TODO: do normal releases once spoiler season is over and archive output
+
+      - name: Upload to release
+        # Run only
+        if: matrix.package != 'skip' && needs.configure.outputs.tag != null
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{github.token}}
+        with:
+          upload_url: 
+          asset_path: ./out
+          asset_name: 
+          #TODO: upload several individual files from one run/directory
