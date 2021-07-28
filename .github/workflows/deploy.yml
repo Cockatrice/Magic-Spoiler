@@ -40,7 +40,7 @@ jobs:
           fetch-depth: 0
           path: ${{env.OUTPUT_PATH}}
 
-      - name: Install requirements using pip
+      - name: Install requirements
         shell: bash
         env:
           CFLAGS: '-O0'
@@ -53,7 +53,7 @@ jobs:
         shell: bash
         run: python3 -m magic_spoiler
 
-      - name: Upload artifacts
+      - name: Upload script output
         # Run only when triggered from a PR
         if: github.event_name == 'pull_request'
         uses: actions/upload-artifact@v2
@@ -74,4 +74,5 @@ jobs:
           git commit -m "Deploy: $GITHUB_SHA"
           git push
           deploy_commit=`git rev-parse HEAD`
+          echo
           echo "See deployment: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$deploy_commit"
