@@ -75,4 +75,5 @@ jobs:
           git push
           deploy_commit=`git rev-parse HEAD`
           echo
-          echo "See deployment: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$deploy_commit"
+          echo "Deploy commit/diff: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$deploy_commit"
+          echo "Deployed files: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/tree/$deploy_commit"
