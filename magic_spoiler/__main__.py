@@ -389,7 +389,7 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
     output_file_name = "spoiler.xml"
 
     pathlib.Path("out").mkdir(parents=True, exist_ok=True)
-    card_xml_file = OUTPUT_TMP_DIR.joinpath(output_file_name).open("w")
+    card_xml_file = OUTPUT_TMP_DIR.joinpath(output_file_name).open("w", encoding="utf-8")
 
     # Fill in set headers
     open_header(card_xml_file)
@@ -429,7 +429,7 @@ def write_spoilers_json(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
     output_file_path = OUTPUT_TMP_DIR.joinpath("spoiler.json")
 
     OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
-    with output_file_path.open("w") as f:
+    with output_file_path.open("w", encoding="utf-8") as f:
         json.dump(trice_dicts, f, sort_keys=True, indent=4)
 
     # If content didn't change, discard newest creation
@@ -456,8 +456,8 @@ def compare_json_content(f1: str, f2: str) -> bool:
     file2 = pathlib.Path(f2)
 
     if file1.is_file() and file2.is_file():
-        f1_hash = hashlib.sha512(file1.open("r").read().encode()).hexdigest()
-        f2_hash = hashlib.sha512(file2.open("r").read().encode()).hexdigest()
+        f1_hash = hashlib.sha512(file1.open("rb").read().encode()).hexdigest()
+        f2_hash = hashlib.sha512(file2.open("rb").read().encode()).hexdigest()
 
         return f1_hash == f2_hash
 
@@ -502,7 +502,9 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
         return False
 
     OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
-    card_xml_file = OUTPUT_TMP_DIR.joinpath("{}.xml".format(set_obj["code"])).open("w")
+    set_code = set_obj["code"]
+    file_path = OUTPUT_TMP_DIR.joinpath(f"{set_code}.xml")
+    card_xml_file = file_path.open("w", encoding="utf-8")
 
     open_header(card_xml_file)
     fill_header_sets(card_xml_file, set_obj)
@@ -539,7 +541,7 @@ def write_set_json(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) ->
     output_file_path = OUTPUT_TMP_DIR.joinpath("{}.json".format(set_obj["code"]))
 
     OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
-    with output_file_path.open("w") as f:
+    with output_file_path.open("w", encoding="utf-8") as f:
         json.dump(trice_dict, f, sort_keys=True, indent=4)
 
     # If content didn't change, discard newest creation
@@ -604,10 +606,11 @@ def delete_old_files() -> bool:
     if OUTPUT_TMP_DIR.is_dir():
         shutil.rmtree(OUTPUT_TMP_DIR)
 
+    enabled_path = OUTPUT_DIR.joinpath("SpoilerSeasonEnabled")
     if not SPOILER_SETS.get():
-        OUTPUT_DIR.joinpath("SpoilerSeasonEnabled").unlink(missing_ok=True)
+        enabled_path.unlink(missing_ok=True)
     else:
-        OUTPUT_DIR.joinpath("SpoilerSeasonEnabled").open("w").write(" ")
+        enabled_path.open("w", encoding="utf-8").write(" ")
 
     return deleted
 
