@@ -456,7 +456,6 @@ def compare_json_content(f1: str, f2: str) -> bool:
     file2 = pathlib.Path(f2)
 
     if file1.is_file() and file2.is_file():
-        f1_hash = hashlib.sha512(file1.open("rb").read().encode()).hexdigest()
         f1_hash = hashlib.sha512(file1.open("rb").read()).hexdigest()
         f2_hash = hashlib.sha512(file2.open("rb").read()).hexdigest()
 
