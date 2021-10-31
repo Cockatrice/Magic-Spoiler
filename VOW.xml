@@ -7,25 +7,7 @@
   -->
   <sets>
     <set>
-      <name>CC2~</name>
-      <longname>Commander Collection: Black</longname>
-      <settype>From The Vault</settype>
-      <releasedate>2022-01-28</releasedate>
-    </set>
-    <set>
-      <name>DBL~</name>
-      <longname>Innistrad: Double Feature</longname>
-      <settype>Draft Innovation</settype>
-      <releasedate>2022-01-28</releasedate>
-    </set>
-    <set>
-      <name>VOC~</name>
-      <longname>Crimson Vow Commander</longname>
-      <settype>Commander</settype>
-      <releasedate>2021-11-19</releasedate>
-    </set>
-    <set>
-      <name>VOW~</name>
+      <name>VOW</name>
       <longname>Innistrad: Crimson Vow</longname>
       <settype>Expansion</settype>
       <releasedate>2021-11-19</releasedate>
@@ -33,205 +15,8 @@
   </sets>
   <cards>
     <card>
-      <name>Command Tower</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/d/5d09a20e-ee6e-44f3-9e86-d35c10e00844.jpg">CC2~</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Land</type>
-      <loyalty>None</loyalty>
-      <tablerow>0</tablerow>
-      <text>{T}: Add one mana of any color in your commander's color identity.</text>
-    </card>
-    <card>
-      <name>Ghoulcaller Gisa</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/7/779e3944-4342-4151-9963-87e8d41fd2ff.jpg">CC2~</set>
-      <manacost>3BB</manacost>
-      <cmc>5.0</cmc>
-      <color>B</color>
-      <type>Legendary Creature - Human Wizard</type>
-      <pt>3/4</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>{B}, {T}, Sacrifice another creature: Create X 2/2 black Zombie creature tokens, where X is the sacrificed creature's power.</text>
-    </card>
-    <card>
-      <name>Liliana, Heretical Healer</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8b718d8-fca3-4b3e-9448-6067c8656a9a.jpg">CC2~</set>
-      <manacost>1BB</manacost>
-      <cmc>3.0</cmc>
-      <color>B</color>
-      <type>Legendary Creature - Human Cleric</type>
-      <pt>2/3</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>LifelinkWhenever another nontoken creature you control dies, exile Liliana, Heretical Healer, then return her to the battlefield transformed under her owner's control. If you do, create a 2/2 black Zombie creature token.</text>
-    </card>
-    <card>
-      <name>Liliana, Defiant Necromancer</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/d/8/d8b718d8-fca3-4b3e-9448-6067c8656a9a.jpg">CC2~</set>
-      <manacost/>
-      <cmc>3.0</cmc>
-      <color>B</color>
-      <type>Legendary Planeswalker - Liliana</type>
-      <loyalty>3</loyalty>
-      <tablerow>1</tablerow>
-      <text>+2: Each player discards a card.&#8722;X: Return target nonlegendary creature card with mana value X from your graveyard to the battlefield.&#8722;8: You get an emblem with "Whenever a creature dies, return it to the battlefield under your control at the beginning of the next end step."</text>
-    </card>
-    <card>
-      <name>Ophiomancer</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0ef8d3a2-5c6b-41e2-aa7d-81e4a5d04421.jpg">CC2~</set>
-      <manacost>2B</manacost>
-      <cmc>3.0</cmc>
-      <color>B</color>
-      <type>Creature - Human Shaman</type>
-      <pt>2/2</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>At the beginning of each upkeep, if you control no Snakes, create a 1/1 black Snake creature token with deathtouch.</text>
-    </card>
-    <card>
-      <name>Phyrexian Arena</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/4/b4142d3b-9c17-4a26-949e-3fc3e600fd1c.jpg">CC2~</set>
-      <manacost>1BB</manacost>
-      <cmc>3.0</cmc>
-      <color>B</color>
-      <type>Enchantment</type>
-      <loyalty>None</loyalty>
-      <tablerow>1</tablerow>
-      <text>At the beginning of your upkeep, you draw a card and you lose 1 life.</text>
-    </card>
-    <card>
-      <name>Reanimate</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/2/d27c6aaa-289e-451e-8fde-97a044c53fc4.jpg">CC2~</set>
-      <manacost>B</manacost>
-      <cmc>1.0</cmc>
-      <color>B</color>
-      <type>Sorcery</type>
-      <loyalty>None</loyalty>
-      <tablerow>3</tablerow>
-      <text>Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its mana value.</text>
-    </card>
-    <card>
-      <name>Snake // Zombie</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/13e4832d-8530-4b85-b738-51d0c18f28ec.jpg">CC2~</set>
-      <manacost/>
-      <cmc>0.0</cmc>
-      <type>Token Creature - Snake // Token Creature - Zombie</type>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text/>
-    </card>
-    <card>
-      <name>Sol Ring</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/acce65cc-9093-45a6-8c86-97edce545050.jpg">CC2~</set>
-      <manacost>1</manacost>
-      <cmc>1.0</cmc>
-      <type>Artifact</type>
-      <loyalty>None</loyalty>
-      <tablerow>1</tablerow>
-      <text>{T}: Add {C}{C}.</text>
-    </card>
-    <card>
-      <name>Toxic Deluge</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/b/db34617f-b04f-4b65-84cf-5c5be1eb7226.jpg">CC2~</set>
-      <manacost>2B</manacost>
-      <cmc>3.0</cmc>
-      <color>B</color>
-      <type>Sorcery</type>
-      <loyalty>None</loyalty>
-      <tablerow>3</tablerow>
-      <text>As an additional cost to cast this spell, pay X life.All creatures get -X/-X until end of turn.</text>
-    </card>
-    <card>
-      <name>Torens, Fist of the Angels</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/5/e52fbb3a-f366-4c78-a617-3abbe08c4f47.jpg">DBL~</set>
-      <manacost>1GW</manacost>
-      <cmc>3.0</cmc>
-      <color>G</color>
-      <color>W</color>
-      <type>Legendary Creature - Human Cleric</type>
-      <pt>2/2</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)Whenever you cast a creature spell, create a 1/1 green and white Human Soldier creature token with training.</text>
-    </card>
-    <card>
-      <name>Millicent, Restless Revenant</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/b/2b86b538-0766-440d-a2cd-f5d5bfcfb010.jpg">VOC~</set>
-      <manacost>5WU</manacost>
-      <cmc>7.0</cmc>
-      <color>U</color>
-      <color>W</color>
-      <type>Legendary Creature - Spirit Soldier</type>
-      <pt>4/4</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>This spell costs {1} less to cast for each Spirit you control.FlyingWhenever Millicent, Restless Revenant or another nontoken Spirit you control dies or deals damage to a player, create a 1/1 white Spirit creature token with flying.</text>
-    </card>
-    <card>
-      <name>Millicent, Restless Revenant</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/2/520904b2-6358-4419-b66b-62566c2b49b3.jpg">VOC~</set>
-      <manacost>5WU</manacost>
-      <cmc>7.0</cmc>
-      <color>U</color>
-      <color>W</color>
-      <type>Legendary Creature - Spirit Soldier</type>
-      <pt>4/4</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>This spell costs {1} less to cast for each Spirit you control.FlyingWhenever Millicent, Restless Revenant or another nontoken Spirit you control dies or deals damage to a player, create a 1/1 white Spirit creature token with flying.</text>
-    </card>
-    <card>
-      <name>Strefan, Maurer Progenitor</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/f/8f54c6ce-fde4-47ef-a106-5c68b4397f99.jpg">VOC~</set>
-      <manacost>2BR</manacost>
-      <cmc>4.0</cmc>
-      <color>B</color>
-      <color>R</color>
-      <type>Legendary Creature - Vampire Noble</type>
-      <pt>3/2</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>FlyingWe the beginning of your end step, create a Blood token for each player who lost life this turn.Whenever Strefan, Maurer Progenitor attacks, you may sacrifice two Blood tokens. If you do, you may put a Vampire card from your hand onto the battlefield tapped and attacking. It gains indestructible until end of turn.</text>
-    </card>
-    <card>
-      <name>Strefan, Maurer Progenitor</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6d37e626-1f2e-4c26-a6a3-93eaddee1233.jpg">VOC~</set>
-      <manacost>2BR</manacost>
-      <cmc>4.0</cmc>
-      <color>B</color>
-      <color>R</color>
-      <type>Legendary Creature - Vampire Noble</type>
-      <pt>3/2</pt>
-      <loyalty>None</loyalty>
-      <tablerow>2</tablerow>
-      <text>FlyingWe the beginning of your end step, create a Blood token for each player who lost life this turn.Whenever Strefan, Maurer Progenitor attacks, you may sacrifice two Blood tokens. If you do, you may put a Vampire card from your hand onto the battlefield tapped and attacking. It gains indestructible until end of turn.</text>
-    </card>
-    <card>
-      <name>Wedding Ring</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f0b1400-0608-47fd-9c73-b7730bcf6b7f.jpg">VOC~</set>
-      <manacost>2WW</manacost>
-      <cmc>4.0</cmc>
-      <color>W</color>
-      <type>Artifact</type>
-      <loyalty>None</loyalty>
-      <tablerow>1</tablerow>
-      <text>When Wedding Ring enters the battlefield, if it was cast, target opponent creates a token that's a copy of it.Whenever an opponent who controls an artifact named Wedding Ring draws a card during their turn, you draw a card.Whenever an opponent who controls an artifact named Wedding Ring gains life during their turn, you gain that much life.</text>
-    </card>
-    <card>
-      <name>Wedding Ring</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b3df33ee-0db7-4240-a6fe-9a9e130353ce.jpg">VOC~</set>
-      <manacost>2WW</manacost>
-      <cmc>4.0</cmc>
-      <color>W</color>
-      <type>Artifact</type>
-      <loyalty>None</loyalty>
-      <tablerow>1</tablerow>
-      <text>When Wedding Ring enters the battlefield, if it was cast, target opponent creates a token that's a copy of it.Whenever an opponent who controls an artifact named Wedding Ring draws a card during their turn, you draw a card.Whenever an opponent who controls an artifact named Wedding Ring gains life during their turn, you gain that much life.</text>
-    </card>
-    <card>
       <name>"Bedsheet Elemental"</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a16c0871-3f40-4d5a-9d21-e7f944b64a65.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a16c0871-3f40-4d5a-9d21-e7f944b64a65.jpg">VOW</set>
       <manacost>WW</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -243,7 +28,7 @@
     </card>
     <card>
       <name>"Closed Curtains"</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/1/612b2e6e-fe8d-49ad-b845-6fa7fa59ffd1.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/1/612b2e6e-fe8d-49ad-b845-6fa7fa59ffd1.jpg">VOW</set>
       <manacost>B</manacost>
       <cmc>1.0</cmc>
       <color>B</color>
@@ -255,7 +40,7 @@
     </card>
     <card>
       <name>"Uncovered Eye"</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/6/1/612b2e6e-fe8d-49ad-b845-6fa7fa59ffd1.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/6/1/612b2e6e-fe8d-49ad-b845-6fa7fa59ffd1.jpg">VOW</set>
       <manacost/>
       <cmc>1.0</cmc>
       <color>B</color>
@@ -267,7 +52,7 @@
     </card>
     <card>
       <name>"Frenetic Devils"</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b7912206-6de3-4085-b5f6-a2e90ea55b90.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b7912206-6de3-4085-b5f6-a2e90ea55b90.jpg">VOW</set>
       <manacost>4R</manacost>
       <cmc>5.0</cmc>
       <color>R</color>
@@ -279,7 +64,7 @@
     </card>
     <card>
       <name>"Overwhelming Wave"</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/5865f0f1-28a6-49ac-b61e-135845075d1f.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/5865f0f1-28a6-49ac-b61e-135845075d1f.jpg">VOW</set>
       <manacost>2UU</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -290,7 +75,7 @@
     </card>
     <card>
       <name>"Reachy Thingie"</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ceb84515-7b8f-444d-b6a9-61231621f9b7.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ceb84515-7b8f-444d-b6a9-61231621f9b7.jpg">VOW</set>
       <manacost>3U</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -302,7 +87,7 @@
     </card>
     <card>
       <name>"Grabby Stuff"</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/c/e/ceb84515-7b8f-444d-b6a9-61231621f9b7.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/c/e/ceb84515-7b8f-444d-b6a9-61231621f9b7.jpg">VOW</set>
       <manacost/>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -313,7 +98,7 @@
     </card>
     <card>
       <name>"Undead Stewart"</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c9b8582-8887-4652-82e2-f9b11ee21545.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c9b8582-8887-4652-82e2-f9b11ee21545.jpg">VOW</set>
       <manacost>1B</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -325,7 +110,7 @@
     </card>
     <card>
       <name>Anje, Maid of Dishonor</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1bfac4ab-97f1-448c-8554-42ed03eb5656.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1bfac4ab-97f1-448c-8554-42ed03eb5656.jpg">VOW</set>
       <manacost>2BR</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -338,7 +123,7 @@
     </card>
     <card>
       <name>Anje, Maid of Dishonor</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/4/d4dd1ee6-a9da-4c89-a3b8-b293ac28467f.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/4/d4dd1ee6-a9da-4c89-a3b8-b293ac28467f.jpg">VOW</set>
       <manacost>2BR</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -351,7 +136,7 @@
     </card>
     <card>
       <name>Apprentice Sharpshooter</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f03f0790-cdc9-4bb4-ae54-2c248435b0a4.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f03f0790-cdc9-4bb4-ae54-2c248435b0a4.jpg">VOW</set>
       <manacost>2G</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -363,7 +148,7 @@
     </card>
     <card>
       <name>Archghoul of Thraben</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/c/0cf81c9d-ddb2-470e-8a4a-590049713e95.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/c/0cf81c9d-ddb2-470e-8a4a-590049713e95.jpg">VOW</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -375,7 +160,7 @@
     </card>
     <card>
       <name>Biolume Egg</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/57039230-bf5a-4489-9dc1-37e27b17bd84.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/57039230-bf5a-4489-9dc1-37e27b17bd84.jpg">VOW</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -387,7 +172,7 @@
     </card>
     <card>
       <name>Biolume Serpent</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/5/7/57039230-bf5a-4489-9dc1-37e27b17bd84.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/5/7/57039230-bf5a-4489-9dc1-37e27b17bd84.jpg">VOW</set>
       <manacost/>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -399,7 +184,7 @@
     </card>
     <card>
       <name>By Invitation Only</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/ab11a4db-5504-4f52-9c2f-eae05a0a8415.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/ab11a4db-5504-4f52-9c2f-eae05a0a8415.jpg">VOW</set>
       <manacost>3WW</manacost>
       <cmc>5.0</cmc>
       <color>W</color>
@@ -410,7 +195,7 @@
     </card>
     <card>
       <name>By Invitation Only</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/46764e49-64da-4a94-b61c-75e006b2c5a9.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/46764e49-64da-4a94-b61c-75e006b2c5a9.jpg">VOW</set>
       <manacost>3WW</manacost>
       <cmc>5.0</cmc>
       <color>W</color>
@@ -421,7 +206,7 @@
     </card>
     <card>
       <name>Cemetery Protector</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/a/8aa2f823-d66d-42b0-ab3c-180b9a927cb1.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/a/8aa2f823-d66d-42b0-ab3c-180b9a927cb1.jpg">VOW</set>
       <manacost>2WW</manacost>
       <cmc>4.0</cmc>
       <color>W</color>
@@ -433,7 +218,7 @@
     </card>
     <card>
       <name>Cemetery Protector</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/0/c00731eb-69fe-42f3-9919-66a4cdec00f7.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/0/c00731eb-69fe-42f3-9919-66a4cdec00f7.jpg">VOW</set>
       <manacost>2WW</manacost>
       <cmc>4.0</cmc>
       <color>W</color>
@@ -445,7 +230,7 @@
     </card>
     <card>
       <name>Change of Fortune</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/3/63ca5ce5-94e7-43a1-8f2b-f0a4532f617a.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/3/63ca5ce5-94e7-43a1-8f2b-f0a4532f617a.jpg">VOW</set>
       <manacost>3R</manacost>
       <cmc>4.0</cmc>
       <color>R</color>
@@ -456,7 +241,7 @@
     </card>
     <card>
       <name>Change of Fortune</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31e09ecd-a8fc-45a6-a997-49b0fc5c88b9.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31e09ecd-a8fc-45a6-a997-49b0fc5c88b9.jpg">VOW</set>
       <manacost>3R</manacost>
       <cmc>4.0</cmc>
       <color>R</color>
@@ -467,7 +252,7 @@
     </card>
     <card>
       <name>Dawnhart Geist</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a1d27617-2d3d-44a1-b93f-0694253b6774.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a1d27617-2d3d-44a1-b93f-0694253b6774.jpg">VOW</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -479,7 +264,7 @@
     </card>
     <card>
       <name>Deathcap Glade</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/5/d5523659-98a8-4ae2-9ec7-d77e7352c374.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/5/d5523659-98a8-4ae2-9ec7-d77e7352c374.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <cipt>1</cipt>
@@ -490,7 +275,7 @@
     </card>
     <card>
       <name>Deathcap Glade</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/1/619474c0-2978-4152-9943-292707d99fb3.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/1/619474c0-2978-4152-9943-292707d99fb3.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <cipt>1</cipt>
@@ -501,7 +286,7 @@
     </card>
     <card>
       <name>Demonic Bargain</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/0/80c3741e-cf04-4aa2-a6a9-ce19f043b22c.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/0/80c3741e-cf04-4aa2-a6a9-ce19f043b22c.jpg">VOW</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -512,7 +297,7 @@
     </card>
     <card>
       <name>Demonic Bargain</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/df5603d9-085c-48ac-b78b-5d95f412e577.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/df5603d9-085c-48ac-b78b-5d95f412e577.jpg">VOW</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -523,7 +308,7 @@
     </card>
     <card>
       <name>Dig Up</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/f/8f14c947-2452-4fd6-8f1a-391cf5898100.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/f/8f14c947-2452-4fd6-8f1a-391cf5898100.jpg">VOW</set>
       <manacost>G</manacost>
       <cmc>1.0</cmc>
       <color>G</color>
@@ -534,7 +319,7 @@
     </card>
     <card>
       <name>Dig Up</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/078d0194-0137-45cd-977a-eefae67f9bca.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/078d0194-0137-45cd-977a-eefae67f9bca.jpg">VOW</set>
       <manacost>G</manacost>
       <cmc>1.0</cmc>
       <color>G</color>
@@ -545,7 +330,7 @@
     </card>
     <card>
       <name>Dominating Vampire</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b11d234-c6e4-45b2-a3c2-dcacc77cc084.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b11d234-c6e4-45b2-a3c2-dcacc77cc084.jpg">VOW</set>
       <manacost>1RR</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -557,7 +342,7 @@
     </card>
     <card>
       <name>Dominating Vampire</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/213112df-439b-454e-ade4-90e4176411c5.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/213112df-439b-454e-ade4-90e4176411c5.jpg">VOW</set>
       <manacost>1RR</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -569,7 +354,7 @@
     </card>
     <card>
       <name>Dominating Vampire</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4acfc15c-048a-4e16-94f5-935f0e9ba068.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4acfc15c-048a-4e16-94f5-935f0e9ba068.jpg">VOW</set>
       <manacost>1RR</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -581,7 +366,7 @@
     </card>
     <card>
       <name>Dormant Grove</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7d3012e-1798-4f72-8d9a-b2d16f817502.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7d3012e-1798-4f72-8d9a-b2d16f817502.jpg">VOW</set>
       <manacost>3G</manacost>
       <cmc>4.0</cmc>
       <color>G</color>
@@ -592,7 +377,7 @@
     </card>
     <card>
       <name>Gnarled Grovestrider</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/e/7/e7d3012e-1798-4f72-8d9a-b2d16f817502.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/e/7/e7d3012e-1798-4f72-8d9a-b2d16f817502.jpg">VOW</set>
       <manacost/>
       <cmc>4.0</cmc>
       <color>G</color>
@@ -604,7 +389,7 @@
     </card>
     <card>
       <name>Dorothea, Vengeful Victim</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8c927707-abb5-4a9d-ac53-25df182d6e9b.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8c927707-abb5-4a9d-ac53-25df182d6e9b.jpg">VOW</set>
       <manacost>WU</manacost>
       <cmc>2.0</cmc>
       <color>U</color>
@@ -617,7 +402,7 @@
     </card>
     <card>
       <name>Dorothea's Retribution</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/8/c/8c927707-abb5-4a9d-ac53-25df182d6e9b.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/8/c/8c927707-abb5-4a9d-ac53-25df182d6e9b.jpg">VOW</set>
       <manacost/>
       <cmc>2.0</cmc>
       <color>U</color>
@@ -629,7 +414,7 @@
     </card>
     <card>
       <name>Dorothea, Vengeful Victim</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff66ee02-6b68-405e-a5c0-f59bb8020865.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff66ee02-6b68-405e-a5c0-f59bb8020865.jpg">VOW</set>
       <manacost>WU</manacost>
       <cmc>2.0</cmc>
       <color>U</color>
@@ -642,7 +427,7 @@
     </card>
     <card>
       <name>Dorothea's Retribution</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/f/f/ff66ee02-6b68-405e-a5c0-f59bb8020865.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/f/f/ff66ee02-6b68-405e-a5c0-f59bb8020865.jpg">VOW</set>
       <manacost/>
       <cmc>2.0</cmc>
       <color>U</color>
@@ -654,7 +439,7 @@
     </card>
     <card>
       <name>Dreamroot Cascade</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb604455-c411-414d-a2ef-e7567ee86a4d.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb604455-c411-414d-a2ef-e7567ee86a4d.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <cipt>1</cipt>
@@ -665,7 +450,7 @@
     </card>
     <card>
       <name>Dreamroot Cascade</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/2997c3b1-0255-41be-9189-03da53838f63.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/2997c3b1-0255-41be-9189-03da53838f63.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <cipt>1</cipt>
@@ -676,7 +461,7 @@
     </card>
     <card>
       <name>Drogskol Infantry</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f88e269e-ff3d-4775-8520-5b7a6dddf23d.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f88e269e-ff3d-4775-8520-5b7a6dddf23d.jpg">VOW</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -688,7 +473,7 @@
     </card>
     <card>
       <name>Drogskol Armaments</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/f/8/f88e269e-ff3d-4775-8520-5b7a6dddf23d.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/f/8/f88e269e-ff3d-4775-8520-5b7a6dddf23d.jpg">VOW</set>
       <manacost/>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -699,7 +484,7 @@
     </card>
     <card>
       <name>Fell Stinger</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27347849-6c07-42c0-bee4-74f93d7ad511.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27347849-6c07-42c0-bee4-74f93d7ad511.jpg">VOW</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -711,7 +496,7 @@
     </card>
     <card>
       <name>Fell Stinger</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a53e7eb0-7468-41b7-aba8-f4977703f867.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a53e7eb0-7468-41b7-aba8-f4977703f867.jpg">VOW</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -723,7 +508,7 @@
     </card>
     <card>
       <name>Forest</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4c83b60-3d49-4fdc-a6b7-06d1a0c4a126.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4c83b60-3d49-4fdc-a6b7-06d1a0c4a126.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Forest</type>
@@ -733,7 +518,7 @@
     </card>
     <card>
       <name>Forest</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e8760175-e9bb-4ef9-87ca-591d1edd5163.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e8760175-e9bb-4ef9-87ca-591d1edd5163.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Forest</type>
@@ -743,7 +528,7 @@
     </card>
     <card>
       <name>Forest</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7ae6380e-b1b6-4a5a-a8d9-7cdf8eab3557.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7ae6380e-b1b6-4a5a-a8d9-7cdf8eab3557.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Forest</type>
@@ -753,7 +538,7 @@
     </card>
     <card>
       <name>Geistlight Snare</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5a081700-a29a-40ff-a198-00d32f0ea11d.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5a081700-a29a-40ff-a198-00d32f0ea11d.jpg">VOW</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -764,7 +549,7 @@
     </card>
     <card>
       <name>Geistlight Snare</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/7302b5da-cac5-4ce7-ad38-2ff4e410891b.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/7302b5da-cac5-4ce7-ad38-2ff4e410891b.jpg">VOW</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -775,7 +560,7 @@
     </card>
     <card>
       <name>Geralf, Visionary Stitcher</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/53c5d474-5620-4c5f-95a4-8a128825df83.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/53c5d474-5620-4c5f-95a4-8a128825df83.jpg">VOW</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -787,7 +572,7 @@
     </card>
     <card>
       <name>Geralf, Visionary Stitcher</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69890076-9cc4-434f-8618-63b00fdf4515.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69890076-9cc4-434f-8618-63b00fdf4515.jpg">VOW</set>
       <manacost>2U</manacost>
       <cmc>3.0</cmc>
       <color>U</color>
@@ -799,7 +584,7 @@
     </card>
     <card>
       <name>Gluttonous Guest</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/8/18c07288-1c71-4e71-bdf5-910eb583a1d8.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/8/18c07288-1c71-4e71-bdf5-910eb583a1d8.jpg">VOW</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -811,7 +596,7 @@
     </card>
     <card>
       <name>Gluttonous Guest</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6d6abfce-ffe0-4506-89f9-41c2820b188f.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6d6abfce-ffe0-4506-89f9-41c2820b188f.jpg">VOW</set>
       <manacost>2B</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -823,7 +608,7 @@
     </card>
     <card>
       <name>Grolnok, the Omnivore</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7aaba76b-9cec-4c2b-b0eb-8f44201f6422.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7aaba76b-9cec-4c2b-b0eb-8f44201f6422.jpg">VOW</set>
       <manacost>2GU</manacost>
       <cmc>4.0</cmc>
       <color>G</color>
@@ -836,7 +621,7 @@
     </card>
     <card>
       <name>Grolnok, the Omnivore</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0b51e8d9-a837-4b53-8943-220c0e1d4c3c.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0b51e8d9-a837-4b53-8943-220c0e1d4c3c.jpg">VOW</set>
       <manacost>2GU</manacost>
       <cmc>4.0</cmc>
       <color>G</color>
@@ -849,7 +634,7 @@
     </card>
     <card>
       <name>Gryff Rider</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/5317077b-370e-41a9-9162-c713362fd7f4.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/5317077b-370e-41a9-9162-c713362fd7f4.jpg">VOW</set>
       <manacost>2W</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -861,7 +646,7 @@
     </card>
     <card>
       <name>Halana and Alena, Partners</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/608fa232-f5fe-4c58-9efe-fb780f454b19.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/608fa232-f5fe-4c58-9efe-fb780f454b19.jpg">VOW</set>
       <manacost>2RG</manacost>
       <cmc>4.0</cmc>
       <color>G</color>
@@ -874,7 +659,7 @@
     </card>
     <card>
       <name>Halana and Alena, Partners</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87684bef-8ef9-4709-a50e-fa5ff2f67acc.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87684bef-8ef9-4709-a50e-fa5ff2f67acc.jpg">VOW</set>
       <manacost>2RG</manacost>
       <cmc>4.0</cmc>
       <color>G</color>
@@ -887,7 +672,7 @@
     </card>
     <card>
       <name>Hallowed Haunting</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/7/674c0a50-9c37-4c29-84d8-eb3e34f34d37.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/7/674c0a50-9c37-4c29-84d8-eb3e34f34d37.jpg">VOW</set>
       <manacost>2WW</manacost>
       <cmc>4.0</cmc>
       <color>W</color>
@@ -898,7 +683,7 @@
     </card>
     <card>
       <name>Hallowed Haunting</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d0904640-40e8-45bf-ac9c-94b1dd0bab8f.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d0904640-40e8-45bf-ac9c-94b1dd0bab8f.jpg">VOW</set>
       <manacost>2WW</manacost>
       <cmc>4.0</cmc>
       <color>W</color>
@@ -909,7 +694,7 @@
     </card>
     <card>
       <name>Innocent Traveler</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/13a5e5fd-a67a-4c0e-97ae-923bdbc1be20.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/13a5e5fd-a67a-4c0e-97ae-923bdbc1be20.jpg">VOW</set>
       <manacost>2BB</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -921,7 +706,7 @@
     </card>
     <card>
       <name>Malicious Invader</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/1/3/13a5e5fd-a67a-4c0e-97ae-923bdbc1be20.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/1/3/13a5e5fd-a67a-4c0e-97ae-923bdbc1be20.jpg">VOW</set>
       <manacost/>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -933,7 +718,7 @@
     </card>
     <card>
       <name>Investigator's Journal</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f8a606e5-7a90-4a89-b51a-7f4e68705f97.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f8a606e5-7a90-4a89-b51a-7f4e68705f97.jpg">VOW</set>
       <manacost>2</manacost>
       <cmc>2.0</cmc>
       <type>Artifact - Clue</type>
@@ -943,7 +728,7 @@
     </card>
     <card>
       <name>Investigator's Journal</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/f/1f35a26f-f31e-497c-a604-0157f81a3540.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/f/1f35a26f-f31e-497c-a604-0157f81a3540.jpg">VOW</set>
       <manacost>2</manacost>
       <cmc>2.0</cmc>
       <type>Artifact - Clue</type>
@@ -953,7 +738,7 @@
     </card>
     <card>
       <name>Island</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54ddd3aa-593c-4adb-b591-33c15d02131c.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54ddd3aa-593c-4adb-b591-33c15d02131c.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Island</type>
@@ -963,7 +748,7 @@
     </card>
     <card>
       <name>Island</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54591ec7-94a1-470c-927a-788b6a514444.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54591ec7-94a1-470c-927a-788b6a514444.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Island</type>
@@ -973,7 +758,7 @@
     </card>
     <card>
       <name>Island</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f82b281f-d3c7-4eb8-9a10-b4808ca6cfcd.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f82b281f-d3c7-4eb8-9a10-b4808ca6cfcd.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Island</type>
@@ -983,7 +768,7 @@
     </card>
     <card>
       <name>Kindly Ancestor</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/5/25193485-7f41-4b05-9a69-4c112679f97c.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/5/25193485-7f41-4b05-9a69-4c112679f97c.jpg">VOW</set>
       <manacost>2W</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -995,7 +780,7 @@
     </card>
     <card>
       <name>Ancestor's Embrace</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/2/5/25193485-7f41-4b05-9a69-4c112679f97c.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/2/5/25193485-7f41-4b05-9a69-4c112679f97c.jpg">VOW</set>
       <manacost/>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -1006,7 +791,7 @@
     </card>
     <card>
       <name>Manaform Hellkite</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/2/52e59170-aa80-45e1-ad0d-ce4818e78d2a.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/2/52e59170-aa80-45e1-ad0d-ce4818e78d2a.jpg">VOW</set>
       <manacost>2RR</manacost>
       <cmc>4.0</cmc>
       <color>R</color>
@@ -1018,7 +803,7 @@
     </card>
     <card>
       <name>Massive Might</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a5cd50b-4825-4d85-b0f9-e2a51d2a7df1.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a5cd50b-4825-4d85-b0f9-e2a51d2a7df1.jpg">VOW</set>
       <manacost>G</manacost>
       <cmc>1.0</cmc>
       <color>G</color>
@@ -1029,7 +814,7 @@
     </card>
     <card>
       <name>Mindleech Ghoul</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f5c4e00d-128a-4ddb-9e1b-3ee93121b262.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f5c4e00d-128a-4ddb-9e1b-3ee93121b262.jpg">VOW</set>
       <manacost>1B</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -1041,7 +826,7 @@
     </card>
     <card>
       <name>Mountain</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/a/8a4448b6-0dbe-427c-b145-8ac915fc0dfc.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/a/8a4448b6-0dbe-427c-b145-8ac915fc0dfc.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Mountain</type>
@@ -1051,7 +836,7 @@
     </card>
     <card>
       <name>Mountain</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a6f72e53-52bb-4cf4-9b8b-34ed0c5f7c3c.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a6f72e53-52bb-4cf4-9b8b-34ed0c5f7c3c.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Mountain</type>
@@ -1061,7 +846,7 @@
     </card>
     <card>
       <name>Mountain</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b86fbf78-57ec-4a0f-9fb6-e4bf13861563.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b86fbf78-57ec-4a0f-9fb6-e4bf13861563.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Mountain</type>
@@ -1071,7 +856,7 @@
     </card>
     <card>
       <name>Olivia, Crimson Bride</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/301dacc9-ef92-4515-b907-a70d6c3fd73e.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/301dacc9-ef92-4515-b907-a70d6c3fd73e.jpg">VOW</set>
       <manacost>4BR</manacost>
       <cmc>6.0</cmc>
       <color>B</color>
@@ -1084,7 +869,7 @@
     </card>
     <card>
       <name>Olivia, Crimson Bride</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/9/7964ed78-c0c2-4555-bc25-b0eac14d0b34.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/9/7964ed78-c0c2-4555-bc25-b0eac14d0b34.jpg">VOW</set>
       <manacost>4BR</manacost>
       <cmc>6.0</cmc>
       <color>B</color>
@@ -1097,7 +882,7 @@
     </card>
     <card>
       <name>Olivia, Crimson Bride</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0d5552d3-6860-42e5-8a13-1d36dce77322.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0d5552d3-6860-42e5-8a13-1d36dce77322.jpg">VOW</set>
       <manacost>4BR</manacost>
       <cmc>6.0</cmc>
       <color>B</color>
@@ -1110,7 +895,7 @@
     </card>
     <card>
       <name>Overcharged Amalgam</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f8d93bf-8836-469e-a28c-39633959a212.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f8d93bf-8836-469e-a28c-39633959a212.jpg">VOW</set>
       <manacost>2UU</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -1122,7 +907,7 @@
     </card>
     <card>
       <name>Overcharged Amalgam</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/b/dbbcd63d-6c25-47a6-a76c-ac53bf12949c.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/b/dbbcd63d-6c25-47a6-a76c-ac53bf12949c.jpg">VOW</set>
       <manacost>2UU</manacost>
       <cmc>4.0</cmc>
       <color>U</color>
@@ -1134,7 +919,7 @@
     </card>
     <card>
       <name>Packsong Pup</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/4/d43d9686-a5e4-413b-8a34-3430788dd1b9.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/4/d43d9686-a5e4-413b-8a34-3430788dd1b9.jpg">VOW</set>
       <manacost>1G</manacost>
       <cmc>2.0</cmc>
       <color>G</color>
@@ -1146,7 +931,7 @@
     </card>
     <card>
       <name>Path of Peril</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f0c5449a-d63b-4b22-9432-8f0365c3c4d9.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f0c5449a-d63b-4b22-9432-8f0365c3c4d9.jpg">VOW</set>
       <manacost>1BB</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -1157,7 +942,7 @@
     </card>
     <card>
       <name>Path of Peril</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/6/061be997-1519-41b6-9933-eb625db88eb2.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/6/061be997-1519-41b6-9933-eb625db88eb2.jpg">VOW</set>
       <manacost>1BB</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -1168,7 +953,7 @@
     </card>
     <card>
       <name>Plains</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/e/deabdaa1-6227-48e4-82d5-63a1771320b2.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/e/deabdaa1-6227-48e4-82d5-63a1771320b2.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Plains</type>
@@ -1178,7 +963,7 @@
     </card>
     <card>
       <name>Plains</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/b/2b069f97-735a-4d85-8504-b5a863bd659b.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/b/2b069f97-735a-4d85-8504-b5a863bd659b.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Plains</type>
@@ -1188,7 +973,7 @@
     </card>
     <card>
       <name>Plains</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/20ddb0be-d62d-46fa-b753-36dfab935e8a.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/20ddb0be-d62d-46fa-b753-36dfab935e8a.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Plains</type>
@@ -1198,7 +983,7 @@
     </card>
     <card>
       <name>Rending Flame</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/1/51332c31-41df-4379-aa63-6a734a4df618.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/1/51332c31-41df-4379-aa63-6a734a4df618.jpg">VOW</set>
       <manacost>2R</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -1209,7 +994,7 @@
     </card>
     <card>
       <name>Rot-Tide Gargantua</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1eafefd0-3a9e-400e-8c75-0825aeb2ded1.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1eafefd0-3a9e-400e-8c75-0825aeb2ded1.jpg">VOW</set>
       <manacost>3BB</manacost>
       <cmc>5.0</cmc>
       <color>B</color>
@@ -1221,7 +1006,7 @@
     </card>
     <card>
       <name>Runo Stromkirk</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/6/f6c0fca5-b759-4543-95e2-8d712aae5281.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/6/f6c0fca5-b759-4543-95e2-8d712aae5281.jpg">VOW</set>
       <manacost>1UB</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -1234,7 +1019,7 @@
     </card>
     <card>
       <name>Krothuss, Lord of the Deep</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/f/6/f6c0fca5-b759-4543-95e2-8d712aae5281.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/f/6/f6c0fca5-b759-4543-95e2-8d712aae5281.jpg">VOW</set>
       <manacost/>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -1247,7 +1032,7 @@
     </card>
     <card>
       <name>Runo Stromkirk</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/7/17171779-e5d2-4431-a92d-def5606e9825.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/7/17171779-e5d2-4431-a92d-def5606e9825.jpg">VOW</set>
       <manacost>1UB</manacost>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -1260,7 +1045,7 @@
     </card>
     <card>
       <name>Krothuss, Lord of the Deep</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/1/7/17171779-e5d2-4431-a92d-def5606e9825.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/1/7/17171779-e5d2-4431-a92d-def5606e9825.jpg">VOW</set>
       <manacost/>
       <cmc>3.0</cmc>
       <color>B</color>
@@ -1273,7 +1058,7 @@
     </card>
     <card>
       <name>Savior of Ollenbock</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/15a2d232-484c-4ec2-814b-e1018277a1ff.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/15a2d232-484c-4ec2-814b-e1018277a1ff.jpg">VOW</set>
       <manacost>1WW</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -1285,7 +1070,7 @@
     </card>
     <card>
       <name>Savior of Ollenbock</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/ba77e83b-1846-4c42-bea0-2e304429fbe0.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/ba77e83b-1846-4c42-bea0-2e304429fbe0.jpg">VOW</set>
       <manacost>1WW</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -1297,7 +1082,7 @@
     </card>
     <card>
       <name>Savior of Ollenbock</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/cec42176-cf5b-44b7-801a-2550a065692b.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/cec42176-cf5b-44b7-801a-2550a065692b.jpg">VOW</set>
       <manacost>1WW</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -1309,7 +1094,7 @@
     </card>
     <card>
       <name>Shattered Sanctum</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/d/ad44c9aa-eb8f-4200-8dfe-2af728d80083.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/d/ad44c9aa-eb8f-4200-8dfe-2af728d80083.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <cipt>1</cipt>
@@ -1320,7 +1105,7 @@
     </card>
     <card>
       <name>Sigarda's Summons</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/a/da14fe94-9a64-4e98-a827-0f4588a6d832.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/a/da14fe94-9a64-4e98-a827-0f4588a6d832.jpg">VOW</set>
       <manacost>4WW</manacost>
       <cmc>6.0</cmc>
       <color>W</color>
@@ -1331,7 +1116,7 @@
     </card>
     <card>
       <name>Sigarda's Summons</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a27f647a-d48e-4f53-ae5b-64c76f4fc745.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a27f647a-d48e-4f53-ae5b-64c76f4fc745.jpg">VOW</set>
       <manacost>4WW</manacost>
       <cmc>6.0</cmc>
       <color>W</color>
@@ -1342,7 +1127,7 @@
     </card>
     <card>
       <name>Sigarda's Summons</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/6/06242f90-5709-482c-8d45-a60a4dc9e8bc.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/6/06242f90-5709-482c-8d45-a60a4dc9e8bc.jpg">VOW</set>
       <manacost>4WW</manacost>
       <cmc>6.0</cmc>
       <color>W</color>
@@ -1353,7 +1138,7 @@
     </card>
     <card>
       <name>Sorin the Mirthless</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/cc7ff5f4-a7cc-41a1-a22b-8cf67ad18707.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/cc7ff5f4-a7cc-41a1-a22b-8cf67ad18707.jpg">VOW</set>
       <manacost>2BB</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -1364,7 +1149,7 @@
     </card>
     <card>
       <name>Sorin the Mirthless</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/1/112394a6-7819-43b4-adad-f6900aff2936.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/1/112394a6-7819-43b4-adad-f6900aff2936.jpg">VOW</set>
       <manacost>2BB</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -1375,7 +1160,7 @@
     </card>
     <card>
       <name>Sorin the Mirthless</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/1/51089813-8ad5-4ee0-af75-cfba870b675c.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/1/51089813-8ad5-4ee0-af75-cfba870b675c.jpg">VOW</set>
       <manacost>2BB</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -1386,7 +1171,7 @@
     </card>
     <card>
       <name>Sorin the Mirthless</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/260d784d-0213-44da-8f78-58968a185012.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/260d784d-0213-44da-8f78-58968a185012.jpg">VOW</set>
       <manacost>2BB</manacost>
       <cmc>4.0</cmc>
       <color>B</color>
@@ -1397,7 +1182,7 @@
     </card>
     <card>
       <name>Stormcarved Coast</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/299f1dee-b3d7-472b-aa0b-2f9b46a96da5.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/299f1dee-b3d7-472b-aa0b-2f9b46a96da5.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <cipt>1</cipt>
@@ -1408,7 +1193,7 @@
     </card>
     <card>
       <name>Stormcarved Coast</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e589848-2c25-43e8-a940-7769f7936815.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e589848-2c25-43e8-a940-7769f7936815.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <cipt>1</cipt>
@@ -1419,7 +1204,7 @@
     </card>
     <card>
       <name>Sundown Pass</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/f/8f3fddd7-ede4-41c7-a645-a6af298a3d35.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/f/8f3fddd7-ede4-41c7-a645-a6af298a3d35.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <cipt>1</cipt>
@@ -1430,7 +1215,7 @@
     </card>
     <card>
       <name>Sundown Pass</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f1e7d34-f250-4a61-a95b-75450d134eec.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f1e7d34-f250-4a61-a95b-75450d134eec.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <cipt>1</cipt>
@@ -1441,7 +1226,7 @@
     </card>
     <card>
       <name>Swamp</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4abfe418-15f8-46ce-9b39-fd5a38b25d12.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4abfe418-15f8-46ce-9b39-fd5a38b25d12.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Swamp</type>
@@ -1451,7 +1236,7 @@
     </card>
     <card>
       <name>Swamp</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/e/2e55a405-bf5b-4158-ba9a-239627ac9701.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/e/2e55a405-bf5b-4158-ba9a-239627ac9701.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Swamp</type>
@@ -1461,7 +1246,7 @@
     </card>
     <card>
       <name>Swamp</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be87de91-aa10-4ed8-83a2-261b4f57e7db.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be87de91-aa10-4ed8-83a2-261b4f57e7db.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Basic Land - Swamp</type>
@@ -1471,7 +1256,7 @@
     </card>
     <card>
       <name>Thalia, Guardian of Thraben</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4c7cbfc-e655-4f82-8bde-fbc95461361e.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4c7cbfc-e655-4f82-8bde-fbc95461361e.jpg">VOW</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -1483,7 +1268,7 @@
     </card>
     <card>
       <name>Thalia, Guardian of Thraben</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/8/1830002a-b512-4e51-b3fa-0137d2b4c749.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/8/1830002a-b512-4e51-b3fa-0137d2b4c749.jpg">VOW</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -1495,7 +1280,7 @@
     </card>
     <card>
       <name>Thalia, Guardian of Thraben</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c9f8b8fb-1cd8-450e-a1fe-892e7a323479.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c9f8b8fb-1cd8-450e-a1fe-892e7a323479.jpg">VOW</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -1507,7 +1292,7 @@
     </card>
     <card>
       <name>Torens, Fist of the Angels</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bd111dc9-b8de-4e92-a63d-75a961b2db3b.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bd111dc9-b8de-4e92-a63d-75a961b2db3b.jpg">VOW</set>
       <manacost>1GW</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -1520,7 +1305,7 @@
     </card>
     <card>
       <name>Torens, Fist of the Angels</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/162a3448-34fd-4de6-a6b4-f6d636eead8c.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/162a3448-34fd-4de6-a6b4-f6d636eead8c.jpg">VOW</set>
       <manacost>1GW</manacost>
       <cmc>3.0</cmc>
       <color>G</color>
@@ -1533,7 +1318,7 @@
     </card>
     <card>
       <name>Valorous Stance</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e6b9a3b-8a19-4094-8dbb-08a0a9ca04a0.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e6b9a3b-8a19-4094-8dbb-08a0a9ca04a0.jpg">VOW</set>
       <manacost>1W</manacost>
       <cmc>2.0</cmc>
       <color>W</color>
@@ -1544,7 +1329,7 @@
     </card>
     <card>
       <name>Vampires' Vengeance</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/20d2d886-13a2-44f1-966a-ec674622fd01.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/20d2d886-13a2-44f1-966a-ec674622fd01.jpg">VOW</set>
       <manacost>2R</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -1555,7 +1340,7 @@
     </card>
     <card>
       <name>Vampires' Vengeance</name>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/f/9f4ba693-0323-415d-ad91-c083fbbab7f7.jpg">VOW~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/f/9f4ba693-0323-415d-ad91-c083fbbab7f7.jpg">VOW</set>
       <manacost>2R</manacost>
       <cmc>3.0</cmc>
       <color>R</color>
@@ -1566,7 +1351,7 @@
     </card>
     <card>
       <name>Volatile Arsonist</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87a02ac1-c43a-43cc-9c2b-628cfdeb4cbf.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87a02ac1-c43a-43cc-9c2b-628cfdeb4cbf.jpg">VOW</set>
       <manacost>3RR</manacost>
       <cmc>5.0</cmc>
       <color>R</color>
@@ -1578,7 +1363,7 @@
     </card>
     <card>
       <name>Dire-Strain Anarchist</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/8/7/87a02ac1-c43a-43cc-9c2b-628cfdeb4cbf.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/8/7/87a02ac1-c43a-43cc-9c2b-628cfdeb4cbf.jpg">VOW</set>
       <manacost/>
       <cmc>5.0</cmc>
       <color>R</color>
@@ -1590,7 +1375,7 @@
     </card>
     <card>
       <name>Volatile Arsonist</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/2/52d94eb6-d96c-4b88-9450-b1ee472795fa.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/2/52d94eb6-d96c-4b88-9450-b1ee472795fa.jpg">VOW</set>
       <manacost>3RR</manacost>
       <cmc>5.0</cmc>
       <color>R</color>
@@ -1602,7 +1387,7 @@
     </card>
     <card>
       <name>Dire-Strain Anarchist</name>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/5/2/52d94eb6-d96c-4b88-9450-b1ee472795fa.jpg">VOW~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/5/2/52d94eb6-d96c-4b88-9450-b1ee472795fa.jpg">VOW</set>
       <manacost/>
       <cmc>5.0</cmc>
       <color>R</color>
@@ -1614,7 +1399,7 @@
     </card>
     <card>
       <name>Voldaren Bloodcaster</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/ca5297a5-bcaa-41fd-a397-e44dc4e00ba3.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/ca5297a5-bcaa-41fd-a397-e44dc4e00ba3.jpg">VOW</set>
       <manacost>1B</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -1626,7 +1411,7 @@
     </card>
     <card>
       <name>Bloodbat Summoner</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/c/a/ca5297a5-bcaa-41fd-a397-e44dc4e00ba3.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/c/a/ca5297a5-bcaa-41fd-a397-e44dc4e00ba3.jpg">VOW</set>
       <manacost/>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -1638,7 +1423,7 @@
     </card>
     <card>
       <name>Voldaren Bloodcaster</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/995a53e1-61ca-4635-96b0-c6f52c46da04.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/995a53e1-61ca-4635-96b0-c6f52c46da04.jpg">VOW</set>
       <manacost>1B</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -1650,7 +1435,7 @@
     </card>
     <card>
       <name>Bloodbat Summoner</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/9/9/995a53e1-61ca-4635-96b0-c6f52c46da04.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/9/9/995a53e1-61ca-4635-96b0-c6f52c46da04.jpg">VOW</set>
       <manacost/>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -1662,7 +1447,7 @@
     </card>
     <card>
       <name>Voldaren Bloodcaster</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/9/0954ed3d-a5d8-4330-b07c-bf3e51192e4b.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/9/0954ed3d-a5d8-4330-b07c-bf3e51192e4b.jpg">VOW</set>
       <manacost>1B</manacost>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -1674,7 +1459,7 @@
     </card>
     <card>
       <name>Bloodbat Summoner</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/0/9/0954ed3d-a5d8-4330-b07c-bf3e51192e4b.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/0/9/0954ed3d-a5d8-4330-b07c-bf3e51192e4b.jpg">VOW</set>
       <manacost/>
       <cmc>2.0</cmc>
       <color>B</color>
@@ -1686,7 +1471,7 @@
     </card>
     <card>
       <name>Voldaren Estate</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/5/2577e5fd-903a-44ce-989a-d53d56511ad3.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/5/2577e5fd-903a-44ce-989a-d53d56511ad3.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Land</type>
@@ -1696,7 +1481,7 @@
     </card>
     <card>
       <name>Voldaren Estate</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a2437225-d6a9-4cc6-9b3b-148f9300e6b1.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a2437225-d6a9-4cc6-9b3b-148f9300e6b1.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Land</type>
@@ -1706,7 +1491,7 @@
     </card>
     <card>
       <name>Voldaren Estate</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/43ec9524-0958-4ce5-b521-ce38dd54a9d1.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/43ec9524-0958-4ce5-b521-ce38dd54a9d1.jpg">VOW</set>
       <manacost/>
       <cmc>0.0</cmc>
       <type>Land</type>
@@ -1716,7 +1501,7 @@
     </card>
     <card>
       <name>Weary Prisoner</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e641467b-ac2e-4d29-aed7-5cc227c3b1ce.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e641467b-ac2e-4d29-aed7-5cc227c3b1ce.jpg">VOW</set>
       <manacost>3R</manacost>
       <cmc>4.0</cmc>
       <color>R</color>
@@ -1728,7 +1513,7 @@
     </card>
     <card>
       <name>Wrathful Jailbreaker</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/e/6/e641467b-ac2e-4d29-aed7-5cc227c3b1ce.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/e/6/e641467b-ac2e-4d29-aed7-5cc227c3b1ce.jpg">VOW</set>
       <manacost/>
       <cmc>4.0</cmc>
       <color>R</color>
@@ -1740,7 +1525,7 @@
     </card>
     <card>
       <name>Wedding Announcement</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f3e60e71-bf44-475b-bfce-815ad8abf9e2.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f3e60e71-bf44-475b-bfce-815ad8abf9e2.jpg">VOW</set>
       <manacost>2W</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -1751,7 +1536,7 @@
     </card>
     <card>
       <name>Wedding Festivity</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/f/3/f3e60e71-bf44-475b-bfce-815ad8abf9e2.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/f/3/f3e60e71-bf44-475b-bfce-815ad8abf9e2.jpg">VOW</set>
       <manacost/>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -1762,7 +1547,7 @@
     </card>
     <card>
       <name>Wedding Announcement</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c3ddb1f-a1de-4fea-9042-5e9caa16ceb2.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c3ddb1f-a1de-4fea-9042-5e9caa16ceb2.jpg">VOW</set>
       <manacost>2W</manacost>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -1773,7 +1558,7 @@
     </card>
     <card>
       <name>Wedding Festivity</name>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/2/c/2c3ddb1f-a1de-4fea-9042-5e9caa16ceb2.jpg">VOW~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/back/2/c/2c3ddb1f-a1de-4fea-9042-5e9caa16ceb2.jpg">VOW</set>
       <manacost/>
       <cmc>3.0</cmc>
       <color>W</color>
@@ -1784,7 +1569,7 @@
     </card>
     <card>
       <name>Wedding Invitation</name>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/d/ddc22ff6-4081-47ce-bc8a-e063f5f4d044.jpg">VOW~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/d/ddc22ff6-4081-47ce-bc8a-e063f5f4d044.jpg">VOW</set>
       <manacost>2</manacost>
       <cmc>2.0</cmc>
       <type>Artifact</type>
