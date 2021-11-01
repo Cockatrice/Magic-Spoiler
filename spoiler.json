@@ -291,6 +291,91 @@
     ],
     "DBL": [
         {
+            "artist": "Ryan Yee",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "With Thraben's army recalled to its city walls, outlying villages were left to fend for themselves.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{B}{B}",
+            "multiverseId": null,
+            "name": "Endless Ranks of the Dead",
+            "names": null,
+            "number": "535",
+            "power": null,
+            "rarity": "Rare",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "At the beginning of your upkeep, create X 2/2 black Zombie creature tokens, where X is half the number of Zombies you control, rounded down.",
+            "toughness": null,
+            "type": "Enchantment",
+            "types": "Enchantment",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/0/4070b947-1d40-4f86-bfed-59de52ddcb66.jpg"
+        },
+        {
+            "artist": "Chris Cold",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": "A heavy net doesn't always mean a good catch.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{U}",
+            "multiverseId": null,
+            "name": "Revenge of the Drowned",
+            "names": null,
+            "number": "72",
+            "power": null,
+            "rarity": "Common",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Target creature's owner puts it on the top or bottom of their library. You create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/0/401edb61-83f1-4a8d-ae91-58b62a9ced9c.jpg"
+        },
+        {
+            "artist": "Martina Fackova",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": "4",
+            "mana_cost": "{2}{B}{B}",
+            "multiverseId": null,
+            "name": "Sorin the Mirthless",
+            "names": null,
+            "number": "398",
+            "power": null,
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Sorin"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "+1: Look at the top card of your library. You may reveal that card and put it into your hand. If you do, you lose life equal to its mana value.\n\u22122: Create a 2/3 black Vampire creature token with flying and lifelink.\n\u22127: Sorin the Mirthless deals 13 damage to any target. You gain 13 life.",
+            "toughness": null,
+            "type": "Legendary Planeswalker - Sorin",
+            "types": " Planeswalker ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d1a38e25-297f-43e1-9455-73f00eb08cec.jpg"
+        },
+        {
             "artist": "Justine Cruz",
             "cmc": 3.0,
             "colorIdentity": [
@@ -734,6 +819,38 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/c/e/ceb84515-7b8f-444d-b6a9-61231621f9b7.jpg"
         },
         {
+            "artist": "Slawomir Maniak",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G",
+                "W"
+            ],
+            "colors": [
+                "G",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{2}{G}{W}",
+            "multiverseId": null,
+            "name": "\"Trainer Trainee\"",
+            "names": null,
+            "number": "247",
+            "power": "4",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Knight"
+            ],
+            "superTypes": [],
+            "text": "\"Trainer Trainee\" has trample and lifelink as long as you've put one or more +1/+1 counters on a creature this turn.\n{1}{G}{W}: Target creature you control with a +1/+1 counter on it gains trample and lifelink until end of turn.",
+            "toughness": "4",
+            "type": "Creature - Human Knight",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/34228fdd-e466-488e-84b2-4c595e758688.jpg"
+        },
+        {
             "artist": "Nestor Ossandon Leal",
             "cmc": 2.0,
             "colorIdentity": [
@@ -761,6 +878,36 @@
             "type": "Creature - Zombie",
             "types": "Creature ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c9b8582-8887-4652-82e2-f9b11ee21545.jpg"
+        },
+        {
+            "artist": "PINDURSKI",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "\"Stand strong. We will reclaim the dawn.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{3}{W}{W}",
+            "multiverseId": null,
+            "name": "Angelic Quartermaster",
+            "names": null,
+            "number": "2",
+            "power": "3",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Angel",
+                "Soldier"
+            ],
+            "superTypes": [],
+            "text": "Flying\nWhen Angelic Quartermaster enters the battlefield, put a +1/+1 counter on each of up to two other target creatures.",
+            "toughness": "3",
+            "type": "Creature - Angel Soldier",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/1/41d81b88-c19b-4148-89ba-ae8fb53843e1.jpg"
         },
         {
             "artist": "Yongjae Choi",
@@ -954,6 +1101,74 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/5/7/57039230-bf5a-4489-9dc1-37e27b17bd84.jpg"
         },
         {
+            "artist": "Olena Richards",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [
+                "U",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "{1}{W}{U}",
+            "multiverseId": null,
+            "name": "Brine Comber",
+            "names": [
+                "Brine Comber",
+                "Brinebound Gift"
+            ],
+            "number": "233a",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Spirit"
+            ],
+            "superTypes": [],
+            "text": "Whenever Brine Comber enters the battlefield or becomes the target of an Aura spell, create a 1/1 white Creature token with flying.\nDisturb {w}{U} (You may cast this card from your graveyard transformed for its disturb cost.)",
+            "toughness": "1",
+            "type": "Creature - Spirit",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/d/8d233bc5-8a08-4d38-abd4-21a112141afd.jpg"
+        },
+        {
+            "artist": "Olena Richards",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "U",
+                "W"
+            ],
+            "colors": [
+                "U",
+                "W"
+            ],
+            "flavor": null,
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Brinebound Gift",
+            "names": [
+                "Brine Comber",
+                "Brinebound Gift"
+            ],
+            "number": "233b",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Aura"
+            ],
+            "superTypes": [],
+            "text": "Enchant creature\nWhenever Brinebound Gift enters the battlefield or enchanted creature becomes the target of an Aura spell, create a 1/1 white Spirit creature token with flying.\nIf Brinebound Gift would be put into a graveyard from anywhere, exile it instead.",
+            "toughness": null,
+            "type": "Enchantment - Aura",
+            "types": "Enchantment ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/d/8d233bc5-8a08-4d38-abd4-21a112141afd.jpg"
+        },
+        {
             "artist": "Micah Epstein",
             "cmc": 5.0,
             "colorIdentity": [
@@ -1120,6 +1335,36 @@
             "type": "Sorcery",
             "types": "Sorcery",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31e09ecd-a8fc-45a6-a997-49b0fc5c88b9.jpg"
+        },
+        {
+            "artist": "Igor Kieryluk",
+            "cmc": 5.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{4}{G}",
+            "multiverseId": null,
+            "name": "Cloaked Cadet",
+            "names": null,
+            "number": "192",
+            "power": "2",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Human",
+                "Ranger"
+            ],
+            "superTypes": [],
+            "text": "Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)\nWhenever one or more +1/+1 counters are put on one or more Humans you control, draw a card. This ability triggers only once each turn.",
+            "toughness": "4",
+            "type": "Creature - Human Ranger",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/6/06d86c79-d2c7-4900-9474-4d4bc4c74d44.jpg"
         },
         {
             "artist": "Artur Treffner",
@@ -1603,6 +1848,35 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/f/f/ff66ee02-6b68-405e-a5c0-f59bb8020865.jpg"
         },
         {
+            "artist": "Andrew Mar",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": "By the sixth day of darkness, the lake was more blood than water.",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{B}{B}",
+            "multiverseId": null,
+            "name": "Dreadfeast Demon",
+            "names": null,
+            "number": "108",
+            "power": "6",
+            "rarity": "Rare",
+            "subTypes": [
+                "Demon"
+            ],
+            "superTypes": [],
+            "text": "Flying\nAt the beginning of your end step, sacrifice a non-Demon creature. If you do, create a token that's a copy of Dreadfeast Demon.",
+            "toughness": "6",
+            "type": "Creature - Demon",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/269199ea-2106-4299-ade0-10cce1320434.jpg"
+        },
+        {
             "artist": "Sam Burley",
             "cmc": 0.0,
             "colorIdentity": [
@@ -1718,6 +1992,71 @@
             "type": "Enchantment - Aura",
             "types": "Enchantment ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/f/8/f88e269e-ff3d-4775-8520-5b7a6dddf23d.jpg"
+        },
+        {
+            "artist": "Andrew Mar",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "When Harold ran from the wolves, the others called him a coward.",
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "{2}{R}",
+            "multiverseId": null,
+            "name": "Fearful Villager",
+            "names": [
+                "Fearful Villager",
+                "Fearsome Werewolf"
+            ],
+            "number": "157a",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Human",
+                "Werewolf"
+            ],
+            "superTypes": [],
+            "text": "Menace (This creature can't be blocked except by two or more creatures.)\nDaybound (If a player casts no spells during their own turn, it becomes night next turn.)",
+            "toughness": "3",
+            "type": "Creature - Human Werewolf",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/e/5eb3a08e-1d31-4ab9-854f-a86b060696ec.jpg"
+        },
+        {
+            "artist": "Andrew Mar",
+            "cmc": 3.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "Come nightfall, they were the ones fleeing in terror.",
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Fearsome Werewolf",
+            "names": [
+                "Fearful Villager",
+                "Fearsome Werewolf"
+            ],
+            "number": "157b",
+            "power": "4",
+            "rarity": "Common",
+            "subTypes": [
+                "Werewolf"
+            ],
+            "superTypes": [],
+            "text": "Menace (This creature can't be blocked except by two or more creatures.)\nNightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)",
+            "toughness": "3",
+            "type": "Creature - Werewolf",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/5/e/5eb3a08e-1d31-4ab9-854f-a86b060696ec.jpg"
         },
         {
             "artist": "Lars Grant-West",
@@ -2251,7 +2590,7 @@
             "names": null,
             "number": "349",
             "power": null,
-            "rarity": "Rare",
+            "rarity": "Mythic Rare",
             "subTypes": [],
             "superTypes": [],
             "text": "As long as you control seven or more enchantments, creatures you control have flying and vigilance.\nWhenever you cast an enchantment spell, create a white Spirit Cleric creature token with \"This creature's power and toughness are each equal to the number of Spirits you control.\"",
@@ -2462,6 +2801,36 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f82b281f-d3c7-4eb8-9a10-b4808ca6cfcd.jpg"
         },
         {
+            "artist": "",
+            "cmc": 1.0,
+            "colorIdentity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "flavor": "\"It's a perfect partnership. My village is safe from wolf attacks, and she gets to eat any vampires we catch.\"",
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{R}",
+            "multiverseId": null,
+            "name": "Kessig Wolfrider",
+            "names": null,
+            "number": "165",
+            "power": "1",
+            "rarity": "Rare",
+            "subTypes": [
+                "Human",
+                "Knight"
+            ],
+            "superTypes": [],
+            "text": "Menace\n{2}{R}, {T}, Exile three cards from your graveyard: Create a 3/2 red Wolf creature token.",
+            "toughness": "2",
+            "type": "Creature - Human Knight",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/8/180b1a4f-c071-4742-9c57-9d775be0ed4f.jpg"
+        },
+        {
             "artist": "Justyna Gil",
             "cmc": 3.0,
             "colorIdentity": [
@@ -2524,6 +2893,33 @@
             "type": "Enchantment - Aura",
             "types": "Enchantment ",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/2/5/25193485-7f41-4b05-9a69-4c112679f97c.jpg"
+        },
+        {
+            "artist": "Donato Giancola",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{1}{U}",
+            "multiverseId": null,
+            "name": "Lunar Rejection",
+            "names": null,
+            "number": "67",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [],
+            "superTypes": [],
+            "text": "Cleave {3}{U} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nReturn target [Wolf or Werewolf] creature to its owner's hand.\nDraw a card.",
+            "toughness": null,
+            "type": "Instant",
+            "types": "Instant",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0f66511c-355f-4e8a-96fc-3afc7a315231.jpg"
         },
         {
             "artist": "Andrew Mar",
@@ -3913,6 +4309,202 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/162a3448-34fd-4de6-a6b4-f6d636eead8c.jpg"
         },
         {
+            "artist": "Simon Dominic",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{B}{B}",
+            "multiverseId": null,
+            "name": "Toxrill, the Corrosive",
+            "names": null,
+            "number": "132",
+            "power": "7",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Slug",
+                "Horror"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "At the beginning of each end step, put a slime counter on each creature you don't control.\nCreatures you don't control get -1/-1 for each slime counter on them.\nWhenever a creature you don't control with a slime counter on it dies, create a 1/1 black Slug creature token.\n{U}{B}, Sacrifice a Slug: Draw a card.",
+            "toughness": "7",
+            "type": "Legendary Creature - Slug Horror",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/4/84e64f38-b1f3-47cd-8cfb-a4861369aca3.jpg"
+        },
+        {
+            "artist": "DZO",
+            "cmc": 7.0,
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "colors": [
+                "B"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{5}{B}{B}",
+            "multiverseId": null,
+            "name": "Toxrill, the Corrosive",
+            "names": null,
+            "number": "321",
+            "power": "7",
+            "rarity": "Mythic Rare",
+            "subTypes": [
+                "Slug",
+                "Horror"
+            ],
+            "superTypes": [
+                "Legendary"
+            ],
+            "text": "At the beginning of each end step, put a slime counter on each creature you don't control.\nCreatures you don't control get -1/-1 for each slime counter on them.\nWhenever a creature you don't control with a slime counter on it dies, create a 1/1 black Slug creature token.\n{U}{B}, Sacrifice a Slug: Draw a card.",
+            "toughness": "7",
+            "type": "Legendary Creature - Slug Horror",
+            "types": " Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/8/78808d46-a3a7-4598-bddf-a302977808fb.jpg"
+        },
+        {
+            "artist": "Tuan Duong Chu",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "She faced down a howlpack alone, saving her town at the cost of her life.",
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "{1}{W}",
+            "multiverseId": null,
+            "name": "Twinblade Geist",
+            "names": [
+                "Twinblade Geist",
+                "Twinblade Invocation"
+            ],
+            "number": "40a",
+            "power": "1",
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Spirit",
+                "Warrior"
+            ],
+            "superTypes": [],
+            "text": "Double strike\nDisturb {2}{W} (You may cast this card from your graveyard transformed for its disturb cost.)",
+            "toughness": "1",
+            "type": "Creature - Spirit Warrior",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/1/f1deb24b-3d8f-4251-a901-85eeb891f26f.jpg"
+        },
+        {
+            "artist": "Tuan Duong Chu",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "flavor": "Since her passing, many more travelers have made it home alive.",
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Twinblade Invocation",
+            "names": [
+                "Twinblade Geist",
+                "Twinblade Invocation"
+            ],
+            "number": "40b",
+            "power": null,
+            "rarity": "Uncommon",
+            "subTypes": [
+                "Aura"
+            ],
+            "superTypes": [],
+            "text": "Enchant creature\nEnchanted creature has double strike.\nIf Twinblade Invocation would be put into a graveyard from anywhere, exile it instead.",
+            "toughness": null,
+            "type": "Enchantment - Aura",
+            "types": "Enchantment ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/f/1/f1deb24b-3d8f-4251-a901-85eeb891f26f.jpg"
+        },
+        {
+            "artist": "Brent Hollowell",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "{2}{G}{G}",
+            "multiverseId": null,
+            "name": "Ulvenwald Oddity",
+            "names": [
+                "Ulvenwald Oddity",
+                "Ulvenwald Behemoth"
+            ],
+            "number": "394a",
+            "power": "4",
+            "rarity": "Rare",
+            "subTypes": [
+                "Beast"
+            ],
+            "superTypes": [],
+            "text": "Trample, haste\n{5}{G}{G}: Transform Ulvenwald Oddity.",
+            "toughness": "4",
+            "type": "Creature - Beast",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/e/8e857c4e-9d85-418a-9200-3bdcceff3f6b.jpg"
+        },
+        {
+            "artist": "Brent Hollowell",
+            "cmc": 4.0,
+            "colorIdentity": [
+                "G"
+            ],
+            "colors": [
+                "G"
+            ],
+            "flavor": null,
+            "layout": "double-faced",
+            "loyalty": null,
+            "mana_cost": "",
+            "multiverseId": null,
+            "name": "Ulvenwald Behemoth",
+            "names": [
+                "Ulvenwald Oddity",
+                "Ulvenwald Behemoth"
+            ],
+            "number": "394b",
+            "power": "8",
+            "rarity": "Rare",
+            "subTypes": [
+                "Beast",
+                "Horror"
+            ],
+            "superTypes": [],
+            "text": "Trample, haste\nOther creatures you control get +1/+1 and have trample and haste.",
+            "toughness": "8",
+            "type": "Creature - Beast Horror",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/e/8e857c4e-9d85-418a-9200-3bdcceff3f6b.jpg"
+        },
+        {
             "artist": "Anato Finnstark",
             "cmc": 2.0,
             "colorIdentity": [
@@ -3992,6 +4584,37 @@
             "type": "Instant",
             "types": "Instant",
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/f/9f4ba693-0323-415d-ad91-c083fbbab7f7.jpg"
+        },
+        {
+            "artist": "Nicholas Gregory",
+            "cmc": 2.0,
+            "colorIdentity": [
+                "G",
+                "U"
+            ],
+            "colors": [
+                "G",
+                "U"
+            ],
+            "flavor": null,
+            "layout": "",
+            "loyalty": null,
+            "mana_cost": "{G}{U}",
+            "multiverseId": null,
+            "name": "Vilespawn Spider",
+            "names": null,
+            "number": "250",
+            "power": "2",
+            "rarity": "Common",
+            "subTypes": [
+                "Spider"
+            ],
+            "superTypes": [],
+            "text": "Reach\nAt the beginning of your upkeep, mill a card. (Put the top card of your library into your graveyard.)\n{2}{G}{U}, {T}, Sacrifice Vilespawn Spider: Create a 1/1 green Insect creature token for each creature card in your graveyard. Activate only as a sorcery.",
+            "toughness": "3",
+            "type": "Creature - Spider",
+            "types": "Creature ",
+            "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6ad9ae64-6526-4747-9b0c-77d113f58c33.jpg"
         },
         {
             "artist": "Gabor Szikszai",
