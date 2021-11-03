@@ -466,6 +466,72 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c9b8582-8887-4652-82e2-f9b11ee21545.jpg"
     },
     {
+        "artist": "Francisco Miyara",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "\"Voltaic Visionary\"",
+        "names": [
+            "\"Voltaic Visionary\"",
+            "\"Voltaic Villain\""
+        ],
+        "number": "183a",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Wizard"
+        ],
+        "superTypes": [],
+        "text": "{T}: \"Voltaic Visionary\" deals 2 damage to you. Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.\nWhenever you play a card exiled with \"Voltaic Visionary\", transform it.",
+        "toughness": "1",
+        "type": "Creature - Human Wizard",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a8b85386-462b-46f8-9412-fd47ed1dc1da.jpg"
+    },
+    {
+        "artist": "Francisco Miyara",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "\"Voltaic Villain\"",
+        "names": [
+            "\"Voltaic Visionary\"",
+            "\"Voltaic Villain\""
+        ],
+        "number": "183b",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Berserker"
+        ],
+        "superTypes": [],
+        "text": "\"Voltaic Villain\" can't block.",
+        "toughness": "3",
+        "type": "Creature - Human Berserker",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/8/a8b85386-462b-46f8-9412-fd47ed1dc1da.jpg"
+    },
+    {
         "artist": "Dominik Mayer",
         "cmc": 2.0,
         "colorIdentity": [
@@ -491,6 +557,37 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/0/a0e47d11-cb21-402b-a39e-588a94cc57b4.jpg"
+    },
+    {
+        "artist": "Nicholas Gregory",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B",
+            "G"
+        ],
+        "colors": [
+            "B",
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{G}",
+        "multiverseId": null,
+        "name": "Ancient Lumberknot",
+        "names": null,
+        "number": "230",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Treefolk"
+        ],
+        "superTypes": [],
+        "text": "Each creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power.",
+        "toughness": "4",
+        "type": "Creature - Treefolk",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22264087-bac4-4746-b6ce-0d44cce163e6.jpg"
     },
     {
         "artist": "PINDURSKI",
@@ -902,6 +999,87 @@
         "type": "Creature - Vampire Knight",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/7/a7cbdd54-7685-4921-ab60-dc36e647a4c5.jpg"
+    },
+    {
+        "artist": "Kekai Kotaki",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}",
+        "multiverseId": null,
+        "name": "Bloodvial Purveyor",
+        "names": null,
+        "number": "290",
+        "power": "5",
+        "rarity": "Rare",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [],
+        "text": "Flying, trample\nWhenever an opponent casts a spell, that player creates a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\nWhenever Bloodvial Purveyor attacks, it gets +1/+0 until end of turn for each Blood token defending player controls.",
+        "toughness": "6",
+        "type": "Creature - Vampire",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c22e1e62-9862-4e14-b6fd-071f025cb867.jpg"
+    },
+    {
+        "artist": "Fesbra",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}",
+        "multiverseId": null,
+        "name": "Bloodvial Purveyor",
+        "names": null,
+        "number": "98",
+        "power": "5",
+        "rarity": "Rare",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [],
+        "text": "Flying, trample\nWhenever an opponent casts a spell, that player creates a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\nWhenever Bloodvial Purveyor attacks, it gets +1/+0 until end of turn for each Blood token defending player controls.",
+        "toughness": "6",
+        "type": "Creature - Vampire",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/8/4889c58b-8b84-42af-a56c-e886655aa997.jpg"
+    },
+    {
+        "artist": "Zoltan Boros",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "Boarded Window",
+        "names": null,
+        "number": "253",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Creatures attacking you get -1/-0.\nAt the beginning of each end step, if you were dealt 4 or more damage this turn, exile Boarded Window.",
+        "toughness": null,
+        "type": "Artifact",
+        "types": "Artifact",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f02cf94c-94d3-4c4c-a7ae-b4d48ef5b14e.jpg"
     },
     {
         "artist": "Olena Richards",
@@ -2676,6 +2854,60 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69890076-9cc4-434f-8618-63b00fdf4515.jpg"
     },
     {
+        "artist": "Andreas Zafiratos",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}",
+        "multiverseId": null,
+        "name": "Glorious Sunrise",
+        "names": null,
+        "number": "200",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "At the beginning of combat on your turn, choose one \u2014\n\u2022 Creatures you control get +1/+1 and gain trample until end of turn.\n\u2022 Target land gains \"{T}: Add {G}{G}{G}\" until end of turn.\n\u2022 Draw a card if you control a creature with power 3 or greater.\n\u2022 You gain 3 life.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a2caf73e-c3eb-4fa8-996a-d3d18b2ffaeb.jpg"
+    },
+    {
+        "artist": "Andreas Zafiratos",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}",
+        "multiverseId": null,
+        "name": "Glorious Sunrise",
+        "names": null,
+        "number": "388",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "At the beginning of combat on your turn, choose one \u2014\n\u2022 Creatures you control get +1/+1 and gain trample until end of turn.\n\u2022 Target land gains \"{T}: Add {G}{G}{G}\" until end of turn.\n\u2022 Draw a card if you control a creature with power 3 or greater.\n\u2022 You gain 3 life.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/952bd18f-29f0-422e-a28e-4fc7ce21b9c9.jpg"
+    },
+    {
         "artist": "Jesper Ejsing",
         "cmc": 3.0,
         "colorIdentity": [
@@ -3041,6 +3273,268 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/99bf4689-53a6-434d-9795-97f9c3777fac.jpg"
     },
     {
+        "artist": "E. M. Gist",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "He wanders the Moorlands hoping to one day chop off a head worthy of replacing his own.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Headless Rider",
+        "names": null,
+        "number": "118",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Zombie"
+        ],
+        "superTypes": [],
+        "text": "Wheenver Headless Rider or another nontoken Zombie you control dies, create a 2/2 black Zombie creature token.",
+        "toughness": "1",
+        "type": "Creature - Zombie",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c24018e8-b8f1-44a5-9355-8b79f363569d.jpg"
+    },
+    {
+        "artist": "E. M. Gist",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Headless Rider",
+        "names": null,
+        "number": "372",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Zombie"
+        ],
+        "superTypes": [],
+        "text": "Wheenver Headless Rider or another nontoken Zombie you control dies, create a 2/2 black Zombie creature token.",
+        "toughness": "1",
+        "type": "Creature - Zombie",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/544d7162-b78f-4a70-86e7-83cec7062039.jpg"
+    },
+    {
+        "artist": "Billy Christian",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}",
+        "multiverseId": null,
+        "name": "Henrika Domnathi",
+        "names": [
+            "Henrika Domnathi",
+            "Henrika, Infernal Seer"
+        ],
+        "number": "119a",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying\nAt the beginning of combat on your turn, choose one that hasn't been chosen \u2014\n\u2022 Each player sacrifices a creature.\n\u2022 You draw a card and you lose 1 life.\n\u2022 Transform Henrika Domnathi.",
+        "toughness": "4",
+        "type": "Legendary Creature - Vampire",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.jpg"
+    },
+    {
+        "artist": "Billy Christian",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "\"Once you've tasted demon blood, you'll wonder why you ever settled for human.\"",
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Henrika, Infernal Seer",
+        "names": [
+            "Henrika Domnathi",
+            "Henrika, Infernal Seer"
+        ],
+        "number": "119b",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying, deathtouch, lifelink\n{1}{B}{B}: Each creature you control with flying, deathtouch, and/or lifelink gets +1/+0 until end of turn.",
+        "toughness": "4",
+        "type": "Legendary Creature - Vampire",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.jpg"
+    },
+    {
+        "artist": "",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}",
+        "multiverseId": null,
+        "name": "Henrika Domnathi",
+        "names": [
+            "Henrika Domnathi",
+            "Henrika, Infernal Seer"
+        ],
+        "number": "293a",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying\nAt the beginning of combat on your turn, choose one that hasn't been chosen \u2014\n\u2022 Each player sacrifices a creature.\n\u2022 You draw a card and you lose 1 life.\n\u2022 Transform Henrika Domnathi.",
+        "toughness": "4",
+        "type": "Legendary Creature - Vampire",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/4457ff96-a65d-4e9f-bb99-ac5226446263.jpg"
+    },
+    {
+        "artist": "",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Henrika, Infernal Seer",
+        "names": [
+            "Henrika Domnathi",
+            "Henrika, Infernal Seer"
+        ],
+        "number": "293b",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying, deathtouch, lifelink\n{1}{B}{B}: Each creature you control with flying, deathtouch, and/or lifelink gets +1/+0 until end of turn.",
+        "toughness": "4",
+        "type": "Legendary Creature - Vampire",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/4/4/4457ff96-a65d-4e9f-bb99-ac5226446263.jpg"
+    },
+    {
+        "artist": "Nils Hamm",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "{2}{B}{B}",
+        "multiverseId": null,
+        "name": "Henrika Domnathi",
+        "names": [
+            "Henrika Domnathi",
+            "Henrika, Infernal Seer"
+        ],
+        "number": "335a",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying\nAt the beginning of combat on your turn, choose one that hasn't been chosen \u2014\n\u2022 Each player sacrifices a creature.\n\u2022 You draw a card and you lose 1 life.\n\u2022 Transform Henrika Domnathi.",
+        "toughness": "4",
+        "type": "Legendary Creature - Vampire",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aafe47a8-0223-4c0b-b6ce-e25446a07c96.jpg"
+    },
+    {
+        "artist": "Nils Hamm",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "Nothing can be more dreadful than those awful women, who were\u2014who are\u2014waiting to suck my blood.",
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Henrika, Infernal Seer",
+        "names": [
+            "Henrika Domnathi",
+            "Henrika, Infernal Seer"
+        ],
+        "number": "335b",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Vampire"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying, deathtouch, lifelink\n{1}{B}{B}: Each creature you control with flying, deathtouch, and/or lifelink gets +1/+0 until end of turn.",
+        "toughness": "4",
+        "type": "Legendary Creature - Vampire",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/a/aafe47a8-0223-4c0b-b6ce-e25446a07c96.jpg"
+    },
+    {
         "artist": "Chris Rallis",
         "cmc": 3.0,
         "colorIdentity": [
@@ -3066,6 +3560,35 @@
         "type": "Instant",
         "types": "Instant",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/1/c1b0751e-3a7e-4568-8c64-7429d6829687.jpg"
+    },
+    {
+        "artist": "Raoul Vitale",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "A carriage crafted from the finest materials. Horses bred from the finest stock. Skuklls taken from the finest foes.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}",
+        "multiverseId": null,
+        "name": "Honeymoon Hearse",
+        "names": null,
+        "number": "160",
+        "power": "5",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Vehicle"
+        ],
+        "superTypes": [],
+        "text": "Trample\nTap two untapped creatures you control: Honeymoon Hearse becomes an artifact creature until end of turn.",
+        "toughness": "5",
+        "type": "Artifact - Vehicle",
+        "types": "Artifact ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/4/04e491a1-b195-45bb-bf06-345eaee30b81.jpg"
     },
     {
         "artist": "Leanna Crossan",
@@ -4032,6 +4555,33 @@
         "type": "Basic Land - Mountain",
         "types": " Land ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b86fbf78-57ec-4a0f-9fb6-e4bf13861563.jpg"
+    },
+    {
+        "artist": "Lucas Graciano",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Mulch",
+        "names": null,
+        "number": "210",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/950dd57e-b2e1-4a27-a212-86fbfdbf914d.jpg"
     },
     {
         "artist": "Billy Christian",
@@ -5497,6 +6047,33 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c9f8b8fb-1cd8-450e-a1fe-892e7a323479.jpg"
     },
     {
+        "artist": "Dominik Mayer",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"This is your only warning, alchemist. The secrets of the sea are not yours to behold. Lord Krothuss will not be so merciful next time.\"\n\u2014Runo Stromkirk",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Thirst for Discovery",
+        "names": null,
+        "number": "85",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Draw three cards. Then discard two cards unless you discard a basic land card.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1ea179e9-9c0d-46c1-9ee8-60be68e1f79c.jpg"
+    },
+    {
         "artist": "Justine Cruz",
         "cmc": 3.0,
         "colorIdentity": [
@@ -6458,6 +7035,71 @@
         "type": "Creature - Werewolf",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/e/6/e641467b-ac2e-4d29-aed7-5cc227c3b1ce.jpg"
+    },
+    {
+        "artist": "Andrey Kuzinskiy",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "Living in harmony with nature . . .",
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "Weaver of Blossoms",
+        "names": [
+            "Weaver of Blossoms",
+            "Blossom-Clad Werewolf"
+        ],
+        "number": "226a",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Werewolf"
+        ],
+        "superTypes": [],
+        "text": "{T}: Add one mana of any color.\nDaybound (If a player casts no spells during their own turn, it becomes night next turn.)",
+        "toughness": "3",
+        "type": "Creature - Human Werewolf",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/73bf2a0a-b97d-4b90-abd6-d1755734ea15.jpg"
+    },
+    {
+        "artist": "Andrey Kuzinskiy",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": ". . . does not always mean living in peace.",
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Blossom-Clad Werewolf",
+        "names": [
+            "Weaver of Blossoms",
+            "Blossom-Clad Werewolf"
+        ],
+        "number": "226b",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Werewolf"
+        ],
+        "superTypes": [],
+        "text": "{T}: Add two mana of any one color.\nNightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)",
+        "toughness": "4",
+        "type": "Creature - Werewolf",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/3/73bf2a0a-b97d-4b90-abd6-d1755734ea15.jpg"
     },
     {
         "artist": "Caroline Gariba",
