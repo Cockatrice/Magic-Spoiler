@@ -4600,7 +4600,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Partner with Laurine, the Diversion (When this creature enters the battlefield, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"1, Tap, Discard a card, Sacrifice this artifact: Draw a card.\")",
+            "text": "Partner with Laurine, the Diversion (When this creature enters the battlefield, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")",
             "toughness": "4",
             "type": "Legendary Creature - Vampire Rogue",
             "types": " Creature ",
@@ -4632,7 +4632,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Partner with Laurine, the Diversion (When this creature enters the battlefield, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"1, Tap, Discard a card, Sacrifice this artifact: Draw a card.\")",
+            "text": "Partner with Laurine, the Diversion (When this creature enters the battlefield, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")",
             "toughness": "4",
             "type": "Legendary Creature - Vampire Rogue",
             "types": " Creature ",
@@ -5862,7 +5862,7 @@
             "rarity": "Uncommon",
             "subTypes": [],
             "superTypes": [],
-            "text": "Choose one \u2014\n\u2022 Exile all cards from target player's graveyard.\n\u2022 Destroy target artifact.\n\u2022 Each creature deals 1 damage to its controller.",
+            "text": "Choose one \u2014\n\u2022 Exile target player's graveyard.\n\u2022 Destroy target artifact.\n\u2022 Each creature deals 1 damage to its controller.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -6003,7 +6003,7 @@
                 "Cleric"
             ],
             "superTypes": [],
-            "text": "Flying\nSacrifice Remorseful Cleric: Exile all cards from target player's graveyard.",
+            "text": "Flying\nSacrifice Remorseful Cleric: Exile target player's graveyard.",
             "toughness": "1",
             "type": "Creature - Spirit Cleric",
             "types": "Creature ",
@@ -8520,7 +8520,7 @@
                 "Spirit"
             ],
             "superTypes": [],
-            "text": "Whenever Binding Geist attacks, target creature an opponent controls gets -2/-0 until end of turn.\nDisturb {1}{U} (You may cast this card from your graveyard transformed for its disturb c ost.)",
+            "text": "Whenever Binding Geist attacks, target creature an opponent controls gets -2/-0 until end of turn.\nDisturb {1}{U} (You may cast this card from your graveyard transformed for its disturb cost.)",
             "toughness": "1",
             "type": "Creature - Spirit",
             "types": "Creature ",
@@ -13283,7 +13283,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Destroy target creature or planeswalker. Create two Blood tokens. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")",
+            "text": "Destroy target creature or planeswalker. Create two Blood tokens. (They're artifacts with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")",
             "toughness": null,
             "type": "Sorcery",
             "types": "Sorcery",
@@ -19918,7 +19918,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)",
+            "text": "Target creature gets +3/+0 and gains first strike until end of turn.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -20833,7 +20833,7 @@
             "rarity": "Uncommon",
             "subTypes": [],
             "superTypes": [],
-            "text": "Choose one \u2014\n\u2022 Target creature gains indestructible until end of turn.\n\u2022 Destroy target creature with toughness 4 or greater.",
+            "text": "Choose one \u2014\n\u2022 Target creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)\n\u2022 Destroy target creature with toughness 4 or greater.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
