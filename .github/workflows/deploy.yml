@@ -40,10 +40,12 @@ jobs:
           fetch-depth: 0
           path: ${{env.OUTPUT_PATH}}
 
-      - name: Install requirements using pip
+      - name: Setup pip cache
         uses: actions/setup-python@v2
         with:
           cache: 'pip'
+
+      - name: Install requirements using pip
         env:
           CFLAGS: '-O0'
         shell: bash
