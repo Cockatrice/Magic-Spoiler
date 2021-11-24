@@ -41,9 +41,12 @@ jobs:
           path: ${{env.OUTPUT_PATH}}
 
       - name: Install requirements using pip
-        shell: bash
+        uses: actions/setup-python@v2
+        with:
+          cache: 'pip'
         env:
           CFLAGS: '-O0'
+        shell: bash
         run: |
           python3 -m pip install --upgrade pip setuptools
           python3 -m pip install --requirement requirements.txt
