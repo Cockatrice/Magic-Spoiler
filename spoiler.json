@@ -80,7 +80,7 @@
                 "Cleric"
             ],
             "superTypes": [],
-            "text": "Flying, lifelink\nWhenever Angel of Unity enters the battlefield or you cast a party spell, choose a party creature card in your hand. It perpetually gets +1/+1. (A party card or spell is a Cleric, Rogue, Warrior, and Wizard.)",
+            "text": "Flying, lifelink\nWhenever Angel of Unity enters the battlefield or you cast a party spell, choose a party creature card in your hand. It perpetually gets +1/+1. (A party card or spell is a Cleric, Rogue, Warrior, or Wizard.)",
             "toughness": "3",
             "type": "Creature - Angel Cleric",
             "types": "Creature ",
@@ -141,7 +141,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Double strike\nSpell cast from amount cards you drew this turn cost {1} less to cast.\nSpells cast from among cards your opponents drew this turn cost {1} more to cast.",
+            "text": "Double strike\nSpells cast from among cards you drew this turn cost {1} less to cast.\nSpells cast from among cards your opponents drew this turn cost {1} more to cast.",
             "toughness": "1",
             "type": "Legendary Creature - Human Soldier",
             "types": " Creature ",
@@ -284,7 +284,7 @@
                 "Warrior"
             ],
             "superTypes": [],
-            "text": "Whenever Expedition Supplier or another creature enters the battlefield under your control, conjure a card named Utility Knife onto the battlefield. This ability only triggers once each turn.",
+            "text": "Whenever Expedition Supplier or another Human enters the battlefield under your control, conjure a card named Utility Knife onto the battlefield. This ability triggers only once each turn.",
             "toughness": "2",
             "type": "Creature - Human Warrior",
             "types": "Creature ",
@@ -366,7 +366,7 @@
                 "Spirit"
             ],
             "superTypes": [],
-            "text": "Flying\nWhen Geist of Regret enters the battlefield, put a random instant card from your library into your graveyard. Then put a random sorcery card from your library into your graveyard.\nWhenever you cast an instant or sorcery spell from your graveyard, copy that spell. You may chose new targets for the copy.",
+            "text": "Flying\nWhen Geist of Regret enters the battlefield, put a random instant card from your library into your graveyard. Then put a random sorcery card from your library into your graveyard.\nWhenever you cast an instant or sorcery spell from your graveyard, copy that spell. You may choose new targets for the copy.",
             "toughness": "5",
             "type": "Creature - Spirit",
             "types": "Creature ",
@@ -454,13 +454,13 @@
             "names": null,
             "number": "999-IC",
             "power": "3",
-            "rarity": "Common",
+            "rarity": "Rare",
             "subTypes": [
                 "Human",
                 "Cleric"
             ],
             "superTypes": [],
-            "text": "Vigilance\nWhen Inquisitor Captain enters the battlefield, if there are twenty or more creature cards with mana value 3 or less among cards in your graveyard, hand, or library, seek two creature cards with mana value 3 or less. Put one of them onto the battlefield and shuffle the other into your library.",
+            "text": "Vigilance\nWhen Inquisitor Captain enters the battlefield, if there are twenty or more creature cards with mana value 3 or less among cards in your graveyard, hand, and library, seek two creature cards with mana value 3 or less. Put one of them onto the battlefield and shuffle the other into your library.",
             "toughness": "3",
             "type": "Creature - Human Cleric",
             "types": "Creature ",
@@ -491,7 +491,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "Reach\nOther spiders you control get +1/+2.\n{1}{B/G}, Exile two cards from your graveyard: Draft a card from Ishkanah, Broodmother's spellbook.",
+            "text": "Reach\nOther Spiders you control get +1/+2.\n{1}{B/G}, Exile two cards from your graveyard: Draft a card from Ishkanah, Broodmother's spellbook.",
             "toughness": "5",
             "type": "Legendary Creature - Spider",
             "types": " Creature ",
@@ -692,7 +692,7 @@
                 "Cleric"
             ],
             "superTypes": [],
-            "text": "When Sigardian Evangel enters the battlefield, conjur a card named Sigardian Evangel into your hand. Discard that card at the beginning of your next untap step.\nWhen Sigardian Evangel enters the battlefield, tap target permanent you don't control.",
+            "text": "When Sigardian Evangel enters the battlefield, conjure a card named Sigardian Evangel into your hand. Discard that card at the beginning of the next end step.\nWhen Sigardian Evangel enters the battlefield, tap target permanent you don't control.",
             "toughness": "1",
             "type": "Creature - Human Cleric",
             "types": "Creature ",
@@ -719,7 +719,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Conjure a duplicate of each of up to two target nontoken creature you control to your hand.",
+            "text": "Conjure a duplicate of each of up to two target nontoken creature you control into your hand.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -750,7 +750,7 @@
             "superTypes": [
                 "Legendary"
             ],
-            "text": "When Slayer's Bounty enters the battlefield, look at the creature cards in target opponent's hand.\nWhenever you sacrifice Slayer's Bounty or another Clue, draft a card from Slayer's Bounty's spellbook.\n{2}, Slayer's Bounty: Draw a card.",
+            "text": "When Slayer's Bounty enters the battlefield, look at the creature cards in target opponent's hand.\nWhenever you sacrifice Slayer's Bounty or another Clue, draft a card from Slayer's Bounty's spellbook.\n{2}, Sacrifice Slayer's Bounty: Draw a card.",
             "toughness": null,
             "type": "Legendary Artifact - Clue",
             "types": " Artifact ",
@@ -777,7 +777,7 @@
             "rarity": "Rare",
             "subTypes": [],
             "superTypes": [],
-            "text": "Conjure a card named Suntail Squadron into your hand. if you have fewer than 7 cards in hand, repeat this process.",
+            "text": "Conjure a card named Suntail Hawk into your hand. If you have fewer than 7 cards in hand, repeat this process.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
