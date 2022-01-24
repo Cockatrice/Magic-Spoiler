@@ -644,7 +644,7 @@ def main() -> None:
     changed |= delete_old_files()
 
     # Set output to deploy
-    if os.getenv('CI'):
+    if os.environ('CI'):
         if changed:
             print("::set-output name=deploy::true")
             print("::notice title=Updates available::New spoiler files will be uploaded")
