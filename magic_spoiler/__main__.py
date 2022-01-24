@@ -412,7 +412,7 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
         return False
 
     # Move new version to old location
-    print("Changes detected, replacing spoiler.xml with updated version")
+    print("::notice::Changes detected, replacing spoiler.xml with updated version")
     shutil.move(card_xml_file.name, old_xml_location)
     return True
 
