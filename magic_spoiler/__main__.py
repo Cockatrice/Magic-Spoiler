@@ -5,6 +5,7 @@ import contextvars
 import datetime
 import hashlib
 import json
+import os
 import pathlib
 import shutil
 import time
@@ -644,7 +645,7 @@ def main() -> None:
     changed |= delete_old_files()
 
     # Set output to deploy
-    if CI == true:
+    if os.environ('CI'):
         if changed:
             print("::set-output name=deploy::true")
             print("::notice title=Updates available::New spoiler files will be uploaded")
