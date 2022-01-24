@@ -21,6 +21,7 @@ jobs:
     # Do not run the scheduled workflow on forks
     if: github.event != 'schedule' || github.repository_owner == 'Cockatrice'
 
+    name: Check for new spoiler
     runs-on: ubuntu-latest
 
     env:
@@ -74,4 +75,4 @@ jobs:
           git commit -m "Deploy: $GITHUB_SHA"
           git push
           deploy_commit=`git rev-parse HEAD`
-          echo "See deployment: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$deploy_commit"
+          echo ::notice::"See deployment: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$deploy_commit"
