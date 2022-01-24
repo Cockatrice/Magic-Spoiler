@@ -408,7 +408,7 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
 
     old_xml_location = str(OUTPUT_DIR.joinpath(output_file_name))
     if compare_xml_content(card_xml_file.name, old_xml_location):
-        print("No new data in spoiler.xml, skipping replacement")
+        print("::notice::No new data in spoiler.xml, skipping replacement")
         return False
 
     # Move new version to old location
@@ -646,9 +646,10 @@ def main() -> None:
     # Set output to deploy
     if changed:
         print("::set-output name=deploy::true")
+        print("::notice title=Updates available::New spoiler files will be uploaded")
     else:
         print("::set-output name=deploy::false")
-        print("::notice:: No new spoilers found")
+        print("::notice title=No updates available::There are no new spoiler cards")
 
 
 if __name__ == "__main__":
