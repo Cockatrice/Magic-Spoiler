@@ -648,6 +648,7 @@ def main() -> None:
         print("::set-output name=deploy::true")
     else:
         print("::set-output name=deploy::false")
+        print("::notice:: No new spoilers found")
 
 
 if __name__ == "__main__":
