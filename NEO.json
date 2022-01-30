@@ -331,7 +331,7 @@
         "loyalty": null,
         "mana_cost": "{1}{R}",
         "multiverseId": null,
-        "name": "Akki Ember-keeper",
+        "name": "Akki Ember-Keeper",
         "names": null,
         "number": "130",
         "power": "2",
@@ -370,7 +370,7 @@
             "Aura"
         ],
         "superTypes": [],
-        "text": "Enchant artifact or creature.\nAs long as enchanted permanent is a creature, it gets +2/+1.",
+        "text": "Enchant artifact or creature\nAs long as enchanted permanent is a creature, it gets +2/+1.",
         "toughness": null,
         "type": "Enchantment - Aura",
         "types": "Enchantment ",
@@ -399,7 +399,7 @@
             "Equipment"
         ],
         "superTypes": [],
-        "text": "Whenever a Samurai or Warrior you control attacks alone, you can pay {1}. If you do, attach Ancestral Katana to it.\nEquipped creature gets +2/+1.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+        "text": "Whenever a Samurai or Warrior you control attacks alone, you may pay {1}. If you do, attach Ancestral Katana to it.\nEquipped creature gets +2/+1.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
         "toughness": null,
         "type": "Artifact - Equipment",
         "types": "Artifact ",
@@ -500,6 +500,36 @@
         "type": "Legendary Creature - Dragon Spirit",
         "types": " Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0d726f3f-2920-4de4-b531-5c42006e85af.jpg"
+    },
+    {
+        "artist": "Joshua Raphael",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{U}",
+        "multiverseId": null,
+        "name": "Armguard Familiar",
+        "names": null,
+        "number": "46",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Equipment",
+            "Beast"
+        ],
+        "superTypes": [],
+        "text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nEquipped creature gets +2/+1 and has ward {2}.\nReconfigure {4} ({4}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "1",
+        "type": "Artifact Creature - Equipment Beast",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/7497f147-146d-4a76-b670-bd84e07352b3.jpg"
     },
     {
         "artist": "Donato Giancola",
@@ -725,6 +755,63 @@
         "type": "Enchantment Creature - Human Monk",
         "types": "Enchantment Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/e/8/e8a51d2a-1582-4bad-995c-e7fe9f810149.jpg"
+    },
+    {
+        "artist": "Steve Prescott",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": "\"Do not mistake tranquility for domestication. This land is wild, and will always remain so.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Bamboo Grove Archer",
+        "names": null,
+        "number": "173",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Snake",
+            "Archer"
+        ],
+        "superTypes": [],
+        "text": "Defender, reach\nChannel \u2014 {4}{G}, Discard Bamboo Grove Archer: Destroy target creature with flying.",
+        "toughness": "3",
+        "type": "Enchantment Creature - Snake Archer",
+        "types": "Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8b43bb9f-1b84-41cc-a4f9-5875ae6d207c.jpg"
+    },
+    {
+        "artist": "Josu Hernaiz",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "\"In the name of Kyodai, begone!\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{W}{W}",
+        "multiverseId": null,
+        "name": "Banishing Slash",
+        "names": null,
+        "number": "3",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Destroy up to one target artifact, enchantment, or tapped creature. Then if you control an artifact and an enchantment, create a 2/2 white Samurai creature token with vigilance.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4b8946b-6604-49ca-98db-18a540b1b4e5.jpg"
     },
     {
         "artist": "Matt Stewart",
@@ -1881,7 +1968,7 @@
         "colors": [
             "W"
         ],
-        "flavor": "\"Cease you pathetic struggling.\"",
+        "flavor": "\"Cease your pathetic struggling.\"",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{W}",
@@ -2974,7 +3061,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Target creature gets -2/-2 until end of turn. If gets an additional -1/-1 until end of turn for each modified creature you controlled as you cast this spell. (Equipment, Auras you control, and counters are modifications.)",
+        "text": "Target creature gets -2/-2 until end of turn. It gets an additional -1/-1 until end of turn for each modified creature you controlled as you cast this spell. (Equipment, Auras you control, and counters are modifications.)",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -3044,6 +3131,96 @@
         "type": "Enchantment Creature - Human Samurai",
         "types": "Enchantment Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/f/7/f7f4adf7-b871-417b-8904-7f024ca21486.jpg"
+    },
+    {
+        "artist": "Yongjae Choi",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Lion Sash",
+        "names": null,
+        "number": "26",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Equipment",
+            "Cat"
+        ],
+        "superTypes": [],
+        "text": "{W}: Exile target card from a graveyard. If it was a permanent card, put a +1/+1 counter on Lion Sash.\nEquipped creature gets +1/+1 for each +1/+1 counter on Lion Sash.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "1",
+        "type": "Artifact Creature - Equipment Cat",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e1766e9-2fa7-4446-a255-7beea1467ece.jpg"
+    },
+    {
+        "artist": "TODEE",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Lion Sash",
+        "names": null,
+        "number": "368",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Equipment",
+            "Cat"
+        ],
+        "superTypes": [],
+        "text": "{W}: Exile target card from a graveyard. If it was a permanent card, put a +1/+1 counter on Lion Sash.\nEquipped creature gets +1/+1 for each +1/+1 counter on Lion Sash.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "1",
+        "type": "Artifact Creature - Equipment Cat",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/308c8834-e06e-452a-b82e-cb2b8fe0c304.jpg"
+    },
+    {
+        "artist": "",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Lion Sash",
+        "names": null,
+        "number": "440",
+        "power": "1",
+        "rarity": "Rare",
+        "subTypes": [
+            "Equipment",
+            "Cat"
+        ],
+        "superTypes": [],
+        "text": "{W}: Exile target card from a graveyard. If it was a permanent card, put a +1/+1 counter on Lion Sash.\nEquipped creature gets +1/+1 for each +1/+1 counter on Lion Sash.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "1",
+        "type": "Artifact Creature - Equipment Cat",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/4/84f8ce4c-c6fc-408c-a216-33374bbfb08d.jpg"
     },
     {
         "artist": "Jason Kang",
@@ -3379,6 +3556,40 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d75969d-c932-4b4e-8135-61968228bc32.jpg"
     },
     {
+        "artist": "Joshua Raphael",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "W"
+        ],
+        "flavor": "\"Progress comes only when we rise above our petty quarrels.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}{B}",
+        "multiverseId": null,
+        "name": "Naomi, Pillar of Order",
+        "names": null,
+        "number": "229",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Advisor"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Whenever Naomi, Pillar of Order enters the battlefield or attacks, if you control an artifact and an enchantment, create a 2/2 white Samurai creature token with vigilance.",
+        "toughness": "4",
+        "type": "Legendary Creature - Human Advisor",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/4400fd66-1a24-47fb-bc94-37e0aae0e610.jpg"
+    },
+    {
         "artist": "Amayagido",
         "cmc": 0.0,
         "colorIdentity": [
@@ -3455,7 +3666,7 @@
             "Construct"
         ],
         "superTypes": [],
-        "text": "Trample\nRunaway Trash-Bot gets +1/+0 for each artifact and/or enchantment in your graveyard.",
+        "text": "Trample\nRunaway Trash-Bot gets +1/+0 for each artifact and/or enchantment card in your graveyard.",
         "toughness": "4",
         "type": "Artifact Creature - Construct",
         "types": "Artifact Creature ",
@@ -4686,6 +4897,33 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/f/af77b3e8-298e-4f85-8fc0-93ffa8c0dc6a.jpg"
     },
     {
+        "artist": "Chris Cold",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "Many master samurai make pilgrimages deep into the Sokenzan Mountains, where they train and meditate in silence, hoping to commune with a lava kami.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Tempered in Solitude",
+        "names": null,
+        "number": "165",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Whenever a creature you control attacks alone, exile the top card of your library. You may play that card this turn.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2cfd0693-6dba-4c0d-8c42-859d7bf38c40.jpg"
+    },
+    {
         "artist": "Lack",
         "cmc": 4.0,
         "colorIdentity": [
@@ -5004,7 +5242,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Exile target permanent an opponent controls.\nII \u2014 Return up to one other target nonland permanent to its owner's hand. Then each opponent discards a card.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Exile target nonland permanent an opponent controls.\nII \u2014 Return up to one other target nonland permanent to its owner's hand. Then each opponent discards a card.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -5085,7 +5323,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Exile target permanent an opponent controls.\nII \u2014 Return up to one other target nonland permanent to its owner's hand. Then each opponent discards a card.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Exile target nonland permanent an opponent controls.\nII \u2014 Return up to one other target nonland permanent to its owner's hand. Then each opponent discards a card.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -5166,7 +5404,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Exile target permanent an opponent controls.\nII \u2014 Return up to one other target nonland permanent to its owner's hand. Then each opponent discards a card.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Exile target nonland permanent an opponent controls.\nII \u2014 Return up to one other target nonland permanent to its owner's hand. Then each opponent discards a card.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -5622,7 +5860,7 @@
         "colors": [
             "R"
         ],
-        "flavor": "Tourma never met a door he didn't hate.",
+        "flavor": "Touma never met a door he didn't hate.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{R}",
