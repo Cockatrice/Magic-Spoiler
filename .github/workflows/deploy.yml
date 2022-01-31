@@ -19,7 +19,7 @@ on:
 jobs:
   deploy:
     # Do not run the scheduled workflow on forks
-    if: github.event != 'schedule' || github.repository_owner == 'Cockatrice'
+    if: github.event_name != 'schedule' || github.repository_owner == 'Cockatrice'
 
     name: Check for new spoiler
     runs-on: ubuntu-latest
