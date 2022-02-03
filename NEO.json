@@ -1,5 +1,92 @@
 [
     {
+        "artist": "Ryan Yee",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}",
+        "multiverseId": null,
+        "name": "\"Bubblegum Stag\"",
+        "names": null,
+        "number": "175",
+        "power": "4",
+        "rarity": "Common",
+        "subTypes": [
+            "Spirit"
+        ],
+        "superTypes": [],
+        "text": "Reach\nWhen \"Bubblegum Stag\" enters the battlefield, look at the top five cards of your library. You may reveal a creature or enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If you didn't put a card into your hand this way, you gain 4 life.",
+        "toughness": "4",
+        "type": "Creature - Spirit",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/2/d26abdf2-efd7-40e5-bfc6-d75fcadd26f8.jpg"
+    },
+    {
+        "artist": "Xavier Ribeiro",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}{R}",
+        "multiverseId": null,
+        "name": "\"Flower-Delivery Raiju\"",
+        "names": null,
+        "number": "166",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Spirit"
+        ],
+        "superTypes": [],
+        "text": "Haste\nWhenever \"Flower-Delivery Raiju\" attacks, put a +1/+1 counter on target creature you control. Then \"Flower-Delivery Raiju\" deals X damage to each opponent, where X is the number of modified creatures you control other than \"Flower-Delivery Raiju\". (Equipment, Auras you control, and counters are modifications.)",
+        "toughness": "3",
+        "type": "Creature - Spirit",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/c/ec1a2920-6d39-4276-921c-65cc16a45f17.jpg"
+    },
+    {
+        "artist": "TAPIOCA",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{R}{R}",
+        "multiverseId": null,
+        "name": "\"Flower-Delivery Raiju\"",
+        "names": null,
+        "number": "389",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Spirit"
+        ],
+        "superTypes": [],
+        "text": "Haste\nWhenever \"Flower-Delivery Raiju\" attacks, put a +1/+1 counter on target creature you control. Then \"Flower-Delivery Raiju\" deals X damage to each opponent, where X is the number of modified creatures you control other than \"Flower-Delivery Raiju\". (Equipment, Auras you control, and counters are modifications.)",
+        "toughness": "3",
+        "type": "Creature - Spirit",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/cc6a9bef-6910-4293-87b8-52abcef41566.jpg"
+    },
+    {
         "artist": "Johannes Voss",
         "cmc": 4.0,
         "colorIdentity": [
@@ -159,118 +246,341 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/e/a/ea6d3242-8059-4203-aa06-58a6a3925eda.jpg"
     },
     {
-        "artist": "",
-        "cmc": 7.0,
+        "artist": "Hisashi Momose",
+        "cmc": 4.0,
         "colorIdentity": [
-            "W"
+            "U"
         ],
         "colors": [
-            "W"
+            "U"
         ],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{6}{W}",
+        "mana_cost": "{3}{U}",
         "multiverseId": null,
-        "name": "\"Sleepy Moth Fly Guy\"",
+        "name": "\"Master of Doritos\"",
         "names": null,
-        "number": "314",
-        "power": "4",
+        "number": "335",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Ninja"
+        ],
+        "superTypes": [],
+        "text": "Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhen \"Master of Doritos\" enters the battlefield, return up to one target creature to its owner's hand.",
+        "toughness": "2",
+        "type": "Creature - Human Ninja",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f5e2fdd4-b953-4e9a-b511-52199a34214e.jpg"
+    },
+    {
+        "artist": "Lie Setiawan",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}",
+        "multiverseId": null,
+        "name": "\"Master of Doritos\"",
+        "names": null,
+        "number": "70",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Ninja"
+        ],
+        "superTypes": [],
+        "text": "Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhen \"Master of Doritos\" enters the battlefield, return up to one target creature to its owner's hand.",
+        "toughness": "2",
+        "type": "Creature - Human Ninja",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1e8b209f-f577-45cc-9d18-03c1d67d391e.jpg"
+    },
+    {
+        "artist": "Raymond Swanland",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "\"Okiba Ambusher\"",
+        "names": null,
+        "number": "112",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Rat",
+            "Ninja"
+        ],
+        "superTypes": [],
+        "text": "Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nLifelink",
+        "toughness": "2",
+        "type": "Artifact Creature - Rat Ninja",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/a/0adf3293-c1e0-447c-8231-26fa9476a262.jpg"
+    },
+    {
+        "artist": "Areku Nishiki",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{B}",
+        "multiverseId": null,
+        "name": "\"Okiba Ambusher\"",
+        "names": null,
+        "number": "342",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Rat",
+            "Ninja"
+        ],
+        "superTypes": [],
+        "text": "Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nLifelink",
+        "toughness": "2",
+        "type": "Artifact Creature - Rat Ninja",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/357594c7-a9a6-468d-b262-e5f7d5e35f54.jpg"
+    },
+    {
+        "artist": "Lie Setiawan",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{B}",
+        "multiverseId": null,
+        "name": "\"Okiba Salvage\"",
+        "names": null,
+        "number": "118",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Return target creature or Vehicle card from your graveyard to the battlefield. Then, put two +1/+1 counters on that permanent if you control an artifact and an enchantment.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d9e4485d-c208-46b4-9b5d-48e55e2ee182.jpg"
+    },
+    {
+        "artist": "Brent Hollowell",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "\"Quadruple Orochi\"",
+        "names": null,
+        "number": "203",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Snake",
+            "Druid"
+        ],
+        "superTypes": [],
+        "text": "{T}: Add {G}.\nAs long as \"Quadruple Orochi\" is modified, it has \"{T}: Add {G}{G}.\" (Equipment, Auras you control, and counters are modifications.)",
+        "toughness": "1",
+        "type": "Creature - Snake Druid",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/736c3278-6ee2-47f9-aab0-1457e90137b1.jpg"
+    },
+    {
+        "artist": "Kekai Kotaki",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}",
+        "multiverseId": null,
+        "name": "\"Reforged Ronin\"",
+        "names": null,
+        "number": "158",
+        "power": "2",
         "rarity": "Uncommon",
         "subTypes": [
             "Human",
             "Samurai"
         ],
         "superTypes": [],
-        "text": "This spell costs {1} less to cast for each enchantment you control.\nFlying",
-        "toughness": "4",
-        "type": "Enchantment Creature - Human Samurai",
-        "types": "Enchantment Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/1/91d6a843-a1b7-4862-a2bf-8f8f66788126.jpg"
+        "text": "Haste\nAt the beginning of your end step, return \"Reforged Ronin\" to its owner's hand.\nChannel \u2014 {1}{R}, Discard \"Reforged Ronin\": Draw a card.",
+        "toughness": "2",
+        "type": "Artifact Creature - Human Samurai",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89a18961-8f0b-4e98-9de4-aba97e91ad9a.jpg"
+    },
+    {
+        "artist": "Inuchiyo Meimaru",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}",
+        "multiverseId": null,
+        "name": "\"Reforged Ronin\"",
+        "names": null,
+        "number": "323",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Samurai"
+        ],
+        "superTypes": [],
+        "text": "Haste\nAt the beginning of your end step, return \"Reforged Ronin\" to its owner's hand.\nChannel \u2014 {1}{R}, Discard \"Reforged Ronin\": Draw a card.",
+        "toughness": "2",
+        "type": "Artifact Creature - Human Samurai",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a69eec2f-eec0-491f-944c-ca944d9d320b.jpg"
     },
     {
         "artist": "Victor Adame Minguez",
-        "cmc": 7.0,
+        "cmc": 3.0,
         "colorIdentity": [
+            "B",
             "W"
         ],
         "colors": [
+            "B",
             "W"
         ],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{6}{W}",
+        "mana_cost": "{1}{W}{B}",
         "multiverseId": null,
-        "name": "\"Sleepy Moth Fly Guy\"",
+        "name": "\"Shiga, Big Deal Biker\"",
         "names": null,
-        "number": "37",
+        "number": "220",
         "power": "4",
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "subTypes": [
-            "Human",
-            "Samurai"
+            "Rat",
+            "Pilot"
         ],
-        "superTypes": [],
-        "text": "This spell costs {1} less to cast for each enchantment you control.\nFlying",
-        "toughness": "4",
-        "type": "Enchantment Creature - Human Samurai",
-        "types": "Enchantment Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c9c7ba6f-c58e-4347-92e4-51ae8f2d5a88.jpg"
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste. Return it your hand at beginning of the next end step.",
+        "toughness": "3",
+        "type": "Legendary Creature - Rat Pilot",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/6/56a0d43b-4d38-40a7-be6c-8324ab3bf773.jpg"
     },
     {
-        "artist": "Lorenzo Mastroianni",
+        "artist": "TAPIOCA",
         "cmc": 3.0,
         "colorIdentity": [
-            "B"
+            "B",
+            "W"
         ],
         "colors": [
-            "B"
+            "B",
+            "W"
         ],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{1}{B}{B}",
+        "mana_cost": "{1}{W}{B}",
         "multiverseId": null,
-        "name": "\"Soul Slurpee\u00ae\"",
+        "name": "\"Shiga, Big Deal Biker\"",
         "names": null,
-        "number": "122",
-        "power": null,
+        "number": "397",
+        "power": "4",
         "rarity": "Rare",
-        "subTypes": [],
-        "superTypes": [],
-        "text": "Choose one. If you control an artifact and an enchantment as you cast this spell, you may choose both.\n\u2022 Exile target creature or planeswalker.\n\u2022 Return target creature or planeswalker card from your graveyard to your hand.",
-        "toughness": null,
-        "type": "Sorcery",
-        "types": "Sorcery",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1e5aba90-c8c7-4f06-b7b3-1b4758d2791a.jpg"
+        "subTypes": [
+            "Rat",
+            "Pilot"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste. Return it your hand at beginning of the next end step.",
+        "toughness": "3",
+        "type": "Legendary Creature - Rat Pilot",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/4/9455cb27-89d3-4bb1-8af8-08c7712c2915.jpg"
     },
     {
-        "artist": "Dai-XT",
-        "cmc": 3.0,
+        "artist": "Anna Podedworna",
+        "cmc": 2.0,
         "colorIdentity": [
-            "B"
+            "G"
         ],
         "colors": [
-            "B"
+            "G"
         ],
         "flavor": null,
         "layout": "",
         "loyalty": null,
-        "mana_cost": "{1}{B}{B}",
+        "mana_cost": "{1}{G}",
         "multiverseId": null,
-        "name": "\"Soul Slurpee\u00ae\"",
+        "name": "\"Shigeki, Jukai Visionary\"",
         "names": null,
-        "number": "382",
-        "power": null,
+        "number": "206",
+        "power": "1",
         "rarity": "Rare",
-        "subTypes": [],
-        "superTypes": [],
-        "text": "Choose one. If you control an artifact and an enchantment as you cast this spell, you may choose both.\n\u2022 Exile target creature or planeswalker.\n\u2022 Return target creature or planeswalker card from your graveyard to your hand.",
-        "toughness": null,
-        "type": "Sorcery",
-        "types": "Sorcery",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ce12642d-85b5-4b40-b1c0-2c08feae2f0a.jpg"
+        "subTypes": [
+            "Snake",
+            "Druid"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "{1}{G}, {T}, Return \"Shigeki, Jukai Visionary\" to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped, and the rest into your graveyard.\nChannel \u2014 {X}{X}{G}{G}, Discard Shigeki: Return X target nonlegendary cards from your graveyard to your hand.",
+        "toughness": "3",
+        "type": "Legendary Enchantment Creature - Snake Druid",
+        "types": " Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/2/52a16623-7e6d-405b-95db-bf18aeea3f49.jpg"
     },
     {
         "artist": "Ishikawa Kenta",
@@ -333,6 +643,66 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76c27ec5-5a9b-4080-9a53-00630335a915.jpg"
     },
     {
+        "artist": "Andrew Mar",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{G}",
+        "multiverseId": null,
+        "name": "\"Weaver Bracelet\"",
+        "names": null,
+        "number": "214",
+        "power": "1",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Enchantment",
+            "Spider"
+        ],
+        "superTypes": [],
+        "text": "Reach\nEquipped creature gets +1/+4 and has reach.\nReconfigure {4} ({4}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "4",
+        "type": "Artifact Creature - Enchantment Spider",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e73cc6a7-0a18-488c-b52a-787da95a2e6b.jpg"
+    },
+    {
+        "artist": "Francisco Miyara",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "You can never have too many arms.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Acquisition Octopus",
+        "names": null,
+        "number": "44",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Equipment",
+            "Octopus"
+        ],
+        "superTypes": [],
+        "text": "When Acquisition Octopus or equipped creature deals combat damage to a player, draw a card.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "2",
+        "type": "Artifact Creature - Equipment Octopus",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/e/8e971a72-31db-4b7e-b9b9-9f45e8c3f87e.jpg"
+    },
+    {
         "artist": "April Prime",
         "cmc": 2.0,
         "colorIdentity": [
@@ -361,6 +731,66 @@
         "type": "Enchantment Creature - Goblin Warrior",
         "types": "Enchantment Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4d83e837-fcd1-4833-9117-e6f1bb53caad.jpg"
+    },
+    {
+        "artist": "Olivier Bernard",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "\"Carry the heat of the furnace in your steel, and never let it fade.\"\n\u2014Keni-Keni, akki smith",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Akki Ronin",
+        "names": null,
+        "number": "131",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Goblin",
+            "Samurai"
+        ],
+        "superTypes": [],
+        "text": "Whenever a Samurai or Warrior you control attacks alone, you may discard a card. If you do, draw a card.",
+        "toughness": "3",
+        "type": "Creature - Goblin Samurai",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/96f15754-1ca6-45b0-a7de-2fe507df2a1a.jpg"
+    },
+    {
+        "artist": "",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{R}",
+        "multiverseId": null,
+        "name": "Akki Ronin",
+        "names": null,
+        "number": "319",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Goblin",
+            "Samurai"
+        ],
+        "superTypes": [],
+        "text": "Whenever a Samurai or Warrior you control attacks alone, you may discard a card. If you do, draw a card.",
+        "toughness": "3",
+        "type": "Creature - Goblin Samurai",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fa16ee8e-d33a-40e9-9956-e345f0511819.jpg"
     },
     {
         "artist": "Jeremy Wilson",
@@ -1130,6 +1560,153 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/3017df51-67ae-4c3d-8210-086f83bc2040.jpg"
     },
     {
+        "artist": "Tubaki Halsame",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Blade of the Oni",
+        "names": null,
+        "number": "377",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Equipment",
+            "Demon"
+        ],
+        "superTypes": [],
+        "text": "Menace\nEquipped creature has base power and toughness 5/5, has menace, and is a black Demon in addition to its other colors and types.\nReconfigure {2}{B}{B} ({2}{B}{B}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "1",
+        "type": "Artifact Creature - Equipment Demon",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/46f5c2f4-1690-4392-80d6-d99148bc8b13.jpg"
+    },
+    {
+        "artist": "Tubaki Halsame",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Blade of the Oni",
+        "names": null,
+        "number": "420",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Equipment",
+            "Demon"
+        ],
+        "superTypes": [],
+        "text": "Menace\nEquipped creature has base power and toughness 5/5, has menace, and is a black Demon in addition to its other colors and types.\nReconfigure {2}{B}{B} ({2}{B}{B}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "1",
+        "type": "Artifact Creature - Equipment Demon",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/2029be79-88d8-4d15-a7d7-f5b8d469ad54.jpg"
+    },
+    {
+        "artist": "Jason A. Engle",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Blade of the Oni",
+        "names": null,
+        "number": "453",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Equipment",
+            "Demon"
+        ],
+        "superTypes": [],
+        "text": "Menace\nEquipped creature has base power and toughness 5/5, has menace, and is a black Demon in addition to its other colors and types.\nReconfigure {2}{B}{B} ({2}{B}{B}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "1",
+        "type": "Artifact Creature - Equipment Demon",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4e9896df-0d5c-4b02-b584-345f4c7cd127.jpg"
+    },
+    {
+        "artist": "Jason A. Engle",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}",
+        "multiverseId": null,
+        "name": "Blade of the Oni",
+        "names": null,
+        "number": "89",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Equipment",
+            "Demon"
+        ],
+        "superTypes": [],
+        "text": "Menace\nEquipped creature has base power and toughness 5/5, has menace, and is a black Demon in addition to its other colors and types.\nReconfigure {2}{B}{B} ({2}{B}{B}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "1",
+        "type": "Artifact Creature - Equipment Demon",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b6bc3f71-b4ce-4c05-be3c-7a0faad476c3.jpg"
+    },
+    {
+        "artist": "Anastasia Ovchinnikova",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Boon of Boseiju",
+        "names": null,
+        "number": "176",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Target creature gets +X/+X until end of turn, where X is the greatest mana value among permanents you control. Untap that creature.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/6/06771591-0480-4232-bc67-216b2e0fe738.jpg"
+    },
+    {
         "artist": "Heonhwa Choe",
         "cmc": 3.0,
         "colorIdentity": [
@@ -1485,6 +2062,36 @@
         "multiverseId": null,
         "name": "Cloudsteel Kirin",
         "names": null,
+        "number": "435",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Equipment",
+            "Kirin"
+        ],
+        "superTypes": [],
+        "text": "Flying\nEquipped creature has flying and \"You can't lose the game and your opponents can't win the game.\"\nReconfigure {5} ({5}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "toughness": "2",
+        "type": "Artifact Creature - Equipment Kirin",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/e/5ea33e1d-fa3b-4179-9f94-74bc35cdf088.jpg"
+    },
+    {
+        "artist": "Jonathan Kuo",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Cloudsteel Kirin",
+        "names": null,
         "number": "8",
         "power": "3",
         "rarity": "Rare",
@@ -1705,6 +2312,66 @@
         "type": "Creature - Ogre Ninja",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/1/81496a81-c986-4749-a28c-45341764e28f.jpg"
+    },
+    {
+        "artist": "Ernanda Souza",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Imperial samurai undergo strict training, honing their skills and purifying their spirits in the hope they will prove worthy of a kami's blessing.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Eiganjo Exempalr",
+        "names": null,
+        "number": "10",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Samurai"
+        ],
+        "superTypes": [],
+        "text": "Whenever a Samurai or Warrior you control attacks alone, it gets +1/+1 until end of turn.",
+        "toughness": "1",
+        "type": "Enchantment Creature - Human Samurai",
+        "types": "Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3b0a9cc0-bb6d-47f7-b0d5-3956c46a1b3a.jpg"
+    },
+    {
+        "artist": "Yamada Rokkaku",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Eiganjo Exempalr",
+        "names": null,
+        "number": "309",
+        "power": "2",
+        "rarity": "Common",
+        "subTypes": [
+            "Human",
+            "Samurai"
+        ],
+        "superTypes": [],
+        "text": "Whenever a Samurai or Warrior you control attacks alone, it gets +1/+1 until end of turn.",
+        "toughness": "1",
+        "type": "Enchantment Creature - Human Samurai",
+        "types": "Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6c85917c-60ea-44d3-8483-fa639564e881.jpg"
     },
     {
         "artist": "Johan Grenier",
@@ -2532,6 +3199,37 @@
     },
     {
         "artist": "Johannes Voss",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Go-Shintai of Boundless Vigor",
+        "names": null,
+        "number": "187",
+        "power": "1",
+        "rarity": "Common",
+        "subTypes": [
+            "Shrine"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Trample\nAt the beginning of your ends step, you may pay {1}. When you do, put a +1/+1 counter on target Shrine for each Shrine you control.",
+        "toughness": "1",
+        "type": "Legendary Enchantment Creature - Shrine",
+        "types": " Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/691016a1-8630-423c-9a57-061593d170fd.jpg"
+    },
+    {
+        "artist": "Johannes Voss",
         "cmc": 4.0,
         "colorIdentity": [
             "W"
@@ -2656,6 +3354,35 @@
         "type": "Legendary Creature - Goblin Samurai",
         "types": " Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d398246a-dc65-4096-b4b7-46ddff38372e.jpg"
+    },
+    {
+        "artist": "Miranda Meeks",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": "It appears only to those whose lives are ending, welcoming them to their fate.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{B}",
+        "multiverseId": null,
+        "name": "Gravelighter",
+        "names": null,
+        "number": "98",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Spirit"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Gravelighter enters the battlefield, draw a card if a creature died this turn. Otherwise, each player sacrifices a creature.",
+        "toughness": "2",
+        "type": "Creature - Spirit",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/532c5b14-75cf-4e4c-9b80-2d56a86e2844.jpg"
     },
     {
         "artist": "Ilse Gort",
@@ -4088,6 +4815,114 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/7132999f-6e2d-4689-8131-7b12076a348d.jpg"
     },
     {
+        "artist": "Ryan Pancoast",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "R",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "R",
+            "W"
+        ],
+        "flavor": "Trained by the Imperials but disillusioned by their rigidity, he gave his heart\u2014and his swords\u2014to the Asari Uprising.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}{W}{B}",
+        "multiverseId": null,
+        "name": "Isshin, Two Heavens as One",
+        "names": null,
+        "number": "224",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Samurai"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+        "toughness": "4",
+        "type": "Legendary Creature - Human Samurai",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg"
+    },
+    {
+        "artist": "Yamada Rokkaku",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "R",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "R",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}{W}{B}",
+        "multiverseId": null,
+        "name": "Isshin, Two Heavens as One",
+        "names": null,
+        "number": "328",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Samurai"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+        "toughness": "4",
+        "type": "Legendary Creature - Human Samurai",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1bf8b008-3a7c-4b6d-8c18-263a576f0d64.jpg"
+    },
+    {
+        "artist": "Ryan Pancoast",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B",
+            "R",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "R",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{R}{W}{B}",
+        "multiverseId": null,
+        "name": "Isshin, Two Heavens as One",
+        "names": null,
+        "number": "488",
+        "power": "3",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Samurai"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+        "toughness": "4",
+        "type": "Legendary Creature - Human Samurai",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f26eeb39-77ab-4e60-8b10-1420e755c372.jpg"
+    },
+    {
         "artist": "Chase Stone",
         "cmc": 7.0,
         "colorIdentity": [
@@ -4571,6 +5406,35 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/ae6d5319-1cbb-41fb-83ed-97c9344e3073.jpg"
     },
     {
+        "artist": "Chris Rahn",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "flavor": "It takes many arms to arm an army.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{R}",
+        "multiverseId": null,
+        "name": "Kami of Industry",
+        "names": null,
+        "number": "149",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Spirt"
+        ],
+        "superTypes": [],
+        "text": "When Kami of Industry enters the battlefield, return target artifact card with mana value 3 or less from your graveyard to the battlefield. It gains haste. Sacrifice it at the beginning of the next end step.",
+        "toughness": "6",
+        "type": "Creature - Spirt",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d3d00e61-3007-43da-960b-823e9ead2acf.jpg"
+    },
+    {
         "artist": "Jehan Choo",
         "cmc": 2.0,
         "colorIdentity": [
@@ -4722,6 +5586,138 @@
         "type": "Legendary Creature - Spirit",
         "types": " Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a33e17d9-fb24-45ef-aba6-292009834dc2.jpg"
+    },
+    {
+        "artist": "Marta Nael",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "U"
+        ],
+        "colors": [
+            "B",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}{B}",
+        "multiverseId": null,
+        "name": "Kotose, the Silent Spider",
+        "names": null,
+        "number": "228",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Ninja"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "When Kotose, the Silent Spider enters the battlefield, exile target card in an opponent's graveyard other than a basic land card. Search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile. them. For as long as you control Kotose, you may play one of the exiled cards, and you may spend mana as though it were mana of any color to cast it.",
+        "toughness": "4",
+        "type": "Legendary Creature - Human Ninja",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/314e97b5-cd43-4f5e-acdd-a107208e061c.jpg"
+    },
+    {
+        "artist": "Penekor",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "U"
+        ],
+        "colors": [
+            "B",
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{U}{B}",
+        "multiverseId": null,
+        "name": "Kotose, the Silent Spider",
+        "names": null,
+        "number": "351",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Human",
+            "Ninja"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "When Kotose, the Silent Spider enters the battlefield, exile target card in an opponent's graveyard other than a basic land card. Search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile. them. For as long as you control Kotose, you may play one of the exiled cards, and you may spend mana as though it were mana of any color to cast it.",
+        "toughness": "4",
+        "type": "Legendary Creature - Human Ninja",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/f/bf89ee78-bcc9-419a-a400-e612b5a90f07.jpg"
+    },
+    {
+        "artist": "Donato Giancola",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}",
+        "multiverseId": null,
+        "name": "Kura, the Boundless Sky",
+        "names": null,
+        "number": "200",
+        "power": "4",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Dragon",
+            "Spirit"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying, deathtouch\nWhen Kura, the Boundless Sky dies, choose one \u2014\n\u2022 Search your library for up to three land cards, reveal them, put them into your hand, then shuffle.\n\u2022 Create an X/X green Spirit creature token, where X is the number of lands you control.",
+        "toughness": "4",
+        "type": "Legendary Creature - Dragon Spirit",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/6/06b25752-26be-4189-bc8b-828db6f0e612.jpg"
+    },
+    {
+        "artist": "Satoru Senda",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{G}{G}",
+        "multiverseId": null,
+        "name": "Kura, the Boundless Sky",
+        "names": null,
+        "number": "411",
+        "power": "4",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Dragon",
+            "Spirit"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Flying, deathtouch\nWhen Kura, the Boundless Sky dies, choose one \u2014\n\u2022 Search your library for up to three land cards, reveal them, put them into your hand, then shuffle.\n\u2022 Create an X/X green Spirit creature token, where X is the number of lands you control.",
+        "toughness": "4",
+        "type": "Legendary Creature - Dragon Spirit",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/9/0986e1a1-749d-4f34-9cdf-b347f2041c5c.jpg"
     },
     {
         "artist": "Daniel Zrom",
@@ -5045,6 +6041,38 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76614523-e51a-44ff-83ad-5be9e322697a.jpg"
     },
     {
+        "artist": "Randy Vargas",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{W}",
+        "multiverseId": null,
+        "name": "Light-Paws, Emperor's Voice",
+        "names": null,
+        "number": "439",
+        "power": "2",
+        "rarity": "Rare",
+        "subTypes": [
+            "Fox",
+            "Advisor"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Whenever an Aura enters the battlefield under your control, if you cast it, you may search your library for an Aura card with mana value less than or equal to that Aura and with a different name than each Aura you control, put that card onto the battlefield attached to Light-Paws, Emperor's Voice, then shuffle.",
+        "toughness": "2",
+        "type": "Legendary Creature - Fox Advisor",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/0/e008fe9b-1913-4358-a411-5d3c175c60ba.jpg"
+    },
+    {
         "artist": "Yongjae Choi",
         "cmc": 2.0,
         "colorIdentity": [
@@ -5250,6 +6278,60 @@
         "type": "Sorcery",
         "types": "Sorcery",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/6/56e7415f-f014-4ece-81db-d8271444d9e9.jpg"
+    },
+    {
+        "artist": "Wylie Beckert",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{X}{G}",
+        "multiverseId": null,
+        "name": "March of Burgeoning Life",
+        "names": null,
+        "number": "201",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "As an additional cost to cast this spell, you may exile any number of green cards from your hand. This spell costs {2} less to cast for each card exiled this way.\nChoose target creature with mana value less than X. Search your library for a creature card with the same name as that creature, put it onto the battlefield tapped, then shuffle.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e223d99-408a-413d-abb1-cb2f11ae521d.jpg"
+    },
+    {
+        "artist": "SENNSU",
+        "cmc": 1.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{X}{G}",
+        "multiverseId": null,
+        "name": "March of Burgeoning Life",
+        "names": null,
+        "number": "393",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "As an additional cost to cast this spell, you may exile any number of green cards from your hand. This spell costs {2} less to cast for each card exiled this way.\nChoose target creature with mana value less than X. Search your library for a creature card with the same name as that creature, put it onto the battlefield tapped, then shuffle.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/ed33009e-5686-4de9-9270-d1540ddceb8a.jpg"
     },
     {
         "artist": "",
@@ -5468,6 +6550,29 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/0/70647c5f-e2ce-43e0-8715-0648e206caf8.jpg"
     },
     {
+        "artist": "Julian Kok Joon Wen",
+        "cmc": 0.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Mech Hangar",
+        "names": null,
+        "number": "270",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a Pilot or Vehicle spell.\n{3}, {T}: Target Vehicle becomes an artifact creature until end of turn.",
+        "toughness": null,
+        "type": "Land",
+        "types": "Land",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/0/c093984d-38cd-4b49-b179-1e289ab442d1.jpg"
+    },
+    {
         "artist": "Victor Adame Minguez",
         "cmc": 2.0,
         "colorIdentity": [],
@@ -5606,6 +6711,93 @@
         "type": "Enchantment Creature - Human Noble",
         "types": "Enchantment Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/4/74f12c23-5c15-4ae6-8f4d-c5e6c1878817.jpg"
+    },
+    {
+        "artist": "Naochika Morishita",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Mindlink Mech",
+        "names": null,
+        "number": "373",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Vehicle"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.",
+        "toughness": "3",
+        "type": "Artifact - Vehicle",
+        "types": "Artifact ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/7/37163f66-393f-4cb7-9f55-307d3d4b5975.jpg"
+    },
+    {
+        "artist": "Robbie Trevino",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Mindlink Mech",
+        "names": null,
+        "number": "448",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Vehicle"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.",
+        "toughness": "3",
+        "type": "Artifact - Vehicle",
+        "types": "Artifact ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/d/2d1e4d50-8ca7-4dc0-8181-aa51beafb218.jpg"
+    },
+    {
+        "artist": "Robbie Trevino",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Mindlink Mech",
+        "names": null,
+        "number": "62",
+        "power": "4",
+        "rarity": "Rare",
+        "subTypes": [
+            "Vehicle"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhen Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.",
+        "toughness": "3",
+        "type": "Artifact - Vehicle",
+        "types": "Artifact ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/8/28273a5b-57b3-4b7a-b017-5886c171c9c9.jpg"
     },
     {
         "artist": "Nestor Ossandon Leal",
@@ -6007,6 +7199,38 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74e4f390-c420-44ec-a703-9a9d3ca6ab2e.jpg"
     },
     {
+        "artist": "Valera Lutfullina",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B}",
+        "multiverseId": null,
+        "name": "Nashi, Moon Sage's Scion",
+        "names": null,
+        "number": "459",
+        "power": "3",
+        "rarity": "Mythic Rare",
+        "subTypes": [
+            "Rat",
+            "Ninja"
+        ],
+        "superTypes": [
+            "Legendary"
+        ],
+        "text": "Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Nashi, Moon Sage's Scion deals combat damage to a player, exile the top card of each player's library. Until end of turn, you may play one of those cards. If you cast a spell this way, pay life equal to its mana value rather than paying its mana cost.",
+        "toughness": "2",
+        "type": "Legendary Creature - Rat Ninja",
+        "types": " Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2a509120-d075-43cc-9422-35b2bf8183aa.jpg"
+    },
+    {
         "artist": "Viko Menezes",
         "cmc": 1.0,
         "colorIdentity": [
@@ -6310,8 +7534,8 @@
         "superTypes": [],
         "text": "Whenever one or more artifacts you control leave the battlefield during your turn, create a 1/1 colorless Construct artifact creature token. This ability triggers only once each turn.\n{T}, Sacrifice an artifact: Oni-Cult Anvil deals 1 damage to each opponent. You gain 1 life.",
         "toughness": null,
-        "type": "Arifact",
-        "types": "Arifact",
+        "type": "Artifact",
+        "types": "Artifact",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c84db1e2-855c-4169-a9cc-a54c73c14e0c.jpg"
     },
     {
@@ -6865,6 +8089,111 @@
         "type": "Artifact - Vehicle",
         "types": "Artifact ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8c5d9a22-0111-40ba-8d9e-a36bd84a39c3.jpg"
+    },
+    {
+        "artist": "David Auden Nash",
+        "cmc": 3.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}",
+        "multiverseId": null,
+        "name": "Reito Sentinel",
+        "names": null,
+        "number": "256",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Construct"
+        ],
+        "superTypes": [],
+        "text": "Defender\nWhen Reito Sentinel enters the battlefield, target player mills three cards. (They put the top three cards of their library into their graveyard.)\n{3}: Put target card from a graveyard on the bottom of its owner's library.",
+        "toughness": "3",
+        "type": "Artifact Creature - Construct",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/0218923a-b685-4492-8fdd-2d2d22ef532e.jpg"
+    },
+    {
+        "artist": "Cristi Balanescu",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"Step one is innovation. Step two is production. Sometimes step one is optional.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{U}",
+        "multiverseId": null,
+        "name": "Replication Specialist",
+        "names": null,
+        "number": "76",
+        "power": "3",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Moonfolk",
+            "Artificer"
+        ],
+        "superTypes": [],
+        "text": "Flying\nWhenever a nontoken artifact enters the battlefield under your control, you may pay {1}{U}. If you do, create a token that's a copy of that artifact.",
+        "toughness": "4",
+        "type": "Creature - Moonfolk Artificer",
+        "types": "Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/475bb3b5-b648-460c-b0ea-89ecfe0ff226.jpg"
+    },
+    {
+        "artist": "Robin Olausson",
+        "cmc": 0.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": "Travelers who leave an offering many pass freely through the forest kami's domain.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Roadside Reliquary",
+        "names": null,
+        "number": "272",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Roadside Reliquary: Draw a card if you control an artifact. Draw a card if you control an enchantment.",
+        "toughness": null,
+        "type": "Land",
+        "types": "Land",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/0/8002de90-93fb-48ea-a849-40fdad0aef5a.jpg"
+    },
+    {
+        "artist": "Tuan Duong Chu",
+        "cmc": 2.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{G}",
+        "multiverseId": null,
+        "name": "Roaring Earth",
+        "names": null,
+        "number": "204",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Whenever a land enters the battlefield under your control, put a +1/+1 counter on target creature or Vehicle you control.\nChannel \u2014 {X}{G}{G}, Discard Roaring Earth; Put X +1/+1 counters on target land you control. It becomes a 0/0 green Spirit creature with haste. It's still a land.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8cbdd88e-c532-4fc0-a1fe-8aa0c26d1092.jpg"
     },
     {
         "artist": "Nicholas Gregory",
@@ -7482,6 +8811,66 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/7/37a00f95-d563-4d51-a5f2-af139261921a.jpg"
     },
     {
+        "artist": "",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{6}{W}",
+        "multiverseId": null,
+        "name": "Sky-Blessed Samurai",
+        "names": null,
+        "number": "314",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Samurai"
+        ],
+        "superTypes": [],
+        "text": "This spell costs {1} less to cast for each enchantment you control.\nFlying",
+        "toughness": "4",
+        "type": "Enchantment Creature - Human Samurai",
+        "types": "Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/1/91d6a843-a1b7-4862-a2bf-8f8f66788126.jpg"
+    },
+    {
+        "artist": "Victor Adame Minguez",
+        "cmc": 7.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Imperial samurai who show exceptional honor and dexterity are invited to train as moth riders, elite guards charged with protecting the skies of Eiganjo.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{6}{W}",
+        "multiverseId": null,
+        "name": "Sky-Blessed Samurai",
+        "names": null,
+        "number": "37",
+        "power": "4",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Human",
+            "Samurai"
+        ],
+        "superTypes": [],
+        "text": "This spell costs {1} less to cast for each enchantment you control.\nFlying",
+        "toughness": "4",
+        "type": "Enchantment Creature - Human Samurai",
+        "types": "Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c9c7ba6f-c58e-4347-92e4-51ae8f2d5a88.jpg"
+    },
+    {
         "artist": "Svetlin Velinov",
         "cmc": 2.0,
         "colorIdentity": [
@@ -7593,6 +8982,87 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/c/eca9f8ae-838f-4a9c-9341-38e39da68926.jpg"
     },
     {
+        "artist": "Lorenzo Mastroianni",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B}",
+        "multiverseId": null,
+        "name": "Soul Transfer",
+        "names": null,
+        "number": "122",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Choose one. If you control an artifact and an enchantment as you cast this spell, you may choose both.\n\u2022 Exile target creature or planeswalker.\n\u2022 Return target creature or planeswalker card from your graveyard to your hand.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1e5aba90-c8c7-4f06-b7b3-1b4758d2791a.jpg"
+    },
+    {
+        "artist": "Dai-XT",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B}",
+        "multiverseId": null,
+        "name": "Soul Transfer",
+        "names": null,
+        "number": "382",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Choose one. If you control an artifact and an enchantment as you cast this spell, you may choose both.\n\u2022 Exile target creature or planeswalker.\n\u2022 Return target creature or planeswalker card from your graveyard to your hand.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ce12642d-85b5-4b40-b1c0-2c08feae2f0a.jpg"
+    },
+    {
+        "artist": "Lorenzo Mastroianni",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "B"
+        ],
+        "colors": [
+            "B"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{1}{B}{B}",
+        "multiverseId": null,
+        "name": "Soul Transfer",
+        "names": null,
+        "number": "460",
+        "power": null,
+        "rarity": "Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Choose one. If you control an artifact and an enchantment as you cast this spell, you may choose both.\n\u2022 Exile target creature or planeswalker.\n\u2022 Return target creature or planeswalker card from your graveyard to your hand.",
+        "toughness": null,
+        "type": "Sorcery",
+        "types": "Sorcery",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b35ce3d2-8e7b-412a-abde-9885ca4e7a64.jpg"
+    },
+    {
         "artist": "Lie Setiawan",
         "cmc": 1.0,
         "colorIdentity": [
@@ -7674,6 +9144,35 @@
         "type": "Enchantment",
         "types": "Enchantment",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f094735f-5843-4f75-bc90-3e248a061a43.jpg"
+    },
+    {
+        "artist": "RYUTETSU",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "B",
+            "W"
+        ],
+        "colors": [
+            "B",
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}{B}",
+        "multiverseId": null,
+        "name": "Spirit-Sister's Call",
+        "names": null,
+        "number": "400",
+        "power": null,
+        "rarity": "Mythic Rare",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "At the beginning of your end step, choose target permanent card in your graveyard. You may sacrifice a permanent that shares a card type with the chosen card. If you do, return the chosen card from your graveyard to the battlefield and it gains \"If this permanent would leave the battlefield, exile it instead of putting it anywhere else.\"",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ceaefe4b-9750-460a-9993-60a138df80a6.jpg"
     },
     {
         "artist": "Dominik Mayer",
@@ -8114,6 +9613,71 @@
         "type": "Legendary Land",
         "types": " Land",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/13410bd5-acee-4cc9-90e3-dbcf8415bcaf.jpg"
+    },
+    {
+        "artist": "Olena Richards",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "{4}{G}",
+        "multiverseId": null,
+        "name": "Tales of Master Seshiro",
+        "names": [
+            "Tales of Master Seshiro",
+            "Seshiro's Living Legacy"
+        ],
+        "number": "210a",
+        "power": null,
+        "rarity": "Common",
+        "subTypes": [
+            "Saga"
+        ],
+        "superTypes": [],
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI, II \u2014 Put a +1/+1 counter on target creature or Vehicle you control. It gains vigilance until end of turn.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "toughness": null,
+        "type": "Enchantment - Saga",
+        "types": "Enchantment ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/1/512bc867-3a86-4da2-93f0-dd76d6a6f30d.jpg"
+    },
+    {
+        "artist": "Olena Richards",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "G"
+        ],
+        "colors": [
+            "G"
+        ],
+        "flavor": null,
+        "layout": "double-faced",
+        "loyalty": null,
+        "mana_cost": "",
+        "multiverseId": null,
+        "name": "Seshiro's Living Legacy",
+        "names": [
+            "Tales of Master Seshiro",
+            "Seshiro's Living Legacy"
+        ],
+        "number": "210b",
+        "power": "5",
+        "rarity": "Common",
+        "subTypes": [
+            "Snake",
+            "Warrior"
+        ],
+        "superTypes": [],
+        "text": "Vigilance, haste",
+        "toughness": "5",
+        "type": "Enchantment Creature - Snake Warrior",
+        "types": "Enchantment Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/back/5/1/512bc867-3a86-4da2-93f0-dd76d6a6f30d.jpg"
     },
     {
         "artist": "Koji Nishino",
@@ -9735,6 +11299,33 @@
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fab2d8a9-ab4c-4225-a570-22636293c17d.jpg"
     },
     {
+        "artist": "Anna Pavleeva",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "\"Knowledge is the universal currency of the Multiverse. It is power. It is freedom. It is possibility itself.\"",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{U}",
+        "multiverseId": null,
+        "name": "Thirst for Knowledge",
+        "names": null,
+        "number": "85",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Draw three cards. Then discard two cards unless you discard an artifact card.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6b927837-8252-4ea7-b2d0-ab624de65bd7.jpg"
+    },
+    {
         "artist": "Maji",
         "cmc": 1.0,
         "colorIdentity": [
@@ -9823,6 +11414,58 @@
         "type": "Creature - Human Ninja",
         "types": "Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89a698a5-f4ac-4b04-96dc-32e1eeef6ac7.jpg"
+    },
+    {
+        "artist": "Marta Nael",
+        "cmc": 3.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{2}{W}",
+        "multiverseId": null,
+        "name": "Touch the Spirit Realm",
+        "names": null,
+        "number": "40",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "When Touch the Spirit Realm enters the battlefield, exile up to one target artifact or creature until Touch the Spirit Realm leaves the battlefield.\nChannel \u2014 {1}{W}, Discard Touch the Spirit Realm: Exile target artifact or creature. Return it to the battlefield under its owner's control at the beginning of the next end step.",
+        "toughness": null,
+        "type": "Enchantment",
+        "types": "Enchantment",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e16ab44e-4257-4c0c-b705-8ac1e9c1d835.jpg"
+    },
+    {
+        "artist": "Jinho Bae",
+        "cmc": 4.0,
+        "colorIdentity": [],
+        "colors": [],
+        "flavor": null,
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}",
+        "multiverseId": null,
+        "name": "Towashi Guide-Bot",
+        "names": null,
+        "number": "262",
+        "power": "2",
+        "rarity": "Uncommon",
+        "subTypes": [
+            "Construct"
+        ],
+        "superTypes": [],
+        "text": "When Towashi Guide-Bot enters the battlefield, put a +1/+1 counter on target creature you control.\n{4}, {T}: Draw a card. This ability costs {1} less to activate for each modified creature you control. (Equipment, Auras you control, and counters are modifications.)",
+        "toughness": "1",
+        "type": "Artifact Creature - Construct",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/a/da4ccf70-b661-46ea-bea9-4466a3a35562.jpg"
     },
     {
         "artist": "Robin Olausson",
@@ -10186,6 +11829,33 @@
         "type": "Enchantment Creature - Snake Druid",
         "types": "Enchantment Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/3009fad8-40cb-4421-9fa8-fd525c5f7189.jpg"
+    },
+    {
+        "artist": "Eric Deschamps",
+        "cmc": 4.0,
+        "colorIdentity": [
+            "W"
+        ],
+        "colors": [
+            "W"
+        ],
+        "flavor": "Since Imperial custom strictly forbade the Emperor to reveal her name\u2014even to Kaito, her closest childhood friend\u2014she had to suffer him calling her \"your empororness\" for much of their shared youth.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{3}{W}",
+        "multiverseId": null,
+        "name": "When We Were Young",
+        "names": null,
+        "number": "43",
+        "power": null,
+        "rarity": "Uncommon",
+        "subTypes": [],
+        "superTypes": [],
+        "text": "Up to two target creatures each get +2/+2 until end of turn. If you control an artifact and an enchantment, those creatures also gain lifelink until end of turn.",
+        "toughness": null,
+        "type": "Instant",
+        "types": "Instant",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6db14cb8-9ff8-41ee-a733-4f1130e73b29.jpg"
     },
     {
         "artist": "Zoltan Boros",
