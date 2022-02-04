@@ -75,4 +75,4 @@ jobs:
           git commit -m "Deploy: $GITHUB_SHA"
           git push
           deploy_commit=`git rev-parse HEAD`
-          echo ::notice::"See deployment: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$deploy_commit"
+          echo ::notice title=New data uploaded::"See deployment: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$deploy_commit"
