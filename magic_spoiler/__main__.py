@@ -650,5 +650,6 @@ def main() -> None:
         print("::set-output name=deploy::false")
         print("::notice title=No updates available::No new spoiler cards found for deployment")
 
+
 if __name__ == "__main__":
     main()
