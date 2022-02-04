@@ -648,10 +648,9 @@ def main() -> None:
     if os.environ['CI']:
         if changed:
             print("::set-output name=deploy::true")
-            print("::notice title=Updates available::New spoiler files will be uploaded")
         else:
             print("::set-output name=deploy::false")
-            print("::notice title=No updates available::There are no new spoiler cards")
+            print("::notice title=No updates available::No new spoiler cards found for deployment")
 
 if __name__ == "__main__":
     main()
