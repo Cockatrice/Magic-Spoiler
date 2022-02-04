@@ -5,7 +5,6 @@ import contextvars
 import datetime
 import hashlib
 import json
-import os
 import pathlib
 import shutil
 import time
@@ -644,13 +643,12 @@ def main() -> None:
     # Cleanup outdated stuff that's not necessary
     changed |= delete_old_files()
 
-    # Only when run in CI, enable deployment on changes
-    if os.environ['CI']:
-        if changed:
-            print("::set-output name=deploy::true")
-        else:
-            print("::set-output name=deploy::false")
-            print("::notice title=No updates available::No new spoiler cards found for deployment")
+    # Enable deployment on changes (used in CI)
+    if changed:
+        print("::set-output name=deploy::true")
+    else:
+        print("::set-output name=deploy::false")
+        print("::notice title=No updates available::No new spoiler cards found for deployment")
 
 if __name__ == "__main__":
     main()
