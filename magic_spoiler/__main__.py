@@ -644,7 +644,7 @@ def main() -> None:
     # Cleanup outdated stuff that's not necessary
     changed |= delete_old_files()
 
-    # Set output to deploy
+    # Only when run in CI, enable deployment on changes
     if os.environ['CI']:
         if changed:
             print("::set-output name=deploy::true")
