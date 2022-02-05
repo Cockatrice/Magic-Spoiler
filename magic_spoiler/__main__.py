@@ -254,11 +254,11 @@ def close_xml_file(card_xml_file: IO[Any]) -> None:
     card_xml_file.write("</cards>\n</cockatrice_carddatabase>\n")
     card_xml_file.close()
 
-    # Make the files pretty
+    # Make the files pretty and add xml declaration
     parser = etree.XMLParser(remove_blank_text=True)
     root = etree.parse(card_xml_file.name, parser).getroot()
     with pathlib.Path(card_xml_file.name).open("wb") as f:
-        f.write(etree.tostring(root, pretty_print=True))
+        f.write(etree.tostring(root, encoding = "UTF-8", xml_declaration = True, pretty_print=True))
 
 
 def xml_escape(text):
