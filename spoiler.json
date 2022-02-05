@@ -2339,7 +2339,7 @@
                 "Aura"
             ],
             "superTypes": [],
-            "text": "Enchant artifact r creature\nAs long as enchanted permanent is a creature, it gets -1/-1 and can't block.\nEnchanted permanent has \"At the beginning of your upkeep, you lose 1 life.\"",
+            "text": "Enchant artifact creature\nAs long as enchanted permanent is a creature, it gets -1/-1 and can't block.\nEnchanted permanent has \"At the beginning of your upkeep, you lose 1 life.\"",
             "toughness": null,
             "type": "Enchantment - Aura",
             "types": "Enchantment ",
@@ -2535,7 +2535,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": "The kami of Jukai Forest accept only the most respected petitioners.",
+            "flavor": "The kami of Jukai Forest accept only the most respectful petitioners.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{G}",
@@ -2888,7 +2888,7 @@
                 "Ninja"
             ],
             "superTypes": [],
-            "text": "Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Dokuchi Silencer deals combat damage to a player, you may discard a creature card. When you do, destroy target creature or planeswalker an opponent controls.",
+            "text": "Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Dokuchi Silencer deals combat damage to a player, you may discard a creature card. When you do, destroy target creature or planeswalker that player controls.",
             "toughness": "1",
             "type": "Creature - Human Ninja",
             "types": "Creature ",
@@ -2918,7 +2918,7 @@
                 "Ninja"
             ],
             "superTypes": [],
-            "text": "Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Dokuchi Silencer deals combat damage to a player, you may discard a creature card. When you do, destroy target creature or planeswalker an opponent controls.",
+            "text": "Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Dokuchi Silencer deals combat damage to a player, you may discard a creature card. When you do, destroy target creature or planeswalker that player controls.",
             "toughness": "1",
             "type": "Creature - Human Ninja",
             "types": "Creature ",
@@ -3103,7 +3103,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "When Ecologist's Terrarium enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{2}, {T}, Sacrifice Ecologist's Terrarium: Put a +1/+11 counter on target creature. Activate only as a sorcery.",
+            "text": "When Ecologist's Terrarium enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{2}, {T}, Sacrifice Ecologist's Terrarium: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
             "toughness": null,
             "type": "Artifact",
             "types": "Artifact",
@@ -3360,7 +3360,7 @@
                 "Equipment"
             ],
             "superTypes": [],
-            "text": "Equipped create gets +4/+0.\nWhenever Enormous Energy Blade becomes attached to a creature, tap that creature.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+            "text": "Equipped creature gets +4/+0.\nWhenever Enormous Energy Blade becomes attached to a creature, tap that creature.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
             "toughness": null,
             "type": "Artifact - Equipment",
             "types": "Artifact ",
@@ -3504,7 +3504,7 @@
             "colors": [
                 "U"
             ],
-            "flavor": "The Futurists regard teh tradtiion of kami-bonding as anachronistic and inefficient, striving constantly to surpass spiritual pwoer with technology.",
+            "flavor": "The Futurists regard the tradition of kami-bonding as anachronistic and inefficient, striving constantly to surpass spiritual power with technology.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{U}{U}",
@@ -3888,7 +3888,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": "\"Memories fade and wither with time. If we do not nurture the garden of history, we may once more wander blindly though barren land.\"\n\u2014Reki, founder of the Living Historians",
+            "flavor": "\"Memories fade and wither with time. If we do not nurture the garden of history, we may once more wander blindly though barren lands.\"\n\u2014Reki, founder of the Living Historians",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{2}{G}",
@@ -4083,7 +4083,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": "The land choses its own champions.",
+            "flavor": "The land chooses its own champions.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{3}{G}",
@@ -4494,7 +4494,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": "It seeks this with untamed spirits and offers wild strength.",
+            "flavor": "It seeks those with untamed spirits and offers wild strength.",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{1}{G}",
@@ -6141,7 +6141,7 @@
             "colors": [
                 "U"
             ],
-            "flavor": null,
+            "flavor": "\"While they squabble below, let us rise above.\"\n\u2014Emire, director of the Saiba Futurists",
             "layout": "double-faced",
             "loyalty": null,
             "mana_cost": "",
@@ -6673,7 +6673,7 @@
                 "Boar"
             ],
             "superTypes": [],
-            "text": "Trample, haste\nChannel\u2014{1}{R}, Discard Ironhoof Boar: Target creature gets +3/+1 and gains trample until end of turn.",
+            "text": "Trample, haste\nChannel \u2014 {1}{R}, Discard Ironhoof Boar: Target creature gets +3/+1 and gains trample until end of turn.",
             "toughness": "4",
             "type": "Artifact Creature - Boar",
             "types": "Artifact Creature ",
@@ -10626,7 +10626,7 @@
                 "Samurai"
             ],
             "superTypes": [],
-            "text": "Nezumi Bladeblesser has deathtouch as long as you control an artifact.\nNezumi Bladeblesser has menace as long as you control an enchantment. (This creature can't be blocked except by two or more creatures.)",
+            "text": "Nezumi Bladeblesser has deathtouch as long as you control an artifact.\nNezumi Bladeblesser has menace as long as you control an enchantment. (It can't be blocked except by two or more creatures.)",
             "toughness": "2",
             "type": "Creature - Rat Samurai",
             "types": "Creature ",
@@ -10656,7 +10656,7 @@
                 "Samurai"
             ],
             "superTypes": [],
-            "text": "Nezumi Bladeblesser has deathtouch as long as you control an artifact.\nNezumi Bladeblesser has menace as long as you control an enchantment. (This creature can't be blocked except by two or more creatures.)",
+            "text": "Nezumi Bladeblesser has deathtouch as long as you control an artifact.\nNezumi Bladeblesser has menace as long as you control an enchantment. (It can't be blocked except by two or more creatures.)",
             "toughness": "2",
             "type": "Creature - Rat Samurai",
             "types": "Creature ",
@@ -10835,7 +10835,7 @@
                 "Ogre"
             ],
             "superTypes": [],
-            "text": "Equipped creature get +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice that creature. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+            "text": "Equipped creature get +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
             "toughness": "2",
             "type": "Artifact Creature - Equipment Ogre",
             "types": "Artifact Creature ",
@@ -10865,7 +10865,7 @@
                 "Ogre"
             ],
             "superTypes": [],
-            "text": "Equipped creature get +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice that creature. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+            "text": "Equipped creature get +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
             "toughness": "2",
             "type": "Artifact Creature - Equipment Ogre",
             "types": "Artifact Creature ",
@@ -10895,7 +10895,7 @@
                 "Ogre"
             ],
             "superTypes": [],
-            "text": "Equipped creature get +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice that creature. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+            "text": "Equipped creature get +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
             "toughness": "2",
             "type": "Artifact Creature - Equipment Ogre",
             "types": "Artifact Creature ",
@@ -10975,7 +10975,7 @@
             "colors": [
                 "B"
             ],
-            "flavor": "\"Some fool would rather throw a whole mech away than repair one hydraulic activator? It must be my lucky day.\"",
+            "flavor": "\"Some fool would rather throw a whole mech away than repair one hydraulic actuator? It must be my lucky day.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{4}{B}",
@@ -11518,7 +11518,7 @@
                 "R",
                 "W"
             ],
-            "flavor": "\"The tempest is the only ally I need!\"",
+            "flavor": "\"The tempest is the only ally I need.\"",
             "layout": "",
             "loyalty": null,
             "mana_cost": "{2}{R}{W}",
@@ -12662,7 +12662,7 @@
             "rarity": "Common",
             "subTypes": [],
             "superTypes": [],
-            "text": "Choose one or both -\n\u2022 Return target creature card from your graveyard to your hand.\n\u2022 Return target enchantment card from your graveyard to your hand.",
+            "text": "Choose one or both \u2014\n\u2022 Return target creature card from your graveyard to your hand.\n\u2022 Return target enchantment card from your graveyard to your hand.",
             "toughness": null,
             "type": "Instant",
             "types": "Instant",
@@ -14190,7 +14190,7 @@
             "colors": [
                 "G"
             ],
-            "flavor": null,
+            "flavor": "\"In the times of strife, the foolish make a fist while the wise make a friend.\"\n\u2014*First Address of Seshiro the Anointed as Broodmaster of the Orochi Colonies*",
             "layout": "double-faced",
             "loyalty": null,
             "mana_cost": "",
@@ -17265,7 +17265,7 @@
             "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02e3ec6e-1375-4647-9d15-37ff4697da5c.jpg"
         },
         {
-            "artist": "",
+            "artist": "Chris Ostrowski",
             "cmc": 0.0,
             "colorIdentity": [
                 "B",
