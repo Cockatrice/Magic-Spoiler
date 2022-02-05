@@ -644,11 +644,12 @@ def main() -> None:
     # Cleanup outdated stuff that's not necessary
     changed |= delete_old_files()
 
-    # Set output to deploy
+    # Enable deployment on changes (used in CI)
     if changed:
         print("::set-output name=deploy::true")
     else:
         print("::set-output name=deploy::false")
+        print("::notice title=No updates available::No new spoiler cards found for deployment")
 
 
 if __name__ == "__main__":
