@@ -23,7 +23,7 @@
             "Octopus"
         ],
         "superTypes": [],
-        "text": "When Acquisition Octopus or equipped creature deals combat damage to a player, draw a card.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "text": "Whenever Acquisition Octopus or equipped creature deals combat damage to a player, draw a card.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
         "toughness": "2",
         "type": "Artifact Creature - Equipment Octopus",
         "types": "Artifact Creature ",
@@ -225,7 +225,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nSearch your library for an Equipment or Vehicle card, put it onto the battlefield, then shuffle. If it has mana value less than the sacrificed permanent's mana value, scry 2.",
+        "text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nSearch your library for an Equipment or Vehicle card, put that card onto the battlefield, then shuffle. If it has mana value less than the sacrificed permanent's mana value, scry 2.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -552,7 +552,7 @@
         "flavor": "\"I sometimes watch them build more of their kind and wonder: Will there come a day when they no longer need us?\"\n\u2014Saku, Futurist technician",
         "layout": "",
         "loyalty": null,
-        "mana_cost": "2",
+        "mana_cost": "{2}",
         "multiverseId": null,
         "name": "Automated Artificer",
         "names": null,
@@ -1250,7 +1250,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "Target creature gets +X/+X until end of turn, where X is the greatest mana value among permanents you control. Untap that creature.",
+        "text": "Target creature gets +X/+X until end of turn, where X is the greatest mana value among permanents you control. Untap it.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -1530,7 +1530,7 @@
             "Equipment"
         ],
         "superTypes": [],
-        "text": "{2}: Equipped creature gets +X/+0 until end of turn, where X is the number of times this ability has resolved this turn.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+        "text": "{2}: Until end of turn, equipped creature gets +X/+0, where X is the number of times this ability has resolved this turn.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
         "toughness": null,
         "type": "Artifact - Equipment",
         "types": "Artifact ",
@@ -2047,7 +2047,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Choose one\u2014\n\u2022 Target opponent exiles a creature they control.\n\u2022 Target opponent exiles an enchantment they control.",
+        "text": "Choose one \u2014\n\u2022 Target opponent exiles a creature they control.\n\u2022 Target opponent exiles an enchantment they control.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -2477,7 +2477,7 @@
         "colors": [
             "W"
         ],
-        "flavor": "Imperial samurai undergo strict training, honing their skills and purifying their spirits in the hope they will prove worthy of a kami's blessing.",
+        "flavor": "Imperial samurai undergo strict training, honing their skills and purifying their spirits in the hope that they will prove worthy of a kami's blessing.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{1}{W}",
@@ -3069,7 +3069,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 2/2 red Goblin Shaman creature token with \"Whenever this creature attacks, create a Treasure token.\"\nII \u2014 You may discard up two cards. If you do, draw that many cards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 2/2 red Goblin Shaman creature token with \"Whenever this creature attacks, create a Treasure token.\"\nII \u2014 You may discard up to two cards. If you do, draw that many cards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -3134,7 +3134,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 2/2 red Goblin Shaman creature token with \"Whenever this creature attacks, create a Treasure token.\"\nII \u2014 You may discard up two cards. If you do, draw that many cards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 2/2 red Goblin Shaman creature token with \"Whenever this creature attacks, create a Treasure token.\"\nII \u2014 You may discard up to two cards. If you do, draw that many cards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -3199,7 +3199,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 2/2 red Goblin Shaman creature token with \"Whenever this creature attacks, create a Treasure token.\"\nII \u2014 You may discard up two cards. If you do, draw that many cards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 2/2 red Goblin Shaman creature token with \"Whenever this creature attacks, create a Treasure token.\"\nII \u2014 You may discard up to two cards. If you do, draw that many cards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -3247,7 +3247,7 @@
         "colors": [
             "G"
         ],
-        "flavor": "\"Memories fade and wither with time. If we do not nurture the garden of history, we may once more wander blindly though barren lands.\"\n\u2014Reki, founder of the Living Historians",
+        "flavor": "\"Memories fade and wither with time. If we do not nurture the garden of history, we may once more wander blindly through barren lands.\"\n\u2014Reki, founder of the Living Historians",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{2}{G}",
@@ -3483,7 +3483,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "Flame Discharge deals X damage to target creature or planeswalker. If you controller a modified creature as you cast this spell, it deals X plus 2 damage instead. (Equipment, Auras you control, and counters are modifications.)",
+        "text": "Flame Discharge deals X damage to target creature or planeswalker. If you controlled a modified creature as you cast this spell, it deals X plus 2 damage instead. (Equipment, Auras you control, and counters are modifications.)",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -4180,7 +4180,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste. Return it your hand at beginning of the next end step.",
+        "text": "At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste. Return it to its owner's hand at the beginning of your next end step.",
         "toughness": "3",
         "type": "Legendary Creature - Rat Pilot",
         "types": " Creature ",
@@ -4214,7 +4214,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste. Return it your hand at beginning of the next end step.",
+        "text": "At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste. Return it to its owner's hand at the beginning of your next end step.",
         "toughness": "3",
         "type": "Legendary Creature - Rat Pilot",
         "types": " Creature ",
@@ -4248,7 +4248,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste. Return it your hand at beginning of the next end step.",
+        "text": "At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste. Return it to its owner's hand at the beginning of your next end step.",
         "toughness": "3",
         "type": "Legendary Creature - Rat Pilot",
         "types": " Creature ",
@@ -4352,7 +4352,7 @@
         "colors": [
             "G"
         ],
-        "flavor": "When the spirit and mortal realms overlap, the laws of reality are rewritten.",
+        "flavor": "Where the spirit and mortal realms overlap, the laws of reality are rewritten.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{3}{G}",
@@ -4524,7 +4524,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Destroy each nonland permanent with mana. value 1 or less.\nII \u2014 Exile all graveyards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Destroy each nonland permanent with mana value 1 or less.\nII \u2014 Exile all graveyards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -4593,7 +4593,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Destroy each nonland permanent with mana. value 1 or less.\nII \u2014 Exile all graveyards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Destroy each nonland permanent with mana value 1 or less.\nII \u2014 Exile all graveyards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -4662,7 +4662,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Destroy each nonland permanent with mana. value 1 or less.\nII \u2014 Exile all graveyards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Destroy each nonland permanent with mana value 1 or less.\nII \u2014 Exile all graveyards.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -5989,7 +5989,7 @@
         "cmc": 1.0,
         "colorIdentity": [],
         "colors": [],
-        "flavor": "\"I needed an extra set of hands, so I built one.\"\n\u2014Kenji, Sokenzan artificer",
+        "flavor": "\"I needed an extra set of hands, so I built one.\"\n\u2014Kenji, Sokenzan artisan",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{1}",
@@ -6448,7 +6448,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 1/1 green Human Monk creature token with \"{T}: Add {G}.\"\nII \u2014 Put a +1/+1 counter on each of up two target creatures.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 1/1 green Human Monk creature token with \"{T}: Add {G}.\"\nII \u2014 Put a +1/+1 counter on each of up to two target creatures.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -6513,7 +6513,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 1/1 green Human Monk creature token with \"{T}: Add {G}.\"\nII \u2014 Put a +1/+1 counter on each of up two target creatures.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 1/1 green Human Monk creature token with \"{T}: Add {G}.\"\nII \u2014 Put a +1/+1 counter on each of up to two target creatures.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -6578,7 +6578,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 1/1 green Human Monk creature token with \"{T}: Add {G}.\"\nII \u2014 Put a +1/+1 counter on each of up two target creatures.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Create a 1/1 green Human Monk creature token with \"{T}: Add {G}.\"\nII \u2014 Put a +1/+1 counter on each of up to two target creatures.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -7200,7 +7200,7 @@
             "Spirit"
         ],
         "superTypes": [],
-        "text": "When Kami of Restless Shadows enters the battlefield, choose one\u2014\n\u2022 Return up to one target Ninja or Rogue creature card from your graveyard to your hand.\n\u2022 Put target creature card from your graveyard on top of your library.",
+        "text": "When Kami of Restless Shadows enters the battlefield, choose one \u2014\n\u2022 Return up to one target Ninja or Rogue creature card from your graveyard to your hand.\n\u2022 Put target creature card from your graveyard on top of your library.",
         "toughness": "3",
         "type": "Creature - Spirit",
         "types": "Creature ",
@@ -7460,7 +7460,7 @@
             "Pilot"
         ],
         "superTypes": [],
-        "text": "Whenever a Vehicle you control attacks, choose one \u2014\n\u2022 That vehicle gains first strike until end of turn.\n\u2022 Untap Kitsune Ace.",
+        "text": "Whenever a Vehicle you control attacks, choose one \u2014\n\u2022 That Vehicle gains first strike until end of turn.\n\u2022 Untap Kitsune Ace.",
         "toughness": "2",
         "type": "Creature - Fox Pilot",
         "types": "Creature ",
@@ -7491,7 +7491,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Reach\nModified creatures you control have trample. (Equipment, Auras you control, and counters are modifications.)\nWhenever a modified creature you control deals combat damage to an opponent, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+        "text": "Reach\nModified creatures you control have trample. (Equipment, Auras you control, and counters are modifications.)\nWhenever a modified creature you control deals combat damage to a player, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
         "toughness": "3",
         "type": "Legendary Creature - Spirit",
         "types": " Creature ",
@@ -7522,7 +7522,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Reach\nModified creatures you control have trample. (Equipment, Auras you control, and counters are modifications.)\nWhenever a modified creature you control deals combat damage to an opponent, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+        "text": "Reach\nModified creatures you control have trample. (Equipment, Auras you control, and counters are modifications.)\nWhenever a modified creature you control deals combat damage to a player, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
         "toughness": "3",
         "type": "Legendary Creature - Spirit",
         "types": " Creature ",
@@ -7553,7 +7553,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Reach\nModified creatures you control have trample. (Equipment, Auras you control, and counters are modifications.)\nWhenever a modified creature you control deals combat damage to an opponent, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+        "text": "Reach\nModified creatures you control have trample. (Equipment, Auras you control, and counters are modifications.)\nWhenever a modified creature you control deals combat damage to a player, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
         "toughness": "3",
         "type": "Legendary Creature - Spirit",
         "types": " Creature ",
@@ -7584,7 +7584,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "Reach\nModified creatures you control have trample. (Equipment, Auras you control, and counters are modifications.)\nWhenever a modified creature you control deals combat damage to an opponent, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+        "text": "Reach\nModified creatures you control have trample. (Equipment, Auras you control, and counters are modifications.)\nWhenever a modified creature you control deals combat damage to a player, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
         "toughness": "3",
         "type": "Legendary Creature - Spirit",
         "types": " Creature ",
@@ -8623,7 +8623,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "As an additional cost to cast this spell, you may exile any number of red cards from your hand. This spell costs {2} less to cast for each card exiled this way.\nExile the top X cards of your library. Until the end of your next turn, you may play up to two of those cards.",
+        "text": "As an additional cost to cast this spell, you may exile any number of red cards from your hand. This spell costs {2} less to cast for each card exiled this way.\nExile the top X cards of your library. You may play up to two of those cards until the end of your next turn.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -8650,7 +8650,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "As an additional cost to cast this spell, you may exile any number of red cards from your hand. This spell costs {2} less to cast for each card exiled this way.\nExile the top X cards of your library. Until the end of your next turn, you may play up to two of those cards.",
+        "text": "As an additional cost to cast this spell, you may exile any number of red cards from your hand. This spell costs {2} less to cast for each card exiled this way.\nExile the top X cards of your library. You may play up to two of those cards until the end of your next turn.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -8677,7 +8677,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "As an additional cost to cast this spell, you may exile any number of red cards from your hand. This spell costs {2} less to cast for each card exiled this way.\nExile the top X cards of your library. Until the end of your next turn, you may play up to two of those cards.",
+        "text": "As an additional cost to cast this spell, you may exile any number of red cards from your hand. This spell costs {2} less to cast for each card exiled this way.\nExile the top X cards of your library. You may play up to two of those cards until the end of your next turn.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -9058,7 +9058,7 @@
             "Vehicle"
         ],
         "superTypes": [],
-        "text": "Flying\nWhen Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1",
+        "text": "Flying\nWhenever Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1",
         "toughness": "3",
         "type": "Artifact - Vehicle",
         "types": "Artifact ",
@@ -9087,7 +9087,7 @@
             "Vehicle"
         ],
         "superTypes": [],
-        "text": "Flying\nWhen Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1",
+        "text": "Flying\nWhenever Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1",
         "toughness": "3",
         "type": "Artifact - Vehicle",
         "types": "Artifact ",
@@ -9116,7 +9116,7 @@
             "Vehicle"
         ],
         "superTypes": [],
-        "text": "Flying\nWhen Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1",
+        "text": "Flying\nWhenever Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1",
         "toughness": "3",
         "type": "Artifact - Vehicle",
         "types": "Artifact ",
@@ -10194,7 +10194,7 @@
             "Ogre"
         ],
         "superTypes": [],
-        "text": "Equipped creature get +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "text": "Equipped creature gets +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
         "toughness": "2",
         "type": "Artifact Creature - Equipment Ogre",
         "types": "Artifact Creature ",
@@ -10224,7 +10224,7 @@
             "Ogre"
         ],
         "superTypes": [],
-        "text": "Equipped creature get +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "text": "Equipped creature gets +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
         "toughness": "2",
         "type": "Artifact Creature - Equipment Ogre",
         "types": "Artifact Creature ",
@@ -10254,7 +10254,7 @@
             "Ogre"
         ],
         "superTypes": [],
-        "text": "Equipped creature get +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "text": "Equipped creature gets +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
         "toughness": "2",
         "type": "Artifact Creature - Equipment Ogre",
         "types": "Artifact Creature ",
@@ -11133,7 +11133,7 @@
         "colors": [
             "W"
         ],
-        "flavor": "Before her spark pulled her away again, the emperor appointed the wise Light-Paws to guide Kamigawa in her absence.",
+        "flavor": "Before her spark pulled her away again, the Emperor appointed the wise Light-Paws to guide Kamigawa in her absence.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{W}",
@@ -11145,7 +11145,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Target creature gets +2/+2 until end of turn. If it's an enchantment creature or legendary creature, isntead put a +1/+1 counter on it and its gets +1/+1 until end of turn.",
+        "text": "Target creature gets +2/+2 until end of turn. If it's an enchantment creature or legendary creature, instead put a +1/+1 counter on it and it gets +1/+1 until end of turn.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -11461,7 +11461,7 @@
         "cmc": 0.0,
         "colorIdentity": [],
         "colors": [],
-        "flavor": "Travelers who leave an offering many pass freely through the forest kami's domain.",
+        "flavor": "Travelers who leave an offering may pass freely through the forest kami's domain.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "",
@@ -11500,7 +11500,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "Whenever a land enters the battlefield under your control, put a +1/+1 counter on target creature or Vehicle you control.\nChannel \u2014 {X}{G}{G}, Discard Roaring Earth; Put X +1/+1 counters on target land you control. It becomes a 0/0 green Spirit creature with haste. It's still a land.",
+        "text": "Whenever a land enters the battlefield under your control, put a +1/+1 counter on target creature or Vehicle you control.\nChannel \u2014 {X}{G}{G}, Discard Roaring Earth: Put X +1/+1 counters on target land you control. It becomes a 0/0 green Spirit creature with haste. It's still a land.",
         "toughness": null,
         "type": "Enchantment",
         "types": "Enchantment",
@@ -11556,6 +11556,36 @@
         "type": "Artifact Creature - Construct",
         "types": "Artifact Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3eebf6a6-f1fd-40a1-ac27-367deafa6f2a.jpg"
+    },
+    {
+        "artist": "Evyn Fong",
+        "cmc": 5.0,
+        "colorIdentity": [
+            "U"
+        ],
+        "colors": [
+            "U"
+        ],
+        "flavor": "One to clear the way, another to erase their trail.",
+        "layout": "",
+        "loyalty": null,
+        "mana_cost": "{4}{U}",
+        "multiverseId": null,
+        "name": "Saiba Trespassers",
+        "names": null,
+        "number": "77",
+        "power": "3",
+        "rarity": "Common",
+        "subTypes": [
+            "Moonfolk",
+            "Rogue"
+        ],
+        "superTypes": [],
+        "text": "Channel \u2014 {3}{U}, Discard Saiba Trespassers: Tap up to two target creatures you don't control. Those creatures don't untap during their controller's next untap step.",
+        "toughness": "5",
+        "type": "Artifact Creature - Moonfolk Rogue",
+        "types": "Artifact Creature ",
+        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c3dd7f1a-5d43-4218-a9d8-7cc4f6a18ecd.jpg"
     },
     {
         "artist": "Anna Pavleeva",
@@ -12246,7 +12276,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "{1}{G}, {T}, Return Shigeki, Jukai Visionary to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped, and the rest into your graveyard.\nChannel \u2014 {X}{X}{G}{G}, Discard Shigeki: Return X target nonlegendary cards from your graveyard to your hand.",
+        "text": "{1}{G}, {T}, Return Shigeki, Jukai Visionary to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest into your graveyard.\nChannel \u2014 {X}{X}{G}{G}, Discard Shigeki: Return X target nonlegendary cards from your graveyard to your hand.",
         "toughness": "3",
         "type": "Legendary Enchantment Creature - Snake Druid",
         "types": " Enchantment Creature ",
@@ -12278,7 +12308,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "{1}{G}, {T}, Return Shigeki, Jukai Visionary to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped, and the rest into your graveyard.\nChannel \u2014 {X}{X}{G}{G}, Discard Shigeki: Return X target nonlegendary cards from your graveyard to your hand.",
+        "text": "{1}{G}, {T}, Return Shigeki, Jukai Visionary to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest into your graveyard.\nChannel \u2014 {X}{X}{G}{G}, Discard Shigeki: Return X target nonlegendary cards from your graveyard to your hand.",
         "toughness": "3",
         "type": "Legendary Enchantment Creature - Snake Druid",
         "types": " Enchantment Creature ",
@@ -12310,7 +12340,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "{1}{G}, {T}, Return Shigeki, Jukai Visionary to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped, and the rest into your graveyard.\nChannel \u2014 {X}{X}{G}{G}, Discard Shigeki: Return X target nonlegendary cards from your graveyard to your hand.",
+        "text": "{1}{G}, {T}, Return Shigeki, Jukai Visionary to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest into your graveyard.\nChannel \u2014 {X}{X}{G}{G}, Discard Shigeki: Return X target nonlegendary cards from your graveyard to your hand.",
         "toughness": "3",
         "type": "Legendary Enchantment Creature - Snake Druid",
         "types": " Enchantment Creature ",
@@ -12369,36 +12399,6 @@
         "type": "Artifact Creature - Construct",
         "types": "Artifact Creature ",
         "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/5/75e8d71c-3a0b-4042-a0f7-e99e92a79dc2.jpg"
-    },
-    {
-        "artist": "Evyn Fong",
-        "cmc": 5.0,
-        "colorIdentity": [
-            "U"
-        ],
-        "colors": [
-            "U"
-        ],
-        "flavor": "One to clear the way, another to erase their trail.",
-        "layout": "",
-        "loyalty": null,
-        "mana_cost": "{4}{U}",
-        "multiverseId": null,
-        "name": "Siba Trespassers",
-        "names": null,
-        "number": "77",
-        "power": "3",
-        "rarity": "Common",
-        "subTypes": [
-            "Moonfolk",
-            "Rogue"
-        ],
-        "superTypes": [],
-        "text": "Channel \u2014 {3}{U}, Discard Siba Trespassers: Tap up to two target creatures you don't control. Those creatures don't untap during their controller's next untap step.",
-        "toughness": "5",
-        "type": "Artifact Creature - Moonfolk Rogue",
-        "types": "Artifact Creature ",
-        "url": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c3dd7f1a-5d43-4218-a9d8-7cc4f6a18ecd.jpg"
     },
     {
         "artist": "Carl Critchlow",
@@ -12565,7 +12565,7 @@
         "colors": [
             "W"
         ],
-        "flavor": "Imperial samurai who show exceptional honor and dexterity are invited to train as moth riders, elite guards charged with protecting the skies of Eiganjo.",
+        "flavor": "Imperial samurai who show exceptional honor and dexterity are invited to train as mothriders, elite guards charged with protecting the skies of Eiganjo.",
         "layout": "",
         "loyalty": null,
         "mana_cost": "{6}{W}",
@@ -12855,7 +12855,7 @@
         "rarity": "Uncommon",
         "subTypes": [],
         "superTypes": [],
-        "text": "Target creature you control deals damage equal to its power to each of X target creatures and/or planeswalker.",
+        "text": "Target creature you control deals damage equal to its power to each of X target creatures and/or planeswalkers.",
         "toughness": null,
         "type": "Sorcery",
         "types": "Sorcery",
@@ -13144,7 +13144,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "Until end of turn, target creature or Vehicle becomes an artifact creature with base power and toughnes 4/5.\nDraw a card.",
+        "text": "Until end of turn, target creature or Vehicle becomes an artifact creature with base power and toughness 4/5.\nDraw a card.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
@@ -13174,7 +13174,7 @@
             "Samurai"
         ],
         "superTypes": [],
-        "text": "Vigilance\nChannel \u2014 {2}, Discard Sunblade Samurai: Search your library for a basic Plains card, reveal it, put it into your hand, the shuffle. You gain 2 life.",
+        "text": "Vigilance\nChannel \u2014 {2}, Discard Sunblade Samurai: Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle. You gain 2 life.",
         "toughness": "4",
         "type": "Enchantment Creature - Human Samurai",
         "types": "Enchantment Creature ",
@@ -13204,7 +13204,7 @@
             "Samurai"
         ],
         "superTypes": [],
-        "text": "Vigilance\nChannel \u2014 {2}, Discard Sunblade Samurai: Search your library for a basic Plains card, reveal it, put it into your hand, the shuffle. You gain 2 life.",
+        "text": "Vigilance\nChannel \u2014 {2}, Discard Sunblade Samurai: Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle. You gain 2 life.",
         "toughness": "4",
         "type": "Enchantment Creature - Human Samurai",
         "types": "Enchantment Creature ",
@@ -13549,7 +13549,7 @@
         "colors": [
             "G"
         ],
-        "flavor": "\"In the times of strife, the foolish make a fist while the wise make a friend.\"\n\u2014*First Address of Seshiro the Anointed as Broodmaster of the Orochi Colonies*",
+        "flavor": "\"In times of strife, the foolish make a fist while the wise make a friend.\"\n\u2014*First Address of Seshiro the Anointed as Broodmaster of the Orochi Colonies*",
         "layout": "double-faced",
         "loyalty": null,
         "mana_cost": "",
@@ -13988,7 +13988,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI - Mill three cards. Create a 1/1 colorless Spirit creature token.\nII \u2014 Put a +1/+1 counter on target creature you control.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Mill three cards. Create a 1/1 colorless Spirit creature token.\nII \u2014 Put a +1/+1 counter on target creature you control.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -14053,7 +14053,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI - Mill three cards. Create a 1/1 colorless Spirit creature token.\nII \u2014 Put a +1/+1 counter on target creature you control.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Mill three cards. Create a 1/1 colorless Spirit creature token.\nII \u2014 Put a +1/+1 counter on target creature you control.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -14118,7 +14118,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI - Mill three cards. Create a 1/1 colorless Spirit creature token.\nII \u2014 Put a +1/+1 counter on target creature you control.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Mill three cards. Create a 1/1 colorless Spirit creature token.\nII \u2014 Put a +1/+1 counter on target creature you control.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -15058,7 +15058,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI - Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.\nII \u2014 You may discard a card. When you do, return target permanent card with mana value 2 or less from your graveyard to the battlefield.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.\nII \u2014 You may discard a card. When you do, return target permanent card with mana value 2 or less from your graveyard to the battlefield tapped.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -15123,7 +15123,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI - Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.\nII \u2014 You may discard a card. When you do, return target permanent card with mana value 2 or less from your graveyard to the battlefield.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.\nII \u2014 You may discard a card. When you do, return target permanent card with mana value 2 or less from your graveyard to the battlefield tapped.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -15188,7 +15188,7 @@
             "Saga"
         ],
         "superTypes": [],
-        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI - Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.\nII \u2014 You may discard a card. When you do, return target permanent card with mana value 2 or less from your graveyard to the battlefield.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+        "text": "(As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.\nII \u2014 You may discard a card. When you do, return target permanent card with mana value 2 or less from your graveyard to the battlefield tapped.\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
         "toughness": null,
         "type": "Enchantment - Saga",
         "types": "Enchantment ",
@@ -16244,7 +16244,7 @@
         "rarity": "Common",
         "subTypes": [],
         "superTypes": [],
-        "text": "As an additional cost to cast this spell, you may sacrifice an artifact.\nVoltage Surge deals 2 damage to target creature or planeswalker. if this spell's additional cost was paid, Voltage Surge deals 4 damage instead.",
+        "text": "As an additional cost to cast this spell, you may sacrifice an artifact.\nVoltage Surge deals 2 damage to target creature or planeswalker. If this spell's additional cost was paid, Voltage Surge deals 4 damage instead.",
         "toughness": null,
         "type": "Instant",
         "types": "Instant",
