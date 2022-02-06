@@ -1,7 +1,6 @@
 # Project specific
 out/
 AllSets.pre.json
-deploy_key.enc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -86,6 +85,9 @@ celerybeat-schedule
 # virtualenv
 venv/
 ENV/
+bin/
+include/
+pyvenv.cfg
 
 # Spyder project settings
 .spyderproject
