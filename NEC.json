@@ -231,7 +231,7 @@
         "rarity": "Rare",
         "subTypes": [],
         "superTypes": [],
-        "text": "At the beginning of your end step, choose one \u2014\n\u2022 Put a +1/+1 counter on target creature with a counter on it.\n\u2022 Draw a card if you control an enchanted creature.\n\u2022 Create a 1/1 colorless Spirit creature token if you control an equipped creature.",
+        "text": "At the beginning of your end step, choose one or more \u2014\n\u2022 Put a +1/+1 counter on target creature with a counter on it.\n\u2022 Draw a card if you control an enchanted creature.\n\u2022 Create a 1/1 colorless Spirit creature token if you control an equipped creature.",
         "toughness": null,
         "type": "Enchantment",
         "types": "Enchantment",
@@ -1218,7 +1218,7 @@
         "superTypes": [
             "Legendary"
         ],
-        "text": "{1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew 8 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)\nShorikai, Genesis Engine can be your commander.",
+        "text": "{1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew 8 (Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.)\nShorikai, Genesis Engine can be your commander.",
         "toughness": "8",
         "type": "Legendary Artifact - Vehicle",
         "types": " Artifact ",
@@ -1331,7 +1331,7 @@
             "Dog"
         ],
         "superTypes": [],
-        "text": "Whenever Tanuki Transplanter or equipped creature attacks, add an amount of {G} equal to its power. Until end of turn, you don't lose mana as steps and phases end.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+        "text": "Whenever Tanuki Transplanter or equipped creature attacks, add an amount of {G} equal to its power. Until end of turn, you don't lose this mana as steps and phases end.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
         "toughness": "4",
         "type": "Artifact Creature - Equipment Dog",
         "types": "Artifact Creature ",
