@@ -166,10 +166,9 @@ def scryfall2mtgjson(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any
                 sf_card["card_faces"][0]
                 .get("image_uris", {})
                 .get("normal", "")
-                .rsplit("?", 1)[0]
             )
         else:
-            image = sf_card.get("image_uris", {}).get("normal", "").rsplit("?", 1)[0]
+            image = sf_card.get("image_uris", {}).get("normal", "")
 
         try:
             trice_card = {
