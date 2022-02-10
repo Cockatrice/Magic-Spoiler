@@ -5,7 +5,7 @@
   -->
   <info>
     <author>Cockatrice/Magic-Spoiler</author>
-    <createdAt>2022-02-10 00:37:27 (UTC)</createdAt>
+    <createdAt>2022-02-10 08:11:31 (UTC)</createdAt>
     <sourceUrl>https://raw.githubusercontent.com/Cockatrice/Magic-Spoiler/files/spoiler.xml</sourceUrl>
     <sourceVersion/>
   </info>
@@ -19,18 +19,15 @@
   </sets>
   <cards>
     <card>
-      <name>Jedit Ojanen</name>
-      <text/>
+      <name>Herald's Horn</name>
+      <text>As Herald's Horn enters the battlefield, choose a creature type.Creature spells you cast of the chosen type cost {1} less to cast.At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.</text>
       <prop>
-        <color>U</color>
-        <color>W</color>
-        <type>Legendary Creature - Cat Warrior</type>
-        <cmc>7.0</cmc>
-        <manacost>4WWU</manacost>
-        <pt>5/5</pt>
+        <type>Artifact</type>
+        <cmc>3.0</cmc>
+        <manacost>3</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/8/887b2ffb-29b2-4749-9e35-83f385fb5302.jpg?1644428677">PL22</set>
-      <tablerow>2</tablerow>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/5/05c65e52-2e34-46b8-ba6a-0d24679c66cc.jpg?1644429118">PL22</set>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Jedit Ojanen</name>
@@ -43,21 +40,7 @@
         <manacost>4WWU</manacost>
         <pt>5/5</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/9/598522f7-0b4b-4475-a069-d2d02935ddf9.jpg?1644428719">PL22</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Jedit Ojanen</name>
-      <text/>
-      <prop>
-        <color>U</color>
-        <color>W</color>
-        <type>Legendary Creature - Cat Warrior</type>
-        <cmc>7.0</cmc>
-        <manacost>4WWU</manacost>
-        <pt>5/5</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/0/70913fd8-6e76-4a3d-b84f-18f373a9c7ee.jpg?1644428701">PL22</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/8/887b2ffb-29b2-4749-9e35-83f385fb5302.jpg?1644429374">PL22</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -76,36 +59,6 @@
       <tablerow>2</tablerow>
     </card>
     <card>
-      <name>Snapdax, Apex of the Hunt</name>
-      <text>Mutate {2}{B/R}{W}{W} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)Double strikeWhenever this creature mutates, it deals 4 damage to target creature or planeswalker an opponent controls and you gain 4 life.</text>
-      <prop>
-        <color>B</color>
-        <color>R</color>
-        <color>W</color>
-        <type>Legendary Creature - Dinosaur Cat Nightmare</type>
-        <cmc>4.0</cmc>
-        <manacost>1RWB</manacost>
-        <pt>3/5</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c2.scryfall.com/file/scryfall-errors/soon.jpg">PL22</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Snapdax, Apex of the Hunt</name>
-      <text>Mutate {2}{B/R}{W}{W} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)Double strikeWhenever this creature mutates, it deals 4 damage to target creature or planeswalker an opponent controls and you gain 4 life.</text>
-      <prop>
-        <color>B</color>
-        <color>R</color>
-        <color>W</color>
-        <type>Legendary Creature - Dinosaur Cat Nightmare</type>
-        <cmc>4.0</cmc>
-        <manacost>1RWB</manacost>
-        <pt>3/5</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fa47d1f5-8e06-4625-9b56-d3c53d5a16c9.jpg?1644429033">PL22</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
       <name>Temur Sabertooth</name>
       <text>{1}{G}: You may return another creature you control to its owner's hand. If you do, Temur Sabertooth gains indestructible until end of turn.</text>
       <prop>
@@ -116,32 +69,6 @@
         <pt>4/3</pt>
       </prop>
       <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/ccfa3efc-ff71-400f-a2cc-8a2f053916e6.jpg?1644428349">PL22</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Temur Sabertooth</name>
-      <text>{1}{G}: You may return another creature you control to its owner's hand. If you do, Temur Sabertooth gains indestructible until end of turn.</text>
-      <prop>
-        <color>G</color>
-        <type>Creature - Cat</type>
-        <cmc>4.0</cmc>
-        <manacost>2GG</manacost>
-        <pt>4/3</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e5aae97-dce2-424b-a2e7-240803b83053.jpg?1644428466">PL22</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Temur Sabertooth</name>
-      <text>{1}{G}: You may return another creature you control to its owner's hand. If you do, Temur Sabertooth gains indestructible until end of turn.</text>
-      <prop>
-        <color>G</color>
-        <type>Creature - Cat</type>
-        <cmc>4.0</cmc>
-        <manacost>2GG</manacost>
-        <pt>4/3</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f7b81668-5dc4-4ebe-a158-a59a3a6f0755.jpg?1644428381">PL22</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -156,34 +83,6 @@
         <pt>1/3</pt>
       </prop>
       <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/4/d4155b8f-1178-43bd-9886-ea3b63e93373.jpg?1644428862">PL22</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Yuriko, the Tiger's Shadow</name>
-      <text>Commander ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking.)Whenever a Ninja you control deals combat damage to a player, reveal the top card of your library and put that card into your hand. Each opponent loses life equal to that card's mana value.</text>
-      <prop>
-        <color>B</color>
-        <color>U</color>
-        <type>Legendary Creature - Human Ninja</type>
-        <cmc>3.0</cmc>
-        <manacost>1UB</manacost>
-        <pt>1/3</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/d/fd12272d-6f31-4f21-83c0-2dc7e90d86cc.jpg?1644428897">PL22</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Yuriko, the Tiger's Shadow</name>
-      <text>Commander ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking.)Whenever a Ninja you control deals combat damage to a player, reveal the top card of your library and put that card into your hand. Each opponent loses life equal to that card's mana value.</text>
-      <prop>
-        <color>B</color>
-        <color>U</color>
-        <type>Legendary Creature - Human Ninja</type>
-        <cmc>3.0</cmc>
-        <manacost>1UB</manacost>
-        <pt>1/3</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b8ca7985-b798-4a2e-809d-81c86a34f140.jpg?1644428879">PL22</set>
       <tablerow>2</tablerow>
     </card>
   </cards>
