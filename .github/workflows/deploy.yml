@@ -12,6 +12,8 @@ on:
       - master
     paths-ignore:
       - '**.md'
+      - '.github/workflows/checks.yml'
+
   schedule:
     # Every 8 hours = 3 times a day
     - cron: '0 */8 * * *'
