@@ -1,0 +1,29 @@
+name: Checks
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths-ignore:
+      - '**.md'
+      - '.github/workflows/deploy.yml'
+
+jobs:
+  lint:
+    name: Pylint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Install Pylint
+        shell: bash
+        run: |
+          python3 -m pip install pylint
+
+      - name: Run Pylint
+        shell: bash
+        run: |
+          pylint --version
+          pylint ./magic_spoiler
