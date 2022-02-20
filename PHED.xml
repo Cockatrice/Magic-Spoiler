@@ -13,327 +13,13 @@
   </info>
   <sets>
     <set>
-      <name>UNF~</name>
-      <longname>Unfinity</longname>
-      <settype>Funny</settype>
-      <releasedate>2022-12-31</releasedate>
-    </set>
-    <set>
-      <name>PHED~</name>
+      <name>PHED</name>
       <longname>Heads I Win, Tails You Lose</longname>
       <settype>Commander</settype>
       <releasedate>2022-04-22</releasedate>
     </set>
-    <set>
-      <name>PW22~</name>
-      <longname>Wizards Play Network 2022</longname>
-      <settype>Promo</settype>
-      <releasedate>2022-03-05</releasedate>
-    </set>
-    <set>
-      <name>PL22~</name>
-      <longname>Year of the Tiger 2022</longname>
-      <settype>Promo</settype>
-      <releasedate>2022-02-25</releasedate>
-    </set>
   </sets>
   <cards>
-    <card>
-      <name>Assembled Ensemble</name>
-      <text>VigilanceAssembled Ensemble's power is equal to the number of Robots you control.Whenever you cast a spell with an artifact creature in its art, create a 1/1 white Clown Robot artifact creature token.</text>
-      <prop>
-        <color>W</color>
-        <type>Artifact Creature - Clown Robot Bard</type>
-        <cmc>5.0</cmc>
-        <manacost>4W</manacost>
-        <pt>*/6</pt>
-      </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02e3ec6e-1375-4647-9d15-37ff4697da5c.jpg?1638831040">UNF~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Blood Crypt</name>
-      <text>({T}: Add {B} or {R}.)As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Swamp Mountain</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0f1cebcb-0e3f-4dce-81ff-44bc8c0b9ad7.jpg?1644031704">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Breeding Pool</name>
-      <text>({T}: Add {G} or {U}.)As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Forest Island</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/3/830eb270-f7aa-4694-8fe1-7c19e148a39f.jpg?1638217645">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Forest</name>
-      <text>({T}: Add {G}.)</text>
-      <prop>
-        <type>Basic Land - Forest</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/d/5dda1113-352c-471a-a7e0-a9a3cb3f19c5.jpg?1638217588">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Forest</name>
-      <text>({T}: Add {G}.)</text>
-      <prop>
-        <type>Basic Land - Forest</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/1/f1488e6b-f677-44c5-8ff3-6a2f9bdb28c2.jpg?1638217609">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Godless Shrine</name>
-      <text>({T}: Add {W} or {B}.)As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Plains Swamp</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/e/9e739c7e-cc16-4557-836f-fdec53a7ed8c.jpg?1638217627">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Hallowed Fountain</name>
-      <text>({T}: Add {W} or {U}.)As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Plains Island</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/029eaaa9-e45e-4c50-a03d-ad67e3dfcc3e.jpg?1638217620">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Island</name>
-      <text>({T}: Add {U}.)</text>
-      <prop>
-        <type>Basic Land - Island</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/d/1d018af9-dd14-46fa-8fd5-226defc9698f.jpg?1638217576">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Island</name>
-      <text>({T}: Add {U}.)</text>
-      <prop>
-        <type>Basic Land - Island</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/15303b22-ddf0-488d-b07e-a118f35ef00f.jpg?1638217601">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Killer Cosplay</name>
-      <text>Whenever Killer Cosplay becomes attached to a creature, choose a creature card name with an identical mana cost. That creature becomes a copy of the card with the chosen name until Killer Cosplay becomes unattached from it.Equip {3}</text>
-      <prop>
-        <color>G</color>
-        <type>Artifact - Equipment</type>
-        <cmc>1.0</cmc>
-        <manacost>G</manacost>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/95c0ac1f-8e40-427e-832c-4d1c6d2ce41c.jpg?1640551502">UNF~</set>
-      <tablerow>1</tablerow>
-    </card>
-    <card>
-      <name>Mountain</name>
-      <text>({T}: Add {R}.)</text>
-      <prop>
-        <type>Basic Land - Mountain</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3d6da8eb-31b0-48c1-9ad9-552827967f91.jpg?1638217584">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Mountain</name>
-      <text>({T}: Add {R}.)</text>
-      <prop>
-        <type>Basic Land - Mountain</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/e/9e1170a5-e5bb-4b86-8718-f75eec679b4e.jpg?1638217591">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Overgrown Tomb</name>
-      <text>({T}: Add {B} or {G}.)As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Swamp Forest</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/ba5de5eb-442d-48de-bb5a-e316ea44520d.jpg?1638217637">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Plains</name>
-      <text>({T}: Add {W}.)</text>
-      <prop>
-        <type>Basic Land - Plains</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/4/c453d1ea-9a42-4ccb-9391-eec122025647.jpg?1638229916">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Plains</name>
-      <text>({T}: Add {W}.)</text>
-      <prop>
-        <type>Basic Land - Plains</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/82283c22-9b64-4f41-a5bb-aeb737eee5c9.jpg?1638217606">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Sacred Foundry</name>
-      <text>({T}: Add {R} or {W}.)As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Mountain Plains</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c3142a41-8718-4955-9fec-18f3d4875493.jpg?1638217642">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Saw in Half</name>
-      <text>Destroy target creature. If that creature dies this way, its controller creates two tokens that are copies of that creature, except their base power is half that creature's power and their base toughness is half that creature's toughness. Round up each time.</text>
-      <prop>
-        <color>B</color>
-        <type>Instant</type>
-        <cmc>3.0</cmc>
-        <manacost>2B</manacost>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/5/05e6a7bc-a35a-4e68-99a0-be264553b5de.jpg?1638258467">UNF~</set>
-      <tablerow>3</tablerow>
-    </card>
-    <card>
-      <name>Steam Vents</name>
-      <text>({T}: Add {U} or {R}.)As Steam Vents enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Island Mountain</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/af478684-ea34-4275-ab45-a9512aaa0758.jpg?1638217634">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Stomping Ground</name>
-      <text>({T}: Add {R} or {G}.)As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Mountain Forest</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e1dd057e-1f38-4a5f-819c-f3af9134fecf.jpg?1638217613">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Swamp</name>
-      <text>({T}: Add {B}.)</text>
-      <prop>
-        <type>Basic Land - Swamp</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/46a6375e-9477-4871-8a15-02439f3f6f34.jpg?1638217580">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Swamp</name>
-      <text>({T}: Add {B}.)</text>
-      <prop>
-        <type>Basic Land - Swamp</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f3c850b9-d014-4cd1-8ffd-361ed4fe1e6d.jpg?1638217597">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>Temple Garden</name>
-      <text>({T}: Add {G} or {W}.)As Temple Garden enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Forest Plains</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/43609973-6c01-4f03-9e08-a347364dfa76.jpg?1638217617">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
-    <card>
-      <name>The Space Family Goblinson</name>
-      <text>The Space Family Goblinson has trample as long as you've rolled three or more dice this turn.Whenever you roll a die, put a +1/+1 counter on The Space Family Goblinson.</text>
-      <prop>
-        <color>G</color>
-        <color>R</color>
-        <type>Legendary Creature - Goblin Guest</type>
-        <cmc>4.0</cmc>
-        <manacost>2RG</manacost>
-        <pt>1/1</pt>
-      </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/26177224-3c0e-4081-8468-3cd9981ddb0a.jpg?1638258455">UNF~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>The Space Family Goblinson</name>
-      <text>The Space Family Goblinson has trample as long as you've rolled three or more dice this turn.Whenever you roll a die, put a +1/+1 counter on The Space Family Goblinson.</text>
-      <prop>
-        <color>G</color>
-        <color>R</color>
-        <type>Legendary Creature - Goblin Guest</type>
-        <cmc>4.0</cmc>
-        <manacost>2RG</manacost>
-        <pt>1/1</pt>
-      </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/b/db161073-7fb1-465c-8878-e2584ac27458.jpg?1638227029">UNF~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Water Gun Balloon Game</name>
-      <text>As Water Gun Balloon Game enters the battlefield, each player puts a pop! counter on "0."Whenever a player casts a spell, move that player's pop! counter up one.Whenever a player's pop! counter hits "5," that player creates a 5/5 pink Giant Teddy Bear creature token and resets all pop! counters to "0."</text>
-      <prop>
-        <type>Artifact</type>
-        <cmc>2.0</cmc>
-        <manacost>2</manacost>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9cb587e1-1243-4422-8ee3-198bd247b42c.jpg?1638831057">UNF~</set>
-      <tablerow>1</tablerow>
-    </card>
-    <card>
-      <name>Watery Grave</name>
-      <text>({T}: Add {U} or {B}.)As Watery Grave enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</text>
-      <prop>
-        <type>Land - Island Swamp</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/1/81706879-ec5d-4b17-b4bc-5f7cb37557a5.jpg?1643670149">UNF~</set>
-      <tablerow>0</tablerow>
-    </card>
     <card>
       <name>Academy Ruins</name>
       <text>{T}: Add {C}.{1}{U}, {T}: Put target artifact card from your graveyard on top of your library.</text>
@@ -342,7 +28,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/579cce0c-5afe-4104-97e8-fd303e8fcc28.jpg?1645329447">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/579cce0c-5afe-4104-97e8-fd303e8fcc28.jpg?1645329447">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -353,7 +39,7 @@
         <cmc>2.0</cmc>
         <manacost>2</manacost>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/d/fd061dd3-3cf1-4102-a9a2-dd89500171a7.jpg?1645329307">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/d/fd061dd3-3cf1-4102-a9a2-dd89500171a7.jpg?1645329307">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -365,7 +51,7 @@
         <cmc>9.0</cmc>
         <manacost>8R</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/0/40eb7856-95f7-4a62-bc99-b5d0852606ad.jpg?1645328361">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/0/40eb7856-95f7-4a62-bc99-b5d0852606ad.jpg?1645328361">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -378,7 +64,7 @@
         <manacost>2RR</manacost>
         <pt>4/4</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/539b5715-965a-4066-b75b-c4bb952ad65f.jpg?1645328866">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/539b5715-965a-4066-b75b-c4bb952ad65f.jpg?1645328866">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -389,7 +75,7 @@
         <cmc>4.0</cmc>
         <manacost>4</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/86dea2dc-7e94-41e6-a0ef-81aaa10aaf8c.jpg?1645329326">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/86dea2dc-7e94-41e6-a0ef-81aaa10aaf8c.jpg?1645329326">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -400,7 +86,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/f/1f3dd48b-20a9-436a-a518-5eb77e17609c.jpg?1645328078">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/f/1f3dd48b-20a9-436a-a518-5eb77e17609c.jpg?1645328078">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -411,7 +97,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/4/d4c307be-a9e7-47f2-aa29-cfd2657ee5c4.jpg?1645329467">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/4/d4c307be-a9e7-47f2-aa29-cfd2657ee5c4.jpg?1645329467">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -423,7 +109,7 @@
         <cmc>4.0</cmc>
         <manacost>2RR</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f5763940-c987-4612-be87-8ec299be391a.jpg?1645328893">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f5763940-c987-4612-be87-8ec299be391a.jpg?1645328893">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -435,7 +121,7 @@
         <cmc>5.0</cmc>
         <manacost>3RR</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31d0275d-1a1a-421d-a2ae-9a61697a3a74.jpg?1645328934">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31d0275d-1a1a-421d-a2ae-9a61697a3a74.jpg?1645328934">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -447,7 +133,7 @@
         <cmc>3.0</cmc>
         <manacost>2R</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bc1d3b9c-6376-48a6-b890-519e978379fe.jpg?1645328953">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bc1d3b9c-6376-48a6-b890-519e978379fe.jpg?1645328953">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -458,7 +144,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/6576ee65-45e4-4291-a10a-8631366f0e8f.jpg?1645329488">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/6576ee65-45e4-4291-a10a-8631366f0e8f.jpg?1645329488">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -469,7 +155,7 @@
         <cmc>1.0</cmc>
         <manacost>1</manacost>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/0/107ea1fe-167f-4a79-b0f1-f76dce2e6b0a.jpg?1645329347">PHED~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/0/107ea1fe-167f-4a79-b0f1-f76dce2e6b0a.jpg?1645329347">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -481,7 +167,7 @@
         <cmc>2.0</cmc>
         <manacost>UU</manacost>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a457f404-ddf1-40fa-b0f0-23c8598533f4.jpg?1645328634">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a457f404-ddf1-40fa-b0f0-23c8598533f4.jpg?1645328634">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -492,7 +178,7 @@
         <cmc>4.0</cmc>
         <manacost>4</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/3/3352ba84-22cc-40e3-ae76-ca5cef8c2dfb.jpg?1645329365">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/3/3352ba84-22cc-40e3-ae76-ca5cef8c2dfb.jpg?1645329365">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -505,7 +191,7 @@
         <manacost>3R</manacost>
         <loyalty>3</loyalty>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e18a9acc-70c6-4cf0-b73a-fdf7ce8e3535.jpg?1645328384">PHED~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e18a9acc-70c6-4cf0-b73a-fdf7ce8e3535.jpg?1645328384">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -516,7 +202,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/1/b130e223-aa05-433c-90c3-1261c262296b.jpg?1645329508">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/1/b130e223-aa05-433c-90c3-1261c262296b.jpg?1645329508">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -528,7 +214,7 @@
         <cmc>6.0</cmc>
         <manacost>4RR</manacost>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/9/192a4645-1462-4e43-ac39-bafabbb1250d.jpg?1645328980">PHED~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/9/192a4645-1462-4e43-ac39-bafabbb1250d.jpg?1645328980">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -539,7 +225,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/6287b2e4-d2d3-4ba4-abc9-b2525dd726d7.jpg?1645329529">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/6287b2e4-d2d3-4ba4-abc9-b2525dd726d7.jpg?1645329529">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -551,7 +237,7 @@
         <cmc>3.0</cmc>
         <manacost>2U</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/f/6f6fe03c-91b5-4555-a93f-39935f5fe881.jpg?1645327724">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/f/6f6fe03c-91b5-4555-a93f-39935f5fe881.jpg?1645327724">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -563,7 +249,7 @@
         <cmc>3.0</cmc>
         <manacost>2R</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/1540fe8c-606c-4b49-9bc5-ac36abc9487f.jpg?1645328410">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/1540fe8c-606c-4b49-9bc5-ac36abc9487f.jpg?1645328410">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -574,7 +260,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/3/930e6064-3d4b-40f1-850d-daa15cea756b.jpg?1645329552">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/3/930e6064-3d4b-40f1-850d-daa15cea756b.jpg?1645329552">PHED</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -587,7 +273,7 @@
         <cmc>1.0</cmc>
         <manacost>R</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f080d1bb-282b-4008-ab58-1a82e4bb7766.jpg?1645329002">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f080d1bb-282b-4008-ab58-1a82e4bb7766.jpg?1645329002">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -601,7 +287,7 @@
         <manacost>1UR</manacost>
         <pt>2/2</pt>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7fbd25e4-6a45-4e70-8cba-8ba5ce1ee550.jpg?1645327815">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7fbd25e4-6a45-4e70-8cba-8ba5ce1ee550.jpg?1645327815">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -613,7 +299,7 @@
         <cmc>1.0</cmc>
         <manacost>R</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/924db286-fb3e-40dd-b5e2-f8128701685d.jpg?1645329024">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/924db286-fb3e-40dd-b5e2-f8128701685d.jpg?1645329024">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -626,7 +312,7 @@
         <manacost>1R</manacost>
         <pt>1/2</pt>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4d6c6f6f-7097-46ef-9687-d6f7ec31586e.jpg?1645328435">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4d6c6f6f-7097-46ef-9687-d6f7ec31586e.jpg?1645328435">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -639,7 +325,7 @@
         <manacost>1R</manacost>
         <pt>1/2</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/4/944ca6e7-084b-424a-80c1-e88de192fd98.jpg?1645329045">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/4/944ca6e7-084b-424a-80c1-e88de192fd98.jpg?1645329045">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -652,7 +338,7 @@
         <manacost>1R</manacost>
         <pt>1/2</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/7/3768c769-0b8d-46df-847b-0cf4df45decc.jpg?1645328460">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/7/3768c769-0b8d-46df-847b-0cf4df45decc.jpg?1645328460">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -663,7 +349,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2a7d2d8f-4736-4c99-aba2-b14960395ad6.jpg?1645328102">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2a7d2d8f-4736-4c99-aba2-b14960395ad6.jpg?1645328102">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -675,7 +361,7 @@
         <cmc>4.0</cmc>
         <manacost>2RR</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a43acc1c-82e9-4234-aac5-bbc8e3ee42c0.jpg?1645329064">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a43acc1c-82e9-4234-aac5-bbc8e3ee42c0.jpg?1645329064">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -686,7 +372,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f917de1f-76f1-4859-a9f3-bcda6a9ca130.jpg?1645329571">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f917de1f-76f1-4859-a9f3-bcda6a9ca130.jpg?1645329571">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -697,7 +383,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9c0f350d-13ec-4e13-9c4c-1d6bfb9aa0b3.jpg?1645328292">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9c0f350d-13ec-4e13-9c4c-1d6bfb9aa0b3.jpg?1645328292">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -708,7 +394,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/6/56451d43-93b0-4237-a889-6a662cfc3e67.jpg?1645328125">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/6/56451d43-93b0-4237-a889-6a662cfc3e67.jpg?1645328125">PHED</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -720,7 +406,7 @@
         <cmc>2.0</cmc>
         <manacost>2</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b274648-a1fc-4c2f-af95-f990b8c6dc43.jpg?1645327889">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b274648-a1fc-4c2f-af95-f990b8c6dc43.jpg?1645327889">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -733,7 +419,7 @@
         <manacost>2RR</manacost>
         <pt>3/3</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a30390cc-d5f5-442f-b387-0242eb768ede.jpg?1645327747">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a30390cc-d5f5-442f-b387-0242eb768ede.jpg?1645327747">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -746,7 +432,7 @@
         <manacost>1R</manacost>
         <pt>2/2</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24614006-d99f-44b6-8ec1-29b48a1713d0.jpg?1645327768">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24614006-d99f-44b6-8ec1-29b48a1713d0.jpg?1645327768">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -757,7 +443,7 @@
         <cmc>2.0</cmc>
         <manacost>2</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/5/e5ed8037-0450-4668-9f50-3abf367d7661.jpg?1645327916">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/5/e5ed8037-0450-4668-9f50-3abf367d7661.jpg?1645327916">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -769,7 +455,7 @@
         <cmc>3.0</cmc>
         <manacost>2U</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/2/d236e528-2cb1-4de5-a4fd-b80516e4a1f9.jpg?1645328659">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/2/d236e528-2cb1-4de5-a4fd-b80516e4a1f9.jpg?1645328659">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -780,7 +466,7 @@
         <cmc>2.0</cmc>
         <manacost>2</manacost>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3aed2452-915a-4a84-8408-6722425201f8.jpg?1645327938">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3aed2452-915a-4a84-8408-6722425201f8.jpg?1645327938">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -792,7 +478,7 @@
         <cmc>6.0</cmc>
         <manacost>5R</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/f/6f114552-e33b-42c0-a27a-eb1a08646d88.jpg?1645329086">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/f/6f114552-e33b-42c0-a27a-eb1a08646d88.jpg?1645329086">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -805,7 +491,7 @@
         <manacost>2R</manacost>
         <pt>2/1</pt>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3ac8843e-6d9a-4db8-aa08-f83127cab355.jpg?1645329109">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3ac8843e-6d9a-4db8-aa08-f83127cab355.jpg?1645329109">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -816,7 +502,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/961dcc35-a282-4d40-93b3-1cc7fa5221f5.jpg?1645328315">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/961dcc35-a282-4d40-93b3-1cc7fa5221f5.jpg?1645328315">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -828,7 +514,7 @@
         <cmc>2.0</cmc>
         <manacost>UU</manacost>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/9/79fc4b92-0efe-4370-a2b3-2155c458a966.jpg?1645328683">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/9/79fc4b92-0efe-4370-a2b3-2155c458a966.jpg?1645328683">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -839,7 +525,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/96d7382a-adaf-4cff-b31e-d648ee6ba834.jpg?1645328150">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/96d7382a-adaf-4cff-b31e-d648ee6ba834.jpg?1645328150">PHED</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -852,7 +538,7 @@
         <cmc>2.0</cmc>
         <manacost>1U</manacost>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/d/1dc492d5-ec52-4ab3-813e-acb40b0b6d5a.jpg?1645327986">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/1/d/1dc492d5-ec52-4ab3-813e-acb40b0b6d5a.jpg?1645327986">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -866,7 +552,7 @@
         <manacost>UUURRR</manacost>
         <pt>5/5</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/8/4825e7cb-53ae-4e4b-bb37-8d8eb414772c.jpg?1645327839">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/8/4825e7cb-53ae-4e4b-bb37-8d8eb414772c.jpg?1645327839">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -877,7 +563,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a674d18a-a710-434a-a833-50ee9b95a23d.jpg?1645328172">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a674d18a-a710-434a-a833-50ee9b95a23d.jpg?1645328172">PHED</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -890,7 +576,7 @@
         <cmc>3.0</cmc>
         <manacost>2R</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a7ce1d3e-6335-447b-8a70-1c906fef1547.jpg?1645329131">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a7ce1d3e-6335-447b-8a70-1c906fef1547.jpg?1645329131">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -902,7 +588,7 @@
         <cmc>1.0</cmc>
         <manacost>U</manacost>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/b/7b0d4d01-9044-4b68-8b55-1b27ff0ffa75.jpg?1645328707">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/b/7b0d4d01-9044-4b68-8b55-1b27ff0ffa75.jpg?1645328707">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -914,7 +600,7 @@
         <cmc>1.0</cmc>
         <manacost>U</manacost>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f2a1a648-a84c-45a6-99cb-eeccdb17ab2a.jpg?1645328731">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f2a1a648-a84c-45a6-99cb-eeccdb17ab2a.jpg?1645328731">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -928,7 +614,7 @@
         <manacost>2UR</manacost>
         <loyalty>4</loyalty>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cd865c54-7381-4940-8b30-b8a94b58090e.jpg?1645327863">PHED~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cd865c54-7381-4940-8b30-b8a94b58090e.jpg?1645327863">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -939,7 +625,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/f/ef4e383e-ca2c-40d0-b510-8cf9a2e10176.jpg?1645329594">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/e/f/ef4e383e-ca2c-40d0-b510-8cf9a2e10176.jpg?1645329594">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -951,7 +637,7 @@
         <cmc>2.0</cmc>
         <manacost>XUU</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/9574f9a0-e062-47bf-b8ad-895d02852be8.jpg?1645328756">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/9574f9a0-e062-47bf-b8ad-895d02852be8.jpg?1645328756">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -963,7 +649,7 @@
         <cmc>6.0</cmc>
         <manacost>3RRR</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d10de061-c4f9-4550-ad97-71b69b6f5e18.jpg?1645329153">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d10de061-c4f9-4550-ad97-71b69b6f5e18.jpg?1645329153">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -974,7 +660,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6aa3c430-1a41-415d-8736-3541b5b6b4c6.jpg?1645328195">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6aa3c430-1a41-415d-8736-3541b5b6b4c6.jpg?1645328195">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -987,7 +673,7 @@
         <manacost>2UU</manacost>
         <pt>3/1</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/a/9ab09047-f76b-4d3a-843b-73f798e8f03e.jpg?1645328779">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/a/9ab09047-f76b-4d3a-843b-73f798e8f03e.jpg?1645328779">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -999,7 +685,7 @@
         <cmc>4.0</cmc>
         <manacost>3R</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/1/610b3a04-76ba-4388-8808-53f7d91b1ac1.jpg?1645329174">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/1/610b3a04-76ba-4388-8808-53f7d91b1ac1.jpg?1645329174">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -1011,7 +697,7 @@
         <cmc>1.0</cmc>
         <manacost>U</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c75ec73-0f6a-4392-b058-ab40a07dcd3a.jpg?1645328799">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c75ec73-0f6a-4392-b058-ab40a07dcd3a.jpg?1645328799">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -1022,7 +708,7 @@
         <cmc>1.0</cmc>
         <manacost>1</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/769326d4-60af-4b19-85d9-d96d3acdb56e.jpg?1645329385">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/769326d4-60af-4b19-85d9-d96d3acdb56e.jpg?1645329385">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -1033,7 +719,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/070ed235-1452-4bdb-ba63-0743a59f4d8d.jpg?1645329615">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/070ed235-1452-4bdb-ba63-0743a59f4d8d.jpg?1645329615">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -1044,7 +730,7 @@
         <cmc>1.0</cmc>
         <manacost>U</manacost>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0fc0a593-580c-405c-803e-2f13aa74ab5e.jpg?1645328819">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0fc0a593-580c-405c-803e-2f13aa74ab5e.jpg?1645328819">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -1055,7 +741,7 @@
         <cmc>1.0</cmc>
         <manacost>1</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/8/38d347b7-dc17-417a-ab07-29fe99b9a101.jpg?1645329408">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/8/38d347b7-dc17-417a-ab07-29fe99b9a101.jpg?1645329408">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -1068,7 +754,7 @@
         <manacost>3U</manacost>
         <pt>0/0</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0b649145-426f-4576-a71c-6ee5d3981243.jpg?1645328246">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0b649145-426f-4576-a71c-6ee5d3981243.jpg?1645328246">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1079,7 +765,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/652e0a21-787a-40f2-b5fb-837683f61f26.jpg?1645329635">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/652e0a21-787a-40f2-b5fb-837683f61f26.jpg?1645329635">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -1092,7 +778,7 @@
         <cmc>3.0</cmc>
         <manacost>1UR</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/664c8130-311b-4f65-853d-02f8e57ebe5c.jpg?1645329265">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/664c8130-311b-4f65-853d-02f8e57ebe5c.jpg?1645329265">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -1103,7 +789,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/f/bf1b1e48-6315-476a-a27a-3f02dbf3ad9f.jpg?1645329661">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/f/bf1b1e48-6315-476a-a27a-3f02dbf3ad9f.jpg?1645329661">PHED</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -1115,7 +801,7 @@
         <cmc>2.0</cmc>
         <manacost>2</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9c316917-1569-4d95-8729-3b7a0fc39465.jpg?1645327961">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9c316917-1569-4d95-8729-3b7a0fc39465.jpg?1645327961">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -1126,7 +812,7 @@
         <cmc>3.0</cmc>
         <manacost>3</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9dd53110-bb42-4c42-851f-d2688c7c17a2.jpg?1645328007">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9dd53110-bb42-4c42-851f-d2688c7c17a2.jpg?1645328007">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -1137,7 +823,7 @@
         <cmc>2.0</cmc>
         <manacost>2</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35805e27-fc26-4eb1-943c-f5b6c2185e03.jpg?1645329427">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35805e27-fc26-4eb1-943c-f5b6c2185e03.jpg?1645329427">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -1150,7 +836,7 @@
         <manacost>1R</manacost>
         <pt>1/3</pt>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/7/c71f0329-27ec-463d-8fde-edbdc378ee0f.jpg?1645327789">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/7/c71f0329-27ec-463d-8fde-edbdc378ee0f.jpg?1645327789">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1161,7 +847,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/446ae4aa-6eba-4872-8a07-c8767c3b02c5.jpg?1645328218">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/446ae4aa-6eba-4872-8a07-c8767c3b02c5.jpg?1645328218">PHED</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -1173,7 +859,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/688b294f-c252-4655-a153-ccc7dec1a36d.jpg?1645329682">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/688b294f-c252-4655-a153-ccc7dec1a36d.jpg?1645329682">PHED</set>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -1185,7 +871,7 @@
         <cmc>2.0</cmc>
         <manacost>1R</manacost>
       </prop>
-      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8c850548-400e-41a5-8acd-77ff67541d54.jpg?1645329196">PHED~</set>
+      <set rarity="Common" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8c850548-400e-41a5-8acd-77ff67541d54.jpg?1645329196">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -1199,7 +885,7 @@
         <manacost>4UR</manacost>
         <pt>4/4</pt>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/30265355-d0cc-411a-a2da-8d38803d9021.jpg?1645329236">PHED~</set>
+      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/30265355-d0cc-411a-a2da-8d38803d9021.jpg?1645329236">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1210,7 +896,7 @@
         <cmc>2.0</cmc>
         <manacost>2</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/7/671d3d4b-e4ab-4d40-a3fd-1db1e52501a7.jpg?1645328029">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/7/671d3d4b-e4ab-4d40-a3fd-1db1e52501a7.jpg?1645328029">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -1221,7 +907,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9cb7d00a-0b8d-4d0c-9592-058f1e0ce087.jpg?1645329709">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9cb7d00a-0b8d-4d0c-9592-058f1e0ce087.jpg?1645329709">PHED</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -1233,7 +919,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6df5d9dc-e4d9-42d6-8a5e-40ac04bc3dc8.jpg?1645329731">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6df5d9dc-e4d9-42d6-8a5e-40ac04bc3dc8.jpg?1645329731">PHED</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -1247,7 +933,7 @@
         <manacost>2U</manacost>
         <pt>2/2</pt>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/8/08505dcf-8e39-498c-b21a-5e074e7efe48.jpg?1645328339">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/8/08505dcf-8e39-498c-b21a-5e074e7efe48.jpg?1645328339">PHED</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1259,7 +945,7 @@
         <cmc>1.0</cmc>
         <manacost>R</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/3636b07e-eab9-4cc8-8624-322c18e8133d.jpg?1645329217">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/3636b07e-eab9-4cc8-8624-322c18e8133d.jpg?1645329217">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -1270,7 +956,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/30d0c177-81b5-44d3-9c0a-b72428c38155.jpg?1645328268">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/30d0c177-81b5-44d3-9c0a-b72428c38155.jpg?1645328268">PHED</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -1283,7 +969,7 @@
         <cmc>3.0</cmc>
         <manacost>XUUU</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a679659c-7fed-4afa-9b99-fdeb8ccda964.jpg?1645328841">PHED~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a679659c-7fed-4afa-9b99-fdeb8ccda964.jpg?1645328841">PHED</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -1294,7 +980,7 @@
         <cmc>3.0</cmc>
         <manacost>3</manacost>
       </prop>
-      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8b49e2c5-c447-45f4-979d-68556f6cd647.jpg?1645328055">PHED~</set>
+      <set rarity="Uncommon" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8b49e2c5-c447-45f4-979d-68556f6cd647.jpg?1645328055">PHED</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -1308,111 +994,7 @@
         <manacost>1UR</manacost>
         <pt>2/3</pt>
       </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5a75a38d-8bfc-4fe3-8bec-66f46313e48e.jpg?1645329286">PHED~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Atsushi, the Blazing Sky</name>
-      <text>Flying, trampleWhen Atsushi, the Blazing Sky dies, choose one —• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.• Create three Treasure tokens.</text>
-      <prop>
-        <color>R</color>
-        <type>Legendary Creature - Dragon Spirit</type>
-        <cmc>4.0</cmc>
-        <manacost>2RR</manacost>
-        <pt>4/4</pt>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b3c5734c-b32f-419e-82e6-f8d45b7201b7.jpg?1639713043">PW22~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Consider</name>
-      <text>Look at the top card of your library. You may put that card into your graveyard.Draw a card.</text>
-      <prop>
-        <color>U</color>
-        <type>Instant</type>
-        <cmc>1.0</cmc>
-        <manacost>U</manacost>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b0e9b20a-fcc7-4506-995e-be80199c1202.jpg?1639713041">PW22~</set>
-      <tablerow>3</tablerow>
-    </card>
-    <card>
-      <name>Fateful Absence</name>
-      <text>Destroy target creature or planeswalker. Its controller investigates. (They create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")</text>
-      <prop>
-        <color>W</color>
-        <type>Instant</type>
-        <cmc>2.0</cmc>
-        <manacost>1W</manacost>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/3/83e3dff5-4ffc-49e3-9b40-b9c6e1c864ef.jpg?1639713023">PW22~</set>
-      <tablerow>3</tablerow>
-    </card>
-    <card>
-      <name>Herald's Horn</name>
-      <text>As Herald's Horn enters the battlefield, choose a creature type.Creature spells you cast of the chosen type cost {1} less to cast.At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.</text>
-      <prop>
-        <type>Artifact</type>
-        <cmc>3.0</cmc>
-        <manacost>3</manacost>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/0/5/05c65e52-2e34-46b8-ba6a-0d24679c66cc.jpg?1644429118">PL22~</set>
-      <tablerow>1</tablerow>
-    </card>
-    <card>
-      <name>Jedit Ojanen</name>
-      <text/>
-      <prop>
-        <color>U</color>
-        <color>W</color>
-        <type>Legendary Creature - Cat Warrior</type>
-        <cmc>7.0</cmc>
-        <manacost>4WWU</manacost>
-        <pt>5/5</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/8/8/887b2ffb-29b2-4749-9e35-83f385fb5302.jpg?1644429374">PL22~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Snapdax, Apex of the Hunt</name>
-      <text>Mutate {2}{B/R}{W}{W} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)Double strikeWhenever this creature mutates, it deals 4 damage to target creature or planeswalker an opponent controls and you gain 4 life.</text>
-      <prop>
-        <color>B</color>
-        <color>R</color>
-        <color>W</color>
-        <type>Legendary Creature - Dinosaur Cat Nightmare</type>
-        <cmc>4.0</cmc>
-        <manacost>1RWB</manacost>
-        <pt>3/5</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6b1ba312-9483-4c2b-8ff2-d164f29bfe8f.jpg?1644428918">PL22~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Temur Sabertooth</name>
-      <text>{1}{G}: You may return another creature you control to its owner's hand. If you do, Temur Sabertooth gains indestructible until end of turn.</text>
-      <prop>
-        <color>G</color>
-        <type>Creature - Cat</type>
-        <cmc>4.0</cmc>
-        <manacost>2GG</manacost>
-        <pt>4/3</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/ccfa3efc-ff71-400f-a2cc-8a2f053916e6.jpg?1644428349">PL22~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Yuriko, the Tiger's Shadow</name>
-      <text>Commander ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking.)Whenever a Ninja you control deals combat damage to a player, reveal the top card of your library and put that card into your hand. Each opponent loses life equal to that card's mana value.</text>
-      <prop>
-        <color>B</color>
-        <color>U</color>
-        <type>Legendary Creature - Human Ninja</type>
-        <cmc>3.0</cmc>
-        <manacost>1UB</manacost>
-        <pt>1/3</pt>
-      </prop>
-      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/d/4/d4155b8f-1178-43bd-9886-ea3b63e93373.jpg?1644428862">PL22~</set>
+      <set rarity="Rare" picURL="https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5a75a38d-8bfc-4fe3-8bec-66f46313e48e.jpg?1645329286">PHED</set>
       <tablerow>2</tablerow>
     </card>
   </cards>
