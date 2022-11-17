@@ -30,12 +30,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Checkout output branch
         # Run only when triggered from master
         if: env.DEPLOY == 'true'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: files
           fetch-depth: 0
@@ -47,7 +47,7 @@ jobs:
           CFLAGS: '-O0'
         run: |
           python3 -m pip install --upgrade pip setuptools
-          python3 -m pip install --requirement requirements.txt
+          python3 -m pip install requests requests_cache lxml
 
       - name: Run script
         id: run
@@ -57,7 +57,7 @@ jobs:
       - name: Upload artifacts
         # Run only when triggered from a PR
         if: github.event_name == 'pull_request'
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: spoiler-output
           path: ${{github.workspace}}/${{env.OUTPUT_PATH}}
