@@ -5,6 +5,7 @@ import contextvars
 import datetime
 import hashlib
 import json
+import os
 import pathlib
 import shutil
 import time
@@ -472,29 +473,26 @@ def compare_json_content(f1: str, f2: str) -> bool:
     return False
 
 
-def compare_xml_content(f1: str, f2: str) -> bool:
+def compare_xml_content(a: str, b: str) -> bool:
     """
     Compare the contents of two XML files and report
-    if the contents are the same, minus comments
-    :param f1: File 1
-    :param f2: File 2
-    :return: Is file content, minus comments, the same?
+    if the contents are the same, minus the info part and comments
+    :param a: File a
+    :param b: File b
+    :return: Is file content, minus info and comments, the same?
     """
-    file1 = pathlib.Path(f1)
-    file2 = pathlib.Path(f2)
+    files = [pathlib.Path(file_n) for file_n in (a, b)]
 
-    if file1.is_file() and file2.is_file():
-        parser = etree.XMLParser(remove_blank_text=True)
-        root = etree.parse(str(file1), parser).getroot()
-        etree.strip_tags(root, etree.Comment)
-        f1_hash = hashlib.sha512(etree.tostring(root)).hexdigest()
+    if all([filepath.is_file() for filepath in files]):
+        hashes = []
+        for filepath in files:
+            parser = etree.XMLParser(remove_blank_text=True)
+            root = etree.parse(str(filepath), parser).getroot()
+            etree.strip_elements(root, "info", etree.Comment)
+            digest = hashlib.sha512(etree.tostring(root)).hexdigest()
+            hashes.append(digest)
 
-        parser = etree.XMLParser(remove_blank_text=True)
-        root = etree.parse(str(file2), parser).getroot()
-        etree.strip_tags(root, etree.Comment)
-        f2_hash = hashlib.sha512(etree.tostring(root)).hexdigest()
-
-        return f1_hash == f2_hash
+        return hashes[0] == hashes[1]
 
     return False
 
@@ -655,11 +653,17 @@ def main() -> None:
     changed |= delete_old_files()
 
     # Enable deployment on changes (used in CI)
-    if changed:
-        print("::set-output name=deploy::true")
+    try:
+        github_output = os.environ["GITHUB_OUTPUT"]
+    except KeyError:
+        print(f"not in ci but deploy={str(changed).lower()}")
     else:
-        print("::set-output name=deploy::false")
-        print("::notice title=No updates available::No new spoiler cards found for deployment")
+        with open(github_output, "a") as fp:
+            print(f"deploy={str(changed).lower()}", file=fp)
+
+        if not changed:
+            print("::notice title=No updates available::"
+                  "No new spoiler cards found for deployment")
 
 
 if __name__ == "__main__":
