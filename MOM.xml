@@ -13,196 +13,13 @@
   </info>
   <sets>
     <set>
-      <name>MAT~</name>
-      <longname>March of the Machine: The Aftermath</longname>
-      <settype>Expansion</settype>
-      <releasedate>2023-05-12</releasedate>
-    </set>
-    <set>
-      <name>MUL~</name>
-      <longname>Multiverse Legends</longname>
-      <settype>Masterpiece</settype>
-      <releasedate>2023-04-21</releasedate>
-    </set>
-    <set>
-      <name>MOC~</name>
-      <longname>March of the Machine Commander</longname>
-      <settype>Commander</settype>
-      <releasedate>2023-04-21</releasedate>
-    </set>
-    <set>
-      <name>MOM~</name>
+      <name>MOM</name>
       <longname>March of the Machine</longname>
       <settype>Expansion</settype>
       <releasedate>2023-04-21</releasedate>
     </set>
   </sets>
   <cards>
-    <card>
-      <name>The Kenriths' Royal Funeral</name>
-      <text>When The Kenriths' Royal Funeral enters the battlefield, exile up to two target legendary creature cards from your graveyard. You draw X cards and you lose X life, where X is the greatest mana value among cards exiled this way.Legendary spells you cast cost {1} less to cast for each card exiled with The Kenriths' Royal Funeral.</text>
-      <prop>
-        <color>B</color>
-        <color>W</color>
-        <type>Legendary Enchamtnet</type>
-        <cmc>4.0</cmc>
-        <manacost>2WB</manacost>
-      </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/4/5/4569fb73-3555-4eb8-933a-130770dd56d1.jpg?1676820124">MAT~</set>
-      <tablerow>1</tablerow>
-    </card>
-    <card>
-      <name>Atraxa, Praetors' Voice</name>
-      <text>Flying, vigilance, deathtouch, lifelinkAt the beginning of your end step, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
-      <prop>
-        <color>B</color>
-        <color>G</color>
-        <color>U</color>
-        <color>W</color>
-        <type>Legendary Creature - Phyrexian Angel Horror</type>
-        <cmc>4.0</cmc>
-        <manacost>GWUB</manacost>
-        <pt>4/4</pt>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/b/d/bd0d5a0c-5dec-439c-b037-9d17dda5ead3.jpg?1676822153">MUL~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Ragavan, Nimble Pilferer</name>
-      <text>Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.Dash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</text>
-      <prop>
-        <color>R</color>
-        <type>Legendary Creature - Monkey Pirate</type>
-        <cmc>1.0</cmc>
-        <manacost>R</manacost>
-        <pt>2/1</pt>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/f/c/fc898fec-4cc6-4587-b556-c5a8d38ccbd0.jpg?1676822144">MUL~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Goro-Goro and Satoru</name>
-      <text>Whenever one or more creatures you control that entered the battlefield this turn deal combat damage to a player, create a 5/5 red Dragon Spirit creature token with flying.{1}{R}: Creatures you control gain haste until end of turn.</text>
-      <prop>
-        <color>B</color>
-        <color>G</color>
-        <color>U</color>
-        <type>Legendary Creature - Goblin Human</type>
-        <cmc>3.0</cmc>
-        <manacost>BGU</manacost>
-        <pt>3/4</pt>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/5/b/5b661b53-2e58-4dcc-9100-fc00e0fdb606.jpg?1676821991">MOC~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Goro-Goro and Satoru</name>
-      <text>Whenever one or more creatures you control that entered the battlefield this turn deal combat damage to a player, create a 5/5 red Dragon Spirit creature token with flying.{1}{R}: Creatures you control gain haste until end of turn.</text>
-      <prop>
-        <color>B</color>
-        <color>G</color>
-        <color>U</color>
-        <type>Legendary Creature - Goblin Human</type>
-        <cmc>3.0</cmc>
-        <manacost>BGU</manacost>
-        <pt>3/4</pt>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/8/4/841e14a3-abb9-4a2d-a21b-273307825e02.jpg?1676822029">MOC~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Isle of Vesuva</name>
-      <text>Whenever a nontoken creature enters the battlefield, its controller creates a token that's a copy of that creature.Whenever you roll {CHAOS}, destroy target creature and all other creatures with the same name as that creature.</text>
-      <prop>
-        <type>Plane - Dominaria</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/5/f/5fa27faa-f72c-4925-8ad5-c984113245bf.jpg?1676822083">MOC~</set>
-      <tablerow>1</tablerow>
-    </card>
-    <card>
-      <name>Katilda and Lier</name>
-      <text>Whenever you cast a Human spell, target instnat or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)</text>
-      <prop>
-        <color>G</color>
-        <color>U</color>
-        <color>W</color>
-        <type>Legendary Creature - Human</type>
-        <cmc>3.0</cmc>
-        <manacost>GWU</manacost>
-        <pt>3/3</pt>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/3/a/3a30ee96-00a0-4da9-a2e3-f87dedf2698f.jpg?1676821999">MOC~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Katilda and Lier</name>
-      <text>Whenever you cast a Human spell, target instnat or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)</text>
-      <prop>
-        <color>G</color>
-        <color>U</color>
-        <color>W</color>
-        <type>Legendary Creature - Human</type>
-        <cmc>3.0</cmc>
-        <manacost>GWU</manacost>
-        <pt>3/3</pt>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/d/7/d7728bb4-7fd1-49b0-8778-5d9ea01fbf1b.jpg?1676821970">MOC~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Slimefoot and Squee</name>
-      <text>Whenever Slimefoot and Squee enters the battlefield or attacks, create a 1/1 green Saproling creature token.{1}{B}{R}{G}, Sacrifice a Saproling: Return Slimefoot and Squee and up to one other target creature card from your graveyard to the battlefield. Activate only as a sorcery.</text>
-      <prop>
-        <color>B</color>
-        <color>G</color>
-        <color>R</color>
-        <type>Legendary Creature - Fungus Goblin</type>
-        <cmc>3.0</cmc>
-        <manacost>BRG</manacost>
-        <pt>3/3</pt>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/9/e/9e449e38-6f03-4316-8ebc-d0faf79d6bc7.jpg?1676822008">MOC~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Slimefoot and Squee</name>
-      <text>Whenever Slimefoot and Squee enters the battlefield or attacks, create a 1/1 green Saproling creature token.{1}{B}{R}{G}, Sacrifice a Saproling: Return Slimefoot and Squee and up to one other target creature card from your graveyard to the battlefield. Activate only as a sorcery.</text>
-      <prop>
-        <color>B</color>
-        <color>G</color>
-        <color>R</color>
-        <type>Legendary Creature - Fungus Goblin</type>
-        <cmc>3.0</cmc>
-        <manacost>BRG</manacost>
-        <pt>3/3</pt>
-      </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/c/6/c6f777b0-2f35-4333-8f54-7ceeeac2ec83.jpg?1676821983">MOC~</set>
-      <tablerow>2</tablerow>
-    </card>
-    <card>
-      <name>Spatial Merging</name>
-      <text>When you encounter Spatial Merging, reveal cards from the top of your planar deck until you reveal two plane cards. Simultaneously planeswalk to both of them. Put all other cards revealed this way on the bottom of your planar deck in any order.</text>
-      <prop>
-        <type>Phenomenon</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/a/c/ac3d5e6a-64e6-4888-915f-874109e7830a.jpg?1676822099">MOC~</set>
-      <tablerow>1</tablerow>
-    </card>
-    <card>
-      <name>Towashi</name>
-      <text>Modified creatures you control have trample and "Whenever this creature deals combat damage to a player or planeswalker, draw a card." (Equipment, Auras you control,a nd counters are modifications.)Whenever Chaos ensues, distribute three +1/+1 counters among one, two, or three target creatures you control.</text>
-      <prop>
-        <type>Plane - Kamigawa</type>
-        <cmc>0.0</cmc>
-        <manacost/>
-      </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/6/d/6d37cf73-e128-4367-b030-313d987fda7a.jpg?1676822068">MOC~</set>
-      <tablerow>1</tablerow>
-    </card>
     <card>
       <name>Bloodfell Caves</name>
       <text>Bloodfell Caves enters the battlefield tapped.When Bloodfell Caves enters the battlefield, you gain 1 life.{T}: Add {B} or {R}.</text>
@@ -211,7 +28,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/8/5/85930f68-6f53-4921-9556-2887ac3abfd2.jpg?1676817909">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/8/5/85930f68-6f53-4921-9556-2887ac3abfd2.jpg?1676817909">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -223,7 +40,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/e/3/e34684d6-2935-4776-9a86-b603ad8cf624.jpg?1676817943">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/e/3/e34684d6-2935-4776-9a86-b603ad8cf624.jpg?1676817943">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -236,7 +53,7 @@
         <cmc>7.0</cmc>
         <manacost>5BB</manacost>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/d/a/daf51a76-7a57-4462-ae18-a19e817e49e5.jpg?1676815951">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/d/a/daf51a76-7a57-4462-ae18-a19e817e49e5.jpg?1676815951">MOM</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -249,7 +66,7 @@
         <manacost>4RR</manacost>
         <loyalty>5</loyalty>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/a/1/a146ea07-ec1c-448d-b67a-dd9f9e27c2e0.jpg?1676816175">MOM~</set>
+      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/a/1/a146ea07-ec1c-448d-b67a-dd9f9e27c2e0.jpg?1676816175">MOM</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -260,7 +77,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/3/3/33cd4f63-3484-4cee-8603-1f89cabee6c3.jpg?1676817975">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/3/3/33cd4f63-3484-4cee-8603-1f89cabee6c3.jpg?1676817975">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -275,7 +92,7 @@
         <manacost>1WWB</manacost>
         <pt>3/4</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/b/b/bbda000f-3cf7-48b6-96ff-c23a3a64eab5.jpg?1676816732">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/b/b/bbda000f-3cf7-48b6-96ff-c23a3a64eab5.jpg?1676816732">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -289,7 +106,7 @@
         <manacost>3GGWW</manacost>
         <pt>12/12</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/a/9/a9ec900f-1e31-4440-a75a-20b256734d5b.jpg?1676816860">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/a/9/a9ec900f-1e31-4440-a75a-20b256734d5b.jpg?1676816860">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -303,7 +120,7 @@
         <manacost>3GGWW</manacost>
         <pt>12/12</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/a/d/adea9871-807e-471d-9a9f-ad6efcf07e80.jpg?1676817000">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/a/d/adea9871-807e-471d-9a9f-ad6efcf07e80.jpg?1676817000">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -317,7 +134,7 @@
         <manacost>3GGWW</manacost>
         <pt>12/12</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/7/c/7ccb21e9-5169-4934-83c3-78ac00e5ffc7.jpg?1676817039">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/7/c/7ccb21e9-5169-4934-83c3-78ac00e5ffc7.jpg?1676817039">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -330,7 +147,7 @@
         <manacost>2WW</manacost>
         <pt>4/4</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/a/7/a7113c93-6c6d-410f-aeec-abc5ee121cdf.jpg?1676815838">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/a/7/a7113c93-6c6d-410f-aeec-abc5ee121cdf.jpg?1676815838">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -344,7 +161,7 @@
         <manacost/>
         <pt>4/6</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/back/a/7/a7113c93-6c6d-410f-aeec-abc5ee121cdf.jpg?1676815838">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/back/a/7/a7113c93-6c6d-410f-aeec-abc5ee121cdf.jpg?1676815838">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -357,7 +174,7 @@
         <manacost>3UU</manacost>
         <pt>5/5</pt>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/4/1/41c83142-b948-4ee5-a486-41306d2bb411.jpg?1676815592">MOM~</set>
+      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/4/1/41c83142-b948-4ee5-a486-41306d2bb411.jpg?1676815592">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -369,7 +186,7 @@
         <cmc>5.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/back/4/1/41c83142-b948-4ee5-a486-41306d2bb411.jpg?1676815592">MOM~</set>
+      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/back/4/1/41c83142-b948-4ee5-a486-41306d2bb411.jpg?1676815592">MOM</set>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -380,7 +197,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/b/6/b6ed20a4-bc8a-44b1-b9b7-c82518c287b8.jpg?1676818003">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/b/6/b6ed20a4-bc8a-44b1-b9b7-c82518c287b8.jpg?1676818003">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -393,7 +210,7 @@
         <cmc>2.0</cmc>
         <manacost>1U</manacost>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/0/e/0e758594-a48c-4508-b400-9028aec07f63.jpg?1676816006">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/0/e/0e758594-a48c-4508-b400-9028aec07f63.jpg?1676816006">MOM</set>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -410,7 +227,7 @@
         <manacost>WUB/PRG</manacost>
         <pt>4/4</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/3/3/33d94ecf-758b-4f68-a7be-6bf3ff1047f4.jpg?1676817702">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/3/3/33d94ecf-758b-4f68-a7be-6bf3ff1047f4.jpg?1676817702">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -427,7 +244,7 @@
         <manacost>WUB/PRG</manacost>
         <pt>4/4</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/5/b/5b998493-d2c5-48dd-8d0c-b63b6795acf6.jpg?1676817730">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/5/b/5b998493-d2c5-48dd-8d0c-b63b6795acf6.jpg?1676817730">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -444,7 +261,7 @@
         <manacost>WUB/PRG</manacost>
         <pt>4/4</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/6/4/64b0acfa-1a8d-4a94-8972-c9bb235e4897.jpg?1676817754">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/6/4/64b0acfa-1a8d-4a94-8972-c9bb235e4897.jpg?1676817754">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -455,7 +272,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/3/a/3aeef1b1-a351-47ce-a686-a0eb0a35a894.jpg?1676818026">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/3/a/3aeef1b1-a351-47ce-a686-a0eb0a35a894.jpg?1676818026">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -467,7 +284,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/6/6/66aefbfc-3f67-443d-8ec4-cc9beafb64ee.jpg?1676818054">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/6/6/66aefbfc-3f67-443d-8ec4-cc9beafb64ee.jpg?1676818054">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -479,7 +296,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/9/5/957efc4e-c2a9-46a2-b9e3-20dc419ffd05.jpg?1676818086">MOM~</set>
+      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/9/5/957efc4e-c2a9-46a2-b9e3-20dc419ffd05.jpg?1676818086">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -495,7 +312,7 @@
         <manacost>1WBG</manacost>
         <pt>4/4</pt>
       </prop>
-      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/8/d/8d7ff937-de92-445f-976c-726fef5c91cc.jpg?1676816564">MOM~</set>
+      <set rarity="Mythic Rare" picURL="https://cards.scryfall.io/normal/front/8/d/8d7ff937-de92-445f-976c-726fef5c91cc.jpg?1676816564">MOM</set>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -506,7 +323,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/f/1/f1b753e2-6e53-4ed1-9be4-66f8eb005a11.jpg?1676818110">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/f/1/f1b753e2-6e53-4ed1-9be4-66f8eb005a11.jpg?1676818110">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -518,7 +335,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/3/7/3799dcb2-7cd7-4d28-b9af-249e3ebe3d3b.jpg?1676818152">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/3/7/3799dcb2-7cd7-4d28-b9af-249e3ebe3d3b.jpg?1676818152">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -530,7 +347,7 @@
         <cmc>0.0</cmc>
         <manacost/>
       </prop>
-      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/7/f/7f2642cd-e3cc-4aab-8c00-4987284509b3.jpg?1676818175">MOM~</set>
+      <set rarity="Common" picURL="https://cards.scryfall.io/normal/front/7/f/7f2642cd-e3cc-4aab-8c00-4987284509b3.jpg?1676818175">MOM</set>
       <cipt>1</cipt>
       <tablerow>0</tablerow>
     </card>
@@ -545,7 +362,7 @@
         <manacost>3BBG</manacost>
         <pt>18/6</pt>
       </prop>
-      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/9/c/9c15e244-14cc-46a5-abd4-66a58d1c0dd0.jpg?1676816664">MOM~</set>
+      <set rarity="Rare" picURL="https://cards.scryfall.io/normal/front/9/c/9c15e244-14cc-46a5-abd4-66a58d1c0dd0.jpg?1676816664">MOM</set>
       <tablerow>2</tablerow>
     </card>
   </cards>
