@@ -23,9 +23,23 @@ SPOILER_MARK = "~"
 OUTPUT_DIR = pathlib.Path("out")
 OUTPUT_TMP_DIR = OUTPUT_DIR.joinpath("tmp")
 XML_ESCAPE_TRANSLATE_MAP = str.maketrans(
-    {"&": "&amp;", '"': "&quot;", "<": "&lt;", ">": "&gt;",
-    # remove any control characters outright
-    **{chr(i): "" for i in range(ord(" "))}}
+    {"&": "&amp;", '"': "&quot;", "<": "&lt;", ">": "&gt;"}
+)
+# remove any control characters outright
+XML_ESCAPE_TRANSLATE_MAP.update({i: "" for i in range(ord(" "))})
+# don't remove whitespace characters in the sub " " range
+del XML_ESCAPE_TRANSLATE_MAP[ord("\n")]
+del XML_ESCAPE_TRANSLATE_MAP[ord("\t")]
+
+# copied from Cockatrice/oracle/src/oracleimporter.h OracleImporter::mainCardTypes
+MAINTYPES = (
+    "Planeswalker",
+    "Creature",
+    "Land",
+    "Sorcery",
+    "Instant",
+    "Artifact",
+    "Enchantment"
 )
 
 
@@ -181,7 +195,7 @@ def scryfall2mtgjson(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any
                 "rarity": sf_card["rarity"].replace("mythic", "mythic rare").title(),
                 "text": sf_card.get("oracle_text", ""),
                 "url": image,
-                "type": sf_card.get("type_line", "Unknown").replace("—", "-"),
+                "type": sf_card.get("type_line", "Unknown"),
                 "colorIdentity": sf_card.get("color_identity", None),
                 "colors": sf_card.get("colors", []),
                 "power": sf_card.get("power", None),
@@ -309,7 +323,27 @@ def write_cards(
             text = ""
 
         card_cmc = str(card["cmc"])
+        if card_cmc.endswith(".0"):
+            card_cmc = card_cmc[:-2]
+
         card_type = card["type"]
+
+        table_row = "1"
+        if "Land" in card_type:
+            table_row = "0"
+        elif "Sorcery" in card_type:
+            table_row = "3"
+        elif "Instant" in card_type:
+            table_row = "3"
+        elif "Creature" in card_type:
+            table_row = "2"
+
+        for maintype in MAINTYPES:
+            if maintype in card_type:
+                break
+        else:
+            maintype = None
+
         if "names" in card.keys():
             if "layout" in card:
                 if card["layout"] == "split" or card["layout"] == "aftermath":
@@ -335,16 +369,6 @@ def write_cards(
             else:
                 print(card["name"] + " has multiple names and no 'layout' key")
 
-        table_row = "1"
-        if "Land" in card_type:
-            table_row = "0"
-        elif "Sorcery" in card_type:
-            table_row = "3"
-        elif "Instant" in card_type:
-            table_row = "3"
-        elif "Creature" in card_type:
-            table_row = "2"
-
         if "number" in card:
             if "b" in str(card["number"]):
                 if "layout" in card:
@@ -359,13 +383,17 @@ def write_cards(
         card_xml_file.write("<name>" + set_name + "</name>\n")
         card_xml_file.write("<text>" + text + "</text>\n")
         card_xml_file.write("<prop>\n")
-        if "colors" in card.keys():
-            for color in card["colors"]:
-                card_xml_file.write("<color>" + str(color) + "</color>\n")
+        if "colors" in card.keys() and card["colors"]:
+            card_xml_file.write("<colors>" + "".join(card["colors"]) + "</colors>\n")
 
         card_xml_file.write("<type>" + card_type + "</type>\n")
+        if maintype:
+            card_xml_file.write("<maintype>" + maintype + "</maintype>\n")
+
         card_xml_file.write("<cmc>" + card_cmc + "</cmc>\n")
-        card_xml_file.write("<manacost>" + mana_cost + "</manacost>\n")
+        if mana_cost:
+            card_xml_file.write("<manacost>" + mana_cost + "</manacost>\n")
+
         if pow_tough:
             card_xml_file.write("<pt>" + pow_tough + "</pt>\n")
 
