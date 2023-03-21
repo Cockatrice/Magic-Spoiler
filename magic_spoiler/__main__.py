@@ -202,7 +202,7 @@ def scryfall2mtgjson(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any
     return trice_cards
 
 
-def open_header(card_xml_file: IO[Any]) -> None:
+def open_header(card_xml_file: IO[Any], filename: str) -> None:
     """
     Add the header data to the XML file
     :param card_xml_file: Card file path
@@ -217,7 +217,7 @@ def open_header(card_xml_file: IO[Any]) -> None:
         + "<info>\n"
         + "  <author>Cockatrice/Magic-Spoiler</author>\n"
         + "  <createdAt>" + datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S") + " (UTC)</createdAt>\n"
-        + "  <sourceUrl>https://raw.githubusercontent.com/Cockatrice/Magic-Spoiler/files/spoiler.xml</sourceUrl>\n"
+        + "  <sourceUrl>https://raw.githubusercontent.com/Cockatrice/Magic-Spoiler/files/" + filename + "</sourceUrl>\n"
         + "  <sourceVersion></sourceVersion>\n"
         + "</info>\n"
         + "<sets>\n"
@@ -401,7 +401,7 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
     card_xml_file = OUTPUT_TMP_DIR.joinpath(output_file_name).open("w", encoding="utf-8")
 
     # Fill in set headers
-    open_header(card_xml_file)
+    open_header(card_xml_file, output_file_name)
     for value in SPOILER_SETS.get():
         fill_header_sets(card_xml_file, {key: (value_ + SPOILER_MARK if key == "code" else value_) for key, value_ in value.items()})
     close_header(card_xml_file)
@@ -512,7 +512,7 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
     file_path = OUTPUT_TMP_DIR.joinpath(f"{set_code}.xml")
     card_xml_file = file_path.open("w", encoding="utf-8")
 
-    open_header(card_xml_file)
+    open_header(card_xml_file, file_path.name)
     fill_header_sets(card_xml_file, set_obj)
     close_header(card_xml_file)
     write_cards(card_xml_file, trice_dict, set_obj["code"])
