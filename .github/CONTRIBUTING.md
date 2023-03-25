@@ -12,7 +12,7 @@ It only takes a few days - be patient.
 - If the card is a legitimate spoiler and it isn't showing up yet, you can request it by [contacting the Scryfall support](https://scryfall.com/contact) and let them know. Make sure to link the official spoiler source in your report.
 - If the card shouldn't exist at all, let the Scryfall team know as well, please.
 
-What you should **NOT** do however, is to submit PR's to our files branch and fix the xml/json files there directly.<br>
+What you should **NOT** do however, is to submit PR's to our files branch and fix the xml files there directly.<br>
 You have to provide updates to Scryfall as all other changes would get overridden again.
 
 

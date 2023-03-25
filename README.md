@@ -11,7 +11,7 @@ Magic-Spoiler is a Python script to query the <i>[Scryfall](https://scryfall.com
 >**Enable "Download Spoilers Automatically" in `Cockatrice → Settings → Card Sources → Spoilers` to get updates automatically pushed to your client!**<br>
 You can also [add the desired <b>.xml</b> file(s) to your <i>customsets</i> folder manually](https://github.com/Cockatrice/Cockatrice/wiki/Custom-Cards-&-Sets#to-add-custom-sets-follow-these-steps) to make Cockatrice use it.
 
-Just looking for XML or JSON files?  [They are in our `files` branch!](https://github.com/Cockatrice/Magic-Spoiler/tree/files) 
+Just looking for XML files?  [They are in our `files` branch!](https://github.com/Cockatrice/Magic-Spoiler/tree/files) 
 
 When run by our CI, the script automatically updates the files and uploads new versions to this branch. ([History of changes](https://github.com/Cockatrice/Magic-Spoiler/commits/files))<br>
 GitHub Actions are scheduled to autoamtically run on a daily basis.
@@ -43,5 +43,5 @@ All XML and JSON spoiler files are written to the `out/` directory:
 
 | File Name | Content |
 |:--|:--|
-| `spoiler.xml`, `spoiler.json` | files contain **all** currently available spoilers from different **sets** |
-| `{SET_CODE}.xml`, `{SET_CODE}.json` | files contain just the spoiler available for this **single set** |
+| `spoiler.xml` | file contains **all** currently available spoilers from different **sets** |
+| `{SET_CODE}.xml` | files contain just the spoiler available for this **single set** |

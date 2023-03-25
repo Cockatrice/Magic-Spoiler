@@ -121,7 +121,7 @@ def build_types(sf_card: Dict[str, Any]) -> Tuple[List[str], str, List[str]]:
 
 def scryfall2mtgjson(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
-    Convert SF cards to MTGJSON format for dispatching
+    Convert SF cards to MTGJSON v4 format for dispatching
     :param scryfall_cards: List of Scryfall cards
     :return: MTGJSON card list
     """
@@ -426,53 +426,6 @@ def write_spoilers_xml(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
     return True
 
 
-def write_spoilers_json(trice_dicts: Dict[str, List[Dict[str, Any]]]) -> bool:
-    """
-    Dump the JSON into a spoiler file
-    :param trice_dicts: All spoiled cards
-    :return: Written successfully
-    """
-    if not trice_dicts:
-        return False
-
-    output_file_path = OUTPUT_TMP_DIR.joinpath("spoiler.json")
-
-    OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
-    with output_file_path.open("w", encoding="utf-8") as f:
-        json.dump(trice_dicts, f, sort_keys=True, indent=4)
-
-    # If content didn't change, discard newest creation
-    old_xml_location = str(OUTPUT_DIR.joinpath("spoiler.json"))
-    if compare_json_content(str(output_file_path), old_xml_location):
-        print("No new data in spoiler.json, skipping replacement")
-        return False
-
-    # Move new version to old location
-    print("Changes detected, replacing spoiler.json with updated version")
-    shutil.move(str(output_file_path), old_xml_location)
-    return True
-
-
-def compare_json_content(f1: str, f2: str) -> bool:
-    """
-    Compare the contents of two JSON files and report
-    if the contents are the same, minus comments
-    :param f1: File 1
-    :param f2: File 2
-    :return: Is file content, minus comments, the same?
-    """
-    file1 = pathlib.Path(f1)
-    file2 = pathlib.Path(f2)
-
-    if file1.is_file() and file2.is_file():
-        f1_hash = hashlib.sha512(file1.open("rb").read()).hexdigest()
-        f2_hash = hashlib.sha512(file2.open("rb").read()).hexdigest()
-
-        return f1_hash == f2_hash
-
-    return False
-
-
 def compare_xml_content(a: str, b: str) -> bool:
     """
     Compare the contents of two XML files and report
@@ -531,38 +484,6 @@ def write_set_xml(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> 
         )
     )
     shutil.move(card_xml_file.name, old_xml_location)
-    return True
-
-
-def write_set_json(trice_dict: List[Dict[str, Any]], set_obj: Dict[str, str]) -> bool:
-    """
-    Dump the JSON into a spoiler file
-    :param trice_dict: Cards
-    :param set_obj: Set Information
-    :return: Written successfully
-    """
-    if not trice_dict:
-        return False
-
-    output_file_path = OUTPUT_TMP_DIR.joinpath("{}.json".format(set_obj["code"]))
-
-    OUTPUT_TMP_DIR.mkdir(parents=True, exist_ok=True)
-    with output_file_path.open("w", encoding="utf-8") as f:
-        json.dump(trice_dict, f, sort_keys=True, indent=4)
-
-    # If content didn't change, discard newest creation
-    old_xml_location = str(OUTPUT_DIR.joinpath("{}.json".format(set_obj["code"])))
-    if compare_json_content(str(output_file_path), old_xml_location):
-        print("No new data in {}.json, skipping replacement".format(set_obj["code"]))
-        return False
-
-    # Move new version to old location
-    print(
-        "Changes detected, replacing {}.json with updated version".format(
-            set_obj["code"]
-        )
-    )
-    shutil.move(str(output_file_path), old_xml_location)
     return True
 
 
@@ -639,7 +560,6 @@ def main() -> None:
 
         # Write SET.xml
         changed |= write_set_xml(trice_dict, set_info)
-        changed |= write_set_json(trice_dict, set_info)
 
         # Save for spoiler.xml
         spoiler_xml[set_info["code"]] = trice_dict
@@ -647,7 +567,6 @@ def main() -> None:
     if spoiler_xml:
         # Write out the spoiler.xml file
         changed |= write_spoilers_xml(spoiler_xml)
-        changed |= write_spoilers_json(spoiler_xml)
 
     # Cleanup outdated stuff that's not necessary
     changed |= delete_old_files()
