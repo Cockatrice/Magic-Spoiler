@@ -9,7 +9,7 @@ setuptools.setup(
     author="Zach Halpern",
     author_email="zach@cockatrice.us",
     url="https://github.com/Cockatrice/Magic-Spoiler/",
-    description="Build JSON and XML files for distribution of MTG spoiler cards",
+    description="Build XML files for distribution of MTG spoiler cards",
     long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
     license="GPL-3.0",
@@ -19,6 +19,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
     ],
-    keywords="Magic: The Gathering, MTG, JSON, Card Games, Collectible, Trading Cards",
+    keywords="Magic: The Gathering, MTG, XML, Card Games, Collectible, Trading Cards",
     packages=setuptools.find_packages(),
 )
