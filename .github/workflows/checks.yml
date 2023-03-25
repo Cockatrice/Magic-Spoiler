@@ -15,9 +15,9 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Install Pylint
+      - name: Install tools using pip
         shell: bash
         run: |
           python3 -m pip install pylint
@@ -27,3 +27,9 @@ jobs:
         run: |
           pylint --version
           pylint ./magic_spoiler
+
+      - name: Run isort
+        shell: bash
+        run: |
+          isort --version
+          isort . --check --diff
