@@ -10,7 +10,7 @@ on:
 
 jobs:
   lint:
-    name: Pylint
+    name: Code Style
     runs-on: ubuntu-latest
 
     steps:
@@ -20,15 +20,17 @@ jobs:
       - name: Install tools using pip
         shell: bash
         run: |
-          python3 -m pip install pylint
+          python3 -m pip install pylint isort
 
       - name: Run Pylint
+        if: always()
         shell: bash
         run: |
           pylint --version
           pylint ./magic_spoiler
 
       - name: Run isort
+        if: always()
         shell: bash
         run: |
           isort --version
