@@ -47,7 +47,7 @@ jobs:
           CFLAGS: '-O0'
         run: |
           python3 -m pip install --upgrade pip setuptools
-          python3 -m pip install requests requests_cache lxml
+          python3 -m pip install --requirement requirements.txt
 
       - name: Run script
         id: run
