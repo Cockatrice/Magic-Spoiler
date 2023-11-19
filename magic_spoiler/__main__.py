@@ -526,10 +526,12 @@ def get_spoiler_sets() -> List[Dict[str, str]]:
         return []
 
     spoiler_sets = []
+    excluded_set_types = ["alchemy", "masterpiece", "arsenal", "from_the_vault", "spellbook", "treasure_chest", "box", "promo", "token", "memorabilia", "minigame"]
+
     for sf_set in sf_sets["data"]:
         if (
             sf_set["released_at"] >= time.strftime("%Y-%m-%d %H:%M:%S")
-            and sf_set["set_type"] != "token"
+            and sf_set["set_type"].lower() not in excluded_set_types
             and sf_set["card_count"]
         ):
             sf_set["code"] = sf_set["code"].upper()
