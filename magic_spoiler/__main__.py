@@ -532,7 +532,7 @@ def get_spoiler_sets() -> List[Dict[str, str]]:
     for sf_set in sf_sets["data"]:
         if (
             sf_set["released_at"] >= time.strftime("%Y-%m-%d %H:%M:%S")
-            and sf_set["set_type"].lower() not in excluded_set_types
+            and sf_set["set_type"] not in excluded_set_types
             and sf_set["card_count"]
         ):
             sf_set["code"] = sf_set["code"].upper()
