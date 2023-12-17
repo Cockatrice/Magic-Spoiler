@@ -527,7 +527,9 @@ def get_spoiler_sets() -> List[Dict[str, str]]:
 
     spoiler_sets = []
     # Find list of possible Set Types to exclude here: https://scryfall.com/docs/api/sets
-    excluded_set_types = ["alchemy", "masterpiece", "arsenal", "from_the_vault", "spellbook", "premium_deck", "duel_deck", "treasure_chest", "planechase", "archenemy", "vanguard", "box", "promo", "token", "memorabilia", "minigame"]
+    excluded_set_types = ["alchemy", "masterpiece", "arsenal", "from_the_vault", "spellbook", "premium_deck", "duel_deck",
+                          "draft_innovation", "treasure_chest", "planechase", "archenemy", "vanguard", "box", "promo",
+                          "token", "memorabilia", "minigame"]
 
     for sf_set in sf_sets["data"]:
         if (
