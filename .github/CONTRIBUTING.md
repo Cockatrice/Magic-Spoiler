@@ -16,6 +16,150 @@ What you should **NOT** do however, is to submit PR's to our files branch and fi
 You have to provide updates to Scryfall as all other changes would get overridden again.
 
 
+## Code Style Guidelines ##
+
+#### Header files ####
+
+Use header files with the extension `.h` and source files with the extension
+`.cpp`.
+
+Use header guards in the form of `FILE_NAME_H`.
+
+Simple functions, such as getters, may be written inline in the header file,
+but other functions should be written in the source file.
+
+Group project includes first, followed by library includes. All in alphabetic order.
+Like this:
+```c++
+// Good
+#include "card.h"
+#include "deck.h"
+#include <QList>
+#include <QString>
+
+// Bad
+#include <QList>
+#include "card.h"
+#include <QString>
+#include "deck.h"
+
+// Bad
+#include "card.h"
+#include "deck.h"
+#include <QString>
+#include <QList>
+```
+
+#### Naming ####
+
+Use `UpperCamelCase` for classes, structs, enums, etc. and `lowerCamelCase` for
+function and variable names.
+
+Don't use [Hungarian Notation](
+https://en.wikipedia.org/wiki/Hungarian_notation).
+
+Member variables aren't decorated in any way. Don't prefix or suffix them with
+underscores, etc.
+
+Use a separate line for each declaration, don't use a single line like this
+`int one = 1, two = 2` and instead split them into two lines.
+
+For arguments to constructors which have the same names as member variables,
+prefix those arguments with underscores:
+```c++
+MyClass::MyClass(int _myData) : myData(_myData)
+{
+
+}
+```
+Pointers and references should be denoted with the `*` or `&` going with the
+variable name:
+```c++
+// Good
+Foo *foo1 = new Foo;
+Foo &foo2 = *foo1;
+
+// Bad
+Bar* bar1 = new Bar;
+Bar& bar2 = *bar1;
+```
+Use `nullptr` instead of `NULL` (or `0`) for null pointers.
+If you find any usage of the old keywords, we encourage you to fix it.
+
+#### Braces ####
+
+Braces should go on their own line except for control statements, the use of
+braces around single line statements is preferred.
+See the following example:
+```c++
+int main()
+{                                     // function or class: own line
+    if (someCondition) {              // control statement: same line
+        doSomething();                // single line statement, braces preferred
+    } else if (someOtherCondition1) { // else goes on the same line as a closing brace
+        for (int i = 0; i < 100; i++) {
+            doSomethingElse();
+        }
+    } else {
+        while (someOtherCondition2) {
+            doSomethingElse();
+        }
+    }
+}
+```
+
+#### Indentation and Spacing ####
+
+Always indent using 4 spaces, do not use tabs. Opening and closing braces
+should be on the same indentation layer, member access specifiers in classes or
+structs should not be indented.
+
+All operators and braces should be separated by spaces, do not add a space next
+to the inside of a brace.
+
+If multiple lines of code that follow eachother have single line comments
+behind them, place all of them on the same indentation level. This indentation
+level should be equal to the longest line of code for each of these comments,
+without added spacing.
+
+#### Lines ####
+
+Do not leave trailing whitespace on any line. Most IDEs check for this
+nowadays and clean it up for you.
+
+Lines should be 120 characters or less. Please break up lines that are too long
+into smaller parts, for example at spaces or after opening a brace.
+
+### Memory Management ###
+
+New code should be written using references over pointers and stack allocation
+over heap allocation wherever possible.
+```c++
+// Good: uses stack allocation and references
+void showCard(const Card &card);
+int main()
+{
+    Card card;
+    showCard(card);
+}
+
+// Bad: relies on manual memory management and doesn't give us much
+// null-safety.
+void showCard(const Card *card);
+int main()
+{
+    Card *card = new Card;
+    showCard(card);
+    delete card;
+}
+```
+(Remember to pass by `const` reference wherever possible, to avoid accidentally
+mutating objects.)
+
+When pointers can't be avoided, try to use a smart pointer of some sort, such
+as `QScopedPointer`, or, less preferably, `QSharedPointer`.
+
+
 ## Anything else? ##
 If you notice any other errors or have suggestions to the code, please [file an issue](https://github.com/Cockatrice/Magic-Spoiler/issues) in our repository.
 
