@@ -1,0 +1,44 @@
+name: Checks
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths-ignore:
+      - '**.md'
+      - '.github/workflows/deploy.yml'
+
+jobs:
+  lint:
+    name: Code Style
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install tools using pip
+        shell: bash
+        run: |
+          python3 -m pip install pylint isort mypy
+
+      - name: Run Pylint
+        if: always()
+        shell: bash
+        run: |
+          pylint --version
+          pylint ./magic_spoiler
+
+      - name: Run isort
+        if: always()
+        shell: bash
+        run: |
+          isort --version
+          isort . --check --diff
+
+      - name: Run mypy
+        if: always()
+        shell: bash
+        run: |
+          mypy --version
+          mypy .
