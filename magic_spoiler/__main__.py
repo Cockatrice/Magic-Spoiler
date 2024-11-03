@@ -291,6 +291,7 @@ def write_cards(
     :param trice_dict: List of cards
     :param set_code: Set code
     """
+    name_dict = {}
     for card in trice_dict:
         if "names" in card.keys() and card["names"]:
             if "layout" in card and card["layout"] != "double-faced":
@@ -298,6 +299,10 @@ def write_cards(
                     continue
 
         set_name = card["name"]
+        if set_name in name_dict:
+            continue
+        else:
+            name_dict[set_name] = True
 
         if "mana_cost" in card.keys():
             mana_cost = card["mana_cost"].replace("{", "").replace("}", "")
