@@ -44,7 +44,7 @@ MAINTYPES = (
 )
 
 class Priority(Enum):
-    FALLBACK = 1
+    FALLBACK = 0
     PRIMARY = 10
     SECONDARY = 20
     REPRINT = 30
