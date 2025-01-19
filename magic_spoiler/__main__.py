@@ -9,6 +9,7 @@ import os
 import pathlib
 import shutil
 import time
+from enum import Enum
 from typing import IO, Any, Dict, List, Tuple, Union
 
 import requests
@@ -41,6 +42,42 @@ MAINTYPES = (
     "Artifact",
     "Enchantment"
 )
+
+class Priority(Enum):
+    FALLBACK = 0
+    PRIMARY = 10
+    SECONDARY = 20
+    REPRINT = 30
+    OTHER = 40
+
+SET_TYPE_PRIORITY_MAP = {
+    "core": Priority.PRIMARY,
+    "expansion": Priority.PRIMARY,
+
+    "commander": Priority.SECONDARY,
+    "starter": Priority.SECONDARY,
+    "draft_innovation": Priority.SECONDARY,
+    "duel_deck": Priority.SECONDARY,
+
+    "archenemy": Priority.REPRINT,
+    "arsenal": Priority.REPRINT,
+    "box": Priority.REPRINT,
+    "from_the_vault": Priority.REPRINT,
+    "masterpiece": Priority.REPRINT,
+    "masters": Priority.REPRINT,
+    "memorabilia": Priority.REPRINT,
+    "planechase": Priority.REPRINT,
+    "premium_deck": Priority.REPRINT,
+    "promo": Priority.REPRINT,
+    "spellbook": Priority.REPRINT,
+    "token": Priority.REPRINT,
+    "treasure_chest": Priority.REPRINT,
+
+    "alchemy": Priority.OTHER,
+    "funny": Priority.OTHER,
+    "minigame": Priority.OTHER,
+    "vanguard": Priority.OTHER,
+}
 
 
 def __get_session() -> Union[requests.Session, Any]:
@@ -244,12 +281,14 @@ def fill_header_sets(card_xml_file: IO[Any], set_obj: Dict[str, str]) -> None:
     :param card_xml_file: Card file path
     :param set_obj: Set object
     """
+    priority = SET_TYPE_PRIORITY_MAP.get(set_obj["set_type"].lower(), Priority.FALLBACK)
     card_xml_file.write(
         "<set>\n"
         "<name>" + set_obj["code"] + "</name>\n"
         "<longname>" + set_obj["name"] + " (Spoiler)</longname>\n"
         "<settype>" + set_obj["set_type"].replace("_", " ").title() + "</settype>\n"
         "<releasedate>" + set_obj["released_at"] + "</releasedate>\n"
+        "<priority>" + str(priority.value) + "</priority>\n"
         "</set>\n"
     )
 
