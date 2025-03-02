@@ -18,6 +18,7 @@ You have to provide updates to Scryfall as all other changes would get overridde
 
 ## Anything else? ##
 If you notice any other errors or have suggestions to the code, please [file an issue](https://github.com/Cockatrice/Magic-Spoiler/issues) in our repository.
+We try to follow [PEP8 Style Guide](https://peps.python.org/pep-0008/).
 
 <br>
 
