@@ -10,7 +10,7 @@
 
 Magic-Spoiler is a Python script to query the [Scryfall](https://scryfall.com) API to compile XML files (Cockatrice formatted) with information about spoiled cards from upcoming sets.
 
-## Output [![Build Status](https://github.com/Cockatrice/Magic-Spoiler/workflows/Deploy/badge.svg?branch=master)](https://github.com/Cockatrice/Magic-Spoiler/actions?query=workflow%3ADeploy+event%3Aworkflow_dispatch+event%3Aschedule+branch%3Amaster) ##
+## Output [![Build Status](https://github.com/Cockatrice/Magic-Spoiler/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/Cockatrice/Magic-Spoiler/actions/workflows/deploy.yml?query=branch%3Amaster) ##
 
 >[!TIP]
 >**Enable "Download Spoilers Automatically" in `Cockatrice → Settings → Card Sources → Spoilers` to get updates automatically pushed to your client!**<br>
