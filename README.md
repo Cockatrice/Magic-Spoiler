@@ -6,7 +6,7 @@
 
 <br>
 
-# Magic-Spoiler [![Discord](https://img.shields.io/discord/314987288398659595?label=Discord&logo=discord&logoColor=white)](https://discord.gg/3Z9yzmA) [![Gitter Chat](https://img.shields.io/gitter/room/Cockatrice/Magic-Spoiler)](https://gitter.im/Cockatrice/Magic-Spoiler) #
+# Magic-Spoiler [![Discord](https://img.shields.io/discord/314987288398659595?label=Discord&logo=discord&logoColor=white)](https://discord.gg/3Z9yzmA) #
 
 Magic-Spoiler is a Python script to query the [Scryfall](https://scryfall.com) API to compile XML files (Cockatrice formatted) with information about spoiled cards from upcoming sets.
 
