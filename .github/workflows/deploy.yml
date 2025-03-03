@@ -44,7 +44,7 @@ jobs:
         shell: bash
         env:
           CFLAGS: '-O0'
-        run: python3 -m pip install requests requests_cache lxml
+        run: python3 -m pip install --requirement requirements.txt
 
       - name: Run script
         id: run
