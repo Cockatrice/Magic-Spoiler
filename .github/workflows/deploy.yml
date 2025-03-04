@@ -42,8 +42,6 @@ jobs:
 
       - name: Install requirements using pip
         shell: bash
-        env:
-          CFLAGS: '-O0'
         run: python3 -m pip install --requirement requirements.txt
 
       - name: Run script
