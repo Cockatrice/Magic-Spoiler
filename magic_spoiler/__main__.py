@@ -213,9 +213,8 @@ def scryfall2mtgjson(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any
     for sf_card in composed_sf_cards:
         super_types, types, sub_types = build_types(sf_card)
 
-        card_faces = sf_card.get("card_faces")
-        if card_faces and isinstance(card_faces, list) and len(card_faces) > 0:
-            image = card_faces[0].get("image_uris", {}).get("normal", "")
+        if "card_faces" in sf_card:
+            image = sf_card["card_faces"][0].get("image_uris", {}).get("normal", "")
         else:
             image = sf_card.get("image_uris", {}).get("normal", "")
 
