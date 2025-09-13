@@ -101,7 +101,7 @@ def json_download(scryfall_url: str) -> Dict[str, Any]:
     :return: JSON object of the Scryfall data
     """
     session = __get_session()
-    response: Any = session.get(url=scryfall_url, timeout=5.0)
+    response: Any = session.get(url=scryfall_url, timeout=10.0)
     request_api_json: Dict[str, Any] = response.json()
     print("Downloaded: {} (Cache = {})".format(scryfall_url, response.from_cache))
     return request_api_json
