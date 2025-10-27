@@ -52,7 +52,7 @@ jobs:
       - name: Upload artifacts
         # Run only when triggered from a PR
         if: github.event_name == 'pull_request'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: spoiler-output
           path: ${{github.workspace}}/${{env.OUTPUT_PATH}}
