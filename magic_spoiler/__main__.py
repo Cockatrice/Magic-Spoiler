@@ -153,7 +153,10 @@ def build_types(sf_card: Dict[str, Any]) -> Tuple[List[str], str, List[str]]:
     super_types: List[str] = []
     sub_types: List[str] = []
 
-    type_line = sf_card["type_line"]
+    # Spoiler cards do not always include a type_line
+    type_line = sf_card.get("type_line", "")
+    if not type_line:
+        type_line = "Unknown"
 
     if "—" in type_line:
         card_subs = type_line.split("—")[1].strip()
