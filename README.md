@@ -19,7 +19,7 @@ You can also [add the desired <b>.xml</b> file(s) to your <i>customsets</i> fold
 Just looking for XML files?  [They are in our `files` branch!](https://github.com/Cockatrice/Magic-Spoiler/tree/files) 
 
 When run by our CI, the script automatically updates the files and uploads new versions to this branch. ([History of changes](https://github.com/Cockatrice/Magic-Spoiler/commits/files))<br>
-GitHub Actions are scheduled to autoamtically run on a daily basis.
+GitHub Actions are scheduled to automatically run three times a day.
 
 ## Contributing ##
 Noticed an error in the card data? Check out our [Contributing file](https://github.com/Cockatrice/Magic-Spoiler/blob/master/.github/CONTRIBUTING.md) for information on how to help fixing it!
