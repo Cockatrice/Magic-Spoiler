@@ -250,8 +250,8 @@ def scryfall2mtgjson(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any
                 "subTypes": sub_types,
             }
             trice_cards.append(trice_card)
-        except Exception:
-            print(f"Unable to parse {sf_card.get('name')}")
+        except Exception as e:
+            print(f"Unable to parse {sf_card.get('name')}, error: {str(e)}")
 
     return trice_cards
 
