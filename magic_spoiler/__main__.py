@@ -251,7 +251,11 @@ def scryfall2mtgjson(scryfall_cards: List[Dict[str, Any]]) -> List[Dict[str, Any
             }
             trice_cards.append(trice_card)
         except Exception as e:
-            print(f"Unable to parse {sf_card.get('name')} ({sf_card.get('set')}): {str(e)}")
+            # If running in GitHub Actions CI, print the message as a warning
+            if 'GITHUB_ACTION' in os.environ:
+                print(f"::warning::Unable to parse {sf_card.get('name')} ({sf_card.get('set')}): {str(e)}")
+            else:
+                print(f"Unable to parse {sf_card.get('name')} ({sf_card.get('set')}): {str(e)}")
 
     return trice_cards
 
