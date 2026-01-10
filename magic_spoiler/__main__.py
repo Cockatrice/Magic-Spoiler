@@ -102,6 +102,8 @@ def json_download(scryfall_url: str) -> Dict[str, Any]:
     """
     session = __get_session()
     response: Any = session.get(url=scryfall_url, timeout=10.0)
+    if not response.from_cache:
+        time.sleep(0.1)    # 100ms delay for good citizenship (10 requests per second)
     request_api_json: Dict[str, Any] = response.json()
     print("Downloaded: {} (Cache = {})".format(scryfall_url, response.from_cache))
     return request_api_json
