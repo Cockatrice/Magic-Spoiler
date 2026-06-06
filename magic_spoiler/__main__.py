@@ -90,7 +90,14 @@ def __get_session() -> Union[requests.Session, Any]:
     )
 
     if not SESSION.get(None):
-        SESSION.set(requests.Session())
+        headers = {
+            "Accept": "*/*",
+            "Accept-Encoding": "identity",
+            "User-Agent": "Magic-Spoiler 1.0",
+        }
+        session = requests.Session()
+        session.headers = headers
+        SESSION.set(session)
     return SESSION.get()
 
 
