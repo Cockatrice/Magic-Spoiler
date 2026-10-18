@@ -85,11 +85,17 @@ def __get_session() -> Union[requests.Session, Any]:
     Get the session for downloading content
     :return: Session
     """
-    requests_cache.install_cache(
-        cache_name="scryfall_cache", backend="sqlite", expire_after=7200  # 2 hours
-    )
-
     if not SESSION.get(None):
+        # Install requests-cache once (before creating the Session so the session
+        # gets the cached behavior). This avoids repeated re-initialization.
+        requests_cache.install_cache(
+            cache_name="scryfall_cache",
+            backend="sqlite",
+            expire_after=7200,          # cache valid for 2 hours
+            allowable_codes=(200,),     # cache only successful responses
+            allowable_methods=("GET",)  # cache only GET responses
+        )
+
         headers = {
             "Accept": "*/*",
             "Accept-Encoding": "identity",
@@ -97,7 +103,9 @@ def __get_session() -> Union[requests.Session, Any]:
         }
         session = requests.Session()
         session.headers = headers
+
         SESSION.set(session)
+
     return SESSION.get()
 
 
