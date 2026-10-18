@@ -86,8 +86,7 @@ def __get_session() -> Union[requests.Session, Any]:
     :return: Session
     """
     if not SESSION.get(None):
-        # Install requests-cache once (before creating the Session so the session
-        # gets the cached behavior). This avoids repeated re-initialization.
+        # Install requests-cache once before creating the session
         requests_cache.install_cache(
             cache_name="scryfall_cache",
             backend="sqlite",
