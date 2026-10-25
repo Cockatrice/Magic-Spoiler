@@ -102,9 +102,7 @@ def __get_session() -> Union[requests.Session, Any]:
         }
         session = requests.Session()
         session.headers = headers
-
         SESSION.set(session)
-
     return SESSION.get()
 
 
